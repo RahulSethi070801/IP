@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "460": "    /*\n",
+        "461": "     * Set up a RecordingListener to perform its built-in assertions, even though we won't look at\n",
+        "462": "     * its state history.\n",
+        "463": "     */\n",
+        "464": "    RecordingListener unused = RecordingListener.record(service);\n"
+    },
+    "removed": {
+        "460": "    RecordingListener.record(service);\n"
+    }
+}

@@ -1,0 +1,6 @@
+
+   * Returns the given string if it is non-null; the empty string otherwise.
+   *
+   * @param string the string to test and possibly return
+   * @return {@code string} itself if it is non-null; {@code ""} if it is null
+   

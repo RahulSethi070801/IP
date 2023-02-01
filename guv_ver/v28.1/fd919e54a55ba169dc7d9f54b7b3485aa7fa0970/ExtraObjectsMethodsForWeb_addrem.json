@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "19": "/** Holder for extra methods of {@code Objects} only in web. */\n"
+    },
+    "removed": {
+        "19": "/**\n",
+        "20": " * Holder for extra methods of {@code Objects} only in web.\n",
+        "21": " */\n"
+    }
+}

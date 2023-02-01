@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "113": "    Entry<Cut<K>, RangeMapEntry<K, V>> mapEntry =\n",
+        "146": "    Entry<Cut<K>, RangeMapEntry<K, V>> lowerEntry =\n",
+        "150": "    Entry<Cut<K>, RangeMapEntry<K, V>> higherEntry =\n",
+        "159": "      Range<K> range, V value, @Nullable Entry<Cut<K>, RangeMapEntry<K, V>> entry) {\n",
+        "170": "    for (Entry<Range<K>, V> entry : rangeMap.asMapOfRanges().entrySet()) {\n",
+        "205": "    Entry<Cut<K>, RangeMapEntry<K, V>> mapEntryBelowToTruncate =\n",
+        "228": "    Entry<Cut<K>, RangeMapEntry<K, V>> mapEntryAboveToTruncate =\n"
+    },
+    "removed": {
+        "113": "    Map.Entry<Cut<K>, RangeMapEntry<K, V>> mapEntry =\n",
+        "146": "    Map.Entry<Cut<K>, RangeMapEntry<K, V>> lowerEntry =\n",
+        "150": "    Map.Entry<Cut<K>, RangeMapEntry<K, V>> higherEntry =\n",
+        "159": "      Range<K> range, V value, @Nullable Map.Entry<Cut<K>, RangeMapEntry<K, V>> entry) {\n",
+        "170": "    for (Map.Entry<Range<K>, V> entry : rangeMap.asMapOfRanges().entrySet()) {\n",
+        "205": "    Map.Entry<Cut<K>, RangeMapEntry<K, V>> mapEntryBelowToTruncate =\n",
+        "228": "    Map.Entry<Cut<K>, RangeMapEntry<K, V>> mapEntryAboveToTruncate =\n"
+    }
+}

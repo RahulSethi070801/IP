@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "107": "   * Returns {@code element} cast to {@code E}, if it actually is a nonnull E. Otherwise, throws\n",
+        "108": "   * either a NullPointerException or a ClassCastException as appropriate.\n"
+    },
+    "removed": {
+        "107": "   * Returns {@code element} cast to {@code E}, if it actually is a nonnull E.\n",
+        "108": "   * Otherwise, throws either a NullPointerException or a ClassCastException as appropriate.\n"
+    }
+}

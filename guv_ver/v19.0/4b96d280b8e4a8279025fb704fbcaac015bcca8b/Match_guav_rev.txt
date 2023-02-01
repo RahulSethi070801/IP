@@ -1,0 +1,6 @@
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static ImmutableMap<K, V> toMap(Iterable<K> keys, Function<? super K, V> valueFunction)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static ImmutableMap<K, V> toMap(Iterator<K> keys, Function<? super K, V> valueFunction)
+

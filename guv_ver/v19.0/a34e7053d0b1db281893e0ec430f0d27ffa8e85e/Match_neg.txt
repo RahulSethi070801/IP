@@ -1,0 +1,6 @@
+abstract AtomicHelper tryCreateUnsafeAtomicHelper()
+void done()
+
+AtomicHelper tryCreateUnsafeAtomicHelper()
+void done()
+

@@ -1,0 +1,6 @@
+Set<N> predecessors()
+Set<E> edgesConnecting(Object node1, Object node2)
+
+public boolean equals(@Nullable Object other)
+Builder<N, E> addEdge(E e, N n1, N n2)
+

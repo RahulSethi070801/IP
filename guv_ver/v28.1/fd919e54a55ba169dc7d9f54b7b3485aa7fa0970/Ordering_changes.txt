@@ -1,0 +1,4 @@
+Ordering
+Insertions: [385, 386, 652, 653, 663, 664, 926, 927, 939, 940, 941]
+Deletions: [385, 386, 652, 653, 663, 664, 926, 927, 928, 940, 941, 942, 943]
+android/guava/src/com/google/common/collect/Ordering.java

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "49": "    int h2 = Objects.hashCode(new Integer(1), new String(\"two\"), new Double(3.0));\n"
+    },
+    "removed": {
+        "49": "    int h2 = Objects.hashCode(\n",
+        "50": "        new Integer(1), new String(\"two\"), new Double(3.0));\n"
+    }
+}

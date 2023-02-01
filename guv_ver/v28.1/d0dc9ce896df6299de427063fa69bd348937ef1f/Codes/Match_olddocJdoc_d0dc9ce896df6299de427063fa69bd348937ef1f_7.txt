@@ -1,0 +1,8 @@
+
+   * For the default {@link Network} implementations, returns true if {@code this == object}
+   * (reference equality). External implementations are free to define this method as they see fit,
+   * as long as they satisfy the {@link Object#equals(Object)} contract.
+   *
+   * <p>To compare two {@link Network}s based on their contents rather than their references, see
+   * {@link Graphs#equivalent(Network, Network)}.
+   

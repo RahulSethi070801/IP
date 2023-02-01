@@ -1,0 +1,4 @@
+protected boolean standardAdd(E element) {
+    add(element, 1);
+    return true;
+}

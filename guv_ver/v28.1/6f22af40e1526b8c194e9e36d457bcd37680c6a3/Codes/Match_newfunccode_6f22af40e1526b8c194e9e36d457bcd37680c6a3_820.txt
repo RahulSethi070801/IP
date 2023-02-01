@@ -1,0 +1,5 @@
+@Override
+public boolean containsValue(@NullableDecl Object value) {
+    assertTrue(Thread.holdsLock(mutex));
+    return delegate.containsValue(value);
+}

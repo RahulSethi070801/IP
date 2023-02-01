@@ -1,0 +1,5 @@
+
+   * Creates a {@link ReentrantReadWriteLock} with the given fairness policy.
+   * The {@code lockName} is used in the warning or exception output to help
+   * identify the locks involved in the detected deadlock.
+   

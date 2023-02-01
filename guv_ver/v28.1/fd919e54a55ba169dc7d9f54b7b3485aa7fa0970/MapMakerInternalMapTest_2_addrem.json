@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "33": "/** @author Charles Fry */\n",
+        "73": "    Equivalence<Object> testEquivalence =\n",
+        "74": "        new Equivalence<Object>() {\n",
+        "75": "          @Override\n",
+        "76": "          protected boolean doEquivalent(Object a, Object b) {\n",
+        "77": "            return false;\n",
+        "78": "          }\n",
+        "80": "          @Override\n",
+        "81": "          protected int doHash(Object t) {\n",
+        "82": "            return 0;\n",
+        "83": "          }\n",
+        "84": "        };\n",
+        "959": "    return ImmutableList.of(createMapMaker().weakKeys(), createMapMaker().weakKeys().weakValues());\n"
+    },
+    "removed": {
+        "33": "/**\n",
+        "34": " * @author Charles Fry\n",
+        "35": " */\n",
+        "75": "    Equivalence<Object> testEquivalence = new Equivalence<Object>() {\n",
+        "76": "      @Override\n",
+        "77": "      protected boolean doEquivalent(Object a, Object b) {\n",
+        "78": "        return false;\n",
+        "79": "      }\n",
+        "81": "      @Override\n",
+        "82": "      protected int doHash(Object t) {\n",
+        "83": "        return 0;\n",
+        "84": "      }\n",
+        "85": "    };\n",
+        "960": "    return ImmutableList.of(\n",
+        "961": "        createMapMaker().weakKeys(),\n",
+        "962": "        createMapMaker().weakKeys().weakValues());\n"
+    }
+}

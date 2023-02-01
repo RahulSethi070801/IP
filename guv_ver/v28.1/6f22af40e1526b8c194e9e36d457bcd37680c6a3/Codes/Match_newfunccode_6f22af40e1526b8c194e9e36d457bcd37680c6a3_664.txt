@@ -1,0 +1,3 @@
+public static boolean equal(@NullableDecl Object a, @NullableDecl Object b) {
+    return a == b || (a != null && a.equals(b));
+}

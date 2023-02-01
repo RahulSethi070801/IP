@@ -1,0 +1,125 @@
+com.google.common.graph.Graph
+hashCode
+int hashCode()
+empty
+int
+com.google.common.graph.ImmutableDirectedGraph
+ImmutableDirectedGraph
+private ImmutableDirectedGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.IncidenceSetUndirectedGraph
+IncidenceSetUndirectedGraph
+IncidenceSetUndirectedGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.AbstractGraph
+inDegree
+public long inDegree(Object node)
+Object
+long
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Graph<?, ?> graph1, @Nullable Graph<?, ?> graph2)
+Graph,Graph
+boolean
+com.google.common.graph.IncidenceSetDirectedGraph
+IncidenceSetDirectedGraph
+IncidenceSetDirectedGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.Graphs
+nodeToIncidentEdges
+private static Map<N, Set<E>> nodeToIncidentEdges(final Graph<N, E> graph)
+Graph
+Map
+com.google.common.graph.AbstractGraph
+toString
+public String toString()
+empty
+String
+com.google.common.graph.Graphs
+apply
+public String apply(Object edge)
+Object
+String
+com.google.common.graph.AbstractGraph
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.ImmutableUndirectedGraph
+ImmutableUndirectedGraph
+private ImmutableUndirectedGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.AbstractGraph
+config
+public GraphConfig config()
+empty
+GraphConfig
+com.google.common.graph.AbstractGraph
+AbstractGraph
+protected AbstractGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.AbstractImmutableGraph
+AbstractImmutableGraph
+AbstractImmutableGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable DirectedGraph<?, ?> graph1, @Nullable DirectedGraph<?, ?> graph2)
+DirectedGraph,DirectedGraph
+boolean
+com.google.common.graph.IncidenceSetDirectedGraph
+equals
+public boolean equals(@Nullable Object other)
+Object
+boolean
+com.google.common.graph.Graphs
+toString
+public static String toString(Graph<?, ?> graph)
+Graph
+String
+com.google.common.graph.Graphs
+edgeToIncidentNodesString
+private static Function<Object, String> edgeToIncidentNodesString(final Graph<?, ?> graph)
+Graph
+Function
+com.google.common.graph.Graphs
+toString
+public static String toString(final DirectedGraph<?, ?> graph)
+DirectedGraph
+String
+com.google.common.graph.Graphs
+toString
+public static String toString(final Graph<?, ?> graph)
+Graph
+String
+com.google.common.graph.AbstractGraph
+outDegree
+public long outDegree(Object node)
+Object
+long
+com.google.common.graph.AbstractGraph
+degree
+public long degree(Object node)
+Object
+long
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Graph<?, ?> graph)
+Graph
+int
+com.google.common.graph.AbstractGraph
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.Graphs
+apply
+public Set<E> apply(N node)
+N
+Set

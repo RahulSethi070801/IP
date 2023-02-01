@@ -1,0 +1,2 @@
+@NullableDecl
+ReferenceEntry<K, V> getEntry();

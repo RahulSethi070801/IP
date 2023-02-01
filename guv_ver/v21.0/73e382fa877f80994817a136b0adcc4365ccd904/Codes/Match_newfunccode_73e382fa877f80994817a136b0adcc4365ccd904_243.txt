@@ -1,0 +1,6 @@
+@CanIgnoreReturnValue
+@Override
+Builder<E> combine(ArrayBasedBuilder<E> builder) {
+    super.combine(builder);
+    return this;
+}

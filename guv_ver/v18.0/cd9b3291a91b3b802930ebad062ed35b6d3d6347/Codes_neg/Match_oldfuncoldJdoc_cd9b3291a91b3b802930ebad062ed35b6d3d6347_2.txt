@@ -1,0 +1,4 @@
+
+   * Returns a range that contains all values strictly less than {@code
+   * endpoint}.
+   

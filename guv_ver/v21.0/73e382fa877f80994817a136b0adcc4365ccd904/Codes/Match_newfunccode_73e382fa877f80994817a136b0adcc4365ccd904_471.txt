@@ -1,0 +1,5 @@
+@Deprecated
+@Override
+public final V replace(K key, V value) {
+    throw new UnsupportedOperationException();
+}

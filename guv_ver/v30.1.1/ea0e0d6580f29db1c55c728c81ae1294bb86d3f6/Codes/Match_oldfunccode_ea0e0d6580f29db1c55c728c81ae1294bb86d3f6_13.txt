@@ -1,0 +1,4 @@
+@Override
+protected boolean standardRemove(Object element) {
+    return remove(element, 1) > 0;
+}

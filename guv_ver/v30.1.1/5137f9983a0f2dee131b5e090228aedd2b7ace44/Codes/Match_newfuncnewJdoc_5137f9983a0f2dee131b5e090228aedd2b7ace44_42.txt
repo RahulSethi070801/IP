@@ -1,0 +1,12 @@
+
+   * Process the bytes of a file.
+   *
+   * <p>(If this seems too complicated, maybe you're looking for {@link #toByteArray}.)
+   *
+   * @param file the file to read
+   * @param processor the object to which the bytes of the file are passed.
+   * @return the result of the byte processor
+   * @throws IOException if an I/O error occurs
+   * @deprecated Prefer {@code asByteSource(file).read(processor)}. This method is scheduled to be
+   *     removed in October 2019.
+   

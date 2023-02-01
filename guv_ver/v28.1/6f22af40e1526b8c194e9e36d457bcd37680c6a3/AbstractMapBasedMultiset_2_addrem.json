@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "36": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "207": "  public int count(@NullableDecl Object element) {\n",
+        "222": "  public int add(@NullableDecl E element, int occurrences) {\n",
+        "244": "  public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "272": "  public int setCount(@NullableDecl E element, int count) {\n",
+        "293": "  private static int getAndSet(@NullableDecl Count i, int count) {\n"
+    },
+    "removed": {
+        "36": "import javax.annotation.Nullable;\n",
+        "207": "  public int count(@Nullable Object element) {\n",
+        "222": "  public int add(@Nullable E element, int occurrences) {\n",
+        "244": "  public int remove(@Nullable Object element, int occurrences) {\n",
+        "272": "  public int setCount(@Nullable E element, int count) {\n",
+        "293": "  private static int getAndSet(@Nullable Count i, int count) {\n"
+    }
+}

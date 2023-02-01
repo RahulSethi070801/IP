@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "30": " * {@link Multiset#entrySet()}, as do many methods acting on the set returned by {@link\n",
+        "31": " * #elementSet()}. Override those methods for better performance.\n"
+    },
+    "removed": {
+        "30": " * {@link Multiset#entrySet()}, as do many methods acting on the set returned by\n",
+        "31": " * {@link #elementSet()}. Override those methods for better performance.\n"
+    }
+}

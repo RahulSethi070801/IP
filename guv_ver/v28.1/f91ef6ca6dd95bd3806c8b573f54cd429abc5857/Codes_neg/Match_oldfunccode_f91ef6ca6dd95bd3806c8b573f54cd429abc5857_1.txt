@@ -1,0 +1,4 @@
+@Override
+UnmodifiableIterator<T> preOrderIterator(T root) {
+    return new PreOrderIterator(root);
+}

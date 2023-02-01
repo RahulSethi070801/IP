@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "56": "  public static <R, C, V> ImmutableTable<R, C, V> of() {\n",
+        "61": "  public static <R, C, V> ImmutableTable<R, C, V> of(R rowKey,\n",
+        "80": "  public static <R, C, V> ImmutableTable<R, C, V> copyOf(\n",
+        "118": "  public static <R, C, V> Builder<R, C, V> builder() {\n"
+    },
+    "removed": {
+        "56": "  public static final <R, C, V> ImmutableTable<R, C, V> of() {\n",
+        "61": "  public static final <R, C, V> ImmutableTable<R, C, V> of(R rowKey,\n",
+        "80": "  public static final <R, C, V> ImmutableTable<R, C, V> copyOf(\n",
+        "118": "  public static final <R, C, V> Builder<R, C, V> builder() {\n"
+    }
+}

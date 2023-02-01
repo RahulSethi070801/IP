@@ -1,0 +1,4 @@
+private static boolean matchesWildcardSuffixType(Optional<PublicSuffixType> desiredType, String domain) {
+    final String[] pieces = domain.split(DOT_REGEX, 2);
+    return pieces.length == 2 && matchesType(desiredType, Optional.fromNullable(PublicSuffixPatterns.UNDER.get(pieces[1])));
+}

@@ -1,0 +1,8 @@
+private static <T, E> Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction) {
+    checkNotNull(elementFunction);
+    checkNotNull(countFunction);
+    return Collector.of(LinkedHashMultiset::create, (multiset, t) -> multiset.add(elementFunction.apply(t), countFunction.applyAsInt(t)), (multiset1, multiset2) -> {
+        multiset1.addAll(multiset2);
+        return multiset1;
+    }, (Multiset<E> multiset) -> copyFromEntries(multiset.entrySet()));
+}

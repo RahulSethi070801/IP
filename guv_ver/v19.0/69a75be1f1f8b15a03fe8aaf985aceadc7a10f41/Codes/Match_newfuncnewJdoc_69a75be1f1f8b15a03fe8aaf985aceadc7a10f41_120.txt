@@ -1,0 +1,13 @@
+
+   * Assigns a thread to the given {@link Future} to provide {@link ListenableFuture} functionality.
+   *
+   * <p><b>Warning:</b> If the input future does not already implement {@code ListenableFuture}, the
+   * returned future will emulate {@link ListenableFuture#addListener} by taking a thread from an
+   * internal, unbounded pool at the first call to {@code addListener} and holding it until the
+   * future is {@linkplain Future#isDone() done}.
+   *
+   * <p>Prefer to create {@code ListenableFuture} instances with {@link SettableFuture}, {@link
+   * MoreExecutors#listeningDecorator( java.util.concurrent.ExecutorService)}, {@link
+   * ListenableFutureTask}, {@link AbstractFuture}, and other utilities over creating plain {@code
+   * Future} instances to be upgraded to {@code ListenableFuture} after the fact.
+   

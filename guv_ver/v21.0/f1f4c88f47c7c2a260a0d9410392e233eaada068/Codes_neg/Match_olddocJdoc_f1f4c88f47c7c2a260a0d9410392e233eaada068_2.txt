@@ -1,0 +1,3 @@
+
+   * Returns the node that is opposite {@link #nodeA()}. In the directed case, this is the target.
+   

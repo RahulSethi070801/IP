@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "27": "/** @author Colin Decker */\n"
+    },
+    "removed": {
+        "27": "/**\n",
+        "28": " * @author Colin Decker\n",
+        "29": " */\n"
+    }
+}

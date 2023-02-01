@@ -1,0 +1,3 @@
+E copyForTesting(InternalEntry<K, V, ?> entry, @NullableDecl InternalEntry<K, V, ?> newNext) {
+    return this.map.entryHelper.copy(self(), castForTesting(entry), castForTesting(newNext));
+}

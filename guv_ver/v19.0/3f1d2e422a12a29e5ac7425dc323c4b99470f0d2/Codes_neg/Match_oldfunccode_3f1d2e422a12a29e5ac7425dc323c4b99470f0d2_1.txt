@@ -1,0 +1,15 @@
+public static void skipFully(InputStream in, long n) throws IOException {
+    long toSkip = n;
+    while (n > 0) {
+        long amt = in.skip(n);
+        if (amt == 0) {
+            if (in.read() == -1) {
+                long skipped = toSkip - n;
+                throw new EOFException("reached end of stream after skipping " + skipped + " bytes; " + toSkip + " bytes expected");
+            }
+            n--;
+        } else {
+            n -= amt;
+        }
+    }
+}

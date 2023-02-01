@@ -1,0 +1,4 @@
+RegularImmutableTable
+Insertions: [26, 57, 99, 100, 137, 138]
+Deletions: [26, 57, 99, 100, 137, 138]
+guava/src/com/google/common/collect/RegularImmutableTable.java

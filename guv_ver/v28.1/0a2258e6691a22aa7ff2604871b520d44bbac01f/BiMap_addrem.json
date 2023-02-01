@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "49": "  @Nullable\n",
+        "50": "  V put(@Nullable K key, @Nullable V value);\n",
+        "69": "  @Nullable\n",
+        "70": "  V forcePut(@Nullable K key, @Nullable V value);\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "49": "  @NullableDecl\n",
+        "50": "  V put(@NullableDecl K key, @NullableDecl V value);\n",
+        "69": "  @NullableDecl\n",
+        "70": "  V forcePut(@NullableDecl K key, @NullableDecl V value);\n"
+    }
+}

@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@CheckForNull
+public E pollLast() {
+    return isEmpty() ? null : removeAndGet(getMaxElementIndex());
+}

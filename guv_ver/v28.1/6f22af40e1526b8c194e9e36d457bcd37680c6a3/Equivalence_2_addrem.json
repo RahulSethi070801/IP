@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "58": "  public final boolean equivalent(@NullableDecl T a, @NullableDecl T b) {\n",
+        "75": "  public final boolean test(@NullableDecl T t, @NullableDecl T u) {\n",
+        "108": "  public final int hash(@NullableDecl T t) {\n",
+        "161": "  public final <S extends T> Wrapper<S> wrap(@NullableDecl S reference) {\n",
+        "187": "    @NullableDecl private final T reference;\n",
+        "189": "    private Wrapper(Equivalence<? super T> equivalence, @NullableDecl T reference) {\n",
+        "195": "    @NullableDecl\n",
+        "206": "    public boolean equals(@NullableDecl Object obj) {\n",
+        "268": "  public final Predicate<T> equivalentTo(@NullableDecl T target) {\n",
+        "275": "    @NullableDecl private final T target;\n",
+        "277": "    EquivalentToPredicate(Equivalence<T> equivalence, @NullableDecl T target) {\n",
+        "283": "    public boolean apply(@NullableDecl T input) {\n",
+        "288": "    public boolean equals(@NullableDecl Object obj) {\n"
+    },
+    "removed": {
+        "23": "import javax.annotation.Nullable;\n",
+        "58": "  public final boolean equivalent(@Nullable T a, @Nullable T b) {\n",
+        "75": "  public final boolean test(@Nullable T t, @Nullable T u) {\n",
+        "108": "  public final int hash(@Nullable T t) {\n",
+        "161": "  public final <S extends T> Wrapper<S> wrap(@Nullable S reference) {\n",
+        "187": "    @Nullable private final T reference;\n",
+        "189": "    private Wrapper(Equivalence<? super T> equivalence, @Nullable T reference) {\n",
+        "195": "    @Nullable\n",
+        "206": "    public boolean equals(@Nullable Object obj) {\n",
+        "268": "  public final Predicate<T> equivalentTo(@Nullable T target) {\n",
+        "275": "    @Nullable private final T target;\n",
+        "277": "    EquivalentToPredicate(Equivalence<T> equivalence, @Nullable T target) {\n",
+        "283": "    public boolean apply(@Nullable T input) {\n",
+        "288": "    public boolean equals(@Nullable Object obj) {\n"
+    }
+}

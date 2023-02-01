@@ -1,0 +1,3 @@
+private boolean canAcquire(long nowMicros, long timeoutMicros) {
+    return earliestAvailable(nowMicros) - timeoutMicros <= nowMicros;
+}

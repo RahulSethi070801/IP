@@ -1,0 +1,4 @@
+Collections2
+Insertions: [40, 100, 113, 156, 497, 512, 608]
+Deletions: [40, 100, 113, 156, 497, 512, 608]
+guava/src/com/google/common/collect/Collections2.java

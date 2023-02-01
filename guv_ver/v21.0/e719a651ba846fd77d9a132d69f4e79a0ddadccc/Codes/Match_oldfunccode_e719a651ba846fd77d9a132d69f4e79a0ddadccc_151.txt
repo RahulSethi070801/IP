@@ -1,0 +1,8 @@
+@Override
+public int skipBytes(int n) {
+    try {
+        return input.skipBytes(n);
+    } catch (IOException e) {
+        throw new IllegalStateException(e);
+    }
+}

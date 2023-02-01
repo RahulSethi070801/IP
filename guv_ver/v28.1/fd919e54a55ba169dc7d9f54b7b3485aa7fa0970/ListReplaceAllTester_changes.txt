@@ -1,0 +1,4 @@
+ListReplaceAllTester
+Insertions: [29]
+Deletions: [29, 30]
+guava-testlib/src/com/google/common/collect/testing/testers/ListReplaceAllTester.java

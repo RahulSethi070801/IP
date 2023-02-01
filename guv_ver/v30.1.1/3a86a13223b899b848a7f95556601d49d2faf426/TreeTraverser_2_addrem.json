@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "29": "import javax.annotation.CheckForNull;\n",
+        "78": "@ElementTypesAreNonnullByDefault\n",
+        "227": "    @CheckForNull\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,2 @@
+@NullableDecl
+V getIfPresent(@CompatibleWith("K") Object key);

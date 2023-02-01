@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "31": "import java.util.function.BiFunction;\n",
+        "123": "    @Override\n",
+        "124": "    public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function) {\n",
+        "125": "      assertTrue(Thread.holdsLock(mutex));\n",
+        "126": "      delegate.replaceAll(function);\n",
+        "127": "    }\n",
+        "128": "\n"
+    },
+    "removed": {}
+}

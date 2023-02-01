@@ -1,0 +1,45 @@
+com.google.common.graph.ConfigurableMutableNetwork
+addEdge
+public boolean addEdge(E edge, N nodeA, N nodeB)
+E,N,N
+boolean
+com.google.common.graph.Graphs
+containsEndpoints
+private static boolean containsEndpoints(Graph<?> graph, Endpoints<?> endpoints)
+Graph,Endpoints
+boolean
+com.google.common.graph.Graphs
+copyOf
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+Network
+MutableNetwork
+com.google.common.graph.Endpoints$Directed
+isDirected
+public boolean isDirected()
+empty
+boolean
+com.google.common.graph.AbstractConfigurableNetwork
+incidentNodes
+public Endpoints<N> incidentNodes(Object edge)
+Object
+Endpoints
+com.google.common.graph.Endpoints
+of
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+Graph,N,N
+Endpoints
+com.google.common.graph.Endpoints
+of
+static Endpoints<N> of(N nodeA, N nodeB, boolean isDirected)
+N,N,boolean
+Endpoints
+com.google.common.graph.Graphs
+addEdge
+public static boolean addEdge(MutableNetwork<N, E> graph, E edge, Endpoints<N> endpoints)
+MutableNetwork,E,Endpoints
+boolean
+com.google.common.graph.Endpoints
+isDirected
+public abstract boolean isDirected()
+empty
+boolean

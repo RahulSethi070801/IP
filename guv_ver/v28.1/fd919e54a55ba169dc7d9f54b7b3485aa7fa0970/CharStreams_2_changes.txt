@@ -1,0 +1,4 @@
+CharStreams_2
+Insertions: [37, 38, 39, 53, 189, 190, 231, 232]
+Deletions: [37, 38, 39, 53, 54, 55, 191, 192, 233, 234]
+guava/src/com/google/common/io/CharStreams.java

@@ -1,0 +1,3 @@
+public static Traverser<File> fileTraverser() {
+    return Traverser.forTree(FILE_TREE);
+}

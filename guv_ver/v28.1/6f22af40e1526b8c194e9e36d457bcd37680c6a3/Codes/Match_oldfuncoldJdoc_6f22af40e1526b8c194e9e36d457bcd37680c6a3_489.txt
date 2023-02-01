@@ -1,0 +1,8 @@
+
+   * Advances {@code iterator} to the end, returning the last element or {@code defaultValue} if the
+   * iterator is empty.
+   *
+   * @param defaultValue the default value to return if the iterator is empty
+   * @return the last element of {@code iterator}
+   * @since 3.0
+   

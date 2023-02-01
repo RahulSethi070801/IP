@@ -1,0 +1,7 @@
+@CanIgnoreReturnValue
+public static <T> boolean removeIf(Iterable<T> removeFrom, Predicate<? super T> predicate) {
+    if (removeFrom instanceof RandomAccess && removeFrom instanceof List) {
+        return removeIfFromRandomAccessList((List<T>) removeFrom, checkNotNull(predicate));
+    }
+    return Iterators.removeIf(removeFrom.iterator(), predicate);
+}

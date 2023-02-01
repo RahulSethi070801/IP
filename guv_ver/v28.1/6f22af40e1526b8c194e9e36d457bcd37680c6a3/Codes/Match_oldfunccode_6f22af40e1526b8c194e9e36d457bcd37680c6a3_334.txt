@@ -1,0 +1,34 @@
+@Nullable
+LoadingValueReference<K, V> insertLoadingValueReference(final K key, final int hash, boolean checkTime) {
+    ReferenceEntry<K, V> e = null;
+    lock();
+    try {
+        long now = map.ticker.read();
+        preWriteCleanup(now);
+        AtomicReferenceArray<ReferenceEntry<K, V>> table = this.table;
+        int index = hash & (table.length() - 1);
+        ReferenceEntry<K, V> first = table.get(index);
+        for (e = first; e != null; e = e.getNext()) {
+            K entryKey = e.getKey();
+            if (e.getHash() == hash && entryKey != null && map.keyEquivalence.equivalent(key, entryKey)) {
+                ValueReference<K, V> valueReference = e.getValueReference();
+                if (valueReference.isLoading() || (checkTime && (now - e.getWriteTime() < map.refreshNanos))) {
+                    return null;
+                }
+                ++modCount;
+                LoadingValueReference<K, V> loadingValueReference = new LoadingValueReference<>(valueReference);
+                e.setValueReference(loadingValueReference);
+                return loadingValueReference;
+            }
+        }
+        ++modCount;
+        LoadingValueReference<K, V> loadingValueReference = new LoadingValueReference<>();
+        e = newEntry(key, hash, first);
+        e.setValueReference(loadingValueReference);
+        table.set(index, e);
+        return loadingValueReference;
+    } finally {
+        unlock();
+        postWriteCleanup();
+    }
+}

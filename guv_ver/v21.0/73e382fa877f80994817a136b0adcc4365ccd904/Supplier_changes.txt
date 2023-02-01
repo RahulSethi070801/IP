@@ -1,0 +1,4 @@
+Supplier
+Insertions: [21, 22, 23, 27, 28, 29, 30, 32, 33, 34, 40, 41]
+Deletions: [21, 22, 23, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 47]
+guava/src/com/google/common/base/Supplier.java

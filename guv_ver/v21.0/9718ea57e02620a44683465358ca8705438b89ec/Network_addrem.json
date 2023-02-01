@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "373": "   * of a map from each of its {@link #edges() edges} to their {@link #incidentNodes(Object)\n",
+        "374": "   * incident nodes}.\n"
+    },
+    "removed": {
+        "373": "   * of a map from each of its {@link #nodes() nodes} to {@link #outEdges(Object) outgoing edges}.\n"
+    }
+}

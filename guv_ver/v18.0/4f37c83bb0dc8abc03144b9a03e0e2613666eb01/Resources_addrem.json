@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "57": "   * @deprecated Use {@link #asByteSource(URL)} instead. This method is\n",
+        "58": "   *     scheduled for removal in Guava 18.0.\n",
+        "60": "  @Deprecated\n",
+        "104": "   * @deprecated Use {@link #asCharSource(URL, Charset)} instead. This method\n",
+        "105": "   *     is scheduled for removal in Guava 18.0.\n",
+        "107": "  @Deprecated\n",
+        "114": "   * Returns a {@link CharSource} that reads from the given URL using the given\n",
+        "115": "   * character set.\n"
+    },
+    "removed": {
+        "108": "   * Returns a {@link CharSource} that reads from the given URL using the given character set.\n"
+    }
+}

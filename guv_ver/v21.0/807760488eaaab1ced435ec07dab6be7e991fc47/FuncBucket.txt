@@ -1,0 +1,560 @@
+com.google.common.graph.ConfigurableGraph
+newNodeConnections
+private NodeConnections<N, E> newNodeConnections()
+empty
+NodeConnections
+com.google.common.graph.IncidenceSetUndirectedGraph
+IncidenceSetUndirectedGraph
+IncidenceSetUndirectedGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Graph<?, ?> graph1, @Nullable Graph<?, ?> graph2)
+Graph,Graph
+boolean
+com.google.common.graph.GraphBuilder
+allowsParallelEdges
+public GraphBuilder<N, E> allowsParallelEdges(boolean allowsParallelEdges)
+boolean
+GraphBuilder
+com.google.common.graph.ImmutableGraph
+getNodeConnections
+private static Map<N, NodeConnections<N, E>> getNodeConnections(Graph<N, E> graph)
+Graph
+Map
+com.google.common.graph.GraphProperties
+roots
+public static ImmutableSet<N> roots(Graph<N, ?> graph)
+Graph
+ImmutableSet
+com.google.common.graph.AbstractImmutableGraph
+addNode
+public final boolean addNode(N node)
+N
+boolean
+com.google.common.graph.AbstractImmutableGraph
+AbstractImmutableGraph
+AbstractImmutableGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.ImmutableGraph
+ImmutableGraph
+private ImmutableGraph(Graph<N, E> graph)
+Graph
+constructor
+com.google.common.graph.ImmutableUndirectedGraph$Builder
+build
+public ImmutableUndirectedGraph<N, E> build()
+empty
+ImmutableUndirectedGraph
+com.google.common.graph.Graphs
+mergeNodesFrom
+public static void mergeNodesFrom(Graph<N, E> original, Graph<N, E> copy, Predicate<? super N> nodePredicate)
+Graph,Graph,Predicate
+void
+com.google.common.graph.Graphs
+copyOf
+public static DirectedGraph<N, E> copyOf(DirectedGraph<N, E> graph)
+DirectedGraph
+DirectedGraph
+com.google.common.graph.Graphs
+copyOf
+public static UndirectedGraph<N, E> copyOf(UndirectedGraph<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+UndirectedGraph,Predicate,Predicate
+UndirectedGraph
+com.google.common.graph.GraphProperties
+roots
+public static ImmutableSet<N> roots(DirectedGraph<N, ?> directedGraph)
+DirectedGraph
+ImmutableSet
+com.google.common.graph.GraphConfig
+multigraph
+public GraphConfig multigraph()
+empty
+GraphConfig
+com.google.common.graph.ImmutableDirectedGraph$Builder
+Builder
+public Builder(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.Graphs
+parallelEdges
+public static Set<E> parallelEdges(Graph<N, E> graph, Object edge)
+Graph,Object
+Set
+com.google.common.graph.Graphs
+copyOf
+public static Graph<N, E> copyOf(Graph<N, E> graph)
+Graph
+Graph
+com.google.common.graph.Graphs
+mergeEdgesFrom
+public static void mergeEdgesFrom(DirectedGraph<N, E> original, DirectedGraph<N, E> copy, Predicate<? super E> edgePredicate)
+DirectedGraph,DirectedGraph,Predicate
+void
+com.google.common.graph.GraphBuilder
+from
+public static GraphBuilder<N, E> from(Graph<N, E> graph)
+Graph
+GraphBuilder
+com.google.common.graph.ImmutableDirectedGraph
+builder
+public static Builder<N, E> builder()
+empty
+Builder
+com.google.common.graph.AbstractImmutableGraph$Builder
+Builder
+Builder(Graph<N, E> graph)
+Graph
+constructor
+com.google.common.graph.Graphs
+createUndirected
+public static UndirectedGraph<N, E> createUndirected(GraphConfig config)
+GraphConfig
+UndirectedGraph
+com.google.common.graph.ImmutableDirectedGraph$Builder
+addEdge
+public Builder<N, E> addEdge(E edge, N node1, N node2)
+E,N,N
+Builder
+com.google.common.graph.GraphBuilder
+allowsSelfLoops
+public GraphBuilder<N, E> allowsSelfLoops(boolean allowsSelfLoops)
+boolean
+GraphBuilder
+com.google.common.graph.ImmutableUndirectedGraph
+copyOf
+public static ImmutableUndirectedGraph<N, E> copyOf(UndirectedGraph<N, E> graph)
+UndirectedGraph
+ImmutableUndirectedGraph
+com.google.common.graph.ImmutableGraph
+nodeConnectionsOf
+private static NodeConnections<N, E> nodeConnectionsOf(Graph<N, E> graph, N node)
+Graph,N
+NodeConnections
+com.google.common.graph.GraphConfig
+compatibleWith
+public boolean compatibleWith(GraphConfig that)
+GraphConfig
+boolean
+com.google.common.graph.AbstractImmutableGraph
+removeNode
+public final boolean removeNode(Object node)
+Object
+boolean
+com.google.common.graph.GraphBuilder
+GraphBuilder
+private GraphBuilder()
+empty
+constructor
+com.google.common.graph.ImmutableDirectedGraph
+ImmutableDirectedGraph
+private ImmutableDirectedGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.GraphConfig
+isSelfLoopsAllowed
+public boolean isSelfLoopsAllowed()
+empty
+boolean
+com.google.common.graph.AbstractImmutableGraph$Builder
+getEdgeToIncidentNodes
+private ImmutableMap<E, IncidentNodes<N>> getEdgeToIncidentNodes()
+empty
+ImmutableMap
+com.google.common.graph.IncidenceSetDirectedGraph
+IncidenceSetDirectedGraph
+IncidenceSetDirectedGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.Graphs
+mergeEdgesFrom
+public static void mergeEdgesFrom(Graph<N, E> original, Graph<N, E> copy, Predicate<? super E> edgePredicate)
+Graph,Graph,Predicate
+void
+com.google.common.graph.Graph
+config
+GraphConfig config()
+empty
+GraphConfig
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N, E> copyOf(ImmutableGraph<N, E> graph)
+ImmutableGraph
+ImmutableGraph
+com.google.common.graph.GraphConfig
+expectedEdgeCount
+public GraphConfig expectedEdgeCount(int expectedEdgeCount)
+int
+GraphConfig
+com.google.common.graph.ImmutableDirectedGraph
+builder
+public static Builder<N, E> builder(GraphConfig config)
+GraphConfig
+Builder
+com.google.common.graph.GraphBuilder
+expectedNodeCount
+public GraphBuilder<N, E> expectedNodeCount(int expectedNodeCount)
+int
+GraphBuilder
+com.google.common.graph.Graphs
+mergeNodesFrom
+public static void mergeNodesFrom(Graph<N, E> original, Graph<N, E> copy)
+Graph,Graph
+void
+com.google.common.graph.GraphConfig
+toString
+public String toString()
+empty
+String
+com.google.common.graph.GraphConfig
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.AbstractGraph
+AbstractGraph
+protected AbstractGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.Graph
+allowsSelfLoops
+boolean allowsSelfLoops()
+empty
+boolean
+com.google.common.graph.Graphs
+copyOf
+public static UndirectedGraph<N, E> copyOf(UndirectedGraph<N, E> graph)
+UndirectedGraph
+UndirectedGraph
+com.google.common.graph.DirectedGraph
+edgesConnecting
+Set<E> edgesConnecting(Object source, Object target)
+Object,Object
+Set
+com.google.common.graph.Graphs
+toString
+public static String toString(Graph<?, ?> graph)
+Graph
+String
+com.google.common.graph.GraphConfig
+getExpectedEdgeCount
+public Optional<Integer> getExpectedEdgeCount()
+empty
+Optional
+com.google.common.graph.ConfigurableGraph
+checkedIncidentNodes
+private IncidentNodes<N> checkedIncidentNodes(Object edge)
+Object
+IncidentNodes
+com.google.common.graph.GraphConfig
+GraphConfig
+GraphConfig()
+empty
+constructor
+com.google.common.graph.GraphProperties
+isSubgraphCyclic
+private static boolean isSubgraphCyclic(Graph<?, ?> graph, Map<Object, NodeVisitState> nodeToVisitState, Object node)
+Graph,Map,Object
+boolean
+com.google.common.graph.ConfigurableGraph
+isDirected
+public boolean isDirected()
+empty
+boolean
+com.google.common.graph.AbstractImmutableGraph
+newNodeConnections
+final NodeConnections<N, E> newNodeConnections()
+empty
+NodeConnections
+com.google.common.graph.DirectedGraph
+incidentNodes
+Set<N> incidentNodes(Object edge)
+Object
+Set
+com.google.common.graph.GraphConfig
+isMultigraph
+public boolean isMultigraph()
+empty
+boolean
+com.google.common.graph.ImmutableDirectedGraph
+copyOf
+public static ImmutableDirectedGraph<N, E> copyOf(DirectedGraph<N, E> graph)
+DirectedGraph
+ImmutableDirectedGraph
+com.google.common.graph.GraphBuilder
+directed
+private GraphBuilder<N, E> directed(boolean directed)
+boolean
+GraphBuilder
+com.google.common.graph.IncidenceSetDirectedGraph
+newNodeConnections
+NodeConnections<N, E> newNodeConnections()
+empty
+NodeConnections
+com.google.common.graph.GraphConfig
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.ImmutableDirectedGraph$Builder
+Builder
+public Builder()
+empty
+constructor
+com.google.common.graph.ImmutableDirectedGraph$Builder
+addGraph
+public Builder<N, E> addGraph(Graph<N, E> graphToAdd)
+Graph
+Builder
+com.google.common.graph.GraphBuilder
+expectedEdgeCount
+public GraphBuilder<N, E> expectedEdgeCount(int expectedEdgeCount)
+int
+GraphBuilder
+com.google.common.graph.ImmutableDirectedGraph
+source
+public N source(Object edge)
+Object
+N
+com.google.common.graph.DirectedGraph
+addEdge
+boolean addEdge(E edge, N source, N target)
+E,N,N
+boolean
+com.google.common.graph.ImmutableUndirectedGraph$Builder
+Builder
+private Builder(UndirectedGraph<N, E> graph)
+UndirectedGraph
+constructor
+com.google.common.graph.Graphs
+createDirected
+public static DirectedGraph<N, E> createDirected()
+empty
+DirectedGraph
+com.google.common.graph.ImmutableDirectedGraph$Builder
+build
+public ImmutableDirectedGraph<N, E> build()
+empty
+ImmutableDirectedGraph
+com.google.common.graph.Graphs
+mergeEdgesFrom
+public static void mergeEdgesFrom(DirectedGraph<N, E> original, DirectedGraph<N, E> copy)
+DirectedGraph,DirectedGraph
+void
+com.google.common.graph.GraphProperties
+isCyclic
+public static boolean isCyclic(Graph<?, ?> graph)
+Graph
+boolean
+com.google.common.graph.Graphs
+mergeEdgesFrom
+public static void mergeEdgesFrom(Graph<N, E> original, Graph<N, E> copy)
+Graph,Graph
+void
+com.google.common.graph.AbstractGraph
+config
+public GraphConfig config()
+empty
+GraphConfig
+com.google.common.graph.ConfigurableGraph
+allowsParallelEdges
+public boolean allowsParallelEdges()
+empty
+boolean
+com.google.common.graph.ImmutableDirectedGraph$Builder
+nodeConnectionsOf
+NodeConnections<N, E> nodeConnectionsOf(N node)
+N
+NodeConnections
+com.google.common.graph.AbstractImmutableGraph$Builder
+build
+public abstract AbstractImmutableGraph<N, E> build()
+empty
+AbstractImmutableGraph
+com.google.common.graph.Graphs
+edgeToIncidentNodesString
+private static Function<Object, String> edgeToIncidentNodesString(final Graph<?, ?> graph)
+Graph
+Function
+com.google.common.graph.GraphBuilder
+build
+public Graph<N1, E1> build()
+empty
+Graph
+com.google.common.graph.ImmutableDirectedGraph
+target
+public N target(Object edge)
+Object
+N
+com.google.common.graph.GraphConfig
+expectedNodeCount
+public GraphConfig expectedNodeCount(int expectedNodeCount)
+int
+GraphConfig
+com.google.common.graph.Graphs
+getPropertiesString
+static String getPropertiesString(Graph<?, ?> graph)
+Graph
+String
+com.google.common.graph.GraphBuilder
+undirected
+public static GraphBuilder<Object, Object> undirected()
+empty
+GraphBuilder
+com.google.common.graph.Hypergraph
+source
+N source(Object edge)
+Object
+N
+com.google.common.graph.GraphProperties
+isCyclic
+public static boolean isCyclic(DirectedGraph<?, ?> graph)
+DirectedGraph
+boolean
+com.google.common.graph.GraphConfig
+noSelfLoops
+public GraphConfig noSelfLoops()
+empty
+GraphConfig
+com.google.common.graph.Graphs
+config
+public static GraphConfig config()
+empty
+GraphConfig
+com.google.common.graph.ImmutableDirectedGraph$Builder
+addNode
+public Builder<N, E> addNode(N node)
+N
+Builder
+com.google.common.graph.AbstractImmutableGraph
+addEdge
+public final boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.ConfigurableGraph
+checkedConnections
+private NodeConnections<N, E> checkedConnections(Object node)
+Object
+NodeConnections
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N, E> copyOf(Graph<N, E> graph)
+Graph
+ImmutableGraph
+com.google.common.graph.Hypergraph
+target
+N target(Object edge)
+Object
+N
+com.google.common.graph.AbstractImmutableGraph
+edgesConnecting
+public Set<E> edgesConnecting(Object node1, Object node2)
+Object,Object
+Set
+com.google.common.graph.Graphs
+createDirected
+public static DirectedGraph<N, E> createDirected(GraphConfig config)
+GraphConfig
+DirectedGraph
+com.google.common.graph.ConfigurableGraph
+addEdge
+public boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.ImmutableUndirectedGraph
+ImmutableUndirectedGraph
+private ImmutableUndirectedGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.GraphBuilder
+directed
+public static GraphBuilder<Object, Object> directed()
+empty
+GraphBuilder
+com.google.common.graph.AbstractImmutableGraph$Builder
+getNodeConnections
+private ImmutableMap<N, NodeConnections<N, E>> getNodeConnections()
+empty
+ImmutableMap
+com.google.common.graph.AbstractImmutableGraph
+removeEdge
+public final boolean removeEdge(Object edge)
+Object
+boolean
+com.google.common.graph.GraphConfig
+getExpectedNodeCount
+public Optional<Integer> getExpectedNodeCount()
+empty
+Optional
+com.google.common.graph.Graphs
+copyOf
+public static Graph<N, E> copyOf(Graph<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+Graph,Predicate,Predicate
+Graph
+com.google.common.graph.AbstractImmutableGraph$Builder
+nodeConnectionsOf
+abstract NodeConnections<N, E> nodeConnectionsOf(N node)
+N
+NodeConnections
+com.google.common.graph.GraphProperties
+isSubgraphCyclic
+private static boolean isSubgraphCyclic(DirectedGraph<?, ?> graph, Map<Object, NodeVisitState> nodeToVisitState, Object node)
+DirectedGraph,Map,Object
+boolean
+com.google.common.graph.ConfigurableGraph
+ConfigurableGraph
+ConfigurableGraph(GraphBuilder<? super N, ? super E> builder, Map<N, NodeConnections<N, E>> nodeConnections, Map<E, IncidentNodes<N>> edgeToIncidentNodes)
+GraphBuilder,Map,Map
+constructor
+com.google.common.graph.ImmutableGraph
+getEdgeToIncidentNodes
+private static Map<E, IncidentNodes<N>> getEdgeToIncidentNodes(Graph<N, E> graph)
+Graph
+Map
+com.google.common.graph.Graphs
+createUndirected
+public static UndirectedGraph<N, E> createUndirected()
+empty
+UndirectedGraph
+com.google.common.graph.ConfigurableGraph
+allowsSelfLoops
+public boolean allowsSelfLoops()
+empty
+boolean
+com.google.common.graph.Graphs
+copyOf
+public static DirectedGraph<N, E> copyOf(DirectedGraph<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+DirectedGraph,Predicate,Predicate
+DirectedGraph
+com.google.common.graph.Graph
+isDirected
+boolean isDirected()
+empty
+boolean
+com.google.common.graph.GraphConfig
+GraphConfig
+private GraphConfig(boolean multigraph, boolean selfLoopsAllowed, Optional<Integer> expectedNodeCount, Optional<Integer> expectedEdgeCount)
+boolean,boolean,Optional,Optional
+constructor
+com.google.common.graph.Graphs
+copyFrom
+public static void copyFrom(Graph<N, E> original, Graph<N, E> copy, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+Graph,Graph,Predicate,Predicate
+void
+com.google.common.graph.Graph
+allowsParallelEdges
+boolean allowsParallelEdges()
+empty
+boolean
+com.google.common.graph.ImmutableDirectedGraph$Builder
+Builder
+private Builder(DirectedGraph<N, E> graph)
+DirectedGraph
+constructor
+com.google.common.graph.ConfigurableGraph
+ConfigurableGraph
+ConfigurableGraph(GraphBuilder<? super N, ? super E> builder)
+GraphBuilder
+constructor

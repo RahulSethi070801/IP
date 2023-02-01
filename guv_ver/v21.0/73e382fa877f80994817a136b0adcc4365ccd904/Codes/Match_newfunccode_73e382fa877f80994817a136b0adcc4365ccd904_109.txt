@@ -1,0 +1,9 @@
+Object getElement() {
+    if (element == null) {
+        throw new NoSuchElementException();
+    } else if (extras == null) {
+        return element;
+    } else {
+        throw multiples(false);
+    }
+}

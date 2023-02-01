@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "245": "\n",
+        "246": "public void testToImmutableMultiset() throws Exception {\n",
+        "247": "  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();\n",
+        "248": "  testCase.testToImmutableMultiset();\n",
+        "249": "}\n",
+        "250": "\n",
+        "251": "public void testToImmutableMultiset_duplicates() throws Exception {\n",
+        "252": "  com.google.common.collect.ImmutableMultisetTest testCase = new com.google.common.collect.ImmutableMultisetTest();\n",
+        "253": "  testCase.testToImmutableMultiset_duplicates();\n",
+        "254": "}\n"
+    },
+    "removed": {}
+}

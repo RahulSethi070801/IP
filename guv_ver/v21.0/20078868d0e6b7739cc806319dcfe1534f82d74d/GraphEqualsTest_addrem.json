@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "39": "  private static final String E11 = \"1-1\";\n",
+        "100": "  // Node/edge sets are the same, but node/edge connections differ due to graph type.\n",
+        "102": "  public void equals_directedVsUndirected() {\n",
+        "122": "  // Node/edge sets and node/edge connections are the same, but types differ.\n",
+        "123": "  // (In this case the graphs are considered equal; the type differences are irrelevant.)\n",
+        "124": "  @Test\n",
+        "125": "  public void equals_selfLoop_directedVsUndirected() {\n",
+        "126": "    graph.addEdge(E11, N1, N1);\n",
+        "127": "\n",
+        "128": "    Graph<Integer, String> g2;\n",
+        "129": "    switch (graphType) {\n",
+        "130": "      case UNDIRECTED:\n",
+        "131": "        g2 = Graphs.createDirected();\n",
+        "132": "        break;\n",
+        "133": "      case DIRECTED:\n",
+        "134": "        g2 = Graphs.createUndirected();\n",
+        "135": "        break;\n",
+        "136": "      default:\n",
+        "137": "        throw new IllegalStateException(\"Unexpected graph type: \" + graphType);\n",
+        "138": "    }\n",
+        "139": "\n",
+        "140": "    g2.addEdge(E11, N1, N1);\n",
+        "141": "\n",
+        "142": "    new EqualsTester().addEqualityGroup(graph, g2).testEquals();\n",
+        "143": "  }\n",
+        "144": "\n",
+        "145": "  // Node/edge sets are the same, but node/edge connections differ.\n",
+        "159": "  // Node/edge sets and node/edge connections are the same, but GraphConfigs differ.\n",
+        "171": "  // Node/edge sets and node/edge connections are the same, but edge order differs.\n"
+    },
+    "removed": {
+        "99": "  // Node/edge sets are the same, but types differ.\n",
+        "101": "  public void equals_typesDiffer() {\n",
+        "104": "    // Whatever graphType specifies, pick another type.\n",
+        "122": "  // Node/edge sets and graph type are the same, but node/edge connections differ.\n",
+        "136": "  // Node/edge sets, graph type, and node/edge connections are the same, but GraphConfigs differ.\n",
+        "148": "  // Node/edge sets, graph type, and node/edge connections are the same, but edge order differs.\n"
+    }
+}

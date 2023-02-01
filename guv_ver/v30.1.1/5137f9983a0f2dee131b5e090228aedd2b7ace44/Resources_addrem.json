@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "32": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "48": "@ElementTypesAreNonnullByDefault\n",
+        "126": "  @ParametricNullness\n",
+        "127": "  public static <T extends @Nullable Object> T readLines(\n",
+        "128": "      URL url, Charset charset, LineProcessor<T> callback) throws IOException {\n"
+    },
+    "removed": {
+        "124": "  public static <T> T readLines(URL url, Charset charset, LineProcessor<T> callback)\n",
+        "125": "      throws IOException {\n"
+    }
+}

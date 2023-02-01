@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "103": "  private static boolean equalsOrThrow(Comparable<?> left, @Nullable Comparable<?> right) {\n",
+        "149": "  public boolean contains(@Nullable Object object) {\n",
+        "198": "  public boolean equals(@Nullable Object object) {\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "103": "  private static boolean equalsOrThrow(Comparable<?> left, @NullableDecl Comparable<?> right) {\n",
+        "149": "  public boolean contains(@NullableDecl Object object) {\n",
+        "198": "  public boolean equals(@NullableDecl Object object) {\n"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "90": "    CacheLoader<Object, Object> asyncReloader = CacheLoader.asyncReloading(baseLoader, executor);\n"
+    },
+    "removed": {
+        "90": "    CacheLoader<Object, Object> asyncReloader =\n",
+        "91": "        CacheLoader.asyncReloading(baseLoader, executor);\n"
+    }
+}

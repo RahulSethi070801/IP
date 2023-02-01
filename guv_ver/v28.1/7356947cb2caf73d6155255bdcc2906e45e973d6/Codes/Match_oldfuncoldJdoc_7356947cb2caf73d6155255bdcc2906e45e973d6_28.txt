@@ -1,0 +1,9 @@
+
+   * Appends a character sequence (such as a string) to a file using the given character set.
+   *
+   * @param from the character sequence to append
+   * @param to the destination file
+   * @param charset the charset used to encode the output stream; see {@link StandardCharsets} for
+   *     helpful predefined constants
+   * @throws IOException if an I/O error occurs
+   

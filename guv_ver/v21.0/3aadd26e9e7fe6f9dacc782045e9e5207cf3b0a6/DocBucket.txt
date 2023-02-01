@@ -1,0 +1,5 @@
+com.google.common.io.Files
+equal
+public static boolean equal(File file1, File file2) throws IOException
+File,File
+boolean

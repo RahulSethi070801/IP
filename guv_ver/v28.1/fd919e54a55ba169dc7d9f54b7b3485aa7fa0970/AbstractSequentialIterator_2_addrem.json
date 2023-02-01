@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "24": " * This class provides a skeletal implementation of the {@code Iterator} interface for sequences\n",
+        "25": " * whose next element can always be derived from the previous element. Null elements are not\n",
+        "26": " * supported, nor is the {@link #remove()} method.\n",
+        "28": " * <p>Example:\n",
+        "30": " * <pre>{@code\n",
+        "31": " * Iterator<Integer> powersOfTwo =\n",
+        "32": " *     new AbstractSequentialIterator<Integer>(1) {\n",
+        "33": " *       protected Integer computeNext(Integer previous) {\n",
+        "34": " *         return (previous == 1 << 30) ? null : previous * 2;\n",
+        "35": " *       }\n",
+        "36": " *     };\n",
+        "37": " * }</pre>\n",
+        "47": "   * Creates a new iterator with the given first element, or, if {@code firstOrNull} is null,\n",
+        "48": "   * creates a new empty iterator.\n",
+        "55": "   * Returns the element that follows {@code previous}, or returns {@code null} if no elements\n",
+        "56": "   * remain. This method is invoked during each call to {@link #next()} in order to compute the\n",
+        "57": "   * result of a <i>future</i> call to {@code next()}.\n"
+    },
+    "removed": {
+        "24": " * This class provides a skeletal implementation of the {@code Iterator}\n",
+        "25": " * interface for sequences whose next element can always be derived from the\n",
+        "26": " * previous element. Null elements are not supported, nor is the\n",
+        "27": " * {@link #remove()} method.\n",
+        "29": " * <p>Example: <pre>   {@code\n",
+        "31": " *   Iterator<Integer> powersOfTwo =\n",
+        "32": " *       new AbstractSequentialIterator<Integer>(1) {\n",
+        "33": " *         protected Integer computeNext(Integer previous) {\n",
+        "34": " *           return (previous == 1 << 30) ? null : previous * 2;\n",
+        "35": " *         }\n",
+        "36": " *       };}</pre>\n",
+        "46": "   * Creates a new iterator with the given first element, or, if {@code\n",
+        "47": "   * firstOrNull} is null, creates a new empty iterator.\n",
+        "54": "   * Returns the element that follows {@code previous}, or returns {@code null}\n",
+        "55": "   * if no elements remain. This method is invoked during each call to\n",
+        "56": "   * {@link #next()} in order to compute the result of a <i>future</i> call to\n",
+        "57": "   * {@code next()}.\n"
+    }
+}

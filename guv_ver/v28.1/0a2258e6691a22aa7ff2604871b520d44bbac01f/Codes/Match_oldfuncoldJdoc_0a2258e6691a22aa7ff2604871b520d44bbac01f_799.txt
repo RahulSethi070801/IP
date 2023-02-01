@@ -1,0 +1,7 @@
+
+   * Returns a view collection of the values associated with {@code key} in this multimap, if any.
+   * Note that when {@code containsKey(key)} is false, this returns an empty collection, not {@code
+   * null}.
+   *
+   * <p>Changes to the returned collection will update the underlying multimap, and vice versa.
+   

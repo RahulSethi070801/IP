@@ -1,0 +1,5 @@
+com.google.common.collect.Maps
+newHashMapWithExpectedSize
+public static HashMap<K, V> newHashMapWithExpectedSize(int expectedSize)
+int
+HashMap

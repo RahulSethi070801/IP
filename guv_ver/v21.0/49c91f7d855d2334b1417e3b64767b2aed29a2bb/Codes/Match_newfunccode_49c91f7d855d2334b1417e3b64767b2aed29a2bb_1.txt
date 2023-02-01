@@ -1,0 +1,13 @@
+@SuppressWarnings("unchecked")
+public static <N> MutableGraph<N> copyOf(Graph<N> graph) {
+    checkNotNull(graph, "graph");
+    checkArgument(!((graph instanceof Network) && ((Network<N, ?>) graph).allowsParallelEdges()), NETWORK_WITH_PARALLEL_EDGE);
+    MutableGraph<N> copy = GraphBuilder.from(graph).expectedNodeCount(graph.nodes().size()).build();
+    for (N node : graph.nodes()) {
+        copy.addNode(node);
+        for (N successor : graph.successors(node)) {
+            copy.addEdge(node, successor);
+        }
+    }
+    return copy;
+}

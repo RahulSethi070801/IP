@@ -1,0 +1,11 @@
+@CanIgnoreReturnValue
+@Override
+public V put(R rowKey, C columnKey, @NullableDecl V value) {
+    checkNotNull(rowKey);
+    checkNotNull(columnKey);
+    Integer rowIndex = rowKeyToIndex.get(rowKey);
+    checkArgument(rowIndex != null, "Row %s not in %s", rowKey, rowList);
+    Integer columnIndex = columnKeyToIndex.get(columnKey);
+    checkArgument(columnIndex != null, "Column %s not in %s", columnKey, columnList);
+    return set(rowIndex, columnIndex, value);
+}

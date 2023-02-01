@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "104": "  }\n",
+        "105": "\n",
+        "106": "  @Override\n",
+        "107": "  void allocArrays() {\n",
+        "108": "    super.allocArrays();\n",
+        "109": "    int expectedSize = keys.length; // allocated size may be different than initial capacity\n",
+        "173": "    links[srcIndex] = UNSET;\n",
+        "180": "    int oldCapacity = links.length;\n",
+        "182": "    if (oldCapacity < newCapacity) {\n",
+        "183": "      Arrays.fill(links, oldCapacity, newCapacity, UNSET);\n",
+        "184": "    }\n",
+        "199": "    if (needsAllocArrays()) {\n",
+        "200": "      return;\n",
+        "201": "    }\n",
+        "204": "    Arrays.fill(links, 0, size(), UNSET);\n",
+        "205": "    super.clear();\n"
+    },
+    "removed": {
+        "188": "    super.clear();\n"
+    }
+}

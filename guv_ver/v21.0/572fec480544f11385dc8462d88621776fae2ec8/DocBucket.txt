@@ -1,0 +1,130 @@
+com.google.common.collect.Ordering
+min
+public E min(@Nullable E a, @Nullable E b)
+E,E
+E
+com.google.common.collect.Ordering
+immutableSortedCopy
+public ImmutableList<E> immutableSortedCopy(Iterable<E> elements)
+Iterable
+ImmutableList
+com.google.common.collect.Ordering
+isOrdered
+public boolean isOrdered(Iterable<? extends T> iterable)
+Iterable
+boolean
+com.google.common.collect.Ordering
+compound
+public static Ordering<T> compound(Iterable<? extends Comparator<? super T>> comparators)
+Iterable
+Ordering
+com.google.common.collect.Ordering
+min
+public E min(Iterable<E> iterable)
+Iterable
+E
+com.google.common.collect.Ordering
+max
+public E max(Iterator<E> iterator)
+Iterator
+E
+com.google.common.collect.Ordering
+max
+public E max(@Nullable E a, @Nullable E b)
+E,E
+E
+com.google.common.collect.Ordering
+isStrictlyOrdered
+public boolean isStrictlyOrdered(Iterable<? extends T> iterable)
+Iterable
+boolean
+com.google.common.collect.Ordering
+arbitrary
+public static Ordering<Object> arbitrary()
+empty
+Ordering
+com.google.common.collect.Ordering
+lexicographical
+public Ordering<Iterable<S>> lexicographical()
+empty
+Ordering
+com.google.common.collect.Ordering
+sortedCopy
+public List<E> sortedCopy(Iterable<E> elements)
+Iterable
+List
+com.google.common.collect.Ordering
+from
+public static Ordering<T> from(Comparator<T> comparator)
+Comparator
+Ordering
+com.google.common.collect.Ordering
+explicit
+public static Ordering<T> explicit(List<T> valuesInOrder)
+List
+Ordering
+com.google.common.collect.Ordering
+compound
+public Ordering<U> compound(Comparator<? super U> secondaryComparator)
+Comparator
+Ordering
+com.google.common.collect.Ordering
+onResultOf
+public Ordering<F> onResultOf(Function<F, ? extends T> function)
+Function
+Ordering
+com.google.common.collect.Ordering
+usingToString
+public static Ordering<Object> usingToString()
+empty
+Ordering
+com.google.common.collect.Ordering
+min
+public E min(Iterator<E> iterator)
+Iterator
+E
+com.google.common.collect.Ordering
+max
+public E max(Iterable<E> iterable)
+Iterable
+E
+com.google.common.collect.Ordering
+max
+public E max(@Nullable E a, @Nullable E b, @Nullable E c, E... rest)
+E,E,E,E...
+E
+com.google.common.collect.Ordering
+natural
+public static Ordering<C> natural()
+empty
+Ordering
+com.google.common.collect.Ordering
+allEqual
+public static Ordering<Object> allEqual()
+empty
+Ordering
+com.google.common.collect.Ordering
+greatestOf
+public List<E> greatestOf(Iterator<E> iterator, int k)
+Iterator,int
+List
+com.google.common.collect.Ordering
+explicit
+public static Ordering<T> explicit(T leastValue, T... remainingValuesInOrder)
+T,T...
+Ordering
+com.google.common.collect.Ordering
+leastOf
+public List<E> leastOf(Iterable<E> iterable, int k)
+Iterable,int
+List
+com.google.common.collect.Ordering
+greatestOf
+public List<E> greatestOf(Iterable<E> iterable, int k)
+Iterable,int
+List
+com.google.common.collect.Ordering
+min
+public E min(@Nullable E a, @Nullable E b, @Nullable E c, E... rest)
+E,E,E,E...
+E

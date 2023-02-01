@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "83": "   * Opens a new {@link InputStream} for reading from this source. This method returns a new,\n",
+        "88": "   * @throws IOException if an I/O error occurs while opening the stream\n",
+        "96": "   * additional buffering (for example, a {@code ByteArrayInputStream}). This method returns a\n",
+        "101": "   * @throws IOException if an I/O error occurs while opening the stream\n",
+        "189": "   * @throws IOException if an I/O error occurs while reading the size of this source\n",
+        "236": "   * @throws IOException if an I/O error occurs while reading from this source or writing to\n",
+        "237": "   *     {@code output}\n",
+        "258": "   * @throws IOException if an I/O error occurs while reading from this source or writing to\n",
+        "259": "   *     {@code sink}\n",
+        "280": "   * @throws IOException if an I/O error occurs while reading from this source\n",
+        "299": "   * @throws IOException if an I/O error occurs while reading from this source or if\n",
+        "322": "   * @throws IOException if an I/O error occurs while reading from this source\n",
+        "334": "   * @throws IOException if an I/O error occurs while reading from this source or {@code other}\n",
+        "437": "  class AsCharSource extends CharSource {\n"
+    },
+    "removed": {
+        "83": "   * Opens a new {@link InputStream} for reading from this source. This method should return a new,\n",
+        "88": "   * @throws IOException if an I/O error occurs in the process of opening the stream\n",
+        "96": "   * additional buffering (for example, a {@code ByteArrayInputStream}). This method should return a\n",
+        "101": "   * @throws IOException if an I/O error occurs in the process of opening the stream\n",
+        "189": "   * @throws IOException if an I/O error occurs in the process of reading the size of this source\n",
+        "236": "   * @throws IOException if an I/O error occurs in the process of reading from this source or\n",
+        "237": "   *     writing to {@code output}\n",
+        "258": "   * @throws IOException if an I/O error occurs in the process of reading from this source or\n",
+        "259": "   *     writing to {@code sink}\n",
+        "280": "   * @throws IOException if an I/O error occurs in the process of reading from this source\n",
+        "299": "   * @throws IOException if an I/O error occurs in the process of reading from this source or if\n",
+        "322": "   * @throws IOException if an I/O error occurs in the process of reading from this source\n",
+        "334": "   * @throws IOException if an I/O error occurs in the process of reading from this source or\n",
+        "335": "   *     {@code other}\n",
+        "438": "  private final class AsCharSource extends CharSource {\n"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "401": "  @Test\n",
+        "402": "  public void incidentEdges_stableIncidentEdgeOrder_preservesIncidentEdgesOrder() {\n",
+        "403": "    graph = ValueGraphBuilder.directed().incidentEdgeOrder(ElementOrder.stable()).build();\n",
+        "404": "    graph.putEdgeValue(2, 1, \"2-1\");\n",
+        "405": "    graph.putEdgeValue(2, 3, \"2-3\");\n",
+        "406": "    graph.putEdgeValue(1, 2, \"1-2\");\n",
+        "407": "\n",
+        "408": "    assertThat(graph.incidentEdges(2))\n",
+        "409": "        .containsExactly(\n",
+        "410": "            EndpointPair.ordered(2, 1), EndpointPair.ordered(2, 3), EndpointPair.ordered(1, 2))\n",
+        "411": "        .inOrder();\n",
+        "412": "  }\n",
+        "413": "\n"
+    },
+    "removed": {}
+}

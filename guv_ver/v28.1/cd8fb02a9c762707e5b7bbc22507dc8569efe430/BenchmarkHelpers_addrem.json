@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "53": "  public interface InternerImplEnum {\n",
+        "54": "    <E> Interner<E> create(Collection<E> contents);\n",
+        "55": "    String name();\n",
+        "56": "  }\n",
+        "57": "\n",
+        "412": "  public enum InternerImpl implements InternerImplEnum {\n",
+        "413": "    WeakInternerImpl {\n",
+        "414": "      @Override\n",
+        "415": "      public <E> Interner<E> create(Collection<E> contents) {\n",
+        "416": "        Interner<E> interner = Interners.newWeakInterner();\n",
+        "417": "        for (E e : contents) {\n",
+        "418": "          interner.intern(e);\n",
+        "419": "        }\n",
+        "420": "        return interner;\n",
+        "421": "      }\n",
+        "422": "    },\n",
+        "423": "    StrongInternerImpl {\n",
+        "424": "      @Override\n",
+        "425": "      public <E> Interner<E> create(Collection<E> contents) {\n",
+        "426": "        Interner<E> interner = Interners.newStrongInterner();\n",
+        "427": "        for (E e : contents) {\n",
+        "428": "          interner.intern(e);\n",
+        "429": "        }\n",
+        "430": "        return interner;\n",
+        "431": "      }\n",
+        "432": "    };\n",
+        "433": "  }\n",
+        "434": "\n"
+    },
+    "removed": {}
+}

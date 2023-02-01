@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "135": "  // For now, hashCode() and equals() are unused by any implementation.\n"
+    },
+    "removed": {
+        "135": "  // For now, hashCode() and equals() are unused by any graph implementation.\n"
+    }
+}

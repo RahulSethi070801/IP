@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "31": "    assertEquals(\n",
+        "32": "        Integer.MAX_VALUE, ImmutableCollection.Builder.expandedCapacity(0, Integer.MAX_VALUE));\n",
+        "33": "    assertEquals(\n",
+        "34": "        Integer.MAX_VALUE, ImmutableCollection.Builder.expandedCapacity(1, Integer.MAX_VALUE));\n",
+        "35": "    assertEquals(\n",
+        "36": "        Integer.MAX_VALUE,\n"
+    },
+    "removed": {
+        "31": "    assertEquals(Integer.MAX_VALUE,\n",
+        "32": "        ImmutableCollection.Builder.expandedCapacity(0, Integer.MAX_VALUE));\n",
+        "33": "    assertEquals(Integer.MAX_VALUE,\n",
+        "34": "        ImmutableCollection.Builder.expandedCapacity(1, Integer.MAX_VALUE));\n",
+        "35": "    assertEquals(Integer.MAX_VALUE,\n"
+    }
+}

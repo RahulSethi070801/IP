@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "20": " * Minimal emulation of {@link java.lang.InterruptedException}, that should only be used in method\n",
+        "21": " * signatures. New GWT code should not reference this class at all. It is here only to ease the\n",
+        "22": " * GWTification of common code.\n"
+    },
+    "removed": {
+        "20": " * Minimal emulation of {@link java.lang.InterruptedException}, that should\n",
+        "21": " * only be used in method signatures.  New GWT code should not reference this\n",
+        "22": " * class at all.  It is here only to ease the GWTification of common code.\n"
+    }
+}

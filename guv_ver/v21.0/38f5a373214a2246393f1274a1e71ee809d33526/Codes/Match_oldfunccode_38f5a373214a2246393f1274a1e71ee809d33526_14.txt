@@ -1,0 +1,6 @@
+public static boolean hasCycle(Network<?, ?> network) {
+    if (!network.isDirected() && network.allowsParallelEdges() && network.edges().size() > network.asGraph().edges().size()) {
+        return true;
+    }
+    return hasCycle(network.asGraph());
+}

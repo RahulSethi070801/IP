@@ -1,0 +1,10 @@
+static boolean equalsImpl(Multimap<?, ?> multimap, @NullableDecl Object object) {
+    if (object == multimap) {
+        return true;
+    }
+    if (object instanceof Multimap) {
+        Multimap<?, ?> that = (Multimap<?, ?>) object;
+        return multimap.asMap().equals(that.asMap());
+    }
+    return false;
+}

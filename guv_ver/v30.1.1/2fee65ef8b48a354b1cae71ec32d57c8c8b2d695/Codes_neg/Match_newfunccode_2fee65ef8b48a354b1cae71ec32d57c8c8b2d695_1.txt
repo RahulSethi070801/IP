@@ -1,0 +1,8 @@
+GraphBuilder<N> copy() {
+    GraphBuilder<N> newBuilder = new GraphBuilder<>(directed);
+    newBuilder.allowsSelfLoops = allowsSelfLoops;
+    newBuilder.nodeOrder = nodeOrder;
+    newBuilder.expectedNodeCount = expectedNodeCount;
+    newBuilder.incidentEdgeOrder = incidentEdgeOrder;
+    return newBuilder;
+}

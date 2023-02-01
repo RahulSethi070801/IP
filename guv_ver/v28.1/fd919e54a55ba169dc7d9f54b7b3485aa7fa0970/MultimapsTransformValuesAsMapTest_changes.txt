@@ -1,0 +1,4 @@
+MultimapsTransformValuesAsMapTest
+Insertions: [30, 36, 37, 39, 40, 43, 44, 47]
+Deletions: [30, 31, 37, 39, 40, 43, 46, 47]
+android/guava-tests/test/com/google/common/collect/MultimapsTransformValuesAsMapTest.java

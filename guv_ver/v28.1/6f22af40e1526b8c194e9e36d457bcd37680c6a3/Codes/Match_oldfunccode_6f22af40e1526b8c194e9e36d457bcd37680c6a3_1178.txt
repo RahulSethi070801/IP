@@ -1,0 +1,3 @@
+@ForOverride
+@Nullable
+abstract T doTransform(F function, @Nullable I result) throws Exception;

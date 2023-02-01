@@ -1,0 +1,10 @@
+
+   * A sensible, albeit inefficient, definition of {@link #remove} in terms of the {@code iterator}
+   * method of {@link #entrySet}. If you override {@link #entrySet}, you may wish to override {@link
+   * #remove} to forward to this implementation.
+   *
+   * <p>Alternately, you may wish to override {@link #remove} with {@code keySet().remove}, assuming
+   * that approach would not lead to an infinite loop.
+   *
+   * @since 7.0
+   

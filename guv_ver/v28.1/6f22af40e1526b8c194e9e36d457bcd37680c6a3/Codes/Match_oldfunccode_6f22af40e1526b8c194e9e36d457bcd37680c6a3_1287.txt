@@ -1,0 +1,6 @@
+static long checkPositive(@Nullable String role, long x) {
+    if (x <= 0) {
+        throw new IllegalArgumentException(role + " (" + x + ") must be > 0");
+    }
+    return x;
+}

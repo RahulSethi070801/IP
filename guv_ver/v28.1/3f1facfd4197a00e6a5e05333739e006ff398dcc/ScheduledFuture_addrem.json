@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "18": "public interface ScheduledFuture<V> extends Delayed, Future<V> {}\n"
+    },
+    "removed": {
+        "18": "public interface ScheduledFuture<V> extends Delayed, Future<V> {\n",
+        "19": "}\n"
+    }
+}

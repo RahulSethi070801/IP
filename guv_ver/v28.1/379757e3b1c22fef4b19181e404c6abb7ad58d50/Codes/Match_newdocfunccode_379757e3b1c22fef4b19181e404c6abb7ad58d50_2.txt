@@ -1,0 +1,18 @@
+public static HashFunction goodFastHash(int minimumBits) {
+    int bits = checkPositiveAndMakeMultipleOf32(minimumBits);
+    if (bits == 32) {
+        return Murmur3_32Holder.GOOD_FAST_HASH_FUNCTION_32;
+    }
+    if (bits <= 128) {
+        return Murmur3_128Holder.GOOD_FAST_HASH_FUNCTION_128;
+    }
+    int hashFunctionsNeeded = (bits + 127) / 128;
+    HashFunction[] hashFunctions = new HashFunction[hashFunctionsNeeded];
+    hashFunctions[0] = Murmur3_128Holder.GOOD_FAST_HASH_FUNCTION_128;
+    int seed = GOOD_FAST_HASH_SEED;
+    for (int i = 1; i < hashFunctionsNeeded; i++) {
+        seed += 1500450271;
+        hashFunctions[i] = murmur3_128(seed);
+    }
+    return new ConcatenatedHashFunction(hashFunctions);
+}

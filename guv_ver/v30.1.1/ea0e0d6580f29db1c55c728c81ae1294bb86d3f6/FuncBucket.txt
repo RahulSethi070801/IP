@@ -1,0 +1,1450 @@
+com.google.common.collect.SortedMultisets
+getElementOrNull
+private static E getElementOrNull(@CheckForNull Entry<E> entry)
+Entry
+E
+com.google.common.collect.Multisets$UnmodifiableMultiset
+add
+public boolean add(E element)
+E
+boolean
+com.google.common.collect.TreeMultiset
+successor
+private static void successor(AvlNode<T> a, AvlNode<T> b, AvlNode<T> c)
+AvlNode,AvlNode,AvlNode
+void
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+of
+public static ImmutableSortedMultiset<E> of(E e1, E e2, E e3)
+E,E,E
+ImmutableSortedMultiset
+com.google.common.collect.Multisets
+transform
+E transform(Entry<E> entry)
+Entry
+E
+com.google.common.collect.TreeMultiset$Reference
+checkAndSet
+public void checkAndSet(@Nullable T expected, T newValue)
+T,T
+void
+com.google.common.collect.Multisets$EntrySet
+contains
+public boolean contains(@Nullable Object o)
+Object
+boolean
+com.google.common.collect.ConcurrentHashMultiset
+removeExactly
+public boolean removeExactly(@Nullable Object element, int occurrences)
+Object,int
+boolean
+com.google.common.collect.GeneralRange
+getUpperEndpoint
+T getUpperEndpoint()
+empty
+T
+com.google.common.collect.Multisets
+cast
+static Multiset<T> cast(Iterable<T> iterable)
+Iterable
+Multiset
+com.google.common.collect.AbstractMultiset
+contains
+public boolean contains(@Nullable Object element)
+Object
+boolean
+com.google.common.collect.TreeMultiset
+create
+public static TreeMultiset<E> create(@Nullable Comparator<? super E> comparator)
+Comparator
+TreeMultiset
+com.google.common.collect.TreeMultiset$AvlNode
+setCount
+AvlNode<E> setCount(Comparator<? super E> comparator, @Nullable E e, int count, int[] result)
+Comparator,E,int,int[]
+AvlNode
+com.google.common.collect.Multiset
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.ForwardingMultiset
+add
+public int add(E element, int occurrences)
+E,int
+int
+com.google.common.collect.SortedMultisets$NavigableElementSet
+floor
+public E floor(E e)
+E
+E
+com.google.common.collect.AbstractMultiset
+setCount
+public int setCount(@Nullable E element, int count)
+E,int
+int
+com.google.common.collect.ForwardingMultiset
+standardCount
+protected int standardCount(@Nullable Object object)
+Object
+int
+com.google.common.collect.GeneralRange
+tooLow
+boolean tooLow(@ParametricNullness T t)
+T
+boolean
+com.google.common.collect.GeneralRange
+GeneralRange
+private GeneralRange(Comparator<? super T> comparator, boolean hasLowerBound, @Nullable T lowerEndpoint, BoundType lowerBoundType, boolean hasUpperBound, @Nullable T upperEndpoint, BoundType upperBoundType)
+Comparator,boolean,T,BoundType,boolean,T,BoundType
+constructor
+com.google.common.collect.Multisets$UnmodifiableMultiset
+setCount
+public int setCount(E element, int count)
+E,int
+int
+com.google.common.collect.Multisets
+filter
+public static Multiset<E> filter(Multiset<E> unfiltered, Predicate<? super E> predicate)
+Multiset,Predicate
+Multiset
+com.google.common.collect.Multisets$UnmodifiableMultiset
+setCount
+public boolean setCount(@ParametricNullness E element, int oldCount, int newCount)
+E,int,int
+boolean
+com.google.common.collect.TreeMultiset$AvlNode
+remove
+AvlNode<E> remove(Comparator<? super E> comparator, @Nullable E e, int count, int[] result)
+Comparator,E,int,int[]
+AvlNode
+com.google.common.collect.Multisets
+union
+public static Multiset<E> union(final Multiset<? extends E> multiset1, final Multiset<? extends E> multiset2)
+Multiset,Multiset
+Multiset
+com.google.common.collect.ForwardingSortedMultiset
+standardLastEntry
+protected Entry<E> standardLastEntry()
+empty
+Entry
+com.google.common.collect.Multisets$FilteredMultiset
+add
+public int add(@Nullable E element, int occurrences)
+E,int
+int
+com.google.common.collect.TreeMultiset
+distinctElements
+static int distinctElements(@Nullable AvlNode<?> node)
+AvlNode
+int
+com.google.common.collect.ForwardingMultiset
+standardRemove
+protected boolean standardRemove(Object element)
+Object
+boolean
+com.google.common.collect.AbstractMultiset
+remove
+public final boolean remove(@Nullable Object element)
+Object
+boolean
+com.google.common.collect.GeneralRange
+from
+static GeneralRange<T> from(Range<T> range)
+Range
+GeneralRange
+com.google.common.collect.Multisets$FilteredMultiset
+count
+public int count(@Nullable Object element)
+Object
+int
+com.google.common.collect.ImmutableMultiset
+contains
+public boolean contains(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.Multisets
+immutableEntry
+public static Multiset.Entry<E> immutableEntry(@Nullable E e, int n)
+E,int
+Multiset.Entry
+com.google.common.collect.SortedMultisets
+getElementOrThrow
+private static E getElementOrThrow(Entry<E> entry)
+Entry
+E
+com.google.common.collect.AbstractSortedMultiset
+pollFirstEntry
+public Entry<E> pollFirstEntry()
+empty
+Entry
+com.google.common.collect.Multiset
+remove
+int remove(@Nullable @CompatibleWith("E") Object element, int occurrences)
+Object,int
+int
+com.google.common.collect.ImmutableMultiset
+iterator
+public UnmodifiableIterator<E> iterator()
+empty
+UnmodifiableIterator
+com.google.common.collect.TreeMultiset
+TreeMultiset
+TreeMultiset(Comparator<? super E> comparator)
+Comparator
+constructor
+com.google.common.collect.DescendingMultiset
+tailMultiset
+public SortedMultiset<E> tailMultiset(@ParametricNullness E fromElement, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.TreeMultiset$Reference
+checkAndSet
+public void checkAndSet(@CheckForNull T expected, @CheckForNull T newValue)
+T,T
+void
+com.google.common.collect.SortedMultisets$NavigableElementSet
+headSet
+public NavigableSet<E> headSet(@ParametricNullness E toElement, boolean inclusive)
+E,boolean
+NavigableSet
+com.google.common.collect.Multisets
+difference
+public static Multiset<E> difference(final Multiset<E> multiset1, final Multiset<?> multiset2)
+Multiset,Multiset
+Multiset
+com.google.common.collect.ForwardingSortedMultiset
+standardFirstEntry
+protected Entry<E> standardFirstEntry()
+empty
+Entry
+com.google.common.collect.RegularImmutableMultiset
+create
+static ImmutableMultiset<E> create(Collection<? extends Entry<? extends E>> entries)
+Collection
+ImmutableMultiset
+com.google.common.collect.Multisets$EntrySet
+remove
+public boolean remove(Object object)
+Object
+boolean
+com.google.common.collect.DescendingMultiset
+toArray
+public Object[] toArray()
+empty
+Object[]
+com.google.common.collect.TreeMultiset$AvlNode
+floor
+private AvlNode<E> floor(Comparator<? super E> comparator, E e)
+Comparator,E
+AvlNode
+com.google.common.collect.ForwardingMultiset
+standardAdd
+protected boolean standardAdd(E element)
+E
+boolean
+com.google.common.collect.Multiset
+count
+int count(@Nullable @CompatibleWith("E") Object element)
+Object
+int
+com.google.common.collect.LinkedHashMultiset
+create
+public static LinkedHashMultiset<E> create()
+empty
+LinkedHashMultiset
+com.google.common.collect.TreeMultiset$AvlNode
+AvlNode
+AvlNode(@Nullable E elem, int elemCount)
+E,int
+constructor
+com.google.common.collect.Multisets$MultisetIteratorImpl
+remove
+public void remove()
+empty
+void
+com.google.common.collect.AbstractMultiset
+setCount
+public boolean setCount(@Nullable E element, int oldCount, int newCount)
+E,int,int
+boolean
+com.google.common.collect.GeneralRange
+all
+static GeneralRange<T> all(Comparator<? super T> comparator)
+Comparator
+GeneralRange
+com.google.common.collect.Multisets$ImmutableEntry
+ImmutableEntry
+ImmutableEntry(@Nullable E element, int count)
+E,int
+constructor
+com.google.common.collect.Multisets$FilteredMultiset
+remove
+public int remove(@Nullable Object element, int occurrences)
+Object,int
+int
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+of
+public static ImmutableSortedMultiset<E> of(E e1, E e2, E e3, E e4, E e5)
+E,E,E,E,E
+ImmutableSortedMultiset
+com.google.common.collect.TreeMultiset$AvlNode
+setCount
+AvlNode<E> setCount(Comparator<? super E> comparator, @Nullable E e, int expectedCount, int newCount, int[] result)
+Comparator,E,int,int,int[]
+AvlNode
+com.google.common.collect.Multisets$ElementSet
+contains
+public boolean contains(@CheckForNull Object o)
+Object
+boolean
+com.google.common.collect.Multisets$UnmodifiableMultiset
+remove
+public int remove(Object element, int occurrences)
+Object,int
+int
+com.google.common.collect.Multisets$FilteredMultiset
+count
+public int count(@CheckForNull Object element)
+Object
+int
+com.google.common.collect.GeneralRange
+downTo
+static GeneralRange<T> downTo(Comparator<? super T> comparator, @Nullable T endpoint, BoundType boundType)
+Comparator,T,BoundType
+GeneralRange
+com.google.common.collect.DescendingMultiset
+toArray
+public T[] toArray(T[] array)
+T[]
+T[]
+com.google.common.collect.Multiset$Entry
+equals
+boolean equals(@CheckForNull Object o)
+Object
+boolean
+com.google.common.collect.Multiset
+remove
+boolean remove(@Nullable Object element)
+Object
+boolean
+com.google.common.collect.Multisets$ImmutableEntry
+nextInBucket
+public ImmutableEntry<E> nextInBucket()
+empty
+ImmutableEntry
+com.google.common.collect.ForwardingSortedMultiset
+standardSubMultiset
+protected SortedMultiset<E> standardSubMultiset(@ParametricNullness E lowerBound, BoundType lowerBoundType, @ParametricNullness E upperBound, BoundType upperBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.AbstractMultiset
+equals
+public final boolean equals(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.ImmutableSortedMultiset
+toImmutableSortedMultiset
+public static Collector<T, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator, Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+Comparator,Function,ToIntFunction
+Collector
+com.google.common.collect.TreeMultiset$AvlNode
+rebalance
+private AvlNode<E> rebalance()
+empty
+AvlNode
+com.google.common.collect.SortedMultisets$NavigableElementSet
+subSet
+public NavigableSet<E> subSet(@ParametricNullness E fromElement, boolean fromInclusive, @ParametricNullness E toElement, boolean toInclusive)
+E,boolean,E,boolean
+NavigableSet
+com.google.common.collect.Multisets$UnmodifiableMultiset
+remove
+public boolean remove(@CheckForNull Object element)
+Object
+boolean
+com.google.common.collect.Multisets$UnmodifiableMultiset
+remove
+public int remove(@CheckForNull Object element, int occurrences)
+Object,int
+int
+com.google.common.collect.EnumMultiset
+isActuallyE
+private boolean isActuallyE(@Nullable Object o)
+Object
+boolean
+com.google.common.collect.TreeMultiset
+headMultiset
+public SortedMultiset<E> headMultiset(@Nullable E upperBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.TreeMultiset$AvlNode
+succ
+private AvlNode<E> succ()
+empty
+AvlNode
+com.google.common.collect.Multisets
+addAllImpl
+static boolean addAllImpl(Multiset<E> self, Collection<? extends E> elements)
+Multiset,Collection
+boolean
+com.google.common.collect.TreeMultiset
+firstNode
+private AvlNode<E> firstNode()
+empty
+AvlNode
+com.google.common.collect.Multisets$UnmodifiableMultiset
+add
+public boolean add(@ParametricNullness E element)
+E
+boolean
+com.google.common.collect.TreeMultiset
+distinctElements
+static int distinctElements(@CheckForNull AvlNode<?> node)
+AvlNode
+int
+com.google.common.collect.SortedMultisets
+getElementOrNull
+private static E getElementOrNull(@Nullable Entry<E> entry)
+Entry
+E
+com.google.common.collect.AbstractMultiset
+add
+public final boolean add(@ParametricNullness E element)
+E
+boolean
+com.google.common.collect.SortedMultiset
+tailMultiset
+SortedMultiset<E> tailMultiset(E lowerBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.Multisets
+toMultiset
+public static Collector<T, ?, M> toMultiset(java.util.function.Function<? super T, E> elementFunction, java.util.function.ToIntFunction<? super T> countFunction, java.util.function.Supplier<M> multisetSupplier)
+java.util.function.Function,java.util.function.ToIntFunction,java.util.function.Supplier
+Collector
+com.google.common.collect.Multisets$UnmodifiableMultiset
+add
+public int add(@ParametricNullness E element, int occurences)
+E,int
+int
+com.google.common.collect.AbstractMapBasedMultiset
+getElement
+public E getElement()
+empty
+E
+com.google.common.collect.Multisets
+intersection
+public static Multiset<E> intersection(final Multiset<E> multiset1, final Multiset<?> multiset2)
+Multiset,Multiset
+Multiset
+com.google.common.collect.SortedMultisets$NavigableElementSet
+tailSet
+public NavigableSet<E> tailSet(E fromElement, boolean inclusive)
+E,boolean
+NavigableSet
+com.google.common.collect.GeneralRange
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.collect.Multiset
+setCount
+boolean setCount(E element, int oldCount, int newCount)
+E,int,int
+boolean
+com.google.common.collect.TreeMultiset$AvlNode
+setCount
+AvlNode<E> setCount(Comparator<? super E> comparator, @ParametricNullness E e, int count, int[] result)
+Comparator,E,int,int[]
+AvlNode
+com.google.common.collect.AbstractMapBasedMultiset
+getAndSet
+private static int getAndSet(@CheckForNull Count i, int count)
+Count,int
+int
+com.google.common.collect.GeneralRange
+downTo
+static GeneralRange<T> downTo(Comparator<? super T> comparator, @ParametricNullness T endpoint, BoundType boundType)
+Comparator,T,BoundType
+GeneralRange
+com.google.common.collect.SortedMultiset
+tailMultiset
+SortedMultiset<E> tailMultiset(@ParametricNullness E lowerBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.Multisets
+equalsImpl
+static boolean equalsImpl(Multiset<?> multiset, @Nullable Object object)
+Multiset,Object
+boolean
+com.google.common.collect.TreeMultiset
+aggregateBelowRange
+private long aggregateBelowRange(Aggregate aggr, @Nullable AvlNode<E> node)
+Aggregate,AvlNode
+long
+com.google.common.collect.SortedMultisets$NavigableElementSet
+lower
+public E lower(@ParametricNullness E e)
+E
+E
+com.google.common.collect.TreeMultiset$AvlNode
+removeMax
+private AvlNode<E> removeMax(AvlNode<E> node)
+AvlNode
+AvlNode
+com.google.common.collect.AbstractMapBasedMultiset
+getAndSet
+private static int getAndSet(@Nullable Count i, int count)
+Count,int
+int
+com.google.common.collect.RegularImmutableMultiset
+RegularImmutableMultiset
+private RegularImmutableMultiset(ImmutableEntry<E>[] entries, @Nullable ImmutableEntry<?>[] hashTable, int size, int hashCode, @CheckForNull ImmutableSet<E> elementSet)
+ImmutableEntry[],ImmutableEntry[],int,int,ImmutableSet
+constructor
+com.google.common.collect.TreeMultiset$AvlNode
+addRightChild
+private AvlNode<E> addRightChild(@ParametricNullness E e, int count)
+E,int
+AvlNode
+com.google.common.collect.SortedMultisets$ElementSet
+last
+public E last()
+empty
+E
+com.google.common.collect.RegularImmutableMultiset
+RegularImmutableMultiset
+private RegularImmutableMultiset(ImmutableEntry<E>[] entries, ImmutableEntry<E>[] hashTable, int size, int hashCode, ImmutableSet<E> elementSet)
+ImmutableEntry[],ImmutableEntry[],int,int,ImmutableSet
+constructor
+com.google.common.collect.Multisets
+unmodifiableSortedMultiset
+public static SortedMultiset<E> unmodifiableSortedMultiset(SortedMultiset<E> sortedMultiset)
+SortedMultiset
+SortedMultiset
+com.google.common.collect.ImmutableMultiset$SerializedForm
+SerializedForm
+SerializedForm(Multiset<? extends Object> multiset)
+Multiset
+constructor
+com.google.common.collect.SortedMultiset
+pollLastEntry
+Entry<E> pollLastEntry()
+empty
+Entry
+com.google.common.collect.Multisets
+setCountImpl
+static int setCountImpl(Multiset<E> self, @ParametricNullness E element, int count)
+Multiset,E,int
+int
+com.google.common.collect.TreeMultiset
+aggregateBelowRange
+private long aggregateBelowRange(Aggregate aggr, @CheckForNull AvlNode<E> node)
+Aggregate,AvlNode
+long
+com.google.common.collect.TreeMultiset
+create
+public static TreeMultiset<E> create(@CheckForNull Comparator<? super E> comparator)
+Comparator
+TreeMultiset
+com.google.common.collect.AbstractMultiset
+add
+public final boolean add(@Nullable E element)
+E
+boolean
+com.google.common.collect.TreeMultiset$AvlNode
+totalCount
+private static long totalCount(@CheckForNull AvlNode<?> node)
+AvlNode
+long
+com.google.common.collect.SortedMultisets$ElementSet
+headSet
+public SortedSet<E> headSet(@ParametricNullness E toElement)
+E
+SortedSet
+com.google.common.collect.HashMultiset
+create
+public static HashMultiset<E> create(Iterable<? extends E> elements)
+Iterable
+HashMultiset
+com.google.common.collect.Multisets
+equalsImpl
+static boolean equalsImpl(Multiset<?> multiset, @CheckForNull Object object)
+Multiset,Object
+boolean
+com.google.common.collect.ForwardingMultiset
+standardSetCount
+protected int standardSetCount(E element, int count)
+E,int
+int
+com.google.common.collect.ForwardingSortedMultiset
+subMultiset
+public SortedMultiset<E> subMultiset(@ParametricNullness E lowerBound, BoundType lowerBoundType, @ParametricNullness E upperBound, BoundType upperBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.Multiset
+contains
+boolean contains(@CheckForNull Object element)
+Object
+boolean
+com.google.common.collect.Multisets
+toMultiset
+public static Collector<T, ?, M> toMultiset(Function<? super T, E> elementFunction, ToIntFunction<? super T> countFunction, Supplier<M> multisetSupplier)
+Function,ToIntFunction,Supplier
+Collector
+com.google.common.collect.Multisets
+computeNext
+protected Entry<E> computeNext()
+empty
+Entry
+com.google.common.collect.SortedMultisets$NavigableElementSet
+subSet
+public NavigableSet<E> subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive)
+E,boolean,E,boolean
+NavigableSet
+com.google.common.collect.ForwardingSortedMultiset
+standardSubMultiset
+protected SortedMultiset<E> standardSubMultiset(E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+of
+public static ImmutableSortedMultiset<E> of(E element)
+E
+ImmutableSortedMultiset
+com.google.common.collect.Multiset
+setCount
+int setCount(E element, int count)
+E,int
+int
+com.google.common.collect.AbstractSortedMultiset
+subMultiset
+public SortedMultiset<E> subMultiset(@ParametricNullness E fromElement, BoundType fromBoundType, @ParametricNullness E toElement, BoundType toBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.HashMultiset
+create
+public static HashMultiset<E> create(int distinctElements)
+int
+HashMultiset
+com.google.common.collect.TreeMultiset
+clear
+public void clear()
+empty
+void
+com.google.common.collect.ForwardingMultiset
+standardEquals
+protected boolean standardEquals(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.ForwardingSortedMultiset
+subMultiset
+public SortedMultiset<E> subMultiset(E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.GeneralRange
+upTo
+static GeneralRange<T> upTo(Comparator<? super T> comparator, @ParametricNullness T endpoint, BoundType boundType)
+Comparator,T,BoundType
+GeneralRange
+com.google.common.collect.SortedMultisets$NavigableElementSet
+headSet
+public NavigableSet<E> headSet(E toElement, boolean inclusive)
+E,boolean
+NavigableSet
+com.google.common.collect.ImmutableMultiset$SerializedForm
+SerializedForm
+SerializedForm(Multiset<?> multiset)
+Multiset
+constructor
+com.google.common.collect.TreeMultiset$AvlNode
+add
+AvlNode<E> add(Comparator<? super E> comparator, @Nullable E e, int count, int[] result)
+Comparator,E,int,int[]
+AvlNode
+com.google.common.collect.ConcurrentHashMultiset
+createElementSet
+Set<E> createElementSet()
+empty
+Set
+com.google.common.collect.ForwardingMultiset
+standardSetCount
+protected boolean standardSetCount(@ParametricNullness E element, int oldCount, int newCount)
+E,int,int
+boolean
+com.google.common.collect.TreeMultiset$AvlNode
+addLeftChild
+private AvlNode<E> addLeftChild(@ParametricNullness E e, int count)
+E,int
+AvlNode
+com.google.common.collect.Multisets
+immutableEntry
+public static Multiset.Entry<E> immutableEntry(@ParametricNullness E e, int n)
+E,int
+Multiset.Entry
+com.google.common.collect.TreeMultiset$AvlNode
+count
+public int count(Comparator<? super E> comparator, E e)
+Comparator,E
+int
+com.google.common.collect.Multisets
+setCountImpl
+static boolean setCountImpl(Multiset<E> self, E element, int oldCount, int newCount)
+Multiset,E,int,int
+boolean
+com.google.common.collect.LinkedHashMultiset
+create
+public static LinkedHashMultiset<E> create(Iterable<? extends E> elements)
+Iterable
+LinkedHashMultiset
+com.google.common.collect.TreeMultiset
+treeAggregate
+abstract long treeAggregate(@Nullable AvlNode<?> root)
+AvlNode
+long
+com.google.common.collect.ForwardingSortedMultiset
+headMultiset
+public SortedMultiset<E> headMultiset(@ParametricNullness E upperBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.ImmutableSortedMultiset
+pollLastEntry
+public final Entry<E> pollLastEntry()
+empty
+Entry
+com.google.common.collect.SortedMultiset
+subMultiset
+SortedMultiset<E> subMultiset(E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.TreeMultiset$AvlNode
+addRightChild
+private AvlNode<E> addRightChild(E e, int count)
+E,int
+AvlNode
+com.google.common.collect.HashMultiset
+create
+public static HashMultiset<E> create()
+empty
+HashMultiset
+com.google.common.collect.DescendingMultiset
+subMultiset
+public SortedMultiset<E> subMultiset(E fromElement, BoundType fromBoundType, E toElement, BoundType toBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.TreeMultiset$AvlNode
+deleteMe
+private AvlNode<E> deleteMe()
+empty
+AvlNode
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+toImmutableMultiset
+public static Collector<E, ?, ImmutableMultiset<E>> toImmutableMultiset()
+empty
+Collector
+com.google.common.collect.TreeMultiset$AvlNode
+height
+private static int height(@CheckForNull AvlNode<?> node)
+AvlNode
+int
+com.google.common.collect.GeneralRange
+tooHigh
+boolean tooHigh(@Nullable T t)
+T
+boolean
+com.google.common.collect.ForwardingSortedMultiset
+standardPollFirstEntry
+protected Entry<E> standardPollFirstEntry()
+empty
+Entry
+com.google.common.collect.ForwardingMultiset
+standardCount
+protected int standardCount(@CheckForNull Object object)
+Object
+int
+com.google.common.collect.GeneralRange
+tooHigh
+boolean tooHigh(@ParametricNullness T t)
+T
+boolean
+com.google.common.collect.EnumMultiset
+checkIsE
+private void checkIsE(Object element)
+Object
+void
+com.google.common.collect.Multisets
+elementIterator
+static Iterator<E> elementIterator(Iterator<Entry<E>> entryIterator)
+Iterator
+Iterator
+com.google.common.collect.DescendingMultiset
+headMultiset
+public SortedMultiset<E> headMultiset(E toElement, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.SortedMultisets$ElementSet
+subSet
+public SortedSet<E> subSet(E fromElement, E toElement)
+E,E
+SortedSet
+com.google.common.collect.DescendingMultiset
+headMultiset
+public SortedMultiset<E> headMultiset(@ParametricNullness E toElement, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.ForwardingMultiset
+standardContains
+protected boolean standardContains(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.SortedMultiset
+headMultiset
+SortedMultiset<E> headMultiset(E upperBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.Multisets$FilteredMultiset
+add
+public int add(@ParametricNullness E element, int occurrences)
+E,int
+int
+com.google.common.collect.Multiset
+setCount
+int setCount(@ParametricNullness E element, int count)
+E,int
+int
+com.google.common.collect.Multisets
+spliteratorImpl
+static Spliterator<E> spliteratorImpl(Multiset<E> multiset)
+Multiset
+Spliterator
+com.google.common.collect.TreeMultiset
+aggregateAboveRange
+private long aggregateAboveRange(Aggregate aggr, @Nullable AvlNode<E> node)
+Aggregate,AvlNode
+long
+com.google.common.collect.TreeMultiset$AvlNode
+ceiling
+private AvlNode<E> ceiling(Comparator<? super E> comparator, @ParametricNullness E e)
+Comparator,E
+AvlNode
+com.google.common.collect.RegularImmutableMultiset
+hashFloodingDetected
+private static boolean hashFloodingDetected(Multisets.ImmutableEntry<?>[] hashTable)
+Multisets.ImmutableEntry[]
+boolean
+com.google.common.collect.GeneralRange
+GeneralRange
+private GeneralRange(Comparator<? super T> comparator, boolean hasLowerBound, @CheckForNull T lowerEndpoint, BoundType lowerBoundType, boolean hasUpperBound, @CheckForNull T upperEndpoint, BoundType upperBoundType)
+Comparator,boolean,T,BoundType,boolean,T,BoundType
+constructor
+com.google.common.collect.SortedMultisets$NavigableElementSet
+floor
+public E floor(@ParametricNullness E e)
+E
+E
+com.google.common.collect.TreeMultiset$AvlNode
+addLeftChild
+private AvlNode<E> addLeftChild(E e, int count)
+E,int
+AvlNode
+com.google.common.collect.TreeMultiset$AvlNode
+height
+private static int height(@Nullable AvlNode<?> node)
+AvlNode
+int
+com.google.common.collect.Multisets$ImmutableEntry
+getElement
+public final E getElement()
+empty
+E
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+copyOf
+public static ImmutableSortedMultiset<E> copyOf(E[] elements)
+E[]
+ImmutableSortedMultiset
+com.google.common.collect.TreeMultiset
+descendingEntryIterator
+Iterator<Entry<E>> descendingEntryIterator()
+empty
+Iterator
+com.google.common.collect.Multisets$AbstractEntry
+equals
+public boolean equals(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.SortedMultisets$NavigableElementSet
+higher
+public E higher(@ParametricNullness E e)
+E
+E
+com.google.common.collect.Multisets
+retainOccurrencesImpl
+private static boolean retainOccurrencesImpl(Multiset<E> multisetToModify, Multiset<?> occurrencesToRetain)
+Multiset,Multiset
+boolean
+com.google.common.collect.ForwardingMultiset
+standardSetCount
+protected int standardSetCount(@ParametricNullness E element, int count)
+E,int
+int
+com.google.common.collect.Multisets$EntrySet
+remove
+public boolean remove(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.SortedMultisets$ElementSet
+headSet
+public SortedSet<E> headSet(E toElement)
+E
+SortedSet
+com.google.common.collect.Multisets$UnmodifiableMultiset
+add
+public int add(E element, int occurences)
+E,int
+int
+com.google.common.collect.ForwardingMultiset
+standardSetCount
+protected boolean standardSetCount(E element, int oldCount, int newCount)
+E,int,int
+boolean
+com.google.common.collect.ConcurrentHashMultiset
+removeExactly
+public boolean removeExactly(@CheckForNull Object element, int occurrences)
+Object,int
+boolean
+com.google.common.collect.AbstractMultiset
+remove
+public final boolean remove(@CheckForNull Object element)
+Object
+boolean
+com.google.common.collect.ForwardingMultiset
+standardRemove
+protected boolean standardRemove(@CheckForNull Object element)
+Object
+boolean
+com.google.common.collect.ImmutableSortedMultiset
+pollFirstEntry
+public final Entry<E> pollFirstEntry()
+empty
+Entry
+com.google.common.collect.DescendingMultiset
+tailMultiset
+public SortedMultiset<E> tailMultiset(E fromElement, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.GeneralRange
+contains
+boolean contains(@ParametricNullness T t)
+T
+boolean
+com.google.common.collect.TreeMultiset$AvlNode
+pred
+private AvlNode<E> pred()
+empty
+AvlNode
+com.google.common.collect.SortedMultisets$NavigableElementSet
+pollLast
+public E pollLast()
+empty
+E
+com.google.common.collect.SortedMultisets
+getElementOrThrow
+private static E getElementOrThrow(@CheckForNull Entry<E> entry)
+Entry
+E
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+of
+public static ImmutableSortedMultiset<E> of(E e1, E e2, E e3, E e4)
+E,E,E,E
+ImmutableSortedMultiset
+com.google.common.collect.Multiset
+add
+int add(@Nullable E element, int occurrences)
+E,int
+int
+com.google.common.collect.AbstractSortedMultiset
+lastEntry
+public Entry<E> lastEntry()
+empty
+Entry
+com.google.common.collect.Multisets
+count
+public int count(Object element)
+Object
+int
+com.google.common.collect.TreeMultiset
+successor
+private static void successor(AvlNode<T> a, AvlNode<T> b)
+AvlNode,AvlNode
+void
+com.google.common.collect.TreeMultiset
+readObject
+private void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException
+ObjectInputStream
+void
+com.google.common.collect.SortedMultisets$NavigableElementSet
+tailSet
+public NavigableSet<E> tailSet(@ParametricNullness E fromElement, boolean inclusive)
+E,boolean
+NavigableSet
+com.google.common.collect.SortedMultisets$NavigableElementSet
+pollFirst
+public E pollFirst()
+empty
+E
+com.google.common.collect.TreeMultiset$AvlNode
+ceiling
+private AvlNode<E> ceiling(Comparator<? super E> comparator, E e)
+Comparator,E
+AvlNode
+com.google.common.collect.Multisets
+elementIterator
+Iterator<E> elementIterator()
+empty
+Iterator
+com.google.common.collect.SortedMultisets$ElementSet
+first
+public E first()
+empty
+E
+com.google.common.collect.ImmutableMultiset
+remove
+public final int remove(Object element, int occurrences)
+Object,int
+int
+com.google.common.collect.Multisets
+iteratorImpl
+static Iterator<E> iteratorImpl(Multiset<E> multiset)
+Multiset
+Iterator
+com.google.common.collect.Multiset
+setCount
+boolean setCount(@ParametricNullness E element, int oldCount, int newCount)
+E,int,int
+boolean
+com.google.common.collect.Multiset
+equals
+boolean equals(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.Multisets$MultisetIteratorImpl
+next
+public E next()
+empty
+E
+com.google.common.collect.RegularImmutableMultiset
+hashFloodingDetected
+private static boolean hashFloodingDetected(@Nullable ImmutableEntry<?>[] hashTable)
+ImmutableEntry[]
+boolean
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+of
+public static ImmutableSortedMultiset<E> of(E e1, E e2)
+E,E
+ImmutableSortedMultiset
+com.google.common.collect.TreeMultiset$AvlNode
+remove
+AvlNode<E> remove(Comparator<? super E> comparator, @ParametricNullness E e, int count, int[] result)
+Comparator,E,int,int[]
+AvlNode
+com.google.common.collect.Multisets
+unmodifiableMultiset
+public static Multiset<E> unmodifiableMultiset(Multiset<? extends E> multiset)
+Multiset
+Multiset
+com.google.common.collect.Multiset$Entry
+getElement
+E getElement()
+empty
+E
+com.google.common.collect.LinkedHashMultiset
+create
+public static LinkedHashMultiset<E> create(int distinctElements)
+int
+LinkedHashMultiset
+com.google.common.collect.TreeMultiset$Reference
+get
+public T get()
+empty
+T
+com.google.common.collect.SortedMultisets$ElementSet
+tailSet
+public SortedSet<E> tailSet(E fromElement)
+E
+SortedSet
+com.google.common.collect.ImmutableMultiset
+remove
+public final int remove(@CheckForNull Object element, int occurrences)
+Object,int
+int
+com.google.common.collect.Multisets$UnmodifiableMultiset
+setCount
+public int setCount(@ParametricNullness E element, int count)
+E,int
+int
+com.google.common.collect.Multisets$AbstractEntry
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.TreeMultiset
+aggregateAboveRange
+private long aggregateAboveRange(Aggregate aggr, @CheckForNull AvlNode<E> node)
+Aggregate,AvlNode
+long
+com.google.common.collect.GeneralRange
+intersect
+GeneralRange<T> intersect(GeneralRange<T> other)
+GeneralRange
+GeneralRange
+com.google.common.collect.AbstractMultiset
+equals
+public final boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.TreeMultiset
+next
+public Entry<E> next()
+empty
+Entry
+com.google.common.collect.TreeMultiset$AvlNode
+count
+int count(Comparator<? super E> comparator, @ParametricNullness E e)
+Comparator,E
+int
+com.google.common.collect.EnumMultiset
+checkIsE
+void checkIsE(@Nullable Object element)
+Object
+void
+com.google.common.collect.ForwardingSortedMultiset
+tailMultiset
+public SortedMultiset<E> tailMultiset(@ParametricNullness E lowerBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+of
+public static ImmutableSortedMultiset<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E... remaining)
+E,E,E,E,E,E,E...
+ImmutableSortedMultiset
+com.google.common.collect.SortedMultisets$NavigableElementSet
+lower
+public E lower(E e)
+E
+E
+com.google.common.collect.Multisets
+addAllImpl
+private static boolean addAllImpl(Multiset<E> self, Multiset<? extends E> elements)
+Multiset,Multiset
+boolean
+com.google.common.collect.Multisets$ImmutableEntry
+ImmutableEntry
+ImmutableEntry(@ParametricNullness E element, int count)
+E,int
+constructor
+com.google.common.collect.ImmutableSortedMultisetFauxverideShim
+builder
+public static ImmutableSortedMultiset.Builder<E> builder()
+empty
+ImmutableSortedMultiset.Builder
+com.google.common.collect.GeneralRange
+isEmpty
+boolean isEmpty()
+empty
+boolean
+com.google.common.collect.GeneralRange
+upTo
+static GeneralRange<T> upTo(Comparator<? super T> comparator, @Nullable T endpoint, BoundType boundType)
+Comparator,T,BoundType
+GeneralRange
+com.google.common.collect.AbstractSortedMultiset
+pollLastEntry
+public Entry<E> pollLastEntry()
+empty
+Entry
+com.google.common.collect.SortedMultisets$NavigableElementSet
+ceiling
+public E ceiling(E e)
+E
+E
+com.google.common.collect.Multiset
+count
+int count(@CompatibleWith("E") @CheckForNull Object element)
+Object
+int
+com.google.common.collect.EnumMultiset
+isActuallyE
+private boolean isActuallyE(@CheckForNull Object o)
+Object
+boolean
+com.google.common.collect.SortedMultisets$ElementSet
+tailSet
+public SortedSet<E> tailSet(@ParametricNullness E fromElement)
+E
+SortedSet
+com.google.common.collect.AbstractSortedMultiset
+subMultiset
+public SortedMultiset<E> subMultiset(@Nullable E fromElement, BoundType fromBoundType, @Nullable E toElement, BoundType toBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.Multisets
+setCountImpl
+static int setCountImpl(Multiset<E> self, E element, int count)
+Multiset,E,int
+int
+com.google.common.collect.Multisets$ElementSet
+remove
+public boolean remove(@CheckForNull Object o)
+Object
+boolean
+com.google.common.collect.TreeMultiset$AvlNode
+AvlNode
+AvlNode()
+empty
+constructor
+com.google.common.collect.ForwardingMultiset
+standardContains
+protected boolean standardContains(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.ForwardingSortedMultiset
+tailMultiset
+public SortedMultiset<E> tailMultiset(E lowerBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.TreeMultiset$AvlNode
+add
+AvlNode<E> add(Comparator<? super E> comparator, @ParametricNullness E e, int count, int[] result)
+Comparator,E,int,int[]
+AvlNode
+com.google.common.collect.ForwardingMultiset
+standardEquals
+protected boolean standardEquals(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.Multiset
+contains
+boolean contains(@Nullable Object element)
+Object
+boolean
+com.google.common.collect.SortedMultisets$NavigableElementSet
+ceiling
+public E ceiling(@ParametricNullness E e)
+E
+E
+com.google.common.collect.ImmutableMultiset
+contains
+public boolean contains(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.AbstractMapBasedMultiset
+entryIterator
+Iterator<Entry<E>> entryIterator()
+empty
+Iterator
+com.google.common.collect.GeneralRange
+equals
+public boolean equals(@CheckForNull Object obj)
+Object
+boolean
+com.google.common.collect.GeneralRange
+contains
+boolean contains(@Nullable T t)
+T
+boolean
+com.google.common.collect.TreeMultiset
+wrapEntry
+private Entry<E> wrapEntry(final AvlNode<E> baseEntry)
+AvlNode
+Entry
+com.google.common.collect.TreeMultiset$AvlNode
+totalCount
+private static long totalCount(@Nullable AvlNode<?> node)
+AvlNode
+long
+com.google.common.collect.SortedMultisets$ElementSet
+subSet
+public SortedSet<E> subSet(@ParametricNullness E fromElement, @ParametricNullness E toElement)
+E,E
+SortedSet
+com.google.common.collect.Multiset
+remove
+int remove(@CompatibleWith("E") @CheckForNull Object element, int occurrences)
+Object,int
+int
+com.google.common.collect.AbstractSortedMultiset
+firstEntry
+public Entry<E> firstEntry()
+empty
+Entry
+com.google.common.collect.Multisets
+contains
+public boolean contains(@CheckForNull Object element)
+Object
+boolean
+com.google.common.collect.ForwardingSortedMultiset
+headMultiset
+public SortedMultiset<E> headMultiset(E upperBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.TreeMultiset
+lastNode
+private AvlNode<E> lastNode()
+empty
+AvlNode
+com.google.common.collect.TreeMultiset$AvlNode
+removeMin
+private AvlNode<E> removeMin(AvlNode<E> node)
+AvlNode
+AvlNode
+com.google.common.collect.TreeMultiset
+forEachEntry
+public void forEachEntry(ObjIntConsumer<? super E> action)
+ObjIntConsumer
+void
+com.google.common.collect.ForwardingMultiset
+standardAdd
+protected boolean standardAdd(@ParametricNullness E element)
+E
+boolean
+com.google.common.collect.Multiset
+add
+boolean add(E element)
+E
+boolean
+com.google.common.collect.SortedMultiset
+pollFirstEntry
+Entry<E> pollFirstEntry()
+empty
+Entry
+com.google.common.collect.Multisets$ElementSet
+contains
+public boolean contains(Object o)
+Object
+boolean
+com.google.common.collect.SortedMultisets$NavigableElementSet
+higher
+public E higher(E e)
+E
+E
+com.google.common.collect.Multiset
+remove
+boolean remove(@CheckForNull Object element)
+Object
+boolean
+com.google.common.collect.GeneralRange
+range
+static GeneralRange<T> range(Comparator<? super T> comparator, @Nullable T lower, BoundType lowerType, @Nullable T upper, BoundType upperType)
+Comparator,T,BoundType,T,BoundType
+GeneralRange
+com.google.common.collect.GeneralRange
+range
+static GeneralRange<T> range(Comparator<? super T> comparator, @ParametricNullness T lower, BoundType lowerType, @ParametricNullness T upper, BoundType upperType)
+Comparator,T,BoundType,T,BoundType
+GeneralRange
+com.google.common.collect.TreeMultiset$AvlNode
+AvlNode
+AvlNode(@ParametricNullness E elem, int elemCount)
+E,int
+constructor
+com.google.common.collect.Multiset
+add
+int add(@ParametricNullness E element, int occurrences)
+E,int
+int
+com.google.common.collect.TreeMultiset$AvlNode
+setCount
+AvlNode<E> setCount(Comparator<? super E> comparator, @ParametricNullness E e, int expectedCount, int newCount, int[] result)
+Comparator,E,int,int,int[]
+AvlNode
+com.google.common.collect.Multisets$UnmodifiableMultiset
+remove
+public boolean remove(Object element)
+Object
+boolean
+com.google.common.collect.ForwardingSortedMultiset
+standardPollLastEntry
+protected Entry<E> standardPollLastEntry()
+empty
+Entry
+com.google.common.collect.SortedMultiset
+headMultiset
+SortedMultiset<E> headMultiset(@ParametricNullness E upperBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.ImmutableMultiset
+toImmutableMultiset
+public static Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+Function,ToIntFunction
+Collector
+com.google.common.collect.SortedMultiset
+subMultiset
+SortedMultiset<E> subMultiset(@ParametricNullness E lowerBound, BoundType lowerBoundType, @ParametricNullness E upperBound, BoundType upperBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.Multiset$Entry
+equals
+boolean equals(Object o)
+Object
+boolean
+com.google.common.collect.Multisets
+setCountImpl
+static boolean setCountImpl(Multiset<E> self, @ParametricNullness E element, int oldCount, int newCount)
+Multiset,E,int,int
+boolean
+com.google.common.collect.Multisets$ElementSet
+remove
+public boolean remove(Object o)
+Object
+boolean
+com.google.common.collect.GeneralRange
+getLowerEndpoint
+T getLowerEndpoint()
+empty
+T
+com.google.common.collect.TreeMultiset
+treeAggregate
+long treeAggregate(@CheckForNull AvlNode<?> root)
+AvlNode
+long
+com.google.common.collect.Multisets$UnmodifiableMultiset
+setCount
+public boolean setCount(E element, int oldCount, int newCount)
+E,int,int
+boolean
+com.google.common.collect.TreeMultiset
+treeAggregate
+abstract long treeAggregate(@CheckForNull AvlNode<?> root)
+AvlNode
+long
+com.google.common.collect.TreeMultiset
+treeAggregate
+long treeAggregate(@Nullable AvlNode<?> root)
+AvlNode
+long
+com.google.common.collect.Multisets
+sum
+public static Multiset<E> sum(final Multiset<? extends E> multiset1, final Multiset<? extends E> multiset2)
+Multiset,Multiset
+Multiset
+com.google.common.collect.GeneralRange
+tooLow
+boolean tooLow(@Nullable T t)
+T
+boolean
+com.google.common.collect.Multiset
+add
+boolean add(@ParametricNullness E element)
+E
+boolean
+com.google.common.collect.TreeMultiset$AvlNode
+floor
+private AvlNode<E> floor(Comparator<? super E> comparator, @ParametricNullness E e)
+Comparator,E
+AvlNode
+com.google.common.collect.TreeMultiset
+tailMultiset
+public SortedMultiset<E> tailMultiset(@Nullable E lowerBound, BoundType boundType)
+E,BoundType
+SortedMultiset

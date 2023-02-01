@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "187": "    @Override public Set<Entry<K, V>> entries() {\n"
+    },
+    "removed": {
+        "187": "    @Override public Set<Map.Entry<K, V>> entries() {\n"
+    }
+}

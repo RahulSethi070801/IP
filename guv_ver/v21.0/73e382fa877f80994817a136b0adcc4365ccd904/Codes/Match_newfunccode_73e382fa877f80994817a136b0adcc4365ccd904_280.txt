@@ -1,0 +1,4 @@
+@Override
+default Spliterator<E> spliterator() {
+    return Multisets.spliteratorImpl(this);
+}

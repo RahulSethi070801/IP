@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "163": "  private static <E> E getElementOrNull(@NullableDecl Entry<E> entry) {\n"
+    },
+    "removed": {
+        "31": "import javax.annotation.Nullable;\n",
+        "163": "  private static <E> E getElementOrNull(@Nullable Entry<E> entry) {\n"
+    }
+}

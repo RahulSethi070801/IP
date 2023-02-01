@@ -1,0 +1,6 @@
+public static void write(byte[] from, File to) throws IOException
+public static void write(CharSequence from, File to, Charset charset) throws IOException
+
+public static byte[] toByteArray(File file) throws IOException
+public static void write(CharSequence from, File to, Charset charset) throws IOException
+

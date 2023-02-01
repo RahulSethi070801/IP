@@ -1,0 +1,10 @@
+com.google.common.graph.GraphBuilder
+copy
+GraphBuilder<N> copy()
+empty
+GraphBuilder
+com.google.common.graph.ImmutableGraph$Builder
+Builder
+Builder(GraphBuilder<N> graphBuilder)
+GraphBuilder
+constructor

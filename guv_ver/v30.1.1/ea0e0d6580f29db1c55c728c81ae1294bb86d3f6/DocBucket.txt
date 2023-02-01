@@ -1,0 +1,10 @@
+com.google.common.collect.SortedMultiset
+lastEntry
+Entry<E> lastEntry()
+empty
+Entry
+com.google.common.collect.SortedMultiset
+firstEntry
+Entry<E> firstEntry()
+empty
+Entry

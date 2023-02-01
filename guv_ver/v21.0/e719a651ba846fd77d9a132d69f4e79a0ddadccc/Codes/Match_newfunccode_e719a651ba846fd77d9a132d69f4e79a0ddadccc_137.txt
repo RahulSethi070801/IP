@@ -1,0 +1,8 @@
+@Override
+public void readFully(byte[] b, int off, int len) {
+    try {
+        input.readFully(b, off, len);
+    } catch (IOException e) {
+        throw new IllegalStateException(e);
+    }
+}

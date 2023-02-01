@@ -1,0 +1,4 @@
+CollectionIsEmptyTester_2
+Insertions: [26, 27]
+Deletions: [26, 27, 28]
+guava-testlib/src/com/google/common/collect/testing/testers/CollectionIsEmptyTester.java

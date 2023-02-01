@@ -1,0 +1,4 @@
+CompactHashing_2
+Insertions: [101, 102, 103, 104, 105, 116, 117, 118, 119, 120, 121, 122]
+Deletions: []
+guava/src/com/google/common/collect/CompactHashing.java

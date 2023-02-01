@@ -1,0 +1,46 @@
+@Override
+Iterator<Entry<E>> descendingEntryIterator() {
+    return new Iterator<Entry<E>>() {
+
+        @CheckForNull
+        AvlNode<E> current = lastNode();
+
+        @CheckForNull
+        Entry<E> prevEntry = null;
+
+        @Override
+        public boolean hasNext() {
+            if (current == null) {
+                return false;
+            } else if (range.tooLow(current.getElement())) {
+                current = null;
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        @Override
+        public Entry<E> next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            requireNonNull(current);
+            Entry<E> result = wrapEntry(current);
+            prevEntry = result;
+            if (current.pred() == header) {
+                current = null;
+            } else {
+                current = current.pred();
+            }
+            return result;
+        }
+
+        @Override
+        public void remove() {
+            checkState(prevEntry != null, "no calls to next() since the last call to remove()");
+            setCount(prevEntry.getElement(), 0);
+            prevEntry = null;
+        }
+    };
+}

@@ -1,0 +1,7 @@
+
+   * Binary searches the list for the specified key, using the specified key function.
+   *
+   * <p>Equivalent to {@link #binarySearch(List, Object, Comparator, KeyPresentBehavior,
+   * KeyAbsentBehavior)} using {@link Lists#transform(List, Function) Lists.transform(list,
+   * keyFunction)}.
+   

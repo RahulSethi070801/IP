@@ -1,0 +1,8 @@
+
+     * {@inheritDoc}
+     *
+     * <p>The hash code of a multiset entry for element {@code element} and
+     * count {@code count} is defined as: <pre>   {@code
+     *
+     *   ((element == null) ? 0 : element.hashCode()) ^ count}</pre>
+     

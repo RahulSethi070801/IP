@@ -1,0 +1,5 @@
+static <K, V> void putAllImpl(Map<K, V> self, Map<? extends K, ? extends V> map) {
+    for (Entry<? extends K, ? extends V> entry : map.entrySet()) {
+        self.put(entry.getKey(), entry.getValue());
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "27": " * Minimal emulation of {@link java.util.concurrent.ConcurrentHashMap}. Note that the javascript\n",
+        "28": " * interpreter is <a\n",
+        "30": " * single-threaded</a>, it is essentially a {@link java.util.HashMap}, implementing the new methods\n",
+        "31": " * introduced by {@link ConcurrentMap}.\n",
+        "35": "public class ConcurrentHashMap<K, V> extends AbstractMap<K, V> implements ConcurrentMap<K, V> {\n",
+        "93": "  @Override\n",
+        "94": "  public boolean containsKey(Object key) {\n",
+        "101": "  @Override\n",
+        "102": "  public V get(Object key) {\n",
+        "109": "  @Override\n",
+        "110": "  public V put(K key, V value) {\n",
+        "117": "  @Override\n",
+        "118": "  public boolean containsValue(Object value) {\n",
+        "125": "  @Override\n",
+        "126": "  public V remove(Object key) {\n",
+        "133": "  @Override\n",
+        "134": "  public Set<Entry<K, V>> entrySet() {\n"
+    },
+    "removed": {
+        "27": " * Minimal emulation of {@link java.util.concurrent.ConcurrentHashMap}.\n",
+        "28": " * Note that the javascript interpreter is <a\n",
+        "30": " * single-threaded</a>, it is essentially a {@link java.util.HashMap},\n",
+        "31": " * implementing the new methods introduced by {@link ConcurrentMap}.\n",
+        "35": "public class ConcurrentHashMap<K, V>\n",
+        "36": "    extends AbstractMap<K, V> implements ConcurrentMap<K, V> {\n",
+        "94": "  @Override public boolean containsKey(Object key) {\n",
+        "101": "  @Override public V get(Object key) {\n",
+        "108": "  @Override public V put(K key, V value) {\n",
+        "115": "  @Override public boolean containsValue(Object value) {\n",
+        "122": "  @Override public V remove(Object key) {\n",
+        "129": "  @Override public Set<Entry<K, V>> entrySet() {\n"
+    }
+}

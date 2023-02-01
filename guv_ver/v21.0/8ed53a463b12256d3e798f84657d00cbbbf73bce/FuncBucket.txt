@@ -1,0 +1,15 @@
+com.google.common.graph.DirectedGraph
+incidentNodes
+Set<N> incidentNodes(Object edge)
+Object
+Set
+com.google.common.graph.DirectedGraph
+addEdge
+boolean addEdge(E edge, N source, N target)
+E,N,N
+boolean
+com.google.common.graph.DirectedGraph
+edgesConnecting
+Set<E> edgesConnecting(Object source, Object target)
+Object,Object
+Set

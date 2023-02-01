@@ -1,0 +1,6 @@
+@Override
+final Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable) {
+    ReschedulableCallable task = new ReschedulableCallable(service, executor, runnable);
+    task.reschedule();
+    return task;
+}

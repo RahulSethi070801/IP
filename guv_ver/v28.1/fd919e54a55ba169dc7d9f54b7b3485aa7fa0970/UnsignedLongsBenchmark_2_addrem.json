@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "51": "  @Benchmark\n",
+        "52": "  long divide(int reps) {\n",
+        "61": "  @Benchmark\n",
+        "62": "  long remainder(int reps) {\n",
+        "71": "  @Benchmark\n",
+        "72": "  long parseUnsignedLong(int reps) {\n",
+        "86": "  @Benchmark\n",
+        "87": "  long parseDecode10(int reps) {\n",
+        "96": "  @Benchmark\n",
+        "97": "  long parseDecode16(int reps) {\n",
+        "106": "  @Benchmark\n",
+        "107": "  int toString(int reps) {\n"
+    },
+    "removed": {
+        "51": "  @Benchmark long divide(int reps) {\n",
+        "60": "  @Benchmark long remainder(int reps) {\n",
+        "69": "  @Benchmark long parseUnsignedLong(int reps) {\n",
+        "83": "  @Benchmark long parseDecode10(int reps) {\n",
+        "92": "  @Benchmark long parseDecode16(int reps) {\n",
+        "101": "  @Benchmark int toString(int reps) {\n"
+    }
+}

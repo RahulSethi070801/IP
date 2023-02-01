@@ -1,0 +1,3 @@
+
+     * Waits uninterruptibly for {@code newValue} to be loaded, and then records loading stats.
+     

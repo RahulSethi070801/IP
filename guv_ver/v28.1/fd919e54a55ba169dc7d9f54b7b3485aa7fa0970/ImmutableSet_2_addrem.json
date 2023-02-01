@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "164": "  @Override\n",
+        "165": "  public boolean equals(Object obj) {\n",
+        "169": "  @Override\n",
+        "170": "  public int hashCode() {\n",
+        "223": "    @Override\n",
+        "224": "    public Builder<E> add(E element) {\n",
+        "229": "    @Override\n",
+        "230": "    public Builder<E> add(E... elements) {\n",
+        "237": "    @Override\n",
+        "238": "    public Builder<E> addAll(Iterable<? extends E> elements) {\n",
+        "247": "    @Override\n",
+        "248": "    public Builder<E> addAll(Iterator<? extends E> elements) {\n",
+        "258": "    @Override\n",
+        "259": "    public ImmutableSet<E> build() {\n"
+    },
+    "removed": {
+        "164": "  @Override public boolean equals(Object obj) {\n",
+        "168": "  @Override public int hashCode() {\n",
+        "221": "    @Override public Builder<E> add(E element) {\n",
+        "226": "    @Override public Builder<E> add(E... elements) {\n",
+        "233": "    @Override public Builder<E> addAll(Iterable<? extends E> elements) {\n",
+        "242": "    @Override public Builder<E> addAll(Iterator<? extends E> elements) {\n",
+        "252": "    @Override public ImmutableSet<E> build() {\n"
+    }
+}

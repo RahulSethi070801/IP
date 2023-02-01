@@ -1,0 +1,20 @@
+public static <T> UnmodifiableIterator<T> singletonIterator(@NullableDecl final T value) {
+    return new UnmodifiableIterator<T>() {
+
+        boolean done;
+
+        @Override
+        public boolean hasNext() {
+            return !done;
+        }
+
+        @Override
+        public T next() {
+            if (done) {
+                throw new NoSuchElementException();
+            }
+            done = true;
+            return value;
+        }
+    };
+}

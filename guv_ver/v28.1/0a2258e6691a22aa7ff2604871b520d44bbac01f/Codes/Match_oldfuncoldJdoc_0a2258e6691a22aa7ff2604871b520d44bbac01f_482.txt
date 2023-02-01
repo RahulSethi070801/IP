@@ -1,0 +1,6 @@
+
+   * Returns {@code true} if this fluent iterable contains any object for which {@code
+   * equals(target)} is true.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code stream.anyMatch(Predicate.isEqual(target))}.
+   

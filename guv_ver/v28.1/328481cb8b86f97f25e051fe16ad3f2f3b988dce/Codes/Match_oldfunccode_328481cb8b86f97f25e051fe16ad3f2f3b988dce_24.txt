@@ -1,0 +1,11 @@
+void unregister(Object listener) {
+    Multimap<Class<?>, Subscriber> listenerMethods = findAllSubscribers(listener);
+    for (Map.Entry<Class<?>, Collection<Subscriber>> entry : listenerMethods.asMap().entrySet()) {
+        Class<?> eventType = entry.getKey();
+        Collection<Subscriber> listenerMethodsForType = entry.getValue();
+        CopyOnWriteArraySet<Subscriber> currentSubscribers = subscribers.get(eventType);
+        if (currentSubscribers == null || !currentSubscribers.removeAll(listenerMethodsForType)) {
+            throw new IllegalArgumentException("missing event subscriber for an annotated method. Is " + listener + " registered?");
+        }
+    }
+}

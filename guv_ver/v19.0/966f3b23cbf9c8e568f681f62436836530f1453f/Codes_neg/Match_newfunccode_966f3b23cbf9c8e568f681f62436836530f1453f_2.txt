@@ -1,0 +1,10 @@
+@Nullable
+private static Method getJlaMethod(String name, Class<?>... parameterTypes) throws ThreadDeath {
+    try {
+        return Class.forName(JAVA_LANG_ACCESS_CLASSNAME, false, null).getMethod(name, parameterTypes);
+    } catch (ThreadDeath death) {
+        throw death;
+    } catch (Throwable t) {
+        return null;
+    }
+}

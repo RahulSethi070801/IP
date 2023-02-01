@@ -1,0 +1,5 @@
+com.google.common.io.ByteSource
+slice
+public ByteSource slice(long offset, long length)
+long,long
+ByteSource

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "56": " * Tests for {@link StatsAccumulator}. This tests the stats methods for instances built with {@link\n",
+        "57": " * StatsAccumulator#add} and {@link StatsAccumulator#addAll}, and various error cases of the {@link\n",
+        "58": " * StatsAccumulator#add} and {@link StatsAccumulator#addAll} methods. For tests of the {@link\n",
+        "59": " * StatsAccumulator#snapshot} method which returns {@link Stats} instances, see {@link StatsTest}.\n"
+    },
+    "removed": {
+        "56": " * Tests for {@link StatsAccumulator}. This tests the stats methods for instances built with\n",
+        "57": " * {@link StatsAccumulator#add} and {@link StatsAccumulator#addAll}, and various error cases of the\n",
+        "58": " * {@link StatsAccumulator#add} and {@link StatsAccumulator#addAll} methods. For tests of the\n",
+        "59": " * {@link StatsAccumulator#snapshot} method which returns {@link Stats} instances, see\n",
+        "60": " * {@link StatsTest}.\n"
+    }
+}

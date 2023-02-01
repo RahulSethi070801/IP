@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "31": " *\n",
+        "33": " *   <li>whether threads should be marked as {@linkplain Thread#setDaemon daemon} threads\n",
+        "34": " *   <li>a {@linkplain ThreadFactoryBuilder#setNameFormat naming format}\n",
+        "35": " *   <li>a {@linkplain Thread#setPriority thread priority}\n",
+        "36": " *   <li>an {@linkplain Thread#setUncaughtExceptionHandler uncaught exception handler}\n",
+        "37": " *   <li>a {@linkplain ThreadFactory#newThread backing thread factory}\n",
+        "39": " *\n",
+        "55": "  /** Creates a new {@link ThreadFactory} builder. */\n",
+        "65": "   *     example, {@code \"rpc-pool-%d\"} will generate thread names like {@code \"rpc-pool-0\"}, {@code\n",
+        "66": "   *     \"rpc-pool-1\"}, {@code \"rpc-pool-2\"}, etc.\n"
+    },
+    "removed": {
+        "32": " * <li>whether threads should be marked as {@linkplain Thread#setDaemon daemon} threads\n",
+        "33": " * <li>a {@linkplain ThreadFactoryBuilder#setNameFormat naming format}\n",
+        "34": " * <li>a {@linkplain Thread#setPriority thread priority}\n",
+        "35": " * <li>an {@linkplain Thread#setUncaughtExceptionHandler uncaught exception handler}\n",
+        "36": " * <li>a {@linkplain ThreadFactory#newThread backing thread factory}\n",
+        "53": "  /**\n",
+        "54": "   * Creates a new {@link ThreadFactory} builder.\n",
+        "55": "   */\n",
+        "65": "   *     example, {@code \"rpc-pool-%d\"} will generate thread names like {@code \"rpc-pool-0\"},\n",
+        "66": "   *     {@code \"rpc-pool-1\"}, {@code \"rpc-pool-2\"}, etc.\n",
+        "129": "   *\n"
+    }
+}

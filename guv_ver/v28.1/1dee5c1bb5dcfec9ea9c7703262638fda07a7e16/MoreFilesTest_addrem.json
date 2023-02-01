@@ -1,0 +1,7 @@
+{
+    "addition": {},
+    "removed": {
+        "51": " * <p>Note: {@link MoreFiles#fileTraverser()} is tested in {@link MoreFilesFileTraverserTest}.\n",
+        "52": " *\n"
+    }
+}

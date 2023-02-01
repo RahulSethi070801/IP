@@ -1,0 +1,9 @@
+protected final void notifyStopped()
+protected abstract void doStop()
+
+public final Service stopAsync()
+protected abstract void doStop()
+
+protected final void notifyFailed(Throwable cause)
+protected abstract void doStop()
+

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "25": "    <dependency>\n",
+        "26": "      <groupId>org.checkerframework</groupId>\n",
+        "27": "      <artifactId>checker-qual</artifactId>\n",
+        "28": "    </dependency>\n"
+    },
+    "removed": {}
+}

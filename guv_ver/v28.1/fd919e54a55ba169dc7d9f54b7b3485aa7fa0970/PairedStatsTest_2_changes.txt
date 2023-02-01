@@ -1,0 +1,4 @@
+PairedStatsTest_2
+Insertions: [60, 61, 266, 267, 313, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 337, 338, 339, 340, 341]
+Deletions: [60, 61, 266, 267, 268, 269, 315, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 338, 339, 340, 341]
+guava-tests/test/com/google/common/math/PairedStatsTest.java

@@ -1,0 +1,14 @@
+static boolean equalsImpl(Set<?> s, @Nullable Object object) {
+    if (s == object) {
+        return true;
+    }
+    if (object instanceof Set) {
+        Set<?> o = (Set<?>) object;
+        try {
+            return s.size() == o.size() && s.containsAll(o);
+        } catch (NullPointerException | ClassCastException ignored) {
+            return false;
+        }
+    }
+    return false;
+}

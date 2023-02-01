@@ -1,0 +1,4 @@
+@Override
+public void writeUTF(String str) throws IOException {
+    ((DataOutputStream) out).writeUTF(str);
+}

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "16": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "180": "  final void retryUpdate(long x, @NullableDecl int[] hc, boolean wasUncontended) {\n"
+    },
+    "removed": {
+        "16": "import javax.annotation.Nullable;\n",
+        "180": "  final void retryUpdate(long x, @Nullable int[] hc, boolean wasUncontended) {\n"
+    }
+}

@@ -1,0 +1,55 @@
+com.google.common.graph.AbstractGraph
+equals
+public final boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.graph.AbstractNetwork
+toString
+public String toString()
+empty
+String
+com.google.common.graph.AbstractNetwork
+apply
+public EndpointPair<N> apply(E edge)
+E
+EndpointPair
+com.google.common.graph.AbstractNetwork
+edgeIncidentNodesMap
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+Network
+Map
+com.google.common.graph.AbstractValueGraph
+edgeValueMap
+private Map<EndpointPair<N>, V> edgeValueMap()
+empty
+Map
+com.google.common.graph.AbstractValueGraph
+edgeValueMap
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+ValueGraph
+Map
+com.google.common.graph.AbstractGraph
+hashCode
+public final int hashCode()
+empty
+int
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+Graph,Graph
+boolean
+com.google.common.graph.AbstractNetwork
+edgeIncidentNodesMap
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+empty
+Map
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+ValueGraph,ValueGraph
+boolean
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+Network,Network
+boolean

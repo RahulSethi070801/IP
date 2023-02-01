@@ -1,0 +1,4 @@
+Delayed
+Insertions: [13, 15]
+Deletions: [13, 14, 15, 17]
+guava-gwt/src-super/java/util/super/java/util/concurrent/Delayed.java

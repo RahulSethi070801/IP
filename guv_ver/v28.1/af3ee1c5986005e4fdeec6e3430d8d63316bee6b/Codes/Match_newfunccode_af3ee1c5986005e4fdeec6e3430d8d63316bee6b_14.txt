@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+V removeEdge(EndpointPair<N> endpoints);

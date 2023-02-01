@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "34": "import javax.annotation.CheckForNull;\n",
+        "60": "@ElementTypesAreNonnullByDefault\n",
+        "99": "  // All subclasses are owned by us and we'll make sure to get the R type right, including nullness.\n",
+        "100": "  @SuppressWarnings({\"unchecked\", \"nullness\"})\n",
+        "102": "  @CheckForNull\n",
+        "103": "  public final R invoke(@CheckForNull T receiver, @Nullable Object... args)\n",
+        "183": "  @CheckForNull\n",
+        "184": "  abstract Object invokeInternal(@CheckForNull Object receiver, @Nullable Object[] args)\n",
+        "210": "    @CheckForNull\n",
+        "211": "    final Object invokeInternal(@CheckForNull Object receiver, @Nullable Object[] args)\n",
+        "275": "    final Object invokeInternal(@CheckForNull Object receiver, @Nullable Object[] args)\n"
+    },
+    "removed": {
+        "97": "  // All subclasses are owned by us and we'll make sure to get the R type right.\n",
+        "98": "  @SuppressWarnings(\"unchecked\")\n",
+        "100": "  public final R invoke(@Nullable T receiver, Object... args)\n",
+        "180": "  abstract Object invokeInternal(@Nullable Object receiver, Object[] args)\n",
+        "206": "    final Object invokeInternal(@Nullable Object receiver, Object[] args)\n",
+        "270": "    final Object invokeInternal(@Nullable Object receiver, Object[] args)\n"
+    }
+}

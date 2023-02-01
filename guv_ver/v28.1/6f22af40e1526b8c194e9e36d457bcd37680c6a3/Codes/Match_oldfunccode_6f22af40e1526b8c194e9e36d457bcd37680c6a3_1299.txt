@@ -1,0 +1,4 @@
+@Override
+public E apply(@Nullable Object from) {
+    return value;
+}

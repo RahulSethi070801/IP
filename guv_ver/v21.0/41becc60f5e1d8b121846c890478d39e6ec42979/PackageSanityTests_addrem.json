@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "35": "      GraphBuilder.directed().allowsSelfLoops(false).expectedNodeCount(16);\n"
+    },
+    "removed": {
+        "35": "      ValueGraphBuilder.directed().allowsSelfLoops(false).expectedNodeCount(16);\n"
+    }
+}

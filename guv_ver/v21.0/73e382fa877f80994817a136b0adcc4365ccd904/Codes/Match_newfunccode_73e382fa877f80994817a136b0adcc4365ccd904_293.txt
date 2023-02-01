@@ -1,0 +1,4 @@
+@Beta
+public static <E> Collector<E, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator) {
+    return toImmutableSortedMultiset(comparator, Function.identity(), e -> 1);
+}

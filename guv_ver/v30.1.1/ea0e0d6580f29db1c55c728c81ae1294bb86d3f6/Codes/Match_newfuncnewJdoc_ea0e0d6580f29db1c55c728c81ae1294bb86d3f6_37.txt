@@ -1,0 +1,1 @@
+ Returns the whole range relative to the specified comparator. 

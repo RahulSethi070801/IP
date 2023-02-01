@@ -1,0 +1,4 @@
+PowerSetBenchmark
+Insertions: [32, 33, 37, 38, 43, 44]
+Deletions: [32, 36, 41]
+android/guava-tests/benchmark/com/google/common/collect/PowerSetBenchmark.java

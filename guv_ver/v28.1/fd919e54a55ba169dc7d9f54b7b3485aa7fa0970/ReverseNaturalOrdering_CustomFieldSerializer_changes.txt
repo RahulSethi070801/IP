@@ -1,0 +1,4 @@
+ReverseNaturalOrdering_CustomFieldSerializer
+Insertions: [23]
+Deletions: [23, 24]
+guava-gwt/src/com/google/common/collect/ReverseNaturalOrdering_CustomFieldSerializer.java

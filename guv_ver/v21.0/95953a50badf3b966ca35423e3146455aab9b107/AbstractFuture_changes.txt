@@ -1,0 +1,4 @@
+AbstractFuture
+Insertions: [21, 43, 44, 45, 46, 63, 64, 65, 66, 87, 92, 96, 97, 98, 99, 101, 107, 114, 298, 309, 310, 311, 312, 314]
+Deletions: [22, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 99, 104, 109, 115, 122, 306, 318]
+guava-gwt/src-super/com/google/common/util/concurrent/super/com/google/common/util/concurrent/AbstractFuture.java

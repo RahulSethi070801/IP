@@ -1,0 +1,4 @@
+@Override
+public Writer append(@CheckForNull CharSequence csq) {
+    return this;
+}

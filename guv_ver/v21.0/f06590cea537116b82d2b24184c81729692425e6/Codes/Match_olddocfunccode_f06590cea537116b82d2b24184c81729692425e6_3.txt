@@ -1,0 +1,8 @@
+public static boolean isValid(String name) {
+    try {
+        from(name);
+        return true;
+    } catch (IllegalArgumentException e) {
+        return false;
+    }
+}

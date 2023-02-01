@@ -1,0 +1,3 @@
+public static ByteArrayDataInput newDataInput(ByteArrayInputStream byteArrayInputStream) {
+    return new ByteArrayDataInputStream(checkNotNull(byteArrayInputStream));
+}

@@ -1,0 +1,40 @@
+com.google.common.io.Files
+copy
+public static void copy(File from, OutputStream to) throws IOException
+File,OutputStream
+void
+com.google.common.io.Files
+move
+public static void move(File from, File to) throws IOException
+File,File
+void
+com.google.common.io.Files
+newWriter
+public static BufferedWriter newWriter(File file, Charset charset) throws FileNotFoundException
+File,Charset
+BufferedWriter
+com.google.common.io.Files
+copy
+public static void copy(File from, File to) throws IOException
+File,File
+void
+com.google.common.io.Files
+createTempDir
+public static File createTempDir()
+empty
+File
+com.google.common.io.Files
+newReader
+public static BufferedReader newReader(File file, Charset charset) throws FileNotFoundException
+File,Charset
+BufferedReader
+com.google.common.io.Files
+write
+public static void write(byte[] from, File to) throws IOException
+byte[],File
+void
+com.google.common.io.Files
+toByteArray
+public static byte[] toByteArray(File file) throws IOException
+File
+byte[]

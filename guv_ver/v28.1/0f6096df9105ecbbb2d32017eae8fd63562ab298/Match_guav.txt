@@ -1,0 +1,45 @@
+public static ValueGraphBuilder<N, Object> from(ValueGraph<N, ?> graph)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public static GraphBuilder<N> from(Graph<N> graph)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+Optional<V> edgeValue(N nodeU, N nodeV)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public static MutableNetwork<N, E> inducedSubgraph(Network<N, E> network, Iterable<? extends N> nodes)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public static MutableGraph<N> inducedSubgraph(Graph<N> graph, Iterable<? extends N> nodes)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+private static GraphConnections<N, V> connectionsOf(final ValueGraph<N, V> graph, final N node)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public Optional<V> edgeValue(N nodeU, N nodeV)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public static NetworkBuilder<N, E> from(Network<N, E> network)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+V edgeValue(N nodeU, N nodeV)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public static ValueGraphBuilder<N, V> from(ValueGraph<N, V> graph)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public V edgeValue(N nodeU, N nodeV)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+

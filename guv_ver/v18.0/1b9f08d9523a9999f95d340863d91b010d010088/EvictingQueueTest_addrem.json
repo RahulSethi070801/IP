@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "25": "import java.util.NoSuchElementException;\n",
+        "26": "\n",
+        "43": "    EvictingQueue<String> queue = EvictingQueue.create(0);\n",
+        "44": "    assertEquals(0, queue.size());\n",
+        "45": "\n",
+        "46": "    assertTrue(queue.add(\"hi\"));\n",
+        "47": "    assertEquals(0, queue.size());\n",
+        "48": "\n",
+        "49": "    assertTrue(queue.offer(\"hi\"));\n",
+        "50": "    assertEquals(0, queue.size());\n",
+        "51": "\n",
+        "52": "    assertFalse(queue.remove(\"hi\"));\n",
+        "53": "    assertEquals(0, queue.size());\n",
+        "54": "\n",
+        "56": "      queue.element();\n",
+        "58": "    } catch (NoSuchElementException expected) {}\n",
+        "59": "\n",
+        "60": "    assertNull(queue.peek());\n",
+        "61": "    assertNull(queue.poll());\n",
+        "62": "    try {\n",
+        "63": "      queue.remove();\n",
+        "64": "      fail();\n",
+        "65": "    } catch (NoSuchElementException expected) {}\n"
+    },
+    "removed": {
+        "42": "      EvictingQueue.create(0);\n",
+        "44": "    } catch (IllegalArgumentException expected) {\n",
+        "45": "    }\n"
+    }
+}

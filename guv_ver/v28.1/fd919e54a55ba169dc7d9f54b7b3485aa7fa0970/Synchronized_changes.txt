@@ -1,0 +1,4 @@
+Synchronized
+Insertions: [46, 47, 49, 50, 1161]
+Deletions: [46, 47, 49, 50, 51, 1162, 1163]
+android/guava/src/com/google/common/collect/Synchronized.java

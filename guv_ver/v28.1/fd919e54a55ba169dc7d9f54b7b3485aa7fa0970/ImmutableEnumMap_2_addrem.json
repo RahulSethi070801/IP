@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "25": " * GWT emulation of {@link ImmutableEnumMap}. The type parameter is not bounded by {@code Enum<E>}\n",
+        "26": " * to avoid code-size bloat.\n"
+    },
+    "removed": {
+        "25": " * GWT emulation of {@link ImmutableEnumMap}. The type parameter is not bounded\n",
+        "26": " * by {@code Enum<E>} to avoid code-size bloat.\n"
+    }
+}

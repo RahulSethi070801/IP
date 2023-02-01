@@ -1,0 +1,12 @@
+
+   * Returns the element at the specified position in this fluent iterable.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code stream.skip(position).findFirst().get()} (but note
+   * that this throws different exception types, and throws an exception if {@code null} would be
+   * returned).
+   *
+   * @param position position of the element to return
+   * @return the element at the specified position in this fluent iterable
+   * @throws IndexOutOfBoundsException if {@code position} is negative or greater than or equal to
+   *     the size of this fluent iterable
+   

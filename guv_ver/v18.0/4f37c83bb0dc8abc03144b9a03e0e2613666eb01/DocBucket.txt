@@ -1,0 +1,20 @@
+com.google.common.io.CharSink
+getOutput
+public final Writer getOutput() throws IOException
+empty
+Writer
+com.google.common.io.ByteSource
+getInput
+public final InputStream getInput() throws IOException
+empty
+InputStream
+com.google.common.io.ByteSink
+getOutput
+public final OutputStream getOutput() throws IOException
+empty
+OutputStream
+com.google.common.io.CharSource
+getInput
+public final Reader getInput() throws IOException
+empty
+Reader

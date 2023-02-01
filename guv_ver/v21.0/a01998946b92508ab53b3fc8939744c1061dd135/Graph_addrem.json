@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "277": "   * <p>A reference implementation of this is provided by {@link AbstractGraph#equals(Object)}.\n",
+        "286": "   * <p>A reference implementation of this is provided by {@link AbstractGraph#hashCode()}.\n"
+    },
+    "removed": {
+        "279": "   * <p>A reference implementation of this is provided by {@link Graphs#equal(Graph, Graph)}.\n",
+        "288": "   * <p>A reference implementation of this is provided by {@link Graphs#hashCode(Graph)}.\n"
+    }
+}

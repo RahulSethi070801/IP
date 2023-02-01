@@ -1,0 +1,3 @@
+public static <A, B> Converter<A, B> from(Function<? super A, ? extends B> forwardFunction, Function<? super B, ? extends A> backwardFunction) {
+    return new FunctionBasedConverter<A, B>(forwardFunction, backwardFunction);
+}

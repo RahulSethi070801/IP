@@ -1,0 +1,1 @@
+ implementation is "fully variant"; E has become a "pass-through" type

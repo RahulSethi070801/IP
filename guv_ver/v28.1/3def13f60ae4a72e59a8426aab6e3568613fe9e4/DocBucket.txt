@@ -1,0 +1,5 @@
+com.google.common.graph.Network
+edgesConnecting
+Set<E> edgesConnecting(@CompatibleWith("N") Object nodeU, @CompatibleWith("N") Object nodeV)
+Object,Object
+Set

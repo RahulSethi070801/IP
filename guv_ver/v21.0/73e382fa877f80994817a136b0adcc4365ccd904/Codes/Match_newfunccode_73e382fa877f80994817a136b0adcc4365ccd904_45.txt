@@ -1,0 +1,4 @@
+@Beta
+public static <E> Collector<E, ?, ImmutableList<E>> toImmutableList() {
+    return CollectCollectors.toImmutableList();
+}

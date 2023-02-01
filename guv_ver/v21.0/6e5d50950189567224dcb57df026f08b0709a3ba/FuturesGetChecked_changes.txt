@@ -1,0 +1,4 @@
+FuturesGetChecked
+Insertions: [25, 49, 57, 76, 226]
+Deletions: [222]
+guava/src/com/google/common/util/concurrent/FuturesGetChecked.java

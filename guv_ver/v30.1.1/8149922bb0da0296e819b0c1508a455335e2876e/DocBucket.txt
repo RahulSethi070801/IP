@@ -1,0 +1,20 @@
+com.google.common.reflect.ClassPath
+getSimpleName
+public String getSimpleName()
+empty
+String
+com.google.common.reflect.TypeToken
+where
+public final TypeToken<T> where(TypeParameter<X> typeParam, TypeToken<X> typeArg)
+TypeParameter,TypeToken
+TypeToken
+com.google.common.reflect.ClassPath
+getPackageName
+public String getPackageName()
+empty
+String
+com.google.common.reflect.TypeToken
+where
+public final TypeToken<T> where(TypeParameter<X> typeParam, Class<X> typeArg)
+TypeParameter,Class
+TypeToken

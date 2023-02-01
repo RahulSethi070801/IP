@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "73": "  public SortedSet<V> get(@NullableDecl K key) {\n",
+        "86": "  public SortedSet<V> removeAll(@NullableDecl Object key) {\n",
+        "102": "  public SortedSet<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "73": "  public SortedSet<V> get(@Nullable K key) {\n",
+        "86": "  public SortedSet<V> removeAll(@Nullable Object key) {\n",
+        "102": "  public SortedSet<V> replaceValues(@Nullable K key, Iterable<? extends V> values) {\n"
+    }
+}

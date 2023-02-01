@@ -1,0 +1,4 @@
+ObjectsBenchmark
+Insertions: [39, 40, 48, 49, 57, 58, 66, 67, 75, 76]
+Deletions: [39, 47, 55, 63, 71]
+android/guava-tests/benchmark/com/google/common/base/ObjectsBenchmark.java

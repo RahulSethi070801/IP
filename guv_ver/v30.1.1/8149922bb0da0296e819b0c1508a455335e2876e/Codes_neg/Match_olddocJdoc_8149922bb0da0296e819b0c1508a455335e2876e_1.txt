@@ -1,0 +1,18 @@
+
+   * Returns a new {@code TypeToken} where type variables represented by {@code typeParam} are
+   * substituted by {@code typeArg}. For example, it can be used to construct {@code Map<K, V>} for
+   * any {@code K} and {@code V} type:
+   *
+   * <pre>{@code
+   * static <K, V> TypeToken<Map<K, V>> mapOf(
+   *     TypeToken<K> keyType, TypeToken<V> valueType) {
+   *   return new TypeToken<Map<K, V>>() {}
+   *       .where(new TypeParameter<K>() {}, keyType)
+   *       .where(new TypeParameter<V>() {}, valueType);
+   * }
+   * }</pre>
+   *
+   * @param <X> The parameter type
+   * @param typeParam the parameter type variable
+   * @param typeArg the actual type to substitute
+   

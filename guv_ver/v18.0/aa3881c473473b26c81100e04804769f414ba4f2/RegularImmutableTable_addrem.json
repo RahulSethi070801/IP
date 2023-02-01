@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "110": "  static <R, C, V> RegularImmutableTable<R, C, V> forCells(\n",
+        "139": "  static <R, C, V> RegularImmutableTable<R, C, V> forCells(\n"
+    },
+    "removed": {
+        "110": "  static final <R, C, V> RegularImmutableTable<R, C, V> forCells(\n",
+        "139": "  static final <R, C, V> RegularImmutableTable<R, C, V> forCells(\n"
+    }
+}

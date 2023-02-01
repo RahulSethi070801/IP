@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "56": "  /** Hasher that updates a checksum. */\n"
+    },
+    "removed": {
+        "56": "  /**\n",
+        "57": "   * Hasher that updates a checksum.\n",
+        "58": "   */\n"
+    }
+}

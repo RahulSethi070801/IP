@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "47": "  private SingletonImmutableBiMap(K key, V value, SingletonImmutableBiMap<V, K> inverse) {\n"
+    },
+    "removed": {
+        "47": "  private SingletonImmutableBiMap(\n",
+        "48": "      K key, V value, SingletonImmutableBiMap<V, K> inverse) {\n"
+    }
+}

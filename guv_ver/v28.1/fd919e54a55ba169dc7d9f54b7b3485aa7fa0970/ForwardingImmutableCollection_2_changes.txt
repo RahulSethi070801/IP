@@ -1,0 +1,4 @@
+ForwardingImmutableCollection_2
+Insertions: [23, 24, 31, 37, 38, 42, 43, 47, 48, 56, 57, 61, 62, 66, 67, 71, 72]
+Deletions: [23, 24, 31, 37, 41, 45, 53, 57, 61, 65]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ForwardingImmutableCollection.java

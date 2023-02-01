@@ -1,0 +1,4 @@
+Lists
+Insertions: [52, 289, 299, 335, 346, 708, 713, 820, 840, 954, 991, 1005, 1024, 1038]
+Deletions: [52, 289, 299, 335, 346, 708, 713, 820, 840, 954, 991, 1005, 1024, 1038]
+android/guava/src/com/google/common/collect/Lists.java

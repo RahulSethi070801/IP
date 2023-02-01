@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "36": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "81": "    public boolean apply(@Nullable V value) {\n",
+        "96": "  public boolean containsKey(@Nullable Object key) {\n",
+        "101": "  public Collection<V> removeAll(@Nullable Object key) {\n",
+        "169": "    public boolean containsKey(@Nullable Object key) {\n",
+        "179": "    public Collection<V> get(@Nullable Object key) {\n",
+        "191": "    public Collection<V> remove(@Nullable Object key) {\n",
+        "235": "        public boolean remove(@Nullable Object o) {\n",
+        "300": "        public boolean remove(@Nullable Object o) {\n",
+        "349": "    public int remove(@Nullable Object key, int occurrences) {\n"
+    },
+    "removed": {
+        "36": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "81": "    public boolean apply(@NullableDecl V value) {\n",
+        "96": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "101": "  public Collection<V> removeAll(@NullableDecl Object key) {\n",
+        "169": "    public boolean containsKey(@NullableDecl Object key) {\n",
+        "179": "    public Collection<V> get(@NullableDecl Object key) {\n",
+        "191": "    public Collection<V> remove(@NullableDecl Object key) {\n",
+        "235": "        public boolean remove(@NullableDecl Object o) {\n",
+        "300": "        public boolean remove(@NullableDecl Object o) {\n",
+        "349": "    public int remove(@NullableDecl Object key, int occurrences) {\n"
+    }
+}

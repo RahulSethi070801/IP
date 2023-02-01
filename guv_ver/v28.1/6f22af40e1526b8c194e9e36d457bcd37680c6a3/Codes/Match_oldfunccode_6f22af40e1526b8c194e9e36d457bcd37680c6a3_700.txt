@@ -1,0 +1,43 @@
+GeneralRange<T> intersect(GeneralRange<T> other) {
+    checkNotNull(other);
+    checkArgument(comparator.equals(other.comparator));
+    boolean hasLowBound = this.hasLowerBound;
+    @Nullable
+    T lowEnd = getLowerEndpoint();
+    BoundType lowType = getLowerBoundType();
+    if (!hasLowerBound()) {
+        hasLowBound = other.hasLowerBound;
+        lowEnd = other.getLowerEndpoint();
+        lowType = other.getLowerBoundType();
+    } else if (other.hasLowerBound()) {
+        int cmp = comparator.compare(getLowerEndpoint(), other.getLowerEndpoint());
+        if (cmp < 0 || (cmp == 0 && other.getLowerBoundType() == OPEN)) {
+            lowEnd = other.getLowerEndpoint();
+            lowType = other.getLowerBoundType();
+        }
+    }
+    boolean hasUpBound = this.hasUpperBound;
+    @Nullable
+    T upEnd = getUpperEndpoint();
+    BoundType upType = getUpperBoundType();
+    if (!hasUpperBound()) {
+        hasUpBound = other.hasUpperBound;
+        upEnd = other.getUpperEndpoint();
+        upType = other.getUpperBoundType();
+    } else if (other.hasUpperBound()) {
+        int cmp = comparator.compare(getUpperEndpoint(), other.getUpperEndpoint());
+        if (cmp > 0 || (cmp == 0 && other.getUpperBoundType() == OPEN)) {
+            upEnd = other.getUpperEndpoint();
+            upType = other.getUpperBoundType();
+        }
+    }
+    if (hasLowBound && hasUpBound) {
+        int cmp = comparator.compare(lowEnd, upEnd);
+        if (cmp > 0 || (cmp == 0 && lowType == OPEN && upType == OPEN)) {
+            lowEnd = upEnd;
+            lowType = OPEN;
+            upType = CLOSED;
+        }
+    }
+    return new GeneralRange<T>(comparator, hasLowBound, lowEnd, lowType, hasUpBound, upEnd, upType);
+}

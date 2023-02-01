@@ -1,0 +1,4 @@
+@Deprecated
+public static HashCode hash(File file, HashFunction hashFunction) throws IOException {
+    return asByteSource(file).hash(hashFunction);
+}

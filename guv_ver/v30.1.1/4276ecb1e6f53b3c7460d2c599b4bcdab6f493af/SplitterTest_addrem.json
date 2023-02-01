@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "19": "import static com.google.common.collect.ImmutableList.toImmutableList;\n",
+        "66": "  public void testCharacterSimpleSplitToStream() {\n",
+        "67": "    String simple = \"a,b,c\";\n",
+        "68": "    List<String> letters = COMMA_SPLITTER.splitToStream(simple).collect(toImmutableList());\n",
+        "69": "    assertThat(letters).containsExactly(\"a\", \"b\", \"c\").inOrder();\n",
+        "70": "  }\n",
+        "71": "\n"
+    },
+    "removed": {}
+}

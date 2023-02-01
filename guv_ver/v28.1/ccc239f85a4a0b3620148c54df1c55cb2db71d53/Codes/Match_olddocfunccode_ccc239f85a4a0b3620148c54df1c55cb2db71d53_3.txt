@@ -1,0 +1,10 @@
+public static MultimapBuilderWithKeys<Object> hashKeys(final int expectedKeys) {
+    checkNonnegative(expectedKeys, "expectedKeys");
+    return new MultimapBuilderWithKeys<Object>() {
+
+        @Override
+        <K, V> Map<K, Collection<V>> createMap() {
+            return Maps.newHashMapWithExpectedSize(expectedKeys);
+        }
+    };
+}

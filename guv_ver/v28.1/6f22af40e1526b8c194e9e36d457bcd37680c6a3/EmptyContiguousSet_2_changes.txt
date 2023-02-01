@@ -1,0 +1,4 @@
+EmptyContiguousSet_2
+Insertions: [21, 124]
+Deletions: [21, 124]
+guava/src/com/google/common/collect/EmptyContiguousSet.java

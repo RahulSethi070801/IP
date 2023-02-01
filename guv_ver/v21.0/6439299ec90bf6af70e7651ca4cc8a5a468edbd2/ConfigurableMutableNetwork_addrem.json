@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "95": "      Endpoints<N> newEndpoints = Endpoints.of(this, nodeA, nodeB);\n"
+    },
+    "removed": {
+        "95": "      Endpoints<N> newEndpoints = Endpoints.of(nodeA, nodeB, isDirected());\n"
+    }
+}

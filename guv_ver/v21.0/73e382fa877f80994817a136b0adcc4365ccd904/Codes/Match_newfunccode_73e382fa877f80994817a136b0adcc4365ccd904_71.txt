@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+public long remove(K key) {
+    Long result = map.remove(key);
+    return (result == null) ? 0L : result.longValue();
+}

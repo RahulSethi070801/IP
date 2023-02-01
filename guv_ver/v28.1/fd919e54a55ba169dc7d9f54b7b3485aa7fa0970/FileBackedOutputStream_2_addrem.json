@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "82": "   * @param resetOnFinalize if true, the {@link #reset} method will be called when the {@link\n",
+        "83": "   *     ByteSource} returned by {@link #asByteSource} is finalized\n"
+    },
+    "removed": {
+        "82": "   * @param resetOnFinalize if true, the {@link #reset} method will be called when the\n",
+        "83": "   *     {@link ByteSource} returned by {@link #asByteSource} is finalized\n"
+    }
+}

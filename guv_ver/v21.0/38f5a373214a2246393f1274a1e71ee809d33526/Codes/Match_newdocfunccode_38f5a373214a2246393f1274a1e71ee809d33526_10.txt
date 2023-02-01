@@ -1,0 +1,9 @@
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB) {
+    if (graphA == graphB) {
+        return true;
+    }
+    if (graphA == null || graphB == null) {
+        return false;
+    }
+    return graphA.isDirected() == graphB.isDirected() && graphA.nodes().equals(graphB.nodes()) && graphA.edges().equals(graphB.edges());
+}

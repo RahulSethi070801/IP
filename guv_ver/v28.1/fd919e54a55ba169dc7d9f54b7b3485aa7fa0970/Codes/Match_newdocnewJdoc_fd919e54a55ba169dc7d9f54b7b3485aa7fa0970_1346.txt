@@ -1,0 +1,7 @@
+
+   * {@inheritDoc}
+   *
+   * <p>It is recommended, though not mandatory, that this method return the result of invoking
+   * {@link #toString} on the {@link #entrySet}, yielding a result such as {@code [a x 3, c, d x 2,
+   * e]}.
+   

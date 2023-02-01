@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "36": "    assertThat(immutableGraph).isEqualTo(mutableGraph);\n",
+        "39": "    assertThat(immutableGraph).isNotEqualTo(mutableGraph);\n",
+        "51": "    assertThat(immutableValueGraph).isEqualTo(mutableValueGraph);\n",
+        "54": "    assertThat(immutableValueGraph).isNotEqualTo(mutableValueGraph);\n"
+    },
+    "removed": {
+        "36": "    assertThat(Graphs.equivalent(immutableGraph, mutableGraph)).isTrue();\n",
+        "39": "    assertThat(Graphs.equivalent(immutableGraph, mutableGraph)).isFalse();\n",
+        "51": "    assertThat(Graphs.equivalent(immutableValueGraph, mutableValueGraph)).isTrue();\n",
+        "54": "    assertThat(Graphs.equivalent(immutableValueGraph, mutableValueGraph)).isFalse();\n"
+    }
+}

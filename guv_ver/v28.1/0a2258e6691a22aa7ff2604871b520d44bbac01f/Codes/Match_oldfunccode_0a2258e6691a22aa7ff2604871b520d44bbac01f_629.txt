@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public final boolean remove(@NullableDecl Object element) {
+    return remove(element, 1) > 0;
+}

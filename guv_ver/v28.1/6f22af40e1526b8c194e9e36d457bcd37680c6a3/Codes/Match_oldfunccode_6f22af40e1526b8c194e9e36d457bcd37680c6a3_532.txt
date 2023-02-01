@@ -1,0 +1,4 @@
+public final V getOrDefault(@Nullable Object key, @Nullable V defaultValue) {
+    V result = get(key);
+    return (result != null) ? result : defaultValue;
+}

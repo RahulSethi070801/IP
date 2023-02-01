@@ -1,0 +1,2 @@
+public static void serialize(SerializationStreamWriter writer, Absent instance) {
+}

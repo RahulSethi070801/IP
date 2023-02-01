@@ -1,0 +1,17 @@
+V getAndRecordStats(K key, int hash, LoadingValueReference<K, V> loadingValueReference, ListenableFuture<V> newValue) throws ExecutionException {
+    V value = null;
+    try {
+        value = getUninterruptibly(newValue);
+        if (value == null) {
+            throw new InvalidCacheLoadException("CacheLoader returned null for key " + key + ".");
+        }
+        statsCounter.recordLoadSuccess(loadingValueReference.elapsedNanos());
+        storeLoadedValue(key, hash, loadingValueReference, value);
+        return value;
+    } finally {
+        if (value == null) {
+            statsCounter.recordLoadException(loadingValueReference.elapsedNanos());
+            removeLoadingValue(key, hash, loadingValueReference);
+        }
+    }
+}

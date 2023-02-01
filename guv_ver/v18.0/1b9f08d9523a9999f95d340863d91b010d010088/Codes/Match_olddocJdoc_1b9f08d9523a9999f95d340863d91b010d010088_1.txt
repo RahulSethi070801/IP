@@ -1,0 +1,3 @@
+
+   * Creates and returns a new evicting queue that will hold up to {@code maxSize} elements.
+   

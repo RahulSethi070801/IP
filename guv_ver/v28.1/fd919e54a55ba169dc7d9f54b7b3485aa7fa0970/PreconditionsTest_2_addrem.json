@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "223": "    String result = Preconditions.checkNotNull(NON_NULL_STRING, \"%s\", IGNORE_ME);\n",
+        "395": "    assertEquals(\"null [null, null]\", Preconditions.format(\"%s\", null, null, null));\n",
+        "401": "  @GwtIncompatible(\"Reflection\")\n",
+        "494": "      ImmutableList.of(char.class, int.class, long.class, Object.class);\n",
+        "516": "                .add(String.class) // the format string\n",
+        "537": "    checkState(boxedBoolean.booleanValue(), \"\", 1);\n",
+        "559": "  private static final Object IGNORE_ME =\n",
+        "560": "      new Object() {\n",
+        "561": "        @Override\n",
+        "562": "        public String toString() {\n",
+        "563": "          throw new AssertionFailedError();\n",
+        "564": "        }\n",
+        "565": "      };\n",
+        "569": "\n",
+        "570": "    @Override\n",
+        "571": "    public String toString() {\n"
+    },
+    "removed": {
+        "223": "    String result = Preconditions.checkNotNull(\n",
+        "224": "        NON_NULL_STRING, \"%s\", IGNORE_ME);\n",
+        "396": "    assertEquals(\"null [null, null]\",\n",
+        "397": "        Preconditions.format(\"%s\", null, null, null));\n",
+        "403": "    @GwtIncompatible(\"Reflection\")\n",
+        "496": "      ImmutableList.of(\n",
+        "497": "          char.class,\n",
+        "498": "          int.class,\n",
+        "499": "          long.class,\n",
+        "500": "          Object.class);\n",
+        "522": "                .add(String.class)  // the format string\n",
+        "543": "    checkState(boxedBoolean.booleanValue(), \"\",  1);\n",
+        "565": "  private static final Object IGNORE_ME = new Object() {\n",
+        "566": "    @Override public String toString() {\n",
+        "567": "      throw new AssertionFailedError();\n",
+        "568": "    }\n",
+        "569": "  };\n",
+        "573": "    @Override public String toString() {\n"
+    }
+}

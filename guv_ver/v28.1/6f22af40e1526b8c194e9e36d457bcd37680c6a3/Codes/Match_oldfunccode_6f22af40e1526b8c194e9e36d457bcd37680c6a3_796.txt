@@ -1,0 +1,4 @@
+@Override
+public int count(@Nullable Object element) {
+    return standardCount(element);
+}

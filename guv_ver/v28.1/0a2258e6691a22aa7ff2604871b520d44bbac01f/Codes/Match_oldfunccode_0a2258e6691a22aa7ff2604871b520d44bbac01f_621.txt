@@ -1,0 +1,4 @@
+@NullableDecl
+private static Long durationInNanos(long duration, @NullableDecl TimeUnit unit) {
+    return (unit == null) ? null : unit.toNanos(duration);
+}

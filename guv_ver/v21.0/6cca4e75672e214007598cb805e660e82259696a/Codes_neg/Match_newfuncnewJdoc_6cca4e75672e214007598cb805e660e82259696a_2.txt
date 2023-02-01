@@ -1,0 +1,4 @@
+
+   * Parses a serialized trie representation of a map of reversed public suffixes into an immutable
+   * map of public suffixes.
+   

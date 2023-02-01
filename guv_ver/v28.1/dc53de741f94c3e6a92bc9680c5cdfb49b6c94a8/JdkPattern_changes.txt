@@ -1,0 +1,4 @@
+JdkPattern
+Insertions: [32, 37, 42, 59, 64, 69, 74, 79, 84]
+Deletions: [32, 37, 42, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 72, 77, 82, 87, 92, 97]
+android/guava/src/com/google/common/base/JdkPattern.java

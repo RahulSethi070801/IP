@@ -1,0 +1,6 @@
+@Override
+public void parse(CacheBuilderSpec spec, String key, @Nullable String value) {
+    checkArgument(value == null, "key %s does not take values", key);
+    checkArgument(spec.keyStrength == null, "%s was already set to %s", key, spec.keyStrength);
+    spec.keyStrength = strength;
+}

@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "50": "      \"Cannot call source()/target() on a EndpointPair from an undirected graph. Consider calling \"\n",
+        "51": "          + \"adjacentNode(node) if you already have a node, or nodeU()/nodeV() if you don't.\";\n",
+        "55": "\n",
+        "56": "  /**\n",
+        "57": "   * Singleton edge value for {@link Graph} implementations backed by {@link ValueGraph}s.\n",
+        "58": "   */\n",
+        "59": "  enum Presence {\n",
+        "60": "    EDGE_EXISTS\n",
+        "61": "  }\n"
+    },
+    "removed": {
+        "50": "      \"Cannot call source()/target() on the endpoints of an undirected edge. Consider calling \"\n",
+        "51": "          + \"adjacentNode(node) if you already have a node, or nodeA()/nodeB() if you don't.\";\n"
+    }
+}

@@ -1,0 +1,10 @@
+com.google.common.collect.Ordering
+leastOf
+public List<E> leastOf(Iterable<E> iterable, int k)
+Iterable,int
+List
+com.google.common.collect.Ordering
+greatestOf
+public List<E> greatestOf(Iterable<E> iterable, int k)
+Iterable,int
+List

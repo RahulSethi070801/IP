@@ -1,0 +1,4 @@
+@Override
+boolean casWaiters(AbstractFuture future, Waiter curr, Waiter next) {
+    return WAITERS_UPDATER.compareAndSet(future, curr, next);
+}

@@ -1,0 +1,18 @@
+
+   * Returns {@code true} iff {@code graphA} and {@code graphB} have the same elements and the same
+   * relationships between elements, as exposed via the {@link Graph} interface.
+   *
+   * <p>Thus, two graphs A and B are equivalent if both are null or <b>all</b> of the following are
+   * true:
+   *
+   * <ul>
+   * <li>A and B have equal {@link Graph#isDirected() directedness}.
+   * <li>A and B have equal {@link Graph#nodes() node sets}.
+   * <li>A and B have equal {@link Graph#edges() edge sets}.
+   * </ul>
+   *
+   * <p>Graph properties besides {@link Graph#isDirected() directedness} do <b>not</b> affect
+   * equivalence. For example, two graphs may be considered equivalent even if one allows self-loops
+   * and the other doesn't. Additionally, the order in which nodes or edges are added to the graph,
+   * and the order in which they are iterated over, are irrelevant.
+   

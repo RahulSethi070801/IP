@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "25": " * A queue which forwards all its method calls to another queue. Subclasses should override one or\n",
+        "26": " * more methods to modify the behavior of the backing queue as desired per the <a\n",
+        "29": " * <p><b>Warning:</b> The methods of {@code ForwardingQueue} forward <b>indiscriminately</b> to the\n",
+        "30": " * methods of the delegate. For example, overriding {@link #add} alone <b>will not</b> change the\n",
+        "31": " * behavior of {@link #offer} which can lead to unexpected behavior. In this case, you should\n",
+        "32": " * override {@code offer} as well, either providing your own implementation, or delegating to the\n",
+        "33": " * provided {@code standardOffer} method.\n",
+        "39": " * <p>The {@code standard} methods are not guaranteed to be thread-safe, even when all of the\n",
+        "40": " * methods that they depend on are thread-safe.\n",
+        "84": "   * A sensible definition of {@link #offer} in terms of {@link #add}. If you override {@link #add},\n",
+        "85": "   * you may wish to override {@link #offer} to forward to this implementation.\n",
+        "98": "   * A sensible definition of {@link #peek} in terms of {@link #element}. If you override {@link\n",
+        "99": "   * #element}, you may wish to override {@link #peek} to forward to this implementation.\n",
+        "112": "   * A sensible definition of {@link #poll} in terms of {@link #remove}. If you override {@link\n",
+        "113": "   * #remove}, you may wish to override {@link #poll} to forward to this implementation.\n"
+    },
+    "removed": {
+        "25": " * A queue which forwards all its method calls to another queue. Subclasses\n",
+        "26": " * should override one or more methods to modify the behavior of the backing\n",
+        "27": " * queue as desired per the <a\n",
+        "30": " * <p><b>Warning:</b> The methods of {@code ForwardingQueue} forward\n",
+        "31": " * <b>indiscriminately</b> to the methods of the delegate. For example,\n",
+        "32": " * overriding {@link #add} alone <b>will not</b> change the behavior of {@link\n",
+        "33": " * #offer} which can lead to unexpected behavior. In this case, you should\n",
+        "34": " * override {@code offer} as well, either providing your own implementation, or\n",
+        "35": " * delegating to the provided {@code standardOffer} method.\n",
+        "41": " * <p>The {@code standard} methods are not guaranteed to be thread-safe, even\n",
+        "42": " * when all of the methods that they depend on are thread-safe.\n",
+        "86": "   * A sensible definition of {@link #offer} in terms of {@link #add}. If you\n",
+        "87": "   * override {@link #add}, you may wish to override {@link #offer} to forward\n",
+        "88": "   * to this implementation.\n",
+        "101": "   * A sensible definition of {@link #peek} in terms of {@link #element}. If you\n",
+        "102": "   * override {@link #element}, you may wish to override {@link #peek} to\n",
+        "103": "   * forward to this implementation.\n",
+        "116": "   * A sensible definition of {@link #poll} in terms of {@link #remove}. If you\n",
+        "117": "   * override {@link #remove}, you may wish to override {@link #poll} to forward\n",
+        "118": "   * to this implementation.\n"
+    }
+}

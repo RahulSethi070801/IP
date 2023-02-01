@@ -1,0 +1,3 @@
+public static <E> Set<E> newIdentityHashSet() {
+    return Collections.newSetFromMap(Maps.<E, Boolean>newIdentityHashMap());
+}

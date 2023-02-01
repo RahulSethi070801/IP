@@ -1,0 +1,12 @@
+@Nullable
+public static <T> T getLast(Iterable<? extends T> iterable, @Nullable T defaultValue) {
+    if (iterable instanceof Collection) {
+        Collection<? extends T> c = Collections2.cast(iterable);
+        if (c.isEmpty()) {
+            return defaultValue;
+        } else if (iterable instanceof List) {
+            return getLastInNonemptyList(Lists.cast(iterable));
+        }
+    }
+    return Iterators.getLast(iterable.iterator(), defaultValue);
+}

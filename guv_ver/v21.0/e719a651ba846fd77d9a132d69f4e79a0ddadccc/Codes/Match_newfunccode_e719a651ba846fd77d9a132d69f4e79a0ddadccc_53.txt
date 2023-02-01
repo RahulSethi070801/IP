@@ -1,0 +1,13 @@
+@Override
+int decodeTo(byte[] target, CharSequence chars) throws DecodingException {
+    checkNotNull(target);
+    if (chars.length() % 2 == 1) {
+        throw new DecodingException("Invalid input length " + chars.length());
+    }
+    int bytesWritten = 0;
+    for (int i = 0; i < chars.length(); i += 2) {
+        int decoded = alphabet.decode(chars.charAt(i)) << 4 | alphabet.decode(chars.charAt(i + 1));
+        target[bytesWritten++] = (byte) decoded;
+    }
+    return bytesWritten;
+}

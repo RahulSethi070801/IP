@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.RateLimiter
+canAcquire
+private boolean canAcquire(long nowMicros, long timeoutMicros)
+long,long
+boolean
+com.google.common.util.concurrent.RateLimiter
+canAcquire
+private final boolean canAcquire(long nowMicros, long timeoutMicros)
+long,long
+boolean

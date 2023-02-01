@@ -1,0 +1,6 @@
+public Optional<V> transform(Function<Object, V> function)
+public static Function<E, E> identity()
+
+public static void serialize(SerializationStreamWriter writer, Absent instance)
+public static Function<E, E> identity()
+

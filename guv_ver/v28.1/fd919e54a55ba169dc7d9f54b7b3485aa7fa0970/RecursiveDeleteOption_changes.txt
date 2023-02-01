@@ -1,0 +1,4 @@
+RecursiveDeleteOption
+Insertions: [25, 26, 41, 42, 43]
+Deletions: [25, 26, 41, 42, 43]
+guava/src/com/google/common/io/RecursiveDeleteOption.java

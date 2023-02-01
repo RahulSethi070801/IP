@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "36": "  /** Creates a {@code Callable} which immediately returns a preset value each time it is called. */\n",
+        "49": "   * <p>The {@link AsyncCallable} returns the {@link ListenableFuture} resulting from {@link\n",
+        "50": "   * ListeningExecutorService#submit(Callable)}.\n",
+        "57": "      final Callable<T> callable, final ListeningExecutorService listeningExecutorService) {\n"
+    },
+    "removed": {
+        "36": "  /**\n",
+        "37": "   * Creates a {@code Callable} which immediately returns a preset value each time it is called.\n",
+        "38": "   */\n",
+        "51": "   * <p>The {@link AsyncCallable} returns the {@link ListenableFuture} resulting from\n",
+        "52": "   * {@link ListeningExecutorService#submit(Callable)}.\n",
+        "59": "      final Callable<T> callable,\n",
+        "60": "      final ListeningExecutorService listeningExecutorService) {\n"
+    }
+}

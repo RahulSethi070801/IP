@@ -1,0 +1,4 @@
+CharStreams
+Insertions: [31, 32, 49, 220, 221, 222, 314, 319]
+Deletions: [31, 218, 310, 315]
+android/guava/src/com/google/common/io/CharStreams.java

@@ -1,0 +1,18 @@
+public static ListenableFuture<O> scheduleAsync(AsyncCallable<O> callable, long delay, TimeUnit timeUnit, ScheduledExecutorService executorService)
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+
+void runInterruptibly()
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+
+public static ListenableFuture<O> submitAsync(AsyncCallable<O> callable, Executor executor)
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+
+public void run()
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+
+protected void afterDone()
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+
+protected String pendingToString()
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+

@@ -1,0 +1,4 @@
+MutableTypeToInstanceMap
+Insertions: [30, 44, 50, 56, 59, 63, 66, 106, 107, 112]
+Deletions: [30, 44, 50, 56, 59, 63, 66, 106, 107, 112]
+guava/src/com/google/common/reflect/MutableTypeToInstanceMap.java

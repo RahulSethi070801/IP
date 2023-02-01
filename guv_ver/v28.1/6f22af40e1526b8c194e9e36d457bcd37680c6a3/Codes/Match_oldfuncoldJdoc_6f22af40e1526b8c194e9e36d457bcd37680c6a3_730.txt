@@ -1,0 +1,1 @@
+ Returns the position of an element within the set, or -1 if not present. 

@@ -1,0 +1,7 @@
+
+   * {@inheritDoc}
+   *
+   * <p>The {@linkplain #source(Object) source} and {@linkplain #target(Object) target}
+   * of the edges returned must be {@code source} and {@code target}, respectively.
+   *
+   

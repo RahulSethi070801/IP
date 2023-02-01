@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "48": "    <dependency>\n",
+        "49": "      <groupId>com.google.truth.extensions</groupId>\n",
+        "50": "      <artifactId>truth-java8-extension</artifactId>\n",
+        "51": "    </dependency>\n",
+        "52": "    <dependency>\n",
+        "53": "      <groupId>com.google.jimfs</groupId>\n",
+        "54": "      <artifactId>jimfs</artifactId>\n",
+        "55": "    </dependency>\n"
+    },
+    "removed": {}
+}

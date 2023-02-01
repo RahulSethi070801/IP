@@ -1,0 +1,6 @@
+public static int hashCode(Graph<?> graph)
+int hashCode()
+
+public static boolean equal(@Nullable Network<?, ?> graph1, @Nullable Network<?, ?> graph2)
+int hashCode()
+

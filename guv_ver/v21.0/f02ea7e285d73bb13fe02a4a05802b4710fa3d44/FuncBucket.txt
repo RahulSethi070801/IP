@@ -1,0 +1,35 @@
+com.google.common.graph.AbstractValueGraph
+toString
+public String toString()
+empty
+String
+com.google.common.graph.ValueGraph
+edgeValueOrDefault
+V edgeValueOrDefault(Object nodeU, Object nodeV, @Nullable V defaultValue)
+Object,Object,V
+V
+com.google.common.graph.AbstractValueGraph
+edgeValueMap
+private Map<EndpointPair<N>, V> edgeValueMap()
+empty
+Map
+com.google.common.graph.ImmutableValueGraph
+edgeValueOrDefault
+public V edgeValueOrDefault(Object nodeU, Object nodeV, @Nullable V defaultValue)
+Object,Object,V
+V
+com.google.common.graph.ValueGraph
+edgeValues
+Map<EndpointPair<N>, V> edgeValues()
+empty
+Map
+com.google.common.graph.ImmutableValueGraph
+edgeValues
+public Map<EndpointPair<N>, V> edgeValues()
+empty
+Map
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+ValueGraph,ValueGraph
+boolean

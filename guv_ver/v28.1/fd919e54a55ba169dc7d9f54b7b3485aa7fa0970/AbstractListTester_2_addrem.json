@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "43": "   *\n",
+        "44": "   * <p>The {@code AbstractListTester} implementation overrides {@link\n",
+        "45": "   * AbstractCollectionTester#expectContents(Collection)} to verify that the order of the elements\n",
+        "46": "   * in the list under test matches what is expected.\n",
+        "65": "   * Used to delay string formatting until actually required, as it otherwise shows up in the test\n",
+        "66": "   * execution profile when running an extremely large numbers of tests.\n"
+    },
+    "removed": {
+        "43": "   * <p>\n",
+        "44": "   * The {@code AbstractListTester} implementation overrides\n",
+        "45": "   * {@link AbstractCollectionTester#expectContents(Collection)} to verify that\n",
+        "46": "   * the order of the elements in the list under test matches what is expected.\n",
+        "65": "   * Used to delay string formatting until actually required, as it\n",
+        "66": "   * otherwise shows up in the test execution profile when running an\n",
+        "67": "   * extremely large numbers of tests.\n"
+    }
+}

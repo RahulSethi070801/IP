@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "25": " * A callback for accepting the results of a {@link java.util.concurrent.Future} computation\n",
+        "26": " * asynchronously.\n",
+        "36": "   * Invoked with the result of the {@code Future} computation when it is successful.\n",
+        "43": "   * <p>If the future's {@link Future#get() get} method throws an {@link ExecutionException}, then\n",
+        "44": "   * the cause is passed to this method. Any other thrown object is passed unaltered.\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "27": " * A callback for accepting the results of a {@link java.util.concurrent.Future}\n",
+        "28": " * computation asynchronously.\n",
+        "38": "   * Invoked with the result of the {@code Future} computation when it is\n",
+        "39": "   * successful.\n",
+        "46": "   * <p>If the future's {@link Future#get() get} method throws an {@link\n",
+        "47": "   * ExecutionException}, then the cause is passed to this method. Any other\n",
+        "48": "   * thrown object is passed unaltered.\n"
+    }
+}

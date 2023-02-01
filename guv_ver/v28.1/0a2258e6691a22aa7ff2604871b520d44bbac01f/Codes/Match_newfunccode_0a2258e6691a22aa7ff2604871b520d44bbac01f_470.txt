@@ -1,0 +1,37 @@
+@CanIgnoreReturnValue
+@Override
+public boolean add(@Nullable E object) {
+    long[] entries = this.entries;
+    Object[] elements = this.elements;
+    int hash = smearedHash(object);
+    int tableIndex = hash & hashTableMask();
+    int newEntryIndex = this.size;
+    int next = table[tableIndex];
+    if (next == UNSET) {
+        table[tableIndex] = newEntryIndex;
+    } else {
+        int last;
+        long entry;
+        do {
+            last = next;
+            entry = entries[next];
+            if (getHash(entry) == hash && Objects.equal(object, elements[next])) {
+                return false;
+            }
+            next = getNext(entry);
+        } while (next != UNSET);
+        entries[last] = swapNext(entry, newEntryIndex);
+    }
+    if (newEntryIndex == Integer.MAX_VALUE) {
+        throw new IllegalStateException("Cannot contain more than Integer.MAX_VALUE elements!");
+    }
+    int newSize = newEntryIndex + 1;
+    resizeMeMaybe(newSize);
+    insertEntry(newEntryIndex, object, hash);
+    this.size = newSize;
+    if (newEntryIndex >= threshold) {
+        resizeTable(2 * table.length);
+    }
+    modCount++;
+    return true;
+}

@@ -1,0 +1,3 @@
+public static <T> Stream<T> stream(com.google.common.base.Optional<T> optional) {
+    return optional.isPresent() ? Stream.of(optional.get()) : Stream.of();
+}

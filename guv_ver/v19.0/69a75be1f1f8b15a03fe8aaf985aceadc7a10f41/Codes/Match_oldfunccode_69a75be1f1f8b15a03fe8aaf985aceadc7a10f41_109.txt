@@ -1,0 +1,21 @@
+void checkAcquiredLock(Policy policy, LockGraphNode acquiredLock) {
+    Preconditions.checkState(this != acquiredLock, "Attempted to acquire multiple locks with the same rank %s", acquiredLock.getLockName());
+    if (allowedPriorLocks.containsKey(acquiredLock)) {
+        return;
+    }
+    PotentialDeadlockException previousDeadlockException = disallowedPriorLocks.get(acquiredLock);
+    if (previousDeadlockException != null) {
+        PotentialDeadlockException exception = new PotentialDeadlockException(acquiredLock, this, previousDeadlockException.getConflictingStackTrace());
+        policy.handlePotentialDeadlock(exception);
+        return;
+    }
+    Set<LockGraphNode> seen = Sets.newIdentityHashSet();
+    ExampleStackTrace path = acquiredLock.findPathTo(this, seen);
+    if (path == null) {
+        allowedPriorLocks.put(acquiredLock, new ExampleStackTrace(acquiredLock, this));
+    } else {
+        PotentialDeadlockException exception = new PotentialDeadlockException(acquiredLock, this, path);
+        disallowedPriorLocks.put(acquiredLock, exception);
+        policy.handlePotentialDeadlock(exception);
+    }
+}

@@ -1,0 +1,7 @@
+@Override
+public <T> T newProxy(T target, Class<T> interfaceType, long timeoutDuration, TimeUnit timeoutUnit) {
+    checkNotNull(target);
+    checkNotNull(interfaceType);
+    checkNotNull(timeoutUnit);
+    return target;
+}

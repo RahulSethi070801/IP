@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "229": "                    <contains text=\"@GwtCompatible\"/>\n",
+        "235": "                    <contains text=\"@GwtCompatible\"/>\n"
+    },
+    "removed": {
+        "229": "                    <and>\n",
+        "230": "                      <contains text=\"@GwtCompatible\"/>\n",
+        "231": "                      <not><contains text=\"emulated = true\"/></not>\n",
+        "232": "                    </and>\n",
+        "238": "                    <and>\n",
+        "239": "                      <contains text=\"@GwtCompatible\"/>\n",
+        "240": "                      <not><contains text=\"emulated = true\"/></not>\n",
+        "241": "                    </and>\n"
+    }
+}

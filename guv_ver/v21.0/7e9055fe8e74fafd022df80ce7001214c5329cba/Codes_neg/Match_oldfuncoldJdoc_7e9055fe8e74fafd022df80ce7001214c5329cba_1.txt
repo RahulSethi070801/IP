@@ -1,0 +1,6 @@
+
+   * Returns the nodes which have an {@linkplain #incidentEdges(Object) incident edge}
+   * in common with {@code node} in this graph.
+   *
+   * @throws IllegalArgumentException if {@code node} is not an element of this graph
+   

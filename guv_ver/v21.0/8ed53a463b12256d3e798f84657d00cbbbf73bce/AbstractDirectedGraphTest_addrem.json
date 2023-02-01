@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "67": "  @Override\n",
+        "68": "  @Test\n",
+        "69": "  public void incidentNodes_oneEdge() {\n",
+        "70": "    addEdge(E12, N1, N2);\n",
+        "71": "    assertThat(graph.incidentNodes(E12)).containsExactly(N1, N2).inOrder();\n",
+        "72": "  }\n",
+        "73": "\n"
+    },
+    "removed": {}
+}

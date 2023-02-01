@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "48": "   * Returns a new {@code MutableClassToInstanceMap} instance backed by a {@link HashMap} using the\n",
+        "49": "   * default initial capacity and load factor.\n",
+        "56": "   * Returns a new {@code MutableClassToInstanceMap} instance backed by a given empty {@code\n",
+        "57": "   * backingMap}. The caller surrenders control of the backing map, and thus should not allow any\n",
+        "58": "   * direct references to it to remain accessible.\n",
+        "156": "  /** Serialized form of the map, to avoid serializing the constraint. */\n"
+    },
+    "removed": {
+        "48": "   * Returns a new {@code MutableClassToInstanceMap} instance backed by a {@link\n",
+        "49": "   * HashMap} using the default initial capacity and load factor.\n",
+        "56": "   * Returns a new {@code MutableClassToInstanceMap} instance backed by a given\n",
+        "57": "   * empty {@code backingMap}. The caller surrenders control of the backing map,\n",
+        "58": "   * and thus should not allow any direct references to it to remain accessible.\n",
+        "156": "  /**\n",
+        "157": "   * Serialized form of the map, to avoid serializing the constraint.\n",
+        "158": "   */\n"
+    }
+}

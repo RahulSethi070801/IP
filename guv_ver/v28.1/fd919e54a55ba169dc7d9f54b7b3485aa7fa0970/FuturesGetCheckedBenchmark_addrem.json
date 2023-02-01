@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "49": "/** Microbenchmark for {@link Futures#getChecked}. */\n",
+        "101": "  @Param Validator validator;\n",
+        "102": "  @Param Result result;\n",
+        "103": "  @Param ExceptionType exceptionType;\n",
+        "122": "        OTHER_EXCEPTION_TYPES.asList().subList(0, otherEntriesInDataStructure)) {\n",
+        "164": "      checkArgument(\n",
+        "165": "          isCheckedException(exceptionClass),\n",
+        "166": "          \"Futures.getChecked exception type (%s) must not be a RuntimeException\",\n",
+        "167": "          exceptionClass);\n"
+    },
+    "removed": {
+        "49": "/**\n",
+        "50": " * Microbenchmark for {@link Futures#getChecked}.\n",
+        "51": " */\n",
+        "103": "  @Param\n",
+        "104": "  Validator validator;\n",
+        "105": "  @Param\n",
+        "106": "  Result result;\n",
+        "107": "  @Param\n",
+        "108": "  ExceptionType exceptionType;\n",
+        "127": "          OTHER_EXCEPTION_TYPES.asList().subList(0, otherEntriesInDataStructure)) {\n",
+        "169": "      checkArgument(isCheckedException(exceptionClass),\n",
+        "170": "          \"Futures.getChecked exception type (%s) must not be a RuntimeException\", exceptionClass);\n"
+    }
+}

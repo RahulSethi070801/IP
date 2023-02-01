@@ -1,0 +1,13 @@
+
+   * Returns a list of delegate futures that correspond to the futures received in the order
+   * that they complete. Delegate futures return the same value or throw the same exception
+   * as the corresponding input future returns/throws.
+   *
+   * <p>Cancelling a delegate future has no effect on any input future, since the delegate future
+   * does not correspond to a specific input future until the appropriate number of input
+   * futures have completed. At that point, it is too late to cancel the input future.
+   * The input future's result, which cannot be stored into the cancelled delegate future,
+   * is ignored.
+   *
+   * @since 17.0
+   

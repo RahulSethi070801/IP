@@ -1,0 +1,18 @@
+@CheckForNull
+MoveDesc<E> tryCrossOverAndBubbleUp(int removeIndex, int vacated, E toTrickle) {
+    int crossOver = crossOver(vacated, toTrickle);
+    if (crossOver == vacated) {
+        return null;
+    }
+    E parent;
+    if (crossOver < removeIndex) {
+        parent = elementData(removeIndex);
+    } else {
+        parent = elementData(getParentIndex(removeIndex));
+    }
+    if (otherHeap.bubbleUpAlternatingLevels(crossOver, toTrickle) < removeIndex) {
+        return new MoveDesc<E>(toTrickle, parent);
+    } else {
+        return null;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "139": "   * Returns true if there is an edge that directly connects {@code nodeU} to {@code nodeV}. This is\n",
+        "147": "\n",
+        "148": "  /**\n",
+        "149": "   * Returns true if there is an edge that directly connects {@code endpoints} (in the order, if\n",
+        "150": "   * any, specified by {@code endpoints}). This is equivalent to {@code\n",
+        "151": "   * edges().contains(endpoints)}.\n",
+        "152": "   *\n",
+        "153": "   * <p>Unlike the other {@code EndpointPair}-accepting methods, this method does not throw if the\n",
+        "154": "   * endpoints are unordered; it simply returns false. This is for consistency with the behavior of\n",
+        "155": "   * {@link Collection#contains(Object)} (which does not generally throw if the object cannot be\n",
+        "156": "   * present in the collection), and the desire to have this method's behavior be compatible with\n",
+        "157": "   * {@code edges().contains(endpoints)}.\n",
+        "158": "   *\n",
+        "159": "   * @since NEXT\n",
+        "160": "   */\n",
+        "161": "  boolean hasEdgeConnecting(EndpointPair<N> endpoints);\n"
+    },
+    "removed": {
+        "139": "   * Returns true if there is an edge directly connecting {@code nodeU} to {@code nodeV}. This is\n"
+    }
+}

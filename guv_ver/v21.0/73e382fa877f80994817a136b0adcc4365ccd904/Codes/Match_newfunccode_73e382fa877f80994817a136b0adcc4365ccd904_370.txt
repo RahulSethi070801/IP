@@ -1,0 +1,7 @@
+private static Collection<IOException> addException(@Nullable Collection<IOException> exceptions, IOException e) {
+    if (exceptions == null) {
+        exceptions = new ArrayList<>();
+    }
+    exceptions.add(e);
+    return exceptions;
+}

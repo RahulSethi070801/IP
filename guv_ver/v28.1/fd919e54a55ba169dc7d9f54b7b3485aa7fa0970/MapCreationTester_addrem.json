@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "37": " * A generic JUnit test which tests creation (typically through a constructor or static factory\n",
+        "38": " * method) of a map. Can't be invoked directly; please see {@link\n",
+        "39": " * com.google.common.collect.testing.MapTestSuiteBuilder}.\n",
+        "144": "   * Returns the {@link Method} instance for {@link #testCreateWithNullKeyUnsupported()} so that\n",
+        "145": "   * tests can suppress it with {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "146": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5045147\">Sun bug 5045147</a> is fixed.\n"
+    },
+    "removed": {
+        "37": " * A generic JUnit test which tests creation (typically through a constructor or\n",
+        "38": " * static factory method) of a map. Can't be invoked directly; please see\n",
+        "39": " * {@link com.google.common.collect.testing.MapTestSuiteBuilder}.\n",
+        "144": "   * Returns the {@link Method} instance for {@link\n",
+        "145": "   * #testCreateWithNullKeyUnsupported()} so that tests can suppress it\n",
+        "146": "   * with {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "147": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5045147\">Sun\n",
+        "148": "   * bug 5045147</a> is fixed.\n"
+    }
+}

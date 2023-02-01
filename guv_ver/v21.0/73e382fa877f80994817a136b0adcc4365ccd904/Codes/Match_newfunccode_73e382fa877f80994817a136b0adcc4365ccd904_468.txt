@@ -1,0 +1,4 @@
+@Deprecated
+public static <T> Stream<T> stream(Collection<T> collection) {
+    return collection.stream();
+}

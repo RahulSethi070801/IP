@@ -1,0 +1,23 @@
+public boolean enter(long time, TimeUnit unit) {
+    final long timeoutNanos = toSafeNanos(time, unit);
+    final ReentrantLock lock = this.lock;
+    if (!fair && lock.tryLock()) {
+        return true;
+    }
+    boolean interrupted = Thread.interrupted();
+    try {
+        final long startTime = System.nanoTime();
+        for (long remainingNanos = timeoutNanos; ; ) {
+            try {
+                return lock.tryLock(remainingNanos, TimeUnit.NANOSECONDS);
+            } catch (InterruptedException interrupt) {
+                interrupted = true;
+                remainingNanos = remainingNanos(startTime, timeoutNanos);
+            }
+        }
+    } finally {
+        if (interrupted) {
+            Thread.currentThread().interrupt();
+        }
+    }
+}

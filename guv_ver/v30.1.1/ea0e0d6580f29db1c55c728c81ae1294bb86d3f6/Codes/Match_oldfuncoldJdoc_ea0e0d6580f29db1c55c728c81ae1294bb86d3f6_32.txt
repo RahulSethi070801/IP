@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #add(Object)} in terms of {@link #add(Object, int)}. If you
+   * override {@link #add(Object, int)}, you may wish to override {@link #add(Object)} to forward to
+   * this implementation.
+   *
+   * @since 7.0
+   

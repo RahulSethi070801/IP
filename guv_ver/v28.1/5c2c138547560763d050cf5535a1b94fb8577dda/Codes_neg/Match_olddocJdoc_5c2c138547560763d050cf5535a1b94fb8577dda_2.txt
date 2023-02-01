@@ -1,0 +1,4 @@
+
+   * Returns a {@code char} matcher that matches any character present in the given character
+   * sequence.
+   

@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "27": " * <p>See the Guava User Guide article on <a\n",
+        "28": " * href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code Predicate}</a>.\n",
+        "55": "   *   <li>Its execution does not cause any observable side effects.\n",
+        "56": "   *   <li>The computation is <i>consistent with equals</i>; that is, {@link Objects#equal\n",
+        "57": "   *       Objects.equal}{@code (a, b)} implies that {@code predicate.apply(a) ==\n",
+        "58": "   *       predicate.apply(b))}.\n"
+    },
+    "removed": {
+        "28": " * <p>See the Guava User Guide article on\n",
+        "29": " * <a href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code\n",
+        "30": " * Predicate}</a>.\n",
+        "57": "   * <li>Its execution does not cause any observable side effects.\n",
+        "58": "   * <li>The computation is <i>consistent with equals</i>; that is, {@link Objects#equal\n",
+        "59": "   *     Objects.equal}{@code (a, b)} implies that {@code predicate.apply(a) ==\n",
+        "60": "   *     predicate.apply(b))}.\n"
+    }
+}

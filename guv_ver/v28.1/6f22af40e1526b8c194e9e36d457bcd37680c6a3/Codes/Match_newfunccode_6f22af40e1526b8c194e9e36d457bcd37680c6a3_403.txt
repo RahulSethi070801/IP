@@ -1,0 +1,18 @@
+@NullableDecl
+private static InetAddress forUriStringNoThrow(String hostAddr) {
+    checkNotNull(hostAddr);
+    String ipString;
+    int expectBytes;
+    if (hostAddr.startsWith("[") && hostAddr.endsWith("]")) {
+        ipString = hostAddr.substring(1, hostAddr.length() - 1);
+        expectBytes = 16;
+    } else {
+        ipString = hostAddr;
+        expectBytes = 4;
+    }
+    byte[] addr = ipStringToBytes(ipString);
+    if (addr == null || addr.length != expectBytes) {
+        return null;
+    }
+    return bytesToInetAddress(addr);
+}

@@ -1,0 +1,1 @@
+E newEntry(S segment, K key, int hash, @Nullable E next);

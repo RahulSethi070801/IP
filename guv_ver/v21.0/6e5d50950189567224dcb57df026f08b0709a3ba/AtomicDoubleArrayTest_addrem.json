@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "70": "    double[] a = null;\n",
+        "72": "      new AtomicDoubleArray(a);\n",
+        "73": "      fail();\n",
+        "96": "      fail();\n",
+        "108": "      fail();\n",
+        "120": "        fail();\n",
+        "124": "        fail();\n",
+        "128": "        fail();\n",
+        "132": "        fail();\n",
+        "136": "        fail();\n",
+        "140": "        fail();\n",
+        "144": "        fail();\n"
+    },
+    "removed": {
+        "71": "      double[] a = null;\n",
+        "72": "      AtomicDoubleArray aa = new AtomicDoubleArray(a);\n",
+        "73": "      shouldThrow();\n",
+        "96": "      shouldThrow();\n",
+        "108": "      shouldThrow();\n",
+        "120": "        shouldThrow();\n",
+        "124": "        shouldThrow();\n",
+        "128": "        shouldThrow();\n",
+        "132": "        shouldThrow();\n",
+        "136": "        shouldThrow();\n",
+        "140": "        shouldThrow();\n",
+        "144": "        shouldThrow();\n"
+    }
+}

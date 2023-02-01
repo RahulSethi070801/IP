@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "32": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "547": "  @CanIgnoreReturnValue // some processors won't return a useful result\n",
+        "563": "  @CanIgnoreReturnValue // some processors won't return a useful result\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "36": "    hasher.putBytes(new byte[] {2, 3, 4, 5, 6});\n",
+        "38": "    hasher.putBytes(new byte[] {});\n",
+        "39": "    hasher.putBytes(new byte[] {8});\n",
+        "46": "    hasher.assertBytes(new byte[] {1, 2});\n",
+        "52": "    hasher.assertBytes(new byte[] {1, 2, 3, 4});\n",
+        "58": "    hasher.assertBytes(new byte[] {1, 2, 3, 4, 5, 6, 7, 8});\n",
+        "64": "    hasher.assertBytes(new byte[] {1, 2});\n",
+        "85": "    hasher.assertBytes(new byte[] {1, 2, 3, 4});\n",
+        "91": "    hasher.assertBytes(new byte[] {1, 2, 3, 4, 5, 6, 7, 8});\n"
+    },
+    "removed": {
+        "36": "    hasher.putBytes(new byte[]{2, 3, 4, 5, 6});\n",
+        "38": "    hasher.putBytes(new byte[]{});\n",
+        "39": "    hasher.putBytes(new byte[]{8});\n",
+        "46": "    hasher.assertBytes(new byte[]{1, 2});\n",
+        "52": "    hasher.assertBytes(new byte[]{1, 2, 3, 4});\n",
+        "58": "    hasher.assertBytes(new byte[]{1, 2, 3, 4, 5, 6, 7, 8});\n",
+        "64": "    hasher.assertBytes(new byte[]{1, 2});\n",
+        "85": "    hasher.assertBytes(new byte[]{1, 2, 3, 4});\n",
+        "91": "    hasher.assertBytes(new byte[]{1, 2, 3, 4, 5, 6, 7, 8});\n"
+    }
+}

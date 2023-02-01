@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "119": "    return hasEdgeConnecting_internal(checkNotNull(nodeU), checkNotNull(nodeV));\n",
+        "120": "  }\n",
+        "121": "\n",
+        "122": "  @Override\n",
+        "123": "  public boolean hasEdgeConnecting(EndpointPair<N> endpoints) {\n",
+        "124": "    checkNotNull(endpoints);\n",
+        "125": "    return isOrderingCompatible(endpoints)\n",
+        "126": "        && hasEdgeConnecting_internal(endpoints.nodeU(), endpoints.nodeV());\n",
+        "131": "    return edgeValueOrDefault_internal(checkNotNull(nodeU), checkNotNull(nodeV), defaultValue);\n",
+        "132": "  }\n",
+        "133": "\n",
+        "134": "  @Override\n",
+        "135": "  public @Nullable V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue) {\n",
+        "136": "    validateEndpoints(endpoints);\n",
+        "137": "    return edgeValueOrDefault_internal(endpoints.nodeU(), endpoints.nodeV(), defaultValue);\n",
+        "157": "\n",
+        "158": "  protected final boolean hasEdgeConnecting_internal(N nodeU, N nodeV) {\n",
+        "159": "    GraphConnections<N, V> connectionsU = nodeConnections.get(nodeU);\n",
+        "160": "    return (connectionsU != null) && connectionsU.successors().contains(nodeV);\n",
+        "161": "  }\n",
+        "162": "\n",
+        "163": "  protected final V edgeValueOrDefault_internal(N nodeU, N nodeV, V defaultValue) {\n",
+        "164": "    GraphConnections<N, V> connectionsU = nodeConnections.get(nodeU);\n",
+        "165": "    V value = (connectionsU == null) ? null : connectionsU.value(nodeV);\n",
+        "166": "    return value == null ? defaultValue : value;\n",
+        "167": "  }\n"
+    },
+    "removed": {
+        "119": "    checkNotNull(nodeU);\n",
+        "120": "    checkNotNull(nodeV);\n",
+        "121": "    GraphConnections<N, V> connectionsU = nodeConnections.get(nodeU);\n",
+        "122": "    return (connectionsU != null) && connectionsU.successors().contains(nodeV);\n",
+        "127": "    checkNotNull(nodeU);\n",
+        "128": "    checkNotNull(nodeV);\n",
+        "129": "    GraphConnections<N, V> connectionsU = nodeConnections.get(nodeU);\n",
+        "130": "    V value = (connectionsU == null) ? null : connectionsU.value(nodeV);\n",
+        "131": "    return value == null ? defaultValue : value;\n"
+    }
+}

@@ -1,0 +1,3 @@
+
+   * Delegate that cares about the element types in multisetToModify.
+   

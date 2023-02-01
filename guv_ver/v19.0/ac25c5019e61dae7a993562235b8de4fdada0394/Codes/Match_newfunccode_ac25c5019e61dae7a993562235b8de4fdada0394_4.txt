@@ -1,0 +1,14 @@
+@GuardedBy("lock")
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException {
+    if (signalBeforeWaiting) {
+        signalNextWaiter();
+    }
+    beginWaitingFor(guard);
+    try {
+        do {
+            guard.condition.await();
+        } while (!guard.isSatisfied());
+    } finally {
+        endWaitingFor(guard);
+    }
+}

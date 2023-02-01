@@ -1,0 +1,4 @@
+ImmutableBasicGraph
+Insertions: [36]
+Deletions: [36]
+guava/src/com/google/common/graph/ImmutableBasicGraph.java

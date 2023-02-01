@@ -1,0 +1,4 @@
+Predicate
+Insertions: [19, 65, 78]
+Deletions: [19, 65, 78]
+android/guava/src/com/google/common/base/Predicate.java

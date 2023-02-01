@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "34": " * <p>The multimap does not store duplicate key-value pairs. Adding a new key-value pair equal to an\n",
+        "35": " * existing key-value pair has no effect.\n",
+        "37": " * <p>Keys and values may be null. All optional multimap methods are supported, and all returned\n",
+        "38": " * views are modifiable.\n",
+        "40": " * <p>This class is not threadsafe when any concurrent operations update the multimap. Concurrent\n",
+        "41": " * read operations will work correctly. To allow concurrent update operations, wrap your multimap\n",
+        "42": " * with a call to {@link Multimaps#synchronizedSetMultimap}.\n",
+        "121": "   * @serialData expectedValuesPerKey, number of distinct keys, and then for each distinct key: the\n",
+        "122": "   *     key, number of values for that key, and the key's values\n"
+    },
+    "removed": {
+        "34": " * <p>The multimap does not store duplicate key-value pairs. Adding a new\n",
+        "35": " * key-value pair equal to an existing key-value pair has no effect.\n",
+        "37": " * <p>Keys and values may be null. All optional multimap methods are supported,\n",
+        "38": " * and all returned views are modifiable.\n",
+        "40": " * <p>This class is not threadsafe when any concurrent operations update the\n",
+        "41": " * multimap. Concurrent read operations will work correctly. To allow concurrent\n",
+        "42": " * update operations, wrap your multimap with a call to {@link\n",
+        "43": " * Multimaps#synchronizedSetMultimap}.\n",
+        "122": "   * @serialData expectedValuesPerKey, number of distinct keys, and then for\n",
+        "123": "   *     each distinct key: the key, number of values for that key, and the\n",
+        "124": "   *     key's values\n"
+    }
+}

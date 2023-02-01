@@ -1,0 +1,10 @@
+
+   * Returns an unmodifiable view of the specified multiset. Query operations on the returned
+   * multiset "read through" to the specified multiset, and attempts to modify the returned multiset
+   * result in an {@link UnsupportedOperationException}.
+   *
+   * <p>The returned multiset will be serializable if the specified multiset is serializable.
+   *
+   * @param multiset the multiset for which an unmodifiable view is to be generated
+   * @return an unmodifiable view of the multiset
+   

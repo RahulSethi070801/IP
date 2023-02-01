@@ -1,0 +1,45 @@
+com.google.common.graph.Network
+edgeConnecting
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+N,N
+Optional
+com.google.common.graph.Network
+edgesConnecting
+Set<E> edgesConnecting(N nodeU, N nodeV)
+N,N
+Set
+com.google.common.graph.MutableNetwork
+addEdge
+boolean addEdge(N nodeU, N nodeV, E edge)
+N,N,E
+boolean
+com.google.common.graph.ValueGraph
+edgeValue
+Optional<V> edgeValue(N nodeU, N nodeV)
+N,N
+Optional
+com.google.common.graph.MutableValueGraph
+putEdgeValue
+V putEdgeValue(N nodeU, N nodeV, V value)
+N,N,V
+V
+com.google.common.graph.ValueGraph
+edgeValueOrDefault
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+N,N,V
+V
+com.google.common.graph.Graph
+hasEdgeConnecting
+boolean hasEdgeConnecting(N nodeU, N nodeV)
+N,N
+boolean
+com.google.common.graph.MutableGraph
+putEdge
+boolean putEdge(N nodeU, N nodeV)
+N,N
+boolean
+com.google.common.graph.Network
+edgeConnectingOrNull
+E edgeConnectingOrNull(N nodeU, N nodeV)
+N,N
+E

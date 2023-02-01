@@ -1,0 +1,20 @@
+com.google.common.io.CharSource
+concat
+public static CharSource concat(Iterator<? extends CharSource> sources)
+Iterator
+CharSource
+com.google.common.io.CharSource
+concat
+public static CharSource concat(Iterable<? extends CharSource> sources)
+Iterable
+CharSource
+com.google.common.io.ByteSource
+concat
+public static ByteSource concat(Iterator<? extends ByteSource> sources)
+Iterator
+ByteSource
+com.google.common.io.ByteSource
+concat
+public static ByteSource concat(Iterable<? extends ByteSource> sources)
+Iterable
+ByteSource

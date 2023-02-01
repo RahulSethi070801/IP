@@ -1,0 +1,5 @@
+com.google.common.collect.FluentIterable
+toMap
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+Function
+ImmutableMap

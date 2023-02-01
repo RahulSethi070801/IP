@@ -1,0 +1,4 @@
+@Partially.GwtIncompatible("AVAILABLE but requires exceptionType to be Throwable.class")
+public final <X extends Throwable> FluentFuture<V> catching(Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor) {
+    return (FluentFuture<V>) Futures.catching(this, exceptionType, fallback, executor);
+}

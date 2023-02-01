@@ -1,0 +1,10 @@
+
+   * Returns the characters from a {@link Readable} & {@link Closeable} object
+   * supplied by a factory as a {@link String}.
+   *
+   * @param supplier the factory to read from
+   * @return a string containing all the characters
+   * @throws IOException if an I/O error occurs
+   * @deprecated Use {@link CharSource#read()} instead. This method is
+   *     scheduled for removal in Guava 18.0.
+   

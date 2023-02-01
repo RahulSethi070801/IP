@@ -1,0 +1,5 @@
+@Override
+public void forEachEntry(ObjIntConsumer<? super E> action) {
+    checkNotNull(action);
+    backingMap.forEach((element, count) -> action.accept(element, count.get()));
+}

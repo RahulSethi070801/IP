@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "30": " * A generic JUnit test which tests {@code poll()} operations on a queue. Can't be invoked directly;\n",
+        "31": " * please see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n"
+    },
+    "removed": {
+        "30": " * A generic JUnit test which tests {@code poll()} operations on a queue.\n",
+        "31": " * Can't be invoked directly; please see\n",
+        "32": " * {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n"
+    }
+}

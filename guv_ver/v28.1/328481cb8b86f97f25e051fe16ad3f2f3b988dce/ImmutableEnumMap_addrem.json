@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "22": "import java.util.Map.Entry;\n",
+        "32": "    for (Entry<K, V> entry : checkNotNull(map).entrySet()) {\n"
+    },
+    "removed": {
+        "31": "    for (Map.Entry<K, V> entry : checkNotNull(map).entrySet()) {\n"
+    }
+}

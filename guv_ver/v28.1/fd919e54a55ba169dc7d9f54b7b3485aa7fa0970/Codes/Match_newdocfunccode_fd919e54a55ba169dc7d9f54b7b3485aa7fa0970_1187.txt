@@ -1,0 +1,8 @@
+@Override
+public long size() throws IOException {
+    long result = 0L;
+    for (ByteSource source : sources) {
+        result += source.size();
+    }
+    return result;
+}

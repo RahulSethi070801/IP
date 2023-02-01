@@ -1,0 +1,10 @@
+{
+    "addition": {},
+    "removed": {
+        "36": "public void testExpiration_setTwice__MakerTest() throws Exception {\n",
+        "37": "  com.google.common.collect.MapMakerTest.MakerTest testCase = new com.google.common.collect.MapMakerTest.MakerTest();\n",
+        "38": "  testCase.testExpiration_setTwice();\n",
+        "39": "}\n",
+        "40": "\n"
+    }
+}

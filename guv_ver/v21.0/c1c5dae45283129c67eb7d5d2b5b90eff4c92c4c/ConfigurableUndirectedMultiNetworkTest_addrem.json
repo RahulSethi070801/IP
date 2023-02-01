@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "27": " * Tests for an undirected {@link ConfigurableNetwork} allowing parallel edges.\n",
+        "30": "public class ConfigurableUndirectedMultiNetworkTest extends ConfigurableUndirectedNetworkTest {\n",
+        "32": "  public MutableNetwork<Integer, String> createGraph() {\n",
+        "33": "    return NetworkBuilder.undirected().allowsParallelEdges(true).build();\n"
+    },
+    "removed": {
+        "27": " * Tests for an undirected {@link ConfigurableGraph} allowing parallel edges.\n",
+        "30": "public class ConfigurableUndirectedMultigraphTest extends ConfigurableUndirectedGraphTest {\n",
+        "32": "  public Graph<Integer, String> createGraph() {\n",
+        "33": "    return GraphBuilder.undirected().allowsParallelEdges(true).build();\n"
+    }
+}

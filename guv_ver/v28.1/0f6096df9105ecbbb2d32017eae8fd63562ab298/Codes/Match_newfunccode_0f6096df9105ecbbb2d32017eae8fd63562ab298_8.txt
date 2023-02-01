@@ -1,0 +1,4 @@
+@Override
+public Optional<V> edgeValue(N nodeU, N nodeV) {
+    return Optional.ofNullable(edgeValueOrNull(nodeU, nodeV));
+}

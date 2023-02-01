@@ -1,0 +1,7 @@
+private static <K extends Enum<K>, V> ImmutableMap<K, V> copyOfEnumMap(EnumMap<K, ? extends V> original) {
+    EnumMap<K, V> copy = new EnumMap<>(original);
+    for (Entry<?, ?> entry : copy.entrySet()) {
+        checkEntryNotNull(entry.getKey(), entry.getValue());
+    }
+    return ImmutableEnumMap.asImmutable(copy);
+}

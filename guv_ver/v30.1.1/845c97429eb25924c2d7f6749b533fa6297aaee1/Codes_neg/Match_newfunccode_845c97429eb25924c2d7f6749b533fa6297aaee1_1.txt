@@ -1,0 +1,6 @@
+<N1 extends N> ValueGraphBuilder<N1, V> incidentEdgeOrder(ElementOrder<N1> incidentEdgeOrder) {
+    checkArgument(incidentEdgeOrder.type() == ElementOrder.Type.UNORDERED || incidentEdgeOrder.type() == ElementOrder.Type.STABLE, "The given elementOrder (%s) is unsupported. incidentEdgeOrder() only supports" + " ElementOrder.unordered() and ElementOrder.stable().", incidentEdgeOrder);
+    ValueGraphBuilder<N1, V> newBuilder = cast();
+    newBuilder.incidentEdgeOrder = checkNotNull(incidentEdgeOrder);
+    return newBuilder;
+}

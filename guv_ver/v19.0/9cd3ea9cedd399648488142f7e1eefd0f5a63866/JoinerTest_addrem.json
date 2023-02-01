@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "59": "  @SuppressWarnings(\"CheckReturnValue\")\n",
+        "239": "  @SuppressWarnings(\"CheckReturnValue\")\n",
+        "262": "  @SuppressWarnings(\"CheckReturnValue\")\n"
+    },
+    "removed": {}
+}

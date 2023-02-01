@@ -1,0 +1,4 @@
+
+   * @deprecated The semantics of {@code writeBytes(String s)} are considered dangerous. Please use
+   *     {@link #writeUTF(String s)}, {@link #writeChars(String s)} or another write method instead.
+   

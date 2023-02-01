@@ -1,0 +1,5 @@
+@DoNotCall("Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)")
+@Deprecated
+public static <E> ImmutableSortedMultiset<E> copyOf(E[] elements) {
+    throw new UnsupportedOperationException();
+}

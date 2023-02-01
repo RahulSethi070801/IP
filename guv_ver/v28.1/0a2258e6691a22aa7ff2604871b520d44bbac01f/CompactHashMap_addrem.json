@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "47": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "239": "  @Nullable\n",
+        "240": "  public V put(@Nullable K key, @Nullable V value) {\n",
+        "259": "          @Nullable\n",
+        "287": "  void insertEntry(int entryIndex, @Nullable K key, @Nullable V value, int hash) {\n",
+        "348": "  private int indexOf(@Nullable Object key) {\n",
+        "362": "  public boolean containsKey(@Nullable Object key) {\n",
+        "368": "  public V get(@Nullable Object key) {\n",
+        "376": "  @Nullable\n",
+        "377": "  public V remove(@Nullable Object key) {\n",
+        "381": "  @Nullable\n",
+        "382": "  private V remove(@Nullable Object key, int hash) {\n",
+        "393": "          @Nullable\n",
+        "557": "    public boolean remove(@Nullable Object o) {\n",
+        "634": "    public boolean contains(@Nullable Object o) {\n",
+        "644": "    public boolean remove(@Nullable Object o) {\n",
+        "667": "    @Nullable private final K key;\n",
+        "723": "  public boolean containsValue(@Nullable Object value) {\n"
+    },
+    "removed": {
+        "47": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "239": "  @NullableDecl\n",
+        "240": "  public V put(@NullableDecl K key, @NullableDecl V value) {\n",
+        "259": "          @NullableDecl\n",
+        "287": "  void insertEntry(int entryIndex, @NullableDecl K key, @NullableDecl V value, int hash) {\n",
+        "348": "  private int indexOf(@NullableDecl Object key) {\n",
+        "362": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "368": "  public V get(@NullableDecl Object key) {\n",
+        "376": "  @NullableDecl\n",
+        "377": "  public V remove(@NullableDecl Object key) {\n",
+        "381": "  @NullableDecl\n",
+        "382": "  private V remove(@NullableDecl Object key, int hash) {\n",
+        "393": "          @NullableDecl\n",
+        "557": "    public boolean remove(@NullableDecl Object o) {\n",
+        "634": "    public boolean contains(@NullableDecl Object o) {\n",
+        "644": "    public boolean remove(@NullableDecl Object o) {\n",
+        "667": "    @NullableDecl private final K key;\n",
+        "723": "  public boolean containsValue(@NullableDecl Object value) {\n"
+    }
+}

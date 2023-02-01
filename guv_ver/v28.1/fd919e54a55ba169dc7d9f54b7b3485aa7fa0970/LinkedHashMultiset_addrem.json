@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "26": " * A {@code Multiset} implementation with predictable iteration order. Its iterator orders elements\n",
+        "27": " * according to when the first occurrence of the element was added. When the multiset contains\n",
+        "28": " * multiple instances of an element, those instances are consecutive in the iteration order. If all\n",
+        "29": " * occurrences of an element are removed, after which that element is added to the multiset, the\n",
+        "30": " * element will appear at the end of the iteration.\n",
+        "33": " * \"https://github.com/google/guava/wiki/NewCollectionTypesExplained#multiset\"> {@code\n",
+        "34": " * Multiset}</a>.\n",
+        "44": "  /** Creates a new, empty {@code LinkedHashMultiset} using the default initial capacity. */\n",
+        "50": "   * Creates a new, empty {@code LinkedHashMultiset} with the specified expected number of distinct\n",
+        "51": "   * elements.\n",
+        "63": "   * <p>This implementation is highly efficient when {@code elements} is itself a {@link Multiset}.\n",
+        "82": "   * @serialData the number of distinct elements, the first element, its count, the second element,\n",
+        "83": "   *     its count, and so on\n"
+    },
+    "removed": {
+        "26": " * A {@code Multiset} implementation with predictable iteration order. Its\n",
+        "27": " * iterator orders elements according to when the first occurrence of the\n",
+        "28": " * element was added. When the multiset contains multiple instances of an\n",
+        "29": " * element, those instances are consecutive in the iteration order. If all\n",
+        "30": " * occurrences of an element are removed, after which that element is added to\n",
+        "31": " * the multiset, the element will appear at the end of the iteration.\n",
+        "34": " * \"https://github.com/google/guava/wiki/NewCollectionTypesExplained#multiset\">\n",
+        "35": " * {@code Multiset}</a>.\n",
+        "45": "  /**\n",
+        "46": "   * Creates a new, empty {@code LinkedHashMultiset} using the default initial\n",
+        "47": "   * capacity.\n",
+        "48": "   */\n",
+        "54": "   * Creates a new, empty {@code LinkedHashMultiset} with the specified expected\n",
+        "55": "   * number of distinct elements.\n",
+        "67": "   * <p>This implementation is highly efficient when {@code elements} is itself\n",
+        "68": "   * a {@link Multiset}.\n",
+        "87": "   * @serialData the number of distinct elements, the first element, its count,\n",
+        "88": "   *     the second element, its count, and so on\n"
+    }
+}

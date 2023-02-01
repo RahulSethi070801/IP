@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "37": "  @Benchmark\n",
+        "38": "  void postStrings(int reps) {\n"
+    },
+    "removed": {
+        "37": "  @Benchmark void postStrings(int reps) {\n"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "32": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "143": "  public final CollectorTester<T, A, R> expectCollects(@Nullable R expectedResult, T... inputs) {\n",
+        "153": "  private void doExpectCollects(@Nullable R expectedResult, List<T> inputs) {\n",
+        "163": "  private void assertEquivalent(@Nullable R expected, @Nullable R actual) {\n"
+    },
+    "removed": {
+        "32": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "143": "  public final CollectorTester<T, A, R> expectCollects(\n",
+        "144": "      @NullableDecl R expectedResult, T... inputs) {\n",
+        "154": "  private void doExpectCollects(@NullableDecl R expectedResult, List<T> inputs) {\n",
+        "164": "  private void assertEquivalent(@NullableDecl R expected, @NullableDecl R actual) {\n"
+    }
+}

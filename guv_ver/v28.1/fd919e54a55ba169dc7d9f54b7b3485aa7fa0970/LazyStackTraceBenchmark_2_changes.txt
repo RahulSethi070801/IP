@@ -1,0 +1,4 @@
+LazyStackTraceBenchmark_2
+Insertions: [33, 34, 35, 36, 37, 91]
+Deletions: [33, 34, 88, 89, 90]
+guava-tests/benchmark/com/google/common/base/LazyStackTraceBenchmark.java

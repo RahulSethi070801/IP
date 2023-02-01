@@ -1,0 +1,5 @@
+@Override
+public Writer append(@CheckForNull CharSequence csq, int start, int end) {
+    checkPositionIndexes(start, end, csq == null ? "null".length() : csq.length());
+    return this;
+}

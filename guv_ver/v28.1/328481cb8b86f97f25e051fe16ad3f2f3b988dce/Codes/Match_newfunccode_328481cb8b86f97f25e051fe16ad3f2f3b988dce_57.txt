@@ -1,0 +1,3 @@
+<T2 extends T> Ordering<Entry<T2, ?>> onKeys() {
+    return onResultOf(Maps.<T2>keyFunction());
+}

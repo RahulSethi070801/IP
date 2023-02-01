@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "43": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "77": "@ElementTypesAreNonnullByDefault\n",
+        "319": "  public <T extends @Nullable Object> T read(ByteProcessor<T> processor) throws IOException {\n",
+        "623": "    @ParametricNullness\n",
+        "624": "    public <T extends @Nullable Object> T read(ByteProcessor<T> processor) throws IOException {\n"
+    },
+    "removed": {
+        "317": "  public <T> T read(ByteProcessor<T> processor) throws IOException {\n",
+        "621": "    public <T> T read(ByteProcessor<T> processor) throws IOException {\n"
+    }
+}

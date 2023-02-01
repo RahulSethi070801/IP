@@ -1,0 +1,4 @@
+AbstractBiMap_2
+Insertions: [41, 43, 44, 54, 72, 78, 85, 86, 458]
+Deletions: [41, 42, 44, 45, 55, 56, 74, 75, 76, 82, 83, 84, 91, 92, 464, 465, 466]
+guava/src/com/google/common/collect/AbstractBiMap.java

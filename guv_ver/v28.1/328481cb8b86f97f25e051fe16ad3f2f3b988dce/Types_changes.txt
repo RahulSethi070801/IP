@@ -1,0 +1,4 @@
+Types
+Insertions: [45, 630]
+Deletions: [45, 630]
+android/guava/src/com/google/common/reflect/Types.java

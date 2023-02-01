@@ -1,0 +1,50 @@
+com.google.common.base.CharMatcher
+replaceFrom
+public String replaceFrom(CharSequence sequence, CharSequence replacement)
+CharSequence,CharSequence
+String
+com.google.common.cache.LoadingCache
+getAll
+ImmutableMap<K, V> getAll(Iterable<? extends K> keys) throws ExecutionException
+Iterable
+ImmutableMap
+com.google.common.cache.LoadingCache
+get
+V get(K key) throws ExecutionException
+K
+V
+com.google.common.base.CharMatcher
+whitespace
+public static CharMatcher whitespace()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+matchesAllOf
+public boolean matchesAllOf(CharSequence sequence)
+CharSequence
+boolean
+com.google.common.base.CharMatcher
+matchesNoneOf
+public boolean matchesNoneOf(CharSequence sequence)
+CharSequence
+boolean
+com.google.common.base.CharMatcher
+indexIn
+public int indexIn(CharSequence sequence)
+CharSequence
+int
+com.google.common.base.CharMatcher
+indexIn
+public int indexIn(CharSequence sequence, int start)
+CharSequence,int
+int
+com.google.common.base.CharMatcher
+replaceFrom
+public String replaceFrom(CharSequence sequence, char replacement)
+CharSequence,char
+String
+com.google.common.base.CharMatcher
+lastIndexIn
+public int lastIndexIn(CharSequence sequence)
+CharSequence
+int

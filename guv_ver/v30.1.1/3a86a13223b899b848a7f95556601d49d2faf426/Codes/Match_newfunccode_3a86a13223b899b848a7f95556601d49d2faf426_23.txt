@@ -1,0 +1,20 @@
+@Override
+public E intern(E sample) {
+    while (true) {
+        @SuppressWarnings("rawtypes")
+        InternalEntry entry = map.getEntry(sample);
+        if (entry != null) {
+            Object canonical = entry.getKey();
+            if (canonical != null) {
+                @SuppressWarnings("unchecked")
+                E result = (E) canonical;
+                return result;
+            }
+        }
+        Dummy sneaky = map.putIfAbsent(sample, Dummy.VALUE);
+        if (sneaky == null) {
+            return sample;
+        } else {
+        }
+    }
+}

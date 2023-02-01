@@ -1,0 +1,8 @@
+boolean tooHigh(@Nullable T t) {
+    if (!hasUpperBound()) {
+        return false;
+    }
+    T ubound = getUpperEndpoint();
+    int cmp = comparator.compare(t, ubound);
+    return cmp > 0 | (cmp == 0 & getUpperBoundType() == OPEN);
+}

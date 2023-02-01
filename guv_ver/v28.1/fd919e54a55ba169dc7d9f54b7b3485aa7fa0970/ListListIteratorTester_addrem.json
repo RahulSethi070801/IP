@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "41": " * A generic JUnit test which tests {@code listIterator} operations on a list. Can't be invoked\n",
+        "42": " * directly; please see {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n",
+        "107": "   * Returns the {@link Method} instance for {@link #testListIterator_fullyModifiable()} so that\n",
+        "108": "   * tests of {@link CopyOnWriteArraySet} can suppress it with {@code\n",
+        "109": "   * FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "110": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6570575\">Sun bug 6570575</a> is fixed.\n",
+        "118": "   * Returns the {@link Method} instance for {@link #testListIterator_unmodifiable()} so that it can\n",
+        "119": "   * be suppressed in GWT tests.\n"
+    },
+    "removed": {
+        "41": " * A generic JUnit test which tests {@code listIterator} operations on a list.\n",
+        "42": " * Can't be invoked directly; please see\n",
+        "43": " * {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n",
+        "108": "   * Returns the {@link Method} instance for\n",
+        "109": "   * {@link #testListIterator_fullyModifiable()} so that tests of\n",
+        "110": "   * {@link CopyOnWriteArraySet} can suppress it with\n",
+        "111": "   * {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "112": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6570575\">Sun bug\n",
+        "113": "   * 6570575</a> is fixed.\n",
+        "121": "   * Returns the {@link Method} instance for\n",
+        "122": "   * {@link #testListIterator_unmodifiable()} so that it can be suppressed in\n",
+        "123": "   * GWT tests.\n"
+    }
+}

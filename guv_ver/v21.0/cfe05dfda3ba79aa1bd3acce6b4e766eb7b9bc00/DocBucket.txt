@@ -1,0 +1,5 @@
+com.google.common.graph.ImmutableNetwork
+ImmutableNetwork
+private ImmutableNetwork(Network<N, E> graph)
+Network
+constructor

@@ -1,0 +1,17 @@
+@GuardedBy("lock")
+private void endWaitingFor(Guard guard) {
+    int waiters = --guard.waiterCount;
+    if (waiters == 0) {
+        for (Guard p = activeGuards, pred = null; ; pred = p, p = p.next) {
+            if (p == guard) {
+                if (pred == null) {
+                    activeGuards = p.next;
+                } else {
+                    pred.next = p.next;
+                }
+                p.next = null;
+                break;
+            }
+        }
+    }
+}

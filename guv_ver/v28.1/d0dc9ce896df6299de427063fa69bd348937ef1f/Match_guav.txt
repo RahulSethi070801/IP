@@ -1,0 +1,378 @@
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public final boolean equals(@Nullable Object obj)
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+public String toString()
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private static Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network)
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private Map<EndpointPair<N>, V> edgeValueMap()
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+private static Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph)
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+public final int hashCode()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+
+private Map<E, EndpointPair<N>> edgeIncidentNodesMap()
+boolean equals(@Nullable Object object)
+

@@ -1,0 +1,3 @@
+Spliterator<V> valueSpliterator() {
+    return Spliterators.spliterator(valueIterator(), size(), 0);
+}

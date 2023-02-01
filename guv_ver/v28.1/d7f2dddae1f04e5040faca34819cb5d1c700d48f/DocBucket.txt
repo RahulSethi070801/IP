@@ -1,0 +1,15 @@
+com.google.common.hash.BloomFilter
+put
+public boolean put(T object)
+T
+boolean
+com.google.common.hash.BloomFilter
+putAll
+public void putAll(BloomFilter<T> that)
+BloomFilter
+void
+com.google.common.hash.BloomFilter
+isCompatible
+public boolean isCompatible(BloomFilter<T> that)
+BloomFilter
+boolean

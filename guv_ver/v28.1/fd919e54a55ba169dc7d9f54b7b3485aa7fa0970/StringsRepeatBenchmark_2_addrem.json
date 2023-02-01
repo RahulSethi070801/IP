@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "29": "  @Param({\"1\", \"5\", \"25\", \"125\"})\n",
+        "30": "  int count;\n",
+        "31": "\n",
+        "32": "  @Param({\"1\", \"10\"})\n",
+        "33": "  int length;\n",
+        "37": "  @BeforeExperiment\n",
+        "38": "  void setUp() {\n",
+        "42": "  @Benchmark\n",
+        "43": "  void oldRepeat(int reps) {\n",
+        "47": "        throw new RuntimeException(\"Wrong length: \" + x);\n",
+        "51": "\n",
+        "52": "  @Benchmark\n",
+        "53": "  void mikeRepeat(int reps) {\n",
+        "57": "        throw new RuntimeException(\"Wrong length: \" + x);\n",
+        "61": "\n",
+        "62": "  @Benchmark\n",
+        "63": "  void martinRepeat(int reps) {\n",
+        "67": "        throw new RuntimeException(\"Wrong length: \" + x);\n",
+        "83": "        System.arraycopy(strCopy, 0, array, pos, strCopyLen);\n",
+        "101": "    for (int i = 0; i < size; i += len) {\n"
+    },
+    "removed": {
+        "29": "  @Param({\"1\", \"5\", \"25\", \"125\"}) int count;\n",
+        "30": "  @Param({\"1\", \"10\"}) int length;\n",
+        "34": "  @BeforeExperiment void setUp() {\n",
+        "38": "  @Benchmark void oldRepeat(int reps) {\n",
+        "42": "        throw new RuntimeException(\"Wrong length: \"+x);\n",
+        "46": "  @Benchmark void mikeRepeat(int reps) {\n",
+        "50": "        throw new RuntimeException(\"Wrong length: \"+x);\n",
+        "54": "  @Benchmark void martinRepeat(int reps) {\n",
+        "58": "        throw new RuntimeException(\"Wrong length: \"+x);\n",
+        "74": "        System.arraycopy(strCopy, 0, array, pos,strCopyLen);\n",
+        "92": "    for (int i = 0; i < size; i+=len) {\n"
+    }
+}

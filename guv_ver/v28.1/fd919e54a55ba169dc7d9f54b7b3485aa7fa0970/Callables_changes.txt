@@ -1,0 +1,4 @@
+Callables
+Insertions: [36, 49, 50, 57]
+Deletions: [36, 37, 38, 51, 52, 59, 60]
+android/guava/src/com/google/common/util/concurrent/Callables.java

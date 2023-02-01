@@ -1,0 +1,29 @@
+private V put(@Nullable K key, @Nullable V value, boolean force) {
+    int keyHash = smearedHash(key);
+    int valueHash = smearedHash(value);
+    BiEntry<K, V> oldEntryForKey = seekByKey(key, keyHash);
+    if (oldEntryForKey != null && valueHash == oldEntryForKey.valueHash && Objects.equal(value, oldEntryForKey.value)) {
+        return value;
+    }
+    BiEntry<K, V> oldEntryForValue = seekByValue(value, valueHash);
+    if (oldEntryForValue != null) {
+        if (force) {
+            delete(oldEntryForValue);
+        } else {
+            throw new IllegalArgumentException("value already present: " + value);
+        }
+    }
+    BiEntry<K, V> newEntry = new BiEntry<>(key, keyHash, value, valueHash);
+    if (oldEntryForKey != null) {
+        delete(oldEntryForKey);
+        insert(newEntry, oldEntryForKey);
+        oldEntryForKey.prevInKeyInsertionOrder = null;
+        oldEntryForKey.nextInKeyInsertionOrder = null;
+        rehashIfNecessary();
+        return oldEntryForKey.value;
+    } else {
+        insert(newEntry, null);
+        rehashIfNecessary();
+        return null;
+    }
+}

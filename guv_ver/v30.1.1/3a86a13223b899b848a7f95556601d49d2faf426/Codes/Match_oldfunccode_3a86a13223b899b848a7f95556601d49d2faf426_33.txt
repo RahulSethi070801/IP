@@ -1,0 +1,5 @@
+@SuppressWarnings("unchecked")
+@Override
+public ComparisonChain compare(Comparable left, Comparable right) {
+    return classify(left.compareTo(right));
+}

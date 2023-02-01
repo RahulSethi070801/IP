@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "43": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "243": "  public static <E> Multiset.Entry<E> immutableEntry(@NullableDecl E e, int n) {\n",
+        "248": "    @NullableDecl private final E element;\n",
+        "251": "    ImmutableEntry(@NullableDecl E element, int count) {\n",
+        "258": "    @NullableDecl\n",
+        "354": "    public int count(@NullableDecl Object element) {\n",
+        "365": "    public int add(@NullableDecl E element, int occurrences) {\n",
+        "372": "    public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "419": "      public boolean contains(@NullableDecl Object element) {\n",
+        "548": "      public boolean contains(@NullableDecl Object element) {\n",
+        "625": "      public int count(@NullableDecl Object element) {\n",
+        "812": "    public boolean equals(@NullableDecl Object object) {\n",
+        "846": "  static boolean equalsImpl(Multiset<?> multiset, @NullableDecl Object object) {\n",
+        "985": "    public boolean contains(@NullableDecl Object o) {\n"
+    },
+    "removed": {
+        "43": "import javax.annotation.Nullable;\n",
+        "243": "  public static <E> Multiset.Entry<E> immutableEntry(@Nullable E e, int n) {\n",
+        "248": "    @Nullable private final E element;\n",
+        "251": "    ImmutableEntry(@Nullable E element, int count) {\n",
+        "258": "    @Nullable\n",
+        "354": "    public int count(@Nullable Object element) {\n",
+        "365": "    public int add(@Nullable E element, int occurrences) {\n",
+        "372": "    public int remove(@Nullable Object element, int occurrences) {\n",
+        "419": "      public boolean contains(@Nullable Object element) {\n",
+        "548": "      public boolean contains(@Nullable Object element) {\n",
+        "625": "      public int count(@Nullable Object element) {\n",
+        "812": "    public boolean equals(@Nullable Object object) {\n",
+        "846": "  static boolean equalsImpl(Multiset<?> multiset, @Nullable Object object) {\n",
+        "985": "    public boolean contains(@Nullable Object o) {\n"
+    }
+}

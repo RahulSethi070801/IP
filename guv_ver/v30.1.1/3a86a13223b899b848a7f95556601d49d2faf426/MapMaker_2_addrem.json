@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "33": "import javax.annotation.CheckForNull;\n",
+        "89": "@ElementTypesAreNonnullByDefault\n",
+        "102": "  @CheckForNull Strength keyStrength;\n",
+        "103": "  @CheckForNull Strength valueStrength;\n",
+        "105": "  @CheckForNull Equivalence<Object> keyEquivalence;\n"
+    },
+    "removed": {
+        "33": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "101": "  @Nullable Strength keyStrength;\n",
+        "102": "  @Nullable Strength valueStrength;\n",
+        "104": "  @Nullable Equivalence<Object> keyEquivalence;\n"
+    }
+}

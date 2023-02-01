@@ -1,0 +1,18 @@
+
+   * Returns a string copy of the input character sequence, with each group of consecutive
+   * matching BMP characters replaced by a single replacement character. For example:
+   * <pre>   {@code
+   *
+   *   CharMatcher.anyOf("eko").collapseFrom("bookkeeper", '-')}</pre>
+   *
+   * ... returns {@code "b-p-r"}.
+   *
+   * <p>The default implementation uses {@link #indexIn(CharSequence)} to find the first matching
+   * character, then iterates the remainder of the sequence calling {@link #matches(char)} for each
+   * character.
+   *
+   * @param sequence the character sequence to replace matching groups of characters in
+   * @param replacement the character to append to the result string in place of each group of
+   *     matching characters in {@code sequence}
+   * @return the new string
+   

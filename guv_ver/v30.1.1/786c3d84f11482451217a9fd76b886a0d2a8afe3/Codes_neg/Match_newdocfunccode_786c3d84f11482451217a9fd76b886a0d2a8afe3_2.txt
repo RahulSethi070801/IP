@@ -1,0 +1,3 @@
+public Map<Integer, Double> compute(double... dataset) {
+    return computeInPlace(dataset.clone());
+}

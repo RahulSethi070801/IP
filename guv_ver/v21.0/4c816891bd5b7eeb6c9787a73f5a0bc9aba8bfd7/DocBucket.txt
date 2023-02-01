@@ -1,0 +1,10 @@
+com.google.common.graph.NodeConnections
+removeInEdge
+N removeInEdge(Object edge, boolean isSelfLoop)
+Object,boolean
+N
+com.google.common.graph.NodeConnections
+removeOutEdge
+N removeOutEdge(Object edge)
+Object
+N

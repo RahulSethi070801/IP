@@ -1,0 +1,15 @@
+public String collapseFrom(CharSequence sequence, char replacement) {
+    int len = sequence.length();
+    for (int i = 0; i < len; i++) {
+        char c = sequence.charAt(i);
+        if (matches(c)) {
+            if (c == replacement && (i == len - 1 || !matches(sequence.charAt(i + 1)))) {
+                i++;
+            } else {
+                StringBuilder builder = new StringBuilder(len).append(sequence, 0, i).append(replacement);
+                return finishCollapseFrom(sequence, i + 1, len, replacement, builder, true);
+            }
+        }
+    }
+    return sequence.toString();
+}

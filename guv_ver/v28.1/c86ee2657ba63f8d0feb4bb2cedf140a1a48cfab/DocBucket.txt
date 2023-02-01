@@ -1,0 +1,5 @@
+com.google.common.collect.CompactLinkedHashMap
+createWithExpectedSize
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+int
+CompactLinkedHashMap

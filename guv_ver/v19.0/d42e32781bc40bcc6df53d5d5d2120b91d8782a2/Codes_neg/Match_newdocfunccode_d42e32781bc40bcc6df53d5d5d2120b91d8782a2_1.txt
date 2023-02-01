@@ -1,0 +1,3 @@
+public static <E> ImmutableSet<E> copyOf(Iterable<? extends E> elements) {
+    return (elements instanceof Collection) ? copyOf((Collection<? extends E>) elements) : copyOf(elements.iterator());
+}

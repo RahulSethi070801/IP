@@ -1,0 +1,375 @@
+com.google.common.collect.SparseImmutableTable
+SparseImmutableTable
+SparseImmutableTable(ImmutableList<Cell<R, C, V>> cellList, ImmutableSet<R> rowSpace, ImmutableSet<C> columnSpace)
+ImmutableList,ImmutableSet,ImmutableSet
+constructor
+com.google.common.collect.AbstractMapBasedMultimap$KeySet
+iterator
+public Iterator<K> iterator()
+empty
+Iterator
+com.google.common.escape.CharEscaperBuilder
+toArray
+public char[][] toArray()
+empty
+char[][]
+com.google.common.collect.super.com.google.common.collect.ImmutableBiMap$Builder
+put
+public Builder<K, V> put(Entry<? extends K, ? extends V> entry)
+Entry
+Builder
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+copyOf
+public static ImmutableMap<K, V> copyOf(Map<? extends K, ? extends V> map)
+Map
+ImmutableMap
+com.google.common.collect.ImmutableRangeMap
+getEntry
+public Entry<Range<K>, V> getEntry(K key)
+K
+Entry
+com.google.common.eventbus.SubscriberRegistry
+unregister
+void unregister(Object listener)
+Object
+void
+com.google.common.collect.AbstractMapBasedMultimap$Itr
+next
+public T next()
+empty
+T
+com.google.common.collect.Synchronized$SynchronizedAsMapEntries
+SynchronizedAsMapEntries
+SynchronizedAsMapEntries(Set<Map.Entry<K, Collection<V>>> delegate, @Nullable Object mutex)
+Set,Object
+constructor
+com.google.common.collect.FilteredMultimapValues
+remove
+public boolean remove(@Nullable Object o)
+Object
+boolean
+com.google.common.collect.TreeRangeMap
+remove
+public void remove(Range<K> rangeToRemove)
+Range
+void
+com.google.common.collect.ImmutableSetMultimap$Builder
+build
+public ImmutableSetMultimap<K, V> build()
+empty
+ImmutableSetMultimap
+com.google.common.cache.LocalCache
+loadAll
+Map<K, V> loadAll(Set<? extends K> keys, CacheLoader<? super K, V> loader) throws ExecutionException
+Set,CacheLoader
+Map
+com.google.common.cache.AbstractCache
+putAll
+public void putAll(Map<? extends K, ? extends V> m)
+Map
+void
+com.google.common.cache.super.com.google.common.cache.LocalCache$CapacityEnforcingLinkedHashMap
+removeEldestEntry
+protected boolean removeEldestEntry(Map.Entry<K, Timestamped<V>> ignored)
+Map.Entry
+boolean
+com.google.common.collect.AbstractMapBasedMultimap$AsMapIterator
+next
+public Map.Entry<K, Collection<V>> next()
+empty
+Map.Entry
+com.google.common.collect.AbstractMultimap
+putAll
+public boolean putAll(Multimap<? extends K, ? extends V> multimap)
+Multimap
+boolean
+com.google.common.collect.AbstractMapBasedMultimap$NavigableAsMap
+pollAsMapEntry
+Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator)
+Iterator
+Entry
+com.google.common.collect.Ordering
+onKeys
+Ordering<Map.Entry<T2, ?>> onKeys()
+empty
+Ordering
+com.google.common.cache.super.com.google.common.cache.LocalCache$CapacityEnforcingLinkedHashMap
+removeEldestEntry
+protected boolean removeEldestEntry(Entry<K, Timestamped<V>> ignored)
+Entry
+boolean
+com.google.common.collect.LinkedHashMultimap
+next
+public Entry<K, V> next()
+empty
+Entry
+com.google.common.collect.Synchronized
+transform
+Entry<K, Collection<V>> transform(final Entry<K, Collection<V>> entry)
+Entry
+Entry
+com.google.common.collect.LinkedHashMultimap
+next
+public Map.Entry<K, V> next()
+empty
+Map.Entry
+com.google.common.collect.Synchronized
+delegate
+protected Entry<K, Collection<V>> delegate()
+empty
+Entry
+com.google.common.collect.ForwardingMapEntry
+delegate
+protected abstract Map.Entry<K, V> delegate()
+empty
+Map.Entry
+com.google.common.collect.Maps
+toStringImpl
+static String toStringImpl(Map<?, ?> map)
+Map
+String
+com.google.common.collect.super.com.google.common.collect.ImmutableEnumMap
+asImmutable
+static ImmutableMap<K, V> asImmutable(Map<K, V> map)
+Map
+ImmutableMap
+com.google.common.eventbus.SubscriberRegistry
+register
+void register(Object listener)
+Object
+void
+com.google.common.collect.SetMultimap
+entries
+Set<Map.Entry<K, V>> entries()
+empty
+Set
+com.google.common.collect.Multimap
+entries
+Collection<Entry<K, V>> entries()
+empty
+Collection
+com.google.common.collect.Maps
+immutableEnumMap
+public static ImmutableMap<K, V> immutableEnumMap(Map<K, ? extends V> map)
+Map
+ImmutableMap
+com.google.common.collect.RangeMap
+getEntry
+Entry<Range<K>, V> getEntry(K key)
+K
+Entry
+com.google.common.collect.Multimap_CustomFieldSerializerBase
+serialize
+public static void serialize(SerializationStreamWriter writer, Multimap<?, ?> instance) throws SerializationException
+SerializationStreamWriter,Multimap
+void
+com.google.common.collect.Synchronized$SynchronizedAsMapEntries
+iterator
+public Iterator<Entry<K, Collection<V>>> iterator()
+empty
+Iterator
+com.google.common.collect.LinkedHashMultimap
+writeObject
+private void writeObject(ObjectOutputStream stream) throws IOException
+ObjectOutputStream
+void
+com.google.common.collect.RangeMap
+getEntry
+Map.Entry<Range<K>, V> getEntry(K key)
+K
+Map.Entry
+com.google.common.collect.TreeRangeMap
+coalesce
+private static Range<K> coalesce(Range<K> range, V value, @Nullable Map.Entry<Cut<K>, RangeMapEntry<K, V>> entry)
+Range,V,Map.Entry
+Range
+com.google.common.collect.LinkedListMultimap_CustomFieldSerializer
+serialize
+public static void serialize(SerializationStreamWriter out, LinkedListMultimap<?, ?> multimap) throws SerializationException
+SerializationStreamWriter,LinkedListMultimap
+void
+com.google.common.util.concurrent.ServiceManager
+apply
+public Long apply(Entry<Service, Long> input)
+Entry
+Long
+com.google.common.collect.SetMultimap
+entries
+Set<Entry<K, V>> entries()
+empty
+Set
+com.google.common.collect.LinkedHashMultimap_CustomFieldSerializer
+serialize
+public static void serialize(SerializationStreamWriter stream, LinkedHashMultimap<?, ?> multimap) throws SerializationException
+SerializationStreamWriter,LinkedHashMultimap
+void
+com.google.common.collect.super.com.google.common.collect.ImmutableBiMap$Builder
+put
+public Builder<K, V> put(Map.Entry<? extends K, ? extends V> entry)
+Map.Entry
+Builder
+com.google.common.collect.AbstractMapBasedMultimap$AsMapIterator
+next
+public Entry<K, Collection<V>> next()
+empty
+Entry
+com.google.common.reflect.TypeResolver$TypeTable
+where
+final TypeTable where(Map<TypeVariableKey, ? extends Type> mappings)
+Map
+TypeTable
+com.google.common.collect.ImmutableRangeMap
+getEntry
+public Map.Entry<Range<K>, V> getEntry(K key)
+K
+Map.Entry
+com.google.common.cache.super.com.google.common.cache.LocalCache
+clear
+public void clear()
+empty
+void
+com.google.common.collect.Multimap
+entries
+Collection<Map.Entry<K, V>> entries()
+empty
+Collection
+com.google.common.collect.Synchronized$SynchronizedMap
+entrySet
+public Set<Map.Entry<K, V>> entrySet()
+empty
+Set
+com.google.common.collect.ForwardingMapEntry
+delegate
+protected abstract Entry<K, V> delegate()
+empty
+Entry
+com.google.common.collect.Synchronized$SynchronizedSetMultimap
+entries
+public Set<Map.Entry<K, V>> entries()
+empty
+Set
+com.google.common.reflect.ClassPath$Scanner
+scan
+public final void scan(ClassLoader classloader) throws IOException
+ClassLoader
+void
+com.google.common.collect.Synchronized$SynchronizedAsMapEntries
+SynchronizedAsMapEntries
+SynchronizedAsMapEntries(Set<Entry<K, Collection<V>>> delegate, @Nullable Object mutex)
+Set,Object
+constructor
+com.google.common.collect.LinkedHashMultimap
+entryIterator
+Iterator<Map.Entry<K, V>> entryIterator()
+empty
+Iterator
+com.google.common.reflect.ClassPath$DefaultScanner
+getResources
+ImmutableSet<ResourceInfo> getResources()
+empty
+ImmutableSet
+com.google.common.collect.Maps
+putAllImpl
+static void putAllImpl(Map<K, V> self, Map<? extends K, ? extends V> map)
+Map,Map
+void
+com.google.common.util.concurrent.CycleDetectingLockFactory$LockGraphNode
+findPathTo
+private ExampleStackTrace findPathTo(LockGraphNode node, Set<LockGraphNode> seen)
+LockGraphNode,Set
+ExampleStackTrace
+com.google.common.collect.Ordering
+onKeys
+Ordering<Entry<T2, ?>> onKeys()
+empty
+Ordering
+com.google.common.collect.TreeRangeMap
+putAll
+public void putAll(RangeMap<K, V> rangeMap)
+RangeMap
+void
+com.google.common.collect.LinkedHashMultimap
+entryIterator
+Iterator<Entry<K, V>> entryIterator()
+empty
+Iterator
+com.google.common.collect.AbstractMapBasedMultimap$AsMapEntries
+remove
+public boolean remove(Object o)
+Object
+boolean
+com.google.common.collect.Synchronized$SynchronizedAsMap
+entrySet
+public Set<Entry<K, Collection<V>>> entrySet()
+empty
+Set
+com.google.common.collect.ImmutableMap
+copyOfEnumMap
+private static ImmutableMap<K, V> copyOfEnumMap(EnumMap<K, ? extends V> original)
+EnumMap
+ImmutableMap
+com.google.common.collect.StandardTable
+cellSpliterator
+Spliterator<Cell<R, C, V>> cellSpliterator()
+empty
+Spliterator
+com.google.common.collect.SparseImmutableTable
+getCell
+Cell<R, C, V> getCell(int index)
+int
+Cell
+com.google.common.collect.TreeRangeMap
+coalescedRange
+private Range<K> coalescedRange(Range<K> range, V value)
+Range,V
+Range
+com.google.common.collect.Synchronized$SynchronizedSetMultimap
+entries
+public Set<Entry<K, V>> entries()
+empty
+Set
+com.google.common.collect.Synchronized
+transform
+Map.Entry<K, Collection<V>> transform(final Map.Entry<K, Collection<V>> entry)
+Map.Entry
+Map.Entry
+com.google.common.collect.Synchronized$SynchronizedMultimap
+entries
+public Collection<Entry<K, V>> entries()
+empty
+Collection
+com.google.common.collect.Synchronized$SynchronizedAsMapEntries
+iterator
+public Iterator<Map.Entry<K, Collection<V>>> iterator()
+empty
+Iterator
+com.google.common.collect.AbstractMapBasedMultimap$NavigableAsMap
+pollAsMapEntry
+Map.Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator)
+Iterator
+Map.Entry
+com.google.common.collect.Synchronized$SynchronizedMultimap
+entries
+public Collection<Map.Entry<K, V>> entries()
+empty
+Collection
+com.google.common.util.concurrent.ServiceManager
+apply
+public Long apply(Map.Entry<Service, Long> input)
+Map.Entry
+Long
+com.google.common.collect.TreeRangeMap
+coalesce
+private static Range<K> coalesce(Range<K> range, V value, @Nullable Entry<Cut<K>, RangeMapEntry<K, V>> entry)
+Range,V,Entry
+Range
+com.google.common.collect.Synchronized$SynchronizedAsMap
+entrySet
+public Set<Map.Entry<K, Collection<V>>> entrySet()
+empty
+Set
+com.google.common.collect.Synchronized$SynchronizedMap
+entrySet
+public Set<Entry<K, V>> entrySet()
+empty
+Set

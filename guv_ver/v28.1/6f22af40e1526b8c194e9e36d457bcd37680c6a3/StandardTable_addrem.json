@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "43": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "77": "  public boolean contains(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "82": "  public boolean containsColumn(@NullableDecl Object columnKey) {\n",
+        "95": "  public boolean containsRow(@NullableDecl Object rowKey) {\n",
+        "100": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "105": "  public V get(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "150": "  public V remove(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n"
+    },
+    "removed": {
+        "43": "import javax.annotation.Nullable;\n",
+        "77": "  public boolean contains(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "82": "  public boolean containsColumn(@Nullable Object columnKey) {\n",
+        "95": "  public boolean containsRow(@Nullable Object rowKey) {\n",
+        "100": "  public boolean containsValue(@Nullable Object value) {\n",
+        "105": "  public V get(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "150": "  public V remove(@Nullable Object rowKey, @Nullable Object columnKey) {\n"
+    }
+}

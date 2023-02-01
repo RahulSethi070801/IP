@@ -1,0 +1,4 @@
+ValueGraph
+Insertions: [22, 270, 271, 298]
+Deletions: [22, 270, 271, 298]
+guava/src/com/google/common/graph/ValueGraph.java

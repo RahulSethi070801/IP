@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "22": "/** Emulation of Uninterruptibles in GWT. */\n",
+        "25": "  private Uninterruptibles() {}\n"
+    },
+    "removed": {
+        "22": "/**\n",
+        "23": " * Emulation of Uninterruptibles in GWT.\n",
+        "24": " */\n",
+        "27": "  private Uninterruptibles() {\n",
+        "28": "  }\n"
+    }
+}

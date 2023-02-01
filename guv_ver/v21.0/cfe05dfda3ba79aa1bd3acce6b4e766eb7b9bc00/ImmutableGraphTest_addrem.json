@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "26": " * Tests for {@link ImmutableGraph} and {@link ImmutableValueGraph} .\n",
+        "33": "    MutableGraph<String> mutableGraph = GraphBuilder.directed().build();\n",
+        "35": "    Graph<String> immutableGraph = ImmutableGraph.copyOf(mutableGraph);\n",
+        "38": "    assertThat(Graphs.equivalent(immutableGraph, mutableGraph)).isTrue();\n",
+        "41": "    assertThat(Graphs.equivalent(immutableGraph, mutableGraph)).isFalse();\n",
+        "45": "  public void immutableValueGraph() {\n",
+        "46": "    MutableValueGraph<String, Integer> mutableGraph = ValueGraphBuilder.directed().build();\n",
+        "48": "    ValueGraph<String, Integer> immutableGraph = ImmutableValueGraph.copyOf(mutableGraph);\n",
+        "51": "    assertThat(immutableGraph).isNotInstanceOf(MutableValueGraph.class);\n",
+        "52": "    assertThat(Graphs.equivalent(immutableGraph, mutableGraph)).isTrue();\n",
+        "55": "    assertThat(Graphs.equivalent(immutableGraph, mutableGraph)).isFalse();\n",
+        "60": "    Graph<String> graph1 =\n",
+        "61": "        ImmutableGraph.copyOf(GraphBuilder.directed().<String>build());\n",
+        "62": "    Graph<String> graph2 = ImmutableGraph.copyOf(graph1);\n",
+        "68": "  public void copyOfImmutableValueGraph_optimized() {\n",
+        "69": "    ValueGraph<String, Integer> graph1 =\n",
+        "70": "        ImmutableValueGraph.copyOf(ValueGraphBuilder.directed().<String, Integer>build());\n",
+        "71": "    ValueGraph<String, Integer> graph2 = ImmutableValueGraph.copyOf(graph1);\n"
+    },
+    "removed": {
+        "26": " * Tests for {@link ImmutableGraph} and {@link ImmutableBasicGraph}.\n",
+        "33": "    MutableGraph<String, Integer> mutableGraph = GraphBuilder.directed().build();\n",
+        "35": "    Graph<String, Integer> immutableGraph = ImmutableGraph.copyOf(mutableGraph);\n",
+        "38": "    assertThat(immutableGraph).isEqualTo(mutableGraph);\n",
+        "41": "    assertThat(immutableGraph).isNotEqualTo(mutableGraph);\n",
+        "45": "  public void immutableBasicGraph() {\n",
+        "46": "    MutableBasicGraph<String> mutableGraph = BasicGraphBuilder.directed().build();\n",
+        "48": "    BasicGraph<String> immutableGraph = ImmutableBasicGraph.copyOf(mutableGraph);\n",
+        "51": "    assertThat(immutableGraph).isNotInstanceOf(MutableBasicGraph.class);\n",
+        "52": "    assertThat(immutableGraph).isEqualTo(mutableGraph);\n",
+        "55": "    assertThat(immutableGraph).isNotEqualTo(mutableGraph);\n",
+        "60": "    Graph<String, Integer> graph1 =\n",
+        "61": "        ImmutableGraph.copyOf(GraphBuilder.directed().<String, Integer>build());\n",
+        "62": "    Graph<String, Integer> graph2 = ImmutableBasicGraph.copyOf(graph1);\n",
+        "68": "  public void copyOfImmutableBasicGraph_optimized() {\n",
+        "69": "    BasicGraph<String> graph1 =\n",
+        "70": "        ImmutableBasicGraph.copyOf(BasicGraphBuilder.directed().<String>build());\n",
+        "71": "    BasicGraph<String> graph2 = ImmutableBasicGraph.copyOf(graph1);\n"
+    }
+}

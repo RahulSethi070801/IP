@@ -1,0 +1,10 @@
+@GuardedBy("monitor")
+private void checkCurrentState(State expected) {
+    State actual = state();
+    if (actual != expected) {
+        if (actual == FAILED) {
+            throw new IllegalStateException("Expected the service to be " + expected + ", but the service has FAILED", failureCause());
+        }
+        throw new IllegalStateException("Expected the service to be " + expected + ", but was " + actual);
+    }
+}

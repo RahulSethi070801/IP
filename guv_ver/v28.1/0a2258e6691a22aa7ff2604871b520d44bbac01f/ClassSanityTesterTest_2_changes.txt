@@ -1,0 +1,4 @@
+ClassSanityTesterTest_2
+Insertions: [41, 63, 110, 290, 486, 623, 680, 760, 766, 785, 790, 1139, 1173, 1178, 1192, 1206, 1228, 1254, 1275]
+Deletions: [41, 63, 110, 290, 486, 623, 680, 760, 766, 785, 790, 1139, 1173, 1178, 1192, 1206, 1228, 1254, 1275]
+guava-testlib/test/com/google/common/testing/ClassSanityTesterTest.java

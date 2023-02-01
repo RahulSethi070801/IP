@@ -1,0 +1,6 @@
+@Override
+public void sort(Comparator<? super E> c) {
+    synchronized (mutex) {
+        delegate().sort(c);
+    }
+}

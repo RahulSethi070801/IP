@@ -1,0 +1,10 @@
+com.google.common.collect.MapMaker
+weakValues
+public MapMaker weakValues()
+empty
+MapMaker
+com.google.common.collect.MapMaker
+softValues
+MapMaker softValues()
+empty
+MapMaker

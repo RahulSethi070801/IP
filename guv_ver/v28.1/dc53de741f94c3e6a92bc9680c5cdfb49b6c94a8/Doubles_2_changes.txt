@@ -1,0 +1,4 @@
+Doubles_2
+Insertions: [655, 656, 657, 660, 661, 662, 668, 669, 670]
+Deletions: [38, 656, 659, 665]
+guava/src/com/google/common/primitives/Doubles.java

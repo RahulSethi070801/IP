@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "153": "  @Override\n",
+        "154": "  public final boolean equals(@Nullable Object obj) {\n",
+        "155": "    if (obj == this) {\n",
+        "156": "      return true;\n",
+        "157": "    }\n",
+        "158": "    if (!(obj instanceof Network)) {\n",
+        "159": "      return false;\n",
+        "160": "    }\n",
+        "161": "    Network<?, ?> other = (Network<?, ?>) obj;\n",
+        "162": "\n",
+        "163": "    return isDirected() == other.isDirected()\n",
+        "164": "        && nodes().equals(other.nodes())\n",
+        "165": "        && edgeIncidentNodesMap(this).equals(edgeIncidentNodesMap(other));\n",
+        "166": "  }\n",
+        "167": "\n",
+        "168": "  @Override\n",
+        "169": "  public final int hashCode() {\n",
+        "170": "    return edgeIncidentNodesMap(this).hashCode();\n",
+        "171": "  }\n",
+        "172": "\n",
+        "180": "    return String.format(\n",
+        "181": "        GRAPH_STRING_FORMAT, propertiesString, nodes(), edgeIncidentNodesMap(this));\n",
+        "184": "  private static <N, E> Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network) {\n",
+        "189": "            return network.incidentNodes(edge);\n",
+        "192": "    return Maps.asMap(network.edges(), edgeToIncidentNodesFn);\n"
+    },
+    "removed": {
+        "160": "    return String.format(GRAPH_STRING_FORMAT, propertiesString, nodes(), edgeIncidentNodesMap());\n",
+        "163": "  private Map<E, EndpointPair<N>> edgeIncidentNodesMap() {\n",
+        "168": "            return incidentNodes(edge);\n",
+        "171": "    return Maps.asMap(edges(), edgeToIncidentNodesFn);\n"
+    }
+}

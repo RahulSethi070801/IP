@@ -1,0 +1,5 @@
+
+   * Returns the node that is adjacent to the origin node along {@code edge}.
+   *
+   * <p>In the directed case, {@code edge} is assumed to be an outgoing edge.
+   

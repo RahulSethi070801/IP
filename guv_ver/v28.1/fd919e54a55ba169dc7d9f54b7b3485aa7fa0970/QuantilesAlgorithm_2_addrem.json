@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "89": "        return percentileFloor + positionFrac * (percentileCeiling - percentileFloor);\n",
+        "104": "  /** Uses {@link Quantiles}. */\n",
+        "121": "   * Calculates a single quantile. Equivalent to {@code\n",
+        "122": "   * Quantiles.scale(scale).index(index).computeInPlace(dataset)}.\n",
+        "127": "   * Calculates multiple quantiles. Equivalent to {@code\n",
+        "128": "   * Quantiles.scale(scale).indexes(indexes).computeInPlace(dataset)}.\n"
+    },
+    "removed": {
+        "89": "        return percentileFloor\n",
+        "90": "            + positionFrac * (percentileCeiling - percentileFloor);\n",
+        "105": "  /**\n",
+        "106": "   * Uses {@link Quantiles}.\n",
+        "107": "   */\n",
+        "124": "   * Calculates a single quantile. Equivalent to\n",
+        "125": "   * {@code Quantiles.scale(scale).index(index).computeInPlace(dataset)}.\n",
+        "130": "   * Calculates multiple quantiles. Equivalent to\n",
+        "131": "   * {@code Quantiles.scale(scale).indexes(indexes).computeInPlace(dataset)}.\n"
+    }
+}

@@ -1,0 +1,7 @@
+@Beta
+@Deprecated
+@CanIgnoreReturnValue
+@ParametricNullness
+public static <T extends @Nullable Object> T readBytes(File file, ByteProcessor<T> processor) throws IOException {
+    return asByteSource(file).read(processor);
+}

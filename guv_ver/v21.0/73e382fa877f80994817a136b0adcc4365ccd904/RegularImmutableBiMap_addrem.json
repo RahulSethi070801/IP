@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "31": "import java.util.Map.Entry;\n",
+        "32": "import java.util.function.BiConsumer;\n",
+        "33": "import java.util.function.Consumer;\n",
+        "149": "  @Override\n",
+        "150": "  public void forEach(BiConsumer<? super K, ? super V> action) {\n",
+        "151": "    checkNotNull(action);\n",
+        "152": "    for (Entry<K, V> entry : entries) {\n",
+        "153": "      action.accept(entry.getKey(), entry.getValue());\n",
+        "154": "    }\n",
+        "155": "  }\n",
+        "156": "\n",
+        "202": "    @Override\n",
+        "203": "    public void forEach(BiConsumer<? super V, ? super K> action) {\n",
+        "204": "      checkNotNull(action);\n",
+        "205": "      RegularImmutableBiMap.this.forEach((k, v) -> action.accept(v, k));\n",
+        "206": "    }\n",
+        "207": "\n",
+        "251": "      @Override\n",
+        "252": "      public void forEach(Consumer<? super Entry<V, K>> action) {\n",
+        "253": "        asList().forEach(action);\n",
+        "254": "      }\n",
+        "255": "\n"
+    },
+    "removed": {}
+}

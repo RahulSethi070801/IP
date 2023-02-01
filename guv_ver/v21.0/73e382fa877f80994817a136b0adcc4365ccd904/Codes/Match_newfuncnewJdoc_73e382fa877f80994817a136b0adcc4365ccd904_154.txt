@@ -1,0 +1,4 @@
+
+   * Returns the equivalent {@code java.util.Optional} value to the given {@code
+   * com.google.common.base.Optional}, or {@code null} if the argument is null.
+   

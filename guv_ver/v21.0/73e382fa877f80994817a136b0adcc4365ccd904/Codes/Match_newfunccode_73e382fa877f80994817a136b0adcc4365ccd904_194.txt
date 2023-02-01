@@ -1,0 +1,60 @@
+V compute(K key, int hash, BiFunction<? super K, ? super V, ? extends V> function) {
+    ReferenceEntry<K, V> e;
+    ValueReference<K, V> valueReference = null;
+    LoadingValueReference<K, V> loadingValueReference = null;
+    boolean createNewEntry = true;
+    lock();
+    try {
+        long now = map.ticker.read();
+        preWriteCleanup(now);
+        AtomicReferenceArray<ReferenceEntry<K, V>> table = this.table;
+        int index = hash & (table.length() - 1);
+        ReferenceEntry<K, V> first = table.get(index);
+        for (e = first; e != null; e = e.getNext()) {
+            K entryKey = e.getKey();
+            if (e.getHash() == hash && entryKey != null && map.keyEquivalence.equivalent(key, entryKey)) {
+                valueReference = e.getValueReference();
+                if (map.isExpired(e, now)) {
+                    enqueueNotification(entryKey, hash, valueReference.get(), valueReference.getWeight(), RemovalCause.EXPIRED);
+                }
+                writeQueue.remove(e);
+                accessQueue.remove(e);
+                createNewEntry = false;
+                break;
+            }
+        }
+        loadingValueReference = new LoadingValueReference<K, V>(valueReference);
+        if (e == null) {
+            createNewEntry = true;
+            e = newEntry(key, hash, first);
+            e.setValueReference(loadingValueReference);
+            table.set(index, e);
+        } else {
+            e.setValueReference(loadingValueReference);
+        }
+    } finally {
+        unlock();
+        postWriteCleanup();
+    }
+    synchronized (e) {
+        V newValue = loadingValueReference.compute(key, function);
+        if (newValue != null) {
+            try {
+                return getAndRecordStats(key, hash, loadingValueReference, Futures.immediateFuture(newValue));
+            } catch (ExecutionException exception) {
+                throw new AssertionError("impossible; Futures.immediateFuture can't throw");
+            }
+        } else if (createNewEntry) {
+            removeLoadingValue(key, hash, loadingValueReference);
+            return null;
+        } else {
+            lock();
+            try {
+                removeEntry(e, hash, RemovalCause.EXPLICIT);
+            } finally {
+                unlock();
+            }
+            return null;
+        }
+    }
+}

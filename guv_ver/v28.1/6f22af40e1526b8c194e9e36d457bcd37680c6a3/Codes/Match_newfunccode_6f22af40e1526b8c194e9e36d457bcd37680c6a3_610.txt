@@ -1,0 +1,13 @@
+@GwtIncompatible
+@NullableDecl
+private static Object getJLA() {
+    try {
+        Class<?> sharedSecrets = Class.forName(SHARED_SECRETS_CLASSNAME, false, null);
+        Method langAccess = sharedSecrets.getMethod("getJavaLangAccess");
+        return langAccess.invoke(null);
+    } catch (ThreadDeath death) {
+        throw death;
+    } catch (Throwable t) {
+        return null;
+    }
+}

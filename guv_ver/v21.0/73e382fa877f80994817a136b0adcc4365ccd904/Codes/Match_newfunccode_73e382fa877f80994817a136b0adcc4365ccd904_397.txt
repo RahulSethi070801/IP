@@ -1,0 +1,6 @@
+@Override
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction) {
+    synchronized (mutex) {
+        return delegate().computeIfPresent(key, remappingFunction);
+    }
+}

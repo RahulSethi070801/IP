@@ -1,0 +1,6 @@
+{
+    "addition": {},
+    "removed": {
+        "458": "    assertEquals(multimap.toString(), multimapView.toString());\n"
+    }
+}

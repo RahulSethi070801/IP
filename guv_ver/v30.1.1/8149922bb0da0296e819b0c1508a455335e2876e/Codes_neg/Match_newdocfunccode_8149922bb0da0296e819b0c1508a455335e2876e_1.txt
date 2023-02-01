@@ -1,0 +1,4 @@
+public final <X> TypeToken<T> where(TypeParameter<X> typeParam, TypeToken<X> typeArg) {
+    TypeResolver resolver = new TypeResolver().where(ImmutableMap.of(new TypeResolver.TypeVariableKey(typeParam.typeVariable), typeArg.runtimeType));
+    return new SimpleTypeToken<T>(resolver.resolveType(runtimeType));
+}

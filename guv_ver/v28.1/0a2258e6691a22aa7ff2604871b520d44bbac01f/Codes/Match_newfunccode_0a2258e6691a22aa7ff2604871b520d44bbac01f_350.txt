@@ -1,0 +1,5 @@
+@Override
+@Nullable
+public T orNull() {
+    return null;
+}

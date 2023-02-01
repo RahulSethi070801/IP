@@ -1,0 +1,5 @@
+@Override
+public final V get() throws InterruptedException, ExecutionException {
+    state.maybeThrowOnGet(throwable);
+    return value;
+}

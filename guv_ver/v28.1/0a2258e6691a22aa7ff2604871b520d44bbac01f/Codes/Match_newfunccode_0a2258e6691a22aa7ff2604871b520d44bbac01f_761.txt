@@ -1,0 +1,5 @@
+@Override
+public ImmutableList<V> get(@Nullable K key) {
+    ImmutableList<V> list = (ImmutableList<V>) map.get(key);
+    return (list == null) ? ImmutableList.<V>of() : list;
+}

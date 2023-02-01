@@ -1,0 +1,4 @@
+ForwardingMultiset_2
+Insertions: [26, 52, 53, 54, 63, 69, 75, 90, 101, 107, 118, 142, 158, 184, 220, 231, 291]
+Deletions: [51, 60, 66, 72, 87, 98, 104, 115, 139, 155, 181, 217, 228, 288]
+guava/src/com/google/common/collect/ForwardingMultiset.java

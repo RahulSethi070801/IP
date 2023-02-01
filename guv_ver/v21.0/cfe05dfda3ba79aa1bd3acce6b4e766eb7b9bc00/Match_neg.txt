@@ -1,0 +1,6 @@
+public boolean removeEdge(Object nodeU, Object nodeV)
+private ImmutableNetwork(Network<N, E> graph)
+
+public static ValueGraphBuilder<N, Object> from(Graph<N> graph)
+private ImmutableNetwork(Network<N, E> graph)
+

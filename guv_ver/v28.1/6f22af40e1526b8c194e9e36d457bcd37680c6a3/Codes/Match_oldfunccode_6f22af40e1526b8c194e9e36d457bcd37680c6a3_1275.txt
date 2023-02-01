@@ -1,0 +1,7 @@
+@CanIgnoreReturnValue
+public static int checkPositionIndex(int index, int size, @Nullable String desc) {
+    if (index < 0 || index > size) {
+        throw new IndexOutOfBoundsException(badPositionIndex(index, size, desc));
+    }
+    return index;
+}

@@ -1,0 +1,6 @@
+
+   * For a given Enum type, creates an immutable map from each of the Enum's
+   * values to a corresponding LockGraphNode, with the
+   * {@code allowedPriorLocks} and {@code disallowedPriorLocks} prepopulated
+   * with nodes according to the natural ordering of the associated Enum values.
+   

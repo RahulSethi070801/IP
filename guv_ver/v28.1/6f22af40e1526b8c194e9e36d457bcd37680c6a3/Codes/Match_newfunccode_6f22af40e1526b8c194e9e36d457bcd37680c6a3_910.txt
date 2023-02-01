@@ -1,0 +1,4 @@
+@Override
+public SortedSet<V> get(@NullableDecl K key) {
+    return (SortedSet<V>) super.get(key);
+}

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "24": "  /** Returns a {@link Weigher} that returns the given {@code constant} for every request. */\n",
+        "29": "  /** Returns a {@link Weigher} that uses the integer key as the weight. */\n",
+        "34": "  /** Returns a {@link Weigher} that uses the integer value as the weight. */\n"
+    },
+    "removed": {
+        "24": "  /**\n",
+        "25": "   * Returns a {@link Weigher} that returns the given {@code constant} for every request.\n",
+        "26": "   */\n",
+        "31": "  /**\n",
+        "32": "   * Returns a {@link Weigher} that uses the integer key as the weight.\n",
+        "33": "   */\n",
+        "38": "  /**\n",
+        "39": "   * Returns a {@link Weigher} that uses the integer value as the weight.\n",
+        "40": "   */\n"
+    }
+}

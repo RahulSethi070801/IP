@@ -1,0 +1,4 @@
+CompactHashMap
+Insertions: [64, 65]
+Deletions: [64, 65]
+android/guava/src/com/google/common/collect/CompactHashMap.java

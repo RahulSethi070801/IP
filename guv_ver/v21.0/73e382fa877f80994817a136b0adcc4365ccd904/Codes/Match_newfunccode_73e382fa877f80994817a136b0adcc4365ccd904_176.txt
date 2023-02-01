@@ -1,0 +1,8 @@
+private static boolean followLinks(OpenOption[] options) {
+    for (OpenOption option : options) {
+        if (option == NOFOLLOW_LINKS) {
+            return false;
+        }
+    }
+    return true;
+}

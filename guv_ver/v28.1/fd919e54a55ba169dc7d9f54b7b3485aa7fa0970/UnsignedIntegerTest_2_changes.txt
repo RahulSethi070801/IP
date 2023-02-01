@@ -1,0 +1,4 @@
+UnsignedIntegerTest_2
+Insertions: [46, 47, 48, 50, 51, 52, 53, 61, 62, 69, 70, 94, 188, 199, 201, 202, 212, 225, 226, 235, 236, 247, 248, 249]
+Deletions: [46, 47, 48, 50, 51, 52, 53, 61, 62, 69, 70, 94, 95, 189, 190, 201, 202, 204, 214, 215, 228, 237, 248]
+guava-tests/test/com/google/common/primitives/UnsignedIntegerTest.java

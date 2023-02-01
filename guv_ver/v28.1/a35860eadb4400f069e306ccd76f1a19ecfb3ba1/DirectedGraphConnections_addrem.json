@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "169": "  public V value(N node) {\n",
+        "182": "  public void removePredecessor(N node) {\n"
+    },
+    "removed": {
+        "169": "  public V value(Object node) {\n",
+        "182": "  public void removePredecessor(Object node) {\n"
+    }
+}

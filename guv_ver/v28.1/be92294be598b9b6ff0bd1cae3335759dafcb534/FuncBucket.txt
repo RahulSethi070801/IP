@@ -1,0 +1,115 @@
+com.google.common.collect.CompactLinkedHashMap
+resizeEntries
+void resizeEntries(int newCapacity)
+int
+void
+com.google.common.collect.CompactHashSet
+toArray
+public T[] toArray(T[] a)
+T[]
+T[]
+com.google.common.collect.CompactHashMap
+put
+public V put(@Nullable K key, @Nullable V value)
+K,V
+V
+com.google.common.collect.CompactHashSet
+needsAllocArrays
+boolean needsAllocArrays()
+empty
+boolean
+com.google.common.collect.CompactHashMap
+remove
+public V remove(@Nullable Object key)
+Object
+V
+com.google.common.collect.CompactHashSet
+trimToSize
+public void trimToSize()
+empty
+void
+com.google.common.collect.CompactLinkedHashSet
+init
+void init(int expectedSize, float loadFactor)
+int,float
+void
+com.google.common.collect.CompactHashSet
+remove
+public boolean remove(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.CompactHashMap$KeySetView
+spliterator
+public Spliterator<K> spliterator()
+empty
+Spliterator
+com.google.common.collect.CompactHashMap
+indexOf
+private int indexOf(@Nullable Object key)
+Object
+int
+com.google.common.collect.CompactLinkedHashSet
+clear
+public void clear()
+empty
+void
+com.google.common.collect.CompactLinkedHashSet
+allocArrays
+void allocArrays()
+empty
+void
+com.google.common.collect.CompactHashSet
+contains
+public boolean contains(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.CompactHashSet
+spliterator
+public Spliterator<E> spliterator()
+empty
+Spliterator
+com.google.common.collect.CompactHashSet
+toArray
+public Object[] toArray()
+empty
+Object[]
+com.google.common.collect.CompactHashMap$ValuesView
+spliterator
+public Spliterator<V> spliterator()
+empty
+Spliterator
+com.google.common.collect.CompactLinkedHashMap
+moveLastEntry
+void moveLastEntry(int dstIndex)
+int
+void
+com.google.common.collect.CompactHashSet
+writeObject
+private void writeObject(ObjectOutputStream stream) throws IOException
+ObjectOutputStream
+void
+com.google.common.collect.CompactHashSet
+readObject
+private void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException
+ObjectInputStream
+void
+com.google.common.collect.CompactHashMap
+CompactHashMap
+CompactHashMap(int expectedSize, float loadFactor)
+int,float
+constructor
+com.google.common.collect.CompactHashSet
+add
+public boolean add(@Nullable E object)
+E
+boolean
+com.google.common.collect.CompactHashMap
+CompactHashMap
+CompactHashMap(int capacity)
+int
+constructor
+com.google.common.collect.CompactHashMap
+CompactHashMap
+CompactHashMap(int capacity, float loadFactor)
+int,float
+constructor

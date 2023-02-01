@@ -1,0 +1,155 @@
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState
+addListener
+void addListener(Listener listener, Executor executor)
+Listener,Executor
+void
+com.google.common.util.concurrent.ServiceManager$SynchronizedExecutor
+execute
+public synchronized void execute(Runnable command)
+Runnable
+void
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState
+fireFailedListeners
+void fireFailedListeners(final Service service)
+Service
+void
+com.google.common.util.concurrent.AbstractService
+stoppingCallback
+private static Callback<Listener> stoppingCallback(final State from)
+State
+Callback
+com.google.common.util.concurrent.ExecutionQueue$RunnableExecutorPair
+RunnableExecutorPair
+RunnableExecutorPair(Runnable runnable, Executor executor)
+Runnable,Executor
+constructor
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState
+transitionService
+void transitionService(final Service service, State from, State to)
+Service,State,State
+void
+com.google.common.util.concurrent.ServiceManager
+call
+void call(Listener listener)
+Listener
+void
+com.google.common.util.concurrent.ExecutionQueue
+execute
+public void execute()
+empty
+void
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState
+executeListeners
+void executeListeners()
+empty
+void
+com.google.common.util.concurrent.ListenerCallQueue
+execute
+void execute()
+empty
+void
+com.google.common.util.concurrent.AbstractService
+terminated
+private void terminated(final State from)
+State
+void
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState
+fireStoppedListeners
+void fireStoppedListeners()
+empty
+void
+com.google.common.util.concurrent.ListenerCallQueue$Callback
+Callback
+Callback(String methodCall)
+String
+constructor
+com.google.common.util.concurrent.AbstractService
+executeListeners
+private void executeListeners()
+empty
+void
+com.google.common.util.concurrent.AbstractService
+running
+private void running()
+empty
+void
+com.google.common.util.concurrent.AbstractService
+terminatedCallback
+private static Callback<Listener> terminatedCallback(final State from)
+State
+Callback
+com.google.common.util.concurrent.ExecutionQueue
+add
+public void add(Runnable runnable, Executor executor)
+Runnable,Executor
+void
+com.google.common.util.concurrent.ServiceManager$ListenerExecutorPair
+ListenerExecutorPair
+ListenerExecutorPair(Listener listener, Executor executor)
+Listener,Executor
+constructor
+com.google.common.util.concurrent.ExecutionQueue$RunnableExecutorPair
+submit
+private void submit()
+empty
+void
+com.google.common.util.concurrent.AbstractService
+failed
+private void failed(final State from, final Throwable cause)
+State,Throwable
+void
+com.google.common.util.concurrent.ServiceManager
+run
+public void run()
+empty
+void
+com.google.common.util.concurrent.ServiceManager
+ServiceManager
+public ServiceManager(Iterable<? extends Service> services)
+Iterable
+constructor
+com.google.common.util.concurrent.AbstractService
+stopping
+private void stopping(final State from)
+State
+void
+com.google.common.util.concurrent.ExecutionQueue$RunnableExecutorPair
+run
+public final void run()
+empty
+void
+com.google.common.util.concurrent.ListenerCallQueue
+ListenerCallQueue
+ListenerCallQueue(L listener, Executor executor)
+L,Executor
+constructor
+com.google.common.util.concurrent.AbstractService
+addListener
+public final void addListener(Listener listener, Executor executor)
+Listener,Executor
+void
+com.google.common.util.concurrent.ListenerCallQueue$Callback
+enqueueOn
+void enqueueOn(Iterable<ListenerCallQueue<L>> queues)
+Iterable
+void
+com.google.common.util.concurrent.ServiceManager$ServiceManagerState
+fireHealthyListeners
+void fireHealthyListeners()
+empty
+void
+com.google.common.util.concurrent.ListenerCallQueue
+add
+synchronized void add(Callback<L> callback)
+Callback
+void
+com.google.common.util.concurrent.ListenerCallQueue$Callback
+call
+abstract void call(L listener)
+L
+void
+com.google.common.util.concurrent.AbstractService
+starting
+private void starting()
+empty
+void

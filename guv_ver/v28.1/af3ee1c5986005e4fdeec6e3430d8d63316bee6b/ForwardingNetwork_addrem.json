@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "127": "  @Override\n",
+        "128": "  public Set<E> edgesConnecting(EndpointPair<N> endpoints) {\n",
+        "129": "    return delegate().edgesConnecting(endpoints);\n",
+        "130": "  }\n",
+        "131": "\n",
+        "137": "  @Override\n",
+        "138": "  public E edgeConnectingOrNull(EndpointPair<N> endpoints) {\n",
+        "139": "    return delegate().edgeConnectingOrNull(endpoints);\n",
+        "140": "  }\n",
+        "141": "\n",
+        "146": "\n",
+        "147": "  @Override\n",
+        "148": "  public boolean hasEdgeConnecting(EndpointPair<N> endpoints) {\n",
+        "149": "    return delegate().hasEdgeConnecting(endpoints);\n",
+        "150": "  }\n"
+    },
+    "removed": {}
+}

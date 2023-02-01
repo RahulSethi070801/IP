@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "66": "   * Returns the {@link Method} instances for the test methods in this class which call {@code\n",
+        "67": "   * hashCode()} on the set values so that set tests on unhashable objects can suppress it with\n"
+    },
+    "removed": {
+        "66": "   * Returns the {@link Method} instances for the test methods in this class\n",
+        "67": "   * which call {@code hashCode()} on the set values so that set tests on\n",
+        "68": "   * unhashable objects can suppress it with\n"
+    }
+}

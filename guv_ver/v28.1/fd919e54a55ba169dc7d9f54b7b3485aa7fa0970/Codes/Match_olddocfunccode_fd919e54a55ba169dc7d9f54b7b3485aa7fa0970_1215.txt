@@ -1,0 +1,3 @@
+public static HashFunction murmur3_32(int seed) {
+    return new Murmur3_32HashFunction(seed);
+}

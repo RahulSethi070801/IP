@@ -1,0 +1,4 @@
+NodeConnections
+Insertions: [22, 44, 50]
+Deletions: [22, 44, 50]
+guava/src/com/google/common/graph/NodeConnections.java

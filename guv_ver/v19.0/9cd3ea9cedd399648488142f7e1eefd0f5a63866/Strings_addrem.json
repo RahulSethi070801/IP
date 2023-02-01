@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "37": "@CheckReturnValue\n"
+    },
+    "removed": {
+        "47": "  @CheckReturnValue\n"
+    }
+}

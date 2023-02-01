@@ -1,0 +1,26 @@
+@Override
+Set<K> createKeySet() {
+    @WeakOuter
+    class KeySetImpl extends Maps.KeySet<K, Collection<V>> {
+
+        KeySetImpl() {
+            super(AsMap.this);
+        }
+
+        @Override
+        public boolean removeAll(Collection<?> c) {
+            return removeEntriesIf(Maps.<K>keyPredicateOnEntries(in(c)));
+        }
+
+        @Override
+        public boolean retainAll(Collection<?> c) {
+            return removeEntriesIf(Maps.<K>keyPredicateOnEntries(not(in(c))));
+        }
+
+        @Override
+        public boolean remove(@Nullable Object o) {
+            return AsMap.this.remove(o) != null;
+        }
+    }
+    return new KeySetImpl();
+}

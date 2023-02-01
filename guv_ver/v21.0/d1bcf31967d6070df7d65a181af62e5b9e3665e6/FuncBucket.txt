@@ -1,0 +1,30 @@
+com.google.common.util.concurrent.Futures
+addCallback
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+ListenableFuture,FutureCallback,Executor
+void
+com.google.common.util.concurrent.AggregateFuture$RunningState
+handleOneInputDone
+private void handleOneInputDone(int index, Future<? extends InputT> future)
+int,Future
+void
+com.google.common.util.concurrent.AbstractFuture
+completeWithFuture
+private boolean completeWithFuture(ListenableFuture<? extends V> future, Object expected)
+ListenableFuture,Object
+boolean
+com.google.common.util.concurrent.Futures
+run
+public void run()
+empty
+void
+com.google.common.util.concurrent.Futures
+getDone
+public static V getDone(Future<V> future) throws ExecutionException
+Future
+V
+com.google.common.util.concurrent.AbstractCatchingFuture
+run
+public final void run()
+empty
+void

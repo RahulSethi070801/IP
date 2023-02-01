@@ -1,0 +1,585 @@
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+setPreviousEvictable
+public void setPreviousEvictable(ReferenceEntry<K, V> previous)
+ReferenceEntry
+void
+com.google.common.collect.MapMaker
+getTicker
+Ticker getTicker()
+empty
+Ticker
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+getNextExpirable
+public ReferenceEntry<K, V> getNextExpirable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$ExpirationQueue
+peek
+public ReferenceEntry<K, V> peek()
+empty
+ReferenceEntry
+com.google.common.collect.super.com.google.common.collect.MapMaker$ExpiringComputingMap
+scheduleRemoval
+private void scheduleRemoval(final K key, final V value)
+K,V
+void
+com.google.common.collect.MapMakerInternalMap$StrongEvictableEntry
+StrongEvictableEntry
+StrongEvictableEntry(K key, int hash, @Nullable ReferenceEntry<K, V> next)
+K,int,ReferenceEntry
+constructor
+com.google.common.collect.GenericMapMaker
+expireAfterWrite
+abstract GenericMapMaker<K0, V0> expireAfterWrite(long duration, TimeUnit unit)
+long,TimeUnit
+GenericMapMaker
+com.google.common.collect.MapMakerInternalMap
+discardingQueue
+static Queue<E> discardingQueue()
+empty
+Queue
+com.google.common.collect.super.com.google.common.collect.MapMaker
+makeMap
+public ConcurrentMap<K, V> makeMap()
+empty
+ConcurrentMap
+com.google.common.collect.MapMakerInternalMap
+poll
+public Object poll()
+empty
+Object
+com.google.common.collect.MapMakerInternalMap
+size
+public int size()
+empty
+int
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+getNextEvictable
+public ReferenceEntry<K, V> getNextEvictable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+getPreviousExpirable
+ReferenceEntry<K, V> getPreviousExpirable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$AbstractSerializationProxy
+AbstractSerializationProxy
+AbstractSerializationProxy(Strength keyStrength, Strength valueStrength, Equivalence<Object> keyEquivalence, Equivalence<Object> valueEquivalence, long expireAfterWriteNanos, int concurrencyLevel, ConcurrentMap<K, V> delegate)
+Strength,Strength,Equivalence,Equivalence,long,int,ConcurrentMap
+constructor
+com.google.common.collect.MapMakerInternalMap$Segment
+recordWrite
+void recordWrite(ReferenceEntry<K, V> entry)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+setValueReference
+public void setValueReference(ValueReference<Object, Object> valueReference)
+ValueReference
+void
+com.google.common.collect.MapMakerInternalMap
+getFactory
+static EntryFactory getFactory(Strength keyStrength, boolean expireAfterWrite)
+Strength,boolean
+EntryFactory
+com.google.common.collect.super.com.google.common.collect.MapMaker$ExpiringComputingMap
+ExpiringComputingMap
+ExpiringComputingMap(long expirationMillis, int initialCapacity)
+long,int
+constructor
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+setPreviousEvictable
+void setPreviousEvictable(ReferenceEntry<K, V> previous)
+ReferenceEntry
+void
+com.google.common.collect.super.com.google.common.collect.MapMaker$ExpiringComputingMap
+put
+public V put(K key, V value)
+K,V
+V
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+setNextEvictable
+void setNextEvictable(ReferenceEntry<K, V> next)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+setExpirationTime
+void setExpirationTime(long time)
+long
+void
+com.google.common.collect.super.com.google.common.collect.MapMaker
+expireAfterWrite
+MapMaker expireAfterWrite(long duration, TimeUnit unit)
+long,TimeUnit
+MapMaker
+com.google.common.collect.MapMakerInternalMap$ExpirationQueue
+iterator
+public Iterator<ReferenceEntry<K, V>> iterator()
+empty
+Iterator
+com.google.common.collect.MapMakerInternalMap
+isExpired
+boolean isExpired(ReferenceEntry<K, V> entry)
+ReferenceEntry
+boolean
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+setNextExpirable
+public void setNextExpirable(ReferenceEntry<K, V> next)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+getKey
+public Object getKey()
+empty
+Object
+com.google.common.collect.MapMakerInternalMap$ExpirationQueue
+isEmpty
+public boolean isEmpty()
+empty
+boolean
+com.google.common.collect.MapMakerInternalMap$StrongExpirableEvictableEntry
+StrongExpirableEvictableEntry
+StrongExpirableEvictableEntry(K key, int hash, @Nullable ReferenceEntry<K, V> next)
+K,int,ReferenceEntry
+constructor
+com.google.common.collect.super.com.google.common.collect.MapMaker$ExpiringComputingMap
+setTimeout
+private static native void setTimeout(Callback callback, int delayInMs)
+Callback,int
+void
+com.google.common.collect.MapMakerInternalMap
+copyExpirableEntry
+void copyExpirableEntry(ReferenceEntry<K, V> original, ReferenceEntry<K, V> newEntry)
+ReferenceEntry,ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+getNextEvictable
+ReferenceEntry<K, V> getNextEvictable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap
+isExpired
+boolean isExpired(ReferenceEntry<K, V> entry, long now)
+ReferenceEntry,long
+boolean
+com.google.common.collect.MapMakerInternalMap$Segment
+recordExpirationTime
+void recordExpirationTime(ReferenceEntry<K, V> entry, long expirationNanos)
+ReferenceEntry,long
+void
+com.google.common.collect.MapMakerInternalMap
+nullifyExpirable
+static void nullifyExpirable(ReferenceEntry<K, V> nulled)
+ReferenceEntry
+void
+com.google.common.collect.MapMaker
+toString
+public String toString()
+empty
+String
+com.google.common.collect.MapMakerInternalMap
+MapMakerInternalMap
+MapMakerInternalMap(MapMaker builder)
+MapMaker
+constructor
+com.google.common.collect.MapMakerInternalMap$ExpirationQueue
+poll
+public ReferenceEntry<K, V> poll()
+empty
+ReferenceEntry
+com.google.common.collect.MapMaker
+checkExpiration
+private void checkExpiration(long duration, TimeUnit unit)
+long,TimeUnit
+void
+com.google.common.collect.MapMakerInternalMap
+setPreviousEvictable
+public void setPreviousEvictable(ReferenceEntry<Object, Object> previous)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+connectExpirables
+static void connectExpirables(ReferenceEntry<K, V> previous, ReferenceEntry<K, V> next)
+ReferenceEntry,ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap$StrongEntry
+StrongEntry
+StrongEntry(K key, int hash, @Nullable ReferenceEntry<K, V> next)
+K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+getKey
+public K getKey()
+empty
+K
+com.google.common.collect.MapMakerInternalMap
+expires
+boolean expires()
+empty
+boolean
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+getPreviousEvictable
+ReferenceEntry<K, V> getPreviousEvictable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$Segment
+Segment
+Segment(MapMakerInternalMap<K, V> map, int initialCapacity, int maxSegmentSize)
+MapMakerInternalMap,int,int
+constructor
+com.google.common.collect.super.com.google.common.collect.MapMaker
+makeComputingMap
+public ConcurrentMap<K, V> makeComputingMap(Function<? super K, ? extends V> computer)
+Function
+ConcurrentMap
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+getHash
+int getHash()
+empty
+int
+com.google.common.collect.MapMakerInternalMap
+getValueReference
+public ValueReference<Object, Object> getValueReference()
+empty
+ValueReference
+com.google.common.collect.MapMakerInternalMap$AbstractSerializationProxy
+readMapMaker
+MapMaker readMapMaker(ObjectInputStream in) throws IOException
+ObjectInputStream
+MapMaker
+com.google.common.collect.MapMaker
+getExpireAfterWriteNanos
+long getExpireAfterWriteNanos()
+empty
+long
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+getNext
+public ReferenceEntry<K, V> getNext()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$WeakExpirableEvictableEntry
+WeakExpirableEvictableEntry
+WeakExpirableEvictableEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap$Segment
+setValue
+void setValue(ReferenceEntry<K, V> entry, V value)
+ReferenceEntry,V
+void
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+getNextExpirable
+ReferenceEntry<K, V> getNextExpirable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$Segment
+removeCollectedEntry
+void removeCollectedEntry(ReferenceEntry<K, V> entry)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+getExpirationTime
+public long getExpirationTime()
+empty
+long
+com.google.common.collect.MapMakerInternalMap$SoftEntry
+SoftEntry
+SoftEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+getExpirationTime
+long getExpirationTime()
+empty
+long
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+setNextEvictable
+public void setNextEvictable(ReferenceEntry<K, V> next)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+setValueReference
+public void setValueReference(ValueReference<K, V> valueReference)
+ValueReference
+void
+com.google.common.collect.MapMakerInternalMap
+getHash
+public int getHash()
+empty
+int
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+setExpirationTime
+public void setExpirationTime(long time)
+long
+void
+com.google.common.collect.MapMakerInternalMap$Segment
+removeFromChain
+ReferenceEntry<K, V> removeFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry)
+ReferenceEntry,ReferenceEntry
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$SoftExpirableEntry
+SoftExpirableEntry
+SoftExpirableEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap$Segment
+clear
+void clear()
+empty
+void
+com.google.common.collect.super.com.google.common.collect.MapMaker$ComputingMap
+ComputingMap
+ComputingMap(Function<? super K, ? extends V> computer, int initialCapacity)
+Function,int
+constructor
+com.google.common.collect.super.com.google.common.collect.MapMaker$ComputingMap
+ComputingMap
+ComputingMap(int initialCapacity)
+int
+constructor
+com.google.common.collect.MapMakerInternalMap
+setPreviousExpirable
+public void setPreviousExpirable(ReferenceEntry<Object, Object> previous)
+ReferenceEntry
+void
+com.google.common.collect.super.com.google.common.collect.MapMaker$Callback
+run
+void run()
+empty
+void
+com.google.common.collect.MapMakerInternalMap$Segment
+runLockedCleanup
+void runLockedCleanup()
+empty
+void
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+getValueReference
+public ValueReference<K, V> getValueReference()
+empty
+ValueReference
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+setPreviousExpirable
+public void setPreviousExpirable(ReferenceEntry<K, V> previous)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap$SerializationProxy
+SerializationProxy
+SerializationProxy(Strength keyStrength, Strength valueStrength, Equivalence<Object> keyEquivalence, Equivalence<Object> valueEquivalence, long expireAfterWriteNanos, int concurrencyLevel, ConcurrentMap<K, V> delegate)
+Strength,Strength,Equivalence,Equivalence,long,int,ConcurrentMap
+constructor
+com.google.common.collect.MapMakerInternalMap
+setNextEvictable
+public void setNextEvictable(ReferenceEntry<Object, Object> next)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+copyEvictableEntry
+void copyEvictableEntry(ReferenceEntry<K, V> original, ReferenceEntry<K, V> newEntry)
+ReferenceEntry,ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+getPreviousEvictable
+public ReferenceEntry<Object, Object> getPreviousEvictable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$WeakEvictableEntry
+WeakEvictableEntry
+WeakEvictableEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.collect.ComputingConcurrentHashMap$ComputingSerializationProxy
+ComputingSerializationProxy
+ComputingSerializationProxy(Strength keyStrength, Strength valueStrength, Equivalence<Object> keyEquivalence, Equivalence<Object> valueEquivalence, long expireAfterWriteNanos, int concurrencyLevel, ConcurrentMap<K, V> delegate, Function<? super K, ? extends V> computingFunction)
+Strength,Strength,Equivalence,Equivalence,long,int,ConcurrentMap,Function
+constructor
+com.google.common.collect.MapMakerInternalMap
+nullifyEvictable
+static void nullifyEvictable(ReferenceEntry<K, V> nulled)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap$Segment
+expand
+void expand()
+empty
+void
+com.google.common.collect.MapMakerInternalMap
+computeNext
+protected ReferenceEntry<K, V> computeNext(ReferenceEntry<K, V> previous)
+ReferenceEntry
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$WeakExpirableEntry
+WeakExpirableEntry
+WeakExpirableEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+setNextExpirable
+void setNextExpirable(ReferenceEntry<K, V> next)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+getNextEvictable
+public ReferenceEntry<Object, Object> getNextEvictable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+getPreviousExpirable
+public ReferenceEntry<K, V> getPreviousExpirable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap
+connectEvictables
+static void connectEvictables(ReferenceEntry<K, V> previous, ReferenceEntry<K, V> next)
+ReferenceEntry,ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+peek
+public Object peek()
+empty
+Object
+com.google.common.collect.MapMakerInternalMap$ExpirationQueue
+contains
+public boolean contains(Object o)
+Object
+boolean
+com.google.common.collect.MapMakerInternalMap$ExpirationQueue
+clear
+public void clear()
+empty
+void
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+setPreviousExpirable
+void setPreviousExpirable(ReferenceEntry<K, V> previous)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap
+setNextExpirable
+public void setNextExpirable(ReferenceEntry<Object, Object> next)
+ReferenceEntry
+void
+com.google.common.collect.MapMakerInternalMap$SoftEvictableEntry
+SoftEvictableEntry
+SoftEvictableEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap$Segment
+expireEntries
+void expireEntries()
+empty
+void
+com.google.common.collect.MapMakerInternalMap$Segment
+getLiveEntry
+ReferenceEntry<K, V> getLiveEntry(Object key, int hash)
+Object,int
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$AbstractReferenceEntry
+getPreviousEvictable
+public ReferenceEntry<K, V> getPreviousEvictable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap
+getNext
+public ReferenceEntry<Object, Object> getNext()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap
+iterator
+public Iterator<Object> iterator()
+empty
+Iterator
+com.google.common.collect.MapMakerInternalMap
+getFactory
+static EntryFactory getFactory(Strength keyStrength)
+Strength
+EntryFactory
+com.google.common.collect.MapMakerInternalMap
+offer
+public boolean offer(Object o)
+Object
+boolean
+com.google.common.collect.MapMakerInternalMap
+getLiveValue
+V getLiveValue(ReferenceEntry<K, V> entry)
+ReferenceEntry
+V
+com.google.common.collect.MapMakerInternalMap
+writeReplace
+Object writeReplace()
+empty
+Object
+com.google.common.collect.MapMakerInternalMap
+getPreviousExpirable
+public ReferenceEntry<Object, Object> getPreviousExpirable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+getKey
+K getKey()
+empty
+K
+com.google.common.collect.MapMakerInternalMap$WeakEntry
+WeakEntry
+WeakEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap
+copyEntry
+ReferenceEntry<K, V> copyEntry(Segment<K, V> segment, ReferenceEntry<K, V> original, ReferenceEntry<K, V> newNext)
+Segment,ReferenceEntry,ReferenceEntry
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$StrongExpirableEntry
+StrongExpirableEntry
+StrongExpirableEntry(K key, int hash, @Nullable ReferenceEntry<K, V> next)
+K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap
+getNextExpirable
+public ReferenceEntry<Object, Object> getNextExpirable()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap$Segment
+tryExpireEntries
+void tryExpireEntries()
+empty
+void
+com.google.common.collect.MapMakerInternalMap$ExpirationQueue
+remove
+public boolean remove(Object o)
+Object
+boolean
+com.google.common.collect.ComputingConcurrentHashMap$ComputingSegment
+getOrCompute
+V getOrCompute(K key, int hash, Function<? super K, ? extends V> computingFunction) throws ExecutionException
+K,int,Function
+V
+com.google.common.collect.MapMakerInternalMap$ExpirationQueue
+offer
+public boolean offer(ReferenceEntry<K, V> entry)
+ReferenceEntry
+boolean
+com.google.common.collect.super.com.google.common.collect.MapMaker$ExpiringComputingMap
+ExpiringComputingMap
+ExpiringComputingMap(long expirationMillis, Function<? super K, ? extends V> computer, int initialCapacity)
+long,Function,int
+constructor
+com.google.common.collect.MapMakerInternalMap$SoftExpirableEvictableEntry
+SoftExpirableEvictableEntry
+SoftExpirableEvictableEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+getNext
+ReferenceEntry<K, V> getNext()
+empty
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap
+newEntry
+ReferenceEntry<K, V> newEntry(Segment<K, V> segment, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+Segment,K,int,ReferenceEntry
+ReferenceEntry
+com.google.common.collect.MapMakerInternalMap
+nullEntry
+static ReferenceEntry<K, V> nullEntry()
+empty
+ReferenceEntry

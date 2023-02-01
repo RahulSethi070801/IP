@@ -1,0 +1,3 @@
+
+   * Encodes the specified byte array, and returns the encoded {@code String}.
+   

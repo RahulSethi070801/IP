@@ -1,0 +1,4 @@
+Equivalence
+Insertions: [22, 62, 98, 151, 177, 179, 185, 196, 258, 265, 267, 273, 278]
+Deletions: [22, 62, 98, 151, 177, 179, 185, 196, 258, 265, 267, 273, 278]
+android/guava/src/com/google/common/base/Equivalence.java

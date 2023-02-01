@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "34": " * This class provides a skeletal implementation of {@link Graph}. It is recommended to extend\n",
+        "35": " * this class rather than implement {@link Graph} directly, to ensure consistent {@link\n",
+        "44": "public abstract class AbstractGraph<N, V> implements Graph<N, V> {\n",
+        "62": "   * A reasonable default implementation of {@link Graph#edges()} defined in terms of\n",
+        "70": "        return EndpointsIterator.of(AbstractGraph.this);\n",
+        "97": "    if (!(obj instanceof Graph)) {\n",
+        "100": "    Graph<?, ?> other = (Graph<?, ?>) obj;\n",
+        "155": "  private static int degree(Graph<?, ?> graph, Object node) {\n"
+    },
+    "removed": {
+        "34": " * This class provides a skeletal implementation of {@link ValueGraph}. It is recommended to extend\n",
+        "35": " * this class rather than implement {@link ValueGraph} directly, to ensure consistent {@link\n",
+        "44": "public abstract class AbstractValueGraph<N, V> implements ValueGraph<N, V> {\n",
+        "62": "   * A reasonable default implementation of {@link ValueGraph#edges()} defined in terms of\n",
+        "70": "        return EndpointsIterator.of(AbstractValueGraph.this);\n",
+        "97": "    if (!(obj instanceof ValueGraph)) {\n",
+        "100": "    ValueGraph<?, ?> other = (ValueGraph<?, ?>) obj;\n",
+        "155": "  private static int degree(ValueGraph<?, ?> graph, Object node) {\n"
+    }
+}

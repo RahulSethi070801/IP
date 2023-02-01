@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "20": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "32": " * <li>orders {@code nodes()} in the order in which the elements were added\n",
+        "43": "  ElementOrder<N> nodeOrder = ElementOrder.insertion();\n",
+        "78": "    checkNotNull(graph);\n",
+        "80": "    return new GraphBuilder<Object>(graph.isDirected())\n",
+        "81": "        .allowsSelfLoops(graph.allowsSelfLoops())\n",
+        "82": "        .orderNodes(graph.nodeOrder())\n",
+        "83": "        .cast();\n",
+        "108": "  /**\n",
+        "109": "   * Specifies the order of iteration for the elements of {@link Network#nodes()}.\n",
+        "110": "   */\n",
+        "111": "  public <N1 extends N> GraphBuilder<N1> orderNodes(ElementOrder<N1> nodeOrder) {\n",
+        "112": "    checkNotNull(nodeOrder);\n",
+        "113": "    GraphBuilder<N1> newBuilder = cast();\n",
+        "114": "    newBuilder.nodeOrder = nodeOrder;\n",
+        "115": "    return newBuilder;\n",
+        "116": "  }\n",
+        "117": "\n",
+        "124": "\n",
+        "125": "  @SuppressWarnings(\"unchecked\")\n",
+        "126": "  private <N1 extends N> GraphBuilder<N1> cast() {\n",
+        "127": "    return (GraphBuilder<N1>) this;\n",
+        "128": "  }\n"
+    },
+    "removed": {
+        "24": "import java.util.Comparator;\n",
+        "25": "\n",
+        "39": "// TODO(b/24620028): Add support for sorted nodes/edges. Use the same pattern as CacheBuilder\n",
+        "40": "// to narrow the generic type when Comparators are provided.\n",
+        "45": "  Comparator<N> nodeComparator = null;\n",
+        "81": "    return new GraphBuilder<N>(graph.isDirected())\n",
+        "82": "        .allowsSelfLoops(graph.allowsSelfLoops());\n"
+    }
+}

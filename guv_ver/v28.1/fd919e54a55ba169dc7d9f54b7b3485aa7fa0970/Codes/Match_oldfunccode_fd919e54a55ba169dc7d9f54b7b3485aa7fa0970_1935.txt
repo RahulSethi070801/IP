@@ -1,0 +1,13 @@
+@CanIgnoreReturnValue
+public String readLine() throws IOException {
+    while (lines.peek() == null) {
+        cbuf.clear();
+        int read = (reader != null) ? reader.read(buf, 0, buf.length) : readable.read(cbuf);
+        if (read == -1) {
+            lineBuf.finish();
+            break;
+        }
+        lineBuf.add(buf, 0, read);
+    }
+    return lines.poll();
+}

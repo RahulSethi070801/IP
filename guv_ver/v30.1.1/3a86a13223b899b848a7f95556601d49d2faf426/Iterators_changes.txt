@@ -1,0 +1,4 @@
+Iterators
+Insertions: [614, 615, 619, 623, 630, 636, 645, 646, 647, 648, 649, 650, 651]
+Deletions: [614, 615, 619, 623, 630, 636, 645, 646]
+android/guava/src/com/google/common/collect/Iterators.java

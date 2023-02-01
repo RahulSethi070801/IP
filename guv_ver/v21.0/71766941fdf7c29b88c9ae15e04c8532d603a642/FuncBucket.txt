@@ -1,0 +1,35 @@
+com.google.common.graph.ImmutableNetwork
+connectionsOf
+private static NetworkConnections<N, E> connectionsOf(Network<N, E> graph, N node)
+Network,N
+NetworkConnections
+com.google.common.graph.AbstractGraph
+outDegree
+public int outDegree(Object node)
+Object
+int
+com.google.common.graph.Network
+degree
+int degree(Object node)
+Object
+int
+com.google.common.graph.AbstractGraph
+inDegree
+public int inDegree(Object node)
+Object
+int
+com.google.common.graph.Network
+inDegree
+int inDegree(Object node)
+Object
+int
+com.google.common.graph.AbstractGraph
+degree
+public int degree(Object node)
+Object
+int
+com.google.common.graph.Network
+outDegree
+int outDegree(Object node)
+Object
+int

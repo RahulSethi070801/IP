@@ -1,0 +1,21 @@
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+static TrustedListenableFutureTask<V> create(AsyncCallable<V> callable)
+
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+static TrustedListenableFutureTask<V> create(AsyncCallable<V> callable)
+
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+static TrustedListenableFutureTask<V> create(AsyncCallable<V> callable)
+
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+static TrustedListenableFutureTask<V> create(AsyncCallable<V> callable)
+
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+static TrustedListenableFutureTask<V> create(AsyncCallable<V> callable)
+
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+static TrustedListenableFutureTask<V> create(AsyncCallable<V> callable)
+
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+static TrustedListenableFutureTask<V> create(AsyncCallable<V> callable)
+

@@ -1,0 +1,4 @@
+
+   * Delegates to {@link Collection#contains}. Returns {@code false} if the {@code contains} method
+   * throws a {@code ClassCastException} or {@code NullPointerException}.
+   

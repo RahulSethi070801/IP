@@ -1,0 +1,4 @@
+Iterables
+Insertions: [42, 135, 202, 266, 267, 334, 644, 646, 748, 749, 779, 780, 817, 818]
+Deletions: [42, 135, 202, 266, 267, 334, 644, 646, 647, 648, 750, 751, 752, 782, 783, 820, 821]
+guava/src/com/google/common/collect/Iterables.java

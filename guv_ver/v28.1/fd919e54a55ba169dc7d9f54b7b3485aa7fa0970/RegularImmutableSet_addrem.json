@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "28": "  static final RegularImmutableSet<Object> EMPTY =\n",
+        "29": "      new RegularImmutableSet<Object>(Collections.emptySet());\n"
+    },
+    "removed": {
+        "28": "  static final RegularImmutableSet<Object> EMPTY = new RegularImmutableSet<Object>(\n",
+        "29": "      Collections.emptySet());\n"
+    }
+}

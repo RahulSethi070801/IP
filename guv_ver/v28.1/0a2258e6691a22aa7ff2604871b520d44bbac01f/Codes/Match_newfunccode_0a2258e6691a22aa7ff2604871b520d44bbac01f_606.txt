@@ -1,0 +1,14 @@
+@GwtIncompatible
+@Nullable
+private static Method getSizeMethod() {
+    try {
+        Method getStackTraceDepth = getJlaMethod("getStackTraceDepth", Throwable.class);
+        if (getStackTraceDepth == null) {
+            return null;
+        }
+        getStackTraceDepth.invoke(getJLA(), new Throwable());
+        return getStackTraceDepth;
+    } catch (UnsupportedOperationException | IllegalAccessException | InvocationTargetException e) {
+        return null;
+    }
+}

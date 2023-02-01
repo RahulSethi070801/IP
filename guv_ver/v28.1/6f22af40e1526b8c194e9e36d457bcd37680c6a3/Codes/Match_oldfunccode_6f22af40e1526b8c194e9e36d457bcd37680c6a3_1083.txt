@@ -1,0 +1,3 @@
+static <K, V> SortedMap<K, V> sortedMap(SortedMap<K, V> sortedMap, @Nullable Object mutex) {
+    return new SynchronizedSortedMap<>(sortedMap, mutex);
+}

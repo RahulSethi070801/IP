@@ -1,0 +1,17 @@
+
+   * Specifies that each value (not key) stored in the map should be wrapped in a
+   * {@link WeakReference} (by default, strong references are used).
+   *
+   * <p>Weak values will be garbage collected once they are weakly reachable. This makes them a poor
+   * candidate for caching; consider {@link #softValues} instead.
+   *
+   * <p><b>Warning:</b> when this method is used, the resulting map will use identity ({@code ==})
+   * comparison to determine equality of values. This technically violates the specifications of
+   * the methods {@link Map#containsValue containsValue},
+   * {@link ConcurrentMap#remove(Object, Object) remove(Object, Object)} and
+   * {@link ConcurrentMap#replace(Object, Object, Object) replace(K, V, V)}, and may not be what you
+   * expect.
+   *
+   * @throws IllegalStateException if the value strength was already set
+   * @see WeakReference
+   

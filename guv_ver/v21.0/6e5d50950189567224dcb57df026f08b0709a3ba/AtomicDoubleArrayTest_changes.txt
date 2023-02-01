@@ -1,0 +1,4 @@
+AtomicDoubleArrayTest
+Insertions: [70, 72, 73, 96, 108, 120, 124, 128, 132, 136, 140, 144]
+Deletions: [71, 72, 73, 96, 108, 120, 124, 128, 132, 136, 140, 144]
+guava-tests/test/com/google/common/util/concurrent/AtomicDoubleArrayTest.java

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "52": "  public TestNetworkBuilder<N, E> addEdge(E edge, N nodeA, N nodeB) {\n",
+        "53": "    graph.addEdge(edge, nodeA, nodeB);\n"
+    },
+    "removed": {
+        "52": "  public TestNetworkBuilder<N, E> addEdge(E edge, N node1, N node2) {\n",
+        "53": "    graph.addEdge(edge, node1, node2);\n"
+    }
+}

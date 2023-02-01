@@ -1,0 +1,4 @@
+ForwardingCache_2
+Insertions: [25, 46]
+Deletions: [25, 46]
+guava/src/com/google/common/cache/ForwardingCache.java

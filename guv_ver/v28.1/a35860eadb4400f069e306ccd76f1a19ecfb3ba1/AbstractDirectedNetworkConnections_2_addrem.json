@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "99": "  public N adjacentNode(E edge) {\n",
+        "106": "  public N removeInEdge(E edge, boolean isSelfLoop) {\n",
+        "115": "  public N removeOutEdge(E edge) {\n"
+    },
+    "removed": {
+        "99": "  public N oppositeNode(Object edge) {\n",
+        "106": "  public N removeInEdge(Object edge, boolean isSelfLoop) {\n",
+        "115": "  public N removeOutEdge(Object edge) {\n"
+    }
+}

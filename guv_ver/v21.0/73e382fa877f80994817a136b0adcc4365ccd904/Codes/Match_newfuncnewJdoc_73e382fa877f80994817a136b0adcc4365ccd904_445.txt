@@ -1,0 +1,8 @@
+
+   * Updates the value currently associated with {@code key} by combining it with {@code x}
+   * via the specified accumulator function, returning the old value.  The previous value
+   * associated with {@code key} (or zero, if there is none) is passed as the first argument
+   * to {@code accumulatorFunction}, and {@code x} is passed as the second argument.
+   *
+   * @since 21.0
+   

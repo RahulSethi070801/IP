@@ -1,0 +1,7 @@
+@SuppressWarnings("unchecked")
+void checkIsE(@NullableDecl Object element) {
+    checkNotNull(element);
+    if (!isActuallyE(element)) {
+        throw new ClassCastException("Expected an " + type + " but got " + element);
+    }
+}

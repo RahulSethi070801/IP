@@ -1,0 +1,20 @@
+void execute() {
+    boolean scheduleTaskRunner = false;
+    synchronized (this) {
+        if (!isThreadScheduled) {
+            isThreadScheduled = true;
+            scheduleTaskRunner = true;
+        }
+    }
+    if (scheduleTaskRunner) {
+        try {
+            executor.execute(this);
+        } catch (RuntimeException e) {
+            synchronized (this) {
+                isThreadScheduled = false;
+            }
+            logger.log(Level.SEVERE, "Exception while running callbacks for " + listener + " on " + executor, e);
+            throw e;
+        }
+    }
+}

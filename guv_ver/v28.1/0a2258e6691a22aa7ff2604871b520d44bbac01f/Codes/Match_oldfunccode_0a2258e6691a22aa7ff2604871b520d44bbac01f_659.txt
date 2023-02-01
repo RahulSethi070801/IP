@@ -1,0 +1,1 @@
+boolean containsKey(@CompatibleWith("K") @NullableDecl Object key);

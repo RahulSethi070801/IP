@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "28": " * <p>The {@link #rowKeySet} method returns a {@link SortedSet} and the {@link #rowMap} method\n",
+        "29": " * returns a {@link SortedMap}, instead of the {@link Set} and {@link Map} specified by the {@link\n",
+        "30": " * Table} interface.\n",
+        "40": "   * <p>This method returns a {@link SortedSet}, instead of the {@code Set} specified in the {@link\n",
+        "41": "   * Table} interface.\n",
+        "49": "   * <p>This method returns a {@link SortedMap}, instead of the {@code Map} specified in the {@link\n",
+        "50": "   * Table} interface.\n"
+    },
+    "removed": {
+        "28": " * <p>The {@link #rowKeySet} method returns a {@link SortedSet} and the {@link\n",
+        "29": " * #rowMap} method returns a {@link SortedMap}, instead of the {@link Set} and\n",
+        "30": " * {@link Map} specified by the {@link Table} interface.\n",
+        "40": "   * <p>This method returns a {@link SortedSet}, instead of the {@code Set}\n",
+        "41": "   * specified in the {@link Table} interface.\n",
+        "49": "   * <p>This method returns a {@link SortedMap}, instead of the {@code Map}\n",
+        "50": "   * specified in the {@link Table} interface.\n"
+    }
+}

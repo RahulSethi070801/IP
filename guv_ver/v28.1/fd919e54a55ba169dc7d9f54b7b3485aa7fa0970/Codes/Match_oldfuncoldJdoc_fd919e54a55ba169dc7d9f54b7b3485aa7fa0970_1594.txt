@@ -1,0 +1,31 @@
+
+   * Deletes the file or directory at the given {@code path} recursively. Deletes symbolic links,
+   * not their targets (subject to the caveat below).
+   *
+   * <p>If an I/O exception occurs attempting to read, open or delete any file under the given
+   * directory, this method skips that file and continues. All such exceptions are collected and,
+   * after attempting to delete all files, an {@code IOException} is thrown containing those
+   * exceptions as {@linkplain Throwable#getSuppressed() suppressed exceptions}.
+   *
+   * <h2>Warning: Security of recursive deletes</h2>
+   *
+   * <p>On a file system that supports symbolic links and does <i>not</i> support
+   * {@link SecureDirectoryStream}, it is possible for a recursive delete to delete files and
+   * directories that are <i>outside</i> the directory being deleted. This can happen if, after
+   * checking that a file is a directory (and not a symbolic link), that directory is replaced by a
+   * symbolic link to an outside directory before the call that opens the directory to read its
+   * entries.
+   *
+   * <p>By default, this method throws {@link InsecureRecursiveDeleteException} if it can't
+   * guarantee the security of recursive deletes. If you wish to allow the recursive deletes
+   * anyway, pass {@link RecursiveDeleteOption#ALLOW_INSECURE} to this method to override that
+   * behavior.
+   *
+   * @throws NoSuchFileException if {@code path} does not exist <i>(optional specific
+   *     exception)</i>
+   * @throws InsecureRecursiveDeleteException if the security of recursive deletes can't be
+   *     guaranteed for the file system and {@link RecursiveDeleteOption#ALLOW_INSECURE} was not
+   *     specified
+   * @throws IOException if {@code path} or any file in the subtree rooted at it can't be deleted
+   *     for any reason
+   

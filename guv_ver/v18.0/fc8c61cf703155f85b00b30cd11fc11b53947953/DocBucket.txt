@@ -1,0 +1,5 @@
+com.google.common.base.Functions
+identity
+public static Function<E, E> identity()
+empty
+Function

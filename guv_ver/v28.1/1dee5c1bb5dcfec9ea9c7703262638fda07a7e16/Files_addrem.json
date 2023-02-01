@@ -1,0 +1,8 @@
+{
+    "addition": {},
+    "removed": {
+        "855": "   * <p>If available, consider using {@link MoreFiles#fileTraverser()} instead. It behaves the same\n",
+        "856": "   * except that it doesn't follow symbolic links and returns {@code Path} instances.\n",
+        "857": "   *\n"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "49": "@ElementTypesAreNonnullByDefault\n",
+        "61": "  public static <T extends @Nullable Object, K extends Comparable<? super K>, V>\n",
+        "302": "      @CheckForNull V value,\n",
+        "303": "      BiFunction<? super V, ? super @Nullable V, ? extends @Nullable V> remappingFunction) {\n",
+        "394": "  public boolean equals(@CheckForNull Object o) {\n"
+    },
+    "removed": {
+        "60": "  public static <T, K extends Comparable<? super K>, V>\n",
+        "301": "      @Nullable V value,\n",
+        "302": "      BiFunction<? super V, ? super V, ? extends V> remappingFunction) {\n",
+        "393": "  public boolean equals(@Nullable Object o) {\n"
+    }
+}

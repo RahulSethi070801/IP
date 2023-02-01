@@ -1,0 +1,4 @@
+@Override
+public Optional<E> edgeConnecting(EndpointPair<N> endpoints) {
+    return delegate().edgeConnecting(endpoints);
+}

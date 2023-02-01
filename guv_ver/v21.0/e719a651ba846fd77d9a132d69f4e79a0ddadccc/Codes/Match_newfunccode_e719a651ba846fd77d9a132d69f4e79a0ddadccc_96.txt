@@ -1,0 +1,7 @@
+public <X extends Exception> RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X {
+    checkNotNull(e);
+    thrown = e;
+    Throwables.propagateIfPossible(e, IOException.class);
+    Throwables.propagateIfPossible(e, declaredType);
+    throw new RuntimeException(e);
+}

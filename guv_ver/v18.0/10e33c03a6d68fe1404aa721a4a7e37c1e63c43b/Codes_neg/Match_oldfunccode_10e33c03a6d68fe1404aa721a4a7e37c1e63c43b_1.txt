@@ -1,0 +1,9 @@
+public static int countTrue(boolean... values) {
+    int count = 0;
+    for (boolean value : values) {
+        if (value) {
+            count++;
+        }
+    }
+    return count;
+}

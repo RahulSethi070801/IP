@@ -1,0 +1,4 @@
+RemovalListener
+Insertions: [4, 5, 9, 10, 11, 12, 22, 28, 29, 30, 31, 40, 41]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 24, 25, 31, 32, 33, 34, 43, 44]
+guava/src/com/google/common/cache/RemovalListener.java

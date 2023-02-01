@@ -1,0 +1,6 @@
+
+   * Determines whether an edge has already been used during traversal. In the directed case a cycle
+   * is always detected before reusing an edge, so no special logic is required. In the undirected
+   * case, we must take care not to "backtrack" over an edge (i.e. going from A to B and then going
+   * from B to A).
+   

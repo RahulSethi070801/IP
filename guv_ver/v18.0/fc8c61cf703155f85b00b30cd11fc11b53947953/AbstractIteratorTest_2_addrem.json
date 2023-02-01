@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "198": "      @SuppressWarnings(\"unchecked\") // intentionally unsafe for test\n"
+    },
+    "removed": {
+        "34": "@SuppressWarnings(\"serial\") // No serialization is used in this test\n",
+        "199": "      @SuppressWarnings(\"unchecked\") // not really safe, but that's the point\n"
+    }
+}

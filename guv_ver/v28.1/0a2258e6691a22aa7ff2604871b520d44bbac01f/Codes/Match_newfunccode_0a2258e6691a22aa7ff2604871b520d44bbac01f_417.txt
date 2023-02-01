@@ -1,0 +1,3 @@
+public static int hashCode(Object@Nullable ... objects) {
+    return Arrays.hashCode(objects);
+}

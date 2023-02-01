@@ -1,0 +1,3 @@
+public static <E> Set<E> newConcurrentHashSet() {
+    return Collections.newSetFromMap(new ConcurrentHashMap<E, Boolean>());
+}

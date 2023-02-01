@@ -1,0 +1,5 @@
+@Override
+public void forEach(BiConsumer<? super V, ? super K> action) {
+    checkNotNull(action);
+    HashBiMap.this.forEach((k, v) -> action.accept(v, k));
+}

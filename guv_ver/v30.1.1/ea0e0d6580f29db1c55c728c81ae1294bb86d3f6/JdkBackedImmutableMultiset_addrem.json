@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "23": "import javax.annotation.CheckForNull;\n",
+        "32": "@ElementTypesAreNonnullByDefault\n",
+        "65": "  public int count(@CheckForNull Object element) {\n",
+        "69": "  @CheckForNull private transient ImmutableSet<E> elementSet;\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "64": "  public int count(@Nullable Object element) {\n",
+        "68": "  private transient ImmutableSet<E> elementSet;\n"
+    }
+}

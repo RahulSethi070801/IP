@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "3567": "        newValue = function.apply(key, previousValue);\n",
+        "3569": "        this.setException(th);\n",
+        "3570": "        throw th;\n"
+    },
+    "removed": {
+        "3567": "         newValue = function.apply(key, previousValue);\n",
+        "3569": "         this.setException(th);\n",
+        "3570": "         throw th;\n"
+    }
+}

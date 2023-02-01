@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "66": "   * All edges incident to {@code node} in this graph will also be removed.\n"
+    },
+    "removed": {
+        "66": "   * In general, all edges incident to {@code node} in this graph will also be removed.\n",
+        "67": "   * (This is not true for hyperedges.)\n"
+    }
+}

@@ -1,0 +1,6 @@
+public Set<E> inEdges(Object node)
+public Builder<N, E> addGraph(UndirectedGraph<N, E> graph)
+
+Set<N> elements()
+public Builder<N, E> addGraph(UndirectedGraph<N, E> graph)
+

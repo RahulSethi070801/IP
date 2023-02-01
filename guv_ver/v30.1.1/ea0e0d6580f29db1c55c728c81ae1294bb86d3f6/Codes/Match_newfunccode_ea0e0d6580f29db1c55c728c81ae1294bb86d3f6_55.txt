@@ -1,0 +1,4 @@
+@Override
+public int remove(@CheckForNull Object element, int occurrences) {
+    throw new UnsupportedOperationException();
+}

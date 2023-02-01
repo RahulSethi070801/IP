@@ -1,0 +1,8 @@
+
+   * Returns true if this type is a subtype of the given {@code type}. "Subtype" is defined
+   * according to
+   * <a href="http://docs.oracle.com/javase/specs/jls/se8/html/jls-4.html#jls-4.5.1">the rules for
+   * type arguments</a> introduced with Java generics.
+   *
+   * @since 19.0
+   

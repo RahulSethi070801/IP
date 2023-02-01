@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "54": "   * Wraps a task before it is submitted to the underlying executor. Though\n",
+        "55": "   * specified in terms of {@link Callable}, this method is also applied to\n",
+        "56": "   * {@link Runnable} tasks (unless {@link #wrapTest(Runnable}} is overridden\n",
+        "57": "   * with different behavior).\n"
+    },
+    "removed": {
+        "54": "   * Wraps a task  before it is submitted to the underlying Executor.\n",
+        "55": "   * Though specified in terms of Callable, this method is also applied to\n",
+        "56": "   * Runnable tasks.\n"
+    }
+}

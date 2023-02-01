@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "38": "    ImmutableBiMap<String, String> specialCases =\n",
+        "39": "        ImmutableBiMap.of(\n",
+        "40": "            \"ETAG\",\n",
+        "41": "            \"ETag\",\n",
+        "42": "            \"X_WEBKIT_CSP\",\n",
+        "43": "            \"X-WebKit-CSP\",\n",
+        "44": "            \"X_WEBKIT_CSP_REPORT_ONLY\",\n",
+        "45": "            \"X-WebKit-CSP-Report-Only\");\n",
+        "52": "  static void assertConstantNameMatchesString(\n",
+        "53": "      Class<?> clazz,\n",
+        "54": "      ImmutableBiMap<String, String> specialCases,\n",
+        "55": "      ImmutableSet<String> uppercaseAcronyms)\n",
+        "58": "      assertEquals(\n",
+        "59": "          upperToHttpHeaderName(field.getName(), specialCases, uppercaseAcronyms), field.get(null));\n",
+        "82": "  private static String upperToHttpHeaderName(\n",
+        "83": "      String constantName,\n",
+        "84": "      ImmutableBiMap<String, String> specialCases,\n",
+        "85": "      ImmutableSet<String> uppercaseAcronyms) {\n"
+    },
+    "removed": {
+        "38": "    ImmutableBiMap<String, String> specialCases = ImmutableBiMap.of(\"ETAG\", \"ETag\",\n",
+        "39": "        \"X_WEBKIT_CSP\", \"X-WebKit-CSP\", \"X_WEBKIT_CSP_REPORT_ONLY\", \"X-WebKit-CSP-Report-Only\");\n",
+        "46": "  static void assertConstantNameMatchesString(Class<?> clazz,\n",
+        "47": "      ImmutableBiMap<String, String> specialCases, ImmutableSet<String> uppercaseAcronyms)\n",
+        "50": "      assertEquals(upperToHttpHeaderName(field.getName(), specialCases, uppercaseAcronyms),\n",
+        "51": "          field.get(null));\n",
+        "74": "  private static String upperToHttpHeaderName(String constantName,\n",
+        "75": "      ImmutableBiMap<String, String> specialCases, ImmutableSet<String> uppercaseAcronyms) {\n"
+    }
+}

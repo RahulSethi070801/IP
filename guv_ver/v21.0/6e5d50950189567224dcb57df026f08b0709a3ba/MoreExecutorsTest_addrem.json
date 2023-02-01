@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "71": "import java.util.concurrent.ScheduledExecutorService;\n",
+        "469": "      fail();\n",
+        "483": "      fail();\n",
+        "504": "      fail();\n",
+        "520": "      fail();\n",
+        "601": "    ExecutorService unused = application.getExitingExecutorService(executor);\n",
+        "628": "    ScheduledExecutorService unused = application.getExitingScheduledExecutorService(executor);\n"
+    },
+    "removed": {
+        "468": "      shouldThrow();\n",
+        "482": "      shouldThrow();\n",
+        "503": "      shouldThrow();\n",
+        "519": "      shouldThrow();\n",
+        "600": "    application.getExitingExecutorService(executor);\n",
+        "627": "    application.getExitingScheduledExecutorService(executor);\n"
+    }
+}

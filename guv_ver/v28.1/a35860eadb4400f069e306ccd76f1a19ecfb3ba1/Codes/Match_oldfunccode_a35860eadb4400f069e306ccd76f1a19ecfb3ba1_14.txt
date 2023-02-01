@@ -1,0 +1,4 @@
+@Override
+public V removeSuccessor(Object node) {
+    return adjacentNodeValues.remove(node);
+}

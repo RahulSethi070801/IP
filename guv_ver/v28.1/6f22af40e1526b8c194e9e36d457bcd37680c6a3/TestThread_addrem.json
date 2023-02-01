@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "32": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "171": "  public void assertPriorCallReturns(@NullableDecl String methodName) throws Exception {\n",
+        "179": "  public void assertPriorCallReturns(boolean expected, @NullableDecl String methodName)\n"
+    },
+    "removed": {
+        "31": "import javax.annotation.Nullable;\n",
+        "171": "  public void assertPriorCallReturns(@Nullable String methodName) throws Exception {\n",
+        "179": "  public void assertPriorCallReturns(boolean expected, @Nullable String methodName)\n"
+    }
+}

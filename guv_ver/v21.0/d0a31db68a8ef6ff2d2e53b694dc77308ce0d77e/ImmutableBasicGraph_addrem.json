@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "25": " * A {@link BasicGraph} whose elements and structural relationships will never change. Instances of\n",
+        "26": " * this class may be obtained with {@link #copyOf(BasicGraph)}.\n",
+        "35": "public class ImmutableBasicGraph<N> extends ImmutableGraph<N, Presence> implements BasicGraph<N> {\n",
+        "37": "  /**\n",
+        "38": "   * To ensure the immutability contract is maintained, there must be no public constructors.\n",
+        "39": "   */\n"
+    },
+    "removed": {
+        "25": " * A {@link BasicGraph} whose relationships are constant. Instances of this class may be obtained\n",
+        "26": " * with {@link #copyOf(BasicGraph)}.\n",
+        "35": "public class ImmutableBasicGraph<N>\n",
+        "36": "    extends ImmutableGraph<N, Presence> implements BasicGraph<N> {\n",
+        "45": "  @SuppressWarnings(\"unchecked\")\n"
+    }
+}

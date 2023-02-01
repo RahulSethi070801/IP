@@ -1,0 +1,4 @@
+
+     * Returns a newly inserted {@code LoadingValueReference}, or null if the live value reference
+     * is already loading.
+     

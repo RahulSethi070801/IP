@@ -1,0 +1,4 @@
+FinalizableReferenceQueue
+Insertions: [41, 42, 43, 44, 46, 85, 86, 142, 147, 150, 179, 180, 181, 219, 299, 341]
+Deletions: [41, 42, 43, 44, 46, 85, 141, 142, 143, 148, 149, 150, 153, 154, 155, 184, 185, 186, 224, 225, 226, 306, 307, 308, 350, 351, 352]
+android/guava/src/com/google/common/base/FinalizableReferenceQueue.java

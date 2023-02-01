@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "159": "              public Boolean apply(@NullableDecl String from) {\n",
+        "277": "              public Boolean apply(@NullableDecl Boolean from) {\n"
+    },
+    "removed": {
+        "28": "import javax.annotation.Nullable;\n",
+        "159": "              public Boolean apply(@Nullable String from) {\n",
+        "277": "              public Boolean apply(@Nullable Boolean from) {\n"
+    }
+}

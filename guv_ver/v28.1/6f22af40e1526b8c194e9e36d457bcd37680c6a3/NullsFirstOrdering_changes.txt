@@ -1,0 +1,4 @@
+NullsFirstOrdering
+Insertions: [21, 33, 64]
+Deletions: [21, 33, 64]
+android/guava/src/com/google/common/collect/NullsFirstOrdering.java

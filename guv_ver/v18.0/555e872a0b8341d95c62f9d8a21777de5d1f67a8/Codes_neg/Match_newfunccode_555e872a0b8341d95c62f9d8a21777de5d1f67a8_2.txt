@@ -1,0 +1,5 @@
+@Nullable
+public <A extends Annotation> A getDeclaredAnnotation(Class<A> annotationType) {
+    checkNotNull(annotationType);
+    return FluentIterable.from(annotations).filter(annotationType).first().orNull();
+}

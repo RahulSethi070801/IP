@@ -1,0 +1,12 @@
+
+   * Returns a fluent iterable that combines two iterables. The returned iterable has an iterator
+   * that traverses the elements in {@code a}, followed by the elements in {@code b}. The source
+   * iterators are not polled until necessary.
+   *
+   * <p>The returned iterable's iterator supports {@code remove()} when the corresponding input
+   * iterator supports it.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@link Stream#concat}.
+   *
+   * @since 20.0
+   

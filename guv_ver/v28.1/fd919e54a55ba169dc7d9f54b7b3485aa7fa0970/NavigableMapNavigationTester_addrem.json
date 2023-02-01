@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "36": " * A generic JUnit test which tests operations on a NavigableMap. Can't be invoked directly; please\n",
+        "37": " * see {@code NavigableMapTestSuiteBuilder}.\n",
+        "71": "  /** Resets the contents of navigableMap to have entries a, c, for the navigation tests. */\n"
+    },
+    "removed": {
+        "36": " * A generic JUnit test which tests operations on a NavigableMap. Can't be\n",
+        "37": " * invoked directly; please see {@code NavigableMapTestSuiteBuilder}.\n",
+        "71": "  /**\n",
+        "72": "   * Resets the contents of navigableMap to have entries a, c, for the\n",
+        "73": "   * navigation tests.\n",
+        "74": "   */\n"
+    }
+}

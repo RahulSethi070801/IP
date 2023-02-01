@@ -1,0 +1,15 @@
+com.google.common.graph.Endpoints
+nodeB
+final N nodeB()
+empty
+N
+com.google.common.graph.Endpoints
+adjacentNode
+public final N adjacentNode(Object node)
+Object
+N
+com.google.common.graph.Endpoints
+hashCode
+public abstract int hashCode()
+empty
+int

@@ -1,0 +1,2 @@
+@Override
+protected abstract Map.Entry<K, V> delegate();

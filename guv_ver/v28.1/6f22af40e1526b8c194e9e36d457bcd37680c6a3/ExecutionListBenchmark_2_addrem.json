@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "41": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "489": "      @NullableDecl RunnableExecutorPair next;\n",
+        "564": "      @NullableDecl RunnableExecutorPair next;\n",
+        "670": "      @NullableDecl volatile RunnableExecutorPair next;\n"
+    },
+    "removed": {
+        "41": "import javax.annotation.Nullable;\n",
+        "489": "      @Nullable RunnableExecutorPair next;\n",
+        "564": "      @Nullable RunnableExecutorPair next;\n",
+        "670": "      @Nullable volatile RunnableExecutorPair next;\n"
+    }
+}

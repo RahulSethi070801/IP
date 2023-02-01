@@ -1,0 +1,6 @@
+private static boolean validatePart(String part, boolean isFinalPart)
+public static InternetDomainName from(String domain)
+
+private static boolean validatePart(String part, boolean isFinalPart)
+public static InternetDomainName from(String domain)
+

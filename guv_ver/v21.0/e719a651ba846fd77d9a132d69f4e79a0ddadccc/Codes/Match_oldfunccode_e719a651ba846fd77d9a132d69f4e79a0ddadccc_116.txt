@@ -1,0 +1,8 @@
+@Override
+public void writeChars(String s) {
+    try {
+        output.writeChars(s);
+    } catch (IOException impossible) {
+        throw new AssertionError(impossible);
+    }
+}

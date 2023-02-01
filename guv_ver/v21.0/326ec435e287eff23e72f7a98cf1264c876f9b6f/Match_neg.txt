@@ -1,0 +1,6 @@
+public static Set<E> newIdentityHashSet()
+public static Set<E> newSetFromMap(Map<E, Boolean> map)
+
+public static Set<E> newConcurrentHashSet()
+public static Set<E> newSetFromMap(Map<E, Boolean> map)
+

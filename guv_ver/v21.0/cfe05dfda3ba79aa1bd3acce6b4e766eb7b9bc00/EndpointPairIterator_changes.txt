@@ -1,0 +1,4 @@
+EndpointPairIterator
+Insertions: [32, 33, 39, 43, 66, 67, 72, 75, 87, 88, 96, 97, 99, 100, 102, 103, 105, 108, 111, 117, 122]
+Deletions: [31, 33, 34, 40, 44, 67, 68, 73, 76, 88, 89, 97, 98, 100, 101, 103, 104, 106, 109, 112, 118, 123]
+guava/src/com/google/common/graph/EndpointPairIterator.java

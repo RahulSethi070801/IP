@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "34": "  /** Returns a funnel that extracts the bytes from a {@code byte} array. */\n",
+        "54": "   * time, without performing any encoding. If you need to use a specific encoding, use {@link\n",
+        "55": "   * Funnels#stringFunnel(Charset)} instead.\n"
+    },
+    "removed": {
+        "34": "  /**\n",
+        "35": "   * Returns a funnel that extracts the bytes from a {@code byte} array.\n",
+        "36": "   */\n",
+        "56": "   * time, without performing any encoding. If you need to use a specific encoding, use\n",
+        "57": "   * {@link Funnels#stringFunnel(Charset)} instead.\n"
+    }
+}

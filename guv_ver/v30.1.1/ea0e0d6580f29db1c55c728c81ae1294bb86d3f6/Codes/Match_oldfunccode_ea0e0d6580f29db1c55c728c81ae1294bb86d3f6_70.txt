@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean setCount(E element, int oldCount, int newCount);

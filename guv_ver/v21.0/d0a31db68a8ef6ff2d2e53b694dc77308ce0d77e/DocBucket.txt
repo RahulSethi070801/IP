@@ -1,0 +1,20 @@
+com.google.common.graph.ImmutableNetwork
+ImmutableNetwork
+private ImmutableNetwork(Network<N, E> graph)
+Network
+constructor
+com.google.common.graph.Network
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.ImmutableGraph
+ImmutableGraph
+ImmutableGraph(Graph<N, V> graph)
+Graph
+constructor
+com.google.common.graph.ImmutableBasicGraph
+ImmutableBasicGraph
+private ImmutableBasicGraph(BasicGraph<N> graph)
+BasicGraph
+constructor

@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "30": " * <p>See the Guava User Guide article on <a\n",
+        "31": " * href=\"https://github.com/google/guava/wiki/PrimitivesExplained\">primitive utilities</a>.\n",
+        "167": "   * support only identity equality), but it is consistent with {@link\n",
+        "168": "   * java.util.Arrays#equals(byte[], byte[])}.\n"
+    },
+    "removed": {
+        "30": " * <p>See the Guava User Guide article on\n",
+        "31": " * <a href=\"https://github.com/google/guava/wiki/PrimitivesExplained\">primitive utilities</a>.\n",
+        "167": "   * support only identity equality), but it is consistent with\n",
+        "168": "   * {@link java.util.Arrays#equals(byte[], byte[])}.\n"
+    }
+}

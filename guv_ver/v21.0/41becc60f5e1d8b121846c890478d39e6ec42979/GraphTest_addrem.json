@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "29": " * Tests for {@link ConfigurableMutableGraph} and related functionality.\n",
+        "33": "public final class GraphTest {\n",
+        "34": "  MutableGraph<Integer, String> graph;\n",
+        "41": "        ImmutableGraph.copyOf(graph)).testEquals();\n",
+        "51": "  public void directedGraph() {\n",
+        "52": "    graph = GraphBuilder.directed().allowsSelfLoops(true).build();\n",
+        "71": "  public void undirectedGraph() {\n",
+        "72": "    graph = GraphBuilder.undirected().allowsSelfLoops(true).build();\n",
+        "92": "    graph = GraphBuilder.directed().build();\n",
+        "102": "    graph = GraphBuilder.undirected().build();\n",
+        "112": "    graph = GraphBuilder.directed().build();\n",
+        "127": "    graph = GraphBuilder.undirected().build();\n",
+        "141": "    graph = GraphBuilder.directed().build();\n",
+        "155": "    graph = GraphBuilder.undirected().build();\n",
+        "168": "    graph = GraphBuilder.directed().build();\n"
+    },
+    "removed": {
+        "29": " * Tests for {@link ConfigurableMutableValueGraph} and related functionality.\n",
+        "33": "public final class ValueGraphTest {\n",
+        "34": "  MutableValueGraph<Integer, String> graph;\n",
+        "41": "        ImmutableValueGraph.copyOf(graph)).testEquals();\n",
+        "51": "  public void directedValueGraph() {\n",
+        "52": "    graph = ValueGraphBuilder.directed().allowsSelfLoops(true).build();\n",
+        "71": "  public void undirectedValueGraph() {\n",
+        "72": "    graph = ValueGraphBuilder.undirected().allowsSelfLoops(true).build();\n",
+        "92": "    graph = ValueGraphBuilder.directed().build();\n",
+        "102": "    graph = ValueGraphBuilder.undirected().build();\n",
+        "112": "    graph = ValueGraphBuilder.directed().build();\n",
+        "127": "    graph = ValueGraphBuilder.undirected().build();\n",
+        "141": "    graph = ValueGraphBuilder.directed().build();\n",
+        "155": "    graph = ValueGraphBuilder.undirected().build();\n",
+        "168": "    graph = ValueGraphBuilder.directed().build();\n"
+    }
+}

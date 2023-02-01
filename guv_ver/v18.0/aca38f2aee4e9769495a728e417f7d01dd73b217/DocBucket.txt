@@ -1,0 +1,5 @@
+com.google.common.cache.LongAdder
+sum
+public long sum()
+empty
+long

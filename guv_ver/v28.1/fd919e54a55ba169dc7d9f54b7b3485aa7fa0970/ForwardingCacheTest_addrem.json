@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "38": "  @Override\n",
+        "39": "  public void setUp() throws Exception {\n",
+        "47": "    forward =\n",
+        "48": "        new ForwardingCache<String, Boolean>() {\n",
+        "49": "          @Override\n",
+        "50": "          protected Cache<String, Boolean> delegate() {\n",
+        "51": "            return mock;\n",
+        "52": "          }\n",
+        "53": "        };\n",
+        "64": "    assertEquals(\n",
+        "65": "        ImmutableMap.of(\"key\", Boolean.TRUE), forward.getAllPresent(ImmutableList.of(\"key\")));\n",
+        "103": "  /** Make sure that all methods are forwarded. */\n"
+    },
+    "removed": {
+        "38": "  @Override public void setUp() throws Exception {\n",
+        "46": "    forward = new ForwardingCache<String, Boolean>() {\n",
+        "47": "      @Override protected Cache<String, Boolean> delegate() {\n",
+        "48": "        return mock;\n",
+        "49": "      }\n",
+        "50": "    };\n",
+        "61": "    assertEquals(ImmutableMap.of(\"key\", Boolean.TRUE),\n",
+        "62": "        forward.getAllPresent(ImmutableList.of(\"key\")));\n",
+        "100": "  /**\n",
+        "101": "   * Make sure that all methods are forwarded.\n",
+        "102": "   */\n"
+    }
+}

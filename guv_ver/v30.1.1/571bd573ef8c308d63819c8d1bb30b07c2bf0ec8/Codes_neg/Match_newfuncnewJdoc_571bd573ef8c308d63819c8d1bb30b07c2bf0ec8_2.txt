@@ -1,0 +1,4 @@
+
+       * Atomically reschedules this task and assigns the new future to {@link
+       * #cancellationDelegate}.
+       

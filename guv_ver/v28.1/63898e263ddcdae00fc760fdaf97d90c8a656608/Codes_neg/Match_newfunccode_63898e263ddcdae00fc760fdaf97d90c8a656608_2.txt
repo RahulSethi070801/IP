@@ -1,0 +1,9 @@
+private static ImmutableList<URL> getClassLoaderUrls(ClassLoader classloader) {
+    if (classloader instanceof URLClassLoader) {
+        return ImmutableList.copyOf(((URLClassLoader) classloader).getURLs());
+    }
+    if (classloader.equals(ClassLoader.getSystemClassLoader())) {
+        return parseJavaClassPath();
+    }
+    return ImmutableList.of();
+}

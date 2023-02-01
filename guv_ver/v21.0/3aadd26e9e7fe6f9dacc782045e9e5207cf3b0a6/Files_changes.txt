@@ -1,0 +1,4 @@
+Files
+Insertions: [341]
+Deletions: [341]
+guava/src/com/google/common/io/Files.java

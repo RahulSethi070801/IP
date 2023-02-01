@@ -1,0 +1,4 @@
+AbstractUndirectedNodeConnections
+Insertions: [74, 75, 76, 77, 88, 89, 90, 91]
+Deletions: [74, 85]
+guava/src/com/google/common/graph/AbstractUndirectedNodeConnections.java

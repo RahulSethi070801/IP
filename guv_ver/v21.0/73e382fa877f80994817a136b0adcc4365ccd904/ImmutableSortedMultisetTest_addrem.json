@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "33": "import com.google.common.testing.CollectorTester;\n",
+        "44": "import java.util.function.BiPredicate;\n",
+        "413": "  public void testToImmutableSortedMultiset() {\n",
+        "414": "    BiPredicate<ImmutableSortedMultiset<String>, ImmutableSortedMultiset<String>> equivalence =\n",
+        "415": "        (ms1, ms2)\n",
+        "416": "            -> ms1.equals(ms2)\n",
+        "417": "                && ms1.entrySet().asList().equals(ms2.entrySet().asList())\n",
+        "418": "                && ms1.comparator().equals(ms2.comparator());\n",
+        "419": "    CollectorTester.of(\n",
+        "420": "            ImmutableSortedMultiset.<String>toImmutableSortedMultiset(\n",
+        "421": "                String.CASE_INSENSITIVE_ORDER),\n",
+        "422": "            equivalence)\n",
+        "423": "        .expectCollects(ImmutableSortedMultiset.emptyMultiset(String.CASE_INSENSITIVE_ORDER))\n",
+        "424": "        .expectCollects(\n",
+        "425": "            ImmutableSortedMultiset.orderedBy(String.CASE_INSENSITIVE_ORDER)\n",
+        "426": "                .addCopies(\"a\", 2)\n",
+        "427": "                .addCopies(\"b\", 1)\n",
+        "428": "                .addCopies(\"c\", 3)\n",
+        "429": "                .build(),\n",
+        "430": "            \"a\",\n",
+        "431": "            \"c\",\n",
+        "432": "            \"b\",\n",
+        "433": "            \"c\",\n",
+        "434": "            \"A\",\n",
+        "435": "            \"C\");\n",
+        "436": "  }\n",
+        "437": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,10 @@
+
+     * Equivalent in effect to {@link #sum} followed by {@link
+     * #reset}. This method may apply for example during quiescent
+     * points between multithreaded computations.  If there are
+     * updates concurrent with this method, the returned value is
+     * <em>not</em> guaranteed to be the final value occurring before
+     * the reset.
+     *
+     * @return the sum
+     

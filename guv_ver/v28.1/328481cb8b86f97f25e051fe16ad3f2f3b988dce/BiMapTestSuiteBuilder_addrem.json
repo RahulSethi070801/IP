@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "51": "        BiMapTestSuiteBuilder<K, V>, TestBiMapGenerator<K, V>, BiMap<K, V>, Entry<K, V>> {\n"
+    },
+    "removed": {
+        "38": "import java.util.Map;\n",
+        "52": "        BiMapTestSuiteBuilder<K, V>, TestBiMapGenerator<K, V>, BiMap<K, V>, Map.Entry<K, V>> {\n"
+    }
+}

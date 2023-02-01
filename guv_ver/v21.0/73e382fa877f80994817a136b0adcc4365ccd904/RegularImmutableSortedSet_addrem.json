@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "34": "import java.util.Spliterator;\n",
+        "35": "import java.util.function.Consumer;\n",
+        "69": "  @Override\n",
+        "70": "  public Spliterator<E> spliterator() {\n",
+        "71": "    return asList().spliterator();\n",
+        "72": "  }\n",
+        "73": "\n",
+        "74": "  @Override\n",
+        "75": "  public void forEach(Consumer<? super E> action) {\n",
+        "76": "    elements.forEach(action);\n",
+        "77": "  }\n",
+        "78": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "37": " * A generic JUnit test which tests operations on a NavigableSet. Can't be invoked directly; please\n",
+        "38": " * see {@code NavigableSetTestSuiteBuilder}.\n",
+        "72": "  /** Resets the contents of navigableSet to have elements a, c, for the navigation tests. */\n"
+    },
+    "removed": {
+        "37": " * A generic JUnit test which tests operations on a NavigableSet. Can't be\n",
+        "38": " * invoked directly; please see {@code NavigableSetTestSuiteBuilder}.\n",
+        "72": "  /**\n",
+        "73": "   * Resets the contents of navigableSet to have elements a, c, for the\n",
+        "74": "   * navigation tests.\n",
+        "75": "   */\n"
+    }
+}

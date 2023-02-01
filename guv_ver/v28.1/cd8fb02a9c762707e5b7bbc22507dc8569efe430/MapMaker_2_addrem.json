@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "242": "  /**\n",
+        "243": "   * A dummy singleton value type used by {@link Interners}.\n",
+        "244": "   *\n",
+        "245": "   * <p>{@link MapMakerInternalMap} can optimize for memory usage in this case; see\n",
+        "246": "   * {@link MapMakerInternalMap#createWithDummyValues}.\n",
+        "247": "   */\n",
+        "248": "  enum Dummy {\n",
+        "249": "    VALUE\n",
+        "250": "  }\n",
+        "251": "\n"
+    },
+    "removed": {
+        "274": "  /**\n",
+        "275": "   * Returns a MapMakerInternalMap for the benefit of internal callers that use features of that\n",
+        "276": "   * class not exposed through ConcurrentMap.\n",
+        "277": "   */\n",
+        "278": "  @GwtIncompatible // MapMakerInternalMap\n",
+        "279": "  <K, V> MapMakerInternalMap<K, V, ?, ?> makeCustomMap() {\n",
+        "280": "    return MapMakerInternalMap.create(this);\n",
+        "281": "  }\n",
+        "282": "\n"
+    }
+}

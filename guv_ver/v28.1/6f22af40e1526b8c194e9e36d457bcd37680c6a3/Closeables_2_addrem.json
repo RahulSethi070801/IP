@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "72": "  public static void close(@NullableDecl Closeable closeable, boolean swallowIOException)\n",
+        "102": "  public static void closeQuietly(@NullableDecl InputStream inputStream) {\n",
+        "123": "  public static void closeQuietly(@NullableDecl Reader reader) {\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "72": "  public static void close(@Nullable Closeable closeable, boolean swallowIOException)\n",
+        "102": "  public static void closeQuietly(@Nullable InputStream inputStream) {\n",
+        "123": "  public static void closeQuietly(@Nullable Reader reader) {\n"
+    }
+}

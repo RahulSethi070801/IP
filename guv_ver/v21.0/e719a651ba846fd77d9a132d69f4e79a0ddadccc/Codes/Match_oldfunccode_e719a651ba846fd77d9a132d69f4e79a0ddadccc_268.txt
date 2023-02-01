@@ -1,0 +1,10 @@
+@Override
+public byte readByte() {
+    try {
+        return input.readByte();
+    } catch (EOFException e) {
+        throw new IllegalStateException(e);
+    } catch (IOException impossible) {
+        throw new AssertionError(impossible);
+    }
+}

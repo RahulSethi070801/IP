@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "142": "    // same as above but with the new syntax\n",
+        "143": "    thread1.callAndAssertReturns(enterWhen(), monitor.newGuard(() -> true));\n"
+    },
+    "removed": {}
+}

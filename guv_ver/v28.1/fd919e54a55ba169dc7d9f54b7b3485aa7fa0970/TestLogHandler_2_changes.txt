@@ -1,0 +1,4 @@
+TestLogHandler_2
+Insertions: [29, 30, 61, 77]
+Deletions: [29, 30, 61, 62, 63, 79, 80, 81]
+guava-testlib/src/com/google/common/testing/TestLogHandler.java

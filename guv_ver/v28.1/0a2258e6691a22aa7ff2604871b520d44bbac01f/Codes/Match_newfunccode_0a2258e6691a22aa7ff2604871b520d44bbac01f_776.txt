@@ -1,0 +1,4 @@
+@Nullable
+public static <T> T getFirst(Iterable<? extends T> iterable, @Nullable T defaultValue) {
+    return Iterators.getNext(iterable.iterator(), defaultValue);
+}

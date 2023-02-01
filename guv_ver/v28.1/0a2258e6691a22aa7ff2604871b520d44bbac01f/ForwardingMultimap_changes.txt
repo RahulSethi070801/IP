@@ -1,0 +1,4 @@
+ForwardingMultimap
+Insertions: [25, 59, 64, 69, 79, 118, 124, 145]
+Deletions: [25, 59, 64, 69, 79, 118, 124, 145]
+guava/src/com/google/common/collect/ForwardingMultimap.java

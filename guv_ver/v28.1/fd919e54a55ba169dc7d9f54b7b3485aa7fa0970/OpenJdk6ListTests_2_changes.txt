@@ -1,0 +1,4 @@
+OpenJdk6ListTests_2
+Insertions: [32, 33, 42, 43, 44, 47, 48]
+Deletions: [32, 33, 42, 43, 44, 47]
+guava-testlib/test/com/google/common/collect/testing/OpenJdk6ListTests.java

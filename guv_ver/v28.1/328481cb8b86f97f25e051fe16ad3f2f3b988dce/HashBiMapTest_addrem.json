@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "121": "    Set<Entry<Integer, String>> entries = map.entrySet();\n",
+        "122": "    Iterator<Entry<Integer, String>> iterator = entries.iterator();\n",
+        "123": "    Entry<Integer, String> entry = iterator.next();\n"
+    },
+    "removed": {
+        "121": "    Set<Map.Entry<Integer, String>> entries = map.entrySet();\n",
+        "122": "    Iterator<Map.Entry<Integer, String>> iterator = entries.iterator();\n",
+        "123": "    Map.Entry<Integer, String> entry = iterator.next();\n"
+    }
+}

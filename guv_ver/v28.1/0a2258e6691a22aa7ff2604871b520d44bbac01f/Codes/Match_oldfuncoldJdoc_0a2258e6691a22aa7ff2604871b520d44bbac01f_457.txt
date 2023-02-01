@@ -1,0 +1,11 @@
+
+   * Ensures that {@code index} specifies a valid <i>position</i> in an array, list or string of
+   * size {@code size}. A position index may range from zero to {@code size}, inclusive.
+   *
+   * @param index a user-supplied index identifying a position in an array, list or string
+   * @param size the size of that array, list or string
+   * @param desc the text to use to describe this index in an error message
+   * @return the value of {@code index}
+   * @throws IndexOutOfBoundsException if {@code index} is negative or is greater than {@code size}
+   * @throws IllegalArgumentException if {@code size} is negative
+   

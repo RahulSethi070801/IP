@@ -1,0 +1,4 @@
+EnumsBenchmark
+Insertions: [68, 69, 71, 73]
+Deletions: [68, 70]
+guava-tests/benchmark/com/google/common/base/EnumsBenchmark.java

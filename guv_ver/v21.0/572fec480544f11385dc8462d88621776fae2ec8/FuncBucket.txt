@@ -1,0 +1,10 @@
+com.google.common.collect.Ordering
+leastOf
+public List<E> leastOf(Iterator<E> iterator, int k)
+Iterator,int
+List
+com.google.common.collect.Ordering
+leastOf
+public List<E> leastOf(Iterator<E> elements, int k)
+Iterator,int
+List

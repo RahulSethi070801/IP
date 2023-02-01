@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "25": " * Implementation of {@link Multisets#unmodifiableSortedMultiset(SortedMultiset)} for GWT.\n",
+        "29": "final class UnmodifiableSortedMultiset<E> extends UnmodifiableMultiset<E>\n",
+        "30": "    implements SortedMultiset<E> {\n",
+        "61": "      result = new UnmodifiableSortedMultiset<E>(delegate().descendingMultiset());\n",
+        "90": "    return Multisets.unmodifiableSortedMultiset(delegate().headMultiset(upperBound, boundType));\n",
+        "95": "      E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType) {\n",
+        "96": "    return Multisets.unmodifiableSortedMultiset(\n",
+        "97": "        delegate().subMultiset(lowerBound, lowerBoundType, upperBound, upperBoundType));\n",
+        "102": "    return Multisets.unmodifiableSortedMultiset(delegate().tailMultiset(lowerBound, boundType));\n"
+    },
+    "removed": {
+        "25": " * Implementation of {@link Multisets#unmodifiableSortedMultiset(SortedMultiset)}\n",
+        "26": " * for GWT.\n",
+        "30": "final class UnmodifiableSortedMultiset<E>\n",
+        "31": "    extends UnmodifiableMultiset<E> implements SortedMultiset<E> {\n",
+        "62": "      result = new UnmodifiableSortedMultiset<E>(\n",
+        "63": "          delegate().descendingMultiset());\n",
+        "92": "    return Multisets.unmodifiableSortedMultiset(\n",
+        "93": "        delegate().headMultiset(upperBound, boundType));\n",
+        "98": "      E lowerBound, BoundType lowerBoundType,\n",
+        "99": "      E upperBound, BoundType upperBoundType) {\n",
+        "100": "    return Multisets.unmodifiableSortedMultiset(delegate().subMultiset(\n",
+        "101": "        lowerBound, lowerBoundType, upperBound, upperBoundType));\n",
+        "106": "    return Multisets.unmodifiableSortedMultiset(\n",
+        "107": "        delegate().tailMultiset(lowerBound, boundType));\n"
+    }
+}

@@ -1,0 +1,3 @@
+public Map<Integer, Double> compute(int... dataset) {
+    return computeInPlace(intsToDoubles(dataset));
+}

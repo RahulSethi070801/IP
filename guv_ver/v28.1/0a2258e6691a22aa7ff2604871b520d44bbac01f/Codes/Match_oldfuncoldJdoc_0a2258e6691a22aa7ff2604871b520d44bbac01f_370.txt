@@ -1,0 +1,7 @@
+
+   * Ensures the truth of an expression involving one or more parameters to the calling method.
+   *
+   * <p>See {@link #checkArgument(boolean, String, Object...)} for details.
+   *
+   * @since 20.0 (varargs overload since 2.0)
+   

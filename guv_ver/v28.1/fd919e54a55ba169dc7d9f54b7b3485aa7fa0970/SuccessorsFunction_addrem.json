@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "33": " * public <N> someGraphAlgorithm(N startNode, SuccessorsFunction<N> successorsFunction);\n",
+        "42": " * someGraphAlgorithm(startNode, graph);\n",
+        "52": " * someGraphAlgorithm(startNode, MyNode::getChildren);\n",
+        "60": " * someGraphAlgorithm(startNode, node -> ImmutableList.of(node.leftChild(), node.rightChild()));\n"
+    },
+    "removed": {
+        "33": " *   public <N> someGraphAlgorithm(N startNode, SuccessorsFunction<N> successorsFunction);\n",
+        "42": " *   someGraphAlgorithm(startNode, graph);\n",
+        "52": " *   someGraphAlgorithm(startNode, MyNode::getChildren);\n",
+        "60": " *   someGraphAlgorithm(startNode, node -> ImmutableList.of(node.leftChild(), node.rightChild()));\n"
+    }
+}

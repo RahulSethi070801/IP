@@ -1,0 +1,4 @@
+
+     * Returns a freshly created entry, typed at the {@code E} type, for the given {@code segment},
+     * that is a copy of the given {@code entry}.
+     

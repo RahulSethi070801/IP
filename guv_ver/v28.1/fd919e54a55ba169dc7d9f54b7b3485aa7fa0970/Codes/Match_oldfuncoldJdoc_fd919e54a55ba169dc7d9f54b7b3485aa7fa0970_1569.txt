@@ -1,0 +1,4 @@
+
+     * Returns the {@link #sum} as a {@code float}
+     * after a widening primitive conversion.
+     

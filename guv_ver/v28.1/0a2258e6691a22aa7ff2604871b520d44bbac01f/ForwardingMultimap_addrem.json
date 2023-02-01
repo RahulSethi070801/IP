@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "25": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "59": "  public boolean containsEntry(@Nullable Object key, @Nullable Object value) {\n",
+        "64": "  public boolean containsKey(@Nullable Object key) {\n",
+        "69": "  public boolean containsValue(@Nullable Object value) {\n",
+        "79": "  public Collection<V> get(@Nullable K key) {\n",
+        "118": "  public boolean remove(@Nullable Object key, @Nullable Object value) {\n",
+        "124": "  public Collection<V> removeAll(@Nullable Object key) {\n",
+        "145": "  public boolean equals(@Nullable Object object) {\n"
+    },
+    "removed": {
+        "25": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "59": "  public boolean containsEntry(@NullableDecl Object key, @NullableDecl Object value) {\n",
+        "64": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "69": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "79": "  public Collection<V> get(@NullableDecl K key) {\n",
+        "118": "  public boolean remove(@NullableDecl Object key, @NullableDecl Object value) {\n",
+        "124": "  public Collection<V> removeAll(@NullableDecl Object key) {\n",
+        "145": "  public boolean equals(@NullableDecl Object object) {\n"
+    }
+}

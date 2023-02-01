@@ -1,0 +1,4 @@
+@SuppressWarnings("unchecked")
+static <K, V> ImmutableMapEntry<K, V>[] createEntryArray(int size) {
+    return new ImmutableMapEntry[size];
+}

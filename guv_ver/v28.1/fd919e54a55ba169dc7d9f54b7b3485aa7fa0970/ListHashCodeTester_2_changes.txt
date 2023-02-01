@@ -1,0 +1,4 @@
+ListHashCodeTester_2
+Insertions: [43, 44]
+Deletions: [43, 44, 45]
+guava-testlib/src/com/google/common/collect/testing/testers/ListHashCodeTester.java

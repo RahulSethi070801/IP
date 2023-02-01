@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "379": "    abstract <R extends Comparable<R>, C extends Comparable<C>, V> Table<R, C, V> create(\n",
+        "380": "        Table<R, C, V> contents);\n"
+    },
+    "removed": {
+        "377": "    abstract <R extends Comparable<R>, C extends Comparable<C>, V>\n",
+        "378": "        Table<R, C, V> create(Table<R, C, V> contents);\n"
+    }
+}

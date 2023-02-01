@@ -1,0 +1,21 @@
+{
+    "addition": {},
+    "removed": {
+        "112": "  @Test\n",
+        "113": "  public void inDegree_oneEdge() {\n",
+        "114": "    addEdge(E12, N1, N2);\n",
+        "115": "    assertEquals(1, network.inDegree(N2));\n",
+        "116": "    // Edge direction handled correctly\n",
+        "117": "    assertEquals(0, network.inDegree(N1));\n",
+        "118": "  }\n",
+        "119": "\n",
+        "120": "  @Test\n",
+        "121": "  public void outDegree_oneEdge() {\n",
+        "122": "    addEdge(E12, N1, N2);\n",
+        "123": "    assertEquals(1, network.outDegree(N1));\n",
+        "124": "    // Edge direction handled correctly\n",
+        "125": "    assertEquals(0, network.outDegree(N2));\n",
+        "126": "  }\n",
+        "127": "\n"
+    }
+}

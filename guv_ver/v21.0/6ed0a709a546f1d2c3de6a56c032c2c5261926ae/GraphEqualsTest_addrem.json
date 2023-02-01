@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "100": "  // Node/edge sets and node/edge connections are the same, but directedness differs.\n",
+        "108": "    new EqualsTester().addEqualityGroup(graph).addEqualityGroup(g2).testEquals();\n"
+    },
+    "removed": {
+        "100": "  // Node/edge sets and node/edge connections are the same, but types differ.\n",
+        "101": "  // (In this case the graphs are considered equal; the type differences are irrelevant.)\n",
+        "109": "    new EqualsTester().addEqualityGroup(graph, g2).testEquals();\n"
+    }
+}

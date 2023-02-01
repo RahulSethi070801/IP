@@ -1,0 +1,4 @@
+@Override
+public ReferenceEntry<K, V> getPreviousInAccessQueue() {
+    throw new UnsupportedOperationException();
+}

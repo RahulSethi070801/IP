@@ -1,0 +1,23 @@
+
+   * Like {@link #transform(ListenableFuture, Function)} except that the
+   * transformation {@code function} is invoked on each call to
+   * {@link Future#get() get()} on the returned future.
+   *
+   * <p>The returned {@code Future} reflects the input's cancellation
+   * state directly, and any attempt to cancel the returned Future is likewise
+   * passed through to the input Future.
+   *
+   * <p>Note that calls to {@linkplain Future#get(long, TimeUnit) timed get}
+   * only apply the timeout to the execution of the underlying {@code Future},
+   * <em>not</em> to the execution of the transformation function.
+   *
+   * <p>The primary audience of this method is callers of {@code transform}
+   * who don't have a {@code ListenableFuture} available and
+   * do not mind repeated, lazy function evaluation.
+   *
+   * @param input The future to transform
+   * @param function A Function to transform the results of the provided future
+   *     to the results of the returned future.
+   * @return A future that returns the result of the transformation.
+   * @since 10.0
+   

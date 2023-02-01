@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "896": "   * <p>When there are multiple instances of a key in {@code keys}, it is\n",
+        "897": "   * unspecified whether {@code valueFunction} will be applied to more than one\n",
+        "898": "   * instance of that key and, if it is, which result will be mapped to that\n",
+        "899": "   * key in the returned map.\n",
+        "900": "   *\n",
+        "920": "   * <p>When there are multiple instances of a key in {@code keys}, it is\n",
+        "921": "   * unspecified whether {@code valueFunction} will be applied to more than one\n",
+        "922": "   * instance of that key and, if it is, which result will be mapped to that\n",
+        "923": "   * key in the returned map.\n",
+        "924": "   *\n"
+    },
+    "removed": {
+        "657": "  @Beta\n",
+        "693": "  @Beta\n",
+        "906": "  @Beta\n",
+        "923": "  @Beta\n"
+    }
+}

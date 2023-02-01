@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "47": "  @Test\n",
+        "48": "  public void incidentEdges_oneEdge() {\n",
+        "49": "    putEdge(N1, N2);\n",
+        "50": "    EndpointPair<Integer> expectedEndpoints = EndpointPair.ordered(N1, N2);\n",
+        "51": "    assertThat(graph.incidentEdges(N1)).containsExactly(expectedEndpoints);\n",
+        "52": "    assertThat(graph.incidentEdges(N2)).containsExactly(expectedEndpoints);\n",
+        "53": "  }\n",
+        "54": "\n"
+    },
+    "removed": {}
+}

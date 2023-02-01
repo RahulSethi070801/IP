@@ -1,0 +1,6 @@
+@Override
+public V getOrDefault(Object key, V defaultValue) {
+    synchronized (mutex) {
+        return delegate().getOrDefault(key, defaultValue);
+    }
+}

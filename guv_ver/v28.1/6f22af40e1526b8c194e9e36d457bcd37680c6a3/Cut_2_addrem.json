@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "38": "  Cut(@NullableDecl C endpoint) {\n",
+        "329": "          @NullableDecl C previous = domain.previous(endpoint);\n",
+        "340": "          @NullableDecl C previous = domain.previous(endpoint);\n",
+        "412": "          @NullableDecl C next = domain.next(endpoint);\n",
+        "423": "          @NullableDecl C next = domain.next(endpoint);\n"
+    },
+    "removed": {
+        "23": "import javax.annotation.Nullable;\n",
+        "38": "  Cut(@Nullable C endpoint) {\n",
+        "329": "          @Nullable C previous = domain.previous(endpoint);\n",
+        "340": "          @Nullable C previous = domain.previous(endpoint);\n",
+        "412": "          @Nullable C next = domain.next(endpoint);\n",
+        "423": "          @Nullable C next = domain.next(endpoint);\n"
+    }
+}

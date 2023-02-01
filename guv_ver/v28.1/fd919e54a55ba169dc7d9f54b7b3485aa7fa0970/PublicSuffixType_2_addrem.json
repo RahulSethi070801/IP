@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "21": " * <b>Do not use this class directly. For access to public-suffix information, use {@link\n",
+        "22": " * com.google.common.net.InternetDomainName}.</b>\n"
+    },
+    "removed": {
+        "21": " * <b>Do not use this class directly. For access to public-suffix information,\n",
+        "22": " * use {@link com.google.common.net.InternetDomainName}.</b>\n"
+    }
+}

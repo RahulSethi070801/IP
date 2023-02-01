@@ -1,0 +1,4 @@
+AndroidIncompatible
+Insertions: [26, 31, 35]
+Deletions: [26, 31, 32, 33, 34, 35, 36, 40]
+guava/src/com/google/common/io/AndroidIncompatible.java

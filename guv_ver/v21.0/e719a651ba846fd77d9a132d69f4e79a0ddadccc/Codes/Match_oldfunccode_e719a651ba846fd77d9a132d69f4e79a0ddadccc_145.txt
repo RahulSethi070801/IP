@@ -1,0 +1,8 @@
+@Override
+public void writeLong(long v) {
+    try {
+        output.writeLong(v);
+    } catch (IOException impossible) {
+        throw new AssertionError(impossible);
+    }
+}

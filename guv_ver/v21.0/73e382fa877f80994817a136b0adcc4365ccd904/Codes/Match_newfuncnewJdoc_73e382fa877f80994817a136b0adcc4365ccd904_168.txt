@@ -1,0 +1,12 @@
+
+   * Returns a view of {@code iterable} containing its first {@code limitSize}
+   * elements. If {@code iterable} contains fewer than {@code limitSize}
+   * elements, the returned view contains all of its elements. The returned
+   * iterable's iterator supports {@code remove()} if {@code iterable}'s
+   * iterator does.
+   *
+   * @param iterable the iterable to limit
+   * @param limitSize the maximum number of elements in the returned iterable
+   * @throws IllegalArgumentException if {@code limitSize} is negative
+   * @since 3.0
+   

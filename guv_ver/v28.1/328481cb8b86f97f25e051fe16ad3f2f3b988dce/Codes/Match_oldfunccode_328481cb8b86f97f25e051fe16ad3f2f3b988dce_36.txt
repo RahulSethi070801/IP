@@ -1,0 +1,13 @@
+void register(Object listener) {
+    Multimap<Class<?>, Subscriber> listenerMethods = findAllSubscribers(listener);
+    for (Map.Entry<Class<?>, Collection<Subscriber>> entry : listenerMethods.asMap().entrySet()) {
+        Class<?> eventType = entry.getKey();
+        Collection<Subscriber> eventMethodsInListener = entry.getValue();
+        CopyOnWriteArraySet<Subscriber> eventSubscribers = subscribers.get(eventType);
+        if (eventSubscribers == null) {
+            CopyOnWriteArraySet<Subscriber> newSet = new CopyOnWriteArraySet<>();
+            eventSubscribers = MoreObjects.firstNonNull(subscribers.putIfAbsent(eventType, newSet), newSet);
+        }
+        eventSubscribers.addAll(eventMethodsInListener);
+    }
+}

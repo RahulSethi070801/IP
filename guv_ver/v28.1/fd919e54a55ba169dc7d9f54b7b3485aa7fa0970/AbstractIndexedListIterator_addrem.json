@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "26": " * This class provides a skeletal implementation of the {@link ListIterator} interface across a\n",
+        "27": " * fixed number of elements that may be retrieved by position. It does not support {@link #remove},\n",
+        "28": " * {@link #set}, or {@link #add}.\n",
+        "37": "  /** Returns the element with the specified index. This method is called by {@link #next()}. */\n",
+        "41": "   * Constructs an iterator across a sequence of the given size whose initial position is 0. That\n",
+        "42": "   * is, the first call to {@link #next()} will return the first element (or throw {@link\n",
+        "43": "   * NoSuchElementException} if {@code size} is zero).\n",
+        "52": "   * Constructs an iterator across a sequence of the given size with the given initial position.\n",
+        "53": "   * That is, the first call to {@link #nextIndex()} will return {@code position}, and the first\n",
+        "54": "   * call to {@link #next()} will return the element at that index, if available. Calls to {@link\n",
+        "55": "   * #previous()} can retrieve the preceding {@code position} elements.\n",
+        "57": "   * @throws IndexOutOfBoundsException if {@code position} is negative or is greater than {@code\n",
+        "58": "   *     size}\n"
+    },
+    "removed": {
+        "26": " * This class provides a skeletal implementation of the {@link ListIterator}\n",
+        "27": " * interface across a fixed number of elements that may be retrieved by\n",
+        "28": " * position. It does not support {@link #remove}, {@link #set}, or {@link #add}.\n",
+        "37": "  /**\n",
+        "38": "   * Returns the element with the specified index. This method is called by\n",
+        "39": "   * {@link #next()}.\n",
+        "40": "   */\n",
+        "44": "   * Constructs an iterator across a sequence of the given size whose initial\n",
+        "45": "   * position is 0. That is, the first call to {@link #next()} will return the\n",
+        "46": "   * first element (or throw {@link NoSuchElementException} if {@code size} is\n",
+        "47": "   * zero).\n",
+        "56": "   * Constructs an iterator across a sequence of the given size with the given\n",
+        "57": "   * initial position. That is, the first call to {@link #nextIndex()} will\n",
+        "58": "   * return {@code position}, and the first call to {@link #next()} will return\n",
+        "59": "   * the element at that index, if available. Calls to {@link #previous()} can\n",
+        "60": "   * retrieve the preceding {@code position} elements.\n",
+        "62": "   * @throws IndexOutOfBoundsException if {@code position} is negative or is\n",
+        "63": "   *         greater than {@code size}\n"
+    }
+}

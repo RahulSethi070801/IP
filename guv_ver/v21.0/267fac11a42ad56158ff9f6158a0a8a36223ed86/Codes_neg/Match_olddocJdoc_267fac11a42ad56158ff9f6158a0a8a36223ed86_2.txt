@@ -1,0 +1,6 @@
+
+   * Creates a function that returns {@code value} for any input.
+   *
+   * @param value the constant value for the function to return
+   * @return a function that always returns {@code value}
+   

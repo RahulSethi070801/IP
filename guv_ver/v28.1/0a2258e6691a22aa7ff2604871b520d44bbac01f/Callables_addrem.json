@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "24": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "37": "  public static <T> Callable<T> returning(@Nullable final T value) {\n"
+    },
+    "removed": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "37": "  public static <T> Callable<T> returning(@NullableDecl final T value) {\n"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "193": "   * {@code (0, unit)}. It can be useful in testing, or to disable caching temporarily without\n",
+        "194": "   * a code change.\n",
+        "434": "  @GwtIncompatible\n"
+    },
+    "removed": {
+        "193": "   * {@code (0, unit)} or {@link #expireAfterAccess expireAfterAccess}{@code (0, unit)}. It can be\n",
+        "194": "   * useful in testing, or to disable caching temporarily without a code change.\n",
+        "432": "   * @deprecated Caching functionality in {@code MapMaker} has been moved to\n",
+        "433": "   *     {@link com.google.common.cache.CacheBuilder}, with {@link #expireAfterAccess} being\n",
+        "434": "   *     replaced by {@link com.google.common.cache.CacheBuilder#expireAfterAccess}. Note that\n",
+        "435": "   *     {@code CacheBuilder} is simply an enhanced API for an implementation which was branched\n",
+        "436": "   *     from {@code MapMaker}.\n",
+        "439": "  @Deprecated\n",
+        "440": "  @GwtIncompatible // To be supported\n"
+    }
+}

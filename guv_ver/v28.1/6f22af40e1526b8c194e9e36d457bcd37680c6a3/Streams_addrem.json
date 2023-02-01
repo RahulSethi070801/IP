@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "47": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "383": "      public void accept(@NullableDecl T t) {\n",
+        "756": "      void set(@NullableDecl T value) {\n"
+    },
+    "removed": {
+        "47": "import javax.annotation.Nullable;\n",
+        "383": "      public void accept(@Nullable T t) {\n",
+        "756": "      void set(@Nullable T value) {\n"
+    }
+}

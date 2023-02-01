@@ -1,0 +1,1035 @@
+com.google.common.util.concurrent.AbstractFuture
+get
+public V get(long timeout, TimeUnit unit) throws InterruptedException, TimeoutException, ExecutionException
+long,TimeUnit
+V
+com.google.common.collect.super.com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets
+size
+public int size()
+empty
+int
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+iterator
+public Iterator<E> iterator()
+empty
+Iterator
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableCollection
+toArray
+public T[] toArray(T[] other)
+T[]
+T[]
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+hasNext
+public boolean hasNext()
+empty
+boolean
+com.google.common.collect.FilteredEntryMultimap$Keys
+entrySet
+public Set<Multiset.Entry<K>> entrySet()
+empty
+Set
+com.google.common.io.MoreFiles
+throwDeleteFailed
+private static void throwDeleteFailed(Path path, Collection<IOException> exceptions) throws FileSystemException
+Path,Collection
+void
+com.google.common.math.LongMath
+mulMod
+long mulMod(long a, long b, long m)
+long,long,long
+long
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+of
+public static ImmutableSortedSet<E> of(E e1, E e2, E e3, E e4)
+E,E,E,E
+ImmutableSortedSet
+com.google.common.util.concurrent.SmoothRateLimiter$SmoothWarmingUp
+storedPermitsToWaitTime
+long storedPermitsToWaitTime(double storedPermits, double permitsToTake)
+double,double
+long
+com.google.common.collect.super.com.google.common.collect.ForwardingSortedMultiset
+standardLastEntry
+protected Entry<E> standardLastEntry()
+empty
+Entry
+com.google.common.cache.super.com.google.common.cache.LocalCache
+getOrLoad
+private V getOrLoad(K key) throws ExecutionException
+K
+V
+com.google.common.collect.super.com.google.common.collect.UnmodifiableSortedMultiset
+descendingMultiset
+public SortedMultiset<E> descendingMultiset()
+empty
+SortedMultiset
+com.google.common.base.Platform
+getEnumIfPresent
+static Optional<T> getEnumIfPresent(Class<T> enumClass, String value)
+Class,String
+Optional
+com.google.common.collect.Cut
+hashCode
+public abstract int hashCode()
+empty
+int
+com.google.common.cache.super.com.google.common.cache.LocalCache$LocalManualCache
+LocalManualCache
+protected LocalManualCache(CacheBuilder<? super K, ? super V> builder, CacheLoader<? super K, V> loader)
+CacheBuilder,CacheLoader
+constructor
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+pollFirstEntry
+public Entry<E> pollFirstEntry()
+empty
+Entry
+com.google.common.cache.LongAdder
+readObject
+private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundException
+ObjectInputStream
+void
+com.google.common.cache.LongAdder
+doubleValue
+public double doubleValue()
+empty
+double
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableCollection
+iterator
+public UnmodifiableIterator<E> iterator()
+empty
+UnmodifiableIterator
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableList
+ForwardingImmutableList
+ForwardingImmutableList()
+empty
+constructor
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableCollection
+isEmpty
+public boolean isEmpty()
+empty
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+subSet
+ImmutableSortedSet<E> subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive)
+E,boolean,E,boolean
+ImmutableSortedSet
+com.google.common.reflect.TypeResolver$WildcardCapturer
+captureAsTypeVariable
+TypeVariable<?> captureAsTypeVariable(Type[] upperBounds)
+Type[]
+TypeVariable
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+fromEntryList
+static ImmutableMap<K, V> fromEntryList(Collection<? extends Entry<? extends K, ? extends V>> entries)
+Collection
+ImmutableMap
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+of
+public static ImmutableMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3)
+K,V,K,V,K,V
+ImmutableMap
+com.google.common.io.MoreFiles
+checkAllowsInsecure
+private static void checkAllowsInsecure(Path path, RecursiveDeleteOption[] options) throws InsecureRecursiveDeleteException
+Path,RecursiveDeleteOption[]
+void
+com.google.common.cache.Striped64
+fn
+abstract long fn(long currentValue, long newValue)
+long,long
+long
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableCollection
+containsAll
+public boolean containsAll(Collection<?> targets)
+Collection
+boolean
+com.google.common.io.MoreFiles
+createParentDirectories
+public static void createParentDirectories(Path path, FileAttribute<?>... attrs) throws IOException
+Path,FileAttribute...
+void
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap$Builder
+build
+public ImmutableSortedMap<K, V> build()
+empty
+ImmutableSortedMap
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableCollection
+toString
+public String toString()
+empty
+String
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableCollection
+toArray
+public Object[] toArray()
+empty
+Object[]
+com.google.common.util.concurrent.Callables
+asAsyncCallable
+public static AsyncCallable<T> asAsyncCallable(final Callable<T> callable, final ListeningExecutorService listeningExecutorService)
+Callable,ListeningExecutorService
+AsyncCallable
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+keySet
+public ImmutableSortedSet<K> keySet()
+empty
+ImmutableSortedSet
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+emptySet
+static ImmutableSortedSet<E> emptySet(Comparator<? super E> comparator)
+Comparator
+ImmutableSortedSet
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+asMultimap
+public ImmutableSetMultimap<K, V> asMultimap()
+empty
+ImmutableSetMultimap
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+copyOfInternal
+private static ImmutableSortedSet<E> copyOfInternal(Comparator<? super E> comparator, Iterable<? extends E> elements, boolean fromSortedSet)
+Comparator,Iterable,boolean
+ImmutableSortedSet
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+subList
+public ImmutableList<E> subList(int fromIndex, int toIndex)
+int,int
+ImmutableList
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableMap
+toArray
+public T[] toArray(T[] array)
+T[]
+T[]
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+of
+public static ImmutableSortedMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3, K k4, V v4)
+K,V,K,V,K,V,K,V
+ImmutableSortedMap
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+comparator
+public Comparator<? super E> comparator()
+empty
+Comparator
+com.google.common.collect.super.com.google.common.collect.ImmutableBiMap$Builder
+build
+public ImmutableBiMap<K, V> build()
+empty
+ImmutableBiMap
+com.google.common.util.concurrent.AbstractFuture
+releaseWaiters
+private void releaseWaiters()
+empty
+void
+com.google.common.reflect.TypeToken
+getOwnerTypeIfPresent
+private Type getOwnerTypeIfPresent()
+empty
+Type
+com.google.common.util.concurrent.AtomicDouble
+compareAndSet
+public final boolean compareAndSet(double expect, double update)
+double,double
+boolean
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+elementSet
+public SortedSet<E> elementSet()
+empty
+SortedSet
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+delegate
+protected Multiset<E> delegate()
+empty
+Multiset
+com.google.common.base.Platform
+loadPatternCompiler
+private static PatternCompiler loadPatternCompiler()
+empty
+PatternCompiler
+com.google.common.collect.Interners$InternerImpl
+InternerImpl
+private InternerImpl(MapMaker mapMaker)
+MapMaker
+constructor
+com.google.common.cache.Striped64
+retryUpdate
+final void retryUpdate(long x, int[] hc, boolean wasUncontended)
+long,int[],boolean
+void
+com.google.common.cache.Striped64
+casBusy
+final boolean casBusy()
+empty
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableSet$Builder
+addAll
+public Builder<E> addAll(Iterable<? extends E> elements)
+Iterable
+Builder
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap$Builder
+put
+public Builder<K, V> put(Entry<? extends K, ? extends V> entry)
+Entry
+Builder
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+copyOf
+public static ImmutableMap<K, V> copyOf(Map<? extends K, ? extends V> map)
+Map
+ImmutableMap
+com.google.common.cache.LongAdder
+floatValue
+public float floatValue()
+empty
+float
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E e7, E e8, E e9, E e10, E e11, E e12, E... others)
+E,E,E,E,E,E,E,E,E,E,E,E,E...
+ImmutableList
+com.google.common.collect.super.com.google.common.collect.ImmutableSet$Builder
+add
+public Builder<E> add(E element)
+E
+Builder
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+ValueGraph,Iterable
+MutableValueGraph
+com.google.common.cache.Striped64$Cell
+Cell
+Cell(long x)
+long
+constructor
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+of
+public static ImmutableSortedSet<E> of(E element)
+E
+ImmutableSortedSet
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+copyOf
+public static ImmutableSortedSet<E> copyOf(E[] elements)
+E[]
+ImmutableSortedSet
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+listIterator
+public UnmodifiableListIterator<E> listIterator()
+empty
+UnmodifiableListIterator
+com.google.common.cache.super.com.google.common.cache.LocalCache$LocalLoadingCache
+LocalLoadingCache
+LocalLoadingCache(CacheBuilder<? super K, ? super V> builder, CacheLoader<? super K, V> loader)
+CacheBuilder,CacheLoader
+constructor
+com.google.common.collect.super.com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets
+containsKey
+public boolean containsKey(@Nullable Object key)
+Object
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+of
+public static ImmutableMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3, K k4, V v4)
+K,V,K,V,K,V,K,V
+ImmutableMap
+com.google.common.collect.super.com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets
+isPartialView
+boolean isPartialView()
+empty
+boolean
+com.google.common.collect.super.com.google.common.collect.RegularImmutableBiMap
+RegularImmutableBiMap
+RegularImmutableBiMap(ImmutableMap<K, V> delegate, ImmutableBiMap<V, K> inverse)
+ImmutableMap,ImmutableBiMap
+constructor
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+listIterator
+public UnmodifiableListIterator<E> listIterator(int index)
+int
+UnmodifiableListIterator
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap$Builder
+putAll
+public Builder<K, V> putAll(Map<? extends K, ? extends V> map)
+Map
+Builder
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+of
+public static ImmutableSortedSet<E> of(E e1, E e2, E e3)
+E,E,E
+ImmutableSortedSet
+com.google.common.io.MoreFiles
+deleteRecursively
+public static void deleteRecursively(Path path, RecursiveDeleteOption... options) throws IOException
+Path,RecursiveDeleteOption...
+void
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5, E e6)
+E,E,E,E,E,E
+ImmutableList
+com.google.common.collect.Multisets$DecreasingCount
+compare
+public int compare(Entry<?> entry1, Entry<?> entry2)
+Entry,Entry
+int
+com.google.common.util.concurrent.AtomicDouble
+writeObject
+private void writeObject(java.io.ObjectOutputStream s) throws java.io.IOException
+java.io.ObjectOutputStream
+void
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableMap
+createKeySet
+ImmutableSet<K> createKeySet()
+empty
+ImmutableSet
+com.google.common.cache.Striped64
+internalReset
+final void internalReset(long initialValue)
+long
+void
+com.google.common.collect.super.com.google.common.collect.UnmodifiableSortedMultiset
+subMultiset
+public SortedMultiset<E> subMultiset(E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.math.DoubleUtils
+getSignificand
+static long getSignificand(double d)
+double
+long
+com.google.common.collect.super.com.google.common.collect.ImmutableMap$Builder
+build
+public ImmutableMap<K, V> build()
+empty
+ImmutableMap
+com.google.common.collect.super.com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets
+get
+public ImmutableSet<V> get(@Nullable Object key)
+Object
+ImmutableSet
+com.google.common.collect.MinMaxPriorityQueue
+calculateNewCapacity
+private int calculateNewCapacity()
+empty
+int
+com.google.common.cache.LongAdder
+sumThenReset
+public long sumThenReset()
+empty
+long
+com.google.common.collect.super.com.google.common.collect.ImmutableBiMap
+of
+public static ImmutableBiMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3, K k4, V v4, K k5, V v5)
+K,V,K,V,K,V,K,V,K,V
+ImmutableBiMap
+com.google.common.io.LineBuffer
+finishLine
+private boolean finishLine(boolean sawNewline) throws IOException
+boolean
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+of
+public static ImmutableSortedSet<E> of(E e1, E e2)
+E,E
+ImmutableSortedSet
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Uninterruptibles
+Uninterruptibles
+private Uninterruptibles()
+empty
+constructor
+com.google.common.collect.Streams
+tryAdvance
+public boolean tryAdvance(Consumer<? super R> action)
+Consumer
+boolean
+com.google.common.collect.super.com.google.common.collect.SortedMultiset
+subMultiset
+SortedMultiset<E> subMultiset(E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.super.com.google.common.collect.SingletonImmutableBiMap
+SingletonImmutableBiMap
+private SingletonImmutableBiMap(K key, V value, SingletonImmutableBiMap<V, K> inverse)
+K,V,SingletonImmutableBiMap
+constructor
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+asList
+public ImmutableList<E> asList()
+empty
+ImmutableList
+com.google.common.base.internal.Finalizer
+startFinalizer
+public static void startFinalizer(Class<?> finalizableReferenceClass, ReferenceQueue<Object> queue, PhantomReference<Object> frqReference)
+Class,ReferenceQueue,PhantomReference
+void
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+subMultiset
+public SortedMultiset<E> subMultiset(E fromElement, BoundType fromBoundType, E toElement, BoundType toBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.ImmutableCollection$ArrayBasedBuilder
+getReadyToExpandTo
+private void getReadyToExpandTo(int minCapacity)
+int
+void
+com.google.common.cache.LongAdder
+reset
+public void reset()
+empty
+void
+com.google.common.collect.super.com.google.common.collect.ImmutableBiMap
+of
+public static ImmutableBiMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3)
+K,V,K,V,K,V
+ImmutableBiMap
+com.google.common.collect.FilteredMultimapValues
+remove
+public boolean remove(@Nullable Object o)
+Object
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableBiMap
+of
+public static ImmutableBiMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3, K k4, V v4)
+K,V,K,V,K,V,K,V
+ImmutableBiMap
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4)
+E,E,E,E
+ImmutableList
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+headMultiset
+public SortedMultiset<E> headMultiset(E toElement, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap$Builder
+putAll
+public Builder<K, V> putAll(Iterable<? extends Entry<? extends K, ? extends V>> entries)
+Iterable
+Builder
+com.google.common.collect.ImmutableMapValues
+spliterator
+public Spliterator<V> spliterator()
+empty
+Spliterator
+com.google.common.io.CharSource
+lines
+public Stream<String> lines() throws IOException
+empty
+Stream
+com.google.common.cache.super.com.google.common.cache.LocalCache$CapacityEnforcingLinkedHashMap
+removeEldestEntry
+protected boolean removeEldestEntry(Entry<K, Timestamped<V>> ignored)
+Entry
+boolean
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+entrySet
+public Set<Entry<E>> entrySet()
+empty
+Set
+com.google.common.collect.ImmutableSet$Builder
+combine
+Builder<E> combine(ArrayBasedBuilder<E> builder)
+ArrayBasedBuilder
+Builder
+com.google.common.collect.super.com.google.common.collect.SortedMultiset
+elementSet
+SortedSet<E> elementSet()
+empty
+SortedSet
+com.google.common.cache.Striped64$Cell
+cas
+final boolean cas(long cmp, long val)
+long,long
+boolean
+com.google.common.io.MoreFiles
+deleteDirectoryContents
+public static void deleteDirectoryContents(Path path, RecursiveDeleteOption... options) throws IOException
+Path,RecursiveDeleteOption...
+void
+com.google.common.reflect.Invokable$ConstructorInvokable
+getTypeParameters
+public final TypeVariable<?>[] getTypeParameters()
+empty
+TypeVariable[]
+com.google.common.cache.LongAdder
+LongAdder
+public LongAdder()
+empty
+constructor
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+createKeySet
+ImmutableSortedSet<K> createKeySet()
+empty
+ImmutableSortedSet
+com.google.common.collect.super.com.google.common.collect.ImmutableSet$Builder
+addAll
+public Builder<E> addAll(Iterator<? extends E> elements)
+Iterator
+Builder
+com.google.common.cache.LongAdder
+longValue
+public long longValue()
+empty
+long
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableGraph<N> inducedSubgraph(Graph<N> graph, Iterable<? extends N> nodes)
+Graph,Iterable
+MutableGraph
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E e7, E e8)
+E,E,E,E,E,E,E,E
+ImmutableList
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableMap
+delegate
+protected Set<Entry<K, V>> delegate()
+empty
+Set
+com.google.common.collect.super.com.google.common.collect.ImmutableBiMap
+values
+public ImmutableSet<V> values()
+empty
+ImmutableSet
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+builder
+public static ImmutableSortedSet.Builder<E> builder()
+empty
+ImmutableSortedSet.Builder
+com.google.common.cache.super.com.google.common.cache.LocalCache
+LocalCache
+LocalCache(CacheBuilder<? super K, ? super V> builder, CacheLoader<? super K, V> loader)
+CacheBuilder,CacheLoader
+constructor
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+copyOf
+public static ImmutableSortedMap<K, V> copyOf(Map<? extends K, ? extends V> map)
+Map
+ImmutableSortedMap
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+copyOfInternal
+private static ImmutableSortedMap<K, V> copyOfInternal(Map<? extends K, ? extends V> map, Comparator<? super K> comparator)
+Map,Comparator
+ImmutableSortedMap
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E e7, E e8, E e9)
+E,E,E,E,E,E,E,E,E
+ImmutableList
+com.google.common.cache.LongAdder
+sum
+public long sum()
+empty
+long
+com.google.common.cache.Striped64
+getUnsafe
+private static sun.misc.Unsafe getUnsafe()
+empty
+sun.misc.Unsafe
+com.google.common.math.LongMath
+squareMod
+long squareMod(long a, long m)
+long,long
+long
+com.google.common.collect.super.com.google.common.collect.ImmutableSet$Builder
+build
+public ImmutableSet<E> build()
+empty
+ImmutableSet
+com.google.common.reflect.TypeResolver$WildcardCapturer
+forTypeVariable
+private WildcardCapturer forTypeVariable(final TypeVariable<?> typeParam)
+TypeVariable
+WildcardCapturer
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+tailMultiset
+public SortedMultiset<E> tailMultiset(E fromElement, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.Multimap
+remove
+boolean remove(@CompatibleWith("K") @Nullable Object key, @CompatibleWith("V") @Nullable Object value)
+Object,Object
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+of
+public static ImmutableSortedMap<K, V> of(K k1, V v1)
+K,V
+ImmutableSortedMap
+com.google.common.cache.LongAdder
+writeObject
+private void writeObject(ObjectOutputStream s) throws IOException
+ObjectOutputStream
+void
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+lastEntry
+public Entry<E> lastEntry()
+empty
+Entry
+com.google.common.collect.super.com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+Graph
+ImmutableGraph
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+createEntrySet
+Set<Entry<E>> createEntrySet()
+empty
+Set
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2)
+E,E
+ImmutableList
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5)
+E,E,E,E,E
+ImmutableList
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+lowerCase
+public BaseEncoding lowerCase()
+empty
+BaseEncoding
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+keyIterator
+UnmodifiableIterator<K> keyIterator()
+empty
+UnmodifiableIterator
+com.google.common.cache.LongAdder
+increment
+public void increment()
+empty
+void
+com.google.common.collect.super.com.google.common.collect.RegularImmutableSortedSet
+createAsList
+ImmutableList<E> createAsList()
+empty
+ImmutableList
+com.google.common.util.concurrent.AtomicDoubleArray
+compareAndSet
+public final boolean compareAndSet(int i, double expect, double update)
+int,double,double
+boolean
+com.google.common.collect.ImmutableEnumMap
+forEach
+public void forEach(BiConsumer<? super K, ? super V> action)
+BiConsumer
+void
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableMap
+createValues
+ImmutableCollection<V> createValues()
+empty
+ImmutableCollection
+com.google.common.collect.Multimap
+containsEntry
+boolean containsEntry(@CompatibleWith("K") @Nullable Object key, @CompatibleWith("V") @Nullable Object value)
+Object,Object
+boolean
+com.google.common.hash.HashCode$IntHashCode
+asBytes
+public byte[] asBytes()
+empty
+byte[]
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E e7, E e8, E e9, E e10, E e11)
+E,E,E,E,E,E,E,E,E,E,E
+ImmutableList
+com.google.common.cache.LongAdder
+add
+public void add(long x)
+long
+void
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+multiset
+Multiset<E> multiset()
+empty
+Multiset
+com.google.common.base.Preconditions
+format
+static String format(@Nullable String template, @Nullable Object... args)
+String,Object...
+String
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+of
+public static ImmutableSortedMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3)
+K,V,K,V,K,V
+ImmutableSortedMap
+com.google.common.collect.super.com.google.common.collect.SingletonImmutableList
+delegateList
+List<E> delegateList()
+empty
+List
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+copyOfSorted
+public static ImmutableSortedMap<K, V> copyOfSorted(SortedMap<K, ? extends V> map)
+SortedMap
+ImmutableSortedMap
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E e7)
+E,E,E,E,E,E,E
+ImmutableList
+com.google.common.io.LineReader
+readLine
+public String readLine() throws IOException
+empty
+String
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet$Builder
+build
+public ImmutableSortedSet<E> build()
+empty
+ImmutableSortedSet
+com.google.common.collect.MapMakerInternalMap$SerializationProxy
+SerializationProxy
+SerializationProxy(Strength keyStrength, Strength valueStrength, Equivalence<Object> keyEquivalence, Equivalence<Object> valueEquivalence, int concurrencyLevel, ConcurrentMap<K, V> delegate)
+Strength,Strength,Equivalence,Equivalence,int,ConcurrentMap
+constructor
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+copyOf
+public static ImmutableSortedMap<K, V> copyOf(Iterable<? extends Entry<? extends K, ? extends V>> entries, Comparator<? super K> comparator)
+Iterable,Comparator
+ImmutableSortedMap
+com.google.common.util.concurrent.AtomicDoubleArray
+weakCompareAndSet
+public final boolean weakCompareAndSet(int i, double expect, double update)
+int,double,double
+boolean
+com.google.common.reflect.TypeResolver$WildcardCapturer
+capture
+final Type capture(Type type)
+Type
+Type
+com.google.common.cache.LongAdder
+fn
+final long fn(long v, long x)
+long,long
+long
+com.google.common.collect.super.com.google.common.collect.ImmutableBiMap
+copyOf
+public static ImmutableBiMap<K, V> copyOf(Map<? extends K, ? extends V> map)
+Map
+ImmutableBiMap
+com.google.common.cache.LongAdder
+decrement
+public void decrement()
+empty
+void
+com.google.common.util.concurrent.AbstractFuture
+complete
+private static void complete(AbstractFuture<?> future)
+AbstractFuture
+void
+com.google.common.collect.super.com.google.common.collect.ImmutableSet
+equals
+public boolean equals(Object obj)
+Object
+boolean
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+pollLastEntry
+public Entry<E> pollLastEntry()
+empty
+Entry
+com.google.common.collect.super.com.google.common.collect.RegularImmutableBiMap
+inverse
+public ImmutableBiMap<V, K> inverse()
+empty
+ImmutableBiMap
+com.google.common.collect.super.com.google.common.collect.AbstractSortedMultiset
+subMultiset
+public SortedMultiset<E> subMultiset(@Nullable E fromElement, BoundType fromBoundType, @Nullable E toElement, BoundType toBoundType)
+E,BoundType,E,BoundType
+SortedMultiset
+com.google.common.collect.Streams
+mapWithIndex
+public static Stream<R> mapWithIndex(Stream<T> stream, FunctionWithIndex<? super T, ? extends R> function)
+Stream,FunctionWithIndex
+Stream
+com.google.common.cache.Striped64
+casBase
+final boolean casBase(long cmp, long val)
+long,long
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+next
+public Entry<K, ImmutableSet<V>> next()
+empty
+Entry
+com.google.common.collect.super.com.google.common.collect.UnmodifiableSortedMultiset
+tailMultiset
+public SortedMultiset<E> tailMultiset(E lowerBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3)
+E,E,E
+ImmutableList
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableCollection
+contains
+public boolean contains(@Nullable Object object)
+Object
+boolean
+com.google.common.cache.LongAdder
+intValue
+public int intValue()
+empty
+int
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap$Builder
+put
+public Builder<K, V> put(K key, V value)
+K,V
+Builder
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+copyFromCollection
+private static ImmutableList<E> copyFromCollection(Collection<? extends E> collection)
+Collection
+ImmutableList
+com.google.common.cache.Striped64
+Striped64
+Striped64()
+empty
+constructor
+com.google.common.collect.MinMaxPriorityQueue$QueueIterator
+foundAndRemovedExactReference
+private boolean foundAndRemovedExactReference(Iterable<E> elements, E target)
+Iterable,E
+boolean
+com.google.common.base.Optional
+fromNullable
+public static Optional<T> fromNullable(@Nullable T nullableReference)
+T
+Optional
+com.google.common.io.MoreFiles$PathByteSource
+readAttributes
+private BasicFileAttributes readAttributes() throws IOException
+empty
+BasicFileAttributes
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+firstEntry
+public Entry<E> firstEntry()
+empty
+Entry
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+of
+public static ImmutableSortedMap<K, V> of(K k1, V v1, K k2, V v2)
+K,V,K,V
+ImmutableSortedMap
+com.google.common.collect.super.com.google.common.collect.UnmodifiableSortedMultiset
+headMultiset
+public SortedMultiset<E> headMultiset(E upperBound, BoundType boundType)
+E,BoundType
+SortedMultiset
+com.google.common.collect.AbstractMapBasedMultiset
+forEachEntry
+public void forEachEntry(ObjIntConsumer<? super E> action)
+ObjIntConsumer
+void
+com.google.common.collect.Interners$InternerBuilder
+InternerBuilder
+private InternerBuilder()
+empty
+constructor
+com.google.common.collect.super.com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets
+keySet
+public ImmutableSet<K> keySet()
+empty
+ImmutableSet
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture$Listener
+execute
+void execute()
+empty
+void
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableMap
+createEntrySet
+ImmutableSet<Entry<K, V>> createEntrySet()
+empty
+ImmutableSet
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedSet
+hasSameComparator
+private static boolean hasSameComparator(Iterable<?> elements, Comparator<?> comparator)
+Iterable,Comparator
+boolean
+com.google.common.collect.super.com.google.common.collect.ImmutableList$Builder
+build
+public ImmutableList<E> build()
+empty
+ImmutableList
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E e7, E e8, E e9, E e10)
+E,E,E,E,E,E,E,E,E,E
+ImmutableList
+com.google.common.collect.super.com.google.common.collect.ForwardingSortedMultiset
+standardPollLastEntry
+protected Entry<E> standardPollLastEntry()
+empty
+Entry
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+putEntryWithChecks
+private static void putEntryWithChecks(SortedMap<K, V> map, Entry<? extends K, ? extends V> entry)
+SortedMap,Entry
+void
+com.google.common.util.concurrent.AtomicDouble
+weakCompareAndSet
+public final boolean weakCompareAndSet(double expect, double update)
+double,double
+boolean
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableNetwork<N, E> inducedSubgraph(Network<N, E> network, Iterable<? extends N> nodes)
+Network,Iterable
+MutableNetwork
+com.google.common.hash.Striped64
+retryUpdate
+final void retryUpdate(long x, @Nullable int[] hc, boolean wasUncontended)
+long,int[],boolean
+void
+com.google.common.collect.super.com.google.common.collect.DescendingMultiset
+iterator
+public Iterator<Entry<E>> iterator()
+empty
+Iterator
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+upperCase
+public BaseEncoding upperCase()
+empty
+BaseEncoding
+com.google.common.collect.super.com.google.common.collect.ImmutableSet$Builder
+add
+public Builder<E> add(E... elements)
+E...
+Builder
+com.google.common.collect.super.com.google.common.collect.ImmutableSortedMap
+of
+public static ImmutableSortedMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3, K k4, V v4, K k5, V v5)
+K,V,K,V,K,V,K,V,K,V
+ImmutableSortedMap
+com.google.common.hash.Hashing
+hmacToString
+private static String hmacToString(String methodName, Key key)
+String,Key
+String
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+of
+public static ImmutableMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3, K k4, V v4, K k5, V v5)
+K,V,K,V,K,V,K,V,K,V
+ImmutableMap
+com.google.common.collect.super.com.google.common.collect.ImmutableMap
+copyOf
+public static ImmutableMap<K, V> copyOf(Iterable<? extends Entry<? extends K, ? extends V>> entries)
+Iterable
+ImmutableMap
+com.google.common.collect.super.com.google.common.collect.ForwardingImmutableMap
+contains
+public boolean contains(Object object)
+Object
+boolean

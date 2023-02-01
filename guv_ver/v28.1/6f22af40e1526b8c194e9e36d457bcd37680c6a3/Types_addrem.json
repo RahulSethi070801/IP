@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "47": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "89": "      @NullableDecl Type ownerType, Class<?> rawType, Type... arguments) {\n",
+        "108": "      @NullableDecl\n",
+        "115": "      @NullableDecl\n",
+        "126": "    @NullableDecl\n",
+        "179": "  @NullableDecl\n",
+        "211": "  @NullableDecl\n",
+        "271": "    ParameterizedTypeImpl(@NullableDecl Type ownerType, Class<?> rawType, Type[] typeArguments) {\n"
+    },
+    "removed": {
+        "47": "import javax.annotation.Nullable;\n",
+        "89": "      @Nullable Type ownerType, Class<?> rawType, Type... arguments) {\n",
+        "108": "      @Nullable\n",
+        "115": "      @Nullable\n",
+        "126": "    @Nullable\n",
+        "179": "  @Nullable\n",
+        "211": "  @Nullable\n",
+        "271": "    ParameterizedTypeImpl(@Nullable Type ownerType, Class<?> rawType, Type[] typeArguments) {\n"
+    }
+}

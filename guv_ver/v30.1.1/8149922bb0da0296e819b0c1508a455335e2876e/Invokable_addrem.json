@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "33": "import javax.annotation.CheckForNull;\n",
+        "34": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "59": "@ElementTypesAreNonnullByDefault\n",
+        "98": "  // All subclasses are owned by us and we'll make sure to get the R type right, including nullness.\n",
+        "99": "  @SuppressWarnings({\"unchecked\", \"nullness\"})\n",
+        "101": "  @CheckForNull\n",
+        "102": "  public final R invoke(@CheckForNull T receiver, @Nullable Object... args)\n",
+        "179": "  @CheckForNull\n",
+        "180": "  abstract Object invokeInternal(@CheckForNull Object receiver, @Nullable Object[] args)\n",
+        "202": "    @CheckForNull\n",
+        "203": "    final Object invokeInternal(@CheckForNull Object receiver, @Nullable Object[] args)\n",
+        "257": "    final Object invokeInternal(@CheckForNull Object receiver, @Nullable Object[] args)\n"
+    },
+    "removed": {
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "96": "  // All subclasses are owned by us and we'll make sure to get the R type right.\n",
+        "97": "  @SuppressWarnings(\"unchecked\")\n",
+        "99": "  public final R invoke(@NullableDecl T receiver, Object... args)\n",
+        "176": "  abstract Object invokeInternal(@NullableDecl Object receiver, Object[] args)\n",
+        "198": "    final Object invokeInternal(@NullableDecl Object receiver, Object[] args)\n",
+        "252": "    final Object invokeInternal(@NullableDecl Object receiver, Object[] args)\n"
+    }
+}

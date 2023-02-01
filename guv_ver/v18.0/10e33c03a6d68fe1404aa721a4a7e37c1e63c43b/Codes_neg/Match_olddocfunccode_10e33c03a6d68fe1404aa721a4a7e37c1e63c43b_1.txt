@@ -1,0 +1,3 @@
+public ImmutableSet<ClassInfo> getAllClasses() {
+    return FluentIterable.from(resources).filter(ClassInfo.class).toSet();
+}

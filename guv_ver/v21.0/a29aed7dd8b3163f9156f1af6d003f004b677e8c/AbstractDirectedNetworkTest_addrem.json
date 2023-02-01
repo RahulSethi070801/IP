@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "56": "        assertThat(\n",
+        "57": "            node.equals(adjacentNode) || Collections.disjoint(edges, antiParallelEdges)).isTrue();\n",
+        "114": "    assertThat(network.incidentNodes(E12).source()).isEqualTo(N1);\n",
+        "130": "    assertThat(network.incidentNodes(E12).target()).isEqualTo(N2);\n",
+        "143": "  @Test\n",
+        "144": "  public void inDegree_oneEdge() {\n",
+        "145": "    addEdge(E12, N1, N2);\n",
+        "146": "    assertThat(network.inDegree(N2)).isEqualTo(1);\n",
+        "147": "    // Edge direction handled correctly\n",
+        "148": "    assertThat(network.inDegree(N1)).isEqualTo(0);\n",
+        "149": "  }\n",
+        "150": "\n",
+        "151": "  @Test\n",
+        "152": "  public void outDegree_oneEdge() {\n",
+        "153": "    addEdge(E12, N1, N2);\n",
+        "154": "    assertThat(network.outDegree(N1)).isEqualTo(1);\n",
+        "155": "    // Edge direction handled correctly\n",
+        "156": "    assertThat(network.outDegree(N2)).isEqualTo(0);\n",
+        "157": "  }\n",
+        "158": "\n",
+        "167": "    assertThat(addEdge(E12, N1, N2)).isTrue();\n",
+        "178": "    assertThat(addEdge(E12, N1, N2)).isFalse();\n"
+    },
+    "removed": {
+        "20": "import static org.junit.Assert.assertEquals;\n",
+        "21": "import static org.junit.Assert.assertFalse;\n",
+        "22": "import static org.junit.Assert.assertTrue;\n",
+        "59": "        assertTrue(node.equals(adjacentNode) || Collections.disjoint(edges, antiParallelEdges));\n",
+        "116": "    assertEquals(N1, network.incidentNodes(E12).source());\n",
+        "132": "    assertEquals(N2, network.incidentNodes(E12).target());\n",
+        "153": "    assertTrue(addEdge(E12, N1, N2));\n",
+        "164": "    assertFalse(addEdge(E12, N1, N2));\n"
+    }
+}

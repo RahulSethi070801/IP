@@ -1,0 +1,6 @@
+@Override
+@CanIgnoreReturnValue
+public V putEdgeValue(EndpointPair<N> endpoints, V value) {
+    validateEndpoints(endpoints);
+    return putEdgeValue(endpoints.nodeU(), endpoints.nodeV(), value);
+}

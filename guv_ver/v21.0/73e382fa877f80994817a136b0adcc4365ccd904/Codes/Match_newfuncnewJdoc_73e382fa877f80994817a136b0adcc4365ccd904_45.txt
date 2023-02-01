@@ -1,0 +1,6 @@
+
+   * Returns a {@code Collector} that accumulates the input elements into a new
+   * {@code ImmutableList}, in encounter order.
+   *
+   * @since 21.0
+   

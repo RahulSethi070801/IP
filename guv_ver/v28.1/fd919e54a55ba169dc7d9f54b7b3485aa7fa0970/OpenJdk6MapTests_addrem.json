@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "38": " * Tests the {@link Map} implementations of {@link java.util}, suppressing tests that trip known\n",
+        "39": " * bugs in OpenJDK 6 or higher.\n",
+        "52": "  @Override\n",
+        "53": "  protected Collection<Method> suppressForTreeMapNatural() {\n"
+    },
+    "removed": {
+        "38": " * Tests the {@link Map} implementations of {@link java.util}, suppressing\n",
+        "39": " * tests that trip known bugs in OpenJDK 6 or higher.\n",
+        "52": "  @Override protected Collection<Method> suppressForTreeMapNatural() {\n"
+    }
+}

@@ -1,0 +1,4 @@
+Ticker_2
+Insertions: [35, 38]
+Deletions: [35, 36, 37, 40, 41, 42]
+guava/src/com/google/common/base/Ticker.java

@@ -1,0 +1,4 @@
+CacheBuilderSpec
+Insertions: [30, 83, 250, 280, 281, 372, 388, 401]
+Deletions: [30, 83, 250, 280, 281, 372, 388, 401]
+android/guava/src/com/google/common/cache/CacheBuilderSpec.java

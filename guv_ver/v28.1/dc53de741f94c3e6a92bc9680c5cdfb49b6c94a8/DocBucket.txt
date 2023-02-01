@@ -1,0 +1,5 @@
+com.google.common.base.CommonPattern
+toString
+public abstract String toString()
+empty
+String

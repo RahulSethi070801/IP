@@ -1,0 +1,6 @@
+T apply(@Nullable F input)
+public static Function<K, V> forMap(Map<K, ? extends V> map, @Nullable V defaultValue)
+
+T apply(@Nullable F input)
+public static Function<Object, E> constant(@Nullable E value)
+

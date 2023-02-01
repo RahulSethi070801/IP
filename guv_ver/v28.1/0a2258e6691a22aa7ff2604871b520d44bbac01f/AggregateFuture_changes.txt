@@ -1,0 +1,4 @@
+AggregateFuture
+Insertions: [31, 47, 281]
+Deletions: [31, 47, 281, 282]
+guava/src/com/google/common/util/concurrent/AggregateFuture.java

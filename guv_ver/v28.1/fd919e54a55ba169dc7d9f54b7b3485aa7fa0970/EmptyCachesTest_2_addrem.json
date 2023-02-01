@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "334": "  /** Most of the tests in this class run against every one of these caches. */\n",
+        "338": "    return Iterables.transform(\n",
+        "339": "        factory.buildAllPermutations(),\n",
+        "341": "          @Override\n",
+        "342": "          public LoadingCache<Object, Object> apply(CacheBuilder<Object, Object> builder) {\n",
+        "355": "        .withExpireAfterWrites(\n",
+        "356": "            ImmutableSet.of(\n",
+        "357": "                DurationSpec.of(0, SECONDS), DurationSpec.of(1, SECONDS), DurationSpec.of(1, DAYS)))\n",
+        "358": "        .withExpireAfterAccesses(\n",
+        "359": "            ImmutableSet.of(\n",
+        "360": "                DurationSpec.of(0, SECONDS), DurationSpec.of(1, SECONDS), DurationSpec.of(1, DAYS)))\n",
+        "361": "        .withRefreshes(ImmutableSet.of(DurationSpec.of(1, SECONDS), DurationSpec.of(1, DAYS)));\n"
+    },
+    "removed": {
+        "334": "  /**\n",
+        "335": "   * Most of the tests in this class run against every one of these caches.\n",
+        "336": "   */\n",
+        "340": "    return Iterables.transform(factory.buildAllPermutations(),\n",
+        "342": "          @Override public LoadingCache<Object, Object> apply(\n",
+        "343": "              CacheBuilder<Object, Object> builder) {\n",
+        "356": "        .withExpireAfterWrites(ImmutableSet.of(\n",
+        "357": "            DurationSpec.of(0, SECONDS),\n",
+        "358": "            DurationSpec.of(1, SECONDS),\n",
+        "359": "            DurationSpec.of(1, DAYS)))\n",
+        "360": "        .withExpireAfterAccesses(ImmutableSet.of(\n",
+        "361": "            DurationSpec.of(0, SECONDS),\n",
+        "362": "            DurationSpec.of(1, SECONDS),\n",
+        "363": "            DurationSpec.of(1, DAYS)))\n",
+        "364": "        .withRefreshes(ImmutableSet.of(\n",
+        "365": "            DurationSpec.of(1, SECONDS),\n",
+        "366": "            DurationSpec.of(1, DAYS)));\n"
+    }
+}

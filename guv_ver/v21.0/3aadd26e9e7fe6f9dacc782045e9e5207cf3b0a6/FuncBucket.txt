@@ -1,0 +1,5 @@
+com.google.common.io.MoreFiles
+equal
+public static boolean equal(Path path1, Path path2) throws IOException
+Path,Path
+boolean

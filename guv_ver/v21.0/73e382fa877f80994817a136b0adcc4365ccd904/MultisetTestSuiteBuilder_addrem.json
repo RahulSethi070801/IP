@@ -1,0 +1,6 @@
+{
+    "addition": {
+        "80": "    testers.add(MultisetForEachEntryTester.class);\n"
+    },
+    "removed": {}
+}

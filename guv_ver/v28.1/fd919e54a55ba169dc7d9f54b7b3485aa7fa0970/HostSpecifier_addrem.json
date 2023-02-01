@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "38": " * class. Similarly, if you know that a given string represents a domain name, use {@link\n",
+        "39": " * InternetDomainName} rather than this class.\n",
+        "60": "   *\n",
+        "62": "   *   <li>A domain name, like {@code google.com}\n",
+        "63": "   *   <li>A IPv4 address string, like {@code 127.0.0.1}\n",
+        "64": "   *   <li>An IPv6 address string with or without brackets, like {@code [2001:db8::1]} or {@code\n",
+        "65": "   *       2001:db8::1}\n"
+    },
+    "removed": {
+        "38": " * class. Similarly, if you know that a given string represents a domain name, use\n",
+        "39": " * {@link InternetDomainName} rather than this class.\n",
+        "61": "   * <li>A domain name, like {@code google.com}\n",
+        "62": "   * <li>A IPv4 address string, like {@code 127.0.0.1}\n",
+        "63": "   * <li>An IPv6 address string with or without brackets, like {@code [2001:db8::1]} or\n",
+        "64": "   *     {@code 2001:db8::1}\n"
+    }
+}

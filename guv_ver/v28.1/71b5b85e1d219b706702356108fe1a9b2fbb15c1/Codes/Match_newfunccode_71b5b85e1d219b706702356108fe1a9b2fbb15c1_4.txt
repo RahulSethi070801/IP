@@ -1,0 +1,5 @@
+public static <O> ListenableFuture<O> submitAsync(AsyncCallable<O> callable, Executor executor) {
+    TrustedListenableFutureTask<O> task = TrustedListenableFutureTask.create(callable);
+    executor.execute(task);
+    return task;
+}

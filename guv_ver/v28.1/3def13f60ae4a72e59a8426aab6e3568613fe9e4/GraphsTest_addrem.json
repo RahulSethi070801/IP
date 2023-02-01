@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "312": "    assertThat(transpose.edgeConnecting(N1, N2)).isAbsent();\n",
+        "316": "    assertThat(transpose.edgeConnecting(N1, N2)).hasValue(E21);\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "172": "  /**\n",
+        "173": "   * Returns all nodes in this graph, in the order specified by {@link #nodeOrder()}.\n",
+        "174": "   */\n",
+        "193": "  /**\n",
+        "194": "   * Returns the order of iteration for the elements of {@link #nodes()}.\n",
+        "195": "   */\n",
+        "196": "  ElementOrder<? super N> nodeOrder();\n",
+        "197": "\n",
+        "288": "   * direction will have the same hash code (but can still be differentiated by\n",
+        "289": "   * {@link #equals(Object)}.\n"
+    },
+    "removed": {
+        "172": "  /** Returns all nodes in this graph. */\n",
+        "281": "   * direction will have the same hash code (but can still be differentiated by {@link #equals}.\n"
+    }
+}

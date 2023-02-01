@@ -1,0 +1,6 @@
+public static void write(byte[] from, OutputSupplier<? extends OutputStream> to) throws IOException
+public final InputStream getInput() throws IOException
+
+public static String toString(InputSupplier<R> supplier) throws IOException
+public final InputStream getInput() throws IOException
+

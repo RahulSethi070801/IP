@@ -1,0 +1,4 @@
+@GwtIncompatible
+public final FluentFuture<V> withTimeout(long timeout, TimeUnit unit, ScheduledExecutorService scheduledExecutor) {
+    return (FluentFuture<V>) Futures.withTimeout(this, timeout, unit, scheduledExecutor);
+}

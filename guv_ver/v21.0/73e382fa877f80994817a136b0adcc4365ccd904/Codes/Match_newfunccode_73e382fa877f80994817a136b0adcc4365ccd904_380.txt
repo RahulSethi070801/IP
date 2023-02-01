@@ -1,0 +1,20 @@
+public static <T> Iterable<T> cycle(final Iterable<T> iterable) {
+    checkNotNull(iterable);
+    return new FluentIterable<T>() {
+
+        @Override
+        public Iterator<T> iterator() {
+            return Iterators.cycle(iterable);
+        }
+
+        @Override
+        public Spliterator<T> spliterator() {
+            return Stream.generate(() -> iterable).flatMap(Streams::stream).spliterator();
+        }
+
+        @Override
+        public String toString() {
+            return iterable.toString() + " (cycled)";
+        }
+    };
+}

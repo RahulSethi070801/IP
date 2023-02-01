@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "160": "    @Nullable private String value = null;\n",
+        "161": "    @Nullable private Throwable failure = null;\n"
+    },
+    "removed": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "160": "    @NullableDecl private String value = null;\n",
+        "161": "    @NullableDecl private Throwable failure = null;\n"
+    }
+}

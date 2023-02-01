@@ -1,0 +1,5 @@
+@Override
+public final V getOrDefault(@NullableDecl Object key, @NullableDecl V defaultValue) {
+    V result = get(key);
+    return (result != null) ? result : defaultValue;
+}

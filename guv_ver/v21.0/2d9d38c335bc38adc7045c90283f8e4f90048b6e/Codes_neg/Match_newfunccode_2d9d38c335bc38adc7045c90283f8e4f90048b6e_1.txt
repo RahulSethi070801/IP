@@ -1,0 +1,10 @@
+public static <T> TreeTraverser<T> using(final Function<T, ? extends Iterable<T>> nodeToChildrenFunction) {
+    checkNotNull(nodeToChildrenFunction);
+    return new TreeTraverser<T>() {
+
+        @Override
+        public Iterable<T> children(T root) {
+            return nodeToChildrenFunction.apply(root);
+        }
+    };
+}

@@ -1,0 +1,10 @@
+public static <N> MutableGraph<N> copyOf(Graph<N> graph) {
+    MutableGraph<N> copy = GraphBuilder.from(graph).expectedNodeCount(graph.nodes().size()).build();
+    for (N node : graph.nodes()) {
+        copy.addNode(node);
+    }
+    for (EndpointPair<N> edge : graph.edges()) {
+        copy.putEdge(edge.nodeU(), edge.nodeV());
+    }
+    return copy;
+}

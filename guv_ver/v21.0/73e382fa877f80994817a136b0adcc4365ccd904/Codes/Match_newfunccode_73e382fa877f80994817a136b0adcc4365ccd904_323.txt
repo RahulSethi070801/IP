@@ -1,0 +1,11 @@
+public static void touch(Path path) throws IOException {
+    checkNotNull(path);
+    try {
+        Files.setLastModifiedTime(path, FileTime.fromMillis(System.currentTimeMillis()));
+    } catch (NoSuchFileException e) {
+        try {
+            Files.createFile(path);
+        } catch (FileAlreadyExistsException ignore) {
+        }
+    }
+}

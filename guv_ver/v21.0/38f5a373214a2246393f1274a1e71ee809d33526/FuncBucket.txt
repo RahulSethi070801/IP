@@ -1,0 +1,35 @@
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableNetwork<N, E> inducedSubgraph(Network<N, E> graph, Iterable<? extends N> nodes)
+Network,Iterable
+MutableNetwork
+com.google.common.graph.Graphs
+hasCycle
+public static boolean hasCycle(Network<?, ?> network)
+Network
+boolean
+com.google.common.graph.Graphs
+copyOf
+public static MutableGraph<N> copyOf(Graph<N> graph)
+Graph
+MutableGraph
+com.google.common.graph.Graphs
+copyOf
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+Network
+MutableNetwork
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableGraph<N> inducedSubgraph(Graph<N> graph, Iterable<? extends N> nodes)
+Graph,Iterable
+MutableGraph
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+ValueGraph,Iterable
+MutableValueGraph
+com.google.common.graph.Graphs
+copyOf
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+ValueGraph
+MutableValueGraph

@@ -1,0 +1,10 @@
+
+   * Returns an {@code ImmutableList} containing all of the elements from this fluent iterable in
+   * proper sequence.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code ImmutableList.copyOf(stream.iterator())}, or after
+   * the next release of Guava, pass {@link ImmutableList#toImmutableList} to {@code
+   * stream.collect()}.
+   *
+   * @since 14.0 (since 12.0 as {@code toImmutableList()}).
+   

@@ -1,0 +1,335 @@
+com.google.common.net.InetAddresses
+is6to4Address
+public static boolean is6to4Address(Inet6Address ip)
+Inet6Address
+boolean
+com.google.common.reflect.TypeToken
+isSubtypeOf
+public final boolean isSubtypeOf(Type supertype)
+Type
+boolean
+com.google.common.net.InetAddresses
+toUriString
+public static String toUriString(InetAddress ip)
+InetAddress
+String
+com.google.common.reflect.TypeToken
+isSubtypeOf
+public final boolean isSubtypeOf(TypeToken<?> type)
+TypeToken
+boolean
+com.google.common.net.UrlEscapers
+urlPathSegmentEscaper
+public static Escaper urlPathSegmentEscaper()
+empty
+Escaper
+com.google.common.primitives.UnsignedInteger
+compareTo
+public int compareTo(UnsignedInteger other)
+UnsignedInteger
+int
+com.google.common.math.PairedStatsAccumulator
+leastSquaresFit
+public final LinearTransformation leastSquaresFit()
+empty
+LinearTransformation
+com.google.common.reflect.TypeToken
+isSupertypeOf
+public final boolean isSupertypeOf(Type type)
+Type
+boolean
+com.google.common.collect.Lists
+clear
+public void clear()
+empty
+void
+com.google.common.collect.Multimaps
+asMap
+public static Map<K, List<V>> asMap(ListMultimap<K, V> multimap)
+ListMultimap
+Map
+com.google.common.xml.XmlEscapers
+xmlAttributeEscaper
+public static Escaper xmlAttributeEscaper()
+empty
+Escaper
+com.google.common.base.CharMatcher
+matchesNoneOf
+public boolean matchesNoneOf(CharSequence sequence)
+CharSequence
+boolean
+com.google.common.base.CharMatcher
+digit
+public static CharMatcher digit()
+empty
+CharMatcher
+com.google.common.math.PairedStats
+leastSquaresFit
+public LinearTransformation leastSquaresFit()
+empty
+LinearTransformation
+com.google.common.net.InetAddresses
+isCompatIPv4Address
+public static boolean isCompatIPv4Address(Inet6Address ip)
+Inet6Address
+boolean
+com.google.common.hash.Hashing
+murmur3_32
+public static HashFunction murmur3_32()
+empty
+HashFunction
+com.google.common.io.Files
+getNameWithoutExtension
+public static String getNameWithoutExtension(String file)
+String
+String
+com.google.common.base.CharMatcher
+setBits
+void setBits(BitSet table)
+BitSet
+void
+com.google.common.base.CharMatcher
+indexIn
+public int indexIn(CharSequence sequence, int start)
+CharSequence,int
+int
+com.google.common.collect.TreeBasedTable
+row
+public SortedMap<C, V> row(R rowKey)
+R
+SortedMap
+com.google.common.collect.ImmutableList
+reverse
+public ImmutableList<E> reverse()
+empty
+ImmutableList
+com.google.common.base.CharMatcher
+replaceFrom
+public String replaceFrom(CharSequence sequence, char replacement)
+CharSequence,char
+String
+com.google.common.math.Stats
+populationStandardDeviation
+public double populationStandardDeviation()
+empty
+double
+com.google.common.escape.UnicodeEscaper
+escape
+public String escape(String string)
+String
+String
+com.google.common.io.BaseEncoding
+base64Url
+public static BaseEncoding base64Url()
+empty
+BaseEncoding
+com.google.common.hash.Hashing
+murmur3_128
+public static HashFunction murmur3_128()
+empty
+HashFunction
+com.google.common.reflect.ClassPath
+getClassPathFromManifest
+static ImmutableSet<File> getClassPathFromManifest(File jarFile, @Nullable Manifest manifest)
+File,Manifest
+ImmutableSet
+com.google.common.io.BaseEncoding
+base64
+public static BaseEncoding base64()
+empty
+BaseEncoding
+com.google.common.base.CharMatcher
+replaceFrom
+public String replaceFrom(CharSequence sequence, CharSequence replacement)
+CharSequence,CharSequence
+String
+com.google.common.base.CharMatcher
+whitespace
+public static CharMatcher whitespace()
+empty
+CharMatcher
+com.google.common.io.ByteSource
+copyTo
+public long copyTo(OutputStream output) throws IOException
+OutputStream
+long
+com.google.common.io.ByteSource
+openBufferedStream
+public InputStream openBufferedStream() throws IOException
+empty
+InputStream
+com.google.common.html.HtmlEscapers
+htmlEscaper
+public static Escaper htmlEscaper()
+empty
+Escaper
+com.google.common.xml.XmlEscapers
+xmlContentEscaper
+public static Escaper xmlContentEscaper()
+empty
+Escaper
+com.google.common.net.InetAddresses
+isMappedIPv4Address
+public static boolean isMappedIPv4Address(String ipString)
+String
+boolean
+com.google.common.base.CharMatcher
+removeFrom
+public String removeFrom(CharSequence sequence)
+CharSequence
+String
+com.google.common.io.BaseEncoding
+base32Hex
+public static BaseEncoding base32Hex()
+empty
+BaseEncoding
+com.google.common.reflect.ClassPath
+getClassPathEntry
+static URL getClassPathEntry(File jarFile, String path) throws MalformedURLException
+File,String
+URL
+com.google.common.math.StatsAccumulator
+sampleStandardDeviation
+public final double sampleStandardDeviation()
+empty
+double
+com.google.common.hash.Hashing
+murmur3_128
+public static HashFunction murmur3_128(int seed)
+int
+HashFunction
+com.google.common.net.UrlEscapers
+urlFormParameterEscaper
+public static Escaper urlFormParameterEscaper()
+empty
+Escaper
+com.google.common.io.BaseEncoding
+base16
+public static BaseEncoding base16()
+empty
+BaseEncoding
+com.google.common.collect.Multimaps
+asMap
+public static Map<K, Set<V>> asMap(SetMultimap<K, V> multimap)
+SetMultimap
+Map
+com.google.common.cache.LoadingCache
+getAll
+ImmutableMap<K, V> getAll(Iterable<? extends K> keys) throws ExecutionException
+Iterable
+ImmutableMap
+com.google.common.base.CharMatcher
+trimFrom
+public String trimFrom(CharSequence sequence)
+CharSequence
+String
+com.google.common.math.StatsAccumulator
+populationStandardDeviation
+public final double populationStandardDeviation()
+empty
+double
+com.google.common.io.BaseEncoding
+base32
+public static BaseEncoding base32()
+empty
+BaseEncoding
+com.google.common.io.CharSource
+copyTo
+public long copyTo(CharSink sink) throws IOException
+CharSink
+long
+com.google.common.math.Stats
+sampleStandardDeviation
+public double sampleStandardDeviation()
+empty
+double
+com.google.common.net.MediaType
+is
+public boolean is(MediaType mediaTypeRange)
+MediaType
+boolean
+com.google.common.reflect.TypeToken
+isSupertypeOf
+public final boolean isSupertypeOf(TypeToken<?> type)
+TypeToken
+boolean
+com.google.common.base.CaseFormat
+convert
+String convert(CaseFormat format, String s)
+CaseFormat,String
+String
+com.google.common.math.IntMath
+isPrime
+public static boolean isPrime(int n)
+int
+boolean
+com.google.common.io.MoreFiles
+getNameWithoutExtension
+public static String getNameWithoutExtension(Path path)
+Path
+String
+com.google.common.primitives.Longs
+tryParse
+public static Long tryParse(String string, int radix)
+String,int
+Long
+com.google.common.math.LongMath
+isPrime
+public static boolean isPrime(long n)
+long
+boolean
+com.google.common.base.CharMatcher
+lastIndexIn
+public int lastIndexIn(CharSequence sequence)
+CharSequence
+int
+com.google.common.collect.Multiset
+hashCode
+int hashCode()
+empty
+int
+com.google.common.cache.LoadingCache
+get
+V get(K key) throws ExecutionException
+K
+V
+com.google.common.io.ByteSource
+size
+public long size() throws IOException
+empty
+long
+com.google.common.hash.Hashing
+murmur3_32
+public static HashFunction murmur3_32(int seed)
+int
+HashFunction
+com.google.common.reflect.Reflection
+initialize
+public static void initialize(Class<?>... classes)
+Class...
+void
+com.google.common.base.CharMatcher
+collapseFrom
+public String collapseFrom(CharSequence sequence, char replacement)
+CharSequence,char
+String
+com.google.common.net.UrlEscapers
+urlFragmentEscaper
+public static Escaper urlFragmentEscaper()
+empty
+Escaper
+com.google.common.net.InetAddresses
+isIsatapAddress
+public static boolean isIsatapAddress(Inet6Address ip)
+Inet6Address
+boolean
+com.google.common.primitives.Ints
+tryParse
+public static Integer tryParse(String string, int radix)
+String,int
+Integer
+com.google.common.collect.Multiset
+toString
+String toString()
+empty
+String

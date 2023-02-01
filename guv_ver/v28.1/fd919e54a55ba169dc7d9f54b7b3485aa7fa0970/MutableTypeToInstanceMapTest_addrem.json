@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "78": "  @Override\n",
+        "79": "  protected void setUp() throws Exception {\n",
+        "87": "    } catch (UnsupportedOperationException expected) {\n",
+        "88": "    }\n",
+        "95": "    } catch (UnsupportedOperationException expected) {\n",
+        "96": "    }\n",
+        "106": "    } catch (UnsupportedOperationException expected) {\n",
+        "107": "    }\n",
+        "119": "    } catch (UnsupportedOperationException expected) {\n",
+        "120": "    }\n",
+        "132": "    } catch (UnsupportedOperationException expected) {\n",
+        "133": "    }\n",
+        "214": "    } catch (IllegalArgumentException expected) {\n",
+        "215": "    }\n",
+        "222": "    } catch (IllegalArgumentException expected) {\n",
+        "223": "    }\n"
+    },
+    "removed": {
+        "78": "  @Override protected void setUp() throws Exception {\n",
+        "86": "    } catch (UnsupportedOperationException expected) {}\n",
+        "93": "    } catch (UnsupportedOperationException expected) {}\n",
+        "103": "    } catch (UnsupportedOperationException expected) {}\n",
+        "115": "    } catch (UnsupportedOperationException expected) {}\n",
+        "127": "    } catch (UnsupportedOperationException expected) {}\n",
+        "208": "    } catch (IllegalArgumentException expected) {}\n",
+        "215": "    } catch (IllegalArgumentException expected) {}\n"
+    }
+}

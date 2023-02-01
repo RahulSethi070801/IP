@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "23": "import javax.annotation.CheckForNull;\n",
+        "33": "@ElementTypesAreNonnullByDefault\n",
+        "37": "  @CheckForNull private InputStream in;\n",
+        "94": "  public int read(byte[] b, int off, int len) throws IOException {\n",
+        "95": "    checkNotNull(b);\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "36": "  @NullableDecl private InputStream in;\n",
+        "93": "  public int read(@NullableDecl byte[] b, int off, int len) throws IOException {\n"
+    }
+}

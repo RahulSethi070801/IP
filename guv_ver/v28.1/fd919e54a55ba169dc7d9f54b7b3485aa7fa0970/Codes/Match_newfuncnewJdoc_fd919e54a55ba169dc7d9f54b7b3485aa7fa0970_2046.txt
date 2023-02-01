@@ -1,0 +1,7 @@
+
+   * If {@code nullableReference} is non-null, returns an {@code Optional} instance containing that
+   * reference; otherwise returns {@link Optional#absent}.
+   *
+   * <p><b>Comparison to {@code java.util.Optional}:</b> this method is equivalent to Java 8's
+   * {@code Optional.ofNullable}.
+   

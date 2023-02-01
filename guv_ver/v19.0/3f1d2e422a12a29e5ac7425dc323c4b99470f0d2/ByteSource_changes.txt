@@ -1,0 +1,4 @@
+ByteSource
+Insertions: [108, 109, 110, 111, 498, 500, 510, 511, 512, 513, 514, 515]
+Deletions: [108, 496]
+guava/src/com/google/common/io/ByteSource.java

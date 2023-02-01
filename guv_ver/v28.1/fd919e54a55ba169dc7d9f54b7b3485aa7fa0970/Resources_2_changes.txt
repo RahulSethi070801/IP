@@ -1,0 +1,4 @@
+Resources_2
+Insertions: [59, 133, 134]
+Deletions: [59, 60, 61, 135, 136]
+guava/src/com/google/common/io/Resources.java

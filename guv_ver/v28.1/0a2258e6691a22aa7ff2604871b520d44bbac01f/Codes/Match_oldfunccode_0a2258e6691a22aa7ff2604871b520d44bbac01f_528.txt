@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public Set<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {
+    return super.replaceValues(key, values);
+}

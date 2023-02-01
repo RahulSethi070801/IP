@@ -1,0 +1,20 @@
+com.google.common.util.concurrent.AbstractCheckedFuture
+checkedGet
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+long,TimeUnit
+V
+com.google.common.util.concurrent.AggregateFuture
+releaseResourcesAfterFailure
+void releaseResourcesAfterFailure()
+empty
+void
+com.google.common.util.concurrent.ListenableFuture
+addListener
+void addListener(Runnable listener, Executor executor)
+Runnable,Executor
+void
+com.google.common.util.concurrent.AbstractFuture
+Waiter
+Waiter(boolean unused)
+boolean
+constructor

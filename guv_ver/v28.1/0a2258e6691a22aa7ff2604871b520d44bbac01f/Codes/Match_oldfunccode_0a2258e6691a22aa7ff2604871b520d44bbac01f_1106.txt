@@ -1,0 +1,7 @@
+@Deprecated
+@GwtIncompatible
+public static void propagateIfPossible(@NullableDecl Throwable throwable) {
+    if (throwable != null) {
+        throwIfUnchecked(throwable);
+    }
+}

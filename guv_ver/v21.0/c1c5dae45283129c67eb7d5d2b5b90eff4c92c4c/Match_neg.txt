@@ -1,0 +1,6 @@
+public boolean removeEdge(Object edge)
+void removeOutEdge(Object edge)
+
+boolean equals(@Nullable Object object)
+void removeOutEdge(Object edge)
+

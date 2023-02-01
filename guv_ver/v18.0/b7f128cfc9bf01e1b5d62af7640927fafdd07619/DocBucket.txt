@@ -1,0 +1,20 @@
+com.google.common.util.concurrent.ServiceManager
+awaitStopped
+public void awaitStopped(long timeout, TimeUnit unit) throws TimeoutException
+long,TimeUnit
+void
+com.google.common.util.concurrent.WrappingExecutorService
+wrapTask
+protected abstract Callable<T> wrapTask(Callable<T> callable)
+Callable
+Callable
+com.google.common.util.concurrent.ServiceManager
+ServiceManager
+public ServiceManager(Iterable<? extends Service> services)
+Iterable
+constructor
+com.google.common.util.concurrent.ServiceManager
+awaitStopped
+public void awaitStopped()
+empty
+void

@@ -1,0 +1,4 @@
+Enums_2
+Insertions: [33, 43]
+Deletions: []
+guava/src/com/google/common/base/Enums.java

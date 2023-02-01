@@ -1,0 +1,4 @@
+AbstractNetwork
+Insertions: [153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 180, 181, 184, 189, 192]
+Deletions: [160, 163, 168, 171]
+guava/src/com/google/common/graph/AbstractNetwork.java

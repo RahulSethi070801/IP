@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "65": "public abstract class AbstractFuture<V> extends FluentFuture<V> {\n"
+    },
+    "removed": {
+        "65": "public abstract class AbstractFuture<V> implements ListenableFuture<V> {\n"
+    }
+}

@@ -1,0 +1,4 @@
+
+   * Remove {@code edge} from the sets of out edges. If this is known to be the last remaining edge
+   * between two (formally) connected nodes, {@link #removeSuccessor} must also be called.
+   

@@ -1,0 +1,6 @@
+
+   * Adds the given values to the dataset. The stream will be completely consumed by this method.
+   *
+   * @param values a series of values
+   * @since NEXT
+   

@@ -1,0 +1,3 @@
+public double acquire() {
+    return acquire(1);
+}

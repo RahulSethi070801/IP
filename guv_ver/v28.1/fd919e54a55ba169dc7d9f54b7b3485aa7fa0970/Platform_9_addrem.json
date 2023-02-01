@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "30": "  static void checkCast(Class<?> clazz, Object obj) {}\n",
+        "39": "    StringBuilder builder = new StringBuilder(template.length() + 16 * args.length);\n"
+    },
+    "removed": {
+        "30": "  static void checkCast(Class<?> clazz, Object obj) {\n",
+        "31": "  }\n",
+        "40": "    StringBuilder builder = new StringBuilder(\n",
+        "41": "        template.length() + 16 * args.length);\n"
+    }
+}

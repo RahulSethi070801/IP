@@ -1,0 +1,4 @@
+ForwardingImmutableList
+Insertions: [21, 34, 38, 73]
+Deletions: [21, 34, 38, 73]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ForwardingImmutableList.java

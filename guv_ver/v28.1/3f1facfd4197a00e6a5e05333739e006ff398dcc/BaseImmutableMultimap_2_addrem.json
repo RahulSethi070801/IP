@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "21": " * A dummy superclass of {@link ImmutableMultimap} that can be instanceof'd without ProGuard\n",
+        "22": " * retaining additional implementation details of {@link ImmutableMultimap}.\n"
+    },
+    "removed": {
+        "21": " * A dummy superclass of {@link ImmutableMultimap} that can be instanceof'd without ProGuard retaining\n",
+        "22": " * additional implementation details of {@link ImmutableMultimap}.\n"
+    }
+}

@@ -1,0 +1,5 @@
+
+   * Appends to {@code builder} the string representation of each of the remaining arguments.
+   * Identical to {@link #appendTo(Appendable, Object, Object, Object...)}, except that it does not
+   * throw {@link IOException}.
+   

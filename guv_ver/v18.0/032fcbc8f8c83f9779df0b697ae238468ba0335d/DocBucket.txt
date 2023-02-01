@@ -1,0 +1,40 @@
+com.google.common.util.concurrent.ServiceManager
+startAsync
+public ServiceManager startAsync()
+empty
+ServiceManager
+com.google.common.util.concurrent.AbstractService
+doStop
+protected abstract void doStop()
+empty
+void
+com.google.common.util.concurrent.ServiceManager
+stopAsync
+public ServiceManager stopAsync()
+empty
+ServiceManager
+com.google.common.util.concurrent.Service
+stopping
+public void stopping(State from)
+State
+void
+com.google.common.util.concurrent.ServiceManager
+addListener
+public void addListener(Listener listener, Executor executor)
+Listener,Executor
+void
+com.google.common.util.concurrent.AbstractService
+doStart
+protected abstract void doStart()
+empty
+void
+com.google.common.util.concurrent.Service
+starting
+public void starting()
+empty
+void
+com.google.common.util.concurrent.ServiceManager
+addListener
+public void addListener(Listener listener)
+Listener
+void

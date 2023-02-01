@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "31": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "265": "  @CanIgnoreReturnValue\n",
+        "279": "  @CanIgnoreReturnValue\n",
+        "441": "  private static void checkPermits(int permits) {\n"
+    },
+    "removed": {
+        "438": "  private static int checkPermits(int permits) {\n",
+        "440": "    return permits;\n"
+    }
+}

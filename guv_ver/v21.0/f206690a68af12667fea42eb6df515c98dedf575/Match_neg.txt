@@ -1,0 +1,6 @@
+void setNextExpirable(ReferenceEntry<K, V> next)
+void preWriteCleanup()
+
+SoftExpirableEvictableEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceEntry<K, V> getEntry(@Nullable Object key)
+

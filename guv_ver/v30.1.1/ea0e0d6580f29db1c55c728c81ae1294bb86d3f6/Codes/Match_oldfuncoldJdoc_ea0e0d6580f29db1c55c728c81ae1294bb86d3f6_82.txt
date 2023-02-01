@@ -1,0 +1,11 @@
+
+   * Returns an unmodifiable view of the specified sorted multiset. Query operations on the returned
+   * multiset "read through" to the specified multiset, and attempts to modify the returned multiset
+   * result in an {@link UnsupportedOperationException}.
+   *
+   * <p>The returned multiset will be serializable if the specified multiset is serializable.
+   *
+   * @param sortedMultiset the sorted multiset for which an unmodifiable view is to be generated
+   * @return an unmodifiable view of the multiset
+   * @since 11.0
+   

@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "29": "@SuppressWarnings(\"serial\") // Serialization only done in GWT.\n",
+        "38": "  @Override\n",
+        "39": "  public UnmodifiableIterator<E> iterator() {\n",
+        "43": "  @Override\n",
+        "44": "  public boolean contains(@Nullable Object object) {\n",
+        "48": "  @Override\n",
+        "49": "  public boolean containsAll(Collection<?> targets) {\n",
+        "53": "  @Override\n",
+        "54": "  public int size() {\n",
+        "58": "  @Override\n",
+        "59": "  public boolean isEmpty() {\n",
+        "63": "  @Override\n",
+        "64": "  public Object[] toArray() {\n",
+        "68": "  @Override\n",
+        "69": "  public <T> T[] toArray(T[] other) {\n",
+        "73": "  @Override\n",
+        "74": "  public String toString() {\n",
+        "80": "  @Override\n",
+        "81": "  public int hashCode() {\n"
+    },
+    "removed": {
+        "29": "@SuppressWarnings(\"serial\")  // Serialization only done in GWT.\n",
+        "38": "  @Override public UnmodifiableIterator<E> iterator() {\n",
+        "42": "  @Override public boolean contains(@Nullable Object object) {\n",
+        "46": "  @Override public boolean containsAll(Collection<?> targets) {\n",
+        "50": "  @Override public int size() {\n",
+        "54": "  @Override public boolean isEmpty() {\n",
+        "58": "  @Override public Object[] toArray() {\n",
+        "62": "  @Override public <T> T[] toArray(T[] other) {\n",
+        "66": "  @Override public String toString() {\n",
+        "72": "  @Override public int hashCode() {\n"
+    }
+}

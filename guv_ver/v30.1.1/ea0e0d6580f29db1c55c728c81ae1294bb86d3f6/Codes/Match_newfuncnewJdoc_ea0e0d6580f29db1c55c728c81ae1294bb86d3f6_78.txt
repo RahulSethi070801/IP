@@ -1,0 +1,1 @@
+ Removes the maximum node from this subtree to be reused elsewhere

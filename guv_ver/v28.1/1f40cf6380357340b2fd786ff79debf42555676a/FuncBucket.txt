@@ -1,0 +1,15 @@
+com.google.common.collect.ArrayTable
+ArrayTable
+private ArrayTable(Iterable<? extends R> rowKeys, Iterable<? extends C> columnKeys)
+Iterable,Iterable
+constructor
+com.google.common.collect.ArrayTable
+ArrayTable
+private ArrayTable(ArrayTable<R, C, V> table)
+ArrayTable
+constructor
+com.google.common.collect.ArrayTable
+isEmpty
+public boolean isEmpty()
+empty
+boolean

@@ -1,0 +1,10 @@
+com.google.common.hash.Hashing
+md5
+public static HashFunction md5()
+empty
+HashFunction
+com.google.common.hash.Hashing
+sha1
+public static HashFunction sha1()
+empty
+HashFunction

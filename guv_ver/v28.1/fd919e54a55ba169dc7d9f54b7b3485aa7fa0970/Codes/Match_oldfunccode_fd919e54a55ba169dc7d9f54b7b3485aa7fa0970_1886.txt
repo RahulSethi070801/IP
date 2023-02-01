@@ -1,0 +1,4 @@
+@Override
+public void forEach(BiConsumer<? super K, ? super V> action) {
+    delegate.forEach(action);
+}

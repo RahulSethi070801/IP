@@ -1,0 +1,5 @@
+
+   * Returns the specified comparator if not null; otherwise returns {@code Ordering.natural()}.
+   * This method is an abomination of generics; the only purpose of this method is to contain the
+   * ugly type-casting in one place.
+   

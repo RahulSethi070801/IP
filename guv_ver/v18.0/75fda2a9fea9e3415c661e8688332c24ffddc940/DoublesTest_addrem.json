@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "23": "import com.google.common.base.Converter;\n",
+        "396": "\n",
+        "397": "  public void testStringConverter_convert() {\n",
+        "398": "    Converter<String, Double> converter = Doubles.stringConverter();\n",
+        "399": "    assertEquals((Double) 1.0, converter.convert(\"1.0\"));\n",
+        "400": "    assertEquals((Double) 0.0, converter.convert(\"0.0\"));\n",
+        "401": "    assertEquals((Double) (-1.0), converter.convert(\"-1.0\"));\n",
+        "402": "    assertEquals((Double) 1.0, converter.convert(\"1\"));\n",
+        "403": "    assertEquals((Double) 0.0, converter.convert(\"0\"));\n",
+        "404": "    assertEquals((Double) (-1.0), converter.convert(\"-1\"));\n",
+        "405": "    assertEquals((Double) 1e6, converter.convert(\"1e6\"));\n",
+        "406": "    assertEquals((Double) 1e-6, converter.convert(\"1e-6\"));\n",
+        "407": "  }\n",
+        "408": "\n",
+        "409": "  public void testStringConverter_convertError() {\n",
+        "410": "    try {\n",
+        "411": "      Doubles.stringConverter().convert(\"notanumber\");\n",
+        "412": "      fail();\n",
+        "413": "    } catch (NumberFormatException expected) {\n",
+        "414": "    }\n",
+        "415": "  }\n",
+        "416": "\n",
+        "417": "  public void testStringConverter_nullConversions() {\n",
+        "418": "    assertNull(Doubles.stringConverter().convert(null));\n",
+        "419": "    assertNull(Doubles.stringConverter().reverse().convert(null));\n",
+        "420": "  }\n",
+        "422": "\n"
+    },
+    "removed": {}
+}

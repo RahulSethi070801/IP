@@ -1,0 +1,4 @@
+public static <V> void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor) {
+    Preconditions.checkNotNull(callback);
+    future.addListener(new CallbackListener<V>(future, callback), executor);
+}

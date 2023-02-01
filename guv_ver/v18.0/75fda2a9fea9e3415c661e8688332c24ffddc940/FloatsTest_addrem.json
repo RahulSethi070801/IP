@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "386": "\n",
+        "387": "  public void testStringConverter_convertError() {\n",
+        "388": "    try {\n",
+        "389": "      Floats.stringConverter().convert(\"notanumber\");\n",
+        "390": "      fail();\n",
+        "391": "    } catch (NumberFormatException expected) {\n",
+        "392": "    }\n",
+        "393": "  }\n",
+        "394": "\n",
+        "395": "  public void testStringConverter_nullConversions() {\n",
+        "396": "    assertNull(Floats.stringConverter().convert(null));\n",
+        "397": "    assertNull(Floats.stringConverter().reverse().convert(null));\n",
+        "398": "  }\n",
+        "400": "\n"
+    },
+    "removed": {}
+}

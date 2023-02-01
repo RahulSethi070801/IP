@@ -1,0 +1,5 @@
+
+   * Returns the <a href="http://en.wikipedia.org/wiki/Filename_extension">file extension</a> for
+   * the file at the given path, or the empty string if the file has no extension. The result does
+   * not include the '{@code .}'.
+   

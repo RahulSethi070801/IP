@@ -1,0 +1,9 @@
+
+     * Adds all elements of {@code graph} to the graph being built.
+     *
+     * @throws IllegalArgumentException under either of two conditions:
+     *     (1) the {@code GraphConfig} objects held by the graph being built and by {@code graph}
+     *     are not compatible
+     *     (2) calling {@code Graph.addEdge(e, n1, n2)} on the graph being built throws IAE
+     * @see Graph#addEdge
+     

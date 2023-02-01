@@ -1,0 +1,7 @@
+
+   * Returns the contained instance if it is present; {@code null} otherwise. If the instance is
+   * known to be present, use {@link #get()} instead.
+   *
+   * <p><b>Comparison to {@code java.util.Optional}:</b> this method is equivalent to Java 8's
+   * {@code Optional.orElse(null)}.
+   

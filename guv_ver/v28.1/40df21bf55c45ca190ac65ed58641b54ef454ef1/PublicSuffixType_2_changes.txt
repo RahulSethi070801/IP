@@ -1,0 +1,4 @@
+PublicSuffixType_2
+Insertions: [17, 21, 22, 23, 24, 25, 26, 28, 30, 32, 34, 35, 67]
+Deletions: [20, 23, 25, 27, 28, 60]
+guava/src/com/google/thirdparty/publicsuffix/PublicSuffixType.java

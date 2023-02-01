@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "25": "import javax.annotation.CheckForNull;\n",
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "35": "@ElementTypesAreNonnullByDefault\n",
+        "36": "abstract class DescendingMultiset<E extends @Nullable Object> extends ForwardingMultiset<E>\n",
+        "37": "    implements SortedMultiset<E> {\n",
+        "40": "  @CheckForNull private transient Comparator<? super E> comparator;\n",
+        "51": "  @CheckForNull private transient NavigableSet<E> elementSet;\n",
+        "63": "  @CheckForNull\n",
+        "69": "  @CheckForNull\n",
+        "75": "  public SortedMultiset<E> headMultiset(@ParametricNullness E toElement, BoundType boundType) {\n",
+        "81": "      @ParametricNullness E fromElement,\n",
+        "82": "      BoundType fromBoundType,\n",
+        "83": "      @ParametricNullness E toElement,\n",
+        "84": "      BoundType toBoundType) {\n",
+        "91": "  public SortedMultiset<E> tailMultiset(@ParametricNullness E fromElement, BoundType boundType) {\n",
+        "106": "  @CheckForNull\n",
+        "112": "  @CheckForNull\n",
+        "119": "  @CheckForNull private transient Set<Entry<E>> entrySet;\n",
+        "154": "  public @Nullable Object[] toArray() {\n",
+        "159": "  /*\n",
+        "160": "   * Our checker says \"found: T[]; required: T[].\" That sounds bogus. I discuss a possible reason\n",
+        "161": "   * for this error in https://github.com/jspecify/checker-framework/issues/10.\n",
+        "162": "   */\n",
+        "163": "  @SuppressWarnings(\"nullness\")\n",
+        "164": "  public <T extends @Nullable Object> T[] toArray(T[] array) {\n"
+    },
+    "removed": {
+        "25": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "34": "abstract class DescendingMultiset<E> extends ForwardingMultiset<E> implements SortedMultiset<E> {\n",
+        "37": "  @NullableDecl private transient Comparator<? super E> comparator;\n",
+        "48": "  @NullableDecl private transient NavigableSet<E> elementSet;\n",
+        "70": "  public SortedMultiset<E> headMultiset(E toElement, BoundType boundType) {\n",
+        "76": "      E fromElement, BoundType fromBoundType, E toElement, BoundType toBoundType) {\n",
+        "83": "  public SortedMultiset<E> tailMultiset(E fromElement, BoundType boundType) {\n",
+        "109": "  @NullableDecl private transient Set<Entry<E>> entrySet;\n",
+        "144": "  public Object[] toArray() {\n",
+        "149": "  public <T> T[] toArray(T[] array) {\n"
+    }
+}

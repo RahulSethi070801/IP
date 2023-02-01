@@ -1,0 +1,3 @@
+public static <E> CompactHashSet<E> create() {
+    return new CompactHashSet<E>();
+}

@@ -1,0 +1,4 @@
+AbstractPackageSanityTestsTest_2
+Insertions: [37, 38, 39, 40, 51, 57, 78, 79]
+Deletions: [37, 38, 39, 40, 41, 42, 43, 44, 55, 56, 62, 63, 84, 85, 86, 87]
+guava-testlib/test/com/google/common/testing/AbstractPackageSanityTestsTest.java

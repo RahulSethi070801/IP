@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "36": " *   MutableBasicGraph<Integer> graph\n",
+        "37": " *       = BasicGraphBuilder.directed().nodeOrder(ElementOrder.<Integer>natural()).build();\n"
+    },
+    "removed": {
+        "36": " *   MutableGraph<Integer> graph\n",
+        "37": " *       = GraphBuilder.directed().nodeOrder(ElementOrder.<Integer>natural()).build();\n"
+    }
+}

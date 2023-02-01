@@ -1,0 +1,14 @@
+public static void close(@NullableDecl Closeable closeable, boolean swallowIOException) throws IOException {
+    if (closeable == null) {
+        return;
+    }
+    try {
+        closeable.close();
+    } catch (IOException e) {
+        if (swallowIOException) {
+            logger.log(Level.WARNING, "IOException thrown while closing Closeable.", e);
+        } else {
+            throw e;
+        }
+    }
+}

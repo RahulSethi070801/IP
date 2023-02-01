@@ -1,0 +1,12 @@
+private static boolean hashFloodingDetected(Multisets.ImmutableEntry<?>[] hashTable) {
+    for (int i = 0; i < hashTable.length; i++) {
+        int bucketLength = 0;
+        for (Multisets.ImmutableEntry<?> entry = hashTable[i]; entry != null; entry = entry.nextInBucket()) {
+            bucketLength++;
+            if (bucketLength > MAX_HASH_BUCKET_LENGTH) {
+                return true;
+            }
+        }
+    }
+    return false;
+}

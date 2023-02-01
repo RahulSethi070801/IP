@@ -1,0 +1,4 @@
+RegularImmutableMap_2
+Insertions: [47, 58, 59, 60, 114, 115, 116]
+Deletions: [47, 48, 59, 60, 61, 115, 116, 117]
+guava/src/com/google/common/collect/RegularImmutableMap.java

@@ -1,0 +1,4 @@
+public static void copy(File from, File to) throws IOException {
+    checkArgument(!from.equals(to), "Source %s and destination %s must be different", from, to);
+    asByteSource(from).copyTo(asByteSink(to));
+}

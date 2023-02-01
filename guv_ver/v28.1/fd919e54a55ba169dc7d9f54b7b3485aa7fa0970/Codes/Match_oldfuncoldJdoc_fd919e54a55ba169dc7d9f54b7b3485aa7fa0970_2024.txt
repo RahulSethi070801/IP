@@ -1,0 +1,4 @@
+
+     * Returns the {@link #sum} as an {@code int} after a narrowing
+     * primitive conversion.
+     

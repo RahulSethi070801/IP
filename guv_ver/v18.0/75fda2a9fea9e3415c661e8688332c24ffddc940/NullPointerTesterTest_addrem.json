@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "23": "import com.google.common.base.Converter;\n",
+        "1189": "  private static class ConverterDefaultValueChecker\n",
+        "1190": "      extends DefaultValueChecker {\n",
+        "1191": "\n",
+        "1192": "    @SuppressWarnings(\"unused\") // called by NullPointerTester\n",
+        "1193": "    public void checkArray(Converter<String, Integer> c, String s) {\n",
+        "1194": "      calledWith(c, s);\n",
+        "1195": "    }\n",
+        "1196": "\n",
+        "1197": "    void check() {\n",
+        "1198": "      runTester();\n",
+        "1199": "      @SuppressWarnings(\"unchecked\") // We are checking it anyway\n",
+        "1200": "      Converter<String, Integer> defaultConverter = (Converter<String, Integer>)\n",
+        "1201": "          getDefaultParameterValue(0);\n",
+        "1202": "      assertEquals(Integer.valueOf(0), defaultConverter.convert(\"anything\"));\n",
+        "1203": "      assertEquals(\"\", defaultConverter.reverse().convert(123));\n",
+        "1204": "      assertNull(defaultConverter.convert(null));\n",
+        "1205": "      assertNull(defaultConverter.reverse().convert(null));\n",
+        "1206": "    }\n",
+        "1207": "  }\n",
+        "1208": "\n",
+        "1209": "  public void testConverterDefaultValue() {\n",
+        "1210": "    new ConverterDefaultValueChecker().check();\n",
+        "1211": "  }\n",
+        "1212": "\n"
+    },
+    "removed": {}
+}

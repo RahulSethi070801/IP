@@ -1,0 +1,4 @@
+HashingInputStream_2
+Insertions: [84]
+Deletions: [84, 85, 86]
+guava/src/com/google/common/hash/HashingInputStream.java

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "26": "import javax.annotation.CheckForNull;\n",
+        "36": "@ElementTypesAreNonnullByDefault\n",
+        "73": "  public static void close(@CheckForNull Closeable closeable, boolean swallowIOException)\n",
+        "103": "  public static void closeQuietly(@CheckForNull InputStream inputStream) {\n",
+        "124": "  public static void closeQuietly(@CheckForNull Reader reader) {\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "72": "  public static void close(@NullableDecl Closeable closeable, boolean swallowIOException)\n",
+        "102": "  public static void closeQuietly(@NullableDecl InputStream inputStream) {\n",
+        "123": "  public static void closeQuietly(@NullableDecl Reader reader) {\n"
+    }
+}

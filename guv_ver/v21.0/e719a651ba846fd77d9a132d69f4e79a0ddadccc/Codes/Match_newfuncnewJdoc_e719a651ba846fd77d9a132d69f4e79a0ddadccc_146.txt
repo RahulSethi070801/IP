@@ -1,0 +1,8 @@
+
+   * Returns a buffered reader that reads from a file using the given character set.
+   *
+   * @param file the file to read from
+   * @param charset the charset used to decode the input stream; see {@link StandardCharsets} for
+   *     helpful predefined constants
+   * @return the buffered reader
+   

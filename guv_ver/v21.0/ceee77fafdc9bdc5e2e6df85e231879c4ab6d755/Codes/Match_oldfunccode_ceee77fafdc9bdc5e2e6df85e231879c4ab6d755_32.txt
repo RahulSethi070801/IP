@@ -1,0 +1,17 @@
+private static boolean subgraphHasCycle(Graph<?> graph, Map<Object, NodeVisitState> visitedNodes, Object node, @Nullable Object previousNode) {
+    NodeVisitState state = visitedNodes.get(node);
+    if (state == NodeVisitState.COMPLETE) {
+        return false;
+    }
+    if (state == NodeVisitState.PENDING) {
+        return true;
+    }
+    visitedNodes.put(node, NodeVisitState.PENDING);
+    for (Object nextNode : graph.successors(node)) {
+        if (canTraverseWithoutReusingEdge(graph, nextNode, previousNode) && subgraphHasCycle(graph, visitedNodes, nextNode, node)) {
+            return true;
+        }
+    }
+    visitedNodes.put(node, NodeVisitState.COMPLETE);
+    return false;
+}

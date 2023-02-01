@@ -1,0 +1,1 @@
+abstract <K, V> ReferenceEntry<K, V> newEntry(Segment<K, V> segment, K key, int hash, @NullableDecl ReferenceEntry<K, V> next);

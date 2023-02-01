@@ -1,0 +1,10 @@
+com.google.common.io.CharSource$ConcatenatedCharSource
+ConcatenatedCharSource
+ConcatenatedCharSource(Iterable<? extends CharSource> sources)
+Iterable
+constructor
+com.google.common.io.ByteSource$ConcatenatedByteSource
+ConcatenatedByteSource
+ConcatenatedByteSource(Iterable<? extends ByteSource> sources)
+Iterable
+constructor

@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #remove} in terms of the {@code iterator()} method of {@link
+   * #tailSet}. If you override {@link #tailSet}, you may wish to override {@link #remove} to
+   * forward to this implementation.
+   *
+   * @since 7.0
+   

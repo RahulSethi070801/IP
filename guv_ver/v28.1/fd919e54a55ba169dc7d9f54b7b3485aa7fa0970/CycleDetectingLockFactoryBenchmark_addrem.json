@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "32": "  @Param({\"2\", \"3\", \"4\", \"5\", \"10\"})\n",
+        "33": "  int lockNestingDepth;\n",
+        "41": "    this.factory = CycleDetectingLockFactory.newInstance(CycleDetectingLockFactory.Policies.WARN);\n",
+        "52": "  @Benchmark\n",
+        "53": "  void unorderedPlainLocks(int reps) {\n",
+        "57": "  @Benchmark\n",
+        "58": "  void unorderedCycleDetectingLocks(int reps) {\n",
+        "69": "  @Benchmark\n",
+        "70": "  void orderedPlainLocks(int reps) {\n",
+        "74": "  @Benchmark\n",
+        "75": "  void orderedCycleDetectingLocks(int reps) {\n"
+    },
+    "removed": {
+        "32": "  @Param({\"2\",\"3\",\"4\",\"5\",\"10\"}) int lockNestingDepth;\n",
+        "40": "    this.factory = CycleDetectingLockFactory.newInstance(\n",
+        "41": "        CycleDetectingLockFactory.Policies.WARN);\n",
+        "52": "  @Benchmark void unorderedPlainLocks(int reps) {\n",
+        "56": "  @Benchmark void unorderedCycleDetectingLocks(int reps) {\n",
+        "67": "  @Benchmark void orderedPlainLocks(int reps) {\n",
+        "71": "  @Benchmark void orderedCycleDetectingLocks(int reps) {\n"
+    }
+}

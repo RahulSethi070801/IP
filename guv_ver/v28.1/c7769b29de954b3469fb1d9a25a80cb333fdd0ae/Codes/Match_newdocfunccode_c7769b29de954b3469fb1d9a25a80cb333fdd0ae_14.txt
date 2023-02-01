@@ -1,0 +1,6 @@
+@SuppressWarnings("CheckReturnValue")
+@Override
+public <T> T read(ByteProcessor<T> processor) throws IOException {
+    processor.processBytes(bytes, offset, length);
+    return processor.getResult();
+}

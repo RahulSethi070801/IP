@@ -1,0 +1,3 @@
+
+   * Returns the children of this node, in left-to-right order.
+   

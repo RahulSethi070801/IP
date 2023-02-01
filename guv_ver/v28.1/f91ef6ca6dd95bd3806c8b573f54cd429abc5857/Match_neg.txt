@@ -1,0 +1,6 @@
+UnmodifiableIterator<T> preOrderIterator(T root)
+public static CheckedFuture<V, X> immediateCheckedFuture(@NullableDecl V value)
+
+protected T computeNext()
+public static CheckedFuture<V, X> immediateFailedCheckedFuture(X exception)
+

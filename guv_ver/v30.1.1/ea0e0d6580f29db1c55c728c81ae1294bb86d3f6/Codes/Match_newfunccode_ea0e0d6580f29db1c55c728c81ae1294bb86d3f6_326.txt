@@ -1,0 +1,52 @@
+@CheckForNull
+AvlNode<E> setCount(Comparator<? super E> comparator, @ParametricNullness E e, int expectedCount, int newCount, int[] result) {
+    int cmp = comparator.compare(e, getElement());
+    if (cmp < 0) {
+        AvlNode<E> initLeft = left;
+        if (initLeft == null) {
+            result[0] = 0;
+            if (expectedCount == 0 && newCount > 0) {
+                return addLeftChild(e, newCount);
+            }
+            return this;
+        }
+        left = initLeft.setCount(comparator, e, expectedCount, newCount, result);
+        if (result[0] == expectedCount) {
+            if (newCount == 0 && result[0] != 0) {
+                this.distinctElements--;
+            } else if (newCount > 0 && result[0] == 0) {
+                this.distinctElements++;
+            }
+            this.totalCount += newCount - result[0];
+        }
+        return rebalance();
+    } else if (cmp > 0) {
+        AvlNode<E> initRight = right;
+        if (initRight == null) {
+            result[0] = 0;
+            if (expectedCount == 0 && newCount > 0) {
+                return addRightChild(e, newCount);
+            }
+            return this;
+        }
+        right = initRight.setCount(comparator, e, expectedCount, newCount, result);
+        if (result[0] == expectedCount) {
+            if (newCount == 0 && result[0] != 0) {
+                this.distinctElements--;
+            } else if (newCount > 0 && result[0] == 0) {
+                this.distinctElements++;
+            }
+            this.totalCount += newCount - result[0];
+        }
+        return rebalance();
+    }
+    result[0] = elemCount;
+    if (expectedCount == elemCount) {
+        if (newCount == 0) {
+            return deleteMe();
+        }
+        this.totalCount += newCount - elemCount;
+        this.elemCount = newCount;
+    }
+    return this;
+}

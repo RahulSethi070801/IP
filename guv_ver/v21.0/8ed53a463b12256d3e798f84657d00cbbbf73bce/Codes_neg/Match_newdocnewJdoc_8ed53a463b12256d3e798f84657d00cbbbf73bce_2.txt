@@ -1,0 +1,7 @@
+
+   * Returns the edges that are {@linkplain #incidentEdges(Object) incident} in this graph
+   * to both nodes {@code node1} and {@code node2}.
+   *
+   * @throws IllegalArgumentException if {@code node1} or {@code node2} is not an element
+   *     of this graph
+   

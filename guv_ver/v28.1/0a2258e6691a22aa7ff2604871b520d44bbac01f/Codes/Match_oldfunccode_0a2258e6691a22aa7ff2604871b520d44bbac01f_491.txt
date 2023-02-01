@@ -1,0 +1,13 @@
+@NullableDecl
+V getLiveValue(E entry) {
+    if (entry.getKey() == null) {
+        tryDrainReferenceQueues();
+        return null;
+    }
+    V value = entry.getValue();
+    if (value == null) {
+        tryDrainReferenceQueues();
+        return null;
+    }
+    return value;
+}

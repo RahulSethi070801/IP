@@ -1,0 +1,4 @@
+ImmutableList_2
+Insertions: [204]
+Deletions: [204, 205]
+guava/src/com/google/common/collect/ImmutableList.java

@@ -1,0 +1,3 @@
+public static Escaper xmlContentEscaper() {
+    return XML_CONTENT_ESCAPER;
+}

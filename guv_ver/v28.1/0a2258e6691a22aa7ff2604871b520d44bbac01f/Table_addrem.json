@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "68": "      @Nullable @CompatibleWith(\"R\") Object rowKey,\n",
+        "69": "      @Nullable @CompatibleWith(\"C\") Object columnKey);\n",
+        "76": "  boolean containsRow(@Nullable @CompatibleWith(\"R\") Object rowKey);\n",
+        "83": "  boolean containsColumn(@Nullable @CompatibleWith(\"C\") Object columnKey);\n",
+        "90": "  boolean containsValue(@Nullable @CompatibleWith(\"V\") Object value);\n",
+        "100": "      @Nullable @CompatibleWith(\"R\") Object rowKey,\n",
+        "101": "      @Nullable @CompatibleWith(\"C\") Object columnKey);\n",
+        "114": "  boolean equals(@Nullable Object obj);\n",
+        "139": "  @Nullable\n",
+        "158": "  @Nullable\n",
+        "160": "      @Nullable @CompatibleWith(\"R\") Object rowKey,\n",
+        "161": "      @Nullable @CompatibleWith(\"C\") Object columnKey);\n",
+        "255": "    @Nullable\n",
+        "259": "    @Nullable\n",
+        "263": "    @Nullable\n",
+        "271": "    boolean equals(@Nullable Object obj);\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "68": "      @NullableDecl @CompatibleWith(\"R\") Object rowKey,\n",
+        "69": "      @NullableDecl @CompatibleWith(\"C\") Object columnKey);\n",
+        "76": "  boolean containsRow(@NullableDecl @CompatibleWith(\"R\") Object rowKey);\n",
+        "83": "  boolean containsColumn(@NullableDecl @CompatibleWith(\"C\") Object columnKey);\n",
+        "90": "  boolean containsValue(@NullableDecl @CompatibleWith(\"V\") Object value);\n",
+        "100": "      @NullableDecl @CompatibleWith(\"R\") Object rowKey,\n",
+        "101": "      @NullableDecl @CompatibleWith(\"C\") Object columnKey);\n",
+        "114": "  boolean equals(@NullableDecl Object obj);\n",
+        "139": "  @NullableDecl\n",
+        "158": "  @NullableDecl\n",
+        "160": "      @NullableDecl @CompatibleWith(\"R\") Object rowKey,\n",
+        "161": "      @NullableDecl @CompatibleWith(\"C\") Object columnKey);\n",
+        "255": "    @NullableDecl\n",
+        "259": "    @NullableDecl\n",
+        "263": "    @NullableDecl\n",
+        "271": "    boolean equals(@NullableDecl Object obj);\n"
+    }
+}

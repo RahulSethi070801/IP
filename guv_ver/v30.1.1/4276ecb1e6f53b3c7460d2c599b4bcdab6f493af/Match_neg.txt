@@ -1,0 +1,6 @@
+public Stream<String> splitToStream(CharSequence sequence)
+public Iterable<String> split(final CharSequence sequence)
+
+public Stream<String> splitToStream(CharSequence sequence)
+public Iterable<String> split(final CharSequence sequence)
+

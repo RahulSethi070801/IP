@@ -1,0 +1,4 @@
+ImmutableDoubleArray_2
+Insertions: [141]
+Deletions: [141, 142]
+guava/src/com/google/common/primitives/ImmutableDoubleArray.java

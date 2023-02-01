@@ -1,0 +1,4 @@
+HashBiMap
+Insertions: [61, 130, 131, 552]
+Deletions: [61, 62, 63, 132, 133, 554, 555]
+guava/src/com/google/common/collect/HashBiMap.java

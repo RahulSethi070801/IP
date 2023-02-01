@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "278": "    Iterator<Entry<String, Integer>> entries = map.entries().iterator();\n",
+        "279": "    Entry<String, Integer> entry = entries.next();\n",
+        "299": "    Iterator<Entry<String, Collection<Integer>>> entries\n",
+        "301": "    Entry<String, Collection<Integer>> entry = entries.next();\n",
+        "320": "    Collection<Entry<String, Integer>> entries = multimap.entries();\n",
+        "321": "    Iterator<Entry<String, Integer>> iterator = entries.iterator();\n",
+        "322": "    Entry<String, Integer> entrya = iterator.next();\n",
+        "323": "    Entry<String, Integer> entryb = iterator.next();\n"
+    },
+    "removed": {
+        "44": "import java.util.Map;\n",
+        "279": "    Iterator<Map.Entry<String, Integer>> entries = map.entries().iterator();\n",
+        "280": "    Map.Entry<String, Integer> entry = entries.next();\n",
+        "300": "    Iterator<Map.Entry<String, Collection<Integer>>> entries\n",
+        "302": "    Map.Entry<String, Collection<Integer>> entry = entries.next();\n",
+        "321": "    Collection<Map.Entry<String, Integer>> entries = multimap.entries();\n",
+        "322": "    Iterator<Map.Entry<String, Integer>> iterator = entries.iterator();\n",
+        "323": "    Map.Entry<String, Integer> entrya = iterator.next();\n",
+        "324": "    Map.Entry<String, Integer> entryb = iterator.next();\n"
+    }
+}

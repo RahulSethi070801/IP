@@ -1,0 +1,9 @@
+
+   * Computes the hash code of the {@code file} using {@code hashFunction}.
+   *
+   * @param file the file to read
+   * @param hashFunction the hash function to use to hash the data
+   * @return the {@link HashCode} of all of the bytes in the file
+   * @throws IOException if an I/O error occurs
+   * @since 12.0
+   

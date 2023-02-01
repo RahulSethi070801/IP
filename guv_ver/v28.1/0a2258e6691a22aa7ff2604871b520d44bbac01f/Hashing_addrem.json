@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "53": "  static int smearedHash(@Nullable Object o) {\n"
+    },
+    "removed": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "53": "  static int smearedHash(@NullableDecl Object o) {\n"
+    }
+}

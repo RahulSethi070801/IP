@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "73": "  @Override\n",
+        "74": "  protected void setUp() throws Exception {\n",
+        "81": "     * We'll give ourselves a pass on testing all the possible ways of breaking the constraint,\n",
+        "82": "     * because we know that newClassMap() is implemented using ConstrainedMap which is itself\n",
+        "83": "     * well-tested. A purist would object to this, but what can I say, we're dirty cheaters.\n"
+    },
+    "removed": {
+        "73": "  @Override protected void setUp() throws Exception {\n",
+        "80": "     * We'll give ourselves a pass on testing all the possible ways of\n",
+        "81": "     * breaking the constraint, because we know that newClassMap() is\n",
+        "82": "     * implemented using ConstrainedMap which is itself well-tested.\n",
+        "83": "     * A purist would object to this, but what can I say, we're dirty\n",
+        "84": "     * cheaters.\n",
+        "86": "\n"
+    }
+}

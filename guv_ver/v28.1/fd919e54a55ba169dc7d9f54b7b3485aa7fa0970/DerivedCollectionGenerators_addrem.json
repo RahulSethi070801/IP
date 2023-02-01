@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "97": "    public MapKeySetGenerator(OneSizeTestContainerGenerator<Map<K, V>, Entry<K, V>> mapGenerator) {\n",
+        "241": "      // noinspection UnnecessaryLocalVariable\n",
+        "318": "  /** Two bounds (from and to) define how to build a subMap. */\n",
+        "410": "    /** Calls the smallest subSet overload that filters out the extreme values. */\n"
+    },
+    "removed": {
+        "97": "    public MapKeySetGenerator(\n",
+        "98": "        OneSizeTestContainerGenerator<Map<K, V>, Entry<K, V>> mapGenerator) {\n",
+        "242": "      //noinspection UnnecessaryLocalVariable\n",
+        "319": "  /**\n",
+        "320": "   * Two bounds (from and to) define how to build a subMap.\n",
+        "321": "   */\n",
+        "413": "    /**\n",
+        "414": "     * Calls the smallest subSet overload that filters out the extreme values.\n",
+        "415": "     */\n"
+    }
+}

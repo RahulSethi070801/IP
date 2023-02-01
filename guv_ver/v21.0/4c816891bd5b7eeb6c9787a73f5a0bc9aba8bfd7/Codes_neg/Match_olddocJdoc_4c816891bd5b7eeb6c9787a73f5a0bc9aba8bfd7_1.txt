@@ -1,0 +1,4 @@
+
+   * Remove {@code edge} from the set of outgoing edges. Returns the former successor node,
+   * or null if the edge did not exist.
+   

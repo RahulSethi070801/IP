@@ -1,0 +1,10 @@
+com.google.common.collect.Maps
+uniqueIndex
+public static ImmutableMap<K, V> uniqueIndex(Iterator<V> values, Function<? super V, K> keyFunction)
+Iterator,Function
+ImmutableMap
+com.google.common.collect.Maps
+asMapEntryIterator
+static Iterator<Entry<K, V>> asMapEntryIterator(Set<K> set, final Function<? super K, V> function)
+Set,Function
+Iterator

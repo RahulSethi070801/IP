@@ -1,0 +1,4 @@
+CollectionFuture
+Insertions: [29]
+Deletions: [29, 30, 31]
+android/guava/src/com/google/common/util/concurrent/CollectionFuture.java

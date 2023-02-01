@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "20": "/** Methods factored out so that they can be emulated differently in GWT. */\n"
+    },
+    "removed": {
+        "20": "/**\n",
+        "21": " * Methods factored out so that they can be emulated differently in GWT.\n",
+        "22": " */\n"
+    }
+}

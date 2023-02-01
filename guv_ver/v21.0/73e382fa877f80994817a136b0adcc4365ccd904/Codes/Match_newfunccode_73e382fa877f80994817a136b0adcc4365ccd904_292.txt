@@ -1,0 +1,9 @@
+public static String getFileExtension(Path path) {
+    Path name = path.getFileName();
+    if (name == null) {
+        return "";
+    }
+    String fileName = name.toString();
+    int dotIndex = fileName.lastIndexOf('.');
+    return dotIndex == -1 ? "" : fileName.substring(dotIndex + 1);
+}

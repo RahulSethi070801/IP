@@ -1,0 +1,4 @@
+RegularImmutableList_CustomFieldSerializer
+Insertions: [27]
+Deletions: [27, 28]
+guava-gwt/src/com/google/common/collect/RegularImmutableList_CustomFieldSerializer.java

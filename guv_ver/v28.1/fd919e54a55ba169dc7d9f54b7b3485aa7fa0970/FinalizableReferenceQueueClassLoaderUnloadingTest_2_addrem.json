@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "67": "    public void finalizeReferent() {}\n",
+        "114": "    AtomicReference<WeakReference<?>> sepStopwatchRef =\n",
+        "115": "        new AtomicReference<WeakReference<?>>(\n",
+        "116": "            (WeakReference<?>) sepFwrCons.newInstance(sepStopwatchA.get(), sepFrqA.get()));\n",
+        "167": "      WeakReference<Object> wr =\n",
+        "168": "          new FinalizableWeakReference<Object>(new Integer(23), frq) {\n",
+        "169": "            @Override\n",
+        "170": "            public void finalizeReferent() {\n",
+        "171": "              finalized.release();\n",
+        "172": "            }\n",
+        "173": "          };\n"
+    },
+    "removed": {
+        "67": "    public void finalizeReferent() {\n",
+        "68": "    }\n",
+        "115": "    AtomicReference<WeakReference<?>> sepStopwatchRef = new AtomicReference<WeakReference<?>>(\n",
+        "116": "        (WeakReference<?>) sepFwrCons.newInstance(sepStopwatchA.get(), sepFrqA.get()));\n",
+        "167": "      WeakReference<Object> wr = new FinalizableWeakReference<Object>(new Integer(23), frq) {\n",
+        "168": "        @Override\n",
+        "169": "        public void finalizeReferent() {\n",
+        "170": "          finalized.release();\n",
+        "171": "        }\n",
+        "172": "      };\n"
+    }
+}

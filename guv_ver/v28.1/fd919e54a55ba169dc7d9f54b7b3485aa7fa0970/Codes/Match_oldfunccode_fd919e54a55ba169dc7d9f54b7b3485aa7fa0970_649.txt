@@ -1,0 +1,4 @@
+@Override
+ImmutableSet<K> createKeySet() {
+    return ImmutableSet.unsafeDelegate(delegate.keySet());
+}

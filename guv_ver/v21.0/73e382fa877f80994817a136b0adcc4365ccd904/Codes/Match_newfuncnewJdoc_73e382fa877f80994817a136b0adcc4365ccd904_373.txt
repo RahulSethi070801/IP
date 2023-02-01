@@ -1,0 +1,6 @@
+
+   * {@inheritDoc}
+   *
+   * <p>Elements that occur multiple times in the multiset will be passed to the {@code Consumer}
+   * correspondingly many times, though not necessarily sequentially.
+   

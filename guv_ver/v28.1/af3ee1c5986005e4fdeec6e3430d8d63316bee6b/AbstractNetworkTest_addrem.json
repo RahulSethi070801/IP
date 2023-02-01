@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "123": "   * TODO(user): remove the addNode() calls, that's now contractually guaranteed\n",
+        "124": "   *\n",
+        "134": "  protected boolean addEdge(EndpointPair<Integer> endpoints, String e) {\n",
+        "135": "    network.addNode(endpoints.nodeU());\n",
+        "136": "    network.addNode(endpoints.nodeV());\n",
+        "137": "    return network.addEdge(endpoints, e);\n",
+        "138": "  }\n",
+        "139": "\n"
+    },
+    "removed": {}
+}

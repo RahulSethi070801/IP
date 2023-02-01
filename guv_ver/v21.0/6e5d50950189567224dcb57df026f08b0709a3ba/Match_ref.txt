@@ -1,0 +1,6 @@
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+protected abstract X mapException(Exception e)
+
+public V checkedGet() throws X
+protected abstract X mapException(Exception e)
+

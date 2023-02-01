@@ -1,0 +1,6 @@
+public java.util.Optional<T> toJavaUtil()
+public static Optional<T> fromJavaUtil(@Nullable java.util.Optional<T> javaUtilOptional)
+
+public java.util.Optional<T> toJavaUtil()
+public static Optional<T> fromJavaUtil(@Nullable java.util.Optional<T> javaUtilOptional)
+

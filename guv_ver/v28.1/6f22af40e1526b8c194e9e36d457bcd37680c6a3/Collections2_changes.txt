@@ -1,0 +1,4 @@
+Collections2
+Insertions: [39, 99, 112, 155, 475, 587]
+Deletions: [39, 99, 112, 155, 475, 587]
+android/guava/src/com/google/common/collect/Collections2.java

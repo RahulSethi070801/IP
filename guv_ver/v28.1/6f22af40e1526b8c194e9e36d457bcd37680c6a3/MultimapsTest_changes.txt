@@ -1,0 +1,4 @@
+MultimapsTest
+Insertions: [58, 269, 270, 299, 300]
+Deletions: [57, 269, 270, 299, 300]
+android/guava-tests/test/com/google/common/collect/MultimapsTest.java

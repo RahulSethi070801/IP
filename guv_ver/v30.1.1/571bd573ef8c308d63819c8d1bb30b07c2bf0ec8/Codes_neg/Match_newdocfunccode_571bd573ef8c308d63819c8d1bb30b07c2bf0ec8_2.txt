@@ -1,0 +1,9 @@
+@Override
+public boolean cancel(boolean mayInterruptIfRunning) {
+    lock.lock();
+    try {
+        return currentFuture.cancel(mayInterruptIfRunning);
+    } finally {
+        lock.unlock();
+    }
+}

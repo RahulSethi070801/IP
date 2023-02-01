@@ -1,0 +1,1 @@
+void notifyNewValue(@NullableDecl V newValue);

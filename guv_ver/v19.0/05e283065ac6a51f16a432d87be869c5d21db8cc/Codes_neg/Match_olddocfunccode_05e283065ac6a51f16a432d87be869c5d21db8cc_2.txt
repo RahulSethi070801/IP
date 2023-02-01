@@ -1,0 +1,5 @@
+@Deprecated
+@CheckReturnValue
+public static <V> ListenableFuture<V> withFallback(ListenableFuture<? extends V> input, FutureFallback<? extends V> fallback, Executor executor) {
+    return catchingAsync(input, Throwable.class, asAsyncFunction(fallback), executor);
+}

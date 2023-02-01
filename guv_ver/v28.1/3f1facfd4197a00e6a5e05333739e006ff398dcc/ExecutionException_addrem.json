@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "25": "  protected ExecutionException() {}\n"
+    },
+    "removed": {
+        "25": "  protected ExecutionException() { }\n"
+    }
+}

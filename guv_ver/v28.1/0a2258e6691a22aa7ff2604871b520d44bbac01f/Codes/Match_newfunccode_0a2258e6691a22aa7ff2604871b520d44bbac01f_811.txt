@@ -1,0 +1,4 @@
+@Beta
+protected boolean standardContainsKey(@Nullable Object key) {
+    return Maps.containsKeyImpl(this, key);
+}

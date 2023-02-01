@@ -1,0 +1,4 @@
+Platform_5
+Insertions: [18, 24]
+Deletions: [18, 24]
+guava/src/com/google/common/util/concurrent/Platform.java

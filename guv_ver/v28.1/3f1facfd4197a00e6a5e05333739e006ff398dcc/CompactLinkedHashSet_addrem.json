@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "49": "  /** Creates an empty {@code CompactLinkedHashSet} instance. */\n",
+        "55": "   * Creates a <i>mutable</i> {@code CompactLinkedHashSet} instance containing the elements of the\n",
+        "56": "   * given collection in the order returned by the collection's iterator.\n",
+        "68": "   * Creates a {@code CompactLinkedHashSet} instance containing the given elements in unspecified\n",
+        "69": "   * order.\n",
+        "81": "   * Creates a {@code CompactLinkedHashSet} instance, with a high enough \"initial capacity\" that it\n",
+        "82": "   * <i>should</i> hold {@code expectedSize} elements without rebuilding internal data structures.\n",
+        "86": "   *     expectedSize} elements without resizing\n"
+    },
+    "removed": {
+        "49": "  /**\n",
+        "50": "   * Creates an empty {@code CompactLinkedHashSet} instance.\n",
+        "51": "   */\n",
+        "57": "   * Creates a <i>mutable</i> {@code CompactLinkedHashSet} instance containing the elements\n",
+        "58": "   * of the given collection in the order returned by the collection's iterator.\n",
+        "70": "   * Creates a {@code CompactLinkedHashSet} instance containing the given elements in\n",
+        "71": "   * unspecified order.\n",
+        "83": "   * Creates a {@code CompactLinkedHashSet} instance, with a high enough \"initial capacity\"\n",
+        "84": "   * that it <i>should</i> hold {@code expectedSize} elements without rebuilding internal\n",
+        "85": "   * data structures.\n",
+        "89": "   *         expectedSize} elements without resizing\n"
+    }
+}

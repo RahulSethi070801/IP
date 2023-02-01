@@ -1,0 +1,5 @@
+
+   * Simple, insecure method for deleting the contents of a directory for file systems that don't
+   * support {@code SecureDirectoryStream}. Returns a collection of exceptions that occurred or null
+   * if no exceptions were thrown.
+   

@@ -1,0 +1,3 @@
+public static ByteArrayDataOutput newDataOutput(ByteArrayOutputStream byteArrayOutputSteam) {
+    return new ByteArrayDataOutputStream(checkNotNull(byteArrayOutputSteam));
+}

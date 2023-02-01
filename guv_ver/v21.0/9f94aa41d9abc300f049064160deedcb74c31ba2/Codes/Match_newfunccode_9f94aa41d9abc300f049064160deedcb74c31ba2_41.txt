@@ -1,0 +1,36 @@
+boolean remove(Object key, int hash, Object value) {
+    lock();
+    try {
+        long now = map.ticker.read();
+        preWriteCleanup(now);
+        int newCount = this.count - 1;
+        AtomicReferenceArray<ReferenceEntry<K, V>> table = this.table;
+        int index = hash & (table.length() - 1);
+        ReferenceEntry<K, V> first = table.get(index);
+        for (ReferenceEntry<K, V> e = first; e != null; e = e.getNext()) {
+            K entryKey = e.getKey();
+            if (e.getHash() == hash && entryKey != null && map.keyEquivalence.equivalent(key, entryKey)) {
+                ValueReference<K, V> valueReference = e.getValueReference();
+                V entryValue = valueReference.get();
+                RemovalCause cause;
+                if (map.valueEquivalence.equivalent(value, entryValue)) {
+                    cause = RemovalCause.EXPLICIT;
+                } else if (entryValue == null && valueReference.isActive()) {
+                    cause = RemovalCause.COLLECTED;
+                } else {
+                    return false;
+                }
+                ++modCount;
+                ReferenceEntry<K, V> newFirst = removeValueFromChain(first, e, entryKey, hash, entryValue, valueReference, cause);
+                newCount = this.count - 1;
+                table.set(index, newFirst);
+                this.count = newCount;
+                return (cause == RemovalCause.EXPLICIT);
+            }
+        }
+        return false;
+    } finally {
+        unlock();
+        postWriteCleanup();
+    }
+}

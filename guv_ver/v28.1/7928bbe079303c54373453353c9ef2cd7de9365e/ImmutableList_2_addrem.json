@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "299": "  public static <E> Builder<E> builderWithExpectedSize(int expectedSize) {\n",
+        "300": "    return new Builder<E>(expectedSize);\n",
+        "301": "  }\n",
+        "302": "\n"
+    },
+    "removed": {}
+}

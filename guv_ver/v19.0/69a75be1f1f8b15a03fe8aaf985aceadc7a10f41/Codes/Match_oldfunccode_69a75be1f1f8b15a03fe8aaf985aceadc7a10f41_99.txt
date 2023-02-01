@@ -1,0 +1,4 @@
+@Override
+public final void awaitTerminated(long timeout, TimeUnit unit) throws TimeoutException {
+    delegate.awaitTerminated(timeout, unit);
+}

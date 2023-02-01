@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "49": "    return ref == null ? Optional.<T>absent() : Optional.of(enumClass.cast(ref.get()));\n"
+    },
+    "removed": {
+        "49": "    return ref == null\n",
+        "50": "        ? Optional.<T>absent()\n",
+        "51": "        : Optional.of(enumClass.cast(ref.get()));\n"
+    }
+}

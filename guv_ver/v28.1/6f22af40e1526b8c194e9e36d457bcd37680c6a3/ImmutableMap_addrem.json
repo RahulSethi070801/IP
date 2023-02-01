@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "39": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "490": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "495": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "501": "  public abstract V get(@NullableDecl Object key);\n",
+        "515": "  public final V getOrDefault(@NullableDecl Object key, @NullableDecl V defaultValue) {\n",
+        "621": "    public boolean containsKey(@NullableDecl Object key) {\n",
+        "626": "    public ImmutableSet<V> get(@NullableDecl Object key) {\n",
+        "676": "  public boolean equals(@NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "39": "import javax.annotation.Nullable;\n",
+        "490": "  public boolean containsKey(@Nullable Object key) {\n",
+        "495": "  public boolean containsValue(@Nullable Object value) {\n",
+        "501": "  public abstract V get(@Nullable Object key);\n",
+        "515": "  public final V getOrDefault(@Nullable Object key, @Nullable V defaultValue) {\n",
+        "621": "    public boolean containsKey(@Nullable Object key) {\n",
+        "626": "    public ImmutableSet<V> get(@Nullable Object key) {\n",
+        "676": "  public boolean equals(@Nullable Object object) {\n"
+    }
+}

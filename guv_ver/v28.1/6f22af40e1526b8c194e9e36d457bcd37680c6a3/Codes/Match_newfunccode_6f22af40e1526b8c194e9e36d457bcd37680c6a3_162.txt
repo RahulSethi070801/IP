@@ -1,0 +1,5 @@
+@Override
+public ImmutableSet<V> get(@NullableDecl Object key) {
+    V outerValue = ImmutableMap.this.get(key);
+    return (outerValue == null) ? null : ImmutableSet.of(outerValue);
+}

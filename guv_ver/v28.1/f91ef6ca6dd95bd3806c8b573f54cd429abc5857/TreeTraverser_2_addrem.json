@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "71": " *     <p>This class is scheduled to be removed in April 2018.\n"
+    },
+    "removed": {
+        "71": " *     <p>This class is scheduled to be removed in January 2018.\n",
+        "136": "  // overridden in BinaryTreeTraverser\n",
+        "202": "  // overridden in BinaryTreeTraverser\n"
+    }
+}

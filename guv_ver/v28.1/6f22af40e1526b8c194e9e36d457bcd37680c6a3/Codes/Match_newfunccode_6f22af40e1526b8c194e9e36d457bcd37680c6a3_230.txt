@@ -1,0 +1,8 @@
+public static int frequency(Iterable<?> iterable, @NullableDecl Object element) {
+    if ((iterable instanceof Multiset)) {
+        return ((Multiset<?>) iterable).count(element);
+    } else if ((iterable instanceof Set)) {
+        return ((Set<?>) iterable).contains(element) ? 1 : 0;
+    }
+    return Iterators.frequency(iterable.iterator(), element);
+}

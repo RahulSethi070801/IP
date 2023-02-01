@@ -1,0 +1,4 @@
+@Override
+public Spliterator<Cell<R, C, V>> spliterator() {
+    return cellSpliterator();
+}

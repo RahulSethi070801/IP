@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "22": "import com.google.common.annotations.Beta;\n",
+        "31": "import java.util.stream.Collector;\n",
+        "71": "  @Beta\n",
+        "72": "  public static <E> Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(\n",
+        "73": "      Comparator<? super E> comparator) {\n",
+        "74": "    return CollectCollectors.toImmutableSortedSet(comparator);\n",
+        "75": "  }\n",
+        "76": "\n",
+        "428": "    Builder<E> combine(Builder<E> builder) {\n",
+        "429": "      super.combine(builder);\n",
+        "430": "      return this;\n",
+        "431": "    }\n",
+        "432": "\n"
+    },
+    "removed": {}
+}

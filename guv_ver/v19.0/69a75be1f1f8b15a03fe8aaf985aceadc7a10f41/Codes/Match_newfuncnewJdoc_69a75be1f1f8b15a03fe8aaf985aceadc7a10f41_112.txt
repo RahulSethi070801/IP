@@ -1,0 +1,3 @@
+
+   * Creates a {@code CycleDetectingLockFactory.WithExplicitOrdering<E>}.
+   

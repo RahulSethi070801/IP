@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "57": "    assertThat(graph.incidentNodes(E11)).containsExactly(N1, N1);\n"
+    },
+    "removed": {
+        "57": "    assertThat(graph.incidentNodes(E11)).containsExactly(N1);\n"
+    }
+}

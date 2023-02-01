@@ -1,0 +1,6 @@
+public void addAll(Stats values) {
+    if (values.count() == 0) {
+        return;
+    }
+    merge(values.count(), values.mean(), values.sumOfSquaresOfDeltas(), values.min(), values.max());
+}

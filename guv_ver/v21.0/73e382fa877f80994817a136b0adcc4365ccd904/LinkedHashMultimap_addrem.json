@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "39": "import java.util.Map.Entry;\n",
+        "42": "import java.util.Spliterator;\n",
+        "43": "import java.util.Spliterators;\n",
+        "44": "import java.util.function.Consumer;\n",
+        "423": "    @Override\n",
+        "424": "    public void forEach(Consumer<? super V> action) {\n",
+        "425": "      checkNotNull(action);\n",
+        "426": "      for (ValueSetLink<K, V> entry = firstEntry;\n",
+        "427": "          entry != ValueSet.this;\n",
+        "428": "          entry = entry.getSuccessorInValueSet()) {\n",
+        "429": "        action.accept(((ValueEntry<K, V>) entry).getValue());\n",
+        "430": "      }\n",
+        "431": "    }\n",
+        "432": "\n",
+        "563": "  @Override\n",
+        "564": "  Spliterator<Entry<K, V>> entrySpliterator() {\n",
+        "565": "    return Spliterators.spliterator(entries(), Spliterator.DISTINCT | Spliterator.ORDERED);\n",
+        "566": "  }\n",
+        "567": "\n",
+        "573": "  @Override\n",
+        "574": "  Spliterator<V> valueSpliterator() {\n",
+        "575": "    return CollectSpliterators.map(entrySpliterator(), Entry::getValue);\n",
+        "576": "  }\n",
+        "577": "\n"
+    },
+    "removed": {}
+}

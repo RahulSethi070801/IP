@@ -1,0 +1,10 @@
+com.google.common.graph.ValueGraph
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.MutableGraph
+putEdge
+boolean putEdge(N nodeU, N nodeV)
+N,N
+boolean

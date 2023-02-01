@@ -1,0 +1,10 @@
+
+   * Copies all bytes from a file to an output stream.
+   *
+   * <p><b>{@link java.nio.file.Path} equivalent:</b> {@link
+   * java.nio.file.Files#copy(java.nio.file.Path, OutputStream)}.
+   *
+   * @param from the source file
+   * @param to the output stream
+   * @throws IOException if an I/O error occurs
+   

@@ -1,0 +1,690 @@
+com.google.common.reflect.MutableTypeToInstanceMap
+put
+public B put(TypeToken<? extends B> key, B value)
+TypeToken,B
+B
+com.google.common.reflect.ClassPath
+apply
+public boolean apply(ClassInfo info)
+ClassInfo
+boolean
+com.google.common.reflect.TypeToken
+getComponentType
+public final TypeToken<?> getComponentType()
+empty
+TypeToken
+com.google.common.reflect.Types$WildcardTypeImpl
+getLowerBounds
+public Type[] getLowerBounds()
+empty
+Type[]
+com.google.common.reflect.TypeToken
+visitTypeVariable
+void visitTypeVariable(TypeVariable<?> t)
+TypeVariable
+void
+com.google.common.reflect.Element
+getDeclaringClass
+public Class<?> getDeclaringClass()
+empty
+Class
+com.google.common.reflect.Element
+isSynthetic
+public final boolean isSynthetic()
+empty
+boolean
+com.google.common.reflect.TypeToken
+apply
+public boolean apply(TypeToken<?> type)
+TypeToken
+boolean
+com.google.common.reflect.ImmutableTypeToInstanceMap
+getInstance
+public T getInstance(TypeToken<T> type)
+TypeToken
+T
+com.google.common.reflect.TypeToken
+getRawType
+Class<?> getRawType(TypeToken<?> type)
+TypeToken
+Class
+com.google.common.reflect.TypeToken
+getArraySubtype
+private TypeToken<? extends T> getArraySubtype(Class<?> subclass)
+Class
+TypeToken
+com.google.common.reflect.Invokable$MethodInvokable
+isOverridable
+public final boolean isOverridable()
+empty
+boolean
+com.google.common.reflect.Types
+newParameterizedType
+static ParameterizedType newParameterizedType(Class<?> rawType, Type... arguments)
+Class,Type...
+ParameterizedType
+com.google.common.reflect.TypeResolver
+visitGenericArrayType
+void visitGenericArrayType(GenericArrayType fromArrayType)
+GenericArrayType
+void
+com.google.common.reflect.MutableTypeToInstanceMap$UnmodifiableEntry
+transformEntries
+private static Iterator<Entry<K, V>> transformEntries(Iterator<Entry<K, V>> entries)
+Iterator
+Iterator
+com.google.common.reflect.TypeToken$TypeCollector
+sortKeysByValue
+private static ImmutableList<K> sortKeysByValue(final Map<K, V> map, final Comparator<? super V> valueComparator)
+Map,Comparator
+ImmutableList
+com.google.common.reflect.Invokable$MethodInvokable
+getTypeParameters
+public final TypeVariable<?>[] getTypeParameters()
+empty
+TypeVariable[]
+com.google.common.reflect.Types
+disallowPrimitiveType
+private static void disallowPrimitiveType(Type[] types, String usedAs)
+Type[],String
+void
+com.google.common.reflect.ImmutableTypeToInstanceMap
+getInstance
+public T getInstance(Class<T> type)
+Class
+T
+com.google.common.reflect.TypeResolver
+populateTypeMappings
+private static void populateTypeMappings(final Map<TypeVariableKey, Type> mappings, Type from, final Type to)
+Map,Type,Type
+void
+com.google.common.reflect.Types$ParameterizedTypeImpl
+equals
+public boolean equals(Object other)
+Object
+boolean
+com.google.common.reflect.ClassPath$DefaultScanner
+scanDirectory
+protected void scanDirectory(ClassLoader classloader, File directory) throws IOException
+ClassLoader,File
+void
+com.google.common.reflect.Types
+detectJvmBehavior
+private static ClassOwnership detectJvmBehavior()
+empty
+ClassOwnership
+com.google.common.reflect.TypeResolver$TypeMappingIntrospector
+getTypeMappings
+static ImmutableMap<TypeVariableKey, Type> getTypeMappings(Type contextType)
+Type
+ImmutableMap
+com.google.common.reflect.Element
+getAnnotations
+public final Annotation[] getAnnotations()
+empty
+Annotation[]
+com.google.common.reflect.AbstractInvocationHandler
+invoke
+public final Object invoke(Object proxy, Method method, @Nullable Object[] args) throws Throwable
+Object,Method,Object[]
+Object
+com.google.common.reflect.TypeCapture
+capture
+final Type capture()
+empty
+Type
+com.google.common.reflect.Types
+usedInGenericType
+Type usedInGenericType(Type type)
+Type
+Type
+com.google.common.reflect.TypeToken
+visitGenericArrayType
+void visitGenericArrayType(GenericArrayType t)
+GenericArrayType
+void
+com.google.common.reflect.Parameter
+isAnnotationPresent
+public boolean isAnnotationPresent(Class<? extends Annotation> annotationType)
+Class
+boolean
+com.google.common.reflect.Types
+newTypeVariableImpl
+private static TypeVariable<D> newTypeVariableImpl(D genericDeclaration, String name, Type[] bounds)
+D,String,Type[]
+TypeVariable
+com.google.common.reflect.TypeToken
+getSupertype
+public final TypeToken<? super T> getSupertype(Class<? super T> superclass)
+Class
+TypeToken
+com.google.common.reflect.TypeToken
+where
+public final TypeToken<T> where(TypeParameter<X> typeParam, TypeToken<X> typeArg)
+TypeParameter,TypeToken
+TypeToken
+com.google.common.reflect.TypeToken
+visitTypeVariable
+void visitTypeVariable(TypeVariable<?> type)
+TypeVariable
+void
+com.google.common.reflect.TypeResolver
+visitClass
+void visitClass(Class<?> fromClass)
+Class
+void
+com.google.common.reflect.Invokable
+getDeclaringClass
+public final Class<? super T> getDeclaringClass()
+empty
+Class
+com.google.common.reflect.TypeToken
+getInterfaces
+Iterable<? extends Class<?>> getInterfaces(Class<?> type)
+Class
+Iterable
+com.google.common.reflect.Types
+supertypeOf
+static WildcardType supertypeOf(Type lowerBound)
+Type
+WildcardType
+com.google.common.reflect.Element
+isAnnotationPresent
+public final boolean isAnnotationPresent(Class<? extends Annotation> annotationClass)
+Class
+boolean
+com.google.common.reflect.TypeToken$InterfaceSet
+interfaces
+public TypeSet interfaces()
+empty
+TypeSet
+com.google.common.reflect.Types$ParameterizedTypeImpl
+getOwnerType
+public Type getOwnerType()
+empty
+Type
+com.google.common.reflect.TypeToken
+toString
+public String toString()
+empty
+String
+com.google.common.reflect.TypeToken
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.reflect.Types$GenericArrayTypeImpl
+getGenericComponentType
+public Type getGenericComponentType()
+empty
+Type
+com.google.common.reflect.Invokable$MethodInvokable
+getGenericReturnType
+Type getGenericReturnType()
+empty
+Type
+com.google.common.reflect.Element
+getName
+public final String getName()
+empty
+String
+com.google.common.reflect.TypeToken$TypeSet
+rawTypes
+public Set<Class<? super T>> rawTypes()
+empty
+Set
+com.google.common.reflect.TypeToken
+compare
+public int compare(K left, K right)
+K,K
+int
+com.google.common.reflect.TypeResolver$TypeTable
+resolve
+final Type resolve(final TypeVariable<?> var)
+TypeVariable
+Type
+com.google.common.reflect.Invokable
+getExceptionTypes
+public final ImmutableList<TypeToken<? extends Throwable>> getExceptionTypes()
+empty
+ImmutableList
+com.google.common.reflect.Invokable
+getParameters
+public final ImmutableList<Parameter> getParameters()
+empty
+ImmutableList
+com.google.common.reflect.TypeToken$TypeCollector
+getSuperclass
+abstract K getSuperclass(K type)
+K
+K
+com.google.common.reflect.Types$ParameterizedTypeImpl
+ParameterizedTypeImpl
+ParameterizedTypeImpl(@Nullable Type ownerType, Class<?> rawType, Type[] typeArguments)
+Type,Class,Type[]
+constructor
+com.google.common.reflect.ClassPath$Scanner
+getClassPathEntry
+static URL getClassPathEntry(File jarFile, String path) throws MalformedURLException
+File,String
+URL
+com.google.common.reflect.TypeToken$TypeCollector
+collectTypes
+private int collectTypes(K type, Map<? super K, Integer> map)
+K,Map
+int
+com.google.common.reflect.TypeToken$ForwardingTypeCollector
+getSuperclass
+K getSuperclass(K type)
+K
+K
+com.google.common.reflect.Types
+getOwnerType
+abstract Class<?> getOwnerType(Class<?> rawType)
+Class
+Class
+com.google.common.reflect.TypeToken
+apply
+public boolean apply(Class<?> type)
+Class
+boolean
+com.google.common.reflect.MutableTypeToInstanceMap$UnmodifiableEntry
+setValue
+public V setValue(V value)
+V
+V
+com.google.common.reflect.TypeParameter
+equals
+public final boolean equals(@Nullable Object o)
+Object
+boolean
+com.google.common.reflect.ClassPath$Scanner
+getClassPathFromManifest
+static ImmutableSet<File> getClassPathFromManifest(File jarFile, @Nullable Manifest manifest)
+File,Manifest
+ImmutableSet
+com.google.common.reflect.TypeParameter
+hashCode
+public final int hashCode()
+empty
+int
+com.google.common.reflect.Types
+subtypeOfComponentType
+private static Type subtypeOfComponentType(Type[] bounds)
+Type[]
+Type
+com.google.common.reflect.ClassPath$ResourceInfo
+ResourceInfo
+ResourceInfo(String resourceName, ClassLoader loader)
+String,ClassLoader
+constructor
+com.google.common.reflect.ClassPath$DefaultScanner
+scanDirectory
+private void scanDirectory(File directory, ClassLoader classloader, String packagePrefix) throws IOException
+File,ClassLoader,String
+void
+com.google.common.reflect.TypeResolver$WildcardCapturer
+capture
+Type capture(Type type)
+Type
+Type
+com.google.common.reflect.TypeResolver
+resolveWildcardType
+private WildcardType resolveWildcardType(WildcardType type)
+WildcardType
+WildcardType
+com.google.common.reflect.Types
+newArtificialTypeVariable
+static TypeVariable<D> newArtificialTypeVariable(D declaration, String name, Type... bounds)
+D,String,Type...
+TypeVariable
+com.google.common.reflect.Invokable$MethodInvokable
+invokeInternal
+final Object invokeInternal(@Nullable Object receiver, Object[] args) throws InvocationTargetException, IllegalAccessException
+Object,Object[]
+Object
+com.google.common.reflect.Types$ParameterizedTypeImpl
+getActualTypeArguments
+public Type[] getActualTypeArguments()
+empty
+Type[]
+com.google.common.reflect.Invokable$MethodInvokable
+getGenericExceptionTypes
+Type[] getGenericExceptionTypes()
+empty
+Type[]
+com.google.common.reflect.TypeToken
+toGenericType
+static TypeToken<? extends T> toGenericType(Class<T> cls)
+Class
+TypeToken
+com.google.common.reflect.Parameter
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.reflect.Element
+getDeclaredAnnotations
+public final Annotation[] getDeclaredAnnotations()
+empty
+Annotation[]
+com.google.common.reflect.TypeResolver$TypeMappingIntrospector
+visitParameterizedType
+void visitParameterizedType(ParameterizedType parameterizedType)
+ParameterizedType
+void
+com.google.common.reflect.AbstractInvocationHandler
+equals
+public boolean equals(Object obj)
+Object
+boolean
+com.google.common.reflect.TypeToken
+boundAsSuperclass
+private TypeToken<? super T> boundAsSuperclass(Type bound)
+Type
+TypeToken
+com.google.common.reflect.TypeToken$TypeCollector
+classesOnly
+final TypeCollector<K> classesOnly()
+empty
+TypeCollector
+com.google.common.reflect.Types
+newArrayType
+Type newArrayType(Type componentType)
+Type
+Type
+com.google.common.reflect.ClassPath$Scanner
+scanDirectory
+protected abstract void scanDirectory(ClassLoader loader, File directory) throws IOException
+ClassLoader,File
+void
+com.google.common.reflect.Types
+newArrayType
+GenericArrayType newArrayType(Type componentType)
+Type
+GenericArrayType
+com.google.common.reflect.Element
+getModifiers
+public final int getModifiers()
+empty
+int
+com.google.common.reflect.Types$TypeVariableInvocationHandler
+invoke
+public Object invoke(Object proxy, Method method, Object[] args) throws Throwable
+Object,Method,Object[]
+Object
+com.google.common.reflect.Invokable$MethodInvokable
+getParameterAnnotations
+final Annotation[][] getParameterAnnotations()
+empty
+Annotation[][]
+com.google.common.reflect.MutableTypeToInstanceMap$UnmodifiableEntry
+delegate
+protected Entry<K, V> delegate()
+empty
+Entry
+com.google.common.reflect.ClassPath
+getClassName
+static String getClassName(String filename)
+String
+String
+com.google.common.reflect.TypeToken$InterfaceSet
+classes
+public TypeSet classes()
+empty
+TypeSet
+com.google.common.reflect.Types
+getComponentType
+static Type getComponentType(Type type)
+Type
+Type
+com.google.common.reflect.Element
+getAnnotation
+public final A getAnnotation(Class<A> annotationClass)
+Class
+A
+com.google.common.reflect.MutableTypeToInstanceMap
+entrySet
+public Set<Entry<TypeToken<? extends B>, B>> entrySet()
+empty
+Set
+com.google.common.reflect.Parameter
+getDeclaredAnnotation
+public A getDeclaredAnnotation(Class<A> annotationType)
+Class
+A
+com.google.common.reflect.TypeToken
+getSuperclass
+Class<?> getSuperclass(Class<?> type)
+Class
+Class
+com.google.common.reflect.ClassPath$DefaultScanner
+scanJarFile
+protected void scanJarFile(ClassLoader classloader, JarFile file)
+ClassLoader,JarFile
+void
+com.google.common.reflect.TypeToken$ForwardingTypeCollector
+getRawType
+Class<?> getRawType(K type)
+K
+Class
+com.google.common.reflect.Types
+filterUpperBounds
+private static Iterable<Type> filterUpperBounds(Iterable<Type> bounds)
+Iterable
+Iterable
+com.google.common.reflect.TypeToken
+getSubtype
+public final TypeToken<? extends T> getSubtype(Class<?> subclass)
+Class
+TypeToken
+com.google.common.reflect.ImmutableTypeToInstanceMap
+putInstance
+public T putInstance(Class<T> type, T value)
+Class,T
+T
+com.google.common.reflect.TypeToken$ForwardingTypeCollector
+getInterfaces
+Iterable<? extends K> getInterfaces(K type)
+K
+Iterable
+com.google.common.reflect.Types$WildcardTypeImpl
+getUpperBounds
+public Type[] getUpperBounds()
+empty
+Type[]
+com.google.common.reflect.Types
+typeName
+String typeName(Type type)
+Type
+String
+com.google.common.reflect.Invokable
+getOwnerType
+public TypeToken<T> getOwnerType()
+empty
+TypeToken
+com.google.common.reflect.TypeToken
+visitWildcardType
+void visitWildcardType(WildcardType t)
+WildcardType
+void
+com.google.common.reflect.ClassPath$Scanner
+getClassPathEntries
+static ImmutableMap<File, ClassLoader> getClassPathEntries(ClassLoader classloader)
+ClassLoader
+ImmutableMap
+com.google.common.reflect.Types
+subtypeOf
+static WildcardType subtypeOf(Type upperBound)
+Type
+WildcardType
+com.google.common.reflect.Parameter
+getAnnotations
+public Annotation[] getAnnotations()
+empty
+Annotation[]
+com.google.common.reflect.Element
+setAccessible
+public final void setAccessible(boolean flag) throws SecurityException
+boolean
+void
+com.google.common.reflect.TypeToken
+TypeToken
+protected TypeToken()
+empty
+constructor
+com.google.common.reflect.Parameter
+Parameter
+Parameter(Invokable<?, ?> declaration, int position, TypeToken<?> type, Annotation[] annotations)
+Invokable,int,TypeToken,Annotation[]
+constructor
+com.google.common.reflect.Types$ParameterizedTypeImpl
+getRawType
+public Type getRawType()
+empty
+Type
+com.google.common.reflect.TypeToken
+method
+public final Invokable<T, Object> method(Method method)
+Method
+Invokable
+com.google.common.reflect.Types
+toString
+static String toString(Type type)
+Type
+String
+com.google.common.reflect.TypeToken
+getRawTypes
+private ImmutableSet<Class<? super T>> getRawTypes()
+empty
+ImmutableSet
+com.google.common.reflect.TypeToken
+getGenericParameterTypes
+Type[] getGenericParameterTypes()
+empty
+Type[]
+com.google.common.reflect.TypeToken$TypeSet
+delegate
+protected Set<TypeToken<? super T>> delegate()
+empty
+Set
+com.google.common.reflect.Parameter
+getDeclaredAnnotations
+public Annotation[] getDeclaredAnnotations()
+empty
+Annotation[]
+com.google.common.reflect.TypeToken
+constructor
+public final Invokable<T, T> constructor(Constructor<?> constructor)
+Constructor
+Invokable
+com.google.common.reflect.MutableTypeToInstanceMap$UnmodifiableEntry
+transformEntries
+static Set<Entry<K, V>> transformEntries(final Set<Entry<K, V>> entries)
+Set
+Set
+com.google.common.reflect.TypeToken
+rejectTypeVariables
+final TypeToken<T> rejectTypeVariables()
+empty
+TypeToken
+com.google.common.reflect.TypeResolver
+visitWildcardType
+void visitWildcardType(WildcardType fromWildcardType)
+WildcardType
+void
+com.google.common.reflect.TypeToken
+getSuperclass
+TypeToken<?> getSuperclass(TypeToken<?> type)
+TypeToken
+TypeToken
+com.google.common.reflect.TypeToken
+getRawType
+Class<?> getRawType(Class<?> type)
+Class
+Class
+com.google.common.reflect.Types
+apply
+public String apply(Type from)
+Type
+String
+com.google.common.reflect.TypeToken
+getArraySupertype
+private TypeToken<? super T> getArraySupertype(Class<? super T> supertype)
+Class
+TypeToken
+com.google.common.reflect.TypeToken
+getInterfaces
+Iterable<? extends TypeToken<?>> getInterfaces(TypeToken<?> type)
+TypeToken
+Iterable
+com.google.common.reflect.ClassPath$Scanner
+scan
+final void scan(File file, ClassLoader classloader) throws IOException
+File,ClassLoader
+void
+com.google.common.reflect.MutableTypeToInstanceMap
+putAll
+public void putAll(Map<? extends TypeToken<? extends B>, ? extends B> map)
+Map
+void
+com.google.common.reflect.TypeResolver$TypeMappingIntrospector
+visitClass
+void visitClass(Class<?> clazz)
+Class
+void
+com.google.common.reflect.Parameter
+getDeclaredAnnotationsByType
+public A[] getDeclaredAnnotationsByType(Class<A> annotationType)
+Class
+A[]
+com.google.common.reflect.MutableTypeToInstanceMap
+delegate
+protected Map<TypeToken<? extends B>, B> delegate()
+empty
+Map
+com.google.common.reflect.Element
+isAccessible
+public final boolean isAccessible()
+empty
+boolean
+com.google.common.reflect.Invokable$MethodInvokable
+isVarArgs
+public final boolean isVarArgs()
+empty
+boolean
+com.google.common.reflect.TypeToken
+getGenericInterfaces
+final ImmutableList<TypeToken<? super T>> getGenericInterfaces()
+empty
+ImmutableList
+com.google.common.reflect.ImmutableTypeToInstanceMap
+putInstance
+public T putInstance(TypeToken<T> type, T value)
+TypeToken,T
+T
+com.google.common.reflect.ClassPath$Scanner
+scanJar
+private void scanJar(File file, ClassLoader classloader) throws IOException
+File,ClassLoader
+void
+com.google.common.reflect.TypeToken
+resolveTypeArgsForSubclass
+private Type resolveTypeArgsForSubclass(Class<?> subclass)
+Class
+Type
+com.google.common.reflect.Reflection
+newProxy
+public static T newProxy(Class<T> interfaceType, InvocationHandler handler)
+Class,InvocationHandler
+T
+com.google.common.reflect.Types
+visitClass
+void visitClass(Class<?> t)
+Class
+void
+com.google.common.reflect.TypeToken
+equals
+public boolean equals(@Nullable Object o)
+Object
+boolean

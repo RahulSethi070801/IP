@@ -1,0 +1,4 @@
+CompactLinkedHashMap
+Insertions: [47, 53, 54, 58, 81]
+Deletions: [47, 48, 49, 55, 56, 60, 83, 84, 85]
+android/guava/src/com/google/common/collect/CompactLinkedHashMap.java

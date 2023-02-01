@@ -1,0 +1,4 @@
+ImmutableEnumMap
+Insertions: [25, 34, 66, 71, 72, 77]
+Deletions: [25, 65, 70, 75]
+android/guava/src/com/google/common/collect/ImmutableEnumMap.java

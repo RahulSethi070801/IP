@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "27": " * A simplistic set which implements the bare minimum so that it can be used in tests without\n",
+        "28": " * relying on any specific Set implementations. Slow. Explicitly allows null elements so that they\n",
+        "29": " * can be used in the testers.\n"
+    },
+    "removed": {
+        "27": " * A simplistic set which implements the bare minimum so that it can be used in\n",
+        "28": " * tests without relying on any specific Set implementations. Slow. Explicitly\n",
+        "29": " * allows null elements so that they can be used in the testers.\n"
+    }
+}

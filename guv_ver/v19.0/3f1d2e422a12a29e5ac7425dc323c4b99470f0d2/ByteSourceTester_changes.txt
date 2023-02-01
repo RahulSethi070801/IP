@@ -1,0 +1,4 @@
+ByteSourceTester
+Insertions: [101, 102, 103, 104, 105, 106]
+Deletions: []
+guava-tests/test/com/google/common/io/ByteSourceTester.java

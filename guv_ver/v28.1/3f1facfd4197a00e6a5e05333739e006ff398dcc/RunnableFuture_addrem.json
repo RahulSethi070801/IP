@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "19": "/** Emulation of RunnableFuture. */\n",
+        "20": "public interface RunnableFuture<V> extends Runnable, Future<V> {}\n"
+    },
+    "removed": {
+        "19": "/**\n",
+        "20": " * Emulation of RunnableFuture.\n",
+        "21": " */\n",
+        "22": "public interface RunnableFuture<V> extends Runnable, Future<V> {\n",
+        "23": "}\n"
+    }
+}

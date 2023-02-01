@@ -1,0 +1,5 @@
+
+   * Returns the ratio of cache loading attempts which threw exceptions. This is defined as
+   * {@code loadExceptionCount / (loadSuccessCount + loadExceptionCount)}, or {@code 0.0} when
+   * {@code loadSuccessCount + loadExceptionCount == 0}.
+   

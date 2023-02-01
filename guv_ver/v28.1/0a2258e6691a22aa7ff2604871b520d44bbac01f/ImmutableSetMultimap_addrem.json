@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "44": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "417": "      @Nullable Comparator<? super V> valueComparator) {\n",
+        "447": "      @Nullable Comparator<? super V> valueComparator) {\n",
+        "460": "  public ImmutableSet<V> get(@Nullable K key) {\n",
+        "539": "    public boolean contains(@Nullable Object object) {\n",
+        "564": "      @Nullable Comparator<? super V> valueComparator, Collection<? extends V> values) {\n",
+        "570": "  private static <V> ImmutableSet<V> emptySet(@Nullable Comparator<? super V> valueComparator) {\n",
+        "577": "      @Nullable Comparator<? super V> valueComparator) {\n",
+        "594": "  @Nullable\n"
+    },
+    "removed": {
+        "44": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "417": "      @NullableDecl Comparator<? super V> valueComparator) {\n",
+        "447": "      @NullableDecl Comparator<? super V> valueComparator) {\n",
+        "460": "  public ImmutableSet<V> get(@NullableDecl K key) {\n",
+        "539": "    public boolean contains(@NullableDecl Object object) {\n",
+        "564": "      @NullableDecl Comparator<? super V> valueComparator, Collection<? extends V> values) {\n",
+        "570": "  private static <V> ImmutableSet<V> emptySet(@NullableDecl Comparator<? super V> valueComparator) {\n",
+        "577": "      @NullableDecl Comparator<? super V> valueComparator) {\n",
+        "594": "  @NullableDecl\n"
+    }
+}

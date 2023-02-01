@@ -1,0 +1,4 @@
+@Beta
+public Optional<Long> sizeIfKnown() {
+    return Optional.absent();
+}

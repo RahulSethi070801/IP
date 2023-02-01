@@ -1,0 +1,5 @@
+@VisibleForTesting
+@CheckForNull
+synchronized File getFile() {
+    return file;
+}

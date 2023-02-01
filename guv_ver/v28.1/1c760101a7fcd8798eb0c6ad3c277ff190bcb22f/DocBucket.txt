@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.SequentialExecutor
+SequentialExecutor
+SequentialExecutor(Executor executor)
+Executor
+constructor

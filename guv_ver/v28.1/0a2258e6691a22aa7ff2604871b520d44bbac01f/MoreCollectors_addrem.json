@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "94": "    @Nullable Object element;\n",
+        "95": "    @Nullable List<Object> extras;\n"
+    },
+    "removed": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "94": "    @NullableDecl Object element;\n",
+        "95": "    @NullableDecl List<Object> extras;\n"
+    }
+}

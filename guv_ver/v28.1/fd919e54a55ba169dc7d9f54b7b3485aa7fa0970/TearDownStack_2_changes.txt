@@ -1,0 +1,4 @@
+TearDownStack_2
+Insertions: [64]
+Deletions: [64, 65, 66]
+guava-testlib/src/com/google/common/testing/TearDownStack.java

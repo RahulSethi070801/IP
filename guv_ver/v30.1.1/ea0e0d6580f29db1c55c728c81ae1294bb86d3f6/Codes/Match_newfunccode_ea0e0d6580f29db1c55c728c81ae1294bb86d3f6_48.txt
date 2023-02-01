@@ -1,0 +1,4 @@
+@CheckForNull
+public ImmutableEntry<E> nextInBucket() {
+    return null;
+}

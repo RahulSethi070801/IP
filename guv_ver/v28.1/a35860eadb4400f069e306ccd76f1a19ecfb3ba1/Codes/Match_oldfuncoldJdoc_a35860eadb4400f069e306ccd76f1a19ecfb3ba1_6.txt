@@ -1,0 +1,4 @@
+
+   * Remove {@code node} from the set of successors. Returns the value previously associated with
+   * the edge connecting the two nodes.
+   

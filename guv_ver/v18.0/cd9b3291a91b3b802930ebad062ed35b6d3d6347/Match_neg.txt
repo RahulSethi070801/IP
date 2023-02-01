@@ -1,0 +1,6 @@
+public static Range<C> atMost(C endpoint)
+String toString()
+
+public static Range<C> lessThan(C endpoint)
+String toString()
+

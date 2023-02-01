@@ -1,0 +1,4 @@
+@Override
+public C apply(@NullableDecl A a) {
+    return g.apply(f.apply(a));
+}

@@ -1,0 +1,4 @@
+Weigher
+Insertions: [5, 11, 12]
+Deletions: [5, 11, 12]
+guava/src/com/google/common/cache/Weigher.java

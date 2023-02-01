@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "34": "import javax.annotation.CheckForNull;\n",
+        "35": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "39": " * ObjectCountHashMap<E>}.\n",
+        "47": "@ElementTypesAreNonnullByDefault\n",
+        "48": "abstract class AbstractMapBasedMultiset<E extends @Nullable Object> extends AbstractMultiset<E>\n",
+        "49": "    implements Serializable {\n",
+        "55": "    backingMap = newBackingMap(distinctElements);\n",
+        "58": "  abstract ObjectCountHashMap<E> newBackingMap(int distinctElements);\n",
+        "61": "  public final int count(@CheckForNull Object element) {\n",
+        "75": "  public final int add(@ParametricNullness E element, int occurrences) {\n",
+        "96": "  public final int remove(@CheckForNull Object element, int occurrences) {\n",
+        "120": "  public final int setCount(@ParametricNullness E element, int count) {\n",
+        "128": "  public final boolean setCount(@ParametricNullness E element, int oldCount, int newCount) {\n",
+        "166": "  abstract class Itr<T extends @Nullable Object> implements Iterator<T> {\n",
+        "171": "    @ParametricNullness\n",
+        "187": "    @ParametricNullness\n",
+        "213": "      @ParametricNullness\n",
+        "267": "    backingMap = newBackingMap(ObjectCountHashMap.DEFAULT_SIZE);\n"
+    },
+    "removed": {
+        "34": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "38": " * AbstractObjectCountMap<E>}.\n",
+        "46": "abstract class AbstractMapBasedMultiset<E> extends AbstractMultiset<E> implements Serializable {\n",
+        "52": "    init(distinctElements);\n",
+        "55": "  abstract void init(int distinctElements);\n",
+        "58": "  public final int count(@NullableDecl Object element) {\n",
+        "72": "  public final int add(@NullableDecl E element, int occurrences) {\n",
+        "93": "  public final int remove(@NullableDecl Object element, int occurrences) {\n",
+        "117": "  public final int setCount(@NullableDecl E element, int count) {\n",
+        "125": "  public final boolean setCount(@NullableDecl E element, int oldCount, int newCount) {\n",
+        "163": "  abstract class Itr<T> implements Iterator<T> {\n",
+        "261": "    init(ObjectCountHashMap.DEFAULT_SIZE);\n"
+    }
+}

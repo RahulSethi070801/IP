@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "336": "  public void testForEachRemaining() {\n",
+        "337": "    for (int i = 0; i < expectedElements.size() - 1; i++) {\n",
+        "338": "      List<E> targetElements = new ArrayList<E>();\n",
+        "339": "      Iterator<E> iterator = newTargetIterator();\n",
+        "340": "      for (int j = 0; j < i; j++) {\n",
+        "341": "        targetElements.add(iterator.next());\n",
+        "342": "      }\n",
+        "343": "      iterator.forEachRemaining(targetElements::add);\n",
+        "344": "      if (knownOrder == KnownOrder.KNOWN_ORDER) {\n",
+        "345": "        assertEquals(expectedElements, targetElements);\n",
+        "346": "      } else {\n",
+        "347": "        Helpers.assertEqualIgnoringOrder(expectedElements, targetElements);\n",
+        "348": "      }\n",
+        "349": "    }\n",
+        "350": "  }\n",
+        "351": "\n"
+    },
+    "removed": {}
+}

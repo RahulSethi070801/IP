@@ -1,0 +1,12 @@
+void addListener(Listener listener, Executor executor) {
+    checkNotNull(listener, "listener");
+    checkNotNull(executor, "executor");
+    monitor.enter();
+    try {
+        if (!stoppedGuard.isSatisfied()) {
+            listeners.add(new ListenerCallQueue<Listener>(listener, executor));
+        }
+    } finally {
+        monitor.leave();
+    }
+}

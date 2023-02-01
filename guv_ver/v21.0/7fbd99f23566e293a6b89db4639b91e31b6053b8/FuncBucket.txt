@@ -1,0 +1,300 @@
+com.google.common.graph.Graphs
+edgeToIncidentNodesString
+private static Function<Object, String> edgeToIncidentNodesString(final Network<?, ?> graph)
+Network
+Function
+com.google.common.graph.AbstractConfigurableNetwork
+source
+public N source(Object edge)
+Object
+N
+com.google.common.graph.ImmutableNetwork
+getEdgeToReferenceNode
+private static Map<E, N> getEdgeToReferenceNode(Network<N, E> graph)
+Network
+Map
+com.google.common.graph.ImmutableNetwork
+edgesConnecting
+public Set<E> edgesConnecting(Object nodeA, Object nodeB)
+Object,Object
+Set
+com.google.common.graph.Network
+incidentNodes
+Endpoints<N> incidentNodes(Object edge)
+Object
+Endpoints
+com.google.common.graph.Endpoints
+size
+public int size()
+empty
+int
+com.google.common.graph.Endpoints
+isDirected
+public abstract boolean isDirected()
+empty
+boolean
+com.google.common.graph.Graphs
+apply
+public String apply(Object edge)
+Object
+String
+com.google.common.graph.Graphs
+parallelEdges
+public static Set<E> parallelEdges(Network<N, E> graph, Object edge)
+Network,Object
+Set
+com.google.common.graph.Endpoints
+Endpoints
+private Endpoints(N nodeA, N nodeB)
+N,N
+constructor
+com.google.common.graph.Endpoints$Directed
+source
+public N source()
+empty
+N
+com.google.common.graph.Endpoints$Directed
+equals
+public boolean equals(Object obj)
+Object
+boolean
+com.google.common.graph.AbstractConfigurableNetwork
+adjacentEdges
+public Set<E> adjacentEdges(Object edge)
+Object
+Set
+com.google.common.graph.ConfigurableMutableNetwork
+removeEdge
+public boolean removeEdge(Object edge)
+Object
+boolean
+com.google.common.graph.Endpoints
+contains
+public boolean contains(Object obj)
+Object
+boolean
+com.google.common.graph.Graphs
+addEdge
+public static boolean addEdge(MutableNetwork<N, E> graph, E edge, Iterable<N> nodes)
+MutableNetwork,E,Iterable
+boolean
+com.google.common.graph.ConfigurableMutableGraph
+removeEdge
+public boolean removeEdge(Object node1, Object node2)
+Object,Object
+boolean
+com.google.common.graph.MutableNetwork
+addEdge
+boolean addEdge(E edge, N nodeA, N nodeB)
+E,N,N
+boolean
+com.google.common.graph.Endpoints
+target
+public abstract N target()
+empty
+N
+com.google.common.graph.Endpoints
+nodeB
+N nodeB()
+empty
+N
+com.google.common.graph.AbstractConfigurableNetwork
+target
+public N target(Object edge)
+Object
+N
+com.google.common.graph.Endpoints
+hashCode
+public abstract int hashCode()
+empty
+int
+com.google.common.graph.Graphs
+addEdge
+public static boolean addEdge(MutableNetwork<N, E> graph, E edge, Endpoints<N> endpoints)
+MutableNetwork,E,Endpoints
+boolean
+com.google.common.graph.Endpoints$Directed
+Directed
+private Directed(N source, N target)
+N,N
+constructor
+com.google.common.graph.ConfigurableMutableNetwork
+addEdge
+public boolean addEdge(E edge, N nodeA, N nodeB)
+E,N,N
+boolean
+com.google.common.graph.Network
+source
+N source(Object edge)
+Object
+N
+com.google.common.graph.AbstractConfigurableNetwork
+incidentNodes
+public Set<N> incidentNodes(Object edge)
+Object
+Set
+com.google.common.graph.MutableGraph
+addEdge
+boolean addEdge(N node1, N node2)
+N,N
+boolean
+com.google.common.graph.ConfigurableMutableGraph
+addEdge
+public boolean addEdge(N nodeA, N nodeB)
+N,N
+boolean
+com.google.common.graph.ImmutableNetwork
+apply
+public N apply(E edge)
+E
+N
+com.google.common.graph.Network
+target
+N target(Object edge)
+Object
+N
+com.google.common.graph.ImmutableNetwork
+edgesConnecting
+public Set<E> edgesConnecting(Object node1, Object node2)
+Object,Object
+Set
+com.google.common.graph.Endpoints
+equals
+public abstract boolean equals(Object obj)
+Object
+boolean
+com.google.common.graph.Endpoints
+ofUndirected
+public static Endpoints<N> ofUndirected(N nodeA, N nodeB)
+N,N
+Endpoints
+com.google.common.graph.ConfigurableMutableNetwork
+addEdge
+public boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.ImmutableNetwork
+sourceNodeFn
+private static Function<E, N> sourceNodeFn(final Network<N, E> graph)
+Network
+Function
+com.google.common.graph.Endpoints
+source
+public abstract N source()
+empty
+N
+com.google.common.graph.MutableNetwork
+addEdge
+boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.Endpoints$Directed
+toString
+public String toString()
+empty
+String
+com.google.common.graph.Endpoints$Directed
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.Endpoints$Directed
+target
+public N target()
+empty
+N
+com.google.common.graph.AbstractConfigurableNetwork
+incidentNodes
+public Endpoints<N> incidentNodes(Object edge)
+Object
+Endpoints
+com.google.common.graph.ConfigurableMutableGraph
+removeEdge
+public boolean removeEdge(Object nodeA, Object nodeB)
+Object,Object
+boolean
+com.google.common.graph.Endpoints$Directed
+isDirected
+public boolean isDirected()
+empty
+boolean
+com.google.common.graph.MutableGraph
+removeEdge
+boolean removeEdge(Object nodeA, Object nodeB)
+Object,Object
+boolean
+com.google.common.graph.Endpoints
+iterator
+public UnmodifiableIterator<N> iterator()
+empty
+UnmodifiableIterator
+com.google.common.graph.Network
+edgesConnecting
+Set<E> edgesConnecting(Object nodeA, Object nodeB)
+Object,Object
+Set
+com.google.common.graph.Graphs
+copyOf
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+Network,Predicate,Predicate
+MutableNetwork
+com.google.common.graph.Endpoints
+nodeA
+N nodeA()
+empty
+N
+com.google.common.graph.ImmutableNetwork
+targetNodeFn
+private static Function<E, N> targetNodeFn(final Network<N, E> graph)
+Network
+Function
+com.google.common.graph.Network
+edgesConnecting
+Set<E> edgesConnecting(Object node1, Object node2)
+Object,Object
+Set
+com.google.common.graph.Graphs
+copyOf
+public static MutableGraph<N> copyOf(Graph<N> graph, Predicate<? super N> nodePredicate)
+Graph,Predicate
+MutableGraph
+com.google.common.graph.Network
+incidentNodes
+Set<N> incidentNodes(Object edge)
+Object
+Set
+com.google.common.graph.ConfigurableMutableGraph
+addEdge
+public boolean addEdge(N node1, N node2)
+N,N
+boolean
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Graph<?> graph)
+Graph
+int
+com.google.common.graph.MutableGraph
+addEdge
+boolean addEdge(N nodeA, N nodeB)
+N,N
+boolean
+com.google.common.graph.Graphs
+oppositeNode
+public static N oppositeNode(Network<N, ?> graph, Object edge, Object node)
+Network,Object,Object
+N
+com.google.common.graph.MutableGraph
+removeEdge
+boolean removeEdge(Object node1, Object node2)
+Object,Object
+boolean
+com.google.common.graph.Endpoints$Undirected
+Undirected
+private Undirected(N nodeA, N nodeB)
+N,N
+constructor
+com.google.common.graph.Endpoints
+ofDirected
+public static Endpoints<N> ofDirected(N source, N target)
+N,N
+Endpoints

@@ -1,0 +1,4 @@
+SingletonImmutableList_CustomFieldSerializer
+Insertions: [24]
+Deletions: [24, 25]
+guava-gwt/src/com/google/common/collect/SingletonImmutableList_CustomFieldSerializer.java

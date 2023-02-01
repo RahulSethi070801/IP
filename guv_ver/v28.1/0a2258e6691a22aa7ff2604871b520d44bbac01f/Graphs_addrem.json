@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "36": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "102": "      Graph<N> graph, Map<Object, NodeVisitState> visitedNodes, N node, @Nullable N previousNode) {\n",
+        "129": "      Graph<?> graph, Object nextNode, @Nullable Object previousNode) {\n",
+        "347": "    @Nullable\n",
+        "348": "    public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {\n"
+    },
+    "removed": {
+        "36": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "102": "      Graph<N> graph,\n",
+        "103": "      Map<Object, NodeVisitState> visitedNodes,\n",
+        "104": "      N node,\n",
+        "105": "      @NullableDecl N previousNode) {\n",
+        "132": "      Graph<?> graph, Object nextNode, @NullableDecl Object previousNode) {\n",
+        "350": "    @NullableDecl\n",
+        "351": "    public V edgeValueOrDefault(N nodeU, N nodeV, @NullableDecl V defaultValue) {\n"
+    }
+}

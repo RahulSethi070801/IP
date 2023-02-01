@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+Collection<V> replaceValues(@Nullable K key, Iterable<? extends V> values);

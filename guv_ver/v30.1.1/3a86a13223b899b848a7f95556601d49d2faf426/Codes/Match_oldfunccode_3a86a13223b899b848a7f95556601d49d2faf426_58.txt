@@ -1,0 +1,4 @@
+@Override
+public boolean contains(Object object) {
+    return delegate().contains(checkNotNull(object));
+}

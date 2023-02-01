@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "59": "  /** Closes the current input stream and opens the next one, if any. */\n"
+    },
+    "removed": {
+        "59": "  /**\n",
+        "60": "   * Closes the current input stream and opens the next one, if any.\n",
+        "61": "   */\n"
+    }
+}

@@ -1,0 +1,4 @@
+ListAddAtIndexTester_2
+Insertions: [36, 37, 152, 153]
+Deletions: [36, 37, 38, 153, 154, 155]
+guava-testlib/src/com/google/common/collect/testing/testers/ListAddAtIndexTester.java

@@ -1,0 +1,4 @@
+SettableFuture_2
+Insertions: [20, 47]
+Deletions: [20, 47]
+guava/src/com/google/common/util/concurrent/SettableFuture.java

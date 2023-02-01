@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "1256": "   * so, refer to it in the (static-method) Futures.getChecked documentation\n"
+    },
+    "removed": {
+        "1256": "   * so, refer to it in the (static-method) Futures.get documentation\n"
+    }
+}

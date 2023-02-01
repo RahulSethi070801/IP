@@ -1,0 +1,5 @@
+
+   * Returns the number of edges in this graph; used to calculate the size of {@link #edges()}.
+   * The default implementation is O(|N|). You can manually keep track of the number of edges and
+   * override this method for better performance.
+   

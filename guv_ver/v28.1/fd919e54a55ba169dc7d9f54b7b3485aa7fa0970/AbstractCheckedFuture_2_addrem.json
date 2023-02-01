@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "46": "  /** Constructs an {@code AbstractCheckedFuture} that wraps a delegate. */\n"
+    },
+    "removed": {
+        "46": "  /**\n",
+        "47": "   * Constructs an {@code AbstractCheckedFuture} that wraps a delegate.\n",
+        "48": "   */\n"
+    }
+}

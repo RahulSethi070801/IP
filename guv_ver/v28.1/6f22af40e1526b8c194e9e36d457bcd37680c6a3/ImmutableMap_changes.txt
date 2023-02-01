@@ -1,0 +1,4 @@
+ImmutableMap
+Insertions: [39, 490, 495, 501, 515, 621, 626, 676]
+Deletions: [39, 490, 495, 501, 515, 621, 626, 676]
+android/guava/src/com/google/common/collect/ImmutableMap.java

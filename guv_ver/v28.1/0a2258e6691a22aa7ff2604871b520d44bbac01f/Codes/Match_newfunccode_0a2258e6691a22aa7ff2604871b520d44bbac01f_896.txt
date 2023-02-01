@@ -1,0 +1,6 @@
+@Override
+public SortedMultiset<E> subMultiset(@Nullable E fromElement, BoundType fromBoundType, @Nullable E toElement, BoundType toBoundType) {
+    checkNotNull(fromBoundType);
+    checkNotNull(toBoundType);
+    return tailMultiset(fromElement, fromBoundType).headMultiset(toElement, toBoundType);
+}

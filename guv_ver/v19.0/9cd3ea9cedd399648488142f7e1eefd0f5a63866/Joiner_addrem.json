@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "70": "  @CheckReturnValue\n",
+        "78": "  @CheckReturnValue\n",
+        "184": "  @CheckReturnValue\n",
+        "195": "  @CheckReturnValue\n",
+        "204": "  @CheckReturnValue\n",
+        "213": "  //@CheckReturnValue\n",
+        "335": "    @CheckReturnValue\n",
+        "414": "    @CheckReturnValue\n",
+        "426": "    @CheckReturnValue\n"
+    },
+    "removed": {}
+}

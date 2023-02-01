@@ -1,0 +1,4 @@
+AbstractMultimap
+Insertions: [33, 48, 59, 66, 73, 79, 104, 147, 207, 238]
+Deletions: [33, 48, 59, 66, 73, 79, 104, 147, 207, 238]
+guava/src/com/google/common/collect/AbstractMultimap.java

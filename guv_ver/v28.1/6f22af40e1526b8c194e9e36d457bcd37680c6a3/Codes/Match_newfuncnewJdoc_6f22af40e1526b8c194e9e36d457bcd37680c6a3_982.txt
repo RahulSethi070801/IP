@@ -1,0 +1,3 @@
+
+   * @deprecated Provided to satisfy the {@code Function} interface; use {@link #convert} instead.
+   

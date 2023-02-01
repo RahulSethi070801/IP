@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "36": "/** Emulation for AbstractFuture in GWT. */\n",
+        "37": "public abstract class AbstractFuture<V> extends FluentFuture<V> {\n"
+    },
+    "removed": {
+        "36": "/**\n",
+        "37": " * Emulation for AbstractFuture in GWT.\n",
+        "38": " */\n",
+        "39": "public abstract class AbstractFuture<V> implements ListenableFuture<V> {\n"
+    }
+}

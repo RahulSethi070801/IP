@@ -1,0 +1,29 @@
+@Override
+protected final void doStart() {
+    executorService = MoreExecutors.renamingDecorator(executor(), new Supplier<String>() {
+
+        @Override
+        public String get() {
+            return serviceName() + " " + state();
+        }
+    });
+    executorService.execute(new Runnable() {
+
+        @Override
+        public void run() {
+            lock.lock();
+            try {
+                startUp();
+                runningTask = scheduler().schedule(delegate, executorService, task);
+                notifyStarted();
+            } catch (Throwable t) {
+                notifyFailed(t);
+                if (runningTask != null) {
+                    runningTask.cancel(false);
+                }
+            } finally {
+                lock.unlock();
+            }
+        }
+    });
+}

@@ -1,0 +1,17 @@
+@Override
+@NullableDecl
+public Range<C> get(Object key) {
+    if (key instanceof Cut) {
+        try {
+            @SuppressWarnings("unchecked")
+            Cut<C> cut = (Cut<C>) key;
+            Entry<Cut<C>, Range<C>> firstEntry = tailMap(cut, true).firstEntry();
+            if (firstEntry != null && firstEntry.getKey().equals(cut)) {
+                return firstEntry.getValue();
+            }
+        } catch (ClassCastException e) {
+            return null;
+        }
+    }
+    return null;
+}

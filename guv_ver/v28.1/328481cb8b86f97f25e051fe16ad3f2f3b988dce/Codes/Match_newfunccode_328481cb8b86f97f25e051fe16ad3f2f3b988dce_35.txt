@@ -1,0 +1,12 @@
+static String toStringImpl(Map<?, ?> map) {
+    StringBuilder sb = Collections2.newStringBuilderForCollection(map.size()).append('{');
+    boolean first = true;
+    for (Entry<?, ?> entry : map.entrySet()) {
+        if (!first) {
+            sb.append(", ");
+        }
+        first = false;
+        sb.append(entry.getKey()).append('=').append(entry.getValue());
+    }
+    return sb.append('}').toString();
+}

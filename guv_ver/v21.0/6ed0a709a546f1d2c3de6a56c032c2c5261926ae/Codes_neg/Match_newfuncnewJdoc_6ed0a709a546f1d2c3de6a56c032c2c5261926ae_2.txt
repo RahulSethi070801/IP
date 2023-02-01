@@ -1,0 +1,4 @@
+
+   * Returns true iff {@code graph1} and {@code graph2} are equal as defined by
+   * {@link Network#equals(Object)}.
+   

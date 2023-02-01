@@ -1,0 +1,4 @@
+@Override
+public Map<Range, Object> asDescendingMapOfRanges() {
+    return Collections.emptyMap();
+}

@@ -1,0 +1,6 @@
+ConcatenatedCharSource(Iterable<? extends CharSource> sources)
+public static CharSource concat(Iterator<? extends CharSource> sources)
+
+ConcatenatedByteSource(Iterable<? extends ByteSource> sources)
+public static ByteSource concat(Iterable<? extends ByteSource> sources)
+

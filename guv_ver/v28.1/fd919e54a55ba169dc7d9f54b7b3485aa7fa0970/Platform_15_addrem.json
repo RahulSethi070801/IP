@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "30": "   * Returns a new array of the given length with the same type as a reference array.\n",
+        "46": "   * Configures the given map maker to use weak keys, if possible; does nothing otherwise (i.e., in\n",
+        "47": "   * GWT). This is sometimes acceptable, when only server-side code could generate enough volume\n",
+        "48": "   * that reclamation becomes important.\n"
+    },
+    "removed": {
+        "30": "   * Returns a new array of the given length with the same type as a reference\n",
+        "31": "   * array.\n",
+        "47": "   * Configures the given map maker to use weak keys, if possible; does nothing\n",
+        "48": "   * otherwise (i.e., in GWT). This is sometimes acceptable, when only\n",
+        "49": "   * server-side code could generate enough volume that reclamation becomes\n",
+        "50": "   * important.\n"
+    }
+}

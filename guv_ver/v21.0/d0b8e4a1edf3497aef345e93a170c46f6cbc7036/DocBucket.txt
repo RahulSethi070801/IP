@@ -1,0 +1,5 @@
+com.google.common.graph.Network
+asGraph
+Graph<N, Set<E>> asGraph()
+empty
+Graph

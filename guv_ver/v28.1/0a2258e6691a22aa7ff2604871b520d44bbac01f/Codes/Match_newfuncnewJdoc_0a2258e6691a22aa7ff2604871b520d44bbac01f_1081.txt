@@ -1,0 +1,1 @@
+ Removes and returns the first matching element, or returns {@code null} if there is none. 

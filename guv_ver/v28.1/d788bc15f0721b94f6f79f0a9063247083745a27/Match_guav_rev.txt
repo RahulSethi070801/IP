@@ -1,0 +1,54 @@
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public boolean contains(@NullableDecl Object obj)
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public UnmodifiableIterator<EndpointPair<N>> iterator()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public boolean contains(@NullableDecl Object obj)
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public UnmodifiableIterator<EndpointPair<N>> iterator()
+
+int degree(N node)
+public int size()
+
+int degree(N node)
+public int size()
+

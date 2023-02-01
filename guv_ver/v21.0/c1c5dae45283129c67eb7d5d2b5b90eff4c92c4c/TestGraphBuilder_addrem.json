@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "21": "import com.google.common.graph.MutableGraph;\n",
+        "27": " * private static final ImmutableGraph<String> GRAPH =\n",
+        "28": " *     TestGraphBuilder.<String>init(GraphBuilder.directed())\n",
+        "32": " *         .addEdge(\"B\", \"C\")\n",
+        "36": "public final class TestGraphBuilder<N> {\n",
+        "37": "  private final MutableGraph<N> graph;\n",
+        "39": "  private TestGraphBuilder(MutableGraph<N> graph) {\n",
+        "43": "  public static <N> TestGraphBuilder<N> init(GraphBuilder<? super N> builder) {\n",
+        "44": "    return new TestGraphBuilder<N>(builder.<N>build());\n",
+        "47": "  public TestGraphBuilder<N> addNode(N node) {\n",
+        "52": "  public TestGraphBuilder<N> addEdge(N node1, N node2) {\n",
+        "53": "    graph.addEdge(node1, node2);\n",
+        "57": "  public ImmutableGraph<N> toImmutableGraph() {\n"
+    },
+    "removed": {
+        "19": "import com.google.common.graph.Graph;\n",
+        "27": " * private static final ImmutableGraph<String, String> GRAPH =\n",
+        "28": " *     TestGraphBuilder.<String, String>init(GraphBuilder.directed())\n",
+        "32": " *         .addEdge(\"B->C\", \"B\", \"C\")\n",
+        "36": "public final class TestGraphBuilder<N, E> {\n",
+        "37": "  private final Graph<N, E> graph;\n",
+        "39": "  private TestGraphBuilder(Graph<N, E> graph) {\n",
+        "43": "  public static <N, E> TestGraphBuilder<N, E> init(GraphBuilder<? super N, ? super E> builder) {\n",
+        "44": "    return new TestGraphBuilder<N, E>(builder.<N, E>build());\n",
+        "47": "  public TestGraphBuilder<N, E> addNode(N node) {\n",
+        "52": "  public TestGraphBuilder<N, E> addEdge(E edge, N node1, N node2) {\n",
+        "53": "    graph.addEdge(edge, node1, node2);\n",
+        "57": "  public ImmutableGraph<N, E> toImmutableGraph() {\n"
+    }
+}

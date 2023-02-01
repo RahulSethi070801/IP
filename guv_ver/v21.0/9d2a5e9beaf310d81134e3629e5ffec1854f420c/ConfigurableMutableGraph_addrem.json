@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "100": "    NodeAdjacencies<N> connectionsB = isSelfLoop ? connectionsA : nodeConnections.get(nodeB);\n",
+        "102": "      connectionsB = addNodeInternal(nodeB);\n"
+    },
+    "removed": {
+        "91": "    NodeAdjacencies<N> connectionsB = nodeConnections.get(nodeB);\n",
+        "102": "      connectionsB = isSelfLoop ? connectionsA : addNodeInternal(nodeB);\n"
+    }
+}

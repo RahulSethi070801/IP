@@ -1,0 +1,4 @@
+AbstractTransformFuture_2
+Insertions: [30, 189, 190, 218, 219]
+Deletions: [19, 31, 32, 33, 192, 193, 221, 222]
+guava/src/com/google/common/util/concurrent/AbstractTransformFuture.java

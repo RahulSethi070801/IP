@@ -1,0 +1,4 @@
+TestingCacheLoaders
+Insertions: [59, 64, 69, 80, 91]
+Deletions: [59, 60, 61, 66, 67, 68, 73, 74, 75, 86, 87, 88, 99, 100, 101]
+android/guava-tests/test/com/google/common/cache/TestingCacheLoaders.java

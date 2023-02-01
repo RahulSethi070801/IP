@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "27": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "39": "  @NullableDecl\n",
+        "40": "  public abstract V get(@NullableDecl Object key);\n",
+        "43": "  @NullableDecl\n",
+        "49": "  @NullableDecl\n",
+        "55": "  @NullableDecl\n",
+        "61": "  @NullableDecl\n",
+        "87": "  @NullableDecl\n",
+        "93": "  @NullableDecl\n",
+        "99": "  @NullableDecl\n",
+        "105": "  @NullableDecl\n"
+    },
+    "removed": {
+        "27": "import javax.annotation.Nullable;\n",
+        "39": "  @Nullable\n",
+        "40": "  public abstract V get(@Nullable Object key);\n",
+        "43": "  @Nullable\n",
+        "49": "  @Nullable\n",
+        "55": "  @Nullable\n",
+        "61": "  @Nullable\n",
+        "87": "  @Nullable\n",
+        "93": "  @Nullable\n",
+        "99": "  @Nullable\n",
+        "105": "  @Nullable\n"
+    }
+}

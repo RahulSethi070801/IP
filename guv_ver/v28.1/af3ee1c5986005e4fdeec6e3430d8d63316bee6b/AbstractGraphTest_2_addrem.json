@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "106": "  @CanIgnoreReturnValue\n",
+        "107": "  protected boolean putEdge(EndpointPair<Integer> endpoints) {\n",
+        "108": "    graph.addNode(endpoints.nodeU());\n",
+        "109": "    graph.addNode(endpoints.nodeV());\n",
+        "110": "    return graph.putEdge(endpoints);\n",
+        "111": "  }\n",
+        "112": "\n"
+    },
+    "removed": {}
+}

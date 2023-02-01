@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "328": "   * Returns {@code true} iff {@code object} is a graph that has the same structural relationships\n",
+        "333": "   * <li>A and B have the same {@link #isDirected() directedness}.\n",
+        "334": "   * <li>A and B have the same node set.\n",
+        "335": "   * <li>A and B have the same edge set.\n",
+        "336": "   * <li>Every edge in A and B connects the same nodes in the same direction (if any).\n",
+        "344": "   * <p>Note: {@link Network} instances can only be equal to other {@link Network} instances.\n",
+        "345": "   * In particular, {@link Graph}s that are not also {@link Network}s cannot be equal to\n",
+        "346": "   * {@link Network}s.\n",
+        "347": "   *\n",
+        "348": "   * <p>A reference implementation of this is provided by {@link Graphs#equal(Network, Network)}.\n",
+        "355": "   * of a map from each of the graph's nodes to its outgoing edges.\n"
+    },
+    "removed": {
+        "328": "   * Returns {@code true} iff {@code object} is a graph that has the same node/edge relationships\n",
+        "333": "   * <li>A and B have the same node set\n",
+        "334": "   * <li>A and B have the same edge set\n",
+        "335": "   * <li>A and B have the same incidence relationships, e.g., for each node/edge in A and in B\n",
+        "336": "   *     its incident edge/node set in A is the same as its incident edge/node set in B.\n",
+        "337": "   *     <br>Thus, every edge in A and B connect the same nodes in the same direction (if any).\n",
+        "345": "   * <p>A reference implementation of this is provided by\n",
+        "346": "   * {@link Graphs#equal(Network, Network)}.\n",
+        "353": "   * of a map from each of the graph's nodes to their incident edges.\n",
+        "356": "   *\n",
+        "357": "   * <p>Note that by this definition, two graphs that are equal in every aspect except edge\n",
+        "358": "   * direction will have the same hash code (but can still be differentiated by\n",
+        "359": "   * {@link #equals(Object)}).\n"
+    }
+}

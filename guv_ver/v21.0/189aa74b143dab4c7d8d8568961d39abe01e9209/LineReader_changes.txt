@@ -1,0 +1,4 @@
+LineReader
+Insertions: [21, 71]
+Deletions: []
+guava/src/com/google/common/io/LineReader.java

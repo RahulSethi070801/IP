@@ -1,0 +1,4 @@
+SortedMultisetBridge_2
+Insertions: [21, 31, 32]
+Deletions: [30]
+guava/src/com/google/common/collect/SortedMultisetBridge.java

@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "34": " * <li><b>Methods that return a writer:</b> These methods should return a <i>new</i>, independent\n",
+        "35": " *     instance each time they are called. The caller is responsible for ensuring that the returned\n",
+        "36": " *     writer is closed.\n",
+        "37": " * <li><b>Convenience methods:</b> These are implementations of common operations that are typically\n",
+        "38": " *     implemented by opening a writer using one of the methods in the first category, doing\n",
+        "39": " *     something and finally closing the writer that was opened.\n",
+        "69": "   * required to be a {@link BufferedWriter} in order to allow implementations to simply delegate to\n",
+        "70": "   * {@link #openStream()} when the stream returned by that method does not benefit from additional\n",
+        "71": "   * buffering. This method should return a new, independent writer each time it is called.\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "36": " *   <li><b>Methods that return a writer:</b> These methods should return a <i>new</i>,\n",
+        "37": " *   independent instance each time they are called. The caller is responsible for ensuring that the\n",
+        "38": " *   returned writer is closed.\n",
+        "39": " *   <li><b>Convenience methods:</b> These are implementations of common operations that are\n",
+        "40": " *   typically implemented by opening a writer using one of the methods in the first category,\n",
+        "41": " *   doing something and finally closing the writer that was opened.\n",
+        "71": "   * required to be a {@link BufferedWriter} in order to allow implementations to simply delegate\n",
+        "72": "   * to {@link #openStream()} when the stream returned by that method does not benefit from\n",
+        "73": "   * additional buffering. This method should return a new, independent writer each time it is\n",
+        "74": "   * called.\n"
+    }
+}

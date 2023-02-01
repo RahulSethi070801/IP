@@ -1,0 +1,4 @@
+EnumBiMap_2
+Insertions: [31, 32, 35, 46, 57, 58, 59, 62, 63, 119, 120]
+Deletions: [31, 32, 33, 36, 37, 48, 49, 60, 61, 62, 63, 66, 67, 123, 124]
+guava/src/com/google/common/collect/EnumBiMap.java

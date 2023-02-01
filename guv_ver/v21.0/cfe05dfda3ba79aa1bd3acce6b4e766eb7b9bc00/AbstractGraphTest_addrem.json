@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "32": " * Abstract base class for testing implementations of {@link Graph} interface. Graph\n",
+        "42": " * <li>Test cases related to the specific implementation of the {@link Graph} interface.\n",
+        "49": "  MutableGraph<Integer> graph;\n",
+        "73": "  public abstract MutableGraph<Integer> createGraph();\n",
+        "124": "  static <N> void validateGraph(Graph<N> graph) {\n",
+        "125": "    assertThat(Graphs.equivalent(graph, Graphs.copyOf(graph))).isTrue();\n",
+        "126": "    assertThat(Graphs.equivalent(graph, ImmutableGraph.copyOf(graph))).isTrue();\n",
+        "138": "    assertThat(graph.edges()).doesNotContain(EndpointPair.of(graph, new Object(), new Object()));\n",
+        "140": "    Set<EndpointPair<N>> allEndpointPairs = new HashSet<EndpointPair<N>>();\n",
+        "175": "        allEndpointPairs.add(EndpointPair.of(graph, node, successor));\n",
+        "180": "    assertThat(graph.edges()).isEqualTo(allEndpointPairs);\n"
+    },
+    "removed": {
+        "24": "import com.google.common.testing.EqualsTester;\n",
+        "33": " * Abstract base class for testing implementations of {@link BasicGraph} interface. Graph\n",
+        "43": " * <li>Test cases related to the specific implementation of the {@link BasicGraph} interface.\n",
+        "50": "  MutableBasicGraph<Integer> graph;\n",
+        "74": "  public abstract MutableBasicGraph<Integer> createGraph();\n",
+        "125": "  static <N> void validateGraph(Graph<N, ?> graph) {\n",
+        "126": "    if (graph instanceof BasicGraph) {\n",
+        "127": "      @SuppressWarnings(\"unchecked\")\n",
+        "128": "      BasicGraph<N> basicGraph = (BasicGraph<N>) graph;\n",
+        "129": "      new EqualsTester().addEqualityGroup(\n",
+        "130": "          basicGraph,\n",
+        "131": "          Graphs.copyOf(basicGraph),\n",
+        "132": "          ImmutableBasicGraph.copyOf(basicGraph)).testEquals();\n",
+        "133": "    }\n",
+        "146": "    Set<Endpoints<N>> allEndpoints = new HashSet<Endpoints<N>>();\n",
+        "168": "      for (N otherNode : graph.nodes()) {\n",
+        "169": "        if (graph.successors(node).contains(otherNode)) {\n",
+        "170": "          assertThat(graph.edgeValue(node, otherNode)).isNotNull();\n",
+        "171": "        } else {\n",
+        "172": "          assertThat(graph.edgeValueOrDefault(node, otherNode, null)).isNull();\n",
+        "173": "        }\n",
+        "174": "      }\n",
+        "175": "\n",
+        "189": "        allEndpoints.add(Endpoints.of(graph, node, successor));\n",
+        "194": "    assertThat(graph.edges()).isEqualTo(allEndpoints);\n"
+    }
+}

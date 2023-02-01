@@ -1,0 +1,4 @@
+ImmutableList_3
+Insertions: [43, 405, 410, 415, 613, 618, 624, 653]
+Deletions: [43, 405, 410, 415, 613, 618, 624, 653]
+guava/src/com/google/common/collect/ImmutableList.java

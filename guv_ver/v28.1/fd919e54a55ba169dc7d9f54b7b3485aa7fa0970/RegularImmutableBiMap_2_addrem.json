@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "52": "  RegularImmutableBiMap(ImmutableMap<K, V> delegate, ImmutableBiMap<V, K> inverse) {\n",
+        "57": "  @Override\n",
+        "58": "  public ImmutableBiMap<V, K> inverse() {\n"
+    },
+    "removed": {
+        "52": "  RegularImmutableBiMap(ImmutableMap<K, V> delegate,\n",
+        "53": "      ImmutableBiMap<V, K> inverse) {\n",
+        "58": "  @Override public ImmutableBiMap<V, K> inverse() {\n"
+    }
+}

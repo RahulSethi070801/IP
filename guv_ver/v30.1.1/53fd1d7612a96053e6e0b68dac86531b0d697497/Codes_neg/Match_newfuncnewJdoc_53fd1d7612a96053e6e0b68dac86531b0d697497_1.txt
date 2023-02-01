@@ -1,0 +1,10 @@
+
+   * Split a freeform string into a host and port, without strict validation.
+   *
+   * <p>Note that the host-only formats will leave the port field undefined. You can use {@link
+   * #withDefaultPort(int)} to patch in a default value.
+   *
+   * @param hostPortString the input string to parse.
+   * @return if parsing was successful, a populated HostAndPort object.
+   * @throws IllegalArgumentException if nothing meaningful could be parsed.
+   

@@ -1,0 +1,4 @@
+@Override
+public K get(@Nullable Object value) {
+    return Maps.keyOrNull(seekByValue(value, smearedHash(value)));
+}

@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.Monitor
+isSatisfied
+private boolean isSatisfied(Guard guard)
+Guard
+boolean

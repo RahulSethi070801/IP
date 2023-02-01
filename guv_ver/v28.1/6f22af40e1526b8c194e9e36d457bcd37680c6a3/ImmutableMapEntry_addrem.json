@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "56": "  @NullableDecl\n",
+        "61": "  @NullableDecl\n",
+        "83": "    @NullableDecl\n",
+        "108": "    @NullableDecl\n"
+    },
+    "removed": {
+        "22": "import javax.annotation.Nullable;\n",
+        "56": "  @Nullable\n",
+        "61": "  @Nullable\n",
+        "83": "    @Nullable\n",
+        "108": "    @Nullable\n"
+    }
+}

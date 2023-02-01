@@ -1,0 +1,8 @@
+public static Striped<Lock> lazyWeakLock(int stripes) {
+    return new LazyStriped<Lock>(stripes, new Supplier<Lock>() {
+
+        public Lock get() {
+            return new ReentrantLock(false);
+        }
+    });
+}

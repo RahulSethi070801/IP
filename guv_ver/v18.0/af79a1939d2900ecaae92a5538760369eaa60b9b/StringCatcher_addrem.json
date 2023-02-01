@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "28": " * A simple EventSubscriber mock that records Strings.\n"
+    },
+    "removed": {
+        "28": " * A simple EventHandler mock that records Strings.\n"
+    }
+}

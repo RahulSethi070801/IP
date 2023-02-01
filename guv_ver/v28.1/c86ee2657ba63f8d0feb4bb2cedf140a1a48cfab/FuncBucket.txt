@@ -1,0 +1,235 @@
+com.google.common.collect.CompactHashSet
+resizeEntries
+void resizeEntries(int newCapacity)
+int
+void
+com.google.common.collect.CompactHashSet
+createWithExpectedSize
+public static CompactHashSet<E> createWithExpectedSize(int expectedSize)
+int
+CompactHashSet
+com.google.common.collect.CompactLinkedHashSet
+toArray
+public T[] toArray(T[] a)
+T[]
+T[]
+com.google.common.collect.CompactLinkedHashSet
+createWithExpectedSize
+public static CompactLinkedHashSet<E> createWithExpectedSize(int expectedSize)
+int
+CompactLinkedHashSet
+com.google.common.collect.CompactLinkedHashSet
+getSuccessor
+int getSuccessor(int entry)
+int
+int
+com.google.common.collect.CompactLinkedHashSet
+init
+void init(int expectedSize, float loadFactor)
+int,float
+void
+com.google.common.collect.CompactHashSet
+CompactHashSet
+CompactHashSet(int expectedSize)
+int
+constructor
+com.google.common.collect.CompactLinkedHashMap
+CompactLinkedHashMap
+CompactLinkedHashMap(int expectedSize)
+int
+constructor
+com.google.common.collect.CompactLinkedHashSet
+moveEntry
+void moveEntry(int dstIndex)
+int
+void
+com.google.common.collect.CompactHashSet
+iterator
+public Iterator<E> iterator()
+empty
+Iterator
+com.google.common.collect.CompactLinkedHashSet
+setSuccessor
+private void setSuccessor(int entry, int succ)
+int,int
+void
+com.google.common.collect.CompactLinkedHashSet
+clear
+public void clear()
+empty
+void
+com.google.common.collect.CompactHashSet
+allocArrays
+void allocArrays()
+empty
+void
+com.google.common.collect.CompactLinkedHashSet
+forEach
+public void forEach(Consumer<? super E> action)
+Consumer
+void
+com.google.common.collect.CompactHashSet
+hashTableMask
+private int hashTableMask()
+empty
+int
+com.google.common.collect.CompactLinkedHashSet
+toArray
+public Object[] toArray()
+empty
+Object[]
+com.google.common.collect.CompactLinkedHashMap
+createKeySet
+Set<K> createKeySet()
+empty
+Set
+com.google.common.collect.CompactLinkedHashSet
+succeeds
+private void succeeds(int pred, int succ)
+int,int
+void
+com.google.common.collect.CompactHashMap
+CompactHashMap
+CompactHashMap()
+empty
+constructor
+com.google.common.collect.CompactLinkedHashSet
+init
+void init(int expectedSize)
+int
+void
+com.google.common.collect.CompactHashSet
+readObject
+private void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException
+ObjectInputStream
+void
+com.google.common.collect.CompactHashSet
+resizeTable
+private void resizeTable(int newCapacity)
+int
+void
+com.google.common.collect.CompactLinkedHashMap
+createValues
+Collection<V> createValues()
+empty
+Collection
+com.google.common.collect.CompactHashMap
+CompactHashMap
+CompactHashMap(int capacity)
+int
+constructor
+com.google.common.collect.CompactHashMap
+CompactHashMap
+CompactHashMap(int capacity, float loadFactor)
+int,float
+constructor
+com.google.common.collect.CompactHashSet
+remove
+public void remove()
+empty
+void
+com.google.common.collect.CompactHashMap$ValuesView
+forEach
+public void forEach(Consumer<? super V> action)
+Consumer
+void
+com.google.common.collect.CompactHashSet
+CompactHashSet
+CompactHashSet()
+empty
+constructor
+com.google.common.collect.CompactHashMap
+forEach
+public void forEach(BiConsumer<? super K, ? super V> action)
+BiConsumer
+void
+com.google.common.collect.CompactHashMap
+put
+public V put(@Nullable K key, @Nullable V value)
+K,V
+V
+com.google.common.collect.CompactLinkedHashSet
+adjustAfterRemove
+int adjustAfterRemove(int indexBeforeRemove, int indexRemoved)
+int,int
+int
+com.google.common.collect.CompactLinkedHashSet
+getSuccessor
+int getSuccessor(int entryIndex)
+int
+int
+com.google.common.collect.CompactHashSet
+trimToSize
+public void trimToSize()
+empty
+void
+com.google.common.collect.CompactLinkedHashSet
+setPredecessor
+private void setPredecessor(int entry, int pred)
+int,int
+void
+com.google.common.collect.CompactHashMap
+remove
+private V remove(@Nullable Object key, int hash)
+Object,int
+V
+com.google.common.collect.CompactHashSet
+remove
+private boolean remove(Object object, int hash)
+Object,int
+boolean
+com.google.common.collect.CompactLinkedHashMap
+CompactLinkedHashMap
+CompactLinkedHashMap(int expectedSize, float loadFactor, boolean accessOrder)
+int,float,boolean
+constructor
+com.google.common.collect.CompactLinkedHashSet
+create
+public static CompactLinkedHashSet<E> create()
+empty
+CompactLinkedHashSet
+com.google.common.collect.CompactHashMap$KeySetView
+forEach
+public void forEach(Consumer<? super K> action)
+Consumer
+void
+com.google.common.collect.CompactLinkedHashSet
+moveLastEntry
+void moveLastEntry(int dstIndex)
+int
+void
+com.google.common.collect.CompactLinkedHashSet
+setSucceeds
+private void setSucceeds(int pred, int succ)
+int,int
+void
+com.google.common.collect.CompactHashSet
+create
+public static CompactHashSet<E> create()
+empty
+CompactHashSet
+com.google.common.collect.CompactLinkedHashMap
+CompactLinkedHashMap
+CompactLinkedHashMap(int expectedSize, boolean accessOrder)
+int,boolean
+constructor
+com.google.common.collect.CompactHashSet
+add
+public boolean add(@Nullable E object)
+E
+boolean
+com.google.common.collect.CompactLinkedHashSet
+getPredecessor
+private int getPredecessor(int entry)
+int
+int
+com.google.common.collect.CompactHashMap
+CompactHashMap
+CompactHashMap(int expectedSize)
+int
+constructor
+com.google.common.collect.CompactLinkedHashSet
+insertEntry
+void insertEntry(int entryIndex, E object, int hash)
+int,E,int
+void

@@ -1,0 +1,7 @@
+public static InetAddress forString(String ipString) {
+    byte[] addr = ipStringToBytes(ipString);
+    if (addr == null) {
+        throw formatIllegalArgumentException("'%s' is not an IP string literal.", ipString);
+    }
+    return bytesToInetAddress(addr);
+}

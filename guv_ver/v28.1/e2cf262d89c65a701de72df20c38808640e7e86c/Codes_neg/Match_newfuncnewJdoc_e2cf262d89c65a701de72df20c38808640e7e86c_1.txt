@@ -1,0 +1,4 @@
+
+   * Exactly like guard.isSatisfied(), but in addition signals all waiting threads in the (hopefully
+   * unlikely) event that isSatisfied() throws.
+   

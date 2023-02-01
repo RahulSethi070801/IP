@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "199": "      @NullableDecl K key,\n",
+        "216": "      @NullableDecl K key,\n",
+        "249": "      @NullableDecl E key,\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "199": "      @Nullable K key,\n",
+        "216": "      @Nullable K key,\n",
+        "249": "      @Nullable E key,\n"
+    }
+}

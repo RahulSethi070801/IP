@@ -1,0 +1,4 @@
+@Beta
+public static <T> FluentIterable<T> concat(Iterable<? extends T> a, Iterable<? extends T> b) {
+    return concatNoDefensiveCopy(a, b);
+}

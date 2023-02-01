@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "41": "import com.google.common.collect.testing.testers.ListReplaceAllTester;\n",
+        "86": "    testers.add(ListReplaceAllTester.class);\n"
+    },
+    "removed": {}
+}

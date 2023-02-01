@@ -1,0 +1,4 @@
+ImmediateFuture
+Insertions: [29, 31]
+Deletions: [29, 30, 31, 33]
+android/guava/src/com/google/common/util/concurrent/ImmediateFuture.java

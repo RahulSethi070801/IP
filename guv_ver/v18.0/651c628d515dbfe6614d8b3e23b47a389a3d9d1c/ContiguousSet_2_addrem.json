@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "32": " * {@code ContiguousSet.create(Range.greaterThan(0), DiscreteDomain.integers()}). Certain\n"
+    },
+    "removed": {
+        "32": " * {@code ContiguousSet.create(Range.greaterThan(0), DiscreteDomains.integers()}). Certain\n"
+    }
+}

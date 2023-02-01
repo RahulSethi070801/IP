@@ -1,0 +1,18 @@
+@Override
+public void clear() {
+    if (!range.hasLowerBound() && !range.hasUpperBound()) {
+        for (AvlNode<E> current = header.succ(); current != header; ) {
+            AvlNode<E> next = current.succ();
+            current.elemCount = 0;
+            current.left = null;
+            current.right = null;
+            current.pred = null;
+            current.succ = null;
+            current = next;
+        }
+        successor(header, header);
+        rootReference.clear();
+    } else {
+        Iterators.clear(entryIterator());
+    }
+}

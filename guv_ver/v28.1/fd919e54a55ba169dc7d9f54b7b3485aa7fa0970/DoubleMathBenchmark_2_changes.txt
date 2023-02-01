@@ -1,0 +1,4 @@
+DoubleMathBenchmark_2
+Insertions: [36, 47, 48, 57, 58, 67, 68, 79, 80]
+Deletions: [36, 47, 56, 65, 76]
+guava-tests/benchmark/com/google/common/math/DoubleMathBenchmark.java

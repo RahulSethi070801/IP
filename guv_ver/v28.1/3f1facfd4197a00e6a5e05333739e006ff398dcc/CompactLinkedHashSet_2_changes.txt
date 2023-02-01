@@ -1,0 +1,4 @@
+CompactLinkedHashSet_2
+Insertions: [54, 60, 61, 73, 74, 86, 87, 91, 221, 222, 226, 227]
+Deletions: [54, 55, 56, 62, 63, 75, 76, 88, 89, 90, 94, 224, 228]
+guava/src/com/google/common/collect/CompactLinkedHashSet.java

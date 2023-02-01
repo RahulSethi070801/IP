@@ -1,0 +1,6 @@
+static RateLimiter createWithCapacity(SleepingStopwatch stopwatch, double permitsPerSecond, long maxBurstBuildup, TimeUnit unit)
+public boolean tryAcquire(int permits)
+
+static RateLimiter createWithCapacity(SleepingStopwatch stopwatch, double permitsPerSecond, long maxBurstBuildup, TimeUnit unit)
+public boolean tryAcquire(int permits)
+

@@ -1,0 +1,4 @@
+Streams
+Insertions: [47, 383, 756]
+Deletions: [47, 383, 756]
+guava/src/com/google/common/collect/Streams.java

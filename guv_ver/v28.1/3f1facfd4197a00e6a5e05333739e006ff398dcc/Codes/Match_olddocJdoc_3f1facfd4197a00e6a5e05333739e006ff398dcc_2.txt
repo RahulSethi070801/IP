@@ -1,0 +1,17 @@
+
+   * In reflection, {@code Foo<?>.getUpperBounds()[0]} is always {@code Object.class}, even when Foo
+   * is defined as {@code Foo<T extends String>}. Thus directly calling {@code <?>.is(String.class)}
+   * will return false. To mitigate, we canonicalize wildcards by enforcing the following
+   * invariants:
+   * <ol>
+   * <li>{@code canonicalize(t)} always produces the equal result for equivalent types. For example
+   *     both {@code Enum<?>} and {@code Enum<? extends Enum<?>>} canonicalize to
+   *     {@code Enum<? extends Enum<E>}.
+   * <li>{@code canonicalize(t)} produces a "literal" supertype of t.
+   *     For example: {@code Enum<? extends Enum<?>>} canonicalizes to {@code Enum<?>}, which is
+   *     a supertype (if we disregard the upper bound is implicitly an Enum too).
+   * <li>If {@code canonicalize(A) == canonicalize(B)}, then {@code Foo<A>.isSubtypeOf(Foo<B>)} and
+   *     vice versa. i.e. {@code A.is(B)} and {@code B.is(A)}.
+   * <li>{@code canonicalize(canonicalize(A)) == canonicalize(A)}.
+   * </ol>
+   

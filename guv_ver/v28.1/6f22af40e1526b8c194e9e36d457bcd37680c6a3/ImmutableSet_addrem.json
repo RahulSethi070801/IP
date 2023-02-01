@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "38": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "314": "  public boolean equals(@NullableDecl Object object) {\n",
+        "336": "  @LazyInit @NullableDecl @RetainedWith private transient ImmutableList<E> asList;\n",
+        "448": "    @NullableDecl @VisibleForTesting Object[] hashTable;\n"
+    },
+    "removed": {
+        "38": "import javax.annotation.Nullable;\n",
+        "314": "  public boolean equals(@Nullable Object object) {\n",
+        "336": "  @LazyInit @Nullable @RetainedWith private transient ImmutableList<E> asList;\n",
+        "448": "    @Nullable @VisibleForTesting Object[] hashTable;\n"
+    }
+}

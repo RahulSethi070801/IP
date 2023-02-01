@@ -1,0 +1,5 @@
+@Override
+@Nullable
+O doTransform(Function<? super I, ? extends O> function, @Nullable I input) {
+    return function.apply(input);
+}

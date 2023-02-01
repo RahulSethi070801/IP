@@ -1,0 +1,6 @@
+Builder(GraphBuilder<N> graphBuilder)
+public ImmutableGraph.Builder<N1> immutable()
+
+GraphBuilder<N> copy()
+public ImmutableGraph.Builder<N1> immutable()
+

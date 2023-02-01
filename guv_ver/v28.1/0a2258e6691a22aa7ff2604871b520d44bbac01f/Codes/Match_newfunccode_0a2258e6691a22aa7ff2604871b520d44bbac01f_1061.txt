@@ -1,0 +1,3 @@
+public static <R, C, V> Cell<R, C, V> immutableCell(@Nullable R rowKey, @Nullable C columnKey, @Nullable V value) {
+    return new ImmutableCell<>(rowKey, columnKey, value);
+}

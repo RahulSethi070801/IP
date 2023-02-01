@@ -1,0 +1,10 @@
+com.google.common.collect.ComparisonChain
+compare
+public abstract ComparisonChain compare(Comparable<?> left, Comparable<?> right)
+Comparable,Comparable
+ComparisonChain
+com.google.common.collect.MinMaxPriorityQueue
+orderedBy
+public static Builder<B> orderedBy(Comparator<B> comparator)
+Comparator
+Builder

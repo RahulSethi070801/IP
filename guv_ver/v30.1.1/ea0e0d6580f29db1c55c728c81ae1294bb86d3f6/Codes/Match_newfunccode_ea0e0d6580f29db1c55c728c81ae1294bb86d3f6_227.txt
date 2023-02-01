@@ -1,0 +1,4 @@
+@Override
+public int setCount(@ParametricNullness E element, int count) {
+    throw new UnsupportedOperationException();
+}

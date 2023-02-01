@@ -1,0 +1,17 @@
+{
+    "addition": {},
+    "removed": {
+        "20": "import static java.util.concurrent.TimeUnit.HOURS;\n",
+        "126": "    @SuppressWarnings(\"deprecation\") // test of deprecated method\n",
+        "127": "    public void testExpiration_setTwice() {\n",
+        "128": "      MapMaker maker = new MapMaker().expireAfterWrite(1, HOURS);\n",
+        "129": "      try {\n",
+        "130": "        // even to the same value is not allowed\n",
+        "131": "        maker.expireAfterWrite(1, HOURS);\n",
+        "132": "        fail();\n",
+        "133": "      } catch (IllegalStateException expected) {\n",
+        "134": "      }\n",
+        "135": "    }\n",
+        "136": "\n"
+    }
+}

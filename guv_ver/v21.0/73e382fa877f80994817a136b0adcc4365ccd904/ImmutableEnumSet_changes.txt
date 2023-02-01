@@ -1,0 +1,4 @@
+ImmutableEnumSet
+Insertions: [24, 25, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81]
+Deletions: []
+guava/src/com/google/common/collect/ImmutableEnumSet.java

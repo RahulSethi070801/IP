@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "76": "  private final ImmutableMap<E, IncidentNodes<N>> edgeToIncidentNodes;\n",
+        "81": "    ImmutableMap.Builder<N, NodeConnections<N, E>> nodeConnectionsBuilder = ImmutableMap.builder();\n",
+        "87": "    ImmutableMap.Builder<E, IncidentNodes<N>> edgeToNodesBuilder = ImmutableMap.builder();\n",
+        "89": "      edgeToNodesBuilder.put(edge, IncidentNodes.of(undirectedGraph.incidentNodes(edge)));\n",
+        "117": "    return checkedIncidentNodes(edge);\n",
+        "220": "  private IncidentNodes<N> checkedIncidentNodes(Object edge) {\n",
+        "221": "    checkNotNull(edge, \"edge\");\n",
+        "222": "    IncidentNodes<N> incidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "223": "    checkArgument(incidentNodes != null, EDGE_NOT_IN_GRAPH, edge);\n",
+        "224": "    return incidentNodes;\n",
+        "225": "  }\n",
+        "226": "\n"
+    },
+    "removed": {
+        "76": "  private final ImmutableMap<E, UndirectedIncidentNodes<N>> edgeToIncidentNodes;\n",
+        "81": "    ImmutableMap.Builder<N, NodeConnections<N, E>> nodeConnectionsBuilder =\n",
+        "82": "        ImmutableMap.builder();\n",
+        "88": "    ImmutableMap.Builder<E, UndirectedIncidentNodes<N>> edgeToNodesBuilder = ImmutableMap.builder();\n",
+        "90": "      edgeToNodesBuilder.put(edge, UndirectedIncidentNodes.of(undirectedGraph.incidentNodes(edge)));\n",
+        "118": "    checkNotNull(edge, \"edge\");\n",
+        "119": "    UndirectedIncidentNodes<N> incidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "120": "    checkArgument(incidentNodes != null, EDGE_NOT_IN_GRAPH, edge);\n",
+        "121": "    return incidentNodes;\n"
+    }
+}

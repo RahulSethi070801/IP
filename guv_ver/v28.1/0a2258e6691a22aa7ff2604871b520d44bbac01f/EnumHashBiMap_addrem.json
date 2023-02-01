@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "30": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "88": "  public V put(K key, @Nullable V value) {\n",
+        "94": "  public V forcePut(K key, @Nullable V value) {\n"
+    },
+    "removed": {
+        "30": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "88": "  public V put(K key, @NullableDecl V value) {\n",
+        "94": "  public V forcePut(K key, @NullableDecl V value) {\n"
+    }
+}

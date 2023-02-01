@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "99": "  public final R invoke(@NullableDecl T receiver, Object... args)\n",
+        "176": "  abstract Object invokeInternal(@NullableDecl Object receiver, Object[] args)\n",
+        "198": "    final Object invokeInternal(@NullableDecl Object receiver, Object[] args)\n",
+        "252": "    final Object invokeInternal(@NullableDecl Object receiver, Object[] args)\n"
+    },
+    "removed": {
+        "33": "import javax.annotation.Nullable;\n",
+        "99": "  public final R invoke(@Nullable T receiver, Object... args)\n",
+        "176": "  abstract Object invokeInternal(@Nullable Object receiver, Object[] args)\n",
+        "198": "    final Object invokeInternal(@Nullable Object receiver, Object[] args)\n",
+        "252": "    final Object invokeInternal(@Nullable Object receiver, Object[] args)\n"
+    }
+}

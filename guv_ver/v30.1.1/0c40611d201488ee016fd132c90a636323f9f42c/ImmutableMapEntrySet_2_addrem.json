@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "25": "import javax.annotation.CheckForNull;\n",
+        "35": "@ElementTypesAreNonnullByDefault\n",
+        "57": "    int copyIntoArray(@Nullable Object[] dst, int offset) {\n",
+        "92": "  public boolean contains(@CheckForNull Object object) {\n"
+    },
+    "removed": {
+        "55": "    int copyIntoArray(Object[] dst, int offset) {\n",
+        "90": "  public boolean contains(@Nullable Object object) {\n"
+    }
+}

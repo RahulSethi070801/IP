@@ -1,0 +1,4 @@
+@Nullable
+public static String emptyToNull(@Nullable String string) {
+    return isNullOrEmpty(string) ? null : string;
+}

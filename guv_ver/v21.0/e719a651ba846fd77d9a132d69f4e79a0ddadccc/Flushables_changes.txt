@@ -1,0 +1,4 @@
+Flushables
+Insertions: [4, 5, 9, 10, 11, 12, 34, 39, 41, 42, 45, 46, 47, 48, 51, 56, 64, 65]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 36, 37, 42, 43, 45, 46, 49, 50, 51, 52, 55, 56, 61, 62, 70, 71]
+guava/src/com/google/common/io/Flushables.java

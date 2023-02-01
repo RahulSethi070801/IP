@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "39": "import java.util.Map.Entry;\n",
+        "173": "   * <p>A call to {@link Entry#setValue} on the returned entry will always throw {@link\n",
+        "457": "    for (Entry<?, ?> entry : copy.entrySet()) {\n"
+    },
+    "removed": {
+        "172": "   * <p>A call to {@link Map.Entry#setValue} on the returned entry will always throw {@link\n",
+        "456": "    for (Map.Entry<?, ?> entry : copy.entrySet()) {\n"
+    }
+}

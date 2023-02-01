@@ -1,0 +1,8 @@
+@CanIgnoreReturnValue
+public <E extends T> E min(@Nullable E a, @Nullable E b, @Nullable E c, E... rest) {
+    E minSoFar = min(min(a, b), c);
+    for (E r : rest) {
+        minSoFar = min(minSoFar, r);
+    }
+    return minSoFar;
+}

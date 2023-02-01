@@ -1,0 +1,25 @@
+private void workOnQueue() {
+    boolean interruptedDuringTask = false;
+    try {
+        while (true) {
+            interruptedDuringTask |= Thread.interrupted();
+            Runnable task;
+            synchronized (queue) {
+                task = queue.poll();
+                if (task == null) {
+                    isWorkerRunning = false;
+                    return;
+                }
+            }
+            try {
+                task.run();
+            } catch (RuntimeException e) {
+                log.log(Level.SEVERE, "Exception while executing runnable " + task, e);
+            }
+        }
+    } finally {
+        if (interruptedDuringTask) {
+            Thread.currentThread().interrupt();
+        }
+    }
+}

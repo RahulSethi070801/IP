@@ -1,0 +1,10 @@
+public static <T> Collector<T, ?, BloomFilter<T>> toBloomFilter(Funnel<? super T> funnel, long expectedInsertions, double fpp) {
+    checkNotNull(funnel);
+    checkArgument(expectedInsertions >= 0, "Expected insertions (%s) must be >= 0", expectedInsertions);
+    checkArgument(fpp > 0.0, "False positive probability (%s) must be > 0.0", fpp);
+    checkArgument(fpp < 1.0, "False positive probability (%s) must be < 1.0", fpp);
+    return Collector.of(() -> BloomFilter.create(funnel, expectedInsertions, fpp), BloomFilter::put, (bf1, bf2) -> {
+        bf1.putAll(bf2);
+        return bf1;
+    }, Collector.Characteristics.UNORDERED, Collector.Characteristics.CONCURRENT);
+}

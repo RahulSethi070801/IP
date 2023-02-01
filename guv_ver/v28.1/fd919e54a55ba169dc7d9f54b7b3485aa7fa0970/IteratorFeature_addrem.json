@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "27": " * A method supported by implementations of the {@link Iterator} or {@link ListIterator} interface.\n",
+        "35": "  /** Support for {@link Iterator#remove()}. */\n",
+        "38": "   * Support for {@link ListIterator#add(Object)}; ignored for plain {@link Iterator}\n",
+        "39": "   * implementations.\n",
+        "43": "   * Support for {@link ListIterator#set(Object)}; ignored for plain {@link Iterator}\n",
+        "44": "   * implementations.\n",
+        "49": "   * A set containing none of the optional features of the {@link Iterator} or {@link ListIterator}\n",
+        "50": "   * interfaces.\n",
+        "55": "   * A set containing all of the optional features of the {@link Iterator} and {@link ListIterator}\n",
+        "56": "   * interfaces.\n"
+    },
+    "removed": {
+        "27": " * A method supported by implementations of the {@link Iterator} or\n",
+        "28": " * {@link ListIterator} interface.\n",
+        "36": "  /**\n",
+        "37": "   * Support for {@link Iterator#remove()}.\n",
+        "38": "   */\n",
+        "41": "   * Support for {@link ListIterator#add(Object)}; ignored for plain\n",
+        "42": "   * {@link Iterator} implementations.\n",
+        "46": "   * Support for {@link ListIterator#set(Object)}; ignored for plain\n",
+        "47": "   * {@link Iterator} implementations.\n",
+        "52": "   * A set containing none of the optional features of the {@link Iterator} or\n",
+        "53": "   * {@link ListIterator} interfaces.\n",
+        "58": "   * A set containing all of the optional features of the {@link Iterator} and\n",
+        "59": "   * {@link ListIterator} interfaces.\n"
+    }
+}

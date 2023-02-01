@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "30": "import java.util.LinkedHashMap;\n",
+        "334": "     * @return an unmodifiable, ordered map of results: the keys will be the specified quantile\n",
+        "335": "     *     indexes, and the values the corresponding quantile values. When iterating, entries in the\n",
+        "336": "     *     map are ordered by quantile index in the same order they were passed to the {@code\n",
+        "337": "     *     indexes} method.\n",
+        "348": "     * @return an unmodifiable, ordered map of results: the keys will be the specified quantile\n",
+        "349": "     *     indexes, and the values the corresponding quantile values. When iterating, entries in the\n",
+        "350": "     *     map are ordered by quantile index in the same order they were passed to the {@code\n",
+        "351": "     *     indexes} method.\n",
+        "363": "     * @return an unmodifiable, ordered map of results: the keys will be the specified quantile\n",
+        "364": "     *     indexes, and the values the corresponding quantile values. When iterating, entries in the\n",
+        "365": "     *     map are ordered by quantile index in the same order they were passed to the {@code\n",
+        "366": "     *     indexes} method.\n",
+        "377": "     * @return an unmodifiable, ordered map of results: the keys will be the specified quantile\n",
+        "378": "     *     indexes, and the values the corresponding quantile values. When iterating, entries in the\n",
+        "379": "     *     map are ordered by quantile index in the same order they were passed to the {@code\n",
+        "380": "     *     indexes} method.\n",
+        "391": "     * @return an unmodifiable, ordered map of results: the keys will be the specified quantile\n",
+        "392": "     *     indexes, and the values the corresponding quantile values. When iterating, entries in the\n",
+        "393": "     *     map are ordered by quantile index in the same order that the indexes were passed to the\n",
+        "394": "     *     {@code indexes} method.\n",
+        "399": "        Map<Integer, Double> nanMap = new LinkedHashMap<>();\n",
+        "438": "      Map<Integer, Double> ret = new LinkedHashMap<>();\n"
+    },
+    "removed": {
+        "30": "import java.util.HashMap;\n",
+        "334": "     * @return an unmodifiable map of results: the keys will be the specified quantile indexes, and\n",
+        "335": "     *     the values the corresponding quantile values\n",
+        "346": "     * @return an unmodifiable map of results: the keys will be the specified quantile indexes, and\n",
+        "347": "     *     the values the corresponding quantile values\n",
+        "359": "     * @return an unmodifiable map of results: the keys will be the specified quantile indexes, and\n",
+        "360": "     *     the values the corresponding quantile values\n",
+        "371": "     * @return an unmodifiable map of results: the keys will be the specified quantile indexes, and\n",
+        "372": "     *     the values the corresponding quantile values\n",
+        "383": "     * @return an unmodifiable map of results: the keys will be the specified quantile indexes, and\n",
+        "384": "     *     the values the corresponding quantile values\n",
+        "389": "        Map<Integer, Double> nanMap = new HashMap<>();\n",
+        "428": "      Map<Integer, Double> ret = new HashMap<>();\n"
+    }
+}

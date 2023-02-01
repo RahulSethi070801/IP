@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "47": "    suite.addTest(\n",
+        "48": "        MultisetTestSuiteBuilder.using(hashMultisetGenerator())\n",
+        "49": "            .withFeatures(\n",
+        "50": "                CollectionSize.ANY,\n",
+        "51": "                CollectionFeature.FAILS_FAST_ON_CONCURRENT_MODIFICATION,\n",
+        "52": "                CollectionFeature.ALLOWS_NULL_VALUES,\n",
+        "53": "                CollectionFeature.SERIALIZABLE,\n",
+        "54": "                CollectionFeature.GENERAL_PURPOSE,\n",
+        "55": "                MultisetFeature.ENTRIES_ARE_VIEWS)\n",
+        "56": "            .named(\"HashMultiset\")\n",
+        "57": "            .createTestSuite());\n",
+        "64": "      @Override\n",
+        "65": "      protected Multiset<String> create(String[] elements) {\n",
+        "88": "    Multiset<String> multiset = HashMultiset.create(Arrays.asList(\"foo\", \"bar\", \"foo\"));\n"
+    },
+    "removed": {
+        "47": "    suite.addTest(MultisetTestSuiteBuilder.using(hashMultisetGenerator())\n",
+        "48": "        .withFeatures(CollectionSize.ANY,\n",
+        "49": "            CollectionFeature.FAILS_FAST_ON_CONCURRENT_MODIFICATION,\n",
+        "50": "            CollectionFeature.ALLOWS_NULL_VALUES,\n",
+        "51": "            CollectionFeature.SERIALIZABLE,\n",
+        "52": "            CollectionFeature.GENERAL_PURPOSE,\n",
+        "53": "            MultisetFeature.ENTRIES_ARE_VIEWS)\n",
+        "54": "        .named(\"HashMultiset\")\n",
+        "55": "        .createTestSuite());\n",
+        "62": "      @Override protected Multiset<String> create(String[] elements) {\n",
+        "85": "    Multiset<String> multiset\n",
+        "86": "        = HashMultiset.create(Arrays.asList(\"foo\", \"bar\", \"foo\"));\n"
+    }
+}

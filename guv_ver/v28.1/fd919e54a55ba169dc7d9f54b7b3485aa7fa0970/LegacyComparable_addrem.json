@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "24": " * A class that implements {@code Comparable} without generics, such as those found in libraries\n",
+        "25": " * that support Java 1.4 and before. Our library needs to do the bare minimum to accommodate such\n",
+        "26": " * types, though their use may still require an explicit type parameter and/or warning suppression.\n",
+        "36": "  static final Iterable<LegacyComparable> VALUES_FORWARD = Arrays.asList(X, Y, Z);\n",
+        "37": "  static final Iterable<LegacyComparable> VALUES_BACKWARD = Arrays.asList(Z, Y, X);\n",
+        "52": "  @Override\n",
+        "53": "  public boolean equals(Object object) {\n",
+        "61": "  @Override\n",
+        "62": "  public int hashCode() {\n"
+    },
+    "removed": {
+        "24": " * A class that implements {@code Comparable} without generics, such as those\n",
+        "25": " * found in libraries that support Java 1.4 and before. Our library needs to\n",
+        "26": " * do the bare minimum to accommodate such types, though their use may still\n",
+        "27": " * require an explicit type parameter and/or warning suppression.\n",
+        "37": "  static final Iterable<LegacyComparable> VALUES_FORWARD\n",
+        "38": "      = Arrays.asList(X, Y, Z);\n",
+        "39": "  static final Iterable<LegacyComparable> VALUES_BACKWARD\n",
+        "40": "      = Arrays.asList(Z, Y, X);\n",
+        "55": "  @Override public boolean equals(Object object) {\n",
+        "63": "  @Override public int hashCode() {\n"
+    }
+}

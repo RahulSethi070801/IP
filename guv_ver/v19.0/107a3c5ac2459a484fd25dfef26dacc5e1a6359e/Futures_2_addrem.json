@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "1970": "        \"Futures.getChecked exception type (%s) must not be a RuntimeException\",\n",
+        "2038": "        \"Futures.getChecked exception type (%s) must not be a RuntimeException\",\n",
+        "2128": "   * so, refer to it in the (static-method) Futures.getChecked documentation\n"
+    },
+    "removed": {
+        "1970": "        \"Futures.get exception type (%s) must not be a RuntimeException\",\n",
+        "2038": "        \"Futures.get exception type (%s) must not be a RuntimeException\",\n",
+        "2128": "   * so, refer to it in the (static-method) Futures.get documentation\n"
+    }
+}

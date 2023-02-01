@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "24": "/** Implementation of an {@link Optional} containing a reference. */\n"
+    },
+    "removed": {
+        "24": "/**\n",
+        "25": " * Implementation of an {@link Optional} containing a reference.\n",
+        "26": " */\n"
+    }
+}

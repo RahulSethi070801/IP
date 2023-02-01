@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "50": "    Object dummy =\n",
+        "51": "        Proxy.newProxyInstance(\n",
+        "52": "            interfaceClasses.iterator().next().getClassLoader(),\n",
+        "53": "            interfaceClasses.toArray(new Class<?>[interfaceClasses.size()]),\n",
+        "54": "            new DummyHandler(interfaceType));\n",
+        "70": "    @Override\n",
+        "71": "    protected Object handleInvocation(Object proxy, Method method, Object[] args) {\n",
+        "83": "    @Override\n",
+        "84": "    public int hashCode() {\n",
+        "88": "    @Override\n",
+        "89": "    public boolean equals(Object obj) {\n",
+        "102": "    @Override\n",
+        "103": "    public String toString() {\n"
+    },
+    "removed": {
+        "50": "    Object dummy = Proxy.newProxyInstance(\n",
+        "51": "        interfaceClasses.iterator().next().getClassLoader(),\n",
+        "52": "        interfaceClasses.toArray(new Class<?>[interfaceClasses.size()]),\n",
+        "53": "        new DummyHandler(interfaceType));\n",
+        "69": "    @Override protected Object handleInvocation(\n",
+        "70": "        Object proxy, Method method, Object[] args) {\n",
+        "82": "    @Override public int hashCode() {\n",
+        "86": "    @Override public boolean equals(Object obj) {\n",
+        "99": "    @Override public String toString() {\n"
+    }
+}

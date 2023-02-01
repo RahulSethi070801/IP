@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "25": " * Implementation of {@code Entry} for {@link ImmutableMap} that adds extra methods to traverse\n"
+    },
+    "removed": {
+        "25": " * Implementation of {@code Map.Entry} for {@link ImmutableMap} that adds extra methods to traverse\n"
+    }
+}

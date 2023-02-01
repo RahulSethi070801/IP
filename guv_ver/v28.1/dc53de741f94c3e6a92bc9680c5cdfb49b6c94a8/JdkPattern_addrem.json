@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "32": "  public CommonMatcher matcher(CharSequence t) {\n",
+        "37": "  public String pattern() {\n",
+        "42": "  public int flags() {\n",
+        "59": "    public boolean matches() {\n",
+        "64": "    public boolean find() {\n",
+        "69": "    public boolean find(int index) {\n",
+        "74": "    public String replaceAll(String replacement) {\n",
+        "79": "    public int end() {\n",
+        "84": "    public int start() {\n"
+    },
+    "removed": {
+        "32": "  CommonMatcher matcher(CharSequence t) {\n",
+        "37": "  String pattern() {\n",
+        "42": "  int flags() {\n",
+        "51": "  @Override\n",
+        "52": "  public int hashCode() {\n",
+        "53": "    return pattern.hashCode();\n",
+        "54": "  }\n",
+        "55": "\n",
+        "56": "  @Override\n",
+        "57": "  public boolean equals(Object o) {\n",
+        "58": "    if (!(o instanceof JdkPattern)) {\n",
+        "59": "      return false;\n",
+        "60": "    }\n",
+        "61": "    return pattern.equals(((JdkPattern) o).pattern);\n",
+        "62": "  }\n",
+        "63": "\n",
+        "72": "    boolean matches() {\n",
+        "77": "    boolean find() {\n",
+        "82": "    boolean find(int index) {\n",
+        "87": "    String replaceAll(String replacement) {\n",
+        "92": "    int end() {\n",
+        "97": "    int start() {\n"
+    }
+}

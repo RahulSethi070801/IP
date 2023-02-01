@@ -1,0 +1,4 @@
+@Override
+public String toString() {
+    return "MoreFiles.asByteSource(" + path + ", " + Arrays.toString(options) + ")";
+}

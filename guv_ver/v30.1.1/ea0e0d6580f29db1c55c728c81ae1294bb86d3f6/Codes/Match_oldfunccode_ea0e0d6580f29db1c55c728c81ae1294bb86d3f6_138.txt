@@ -1,0 +1,20 @@
+private long aggregateAboveRange(Aggregate aggr, @Nullable AvlNode<E> node) {
+    if (node == null) {
+        return 0;
+    }
+    int cmp = comparator().compare(range.getUpperEndpoint(), node.elem);
+    if (cmp > 0) {
+        return aggregateAboveRange(aggr, node.right);
+    } else if (cmp == 0) {
+        switch(range.getUpperBoundType()) {
+            case OPEN:
+                return aggr.nodeAggregate(node) + aggr.treeAggregate(node.right);
+            case CLOSED:
+                return aggr.treeAggregate(node.right);
+            default:
+                throw new AssertionError();
+        }
+    } else {
+        return aggr.treeAggregate(node.right) + aggr.nodeAggregate(node) + aggregateAboveRange(aggr, node.left);
+    }
+}

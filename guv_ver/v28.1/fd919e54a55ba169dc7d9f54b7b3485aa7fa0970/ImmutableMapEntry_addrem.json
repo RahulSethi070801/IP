@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "25": " * Implementation of {@code Entry} for {@link ImmutableMap} that adds extra methods to traverse hash\n",
+        "26": " * buckets for the key and the value. This allows reuse in {@link RegularImmutableMap} and {@link\n",
+        "27": " * RegularImmutableBiMap}, which don't have to recopy the entries created by their {@code Builder}\n",
+        "28": " * implementations.\n",
+        "30": " * <p>This base implementation has no key or value pointers, so instances of ImmutableMapEntry (but\n",
+        "31": " * not its subclasses) can be reused when copied from one ImmutableMap to another.\n",
+        "38": "   * Creates an {@code ImmutableMapEntry} array to hold parameterized entries. The result must never\n",
+        "39": "   * be upcast back to ImmutableMapEntry[] (or Object[], etc.), or allowed to escape the class.\n",
+        "67": "   * Returns true if this entry has no bucket links and can safely be reused as a terminal entry in\n",
+        "68": "   * a bucket in another map.\n"
+    },
+    "removed": {
+        "25": " * Implementation of {@code Entry} for {@link ImmutableMap} that adds extra methods to traverse\n",
+        "26": " * hash buckets for the key and the value. This allows reuse in {@link RegularImmutableMap} and\n",
+        "27": " * {@link RegularImmutableBiMap}, which don't have to recopy the entries created by their\n",
+        "28": " * {@code Builder} implementations.\n",
+        "30": " * <p>This base implementation has no key or value pointers, so instances of ImmutableMapEntry\n",
+        "31": " * (but not its subclasses) can be reused when copied from one ImmutableMap to another.\n",
+        "38": "   * Creates an {@code ImmutableMapEntry} array to hold parameterized entries. The\n",
+        "39": "   * result must never be upcast back to ImmutableMapEntry[] (or Object[], etc.), or\n",
+        "40": "   * allowed to escape the class.\n",
+        "68": "   * Returns true if this entry has no bucket links and can safely be reused as a terminal\n",
+        "69": "   * entry in a bucket in another map.\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public SortedMap<C, V> row(R rowKey) {
+    return new TreeRow(rowKey);
+}

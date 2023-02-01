@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "26": " * Tests for {@link ImmutableBasicGraph}.\n",
+        "29": "public class ImmutableBasicGraphTest {\n",
+        "33": "    BasicGraph<String> graph1 =\n",
+        "34": "        ImmutableBasicGraph.copyOf(BasicGraphBuilder.directed().<String>build());\n",
+        "35": "    BasicGraph<String> graph2 = ImmutableBasicGraph.copyOf(graph1);\n"
+    },
+    "removed": {
+        "26": " * Tests for {@link ImmutableGraph}.\n",
+        "29": "public class ImmutableGraphTest {\n",
+        "33": "    Graph<String> graph1 = ImmutableGraph.copyOf(GraphBuilder.directed().<String>build());\n",
+        "34": "    Graph<String> graph2 = ImmutableGraph.copyOf(graph1);\n"
+    }
+}

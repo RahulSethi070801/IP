@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "23": "import java.util.Collections;\n",
+        "24": "import java.util.Spliterator;\n",
+        "52": "  @Override\n",
+        "53": "  public Spliterator<E> spliterator() {\n",
+        "54": "    return Collections.singleton(element).spliterator();\n",
+        "55": "  }\n",
+        "56": "\n"
+    },
+    "removed": {}
+}

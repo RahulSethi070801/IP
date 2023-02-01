@@ -1,0 +1,15 @@
+public void enterWhen(Guard guard) throws InterruptedException
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+
+public boolean enterIfInterruptibly(Guard guard) throws InterruptedException
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+
+public void waitFor(Guard guard) throws InterruptedException
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+
+public boolean enterInterruptibly(long time, TimeUnit unit) throws InterruptedException
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+
+public void enterInterruptibly() throws InterruptedException
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+

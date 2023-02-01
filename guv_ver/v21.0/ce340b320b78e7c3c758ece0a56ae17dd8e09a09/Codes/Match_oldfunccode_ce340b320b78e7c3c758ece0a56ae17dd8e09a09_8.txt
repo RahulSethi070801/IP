@@ -1,0 +1,3 @@
+public static <N, E> NetworkBuilder<N, E> from(Network<N, E> graph) {
+    return new NetworkBuilder<N, E>(graph.isDirected()).allowsParallelEdges(graph.allowsParallelEdges()).allowsSelfLoops(graph.allowsSelfLoops());
+}

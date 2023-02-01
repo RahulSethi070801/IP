@@ -1,0 +1,5 @@
+@SuppressWarnings("unchecked")
+@NullableDecl
+private <T extends B> T trustedGet(TypeToken<T> type) {
+    return (T) backingMap.get(type);
+}

@@ -1,0 +1,12 @@
+
+   * Advances {@code iterator} {@code position + 1} times, returning the element at the {@code
+   * position}th position or {@code defaultValue} otherwise.
+   *
+   * @param position position of the element to return
+   * @param defaultValue the default value to return if the iterator is empty or if {@code position}
+   *     is greater than the number of elements remaining in {@code iterator}
+   * @return the element at the specified position in {@code iterator} or {@code defaultValue} if
+   *     {@code iterator} produces fewer than {@code position + 1} elements.
+   * @throws IndexOutOfBoundsException if {@code position} is negative
+   * @since 4.0
+   

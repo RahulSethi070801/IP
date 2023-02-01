@@ -1,0 +1,27 @@
+private void init() {
+    if (futures.isEmpty()) {
+        handleAllCompleted();
+        return;
+    }
+    if (allMustSucceed) {
+        int i = 0;
+        for (final ListenableFuture<? extends InputT> listenable : futures) {
+            final int index = i++;
+            listenable.addListener(new Runnable() {
+
+                @Override
+                public void run() {
+                    try {
+                        handleOneInputDone(index, listenable);
+                    } finally {
+                        decrementCountAndMaybeComplete();
+                    }
+                }
+            }, directExecutor());
+        }
+    } else {
+        for (ListenableFuture<? extends InputT> listenable : futures) {
+            listenable.addListener(this, directExecutor());
+        }
+    }
+}

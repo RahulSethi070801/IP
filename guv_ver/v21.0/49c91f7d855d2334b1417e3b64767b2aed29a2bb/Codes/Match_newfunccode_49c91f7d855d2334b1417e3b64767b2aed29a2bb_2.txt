@@ -1,0 +1,11 @@
+public static <N, E> MutableNetwork<N, E> copyOf(Network<N, E> graph) {
+    checkNotNull(graph, "graph");
+    MutableNetwork<N, E> copy = NetworkBuilder.from(graph).expectedNodeCount(graph.nodes().size()).expectedEdgeCount(graph.edges().size()).build();
+    for (N node : graph.nodes()) {
+        copy.addNode(node);
+    }
+    for (E edge : graph.edges()) {
+        addEdge(copy, edge, graph.incidentNodes(edge));
+    }
+    return copy;
+}

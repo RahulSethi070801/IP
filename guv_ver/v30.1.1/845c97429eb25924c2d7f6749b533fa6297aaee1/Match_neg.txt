@@ -1,0 +1,6 @@
+ValueGraphBuilder<N1, V> incidentEdgeOrder(ElementOrder<N1> incidentEdgeOrder)
+public ImmutableValueGraph.Builder<N1, V1> immutable()
+
+ValueGraphBuilder<N1, V> incidentEdgeOrder(ElementOrder<N1> incidentEdgeOrder)
+public ImmutableValueGraph.Builder<N1, V1> immutable()
+

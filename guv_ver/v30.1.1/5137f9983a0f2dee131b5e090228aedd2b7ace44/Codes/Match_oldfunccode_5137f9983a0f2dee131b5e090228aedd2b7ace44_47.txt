@@ -1,0 +1,4 @@
+@Override
+public boolean accept(@Nullable File dir, String fileName) {
+    return pattern.matcher(fileName).matches();
+}

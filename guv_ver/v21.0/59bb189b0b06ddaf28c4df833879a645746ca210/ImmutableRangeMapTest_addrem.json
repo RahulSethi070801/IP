@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "88": "        builder.put(range1, 1).put(range2, 2);\n",
+        "90": "          ImmutableRangeMap<Integer, Integer> unused = builder.build();\n"
+    },
+    "removed": {
+        "88": "        builder.put(range1, 1);\n",
+        "90": "          builder.put(range2, 2);\n"
+    }
+}

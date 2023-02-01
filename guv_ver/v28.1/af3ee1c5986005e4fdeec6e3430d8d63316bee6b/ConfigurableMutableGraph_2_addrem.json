@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "54": "  @Override\n",
+        "55": "  public boolean putEdge(EndpointPair<N> endpoints) {\n",
+        "56": "    validateEndpoints(endpoints);\n",
+        "57": "    return putEdge(endpoints.nodeU(), endpoints.nodeV());\n",
+        "58": "  }\n",
+        "59": "\n",
+        "69": "\n",
+        "70": "  @Override\n",
+        "71": "  public boolean removeEdge(EndpointPair<N> endpoints) {\n",
+        "72": "    validateEndpoints(endpoints);\n",
+        "73": "    return removeEdge(endpoints.nodeU(), endpoints.nodeV());\n",
+        "74": "  }\n"
+    },
+    "removed": {}
+}

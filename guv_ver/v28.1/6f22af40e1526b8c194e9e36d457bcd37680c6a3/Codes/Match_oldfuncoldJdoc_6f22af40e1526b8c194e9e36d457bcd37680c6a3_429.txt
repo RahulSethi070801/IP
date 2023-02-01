@@ -1,0 +1,4 @@
+
+     * Returns the entry associated with this value reference, or {@code null} if this value
+     * reference is independent of any entry.
+     

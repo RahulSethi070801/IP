@@ -1,0 +1,4 @@
+ListMultimapRemoveTester_2
+Insertions: [30, 95]
+Deletions: [30, 95]
+guava-testlib/src/com/google/common/collect/testing/google/ListMultimapRemoveTester.java

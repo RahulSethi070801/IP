@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "30": "/** Implementations of {@code Futures.transform*}. */\n",
+        "189": "   * An {@link AbstractTransformFuture} that delegates to an {@link AsyncFunction} and {@link\n",
+        "190": "   * #setFuture(ListenableFuture)}.\n",
+        "218": "   * An {@link AbstractTransformFuture} that delegates to a {@link Function} and {@link\n",
+        "219": "   * #set(Object)}.\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.util.concurrent.MoreExecutors.directExecutor;\n",
+        "31": "/**\n",
+        "32": " * Implementations of {@code Futures.transform*}.\n",
+        "33": " */\n",
+        "192": "   * An {@link AbstractTransformFuture} that delegates to an {@link AsyncFunction} and\n",
+        "193": "   * {@link #setFuture(ListenableFuture)}.\n",
+        "221": "   * An {@link AbstractTransformFuture} that delegates to a {@link Function} and\n",
+        "222": "   * {@link #set(Object)}.\n"
+    }
+}

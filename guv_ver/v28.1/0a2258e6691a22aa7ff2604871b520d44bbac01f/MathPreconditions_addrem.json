@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "20": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "30": "  static int checkPositive(@Nullable String role, int x) {\n",
+        "37": "  static long checkPositive(@Nullable String role, long x) {\n",
+        "44": "  static BigInteger checkPositive(@Nullable String role, BigInteger x) {\n",
+        "51": "  static int checkNonNegative(@Nullable String role, int x) {\n",
+        "58": "  static long checkNonNegative(@Nullable String role, long x) {\n",
+        "65": "  static BigInteger checkNonNegative(@Nullable String role, BigInteger x) {\n",
+        "72": "  static double checkNonNegative(@Nullable String role, double x) {\n"
+    },
+    "removed": {
+        "20": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "30": "  static int checkPositive(@NullableDecl String role, int x) {\n",
+        "37": "  static long checkPositive(@NullableDecl String role, long x) {\n",
+        "44": "  static BigInteger checkPositive(@NullableDecl String role, BigInteger x) {\n",
+        "51": "  static int checkNonNegative(@NullableDecl String role, int x) {\n",
+        "58": "  static long checkNonNegative(@NullableDecl String role, long x) {\n",
+        "65": "  static BigInteger checkNonNegative(@NullableDecl String role, BigInteger x) {\n",
+        "72": "  static double checkNonNegative(@NullableDecl String role, double x) {\n"
+    }
+}

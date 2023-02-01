@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "652": "    sb.append(\"..\");\n"
+    },
+    "removed": {
+        "652": "    sb.append('\\u2025');\n"
+    }
+}

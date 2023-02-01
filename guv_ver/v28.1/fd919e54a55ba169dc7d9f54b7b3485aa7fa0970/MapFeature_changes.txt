@@ -1,0 +1,4 @@
+MapFeature
+Insertions: [37, 38, 43, 44, 49, 50, 54, 68, 69, 70]
+Deletions: [37, 38, 39, 44, 45, 46, 51, 52, 56, 57, 71, 72, 73]
+android/guava-testlib/src/com/google/common/collect/testing/features/MapFeature.java

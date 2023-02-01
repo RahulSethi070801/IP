@@ -1,0 +1,9 @@
+
+   * Handles cases of updates involving initialization, resizing, creating new Cells, and/or
+   * contention. See above for explanation. This method suffers the usual non-modularity problems of
+   * optimistic retry code, relying on rechecked sets of reads.
+   *
+   * @param x the value
+   * @param hc the hash code holder
+   * @param wasUncontended false if CAS failed before call
+   

@@ -1,0 +1,13 @@
+public static MappedByteBuffer map(File file, MapMode mode, long size) throws FileNotFoundException, IOException {
+    checkNotNull(file);
+    checkNotNull(mode);
+    Closer closer = Closer.create();
+    try {
+        RandomAccessFile raf = closer.register(new RandomAccessFile(file, mode == MapMode.READ_ONLY ? "r" : "rw"));
+        return map(raf, mode, size);
+    } catch (Throwable e) {
+        throw closer.rethrow(e);
+    } finally {
+        closer.close();
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "52": "import java.util.function.Predicate;\n",
+        "600": "    @Override\n",
+        "601": "    public boolean removeIf(Predicate<? super T> filter) {\n",
+        "602": "      checkNotNull(filter);\n",
+        "603": "      return fromList.removeIf(element -> filter.test(function.apply(element)));\n",
+        "604": "    }\n",
+        "605": "\n",
+        "657": "    @Override\n",
+        "658": "    public boolean removeIf(Predicate<? super T> filter) {\n",
+        "659": "      checkNotNull(filter);\n",
+        "660": "      return fromList.removeIf(element -> filter.test(function.apply(element)));\n",
+        "661": "    }\n",
+        "662": "\n"
+    },
+    "removed": {}
+}

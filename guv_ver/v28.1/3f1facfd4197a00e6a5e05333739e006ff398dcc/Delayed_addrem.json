@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "13": "/** Emulation of Delayed. */\n",
+        "15": "  long getDelay(TimeUnit unit);\n"
+    },
+    "removed": {
+        "13": "/**\n",
+        "14": " * Emulation of Delayed.\n",
+        "15": " */\n",
+        "17": " long getDelay(TimeUnit unit);\n"
+    }
+}

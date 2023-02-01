@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "57": "  public static <K, V> ImmutableBiMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3) {\n",
+        "58": "    return new RegularImmutableBiMap<K, V>(ImmutableMap.of(k1, v1, k2, v2, k3, v3));\n",
+        "61": "  public static <K, V> ImmutableBiMap<K, V> of(K k1, V v1, K k2, V v2, K k3, V v3, K k4, V v4) {\n",
+        "62": "    return new RegularImmutableBiMap<K, V>(ImmutableMap.of(k1, v1, k2, v2, k3, v3, k4, v4));\n",
+        "67": "    return new RegularImmutableBiMap<K, V>(ImmutableMap.of(k1, v1, k2, v2, k3, v3, k4, v4, k5, v5));\n",
+        "82": "    @Override\n",
+        "83": "    public Builder<K, V> put(K key, V value) {\n",
+        "88": "    @Override\n",
+        "89": "    public Builder<K, V> put(Entry<? extends K, ? extends V> entry) {\n",
+        "94": "    @Override\n",
+        "95": "    public Builder<K, V> putAll(Map<? extends K, ? extends V> map) {\n",
+        "100": "    @Override\n",
+        "101": "    public Builder<K, V> putAll(Iterable<? extends Entry<? extends K, ? extends V>> entries) {\n",
+        "116": "    @Override\n",
+        "117": "    public ImmutableBiMap<K, V> build() {\n",
+        "126": "  public static <K, V> ImmutableBiMap<K, V> copyOf(Map<? extends K, ? extends V> map) {\n",
+        "152": "  @Override\n",
+        "153": "  public ImmutableSet<V> values() {\n"
+    },
+    "removed": {
+        "57": "  public static <K, V> ImmutableBiMap<K, V> of(\n",
+        "58": "      K k1, V v1, K k2, V v2, K k3, V v3) {\n",
+        "59": "    return new RegularImmutableBiMap<K, V>(ImmutableMap.of(\n",
+        "60": "        k1, v1, k2, v2, k3, v3));\n",
+        "63": "  public static <K, V> ImmutableBiMap<K, V> of(\n",
+        "64": "      K k1, V v1, K k2, V v2, K k3, V v3, K k4, V v4) {\n",
+        "65": "    return new RegularImmutableBiMap<K, V>(ImmutableMap.of(\n",
+        "66": "        k1, v1, k2, v2, k3, v3, k4, v4));\n",
+        "71": "    return new RegularImmutableBiMap<K, V>(ImmutableMap.of(\n",
+        "72": "        k1, v1, k2, v2, k3, v3, k4, v4, k5, v5));\n",
+        "87": "    @Override public Builder<K, V> put(K key, V value) {\n",
+        "92": "    @Override public Builder<K, V> put(Entry<? extends K, ? extends V> entry) {\n",
+        "97": "    @Override public Builder<K, V> putAll(Map<? extends K, ? extends V> map) {\n",
+        "102": "    @Override public Builder<K, V> putAll(\n",
+        "103": "        Iterable<? extends Entry<? extends K, ? extends V>> entries) {\n",
+        "118": "    @Override public ImmutableBiMap<K, V> build() {\n",
+        "127": "  public static <K, V> ImmutableBiMap<K, V> copyOf(\n",
+        "128": "      Map<? extends K, ? extends V> map) {\n",
+        "154": "  @Override public ImmutableSet<V> values() {\n"
+    }
+}

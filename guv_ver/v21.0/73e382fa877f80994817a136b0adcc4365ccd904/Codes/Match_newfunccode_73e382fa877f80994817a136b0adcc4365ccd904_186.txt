@@ -1,0 +1,5 @@
+@SuppressWarnings("unchecked")
+@Override
+Spliterator<Cell<C, R, V>> cellSpliterator() {
+    return CollectSpliterators.map(original.cellSet().spliterator(), (Function) TRANSPOSE_CELL);
+}

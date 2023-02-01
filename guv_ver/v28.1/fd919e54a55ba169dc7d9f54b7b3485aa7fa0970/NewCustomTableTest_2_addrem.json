@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "34": "  @Override\n",
+        "35": "  protected Table<String, Integer, Character> create(Object... data) {\n",
+        "36": "    Supplier<TreeMap<Integer, Character>> factory =\n",
+        "37": "        new Supplier<TreeMap<Integer, Character>>() {\n",
+        "43": "    Map<String, Map<Integer, Character>> backingMap = Maps.newLinkedHashMap();\n",
+        "44": "    Table<String, Integer, Character> table = Tables.newCustomTable(backingMap, factory);\n"
+    },
+    "removed": {
+        "34": "  @Override protected Table<String, Integer, Character> create(\n",
+        "35": "      Object... data) {\n",
+        "36": "    Supplier<TreeMap<Integer, Character>> factory\n",
+        "37": "        = new Supplier<TreeMap<Integer, Character>>() {\n",
+        "43": "    Map<String, Map<Integer, Character>> backingMap\n",
+        "44": "        = Maps.newLinkedHashMap();\n",
+        "45": "    Table<String, Integer, Character> table\n",
+        "46": "        = Tables.newCustomTable(backingMap, factory);\n"
+    }
+}

@@ -1,0 +1,5 @@
+private static CancellationException cancellationExceptionWithCause(@NullableDecl String message, @NullableDecl Throwable cause) {
+    CancellationException exception = new CancellationException(message);
+    exception.initCause(cause);
+    return exception;
+}

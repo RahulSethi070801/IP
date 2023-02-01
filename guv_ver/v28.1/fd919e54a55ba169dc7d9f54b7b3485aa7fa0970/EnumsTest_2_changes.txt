@@ -1,0 +1,4 @@
+EnumsTest_2
+Insertions: [173, 174]
+Deletions: [173]
+guava-tests/test/com/google/common/base/EnumsTest.java

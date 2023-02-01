@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "655": "  static final\n",
+        "656": "  java.util.regex.Pattern\n",
+        "657": "      FLOATING_POINT_PATTERN = fpPattern();\n",
+        "660": "  private static\n",
+        "661": "  java.util.regex.Pattern\n",
+        "662": "      fpPattern() {\n",
+        "668": "    return\n",
+        "669": "    java.util.regex.Pattern\n",
+        "670": "        .compile(fpPattern);\n"
+    },
+    "removed": {
+        "38": "import java.util.regex.Pattern;\n",
+        "656": "  static final Pattern FLOATING_POINT_PATTERN = fpPattern();\n",
+        "659": "  private static Pattern fpPattern() {\n",
+        "665": "    return Pattern.compile(fpPattern);\n"
+    }
+}

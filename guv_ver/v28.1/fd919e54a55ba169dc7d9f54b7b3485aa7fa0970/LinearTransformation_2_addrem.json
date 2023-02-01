@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "42": "   * finite. Call either {@link LinearTransformationBuilder#and} or {@link\n",
+        "43": "   * LinearTransformationBuilder#withSlope} on the returned object to finish building the instance.\n",
+        "51": "   * This is an intermediate stage in the construction process. It is returned by {@link\n",
+        "52": "   * LinearTransformation#mapping}. You almost certainly don't want to keep instances around, but\n",
+        "53": "   * instead use method chaining. This represents a single point mapping, i.e. a mapping between one\n",
+        "54": "   * {@code x} and {@code y} value pair.\n",
+        "121": "   * and {@link #isVertical} methods return {@code false} and the {@link #slope}, and {@link\n",
+        "122": "   * #transform} methods all return {@link Double#NaN}. The {@link #inverse} method returns the same\n",
+        "123": "   * instance.\n",
+        "129": "  /** Returns whether this is a vertical transformation. */\n",
+        "132": "  /** Returns whether this is a horizontal transformation. */\n",
+        "137": "   * {@code x}. This must not be called on a vertical transformation (i.e. when {@link\n",
+        "138": "   * #isVertical()} is true).\n",
+        "164": "    @LazyInit LinearTransformation inverse;\n",
+        "222": "    @LazyInit LinearTransformation inverse;\n"
+    },
+    "removed": {
+        "42": "   * finite. Call either {@link LinearTransformationBuilder#and} or\n",
+        "43": "   * {@link LinearTransformationBuilder#withSlope} on the returned object to finish building the\n",
+        "44": "   * instance.\n",
+        "52": "   * This is an intermediate stage in the construction process. It is returned by\n",
+        "53": "   * {@link LinearTransformation#mapping}. You almost certainly don't want to keep instances around,\n",
+        "54": "   * but instead use method chaining. This represents a single point mapping, i.e. a mapping between\n",
+        "55": "   * one {@code x} and {@code y} value pair.\n",
+        "122": "   * and {@link #isVertical} methods return {@code false} and the {@link #slope}, and\n",
+        "123": "   * {@link #transform} methods all return {@link Double#NaN}. The {@link #inverse} method returns\n",
+        "124": "   * the same instance.\n",
+        "130": "  /**\n",
+        "131": "   * Returns whether this is a vertical transformation.\n",
+        "132": "   */\n",
+        "135": "  /**\n",
+        "136": "   * Returns whether this is a horizontal transformation.\n",
+        "137": "   */\n",
+        "142": "   * {@code x}. This must not be called on a vertical transformation (i.e. when\n",
+        "143": "   * {@link #isVertical()} is true).\n",
+        "169": "    @LazyInit\n",
+        "170": "    LinearTransformation inverse;\n",
+        "228": "    @LazyInit\n",
+        "229": "    LinearTransformation inverse;\n"
+    }
+}

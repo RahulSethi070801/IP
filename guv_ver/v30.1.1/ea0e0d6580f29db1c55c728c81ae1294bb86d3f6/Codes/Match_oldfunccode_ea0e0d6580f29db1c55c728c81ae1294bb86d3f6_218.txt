@@ -1,0 +1,3 @@
+public static <E> LinkedHashMultiset<E> create(int distinctElements) {
+    return new LinkedHashMultiset<E>(distinctElements);
+}

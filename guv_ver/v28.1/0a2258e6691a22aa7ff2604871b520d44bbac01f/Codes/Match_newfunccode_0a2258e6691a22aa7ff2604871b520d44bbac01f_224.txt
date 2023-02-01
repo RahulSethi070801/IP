@@ -1,0 +1,8 @@
+@Override
+public void notifyNewValue(@Nullable V newValue) {
+    if (newValue != null) {
+        set(newValue);
+    } else {
+        oldValue = unset();
+    }
+}

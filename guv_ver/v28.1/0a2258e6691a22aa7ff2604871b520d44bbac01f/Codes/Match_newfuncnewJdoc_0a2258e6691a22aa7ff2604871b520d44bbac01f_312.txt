@@ -1,0 +1,22 @@
+
+   * Returns a stream consisting of the results of applying the given function to the elements of
+   * {@code stream} and their indices in the stream. For example,
+   *
+   * <pre>{@code
+   * mapWithIndex(
+   *     Stream.of("a", "b", "c"),
+   *     (str, index) -> str + ":" + index)
+   * }</pre>
+   *
+   * <p>would return {@code Stream.of("a:0", "b:1", "c:2")}.
+   *
+   * <p>The resulting stream is <a
+   * href="http://gee.cs.oswego.edu/dl/html/StreamParallelGuidance.html">efficiently splittable</a>
+   * if and only if {@code stream} was efficiently splittable and its underlying spliterator
+   * reported {@link Spliterator#SUBSIZED}. This is generally the case if the underlying stream
+   * comes from a data structure supporting efficient indexed random access, typically an array or
+   * list.
+   *
+   * <p>The order of the resulting stream is defined if and only if the order of the original stream
+   * was defined.
+   

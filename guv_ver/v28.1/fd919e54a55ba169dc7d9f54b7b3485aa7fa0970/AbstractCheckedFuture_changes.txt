@@ -1,0 +1,4 @@
+AbstractCheckedFuture
+Insertions: [46]
+Deletions: [46, 47, 48]
+android/guava/src/com/google/common/util/concurrent/AbstractCheckedFuture.java

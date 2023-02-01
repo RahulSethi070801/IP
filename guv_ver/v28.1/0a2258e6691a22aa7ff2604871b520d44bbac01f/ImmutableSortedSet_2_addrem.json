@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "42": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "810": "  abstract int indexOf(@Nullable Object target);\n"
+    },
+    "removed": {
+        "42": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "810": "  abstract int indexOf(@NullableDecl Object target);\n"
+    }
+}

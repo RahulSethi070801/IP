@@ -1,0 +1,15 @@
+
+   * Returns the element at the specified position in an iterable or a default value otherwise.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code
+   * stream.skip(position).findFirst().orElse(defaultValue)} (returns the default value if the index
+   * is out of bounds)
+   *
+   * @param position position of the element to return
+   * @param defaultValue the default value to return if {@code position} is greater than or equal to
+   *     the size of the iterable
+   * @return the element at the specified position in {@code iterable} or {@code defaultValue} if
+   *     {@code iterable} contains fewer than {@code position + 1} elements.
+   * @throws IndexOutOfBoundsException if {@code position} is negative
+   * @since 4.0
+   

@@ -1,0 +1,3 @@
+private static boolean isPredecessor(@NullableDecl Object value) {
+    return (value == PRED) || (value instanceof PredAndSucc);
+}

@@ -1,0 +1,19 @@
+public void enterWhen(Guard guard) throws InterruptedException {
+    if (guard.monitor != this) {
+        throw new IllegalMonitorStateException();
+    }
+    final ReentrantLock lock = this.lock;
+    boolean signalBeforeWaiting = lock.isHeldByCurrentThread();
+    lock.lockInterruptibly();
+    boolean satisfied = false;
+    try {
+        if (!guard.isSatisfied()) {
+            await(guard, signalBeforeWaiting);
+        }
+        satisfied = true;
+    } finally {
+        if (!satisfied) {
+            leave();
+        }
+    }
+}

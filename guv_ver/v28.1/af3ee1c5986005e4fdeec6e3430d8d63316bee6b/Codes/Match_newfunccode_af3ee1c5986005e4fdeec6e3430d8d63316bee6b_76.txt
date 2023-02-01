@@ -1,0 +1,4 @@
+protected final boolean hasEdgeConnecting_internal(N nodeU, N nodeV) {
+    GraphConnections<N, V> connectionsU = nodeConnections.get(nodeU);
+    return (connectionsU != null) && connectionsU.successors().contains(nodeV);
+}

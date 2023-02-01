@@ -1,0 +1,4 @@
+
+   * If {@code (key, value)} is currently in the map, this method removes it and returns
+   * true; otherwise, this method returns false.
+   

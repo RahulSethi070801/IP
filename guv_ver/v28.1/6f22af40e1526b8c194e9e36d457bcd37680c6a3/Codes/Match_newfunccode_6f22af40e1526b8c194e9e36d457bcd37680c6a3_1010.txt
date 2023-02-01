@@ -1,0 +1,12 @@
+@Override
+public int read(@NullableDecl char[] cbuf, int off, int len) throws IOException {
+    if (current == null) {
+        return -1;
+    }
+    int result = current.read(cbuf, off, len);
+    if (result == -1) {
+        advance();
+        return read(cbuf, off, len);
+    }
+    return result;
+}

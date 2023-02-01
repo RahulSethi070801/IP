@@ -1,0 +1,6 @@
+public final A getAnnotation(Class<A> annotationClass)
+public final boolean isSupertypeOf(Type type)
+
+protected void scanJarFile(ClassLoader classloader, JarFile file)
+public final boolean isSupertypeOf(TypeToken<?> type)
+

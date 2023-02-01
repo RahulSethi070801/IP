@@ -1,0 +1,12 @@
+
+   * Creates a fluent iterable with the first {@code size} elements of this
+   * fluent iterable. If this fluent iterable does not contain that many elements,
+   * the returned fluent iterable will have the same behavior as this fluent iterable.
+   * The returned fluent iterable's iterator supports {@code remove()} if this
+   * fluent iterable's iterator does.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code stream.limit(maxSize)} (same)
+   *
+   * @param maxSize the maximum number of elements in the returned fluent iterable
+   * @throws IllegalArgumentException if {@code size} is negative
+   

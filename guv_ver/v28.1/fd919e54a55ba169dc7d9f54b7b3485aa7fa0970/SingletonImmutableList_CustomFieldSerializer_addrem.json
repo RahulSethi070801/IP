@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "24": " * This class implements the GWT serialization of {@link SingletonImmutableList}.\n"
+    },
+    "removed": {
+        "24": " * This class implements the GWT serialization of\n",
+        "25": " * {@link SingletonImmutableList}.\n"
+    }
+}

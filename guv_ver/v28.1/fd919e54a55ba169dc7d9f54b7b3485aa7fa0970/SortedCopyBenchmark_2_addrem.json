@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "32": " * Ordering#sortedCopy} and {@link Ordering#immutableSortedCopy}, as well as for automated code\n",
+        "33": " * suggestions.\n",
+        "37": "  @Param({\"1\", \"10\", \"1000\", \"1000000\"})\n",
+        "38": "  int size; // logarithmic triangular\n",
+        "46": "      @Override\n",
+        "47": "      void arrange(List<Integer> list) {\n",
+        "52": "      @Override\n",
+        "53": "      void arrange(List<Integer> list) {\n",
+        "62": "      @Override\n",
+        "63": "      void arrange(List<Integer> list) {}\n"
+    },
+    "removed": {
+        "32": " * Ordering#sortedCopy} and {@link Ordering#immutableSortedCopy}, as well as for\n",
+        "33": " * automated code suggestions.\n",
+        "37": "  @Param({\"1\", \"10\", \"1000\", \"1000000\"}) int size; // logarithmic triangular\n",
+        "45": "      @Override void arrange(List<Integer> list) {\n",
+        "50": "      @Override void arrange(List<Integer> list) {\n",
+        "59": "      @Override void arrange(List<Integer> list) {}\n"
+    }
+}

@@ -1,0 +1,8 @@
+
+     * Sets the replacement string for any characters outside the 'safe' range that have no explicit
+     * replacement. If {@code unsafeReplacement} is {@code null} then no replacement will occur, if
+     * it is {@code ""} then the unsafe characters are removed from the output.
+     *
+     * @param unsafeReplacement the string to replace unsafe characters
+     * @return the builder instance
+     

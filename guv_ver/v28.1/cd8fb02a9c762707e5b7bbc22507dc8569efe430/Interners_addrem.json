@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "24": "import com.google.common.collect.MapMaker.Dummy;\n",
+        "82": "      if (!strong) {\n",
+        "83": "        mapMaker.weakKeys();\n",
+        "84": "      }\n",
+        "85": "      return new InternerImpl<E>(mapMaker);\n",
+        "115": "  static final class InternerImpl<E> implements Interner<E> {\n",
+        "120": "    private InternerImpl(MapMaker mapMaker) {\n",
+        "121": "      this.map = MapMakerInternalMap.createWithDummyValues(\n",
+        "122": "          mapMaker.keyEquivalence(Equivalence.equals()));\n"
+    },
+    "removed": {
+        "25": "import java.util.concurrent.ConcurrentMap;\n",
+        "82": "      return strong ? new StrongInterner<E>(mapMaker) : new WeakInterner<E>(mapMaker);\n",
+        "112": "  static final class StrongInterner<E> implements Interner<E> {\n",
+        "113": "    @VisibleForTesting\n",
+        "114": "    final ConcurrentMap<E, E> map;\n",
+        "115": "\n",
+        "116": "    private StrongInterner(MapMaker mapMaker) {\n",
+        "117": "      this.map = mapMaker.makeMap();\n",
+        "118": "    }\n",
+        "119": "\n",
+        "120": "    @Override\n",
+        "121": "    public E intern(E sample) {\n",
+        "122": "      E canonical = map.putIfAbsent(checkNotNull(sample), sample);\n",
+        "123": "      return (canonical == null) ? sample : canonical;\n",
+        "124": "    }\n",
+        "125": "  }\n",
+        "126": "\n",
+        "127": "  @VisibleForTesting\n",
+        "128": "  static final class WeakInterner<E> implements Interner<E> {\n",
+        "133": "    private WeakInterner(MapMaker mapMaker) {\n",
+        "134": "      this.map = mapMaker.weakKeys().keyEquivalence(Equivalence.equals()).makeCustomMap();\n",
+        "163": "\n",
+        "164": "    private enum Dummy {\n",
+        "165": "      VALUE\n",
+        "166": "    }\n"
+    }
+}

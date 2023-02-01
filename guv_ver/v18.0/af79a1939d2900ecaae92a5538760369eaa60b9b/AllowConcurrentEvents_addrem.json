@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "27": " * Marks an event subscriber method as being thread-safe.  This annotation\n",
+        "28": " * indicates that EventBus may invoke the event subscriber simultaneously from\n",
+        "31": " * <p>This does not mark the method, and so should be used in combination with\n",
+        "32": " * {@link Subscribe}.\n"
+    },
+    "removed": {
+        "27": " * Marks an event handling method as being thread-safe.  This annotation\n",
+        "28": " * indicates that EventBus may invoke the event handler simultaneously from\n",
+        "31": " * <p>This does not mark the method as an event handler, and so should be used\n",
+        "32": " * in combination with {@link Subscribe}.\n"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "52": "  public int indexOf(@NullableDecl Object target) {\n",
+        "65": "  public int lastIndexOf(@NullableDecl Object target) {\n"
+    },
+    "removed": {
+        "21": "import javax.annotation.Nullable;\n",
+        "52": "  public int indexOf(@Nullable Object target) {\n",
+        "65": "  public int lastIndexOf(@Nullable Object target) {\n"
+    }
+}

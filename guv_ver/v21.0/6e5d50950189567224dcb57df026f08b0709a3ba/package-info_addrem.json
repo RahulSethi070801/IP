@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "18": " * <p>Commonly used types include {@link com.google.common.util.concurrent.ListenableFuture} and\n",
+        "19": " * {@link com.google.common.util.concurrent.Service}.\n",
+        "21": " * <p>Commonly used utilities include {@link com.google.common.util.concurrent.Futures}, {@link\n",
+        "25": " * <p>This package is a part of the open-source <a href=\"http://github.com/google/guava\">Guava</a>\n",
+        "26": " * library.\n",
+        "28": "@CheckReturnValue\n",
+        "32": "import javax.annotation.CheckReturnValue;\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "20": " * <p>Commonly used types include {@link\n",
+        "21": " * com.google.common.util.concurrent.ListenableFuture} and {@link\n",
+        "22": " * com.google.common.util.concurrent.Service}.\n",
+        "24": " * <p>Commonly used utilities include {@link\n",
+        "25": " * com.google.common.util.concurrent.Futures}, {@link\n",
+        "29": " * <p>This package is a part of the open-source\n",
+        "30": " * <a href=\"http://github.com/google/guava\">Guava</a> library.\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public boolean remove(@CheckForNull Object element) {
+    throw new UnsupportedOperationException();
+}

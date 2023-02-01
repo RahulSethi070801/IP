@@ -1,0 +1,15 @@
+com.google.common.collect.MapMaker
+softValues
+MapMaker softValues()
+empty
+MapMaker
+com.google.common.collect.MapMaker
+expireAfterWrite
+MapMaker expireAfterWrite(long duration, TimeUnit unit)
+long,TimeUnit
+MapMaker
+com.google.common.collect.MapMaker
+expireAfterAccess
+MapMaker expireAfterAccess(long duration, TimeUnit unit)
+long,TimeUnit
+MapMaker

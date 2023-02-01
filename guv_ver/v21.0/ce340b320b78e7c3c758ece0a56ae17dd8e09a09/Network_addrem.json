@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "160": " *     ensure that the implementations of {@link #equals(Object)} and\n",
+        "161": " *     {@link #hashCode()} are mutually consistent, and consistent across\n",
+        "162": " *     implementations.\n",
+        "210": "  /**\n",
+        "211": "   * Returns all edges in this network, in the order specified by {@link #edgeOrder()}.\n",
+        "212": "   */\n",
+        "238": "  /**\n",
+        "239": "   * Returns the order of iteration for the elements of {@link #edges()}.\n",
+        "240": "   */\n",
+        "241": "  ElementOrder<? super E> edgeOrder();\n",
+        "242": "\n",
+        "378": "   * <p>A reference implementation of this is provided by\n",
+        "379": "   * {@link Graphs#equal(Network, Network)}.\n",
+        "391": "   * direction will have the same hash code (but can still be differentiated by\n",
+        "392": "   * {@link #equals(Object)}).\n"
+    },
+    "removed": {
+        "160": " *     ensure consistent {@link #equals(Object)} and {@link #hashCode()} across implementations.\n",
+        "208": "  /** Returns all edges in this network. */\n",
+        "369": "   * <p>A reference implementation of this is provided by {@link Graphs#equal(Graph, Graph)}.\n",
+        "381": "   * direction will have the same hash code (but can still be differentiated by {@link #equals}.\n"
+    }
+}

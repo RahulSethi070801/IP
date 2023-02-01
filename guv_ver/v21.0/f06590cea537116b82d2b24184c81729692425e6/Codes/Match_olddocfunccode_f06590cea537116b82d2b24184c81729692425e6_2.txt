@@ -1,0 +1,3 @@
+public static InternetDomainName from(String domain) {
+    return new InternetDomainName(checkNotNull(domain));
+}

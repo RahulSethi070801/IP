@@ -1,0 +1,4 @@
+Predicate_2
+Insertions: [22, 26, 37, 38, 52, 53, 54, 55]
+Deletions: [22, 26, 37, 38, 39, 53, 54, 55, 56]
+guava/src/com/google/common/base/Predicate.java

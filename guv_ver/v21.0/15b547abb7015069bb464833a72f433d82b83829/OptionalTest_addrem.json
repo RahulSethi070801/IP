@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "39": "  public void testToJavaUtil_static() {\n",
+        "45": "  public void testToJavaUtil_instance() {\n",
+        "46": "    assertEquals(java.util.Optional.empty(), Optional.absent().toJavaUtil());\n",
+        "47": "    assertEquals(java.util.Optional.of(\"abc\"), Optional.of(\"abc\").toJavaUtil());\n",
+        "48": "  }\n",
+        "49": "\n"
+    },
+    "removed": {
+        "39": "  public void testToJavaUtil() {\n"
+    }
+}

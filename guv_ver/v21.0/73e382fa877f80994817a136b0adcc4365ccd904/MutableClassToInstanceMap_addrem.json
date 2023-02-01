@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "30": "import java.util.Spliterator;\n",
+        "76": "  /**\n",
+        "77": "   * Wraps the {@code setValue} implementation of an {@code Entry} to enforce the class constraint.\n",
+        "78": "   */\n",
+        "79": "  private static <B> Entry<Class<? extends B>, B> checkedEntry(\n",
+        "80": "      final Entry<Class<? extends B>, B> entry) {\n",
+        "103": "      @Override\n",
+        "104": "      public Spliterator<Entry<Class<? extends B>, B>> spliterator() {\n",
+        "105": "        return CollectSpliterators.map(\n",
+        "106": "            delegate().spliterator(), MutableClassToInstanceMap::checkedEntry);\n",
+        "107": "      }\n",
+        "108": "\n"
+    },
+    "removed": {
+        "75": "  static <B> Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry) {\n"
+    }
+}

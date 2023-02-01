@@ -1,0 +1,4 @@
+ElementOrder
+Insertions: [31, 53, 71, 120]
+Deletions: [31, 53, 71, 120]
+guava/src/com/google/common/graph/ElementOrder.java

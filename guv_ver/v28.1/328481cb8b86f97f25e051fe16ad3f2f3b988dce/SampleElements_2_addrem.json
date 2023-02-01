@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "23": "import java.util.Map.Entry;\n",
+        "91": "  public static <K, V> SampleElements<Entry<K, V>> mapEntries(\n"
+    },
+    "removed": {
+        "23": "import java.util.Map;\n",
+        "91": "  public static <K, V> SampleElements<Map.Entry<K, V>> mapEntries(\n"
+    }
+}

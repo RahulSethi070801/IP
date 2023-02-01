@@ -1,0 +1,4 @@
+@Override
+public boolean contains(@Nullable Object object) {
+    return object != null && delegate.contains(object);
+}

@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "28": "    X,\n",
+        "29": "    Y,\n",
+        "30": "    Z,\n",
+        "31": "    T\n",
+        "35": "    WellBehavedMap<Foo, Integer> map = WellBehavedMap.wrap(new EnumMap<Foo, Integer>(Foo.class));\n",
+        "50": "    WellBehavedMap<Foo, Integer> map = WellBehavedMap.wrap(new EnumMap<Foo, Integer>(Foo.class));\n",
+        "61": "    WellBehavedMap<Foo, Integer> map = WellBehavedMap.wrap(new EnumMap<Foo, Integer>(Foo.class));\n",
+        "87": "    WellBehavedMap<Foo, Integer> map = WellBehavedMap.wrap(new EnumMap<Foo, Integer>(Foo.class));\n"
+    },
+    "removed": {
+        "28": "    X, Y, Z, T\n",
+        "32": "    WellBehavedMap<Foo, Integer> map = WellBehavedMap.wrap(\n",
+        "33": "        new EnumMap<Foo, Integer>(Foo.class));\n",
+        "48": "    WellBehavedMap<Foo, Integer> map = WellBehavedMap.wrap(\n",
+        "49": "        new EnumMap<Foo, Integer>(Foo.class));\n",
+        "60": "    WellBehavedMap<Foo, Integer> map = WellBehavedMap.wrap(\n",
+        "61": "        new EnumMap<Foo, Integer>(Foo.class));\n",
+        "87": "    WellBehavedMap<Foo, Integer> map = WellBehavedMap.wrap(\n",
+        "88": "        new EnumMap<Foo, Integer>(Foo.class));\n"
+    }
+}

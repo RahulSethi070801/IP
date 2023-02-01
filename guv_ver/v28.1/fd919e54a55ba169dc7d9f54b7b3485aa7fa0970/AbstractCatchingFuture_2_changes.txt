@@ -1,0 +1,4 @@
+AbstractCatchingFuture_2
+Insertions: [29, 153, 154]
+Deletions: [19, 30, 31, 32, 156, 157]
+guava/src/com/google/common/util/concurrent/AbstractCatchingFuture.java

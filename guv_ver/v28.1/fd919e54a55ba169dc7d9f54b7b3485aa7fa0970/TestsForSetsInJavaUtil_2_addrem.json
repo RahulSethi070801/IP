@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "47": " * Generates a test suite covering the {@link Set} implementations in the {@link java.util} package.\n",
+        "48": " * Can be subclassed to specify tests that should be suppressed.\n",
+        "200": "            new TestStringSortedSetGenerator() {\n",
+        "201": "              @Override\n",
+        "202": "              public NavigableSet<String> create(String[] elements) {\n",
+        "203": "                return Collections.emptyNavigableSet();\n",
+        "204": "              }\n",
+        "205": "            })\n",
+        "214": "            new TestStringSortedSetGenerator() {\n",
+        "215": "              @Override\n",
+        "216": "              public SortedSet<String> create(String[] elements) {\n",
+        "217": "                return Collections.emptySortedSet();\n",
+        "218": "              }\n",
+        "219": "            })\n",
+        "304": "   * Tests regular NavigableSet behavior of synchronizedNavigableSet(treeSet); does not test the\n",
+        "305": "   * fact that it's synchronized.\n"
+    },
+    "removed": {
+        "47": " * Generates a test suite covering the {@link Set} implementations in the\n",
+        "48": " * {@link java.util} package. Can be subclassed to specify tests that should\n",
+        "49": " * be suppressed.\n",
+        "200": "        new TestStringSortedSetGenerator() {\n",
+        "201": "          @Override\n",
+        "202": "          public NavigableSet<String> create(String[] elements) {\n",
+        "203": "            return Collections.emptyNavigableSet();\n",
+        "204": "          }\n",
+        "205": "        })\n",
+        "214": "        new TestStringSortedSetGenerator() {\n",
+        "215": "          @Override\n",
+        "216": "          public SortedSet<String> create(String[] elements) {\n",
+        "217": "            return Collections.emptySortedSet();\n",
+        "218": "          }\n",
+        "219": "        })\n",
+        "304": "   * Tests regular NavigableSet behavior of synchronizedNavigableSet(treeSet);\n",
+        "305": "   * does not test the fact that it's synchronized.\n"
+    }
+}

@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.RateLimiter
+createWithCapacity
+static RateLimiter createWithCapacity(SleepingStopwatch stopwatch, double permitsPerSecond, long maxBurstBuildup, TimeUnit unit)
+SleepingStopwatch,double,long,TimeUnit
+RateLimiter
+com.google.common.util.concurrent.RateLimiter
+create
+public static RateLimiter create(double permitsPerSecond, long warmupPeriod, TimeUnit unit)
+double,long,TimeUnit
+RateLimiter

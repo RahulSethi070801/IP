@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "59": "  /**\n",
+        "60": "   * See {@link #isCyclic(Graph)}.\n",
+        "61": "   */\n",
+        "62": "  // TODO(b/27628622): When migrating to Graphs, remove this method and make clients call asGraph().\n",
+        "63": "  public static boolean isCyclic(Network<?, ?> network) {\n",
+        "64": "    return isCyclic(network.asGraph());\n",
+        "65": "  }\n",
+        "66": "\n"
+    },
+    "removed": {}
+}

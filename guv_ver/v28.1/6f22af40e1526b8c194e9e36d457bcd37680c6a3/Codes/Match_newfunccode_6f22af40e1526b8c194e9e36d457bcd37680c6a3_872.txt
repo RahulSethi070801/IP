@@ -1,0 +1,2 @@
+@NullableDecl
+abstract V setValue(int index, V newValue);

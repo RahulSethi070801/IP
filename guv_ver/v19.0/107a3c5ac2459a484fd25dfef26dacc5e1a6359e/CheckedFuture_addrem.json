@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "47": " * values with {@link Futures#getChecked(Future, Class) Futures.getChecked()}.\n"
+    },
+    "removed": {
+        "47": " * values with {@link Futures#get(Future, Class) Futures.get()}.\n"
+    }
+}

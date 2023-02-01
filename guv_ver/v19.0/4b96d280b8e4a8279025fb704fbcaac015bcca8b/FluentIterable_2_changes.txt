@@ -1,0 +1,4 @@
+FluentIterable_2
+Insertions: [414, 415, 416, 417, 418, 419, 420]
+Deletions: [414, 415, 416, 417]
+guava/src/com/google/common/collect/FluentIterable.java

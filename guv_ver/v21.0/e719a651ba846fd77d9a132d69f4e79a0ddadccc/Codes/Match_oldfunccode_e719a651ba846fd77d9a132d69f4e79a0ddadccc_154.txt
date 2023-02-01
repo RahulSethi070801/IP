@@ -1,0 +1,12 @@
+@Override
+public int read(@Nullable byte[] b, int off, int len) throws IOException {
+    if (in == null) {
+        return -1;
+    }
+    int result = in.read(b, off, len);
+    if (result == -1) {
+        advance();
+        return read(b, off, len);
+    }
+    return result;
+}

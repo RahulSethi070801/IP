@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "43": "    FluentFuture<String> f = FluentFuture.from(SettableFuture.<String>create());\n",
+        "134": "      FluentFuture<?> f =\n",
+        "135": "          FluentFuture.from(SettableFuture.create()).withTimeout(0, SECONDS, executor);\n"
+    },
+    "removed": {
+        "43": "    FluentFuture<String> f = SettableFuture.create();\n",
+        "134": "      FluentFuture<?> f = SettableFuture.create().withTimeout(0, SECONDS, executor);\n"
+    }
+}

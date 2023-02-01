@@ -1,0 +1,1 @@
+abstract long reserveEarliestAvailable(int permits, long nowMicros);

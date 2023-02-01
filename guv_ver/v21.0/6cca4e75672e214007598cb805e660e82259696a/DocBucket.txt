@@ -1,0 +1,10 @@
+com.google.common.xml.XmlEscapers
+xmlContentEscaper
+public static Escaper xmlContentEscaper()
+empty
+Escaper
+com.google.common.xml.XmlEscapers
+xmlAttributeEscaper
+public static Escaper xmlAttributeEscaper()
+empty
+Escaper

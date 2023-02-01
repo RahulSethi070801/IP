@@ -1,0 +1,10 @@
+com.google.common.collect.CompactHashSet
+resizeTable
+private int resizeTable(int mask, int newCapacity, int targetHash, int targetEntryIndex)
+int,int,int,int
+int
+com.google.common.collect.CompactHashSet
+resizeTable
+private int resizeTable(int oldMask, int newCapacity, int targetHash, int targetEntryIndex)
+int,int,int,int
+int

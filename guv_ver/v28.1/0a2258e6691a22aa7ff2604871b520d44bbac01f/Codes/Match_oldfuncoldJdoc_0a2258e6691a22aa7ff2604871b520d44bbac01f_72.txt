@@ -1,0 +1,7 @@
+
+   * Ensures that an object reference passed as a parameter to the calling method is not null.
+   *
+   * <p>See {@link #checkNotNull(Object, String, Object...)} for details.
+   *
+   * @since 20.0 (varargs overload since 2.0)
+   

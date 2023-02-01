@@ -1,0 +1,4 @@
+MapReplaceEntryTester
+Insertions: [31, 32, 76, 77, 124, 125]
+Deletions: [31, 32, 33, 77, 124]
+guava-testlib/src/com/google/common/collect/testing/testers/MapReplaceEntryTester.java

@@ -1,0 +1,7 @@
+@Deprecated
+@GwtIncompatible
+public static <X extends Throwable> void propagateIfInstanceOf(@NullableDecl Throwable throwable, Class<X> declaredType) throws X {
+    if (throwable != null) {
+        throwIfInstanceOf(throwable, declaredType);
+    }
+}

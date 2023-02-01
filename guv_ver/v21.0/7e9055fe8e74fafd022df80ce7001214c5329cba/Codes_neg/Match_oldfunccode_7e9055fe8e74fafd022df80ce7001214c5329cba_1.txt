@@ -1,0 +1,2 @@
+@Override
+Set<N> adjacentNodes(Object node);

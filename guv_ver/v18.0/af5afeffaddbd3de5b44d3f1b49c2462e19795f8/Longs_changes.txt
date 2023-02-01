@@ -1,0 +1,4 @@
+Longs
+Insertions: [323, 324]
+Deletions: []
+guava/src/com/google/common/primitives/Longs.java

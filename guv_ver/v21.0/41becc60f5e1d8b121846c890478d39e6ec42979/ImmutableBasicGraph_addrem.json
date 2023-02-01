@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "36": "    extends ImmutableGraph<N, Presence> implements BasicGraph<N> {\n"
+    },
+    "removed": {
+        "36": "    extends ImmutableValueGraph<N, Presence> implements BasicGraph<N> {\n"
+    }
+}

@@ -1,0 +1,4 @@
+AppendableWriter
+Insertions: [4, 5, 9, 10, 11, 12, 29, 30, 54, 55, 62, 63, 70, 71, 79, 82, 83, 88, 89, 94, 95, 101, 102, 108, 109, 115, 116]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 31, 32, 33, 57, 58, 65, 72, 80, 81, 84, 89, 94, 100, 106, 112, 113]
+guava/src/com/google/common/io/AppendableWriter.java

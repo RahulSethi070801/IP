@@ -1,0 +1,7 @@
+static <N> IncidentNodes<N> of(N node1, N node2) {
+    if (node1.equals(node2)) {
+        return new OneNode<N>(node1);
+    } else {
+        return new TwoNodes<N>(node1, node2);
+    }
+}

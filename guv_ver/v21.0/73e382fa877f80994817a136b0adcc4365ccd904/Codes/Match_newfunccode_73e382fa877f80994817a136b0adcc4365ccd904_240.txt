@@ -1,0 +1,4 @@
+public static OptionalLong findLast(LongStream stream) {
+    java.util.Optional<Long> boxedLast = findLast(stream.boxed());
+    return boxedLast.isPresent() ? OptionalLong.of(boxedLast.get()) : OptionalLong.empty();
+}

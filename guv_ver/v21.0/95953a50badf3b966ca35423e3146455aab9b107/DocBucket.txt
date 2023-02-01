@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.ImmediateFuture
+get
+public V get()
+empty
+V
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture
+cancel
+public boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean

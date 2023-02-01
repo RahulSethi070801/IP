@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "165": "\n",
+        "166": "  public void testMaxSize() {\n",
+        "167": "    for (Striped<?> striped : ImmutableList.of(\n",
+        "168": "        Striped.lazyWeakLock(Integer.MAX_VALUE),\n",
+        "169": "        Striped.lazyWeakSemaphore(Integer.MAX_VALUE, Integer.MAX_VALUE),\n",
+        "170": "        Striped.lazyWeakReadWriteLock(Integer.MAX_VALUE))) {\n",
+        "171": "      for (int i = 0; i < 3; i++) {\n",
+        "172": "        // doesn't throw exception\n",
+        "173": "        striped.get(new Integer(Integer.MAX_VALUE - i));\n",
+        "174": "      }\n",
+        "175": "    }\n",
+        "176": "  }\n"
+    },
+    "removed": {}
+}

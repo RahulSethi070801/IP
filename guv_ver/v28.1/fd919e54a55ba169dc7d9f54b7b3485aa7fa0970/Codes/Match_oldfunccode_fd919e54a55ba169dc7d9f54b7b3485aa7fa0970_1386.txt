@@ -1,0 +1,7 @@
+private static void throwDeleteFailed(Path path, Collection<IOException> exceptions) throws FileSystemException {
+    FileSystemException deleteFailed = new FileSystemException(path.toString(), null, "failed to delete one or more files; see suppressed exceptions for details");
+    for (IOException e : exceptions) {
+        deleteFailed.addSuppressed(e);
+    }
+    throw deleteFailed;
+}

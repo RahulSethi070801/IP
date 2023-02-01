@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "40": "    assertThat(network.edgesConnecting(N1, N2)).containsExactly(E12, E12_A);\n",
+        "43": "    assertThat(network.edgesConnecting(N2, N1)).isEmpty();\n",
+        "50": "    assertThat(network.edgesConnecting(N1, N1)).containsExactly(E11, E11_A);\n",
+        "58": "    assertThat(network.edgesConnecting(N1, N2)).containsExactly(E12, E12_A);\n",
+        "66": "    assertThat(network.edgesConnecting(N1, N1)).containsExactly(E11, E11_A);\n",
+        "73": "    assertTrue(network.removeEdge(E12_A));\n",
+        "74": "    assertThat(network.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "82": "    assertTrue(network.removeEdge(E11_A));\n",
+        "83": "    assertThat(network.edgesConnecting(N1, N1)).containsExactly(E11);\n",
+        "84": "    assertThat(network.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "85": "    assertTrue(network.removeEdge(E11));\n",
+        "86": "    assertThat(network.edgesConnecting(N1, N1)).isEmpty();\n",
+        "87": "    assertThat(network.edgesConnecting(N1, N2)).containsExactly(E12);\n"
+    },
+    "removed": {
+        "40": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12, E12_A);\n",
+        "43": "    assertThat(graph.edgesConnecting(N2, N1)).isEmpty();\n",
+        "50": "    assertThat(graph.edgesConnecting(N1, N1)).containsExactly(E11, E11_A);\n",
+        "58": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12, E12_A);\n",
+        "66": "    assertThat(graph.edgesConnecting(N1, N1)).containsExactly(E11, E11_A);\n",
+        "73": "    assertTrue(graph.removeEdge(E12_A));\n",
+        "74": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "82": "    assertTrue(graph.removeEdge(E11_A));\n",
+        "83": "    assertThat(graph.edgesConnecting(N1, N1)).containsExactly(E11);\n",
+        "84": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "85": "    assertTrue(graph.removeEdge(E11));\n",
+        "86": "    assertThat(graph.edgesConnecting(N1, N1)).isEmpty();\n",
+        "87": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12);\n"
+    }
+}

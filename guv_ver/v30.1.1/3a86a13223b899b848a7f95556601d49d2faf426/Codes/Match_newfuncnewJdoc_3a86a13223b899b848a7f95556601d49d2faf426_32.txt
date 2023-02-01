@@ -1,0 +1,4 @@
+
+   * Removes and returns the greatest element of this queue, or returns {@code null} if the queue is
+   * empty.
+   

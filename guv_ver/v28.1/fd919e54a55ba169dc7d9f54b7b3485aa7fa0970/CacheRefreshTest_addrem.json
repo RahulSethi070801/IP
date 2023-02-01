@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "33": "    LoadingCache<Integer, Integer> cache =\n",
+        "34": "        CacheBuilder.newBuilder()\n",
+        "35": "            .refreshAfterWrite(3, MILLISECONDS)\n",
+        "36": "            .expireAfterWrite(6, MILLISECONDS)\n",
+        "37": "            .lenientParsing()\n",
+        "38": "            .ticker(ticker)\n",
+        "39": "            .build(loader);\n"
+    },
+    "removed": {
+        "33": "    LoadingCache<Integer, Integer> cache = CacheBuilder.newBuilder()\n",
+        "34": "        .refreshAfterWrite(3, MILLISECONDS)\n",
+        "35": "        .expireAfterWrite(6, MILLISECONDS)\n",
+        "36": "        .lenientParsing()\n",
+        "37": "        .ticker(ticker)\n",
+        "38": "        .build(loader);\n"
+    }
+}

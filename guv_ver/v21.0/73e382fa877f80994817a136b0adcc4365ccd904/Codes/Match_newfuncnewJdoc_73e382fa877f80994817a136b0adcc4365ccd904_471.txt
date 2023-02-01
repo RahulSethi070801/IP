@@ -1,0 +1,6 @@
+
+   * Guaranteed to throw an exception and leave the map unmodified.
+   *
+   * @throws UnsupportedOperationException always
+   * @deprecated Unsupported operation.
+   

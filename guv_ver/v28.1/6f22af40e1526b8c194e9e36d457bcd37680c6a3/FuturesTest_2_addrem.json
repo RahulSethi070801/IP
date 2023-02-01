@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "93": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "3468": "    TestException(@NullableDecl Throwable cause) {\n"
+    },
+    "removed": {
+        "91": "import javax.annotation.Nullable;\n",
+        "3468": "    TestException(@Nullable Throwable cause) {\n"
+    }
+}

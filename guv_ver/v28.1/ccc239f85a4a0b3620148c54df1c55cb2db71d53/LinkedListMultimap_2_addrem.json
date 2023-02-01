@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "195": "    this(12);\n",
+        "199": "    keyToKeyList = Platform.newHashMapWithExpectedSize(expectedKeys);\n"
+    },
+    "removed": {
+        "195": "    keyToKeyList = Maps.newHashMap();\n",
+        "199": "    keyToKeyList = new HashMap<>(expectedKeys);\n"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "34": "import java.util.Map.Entry;\n",
+        "60": "        Entry<String, String>[] entries) {\n",
+        "62": "      for (Entry<String, String> entry : entries) {\n",
+        "93": "          @Override public Set<Entry<String, String>> entrySet() {\n",
+        "112": "          @Override public Set<Entry<String, String>> entrySet() {\n"
+    },
+    "removed": {
+        "59": "        Map.Entry<String, String>[] entries) {\n",
+        "61": "      for (Map.Entry<String, String> entry : entries) {\n",
+        "92": "          @Override public Set<Map.Entry<String, String>> entrySet() {\n",
+        "111": "          @Override public Set<Map.Entry<String, String>> entrySet() {\n"
+    }
+}

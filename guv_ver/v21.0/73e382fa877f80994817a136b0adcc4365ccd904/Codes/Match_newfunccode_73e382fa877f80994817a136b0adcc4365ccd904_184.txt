@@ -1,0 +1,3 @@
+public static CharSource asCharSource(Path path, Charset charset, OpenOption... options) {
+    return asByteSource(path, options).asCharSource(charset);
+}

@@ -1,0 +1,4 @@
+AbstractBaseGraph_2
+Insertions: [27, 77]
+Deletions: [27, 77]
+guava/src/com/google/common/graph/AbstractBaseGraph.java

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "46": "    StringBuilder builder = new StringBuilder(template.length() + 16 * args.length);\n"
+    },
+    "removed": {
+        "46": "    StringBuilder builder = new StringBuilder(\n",
+        "47": "        template.length() + 16 * args.length);\n"
+    }
+}

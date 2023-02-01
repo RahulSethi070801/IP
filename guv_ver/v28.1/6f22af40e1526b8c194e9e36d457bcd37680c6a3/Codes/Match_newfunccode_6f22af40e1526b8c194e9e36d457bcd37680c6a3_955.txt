@@ -1,0 +1,21 @@
+@Override
+public boolean add(@NullableDecl V value) {
+    int smearedHash = Hashing.smearedHash(value);
+    int bucket = smearedHash & mask();
+    ValueEntry<K, V> rowHead = hashTable[bucket];
+    for (ValueEntry<K, V> entry = rowHead; entry != null; entry = entry.nextInValueBucket) {
+        if (entry.matchesValue(value, smearedHash)) {
+            return false;
+        }
+    }
+    ValueEntry<K, V> newEntry = new ValueEntry<>(key, value, smearedHash, rowHead);
+    succeedsInValueSet(lastEntry, newEntry);
+    succeedsInValueSet(newEntry, this);
+    succeedsInMultimap(multimapHeaderEntry.getPredecessorInMultimap(), newEntry);
+    succeedsInMultimap(newEntry, multimapHeaderEntry);
+    hashTable[bucket] = newEntry;
+    size++;
+    modCount++;
+    rehashIfNecessary();
+    return true;
+}

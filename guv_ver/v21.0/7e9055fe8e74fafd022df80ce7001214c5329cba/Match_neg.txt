@@ -1,0 +1,6 @@
+Set<N> adjacentNodes(Object node)
+int inDegree(Object node)
+
+Set<N> adjacentNodes(Object node)
+int inDegree(Object node)
+

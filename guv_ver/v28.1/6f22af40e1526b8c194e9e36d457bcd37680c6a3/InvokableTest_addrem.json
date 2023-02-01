@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "346": "    InnerWithAnnotatedConstructorParameter(@NullableDecl String s) {}\n",
+        "509": "      LocalWithAnnotatedConstructorParameter(@NullableDecl String s) {}\n"
+    },
+    "removed": {
+        "32": "import javax.annotation.Nullable;\n",
+        "346": "    InnerWithAnnotatedConstructorParameter(@Nullable String s) {}\n",
+        "509": "      LocalWithAnnotatedConstructorParameter(@Nullable String s) {}\n"
+    }
+}

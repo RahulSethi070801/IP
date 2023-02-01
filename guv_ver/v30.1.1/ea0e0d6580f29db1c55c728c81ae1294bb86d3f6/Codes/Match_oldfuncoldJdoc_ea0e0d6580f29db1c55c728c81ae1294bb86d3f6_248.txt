@@ -1,0 +1,8 @@
+
+   * Not supported. Use {@link ImmutableSortedMultiset#naturalOrder}, which offers better
+   * type-safety, instead. This method exists only to hide {@link ImmutableMultiset#builder} from
+   * consumers of {@code ImmutableSortedMultiset}.
+   *
+   * @throws UnsupportedOperationException always
+   * @deprecated Use {@link ImmutableSortedMultiset#naturalOrder}, which offers better type-safety.
+   

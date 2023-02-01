@@ -1,0 +1,6 @@
+
+     * Copies all associations from the specified range map into this builder.
+     *
+     * @throws IllegalArgumentException if any of the ranges in {@code rangeMap} overlap with ranges
+     *         already in this builder
+     

@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "36": "      @Override\n",
+        "37": "      public K getKey() {\n",
+        "38": "        return key;\n",
+        "39": "      }\n",
+        "40": "\n",
+        "41": "      @Override\n",
+        "42": "      public V getValue() {\n",
+        "43": "        return value;\n",
+        "44": "      }\n",
+        "45": "    };\n"
+    },
+    "removed": {
+        "36": "        @Override public K getKey() {\n",
+        "37": "          return key;\n",
+        "38": "        }\n",
+        "39": "        @Override public V getValue() {\n",
+        "40": "          return value;\n",
+        "41": "        }\n",
+        "42": "      };\n"
+    }
+}

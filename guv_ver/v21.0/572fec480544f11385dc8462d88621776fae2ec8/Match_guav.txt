@@ -1,0 +1,6 @@
+public List<E> leastOf(Iterator<E> iterator, int k)
+public static Ordering<C> natural()
+
+public List<E> leastOf(Iterator<E> elements, int k)
+public static Ordering<C> natural()
+

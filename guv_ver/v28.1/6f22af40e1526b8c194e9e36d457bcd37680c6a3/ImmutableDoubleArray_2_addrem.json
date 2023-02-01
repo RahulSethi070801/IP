@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "36": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "508": "    public boolean equals(@NullableDecl Object object) {\n",
+        "548": "  public boolean equals(@NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "36": "import javax.annotation.Nullable;\n",
+        "508": "    public boolean equals(@Nullable Object object) {\n",
+        "548": "  public boolean equals(@Nullable Object object) {\n"
+    }
+}

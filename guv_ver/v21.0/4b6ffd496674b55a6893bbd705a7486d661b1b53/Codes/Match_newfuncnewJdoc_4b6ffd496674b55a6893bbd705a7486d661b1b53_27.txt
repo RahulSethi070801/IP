@@ -1,0 +1,4 @@
+
+     * Using the component iterators, rather than the input iterators directly,
+     * allows for higher performance in the case of nested concatenation.
+     

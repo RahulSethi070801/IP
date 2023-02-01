@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "126": "  @Nullable\n",
+        "127": "  public V edgeValueOrNull(N nodeU, N nodeV) {\n",
+        "128": "    checkNotNull(nodeU);\n",
+        "129": "    checkNotNull(nodeV);\n",
+        "131": "    return connectionsU == null\n",
+        "132": "        ? null\n",
+        "133": "        : connectionsU.value(nodeV);\n"
+    },
+    "removed": {
+        "126": "  public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {\n",
+        "128": "    if (connectionsU == null) {\n",
+        "129": "      return defaultValue;\n",
+        "130": "    }\n",
+        "131": "    V value = connectionsU.value(nodeV);\n",
+        "132": "    if (value == null) {\n",
+        "133": "      return defaultValue;\n",
+        "134": "    }\n",
+        "135": "    return value;\n"
+    }
+}

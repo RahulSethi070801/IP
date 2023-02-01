@@ -1,0 +1,4 @@
+ChecksumHashFunction
+Insertions: [56]
+Deletions: [56, 57, 58]
+android/guava/src/com/google/common/hash/ChecksumHashFunction.java

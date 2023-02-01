@@ -1,0 +1,4 @@
+PatternFilenameFilter
+Insertions: [24, 59]
+Deletions: [24, 59]
+guava/src/com/google/common/io/PatternFilenameFilter.java

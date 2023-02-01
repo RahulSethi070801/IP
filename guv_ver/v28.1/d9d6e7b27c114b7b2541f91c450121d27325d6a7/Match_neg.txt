@@ -1,0 +1,6 @@
+Murmur3_32Hasher(int seed)
+public HashCode hashUnencodedChars(CharSequence input)
+
+public Hasher putBytes(ByteBuffer buffer)
+public HashCode hashUnencodedChars(CharSequence input)
+

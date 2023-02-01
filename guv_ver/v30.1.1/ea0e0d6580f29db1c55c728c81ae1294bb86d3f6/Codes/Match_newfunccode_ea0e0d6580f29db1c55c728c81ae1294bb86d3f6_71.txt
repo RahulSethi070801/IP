@@ -1,0 +1,40 @@
+@CheckForNull
+AvlNode<E> setCount(Comparator<? super E> comparator, @ParametricNullness E e, int count, int[] result) {
+    int cmp = comparator.compare(e, getElement());
+    if (cmp < 0) {
+        AvlNode<E> initLeft = left;
+        if (initLeft == null) {
+            result[0] = 0;
+            return (count > 0) ? addLeftChild(e, count) : this;
+        }
+        left = initLeft.setCount(comparator, e, count, result);
+        if (count == 0 && result[0] != 0) {
+            this.distinctElements--;
+        } else if (count > 0 && result[0] == 0) {
+            this.distinctElements++;
+        }
+        this.totalCount += count - result[0];
+        return rebalance();
+    } else if (cmp > 0) {
+        AvlNode<E> initRight = right;
+        if (initRight == null) {
+            result[0] = 0;
+            return (count > 0) ? addRightChild(e, count) : this;
+        }
+        right = initRight.setCount(comparator, e, count, result);
+        if (count == 0 && result[0] != 0) {
+            this.distinctElements--;
+        } else if (count > 0 && result[0] == 0) {
+            this.distinctElements++;
+        }
+        this.totalCount += count - result[0];
+        return rebalance();
+    }
+    result[0] = elemCount;
+    if (count == 0) {
+        return deleteMe();
+    }
+    this.totalCount += count - elemCount;
+    this.elemCount = count;
+    return this;
+}

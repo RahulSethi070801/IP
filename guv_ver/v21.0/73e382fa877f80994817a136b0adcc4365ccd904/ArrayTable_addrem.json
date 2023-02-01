@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "37": "import java.util.Spliterator;\n",
+        "250": "    @Override\n",
+        "251": "    Spliterator<Entry<K, V>> entrySpliterator() {\n",
+        "252": "      return CollectSpliterators.indexed(size(), Spliterator.ORDERED, this::getEntry);\n",
+        "253": "    }\n",
+        "254": "\n",
+        "561": "  @Override\n",
+        "562": "  Spliterator<Cell<R, C, V>> cellSpliterator() {\n",
+        "563": "    return CollectSpliterators.indexed(\n",
+        "564": "        size(), Spliterator.ORDERED | Spliterator.NONNULL | Spliterator.DISTINCT, this::getCell);\n",
+        "565": "  }\n",
+        "566": "\n",
+        "798": "  @Override\n",
+        "799": "  Spliterator<V> valuesSpliterator() {\n",
+        "800": "    return CollectSpliterators.indexed(size(), Spliterator.ORDERED, this::getValue);\n",
+        "801": "  }\n",
+        "802": "\n"
+    },
+    "removed": {
+        "37": "\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public boolean remove(Object o) {
+    return multiset().remove(o, Integer.MAX_VALUE) > 0;
+}

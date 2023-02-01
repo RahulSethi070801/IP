@@ -1,0 +1,10 @@
+public static boolean isIsatapAddress(Inet6Address ip) {
+    if (isTeredoAddress(ip)) {
+        return false;
+    }
+    byte[] bytes = ip.getAddress();
+    if ((bytes[8] | (byte) 0x03) != (byte) 0x03) {
+        return false;
+    }
+    return (bytes[9] == (byte) 0x00) && (bytes[10] == (byte) 0x5e) && (bytes[11] == (byte) 0xfe);
+}

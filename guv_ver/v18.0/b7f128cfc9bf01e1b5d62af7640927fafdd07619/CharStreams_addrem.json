@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "140": "   * @deprecated Use {@link CharSource#copyTo(CharSink)} instead. This method is\n"
+    },
+    "removed": {
+        "140": "   * @deprecated Use {@link CharSource#copyTo(CharSink) instead. This method is\n"
+    }
+}

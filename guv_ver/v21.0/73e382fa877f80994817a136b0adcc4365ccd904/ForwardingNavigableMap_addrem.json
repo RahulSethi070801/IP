@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "29": "import java.util.function.BiFunction;\n",
+        "289": "    @Override\n",
+        "290": "    public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function) {\n",
+        "291": "      forward().replaceAll(function);\n",
+        "292": "    }\n",
+        "293": "\n"
+    },
+    "removed": {}
+}

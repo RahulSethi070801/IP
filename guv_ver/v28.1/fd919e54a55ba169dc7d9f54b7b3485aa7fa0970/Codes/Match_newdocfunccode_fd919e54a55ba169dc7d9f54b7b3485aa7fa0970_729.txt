@@ -1,0 +1,3 @@
+public static BaseEncoding base32Hex() {
+    return BASE32_HEX;
+}

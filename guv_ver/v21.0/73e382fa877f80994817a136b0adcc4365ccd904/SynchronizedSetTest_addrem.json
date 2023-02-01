@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "42": "    return SetTestSuiteBuilder.using(\n",
+        "43": "            new TestStringSetGenerator() {\n",
+        "44": "              @Override\n",
+        "45": "              protected Set<String> create(String[] elements) {\n",
+        "46": "                TestSet<String> inner = new TestSet<String>(new HashSet<String>(), null);\n",
+        "47": "                Set<String> outer = Synchronized.set(inner, null);\n",
+        "48": "                inner.mutex = outer;\n",
+        "49": "                Collections.addAll(outer, elements);\n",
+        "50": "                return outer;\n",
+        "51": "              }\n",
+        "52": "            })\n",
+        "54": "        .withFeatures(\n",
+        "55": "            CollectionFeature.GENERAL_PURPOSE,\n",
+        "64": "    public Object mutex;\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "20": "\n",
+        "44": "    return SetTestSuiteBuilder.using(new TestStringSetGenerator() {\n",
+        "45": "          @Override\n",
+        "46": "          protected Set<String> create(String[] elements) {\n",
+        "47": "            TestSet<String> inner = new TestSet<String>(new HashSet<String>(), MUTEX);\n",
+        "48": "            Set<String> outer = Synchronized.set(inner, inner.mutex);\n",
+        "49": "            Collections.addAll(outer, elements);\n",
+        "50": "            return outer;\n",
+        "51": "          }\n",
+        "52": "        })\n",
+        "54": "        .withFeatures(CollectionFeature.GENERAL_PURPOSE,\n",
+        "63": "    public final Object mutex;\n",
+        "66": "      checkNotNull(mutex);\n"
+    }
+}

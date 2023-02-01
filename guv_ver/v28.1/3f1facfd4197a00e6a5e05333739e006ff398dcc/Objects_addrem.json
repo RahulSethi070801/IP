@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "76": "  public static int hashCode(Object @Nullable ... objects) {\n"
+    },
+    "removed": {
+        "76": "  public static int hashCode(Object @Nullable... objects) {\n"
+    }
+}

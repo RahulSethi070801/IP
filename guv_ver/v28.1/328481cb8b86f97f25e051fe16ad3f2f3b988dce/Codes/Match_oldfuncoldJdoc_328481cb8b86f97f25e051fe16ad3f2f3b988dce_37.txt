@@ -1,0 +1,7 @@
+
+   * {@inheritDoc}
+   *
+   * <p>Because a {@code SetMultimap} has unique values for a given key, this
+   * method returns a {@link Set}, instead of the {@link java.util.Collection}
+   * specified in the {@link Multimap} interface.
+   

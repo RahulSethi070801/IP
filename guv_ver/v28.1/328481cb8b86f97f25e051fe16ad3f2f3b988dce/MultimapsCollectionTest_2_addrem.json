@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "222": "  private static final Predicate<Entry<Integer, String>> FILTER_GET_PREDICATE\n",
+        "223": "      = new Predicate<Entry<Integer, String>>() {\n",
+        "229": "  private static final Predicate<Entry<String, Integer>> FILTER_KEYSET_PREDICATE\n",
+        "230": "    = new Predicate<Entry<String, Integer>>() {\n"
+    },
+    "removed": {
+        "222": "  private static final Predicate<Map.Entry<Integer, String>> FILTER_GET_PREDICATE\n",
+        "223": "      = new Predicate<Map.Entry<Integer, String>>() {\n",
+        "229": "  private static final Predicate<Map.Entry<String, Integer>> FILTER_KEYSET_PREDICATE\n",
+        "230": "    = new Predicate<Map.Entry<String, Integer>>() {\n"
+    }
+}

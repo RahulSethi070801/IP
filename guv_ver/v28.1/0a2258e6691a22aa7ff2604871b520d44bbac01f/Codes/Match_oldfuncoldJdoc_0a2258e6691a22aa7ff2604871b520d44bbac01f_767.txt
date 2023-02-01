@@ -1,0 +1,10 @@
+
+     * Removes a number of occurrences of the specified element from this multiset. If the multiset
+     * contains fewer than this number of occurrences to begin with, all occurrences will be
+     * removed.
+     *
+     * @param element the element whose occurrences should be removed
+     * @param occurrences the number of occurrences of the element to remove
+     * @return the count of the element before the operation; possibly zero
+     * @throws IllegalArgumentException if {@code occurrences} is negative
+     

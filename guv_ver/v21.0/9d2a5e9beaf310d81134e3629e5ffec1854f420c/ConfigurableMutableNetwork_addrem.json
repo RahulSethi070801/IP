@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "112": "    NodeConnections<N, E> connectionsB = isSelfLoop ? connectionsA : nodeConnections.get(nodeB);\n",
+        "114": "      connectionsB = addNodeInternal(nodeB);\n",
+        "116": "    connectionsB.addInEdge(edge, nodeA, isSelfLoop);\n",
+        "148": "    boolean isSelfLoop = allowsSelfLoops() && nodeA.equals(nodeB);\n",
+        "149": "    NodeConnections<N, E> connectionsB = isSelfLoop ? connectionsA : nodeConnections.get(nodeB);\n",
+        "151": "    connectionsB.removeInEdge(edge, isSelfLoop);\n"
+    },
+    "removed": {
+        "103": "    NodeConnections<N, E> connectionsB = nodeConnections.get(nodeB);\n",
+        "114": "      connectionsB = isSelfLoop ? connectionsA : addNodeInternal(nodeB);\n",
+        "116": "    connectionsB.addInEdge(edge, nodeA);\n",
+        "148": "    NodeConnections<N, E> connectionsB = nodeConnections.get(nodeB);\n",
+        "150": "    connectionsB.removeInEdge(edge);\n"
+    }
+}

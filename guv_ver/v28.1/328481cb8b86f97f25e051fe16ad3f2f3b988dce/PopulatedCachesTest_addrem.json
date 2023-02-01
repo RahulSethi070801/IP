@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "339": "  private List<Entry<Object, Object>> warmUp(LoadingCache<Object, Object> cache) {\n",
+        "347": "  private List<Entry<Object, Object>> warmUp(\n",
+        "350": "    List<Entry<Object, Object>> entries = Lists.newArrayList();\n"
+    },
+    "removed": {
+        "339": "  private List<Map.Entry<Object, Object>> warmUp(LoadingCache<Object, Object> cache) {\n",
+        "347": "  private List<Map.Entry<Object, Object>> warmUp(\n",
+        "350": "    List<Map.Entry<Object, Object>> entries = Lists.newArrayList();\n"
+    }
+}

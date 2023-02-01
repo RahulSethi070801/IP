@@ -1,0 +1,4 @@
+ForwardingMapEntry
+Insertions: [24, 75, 91]
+Deletions: [24, 75, 91]
+guava/src/com/google/common/collect/ForwardingMapEntry.java

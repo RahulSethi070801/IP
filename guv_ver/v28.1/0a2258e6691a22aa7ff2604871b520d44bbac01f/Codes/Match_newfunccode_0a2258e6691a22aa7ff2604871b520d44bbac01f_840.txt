@@ -1,0 +1,13 @@
+@Override
+Cut<C> withLowerBoundType(BoundType boundType, DiscreteDomain<C> domain) {
+    switch(boundType) {
+        case OPEN:
+            return this;
+        case CLOSED:
+            @Nullable
+            C next = domain.next(endpoint);
+            return (next == null) ? Cut.<C>belowAll() : belowValue(next);
+        default:
+            throw new AssertionError();
+    }
+}

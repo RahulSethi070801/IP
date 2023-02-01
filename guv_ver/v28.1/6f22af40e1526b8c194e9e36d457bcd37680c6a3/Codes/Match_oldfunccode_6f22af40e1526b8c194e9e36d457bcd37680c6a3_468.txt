@@ -1,0 +1,3 @@
+public static <C, K extends C, V> TreeMap<K, V> newTreeMap(@Nullable Comparator<C> comparator) {
+    return new TreeMap<>(comparator);
+}

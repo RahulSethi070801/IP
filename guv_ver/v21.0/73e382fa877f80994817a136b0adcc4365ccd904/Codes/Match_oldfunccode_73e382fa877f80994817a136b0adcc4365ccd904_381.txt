@@ -1,0 +1,6 @@
+@Override
+public boolean remove(Object key, Object value) {
+    synchronized (mutex) {
+        return delegate().remove(key, value);
+    }
+}

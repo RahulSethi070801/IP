@@ -1,0 +1,16 @@
+
+   * Returns the {@code k} least elements of the given iterable according to this ordering, in order
+   * from least to greatest. If there are fewer than {@code k} elements present, all will be
+   * included.
+   *
+   * <p>The implementation does not necessarily use a <i>stable</i> sorting algorithm; when multiple
+   * elements are equivalent, it is undefined which will come first.
+   *
+   * <p><b>Java 8 users:</b> Continue to use this method for now. After the next release of Guava,
+   * use {@code Streams.stream(iterable).collect(Comparators.least(k, thisComparator))} instead.
+   *
+   * @return an immutable {@code RandomAccess} list of the {@code k} least elements in ascending
+   *     order
+   * @throws IllegalArgumentException if {@code k} is negative
+   * @since 8.0
+   

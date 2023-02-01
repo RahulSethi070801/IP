@@ -1,0 +1,4 @@
+ObjectsTest_2
+Insertions: [49]
+Deletions: [49, 50]
+guava-tests/test/com/google/common/base/ObjectsTest.java

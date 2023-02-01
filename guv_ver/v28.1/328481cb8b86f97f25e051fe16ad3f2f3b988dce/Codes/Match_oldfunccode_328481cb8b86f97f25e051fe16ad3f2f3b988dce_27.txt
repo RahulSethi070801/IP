@@ -1,0 +1,24 @@
+@Override
+public void remove(Range<K> rangeToRemove) {
+    if (rangeToRemove.isEmpty()) {
+        return;
+    }
+    Map.Entry<Cut<K>, RangeMapEntry<K, V>> mapEntryBelowToTruncate = entriesByLowerBound.lowerEntry(rangeToRemove.lowerBound);
+    if (mapEntryBelowToTruncate != null) {
+        RangeMapEntry<K, V> rangeMapEntry = mapEntryBelowToTruncate.getValue();
+        if (rangeMapEntry.getUpperBound().compareTo(rangeToRemove.lowerBound) > 0) {
+            if (rangeMapEntry.getUpperBound().compareTo(rangeToRemove.upperBound) > 0) {
+                putRangeMapEntry(rangeToRemove.upperBound, rangeMapEntry.getUpperBound(), mapEntryBelowToTruncate.getValue().getValue());
+            }
+            putRangeMapEntry(rangeMapEntry.getLowerBound(), rangeToRemove.lowerBound, mapEntryBelowToTruncate.getValue().getValue());
+        }
+    }
+    Map.Entry<Cut<K>, RangeMapEntry<K, V>> mapEntryAboveToTruncate = entriesByLowerBound.lowerEntry(rangeToRemove.upperBound);
+    if (mapEntryAboveToTruncate != null) {
+        RangeMapEntry<K, V> rangeMapEntry = mapEntryAboveToTruncate.getValue();
+        if (rangeMapEntry.getUpperBound().compareTo(rangeToRemove.upperBound) > 0) {
+            putRangeMapEntry(rangeToRemove.upperBound, rangeMapEntry.getUpperBound(), mapEntryAboveToTruncate.getValue().getValue());
+        }
+    }
+    entriesByLowerBound.subMap(rangeToRemove.lowerBound, rangeToRemove.upperBound).clear();
+}

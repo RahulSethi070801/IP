@@ -1,0 +1,4 @@
+MapPutAllTester_2
+Insertions: [43, 44, 193, 194, 195]
+Deletions: [43, 44, 45, 194, 195, 196, 197, 198]
+guava-testlib/src/com/google/common/collect/testing/testers/MapPutAllTester.java

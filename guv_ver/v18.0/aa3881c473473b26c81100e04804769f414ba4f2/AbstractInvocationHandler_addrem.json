@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "31": " *   protected Object handleInvocation(\n",
+        "32": " *       Object proxy, Method method, Object[] args) {\n"
+    },
+    "removed": {
+        "31": " *   @Override protected Object handleInvocation(Object proxy, Method method, Object[] args) {\n"
+    }
+}

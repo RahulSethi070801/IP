@@ -1,0 +1,5 @@
+com.google.common.hash.Hashing
+goodFastHash
+public static HashFunction goodFastHash(int minimumBits)
+int
+HashFunction

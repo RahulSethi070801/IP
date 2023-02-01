@@ -1,0 +1,35 @@
+com.google.common.net.InetAddresses
+is6to4Address
+public static boolean is6to4Address(Inet6Address ip)
+Inet6Address
+boolean
+com.google.common.net.InetAddresses
+isMappedIPv4Address
+public static boolean isMappedIPv4Address(String ipString)
+String
+boolean
+com.google.common.net.UrlEscapers
+urlPathSegmentEscaper
+public static Escaper urlPathSegmentEscaper()
+empty
+Escaper
+com.google.common.net.InetAddresses
+toUriString
+public static String toUriString(InetAddress ip)
+InetAddress
+String
+com.google.common.net.InternetDomainName
+from
+public static InternetDomainName from(String domain)
+String
+InternetDomainName
+com.google.common.net.InternetDomainName
+isValid
+public static boolean isValid(String name)
+String
+boolean
+com.google.common.net.UrlEscapers
+urlFragmentEscaper
+public static Escaper urlFragmentEscaper()
+empty
+Escaper

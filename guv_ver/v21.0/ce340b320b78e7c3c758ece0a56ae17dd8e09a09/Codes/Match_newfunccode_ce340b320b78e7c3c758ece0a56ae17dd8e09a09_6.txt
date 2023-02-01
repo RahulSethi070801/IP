@@ -1,0 +1,3 @@
+public static final <S extends Comparable<S>> ElementOrder<S> sorted(Comparator<S> comparator) {
+    return new ElementOrder<S>(Type.SORTED, comparator);
+}

@@ -1,0 +1,6 @@
+static <K, V> SetMultimap<K, V> setMultimap(SetMultimap<K, V> multimap, @NullableDecl Object mutex) {
+    if (multimap instanceof SynchronizedSetMultimap || multimap instanceof ImmutableSetMultimap) {
+        return multimap;
+    }
+    return new SynchronizedSetMultimap<>(multimap, mutex);
+}

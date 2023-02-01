@@ -1,0 +1,5 @@
+@Override
+public boolean equals(@Nullable Object o) {
+    assertTrue(Thread.holdsLock(mutex));
+    return delegate.equals(o);
+}

@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.Monitor
+newGuard
+public Guard newGuard(final BooleanSupplier isSatisfied)
+BooleanSupplier
+Guard

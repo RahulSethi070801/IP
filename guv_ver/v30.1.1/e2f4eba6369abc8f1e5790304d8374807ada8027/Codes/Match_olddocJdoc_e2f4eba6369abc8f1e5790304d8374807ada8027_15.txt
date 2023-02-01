@@ -1,0 +1,6 @@
+
+   * Returns statistics over a dataset containing the given values.
+   *
+   * @param values a series of values, which will be converted to {@code double} values (this may
+   *     cause loss of precision)
+   

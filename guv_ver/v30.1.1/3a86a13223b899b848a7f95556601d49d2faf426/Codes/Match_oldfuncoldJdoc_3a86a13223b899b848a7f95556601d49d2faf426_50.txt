@@ -1,0 +1,4 @@
+
+   * Compares two objects using a comparator, <i>if</i> the result of this comparison chain has not
+   * already been determined.
+   

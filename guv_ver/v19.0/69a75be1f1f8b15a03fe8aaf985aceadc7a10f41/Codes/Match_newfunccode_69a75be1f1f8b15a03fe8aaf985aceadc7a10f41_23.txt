@@ -1,0 +1,24 @@
+@Override
+protected final void doStop() {
+    runningTask.cancel(false);
+    executorService.execute(new Runnable() {
+
+        @Override
+        public void run() {
+            try {
+                lock.lock();
+                try {
+                    if (state() != State.STOPPING) {
+                        return;
+                    }
+                    shutDown();
+                } finally {
+                    lock.unlock();
+                }
+                notifyStopped();
+            } catch (Throwable t) {
+                notifyFailed(t);
+            }
+        }
+    });
+}

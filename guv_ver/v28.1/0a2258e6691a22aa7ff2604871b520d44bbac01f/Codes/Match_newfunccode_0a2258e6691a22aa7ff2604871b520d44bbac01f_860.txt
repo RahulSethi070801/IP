@@ -1,0 +1,4 @@
+@Nullable
+static <K> K keyOrNull(@Nullable Entry<K, ?> entry) {
+    return (entry == null) ? null : entry.getKey();
+}

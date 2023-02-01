@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "46": "   * Adds {@code edge} connecting {@code nodeU} to {@code nodeV}. In an undirected network, the edge\n",
+        "47": "   * will also connect {@code nodeV} to {@code nodeU}.\n",
+        "51": "   * <p>Behavior if {@code nodeU} and {@code nodeV} are not already present in this network is\n",
+        "53": "   * adding} {@code nodeU} and {@code nodeV} to the network (this is the behavior of the default\n",
+        "56": "   * <p>If {@code edge} already connects {@code nodeU} to {@code nodeV} (in the specified order if\n",
+        "61": "   *     nodeU} to {@code nodeV}, or if the introduction of the edge would violate {@link\n",
+        "65": "  boolean addEdge(N nodeU, N nodeV, E edge);\n"
+    },
+    "removed": {
+        "46": "   * Adds {@code edge} connecting {@code nodeA} to {@code nodeB}. In an undirected network, the edge\n",
+        "47": "   * will also connect {@code nodeB} to {@code nodeA}.\n",
+        "51": "   * <p>Behavior if {@code nodeA} and {@code nodeB} are not already present in this network is\n",
+        "53": "   * adding} {@code nodeA} and {@code nodeB} to the network (this is the behavior of the default\n",
+        "56": "   * <p>If {@code edge} already connects {@code nodeA} to {@code nodeB} (in the specified order if\n",
+        "61": "   *     nodeA} to {@code nodeB}, or if the introduction of the edge would violate {@link\n",
+        "65": "  boolean addEdge(N nodeA, N nodeB, E edge);\n"
+    }
+}

@@ -1,0 +1,4 @@
+OpenJdk6QueueTests_2
+Insertions: [29, 30, 39, 40, 42, 43, 47, 48]
+Deletions: [29, 30, 39, 40, 42, 46]
+guava-testlib/test/com/google/common/collect/testing/OpenJdk6QueueTests.java

@@ -1,0 +1,3 @@
+private void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException
+static int readCount(ObjectInputStream stream) throws IOException
+

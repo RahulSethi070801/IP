@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "35": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "195": "  final void maybePropagateCancellationTo(@Nullable Future<?> related) {\n",
+        "235": "  @Nullable\n"
+    },
+    "removed": {
+        "35": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "195": "  final void maybePropagateCancellationTo(@NullableDecl Future<?> related) {\n",
+        "235": "  @NullableDecl\n"
+    }
+}

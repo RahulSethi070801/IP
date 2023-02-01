@@ -1,0 +1,27 @@
+@Override
+public void remove() {
+    checkRemove(canRemove);
+    checkModCount();
+    canRemove = false;
+    expectedModCount++;
+    if (cursor < size()) {
+        MoveDesc<E> moved = removeAt(cursor);
+        if (moved != null) {
+            if (forgetMeNot == null) {
+                forgetMeNot = new ArrayDeque<E>();
+                skipMe = new ArrayList<E>(3);
+            }
+            if (!foundAndRemovedExactReference(skipMe, moved.toTrickle)) {
+                forgetMeNot.add(moved.toTrickle);
+            }
+            if (!foundAndRemovedExactReference(forgetMeNot, moved.replaced)) {
+                skipMe.add(moved.replaced);
+            }
+        }
+        cursor--;
+        nextCursor--;
+    } else {
+        checkState(removeExact(lastFromForgetMeNot));
+        lastFromForgetMeNot = null;
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "29": "import javax.annotation.CheckForNull;\n",
+        "30": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "46": "@ElementTypesAreNonnullByDefault\n",
+        "47": "abstract class AbstractMultiset<E extends @Nullable Object> extends AbstractCollection<E>\n",
+        "48": "    implements Multiset<E> {\n",
+        "57": "  public boolean contains(@CheckForNull Object element) {\n",
+        "64": "  public final boolean add(@ParametricNullness E element) {\n",
+        "71": "  public int add(@ParametricNullness E element, int occurrences) {\n",
+        "77": "  public final boolean remove(@CheckForNull Object element) {\n",
+        "83": "  public int remove(@CheckForNull Object element, int occurrences) {\n",
+        "89": "  public int setCount(@ParametricNullness E element, int count) {\n",
+        "95": "  public boolean setCount(@ParametricNullness E element, int oldCount, int newCount) {\n",
+        "130": "  @LazyInit @CheckForNull private transient Set<E> elementSet;\n",
+        "164": "  @LazyInit @CheckForNull private transient Set<Entry<E>> entrySet;\n",
+        "210": "  public final boolean equals(@CheckForNull Object object) {\n"
+    },
+    "removed": {
+        "29": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "45": "abstract class AbstractMultiset<E> extends AbstractCollection<E> implements Multiset<E> {\n",
+        "54": "  public boolean contains(@NullableDecl Object element) {\n",
+        "61": "  public final boolean add(@NullableDecl E element) {\n",
+        "68": "  public int add(@NullableDecl E element, int occurrences) {\n",
+        "74": "  public final boolean remove(@NullableDecl Object element) {\n",
+        "80": "  public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "86": "  public int setCount(@NullableDecl E element, int count) {\n",
+        "92": "  public boolean setCount(@NullableDecl E element, int oldCount, int newCount) {\n",
+        "127": "  @LazyInit @NullableDecl private transient Set<E> elementSet;\n",
+        "161": "  @LazyInit @NullableDecl private transient Set<Entry<E>> entrySet;\n",
+        "207": "  public final boolean equals(@NullableDecl Object object) {\n"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "32": "    return CollectionTestSuiteBuilder.using(\n",
+        "33": "            new TestStringCollectionGenerator() {\n",
+        "34": "              @Override\n",
+        "35": "              public Collection<String> create(String[] elements) {\n",
+        "36": "                // TODO: MinimalCollection should perhaps throw\n",
+        "37": "                for (Object element : elements) {\n",
+        "38": "                  if (element == null) {\n",
+        "39": "                    throw new NullPointerException();\n",
+        "40": "                  }\n",
+        "42": "                return MinimalCollection.of(elements);\n",
+        "44": "            })\n",
+        "46": "        .withFeatures(CollectionFeature.NONE, CollectionSize.ANY)\n"
+    },
+    "removed": {
+        "32": "    return CollectionTestSuiteBuilder\n",
+        "33": "        .using(new TestStringCollectionGenerator() {\n",
+        "34": "            @Override public Collection<String> create(String[] elements) {\n",
+        "35": "              // TODO: MinimalCollection should perhaps throw\n",
+        "36": "              for (Object element : elements) {\n",
+        "37": "                if (element == null) {\n",
+        "38": "                  throw new NullPointerException();\n",
+        "41": "              return MinimalCollection.of(elements);\n",
+        "42": "            }\n",
+        "43": "          })\n",
+        "45": "        .withFeatures(\n",
+        "46": "            CollectionFeature.NONE,\n",
+        "47": "            CollectionSize.ANY)\n"
+    }
+}

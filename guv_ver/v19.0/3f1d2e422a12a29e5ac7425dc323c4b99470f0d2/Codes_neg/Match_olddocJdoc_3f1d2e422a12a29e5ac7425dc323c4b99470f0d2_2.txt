@@ -1,0 +1,6 @@
+
+   * Returns a view of a slice of this byte source that is at most {@code length} bytes long
+   * starting at the given {@code offset}.
+   *
+   * @throws IllegalArgumentException if {@code offset} or {@code length} is negative
+   

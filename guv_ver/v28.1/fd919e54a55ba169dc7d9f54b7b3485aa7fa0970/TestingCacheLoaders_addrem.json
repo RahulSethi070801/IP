@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "59": "  /** Returns a {@link CacheLoader} that returns the given {@code constant} for every request. */\n",
+        "64": "  /** Returns a {@link CacheLoader} that returns the given {@code constant} for every request. */\n",
+        "69": "  /** Returns a {@link CacheLoader} that throws the given error for every request. */\n",
+        "80": "  /** Returns a {@link CacheLoader} that throws the given exception for every request. */\n",
+        "91": "  /** Returns a {@link CacheLoader} that returns the key for every request. */\n"
+    },
+    "removed": {
+        "59": "  /**\n",
+        "60": "   * Returns a {@link CacheLoader} that returns the given {@code constant} for every request.\n",
+        "61": "   */\n",
+        "66": "  /**\n",
+        "67": "   * Returns a {@link CacheLoader} that returns the given {@code constant} for every request.\n",
+        "68": "   */\n",
+        "73": "  /**\n",
+        "74": "   * Returns a {@link CacheLoader} that throws the given error for every request.\n",
+        "75": "   */\n",
+        "86": "  /**\n",
+        "87": "   * Returns a {@link CacheLoader} that throws the given exception for every request.\n",
+        "88": "   */\n",
+        "99": "  /**\n",
+        "100": "   * Returns a {@link CacheLoader} that returns the key for every request.\n",
+        "101": "   */\n"
+    }
+}

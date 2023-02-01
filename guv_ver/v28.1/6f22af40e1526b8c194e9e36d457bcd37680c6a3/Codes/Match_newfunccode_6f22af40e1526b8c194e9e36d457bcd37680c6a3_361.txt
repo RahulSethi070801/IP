@@ -1,0 +1,4 @@
+@Override
+public <T> ComparisonChain compare(@NullableDecl T left, @NullableDecl T right, @NullableDecl Comparator<T> comparator) {
+    return this;
+}

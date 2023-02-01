@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "24": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "79": "    @CanIgnoreReturnValue\n",
+        "85": "    @CanIgnoreReturnValue\n",
+        "360": "  @CanIgnoreReturnValue\n",
+        "446": "  @CanIgnoreReturnValue\n",
+        "524": "  @CanIgnoreReturnValue\n",
+        "620": "  @CanIgnoreReturnValue\n",
+        "642": "  @CanIgnoreReturnValue\n",
+        "674": "  @CanIgnoreReturnValue\n",
+        "699": "          boolean unused = ATOMIC_HELPER.casValue(this, valueToSet, failure);\n",
+        "720": "  @CanIgnoreReturnValue\n"
+    },
+    "removed": {
+        "690": "          ATOMIC_HELPER.casValue(this, valueToSet, failure);\n"
+    }
+}

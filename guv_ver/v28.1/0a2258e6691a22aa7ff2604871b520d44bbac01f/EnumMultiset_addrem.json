@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "34": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "97": "  private boolean isActuallyE(@Nullable Object o) {\n",
+        "111": "  void checkIsE(@Nullable Object element) {\n",
+        "129": "  public int count(@Nullable Object element) {\n",
+        "161": "  public int remove(@Nullable Object element, int occurrences) {\n"
+    },
+    "removed": {
+        "34": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "97": "  private boolean isActuallyE(@NullableDecl Object o) {\n",
+        "111": "  void checkIsE(@NullableDecl Object element) {\n",
+        "129": "  public int count(@NullableDecl Object element) {\n",
+        "161": "  public int remove(@NullableDecl Object element, int occurrences) {\n"
+    }
+}

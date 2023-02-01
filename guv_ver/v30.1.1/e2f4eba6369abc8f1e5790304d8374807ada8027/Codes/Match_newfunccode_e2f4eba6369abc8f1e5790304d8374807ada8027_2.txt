@@ -1,0 +1,3 @@
+public void addAll(DoubleStream values) {
+    addAll(values.collect(StatsAccumulator::new, StatsAccumulator::add, StatsAccumulator::addAll));
+}

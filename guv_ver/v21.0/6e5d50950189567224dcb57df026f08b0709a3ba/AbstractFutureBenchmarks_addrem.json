@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "21": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "22": "\n",
+        "39": "    @CanIgnoreReturnValue\n",
+        "41": "\n",
+        "42": "    @CanIgnoreReturnValue\n",
+        "47": "    @CanIgnoreReturnValue\n",
+        "48": "    @Override\n",
+        "49": "    public boolean set(T t) {\n",
+        "52": "\n",
+        "53": "    @CanIgnoreReturnValue\n",
+        "54": "    @Override\n",
+        "55": "    public boolean setException(Throwable t) {\n",
+        "62": "    @CanIgnoreReturnValue\n",
+        "63": "    @Override\n",
+        "64": "    public boolean set(T t) {\n",
+        "67": "\n",
+        "68": "    @CanIgnoreReturnValue\n",
+        "69": "    @Override\n",
+        "70": "    public boolean setException(Throwable t) {\n",
+        "134": "    @CanIgnoreReturnValue\n",
+        "136": "    public V get(long timeout, TimeUnit unit)\n",
+        "137": "        throws InterruptedException, TimeoutException, ExecutionException {\n",
+        "156": "    @CanIgnoreReturnValue\n",
+        "172": "    @CanIgnoreReturnValue\n",
+        "226": "    @CanIgnoreReturnValue\n",
+        "244": "    @CanIgnoreReturnValue\n"
+    },
+    "removed": {
+        "42": "    @Override public boolean set(T t) {\n",
+        "45": "    @Override public boolean setException(Throwable t) {\n",
+        "52": "    @Override public boolean set(T t) {\n",
+        "55": "    @Override public boolean setException(Throwable t) {\n",
+        "120": "    public V get(long timeout, TimeUnit unit) throws InterruptedException,\n",
+        "121": "        TimeoutException, ExecutionException {\n"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "53": "    assertThat(network.incidentNodes(E11).nodeU()).isEqualTo(N1);\n",
+        "54": "    assertThat(network.incidentNodes(E11).nodeV()).isEqualTo(N1);\n"
+    },
+    "removed": {
+        "53": "    assertThat(network.incidentNodes(E11).nodeA()).isEqualTo(N1);\n",
+        "54": "    assertThat(network.incidentNodes(E11).nodeB()).isEqualTo(N1);\n"
+    }
+}

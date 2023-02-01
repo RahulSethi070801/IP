@@ -1,0 +1,4 @@
+SubscriberExceptionHandler_2
+Insertions: [23]
+Deletions: [22, 23, 24]
+guava/src/com/google/common/eventbus/SubscriberExceptionHandler.java

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "770": "          factory + \" returns null but it's not annotated with @Nullable\", isNullable(factory));\n"
+    },
+    "removed": {
+        "770": "          factory + \" returns null but it's not annotated with @NullableDecl\", isNullable(factory));\n"
+    }
+}

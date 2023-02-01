@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "80": "  private final ImmutableMap<E, IncidentNodes<N>> edgeToIncidentNodes;\n",
+        "94": "    ImmutableMap.Builder<E, IncidentNodes<N>> edgeToIncidentNodesBuilder = ImmutableMap.builder();\n",
+        "96": "      IncidentNodes<N> incidentNodes = IncidentNodes.of(\n",
+        "126": "    return checkedIncidentNodes(edge);\n",
+        "203": "    return checkedIncidentNodes(edge).node1();\n",
+        "208": "    return checkedIncidentNodes(edge).node2();\n",
+        "234": "  private IncidentNodes<N> checkedIncidentNodes(Object edge) {\n",
+        "236": "    IncidentNodes<N> incidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "237": "    checkArgument(incidentNodes != null, EDGE_NOT_IN_GRAPH, edge);\n",
+        "238": "    return incidentNodes;\n",
+        "326": "     * @see Graph#addEdge\n"
+    },
+    "removed": {
+        "80": "  private final ImmutableMap<E, DirectedIncidentNodes<N>> edgeToIncidentNodes;\n",
+        "94": "    ImmutableMap.Builder<E, DirectedIncidentNodes<N>> edgeToIncidentNodesBuilder =\n",
+        "95": "        ImmutableMap.builder();\n",
+        "97": "      DirectedIncidentNodes<N> incidentNodes = DirectedIncidentNodes.of(\n",
+        "127": "    return checkedEndpoints(edge).asImmutableSet();\n",
+        "204": "    return checkedEndpoints(edge).source();\n",
+        "209": "    return checkedEndpoints(edge).target();\n",
+        "235": "  private DirectedIncidentNodes<N> checkedEndpoints(Object edge) {\n",
+        "237": "    DirectedIncidentNodes<N> endpoints = edgeToIncidentNodes.get(edge);\n",
+        "238": "    checkArgument(endpoints != null, EDGE_NOT_IN_GRAPH, edge);\n",
+        "239": "    return endpoints;\n",
+        "327": "     * @see Graph#addEdge(e, n1, n2)\n"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "78": "    assertSame(\n",
+        "79": "        ImmutableClassToInstanceMap.of(),\n",
+        "96": "    ImmutableClassToInstanceMap<Number> map = ImmutableClassToInstanceMap.of(int.class, 1);\n",
+        "117": "    Map<Class<? extends Number>, Number> nullKey = Collections.singletonMap(null, (Number) 1.0);\n",
+        "124": "    Map<? extends Class<? extends Number>, Number> nullValue =\n",
+        "125": "        Collections.singletonMap(Number.class, null);\n",
+        "140": "    ImmutableMap<Class<? extends Number>, ? extends Number> in =\n",
+        "141": "        ImmutableMap.of(Number.class, 0, Double.class, Math.PI);\n",
+        "153": "    ImmutableClassToInstanceMap<Number> ictim =\n",
+        "154": "        new ImmutableClassToInstanceMap.Builder<Number>()\n"
+    },
+    "removed": {
+        "78": "    assertSame(ImmutableClassToInstanceMap.of(),\n",
+        "95": "    ImmutableClassToInstanceMap<Number> map =\n",
+        "96": "        ImmutableClassToInstanceMap.of(int.class, 1);\n",
+        "117": "    Map<Class<? extends Number>, Number> nullKey = Collections.singletonMap(\n",
+        "118": "        null, (Number) 1.0);\n",
+        "125": "    Map<? extends Class<? extends Number>, Number> nullValue\n",
+        "126": "        = Collections.singletonMap(Number.class, null);\n",
+        "141": "    ImmutableMap<Class<? extends Number>, ? extends Number> in\n",
+        "142": "        = ImmutableMap.of(Number.class, 0, Double.class, Math.PI);\n",
+        "154": "    ImmutableClassToInstanceMap<Number> ictim\n",
+        "155": "        = new ImmutableClassToInstanceMap.Builder<Number>()\n"
+    }
+}

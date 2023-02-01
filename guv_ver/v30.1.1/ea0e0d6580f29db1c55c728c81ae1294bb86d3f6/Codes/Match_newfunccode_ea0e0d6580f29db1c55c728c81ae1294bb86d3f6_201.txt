@@ -1,0 +1,3 @@
+static <E extends @Nullable Object> Iterator<E> iteratorImpl(Multiset<E> multiset) {
+    return new MultisetIteratorImpl<E>(multiset, multiset.entrySet().iterator());
+}

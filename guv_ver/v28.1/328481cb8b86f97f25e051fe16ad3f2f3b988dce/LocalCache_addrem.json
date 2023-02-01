@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "69": "import java.util.Map.Entry;\n",
+        "4171": "    for (Entry<K, V> entry : result.entrySet()) {\n"
+    },
+    "removed": {
+        "4170": "    for (Map.Entry<K, V> entry : result.entrySet()) {\n"
+    }
+}

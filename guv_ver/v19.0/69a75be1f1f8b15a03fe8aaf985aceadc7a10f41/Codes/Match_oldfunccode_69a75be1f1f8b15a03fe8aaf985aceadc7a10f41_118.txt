@@ -1,0 +1,4 @@
+@Override
+public final void awaitRunning(long timeout, TimeUnit unit) throws TimeoutException {
+    delegate.awaitRunning(timeout, unit);
+}

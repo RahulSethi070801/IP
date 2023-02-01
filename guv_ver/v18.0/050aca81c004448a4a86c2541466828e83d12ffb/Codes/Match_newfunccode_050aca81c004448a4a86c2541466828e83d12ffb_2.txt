@@ -1,0 +1,9 @@
+private static boolean removeOccurrencesImpl(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove) {
+    checkNotNull(multisetToModify);
+    checkNotNull(occurrencesToRemove);
+    boolean changed = false;
+    for (Object o : occurrencesToRemove) {
+        changed |= multisetToModify.remove(o);
+    }
+    return changed;
+}

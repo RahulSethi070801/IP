@@ -1,0 +1,20 @@
+
+   * Returns {@code true} iff {@code networkA} and {@code networkB} have the same elements and the
+   * same relationships between elements, as exposed via the {@link Network} interface.
+   *
+   * <p>Thus, two networks A and B are equivalent if both are null or <b>all</b> of the following
+   * are true:
+   *
+   * <ul>
+   * <li>A and B have equal {@link Network#isDirected() directedness}.
+   * <li>A and B have equal {@link Network#nodes() node sets}.
+   * <li>A and B have equal {@link Network#edges() edge sets}.
+   * <li>Each edge in A connects the same nodes in the same direction (if any) as the corresponding
+   *     edge in B.
+   * </ul>
+   *
+   * <p>Network properties besides {@link Network#isDirected() directedness} do <b>not</b> affect
+   * equivalence. For example, two networks may be considered equal even if one allows parallel
+   * edges and the other doesn't. Additionally, the order in which nodes or edges are added to the
+   * network, and the order in which they are iterated over, are irrelevant.
+   

@@ -1,0 +1,5 @@
+
+     * Returns a newly-created immutable bimap.
+     *
+     * @throws IllegalArgumentException if duplicate keys or values were added
+     

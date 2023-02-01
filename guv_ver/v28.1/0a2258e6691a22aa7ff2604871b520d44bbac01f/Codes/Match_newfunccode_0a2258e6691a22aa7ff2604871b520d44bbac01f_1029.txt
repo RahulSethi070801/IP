@@ -1,0 +1,3 @@
+private static boolean equalsOrThrow(Comparable<?> left, @Nullable Comparable<?> right) {
+    return right != null && Range.compareOrThrow(left, right) == 0;
+}

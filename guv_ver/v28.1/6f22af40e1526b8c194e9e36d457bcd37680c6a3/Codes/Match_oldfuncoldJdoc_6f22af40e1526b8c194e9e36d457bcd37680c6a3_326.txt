@@ -1,0 +1,1 @@
+ An implementation of {@link List#indexOf(Object)}. 

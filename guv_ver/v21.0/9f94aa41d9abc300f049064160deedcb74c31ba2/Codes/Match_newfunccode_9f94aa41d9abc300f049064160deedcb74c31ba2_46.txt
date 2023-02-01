@@ -1,0 +1,11 @@
+@Override
+public boolean equals(@Nullable Object obj) {
+    if (this == obj) {
+        return true;
+    }
+    if (!(obj instanceof CacheBuilderSpec)) {
+        return false;
+    }
+    CacheBuilderSpec that = (CacheBuilderSpec) obj;
+    return Objects.equal(initialCapacity, that.initialCapacity) && Objects.equal(maximumSize, that.maximumSize) && Objects.equal(maximumWeight, that.maximumWeight) && Objects.equal(concurrencyLevel, that.concurrencyLevel) && Objects.equal(keyStrength, that.keyStrength) && Objects.equal(valueStrength, that.valueStrength) && Objects.equal(recordStats, that.recordStats) && Objects.equal(durationInNanos(writeExpirationDuration, writeExpirationTimeUnit), durationInNanos(that.writeExpirationDuration, that.writeExpirationTimeUnit)) && Objects.equal(durationInNanos(accessExpirationDuration, accessExpirationTimeUnit), durationInNanos(that.accessExpirationDuration, that.accessExpirationTimeUnit)) && Objects.equal(durationInNanos(refreshDuration, refreshTimeUnit), durationInNanos(that.refreshDuration, that.refreshTimeUnit));
+}

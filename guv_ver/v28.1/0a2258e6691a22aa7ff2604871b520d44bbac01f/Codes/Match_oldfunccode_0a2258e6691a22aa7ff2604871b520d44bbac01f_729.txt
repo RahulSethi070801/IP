@@ -1,0 +1,16 @@
+@NullableDecl
+private static Type subtypeOfComponentType(Type[] bounds) {
+    for (Type bound : bounds) {
+        Type componentType = getComponentType(bound);
+        if (componentType != null) {
+            if (componentType instanceof Class) {
+                Class<?> componentClass = (Class<?>) componentType;
+                if (componentClass.isPrimitive()) {
+                    return componentClass;
+                }
+            }
+            return subtypeOf(componentType);
+        }
+    }
+    return null;
+}

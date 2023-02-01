@@ -1,0 +1,6 @@
+private boolean isSatisfied(Guard guard)
+public Guard newGuard(final BooleanSupplier isSatisfied)
+
+private boolean isSatisfied(Guard guard)
+public Guard newGuard(final BooleanSupplier isSatisfied)
+

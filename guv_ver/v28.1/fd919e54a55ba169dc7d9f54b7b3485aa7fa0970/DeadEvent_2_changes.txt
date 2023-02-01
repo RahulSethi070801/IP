@@ -1,0 +1,4 @@
+DeadEvent_2
+Insertions: [70]
+Deletions: [70, 71, 72, 73]
+guava/src/com/google/common/eventbus/DeadEvent.java

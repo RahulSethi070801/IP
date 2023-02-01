@@ -1,0 +1,17 @@
+public ImmutableRangeMap<K, V> build() {
+    Collections.sort(entries, Range.RANGE_LEX_ORDERING.onKeys());
+    ImmutableList.Builder<Range<K>> rangesBuilder = new ImmutableList.Builder<Range<K>>(entries.size());
+    ImmutableList.Builder<V> valuesBuilder = new ImmutableList.Builder<V>(entries.size());
+    for (int i = 0; i < entries.size(); i++) {
+        Range<K> range = entries.get(i).getKey();
+        if (i > 0) {
+            Range<K> prevRange = entries.get(i - 1).getKey();
+            if (range.isConnected(prevRange) && !range.intersection(prevRange).isEmpty()) {
+                throw new IllegalArgumentException("Overlapping ranges: range " + prevRange + " overlaps with entry " + range);
+            }
+        }
+        rangesBuilder.add(range);
+        valuesBuilder.add(entries.get(i).getValue());
+    }
+    return new ImmutableRangeMap<K, V>(rangesBuilder.build(), valuesBuilder.build());
+}

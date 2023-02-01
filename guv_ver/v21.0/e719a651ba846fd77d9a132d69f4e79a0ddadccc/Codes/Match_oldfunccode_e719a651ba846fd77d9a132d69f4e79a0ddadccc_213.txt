@@ -1,0 +1,4 @@
+@Override
+public byte[] toByteArray() {
+    return byteArrayOutputSteam.toByteArray();
+}

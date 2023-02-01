@@ -1,0 +1,3 @@
+public static MultimapBuilderWithKeys<Object> linkedHashKeys() {
+    return linkedHashKeys(DEFAULT_EXPECTED_KEYS);
+}

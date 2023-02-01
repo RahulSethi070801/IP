@@ -1,0 +1,4 @@
+@Override
+public Set<Endpoints<N>> edges() {
+    return delegate().edges();
+}

@@ -1,0 +1,6 @@
+public long approximateCount()
+public boolean isCompatible(BloomFilter<T> that)
+
+public long approximateCount()
+public boolean isCompatible(BloomFilter<T> that)
+

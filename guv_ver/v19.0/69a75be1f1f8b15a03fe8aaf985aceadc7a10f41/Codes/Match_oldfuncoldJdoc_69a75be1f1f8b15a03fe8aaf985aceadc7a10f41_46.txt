@@ -1,0 +1,4 @@
+
+   * Associates {@code newValue} with {@code key} in this map, and returns the value previously
+   * associated with {@code key}, or zero if there was no such value.
+   

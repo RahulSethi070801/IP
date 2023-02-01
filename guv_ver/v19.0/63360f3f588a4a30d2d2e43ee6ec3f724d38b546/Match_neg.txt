@@ -1,0 +1,6 @@
+public static Splitter on(char separator)
+private SetView()
+
+public String encode(byte[] bytes)
+private SetView()
+

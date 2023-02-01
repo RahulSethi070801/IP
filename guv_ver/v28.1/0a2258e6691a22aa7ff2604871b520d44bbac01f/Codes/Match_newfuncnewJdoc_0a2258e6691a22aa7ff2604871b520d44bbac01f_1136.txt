@@ -1,0 +1,9 @@
+
+   * Returns the single element contained in {@code iterable}, or {@code defaultValue} if the
+   * iterable is empty.
+   *
+   * <p><b>Java 8 users:</b> the {@code Stream} equivalent to this method is {@code
+   * stream.collect(MoreCollectors.toOptional()).orElse(defaultValue)}.
+   *
+   * @throws IllegalArgumentException if the iterator contains multiple elements
+   

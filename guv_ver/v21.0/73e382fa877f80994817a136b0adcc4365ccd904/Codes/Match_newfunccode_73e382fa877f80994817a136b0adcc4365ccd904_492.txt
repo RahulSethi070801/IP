@@ -1,0 +1,13 @@
+@Override
+public Optional<Long> sizeIfKnown() {
+    BasicFileAttributes attrs;
+    try {
+        attrs = readAttributes();
+    } catch (IOException e) {
+        return Optional.absent();
+    }
+    if (attrs.isDirectory() || attrs.isSymbolicLink()) {
+        return Optional.absent();
+    }
+    return Optional.of(attrs.size());
+}

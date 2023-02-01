@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean addInEdge(E edge, N node, boolean isSelfLoop);

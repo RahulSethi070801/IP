@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "24": " * implementing {@code Map}, the additional type-safe operations {@link #putInstance} and {@link\n",
+        "25": " * #getInstance} are available.\n",
+        "49": "   * <p>{@code getInstance(Foo.class)} is equivalent to {@code\n",
+        "50": "   * getInstance(TypeToken.of(Foo.class))}.\n",
+        "59": "   * <p>{@code putInstance(Foo.class, foo)} is equivalent to {@code\n",
+        "60": "   * putInstance(TypeToken.of(Foo.class), foo)}.\n",
+        "62": "   * @return the value previously associated with this class (possibly {@code null}), or {@code\n",
+        "63": "   *     null} if there was no previous entry.\n"
+    },
+    "removed": {
+        "24": " * implementing {@code Map}, the additional type-safe operations {@link #putInstance} and\n",
+        "25": " * {@link #getInstance} are available.\n",
+        "38": " *\n",
+        "50": "   * <p>{@code getInstance(Foo.class)} is equivalent to\n",
+        "51": "   * {@code getInstance(TypeToken.of(Foo.class))}.\n",
+        "60": "   * <p>{@code putInstance(Foo.class, foo)} is equivalent to\n",
+        "61": "   * {@code putInstance(TypeToken.of(Foo.class), foo)}.\n",
+        "63": "   * @return the value previously associated with this class (possibly {@code null}), or\n",
+        "64": "   *     {@code null} if there was no previous entry.\n"
+    }
+}

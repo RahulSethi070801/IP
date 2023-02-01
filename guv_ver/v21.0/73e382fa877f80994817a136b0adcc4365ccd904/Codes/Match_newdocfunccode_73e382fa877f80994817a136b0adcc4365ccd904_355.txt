@@ -1,0 +1,4 @@
+@Beta
+public static <E> FluentIterable<E> of() {
+    return FluentIterable.from(ImmutableList.<E>of());
+}

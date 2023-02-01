@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "107": "  public N removeInEdge(E edge, boolean isSelfLoop) {\n",
+        "117": "  public N removeOutEdge(E edge) {\n"
+    },
+    "removed": {
+        "107": "  public N removeInEdge(Object edge, boolean isSelfLoop) {\n",
+        "117": "  public N removeOutEdge(Object edge) {\n"
+    }
+}

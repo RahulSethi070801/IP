@@ -1,0 +1,5 @@
+com.google.common.math.Stats
+of
+public static Stats of(Iterator<? extends Number> values)
+Iterator
+Stats

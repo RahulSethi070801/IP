@@ -1,0 +1,1 @@
+ use ByteStreams.skipFully or one of the read methods instead

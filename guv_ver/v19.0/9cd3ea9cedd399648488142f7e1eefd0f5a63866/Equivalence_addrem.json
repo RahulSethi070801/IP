@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "26": "import javax.annotation.CheckReturnValue;\n",
+        "40": "@CheckReturnValue\n"
+    },
+    "removed": {}
+}

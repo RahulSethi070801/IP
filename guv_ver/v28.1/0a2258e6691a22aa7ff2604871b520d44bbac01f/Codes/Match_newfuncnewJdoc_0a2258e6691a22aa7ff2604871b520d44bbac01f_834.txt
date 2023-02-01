@@ -1,0 +1,4 @@
+
+   * @return number of entries in this bucket
+   * @throws IllegalArgumentException if another entry in the bucket has the same key
+   

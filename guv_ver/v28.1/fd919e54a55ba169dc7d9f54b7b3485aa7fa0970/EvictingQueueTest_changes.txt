@@ -1,0 +1,4 @@
+EvictingQueueTest
+Insertions: [60, 61, 68, 69]
+Deletions: [60, 67]
+android/guava-tests/test/com/google/common/collect/EvictingQueueTest.java

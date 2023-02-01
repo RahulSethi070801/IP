@@ -1,0 +1,4 @@
+QueueRemoveTester
+Insertions: [31, 32]
+Deletions: [31, 32, 33]
+android/guava-testlib/src/com/google/common/collect/testing/testers/QueueRemoveTester.java

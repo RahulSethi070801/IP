@@ -1,0 +1,6 @@
+public ImmutableSet<K> keySet() {
+    if (cachedKeySet != null) {
+        return cachedKeySet;
+    }
+    return cachedKeySet = createKeySet();
+}

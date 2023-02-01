@@ -1,0 +1,9 @@
+
+   * Returns an unmodifiable {@code Iterable} over the nodes reachable from any of the {@code
+   * startNodes}, in the order of a depth-first post-order traversal. This is equivalent to a
+   * depth-first post-order traversal of a graph with an additional root node whose successors are
+   * the listed {@code startNodes}.
+   *
+   * @throws IllegalArgumentException if any of {@code startNodes} is not an element of the graph
+   * @see #depthFirstPostOrder(Object)
+   

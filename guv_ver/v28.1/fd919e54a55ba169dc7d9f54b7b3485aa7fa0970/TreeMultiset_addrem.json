@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "41": " * or an explicit {@link Comparator}. In all cases, this implementation uses {@link\n",
+        "42": " * Comparable#compareTo} or {@link Comparator#compare} instead of {@link Object#equals} to determine\n",
+        "43": " * equivalence of instances.\n",
+        "46": " * {@link Comparable} class specification. Otherwise, the resulting multiset will violate the {@link\n",
+        "47": " * java.util.Collection} contract, which is specified in terms of {@link Object#equals}.\n",
+        "50": " * \"https://github.com/google/guava/wiki/NewCollectionTypesExplained#multiset\"> {@code\n",
+        "51": " * Multiset}</a>.\n",
+        "65": "   * user attempts to add an element to the multiset that violates this constraint (for example, the\n",
+        "66": "   * user attempts to add a string element to a set whose elements are integers), the {@code\n",
+        "67": "   * add(Object)} call will throw a {@code ClassCastException}.\n",
+        "128": "  /** A function which can be summed across a subtree. */\n",
+        "352": "  /** Returns the first node in the tree that is in range. */\n",
+        "957": "   *     second element, its count, and so on\n"
+    },
+    "removed": {
+        "41": " * or an explicit {@link Comparator}. In all cases, this implementation uses\n",
+        "42": " * {@link Comparable#compareTo} or {@link Comparator#compare} instead of {@link Object#equals} to\n",
+        "43": " * determine equivalence of instances.\n",
+        "46": " * {@link Comparable} class specification. Otherwise, the resulting multiset will violate the\n",
+        "47": " * {@link java.util.Collection} contract, which is specified in terms of {@link Object#equals}.\n",
+        "50": " * \"https://github.com/google/guava/wiki/NewCollectionTypesExplained#multiset\">\n",
+        "51": " * {@code Multiset}</a>.\n",
+        "65": "   * user attempts to add an element to the multiset that violates this constraint (for example,\n",
+        "66": "   * the user attempts to add a string element to a set whose elements are integers), the\n",
+        "67": "   * {@code add(Object)} call will throw a {@code ClassCastException}.\n",
+        "128": "  /**\n",
+        "129": "   * A function which can be summed across a subtree.\n",
+        "130": "   */\n",
+        "354": "  /**\n",
+        "355": "   * Returns the first node in the tree that is in range.\n",
+        "356": "   */\n",
+        "961": "   *             second element, its count, and so on\n"
+    }
+}

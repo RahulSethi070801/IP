@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "521": "    transient Collection<Entry<K, V>> entries;\n",
+        "647": "    public Collection<Entry<K, V>> entries() {\n",
+        "748": "    transient Set<Entry<K, V>> entrySet;\n",
+        "781": "    public Set<Entry<K, V>> entries() {\n",
+        "866": "      extends SynchronizedSet<Entry<K, Collection<V>>> {\n",
+        "867": "    SynchronizedAsMapEntries(Set<Entry<K, Collection<V>>> delegate, @Nullable Object mutex) {\n",
+        "872": "    public Iterator<Entry<K, Collection<V>>> iterator() {\n",
+        "874": "      return new TransformedIterator<Entry<K, Collection<V>>, Entry<K, Collection<V>>>(\n",
+        "877": "        Entry<K, Collection<V>> transform(final Entry<K, Collection<V>> entry) {\n",
+        "880": "            protected Entry<K, Collection<V>> delegate() {\n",
+        "965": "    transient Set<Entry<K, V>> entrySet;\n",
+        "999": "    public Set<Entry<K, V>> entrySet() {\n",
+        "1207": "    transient Set<Entry<K, Collection<V>>> asMapEntrySet;\n",
+        "1223": "    public Set<Entry<K, Collection<V>>> entrySet() {\n"
+    },
+    "removed": {
+        "521": "    transient Collection<Map.Entry<K, V>> entries;\n",
+        "647": "    public Collection<Map.Entry<K, V>> entries() {\n",
+        "748": "    transient Set<Map.Entry<K, V>> entrySet;\n",
+        "781": "    public Set<Map.Entry<K, V>> entries() {\n",
+        "866": "      extends SynchronizedSet<Map.Entry<K, Collection<V>>> {\n",
+        "867": "    SynchronizedAsMapEntries(Set<Map.Entry<K, Collection<V>>> delegate, @Nullable Object mutex) {\n",
+        "872": "    public Iterator<Map.Entry<K, Collection<V>>> iterator() {\n",
+        "874": "      return new TransformedIterator<Map.Entry<K, Collection<V>>, Map.Entry<K, Collection<V>>>(\n",
+        "877": "        Map.Entry<K, Collection<V>> transform(final Map.Entry<K, Collection<V>> entry) {\n",
+        "880": "            protected Map.Entry<K, Collection<V>> delegate() {\n",
+        "965": "    transient Set<Map.Entry<K, V>> entrySet;\n",
+        "999": "    public Set<Map.Entry<K, V>> entrySet() {\n",
+        "1207": "    transient Set<Map.Entry<K, Collection<V>>> asMapEntrySet;\n",
+        "1223": "    public Set<Map.Entry<K, Collection<V>>> entrySet() {\n"
+    }
+}

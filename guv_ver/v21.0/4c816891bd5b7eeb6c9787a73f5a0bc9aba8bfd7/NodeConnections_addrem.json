@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "46": "   *\n",
+        "47": "   * <p>In the directed case, {@code edge} is assumed to be an outgoing edge.\n",
+        "58": "   * Remove {@code edge} from the set of incoming edges. Returns the former predecessor node.\n",
+        "59": "   *\n",
+        "60": "   * <p>In the undirected case, returns {@code null} if {@code isSelfLoop} is true.\n",
+        "66": "   * Remove {@code edge} from the set of outgoing edges. Returns the former successor node.\n",
+        "74": "  void addInEdge(E edge, N node, boolean isSelfLoop);\n",
+        "79": "  void addOutEdge(E edge, N node);\n"
+    },
+    "removed": {
+        "46": "   * In the directed case, {@code edge} is assumed to be an outgoing edge.\n",
+        "57": "   * Remove {@code edge} from the set of incoming edges. Returns the former predecessor node,\n",
+        "58": "   * or null if the edge did not exist.\n",
+        "64": "   * Remove {@code edge} from the set of outgoing edges. Returns the former successor node,\n",
+        "65": "   * or null if the edge did not exist.\n",
+        "72": "   * Returns false if the edge already existed.\n",
+        "74": "  @CanIgnoreReturnValue\n",
+        "75": "  boolean addInEdge(E edge, N node, boolean isSelfLoop);\n",
+        "79": "   * Returns false if the edge already existed.\n",
+        "81": "  @CanIgnoreReturnValue\n",
+        "82": "  boolean addOutEdge(E edge, N node);\n"
+    }
+}

@@ -1,0 +1,3 @@
+public static byte[] toByteArray(File file) throws IOException {
+    return asByteSource(file).read();
+}

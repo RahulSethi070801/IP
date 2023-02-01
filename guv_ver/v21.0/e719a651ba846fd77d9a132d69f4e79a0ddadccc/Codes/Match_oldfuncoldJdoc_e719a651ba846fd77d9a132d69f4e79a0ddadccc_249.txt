@@ -1,0 +1,10 @@
+
+   * Streams lines from a {@link Readable} object, stopping when the processor
+   * returns {@code false} or all lines have been read and returning the result
+   * produced by the processor. Does not close {@code readable}. Note that this
+   * method may not fully consume the contents of {@code readable} if the
+   * processor stops processing early.
+   *
+   * @throws IOException if an I/O error occurs
+   * @since 14.0
+   

@@ -1,0 +1,5 @@
+public static <I, O> ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function) {
+    ChainingListenableFuture<I, O> output = new ChainingListenableFuture<I, O>(function, input);
+    input.addListener(output, directExecutor());
+    return output;
+}

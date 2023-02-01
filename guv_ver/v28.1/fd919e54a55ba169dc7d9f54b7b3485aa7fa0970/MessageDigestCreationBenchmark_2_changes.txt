@@ -1,0 +1,4 @@
+MessageDigestCreationBenchmark_2
+Insertions: [36, 37, 41, 42, 50, 51]
+Deletions: [36, 40, 48]
+guava-tests/benchmark/com/google/common/hash/MessageDigestCreationBenchmark.java

@@ -1,0 +1,18 @@
+private void writeObject(ObjectOutputStream s) throws java.io.IOException
+public long sum()
+
+private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundException
+public long sum()
+
+final void retryUpdate(long x, HashCode hc, boolean wasUncontended)
+public long sum()
+
+final void retryUpdate(long x, @Nullable int[] hc, boolean wasUncontended)
+public long sum()
+
+public void add(long x)
+public long sum()
+
+private void writeObject(ObjectOutputStream s) throws IOException
+public long sum()
+

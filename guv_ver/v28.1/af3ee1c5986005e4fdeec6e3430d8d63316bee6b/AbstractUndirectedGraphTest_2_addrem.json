@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "80": "  @Test\n",
+        "81": "  public void hasEdgeConnecting_correct() {\n",
+        "82": "    putEdge(N1, N2);\n",
+        "83": "    assertThat(graph.hasEdgeConnecting(EndpointPair.unordered(N1, N2))).isTrue();\n",
+        "84": "    assertThat(graph.hasEdgeConnecting(EndpointPair.unordered(N2, N1))).isTrue();\n",
+        "85": "  }\n",
+        "86": "\n",
+        "87": "  @Test\n",
+        "88": "  public void hasEdgeConnecting_mismatch() {\n",
+        "89": "    putEdge(N1, N2);\n",
+        "90": "    assertThat(graph.hasEdgeConnecting(EndpointPair.ordered(N1, N2))).isTrue();\n",
+        "91": "    assertThat(graph.hasEdgeConnecting(EndpointPair.ordered(N2, N1))).isTrue();\n",
+        "92": "  }\n",
+        "93": "\n"
+    },
+    "removed": {}
+}

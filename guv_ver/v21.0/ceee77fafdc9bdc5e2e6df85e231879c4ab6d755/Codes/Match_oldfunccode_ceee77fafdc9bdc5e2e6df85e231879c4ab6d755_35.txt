@@ -1,0 +1,74 @@
+@Override
+public Graph<N> asGraph() {
+    return new AbstractGraph<N>() {
+
+        @Override
+        public Set<N> nodes() {
+            return AbstractNetwork.this.nodes();
+        }
+
+        @Override
+        public Set<Endpoints<N>> edges() {
+            if (allowsParallelEdges()) {
+                return super.edges();
+            }
+            return new AbstractSet<Endpoints<N>>() {
+
+                @Override
+                public Iterator<Endpoints<N>> iterator() {
+                    return Iterators.transform(AbstractNetwork.this.edges().iterator(), new Function<E, Endpoints<N>>() {
+
+                        @Override
+                        public Endpoints<N> apply(E edge) {
+                            return incidentNodes(edge);
+                        }
+                    });
+                }
+
+                @Override
+                public int size() {
+                    return AbstractNetwork.this.edges().size();
+                }
+
+                @Override
+                public boolean contains(Object obj) {
+                    if (!(obj instanceof Endpoints)) {
+                        return false;
+                    }
+                    Endpoints<?> endpoints = (Endpoints<?>) obj;
+                    return isDirected() == endpoints.isDirected() && !edgesConnecting(endpoints.nodeA(), endpoints.nodeB()).isEmpty();
+                }
+            };
+        }
+
+        @Override
+        public ElementOrder<N> nodeOrder() {
+            return AbstractNetwork.this.nodeOrder();
+        }
+
+        @Override
+        public boolean isDirected() {
+            return AbstractNetwork.this.isDirected();
+        }
+
+        @Override
+        public boolean allowsSelfLoops() {
+            return AbstractNetwork.this.allowsSelfLoops();
+        }
+
+        @Override
+        public Set<N> adjacentNodes(Object node) {
+            return AbstractNetwork.this.adjacentNodes(node);
+        }
+
+        @Override
+        public Set<N> predecessors(Object node) {
+            return AbstractNetwork.this.predecessors(node);
+        }
+
+        @Override
+        public Set<N> successors(Object node) {
+            return AbstractNetwork.this.successors(node);
+        }
+    };
+}

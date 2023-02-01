@@ -1,0 +1,5 @@
+
+   * Creates a {@code ListenableFuture} which has its value set immediately upon construction. The
+   * getters just return the value. This {@code Future} can't be canceled or timed out and its
+   * {@code isDone()} method always returns {@code true}.
+   

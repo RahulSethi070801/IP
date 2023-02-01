@@ -1,0 +1,6 @@
+
+   * Guaranteed to throw an exception and leave the collection unmodified.
+   *
+   * @throws UnsupportedOperationException always
+   * @deprecated Unsupported operation.
+   

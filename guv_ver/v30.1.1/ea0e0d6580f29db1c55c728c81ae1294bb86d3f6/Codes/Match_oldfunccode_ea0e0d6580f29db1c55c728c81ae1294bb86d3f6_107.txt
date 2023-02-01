@@ -1,0 +1,36 @@
+AvlNode<E> add(Comparator<? super E> comparator, @Nullable E e, int count, int[] result) {
+    int cmp = comparator.compare(e, elem);
+    if (cmp < 0) {
+        AvlNode<E> initLeft = left;
+        if (initLeft == null) {
+            result[0] = 0;
+            return addLeftChild(e, count);
+        }
+        int initHeight = initLeft.height;
+        left = initLeft.add(comparator, e, count, result);
+        if (result[0] == 0) {
+            distinctElements++;
+        }
+        this.totalCount += count;
+        return (left.height == initHeight) ? this : rebalance();
+    } else if (cmp > 0) {
+        AvlNode<E> initRight = right;
+        if (initRight == null) {
+            result[0] = 0;
+            return addRightChild(e, count);
+        }
+        int initHeight = initRight.height;
+        right = initRight.add(comparator, e, count, result);
+        if (result[0] == 0) {
+            distinctElements++;
+        }
+        this.totalCount += count;
+        return (right.height == initHeight) ? this : rebalance();
+    }
+    result[0] = elemCount;
+    long resultCount = (long) elemCount + count;
+    checkArgument(resultCount <= Integer.MAX_VALUE);
+    this.elemCount += count;
+    this.totalCount += count;
+    return this;
+}

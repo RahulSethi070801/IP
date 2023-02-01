@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "144": "  // See CompactHashMap for a detailed description of how the following fields work. That\n",
+        "145": "  // description talks about `keys`, `values`, and `entries`; here the `keys` and `values` arrays\n",
+        "146": "  // are replaced by a single `elements` array but everything else works similarly.\n",
+        "147": "\n",
+        "177": "   * mask  = 00000fff\n",
+        "178": "   * next  = 00000bbb\n",
+        "179": "   * entry = aaaaabbb\n",
+        "387": "  private int resizeTable(int oldMask, int newCapacity, int targetHash, int targetEntryIndex) {\n",
+        "396": "    Object oldTable = requireTable();\n",
+        "400": "    for (int oldTableIndex = 0; oldTableIndex <= oldMask; oldTableIndex++) {\n",
+        "401": "      int oldNext = CompactHashing.tableGet(oldTable, oldTableIndex);\n",
+        "402": "      while (oldNext != UNSET) {\n",
+        "403": "        int entryIndex = oldNext - 1;\n",
+        "404": "        int oldEntry = entries[entryIndex];\n",
+        "407": "        int hash = CompactHashing.getHashPrefix(oldEntry, oldMask) | oldTableIndex;\n",
+        "411": "        CompactHashing.tableSet(newTable, newTableIndex, oldNext);\n",
+        "414": "        oldNext = CompactHashing.getNext(oldEntry, oldMask);\n"
+    },
+    "removed": {
+        "173": "   * mask  = 0000ffff\n",
+        "174": "   * next  = 0000bbbb\n",
+        "175": "   * entry = aaaabbbb\n",
+        "383": "  private int resizeTable(int mask, int newCapacity, int targetHash, int targetEntryIndex) {\n",
+        "392": "    Object table = requireTable();\n",
+        "396": "    for (int tableIndex = 0; tableIndex <= mask; tableIndex++) {\n",
+        "397": "      int next = CompactHashing.tableGet(table, tableIndex);\n",
+        "398": "      while (next != UNSET) {\n",
+        "399": "        int entryIndex = next - 1;\n",
+        "400": "        int entry = entries[entryIndex];\n",
+        "403": "        int hash = CompactHashing.getHashPrefix(entry, mask) | tableIndex;\n",
+        "407": "        CompactHashing.tableSet(newTable, newTableIndex, next);\n",
+        "410": "        next = CompactHashing.getNext(entry, mask);\n"
+    }
+}

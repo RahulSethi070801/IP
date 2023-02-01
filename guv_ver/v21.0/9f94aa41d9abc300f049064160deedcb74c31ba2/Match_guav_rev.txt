@@ -1,0 +1,30 @@
+public String replaceFrom(CharSequence sequence, CharSequence replacement)
+public int size()
+
+ImmutableMap<K, V> getAll(Iterable<? extends K> keys) throws ExecutionException
+public int size()
+
+V get(K key) throws ExecutionException
+public int size()
+
+public static CharMatcher whitespace()
+public int size()
+
+public boolean matchesAllOf(CharSequence sequence)
+public int size()
+
+public boolean matchesNoneOf(CharSequence sequence)
+public int size()
+
+public int indexIn(CharSequence sequence)
+public int size()
+
+public int indexIn(CharSequence sequence, int start)
+public int size()
+
+public String replaceFrom(CharSequence sequence, char replacement)
+public int size()
+
+public int lastIndexIn(CharSequence sequence)
+public int size()
+

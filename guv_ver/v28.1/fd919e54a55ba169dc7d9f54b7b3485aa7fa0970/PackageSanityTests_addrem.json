@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "19": "/** Test nulls for the entire package. */\n"
+    },
+    "removed": {
+        "19": "/**\n",
+        "20": " * Test nulls for the entire package.\n",
+        "21": " */\n"
+    }
+}

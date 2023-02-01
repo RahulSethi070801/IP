@@ -1,0 +1,20 @@
+{
+    "addition": {},
+    "removed": {
+        "32": "  protected final GraphConfig config;\n",
+        "33": "\n",
+        "34": "  /**\n",
+        "35": "   * Not all subclasses necessarily need to expose a constructor that takes a {@link GraphConfig},\n",
+        "36": "   * but they do need to provide the {@code config} here that will be returned by {@link #config()}.\n",
+        "37": "   */\n",
+        "38": "  protected AbstractGraph(GraphConfig config) {\n",
+        "39": "    this.config = config;\n",
+        "40": "  }\n",
+        "41": "\n",
+        "42": "  @Override\n",
+        "43": "  public GraphConfig config() {\n",
+        "44": "    return config;\n",
+        "45": "  }\n",
+        "46": "\n"
+    }
+}

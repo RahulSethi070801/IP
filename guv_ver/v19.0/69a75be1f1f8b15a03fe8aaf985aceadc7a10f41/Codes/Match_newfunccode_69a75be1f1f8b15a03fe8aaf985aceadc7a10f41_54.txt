@@ -1,0 +1,9 @@
+protected Executor executor() {
+    return new Executor() {
+
+        @Override
+        public void execute(Runnable command) {
+            MoreExecutors.newThread(threadNameSupplier.get(), command).start();
+        }
+    };
+}

@@ -1,0 +1,12 @@
+
+   * {@inheritDoc}
+   *
+   * <p>This implementation calls {@link #get()} and maps that method's standard exceptions to
+   * instances of type {@code X} using {@link #mapException}.
+   *
+   * <p>In addition, if {@code get} throws an {@link InterruptedException}, this implementation will
+   * set the current thread's interrupt status before calling {@code mapException}.
+   *
+   * @throws X if {@link #get()} throws an {@link InterruptedException}, {@link
+   *     CancellationException}, or {@link ExecutionException}
+   

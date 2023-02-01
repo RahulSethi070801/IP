@@ -1,0 +1,5 @@
+
+   * Writes the given character sequence to this sink.
+   *
+   * @throws IOException if an I/O error while writing to this sink
+   

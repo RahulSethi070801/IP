@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "22": "import static com.google.common.collect.CollectPreconditions.checkNonnegative;\n",
+        "715": "  /**\n",
+        "716": "   * Returns a new builder, expecting the specified number of elements to be added.\n",
+        "717": "   *\n",
+        "718": "   * <p>If {@code expectedSize} is exactly the number of elements added to the builder before {@link\n",
+        "719": "   * Builder#build} is called, the builder is likely to perform better than an unsized {@link\n",
+        "720": "   * #builder()} would have.\n",
+        "721": "   *\n",
+        "722": "   * <p>It is not specified if any performance benefits apply if {@code expectedSize} is close to,\n",
+        "723": "   * but not exactly, the number of elements added to the builder.\n",
+        "724": "   *\n",
+        "725": "   * @since 24.0\n",
+        "726": "   */\n",
+        "727": "  @Beta\n",
+        "728": "  public static <E> Builder<E> builderWithExpectedSize(int expectedSize) {\n",
+        "729": "    checkNonnegative(expectedSize, \"expectedSize\");\n",
+        "730": "    return new ImmutableList.Builder<E>(expectedSize);\n",
+        "731": "  }\n",
+        "732": "\n"
+    },
+    "removed": {
+        "742": "    // TODO(lowasser): consider exposing this\n"
+    }
+}

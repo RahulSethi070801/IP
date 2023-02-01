@@ -1,0 +1,4 @@
+Platform_10
+Insertions: [46]
+Deletions: [46, 47]
+guava-gwt/test-super/com/google/common/collect/testing/super/com/google/common/collect/testing/testers/Platform.java

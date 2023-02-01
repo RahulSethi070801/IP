@@ -1,0 +1,5 @@
+com.google.common.collect.EvictingQueue
+create
+public static EvictingQueue<E> create(int maxSize)
+int
+EvictingQueue

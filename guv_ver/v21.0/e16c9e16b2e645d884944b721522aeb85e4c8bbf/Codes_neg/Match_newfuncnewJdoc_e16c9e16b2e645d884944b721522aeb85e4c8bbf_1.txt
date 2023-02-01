@@ -1,0 +1,5 @@
+
+   * Specifies the expected number of nodes in the network.
+   *
+   * @throws IllegalArgumentException if {@code expectedNodeCount} is negative
+   

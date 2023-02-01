@@ -1,0 +1,11 @@
+@NullableDecl
+public V getIfPresent(Object key) {
+    int hash = hash(checkNotNull(key));
+    V value = segmentFor(hash).get(key, hash);
+    if (value == null) {
+        globalStatsCounter.recordMisses(1);
+    } else {
+        globalStatsCounter.recordHits(1);
+    }
+    return value;
+}

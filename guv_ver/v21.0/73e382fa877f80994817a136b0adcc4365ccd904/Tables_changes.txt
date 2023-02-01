@@ -1,0 +1,4 @@
+Tables
+Insertions: [36, 253, 254, 255, 256, 257, 258, 416, 417, 418, 419, 420]
+Deletions: []
+guava/src/com/google/common/collect/Tables.java

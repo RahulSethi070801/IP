@@ -1,0 +1,8 @@
+
+   * Returns a view collection of all key-value pairs contained in this
+   * multimap, as {@link Entry} instances.
+   *
+   * <p>Changes to the returned collection or the entries it contains will
+   * update the underlying multimap, and vice versa. However, <i>adding</i> to
+   * the returned collection is not possible.
+   

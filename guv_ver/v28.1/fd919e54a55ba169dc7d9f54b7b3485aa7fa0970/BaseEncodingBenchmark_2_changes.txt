@@ -1,0 +1,4 @@
+BaseEncodingBenchmark_2
+Insertions: [27, 46, 64, 65, 73, 74, 82, 83, 95, 96]
+Deletions: [27, 28, 29, 48, 49, 67, 75, 83, 95]
+guava-tests/benchmark/com/google/common/io/BaseEncodingBenchmark.java

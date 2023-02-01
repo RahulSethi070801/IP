@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "34": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "324": "  public static <E> FluentIterable<E> of(@Nullable E element, E... elements) {\n",
+        "355": "  public final boolean contains(@Nullable Object target) {\n",
+        "825": "  // TODO(kevinb): add @Nullable?\n"
+    },
+    "removed": {
+        "34": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "324": "  public static <E> FluentIterable<E> of(@NullableDecl E element, E... elements) {\n",
+        "355": "  public final boolean contains(@NullableDecl Object target) {\n",
+        "825": "  // TODO(kevinb): add @NullableDecl?\n"
+    }
+}

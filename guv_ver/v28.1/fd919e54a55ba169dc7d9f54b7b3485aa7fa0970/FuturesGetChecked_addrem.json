@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "41": "/** Static methods used to implement {@link Futures#getChecked(Future, Class)}. */\n",
+        "49": "  /** Implementation of {@link Futures#getChecked(Future, Class)}. */\n",
+        "66": "  /** Implementation of {@link Futures#getChecked(Future, Class, long, TimeUnit)}. */\n",
+        "106": "   * Provides a check of whether an exception type is valid for use with {@link\n",
+        "107": "   * FuturesGetChecked#getChecked(Future, Class)}, possibly using caching.\n"
+    },
+    "removed": {
+        "41": "/**\n",
+        "42": " * Static methods used to implement {@link Futures#getChecked(Future, Class)}.\n",
+        "43": " */\n",
+        "51": "  /**\n",
+        "52": "   * Implementation of {@link Futures#getChecked(Future, Class)}.\n",
+        "53": "   */\n",
+        "70": "  /**\n",
+        "71": "   * Implementation of {@link Futures#getChecked(Future, Class, long, TimeUnit)}.\n",
+        "72": "   */\n",
+        "112": "   * Provides a check of whether an exception type is valid for use with\n",
+        "113": "   * {@link FuturesGetChecked#getChecked(Future, Class)}, possibly using caching.\n"
+    }
+}

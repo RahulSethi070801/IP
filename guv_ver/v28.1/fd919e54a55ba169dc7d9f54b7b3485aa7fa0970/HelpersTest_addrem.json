@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "47": "    Helpers.assertEmpty(\n",
+        "48": "        new Iterable<Object>() {\n",
+        "49": "          @Override\n",
+        "50": "          public Iterator<Object> iterator() {\n",
+        "51": "            return Collections.emptyList().iterator();\n",
+        "52": "          }\n",
+        "53": "        });\n",
+        "62": "      Helpers.assertEmpty(\n",
+        "63": "          new Iterable<String>() {\n",
+        "64": "            @Override\n",
+        "65": "            public Iterator<String> iterator() {\n",
+        "66": "              return Collections.singleton(\"a\").iterator();\n",
+        "67": "            }\n",
+        "68": "          });\n"
+    },
+    "removed": {
+        "47": "    Helpers.assertEmpty(new Iterable<Object>() {\n",
+        "48": "      @Override\n",
+        "49": "      public Iterator<Object> iterator() {\n",
+        "50": "        return Collections.emptyList().iterator();\n",
+        "51": "      }\n",
+        "52": "    });\n",
+        "61": "      Helpers.assertEmpty(new Iterable<String>() {\n",
+        "62": "        @Override\n",
+        "63": "        public Iterator<String> iterator() {\n",
+        "64": "          return Collections.singleton(\"a\").iterator();\n",
+        "65": "        }\n",
+        "66": "      });\n"
+    }
+}

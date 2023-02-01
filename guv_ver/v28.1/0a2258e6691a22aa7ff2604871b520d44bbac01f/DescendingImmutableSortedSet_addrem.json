@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "20": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "37": "  public boolean contains(@Nullable Object object) {\n",
+        "106": "  int indexOf(@Nullable Object target) {\n"
+    },
+    "removed": {
+        "20": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "37": "  public boolean contains(@NullableDecl Object object) {\n",
+        "106": "  int indexOf(@NullableDecl Object target) {\n"
+    }
+}

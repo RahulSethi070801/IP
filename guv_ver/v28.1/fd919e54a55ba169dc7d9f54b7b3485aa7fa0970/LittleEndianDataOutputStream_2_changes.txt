@@ -1,0 +1,4 @@
+LittleEndianDataOutputStream_2
+Insertions: [28, 29, 31, 32]
+Deletions: [28, 29, 31, 32]
+guava/src/com/google/common/io/LittleEndianDataOutputStream.java

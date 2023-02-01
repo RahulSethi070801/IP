@@ -1,0 +1,4 @@
+CaseFormat
+Insertions: [21, 177]
+Deletions: [21, 177]
+android/guava/src/com/google/common/base/CaseFormat.java

@@ -1,0 +1,4 @@
+
+   * If this {@link Endpoints} is directed, returns the {@link #source()};
+   * otherwise, returns an arbitrary (but consistent) endpoint of the origin edge.
+   

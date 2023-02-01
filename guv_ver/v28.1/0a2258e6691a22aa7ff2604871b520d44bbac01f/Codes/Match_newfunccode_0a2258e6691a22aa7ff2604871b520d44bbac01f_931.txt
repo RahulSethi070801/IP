@@ -1,0 +1,5 @@
+void insertEntry(int entryIndex, @Nullable K key, @Nullable V value, int hash) {
+    this.entries[entryIndex] = ((long) hash << 32) | (NEXT_MASK & UNSET);
+    this.keys[entryIndex] = key;
+    this.values[entryIndex] = value;
+}

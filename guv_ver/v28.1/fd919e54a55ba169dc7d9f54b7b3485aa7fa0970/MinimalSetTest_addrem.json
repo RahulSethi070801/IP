@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "32": "    return SetTestSuiteBuilder.using(\n",
+        "33": "            new TestStringSetGenerator() {\n",
+        "34": "              @Override\n",
+        "35": "              protected Set<String> create(String[] elements) {\n",
+        "36": "                return MinimalSet.of(elements);\n",
+        "37": "              }\n",
+        "38": "            })\n",
+        "41": "            CollectionFeature.ALLOWS_NULL_VALUES, CollectionFeature.NONE, CollectionSize.ANY)\n"
+    },
+    "removed": {
+        "32": "    return SetTestSuiteBuilder\n",
+        "33": "        .using(new TestStringSetGenerator() {\n",
+        "34": "          @Override protected Set<String> create(String[] elements) {\n",
+        "35": "            return MinimalSet.of(elements);\n",
+        "36": "          }\n",
+        "37": "        })\n",
+        "40": "            CollectionFeature.ALLOWS_NULL_VALUES,\n",
+        "41": "            CollectionFeature.NONE,\n",
+        "42": "            CollectionSize.ANY)\n"
+    }
+}

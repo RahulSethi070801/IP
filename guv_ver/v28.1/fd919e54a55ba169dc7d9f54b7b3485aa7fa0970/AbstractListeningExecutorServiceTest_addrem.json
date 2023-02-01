@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "77": "  /** Simple same thread listening executor service that doesn't handle shutdown. */\n",
+        "87": "    public void shutdown() {}\n"
+    },
+    "removed": {
+        "77": "  /**\n",
+        "78": "   * Simple same thread listening executor service that doesn't handle shutdown.\n",
+        "79": "   */\n",
+        "89": "    public void shutdown() {\n",
+        "90": "    }\n"
+    }
+}

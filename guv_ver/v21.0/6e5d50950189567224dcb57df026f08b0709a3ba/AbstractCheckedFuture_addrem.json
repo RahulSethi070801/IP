@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "19": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "58": "  // We might like @ForOverride here, but some subclasses invoke this from their get() methods.\n",
+        "73": "  @CanIgnoreReturnValue\n",
+        "101": "  @CanIgnoreReturnValue\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,15 @@
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+withFallback
+public static ListenableFuture<V> withFallback(ListenableFuture<? extends V> input, FutureFallback<? extends V> fallback)
+ListenableFuture,FutureFallback
+ListenableFuture
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+transform
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+ListenableFuture,AsyncFunction
+ListenableFuture
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+transform
+public static ListenableFuture<O> transform(ListenableFuture<I> input, final Function<? super I, ? extends O> function)
+ListenableFuture,Function
+ListenableFuture

@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "89": "          30,\n",
+        "90": "          ticker.read());\n",
+        "109": "    runConcurrentTest(\n",
+        "110": "        numberOfThreads,\n",
+        "133": "    runConcurrentTest(\n",
+        "134": "        numberOfThreads,\n",
+        "146": "  /** Runs {@code callable} concurrently {@code numberOfThreads} times. */\n"
+    },
+    "removed": {
+        "89": "          30, ticker.read());\n",
+        "108": "    runConcurrentTest(numberOfThreads,\n",
+        "131": "    runConcurrentTest(numberOfThreads,\n",
+        "143": "  /**\n",
+        "144": "   * Runs {@code callable} concurrently {@code numberOfThreads} times.\n",
+        "145": "   */\n"
+    }
+}

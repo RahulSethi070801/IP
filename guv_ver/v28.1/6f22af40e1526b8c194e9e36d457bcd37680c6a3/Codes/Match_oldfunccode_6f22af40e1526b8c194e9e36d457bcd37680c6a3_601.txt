@@ -1,0 +1,6 @@
+@CanIgnoreReturnValue
+@Override
+public boolean remove(@Nullable Object key, @Nullable Object value) {
+    Collection<V> collection = asMap().get(key);
+    return collection != null && collection.remove(value);
+}

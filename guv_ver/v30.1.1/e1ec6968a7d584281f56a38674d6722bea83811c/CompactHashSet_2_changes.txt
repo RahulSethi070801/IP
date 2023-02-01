@@ -1,0 +1,4 @@
+CompactHashSet_2
+Insertions: [144, 145, 146, 147, 177, 178, 179, 387, 396, 400, 401, 402, 403, 404, 407, 411, 414]
+Deletions: [173, 174, 175, 383, 392, 396, 397, 398, 399, 400, 403, 407, 410]
+guava/src/com/google/common/collect/CompactHashSet.java

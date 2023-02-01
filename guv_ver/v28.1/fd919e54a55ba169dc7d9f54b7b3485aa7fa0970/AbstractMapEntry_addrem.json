@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "25": " * Implementation of the {@code equals}, {@code hashCode}, and {@code toString} methods of {@code\n",
+        "26": " * Entry}.\n",
+        "61": "  /** Returns a string representation of the form {@code {key}={value}}. */\n"
+    },
+    "removed": {
+        "25": " * Implementation of the {@code equals}, {@code hashCode}, and {@code toString}\n",
+        "26": " * methods of {@code Entry}.\n",
+        "61": "  /**\n",
+        "62": "   * Returns a string representation of the form {@code {key}={value}}.\n",
+        "63": "   */\n"
+    }
+}

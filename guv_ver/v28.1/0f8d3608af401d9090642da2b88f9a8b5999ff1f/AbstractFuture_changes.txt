@@ -1,0 +1,4 @@
+AbstractFuture
+Insertions: [66, 74, 75, 76, 77, 968]
+Deletions: [66, 74, 75, 76, 77, 968]
+android/guava/src/com/google/common/util/concurrent/AbstractFuture.java

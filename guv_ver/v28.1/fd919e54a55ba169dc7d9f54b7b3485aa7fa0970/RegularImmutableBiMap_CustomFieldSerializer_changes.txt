@@ -1,0 +1,4 @@
+RegularImmutableBiMap_CustomFieldSerializer
+Insertions: [27]
+Deletions: [27, 28]
+guava-gwt/src/com/google/common/collect/RegularImmutableBiMap_CustomFieldSerializer.java

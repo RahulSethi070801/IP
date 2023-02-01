@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "75": "  /** @see #create(Collection) */\n",
+        "82": "   * Given a collection of exceptions, returns a {@link RuntimeException}, with the following rules:\n",
+        "85": "   *   <li>If {@code exceptions} has a single exception and that exception is a {@link\n",
+        "86": "   *       RuntimeException}, return it\n",
+        "87": "   *   <li>If {@code exceptions} has a single exceptions and that exceptions is <em>not</em> a\n",
+        "88": "   *       {@link RuntimeException}, return a simple {@code RuntimeException} that wraps it\n",
+        "89": "   *   <li>Otherwise, return an instance of {@link ClusterException} that wraps the first exception\n",
+        "90": "   *       in the {@code exceptions} collection.\n",
+        "93": "   * <p>Though this method takes any {@link Collection}, it often makes most sense to pass a {@link\n",
+        "94": "   * java.util.List} or some other collection that preserves the order in which the exceptions got\n",
+        "95": "   * added.\n",
+        "102": "      throw new IllegalArgumentException(\"Can't create an ExceptionCollection with no exceptions\");\n",
+        "107": "        return (RuntimeException) temp;\n"
+    },
+    "removed": {
+        "75": "  /**\n",
+        "76": "   * @see #create(Collection)\n",
+        "77": "   */\n",
+        "84": "   * Given a collection of exceptions, returns a {@link RuntimeException}, with\n",
+        "85": "   * the following rules:\n",
+        "88": "   *  <li>If {@code exceptions} has a single exception and that exception is a\n",
+        "89": "   *    {@link RuntimeException}, return it\n",
+        "90": "   *  <li>If {@code exceptions} has a single exceptions and that exceptions is\n",
+        "91": "   *    <em>not</em> a {@link RuntimeException}, return a simple\n",
+        "92": "   *    {@code RuntimeException} that wraps it\n",
+        "93": "   *  <li>Otherwise, return an instance of {@link ClusterException} that wraps\n",
+        "94": "   *    the first exception in the {@code exceptions} collection.\n",
+        "97": "   * <p>Though this method takes any {@link Collection}, it often makes most\n",
+        "98": "   * sense to pass a {@link java.util.List} or some other collection that\n",
+        "99": "   * preserves the order in which the exceptions got added.\n",
+        "106": "      throw new IllegalArgumentException(\n",
+        "107": "          \"Can't create an ExceptionCollection with no exceptions\");\n",
+        "112": "        return (RuntimeException)temp;\n"
+    }
+}

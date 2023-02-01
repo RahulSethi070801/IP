@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "34": " * Provides static utility methods for creating and working with {@link SortedMultiset} instances.\n",
+        "42": "  /** A skeleton implementation for {@link SortedMultiset#elementSet}. */\n",
+        "86": "  /** A skeleton navigable implementation for {@link SortedMultiset#elementSet}. */\n"
+    },
+    "removed": {
+        "34": " * Provides static utility methods for creating and working with\n",
+        "35": " * {@link SortedMultiset} instances.\n",
+        "43": "  /**\n",
+        "44": "   * A skeleton implementation for {@link SortedMultiset#elementSet}.\n",
+        "45": "   */\n",
+        "89": "  /**\n",
+        "90": "   * A skeleton navigable implementation for {@link SortedMultiset#elementSet}.\n",
+        "91": "   */\n"
+    }
+}

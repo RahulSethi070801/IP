@@ -1,0 +1,7 @@
+@CanIgnoreReturnValue
+public static <T> T checkNotNull(T reference, @Nullable String errorMessageTemplate, Object@Nullable ... errorMessageArgs) {
+    if (reference == null) {
+        throw new NullPointerException(format(errorMessageTemplate, errorMessageArgs));
+    }
+    return reference;
+}

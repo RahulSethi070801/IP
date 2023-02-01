@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "30": " * <p>Parameters for the benchmark are:\n",
+        "31": " *\n",
+        "32": " * <ul>\n",
+        "33": " *   <li>size: The length of the byte array to hash.\n",
+        "34": " * </ul>\n",
+        "56": "  @Benchmark\n",
+        "57": "  byte crc32HashFunction(int reps) {\n",
+        "61": "  @Benchmark\n",
+        "62": "  byte crc32Checksum(int reps) throws Exception {\n",
+        "74": "  @Benchmark\n",
+        "75": "  byte adler32HashFunction(int reps) {\n",
+        "79": "  @Benchmark\n",
+        "80": "  byte adler32Checksum(int reps) throws Exception {\n"
+    },
+    "removed": {
+        "30": " * <p>Parameters for the benchmark are: <ul> <li>size: The length of the byte array to hash. </ul>\n",
+        "52": "  @Benchmark byte crc32HashFunction(int reps) {\n",
+        "56": "  @Benchmark byte crc32Checksum(int reps) throws Exception {\n",
+        "68": "  @Benchmark byte adler32HashFunction(int reps) {\n",
+        "72": "  @Benchmark byte adler32Checksum(int reps) throws Exception {\n"
+    }
+}

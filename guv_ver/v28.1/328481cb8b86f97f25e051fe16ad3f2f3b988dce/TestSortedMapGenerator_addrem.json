@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "20": "import java.util.Map.Entry;\n",
+        "37": "  Entry<K, V> belowSamplesLesser();\n",
+        "43": "  Entry<K, V> belowSamplesGreater();\n",
+        "49": "  Entry<K, V> aboveSamplesLesser();\n",
+        "55": "  Entry<K, V> aboveSamplesGreater();\n"
+    },
+    "removed": {
+        "20": "import java.util.Map;\n",
+        "37": "  Map.Entry<K, V> belowSamplesLesser();\n",
+        "43": "  Map.Entry<K, V> belowSamplesGreater();\n",
+        "49": "  Map.Entry<K, V> aboveSamplesLesser();\n",
+        "55": "  Map.Entry<K, V> aboveSamplesGreater();\n"
+    }
+}

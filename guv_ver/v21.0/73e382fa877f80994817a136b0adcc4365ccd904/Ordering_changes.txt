@@ -1,0 +1,4 @@
+Ordering
+Insertions: [727, 728, 780, 801, 802]
+Deletions: [727, 728, 780, 801, 802]
+guava/src/com/google/common/collect/Ordering.java

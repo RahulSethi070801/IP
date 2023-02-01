@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "27": "public class PackageSanityTests extends AbstractPackageSanityTests {\n",
+        "28": "  public PackageSanityTests() {\n",
+        "29": "    setDefault(RateLimiter.class, RateLimiter.create(1.0));\n",
+        "30": "  }\n",
+        "31": "}\n"
+    },
+    "removed": {
+        "27": "public class PackageSanityTests extends AbstractPackageSanityTests {}\n"
+    }
+}

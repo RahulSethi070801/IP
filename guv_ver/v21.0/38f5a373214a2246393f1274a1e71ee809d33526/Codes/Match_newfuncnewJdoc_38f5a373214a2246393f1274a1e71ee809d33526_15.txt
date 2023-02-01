@@ -1,0 +1,7 @@
+
+   * Returns true iff {@code network} has at least one cycle. A cycle is defined as a non-empty
+   * subset of edges in a graph arranged to form a path (a sequence of adjacent outgoing edges)
+   * starting and ending with the same node.
+   *
+   * <p>This method will detect any non-empty cycle, including self-loops (a cycle of length 1).
+   

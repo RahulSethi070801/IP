@@ -1,0 +1,3 @@
+static <T> GeneralRange<T> upTo(Comparator<? super T> comparator, @NullableDecl T endpoint, BoundType boundType) {
+    return new GeneralRange<T>(comparator, false, null, OPEN, true, endpoint, boundType);
+}

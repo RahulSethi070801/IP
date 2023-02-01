@@ -1,0 +1,6 @@
+@Override
+public void writeChars(String s) throws IOException {
+    for (int i = 0; i < s.length(); i++) {
+        writeChar(s.charAt(i));
+    }
+}

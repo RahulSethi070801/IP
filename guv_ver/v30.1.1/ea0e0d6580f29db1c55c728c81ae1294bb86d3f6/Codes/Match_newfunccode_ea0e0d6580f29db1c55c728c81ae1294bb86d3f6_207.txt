@@ -1,0 +1,14 @@
+@Override
+@ParametricNullness
+public E next() {
+    if (!hasNext()) {
+        throw new NoSuchElementException();
+    }
+    if (laterCount == 0) {
+        currentEntry = entryIterator.next();
+        totalCount = laterCount = currentEntry.getCount();
+    }
+    laterCount--;
+    canRemove = true;
+    return requireNonNull(currentEntry).getElement();
+}

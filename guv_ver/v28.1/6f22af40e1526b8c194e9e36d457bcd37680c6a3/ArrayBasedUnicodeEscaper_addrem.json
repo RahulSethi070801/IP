@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "76": "      @NullableDecl String unsafeReplacement) {\n",
+        "99": "      @NullableDecl String unsafeReplacement) {\n"
+    },
+    "removed": {
+        "22": "import javax.annotation.Nullable;\n",
+        "76": "      @Nullable String unsafeReplacement) {\n",
+        "99": "      @Nullable String unsafeReplacement) {\n"
+    }
+}

@@ -1,0 +1,17 @@
+public static List<String> readLines(URL url, Charset charset) throws IOException {
+    return readLines(url, charset, new LineProcessor<List<String>>() {
+
+        final List<String> result = Lists.newArrayList();
+
+        @Override
+        public boolean processLine(String line) {
+            result.add(line);
+            return true;
+        }
+
+        @Override
+        public List<String> getResult() {
+            return result;
+        }
+    });
+}

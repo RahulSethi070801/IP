@@ -1,0 +1,13 @@
+
+   * Evaluates whether the argument is an ISATAP address.
+   *
+   * <p>From RFC 5214: "ISATAP interface identifiers are constructed in Modified EUI-64 format [...]
+   * by concatenating the 24-bit IANA OUI (00-00-5E), the 8-bit hexadecimal value 0xFE, and a 32-bit
+   * IPv4 address in network byte order [...]"
+   *
+   * <p>For more on ISATAP addresses see section 6.1 of
+   * <a target="_parent" href="http://tools.ietf.org/html/rfc5214#section-6.1">RFC 5214</a>.
+   *
+   * @param ip {@link Inet6Address} to be examined for ISATAP address format
+   * @return {@code true} if the argument is an ISATAP address
+   

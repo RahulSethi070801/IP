@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "106": "        return factory.createSource(new String(data, Charsets.UTF_8)).asByteSource(Charsets.UTF_8);\n",
+        "126": "        return factory.createSource(string.getBytes(Charsets.UTF_8)).asCharSource(Charsets.UTF_8);\n",
+        "171": "  public static ByteSourceFactory asSlicedByteSourceFactory(\n",
+        "172": "      final ByteSourceFactory factory, final long off, final long len) {\n",
+        "208": "    public void tearDown() throws IOException {}\n",
+        "224": "    public void tearDown() throws IOException {}\n",
+        "240": "    public void tearDown() throws IOException {}\n",
+        "256": "    public void tearDown() throws IOException {}\n",
+        "400": "      return initialString == null ? string : initialString + string;\n"
+    },
+    "removed": {
+        "106": "        return factory.createSource(new String(data, Charsets.UTF_8))\n",
+        "107": "            .asByteSource(Charsets.UTF_8);\n",
+        "127": "        return factory.createSource(string.getBytes(Charsets.UTF_8))\n",
+        "128": "            .asCharSource(Charsets.UTF_8);\n",
+        "173": "  public static ByteSourceFactory asSlicedByteSourceFactory(final ByteSourceFactory factory,\n",
+        "174": "      final long off, final long len) {\n",
+        "210": "    public void tearDown() throws IOException {\n",
+        "211": "    }\n",
+        "227": "    public void tearDown() throws IOException {\n",
+        "228": "    }\n",
+        "244": "    public void tearDown() throws IOException {\n",
+        "245": "    }\n",
+        "261": "    public void tearDown() throws IOException {\n",
+        "262": "    }\n",
+        "406": "      return initialString == null\n",
+        "407": "          ? string\n",
+        "408": "          : initialString + string;\n"
+    }
+}

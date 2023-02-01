@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "68": "      @NullableDecl\n",
+        "212": "      @NullableDecl Spliterator<T> prefix;\n"
+    },
+    "removed": {
+        "31": "import javax.annotation.Nullable;\n",
+        "68": "      @Nullable\n",
+        "212": "      @Nullable Spliterator<T> prefix;\n"
+    }
+}

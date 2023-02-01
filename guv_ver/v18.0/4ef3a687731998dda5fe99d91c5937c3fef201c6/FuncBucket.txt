@@ -1,0 +1,20 @@
+com.google.common.util.concurrent.RateLimiter
+acquire
+public double acquire(int permits)
+int
+double
+com.google.common.util.concurrent.RateLimiter
+reserve
+long reserve()
+empty
+long
+com.google.common.util.concurrent.RateLimiter
+reserveNextTicket
+private long reserveNextTicket(double requiredPermits, long nowMicros)
+double,long
+long
+com.google.common.util.concurrent.RateLimiter
+reserve
+long reserve(int permits)
+int
+long

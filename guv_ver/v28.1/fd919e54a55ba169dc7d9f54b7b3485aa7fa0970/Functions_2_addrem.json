@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "31": " * <p>See the Guava User Guide article on <a\n",
+        "32": " * href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code Function}</a>.\n",
+        "79": "  /** Returns the identity function. */\n",
+        "103": "   * Returns a function which performs a map lookup. The returned function throws an {@link\n",
+        "104": "   * IllegalArgumentException} if given a key that does not exist in the map. See also {@link\n",
+        "105": "   * #forMap(Map, Object)}, which returns a default value in this case.\n",
+        "166": "   *     defaultValue} otherwise\n",
+        "266": "   * <p>The returned function is <i>consistent with equals</i> (as documented at {@link\n",
+        "267": "   * Function#apply}) if and only if {@code predicate} is itself consistent with equals.\n"
+    },
+    "removed": {
+        "31": " * <p>See the Guava User Guide article on\n",
+        "32": " * <a href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code\n",
+        "33": " * Function}</a>.\n",
+        "80": "  /**\n",
+        "81": "   * Returns the identity function.\n",
+        "82": "   */\n",
+        "106": "   * Returns a function which performs a map lookup. The returned function throws an\n",
+        "107": "   * {@link IllegalArgumentException} if given a key that does not exist in the map. See also\n",
+        "108": "   * {@link #forMap(Map, Object)}, which returns a default value in this case.\n",
+        "169": "   *         defaultValue} otherwise\n",
+        "269": "   * <p>The returned function is <i>consistent with equals</i> (as documented at\n",
+        "270": "   * {@link Function#apply}) if and only if {@code predicate} is itself consistent with equals.\n"
+    }
+}

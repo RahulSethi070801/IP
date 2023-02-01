@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "35": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "101": "      Graph<N> graph,\n",
+        "102": "      Map<Object, NodeVisitState> visitedNodes,\n",
+        "103": "      N node,\n",
+        "104": "      @NullableDecl N previousNode) {\n",
+        "131": "      Graph<?> graph, Object nextNode, @NullableDecl Object previousNode) {\n",
+        "218": "  public static boolean equivalent(@NullableDecl Graph<?> graphA, @NullableDecl Graph<?> graphB) {\n",
+        "229": "      @NullableDecl ValueGraph<?, ?> graphA, @NullableDecl ValueGraph<?, ?> graphB) {\n",
+        "240": "      @NullableDecl Network<?, ?> networkA, @NullableDecl Network<?, ?> networkB) {\n",
+        "360": "    @NullableDecl\n",
+        "361": "    public V edgeValueOrDefault(N nodeU, N nodeV, @NullableDecl V defaultValue) {\n"
+    },
+    "removed": {
+        "35": "import javax.annotation.Nullable;\n",
+        "101": "      Graph<N> graph, Map<Object, NodeVisitState> visitedNodes, N node, @Nullable N previousNode) {\n",
+        "128": "      Graph<?> graph, Object nextNode, @Nullable Object previousNode) {\n",
+        "215": "  public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB) {\n",
+        "226": "      @Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB) {\n",
+        "237": "      @Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB) {\n",
+        "357": "    @Nullable\n",
+        "358": "    public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {\n"
+    }
+}

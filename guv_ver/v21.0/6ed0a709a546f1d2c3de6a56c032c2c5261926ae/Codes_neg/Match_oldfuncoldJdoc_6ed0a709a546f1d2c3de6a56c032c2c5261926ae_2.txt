@@ -1,0 +1,5 @@
+
+   * Returns true iff {@code graph1} and {@code graph2} have the same node/edge relationships.
+   *
+   * @see Network#equals(Object)
+   

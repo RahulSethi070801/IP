@@ -1,0 +1,12 @@
+@CanIgnoreReturnValue
+@Override
+public boolean putAll(@NullableDecl K key, Iterable<? extends V> values) {
+    checkNotNull(values);
+    if (values instanceof Collection) {
+        Collection<? extends V> valueCollection = (Collection<? extends V>) values;
+        return !valueCollection.isEmpty() && get(key).addAll(valueCollection);
+    } else {
+        Iterator<? extends V> valueItr = values.iterator();
+        return valueItr.hasNext() && Iterators.addAll(get(key), valueItr);
+    }
+}

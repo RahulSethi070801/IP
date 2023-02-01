@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "105": "  /**\n",
+        "106": "   * Returns all classes loadable from the current class path.\n",
+        "107": "   *\n",
+        "108": "   * @since 16.0\n",
+        "109": "   */\n"
+    },
+    "removed": {
+        "105": "  /** Returns all classes loadable from the current class path. */\n"
+    }
+}

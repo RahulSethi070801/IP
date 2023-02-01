@@ -1,0 +1,3 @@
+static <E> Collector<E, ?, ImmutableList<E>> toImmutableList() {
+    return Collector.of(ImmutableList::<E>builder, ImmutableList.Builder::add, ImmutableList.Builder::combine, ImmutableList.Builder::build);
+}

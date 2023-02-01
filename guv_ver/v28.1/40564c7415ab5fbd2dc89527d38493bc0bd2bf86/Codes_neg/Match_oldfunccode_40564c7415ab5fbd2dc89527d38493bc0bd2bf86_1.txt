@@ -1,0 +1,17 @@
+private void workOnQueue() {
+    while (true) {
+        Runnable task = null;
+        synchronized (queue) {
+            task = queue.poll();
+            if (task == null) {
+                isWorkerRunning = false;
+                return;
+            }
+        }
+        try {
+            task.run();
+        } catch (RuntimeException e) {
+            log.log(Level.SEVERE, "Exception while executing runnable " + task, e);
+        }
+    }
+}

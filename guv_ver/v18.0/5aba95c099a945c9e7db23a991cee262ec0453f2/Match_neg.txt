@@ -1,0 +1,6 @@
+private Hashing()
+public static HashFunction goodFastHash(int minimumBits)
+
+private Hashing()
+public static HashFunction goodFastHash(int minimumBits)
+

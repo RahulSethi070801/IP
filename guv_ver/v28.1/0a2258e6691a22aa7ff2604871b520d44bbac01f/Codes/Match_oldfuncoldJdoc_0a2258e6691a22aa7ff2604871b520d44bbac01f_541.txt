@@ -1,0 +1,6 @@
+
+   * Creates an {@code AtomicReference} instance with the given initial value.
+   *
+   * @param initialValue the initial value
+   * @return a new {@code AtomicReference} with the given initial value
+   

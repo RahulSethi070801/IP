@@ -1,0 +1,5 @@
+MapMaker expireAfterWrite(long duration, TimeUnit unit)
+MapMaker maximumSize(int size)
+ 
+MapMaker expireAfterAccess(long duration, TimeUnit unit)
+MapMaker maximumSize(int size)

@@ -1,0 +1,6 @@
+@Override
+public Writer append(char c) throws IOException {
+    checkNotClosed();
+    target.append(c);
+    return this;
+}

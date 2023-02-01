@@ -1,0 +1,4 @@
+@Override
+public SortedSet<E> tailSet(@ParametricNullness E fromElement) {
+    return multiset().tailMultiset(fromElement, CLOSED).elementSet();
+}

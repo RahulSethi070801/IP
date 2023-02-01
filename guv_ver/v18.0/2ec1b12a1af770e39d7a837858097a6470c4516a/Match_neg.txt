@@ -1,0 +1,6 @@
+Type usedInGenericType(Type type)
+public Annotation[] getDeclaredAnnotations()
+
+public String apply(Type from)
+public Annotation[] getDeclaredAnnotations()
+

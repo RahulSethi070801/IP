@@ -1,0 +1,4 @@
+@Override
+public boolean containsKey(@Nullable Object value) {
+    return forward().containsValue(value);
+}

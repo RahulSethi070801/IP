@@ -1,0 +1,395 @@
+com.google.common.util.concurrent.AbstractFuture
+get
+public V get(long timeout, TimeUnit unit) throws InterruptedException, TimeoutException, ExecutionException
+long,TimeUnit
+V
+com.google.common.util.concurrent.AbstractFuture
+setFuture
+protected boolean setFuture(ListenableFuture<? extends V> future)
+ListenableFuture
+boolean
+com.google.common.util.concurrent.SimpleTimeLimiter
+invoke
+public Object invoke(Object obj, final Method method, final Object[] args) throws Throwable
+Object,Method,Object[]
+Object
+com.google.common.util.concurrent.ServiceManager
+stopAsync
+public ServiceManager stopAsync()
+empty
+ServiceManager
+com.google.common.util.concurrent.Futures
+inCompletionOrder
+public static ImmutableList<ListenableFuture<T>> inCompletionOrder(Iterable<? extends ListenableFuture<? extends T>> futures)
+Iterable
+ImmutableList
+com.google.common.util.concurrent.Futures$FutureCombiner
+call
+public ListenableFuture<C> call(Callable<C> combiner)
+Callable
+ListenableFuture
+com.google.common.util.concurrent.Service
+stopAsync
+Service stopAsync()
+empty
+Service
+com.google.common.util.concurrent.RateLimiter
+checkPermits
+private static void checkPermits(int permits)
+int
+void
+com.google.common.util.concurrent.AbstractFuture
+setException
+protected boolean setException(Throwable throwable)
+Throwable
+boolean
+com.google.common.util.concurrent.SimpleTimeLimiter
+callWithTimeout
+public T callWithTimeout(Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean amInterruptible) throws Exception
+Callable,long,TimeUnit,boolean
+T
+com.google.common.util.concurrent.AtomicLongMap
+addAndGet
+public long addAndGet(K key, long delta)
+K,long
+long
+com.google.common.util.concurrent.Futures
+whenAllSucceed
+public static FutureCombiner<V> whenAllSucceed(ListenableFuture<? extends V>... futures)
+ListenableFuture...
+FutureCombiner
+com.google.common.util.concurrent.Futures
+allAsList
+public static ListenableFuture<List<V>> allAsList(Iterable<? extends ListenableFuture<? extends V>> futures)
+Iterable
+ListenableFuture
+com.google.common.util.concurrent.AtomicDoubleArray
+addAndGet
+public double addAndGet(int i, double delta)
+int,double
+double
+com.google.common.util.concurrent.AtomicDouble
+getAndAdd
+public final double getAndAdd(double delta)
+double
+double
+com.google.common.util.concurrent.Futures
+allAsList
+public static ListenableFuture<List<V>> allAsList(ListenableFuture<? extends V>... futures)
+ListenableFuture...
+ListenableFuture
+com.google.common.util.concurrent.AbstractFuture
+cancel
+public boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean
+com.google.common.util.concurrent.Callables
+threadRenaming
+static Callable<T> threadRenaming(final Callable<T> callable, final Supplier<String> nameSupplier)
+Callable,Supplier
+Callable
+com.google.common.util.concurrent.Uninterruptibles
+getUninterruptibly
+public static V getUninterruptibly(Future<V> future) throws ExecutionException
+Future
+V
+com.google.common.util.concurrent.Futures
+whenAllSucceed
+public static FutureCombiner<V> whenAllSucceed(Iterable<? extends ListenableFuture<? extends V>> futures)
+Iterable
+FutureCombiner
+com.google.common.util.concurrent.SettableFuture
+setFuture
+public boolean setFuture(ListenableFuture<? extends V> future)
+ListenableFuture
+boolean
+com.google.common.util.concurrent.Futures
+immediateFailedFuture
+public static ListenableFuture<V> immediateFailedFuture(Throwable throwable)
+Throwable
+ListenableFuture
+com.google.common.util.concurrent.Futures
+immediateCancelledFuture
+public static ListenableFuture<V> immediateCancelledFuture()
+empty
+ListenableFuture
+com.google.common.util.concurrent.Futures
+successfulAsList
+public static ListenableFuture<List<V>> successfulAsList(ListenableFuture<? extends V>... futures)
+ListenableFuture...
+ListenableFuture
+com.google.common.util.concurrent.AbstractFuture
+get
+public V get() throws InterruptedException, ExecutionException
+empty
+V
+com.google.common.util.concurrent.AbstractScheduledService
+stopAsync
+public final Service stopAsync()
+empty
+Service
+com.google.common.util.concurrent.AggregateFuture
+cancel
+public final boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean
+com.google.common.util.concurrent.SimpleTimeLimiter
+newProxy
+public T newProxy(final T target, Class<T> interfaceType, final long timeoutDuration, final TimeUnit timeoutUnit)
+T,Class,long,TimeUnit
+T
+com.google.common.util.concurrent.Futures
+getChecked
+public static V getChecked(Future<V> future, Class<X> exceptionClass, long timeout, TimeUnit unit) throws X
+Future,Class,long,TimeUnit
+V
+com.google.common.util.concurrent.Service
+startAsync
+Service startAsync()
+empty
+Service
+com.google.common.util.concurrent.SettableFuture
+setException
+public boolean setException(Throwable throwable)
+Throwable
+boolean
+com.google.common.util.concurrent.Futures
+makeChecked
+public static CheckedFuture<V, X> makeChecked(ListenableFuture<V> future, Function<? super Exception, X> mapper)
+ListenableFuture,Function
+CheckedFuture
+com.google.common.util.concurrent.Futures
+getUnchecked
+public static V getUnchecked(Future<V> future)
+Future
+V
+com.google.common.util.concurrent.AggregateFuture$RunningState
+addInitialException
+final void addInitialException(Set<Throwable> seen)
+Set
+void
+com.google.common.util.concurrent.SettableFuture
+set
+public boolean set(@Nullable V value)
+V
+boolean
+com.google.common.util.concurrent.AbstractScheduledService
+startAsync
+public final Service startAsync()
+empty
+Service
+com.google.common.util.concurrent.Futures
+withTimeout
+public static ListenableFuture<V> withTimeout(ListenableFuture<V> delegate, long time, TimeUnit unit, ScheduledExecutorService scheduledExecutor)
+ListenableFuture,long,TimeUnit,ScheduledExecutorService
+ListenableFuture
+com.google.common.util.concurrent.Futures
+lazyTransform
+public static Future<O> lazyTransform(final Future<I> input, final Function<? super I, ? extends O> function)
+Future,Function
+Future
+com.google.common.util.concurrent.Uninterruptibles
+getUninterruptibly
+public static V getUninterruptibly(Future<V> future, long timeout, TimeUnit unit) throws ExecutionException, TimeoutException
+Future,long,TimeUnit
+V
+com.google.common.util.concurrent.Futures
+immediateCheckedFuture
+public static CheckedFuture<V, X> immediateCheckedFuture(@Nullable V value)
+V
+CheckedFuture
+com.google.common.util.concurrent.Futures
+catching
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback)
+ListenableFuture,Class,Function
+ListenableFuture
+com.google.common.util.concurrent.AbstractCheckedFuture
+checkedGet
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+long,TimeUnit
+V
+com.google.common.util.concurrent.AtomicDoubleArray
+getAndAdd
+public final double getAndAdd(int i, double delta)
+int,double
+double
+com.google.common.util.concurrent.AtomicLongMap
+remove
+public long remove(K key)
+K
+long
+com.google.common.util.concurrent.AtomicLongMap
+decrementAndGet
+public long decrementAndGet(K key)
+K
+long
+com.google.common.util.concurrent.AtomicLongMap
+getAndDecrement
+public long getAndDecrement(K key)
+K
+long
+com.google.common.util.concurrent.AtomicLongMap
+put
+public long put(K key, long newValue)
+K,long
+long
+com.google.common.util.concurrent.FuturesGetChecked
+hasConstructorUsableByGetChecked
+private static boolean hasConstructorUsableByGetChecked(Class<? extends Exception> exceptionClass)
+Class
+boolean
+com.google.common.util.concurrent.Futures
+successfulAsList
+public static ListenableFuture<List<V>> successfulAsList(Iterable<? extends ListenableFuture<? extends V>> futures)
+Iterable
+ListenableFuture
+com.google.common.util.concurrent.Futures
+whenAllComplete
+public static FutureCombiner<V> whenAllComplete(Iterable<? extends ListenableFuture<? extends V>> futures)
+Iterable
+FutureCombiner
+com.google.common.util.concurrent.Callables
+threadRenaming
+static Runnable threadRenaming(final Runnable task, final Supplier<String> nameSupplier)
+Runnable,Supplier
+Runnable
+com.google.common.util.concurrent.AbstractCheckedFuture
+checkedGet
+public V checkedGet() throws X
+empty
+V
+com.google.common.util.concurrent.Futures
+immediateFuture
+public static ListenableFuture<V> immediateFuture(@Nullable V value)
+V
+ListenableFuture
+com.google.common.util.concurrent.AbstractFuture
+completeWithFuture
+private boolean completeWithFuture(ListenableFuture<? extends V> future, Object expected)
+ListenableFuture,Object
+boolean
+com.google.common.util.concurrent.Futures$FutureCombiner
+call
+public ListenableFuture<C> call(Callable<C> combiner, Executor executor)
+Callable,Executor
+ListenableFuture
+com.google.common.util.concurrent.Futures
+getChecked
+public static V getChecked(Future<V> future, Class<X> exceptionClass) throws X
+Future,Class
+V
+com.google.common.util.concurrent.AtomicDouble
+addAndGet
+public final double addAndGet(double delta)
+double
+double
+com.google.common.util.concurrent.TimeLimiter
+callWithTimeout
+T callWithTimeout(Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean interruptible) throws Exception
+Callable,long,TimeUnit,boolean
+T
+com.google.common.util.concurrent.AbstractFuture$TrustedFuture
+get
+public final V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+long,TimeUnit
+V
+com.google.common.util.concurrent.FuturesGetChecked
+getChecked
+static V getChecked(Future<V> future, Class<X> exceptionClass, long timeout, TimeUnit unit) throws X
+Future,Class,long,TimeUnit
+V
+com.google.common.util.concurrent.RateLimiter
+acquire
+public double acquire(int permits)
+int
+double
+com.google.common.util.concurrent.ServiceManager
+startAsync
+public ServiceManager startAsync()
+empty
+ServiceManager
+com.google.common.util.concurrent.AtomicLongMap
+incrementAndGet
+public long incrementAndGet(K key)
+K
+long
+com.google.common.util.concurrent.Futures
+immediateFailedCheckedFuture
+public static CheckedFuture<V, X> immediateFailedCheckedFuture(X exception)
+X
+CheckedFuture
+com.google.common.util.concurrent.FuturesGetChecked
+getChecked
+static V getChecked(GetCheckedTypeValidator validator, Future<V> future, Class<X> exceptionClass) throws X
+GetCheckedTypeValidator,Future,Class
+V
+com.google.common.util.concurrent.Futures
+whenAllComplete
+public static FutureCombiner<V> whenAllComplete(ListenableFuture<? extends V>... futures)
+ListenableFuture...
+FutureCombiner
+com.google.common.util.concurrent.AbstractFuture
+set
+protected boolean set(@Nullable V value)
+V
+boolean
+com.google.common.util.concurrent.Futures
+nonCancellationPropagating
+public static ListenableFuture<V> nonCancellationPropagating(ListenableFuture<V> future)
+ListenableFuture
+ListenableFuture
+com.google.common.util.concurrent.RateLimiter
+acquire
+public double acquire()
+empty
+double
+com.google.common.util.concurrent.MoreExecutors
+shutdownAndAwaitTermination
+public static boolean shutdownAndAwaitTermination(ExecutorService service, long timeout, TimeUnit unit)
+ExecutorService,long,TimeUnit
+boolean
+com.google.common.util.concurrent.Futures
+dereference
+public static ListenableFuture<V> dereference(ListenableFuture<? extends ListenableFuture<? extends V>> nested)
+ListenableFuture
+ListenableFuture
+com.google.common.util.concurrent.FuturesGetChecked
+getChecked
+static V getChecked(Future<V> future, Class<X> exceptionClass) throws X
+Future,Class
+V
+com.google.common.util.concurrent.AtomicLongMap
+getAndIncrement
+public long getAndIncrement(K key)
+K
+long
+com.google.common.util.concurrent.Callables
+call
+public T call() throws Exception
+empty
+T
+com.google.common.util.concurrent.AbstractFuture$TrustedFuture
+get
+public final V get() throws InterruptedException, ExecutionException
+empty
+V
+com.google.common.util.concurrent.RateLimiter
+checkPermits
+private static int checkPermits(int permits)
+int
+int
+com.google.common.util.concurrent.AtomicLongMap
+getAndAdd
+public long getAndAdd(K key, long delta)
+K,long
+long
+com.google.common.util.concurrent.ThreadFactoryBuilder
+build
+public ThreadFactory build()
+empty
+ThreadFactory
+com.google.common.util.concurrent.Futures
+catching
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+ListenableFuture,Class,Function,Executor
+ListenableFuture

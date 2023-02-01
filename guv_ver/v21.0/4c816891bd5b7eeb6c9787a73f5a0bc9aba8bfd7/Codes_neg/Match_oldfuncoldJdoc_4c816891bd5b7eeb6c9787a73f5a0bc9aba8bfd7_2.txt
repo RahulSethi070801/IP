@@ -1,0 +1,4 @@
+
+   * Add {@code edge} to the set of incoming edges. Implicitly adds {@code node} as a predecessor.
+   * Returns false if the edge already existed.
+   

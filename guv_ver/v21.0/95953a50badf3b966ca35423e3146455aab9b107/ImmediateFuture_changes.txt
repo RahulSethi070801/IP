@@ -1,0 +1,4 @@
+ImmediateFuture
+Insertions: [87]
+Deletions: [36, 37, 38, 39, 40]
+guava/src/com/google/common/util/concurrent/ImmediateFuture.java

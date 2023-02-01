@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "39": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "99": "  static boolean safeContains(Collection<?> collection, @NullableDecl Object object) {\n",
+        "112": "  static boolean safeRemove(Collection<?> collection, @NullableDecl Object object) {\n",
+        "155": "    public boolean contains(@NullableDecl Object element) {\n",
+        "475": "    public boolean contains(@NullableDecl Object obj) {\n",
+        "587": "    public boolean contains(@NullableDecl Object obj) {\n"
+    },
+    "removed": {
+        "39": "import javax.annotation.Nullable;\n",
+        "99": "  static boolean safeContains(Collection<?> collection, @Nullable Object object) {\n",
+        "112": "  static boolean safeRemove(Collection<?> collection, @Nullable Object object) {\n",
+        "155": "    public boolean contains(@Nullable Object element) {\n",
+        "475": "    public boolean contains(@Nullable Object obj) {\n",
+        "587": "    public boolean contains(@Nullable Object obj) {\n"
+    }
+}

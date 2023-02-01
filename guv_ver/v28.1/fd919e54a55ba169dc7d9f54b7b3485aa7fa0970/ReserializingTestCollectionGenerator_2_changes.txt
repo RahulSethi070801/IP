@@ -1,0 +1,4 @@
+ReserializingTestCollectionGenerator_2
+Insertions: [31]
+Deletions: [31]
+guava-testlib/src/com/google/common/collect/testing/ReserializingTestCollectionGenerator.java

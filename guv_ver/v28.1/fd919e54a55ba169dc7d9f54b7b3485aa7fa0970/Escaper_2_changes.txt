@@ -1,0 +1,4 @@
+Escaper_2
+Insertions: [38, 39, 40, 42, 43, 44, 48, 49, 50, 51, 69, 70, 71, 72, 73, 74, 93]
+Deletions: [38, 39, 40, 42, 43, 44, 48, 49, 50, 51, 69, 70, 71, 72, 73, 74, 93, 94, 95]
+guava/src/com/google/common/escape/Escaper.java

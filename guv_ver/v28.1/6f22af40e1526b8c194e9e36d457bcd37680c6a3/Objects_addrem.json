@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "19": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "51": "  public static boolean equal(@NullableDecl Object a, @NullableDecl Object b) {\n",
+        "76": "  public static int hashCode(@NullableDecl Object... objects) {\n"
+    },
+    "removed": {
+        "19": "import javax.annotation.Nullable;\n",
+        "51": "  public static boolean equal(@Nullable Object a, @Nullable Object b) {\n",
+        "76": "  public static int hashCode(@Nullable Object... objects) {\n"
+    }
+}

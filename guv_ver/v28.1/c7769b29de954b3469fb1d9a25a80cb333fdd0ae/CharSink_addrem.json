@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "58": "   * Opens a new {@link Writer} for writing to this sink. This method returns a new, independent\n",
+        "59": "   * writer each time it is called.\n",
+        "63": "   * @throws IOException if an I/O error occurs while opening the writer\n",
+        "71": "   * buffering. This method returns a new, independent writer each time it is called.\n",
+        "75": "   * @throws IOException if an I/O error occurs while opening the writer\n",
+        "88": "   * @throws IOException if an I/O error while writing to this sink\n",
+        "110": "   * @throws IOException if an I/O error occurs while writing to this sink\n",
+        "120": "   * @throws IOException if an I/O error occurs while writing to this sink\n",
+        "146": "   * @throws IOException if an I/O error occurs while reading from {@code readable} or writing to\n",
+        "147": "   *     this sink\n"
+    },
+    "removed": {
+        "58": "   * Opens a new {@link Writer} for writing to this sink. This method should return a new,\n",
+        "59": "   * independent writer each time it is called.\n",
+        "63": "   * @throws IOException if an I/O error occurs in the process of opening the writer\n",
+        "71": "   * buffering. This method should return a new, independent writer each time it is called.\n",
+        "75": "   * @throws IOException if an I/O error occurs in the process of opening the writer\n",
+        "88": "   * @throws IOException if an I/O error in the process of writing to this sink\n",
+        "110": "   * @throws IOException if an I/O error occurs in the process of writing to this sink\n",
+        "120": "   * @throws IOException if an I/O error occurs in the process of writing to this sink\n",
+        "146": "   * @throws IOException if an I/O error occurs in the process of reading from {@code readable} or\n",
+        "147": "   *     writing to this sink\n"
+    }
+}

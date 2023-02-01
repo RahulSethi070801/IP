@@ -1,0 +1,58 @@
+public boolean enterWhenUninterruptibly(Guard guard, long time, TimeUnit unit) {
+    final long timeoutNanos = toSafeNanos(time, unit);
+    if (guard.monitor != this) {
+        throw new IllegalMonitorStateException();
+    }
+    final ReentrantLock lock = this.lock;
+    long startTime = 0L;
+    boolean signalBeforeWaiting = lock.isHeldByCurrentThread();
+    boolean interrupted = Thread.interrupted();
+    try {
+        if (fair || !lock.tryLock()) {
+            startTime = initNanoTime(timeoutNanos);
+            for (long remainingNanos = timeoutNanos; ; ) {
+                try {
+                    if (lock.tryLock(remainingNanos, TimeUnit.NANOSECONDS)) {
+                        break;
+                    } else {
+                        return false;
+                    }
+                } catch (InterruptedException interrupt) {
+                    interrupted = true;
+                    remainingNanos = remainingNanos(startTime, timeoutNanos);
+                }
+            }
+        }
+        boolean satisfied = false;
+        try {
+            while (true) {
+                try {
+                    if (guard.isSatisfied()) {
+                        satisfied = true;
+                    } else {
+                        final long remainingNanos;
+                        if (startTime == 0L) {
+                            startTime = initNanoTime(timeoutNanos);
+                            remainingNanos = timeoutNanos;
+                        } else {
+                            remainingNanos = remainingNanos(startTime, timeoutNanos);
+                        }
+                        satisfied = awaitNanos(guard, remainingNanos, signalBeforeWaiting);
+                    }
+                    return satisfied;
+                } catch (InterruptedException interrupt) {
+                    interrupted = true;
+                    signalBeforeWaiting = false;
+                }
+            }
+        } finally {
+            if (!satisfied) {
+                lock.unlock();
+            }
+        }
+    } finally {
+        if (interrupted) {
+            Thread.currentThread().interrupt();
+        }
+    }
+}

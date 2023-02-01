@@ -1,0 +1,5 @@
+
+   * Returns the file name without its <a
+   * href="http://en.wikipedia.org/wiki/Filename_extension">file extension</a> or path. This is
+   * similar to the {@code basename} unix command. The result does not include the '{@code .}'.
+   

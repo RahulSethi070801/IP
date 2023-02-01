@@ -1,0 +1,8 @@
+@CanIgnoreReturnValue
+@Deprecated
+@Override
+@DoNotCall("Always throws UnsupportedOperationException")
+@CheckForNull
+public final Entry<E> pollLastEntry() {
+    throw new UnsupportedOperationException();
+}

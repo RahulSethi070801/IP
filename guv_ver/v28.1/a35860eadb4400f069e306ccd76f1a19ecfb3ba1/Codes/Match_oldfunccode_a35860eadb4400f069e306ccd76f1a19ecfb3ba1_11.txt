@@ -1,0 +1,2 @@
+@Nullable
+V value(Object node);

@@ -1,0 +1,5 @@
+com.google.common.collect.CompactHashMap
+init
+void init(int expectedSize)
+int
+void

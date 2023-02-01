@@ -1,0 +1,6 @@
+public static V getUninterruptibly(Future<V> future) throws ExecutionException
+protected abstract Scheduler scheduler()
+
+public ThreadFactory build()
+protected abstract X mapException(Exception e)
+

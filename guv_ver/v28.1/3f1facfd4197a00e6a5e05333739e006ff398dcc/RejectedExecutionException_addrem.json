@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "19": "/** GWT emulation of RejectedExecutionException. */\n",
+        "21": "  public RejectedExecutionException() {}\n"
+    },
+    "removed": {
+        "19": "/**\n",
+        "20": " * GWT emulation of RejectedExecutionException.\n",
+        "21": " */\n",
+        "23": "  public RejectedExecutionException() {\n",
+        "24": "  }\n"
+    }
+}

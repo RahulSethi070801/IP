@@ -1,0 +1,1 @@
+ Applies this function to the given argument and its index within a stream. 

@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "19": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "45": "  @CanIgnoreReturnValue\n",
+        "46": "  @Override\n",
+        "47": "  public boolean set(@Nullable V value) {\n",
+        "51": "  @CanIgnoreReturnValue\n",
+        "52": "  @Override\n",
+        "53": "  public boolean setException(Throwable throwable) {\n",
+        "58": "  @CanIgnoreReturnValue\n"
+    },
+    "removed": {
+        "44": "  @Override public boolean set(@Nullable V value) {\n",
+        "48": "  @Override public boolean setException(Throwable throwable) {\n"
+    }
+}

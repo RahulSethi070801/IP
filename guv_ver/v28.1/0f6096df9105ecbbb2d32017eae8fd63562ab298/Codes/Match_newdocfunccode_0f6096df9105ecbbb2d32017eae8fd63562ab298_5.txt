@@ -1,0 +1,1 @@
+Optional<E> edgeConnecting(N nodeU, N nodeV);

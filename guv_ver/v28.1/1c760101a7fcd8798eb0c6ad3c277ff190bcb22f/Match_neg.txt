@@ -1,0 +1,6 @@
+public static Executor sequentialExecutor(Executor delegate)
+SequentialExecutor(Executor executor)
+
+public static Executor sequentialExecutor(Executor delegate)
+SequentialExecutor(Executor executor)
+

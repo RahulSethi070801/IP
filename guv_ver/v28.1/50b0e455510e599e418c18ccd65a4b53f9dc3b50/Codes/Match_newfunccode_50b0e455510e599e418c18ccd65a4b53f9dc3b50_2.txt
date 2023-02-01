@@ -1,0 +1,4 @@
+@SuppressWarnings("CheckReturnValue")
+private void checkThatNodeIsInGraph(N startNode) {
+    graph.successors(startNode);
+}

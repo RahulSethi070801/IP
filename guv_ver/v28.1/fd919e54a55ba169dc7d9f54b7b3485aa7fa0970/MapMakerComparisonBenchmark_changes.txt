@@ -1,0 +1,4 @@
+MapMakerComparisonBenchmark
+Insertions: [45, 46, 52, 53, 59, 60]
+Deletions: [45, 51, 57]
+android/guava-tests/benchmark/com/google/common/cache/MapMakerComparisonBenchmark.java

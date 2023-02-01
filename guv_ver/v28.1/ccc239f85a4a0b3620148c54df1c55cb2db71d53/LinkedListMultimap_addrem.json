@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "193": "    this(12);\n",
+        "197": "    keyToKeyList = Platform.newHashMapWithExpectedSize(expectedKeys);\n",
+        "833": "    keyToKeyList = CompactLinkedHashMap.create();\n"
+    },
+    "removed": {
+        "193": "    keyToKeyList = Maps.newHashMap();\n",
+        "197": "    keyToKeyList = new HashMap<>(expectedKeys);\n",
+        "833": "    keyToKeyList = Maps.newLinkedHashMap();\n"
+    }
+}

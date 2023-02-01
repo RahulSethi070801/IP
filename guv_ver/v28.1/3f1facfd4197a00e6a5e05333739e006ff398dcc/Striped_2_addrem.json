@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "187": "   * Creates a {@code Striped<L>} with eagerly initialized, strongly referenced locks. Every lock is\n",
+        "188": "   * obtained from the passed supplier.\n",
+        "206": "    return custom(\n",
+        "207": "        stripes,\n",
+        "208": "        new Supplier<Lock>() {\n",
+        "209": "          @Override\n",
+        "210": "          public Lock get() {\n",
+        "211": "            return new PaddedLock();\n",
+        "212": "          }\n",
+        "213": "        });\n"
+    },
+    "removed": {
+        "187": "   * Creates a {@code Striped<L>} with eagerly initialized, strongly referenced locks. Every lock\n",
+        "188": "   * is obtained from the passed supplier.\n",
+        "206": "    return custom(stripes, new Supplier<Lock>() {\n",
+        "207": "      @Override\n",
+        "208": "      public Lock get() {\n",
+        "209": "        return new PaddedLock();\n",
+        "210": "      }\n",
+        "211": "    });\n"
+    }
+}

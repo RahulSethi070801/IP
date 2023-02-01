@@ -1,0 +1,4 @@
+
+   * Returns {@code ? extends X} if any of {@code bounds} is a subtype of {@code X[]}; or null
+   * otherwise.
+   

@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "293": "  public void testScale_indexes_varargs_compute_indexOrderIsMaintained() {\n",
+        "294": "    assertThat(Quantiles.scale(10).indexes(0, 10, 5, 1, 8, 1).compute(SIXTEEN_SQUARES_INTEGERS))\n",
+        "295": "        .comparingValuesUsing(QUANTILE_CORRESPONDENCE)\n",
+        "296": "        .containsExactly(\n",
+        "297": "            0, SIXTEEN_SQUARES_MIN,\n",
+        "298": "            10, SIXTEEN_SQUARES_MAX,\n",
+        "299": "            5, SIXTEEN_SQUARES_MEDIAN,\n",
+        "300": "            1, SIXTEEN_SQUARES_DECILE_1,\n",
+        "301": "            8, SIXTEEN_SQUARES_DECILE_8)\n",
+        "302": "        .inOrder();\n",
+        "303": "  }\n",
+        "304": "\n"
+    },
+    "removed": {}
+}

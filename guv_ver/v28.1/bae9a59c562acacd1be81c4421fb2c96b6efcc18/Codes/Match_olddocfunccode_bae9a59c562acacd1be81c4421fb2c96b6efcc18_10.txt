@@ -1,0 +1,6 @@
+@SuppressWarnings("unchecked")
+public ImmutableMap<K, V> build() {
+    sortEntries();
+    entriesUsed = true;
+    return RegularImmutableMap.create(size, alternatingKeysAndValues);
+}

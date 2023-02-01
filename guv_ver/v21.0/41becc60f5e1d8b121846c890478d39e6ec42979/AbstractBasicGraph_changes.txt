@@ -1,0 +1,4 @@
+AbstractBasicGraph
+Insertions: [35]
+Deletions: [35]
+guava/src/com/google/common/graph/AbstractBasicGraph.java

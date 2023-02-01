@@ -1,0 +1,7 @@
+Optional<Object> getOptional() {
+    if (extras == null) {
+        return Optional.ofNullable(element);
+    } else {
+        throw multiples(false);
+    }
+}

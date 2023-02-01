@@ -1,0 +1,588 @@
+public T readLines(LineProcessor<T> processor) throws IOException
+public T read(ByteProcessor<T> processor) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public String read() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public byte[] read() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public ImmutableList<String> readLines() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public T read(ByteProcessor<T> processor) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public String read() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public byte[] read() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public long size() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public void write(CharSequence charSequence) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public void write(byte[] bytes) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public T read(ByteProcessor<T> processor) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public String read() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public byte[] read() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public long copyTo(OutputStream output) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public long copyTo(CharSink sink) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public long copyTo(Appendable appendable) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public long copyTo(ByteSink sink) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public String readFirstLine() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public T read(ByteProcessor<T> processor) throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public String read() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public byte[] read() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public long size() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public long size() throws IOException
+
+public T readLines(LineProcessor<T> processor) throws IOException
+public long size() throws IOException
+
+public ImmutableList<String> readLines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public ImmutableList<String> readLines()
+public String read() throws IOException
+
+public ImmutableList<String> readLines()
+public byte[] read() throws IOException
+
+public ImmutableList<String> readLines()
+public ImmutableList<String> readLines() throws IOException
+
+public ImmutableList<String> readLines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public ImmutableList<String> readLines()
+public String read() throws IOException
+
+public ImmutableList<String> readLines()
+public byte[] read() throws IOException
+
+public ImmutableList<String> readLines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public ImmutableList<String> readLines()
+public long size() throws IOException
+
+public ImmutableList<String> readLines()
+public void write(CharSequence charSequence) throws IOException
+
+public ImmutableList<String> readLines()
+public void write(byte[] bytes) throws IOException
+
+public ImmutableList<String> readLines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public ImmutableList<String> readLines()
+public String read() throws IOException
+
+public ImmutableList<String> readLines()
+public byte[] read() throws IOException
+
+public ImmutableList<String> readLines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public ImmutableList<String> readLines()
+public long copyTo(OutputStream output) throws IOException
+
+public ImmutableList<String> readLines()
+public long copyTo(CharSink sink) throws IOException
+
+public ImmutableList<String> readLines()
+public long copyTo(Appendable appendable) throws IOException
+
+public ImmutableList<String> readLines()
+public long copyTo(ByteSink sink) throws IOException
+
+public ImmutableList<String> readLines()
+public String readFirstLine() throws IOException
+
+public ImmutableList<String> readLines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public ImmutableList<String> readLines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public ImmutableList<String> readLines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public ImmutableList<String> readLines()
+public String read() throws IOException
+
+public ImmutableList<String> readLines()
+public byte[] read() throws IOException
+
+public ImmutableList<String> readLines()
+public long size() throws IOException
+
+public ImmutableList<String> readLines()
+public long size() throws IOException
+
+public ImmutableList<String> readLines()
+public long size() throws IOException
+
+public Stream<String> lines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public Stream<String> lines()
+public String read() throws IOException
+
+public Stream<String> lines()
+public byte[] read() throws IOException
+
+public Stream<String> lines()
+public ImmutableList<String> readLines() throws IOException
+
+public Stream<String> lines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public Stream<String> lines()
+public String read() throws IOException
+
+public Stream<String> lines()
+public byte[] read() throws IOException
+
+public Stream<String> lines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public Stream<String> lines()
+public long size() throws IOException
+
+public Stream<String> lines()
+public void write(CharSequence charSequence) throws IOException
+
+public Stream<String> lines()
+public void write(byte[] bytes) throws IOException
+
+public Stream<String> lines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public Stream<String> lines()
+public String read() throws IOException
+
+public Stream<String> lines()
+public byte[] read() throws IOException
+
+public Stream<String> lines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public Stream<String> lines()
+public long copyTo(OutputStream output) throws IOException
+
+public Stream<String> lines()
+public long copyTo(CharSink sink) throws IOException
+
+public Stream<String> lines()
+public long copyTo(Appendable appendable) throws IOException
+
+public Stream<String> lines()
+public long copyTo(ByteSink sink) throws IOException
+
+public Stream<String> lines()
+public String readFirstLine() throws IOException
+
+public Stream<String> lines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public Stream<String> lines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public Stream<String> lines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public Stream<String> lines()
+public String read() throws IOException
+
+public Stream<String> lines()
+public byte[] read() throws IOException
+
+public Stream<String> lines()
+public long size() throws IOException
+
+public Stream<String> lines()
+public long size() throws IOException
+
+public Stream<String> lines()
+public long size() throws IOException
+
+private Iterable<String> lines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+private Iterable<String> lines()
+public String read() throws IOException
+
+private Iterable<String> lines()
+public byte[] read() throws IOException
+
+private Iterable<String> lines()
+public ImmutableList<String> readLines() throws IOException
+
+private Iterable<String> lines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+private Iterable<String> lines()
+public String read() throws IOException
+
+private Iterable<String> lines()
+public byte[] read() throws IOException
+
+private Iterable<String> lines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+private Iterable<String> lines()
+public long size() throws IOException
+
+private Iterable<String> lines()
+public void write(CharSequence charSequence) throws IOException
+
+private Iterable<String> lines()
+public void write(byte[] bytes) throws IOException
+
+private Iterable<String> lines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+private Iterable<String> lines()
+public String read() throws IOException
+
+private Iterable<String> lines()
+public byte[] read() throws IOException
+
+private Iterable<String> lines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+private Iterable<String> lines()
+public long copyTo(OutputStream output) throws IOException
+
+private Iterable<String> lines()
+public long copyTo(CharSink sink) throws IOException
+
+private Iterable<String> lines()
+public long copyTo(Appendable appendable) throws IOException
+
+private Iterable<String> lines()
+public long copyTo(ByteSink sink) throws IOException
+
+private Iterable<String> lines()
+public String readFirstLine() throws IOException
+
+private Iterable<String> lines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+private Iterable<String> lines()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+private Iterable<String> lines()
+public T read(ByteProcessor<T> processor) throws IOException
+
+private Iterable<String> lines()
+public String read() throws IOException
+
+private Iterable<String> lines()
+public byte[] read() throws IOException
+
+private Iterable<String> lines()
+public long size() throws IOException
+
+private Iterable<String> lines()
+public long size() throws IOException
+
+private Iterable<String> lines()
+public long size() throws IOException
+
+private Iterator<String> linesIterator()
+public T read(ByteProcessor<T> processor) throws IOException
+
+private Iterator<String> linesIterator()
+public String read() throws IOException
+
+private Iterator<String> linesIterator()
+public byte[] read() throws IOException
+
+private Iterator<String> linesIterator()
+public ImmutableList<String> readLines() throws IOException
+
+private Iterator<String> linesIterator()
+public T read(ByteProcessor<T> processor) throws IOException
+
+private Iterator<String> linesIterator()
+public String read() throws IOException
+
+private Iterator<String> linesIterator()
+public byte[] read() throws IOException
+
+private Iterator<String> linesIterator()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+private Iterator<String> linesIterator()
+public long size() throws IOException
+
+private Iterator<String> linesIterator()
+public void write(CharSequence charSequence) throws IOException
+
+private Iterator<String> linesIterator()
+public void write(byte[] bytes) throws IOException
+
+private Iterator<String> linesIterator()
+public T read(ByteProcessor<T> processor) throws IOException
+
+private Iterator<String> linesIterator()
+public String read() throws IOException
+
+private Iterator<String> linesIterator()
+public byte[] read() throws IOException
+
+private Iterator<String> linesIterator()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+private Iterator<String> linesIterator()
+public long copyTo(OutputStream output) throws IOException
+
+private Iterator<String> linesIterator()
+public long copyTo(CharSink sink) throws IOException
+
+private Iterator<String> linesIterator()
+public long copyTo(Appendable appendable) throws IOException
+
+private Iterator<String> linesIterator()
+public long copyTo(ByteSink sink) throws IOException
+
+private Iterator<String> linesIterator()
+public String readFirstLine() throws IOException
+
+private Iterator<String> linesIterator()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+private Iterator<String> linesIterator()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+private Iterator<String> linesIterator()
+public T read(ByteProcessor<T> processor) throws IOException
+
+private Iterator<String> linesIterator()
+public String read() throws IOException
+
+private Iterator<String> linesIterator()
+public byte[] read() throws IOException
+
+private Iterator<String> linesIterator()
+public long size() throws IOException
+
+private Iterator<String> linesIterator()
+public long size() throws IOException
+
+private Iterator<String> linesIterator()
+public long size() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public T read(ByteProcessor<T> processor) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public String read() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public byte[] read() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public ImmutableList<String> readLines() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public T read(ByteProcessor<T> processor) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public String read() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public byte[] read() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public long size() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public void write(CharSequence charSequence) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public void write(byte[] bytes) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public T read(ByteProcessor<T> processor) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public String read() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public byte[] read() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public long copyTo(OutputStream output) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public long copyTo(CharSink sink) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public long copyTo(Appendable appendable) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public long copyTo(ByteSink sink) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public String readFirstLine() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public T read(ByteProcessor<T> processor) throws IOException
+
+public CharSource asCharSource(Charset charset)
+public String read() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public byte[] read() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public long size() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public long size() throws IOException
+
+public CharSource asCharSource(Charset charset)
+public long size() throws IOException
+
+public String readFirstLine()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public String readFirstLine()
+public String read() throws IOException
+
+public String readFirstLine()
+public byte[] read() throws IOException
+
+public String readFirstLine()
+public ImmutableList<String> readLines() throws IOException
+
+public String readFirstLine()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public String readFirstLine()
+public String read() throws IOException
+
+public String readFirstLine()
+public byte[] read() throws IOException
+
+public String readFirstLine()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public String readFirstLine()
+public long size() throws IOException
+
+public String readFirstLine()
+public void write(CharSequence charSequence) throws IOException
+
+public String readFirstLine()
+public void write(byte[] bytes) throws IOException
+
+public String readFirstLine()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public String readFirstLine()
+public String read() throws IOException
+
+public String readFirstLine()
+public byte[] read() throws IOException
+
+public String readFirstLine()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public String readFirstLine()
+public long copyTo(OutputStream output) throws IOException
+
+public String readFirstLine()
+public long copyTo(CharSink sink) throws IOException
+
+public String readFirstLine()
+public long copyTo(Appendable appendable) throws IOException
+
+public String readFirstLine()
+public long copyTo(ByteSink sink) throws IOException
+
+public String readFirstLine()
+public String readFirstLine() throws IOException
+
+public String readFirstLine()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public String readFirstLine()
+public HashCode hash(HashFunction hashFunction) throws IOException
+
+public String readFirstLine()
+public T read(ByteProcessor<T> processor) throws IOException
+
+public String readFirstLine()
+public String read() throws IOException
+
+public String readFirstLine()
+public byte[] read() throws IOException
+
+public String readFirstLine()
+public long size() throws IOException
+
+public String readFirstLine()
+public long size() throws IOException
+
+public String readFirstLine()
+public long size() throws IOException
+

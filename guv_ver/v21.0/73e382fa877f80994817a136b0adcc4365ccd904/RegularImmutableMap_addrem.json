@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "29": "import java.util.function.BiConsumer;\n",
+        "142": "  @Override\n",
+        "143": "  public void forEach(BiConsumer<? super K, ? super V> action) {\n",
+        "144": "    checkNotNull(action);\n",
+        "145": "    for (Entry<K, V> entry : entries) {\n",
+        "146": "      action.accept(entry.getKey(), entry.getValue());\n",
+        "147": "    }\n",
+        "148": "  }\n",
+        "149": "\n"
+    },
+    "removed": {}
+}

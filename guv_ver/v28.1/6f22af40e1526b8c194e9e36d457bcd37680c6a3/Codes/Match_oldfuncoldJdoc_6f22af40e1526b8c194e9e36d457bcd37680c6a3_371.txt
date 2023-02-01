@@ -1,0 +1,5 @@
+
+   * Creates a RegularImmutableMap from the first n entries in entryArray. This implementation may
+   * replace the entries in entryArray with its own entry objects (though they will have the same
+   * key/value contents), and may take ownership of entryArray.
+   

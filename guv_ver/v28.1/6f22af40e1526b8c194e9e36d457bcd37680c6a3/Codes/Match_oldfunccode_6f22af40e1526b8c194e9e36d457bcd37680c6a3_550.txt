@@ -1,0 +1,5 @@
+@SuppressWarnings("unchecked")
+@CanIgnoreReturnValue
+public final R invoke(@Nullable T receiver, Object... args) throws InvocationTargetException, IllegalAccessException {
+    return (R) invokeInternal(receiver, checkNotNull(args));
+}

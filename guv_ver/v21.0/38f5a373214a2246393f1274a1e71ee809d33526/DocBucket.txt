@@ -1,0 +1,15 @@
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+Graph,Graph
+boolean
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+ValueGraph,ValueGraph
+boolean
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+Network,Network
+boolean

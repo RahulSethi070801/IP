@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public Entry<K, V> ceilingEntry(K key) {
+    return tailMap(key, true).firstEntry();
+}

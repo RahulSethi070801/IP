@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "37": "  public SampleElements<Entry<String, String>> samples() {\n"
+    },
+    "removed": {
+        "25": "import java.util.Map;\n",
+        "38": "  public SampleElements<Map.Entry<String, String>> samples() {\n"
+    }
+}

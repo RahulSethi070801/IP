@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "24": " * This class implements the GWT serialization of {@link LexicographicalOrdering}.\n"
+    },
+    "removed": {
+        "24": " * This class implements the GWT serialization of {@link\n",
+        "25": " * LexicographicalOrdering}.\n"
+    }
+}

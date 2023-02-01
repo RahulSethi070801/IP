@@ -1,0 +1,4 @@
+
+   * Returns and removes the entry associated with the greatest element in this multiset, or returns
+   * {@code null} if this multiset is empty.
+   

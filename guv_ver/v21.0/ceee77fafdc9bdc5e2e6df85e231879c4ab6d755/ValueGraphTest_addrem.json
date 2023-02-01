@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "38": "    new EqualsTester().addEqualityGroup(\n",
+        "39": "        graph,\n",
+        "40": "        Graphs.copyOf(graph),\n",
+        "41": "        ImmutableValueGraph.copyOf(graph)).testEquals();\n"
+    },
+    "removed": {
+        "38": "    new EqualsTester()\n",
+        "39": "        .addEqualityGroup(\n",
+        "40": "            graph,\n",
+        "41": "            Graphs.copyOf(graph),\n",
+        "42": "            ImmutableValueGraph.copyOf(graph))\n",
+        "43": "        .addEqualityGroup(\n",
+        "44": "            Graphs.copyOf((Graph<Integer>) graph),\n",
+        "45": "            ImmutableGraph.copyOf(graph))\n",
+        "46": "        .testEquals();\n"
+    }
+}

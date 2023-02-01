@@ -1,0 +1,4 @@
+TrustedInputFutureTest
+Insertions: [23, 24]
+Deletions: [23, 24]
+android/guava-tests/test/com/google/common/util/concurrent/TrustedInputFutureTest.java

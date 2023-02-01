@@ -1,0 +1,4 @@
+
+   * Returns a type where {@code rawType} is parameterized by {@code arguments} and is owned by
+   * {@code ownerType}.
+   

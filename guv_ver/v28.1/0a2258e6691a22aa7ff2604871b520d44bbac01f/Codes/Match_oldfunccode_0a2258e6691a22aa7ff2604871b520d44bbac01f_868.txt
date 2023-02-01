@@ -1,0 +1,9 @@
+@CanIgnoreReturnValue
+private static int checkNoConflictInValueBucket(Object value, Entry<?, ?> entry, @NullableDecl ImmutableMapEntry<?, ?> valueBucketHead) {
+    int bucketSize = 0;
+    for (; valueBucketHead != null; valueBucketHead = valueBucketHead.getNextInValueBucket()) {
+        checkNoConflict(!value.equals(valueBucketHead.getValue()), "value", entry, valueBucketHead);
+        bucketSize++;
+    }
+    return bucketSize;
+}

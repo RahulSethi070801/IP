@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "38": "  private final ConcurrentLinkedQueue<EventWithSubscriber> eventsToDispatch =\n",
+        "39": "      new ConcurrentLinkedQueue<EventWithSubscriber>();\n",
+        "85": "  void enqueueEvent(Object event, EventSubscriber subscriber) {\n",
+        "86": "    eventsToDispatch.offer(new EventWithSubscriber(event, subscriber));\n",
+        "97": "      EventWithSubscriber eventWithSubscriber = eventsToDispatch.poll();\n",
+        "98": "      if (eventWithSubscriber == null) {\n",
+        "102": "      dispatch(eventWithSubscriber.event, eventWithSubscriber.subscriber);\n",
+        "107": "   * Calls the {@link #executor} to dispatch {@code event} to {@code subscriber}.\n",
+        "110": "  void dispatch(final Object event, final EventSubscriber subscriber) {\n",
+        "112": "    checkNotNull(subscriber);\n",
+        "117": "            AsyncEventBus.super.dispatch(event, subscriber);\n"
+    },
+    "removed": {
+        "38": "  private final ConcurrentLinkedQueue<EventWithHandler> eventsToDispatch =\n",
+        "39": "      new ConcurrentLinkedQueue<EventWithHandler>();\n",
+        "85": "  void enqueueEvent(Object event, EventHandler handler) {\n",
+        "86": "    eventsToDispatch.offer(new EventWithHandler(event, handler));\n",
+        "97": "      EventWithHandler eventWithHandler = eventsToDispatch.poll();\n",
+        "98": "      if (eventWithHandler == null) {\n",
+        "102": "      dispatch(eventWithHandler.event, eventWithHandler.handler);\n",
+        "107": "   * Calls the {@link #executor} to dispatch {@code event} to {@code handler}.\n",
+        "110": "  void dispatch(final Object event, final EventHandler handler) {\n",
+        "112": "    checkNotNull(handler);\n",
+        "117": "            AsyncEventBus.super.dispatch(event, handler);\n"
+    }
+}

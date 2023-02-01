@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "38": "import javax.annotation.CheckForNull;\n",
+        "125": "@ElementTypesAreNonnullByDefault\n",
+        "551": "    public boolean equals(@CheckForNull Object other) {\n",
+        "569": "    @CheckForNull final Character paddingChar;\n",
+        "571": "    StandardBaseEncoding(String name, String alphabetChars, @CheckForNull Character paddingChar) {\n",
+        "575": "    StandardBaseEncoding(Alphabet alphabet, @CheckForNull Character paddingChar) {\n",
+        "833": "    @LazyInit @CheckForNull private transient BaseEncoding upperCase;\n",
+        "834": "    @LazyInit @CheckForNull private transient BaseEncoding lowerCase;\n",
+        "856": "    BaseEncoding newInstance(Alphabet alphabet, @CheckForNull Character paddingChar) {\n",
+        "875": "    public boolean equals(@CheckForNull Object other) {\n",
+        "932": "    BaseEncoding newInstance(Alphabet alphabet, @CheckForNull Character paddingChar) {\n",
+        "938": "    Base64Encoding(String name, String alphabetChars, @CheckForNull Character paddingChar) {\n",
+        "942": "    private Base64Encoding(Alphabet alphabet, @CheckForNull Character paddingChar) {\n",
+        "989": "    BaseEncoding newInstance(Alphabet alphabet, @CheckForNull Character paddingChar) {\n",
+        "1040": "      public Appendable append(@CheckForNull CharSequence chars, int off, int len) {\n",
+        "1045": "      public Appendable append(@CheckForNull CharSequence chars) {\n"
+    },
+    "removed": {
+        "38": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "550": "    public boolean equals(@Nullable Object other) {\n",
+        "568": "    final @Nullable Character paddingChar;\n",
+        "570": "    StandardBaseEncoding(String name, String alphabetChars, @Nullable Character paddingChar) {\n",
+        "574": "    StandardBaseEncoding(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "832": "    @LazyInit private transient @Nullable BaseEncoding upperCase;\n",
+        "833": "    @LazyInit private transient @Nullable BaseEncoding lowerCase;\n",
+        "855": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "874": "    public boolean equals(@Nullable Object other) {\n",
+        "931": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "937": "    Base64Encoding(String name, String alphabetChars, @Nullable Character paddingChar) {\n",
+        "941": "    private Base64Encoding(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "988": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "1039": "      public Appendable append(@Nullable CharSequence chars, int off, int len) throws IOException {\n",
+        "1044": "      public Appendable append(@Nullable CharSequence chars) throws IOException {\n"
+    }
+}

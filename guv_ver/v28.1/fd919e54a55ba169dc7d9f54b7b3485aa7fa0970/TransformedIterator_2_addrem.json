@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "25": " * An iterator that transforms a backing iterator; for internal use. This avoids the object overhead\n",
+        "26": " * of constructing a {@link com.google.common.base.Function Function} for internal methods.\n"
+    },
+    "removed": {
+        "25": " * An iterator that transforms a backing iterator; for internal use. This avoids\n",
+        "26": " * the object overhead of constructing a {@link com.google.common.base.Function\n",
+        "27": " * Function} for internal methods.\n"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "117": "  /** Hasher that updates a message digest. */\n"
+    },
+    "removed": {
+        "117": "  /**\n",
+        "118": "   * Hasher that updates a message digest.\n",
+        "119": "   */\n"
+    }
+}

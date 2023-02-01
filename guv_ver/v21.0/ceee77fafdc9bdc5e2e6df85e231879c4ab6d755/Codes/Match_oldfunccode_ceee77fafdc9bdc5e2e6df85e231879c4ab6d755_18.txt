@@ -1,0 +1,4 @@
+@Override
+public ElementOrder<N> nodeOrder() {
+    return delegate().nodeOrder();
+}

@@ -1,0 +1,1 @@
+Graph<N, Set<E>> asGraph();

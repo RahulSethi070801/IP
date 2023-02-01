@@ -1,0 +1,7 @@
+
+   * A sensible, albeit inefficient, definition of {@link #equals} in terms of {@code
+   * entrySet().size()} and {@link #count}. If you override either of these methods, you may wish to
+   * override {@link #equals} to forward to this implementation.
+   *
+   * @since 7.0
+   

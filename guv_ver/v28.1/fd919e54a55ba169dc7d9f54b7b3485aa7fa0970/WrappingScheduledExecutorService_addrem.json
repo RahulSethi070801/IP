@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "25": " * An abstract {@code ScheduledExecutorService} that allows subclasses to {@linkplain\n",
+        "26": " * #wrapTask(Callable) wrap} tasks before they are submitted to the underlying executor.\n"
+    },
+    "removed": {
+        "24": " * An abstract {@code ScheduledExecutorService} that allows subclasses to\n",
+        "25": " * {@linkplain #wrapTask(Callable) wrap} tasks before they are submitted to the underlying executor.\n"
+    }
+}

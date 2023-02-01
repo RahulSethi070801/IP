@@ -1,0 +1,11 @@
+@Override
+@Nullable
+public Range<C> rangeContaining(C value) {
+    checkNotNull(value);
+    Entry<Cut<C>, Range<C>> floorEntry = rangesByLowerBound.floorEntry(Cut.belowValue(value));
+    if (floorEntry != null && floorEntry.getValue().contains(value)) {
+        return floorEntry.getValue();
+    } else {
+        return null;
+    }
+}

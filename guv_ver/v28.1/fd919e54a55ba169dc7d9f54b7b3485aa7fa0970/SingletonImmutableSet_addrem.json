@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "41": "  @LazyInit private transient int cachedHashCode;\n"
+    },
+    "removed": {
+        "41": "  @LazyInit\n",
+        "42": "  private transient int cachedHashCode;\n"
+    }
+}

@@ -1,0 +1,4 @@
+Ints
+Insertions: [35, 647, 710, 735]
+Deletions: [35, 647, 710, 735]
+guava/src/com/google/common/primitives/Ints.java

@@ -1,0 +1,4 @@
+HashBasedTable
+Insertions: [33, 34, 35, 37, 38, 39, 40, 42, 43, 46, 68, 77, 78, 79, 89, 92, 93]
+Deletions: [33, 34, 35, 36, 38, 39, 40, 41, 42, 44, 45, 46, 49, 50, 72, 73, 74, 83, 84, 85, 86, 96, 97, 100, 101]
+android/guava/src/com/google/common/collect/HashBasedTable.java

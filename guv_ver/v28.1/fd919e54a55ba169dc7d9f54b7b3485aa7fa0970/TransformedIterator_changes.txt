@@ -1,0 +1,4 @@
+TransformedIterator
+Insertions: [25, 26]
+Deletions: [25, 26, 27]
+android/guava/src/com/google/common/collect/TransformedIterator.java

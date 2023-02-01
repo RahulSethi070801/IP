@@ -1,0 +1,18 @@
+
+   * Adds a number of occurrences of an element to this multiset. Note that if {@code occurrences ==
+   * 1}, this method has the identical effect to {@link #add(Object)}. This method is functionally
+   * equivalent (except in the case of overflow) to the call {@code
+   * addAll(Collections.nCopies(element, occurrences))}, which would presumably perform much more
+   * poorly.
+   *
+   * @param element the element to add occurrences of; may be null only if explicitly allowed by the
+   *     implementation
+   * @param occurrences the number of occurrences of the element to add. May be zero, in which case
+   *     no change will be made.
+   * @return the count of the element before the operation; possibly zero
+   * @throws IllegalArgumentException if {@code occurrences} is negative, or if this operation would
+   *     result in more than {@link Integer#MAX_VALUE} occurrences of the element
+   * @throws NullPointerException if {@code element} is null and this implementation does not permit
+   *     null elements. Note that if {@code occurrences} is zero, the implementation may opt to
+   *     return normally.
+   

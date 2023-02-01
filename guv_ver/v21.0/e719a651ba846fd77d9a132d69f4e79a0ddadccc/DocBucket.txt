@@ -1,0 +1,45 @@
+com.google.common.io.Files
+toString
+public static String toString(File file, Charset charset) throws IOException
+File,Charset
+String
+com.google.common.io.BaseEncoding
+base32
+public static BaseEncoding base32()
+empty
+BaseEncoding
+com.google.common.io.BaseEncoding
+base64Url
+public static BaseEncoding base64Url()
+empty
+BaseEncoding
+com.google.common.io.BaseEncoding
+base32Hex
+public static BaseEncoding base32Hex()
+empty
+BaseEncoding
+com.google.common.io.ByteSource
+size
+public long size() throws IOException
+empty
+long
+com.google.common.io.BaseEncoding
+base16
+public static BaseEncoding base16()
+empty
+BaseEncoding
+com.google.common.io.ByteSource
+isEmpty
+public boolean isEmpty() throws IOException
+empty
+boolean
+com.google.common.io.ByteSource
+sizeIfKnown
+public Optional<Long> sizeIfKnown()
+empty
+Optional
+com.google.common.io.BaseEncoding
+base64
+public static BaseEncoding base64()
+empty
+BaseEncoding

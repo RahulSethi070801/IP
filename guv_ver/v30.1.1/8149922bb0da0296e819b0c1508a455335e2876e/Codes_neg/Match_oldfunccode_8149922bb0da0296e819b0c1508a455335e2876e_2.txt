@@ -1,0 +1,5 @@
+@Override
+@Nullable
+Class<?> getOwnerType(Class<?> rawType) {
+    return rawType.getEnclosingClass();
+}

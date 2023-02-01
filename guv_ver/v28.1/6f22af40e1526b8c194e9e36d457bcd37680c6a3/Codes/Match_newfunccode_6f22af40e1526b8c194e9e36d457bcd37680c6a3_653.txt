@@ -1,0 +1,5 @@
+@Override
+public Set<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {
+    assertTrue(Thread.holdsLock(mutex));
+    return super.replaceValues(key, values);
+}

@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "32": " * <p>See the Guava User Guide article on <a\n",
+        "33": " * href=\"https://github.com/google/guava/wiki/PrimitivesExplained#unsigned-support\">unsigned\n",
+        "118": "   *     value, or {@code radix} is not between {@link Character#MIN_RADIX} and {@link\n",
+        "119": "   *     Character#MAX_RADIX}\n",
+        "174": "  /** Returns the value of this {@code UnsignedLong} as an {@code int}. */\n",
+        "220": "  /** Returns the value of this {@code UnsignedLong} as a {@link BigInteger}. */\n",
+        "249": "  /** Returns a string representation of the {@code UnsignedLong} value, in base 10. */\n",
+        "257": "   * {@code radix < Character.MIN_RADIX} or {@code radix > Character.MAX_RADIX}, the radix {@code\n",
+        "258": "   * 10} is used.\n"
+    },
+    "removed": {
+        "32": " * <p>See the Guava User Guide article on\n",
+        "33": " * <a href=\"https://github.com/google/guava/wiki/PrimitivesExplained#unsigned-support\">unsigned\n",
+        "118": "   *     value, or {@code radix} is not between {@link Character#MIN_RADIX} and\n",
+        "119": "   *     {@link Character#MAX_RADIX}\n",
+        "174": "  /**\n",
+        "175": "   * Returns the value of this {@code UnsignedLong} as an {@code int}.\n",
+        "176": "   */\n",
+        "222": "  /**\n",
+        "223": "   * Returns the value of this {@code UnsignedLong} as a {@link BigInteger}.\n",
+        "224": "   */\n",
+        "253": "  /**\n",
+        "254": "   * Returns a string representation of the {@code UnsignedLong} value, in base 10.\n",
+        "255": "   */\n",
+        "263": "   * {@code radix < Character.MIN_RADIX} or {@code radix > Character.MAX_RADIX}, the radix\n",
+        "264": "   * {@code 10} is used.\n"
+    }
+}

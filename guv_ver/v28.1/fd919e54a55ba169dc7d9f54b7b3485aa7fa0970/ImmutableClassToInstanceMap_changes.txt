@@ -1,0 +1,4 @@
+ImmutableClassToInstanceMap
+Insertions: [29, 30, 63, 64, 73, 74, 75, 76, 77, 78, 79, 80, 82, 83, 91, 92, 101, 102, 105, 122, 123, 138, 139, 140, 142, 143, 146]
+Deletions: [29, 30, 63, 64, 72, 74, 75, 76, 77, 78, 79, 81, 82, 83, 91, 92, 101, 102, 105, 106, 123, 124, 139, 140, 141, 142, 144, 145, 148, 149]
+android/guava/src/com/google/common/collect/ImmutableClassToInstanceMap.java

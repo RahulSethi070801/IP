@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "27": "/** Tests for {@link Murmur3_128HashFunction}. */\n",
+        "36": "    assertHash(\n",
+        "37": "        0, 0xe34bbc7bbc071b6cL, 0x7a433ca9c49a9347L, \"The quick brown fox jumps over the lazy dog\");\n",
+        "38": "    assertHash(\n",
+        "39": "        0, 0x658ca970ff85269aL, 0x43fee3eaa68e5c3eL, \"The quick brown fox jumps over the lazy cog\");\n",
+        "54": "  /** Returns a {@link HashCode} for a sequence of longs, in big-endian order. */\n",
+        "64": "    HashFn hf =\n",
+        "65": "        new HashFn() {\n",
+        "66": "          @Override\n",
+        "67": "          public byte[] hash(byte[] input, int seed) {\n",
+        "68": "            Hasher hasher = murmur3_128(seed).newHasher();\n",
+        "69": "            Funnels.byteArrayFunnel().funnel(input, hasher);\n",
+        "70": "            return hasher.hash().asBytes();\n",
+        "71": "          }\n",
+        "72": "        };\n"
+    },
+    "removed": {
+        "27": "/**\n",
+        "28": " * Tests for {@link Murmur3_128HashFunction}.\n",
+        "29": " */\n",
+        "38": "    assertHash(0, 0xe34bbc7bbc071b6cL, 0x7a433ca9c49a9347L,\n",
+        "39": "        \"The quick brown fox jumps over the lazy dog\");\n",
+        "40": "    assertHash(0, 0x658ca970ff85269aL, 0x43fee3eaa68e5c3eL,\n",
+        "41": "        \"The quick brown fox jumps over the lazy cog\");\n",
+        "56": "  /**\n",
+        "57": "   * Returns a {@link HashCode} for a sequence of longs, in big-endian order.\n",
+        "58": "   */\n",
+        "68": "    HashFn hf = new HashFn() {\n",
+        "69": "      @Override public byte[] hash(byte[] input, int seed) {\n",
+        "70": "        Hasher hasher = murmur3_128(seed).newHasher();\n",
+        "71": "        Funnels.byteArrayFunnel().funnel(input, hasher);\n",
+        "72": "        return hasher.hash().asBytes();\n",
+        "73": "      }\n",
+        "74": "    };\n"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "24": "/** @author David Beaumont */\n",
+        "44": "    Map<Character, String> map =\n",
+        "45": "        ImmutableMap.of(\n",
+        "46": "            'a', \"first\",\n",
+        "47": "            'z', \"last\");\n",
+        "54": "    Map<Character, String> map =\n",
+        "55": "        ImmutableMap.of(\n",
+        "56": "            '\\0', \"zero\",\n",
+        "57": "            'a', \"first\",\n",
+        "58": "            'b', \"second\",\n",
+        "59": "            'z', \"last\",\n",
+        "60": "            '\\uFFFF', \"biggest\");\n"
+    },
+    "removed": {
+        "24": "/**\n",
+        "25": " * @author David Beaumont\n",
+        "26": " */\n",
+        "46": "    Map<Character, String> map = ImmutableMap.of(\n",
+        "47": "        'a', \"first\",\n",
+        "48": "        'z', \"last\");\n",
+        "55": "    Map<Character, String> map = ImmutableMap.of(\n",
+        "56": "        '\\0', \"zero\",\n",
+        "57": "        'a', \"first\",\n",
+        "58": "        'b', \"second\",\n",
+        "59": "        'z', \"last\",\n",
+        "60": "        '\\uFFFF', \"biggest\");\n"
+    }
+}

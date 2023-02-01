@@ -1,0 +1,6 @@
+private static sun.misc.Unsafe getUnsafe()
+public static int indexOf(short[] array, short[] target)
+
+private static sun.misc.Unsafe getUnsafe()
+public static int indexOf(byte[] array, byte[] target)
+

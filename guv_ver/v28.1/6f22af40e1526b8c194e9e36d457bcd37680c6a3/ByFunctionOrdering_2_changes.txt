@@ -1,0 +1,4 @@
+ByFunctionOrdering_2
+Insertions: [25, 47]
+Deletions: [25, 47]
+guava/src/com/google/common/collect/ByFunctionOrdering.java

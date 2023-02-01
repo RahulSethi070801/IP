@@ -1,0 +1,4 @@
+Platform_4
+Insertions: [26, 58]
+Deletions: [26, 58]
+guava/src/com/google/common/base/Platform.java

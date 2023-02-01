@@ -1,0 +1,3 @@
+
+   * Creates a fresh entry with the specified object at the specified position in the entry arrays.
+   

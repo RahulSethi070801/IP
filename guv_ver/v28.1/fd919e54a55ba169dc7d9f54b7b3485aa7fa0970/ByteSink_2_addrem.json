@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "35": " *\n",
+        "37": " *   <li><b>Methods that return a stream:</b> These methods should return a <i>new</i>, independent\n",
+        "38": " *       instance each time they are called. The caller is responsible for ensuring that the\n",
+        "39": " *       returned stream is closed.\n",
+        "40": " *   <li><b>Convenience methods:</b> These are implementations of common operations that are\n",
+        "41": " *       typically implemented by opening a stream using one of the methods in the first category,\n",
+        "42": " *       doing something and finally closing the stream or channel that was opened.\n",
+        "51": "  /** Constructor for use by subclasses. */\n",
+        "112": "   * Writes all the bytes from the given {@code InputStream} to this sink. Does not close {@code\n",
+        "113": "   * input}.\n"
+    },
+    "removed": {
+        "36": " * <li><b>Methods that return a stream:</b> These methods should return a <i>new</i>, independent\n",
+        "37": " *     instance each time they are called. The caller is responsible for ensuring that the returned\n",
+        "38": " *     stream is closed.\n",
+        "39": " * <li><b>Convenience methods:</b> These are implementations of common operations that are typically\n",
+        "40": " *     implemented by opening a stream using one of the methods in the first category, doing\n",
+        "41": " *     something and finally closing the stream or channel that was opened.\n",
+        "50": "  /**\n",
+        "51": "   * Constructor for use by subclasses.\n",
+        "52": "   */\n",
+        "113": "   * Writes all the bytes from the given {@code InputStream} to this sink. Does not close\n",
+        "114": "   * {@code input}.\n"
+    }
+}

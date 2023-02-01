@@ -1,0 +1,3 @@
+public java.util.Optional<T> toJavaUtil() {
+    return java.util.Optional.ofNullable(orNull());
+}

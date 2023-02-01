@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public static <T> T verifyNotNull(@NullableDecl T reference) {
+    return verifyNotNull(reference, "expected a non-null reference");
+}

@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "30": "  /** Format the template with args, only supports the placeholder {@code %s}. */\n"
+    },
+    "removed": {
+        "30": "  /**\n",
+        "31": "   * Format the template with args, only supports the placeholder\n",
+        "32": "   * {@code %s}.\n",
+        "33": "   */\n"
+    }
+}

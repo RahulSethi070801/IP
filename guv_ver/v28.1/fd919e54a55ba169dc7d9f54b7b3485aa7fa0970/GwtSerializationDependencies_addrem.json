@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "24": " * Contains dummy collection implementations to convince GWT that part of serializing a collection\n",
+        "25": " * is serializing its elements.\n"
+    },
+    "removed": {
+        "24": " * Contains dummy collection implementations to convince GWT that part of\n",
+        "25": " * serializing a collection is serializing its elements.\n"
+    }
+}

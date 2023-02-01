@@ -1,0 +1,4 @@
+
+   * Returns a joiner with the same behavior as this one, except automatically substituting {@code
+   * nullText} for any provided null elements.
+   

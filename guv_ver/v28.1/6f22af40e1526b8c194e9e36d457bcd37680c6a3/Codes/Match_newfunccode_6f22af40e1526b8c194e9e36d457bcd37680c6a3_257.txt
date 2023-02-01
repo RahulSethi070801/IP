@@ -1,0 +1,23 @@
+static boolean equalsImpl(List<?> thisList, @NullableDecl Object other) {
+    if (other == checkNotNull(thisList)) {
+        return true;
+    }
+    if (!(other instanceof List)) {
+        return false;
+    }
+    List<?> otherList = (List<?>) other;
+    int size = thisList.size();
+    if (size != otherList.size()) {
+        return false;
+    }
+    if (thisList instanceof RandomAccess && otherList instanceof RandomAccess) {
+        for (int i = 0; i < size; i++) {
+            if (!Objects.equal(thisList.get(i), otherList.get(i))) {
+                return false;
+            }
+        }
+        return true;
+    } else {
+        return Iterators.elementsEqual(thisList.iterator(), otherList.iterator());
+    }
+}

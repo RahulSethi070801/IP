@@ -1,0 +1,5 @@
+
+   * Returns {@link Collection#stream}.
+   *
+   * @deprecated There is no reason to use this; just invoke {@code collection.stream()} directly.
+   

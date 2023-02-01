@@ -1,0 +1,4 @@
+NetworkEquivalenceTest
+Insertions: [19, 20, 31, 55, 83, 89, 94, 100, 105, 111, 116, 122, 127, 132, 136, 139, 140, 142, 151, 155, 157, 170, 174, 182, 185]
+Deletions: [19, 30, 54, 82, 88, 93, 99, 104, 110, 115, 121, 126, 131, 135, 138, 139, 141, 150, 154, 156, 169, 173, 181, 184]
+guava-tests/test/com/google/common/graph/NetworkEquivalenceTest.java

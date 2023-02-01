@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "270": "  @Nullable\n",
+        "271": "  V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue);\n",
+        "298": "  boolean equals(@Nullable Object object);\n"
+    },
+    "removed": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "270": "  @NullableDecl\n",
+        "271": "  V edgeValueOrDefault(N nodeU, N nodeV, @NullableDecl V defaultValue);\n",
+        "298": "  boolean equals(@NullableDecl Object object);\n"
+    }
+}

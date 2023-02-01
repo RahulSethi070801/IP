@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "37": " * <p>Some of the methods in this class take arguments with a generic type of {@code Readable &\n",
+        "38": " * Closeable}. A {@link java.io.Reader} implements both of those interfaces. Similarly for {@code\n",
+        "39": " * Appendable & Closeable} and {@link java.io.Writer}.\n",
+        "53": "  /** Creates a new {@code CharBuffer} for buffering reads or writes. */\n",
+        "189": "   * <p>Does not close the {@code Readable}. If reading files or resources you should use the {@link\n",
+        "190": "   * Files#readLines} and {@link Resources#readLines} methods.\n",
+        "231": "   * Reads and discards data from the given {@code Readable} until the end of the stream is reached.\n",
+        "232": "   * Returns the total number of chars read. Does not close the stream.\n"
+    },
+    "removed": {
+        "37": " * <p>Some of the methods in this class take arguments with a generic type of\n",
+        "38": " * {@code Readable & Closeable}. A {@link java.io.Reader} implements both of those interfaces.\n",
+        "39": " * Similarly for {@code Appendable & Closeable} and {@link java.io.Writer}.\n",
+        "53": "  /**\n",
+        "54": "   * Creates a new {@code CharBuffer} for buffering reads or writes.\n",
+        "55": "   */\n",
+        "191": "   * <p>Does not close the {@code Readable}. If reading files or resources you should use the\n",
+        "192": "   * {@link Files#readLines} and {@link Resources#readLines} methods.\n",
+        "233": "   * Reads and discards data from the given {@code Readable} until the end of the stream is\n",
+        "234": "   * reached. Returns the total number of chars read. Does not close the stream.\n"
+    }
+}

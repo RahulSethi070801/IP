@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "58": "  static boolean stringIsNullOrEmpty(@Nullable String string) {\n",
+        "62": "  static String nullToEmpty(@Nullable String string) {\n",
+        "66": "  static String emptyToNull(@Nullable String string) {\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "58": "  static boolean stringIsNullOrEmpty(@NullableDecl String string) {\n",
+        "62": "  static String nullToEmpty(@NullableDecl String string) {\n",
+        "66": "  static String emptyToNull(@NullableDecl String string) {\n"
+    }
+}

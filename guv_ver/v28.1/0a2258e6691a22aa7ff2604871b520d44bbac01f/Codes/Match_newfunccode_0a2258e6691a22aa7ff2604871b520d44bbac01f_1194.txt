@@ -1,0 +1,4 @@
+@Override
+public Collection<V> get(@Nullable K key) {
+    return delegate().get(key);
+}

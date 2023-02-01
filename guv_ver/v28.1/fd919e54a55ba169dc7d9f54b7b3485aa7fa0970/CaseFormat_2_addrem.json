@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "32": "  /** Hyphenated variable naming convention, e.g., \"lower-hyphen\". */\n",
+        "51": "  /** C++ variable naming convention, e.g., \"lower_underscore\". */\n",
+        "70": "  /** Java variable naming convention, e.g., \"lowerCamel\". */\n",
+        "78": "  /** Java and C++ class naming convention, e.g., \"UpperCamel\". */\n",
+        "86": "  /** Java and C++ constant naming convention, e.g., \"UPPER_UNDERSCORE\". */\n",
+        "124": "  /** Enum values can override for performance reasons. */\n"
+    },
+    "removed": {
+        "32": "  /**\n",
+        "33": "   * Hyphenated variable naming convention, e.g., \"lower-hyphen\".\n",
+        "34": "   */\n",
+        "53": "  /**\n",
+        "54": "   * C++ variable naming convention, e.g., \"lower_underscore\".\n",
+        "55": "   */\n",
+        "74": "  /**\n",
+        "75": "   * Java variable naming convention, e.g., \"lowerCamel\".\n",
+        "76": "   */\n",
+        "84": "  /**\n",
+        "85": "   * Java and C++ class naming convention, e.g., \"UpperCamel\".\n",
+        "86": "   */\n",
+        "94": "  /**\n",
+        "95": "   * Java and C++ constant naming convention, e.g., \"UPPER_UNDERSCORE\".\n",
+        "96": "   */\n",
+        "134": "  /**\n",
+        "135": "   * Enum values can override for performance reasons.\n",
+        "136": "   */\n"
+    }
+}

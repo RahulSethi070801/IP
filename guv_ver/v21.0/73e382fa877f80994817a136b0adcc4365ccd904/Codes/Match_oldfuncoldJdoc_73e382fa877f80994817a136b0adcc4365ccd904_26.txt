@@ -1,0 +1,4 @@
+
+   * Adds {@code delta} to the value currently associated with {@code key}, and returns the new
+   * value.
+   

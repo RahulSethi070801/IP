@@ -1,0 +1,4 @@
+SubscriberTest
+Insertions: [63, 64, 111, 128, 139, 140, 141, 143]
+Deletions: [63, 110, 127, 128, 129, 140, 141, 142, 144, 145, 146]
+android/guava-tests/test/com/google/common/eventbus/SubscriberTest.java

@@ -1,0 +1,15 @@
+public <E extends T> List<E> leastOf(Iterable<E> iterable, int k) {
+    if (iterable instanceof Collection) {
+        Collection<E> collection = (Collection<E>) iterable;
+        if (collection.size() <= 2L * k) {
+            @SuppressWarnings("unchecked")
+            E[] array = (E[]) collection.toArray();
+            Arrays.sort(array, this);
+            if (array.length > k) {
+                array = ObjectArrays.arraysCopyOf(array, k);
+            }
+            return Collections.unmodifiableList(Arrays.asList(array));
+        }
+    }
+    return leastOf(iterable.iterator(), k);
+}

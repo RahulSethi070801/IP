@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "36": "   * Returns an iterator over elements of type {@code T}. The elements are returned in nondecreasing\n",
+        "37": "   * order according to the associated {@link #comparator}.\n"
+    },
+    "removed": {
+        "36": "   * Returns an iterator over elements of type {@code T}. The elements are returned in\n",
+        "37": "   * nondecreasing order according to the associated {@link #comparator}.\n"
+    }
+}

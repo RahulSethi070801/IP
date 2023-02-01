@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "24": "/** Precondition checks useful in collection implementations. */\n"
+    },
+    "removed": {
+        "24": "/**\n",
+        "25": " * Precondition checks useful in collection implementations.\n",
+        "26": " */\n"
+    }
+}

@@ -1,0 +1,30 @@
+@NullableDecl
+private V remove(@NullableDecl Object key, int hash) {
+    int tableIndex = hash & hashTableMask();
+    int next = table[tableIndex];
+    if (next == UNSET) {
+        return null;
+    }
+    int last = UNSET;
+    do {
+        if (getHash(entries[next]) == hash) {
+            if (Objects.equal(key, keys[next])) {
+                @SuppressWarnings("unchecked")
+                @NullableDecl
+                V oldValue = (V) values[next];
+                if (last == UNSET) {
+                    table[tableIndex] = getNext(entries[next]);
+                } else {
+                    entries[last] = swapNext(entries[last], getNext(entries[next]));
+                }
+                moveLastEntry(next);
+                size--;
+                modCount++;
+                return oldValue;
+            }
+        }
+        last = next;
+        next = getNext(entries[next]);
+    } while (next != UNSET);
+    return null;
+}

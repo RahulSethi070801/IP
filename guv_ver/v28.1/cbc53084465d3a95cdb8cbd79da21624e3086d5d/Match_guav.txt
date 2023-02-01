@@ -1,0 +1,27 @@
+public Iterable<N> breadthFirst(final Iterable<? extends N> startNodes)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+
+public Iterable<N> breadthFirst(final N startNode)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+
+public abstract Iterable<N> depthFirstPreOrder(Iterable<? extends N> startNodes)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+
+public Iterable<N> depthFirstPreOrder(final N startNode)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+
+public Iterable<N> depthFirstPostOrder(final Iterable<? extends N> startNodes)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+
+public Iterable<N> depthFirstPostOrder(final N startNode)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+
+public abstract Iterable<N> breadthFirst(Iterable<? extends N> startNodes)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+
+public abstract Iterable<N> depthFirstPostOrder(Iterable<? extends N> startNodes)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+
+public Iterable<N> depthFirstPreOrder(final Iterable<? extends N> startNodes)
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+

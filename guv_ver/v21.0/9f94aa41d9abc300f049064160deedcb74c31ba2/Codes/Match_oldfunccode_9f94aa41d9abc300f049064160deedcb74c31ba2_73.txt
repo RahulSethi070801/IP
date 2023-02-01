@@ -1,0 +1,4 @@
+@GwtIncompatible
+public static CacheBuilder<Object, Object> from(CacheBuilderSpec spec) {
+    return spec.toCacheBuilder().lenientParsing();
+}

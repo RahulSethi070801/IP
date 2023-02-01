@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "15": " */\n",
+        "16": "/**\n",
+        "17": " * Atomically sets the value to the given updated value if the current value {@code ==} the expected\n",
+        "18": " * value.\n",
+        "20": " * <p>May <a href=\"package-summary.html#Spurious\">fail spuriously</a> and does not provide ordering\n",
+        "21": " * guarantees, so is only rarely an appropriate alternative to {@code compareAndSet}.\n",
+        "29": "/** GWT emulation of AtomicBoolean. */\n",
+        "37": "  public AtomicBoolean() {}\n"
+    },
+    "removed": {
+        "15": " */  /**\n",
+        "16": " * Atomically sets the value to the given updated value\n",
+        "17": " * if the current value {@code ==} the expected value.\n",
+        "19": " * <p>May <a href=\"package-summary.html#Spurious\">fail spuriously</a>\n",
+        "20": " * and does not provide ordering guarantees, so is only rarely an\n",
+        "21": " * appropriate alternative to {@code compareAndSet}.\n",
+        "27": "\n",
+        "30": "/**\n",
+        "31": " * GWT emulation of AtomicBoolean.\n",
+        "32": " */\n",
+        "40": "  public AtomicBoolean() {\n",
+        "41": "  }\n"
+    }
+}

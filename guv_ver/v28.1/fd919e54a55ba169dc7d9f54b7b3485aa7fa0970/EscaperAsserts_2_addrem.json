@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "58": "   * Asserts that an escaper escapes the given character into the expected string.\n",
+        "64": "  public static void assertEscaping(CharEscaper escaper, String expected, char c) {\n",
+        "82": "   * Asserts that a Unicode escaper escapes the given code point into the expected string.\n",
+        "88": "  public static void assertEscaping(UnicodeEscaper escaper, String expected, int cp) {\n",
+        "106": "   * Asserts that a Unicode escaper escapes the given hi/lo surrogate pair into the expected string.\n",
+        "113": "  public static void assertUnicodeEscaping(\n",
+        "114": "      UnicodeEscaper escaper, String expected, char hi, char lo) {\n"
+    },
+    "removed": {
+        "58": "   * Asserts that an escaper escapes the given character into the expected\n",
+        "59": "   * string.\n",
+        "65": "  public static void assertEscaping(CharEscaper escaper, String expected,\n",
+        "66": "      char c) {\n",
+        "84": "   * Asserts that a Unicode escaper escapes the given code point into the\n",
+        "85": "   * expected string.\n",
+        "91": "  public static void assertEscaping(UnicodeEscaper escaper, String expected,\n",
+        "92": "      int cp) {\n",
+        "110": "   * Asserts that a Unicode escaper escapes the given hi/lo surrogate pair into\n",
+        "111": "   * the expected string.\n",
+        "118": "  public static void assertUnicodeEscaping(UnicodeEscaper escaper,\n",
+        "119": "      String expected, char hi, char lo) {\n"
+    }
+}

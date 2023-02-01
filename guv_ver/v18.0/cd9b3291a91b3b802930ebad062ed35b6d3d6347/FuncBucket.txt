@@ -1,0 +1,75 @@
+com.google.common.collect.Ranges
+all
+public static Range<C> all()
+empty
+Range
+com.google.common.collect.Ranges
+closed
+public static Range<C> closed(C lower, C upper)
+C,C
+Range
+com.google.common.collect.Ranges
+downTo
+public static Range<C> downTo(C endpoint, BoundType boundType)
+C,BoundType
+Range
+com.google.common.collect.Ranges
+atLeast
+public static Range<C> atLeast(C endpoint)
+C
+Range
+com.google.common.collect.Ranges
+upTo
+public static Range<C> upTo(C endpoint, BoundType boundType)
+C,BoundType
+Range
+com.google.common.collect.Ranges
+range
+public static Range<C> range(C lower, BoundType lowerType, C upper, BoundType upperType)
+C,BoundType,C,BoundType
+Range
+com.google.common.collect.Ranges
+encloseAll
+public static Range<C> encloseAll(Iterable<C> values)
+Iterable
+Range
+com.google.common.collect.Ranges
+singleton
+public static Range<C> singleton(C value)
+C
+Range
+com.google.common.collect.Ranges
+lessThan
+public static Range<C> lessThan(C endpoint)
+C
+Range
+com.google.common.collect.Ranges
+openClosed
+public static Range<C> openClosed(C lower, C upper)
+C,C
+Range
+com.google.common.collect.Ranges
+open
+public static Range<C> open(C lower, C upper)
+C,C
+Range
+com.google.common.collect.Ranges
+atMost
+public static Range<C> atMost(C endpoint)
+C
+Range
+com.google.common.collect.Ranges
+closedOpen
+public static Range<C> closedOpen(C lower, C upper)
+C,C
+Range
+com.google.common.collect.Ranges
+Ranges
+private Ranges()
+empty
+constructor
+com.google.common.collect.Ranges
+greaterThan
+public static Range<C> greaterThan(C endpoint)
+C
+Range

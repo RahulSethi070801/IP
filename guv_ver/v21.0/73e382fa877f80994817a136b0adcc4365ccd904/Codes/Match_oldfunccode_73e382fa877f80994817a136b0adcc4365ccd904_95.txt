@@ -1,0 +1,3 @@
+public static <K> AtomicLongMap<K> create() {
+    return new AtomicLongMap<K>(new ConcurrentHashMap<K, AtomicLong>());
+}

@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "18": "import java.util.stream.Collector;\n",
+        "39": "  /**\n",
+        "40": "   * Not supported. Use {@link ImmutableSortedMultiset#toImmutableSortedMultiset} instead.\n",
+        "41": "   * This method exists only to hide {@link ImmutableMultiset#toImmutableMultiset} from\n",
+        "42": "   * consumers of {@code ImmutableSortedMultiset}.\n",
+        "43": "   *\n",
+        "44": "   * @throws UnsupportedOperationException always\n",
+        "45": "   * @deprecated Use {@link ImmutableSortedMultiset#toImmutableSortedMultiset}.\n",
+        "46": "   * @since 21.0\n",
+        "47": "   */\n",
+        "48": "  @Deprecated\n",
+        "49": "  public static <E> Collector<E, ?, ImmutableMultiset<E>> toImmutableMultiset() {\n",
+        "50": "    throw new UnsupportedOperationException();\n",
+        "51": "  }\n",
+        "52": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,6 @@
+public static HashFunction sha1()
+public static HashFunction sha384()
+
+public static HashFunction md5()
+public static HashFunction sha256()
+

@@ -1,0 +1,5 @@
+com.google.common.collect.MapMakerInternalMap
+create
+static MapMakerInternalMap<K, V, ? extends InternalEntry<K, V, ?>, ?> create(MapMaker builder)
+MapMaker
+MapMakerInternalMap

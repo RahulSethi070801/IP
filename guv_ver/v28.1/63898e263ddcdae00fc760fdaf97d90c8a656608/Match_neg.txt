@@ -1,0 +1,6 @@
+static ImmutableList<URL> parseJavaClassPath()
+public static ClassPath from(ClassLoader classloader) throws IOException
+
+private static ImmutableList<URL> getClassLoaderUrls(ClassLoader classloader)
+public static ClassPath from(ClassLoader classloader) throws IOException
+

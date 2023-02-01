@@ -1,0 +1,4 @@
+@Override
+public <T> ComparisonChain compare(@Nullable T left, @Nullable T right, Comparator<T> comparator) {
+    return classify(comparator.compare(left, right));
+}

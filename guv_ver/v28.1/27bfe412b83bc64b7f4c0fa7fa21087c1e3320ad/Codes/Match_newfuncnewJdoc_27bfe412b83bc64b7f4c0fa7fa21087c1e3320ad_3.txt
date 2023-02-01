@@ -1,0 +1,5 @@
+
+   * Invoke this method to transition the service to the {@link State#FAILED}. The service will
+   * <b>not be stopped</b> if it is running. Invoke this method when a service has failed critically
+   * or otherwise cannot be started nor stopped.
+   

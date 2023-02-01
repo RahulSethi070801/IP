@@ -1,0 +1,3 @@
+public static <N> Endpoints<N> of(Network<?, ?> network, N nodeA, N nodeB) {
+    return network.isDirected() ? ofDirected(nodeA, nodeB) : ofUndirected(nodeA, nodeB);
+}

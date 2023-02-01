@@ -1,0 +1,6 @@
+public Duration elapsed()
+public long elapsed(TimeUnit desiredUnit)
+
+public Duration elapsed()
+public long elapsed(TimeUnit desiredUnit)
+

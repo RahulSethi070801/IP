@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "82": "    addEdge(E12, N1, N2);\n",
+        "83": "    assertTrue(undirectedGraph.removeEdge(E11_A));\n",
+        "85": "    assertThat(undirectedGraph.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "86": "    assertTrue(undirectedGraph.removeEdge(E11));\n",
+        "87": "    assertThat(undirectedGraph.edgesConnecting(N1, N1)).isEmpty();\n",
+        "88": "    assertThat(undirectedGraph.edgesConnecting(N1, N2)).containsExactly(E12);\n"
+    },
+    "removed": {
+        "82": "    assertTrue(graph.removeEdge(E11_A));\n"
+    }
+}

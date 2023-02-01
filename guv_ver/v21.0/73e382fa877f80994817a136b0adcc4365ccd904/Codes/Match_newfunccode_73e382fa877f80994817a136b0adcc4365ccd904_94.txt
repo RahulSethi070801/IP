@@ -1,0 +1,5 @@
+default void removeAll(Iterable<Range<C>> ranges) {
+    for (Range<C> range : ranges) {
+        remove(range);
+    }
+}

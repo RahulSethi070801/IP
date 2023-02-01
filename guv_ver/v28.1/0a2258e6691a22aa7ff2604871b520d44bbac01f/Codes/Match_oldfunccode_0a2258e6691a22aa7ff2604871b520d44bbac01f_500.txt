@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+Collection<V> removeAll(@CompatibleWith("K") @NullableDecl Object key);

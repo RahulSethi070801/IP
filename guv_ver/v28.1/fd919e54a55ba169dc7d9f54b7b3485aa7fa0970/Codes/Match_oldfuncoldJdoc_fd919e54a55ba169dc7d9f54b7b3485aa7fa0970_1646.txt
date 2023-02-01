@@ -1,0 +1,1 @@
+ Returns ~2x the old capacity if small; ~1.5x otherwise. 

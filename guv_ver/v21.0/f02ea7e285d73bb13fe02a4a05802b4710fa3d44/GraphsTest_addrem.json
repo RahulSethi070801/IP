@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "215": "    directedGraph.putEdge(N1, N3);\n",
+        "222": "    expectedTranspose.putEdge(N3, N1);\n",
+        "252": "    directedGraph.putEdgeValue(N1, N3, E13);\n",
+        "260": "    expectedTranspose.putEdgeValue(N3, N1, E13);\n",
+        "271": "    assertThat(transpose.edgeValueOrDefault(N1, N2, null)).isNull();\n",
+        "274": "    assertThat(transpose.edgeValueOrDefault(N1, N2, null)).isEqualTo(E21);\n",
+        "289": "        NetworkBuilder.directed().allowsParallelEdges(true).allowsSelfLoops(true).build();\n",
+        "290": "    directedGraph.addEdge(N1, N3, E13);\n",
+        "293": "    directedGraph.addEdge(N1, N2, E12_A);\n",
+        "298": "        NetworkBuilder.directed().allowsParallelEdges(true).allowsSelfLoops(true).build();\n",
+        "299": "    expectedTranspose.addEdge(N3, N1, E13);\n",
+        "302": "    expectedTranspose.addEdge(N2, N1, E12_A);\n"
+    },
+    "removed": {
+        "267": "    EndpointPair<Integer> pair12 = EndpointPair.ordered(N1, N2);\n",
+        "268": "    assertThat(transpose.edgeValues().get(pair12)).isNull();\n",
+        "271": "    assertThat(transpose.edgeValues().get(pair12)).isEqualTo(E21);\n",
+        "286": "        NetworkBuilder.directed().allowsSelfLoops(true).build();\n",
+        "293": "        NetworkBuilder.directed().allowsSelfLoops(true).build();\n"
+    }
+}

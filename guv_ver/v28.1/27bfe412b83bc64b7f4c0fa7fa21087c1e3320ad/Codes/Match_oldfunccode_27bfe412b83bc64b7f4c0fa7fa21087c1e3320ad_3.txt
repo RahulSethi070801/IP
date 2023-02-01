@@ -1,0 +1,25 @@
+protected final void notifyFailed(Throwable cause) {
+    checkNotNull(cause);
+    monitor.enter();
+    try {
+        State previous = state();
+        switch(previous) {
+            case NEW:
+            case TERMINATED:
+                throw new IllegalStateException("Failed while in state:" + previous, cause);
+            case RUNNING:
+            case STARTING:
+            case STOPPING:
+                snapshot = new StateSnapshot(FAILED, false, cause);
+                enqueueFailedEvent(previous, cause);
+                break;
+            case FAILED:
+                break;
+            default:
+                throw new AssertionError("Unexpected state: " + previous);
+        }
+    } finally {
+        monitor.leave();
+        dispatchListenerEvents();
+    }
+}

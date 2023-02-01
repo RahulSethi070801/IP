@@ -1,0 +1,25 @@
+com.google.common.collect.Iterators
+concat
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b)
+Iterator,Iterator
+Iterator
+com.google.common.collect.Iterators
+concat
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c)
+Iterator,Iterator,Iterator
+Iterator
+com.google.common.collect.Iterators
+concat
+public static Iterator<T> concat(Iterator<? extends T>... inputs)
+Iterator...
+Iterator
+com.google.common.collect.Sets
+union
+public static SetView<E> union(final Set<? extends E> set1, final Set<? extends E> set2)
+Set,Set
+SetView
+com.google.common.collect.Iterators
+concat
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c, Iterator<? extends T> d)
+Iterator,Iterator,Iterator,Iterator
+Iterator

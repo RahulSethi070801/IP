@@ -1,0 +1,4 @@
+@Override
+public Set<Entry<K, V>> entrySet() {
+    return filteredDelegate.entrySet();
+}

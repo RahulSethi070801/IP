@@ -1,0 +1,10 @@
+{
+    "addition": {},
+    "removed": {
+        "19": "import static com.google.common.base.Preconditions.checkArgument;\n",
+        "21": "import static com.google.common.graph.GraphConstants.NETWORK_WITH_PARALLEL_EDGE;\n",
+        "50": "    // TODO(user): Consider dropping this restriction. Would this do what users expect?\n",
+        "51": "    checkArgument(!((graph instanceof Network) && ((Network<N, ?>) graph).allowsParallelEdges()),\n",
+        "52": "        NETWORK_WITH_PARALLEL_EDGE);\n"
+    }
+}

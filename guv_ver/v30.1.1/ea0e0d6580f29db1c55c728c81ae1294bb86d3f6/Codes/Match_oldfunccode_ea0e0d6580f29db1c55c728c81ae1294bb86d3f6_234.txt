@@ -1,0 +1,4 @@
+@Override
+public final boolean equals(@Nullable Object object) {
+    return Multisets.equalsImpl(this, object);
+}

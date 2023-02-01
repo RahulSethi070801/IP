@@ -1,0 +1,4 @@
+FuturesTest
+Insertions: [293, 294, 295, 296, 297, 535]
+Deletions: [530]
+guava-tests/test/com/google/common/util/concurrent/FuturesTest.java

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "42": "        EndpointPair<Integer> endpointPair = network.incidentNodes(inEdge);\n",
+        "43": "        assertThat(endpointPair.source()).isEqualTo(endpointPair.adjacentNode(node));\n",
+        "44": "        assertThat(endpointPair.target()).isEqualTo(node);\n",
+        "48": "        EndpointPair<Integer> endpointPair = network.incidentNodes(outEdge);\n",
+        "49": "        assertThat(endpointPair.source()).isEqualTo(node);\n",
+        "50": "        assertThat(endpointPair.target()).isEqualTo(endpointPair.adjacentNode(node));\n"
+    },
+    "removed": {
+        "42": "        Endpoints<Integer> endpoints = network.incidentNodes(inEdge);\n",
+        "43": "        assertThat(endpoints.source()).isEqualTo(endpoints.adjacentNode(node));\n",
+        "44": "        assertThat(endpoints.target()).isEqualTo(node);\n",
+        "48": "        Endpoints<Integer> endpoints = network.incidentNodes(outEdge);\n",
+        "49": "        assertThat(endpoints.source()).isEqualTo(node);\n",
+        "50": "        assertThat(endpoints.target()).isEqualTo(endpoints.adjacentNode(node));\n"
+    }
+}

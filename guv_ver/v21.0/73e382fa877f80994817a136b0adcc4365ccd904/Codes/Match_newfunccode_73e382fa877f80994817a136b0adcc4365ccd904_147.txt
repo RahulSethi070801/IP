@@ -1,0 +1,3 @@
+public static DoubleStream stream(OptionalDouble optional) {
+    return optional.isPresent() ? DoubleStream.of(optional.getAsDouble()) : DoubleStream.empty();
+}

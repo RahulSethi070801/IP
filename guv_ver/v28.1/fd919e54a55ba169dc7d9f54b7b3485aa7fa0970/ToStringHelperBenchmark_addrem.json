@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "29": "  @Param({\"0\", \"2\", \"5\", \"10\"})\n",
+        "30": "  int dataSize;\n",
+        "31": "\n",
+        "37": "        .add(NAME, 10)\n",
+        "38": "        .addValue(10L)\n",
+        "39": "        .add(NAME, 3.14f)\n",
+        "40": "        .addValue(3.14d)\n",
+        "41": "        .add(NAME3, false)\n",
+        "42": "        .add(NAME3, NAME3)\n",
+        "43": "        .add(NAME3, 'x');\n",
+        "46": "  @Benchmark\n",
+        "47": "  int toString(int reps) {\n",
+        "54": "      dummy ^= helper.toString().hashCode();\n"
+    },
+    "removed": {
+        "29": "  @Param({\"0\", \"2\", \"5\", \"10\"}) int dataSize;\n",
+        "35": "      .add(NAME, 10)\n",
+        "36": "      .addValue(10L)\n",
+        "37": "      .add(NAME, 3.14f)\n",
+        "38": "      .addValue(3.14d)\n",
+        "39": "      .add(NAME3, false)\n",
+        "40": "      .add(NAME3, NAME3)\n",
+        "41": "      .add(NAME3, 'x');\n",
+        "44": "  @Benchmark int toString(int reps) {\n",
+        "51": "      dummy ^= helper\n",
+        "52": "          .toString().hashCode();\n"
+    }
+}

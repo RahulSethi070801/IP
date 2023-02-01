@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "27": "import java.util.Map.Entry;\n",
+        "200": "    for (Entry<T, Integer> entry : counts.entrySet()) {\n"
+    },
+    "removed": {
+        "199": "    for (Map.Entry<T, Integer> entry : counts.entrySet()) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+MultiInputStream
+Insertions: [23, 36, 93]
+Deletions: [23, 36, 93]
+guava/src/com/google/common/io/MultiInputStream.java

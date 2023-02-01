@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "35": "import java.util.function.ObjIntConsumer;\n",
+        "49": "  // TODO(lowasser): consider overhauling this back to Map<E, Integer>\n",
+        "129": "  @Override public void forEachEntry(ObjIntConsumer<? super E> action) {\n",
+        "130": "    checkNotNull(action);\n",
+        "131": "    backingMap.forEach((element, count) -> action.accept(element, count.get()));\n",
+        "132": "  }\n",
+        "133": "\n"
+    },
+    "removed": {
+        "48": "\n"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "24": "import javax.annotation.CheckForNull;\n",
+        "35": "@ElementTypesAreNonnullByDefault\n",
+        "59": "  /*\n",
+        "60": "   * Our implementation works fine with a null `dir`. However, there's nothing in the documentation\n",
+        "61": "   * of the supertype that suggests that implementations are expected to tolerate null. That said, I\n",
+        "62": "   * see calls in Google code that pass a null `dir` to a FilenameFilter.... So let's declare the\n",
+        "63": "   * parameter as non-nullable (since passing null to a FilenameFilter is unsafe in general), but if\n",
+        "64": "   * someone still manages to pass null, let's continue to have the method work.\n",
+        "65": "   *\n",
+        "66": "   * (OK, I haven't done that yet, but I will when I follow through on the TODO below after updating\n",
+        "67": "   * callers.)\n",
+        "68": "   *\n",
+        "69": "   * (PatternFilenameFilter is of course one of those classes that shouldn't be a publicly visible\n",
+        "70": "   * class to begin with but rather something returned from a static factory method whose declared\n",
+        "71": "   * return type is plain FilenameFilter. If we made such a change, then the annotation we choose\n",
+        "72": "   * here would have no significance to end users, who would be forced to conform to the signature\n",
+        "73": "   * used in FilenameFilter.)\n",
+        "74": "   */\n",
+        "76": "  @SuppressWarnings(\"nullness\") // TODO(cpovirk): Remove with removal of @CheckForNull.\n",
+        "77": "  public boolean accept(/* TODO(cpovirk): remove */ @CheckForNull File dir, String fileName) {\n"
+    },
+    "removed": {
+        "24": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "59": "  public boolean accept(@Nullable File dir, String fileName) {\n"
+    }
+}

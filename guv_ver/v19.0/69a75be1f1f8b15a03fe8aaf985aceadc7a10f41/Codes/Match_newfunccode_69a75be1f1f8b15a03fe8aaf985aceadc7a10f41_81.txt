@@ -1,0 +1,4 @@
+@Override
+void putThread(Waiter waiter, Thread thread) {
+    UNSAFE.putObject(waiter, WAITER_THREAD_OFFSET, thread);
+}

@@ -1,0 +1,4 @@
+@Override
+public boolean isSatisfied() {
+    return state().compareTo(RUNNING) <= 0;
+}

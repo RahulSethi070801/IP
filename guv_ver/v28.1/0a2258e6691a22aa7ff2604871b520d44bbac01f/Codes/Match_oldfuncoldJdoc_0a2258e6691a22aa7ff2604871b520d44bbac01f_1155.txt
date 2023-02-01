@@ -1,0 +1,6 @@
+
+   * Returns a predicate that evaluates to true if and only if the input is equivalent to {@code
+   * target} according to this equivalence relation.
+   *
+   * @since 10.0
+   

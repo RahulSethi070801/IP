@@ -1,0 +1,4 @@
+Synchronized_2
+Insertions: [54, 55, 57, 58, 1304]
+Deletions: [54, 55, 57, 58, 59, 1305, 1306]
+guava/src/com/google/common/collect/Synchronized.java

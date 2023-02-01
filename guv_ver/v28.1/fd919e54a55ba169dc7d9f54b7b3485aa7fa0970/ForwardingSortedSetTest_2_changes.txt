@@ -1,0 +1,4 @@
+ForwardingSortedSetTest_2
+Insertions: [41, 48, 49, 53, 54, 58, 59, 63, 64, 68, 69, 73, 74, 78, 79, 83, 84, 88, 89, 93, 94, 98, 99, 103, 104, 108, 109, 113, 114, 150, 151, 152, 153, 154, 155, 156, 157, 171, 172]
+Deletions: [41, 42, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97, 101, 137, 138, 139, 140, 141, 155]
+guava-tests/test/com/google/common/collect/ForwardingSortedSetTest.java

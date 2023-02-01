@@ -1,0 +1,3 @@
+Collection<V> wrapCollection(@NullableDecl K key, Collection<V> collection) {
+    return new WrappedCollection(key, collection, null);
+}

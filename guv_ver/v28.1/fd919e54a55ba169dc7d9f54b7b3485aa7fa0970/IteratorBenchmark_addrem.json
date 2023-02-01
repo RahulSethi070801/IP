@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "31": "  @Param({\"0\", \"1\", \"16\", \"256\", \"4096\", \"65536\"})\n",
+        "32": "  int size;\n",
+        "39": "  @BeforeExperiment\n",
+        "40": "  void setUp() {\n",
+        "53": "  @Benchmark\n",
+        "54": "  int arrayIndexed(int reps) {\n",
+        "64": "  @Benchmark\n",
+        "65": "  int arrayIndexedLength(int reps) {\n",
+        "75": "  @Benchmark\n",
+        "76": "  int arrayFor(int reps) {\n",
+        "86": "  @Benchmark\n",
+        "87": "  int arrayListIndexed(int reps) {\n",
+        "97": "  @Benchmark\n",
+        "98": "  int arrayListIndexedLength(int reps) {\n",
+        "108": "  @Benchmark\n",
+        "109": "  int arrayListFor(int reps) {\n",
+        "119": "  @Benchmark\n",
+        "120": "  int arrayListToArrayFor(int reps) {\n",
+        "130": "  @Benchmark\n",
+        "131": "  int linkedListFor(int reps) {\n",
+        "141": "  @Benchmark\n",
+        "142": "  int linkedListToArrayFor(int reps) {\n"
+    },
+    "removed": {
+        "31": "  @Param({\"0\", \"1\", \"16\", \"256\", \"4096\", \"65536\"}) int size;\n",
+        "38": "  @BeforeExperiment void setUp() {\n",
+        "51": "  @Benchmark int arrayIndexed(int reps) {\n",
+        "61": "  @Benchmark int arrayIndexedLength(int reps) {\n",
+        "71": "  @Benchmark int arrayFor(int reps) {\n",
+        "81": "  @Benchmark int arrayListIndexed(int reps) {\n",
+        "91": "  @Benchmark int arrayListIndexedLength(int reps) {\n",
+        "101": "  @Benchmark int arrayListFor(int reps) {\n",
+        "111": "  @Benchmark int arrayListToArrayFor(int reps) {\n",
+        "121": "  @Benchmark int linkedListFor(int reps) {\n",
+        "131": "  @Benchmark int linkedListToArrayFor(int reps) {\n"
+    }
+}

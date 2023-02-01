@@ -1,0 +1,4 @@
+Multimap
+Insertions: [30, 184, 190, 197, 212, 223, 242, 263, 275, 289, 371]
+Deletions: [30, 184, 190, 197, 198, 213, 224, 225, 244, 265, 277, 291, 373]
+guava/src/com/google/common/collect/Multimap.java

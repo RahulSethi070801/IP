@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "59": "          return backingMultiset.descendingMultiset().entrySet().iterator();\n",
+        "208": "        .testForwarding(\n",
+        "209": "            SortedMultiset.class,\n",
+        "210": "            new Function<SortedMultiset, SortedMultiset>() {\n",
+        "211": "              @Override\n",
+        "212": "              public SortedMultiset apply(SortedMultiset delegate) {\n",
+        "213": "                return wrap(delegate);\n",
+        "214": "              }\n",
+        "215": "            });\n",
+        "229": "      @Override\n",
+        "230": "      protected SortedMultiset<T> delegate() {\n"
+    },
+    "removed": {
+        "59": "          return backingMultiset\n",
+        "60": "              .descendingMultiset()\n",
+        "61": "              .entrySet()\n",
+        "62": "              .iterator();\n",
+        "211": "        .testForwarding(SortedMultiset.class, new Function<SortedMultiset, SortedMultiset>() {\n",
+        "212": "          @Override public SortedMultiset apply(SortedMultiset delegate) {\n",
+        "213": "            return wrap(delegate);\n",
+        "214": "          }\n",
+        "215": "        });\n",
+        "229": "      @Override protected SortedMultiset<T> delegate() {\n"
+    }
+}

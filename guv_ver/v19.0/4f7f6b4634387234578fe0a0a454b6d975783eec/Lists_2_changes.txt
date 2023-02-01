@@ -1,0 +1,4 @@
+Lists_2
+Insertions: [444, 445, 446, 506, 507, 508]
+Deletions: [444, 504]
+guava/src/com/google/common/collect/Lists.java

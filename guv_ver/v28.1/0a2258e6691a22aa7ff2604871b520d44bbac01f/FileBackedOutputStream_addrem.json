@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "49": "  @Nullable private File file;\n"
+    },
+    "removed": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "49": "  @NullableDecl private File file;\n"
+    }
+}

@@ -1,0 +1,4 @@
+GwtTransient_2
+Insertions: [28, 29, 30]
+Deletions: [28, 29, 30]
+guava/src/com/google/common/collect/GwtTransient.java

@@ -1,0 +1,4 @@
+public static LinearTransformation vertical(double x) {
+    checkArgument(isFinite(x));
+    return new VerticalLinearTransformation(x);
+}

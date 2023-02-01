@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+int add(@NullableDecl E element, int occurrences);

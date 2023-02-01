@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "291": "   * Returns {@code true} iff {@code object} is a {@link Network} that has the same elements and the\n",
+        "292": "   * same structural relationships as those in this network.\n",
+        "294": "   * <p>Thus, two networks A and B are equal if <b>all</b> of the following are true:\n",
+        "295": "   *\n",
+        "296": "   * <ul>\n",
+        "297": "   * <li>A and B have equal {@link #isDirected() directedness}.\n",
+        "298": "   * <li>A and B have equal {@link #nodes() node sets}.\n",
+        "299": "   * <li>A and B have equal {@link #edges() edge sets}.\n",
+        "300": "   * <li>Every edge in A and B connects the same nodes in the same direction (if any).\n",
+        "301": "   * </ul>\n",
+        "302": "   *\n",
+        "303": "   * <p>Network properties besides {@link #isDirected() directedness} do <b>not</b> affect equality.\n",
+        "304": "   * For example, two networks may be considered equal even if one allows parallel edges and the\n",
+        "305": "   * other doesn't. Additionally, the order in which nodes or edges are added to the network, and\n",
+        "306": "   * the order in which they are iterated over, are irrelevant.\n",
+        "307": "   *\n",
+        "308": "   * <p>A reference implementation of this is provided by {@link AbstractNetwork#equals(Object)}.\n",
+        "314": "   * Returns the hash code for this network. The hash code of a network is defined as the hash code\n",
+        "315": "   * of a map from each of its {@link #edges() edges} to their {@link #incidentNodes(Object)\n",
+        "316": "   * incident nodes}.\n",
+        "317": "   *\n",
+        "318": "   * <p>A reference implementation of this is provided by {@link AbstractNetwork#hashCode()}.\n"
+    },
+    "removed": {
+        "291": "   * For the default {@link Network} implementations, returns true if {@code this == object}\n",
+        "292": "   * (reference equality). External implementations are free to define this method as they see fit,\n",
+        "293": "   * as long as they satisfy the {@link Object#equals(Object)} contract.\n",
+        "295": "   * <p>To compare two {@link Network}s based on their contents rather than their references, see\n",
+        "296": "   * {@link Graphs#equivalent(Network, Network)}.\n",
+        "302": "   * For the default {@link Network} implementations, returns {@code System.identityHashCode(this)}.\n",
+        "303": "   * External implementations are free to define this method as they see fit, as long as they\n",
+        "304": "   * satisfy the {@link Object#hashCode()} contract.\n"
+    }
+}

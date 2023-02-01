@@ -1,0 +1,4 @@
+JdkBackedImmutableBiMap
+Insertions: [24, 103]
+Deletions: [24, 103]
+guava/src/com/google/common/collect/JdkBackedImmutableBiMap.java

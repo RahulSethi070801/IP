@@ -1,0 +1,95 @@
+com.google.common.graph.ValueGraphBuilder
+from
+public static ValueGraphBuilder<N, Object> from(ValueGraph<N, ?> graph)
+ValueGraph
+ValueGraphBuilder
+com.google.common.graph.GraphBuilder
+from
+public static GraphBuilder<N> from(Graph<N> graph)
+Graph
+GraphBuilder
+com.google.common.graph.ValueGraph
+edgeValue
+Optional<V> edgeValue(N nodeU, N nodeV)
+N,N
+Optional
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableNetwork<N, E> inducedSubgraph(Network<N, E> network, Iterable<? extends N> nodes)
+Network,Iterable
+MutableNetwork
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableGraph<N> inducedSubgraph(Graph<N> graph, Iterable<? extends N> nodes)
+Graph,Iterable
+MutableGraph
+com.google.common.graph.ImmutableValueGraph
+connectionsOf
+private static GraphConnections<N, V> connectionsOf(final ValueGraph<N, V> graph, final N node)
+ValueGraph,N
+GraphConnections
+com.google.common.graph.ValueGraph
+edgeValueOrNull
+V edgeValueOrNull(N nodeU, N nodeV)
+N,N
+V
+com.google.common.graph.AbstractValueGraph
+edgeValue
+public Optional<V> edgeValue(N nodeU, N nodeV)
+N,N
+Optional
+com.google.common.graph.Graphs
+copyOf
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+ValueGraph
+MutableValueGraph
+com.google.common.graph.ValueGraph
+edgeValueOrDefault
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+N,N,V
+V
+com.google.common.graph.NetworkBuilder
+from
+public static NetworkBuilder<N, E> from(Network<N, E> network)
+Network
+NetworkBuilder
+com.google.common.graph.ValueGraph
+edgeValue
+V edgeValue(N nodeU, N nodeV)
+N,N
+V
+com.google.common.graph.AbstractValueGraph
+apply
+public V apply(EndpointPair<N> edge)
+EndpointPair
+V
+com.google.common.graph.ValueGraphBuilder
+from
+public static ValueGraphBuilder<N, V> from(ValueGraph<N, V> graph)
+ValueGraph
+ValueGraphBuilder
+com.google.common.graph.ImmutableValueGraph
+apply
+public V apply(N successorNode)
+N
+V
+com.google.common.graph.ConfigurableValueGraph
+edgeValueOrDefault
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+N,N,V
+V
+com.google.common.graph.ConfigurableValueGraph
+edgeValueOrNull
+public V edgeValueOrNull(N nodeU, N nodeV)
+N,N
+V
+com.google.common.graph.AbstractValueGraph
+edgeValue
+public V edgeValue(N nodeU, N nodeV)
+N,N
+V
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+ValueGraph,Iterable
+MutableValueGraph

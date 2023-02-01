@@ -1,0 +1,45 @@
+com.google.common.collect.ImmutableSet
+of
+public static ImmutableSet<E> of(E element)
+E
+ImmutableSet
+com.google.common.collect.ImmutableSet
+copyOf
+public static ImmutableSet<E> copyOf(Iterable<? extends E> elements)
+Iterable
+ImmutableSet
+com.google.common.collect.ImmutableSet
+of
+public static ImmutableSet<E> of(E e1, E e2, E e3)
+E,E,E
+ImmutableSet
+com.google.common.collect.ImmutableSet
+of
+public static ImmutableSet<E> of(E e1, E e2, E e3, E e4, E e5)
+E,E,E,E,E
+ImmutableSet
+com.google.common.collect.ImmutableCollection
+asList
+public ImmutableList<E> asList()
+empty
+ImmutableList
+com.google.common.collect.ImmutableSet
+of
+public static ImmutableSet<E> of(E e1, E e2)
+E,E
+ImmutableSet
+com.google.common.collect.ImmutableSet
+of
+public static ImmutableSet<E> of(E e1, E e2, E e3, E e4)
+E,E,E,E
+ImmutableSet
+com.google.common.collect.ImmutableSet
+of
+public static ImmutableSet<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E... others)
+E,E,E,E,E,E,E...
+ImmutableSet
+com.google.common.collect.ImmutableSet
+copyOf
+public static ImmutableSet<E> copyOf(Iterator<? extends E> elements)
+Iterator
+ImmutableSet

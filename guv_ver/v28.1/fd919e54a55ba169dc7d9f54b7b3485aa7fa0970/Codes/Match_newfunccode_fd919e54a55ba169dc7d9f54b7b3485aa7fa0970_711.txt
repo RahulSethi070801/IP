@@ -1,0 +1,10 @@
+@Override
+public int size() {
+    final Monitor monitor = this.monitor;
+    monitor.enter();
+    try {
+        return q.size();
+    } finally {
+        monitor.leave();
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "63": "    public boolean equals(@Nullable Object obj) {\n",
+        "116": "    @Nullable transient T value;\n",
+        "154": "    @Nullable T value;\n",
+        "217": "    @Nullable transient volatile T value;\n",
+        "264": "  public static <T> Supplier<T> ofInstance(@Nullable T instance) {\n",
+        "269": "    @Nullable final T instance;\n",
+        "271": "    SupplierOfInstance(@Nullable T instance) {\n",
+        "281": "    public boolean equals(@Nullable Object obj) {\n"
+    },
+    "removed": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "63": "    public boolean equals(@NullableDecl Object obj) {\n",
+        "116": "    @NullableDecl transient T value;\n",
+        "154": "    @NullableDecl T value;\n",
+        "217": "    @NullableDecl transient volatile T value;\n",
+        "264": "  public static <T> Supplier<T> ofInstance(@NullableDecl T instance) {\n",
+        "269": "    @NullableDecl final T instance;\n",
+        "271": "    SupplierOfInstance(@NullableDecl T instance) {\n",
+        "281": "    public boolean equals(@NullableDecl Object obj) {\n"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "44": "  private abstract static class FailToForward extends ForwardingObject implements Runnable {\n",
+        "45": "    @Override\n",
+        "46": "    public void run() {}\n",
+        "49": "  private abstract static class ForwardToDelegate extends ForwardingObject implements Runnable {\n",
+        "50": "    @Override\n",
+        "51": "    public void run() {\n",
+        "54": "\n",
+        "55": "    @Override\n",
+        "56": "    protected abstract Runnable delegate();\n"
+    },
+    "removed": {
+        "44": "  private static abstract class FailToForward extends ForwardingObject implements Runnable {\n",
+        "45": "    @Override public void run() {}\n",
+        "48": "  private static abstract class ForwardToDelegate extends ForwardingObject implements Runnable {\n",
+        "49": "    @Override public void run() {\n",
+        "52": "    @Override protected abstract Runnable delegate();\n"
+    }
+}

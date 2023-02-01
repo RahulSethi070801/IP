@@ -1,0 +1,4 @@
+MapsTransformValuesUnmodifiableIteratorTest_2
+Insertions: [26, 277, 278, 282, 333]
+Deletions: [276, 277, 281, 332]
+guava-tests/test/com/google/common/collect/MapsTransformValuesUnmodifiableIteratorTest.java

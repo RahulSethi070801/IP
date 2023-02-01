@@ -1,0 +1,15 @@
+public static Predicate<Path> isDirectory(LinkOption... options) {
+    final LinkOption[] optionsCopy = options.clone();
+    return new Predicate<Path>() {
+
+        @Override
+        public boolean apply(Path input) {
+            return Files.isDirectory(input, optionsCopy);
+        }
+
+        @Override
+        public String toString() {
+            return "MoreFiles.isDirectory(" + Arrays.toString(optionsCopy) + ")";
+        }
+    };
+}

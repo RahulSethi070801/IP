@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "27": " * This class implements the GWT serialization of {@link RegularImmutableBiMap}.\n"
+    },
+    "removed": {
+        "27": " * This class implements the GWT serialization of\n",
+        "28": " * {@link RegularImmutableBiMap}.\n"
+    }
+}

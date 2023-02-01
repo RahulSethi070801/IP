@@ -1,0 +1,140 @@
+com.google.common.graph.NetworkBuilder
+cast
+private NetworkBuilder<N1, E1> cast()
+empty
+NetworkBuilder
+com.google.common.graph.Network
+edgeOrder
+ElementOrder<? super E> edgeOrder()
+empty
+ElementOrder
+com.google.common.graph.Graph
+nodeOrder
+ElementOrder<? super N> nodeOrder()
+empty
+ElementOrder
+com.google.common.graph.ElementOrder
+comparator
+public Comparator<T> comparator()
+empty
+Comparator
+com.google.common.graph.AbstractConfigurableGraph
+getNodeMapforBuilder
+private static Map<S, NodeAdjacencies<S>> getNodeMapforBuilder(GraphBuilder<? super S> builder)
+GraphBuilder
+Map
+com.google.common.graph.AbstractConfigurableNetwork
+getNodeMapForBuilder
+private static Map<S, NodeConnections<S, T>> getNodeMapForBuilder(NetworkBuilder<? super S, ? super T> builder)
+NetworkBuilder
+Map
+com.google.common.graph.ElementOrder
+toString
+public String toString()
+empty
+String
+com.google.common.graph.ElementOrder
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.AbstractConfigurableNetwork
+AbstractConfigurableNetwork
+AbstractConfigurableNetwork(NetworkBuilder<? super N, ? super E> builder, Map<N, NodeConnections<N, E>> nodeConnections, Map<E, N> edgeToReferenceNode)
+NetworkBuilder,Map,Map
+constructor
+com.google.common.graph.AbstractConfigurableNetwork
+nodeOrder
+public ElementOrder<? super N> nodeOrder()
+empty
+ElementOrder
+com.google.common.graph.ElementOrder
+type
+public Type type()
+empty
+Type
+com.google.common.graph.ElementOrder
+insertion
+public static final ElementOrder<S> insertion()
+empty
+ElementOrder
+com.google.common.graph.NetworkBuilder
+orderEdges
+public NetworkBuilder<N, E1> orderEdges(ElementOrder<E1> edgeOrder)
+ElementOrder
+NetworkBuilder
+com.google.common.graph.AbstractConfigurableNetwork
+AbstractConfigurableNetwork
+AbstractConfigurableNetwork(NetworkBuilder<? super N, ? super E> builder)
+NetworkBuilder
+constructor
+com.google.common.graph.GraphBuilder
+from
+public static GraphBuilder<N> from(Graph<N> graph)
+Graph
+GraphBuilder
+com.google.common.graph.ElementOrder
+equals
+public boolean equals(Object o)
+Object
+boolean
+com.google.common.graph.ElementOrder
+sorted
+public static final ElementOrder<S> sorted(Comparator<S> comparator)
+Comparator
+ElementOrder
+com.google.common.graph.NetworkBuilder
+orderNodes
+public NetworkBuilder<N1, E> orderNodes(ElementOrder<N1> nodeOrder)
+ElementOrder
+NetworkBuilder
+com.google.common.graph.AbstractConfigurableGraph
+AbstractConfigurableGraph
+AbstractConfigurableGraph(GraphBuilder<? super N> builder)
+GraphBuilder
+constructor
+com.google.common.graph.ElementOrder
+ElementOrder
+private ElementOrder(Type type, @Nullable Comparator<T> comparator)
+Type,Comparator
+constructor
+com.google.common.graph.ElementOrder
+natural
+public static final ElementOrder<S> natural()
+empty
+ElementOrder
+com.google.common.graph.NetworkBuilder
+from
+public static NetworkBuilder<N, E> from(Network<N, E> graph)
+Network
+NetworkBuilder
+com.google.common.graph.GraphBuilder
+orderNodes
+public GraphBuilder<N1> orderNodes(ElementOrder<N1> nodeOrder)
+ElementOrder
+GraphBuilder
+com.google.common.graph.AbstractConfigurableGraph
+AbstractConfigurableGraph
+AbstractConfigurableGraph(GraphBuilder<? super N> builder, Map<N, NodeAdjacencies<N>> nodeConnections)
+GraphBuilder,Map
+constructor
+com.google.common.graph.AbstractConfigurableNetwork
+getEdgeMapForBuilder
+private static Map<T, S> getEdgeMapForBuilder(NetworkBuilder<? super S, ? super T> builder)
+NetworkBuilder
+Map
+com.google.common.graph.ElementOrder
+unordered
+public static final ElementOrder<S> unordered()
+empty
+ElementOrder
+com.google.common.graph.AbstractConfigurableNetwork
+edgeOrder
+public ElementOrder<? super E> edgeOrder()
+empty
+ElementOrder
+com.google.common.graph.GraphBuilder
+cast
+private GraphBuilder<N1> cast()
+empty
+GraphBuilder

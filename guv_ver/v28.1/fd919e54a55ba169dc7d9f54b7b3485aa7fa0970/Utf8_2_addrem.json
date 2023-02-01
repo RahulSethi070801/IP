@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "26": " * character encoding. UTF-8 is defined in section D92 of <a\n",
+        "27": " * href=\"http://www.unicode.org/versions/Unicode6.2.0/ch03.pdf\">The Unicode Standard Core\n",
+        "31": " * introduced in Unicode 3.1. One implication of this is that it rejects <a\n",
+        "32": " * href=\"http://www.unicode.org/versions/corrigendum1.html\">\"non-shortest form\"</a> byte sequences,\n",
+        "33": " * even though the JDK decoder may accept them.\n"
+    },
+    "removed": {
+        "26": " * character encoding. UTF-8 is defined in section D92 of\n",
+        "27": " * <a href=\"http://www.unicode.org/versions/Unicode6.2.0/ch03.pdf\">The Unicode Standard Core\n",
+        "31": " * introduced in Unicode 3.1. One implication of this is that it rejects\n",
+        "32": " * <a href=\"http://www.unicode.org/versions/corrigendum1.html\">\"non-shortest form\"</a> byte\n",
+        "33": " * sequences, even though the JDK decoder may accept them.\n"
+    }
+}

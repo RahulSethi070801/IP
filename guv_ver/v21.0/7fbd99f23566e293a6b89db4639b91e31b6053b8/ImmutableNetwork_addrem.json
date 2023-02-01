@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "33": " * <p>The time complexity of {@code edgesConnecting(nodeA, nodeB)} is O(min(outD_nodeA, inD_nodeB)).\n",
+        "67": "  public Set<E> edgesConnecting(Object nodeA, Object nodeB) {\n",
+        "70": "    return ImmutableSet.copyOf(super.edgesConnecting(nodeA, nodeB));\n",
+        "90": "      edgeToReferenceNode.put(edge, graph.incidentNodes(edge).nodeA());\n",
+        "115": "        return graph.incidentNodes(edge).source();\n",
+        "124": "        return graph.incidentNodes(edge).target();\n"
+    },
+    "removed": {
+        "33": " * <p>The time complexity of {@code edgesConnecting(node1, node2)} is O(min(outD_node1, inD_node2)).\n",
+        "67": "  public Set<E> edgesConnecting(Object node1, Object node2) {\n",
+        "70": "    return ImmutableSet.copyOf(super.edgesConnecting(node1, node2));\n",
+        "90": "      edgeToReferenceNode.put(edge, graph.incidentNodes(edge).iterator().next());\n",
+        "115": "        return graph.source(edge);\n",
+        "124": "        return graph.target(edge);\n"
+    }
+}

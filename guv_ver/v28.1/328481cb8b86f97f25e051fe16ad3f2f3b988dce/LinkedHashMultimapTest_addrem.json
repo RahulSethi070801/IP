@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "167": "    Iterator<Entry<String, Integer>> entryIterator =\n",
+        "175": "    Iterator<Entry<String, Collection<Integer>>> collectionIterator =\n",
+        "177": "    Entry<String, Collection<Integer>> entry = collectionIterator.next();\n"
+    },
+    "removed": {
+        "41": "import java.util.Map;\n",
+        "168": "    Iterator<Map.Entry<String, Integer>> entryIterator =\n",
+        "176": "    Iterator<Map.Entry<String, Collection<Integer>>> collectionIterator =\n",
+        "178": "    Map.Entry<String, Collection<Integer>> entry = collectionIterator.next();\n"
+    }
+}

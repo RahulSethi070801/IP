@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "31": " * A generic JUnit test which tests {@link Map#putIfAbsent}. Can't be invoked directly; please see\n",
+        "41": "    assertNull(\n",
+        "42": "        \"putIfAbsent(notPresent, value) should return null\", getMap().putIfAbsent(k3(), v3()));\n",
+        "49": "    assertEquals(\n",
+        "50": "        \"putIfAbsent(present, value) should return existing value\",\n",
+        "51": "        v0(),\n",
+        "52": "        getMap().putIfAbsent(k0(), v3()));\n",
+        "71": "      assertEquals(\n",
+        "72": "          \"putIfAbsent(present, existingValue) should return present or throw\",\n",
+        "73": "          v0(),\n",
+        "74": "          getMap().putIfAbsent(k0(), v0()));\n"
+    },
+    "removed": {
+        "31": " * A generic JUnit test which tests {@link Map#putIfAbsent}. Can't be\n",
+        "32": " * invoked directly; please see\n",
+        "42": "    assertNull(\"putIfAbsent(notPresent, value) should return null\", \n",
+        "43": "        getMap().putIfAbsent(k3(), v3()));\n",
+        "50": "    assertEquals(\"putIfAbsent(present, value) should return existing value\", \n",
+        "51": "        v0(), getMap().putIfAbsent(k0(), v3()));\n",
+        "70": "      assertEquals(\"putIfAbsent(present, existingValue) should return present or throw\",\n",
+        "71": "          v0(), getMap().putIfAbsent(k0(), v0()));\n"
+    }
+}

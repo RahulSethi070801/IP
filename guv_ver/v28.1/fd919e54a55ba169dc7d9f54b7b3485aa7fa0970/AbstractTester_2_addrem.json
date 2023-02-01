@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "23": " * This abstract base class for testers allows the framework to inject needed information after\n",
+        "24": " * JUnit constructs the instances.\n",
+        "28": " * @param <G> the type of the test generator required by this tester. An instance of G should\n",
+        "29": " *     somehow provide an instance of the class under test, plus any other information required to\n",
+        "30": " *     parameterize the test.\n"
+    },
+    "removed": {
+        "23": " * This abstract base class for testers allows the framework to inject needed\n",
+        "24": " * information after JUnit constructs the instances.\n",
+        "28": " * @param <G> the type of the test generator required by this tester. An\n",
+        "29": " * instance of G should somehow provide an instance of the class under test,\n",
+        "30": " * plus any other information required to parameterize the test.\n",
+        "31": " *\n"
+    }
+}

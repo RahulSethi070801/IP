@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "28": "/** Tests for AbstractNonStreamingHashFunction. */\n",
+        "35": "    List<Hasher> hashers =\n",
+        "36": "        ImmutableList.of(\n",
+        "37": "            new StreamingVersion().newHasher(),\n",
+        "38": "            new StreamingVersion().newHasher(52),\n",
+        "39": "            new NonStreamingVersion().newHasher(),\n",
+        "40": "            new NonStreamingVersion().newHasher(123));\n",
+        "57": "    assertPutString(new char[] {'p', HashTestUtils.randomLowSurrogate(new Random())});\n",
+        "63": "    assertPutString(new char[] {'p', HashTestUtils.randomHighSurrogate(new Random())});\n",
+        "67": "    assertPutString(\n",
+        "68": "        new char[] {\n",
+        "69": "          HashTestUtils.randomLowSurrogate(new Random()),\n",
+        "70": "          HashTestUtils.randomHighSurrogate(new Random())\n",
+        "71": "        });\n",
+        "75": "    assertPutString(\n",
+        "76": "        new char[] {\n",
+        "77": "          HashTestUtils.randomHighSurrogate(new Random()),\n",
+        "78": "          HashTestUtils.randomLowSurrogate(new Random())\n",
+        "79": "        });\n"
+    },
+    "removed": {
+        "28": "/**\n",
+        "29": " * Tests for AbstractNonStreamingHashFunction.\n",
+        "30": " */\n",
+        "37": "    List<Hasher> hashers = ImmutableList.of(\n",
+        "38": "        new StreamingVersion().newHasher(),\n",
+        "39": "        new StreamingVersion().newHasher(52),\n",
+        "40": "        new NonStreamingVersion().newHasher(),\n",
+        "41": "        new NonStreamingVersion().newHasher(123));\n",
+        "58": "    assertPutString(new char[] { 'p', HashTestUtils.randomLowSurrogate(new Random()) });\n",
+        "64": "    assertPutString(new char[] { 'p', HashTestUtils.randomHighSurrogate(new Random()) });\n",
+        "68": "    assertPutString(new char[] {\n",
+        "69": "        HashTestUtils.randomLowSurrogate(new Random()),\n",
+        "70": "        HashTestUtils.randomHighSurrogate(new Random()) });\n",
+        "74": "    assertPutString(new char[] {\n",
+        "75": "        HashTestUtils.randomHighSurrogate(new Random()),\n",
+        "76": "        HashTestUtils.randomLowSurrogate(new Random()) });\n"
+    }
+}

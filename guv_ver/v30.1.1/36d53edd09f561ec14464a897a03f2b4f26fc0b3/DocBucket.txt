@@ -1,0 +1,5 @@
+com.google.common.base.Splitter
+split
+public Iterable<String> split(final CharSequence sequence)
+CharSequence
+Iterable

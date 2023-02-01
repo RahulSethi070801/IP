@@ -1,0 +1,6 @@
+
+   * Returns the value associated with the specified key, or {@code null} if there is no such value.
+   *
+   * <p>Specifically, if any range in this range map contains the specified key, the value
+   * associated with that range is returned.
+   

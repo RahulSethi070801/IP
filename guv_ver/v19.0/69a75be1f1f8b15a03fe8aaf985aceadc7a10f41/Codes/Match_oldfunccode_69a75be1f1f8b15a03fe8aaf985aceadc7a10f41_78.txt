@@ -1,0 +1,4 @@
+@Override
+void putNext(Waiter waiter, Waiter next) {
+    WAITER_NEXT_UPDATER.lazySet(waiter, next);
+}

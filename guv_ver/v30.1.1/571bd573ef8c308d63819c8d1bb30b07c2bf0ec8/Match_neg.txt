@@ -1,0 +1,6 @@
+abstract Cancellable schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+public boolean cancel(boolean mayInterruptIfRunning)
+
+public Cancellable reschedule()
+public boolean cancel(boolean mayInterruptIfRunning)
+

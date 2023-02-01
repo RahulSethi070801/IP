@@ -1,0 +1,6 @@
+static int checkNonNegative(@Nullable String role, int x) {
+    if (x < 0) {
+        throw new IllegalArgumentException(role + " (" + x + ") must be >= 0");
+    }
+    return x;
+}

@@ -1,0 +1,5 @@
+com.google.common.collect.Maps
+uniqueIndex
+public static ImmutableMap<K, V> uniqueIndex(Iterable<V> values, Function<? super V, K> keyFunction)
+Iterable,Function
+ImmutableMap

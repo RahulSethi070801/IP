@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "40": "  @Override\n",
+        "41": "  ImmutableList<E> createAsList() {\n"
+    },
+    "removed": {
+        "40": "  @Override ImmutableList<E> createAsList() {\n"
+    }
+}

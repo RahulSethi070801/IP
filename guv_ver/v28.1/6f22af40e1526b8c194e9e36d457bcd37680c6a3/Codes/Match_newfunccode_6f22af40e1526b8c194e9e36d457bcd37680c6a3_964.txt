@@ -1,0 +1,3 @@
+static <V> TrustedListenableFutureTask<V> create(Runnable runnable, @NullableDecl V result) {
+    return new TrustedListenableFutureTask<V>(Executors.callable(runnable, result));
+}

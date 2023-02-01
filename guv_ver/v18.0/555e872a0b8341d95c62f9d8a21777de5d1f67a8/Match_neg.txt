@@ -1,0 +1,6 @@
+Type usedInGenericType(Type type)
+public Annotation[] getDeclaredAnnotations()
+
+public A getDeclaredAnnotation(Class<A> annotationType)
+public Annotation[] getDeclaredAnnotations()
+

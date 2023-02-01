@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "140": "            return graph.edgeValueOrNull(edge.nodeU(), edge.nodeV());\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.base.Preconditions.checkArgument;\n",
+        "20": "import static com.google.common.graph.GraphConstants.NODE_NOT_IN_GRAPH;\n",
+        "21": "\n",
+        "105": "  @Override\n",
+        "106": "  public V edgeValue(N nodeU, N nodeV) {\n",
+        "107": "    V value = edgeValueOrDefault(nodeU, nodeV, null);\n",
+        "108": "    if (value == null) {\n",
+        "109": "      checkArgument(nodes().contains(nodeU), NODE_NOT_IN_GRAPH, nodeU);\n",
+        "110": "      checkArgument(nodes().contains(nodeV), NODE_NOT_IN_GRAPH, nodeV);\n",
+        "111": "      throw new IllegalArgumentException(\n",
+        "112": "          \"Edge connecting \" + nodeU + \" to \" + nodeV + \" is not present in this graph.\");\n",
+        "113": "    }\n",
+        "114": "    return value;\n",
+        "115": "  }\n",
+        "116": "\n",
+        "155": "            return graph.edgeValue(edge.nodeU(), edge.nodeV());\n"
+    }
+}

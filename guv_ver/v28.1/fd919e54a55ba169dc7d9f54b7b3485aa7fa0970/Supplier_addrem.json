@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "22": " * java.util.function.Supplier}. Semantically, this could be a factory, generator, builder, closure,\n",
+        "23": " * or something else entirely. No guarantees are implied by this interface.\n"
+    },
+    "removed": {
+        "22": " * java.util.function.Supplier}. Semantically, this could be a factory, generator, builder,\n",
+        "23": " * closure, or something else entirely. No guarantees are implied by this interface.\n"
+    }
+}

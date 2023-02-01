@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "39": "  private static final Runnable DO_NOTHING =\n",
+        "40": "      new Runnable() {\n",
+        "41": "        @Override\n",
+        "42": "        public void run() {}\n",
+        "43": "      };\n",
+        "109": "    @Override\n",
+        "110": "    protected Runnable wrapTask(Runnable command) {\n"
+    },
+    "removed": {
+        "39": "  private static final Runnable DO_NOTHING = new Runnable() {\n",
+        "40": "    @Override\n",
+        "41": "    public void run() {\n",
+        "42": "    }\n",
+        "43": "  };\n",
+        "109": "    @Override protected Runnable wrapTask(Runnable command) {\n"
+    }
+}

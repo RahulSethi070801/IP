@@ -1,0 +1,4 @@
+PairwiseEquivalence
+Insertions: [20, 55]
+Deletions: [20, 55]
+android/guava/src/com/google/common/base/PairwiseEquivalence.java

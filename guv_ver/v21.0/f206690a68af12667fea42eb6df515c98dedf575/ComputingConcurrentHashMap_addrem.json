@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "115": "                    if (value != null) {\n"
+    },
+    "removed": {
+        "115": "                    if (value == null) {\n",
+        "116": "                      // TODO(kak): Remove this branch.\n",
+        "117": "                    } else if (map.expires() && map.isExpired(e)) {\n",
+        "118": "                      // This is a duplicate check, as preWriteCleanup already purged expired\n",
+        "119": "                      // entries, but let's accomodate an incorrect expiration queue.\n",
+        "120": "                      // TODO(kak): Remove this branch.\n",
+        "121": "                    } else {\n",
+        "125": "                    // immediately reuse invalid entries\n",
+        "126": "                    expirationQueue.remove(e);\n",
+        "378": "        expireAfterWriteNanos,\n",
+        "393": "        long expireAfterWriteNanos,\n",
+        "402": "          expireAfterWriteNanos,\n"
+    }
+}

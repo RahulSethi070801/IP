@@ -1,0 +1,7 @@
+public static int frequency(Iterator<?> iterator, @Nullable Object element) {
+    int count = 0;
+    while (contains(iterator, element)) {
+        count++;
+    }
+    return count;
+}

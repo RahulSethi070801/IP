@@ -1,0 +1,9 @@
+@CanIgnoreReturnValue
+static int checkNoConflictInKeyBucket(Object key, Entry<?, ?> entry, @Nullable ImmutableMapEntry<?, ?> keyBucketHead) {
+    int bucketSize = 0;
+    for (; keyBucketHead != null; keyBucketHead = keyBucketHead.getNextInKeyBucket()) {
+        checkNoConflict(!key.equals(keyBucketHead.getKey()), "key", entry, keyBucketHead);
+        bucketSize++;
+    }
+    return bucketSize;
+}

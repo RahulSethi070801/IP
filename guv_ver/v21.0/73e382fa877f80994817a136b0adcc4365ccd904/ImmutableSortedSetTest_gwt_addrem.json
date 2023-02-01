@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "621": "public void testToImmutableSortedSet() throws Exception {\n",
+        "622": "  com.google.common.collect.ImmutableSortedSetTest testCase = new com.google.common.collect.ImmutableSortedSetTest();\n",
+        "623": "  testCase.testToImmutableSortedSet();\n",
+        "624": "}\n",
+        "625": "\n",
+        "626": "public void testToImmutableSortedSet_customComparator() throws Exception {\n",
+        "627": "  com.google.common.collect.ImmutableSortedSetTest testCase = new com.google.common.collect.ImmutableSortedSetTest();\n",
+        "628": "  testCase.testToImmutableSortedSet_customComparator();\n",
+        "629": "}\n",
+        "630": "\n",
+        "631": "public void testToImmutableSortedSet_duplicates() throws Exception {\n",
+        "632": "  com.google.common.collect.ImmutableSortedSetTest testCase = new com.google.common.collect.ImmutableSortedSetTest();\n",
+        "633": "  testCase.testToImmutableSortedSet_duplicates();\n",
+        "634": "}\n",
+        "635": "\n"
+    },
+    "removed": {}
+}

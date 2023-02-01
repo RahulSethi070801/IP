@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "81": "public void testConcatNested_appendToBeginning() throws Exception {\n",
+        "82": "  com.google.common.collect.IteratorsTest testCase = new com.google.common.collect.IteratorsTest();\n",
+        "83": "  testCase.testConcatNested_appendToBeginning();\n",
+        "84": "}\n",
+        "85": "\n",
+        "86": "public void testConcatNested_appendToEnd() throws Exception {\n",
+        "87": "  com.google.common.collect.IteratorsTest testCase = new com.google.common.collect.IteratorsTest();\n",
+        "88": "  testCase.testConcatNested_appendToEnd();\n",
+        "89": "}\n",
+        "90": "\n"
+    },
+    "removed": {}
+}

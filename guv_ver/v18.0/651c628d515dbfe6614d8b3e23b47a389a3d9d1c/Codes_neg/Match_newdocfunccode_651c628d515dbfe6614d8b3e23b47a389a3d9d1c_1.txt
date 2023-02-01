@@ -1,0 +1,4 @@
+@Deprecated
+public String name() {
+    return toString();
+}

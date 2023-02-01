@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "49": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "54": " * parameter whose declaration or type isn't annotated with an annotation with the simple name\n",
+        "55": " * {@code Nullable}, {@lcode CheckForNull}, {@link NullableType}, or {@link NullableDecl}.\n",
+        "178": "  public void testMethod(@Nullable Object instance, Method method) {\n",
+        "210": "      @Nullable final Object instance, final Method method, int paramIndex) {\n",
+        "463": "  private static Invokable<?, ?> invokable(@Nullable Object instance, Method method) {\n",
+        "505": "   * explicit {@code @Nullable} annotation (see <a\n"
+    },
+    "removed": {
+        "49": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "54": " * parameter that isn't annotated with {@link javax.annotation.Nullable}, {@link\n",
+        "55": " * javax.annotation.CheckForNull}, or {@link\n",
+        "56": " * org.checkerframework.checker.nullness.compatqual.NullableDecl}.\n",
+        "179": "  public void testMethod(@NullableDecl Object instance, Method method) {\n",
+        "211": "      @NullableDecl final Object instance, final Method method, int paramIndex) {\n",
+        "464": "  private static Invokable<?, ?> invokable(@NullableDecl Object instance, Method method) {\n",
+        "506": "   * explicit {@code @NullableDecl} annotation (see <a\n"
+    }
+}

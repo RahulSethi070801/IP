@@ -1,0 +1,8 @@
+@CanIgnoreReturnValue
+ArrayBasedBuilder<E> combine(ArrayBasedBuilder<E> builder) {
+    checkNotNull(builder);
+    ensureCapacity(size + builder.size);
+    System.arraycopy(builder.contents, 0, this.contents, size, builder.size);
+    size += builder.size;
+    return this;
+}

@@ -1,0 +1,3 @@
+boolean isEmpty() {
+    return (hasUpperBound() && tooLow(uncheckedCastNullableTToT(getUpperEndpoint()))) || (hasLowerBound() && tooHigh(uncheckedCastNullableTToT(getLowerEndpoint())));
+}

@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "33": "import javax.annotation.CheckForNull;\n",
+        "52": "@ElementTypesAreNonnullByDefault\n",
+        "286": "  @LazyInit @CheckForNull transient ImmutableSortedMultiset<E> descendingMultiset;\n",
+        "312": "  @CheckForNull\n",
+        "329": "  @CheckForNull\n"
+    },
+    "removed": {
+        "79": "  @SuppressWarnings(\"unchecked\")\n",
+        "90": "  @SuppressWarnings(\"unchecked\")\n",
+        "101": "  @SuppressWarnings(\"unchecked\")\n",
+        "113": "  @SuppressWarnings(\"unchecked\")\n",
+        "125": "  @SuppressWarnings(\"unchecked\")\n",
+        "289": "  @LazyInit transient ImmutableSortedMultiset<E> descendingMultiset;\n"
+    }
+}

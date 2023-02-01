@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "28": " * An ordering that orders elements by applying an order to the result of a function on those\n",
+        "29": " * elements.\n"
+    },
+    "removed": {
+        "28": " * An ordering that orders elements by applying an order to the result of a\n",
+        "29": " * function on those elements.\n"
+    }
+}

@@ -1,0 +1,4 @@
+CollectionStreamTester
+Insertions: [28, 29]
+Deletions: [28, 29, 30]
+guava-testlib/src/com/google/common/collect/testing/testers/CollectionStreamTester.java

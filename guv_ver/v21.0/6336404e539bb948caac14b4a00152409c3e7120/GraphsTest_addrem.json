@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "26": "import static com.google.common.graph.Graphs.noSelfLoopPredicate;\n",
+        "335": "    Predicate<String> edgePredicate = noSelfLoopPredicate(undirectedGraph);\n",
+        "353": "    Predicate<String> edgePredicate = noSelfLoopPredicate(directedGraph);\n",
+        "430": "    Predicate<String> edgePredicate = noSelfLoopPredicate(directedGraph);\n",
+        "518": "    Predicate<String> edgePredicate = noSelfLoopPredicate(undirectedGraph);\n"
+    },
+    "removed": {
+        "26": "import static com.google.common.graph.Graphs.selfLoopPredicate;\n",
+        "31": "import com.google.common.base.Predicates;\n",
+        "336": "    Predicate<String> edgePredicate = Predicates.not(selfLoopPredicate(undirectedGraph));\n",
+        "354": "    Predicate<String> edgePredicate = Predicates.not(selfLoopPredicate(directedGraph));\n",
+        "431": "    Predicate<String> edgePredicate = Predicates.not(selfLoopPredicate(directedGraph));\n",
+        "519": "    Predicate<String> edgePredicate = Predicates.not(selfLoopPredicate(undirectedGraph));\n"
+    }
+}

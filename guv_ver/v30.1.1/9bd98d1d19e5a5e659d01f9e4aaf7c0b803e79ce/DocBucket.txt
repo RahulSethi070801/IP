@@ -1,0 +1,10 @@
+com.google.common.math.Quantiles
+indexes
+public ScaleAndIndexes indexes(int... indexes)
+int...
+ScaleAndIndexes
+com.google.common.math.Quantiles
+indexes
+public ScaleAndIndexes indexes(Collection<Integer> indexes)
+Collection
+ScaleAndIndexes

@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public boolean put(@Nullable K key, @Nullable V value) {
+    return get(key).add(value);
+}

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "30": "public interface TestBiMapGenerator<K, V> extends TestContainerGenerator<BiMap<K, V>, Entry<K, V>> {\n"
+    },
+    "removed": {
+        "30": "public interface TestBiMapGenerator<K, V>\n",
+        "31": "    extends TestContainerGenerator<BiMap<K, V>, Entry<K, V>> {\n"
+    }
+}

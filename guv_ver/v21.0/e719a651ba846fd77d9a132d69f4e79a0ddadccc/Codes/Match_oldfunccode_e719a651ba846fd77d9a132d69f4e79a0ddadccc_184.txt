@@ -1,0 +1,8 @@
+@Override
+public short readShort() {
+    try {
+        return input.readShort();
+    } catch (IOException e) {
+        throw new IllegalStateException(e);
+    }
+}

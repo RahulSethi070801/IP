@@ -1,0 +1,4 @@
+@Override
+public double transformX(double x) {
+    return x * slope + yIntercept;
+}

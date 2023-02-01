@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "127": "      // The incidentEdgeOrder for immutable graphs is always stable. However, we don't want to\n",
+        "128": "      // modify this builder, so we make a copy instead.\n",
+        "129": "      this.mutableGraph = graphBuilder.copy().incidentEdgeOrder(ElementOrder.<N>stable()).build();\n"
+    },
+    "removed": {
+        "127": "      this.mutableGraph = graphBuilder.build();\n"
+    }
+}

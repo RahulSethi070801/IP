@@ -1,0 +1,3 @@
+
+   * Registers all subscriber methods on the given listener object.
+   

@@ -1,0 +1,4 @@
+ListRemoveTester
+Insertions: [28, 29]
+Deletions: [28, 29, 30]
+android/guava-testlib/src/com/google/common/collect/testing/testers/ListRemoveTester.java

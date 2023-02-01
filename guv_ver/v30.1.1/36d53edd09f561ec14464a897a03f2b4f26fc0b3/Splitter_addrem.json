@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "375": "   * {@link #splitToList(CharSequence)}.\n"
+    },
+    "removed": {
+        "30": "import java.util.stream.Stream;\n",
+        "31": "import java.util.stream.StreamSupport;\n",
+        "377": "   * {@link #splitToList(CharSequence)}. Java 8 users may prefer {@link #splitToStream} instead.\n",
+        "426": "  /**\n",
+        "427": "   * Splits {@code sequence} into string components and makes them available through an {@link\n",
+        "428": "   * Stream}, which may be lazily evaluated. If you want an eagerly computed {@link List}, use\n",
+        "429": "   * {@link #splitToList(CharSequence)}.\n",
+        "430": "   *\n",
+        "431": "   * @param sequence the sequence of characters to split\n",
+        "432": "   * @return a stream over the segments split from the parameter\n",
+        "433": "   * @since NEXT\n",
+        "434": "   */\n",
+        "435": "  @Beta\n",
+        "436": "  public Stream<String> splitToStream(CharSequence sequence) {\n",
+        "437": "    // Can't use Streams.stream() from base\n",
+        "438": "    return StreamSupport.stream(split(sequence).spliterator(), false);\n",
+        "439": "  }\n",
+        "440": "\n"
+    }
+}

@@ -1,0 +1,6 @@
+private static <E> E getElementOrThrow(Entry<E> entry) {
+    if (entry == null) {
+        throw new NoSuchElementException();
+    }
+    return entry.getElement();
+}

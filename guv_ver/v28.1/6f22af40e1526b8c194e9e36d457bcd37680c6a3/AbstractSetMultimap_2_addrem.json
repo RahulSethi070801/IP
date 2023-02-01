@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "25": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "63": "  public Set<V> get(@NullableDecl K key) {\n",
+        "86": "  public Set<V> removeAll(@NullableDecl Object key) {\n",
+        "100": "  public Set<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {\n",
+        "125": "  public boolean put(@NullableDecl K key, @NullableDecl V value) {\n",
+        "136": "  public boolean equals(@NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "25": "import javax.annotation.Nullable;\n",
+        "63": "  public Set<V> get(@Nullable K key) {\n",
+        "86": "  public Set<V> removeAll(@Nullable Object key) {\n",
+        "100": "  public Set<V> replaceValues(@Nullable K key, Iterable<? extends V> values) {\n",
+        "125": "  public boolean put(@Nullable K key, @Nullable V value) {\n",
+        "136": "  public boolean equals(@Nullable Object object) {\n"
+    }
+}

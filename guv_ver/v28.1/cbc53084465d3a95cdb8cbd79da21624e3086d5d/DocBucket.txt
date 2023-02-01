@@ -1,0 +1,10 @@
+com.google.common.graph.Traverser
+forGraph
+public static Traverser<N> forGraph(SuccessorsFunction<N> graph)
+SuccessorsFunction
+Traverser
+com.google.common.graph.Traverser
+forTree
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+SuccessorsFunction
+Traverser

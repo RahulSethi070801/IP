@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "37": "import java.util.Spliterator;\n",
+        "38": "import java.util.function.BiConsumer;\n",
+        "268": "    @CanIgnoreReturnValue\n",
+        "269": "    Builder<K, V> combine(Builder<K, V> other) {\n",
+        "270": "      putAll(other.builderMultimap);\n",
+        "271": "      return this;\n",
+        "272": "    }\n",
+        "273": "\n",
+        "281": "          list.sort(valueComparator);\n",
+        "603": "  @Override\n",
+        "604": "  Spliterator<Entry<K, V>> entrySpliterator() {\n",
+        "605": "    return CollectSpliterators.flatMap(\n",
+        "606": "        asMap().entrySet().spliterator(),\n",
+        "607": "        keyToValueCollectionEntry -> {\n",
+        "608": "          K key = keyToValueCollectionEntry.getKey();\n",
+        "609": "          Collection<V> valueCollection = keyToValueCollectionEntry.getValue();\n",
+        "610": "          return CollectSpliterators.map(\n",
+        "611": "              valueCollection.spliterator(), (V value) -> Maps.immutableEntry(key, value));\n",
+        "612": "        },\n",
+        "613": "        Spliterator.SIZED | (this instanceof SetMultimap ? Spliterator.DISTINCT : 0),\n",
+        "614": "        size());\n",
+        "615": "  }\n",
+        "616": "  \n",
+        "617": "  @Override\n",
+        "618": "  public void forEach(BiConsumer<? super K, ? super V> action) {\n",
+        "619": "    checkNotNull(action);\n",
+        "620": "    asMap()\n",
+        "621": "        .forEach(\n",
+        "622": "            (key, valueCollection) -> valueCollection.forEach(value -> action.accept(key, value)));\n",
+        "623": "  }\n",
+        "624": "\n"
+    },
+    "removed": {
+        "32": "import java.util.Collections;\n",
+        "39": "\n",
+        "276": "          Collections.sort(list, valueComparator);\n"
+    }
+}

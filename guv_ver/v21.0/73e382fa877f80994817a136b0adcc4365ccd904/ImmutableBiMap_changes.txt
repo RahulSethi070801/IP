@@ -1,0 +1,4 @@
+ImmutableBiMap
+Insertions: [21, 25, 26, 35, 36, 37, 38, 39, 40, 113, 114, 115, 116, 117]
+Deletions: []
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableBiMap.java

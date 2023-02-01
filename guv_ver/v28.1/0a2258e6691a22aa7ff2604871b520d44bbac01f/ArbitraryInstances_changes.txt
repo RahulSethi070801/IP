@@ -1,0 +1,4 @@
+ArbitraryInstances
+Insertions: [149, 337, 348, 392]
+Deletions: [149, 337, 348, 392]
+guava-testlib/src/com/google/common/testing/ArbitraryInstances.java

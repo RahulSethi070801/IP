@@ -1,0 +1,4 @@
+Funnels_2
+Insertions: [34, 54, 55]
+Deletions: [34, 35, 36, 56, 57]
+guava/src/com/google/common/hash/Funnels.java

@@ -1,0 +1,3 @@
+
+   * Returns the number of {@code values} that are {@code true}.
+   

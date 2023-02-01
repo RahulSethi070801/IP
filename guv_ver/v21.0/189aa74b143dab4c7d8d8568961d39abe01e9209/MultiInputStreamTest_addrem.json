@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "95": "  @SuppressWarnings(\"CheckReturnValue\") // these calls to skip always return 0\n",
+        "108": "    assertEquals(0, multi.skip(-1));\n",
+        "109": "    assertEquals(0, multi.skip(-1));\n",
+        "110": "    assertEquals(0, multi.skip(0));\n"
+    },
+    "removed": {
+        "107": "    multi.skip(-1);\n",
+        "108": "    multi.skip(-1);\n",
+        "109": "    multi.skip(0);\n"
+    }
+}

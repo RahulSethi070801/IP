@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "37": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "88": "      Map.@Nullable Entry<E, Count> toRemove;\n",
+        "116": "      Map.@Nullable Entry<E, Count> toRemove;\n",
+        "236": "  public int count(@Nullable Object element) {\n",
+        "251": "  public int add(@Nullable E element, int occurrences) {\n",
+        "273": "  public int remove(@Nullable Object element, int occurrences) {\n",
+        "301": "  public int setCount(@Nullable E element, int count) {\n",
+        "322": "  private static int getAndSet(@Nullable Count i, int count) {\n"
+    },
+    "removed": {
+        "37": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "88": "      @NullableDecl Map.Entry<E, Count> toRemove;\n",
+        "116": "      @NullableDecl Map.Entry<E, Count> toRemove;\n",
+        "236": "  public int count(@NullableDecl Object element) {\n",
+        "251": "  public int add(@NullableDecl E element, int occurrences) {\n",
+        "273": "  public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "301": "  public int setCount(@NullableDecl E element, int count) {\n",
+        "322": "  private static int getAndSet(@NullableDecl Count i, int count) {\n"
+    }
+}

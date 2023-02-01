@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "370": "  public static <K, V> Entry<K, V> nefariousMapEntry(final K key, final V value) {\n",
+        "371": "    return new Entry<K, V>() {\n",
+        "390": "        if (o instanceof Entry) {\n",
+        "391": "          Entry<K, V> e = (Entry<K, V>) o;\n"
+    },
+    "removed": {
+        "370": "  public static <K, V> Map.Entry<K, V> nefariousMapEntry(final K key, final V value) {\n",
+        "371": "    return new Map.Entry<K, V>() {\n",
+        "390": "        if (o instanceof Map.Entry) {\n",
+        "391": "          Map.Entry<K, V> e = (Map.Entry<K, V>) o;\n"
+    }
+}

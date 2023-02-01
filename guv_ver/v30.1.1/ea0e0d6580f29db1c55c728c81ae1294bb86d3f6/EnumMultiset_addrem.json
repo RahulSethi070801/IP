@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "33": "import javax.annotation.CheckForNull;\n",
+        "47": "@ElementTypesAreNonnullByDefault\n",
+        "97": "  private boolean isActuallyE(@CheckForNull Object o) {\n",
+        "110": "  private void checkIsE(Object element) {\n",
+        "128": "  public int count(@CheckForNull Object element) {\n",
+        "129": "    // isActuallyE checks for null, but we check explicitly to help nullness checkers.\n",
+        "130": "    if (element == null || !isActuallyE(element)) {\n",
+        "161": "  public int remove(@CheckForNull Object element, int occurrences) {\n",
+        "162": "    // isActuallyE checks for null, but we check explicitly to help nullness checkers.\n",
+        "163": "    if (element == null || !isActuallyE(element)) {\n"
+    },
+    "removed": {
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "96": "  private boolean isActuallyE(@NullableDecl Object o) {\n",
+        "109": "  void checkIsE(@NullableDecl Object element) {\n",
+        "127": "  public int count(@NullableDecl Object element) {\n",
+        "128": "    if (!isActuallyE(element)) {\n",
+        "159": "  public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "160": "    if (!isActuallyE(element)) {\n"
+    }
+}

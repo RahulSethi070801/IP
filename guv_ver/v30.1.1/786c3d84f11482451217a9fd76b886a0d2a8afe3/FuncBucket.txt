@@ -1,0 +1,5 @@
+com.google.common.math.Quantiles$ScaleAndIndexes
+computeInPlace
+public Map<Integer, Double> computeInPlace(double... dataset)
+double...
+Map

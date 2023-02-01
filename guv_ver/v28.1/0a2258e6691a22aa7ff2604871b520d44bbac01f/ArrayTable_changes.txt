@@ -1,0 +1,4 @@
+ArrayTable
+Insertions: [39, 193, 196, 247, 252, 331, 383, 392, 401, 406, 418, 440, 497]
+Deletions: [39, 193, 196, 247, 252, 331, 383, 392, 401, 406, 418, 440, 497]
+guava/src/com/google/common/collect/ArrayTable.java

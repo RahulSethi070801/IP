@@ -1,0 +1,15 @@
+com.google.common.util.concurrent.SequentialExecutor
+executeFirst
+public void executeFirst(Runnable task)
+Runnable
+void
+com.google.common.util.concurrent.SequentialExecutor
+execute
+public void execute(Runnable task)
+Runnable
+void
+com.google.common.util.concurrent.SequentialExecutor$QueueWorker
+workOnQueue
+private void workOnQueue()
+empty
+void

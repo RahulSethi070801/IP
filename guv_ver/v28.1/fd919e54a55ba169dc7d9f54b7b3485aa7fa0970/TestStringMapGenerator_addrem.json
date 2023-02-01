@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "25": " * Implementation helper for {@link TestMapGenerator} for use with maps of strings.\n"
+    },
+    "removed": {
+        "25": " * Implementation helper for {@link TestMapGenerator} for use with maps of\n",
+        "26": " * strings.\n"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "28": " * Generators of various {@link com.google.common.collect.BiMap}s and derived collections.\n"
+    },
+    "removed": {
+        "28": " * Generators of various {@link com.google.common.collect.BiMap}s and derived\n",
+        "29": " * collections.\n"
+    }
+}

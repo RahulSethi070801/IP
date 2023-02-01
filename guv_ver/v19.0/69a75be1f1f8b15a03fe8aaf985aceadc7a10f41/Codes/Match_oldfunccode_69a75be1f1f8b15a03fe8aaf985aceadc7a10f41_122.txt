@@ -1,0 +1,5 @@
+@GwtIncompatible("TODO")
+@CheckReturnValue
+public static <V> ListenableFuture<V> nonCancellationPropagating(ListenableFuture<V> future) {
+    return new NonCancellationPropagatingFuture<V>(future);
+}

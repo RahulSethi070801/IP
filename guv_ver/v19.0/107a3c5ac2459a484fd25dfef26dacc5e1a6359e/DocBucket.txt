@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.Uninterruptibles
+getUninterruptibly
+public static V getUninterruptibly(Future<V> future) throws ExecutionException
+Future
+V
+com.google.common.util.concurrent.Uninterruptibles
+getUninterruptibly
+public static V getUninterruptibly(Future<V> future, long timeout, TimeUnit unit) throws ExecutionException, TimeoutException
+Future,long,TimeUnit
+V

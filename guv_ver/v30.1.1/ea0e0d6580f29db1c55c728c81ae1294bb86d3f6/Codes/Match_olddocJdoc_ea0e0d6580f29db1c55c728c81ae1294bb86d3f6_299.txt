@@ -1,0 +1,4 @@
+
+   * Returns the entry of the last element in this multiset, or {@code null} if this multiset is
+   * empty.
+   

@@ -1,0 +1,12 @@
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> function) {
+    stopwatch.start();
+    V previousValue;
+    try {
+        previousValue = oldValue.waitForValue();
+    } catch (ExecutionException e) {
+        previousValue = null;
+    }
+    V newValue = function.apply(key, previousValue);
+    this.set(newValue);
+    return newValue;
+}

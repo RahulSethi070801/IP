@@ -1,0 +1,7 @@
+
+   * Returns a new {@link ByteArrayDataInput} instance to read from the {@code bytes} array,
+   * starting at the given position.
+   *
+   * @throws IndexOutOfBoundsException if {@code start} is negative or greater than the length of
+   *     the array
+   

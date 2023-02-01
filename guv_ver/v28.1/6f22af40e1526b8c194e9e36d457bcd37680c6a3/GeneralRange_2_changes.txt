@@ -1,0 +1,4 @@
+GeneralRange_2
+Insertions: [26, 41, 44, 66, 75, 85, 87, 94, 97, 103, 106, 150, 159, 168, 180, 195, 223]
+Deletions: [26, 41, 44, 66, 75, 85, 87, 94, 97, 103, 106, 150, 159, 168, 180, 195, 223]
+guava/src/com/google/common/collect/GeneralRange.java

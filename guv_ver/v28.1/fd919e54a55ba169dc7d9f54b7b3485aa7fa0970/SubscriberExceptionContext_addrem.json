@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "55": "  /** @return The event object that caused the subscriber to throw. */\n",
+        "60": "  /** @return The object context that the subscriber was called on. */\n",
+        "65": "  /** @return The subscribed method that threw the exception. */\n"
+    },
+    "removed": {
+        "54": "  /**\n",
+        "55": "   * @return The event object that caused the subscriber to throw.\n",
+        "56": "   */\n",
+        "61": "  /**\n",
+        "62": "   * @return The object context that the subscriber was called on.\n",
+        "63": "   */\n",
+        "68": "  /**\n",
+        "69": "   * @return The subscribed method that threw the exception.\n",
+        "70": "   */\n"
+    }
+}

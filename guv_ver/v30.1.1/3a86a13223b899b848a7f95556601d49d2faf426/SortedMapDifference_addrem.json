@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "30": "@ElementTypesAreNonnullByDefault\n",
+        "31": "public interface SortedMapDifference<K extends @Nullable Object, V extends @Nullable Object>\n",
+        "32": "    extends MapDifference<K, V> {\n"
+    },
+    "removed": {
+        "29": "public interface SortedMapDifference<K, V> extends MapDifference<K, V> {\n"
+    }
+}

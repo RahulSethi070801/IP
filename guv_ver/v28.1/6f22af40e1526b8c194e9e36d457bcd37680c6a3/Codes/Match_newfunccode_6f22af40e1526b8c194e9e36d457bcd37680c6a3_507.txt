@@ -1,0 +1,5 @@
+private static void checkNoConflictInValueBucket(Object value, Entry<?, ?> entry, @NullableDecl ImmutableMapEntry<?, ?> valueBucketHead) {
+    for (; valueBucketHead != null; valueBucketHead = valueBucketHead.getNextInValueBucket()) {
+        checkNoConflict(!value.equals(valueBucketHead.getValue()), "value", entry, valueBucketHead);
+    }
+}

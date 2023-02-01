@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "26": "import javax.annotation.CheckForNull;\n",
+        "52": "@ElementTypesAreNonnullByDefault\n",
+        "53": "public abstract class ForwardingMultiset<E extends @Nullable Object> extends ForwardingCollection<E>\n",
+        "54": "    implements Multiset<E> {\n",
+        "63": "  public int count(@CheckForNull Object element) {\n",
+        "69": "  public int add(@ParametricNullness E element, int occurrences) {\n",
+        "75": "  public int remove(@CheckForNull Object element, int occurrences) {\n",
+        "90": "  public boolean equals(@CheckForNull Object object) {\n",
+        "101": "  public int setCount(@ParametricNullness E element, int count) {\n",
+        "107": "  public boolean setCount(@ParametricNullness E element, int oldCount, int newCount) {\n",
+        "118": "  protected boolean standardContains(@CheckForNull Object object) {\n",
+        "142": "  protected int standardCount(@CheckForNull Object object) {\n",
+        "158": "  protected boolean standardAdd(@ParametricNullness E element) {\n",
+        "184": "  protected boolean standardRemove(@CheckForNull Object element) {\n",
+        "220": "  protected int standardSetCount(@ParametricNullness E element, int count) {\n",
+        "231": "  protected boolean standardSetCount(@ParametricNullness E element, int oldCount, int newCount) {\n",
+        "291": "  protected boolean standardEquals(@CheckForNull Object object) {\n"
+    },
+    "removed": {
+        "51": "public abstract class ForwardingMultiset<E> extends ForwardingCollection<E> implements Multiset<E> {\n",
+        "60": "  public int count(Object element) {\n",
+        "66": "  public int add(E element, int occurrences) {\n",
+        "72": "  public int remove(Object element, int occurrences) {\n",
+        "87": "  public boolean equals(@Nullable Object object) {\n",
+        "98": "  public int setCount(E element, int count) {\n",
+        "104": "  public boolean setCount(E element, int oldCount, int newCount) {\n",
+        "115": "  protected boolean standardContains(@Nullable Object object) {\n",
+        "139": "  protected int standardCount(@Nullable Object object) {\n",
+        "155": "  protected boolean standardAdd(E element) {\n",
+        "181": "  protected boolean standardRemove(Object element) {\n",
+        "217": "  protected int standardSetCount(E element, int count) {\n",
+        "228": "  protected boolean standardSetCount(E element, int oldCount, int newCount) {\n",
+        "288": "  protected boolean standardEquals(@Nullable Object object) {\n"
+    }
+}

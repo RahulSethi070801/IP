@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "133": "  public void testSimpleAcquireEarliestAvailableIsInPast() {\n",
+        "134": "    RateLimiter limiter = RateLimiter.create(stopwatch, 5.0);\n",
+        "135": "    assertEquals(0.0, limiter.acquire(), EPSILON);\n",
+        "136": "    stopwatch.sleepMillis(400);\n",
+        "137": "    assertEquals(0.0, limiter.acquire(), EPSILON);\n",
+        "138": "    assertEquals(0.0, limiter.acquire(), EPSILON);\n",
+        "139": "    assertEquals(0.2, limiter.acquire(), EPSILON);\n",
+        "140": "  }\n",
+        "141": "\n"
+    },
+    "removed": {}
+}

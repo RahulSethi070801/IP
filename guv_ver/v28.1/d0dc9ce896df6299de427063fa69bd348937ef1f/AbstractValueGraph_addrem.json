@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "185": "  @Override\n",
+        "186": "  public final boolean equals(@Nullable Object obj) {\n",
+        "187": "    if (obj == this) {\n",
+        "188": "      return true;\n",
+        "189": "    }\n",
+        "190": "    if (!(obj instanceof ValueGraph)) {\n",
+        "191": "      return false;\n",
+        "192": "    }\n",
+        "193": "    ValueGraph<?, ?> other = (ValueGraph<?, ?>) obj;\n",
+        "194": "\n",
+        "195": "    return isDirected() == other.isDirected()\n",
+        "196": "        && nodes().equals(other.nodes())\n",
+        "197": "        && edgeValueMap(this).equals(edgeValueMap(other));\n",
+        "198": "  }\n",
+        "199": "\n",
+        "200": "  @Override\n",
+        "201": "  public final int hashCode() {\n",
+        "202": "    return edgeValueMap(this).hashCode();\n",
+        "203": "  }\n",
+        "204": "\n",
+        "210": "    return String.format(GRAPH_STRING_FORMAT, propertiesString, nodes(), edgeValueMap(this));\n",
+        "213": "  private static <N, V> Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph) {\n",
+        "218": "            return graph.edgeValue(edge.nodeU(), edge.nodeV());\n",
+        "221": "    return Maps.asMap(graph.edges(), edgeToValueFn);\n"
+    },
+    "removed": {
+        "190": "    return String.format(GRAPH_STRING_FORMAT, propertiesString, nodes(), edgeValueMap());\n",
+        "193": "  private Map<EndpointPair<N>, V> edgeValueMap() {\n",
+        "198": "            return edgeValue(edge.nodeU(), edge.nodeV());\n",
+        "201": "    return Maps.asMap(edges(), edgeToValueFn);\n"
+    }
+}

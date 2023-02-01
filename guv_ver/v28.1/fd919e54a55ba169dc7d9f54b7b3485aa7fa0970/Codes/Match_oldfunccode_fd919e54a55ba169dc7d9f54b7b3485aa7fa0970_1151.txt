@@ -1,0 +1,5 @@
+@Override
+public Builder<K, V> put(K key, V value) {
+    entries.add(entryOf(key, value));
+    return this;
+}

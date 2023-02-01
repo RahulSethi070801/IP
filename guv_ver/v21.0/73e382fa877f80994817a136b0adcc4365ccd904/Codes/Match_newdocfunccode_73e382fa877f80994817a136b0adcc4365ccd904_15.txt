@@ -1,0 +1,3 @@
+public <E extends T> List<E> greatestOf(Iterable<E> iterable, int k) {
+    return reverse().leastOf(iterable, k);
+}

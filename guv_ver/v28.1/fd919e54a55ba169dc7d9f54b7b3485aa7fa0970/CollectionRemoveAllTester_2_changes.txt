@@ -1,0 +1,4 @@
+CollectionRemoveAllTester_2
+Insertions: [37, 38]
+Deletions: [37, 38, 39]
+guava-testlib/src/com/google/common/collect/testing/testers/CollectionRemoveAllTester.java

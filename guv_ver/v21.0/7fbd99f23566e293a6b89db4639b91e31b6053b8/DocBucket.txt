@@ -1,0 +1,10 @@
+com.google.common.graph.Graphs
+nodeToAdjacentNodes
+private static Map<N, Set<N>> nodeToAdjacentNodes(final Graph<N> graph)
+Graph
+Map
+com.google.common.graph.Network
+isDirected
+boolean isDirected()
+empty
+boolean

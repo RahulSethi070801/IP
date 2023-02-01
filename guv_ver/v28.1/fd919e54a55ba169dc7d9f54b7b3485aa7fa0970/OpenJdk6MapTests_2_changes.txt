@@ -1,0 +1,4 @@
+OpenJdk6MapTests_2
+Insertions: [39, 40, 53, 54]
+Deletions: [39, 40, 53]
+guava-testlib/test/com/google/common/collect/testing/OpenJdk6MapTests.java

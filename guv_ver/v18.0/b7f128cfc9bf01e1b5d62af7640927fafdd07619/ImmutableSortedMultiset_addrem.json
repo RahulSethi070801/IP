@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "444": "      super(TreeMultiset.<E>create(checkNotNull(comparator)));\n"
+    },
+    "removed": {
+        "439": "    private final Comparator<? super E> comparator;\n",
+        "440": "\n",
+        "446": "      super(TreeMultiset.<E>create(comparator));\n",
+        "447": "      this.comparator = checkNotNull(comparator);\n"
+    }
+}

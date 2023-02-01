@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "40": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "103": "  @NullableDecl\n",
+        "110": "  @NullableDecl\n",
+        "158": "      Range<K> range, V value, @NullableDecl Entry<Cut<K>, RangeMapEntry<K, V>> entry) {\n",
+        "264": "    public boolean containsKey(@NullableDecl Object key) {\n",
+        "269": "    public V get(@NullableDecl Object key) {\n",
+        "308": "        @NullableDecl\n",
+        "314": "        @NullableDecl\n",
+        "380": "    @NullableDecl\n",
+        "386": "    @NullableDecl\n",
+        "518": "    public boolean equals(@NullableDecl Object o) {\n",
+        "610": "          public boolean remove(@NullableDecl Object o) {\n",
+        "696": "  public boolean equals(@NullableDecl Object o) {\n"
+    },
+    "removed": {
+        "40": "import javax.annotation.Nullable;\n",
+        "103": "  @Nullable\n",
+        "110": "  @Nullable\n",
+        "158": "      Range<K> range, V value, @Nullable Entry<Cut<K>, RangeMapEntry<K, V>> entry) {\n",
+        "264": "    public boolean containsKey(@Nullable Object key) {\n",
+        "269": "    public V get(@Nullable Object key) {\n",
+        "308": "        @Nullable\n",
+        "314": "        @Nullable\n",
+        "380": "    @Nullable\n",
+        "386": "    @Nullable\n",
+        "518": "    public boolean equals(@Nullable Object o) {\n",
+        "610": "          public boolean remove(@Nullable Object o) {\n",
+        "696": "  public boolean equals(@Nullable Object o) {\n"
+    }
+}

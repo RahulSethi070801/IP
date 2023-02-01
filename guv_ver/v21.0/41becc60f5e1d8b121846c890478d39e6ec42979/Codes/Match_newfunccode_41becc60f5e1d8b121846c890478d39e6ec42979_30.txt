@@ -1,0 +1,3 @@
+public static GraphBuilder<Object, Object> undirected() {
+    return new GraphBuilder<Object, Object>(false);
+}

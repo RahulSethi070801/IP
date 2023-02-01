@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "48": "import java.util.Map.Entry;\n",
+        "61": "        MapTestSuiteBuilder<K, V>, TestMapGenerator<K, V>, Map<K, V>, Entry<K, V>> {\n",
+        "90": "              ?, ? extends OneSizeTestContainerGenerator<Map<K, V>, Entry<K, V>>>\n",
+        "134": "  protected SetTestSuiteBuilder<Entry<K, V>> createDerivedEntrySetSuite(\n",
+        "135": "      TestSetGenerator<Entry<K, V>> entrySetGenerator) {\n",
+        "223": "    private final OneSizeTestContainerGenerator<Map<K, V>, Entry<K, V>> mapGenerator;\n",
+        "226": "        OneSizeTestContainerGenerator<Map<K, V>, Entry<K, V>> mapGenerator) {\n",
+        "231": "    public SampleElements<Entry<K, V>> samples() {\n",
+        "236": "    public Entry<K, V>[] createArray(int length) {\n",
+        "241": "    public Iterable<Entry<K, V>> order(List<Entry<K, V>> insertionOrder) {\n"
+    },
+    "removed": {
+        "60": "        MapTestSuiteBuilder<K, V>, TestMapGenerator<K, V>, Map<K, V>, Map.Entry<K, V>> {\n",
+        "89": "              ?, ? extends OneSizeTestContainerGenerator<Map<K, V>, Map.Entry<K, V>>>\n",
+        "133": "  protected SetTestSuiteBuilder<Map.Entry<K, V>> createDerivedEntrySetSuite(\n",
+        "134": "      TestSetGenerator<Map.Entry<K, V>> entrySetGenerator) {\n",
+        "222": "    private final OneSizeTestContainerGenerator<Map<K, V>, Map.Entry<K, V>> mapGenerator;\n",
+        "225": "        OneSizeTestContainerGenerator<Map<K, V>, Map.Entry<K, V>> mapGenerator) {\n",
+        "230": "    public SampleElements<Map.Entry<K, V>> samples() {\n",
+        "235": "    public Map.Entry<K, V>[] createArray(int length) {\n",
+        "240": "    public Iterable<Map.Entry<K, V>> order(List<Map.Entry<K, V>> insertionOrder) {\n"
+    }
+}

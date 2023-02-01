@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "29": " * An executor service which forwards all its method calls to another executor service. Subclasses\n",
+        "30": " * should override one or more methods to modify the behavior of the backing executor service as\n",
+        "31": " * desired per the <a href=\"http://en.wikipedia.org/wiki/Decorator_pattern\">decorator pattern</a>.\n",
+        "45": "  public boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException {\n",
+        "50": "  public <T> List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks)\n",
+        "51": "      throws InterruptedException {\n",
+        "69": "  public <T> T invokeAny(Collection<? extends Callable<T>> tasks, long timeout, TimeUnit unit)\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "31": " * An executor service which forwards all its method calls to another executor\n",
+        "32": " * service. Subclasses should override one or more methods to modify the\n",
+        "33": " * behavior of the backing executor service as desired per the <a\n",
+        "34": " * href=\"http://en.wikipedia.org/wiki/Decorator_pattern\">decorator pattern</a>.\n",
+        "48": "  public boolean awaitTermination(long timeout, TimeUnit unit)\n",
+        "49": "      throws InterruptedException {\n",
+        "54": "  public <T> List<Future<T>> invokeAll(\n",
+        "55": "      Collection<? extends Callable<T>> tasks) throws InterruptedException {\n",
+        "73": "  public <T> T invokeAny(\n",
+        "74": "      Collection<? extends Callable<T>> tasks, long timeout, TimeUnit unit)\n"
+    }
+}

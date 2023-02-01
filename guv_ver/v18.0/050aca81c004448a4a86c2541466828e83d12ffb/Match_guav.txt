@@ -1,0 +1,9 @@
+public static boolean removeOccurrences(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove)
+private static boolean removeOccurrencesImpl(Multiset<E> multisetToModify, Multiset<?> occurrencesToRemove)
+
+private static boolean removeOccurrencesImpl(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove)
+private static boolean removeOccurrencesImpl(Multiset<E> multisetToModify, Multiset<?> occurrencesToRemove)
+
+public static boolean removeOccurrences(Multiset<?> multisetToModify, Multiset<?> occurrencesToRemove)
+private static boolean removeOccurrencesImpl(Multiset<E> multisetToModify, Multiset<?> occurrencesToRemove)
+

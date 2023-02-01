@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "24": "import javax.annotation.CheckForNull;\n",
+        "25": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "37": "@ElementTypesAreNonnullByDefault\n",
+        "38": "abstract class AbstractSortedMultiset<E extends @Nullable Object> extends AbstractMultiset<E>\n",
+        "39": "    implements SortedMultiset<E> {\n",
+        "68": "  @CheckForNull\n",
+        "75": "  @CheckForNull\n",
+        "82": "  @CheckForNull\n",
+        "95": "  @CheckForNull\n",
+        "109": "      @ParametricNullness E fromElement,\n",
+        "111": "      @ParametricNullness E toElement,\n",
+        "125": "  @CheckForNull private transient SortedMultiset<E> descendingMultiset;\n"
+    },
+    "removed": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "36": "abstract class AbstractSortedMultiset<E> extends AbstractMultiset<E> implements SortedMultiset<E> {\n",
+        "102": "      @NullableDecl E fromElement,\n",
+        "104": "      @NullableDecl E toElement,\n",
+        "118": "  @NullableDecl private transient SortedMultiset<E> descendingMultiset;\n"
+    }
+}

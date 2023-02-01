@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": " * List returned by {@link ImmutableCollection#asList} that delegates {@code contains} checks to the\n",
+        "27": " * backing collection.\n",
+        "59": "  /** Serialized form that leads to the same performance as the original list. */\n"
+    },
+    "removed": {
+        "26": " * List returned by {@link ImmutableCollection#asList} that delegates {@code contains} checks\n",
+        "27": " * to the backing collection.\n",
+        "59": "  /**\n",
+        "60": "   * Serialized form that leads to the same performance as the original list.\n",
+        "61": "   */\n"
+    }
+}

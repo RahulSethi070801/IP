@@ -1,0 +1,1 @@
+public abstract <T> ComparisonChain compare(@Nullable T left, @Nullable T right, Comparator<T> comparator);

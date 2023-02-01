@@ -1,0 +1,11 @@
+
+   * Streams lines from a {@link File}, stopping when our callback returns
+   * false, or we have read all of the lines.
+   *
+   * @param file the file to read from
+   * @param charset the charset used to decode the input stream; see {@link
+   *     Charsets} for helpful predefined constants
+   * @param callback the {@link LineProcessor} to use to handle the lines
+   * @return the output of processing the lines
+   * @throws IOException if an I/O error occurs
+   

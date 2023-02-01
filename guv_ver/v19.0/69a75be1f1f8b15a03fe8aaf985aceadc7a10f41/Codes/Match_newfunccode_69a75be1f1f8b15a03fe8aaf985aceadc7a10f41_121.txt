@@ -1,0 +1,24 @@
+protected ScheduledExecutorService executor() {
+    @WeakOuter
+    class ThreadFactoryImpl implements ThreadFactory {
+
+        @Override
+        public Thread newThread(Runnable runnable) {
+            return MoreExecutors.newThread(serviceName(), runnable);
+        }
+    }
+    final ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor(new ThreadFactoryImpl());
+    addListener(new Listener() {
+
+        @Override
+        public void terminated(State from) {
+            executor.shutdown();
+        }
+
+        @Override
+        public void failed(State from, Throwable failure) {
+            executor.shutdown();
+        }
+    }, directExecutor());
+    return executor;
+}

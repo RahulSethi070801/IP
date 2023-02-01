@@ -1,0 +1,4 @@
+ForwardingMap
+Insertions: [27, 89, 94, 99, 130, 161, 210, 238, 280]
+Deletions: [27, 89, 94, 99, 130, 161, 210, 238, 280]
+guava/src/com/google/common/collect/ForwardingMap.java

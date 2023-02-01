@@ -1,0 +1,4 @@
+ImmutableSortedMap
+Insertions: [25, 30, 31, 32, 33, 34, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 242, 243, 244, 245, 246]
+Deletions: [25]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableSortedMap.java

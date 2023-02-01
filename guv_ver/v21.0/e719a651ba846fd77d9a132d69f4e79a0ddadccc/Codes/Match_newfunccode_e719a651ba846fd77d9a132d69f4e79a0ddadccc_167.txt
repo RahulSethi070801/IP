@@ -1,0 +1,8 @@
+@Override
+public int readInt() throws IOException {
+    byte b1 = readAndCheckByte();
+    byte b2 = readAndCheckByte();
+    byte b3 = readAndCheckByte();
+    byte b4 = readAndCheckByte();
+    return Ints.fromBytes(b4, b3, b2, b1);
+}

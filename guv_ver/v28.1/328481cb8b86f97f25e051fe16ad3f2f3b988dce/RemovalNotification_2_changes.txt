@@ -1,0 +1,4 @@
+RemovalNotification_2
+Insertions: [27]
+Deletions: [27]
+guava/src/com/google/common/cache/RemovalNotification.java

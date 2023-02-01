@@ -1,0 +1,4 @@
+ClassToInstanceMap
+Insertions: [22, 61]
+Deletions: [22, 61]
+android/guava/src/com/google/common/collect/ClassToInstanceMap.java

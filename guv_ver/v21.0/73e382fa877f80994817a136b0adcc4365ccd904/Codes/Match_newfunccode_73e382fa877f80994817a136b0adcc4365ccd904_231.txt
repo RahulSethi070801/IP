@@ -1,0 +1,7 @@
+@CanIgnoreReturnValue
+public static <T> boolean removeIf(Iterable<T> removeFrom, Predicate<? super T> predicate) {
+    if (removeFrom instanceof Collection) {
+        return ((Collection<T>) removeFrom).removeIf(predicate);
+    }
+    return Iterators.removeIf(removeFrom.iterator(), predicate);
+}

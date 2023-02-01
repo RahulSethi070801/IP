@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "138": "  public void testForStringIPv4NonAsciiInput() throws UnknownHostException {\n",
+        "139": "    String ipStr = \"\u0ae7\u0aef\u0ae8.\u0ae7\u0aec\u0aee.\u0ae6.\u0ae7\"; // 192.168.0.1 in Gujarati digits\n",
+        "140": "    // Shouldn't hit DNS, because it's an IP string literal.\n",
+        "141": "    InetAddress ipv4Addr;\n",
+        "142": "    try {\n",
+        "143": "      ipv4Addr = InetAddress.getByName(ipStr);\n",
+        "144": "    } catch (UnknownHostException e) {\n",
+        "145": "      // OK: this is probably Android, which is stricter.\n",
+        "146": "      return;\n",
+        "147": "    }\n",
+        "148": "    assertEquals(ipv4Addr, InetAddresses.forString(ipStr));\n",
+        "149": "    assertTrue(InetAddresses.isInetAddress(ipStr));\n",
+        "150": "  }\n",
+        "151": "\n",
+        "160": "  public void testForStringIPv6NonAsciiInput() throws UnknownHostException {\n",
+        "161": "    String ipStr = \"\u0ae9ffe::\u0ae7\"; // 3ffe::1 with Gujarati digits for 3 and 1\n",
+        "162": "    // Shouldn't hit DNS, because it's an IP string literal.\n",
+        "163": "    InetAddress ipv6Addr;\n",
+        "164": "    try {\n",
+        "165": "      ipv6Addr = InetAddress.getByName(ipStr);\n",
+        "166": "    } catch (UnknownHostException e) {\n",
+        "167": "      // OK: this is probably Android, which is stricter.\n",
+        "168": "      return;\n",
+        "169": "    }\n",
+        "170": "    assertEquals(ipv6Addr, InetAddresses.forString(ipStr));\n",
+        "171": "    assertTrue(InetAddresses.isInetAddress(ipStr));\n",
+        "172": "  }\n",
+        "173": "\n"
+    },
+    "removed": {}
+}

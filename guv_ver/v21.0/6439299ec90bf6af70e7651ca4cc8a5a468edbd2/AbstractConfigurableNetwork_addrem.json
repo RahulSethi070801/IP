@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "194": "    return Endpoints.of(this, nodeA, nodeB);\n"
+    },
+    "removed": {
+        "194": "    return Endpoints.of(nodeA, nodeB, isDirected);\n"
+    }
+}

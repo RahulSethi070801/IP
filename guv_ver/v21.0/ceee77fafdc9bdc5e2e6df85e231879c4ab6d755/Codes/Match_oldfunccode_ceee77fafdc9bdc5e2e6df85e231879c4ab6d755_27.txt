@@ -1,0 +1,4 @@
+@Override
+public boolean removeEdge(Object nodeA, Object nodeB) {
+    return backingGraph.removeEdge(nodeA, nodeB) != null;
+}

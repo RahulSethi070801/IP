@@ -1,0 +1,3 @@
+boolean contains(@Nullable T t) {
+    return !tooLow(t) && !tooHigh(t);
+}

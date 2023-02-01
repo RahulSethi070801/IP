@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "34": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "116": "    public boolean equals(@Nullable Object o) {\n",
+        "122": "  @Nullable\n",
+        "156": "  @Nullable\n",
+        "336": "    public boolean containsKey(@Nullable Object key) {\n",
+        "341": "    public Range<C> get(@Nullable Object key) {\n",
+        "628": "    @Nullable\n",
+        "741": "    public boolean containsKey(@Nullable Object key) {\n",
+        "746": "    @Nullable\n",
+        "747": "    public Range<C> get(@Nullable Object key) {\n",
+        "884": "    @Nullable\n"
+    },
+    "removed": {
+        "34": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "116": "    public boolean equals(@NullableDecl Object o) {\n",
+        "122": "  @NullableDecl\n",
+        "156": "  @NullableDecl\n",
+        "336": "    public boolean containsKey(@NullableDecl Object key) {\n",
+        "341": "    public Range<C> get(@NullableDecl Object key) {\n",
+        "628": "    @NullableDecl\n",
+        "741": "    public boolean containsKey(@NullableDecl Object key) {\n",
+        "746": "    @NullableDecl\n",
+        "747": "    public Range<C> get(@NullableDecl Object key) {\n",
+        "884": "    @NullableDecl\n"
+    }
+}

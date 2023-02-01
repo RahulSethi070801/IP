@@ -1,0 +1,8 @@
+@Override
+public BaseEncoding withPadChar(char padChar) {
+    if (8 % alphabet.bitsPerChar == 0 || (paddingChar != null && paddingChar.charValue() == padChar)) {
+        return this;
+    } else {
+        return newInstance(alphabet, padChar);
+    }
+}

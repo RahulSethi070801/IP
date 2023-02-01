@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+A correctedDoForward(@NullableDecl B b) {
+    return original.correctedDoBackward(b);
+}

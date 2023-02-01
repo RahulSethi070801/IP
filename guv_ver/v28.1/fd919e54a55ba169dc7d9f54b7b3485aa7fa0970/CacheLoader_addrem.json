@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "60": "  /** Constructor for use by subclasses. */\n",
+        "77": "   * method is called when an existing cache entry is refreshed by {@link\n",
+        "78": "   * CacheBuilder#refreshAfterWrite}, or through a call to {@link LoadingCache#refresh}.\n",
+        "81": "   * overridden with an asynchronous implementation when using {@link\n",
+        "82": "   * CacheBuilder#refreshAfterWrite}.\n",
+        "104": "   * Computes or retrieves the values corresponding to {@code keys}. This method is called by {@link\n",
+        "105": "   * LoadingCache#getAll}.\n",
+        "173": "   * Returns a {@code CacheLoader} which wraps {@code loader}, executing calls to {@link\n",
+        "174": "   * CacheLoader#reload} using {@code executor}.\n"
+    },
+    "removed": {
+        "60": "  /**\n",
+        "61": "   * Constructor for use by subclasses.\n",
+        "62": "   */\n",
+        "79": "   * method is called when an existing cache entry is refreshed by\n",
+        "80": "   * {@link CacheBuilder#refreshAfterWrite}, or through a call to {@link LoadingCache#refresh}.\n",
+        "83": "   * overridden with an asynchronous implementation when using\n",
+        "84": "   * {@link CacheBuilder#refreshAfterWrite}.\n",
+        "106": "   * Computes or retrieves the values corresponding to {@code keys}. This method is called by\n",
+        "107": "   * {@link LoadingCache#getAll}.\n",
+        "175": "   * Returns a {@code CacheLoader} which wraps {@code loader}, executing calls to\n",
+        "176": "   * {@link CacheLoader#reload} using {@code executor}.\n"
+    }
+}

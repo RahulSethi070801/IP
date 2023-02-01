@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "32": "    ForwardingObject forward =\n",
+        "33": "        new ForwardingObject() {\n",
+        "34": "          @Override\n",
+        "35": "          protected Object delegate() {\n",
+        "36": "            return delegate;\n",
+        "37": "          }\n",
+        "38": "        };\n",
+        "44": "    ForwardingObject forward =\n",
+        "45": "        new ForwardingObject() {\n",
+        "46": "          @Override\n",
+        "47": "          protected Object delegate() {\n",
+        "48": "            return delegate;\n",
+        "49": "          }\n",
+        "50": "        };\n"
+    },
+    "removed": {
+        "32": "    ForwardingObject forward = new ForwardingObject() {\n",
+        "33": "      @Override protected Object delegate() {\n",
+        "34": "        return delegate;\n",
+        "35": "      }\n",
+        "36": "    };\n",
+        "42": "    ForwardingObject forward = new ForwardingObject() {\n",
+        "43": "      @Override protected Object delegate() {\n",
+        "44": "        return delegate;\n",
+        "45": "      }\n",
+        "46": "    };\n"
+    }
+}

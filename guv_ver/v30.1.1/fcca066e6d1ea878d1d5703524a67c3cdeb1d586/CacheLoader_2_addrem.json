@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "155": "    return new SupplierToCacheLoader<>(supplier);\n",
+        "196": "      public ListenableFuture<V> reload(final K key, final V oldValue) {\n",
+        "198": "            ListenableFutureTask.create(() -> loader.reload(key, oldValue).get());\n"
+    },
+    "removed": {
+        "29": "import java.util.concurrent.Callable;\n",
+        "156": "    return new SupplierToCacheLoader<V>(supplier);\n",
+        "197": "      public ListenableFuture<V> reload(final K key, final V oldValue) throws Exception {\n",
+        "199": "            ListenableFutureTask.create(\n",
+        "200": "                new Callable<V>() {\n",
+        "201": "                  @Override\n",
+        "202": "                  public V call() throws Exception {\n",
+        "203": "                    return loader.reload(key, oldValue).get();\n",
+        "204": "                  }\n",
+        "205": "                });\n"
+    }
+}

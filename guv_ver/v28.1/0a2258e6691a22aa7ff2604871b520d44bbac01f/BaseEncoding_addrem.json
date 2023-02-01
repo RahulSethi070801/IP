@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "38": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "552": "    public boolean equals(@Nullable Object other) {\n",
+        "570": "    @Nullable final Character paddingChar;\n",
+        "572": "    StandardBaseEncoding(String name, String alphabetChars, @Nullable Character paddingChar) {\n",
+        "576": "    StandardBaseEncoding(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "836": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "855": "    public boolean equals(@Nullable Object other) {\n",
+        "912": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "918": "    Base64Encoding(String name, String alphabetChars, @Nullable Character paddingChar) {\n",
+        "922": "    private Base64Encoding(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "969": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "1020": "      public Appendable append(@Nullable CharSequence chars, int off, int len) throws IOException {\n",
+        "1025": "      public Appendable append(@Nullable CharSequence chars) throws IOException {\n"
+    },
+    "removed": {
+        "38": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "552": "    public boolean equals(@NullableDecl Object other) {\n",
+        "570": "    @NullableDecl final Character paddingChar;\n",
+        "572": "    StandardBaseEncoding(String name, String alphabetChars, @NullableDecl Character paddingChar) {\n",
+        "576": "    StandardBaseEncoding(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "836": "    BaseEncoding newInstance(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "855": "    public boolean equals(@NullableDecl Object other) {\n",
+        "912": "    BaseEncoding newInstance(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "918": "    Base64Encoding(String name, String alphabetChars, @NullableDecl Character paddingChar) {\n",
+        "922": "    private Base64Encoding(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "969": "    BaseEncoding newInstance(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "1020": "      public Appendable append(@NullableDecl CharSequence chars, int off, int len)\n",
+        "1021": "          throws IOException {\n",
+        "1026": "      public Appendable append(@NullableDecl CharSequence chars) throws IOException {\n"
+    }
+}

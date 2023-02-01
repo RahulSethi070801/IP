@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "34": "  @Override\n",
+        "35": "  protected Table<String, Integer, Character> create(Object... data) {\n",
+        "76": "    } catch (IllegalArgumentException expected) {\n",
+        "77": "    }\n",
+        "82": "    } catch (IllegalArgumentException expected) {\n",
+        "83": "    }\n",
+        "87": "    Table<String, Integer, Character> original =\n",
+        "88": "        create(\"foo\", 1, 'a', \"bar\", 1, 'b', \"foo\", 3, 'c');\n"
+    },
+    "removed": {
+        "34": "  @Override protected Table<String, Integer, Character> create(\n",
+        "35": "      Object... data) {\n",
+        "76": "    } catch (IllegalArgumentException expected) {}\n",
+        "81": "    } catch (IllegalArgumentException expected) {}\n",
+        "85": "    Table<String, Integer, Character> original\n",
+        "86": "        = create(\"foo\", 1, 'a', \"bar\", 1, 'b', \"foo\", 3, 'c');\n"
+    }
+}

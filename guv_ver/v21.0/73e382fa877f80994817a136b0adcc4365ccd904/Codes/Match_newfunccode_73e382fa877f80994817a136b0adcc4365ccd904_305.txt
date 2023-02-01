@@ -1,0 +1,3 @@
+public long get(K key) {
+    return map.getOrDefault(key, 0L);
+}

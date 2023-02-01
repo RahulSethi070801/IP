@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "50": "    assertEquals(\n",
+        "51": "        \"a&quot;b&lt;c&gt;d&amp;e&quot;f&apos;\", xmlAttributeEscaper.escape(\"a\\\"b<c>d&e\\\"f'\"));\n",
+        "57": "  static void assertBasicXmlEscaper(\n",
+        "58": "      CharEscaper xmlEscaper, boolean shouldEscapeQuotes, boolean shouldEscapeWhitespaceChars) {\n",
+        "61": "    assertEquals(\"test &amp; test &amp; test\", xmlEscaper.escape(\"test & test & test\"));\n",
+        "67": "    String s =\n",
+        "68": "        \"!@#$%^*()_+=-/?\\\\|]}[{,.;:\"\n",
+        "69": "            + \"abcdefghijklmnopqrstuvwxyz\"\n",
+        "70": "            + \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n",
+        "71": "            + \"1234567890\";\n",
+        "106": "            \"char 0x\" + Integer.toString(ch, 16) + \" should not be escaped\", input, escaped);\n",
+        "114": "    assertEquals(\n",
+        "115": "        \"0xFFFE is forbidden and should be replaced during escaping\",\n",
+        "116": "        \"[\\uFFFD]\",\n",
+        "117": "        xmlEscaper.escape(\"[\\ufffe]\"));\n",
+        "118": "    assertEquals(\n",
+        "119": "        \"0xFFFF is forbidden and should be replaced during escaping\",\n",
+        "120": "        \"[\\uFFFD]\",\n",
+        "121": "        xmlEscaper.escape(\"[\\uffff]\"));\n"
+    },
+    "removed": {
+        "50": "    assertEquals(\"a&quot;b&lt;c&gt;d&amp;e&quot;f&apos;\",\n",
+        "51": "        xmlAttributeEscaper.escape(\"a\\\"b<c>d&e\\\"f'\"));\n",
+        "57": "  static void assertBasicXmlEscaper(CharEscaper xmlEscaper,\n",
+        "58": "      boolean shouldEscapeQuotes, boolean shouldEscapeWhitespaceChars) {\n",
+        "61": "    assertEquals(\"test &amp; test &amp; test\",\n",
+        "62": "        xmlEscaper.escape(\"test & test & test\"));\n",
+        "68": "    String s = \"!@#$%^*()_+=-/?\\\\|]}[{,.;:\" +\n",
+        "69": "        \"abcdefghijklmnopqrstuvwxyz\" +\n",
+        "70": "        \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\" +\n",
+        "71": "        \"1234567890\";\n",
+        "106": "            \"char 0x\" + Integer.toString(ch, 16) + \" should not be escaped\",\n",
+        "107": "            input, escaped);\n",
+        "115": "    assertEquals(\"0xFFFE is forbidden and should be replaced during escaping\",\n",
+        "116": "        \"[\\uFFFD]\", xmlEscaper.escape(\"[\\ufffe]\"));\n",
+        "117": "    assertEquals(\"0xFFFF is forbidden and should be replaced during escaping\",\n",
+        "118": "        \"[\\uFFFD]\", xmlEscaper.escape(\"[\\uffff]\"));\n"
+    }
+}

@@ -1,0 +1,4 @@
+CharSink
+Insertions: [20, 146, 150]
+Deletions: []
+guava/src/com/google/common/io/CharSink.java

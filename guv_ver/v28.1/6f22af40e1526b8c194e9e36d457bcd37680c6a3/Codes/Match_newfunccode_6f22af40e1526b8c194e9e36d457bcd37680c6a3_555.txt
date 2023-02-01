@@ -1,0 +1,4 @@
+@GwtIncompatible
+static <E> NavigableSet<E> navigableSet(NavigableSet<E> navigableSet, @NullableDecl Object mutex) {
+    return new SynchronizedNavigableSet<E>(navigableSet, mutex);
+}

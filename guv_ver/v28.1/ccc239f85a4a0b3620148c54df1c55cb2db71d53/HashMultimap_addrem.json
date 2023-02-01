@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "93": "    this(12, DEFAULT_VALUES_PER_KEY);\n",
+        "97": "    super(Platform.<K, Collection<V>>newHashMapWithExpectedSize(expectedKeys));\n",
+        "103": "    super(Platform.<K, Collection<V>>newHashMapWithExpectedSize(multimap.keySet().size()));\n",
+        "116": "    return Platform.<V>newHashSetWithExpectedSize(expectedValuesPerKey);\n",
+        "134": "    Map<K, Collection<V>> map = Platform.newHashMapWithExpectedSize(12);\n"
+    },
+    "removed": {
+        "27": "import java.util.HashMap;\n",
+        "94": "    super(new HashMap<K, Collection<V>>());\n",
+        "98": "    super(Maps.<K, Collection<V>>newHashMapWithExpectedSize(expectedKeys));\n",
+        "104": "    super(Maps.<K, Collection<V>>newHashMapWithExpectedSize(multimap.keySet().size()));\n",
+        "117": "    return Sets.<V>newHashSetWithExpectedSize(expectedValuesPerKey);\n",
+        "135": "    Map<K, Collection<V>> map = Maps.newHashMap();\n"
+    }
+}

@@ -1,0 +1,10 @@
+public static <T> T readBytes(InputStream input, ByteProcessor<T> processor) throws IOException {
+    checkNotNull(input);
+    checkNotNull(processor);
+    byte[] buf = new byte[BUF_SIZE];
+    int read;
+    do {
+        read = input.read(buf);
+    } while (read != -1 && processor.processBytes(buf, 0, read));
+    return processor.getResult();
+}

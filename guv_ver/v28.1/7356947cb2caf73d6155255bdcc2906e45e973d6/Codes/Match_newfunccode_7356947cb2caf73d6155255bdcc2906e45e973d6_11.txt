@@ -1,0 +1,4 @@
+@Deprecated
+public static void copy(File from, Charset charset, Appendable to) throws IOException {
+    asCharSource(from, charset).copyTo(to);
+}

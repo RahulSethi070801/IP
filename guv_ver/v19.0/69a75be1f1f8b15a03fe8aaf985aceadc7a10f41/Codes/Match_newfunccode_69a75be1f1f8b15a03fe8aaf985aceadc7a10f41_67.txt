@@ -1,0 +1,9 @@
+private static Map<? extends Enum, LockGraphNode> getOrCreateNodes(Class<? extends Enum> clazz) {
+    Map<? extends Enum, LockGraphNode> existing = lockGraphNodesPerType.get(clazz);
+    if (existing != null) {
+        return existing;
+    }
+    Map<? extends Enum, LockGraphNode> created = createNodes(clazz);
+    existing = lockGraphNodesPerType.putIfAbsent(clazz, created);
+    return MoreObjects.firstNonNull(existing, created);
+}

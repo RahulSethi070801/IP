@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "29": " * When describing the features of the collection produced by a given generator (i.e. in a call to\n",
+        "30": " * {@link\n",
+        "32": " * this annotation specifies each of the different sizes for which a test suite should be built. (In\n",
+        "33": " * a typical case, the features should include {@link CollectionSize#ANY}.) These semantics are thus\n",
+        "34": " * a little different from those of other Collection-related features such as {@link\n",
+        "36": " *\n",
+        "37": " * <p>However, when {@link CollectionSize.Require} is used to annotate a test it behaves normally\n",
+        "38": " * (i.e. it requires the collection instance under test to be a certain size for the test to run).\n",
+        "39": " * Note that this means a test should not require more than one CollectionSize, since a particular\n",
+        "40": " * collection instance can only be one size at once.\n"
+    },
+    "removed": {
+        "29": " * When describing the features of the collection produced by a given generator\n",
+        "30": " * (i.e. in a call to {@link\n",
+        "32": " * this annotation specifies each of the different sizes for which a test suite\n",
+        "33": " * should be built. (In a typical case, the features should include {@link\n",
+        "34": " * CollectionSize#ANY}.) These semantics are thus a little different\n",
+        "35": " * from those of other Collection-related features such as {@link\n",
+        "37": " * <p>\n",
+        "38": " * However, when {@link CollectionSize.Require} is used to annotate a test it\n",
+        "39": " * behaves normally (i.e. it requires the collection instance under test to be\n",
+        "40": " * a certain size for the test to run). Note that this means a test should not\n",
+        "41": " * require more than one CollectionSize, since a particular collection instance\n",
+        "42": " * can only be one size at once.\n"
+    }
+}

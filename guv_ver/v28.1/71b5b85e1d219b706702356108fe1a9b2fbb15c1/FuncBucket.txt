@@ -1,0 +1,55 @@
+com.google.common.util.concurrent.TrustedListenableFutureTask
+create
+static TrustedListenableFutureTask<V> create(AsyncCallable<V> callable)
+AsyncCallable
+TrustedListenableFutureTask
+com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask
+toString
+public String toString()
+empty
+String
+com.google.common.util.concurrent.Futures
+scheduleAsync
+public static ListenableFuture<O> scheduleAsync(AsyncCallable<O> callable, long delay, TimeUnit timeUnit, ScheduledExecutorService executorService)
+AsyncCallable,long,TimeUnit,ScheduledExecutorService
+ListenableFuture
+com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask
+TrustedFutureInterruptibleAsyncTask
+TrustedFutureInterruptibleAsyncTask(AsyncCallable<V> callable)
+AsyncCallable
+constructor
+com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask
+runInterruptibly
+void runInterruptibly()
+empty
+void
+com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask
+wasInterrupted
+boolean wasInterrupted()
+empty
+boolean
+com.google.common.util.concurrent.Futures
+submitAsync
+public static ListenableFuture<O> submitAsync(AsyncCallable<O> callable, Executor executor)
+AsyncCallable,Executor
+ListenableFuture
+com.google.common.util.concurrent.TrustedListenableFutureTask
+run
+public void run()
+empty
+void
+com.google.common.util.concurrent.TrustedListenableFutureTask
+TrustedListenableFutureTask
+TrustedListenableFutureTask(AsyncCallable<V> callable)
+AsyncCallable
+constructor
+com.google.common.util.concurrent.TrustedListenableFutureTask
+afterDone
+protected void afterDone()
+empty
+void
+com.google.common.util.concurrent.TrustedListenableFutureTask
+pendingToString
+protected String pendingToString()
+empty
+String

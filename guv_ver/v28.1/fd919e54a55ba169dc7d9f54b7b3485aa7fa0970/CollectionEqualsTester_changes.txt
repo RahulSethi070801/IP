@@ -1,0 +1,4 @@
+CollectionEqualsTester
+Insertions: [37, 42]
+Deletions: [37, 42]
+android/guava-testlib/src/com/google/common/collect/testing/testers/CollectionEqualsTester.java

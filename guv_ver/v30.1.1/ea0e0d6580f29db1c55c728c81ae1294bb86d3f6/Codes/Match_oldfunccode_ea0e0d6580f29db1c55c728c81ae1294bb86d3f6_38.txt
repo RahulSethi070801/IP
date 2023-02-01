@@ -1,0 +1,9 @@
+@Override
+public int remove(@Nullable Object element, int occurrences) {
+    checkNonnegative(occurrences, "occurrences");
+    if (occurrences == 0) {
+        return count(element);
+    } else {
+        return contains(element) ? unfiltered.remove(element, occurrences) : 0;
+    }
+}

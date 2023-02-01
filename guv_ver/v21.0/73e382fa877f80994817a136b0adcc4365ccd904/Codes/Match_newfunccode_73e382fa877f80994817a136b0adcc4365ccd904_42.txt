@@ -1,0 +1,13 @@
+@Override
+long storedPermitsToWaitTime(double storedPermits, double permitsToTake) {
+    double availablePermitsAboveThreshold = storedPermits - thresholdPermits;
+    long micros = 0;
+    if (availablePermitsAboveThreshold > 0.0) {
+        double permitsAboveThresholdToTake = min(availablePermitsAboveThreshold, permitsToTake);
+        double length = permitsToTime(availablePermitsAboveThreshold) + permitsToTime(availablePermitsAboveThreshold - permitsAboveThresholdToTake);
+        micros = (long) (permitsAboveThresholdToTake * length / 2.0);
+        permitsToTake -= permitsAboveThresholdToTake;
+    }
+    micros += (stableIntervalMicros * permitsToTake);
+    return micros;
+}

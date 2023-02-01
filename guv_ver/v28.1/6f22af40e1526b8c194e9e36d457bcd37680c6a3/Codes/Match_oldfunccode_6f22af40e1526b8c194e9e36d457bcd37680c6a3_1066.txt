@@ -1,0 +1,5 @@
+@Override
+public Set<V> removeAll(@Nullable Object key) {
+    assertTrue(Thread.holdsLock(mutex));
+    return super.removeAll(key);
+}

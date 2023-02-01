@@ -1,0 +1,4 @@
+@CheckReturnValue
+public static BaseEncoding base64() {
+    return BASE64;
+}

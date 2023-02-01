@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "34": "  public static void deserialize(SerializationStreamReader reader, Absent<?> instance) {}\n",
+        "36": "  public static Absent<?> instantiate(SerializationStreamReader reader) {\n",
+        "40": "  public static void serialize(SerializationStreamWriter writer, Absent<?> instance) {}\n"
+    },
+    "removed": {
+        "34": "  public static void deserialize(SerializationStreamReader reader, Absent instance) {}\n",
+        "36": "  public static Absent instantiate(SerializationStreamReader reader) {\n",
+        "40": "  public static void serialize(SerializationStreamWriter writer, Absent instance) {}\n"
+    }
+}

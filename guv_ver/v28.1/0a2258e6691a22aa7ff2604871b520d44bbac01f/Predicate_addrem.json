@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "19": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "62": "  boolean apply(@Nullable T input);\n",
+        "75": "  boolean equals(@Nullable Object object);\n",
+        "78": "  default boolean test(@Nullable T input) {\n"
+    },
+    "removed": {
+        "19": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "62": "  boolean apply(@NullableDecl T input);\n",
+        "75": "  boolean equals(@NullableDecl Object object);\n",
+        "78": "  default boolean test(@NullableDecl T input) {\n"
+    }
+}

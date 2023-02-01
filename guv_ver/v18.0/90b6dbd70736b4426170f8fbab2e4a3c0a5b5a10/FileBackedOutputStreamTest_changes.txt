@@ -1,0 +1,4 @@
+FileBackedOutputStreamTest
+Insertions: [81, 88, 102, 103, 130, 133, 144, 151, 154, 157, 160]
+Deletions: [23, 82, 89, 90, 104, 105, 132, 135, 146, 153, 156, 159, 162]
+guava-tests/test/com/google/common/io/FileBackedOutputStreamTest.java

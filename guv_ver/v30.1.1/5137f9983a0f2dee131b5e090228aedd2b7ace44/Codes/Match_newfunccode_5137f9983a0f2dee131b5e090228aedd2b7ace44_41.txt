@@ -1,0 +1,7 @@
+public static void closeQuietly(@CheckForNull Reader reader) {
+    try {
+        close(reader, true);
+    } catch (IOException impossible) {
+        throw new AssertionError(impossible);
+    }
+}

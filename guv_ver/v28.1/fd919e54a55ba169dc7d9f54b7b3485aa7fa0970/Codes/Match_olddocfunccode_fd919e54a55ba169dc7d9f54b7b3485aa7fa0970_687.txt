@@ -1,0 +1,17 @@
+public static boolean isMappedIPv4Address(String ipString) {
+    byte[] bytes = ipStringToBytes(ipString);
+    if (bytes != null && bytes.length == 16) {
+        for (int i = 0; i < 10; i++) {
+            if (bytes[i] != 0) {
+                return false;
+            }
+        }
+        for (int i = 10; i < 12; i++) {
+            if (bytes[i] != (byte) 0xff) {
+                return false;
+            }
+        }
+        return true;
+    }
+    return false;
+}

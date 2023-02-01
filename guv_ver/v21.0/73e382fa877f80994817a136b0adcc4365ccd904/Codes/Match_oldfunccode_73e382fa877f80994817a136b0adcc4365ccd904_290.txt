@@ -1,0 +1,1 @@
+void addAll(Iterable<Range<C>> ranges);

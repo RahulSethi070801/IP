@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "20": "\n",
+        "26": "import java.util.Spliterator;\n",
+        "27": "import java.util.Spliterators;\n",
+        "28": "import java.util.function.Consumer;\n",
+        "58": "    @Override\n",
+        "59": "    public Spliterator<Entry<K, V>> spliterator() {\n",
+        "60": "      return Spliterators.spliterator(entries, ImmutableSet.SPLITERATOR_CHARACTERISTICS);\n",
+        "61": "    }\n",
+        "62": "\n",
+        "63": "    @Override\n",
+        "64": "    public void forEach(Consumer<? super Entry<K, V>> action) {\n",
+        "65": "      checkNotNull(action);\n",
+        "66": "      for (Entry<K, V> entry : entries) {\n",
+        "67": "        action.accept(entry);\n",
+        "68": "      }\n",
+        "69": "    }\n",
+        "70": "\n"
+    },
+    "removed": {}
+}

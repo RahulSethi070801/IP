@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "21": "import java.util.Map.Entry;\n",
+        "92": "    for (Entry<? extends K, ? extends V> entry : m.entrySet()) {\n"
+    },
+    "removed": {
+        "91": "    for (Map.Entry<? extends K, ? extends V> entry : m.entrySet()) {\n"
+    }
+}

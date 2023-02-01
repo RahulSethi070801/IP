@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "63": "  public synchronized void publish(@Nullable LogRecord record) {\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "63": "  public synchronized void publish(@NullableDecl LogRecord record) {\n"
+    }
+}

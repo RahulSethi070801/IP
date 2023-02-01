@@ -1,0 +1,6 @@
+private static Method getSizeMethod()
+public static RuntimeException propagate(Throwable throwable)
+
+private static Method getJlaMethod(String name, Class<?>... parameterTypes) throws ThreadDeath
+public static RuntimeException propagate(Throwable throwable)
+

@@ -1,0 +1,4 @@
+@Override
+public Set<N> predecessors(Object node) {
+    return delegate().predecessors(node);
+}

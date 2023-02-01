@@ -1,0 +1,4 @@
+RegularImmutableMap
+Insertions: [32, 102, 144, 154, 158, 159]
+Deletions: [32, 102, 144, 154, 158, 159, 160]
+guava/src/com/google/common/collect/RegularImmutableMap.java

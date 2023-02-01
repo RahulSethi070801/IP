@@ -1,0 +1,4 @@
+@Override
+public final <A extends Annotation> A getAnnotation(Class<A> annotationClass) {
+    return accessibleObject.getAnnotation(annotationClass);
+}

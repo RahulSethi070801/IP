@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "34": "  @Override\n",
+        "35": "  protected void setUp() throws Exception {\n",
+        "45": "    stack.addTearDown(\n",
+        "46": "        new TearDown() {\n",
+        "47": "          @Override\n",
+        "48": "          public void tearDown() throws Exception {\n",
+        "49": "            ExampleClassUnderTest.logger.setUseParentHandlers(true);\n",
+        "50": "            ExampleClassUnderTest.logger.removeHandler(handler);\n",
+        "51": "          }\n",
+        "52": "        });\n",
+        "75": "  @Override\n",
+        "76": "  public final void runBare() throws Throwable {\n",
+        "85": "  @Override\n",
+        "86": "  protected void tearDown() {\n",
+        "93": "    static final Logger logger = Logger.getLogger(ExampleClassUnderTest.class.getName());\n",
+        "96": "      logger.log(Level.INFO, \"message\", EXCEPTION);\n"
+    },
+    "removed": {
+        "34": "  @Override protected void setUp() throws Exception {\n",
+        "44": "    stack.addTearDown(new TearDown() {\n",
+        "45": "      @Override\n",
+        "46": "      public void tearDown() throws Exception {\n",
+        "47": "        ExampleClassUnderTest.logger.setUseParentHandlers(true);\n",
+        "48": "        ExampleClassUnderTest.logger.removeHandler(handler);\n",
+        "49": "      }\n",
+        "50": "    });\n",
+        "73": "  @Override public final void runBare() throws Throwable {\n",
+        "82": "  @Override protected void tearDown() {\n",
+        "89": "    static final Logger logger\n",
+        "90": "        = Logger.getLogger(ExampleClassUnderTest.class.getName());\n",
+        "93": "      logger.log(Level.INFO,  \"message\", EXCEPTION);\n"
+    }
+}

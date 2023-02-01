@@ -1,0 +1,13 @@
+@Beta
+@GwtIncompatible
+public static <T> AsyncCallable<T> asAsyncCallable(final Callable<T> callable, final ListeningExecutorService listeningExecutorService) {
+    checkNotNull(callable);
+    checkNotNull(listeningExecutorService);
+    return new AsyncCallable<T>() {
+
+        @Override
+        public ListenableFuture<T> call() throws Exception {
+            return listeningExecutorService.submit(callable);
+        }
+    };
+}

@@ -1,0 +1,55 @@
+com.google.common.io.Files
+toString
+public static String toString(File file, Charset charset) throws IOException
+File,Charset
+String
+com.google.common.io.Files
+readFirstLine
+public static String readFirstLine(File file, Charset charset) throws IOException
+File,Charset
+String
+com.google.common.io.Files
+readBytes
+public static T readBytes(File file, ByteProcessor<T> processor) throws IOException
+File,ByteProcessor
+T
+com.google.common.io.MoreFiles
+getParentPath
+private static Path getParentPath(Path path) throws IOException
+Path
+Path
+com.google.common.io.Files
+copy
+public static void copy(File from, Charset charset, Appendable to) throws IOException
+File,Charset,Appendable
+void
+com.google.common.io.Files
+write
+public static void write(CharSequence from, File to, Charset charset) throws IOException
+CharSequence,File,Charset
+void
+com.google.common.io.Files
+hash
+public static HashCode hash(File file, HashFunction hashFunction) throws IOException
+File,HashFunction
+HashCode
+com.google.common.io.Files
+readLines
+public static List<String> readLines(File file, Charset charset) throws IOException
+File,Charset
+List
+com.google.common.io.MoreFiles
+getParentPath
+private static Path getParentPath(Path path)
+Path
+Path
+com.google.common.io.Files
+readLines
+public static T readLines(File file, Charset charset, LineProcessor<T> callback) throws IOException
+File,Charset,LineProcessor
+T
+com.google.common.io.Files
+append
+public static void append(CharSequence from, File to, Charset charset) throws IOException
+CharSequence,File,Charset
+void

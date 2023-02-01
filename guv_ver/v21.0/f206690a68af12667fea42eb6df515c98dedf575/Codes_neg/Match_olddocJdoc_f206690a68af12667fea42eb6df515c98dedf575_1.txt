@@ -1,0 +1,6 @@
+
+     * Performs routine cleanup prior to executing a write. This should be called every time a
+     * write thread acquires the segment lock, immediately after acquiring the lock.
+     *
+     * <p>Post-condition: expireEntries has been run.
+     

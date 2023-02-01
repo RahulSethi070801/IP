@@ -1,0 +1,4 @@
+@Override
+public E floor(E e) {
+    return delegate.floor(e);
+}

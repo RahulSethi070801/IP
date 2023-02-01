@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "26": "import java.util.Map.Entry;\n",
+        "43": "    for (Entry<String, String> entry : TEST_STRINGS.entrySet()) {\n"
+    },
+    "removed": {
+        "26": "import java.util.Map;\n",
+        "43": "    for (Map.Entry<String, String> entry : TEST_STRINGS.entrySet()) {\n"
+    }
+}

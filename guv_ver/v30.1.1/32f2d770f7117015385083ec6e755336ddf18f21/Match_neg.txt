@@ -1,0 +1,6 @@
+GraphTraverser(SuccessorsFunction<N> graph)
+abstract N visitNext(Deque<Iterator<? extends N>> horizon)
+
+public N next()
+abstract N visitNext(Deque<Iterator<? extends N>> horizon)
+

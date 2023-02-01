@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "13": "/** Emulation of executors. */\n",
+        "46": "  private Executors() {}\n"
+    },
+    "removed": {
+        "13": "/**\n",
+        "14": " * Emulation of executors.\n",
+        "15": " */\n",
+        "48": "  private Executors() {\n",
+        "49": "  }\n"
+    }
+}

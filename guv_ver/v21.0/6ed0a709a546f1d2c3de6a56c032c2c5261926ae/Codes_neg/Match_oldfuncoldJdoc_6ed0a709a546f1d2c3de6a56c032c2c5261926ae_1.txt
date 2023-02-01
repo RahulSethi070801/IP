@@ -1,0 +1,5 @@
+
+   * Returns the hash code of {@code graph}.
+   *
+   * @see Graph#hashCode()
+   

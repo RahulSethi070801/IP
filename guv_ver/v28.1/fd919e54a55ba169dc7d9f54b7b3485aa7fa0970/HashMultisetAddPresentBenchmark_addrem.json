@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "46": "  @Benchmark\n",
+        "47": "  int add(int reps) {\n"
+    },
+    "removed": {
+        "46": "  @Benchmark int add(int reps) {\n"
+    }
+}

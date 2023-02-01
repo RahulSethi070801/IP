@@ -1,0 +1,4 @@
+Finalizer
+Insertions: [29, 30, 85, 86, 87, 90, 140]
+Deletions: [29, 30, 85, 86, 89, 90, 91, 140, 141, 142]
+android/guava/src/com/google/common/base/internal/Finalizer.java

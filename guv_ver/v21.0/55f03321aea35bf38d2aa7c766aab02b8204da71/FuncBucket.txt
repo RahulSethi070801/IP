@@ -1,0 +1,25 @@
+com.google.common.primitives.UnsignedLongs
+parseUnsignedLong
+public static long parseUnsignedLong(String string, int radix)
+String,int
+long
+com.google.common.primitives.Ints
+toByteArray
+public static byte[] toByteArray(int value)
+int
+byte[]
+com.google.common.primitives.Shorts
+toByteArray
+public static byte[] toByteArray(short value)
+short
+byte[]
+com.google.common.primitives.Ints
+tryParse
+public static Integer tryParse(String string, int radix)
+String,int
+Integer
+com.google.common.primitives.UnsignedBytes
+getUnsafe
+private static sun.misc.Unsafe getUnsafe()
+empty
+sun.misc.Unsafe

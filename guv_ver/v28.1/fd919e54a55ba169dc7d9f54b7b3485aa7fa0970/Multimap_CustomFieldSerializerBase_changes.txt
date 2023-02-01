@@ -1,0 +1,4 @@
+Multimap_CustomFieldSerializerBase
+Insertions: [27, 28, 29, 30]
+Deletions: [27, 28, 29, 30, 31]
+guava-gwt/src/com/google/common/collect/Multimap_CustomFieldSerializerBase.java

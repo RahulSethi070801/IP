@@ -1,0 +1,7 @@
+
+   * Returns a fluent iterable containing no elements.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code Stream.empty()}.
+   *
+   * @since 20.0
+   

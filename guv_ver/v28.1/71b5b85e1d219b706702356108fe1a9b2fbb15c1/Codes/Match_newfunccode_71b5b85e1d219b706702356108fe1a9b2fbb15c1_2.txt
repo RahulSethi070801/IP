@@ -1,0 +1,13 @@
+@GwtIncompatible
+public static <O> ListenableFuture<O> scheduleAsync(AsyncCallable<O> callable, long delay, TimeUnit timeUnit, ScheduledExecutorService executorService) {
+    TrustedListenableFutureTask<O> task = TrustedListenableFutureTask.create(callable);
+    final Future<?> scheduled = executorService.schedule(task, delay, timeUnit);
+    task.addListener(new Runnable() {
+
+        @Override
+        public void run() {
+            scheduled.cancel(false);
+        }
+    }, directExecutor());
+    return task;
+}

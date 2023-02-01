@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "17": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "18": "\n",
+        "24": "import javax.annotation.CheckForNull;\n",
+        "33": "@ElementTypesAreNonnullByDefault\n",
+        "36": "  @CheckForNull private Reader current;\n",
+        "52": "  public int read(char[] cbuf, int off, int len) throws IOException {\n",
+        "53": "    checkNotNull(cbuf);\n"
+    },
+    "removed": {
+        "22": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "33": "  private @Nullable Reader current;\n",
+        "49": "  public int read(char @Nullable [] cbuf, int off, int len) throws IOException {\n"
+    }
+}

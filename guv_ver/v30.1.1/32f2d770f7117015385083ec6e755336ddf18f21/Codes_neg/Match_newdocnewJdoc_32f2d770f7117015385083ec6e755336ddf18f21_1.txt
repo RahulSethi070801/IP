@@ -1,0 +1,10 @@
+
+     * Visits the next node from the top iterator of {@code horizon} and returns the visited node.
+     * Null is returned to indicate reaching the end of the top iterator.
+     *
+     * <p>For example, if horizon is {@code [[a, b], [c, d], [e]]}, {@code visitNext()} will return
+     * {@code [a, b, null, c, d, null, e, null]} sequentially, encoding the topological structure.
+     * (Note, however, that the callers of {@code visitNext()} often insert additional iterators
+     * into {@code horizon} between calls to {@code visitNext()}. This causes them to receive
+     * additional values interleaved with those shown above.)
+     

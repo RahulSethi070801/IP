@@ -1,0 +1,12 @@
+@Override
+public boolean containsColumn(@Nullable Object columnKey) {
+    if (columnKey == null) {
+        return false;
+    }
+    for (Map<C, V> map : backingMap.values()) {
+        if (safeContainsKey(map, columnKey)) {
+            return true;
+        }
+    }
+    return false;
+}

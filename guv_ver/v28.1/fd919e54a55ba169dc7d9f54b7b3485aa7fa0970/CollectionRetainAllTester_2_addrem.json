@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "35": " * A generic JUnit test which tests {@code retainAll} operations on a collection. Can't be invoked\n",
+        "36": " * directly; please see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "44": "  /** A collection of elements to retain, along with a description for use in failure messages. */\n"
+    },
+    "removed": {
+        "35": " * A generic JUnit test which tests {@code retainAll} operations on a\n",
+        "36": " * collection. Can't be invoked directly; please see\n",
+        "37": " * {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "45": "  /**\n",
+        "46": "   * A collection of elements to retain, along with a description for use in\n",
+        "47": "   * failure messages.\n",
+        "48": "   */\n"
+    }
+}

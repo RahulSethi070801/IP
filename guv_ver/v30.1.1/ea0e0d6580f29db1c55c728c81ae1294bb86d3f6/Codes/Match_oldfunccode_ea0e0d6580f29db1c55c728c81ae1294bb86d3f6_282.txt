@@ -1,0 +1,4 @@
+@Override
+public boolean contains(@Nullable Object object) {
+    return count(object) > 0;
+}

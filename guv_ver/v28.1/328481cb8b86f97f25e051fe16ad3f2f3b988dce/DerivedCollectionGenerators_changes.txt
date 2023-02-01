@@ -1,0 +1,4 @@
+DerivedCollectionGenerators
+Insertions: [45, 46, 49, 54, 59, 64, 69, 74, 83, 94, 98, 100, 121, 124, 126, 158, 201, 205, 207, 228, 231, 233, 275]
+Deletions: [45, 46, 49, 54, 59, 64, 69, 74, 83, 94, 98, 100, 121, 124, 126, 158, 201, 205, 207, 228, 231, 233, 275]
+android/guava-testlib/src/com/google/common/collect/testing/DerivedCollectionGenerators.java

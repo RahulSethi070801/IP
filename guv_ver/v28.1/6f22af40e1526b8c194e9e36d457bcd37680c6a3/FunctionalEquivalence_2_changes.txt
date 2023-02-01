@@ -1,0 +1,4 @@
+FunctionalEquivalence_2
+Insertions: [22, 55]
+Deletions: [22, 55]
+guava/src/com/google/common/base/FunctionalEquivalence.java

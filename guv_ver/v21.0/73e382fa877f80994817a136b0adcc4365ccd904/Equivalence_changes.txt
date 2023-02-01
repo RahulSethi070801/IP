@@ -1,0 +1,4 @@
+Equivalence
+Insertions: [21, 42, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]
+Deletions: [41]
+guava/src/com/google/common/base/Equivalence.java

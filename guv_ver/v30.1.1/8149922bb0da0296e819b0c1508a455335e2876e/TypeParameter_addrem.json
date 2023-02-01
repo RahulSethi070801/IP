@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "22": "import javax.annotation.CheckForNull;\n",
+        "38": "@ElementTypesAreNonnullByDefault\n",
+        "39": "/*\n",
+        "40": " * A nullable bound would let users create a TypeParameter instance for a parameter with a nullable\n",
+        "41": " * bound. However, it would also let them create `new TypeParameter<@Nullable T>() {}`, which\n",
+        "42": " * wouldn't behave as users might expect. Additionally, it's not clear how the TypeToken API could\n",
+        "43": " * support even a \"normal\" `TypeParameter<T>` when `<T>` has a nullable bound. (See the discussion\n",
+        "44": " * on TypeToken.where.) So, in the interest of failing fast and encouraging the user to switch to a\n",
+        "45": " * non-null bound if possible, let's require a non-null bound here.\n",
+        "46": " *\n",
+        "47": " * TODO(cpovirk): Elaborate on \"wouldn't behave as users might expect.\"\n",
+        "48": " */\n",
+        "65": "  public final boolean equals(@CheckForNull Object o) {\n"
+    },
+    "removed": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "54": "  public final boolean equals(@NullableDecl Object o) {\n"
+    }
+}

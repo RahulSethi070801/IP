@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "505": "        return Iterators.concat(Iterables.transform(inputs, Iterables.<T>toIterator()).iterator());\n"
+    },
+    "removed": {
+        "505": "        return Iterators.concat(iterators(inputs));\n",
+        "506": "      }\n",
+        "507": "    };\n",
+        "508": "  }\n",
+        "509": "\n",
+        "510": "  /**\n",
+        "511": "   * Returns an iterator over the iterators of the given iterables.\n",
+        "512": "   */\n",
+        "513": "  private static <T> Iterator<Iterator<? extends T>> iterators(\n",
+        "514": "      Iterable<? extends Iterable<? extends T>> iterables) {\n",
+        "515": "    return new TransformedIterator<Iterable<? extends T>, Iterator<? extends T>>(\n",
+        "516": "        iterables.iterator()) {\n",
+        "517": "      @Override\n",
+        "518": "      Iterator<? extends T> transform(Iterable<? extends T> from) {\n",
+        "519": "        return from.iterator();\n"
+    }
+}

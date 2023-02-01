@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "25": " * A utility similar to {@link IteratorTester} for testing a {@link ListIterator} against a known\n",
+        "26": " * good reference implementation. As with {@code IteratorTester}, a concrete subclass must provide\n",
+        "27": " * target iterators on demand. It also requires three additional constructor parameters: {@code\n",
+        "28": " * elementsToInsert}, the elements to be passed to {@code set()} and {@code add()} calls; {@code\n",
+        "29": " * features}, the features supported by the iterator; and {@code expectedElements}, the elements the\n",
+        "30": " * iterator should return in order.\n",
+        "31": " *\n",
+        "32": " * <p>The items in {@code elementsToInsert} will be repeated if {@code steps} is larger than the\n",
+        "33": " * number of provided elements.\n"
+    },
+    "removed": {
+        "25": " * A utility similar to {@link IteratorTester} for testing a\n",
+        "26": " * {@link ListIterator} against a known good reference implementation. As with\n",
+        "27": " * {@code IteratorTester}, a concrete subclass must provide target iterators on\n",
+        "28": " * demand. It also requires three additional constructor parameters:\n",
+        "29": " * {@code elementsToInsert}, the elements to be passed to {@code set()} and\n",
+        "30": " * {@code add()} calls; {@code features}, the features supported by the\n",
+        "31": " * iterator; and {@code expectedElements}, the elements the iterator should\n",
+        "32": " * return in order.\n",
+        "33": " * <p>\n",
+        "34": " * The items in {@code elementsToInsert} will be repeated if {@code steps} is\n",
+        "35": " * larger than the number of provided elements.\n"
+    }
+}

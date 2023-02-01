@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "18": "import com.google.errorprone.annotations.DoNotCall;\n",
+        "22": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "42": "@ElementTypesAreNonnullByDefault\n",
+        "53": "  @DoNotCall(\"Use toImmutableSortedMultiset.\")\n",
+        "68": "  @DoNotCall(\"Use toImmutableSortedMultiset.\")\n",
+        "70": "  public static <T extends @Nullable Object, E>\n",
+        "71": "      Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(\n",
+        "72": "          Function<? super T, ? extends E> elementFunction,\n",
+        "73": "          ToIntFunction<? super T> countFunction) {\n",
+        "85": "  @DoNotCall(\"Use naturalOrder.\")\n",
+        "100": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "115": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "130": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "145": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "161": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "177": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "193": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n"
+    },
+    "removed": {
+        "65": "  public static <T, E> Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(\n",
+        "66": "      Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction) {\n"
+    }
+}

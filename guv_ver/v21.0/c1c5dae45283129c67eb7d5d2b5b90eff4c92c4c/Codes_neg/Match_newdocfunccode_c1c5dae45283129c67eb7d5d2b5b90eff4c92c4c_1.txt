@@ -1,0 +1,1 @@
+void removeOutEdge(Object edge);

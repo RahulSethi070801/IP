@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "37": "import java.util.Map.Entry;\n",
+        "49": "        new TypeCapture<Entry<String, Integer>>() {}.capture();\n",
+        "51": "        Entry.class, String.class, Integer.class);\n",
+        "97": "        new TypeCapture<Entry<String, int[][]>>() {}.capture();\n",
+        "99": "        Map.class, Entry.class, String.class, int[][].class);\n",
+        "103": "        .addEqualityGroup(new TypeCapture<Entry<String, String>>() {}.capture())\n",
+        "108": "    assertEquals(Entry.class, ourType.getRawType());\n",
+        "117": "        Entry.class, String.class, Integer.class));\n",
+        "130": "        Types.newParameterizedType(Entry.class, String.class, Integer.class),\n",
+        "132": "            null, Entry.class, String.class, Integer.class));\n",
+        "138": "          Map.class, Entry.class, String.class);\n",
+        "146": "          Map.class, Entry.class, int.class, int.class);\n"
+    },
+    "removed": {
+        "48": "        new TypeCapture<Map.Entry<String, Integer>>() {}.capture();\n",
+        "50": "        Map.Entry.class, String.class, Integer.class);\n",
+        "96": "        new TypeCapture<Map.Entry<String, int[][]>>() {}.capture();\n",
+        "98": "        Map.class, Map.Entry.class, String.class, int[][].class);\n",
+        "102": "        .addEqualityGroup(new TypeCapture<Map.Entry<String, String>>() {}.capture())\n",
+        "107": "    assertEquals(Map.Entry.class, ourType.getRawType());\n",
+        "116": "        Map.Entry.class, String.class, Integer.class));\n",
+        "129": "        Types.newParameterizedType(Map.Entry.class, String.class, Integer.class),\n",
+        "131": "            null, Map.Entry.class, String.class, Integer.class));\n",
+        "137": "          Map.class, Map.Entry.class, String.class);\n",
+        "145": "          Map.class, Map.Entry.class, int.class, int.class);\n"
+    }
+}

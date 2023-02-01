@@ -1,0 +1,6 @@
+public final int hash(@Nullable T t) {
+    if (t == null) {
+        return 0;
+    }
+    return doHash(t);
+}

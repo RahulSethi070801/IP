@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "35": "  /** Serializes and deserializes the specified object. */\n",
+        "43": "      ObjectInputStream in = new ObjectInputStream(new ByteArrayInputStream(bytes.toByteArray()));\n"
+    },
+    "removed": {
+        "35": "  /**\n",
+        "36": "   * Serializes and deserializes the specified object.\n",
+        "37": "   */\n",
+        "45": "      ObjectInputStream in = new ObjectInputStream(\n",
+        "46": "          new ByteArrayInputStream(bytes.toByteArray()));\n"
+    }
+}

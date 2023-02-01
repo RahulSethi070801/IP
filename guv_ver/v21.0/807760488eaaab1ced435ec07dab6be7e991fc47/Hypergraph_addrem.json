@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "41": "  /**\n",
+        "42": "   * Source is not applicable to hypergraphs.\n",
+        "43": "   *\n",
+        "44": "   * @throws UnsupportedOperationException always\n",
+        "45": "   * @deprecated Unsupported operation. Call {@link #incidentNodes(Object)} instead.\n",
+        "46": "   */\n",
+        "47": "  @Deprecated\n",
+        "48": "  @Override\n",
+        "49": "  N source(Object edge);\n",
+        "50": "\n",
+        "51": "  /**\n",
+        "52": "   * Target is not applicable to hypergraphs.\n",
+        "53": "   *\n",
+        "54": "   * @throws UnsupportedOperationException always\n",
+        "55": "   * @deprecated Unsupported operation. Call {@link #incidentNodes(Object)} instead.\n",
+        "56": "   */\n",
+        "57": "  @Deprecated\n",
+        "58": "  @Override\n",
+        "59": "  N target(Object edge);\n",
+        "60": "\n"
+    },
+    "removed": {}
+}

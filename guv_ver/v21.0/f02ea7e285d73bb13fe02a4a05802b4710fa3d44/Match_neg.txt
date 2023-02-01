@@ -1,0 +1,6 @@
+private Map<EndpointPair<N>, V> edgeValueMap()
+V edgeValue(Object nodeU, Object nodeV)
+
+public String toString()
+V edgeValue(Object nodeU, Object nodeV)
+

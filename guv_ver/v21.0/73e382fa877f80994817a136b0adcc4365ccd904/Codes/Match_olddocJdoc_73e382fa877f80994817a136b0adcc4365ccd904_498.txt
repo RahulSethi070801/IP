@@ -1,0 +1,5 @@
+
+   * Returns the number of elements in this fluent iterable.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code stream.count()}.
+   

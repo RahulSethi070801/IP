@@ -1,0 +1,6 @@
+
+   * Returns a hash function implementing the SHA-384 algorithm (384 hash bits) by delegating to the
+   * SHA-384 {@link MessageDigest}.
+   *
+   * @since 19.0
+   

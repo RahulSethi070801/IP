@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "43": "public final class ImmutableNetwork<N, E> extends ConfigurableNetwork<N, E> {\n",
+        "66": "  @Override\n",
+        "67": "  public ImmutableGraph<N> asGraph() {\n",
+        "68": "    final Graph<N> asGraph = super.asGraph();\n",
+        "69": "    return new ImmutableGraph<N>() {\n",
+        "70": "      @Override\n",
+        "71": "      protected Graph<N> delegate() {\n",
+        "72": "        return asGraph; // safe because the graph view is effectively immutable\n",
+        "73": "      }\n",
+        "74": "    };\n",
+        "75": "  }\n",
+        "76": "\n",
+        "94": "      edgeToReferenceNode.put(edge, graph.incidentNodes(edge).nodeU());\n"
+    },
+    "removed": {
+        "43": "public class ImmutableNetwork<N, E> extends ConfigurableNetwork<N, E> {\n",
+        "45": "  /** To ensure the immutability contract is maintained, there must be no public constructors. */\n",
+        "84": "      edgeToReferenceNode.put(edge, graph.incidentNodes(edge).nodeA());\n"
+    }
+}

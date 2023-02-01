@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "30": " * A simple mock implementation of {@code Runnable} that can be used for testing ListenableFutures.\n",
+        "54": "   * Verify that the listener completes in a reasonable amount of time, and Asserts that the future\n",
+        "55": "   * returns the expected data.\n",
+        "56": "   *\n",
+        "57": "   * @throws Throwable if the listener isn't called or if it resulted in a throwable or if the\n",
+        "58": "   *     result doesn't match the expected value.\n",
+        "72": "   * Verify that the listener completes in a reasonable amount of time, and Asserts that the future\n",
+        "73": "   * throws an {@code ExecutableException} and that the cause of the {@code ExecutableException} is\n",
+        "74": "   * {@code expectedCause}.\n"
+    },
+    "removed": {
+        "30": " * A simple mock implementation of {@code Runnable} that can be used for\n",
+        "31": " * testing ListenableFutures.\n",
+        "55": "   * Verify that the listener completes in a reasonable amount of time, and\n",
+        "56": "   * Asserts that the future returns the expected data.\n",
+        "57": "   * @throws Throwable if the listener isn't called or if it resulted in a\n",
+        "58": "   *     throwable or if the result doesn't match the expected value.\n",
+        "72": "   * Verify that the listener completes in a reasonable amount of time, and\n",
+        "73": "   * Asserts that the future throws an {@code ExecutableException} and that the\n",
+        "74": "   * cause of the {@code ExecutableException} is {@code expectedCause}.\n"
+    }
+}

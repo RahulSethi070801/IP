@@ -1,0 +1,5 @@
+com.google.common.graph.AbstractNetwork
+toString
+public String toString()
+empty
+String

@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "53": "    out.write(new byte[] {-100, 100});\n",
+        "91": "    } catch (EOFException expected) {\n",
+        "92": "    }\n",
+        "133": "    out.write(new byte[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}); // 10 bytes of junk to skip\n"
+    },
+    "removed": {
+        "53": "    out.write(new byte[] { -100, 100 });\n",
+        "91": "    } catch (EOFException expected) {}\n",
+        "132": "    out.write(new byte[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}); // 10 bytes of junk to skip\n"
+    }
+}

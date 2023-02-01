@@ -1,0 +1,9 @@
+@Override
+Cell<R, C, V> getCell(int index) {
+    int rowIndex = cellRowIndices[index];
+    Entry<R, Map<C, V>> rowEntry = rowMap.entrySet().asList().get(rowIndex);
+    ImmutableMap<C, V> row = (ImmutableMap<C, V>) rowEntry.getValue();
+    int columnIndex = cellColumnInRowIndices[index];
+    Entry<C, V> colEntry = row.entrySet().asList().get(columnIndex);
+    return cellOf(rowEntry.getKey(), colEntry.getKey(), colEntry.getValue());
+}

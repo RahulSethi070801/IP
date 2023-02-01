@@ -1,0 +1,3 @@
+public final String join(@Nullable Object first, @Nullable Object second, Object... rest) {
+    return join(iterable(first, second, rest));
+}

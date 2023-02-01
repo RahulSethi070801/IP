@@ -1,0 +1,3 @@
+public boolean is(MediaType mediaTypeRange) {
+    return (mediaTypeRange.type.equals(WILDCARD) || mediaTypeRange.type.equals(this.type)) && (mediaTypeRange.subtype.equals(WILDCARD) || mediaTypeRange.subtype.equals(this.subtype)) && this.parameters.entries().containsAll(mediaTypeRange.parameters.entries());
+}

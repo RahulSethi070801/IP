@@ -1,0 +1,7 @@
+
+   * Returns a wrapper of {@code reference} that implements {@link Wrapper#equals(Object)
+   * Object.equals()} such that {@code wrap(a).equals(wrap(b))} if and only if {@code equivalent(a,
+   * b)}.
+   *
+   * @since 10.0
+   

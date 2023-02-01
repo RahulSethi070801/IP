@@ -1,0 +1,4 @@
+CollectionAddAllTester_2
+Insertions: [39, 40, 165, 166, 167, 175, 176, 177, 178, 186, 187, 188, 189]
+Deletions: [39, 40, 41, 166, 167, 168, 169, 170, 178, 179, 180, 181, 182, 190, 191, 192, 193, 194]
+guava-testlib/src/com/google/common/collect/testing/testers/CollectionAddAllTester.java

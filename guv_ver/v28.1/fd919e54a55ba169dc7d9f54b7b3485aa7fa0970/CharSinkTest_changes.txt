@@ -1,0 +1,4 @@
+CharSinkTest
+Insertions: [103, 104]
+Deletions: [103]
+android/guava-tests/test/com/google/common/io/CharSinkTest.java

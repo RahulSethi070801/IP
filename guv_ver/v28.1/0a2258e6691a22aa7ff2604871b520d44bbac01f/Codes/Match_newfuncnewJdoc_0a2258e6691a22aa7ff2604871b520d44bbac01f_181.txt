@@ -1,0 +1,1 @@
+ Returns {@code true} if {@code iterator} contains {@code element}. 

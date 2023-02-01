@@ -1,0 +1,6 @@
+
+   * If these are the {@link Endpoints} of a directed edge, returns the node which is the source of
+   * that edge.
+   *
+   * @throws UnsupportedOperationException if these are the {@link Endpoints} of a undirected edge
+   

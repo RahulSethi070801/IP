@@ -1,0 +1,4 @@
+@Override
+public String collapseFrom(CharSequence sequence, char replacement) {
+    return sequence.toString();
+}

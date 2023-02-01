@@ -1,0 +1,4 @@
+BaseEncoding_2
+Insertions: [37, 551, 569, 571, 575, 835, 854, 911, 917, 921, 968]
+Deletions: [37, 551, 569, 571, 575, 835, 854, 911, 917, 921, 968]
+guava/src/com/google/common/io/BaseEncoding.java

@@ -1,0 +1,6 @@
+@CanIgnoreReturnValue
+@Override
+Builder<K, V> combine(ImmutableMultimap.Builder<K, V> other) {
+    super.combine(other);
+    return this;
+}

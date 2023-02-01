@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "37": "    ClassWhichDoesNotImplementEquals orig = new ClassWhichDoesNotImplementEquals();\n",
+        "64": "    ObjectWhichIsEqualButChangesClass orig = new ObjectWhichIsEqualButChangesClass();\n",
+        "76": "  private static class ClassWhichDoesNotImplementEquals implements Serializable {\n",
+        "80": "  private static class ClassWhichIsAlwaysEqualButHasDifferentHashcodes implements Serializable {\n",
+        "89": "  private static class ObjectWhichIsEqualButChangesClass implements Serializable {\n",
+        "94": "      return (other instanceof ObjectWhichIsEqualButChangesClass || other instanceof OtherForm);\n",
+        "109": "        return (other instanceof ObjectWhichIsEqualButChangesClass || other instanceof OtherForm);\n"
+    },
+    "removed": {
+        "37": "    ClassWhichDoesNotImplementEquals orig =\n",
+        "38": "        new ClassWhichDoesNotImplementEquals();\n",
+        "65": "    ObjectWhichIsEqualButChangesClass orig =\n",
+        "66": "        new ObjectWhichIsEqualButChangesClass();\n",
+        "78": "  private static class ClassWhichDoesNotImplementEquals\n",
+        "79": "      implements Serializable {\n",
+        "83": "  private static class ClassWhichIsAlwaysEqualButHasDifferentHashcodes\n",
+        "84": "      implements Serializable {\n",
+        "93": "  private static class ObjectWhichIsEqualButChangesClass\n",
+        "94": "      implements Serializable {\n",
+        "99": "      return (other instanceof ObjectWhichIsEqualButChangesClass\n",
+        "100": "          || other instanceof OtherForm);\n",
+        "115": "        return (other instanceof ObjectWhichIsEqualButChangesClass\n",
+        "116": "            || other instanceof OtherForm);\n"
+    }
+}

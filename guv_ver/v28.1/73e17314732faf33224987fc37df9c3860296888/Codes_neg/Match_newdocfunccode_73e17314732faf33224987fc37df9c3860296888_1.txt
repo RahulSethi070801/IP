@@ -1,0 +1,36 @@
+@Beta
+@CanIgnoreReturnValue
+protected boolean setFuture(ListenableFuture<? extends V> future) {
+    checkNotNull(future);
+    Object localValue = value;
+    if (localValue == null) {
+        if (future.isDone()) {
+            Object value = getFutureValue(future);
+            if (ATOMIC_HELPER.casValue(this, null, value)) {
+                complete(this);
+                return true;
+            }
+            return false;
+        }
+        SetFuture valueToSet = new SetFuture<V>(this, future);
+        if (ATOMIC_HELPER.casValue(this, null, valueToSet)) {
+            try {
+                future.addListener(valueToSet, directExecutor());
+            } catch (Throwable t) {
+                Failure failure;
+                try {
+                    failure = new Failure(t);
+                } catch (Throwable oomMostLikely) {
+                    failure = Failure.FALLBACK_INSTANCE;
+                }
+                boolean unused = ATOMIC_HELPER.casValue(this, valueToSet, failure);
+            }
+            return true;
+        }
+        localValue = value;
+    }
+    if (localValue instanceof Cancellation) {
+        future.cancel(((Cancellation) localValue).wasInterrupted);
+    }
+    return false;
+}

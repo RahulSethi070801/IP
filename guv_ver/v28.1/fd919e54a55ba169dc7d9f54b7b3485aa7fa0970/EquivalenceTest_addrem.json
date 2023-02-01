@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "56": "    @Override\n",
+        "57": "    public Integer apply(String input) {\n",
+        "62": "  private static final Equivalence<String> LENGTH_EQUIVALENCE =\n",
+        "63": "      Equivalence.equals().onResultOf(LengthFunction.INSTANCE);\n",
+        "71": "        .addEqualityGroup(LENGTH_EQUIVALENCE.wrap(\"hi\"), LENGTH_EQUIVALENCE.wrap(\"yo\"))\n",
+        "72": "        .addEqualityGroup(LENGTH_EQUIVALENCE.wrap(null), LENGTH_EQUIVALENCE.wrap(null))\n",
+        "98": "    @Override\n",
+        "99": "    public String toString() {\n"
+    },
+    "removed": {
+        "56": "    @Override public Integer apply(String input) {\n",
+        "61": "  private static final Equivalence<String> LENGTH_EQUIVALENCE = Equivalence.equals()\n",
+        "62": "      .onResultOf(LengthFunction.INSTANCE);\n",
+        "70": "        .addEqualityGroup(\n",
+        "71": "            LENGTH_EQUIVALENCE.wrap(\"hi\"),\n",
+        "72": "            LENGTH_EQUIVALENCE.wrap(\"yo\"))\n",
+        "73": "        .addEqualityGroup(\n",
+        "74": "            LENGTH_EQUIVALENCE.wrap(null),\n",
+        "75": "            LENGTH_EQUIVALENCE.wrap(null))\n",
+        "101": "    @Override public String toString() {\n"
+    }
+}

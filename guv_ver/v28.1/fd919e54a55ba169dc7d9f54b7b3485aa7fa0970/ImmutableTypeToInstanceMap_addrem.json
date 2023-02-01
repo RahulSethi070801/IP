@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "24": " * A type-to-instance map backed by an {@link ImmutableMap}. See also {@link\n",
+        "25": " * MutableTypeToInstanceMap}.\n",
+        "47": "   * <pre>{@code\n",
+        "48": "   * static final ImmutableTypeToInstanceMap<Handler<?>> HANDLERS =\n",
+        "49": "   *     ImmutableTypeToInstanceMap.<Handler<?>>builder()\n",
+        "50": "   *         .put(new TypeToken<Handler<Foo>>() {}, new FooHandler())\n",
+        "51": "   *         .put(new TypeToken<Handler<Bar>>() {}, new SubBarHandler())\n",
+        "52": "   *         .build();\n",
+        "53": "   * }</pre>\n"
+    },
+    "removed": {
+        "24": " * A type-to-instance map backed by an {@link ImmutableMap}. See also\n",
+        "25": " * {@link MutableTypeToInstanceMap}.\n",
+        "46": "   * <pre>   {@code\n",
+        "48": "   *   static final ImmutableTypeToInstanceMap<Handler<?>> HANDLERS =\n",
+        "49": "   *       ImmutableTypeToInstanceMap.<Handler<?>>builder()\n",
+        "50": "   *           .put(new TypeToken<Handler<Foo>>() {}, new FooHandler())\n",
+        "51": "   *           .put(new TypeToken<Handler<Bar>>() {}, new SubBarHandler())\n",
+        "52": "   *           .build();}</pre>\n"
+    }
+}

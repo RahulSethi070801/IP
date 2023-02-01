@@ -1,0 +1,6 @@
+static <E> Multiset<E> multiset(Multiset<E> multiset, @NullableDecl Object mutex) {
+    if (multiset instanceof SynchronizedMultiset || multiset instanceof ImmutableMultiset) {
+        return multiset;
+    }
+    return new SynchronizedMultiset<E>(multiset, mutex);
+}

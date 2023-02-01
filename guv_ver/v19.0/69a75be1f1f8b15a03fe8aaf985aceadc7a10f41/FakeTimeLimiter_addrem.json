@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "25": " * A TimeLimiter implementation which actually does not attempt to limit time at all. This may be\n",
+        "26": " * desirable to use in some unit tests. More importantly, attempting to debug a call which is\n",
+        "27": " * time-limited would be extremely annoying, so this gives you a time-limiter you can easily swap in\n",
+        "28": " * for your real time-limiter while you're debugging.\n",
+        "36": "  public <T> T newProxy(\n",
+        "37": "      T target, Class<T> interfaceType, long timeoutDuration, TimeUnit timeoutUnit) {\n",
+        "45": "  public <T> T callWithTimeout(\n",
+        "46": "      Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean amInterruptible)\n",
+        "47": "      throws Exception {\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "27": " * A TimeLimiter implementation which actually does not attempt to limit time\n",
+        "28": " * at all.  This may be desirable to use in some unit tests.  More importantly,\n",
+        "29": " * attempting to debug a call which is time-limited would be extremely annoying,\n",
+        "30": " * so this gives you a time-limiter you can easily swap in for your real\n",
+        "31": " * time-limiter while you're debugging.\n",
+        "39": "  public <T> T newProxy(T target, Class<T> interfaceType, long timeoutDuration,\n",
+        "40": "      TimeUnit timeoutUnit) {\n",
+        "48": "  public <T> T callWithTimeout(Callable<T> callable, long timeoutDuration,\n",
+        "49": "      TimeUnit timeoutUnit, boolean amInterruptible) throws Exception {\n"
+    }
+}

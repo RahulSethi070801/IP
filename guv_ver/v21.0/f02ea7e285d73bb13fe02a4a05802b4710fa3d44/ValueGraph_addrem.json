@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "116": "   * @throws IllegalArgumentException if there is no edge connecting {@code nodeU} to {@code nodeV}.\n",
+        "121": "   * If there is an edge connecting {@code nodeU} to {@code nodeV}, returns the non-null value\n",
+        "122": "   * associated with that edge; otherwise, returns {@code defaultValue}.\n",
+        "124": "   * <p>In an undirected graph, this is equal to {@code edgeValueOrDefault(nodeV, nodeU,\n",
+        "125": "   * defaultValue)}.\n",
+        "127": "  V edgeValueOrDefault(Object nodeU, Object nodeV, @Nullable V defaultValue);\n"
+    },
+    "removed": {
+        "116": "   * @throws IllegalArgumentException if there is no edge connecting {@code nodeU} to {@code nodeV},\n",
+        "117": "   *     or if {@code nodeU} or {@code nodeV} is not an element of this graph\n",
+        "122": "   * Returns a {@link Map} of all {@link #edges() edges} mapped to their associated {@link\n",
+        "123": "   * #edgeValue(Object, Object) value}.\n",
+        "125": "   * <p>Note: {@link Map#get(Object)} returns null if you supply an {@link EndpointPair} whose nodes\n",
+        "126": "   * are not connected in this graph. This contrasts with the behavior of {@link #edgeValue(Object,\n",
+        "127": "   * Object)}, which throws {@link IllegalArgumentException} in that case.\n",
+        "129": "  Map<EndpointPair<N>, V> edgeValues();\n"
+    }
+}

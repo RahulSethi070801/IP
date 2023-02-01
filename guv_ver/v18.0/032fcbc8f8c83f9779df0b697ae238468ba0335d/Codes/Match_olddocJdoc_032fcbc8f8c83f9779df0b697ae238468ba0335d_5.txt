@@ -1,0 +1,12 @@
+
+   * Registers a {@link Listener} to be run when this {@link ServiceManager} changes state. The 
+   * listener will not have previous state changes replayed, so it is suggested that listeners are 
+   * added before any of the managed services are {@linkplain Service#start started}.
+   *
+   * <p>There is no guaranteed ordering of execution of listeners, but any listener added through 
+   * this method is guaranteed to be called whenever there is a state change.
+   *
+   * <p>Exceptions thrown by a listener will be will be caught and logged.
+   * 
+   * @param listener the listener to run when the manager changes state
+   

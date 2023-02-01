@@ -1,0 +1,4 @@
+GraphEqualsTest
+Insertions: [42, 55, 58, 60, 81, 92, 103, 115, 127, 128, 129, 146]
+Deletions: [42, 55, 58, 60, 81, 92, 103, 115, 127, 128, 129, 146]
+guava-tests/test/com/google/common/graph/GraphEqualsTest.java

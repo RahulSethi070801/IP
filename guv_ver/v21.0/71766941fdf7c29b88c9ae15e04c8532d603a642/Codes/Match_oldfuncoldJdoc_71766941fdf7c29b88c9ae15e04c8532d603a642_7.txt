@@ -1,0 +1,8 @@
+
+   * Returns the number of outgoing edges in this graph of {@code node}.  If this node has more than
+   * {@code Integer.MAX_VALUE} outgoing edges in this graph, returns {@code Integer.MAX_VALUE}.
+   *
+   * <p>Equivalent to {@code outEdges(node).size()}.
+   *
+   * @throws IllegalArgumentException if {@code node} is not an element of this graph
+   

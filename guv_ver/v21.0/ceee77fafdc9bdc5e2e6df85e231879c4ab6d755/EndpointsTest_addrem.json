@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "32": " * Tests for {@link Endpoints} and {@link BasicGraph#edges()}.\n",
+        "116": "    MutableBasicGraph<Integer> directedGraph = BasicGraphBuilder.directed().build();\n",
+        "132": "    MutableBasicGraph<Integer> undirectedGraph = BasicGraphBuilder.undirected().build();\n",
+        "179": "    MutableBasicGraph<Integer> directedGraph = BasicGraphBuilder.directed().build();\n",
+        "204": "    MutableBasicGraph<Integer> undirectedGraph = BasicGraphBuilder.undirected().build();\n"
+    },
+    "removed": {
+        "32": " * Tests for {@link Endpoints} and {@link Graph#edges()}.\n",
+        "116": "    MutableGraph<Integer> directedGraph = GraphBuilder.directed().build();\n",
+        "132": "    MutableGraph<Integer> undirectedGraph = GraphBuilder.undirected().build();\n",
+        "179": "    MutableGraph<Integer> directedGraph = GraphBuilder.directed().build();\n",
+        "204": "    MutableGraph<Integer> undirectedGraph = GraphBuilder.undirected().build();\n"
+    }
+}

@@ -1,0 +1,4 @@
+ListenableFutureTask
+Insertions: [21, 66, 74]
+Deletions: [21, 66, 74]
+guava/src/com/google/common/util/concurrent/ListenableFutureTask.java

@@ -1,0 +1,4 @@
+@Override
+public E poll(long timeout, TimeUnit unit) throws InterruptedException {
+    return delegate().poll(timeout, unit);
+}

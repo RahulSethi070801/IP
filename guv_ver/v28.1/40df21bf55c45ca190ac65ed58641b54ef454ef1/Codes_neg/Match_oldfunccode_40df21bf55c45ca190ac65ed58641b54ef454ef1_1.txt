@@ -1,0 +1,4 @@
+private static boolean matchesWildcardPublicSuffix(String domain) {
+    final String[] pieces = domain.split(DOT_REGEX, 2);
+    return pieces.length == 2 && PublicSuffixPatterns.UNDER.containsKey(pieces[1]);
+}

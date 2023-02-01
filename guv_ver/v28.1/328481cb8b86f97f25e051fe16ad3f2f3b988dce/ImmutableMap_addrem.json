@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "37": "import java.util.Map.Entry;\n",
+        "132": "   * <p>A call to {@link Entry#setValue} on the returned entry will always\n"
+    },
+    "removed": {
+        "131": "   * <p>A call to {@link Map.Entry#setValue} on the returned entry will always\n"
+    }
+}

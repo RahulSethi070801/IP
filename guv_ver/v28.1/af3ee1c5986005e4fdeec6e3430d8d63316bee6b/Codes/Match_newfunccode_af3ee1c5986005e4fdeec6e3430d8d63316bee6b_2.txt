@@ -1,0 +1,5 @@
+@Override
+public boolean hasEdgeConnecting(EndpointPair<N> endpoints) {
+    checkNotNull(endpoints);
+    return isOrderingCompatible(endpoints) && hasEdgeConnecting_internal(endpoints.nodeU(), endpoints.nodeV());
+}

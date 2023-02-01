@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "20": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "47": "  public static <V> AtomicReference<V> newReference(@NullableDecl V initialValue) {\n"
+    },
+    "removed": {
+        "20": "import javax.annotation.Nullable;\n",
+        "47": "  public static <V> AtomicReference<V> newReference(@Nullable V initialValue) {\n"
+    }
+}

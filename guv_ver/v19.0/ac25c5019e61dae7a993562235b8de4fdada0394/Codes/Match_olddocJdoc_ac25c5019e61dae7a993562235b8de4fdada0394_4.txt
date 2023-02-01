@@ -1,0 +1,5 @@
+
+   * Enters this monitor. Blocks at most the given time, and may be interrupted.
+   *
+   * @return whether the monitor was entered
+   

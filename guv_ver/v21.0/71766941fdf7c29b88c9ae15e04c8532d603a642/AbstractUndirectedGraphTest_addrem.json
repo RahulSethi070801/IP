@@ -1,0 +1,20 @@
+{
+    "addition": {},
+    "removed": {
+        "20": "import static org.junit.Assert.assertEquals;\n",
+        "62": "  @Test\n",
+        "63": "  public void inDegree_oneEdge() {\n",
+        "64": "    addEdge(N1, N2);\n",
+        "65": "    assertEquals(1, graph.inDegree(N2));\n",
+        "66": "    assertEquals(1, graph.inDegree(N1));\n",
+        "67": "  }\n",
+        "68": "\n",
+        "69": "  @Test\n",
+        "70": "  public void outDegree_oneEdge() {\n",
+        "71": "    addEdge(N1, N2);\n",
+        "72": "    assertEquals(1, graph.outDegree(N1));\n",
+        "73": "    assertEquals(1, graph.outDegree(N2));\n",
+        "74": "  }\n",
+        "75": "\n"
+    }
+}

@@ -1,0 +1,24 @@
+public int outDegree(Object node)
+Graph<N, Set<E>> asGraph()
+
+int degree(Object node)
+Graph<N, Set<E>> asGraph()
+
+public int inDegree(Object node)
+Graph<N, Set<E>> asGraph()
+
+private static int degree(Graph<?, ?> graph, Object node)
+Graph<N, Set<E>> asGraph()
+
+int inDegree(Object node)
+Graph<N, Set<E>> asGraph()
+
+protected long edgeCount()
+Graph<N, Set<E>> asGraph()
+
+public int degree(Object node)
+Graph<N, Set<E>> asGraph()
+
+int outDegree(Object node)
+Graph<N, Set<E>> asGraph()
+

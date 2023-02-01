@@ -1,0 +1,100 @@
+com.google.common.collect.BinaryTreeTraverser$PreOrderIterator
+PreOrderIterator
+PreOrderIterator(T root)
+T
+constructor
+com.google.common.collect.BinaryTreeTraverser$PreOrderIterator
+peek
+public T peek()
+empty
+T
+com.google.common.collect.BinaryTreeTraverser
+inOrderTraversal
+public final FluentIterable<T> inOrderTraversal(final T root)
+T
+FluentIterable
+com.google.common.collect.BinaryTreeTraverser
+acceptIfPresent
+private static void acceptIfPresent(Consumer<? super T> action, Optional<T> node)
+Consumer,Optional
+void
+com.google.common.util.concurrent.MoreExecutors
+sequentialExecutor
+public static Executor sequentialExecutor(Executor delegate)
+Executor
+Executor
+com.google.common.collect.BinaryTreeTraverser
+pushIfPresent
+private static void pushIfPresent(Deque<T> stack, Optional<T> node)
+Deque,Optional
+void
+com.google.common.collect.BinaryTreeTraverser$PreOrderIterator
+next
+public T next()
+empty
+T
+com.google.common.util.concurrent.Futures
+apply
+public ListenableFuture<Object> apply(ListenableFuture<Object> input)
+ListenableFuture
+ListenableFuture
+com.google.common.collect.BinaryTreeTraverser
+children
+public final Iterable<T> children(final T root)
+T
+Iterable
+com.google.common.collect.BinaryTreeTraverser
+computeNext
+protected T computeNext()
+empty
+T
+com.google.common.collect.BinaryTreeTraverser
+iterator
+public Iterator<T> iterator()
+empty
+Iterator
+com.google.common.util.concurrent.Futures
+dereference
+public static ListenableFuture<V> dereference(ListenableFuture<? extends ListenableFuture<? extends V>> nested)
+ListenableFuture
+ListenableFuture
+com.google.common.collect.BinaryTreeTraverser$PreOrderIterator
+hasNext
+public boolean hasNext()
+empty
+boolean
+com.google.common.collect.BinaryTreeTraverser
+leftChild
+public abstract Optional<T> leftChild(T root)
+T
+Optional
+com.google.common.collect.BinaryTreeTraverser
+rightChild
+public abstract Optional<T> rightChild(T root)
+T
+Optional
+com.google.common.collect.BinaryTreeTraverser$PostOrderIterator
+PostOrderIterator
+PostOrderIterator(T root)
+T
+constructor
+com.google.common.collect.BinaryTreeTraverser
+forEach
+public void forEach(Consumer<? super T> action)
+Consumer
+void
+com.google.common.collect.BinaryTreeTraverser
+preOrderIterator
+UnmodifiableIterator<T> preOrderIterator(T root)
+T
+UnmodifiableIterator
+com.google.common.collect.BinaryTreeTraverser
+postOrderIterator
+UnmodifiableIterator<T> postOrderIterator(T root)
+T
+UnmodifiableIterator
+com.google.common.collect.BinaryTreeTraverser$InOrderIterator
+InOrderIterator
+InOrderIterator(T root)
+T
+constructor

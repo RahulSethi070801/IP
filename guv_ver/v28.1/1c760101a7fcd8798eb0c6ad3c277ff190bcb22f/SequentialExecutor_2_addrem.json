@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "54": "  /** Use {@link MoreExecutors#newSequentialExecutor} */\n"
+    },
+    "removed": {
+        "54": "  /** Use {@link MoreExecutors#sequentialExecutor} */\n"
+    }
+}

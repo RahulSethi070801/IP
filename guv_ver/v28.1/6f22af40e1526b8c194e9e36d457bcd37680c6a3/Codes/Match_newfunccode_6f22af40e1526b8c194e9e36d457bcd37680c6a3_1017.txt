@@ -1,0 +1,9 @@
+public final boolean equivalent(@NullableDecl T a, @NullableDecl T b) {
+    if (a == b) {
+        return true;
+    }
+    if (a == null || b == null) {
+        return false;
+    }
+    return doEquivalent(a, b);
+}

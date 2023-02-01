@@ -1,0 +1,4 @@
+AbstractHashFunction_2
+Insertions: [26]
+Deletions: [26]
+guava/src/com/google/common/hash/AbstractHashFunction.java

@@ -1,0 +1,4 @@
+
+   * Checks if writing {@code len} bytes would go over threshold, and switches to file buffering if
+   * so.
+   

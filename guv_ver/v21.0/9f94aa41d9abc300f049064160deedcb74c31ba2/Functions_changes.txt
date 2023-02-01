@@ -1,0 +1,4 @@
+Functions
+Insertions: [4, 5, 9, 10, 11, 12, 33, 34, 107, 108, 109, 260, 261, 357]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 35, 36, 109, 110, 111, 262, 263, 359]
+guava/src/com/google/common/base/Functions.java

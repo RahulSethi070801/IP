@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "31": "import com.google.common.collect.Iterables;\n",
+        "257": "  public void testConcat_infiniteIterable() throws IOException {\n",
+        "258": "    ByteSource source = ByteSource.wrap(new byte[] {0, 1, 2, 3});\n",
+        "259": "    Iterable<ByteSource> cycle = Iterables.cycle(ImmutableList.of(source));\n",
+        "260": "    ByteSource concatenated = ByteSource.concat(cycle);\n",
+        "261": "\n",
+        "262": "    byte[] expected = {0, 1, 2, 3, 0, 1, 2, 3};\n",
+        "263": "    assertArrayEquals(expected, concatenated.slice(0, 8).read());\n",
+        "264": "  }\n",
+        "265": "\n"
+    },
+    "removed": {}
+}

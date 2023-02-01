@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "143": "      assertEquals(\n",
+        "144": "          rangeSet + \" was incorrect on intersects(\" + query + \")\",\n",
+        "145": "          expectIntersect,\n",
+        "161": "      assertEquals(\n",
+        "162": "          rangeSet + \" was incorrect on encloses(\" + query + \")\",\n",
+        "163": "          expectEnclose,\n",
+        "340": "        testNavigationAgainstExpected(\n",
+        "341": "            expectedRangesByUpperBound,\n",
+        "494": "                    doPairTest(\n",
+        "495": "                        range(aLow, aLowType, aHigh, aHighType),\n",
+        "567": "        .containsExactly(Range.lessThan(3), Range.closed(4, 6))\n",
+        "568": "        .inOrder();\n",
+        "570": "        .containsExactly(Range.closedOpen(3, 4), Range.greaterThan(6))\n",
+        "571": "        .inOrder();\n",
+        "655": "    assertThat(rangeSet.asRanges()).containsExactly(Range.openClosed(1, 11)).inOrder();\n"
+    },
+    "removed": {
+        "143": "      assertEquals(rangeSet + \" was incorrect on intersects(\" + query + \")\", expectIntersect,\n",
+        "159": "      assertEquals(rangeSet + \" was incorrect on encloses(\" + query + \")\", expectEnclose,\n",
+        "336": "        testNavigationAgainstExpected(expectedRangesByUpperBound,\n",
+        "489": "                    doPairTest(range(aLow, aLowType, aHigh, aHighType),\n",
+        "561": "        .containsExactly(Range.lessThan(3), Range.closed(4, 6)).inOrder();\n",
+        "563": "        .containsExactly(Range.closedOpen(3, 4), Range.greaterThan(6)).inOrder();\n",
+        "647": "    assertThat(rangeSet.asRanges())\n",
+        "648": "        .containsExactly(Range.openClosed(1, 11))\n",
+        "649": "        .inOrder();\n"
+    }
+}

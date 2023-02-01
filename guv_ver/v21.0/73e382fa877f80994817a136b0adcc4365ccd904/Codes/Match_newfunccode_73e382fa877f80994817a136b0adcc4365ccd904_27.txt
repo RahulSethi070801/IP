@@ -1,0 +1,4 @@
+@Override
+public Spliterator<E> spliterator() {
+    return Spliterators.spliterator(this, SPLITERATOR_CHARACTERISTICS);
+}

@@ -1,0 +1,125 @@
+com.google.common.graph.ImmutableDirectedGraph
+source
+public N source(Object edge)
+Object
+N
+com.google.common.graph.ImmutableDirectedGraph
+ImmutableDirectedGraph
+private ImmutableDirectedGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.IncidentNodes
+of
+static IncidentNodes<N> of(N node1, N node2)
+N,N
+IncidentNodes
+com.google.common.graph.DirectedIncidentNodes
+DirectedIncidentNodes
+private DirectedIncidentNodes(N source, N target)
+N,N
+constructor
+com.google.common.graph.IncidentNodes
+of
+static IncidentNodes<N> of(Set<N> nodes)
+Set
+IncidentNodes
+com.google.common.graph.IncidenceSetDirectedGraph
+addEdge
+public boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.DirectedIncidentNodes
+toString
+public String toString()
+empty
+String
+com.google.common.graph.IncidentNodes
+node1
+abstract N node1()
+empty
+N
+com.google.common.graph.ImmutableUndirectedGraph
+ImmutableUndirectedGraph
+private ImmutableUndirectedGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.DirectedIncidentNodes
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.IncidentNodes
+node2
+abstract N node2()
+empty
+N
+com.google.common.graph.DirectedIncidentNodes
+isSelfLoop
+boolean isSelfLoop()
+empty
+boolean
+com.google.common.graph.IncidentNodes$OneNode
+node1
+N node1()
+empty
+N
+com.google.common.graph.IncidentNodes$OneNode
+node2
+N node2()
+empty
+N
+com.google.common.graph.IncidenceSetDirectedGraph
+removeEdge
+public boolean removeEdge(Object edge)
+Object
+boolean
+com.google.common.graph.ImmutableDirectedGraph
+checkedIncidentNodes
+private IncidentNodes<N> checkedIncidentNodes(Object edge)
+Object
+IncidentNodes
+com.google.common.graph.DirectedIncidentNodes
+of
+static DirectedIncidentNodes<N> of(N source, N target)
+N,N
+DirectedIncidentNodes
+com.google.common.graph.DirectedIncidentNodes
+asImmutableSet
+ImmutableSet<N> asImmutableSet()
+empty
+ImmutableSet
+com.google.common.graph.ImmutableDirectedGraph
+target
+public N target(Object edge)
+Object
+N
+com.google.common.graph.DirectedIncidentNodes
+source
+N source()
+empty
+N
+com.google.common.graph.DirectedIncidentNodes
+target
+N target()
+empty
+N
+com.google.common.graph.ImmutableDirectedGraph
+incidentNodes
+public Set<N> incidentNodes(Object edge)
+Object
+Set
+com.google.common.graph.ImmutableDirectedGraph
+checkedEndpoints
+private DirectedIncidentNodes<N> checkedEndpoints(Object edge)
+Object
+DirectedIncidentNodes
+com.google.common.graph.DirectedIncidentNodes
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.IncidenceSetDirectedGraph
+removeNode
+public boolean removeNode(Object node)
+Object
+boolean

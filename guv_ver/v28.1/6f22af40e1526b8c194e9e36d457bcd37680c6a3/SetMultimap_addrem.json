@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "25": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "61": "  Set<V> get(@NullableDecl K key);\n",
+        "72": "  Set<V> removeAll(@NullableDecl Object key);\n",
+        "117": "  boolean equals(@NullableDecl Object obj);\n"
+    },
+    "removed": {
+        "25": "import javax.annotation.Nullable;\n",
+        "61": "  Set<V> get(@Nullable K key);\n",
+        "72": "  Set<V> removeAll(@Nullable Object key);\n",
+        "117": "  boolean equals(@Nullable Object obj);\n"
+    }
+}

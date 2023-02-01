@@ -1,0 +1,4 @@
+@Override
+public SortedMultiset<E> headMultiset(@ParametricNullness E upperBound, BoundType boundType) {
+    return Multisets.unmodifiableSortedMultiset(delegate().headMultiset(upperBound, boundType));
+}

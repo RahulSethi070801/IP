@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "35": "  static final String NOT_AVAILABLE_ON_UNDIRECTED =\n",
+        "36": "      \"Cannot call source()/target() on an undirected graph. \"\n",
+        "37": "          + \"Consider using incidentNodes() (if you don't know either incident node) \"\n",
+        "38": "          + \"or Graphs.oppositeNode() (if you know one of the incident nodes).\";\n"
+    },
+    "removed": {}
+}

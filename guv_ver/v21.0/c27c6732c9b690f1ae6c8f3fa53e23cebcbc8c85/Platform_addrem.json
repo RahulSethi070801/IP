@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "72": "    /*\n",
+        "73": "     * We'd normally use ServiceLoader here, but it hurts Android startup performance. To avoid\n",
+        "74": "     * that, we hardcode the JDK Pattern compiler on Android (and, inadvertently, on App Engine and\n",
+        "75": "     * in Guava, at least for now).\n",
+        "76": "     */\n"
+    },
+    "removed": {
+        "19": "import java.util.Iterator;\n",
+        "22": "import java.util.ServiceLoader;\n",
+        "74": "    ServiceLoader<PatternCompiler> loader = ServiceLoader.load(PatternCompiler.class);\n",
+        "75": "    // Returns the first PatternCompiler that loads successfully.\n",
+        "76": "    try {\n",
+        "77": "      for (Iterator<PatternCompiler> it = loader.iterator(); it.hasNext();) {\n",
+        "78": "        try {\n",
+        "79": "          return it.next();\n",
+        "80": "        } catch (ServiceConfigurationError e) {\n",
+        "81": "          logPatternCompilerError(e);\n",
+        "82": "        }\n",
+        "83": "      }\n",
+        "84": "    } catch (ServiceConfigurationError e) { // from hasNext()\n",
+        "85": "      logPatternCompilerError(e);\n",
+        "86": "    }\n",
+        "87": "    // Fall back to the JDK regex library.\n"
+    }
+}

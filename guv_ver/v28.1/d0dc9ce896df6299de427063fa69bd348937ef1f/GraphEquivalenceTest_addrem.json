@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "84": "    assertThat(graph).isNotEqualTo(g2);\n",
+        "95": "    assertThat(graph).isNotEqualTo(g2);\n",
+        "106": "    assertThat(graph).isNotEqualTo(g2);\n",
+        "119": "    assertThat(graph).isEqualTo(g2);\n",
+        "138": "    assertThat(g1).isEqualTo(g2);\n",
+        "150": "        assertThat(graph).isEqualTo(g2);\n",
+        "153": "        assertThat(graph).isNotEqualTo(g2);\n"
+    },
+    "removed": {
+        "84": "    assertThat(Graphs.equivalent(graph, g2)).isFalse();\n",
+        "95": "    assertThat(Graphs.equivalent(graph, g2)).isFalse();\n",
+        "106": "    assertThat(Graphs.equivalent(graph, g2)).isFalse();\n",
+        "119": "    assertThat(Graphs.equivalent(graph, g2)).isTrue();\n",
+        "138": "    assertThat(Graphs.equivalent(g1, g2)).isTrue();\n",
+        "150": "        assertThat(Graphs.equivalent(graph, g2)).isTrue();\n",
+        "153": "        assertThat(Graphs.equivalent(graph, g2)).isFalse();\n"
+    }
+}

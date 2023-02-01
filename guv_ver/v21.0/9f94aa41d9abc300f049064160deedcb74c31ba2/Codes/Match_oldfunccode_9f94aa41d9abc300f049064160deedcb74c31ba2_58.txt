@@ -1,0 +1,6 @@
+@GwtIncompatible
+CacheBuilder<K, V> valueEquivalence(Equivalence<Object> equivalence) {
+    checkState(valueEquivalence == null, "value equivalence was already set to %s", valueEquivalence);
+    this.valueEquivalence = checkNotNull(equivalence);
+    return this;
+}

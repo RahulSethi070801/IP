@@ -1,0 +1,18 @@
+private static <E> boolean removeOccurrencesImpl(Multiset<E> multisetToModify, Multiset<?> occurrencesToRemove) {
+    checkNotNull(multisetToModify);
+    checkNotNull(occurrencesToRemove);
+    boolean changed = false;
+    Iterator<Entry<E>> entryIterator = multisetToModify.entrySet().iterator();
+    while (entryIterator.hasNext()) {
+        Entry<E> entry = entryIterator.next();
+        int removeCount = occurrencesToRemove.count(entry.getElement());
+        if (removeCount >= entry.getCount()) {
+            entryIterator.remove();
+            changed = true;
+        } else if (removeCount > 0) {
+            multisetToModify.remove(entry.getElement(), removeCount);
+            changed = true;
+        }
+    }
+    return changed;
+}

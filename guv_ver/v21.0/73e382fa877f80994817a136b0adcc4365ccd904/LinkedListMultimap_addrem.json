@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "44": "import java.util.function.Consumer;\n",
+        "813": "\n",
+        "814": "      @Override\n",
+        "815": "      public void forEach(Consumer<? super Entry<K, V>> action) {\n",
+        "816": "        checkNotNull(action);\n",
+        "817": "        for (Node<K, V> node = head; node != null; node = node.next) {\n",
+        "818": "          action.accept(node);\n",
+        "819": "        }\n",
+        "820": "      }\n"
+    },
+    "removed": {}
+}

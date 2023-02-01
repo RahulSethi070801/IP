@@ -1,0 +1,4 @@
+@Override
+public <T> ListenableFuture<T> submit(Callable<T> task) {
+    return (ListenableFuture<T>) super.submit(task);
+}

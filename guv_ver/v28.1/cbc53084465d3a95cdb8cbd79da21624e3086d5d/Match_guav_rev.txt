@@ -1,0 +1,12 @@
+public static Traverser<N> forGraph(SuccessorsFunction<N> graph)
+public Iterator<N> iterator()
+
+public static Traverser<N> forGraph(SuccessorsFunction<N> graph)
+public Iterator<N> iterator()
+
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+public Iterator<N> iterator()
+
+public static Traverser<N> forTree(SuccessorsFunction<N> tree)
+public Iterator<N> iterator()
+

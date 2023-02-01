@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "55": "   * size, using an internal buffer of {@code bufferSize} size, which must be a multiple of {@code\n",
+        "56": "   * chunkSize}.\n",
+        "73": "  /** Processes the available bytes of the buffer (at most {@code chunk} bytes). */\n",
+        "191": "   * Computes a hash code based on the data that have been provided to this hasher. This is called\n",
+        "192": "   * after all chunks are handled with {@link #process} and any leftover bytes that did not make a\n",
+        "193": "   * complete chunk are handled with {@link #processRemaining}.\n"
+    },
+    "removed": {
+        "55": "   * size, using an internal buffer of {@code bufferSize} size, which must be a multiple of\n",
+        "56": "   * {@code chunkSize}.\n",
+        "73": "  /**\n",
+        "74": "   * Processes the available bytes of the buffer (at most {@code chunk} bytes).\n",
+        "75": "   */\n",
+        "193": "   * Computes a hash code based on the data that have been provided to this hasher.  This is called\n",
+        "194": "   * after all chunks are handled with {@link #process} and any leftover bytes that did not make\n",
+        "195": "   * a complete chunk are handled with {@link #processRemaining}.\n"
+    }
+}

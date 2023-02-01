@@ -1,0 +1,8 @@
+@Override
+public <A extends Annotation> A[] getDeclaredAnnotationsByType(Class<A> annotationType) {
+    @Nullable
+    A[] result = FluentIterable.from(annotations).filter(annotationType).toArray(annotationType);
+    @SuppressWarnings("nullness")
+    A[] cast = (A[]) result;
+    return cast;
+}

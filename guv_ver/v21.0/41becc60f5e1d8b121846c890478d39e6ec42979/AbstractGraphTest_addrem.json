@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "125": "  static <N> void validateGraph(Graph<N, ?> graph) {\n"
+    },
+    "removed": {
+        "125": "  static <N> void validateGraph(ValueGraph<N, ?> graph) {\n"
+    }
+}

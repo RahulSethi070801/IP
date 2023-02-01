@@ -1,0 +1,4 @@
+RejectedExecutionException
+Insertions: [19, 21]
+Deletions: [19, 20, 21, 23, 24]
+guava-gwt/src-super/java/util/super/java/util/concurrent/RejectedExecutionException.java

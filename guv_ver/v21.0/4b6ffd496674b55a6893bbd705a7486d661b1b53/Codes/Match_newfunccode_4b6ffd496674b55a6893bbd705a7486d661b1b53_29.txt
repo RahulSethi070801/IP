@@ -1,0 +1,1 @@
+abstract Iterator<? extends T> transform(F from);

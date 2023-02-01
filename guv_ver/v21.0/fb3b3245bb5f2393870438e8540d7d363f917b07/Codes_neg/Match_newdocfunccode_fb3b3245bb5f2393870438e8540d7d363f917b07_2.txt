@@ -1,0 +1,11 @@
+@CanIgnoreReturnValue
+public Builder<N, E> addGraph(DirectedGraph<N, E> graph) {
+    checkArgument(directedGraph.config().compatibleWith(graph.config()), "GraphConfigs for input and for graph being built are not compatible: input: %s, " + "this graph: %s", graph.config(), directedGraph.config());
+    for (N node : graph.nodes()) {
+        directedGraph.addNode(node);
+    }
+    for (E edge : graph.edges()) {
+        directedGraph.addEdge(edge, graph.source(edge), graph.target(edge));
+    }
+    return this;
+}

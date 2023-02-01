@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "163": "  @Benchmark\n",
+        "164": "  long factorialDouble(int reps) {\n",
+        "173": "  @Benchmark\n",
+        "174": "  int intGCD(int reps) {\n",
+        "183": "  @Benchmark\n",
+        "184": "  long longGCD(int reps) {\n",
+        "193": "  @Benchmark\n",
+        "194": "  long binomialCoefficient(int reps) {\n",
+        "203": "  @Benchmark\n",
+        "204": "  int intAddOverflow(int reps) {\n",
+        "215": "  @Benchmark\n",
+        "216": "  int longAddOverflow(int reps) {\n",
+        "227": "  @Benchmark\n",
+        "228": "  int intMulOverflow(int reps) {\n",
+        "239": "  @Benchmark\n",
+        "240": "  int longMulOverflow(int reps) {\n"
+    },
+    "removed": {
+        "163": "  @Benchmark long factorialDouble(int reps) {\n",
+        "172": "  @Benchmark int intGCD(int reps) {\n",
+        "181": "  @Benchmark long longGCD(int reps) {\n",
+        "190": "  @Benchmark long binomialCoefficient(int reps) {\n",
+        "199": "  @Benchmark int intAddOverflow(int reps) {\n",
+        "210": "  @Benchmark int longAddOverflow(int reps) {\n",
+        "221": "  @Benchmark int intMulOverflow(int reps) {\n",
+        "232": "  @Benchmark int longMulOverflow(int reps) {\n"
+    }
+}

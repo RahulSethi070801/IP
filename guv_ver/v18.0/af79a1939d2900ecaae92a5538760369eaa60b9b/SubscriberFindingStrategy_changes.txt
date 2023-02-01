@@ -1,0 +1,4 @@
+SubscriberFindingStrategy
+Insertions: [22, 27, 30, 31, 33, 34, 40]
+Deletions: [22, 27, 30, 31, 33, 34, 40]
+guava/src/com/google/common/eventbus/SubscriberFindingStrategy.java

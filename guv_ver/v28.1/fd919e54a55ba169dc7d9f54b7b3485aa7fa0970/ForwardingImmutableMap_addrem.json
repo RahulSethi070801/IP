@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "72": "  @Override\n",
+        "73": "  ImmutableSet<Entry<K, V>> createEntrySet() {\n",
+        "76": "          @Override\n",
+        "77": "          protected Set<Entry<K, V>> delegate() {\n",
+        "80": "\n",
+        "81": "          @Override\n",
+        "82": "          public boolean contains(Object object) {\n",
+        "83": "            if (object instanceof Entry<?, ?> && ((Entry<?, ?>) object).getKey() == null) {\n",
+        "92": "\n",
+        "93": "          @Override\n",
+        "94": "          public <T> T[] toArray(T[] array) {\n",
+        "106": "  @Override\n",
+        "107": "  ImmutableSet<K> createKeySet() {\n",
+        "111": "  @Override\n",
+        "112": "  ImmutableCollection<V> createValues() {\n",
+        "116": "  @Override\n",
+        "117": "  public int size() {\n",
+        "121": "  @Override\n",
+        "122": "  public boolean equals(@Nullable Object object) {\n",
+        "126": "  @Override\n",
+        "127": "  public int hashCode() {\n",
+        "131": "  @Override\n",
+        "132": "  public String toString() {\n"
+    },
+    "removed": {
+        "72": "  @Override ImmutableSet<Entry<K, V>> createEntrySet() {\n",
+        "75": "          @Override protected Set<Entry<K, V>> delegate() {\n",
+        "78": "          @Override public boolean contains(Object object) {\n",
+        "79": "            if (object instanceof Entry<?, ?>\n",
+        "80": "                && ((Entry<?, ?>) object).getKey() == null) {\n",
+        "89": "          @Override public <T> T[] toArray(T[] array) {\n",
+        "101": "  @Override ImmutableSet<K> createKeySet() {\n",
+        "105": "  @Override ImmutableCollection<V> createValues() {\n",
+        "109": "  @Override public int size() {\n",
+        "113": "  @Override public boolean equals(@Nullable Object object) {\n",
+        "117": "  @Override public int hashCode() {\n",
+        "121": "  @Override public String toString() {\n"
+    }
+}

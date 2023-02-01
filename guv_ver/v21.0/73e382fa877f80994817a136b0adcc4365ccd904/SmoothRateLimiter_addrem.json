@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "251": "                + permitsToTime(availablePermitsAboveThreshold - permitsAboveThresholdToTake);\n"
+    },
+    "removed": {
+        "251": "            + permitsToTime(availablePermitsAboveThreshold - permitsAboveThresholdToTake);\n"
+    }
+}

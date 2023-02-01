@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "20": " * Even though {@link ImmutableSortedSet} cannot be instantiated, we still need a custom field\n",
+        "21": " * serializer to unify the type signature of {@code ImmutableSortedSet[]} on server and client side.\n"
+    },
+    "removed": {
+        "20": " * Even though {@link ImmutableSortedSet} cannot be instantiated, we still need\n",
+        "21": " * a custom field serializer to unify the type signature of\n",
+        "22": " * {@code ImmutableSortedSet[]} on server and client side.\n"
+    }
+}

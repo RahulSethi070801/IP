@@ -1,0 +1,18 @@
+private static <T> FluentIterable<T> concatNoDefensiveCopy(final Iterable<? extends T>... inputs) {
+    for (Iterable<? extends T> input : inputs) {
+        checkNotNull(input);
+    }
+    return new FluentIterable<T>() {
+
+        @Override
+        public Iterator<T> iterator() {
+            return Iterators.concat(new AbstractIndexedListIterator<Iterator<? extends T>>(inputs.length) {
+
+                @Override
+                public Iterator<? extends T> get(int i) {
+                    return inputs[i].iterator();
+                }
+            });
+        }
+    };
+}

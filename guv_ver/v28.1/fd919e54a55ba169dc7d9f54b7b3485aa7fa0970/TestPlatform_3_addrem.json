@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "21": "/** @author Chris Povirk */\n"
+    },
+    "removed": {
+        "21": "/**\n",
+        "22": " * @author Chris Povirk\n",
+        "23": " */\n"
+    }
+}

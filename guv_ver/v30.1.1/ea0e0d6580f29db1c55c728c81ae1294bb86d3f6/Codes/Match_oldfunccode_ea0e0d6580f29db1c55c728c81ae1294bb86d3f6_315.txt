@@ -1,0 +1,4 @@
+@Override
+public boolean contains(Object o) {
+    return multiset().contains(o);
+}

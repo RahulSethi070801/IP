@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "89": "    assertEquals(\n",
+        "90": "        ImmutableSet.copyOf(files), ImmutableSet.copyOf(Files.fileTreeTraverser().children(dir)));\n"
+    },
+    "removed": {
+        "89": "    assertEquals(ImmutableSet.copyOf(files),\n",
+        "90": "        ImmutableSet.copyOf(Files.fileTreeTraverser().children(dir)));\n"
+    }
+}

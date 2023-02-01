@@ -1,0 +1,10 @@
+public Guard newGuard(final BooleanSupplier isSatisfied) {
+    checkNotNull(isSatisfied, "isSatisfied");
+    return new Guard(this) {
+
+        @Override
+        public boolean isSatisfied() {
+            return isSatisfied.getAsBoolean();
+        }
+    };
+}

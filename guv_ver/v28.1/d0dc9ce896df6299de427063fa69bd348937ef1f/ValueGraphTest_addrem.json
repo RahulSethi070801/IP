@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "190": "    assertThat(graph).isEqualTo(otherGraph);\n",
+        "193": "    assertThat(graph).isNotEqualTo(otherGraph); // values differ\n"
+    },
+    "removed": {
+        "190": "    assertThat(Graphs.equivalent(graph, otherGraph)).isTrue();\n",
+        "193": "    assertThat(Graphs.equivalent(graph, otherGraph)).isFalse(); // values differ\n"
+    }
+}

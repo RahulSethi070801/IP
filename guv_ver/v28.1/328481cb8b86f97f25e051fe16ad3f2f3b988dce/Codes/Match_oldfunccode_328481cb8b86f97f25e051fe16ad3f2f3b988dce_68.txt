@@ -1,0 +1,10 @@
+Map.Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator) {
+    if (!entryIterator.hasNext()) {
+        return null;
+    }
+    Entry<K, Collection<V>> entry = entryIterator.next();
+    Collection<V> output = createCollection();
+    output.addAll(entry.getValue());
+    entryIterator.remove();
+    return Maps.immutableEntry(entry.getKey(), unmodifiableCollectionSubclass(output));
+}

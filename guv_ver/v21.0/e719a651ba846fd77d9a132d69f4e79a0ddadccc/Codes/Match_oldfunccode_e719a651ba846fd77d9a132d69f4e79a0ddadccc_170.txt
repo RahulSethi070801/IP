@@ -1,0 +1,23 @@
+void encodeChunkTo(Appendable target, byte[] bytes, int off, int len) throws IOException {
+    checkNotNull(target);
+    checkPositionIndexes(off, off + len, bytes.length);
+    checkArgument(len <= alphabet.bytesPerChunk);
+    long bitBuffer = 0;
+    for (int i = 0; i < len; ++i) {
+        bitBuffer |= bytes[off + i] & 0xFF;
+        bitBuffer <<= 8;
+    }
+    final int bitOffset = (len + 1) * 8 - alphabet.bitsPerChar;
+    int bitsProcessed = 0;
+    while (bitsProcessed < len * 8) {
+        int charIndex = (int) (bitBuffer >>> (bitOffset - bitsProcessed)) & alphabet.mask;
+        target.append(alphabet.encode(charIndex));
+        bitsProcessed += alphabet.bitsPerChar;
+    }
+    if (paddingChar != null) {
+        while (bitsProcessed < alphabet.bytesPerChunk * 8) {
+            target.append(paddingChar.charValue());
+            bitsProcessed += alphabet.bitsPerChar;
+        }
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public boolean contains(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {
+    return rowKey != null && columnKey != null && super.contains(rowKey, columnKey);
+}

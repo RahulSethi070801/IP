@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "34": "    TypeVariable<?> expected =\n",
+        "35": "        TypeParameterTest.class.getDeclaredMethod(\"testCaptureTypeParameter\")\n",
+        "36": "            .getTypeParameters()[0];\n",
+        "44": "    } catch (IllegalArgumentException expected) {\n",
+        "45": "    }\n",
+        "51": "        .addEqualityGroup(new TypeParameter<A>() {}, new TypeParameter<A>() {})\n"
+    },
+    "removed": {
+        "34": "    TypeVariable<?> expected = TypeParameterTest.class\n",
+        "35": "        .getDeclaredMethod(\"testCaptureTypeParameter\")\n",
+        "36": "        .getTypeParameters()[0];\n",
+        "44": "    } catch (IllegalArgumentException expected) {}\n",
+        "50": "        .addEqualityGroup(\n",
+        "51": "            new TypeParameter<A>() {}, new TypeParameter<A>() {})\n"
+    }
+}

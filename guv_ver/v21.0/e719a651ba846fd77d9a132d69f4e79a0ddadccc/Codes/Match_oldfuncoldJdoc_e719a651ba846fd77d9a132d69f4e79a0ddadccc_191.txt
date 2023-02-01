@@ -1,0 +1,18 @@
+
+   * Fully maps a file in to memory as per
+   * {@link FileChannel#map(java.nio.channels.FileChannel.MapMode, long, long)}
+   * using the requested {@link MapMode}.
+   *
+   * <p>Files are mapped from offset 0 to its length.
+   *
+   * <p>This only works for files <= {@link Integer#MAX_VALUE} bytes.
+   *
+   * @param file the file to map
+   * @param mode the mode to use when mapping {@code file}
+   * @return a buffer reflecting {@code file}
+   * @throws FileNotFoundException if the {@code file} does not exist
+   * @throws IOException if an I/O error occurs
+   *
+   * @see FileChannel#map(MapMode, long, long)
+   * @since 2.0
+   

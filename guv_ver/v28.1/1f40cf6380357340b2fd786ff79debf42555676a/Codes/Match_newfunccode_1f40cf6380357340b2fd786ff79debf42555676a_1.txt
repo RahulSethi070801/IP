@@ -1,0 +1,4 @@
+@Override
+public boolean isEmpty() {
+    return rowList.isEmpty() || columnList.isEmpty();
+}

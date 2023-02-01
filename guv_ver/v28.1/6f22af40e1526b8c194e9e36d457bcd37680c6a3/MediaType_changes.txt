@@ -1,0 +1,4 @@
+MediaType
+Insertions: [47, 888]
+Deletions: [47, 888]
+android/guava/src/com/google/common/net/MediaType.java

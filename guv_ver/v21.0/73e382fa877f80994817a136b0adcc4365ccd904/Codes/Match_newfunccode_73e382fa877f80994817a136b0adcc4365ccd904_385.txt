@@ -1,0 +1,75 @@
+public static <T, R> Stream<R> mapWithIndex(Stream<T> stream, FunctionWithIndex<? super T, ? extends R> function) {
+    checkNotNull(stream);
+    checkNotNull(function);
+    boolean isParallel = stream.isParallel();
+    Spliterator<T> fromSpliterator = stream.spliterator();
+    if (!fromSpliterator.hasCharacteristics(Spliterator.SUBSIZED)) {
+        Iterator<T> fromIterator = Spliterators.iterator(fromSpliterator);
+        return StreamSupport.stream(new AbstractSpliterator<R>(fromSpliterator.estimateSize(), fromSpliterator.characteristics() & (Spliterator.ORDERED | Spliterator.SIZED)) {
+
+            long index = 0;
+
+            @Override
+            public boolean tryAdvance(Consumer<? super R> action) {
+                if (fromIterator.hasNext()) {
+                    action.accept(function.apply(fromIterator.next(), index++));
+                    return true;
+                }
+                return false;
+            }
+        }, isParallel);
+    }
+    class Splitr implements Spliterator<R>, Consumer<T> {
+
+        final Spliterator<T> splitr;
+
+        long index;
+
+        T holder = null;
+
+        Splitr(Spliterator<T> splitr, long index) {
+            this.splitr = splitr;
+            this.index = index;
+        }
+
+        @Override
+        public void accept(@Nullable T t) {
+            this.holder = t;
+        }
+
+        @Override
+        public boolean tryAdvance(Consumer<? super R> action) {
+            if (splitr.tryAdvance(this)) {
+                try {
+                    action.accept(function.apply(holder, index++));
+                    return true;
+                } finally {
+                    holder = null;
+                }
+            }
+            return false;
+        }
+
+        @Override
+        public Spliterator<R> trySplit() {
+            Spliterator<T> split = splitr.trySplit();
+            if (split == null) {
+                return null;
+            }
+            Spliterator<R> result = new Splitr(split, index);
+            this.index += split.getExactSizeIfKnown();
+            return result;
+        }
+
+        @Override
+        public long estimateSize() {
+            return splitr.estimateSize();
+        }
+
+        @Override
+        public int characteristics() {
+            return splitr.characteristics() & (Spliterator.ORDERED | Spliterator.SIZED | Spliterator.SUBSIZED);
+        }
+    }
+    return StreamSupport.stream(new Splitr(fromSpliterator, 0), isParallel);
+}

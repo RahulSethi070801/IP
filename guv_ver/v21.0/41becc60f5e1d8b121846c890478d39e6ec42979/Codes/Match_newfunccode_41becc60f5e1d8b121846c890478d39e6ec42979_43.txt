@@ -1,0 +1,3 @@
+public <N1 extends N, V1 extends V> MutableGraph<N1, V1> build() {
+    return new ConfigurableMutableGraph<N1, V1>(this);
+}

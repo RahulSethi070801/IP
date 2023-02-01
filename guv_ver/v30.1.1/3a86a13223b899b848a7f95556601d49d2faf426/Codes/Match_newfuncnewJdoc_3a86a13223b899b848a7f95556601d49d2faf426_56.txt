@@ -1,0 +1,4 @@
+
+     * Tries to move {@code toTrickle} from a min to a max level and bubble up there. If it moved
+     * before {@code removeIndex} this method returns a pair as described in {@link #removeAt}.
+     

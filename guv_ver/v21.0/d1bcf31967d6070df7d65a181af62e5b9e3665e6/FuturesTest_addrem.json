@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "293": "  /*\n",
+        "294": "   * Android does not handle this stack overflow gracefully... though somehow some other\n",
+        "295": "   * stack-overflow tests work. It must depend on the exact place the error occurs.\n",
+        "296": "   */\n",
+        "297": "  @AndroidIncompatible\n",
+        "535": "   * Android does not handle this stack overflow gracefully... though somehow some other\n"
+    },
+    "removed": {
+        "530": "   * Android does not handle this stack overflow gracefully... though somehow the other two\n"
+    }
+}

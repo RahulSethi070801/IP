@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "48": "        assertThat(endpoints.source()).isEqualTo(endpoints.otherNode(node));\n",
+        "55": "        assertThat(endpoints.target()).isEqualTo(endpoints.otherNode(node));\n"
+    },
+    "removed": {
+        "47": "        Integer oppositeNode = Graphs.oppositeNode(graph, inEdge, node);\n",
+        "49": "        assertThat(endpoints.source()).isEqualTo(oppositeNode);\n",
+        "54": "        Integer oppositeNode = Graphs.oppositeNode(graph, outEdge, node);\n",
+        "57": "        assertThat(endpoints.target()).isEqualTo(oppositeNode);\n"
+    }
+}

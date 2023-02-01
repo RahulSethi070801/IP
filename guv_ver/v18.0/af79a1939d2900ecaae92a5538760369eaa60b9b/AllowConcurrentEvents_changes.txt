@@ -1,0 +1,4 @@
+AllowConcurrentEvents
+Insertions: [27, 28, 31, 32]
+Deletions: [27, 28, 31, 32]
+guava/src/com/google/common/eventbus/AllowConcurrentEvents.java

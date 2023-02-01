@@ -1,0 +1,6 @@
+@Override
+@Nullable
+public V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue) {
+    validateEndpoints(endpoints);
+    return edgeValueOrDefault_internal(endpoints.nodeU(), endpoints.nodeV(), defaultValue);
+}

@@ -1,0 +1,4 @@
+@Deprecated
+public int binarySearch(List<? extends T> sortedList, @NullableDecl T key) {
+    return Collections.binarySearch(sortedList, key, this);
+}

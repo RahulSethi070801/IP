@@ -1,0 +1,11 @@
+@Override
+public void remove() {
+    checkRemove(canRemove);
+    if (totalCount == 1) {
+        entryIterator.remove();
+    } else {
+        multiset.remove(requireNonNull(currentEntry).getElement());
+    }
+    totalCount--;
+    canRemove = false;
+}

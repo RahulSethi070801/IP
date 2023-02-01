@@ -1,0 +1,10 @@
+@Override
+void runInterruptibly() {
+    if (!isDone()) {
+        try {
+            TrustedListenableFutureTask.this.set(callable.call());
+        } catch (Throwable t) {
+            setException(t);
+        }
+    }
+}

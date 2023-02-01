@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+public long getAndAccumulate(K key, long x, LongBinaryOperator accumulatorFunction) {
+    checkNotNull(accumulatorFunction);
+    return getAndUpdate(key, oldValue -> accumulatorFunction.applyAsLong(oldValue, x));
+}

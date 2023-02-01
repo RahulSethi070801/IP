@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "25": " * Encapsulates the constraints that a class under test must satisfy in order for a tester method to\n",
+        "26": " * be run against that class.\n"
+    },
+    "removed": {
+        "25": " * Encapsulates the constraints that a class under test must satisfy in order\n",
+        "26": " * for a tester method to be run against that class.\n"
+    }
+}

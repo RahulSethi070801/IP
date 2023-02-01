@@ -1,0 +1,9 @@
+
+   * Creates a {@code CompactLinkedHashMap} instance, with a high enough "initial capacity" that it
+   * <i>should</i> hold {@code expectedSize} elements without rebuilding internal data structures.
+   *
+   * @param expectedSize the number of elements you expect to add to the returned set
+   * @return a new, empty {@code CompactLinkedHashMap} with enough capacity to hold {@code
+   *     expectedSize} elements without resizing
+   * @throws IllegalArgumentException if {@code expectedSize} is negative
+   

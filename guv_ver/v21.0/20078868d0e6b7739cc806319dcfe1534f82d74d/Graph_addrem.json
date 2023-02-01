@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "159": " * <li>Prefer extending {@link AbstractGraph} over implementing {@link Graph} directly. This will\n",
+        "160": " *     ensure consistent {@link #equals(Object)} and {@link #hashCode()} across implementations.\n",
+        "398": "   * Returns {@code true} iff {@code object} is a graph that has the same node/edge relationships\n",
+        "399": "   * as those in this graph.\n",
+        "407": "   *     <br>Thus, every edge in A and B connect the same nodes in the same direction (if any).\n",
+        "418": "   *\n",
+        "419": "   * <p>A reference implementation of this is provided by {@link Graphs#equal(Graph, Graph)}.\n",
+        "423": "\n",
+        "424": "  /**\n",
+        "425": "   * Returns the hash code for this graph. The hash code of a graph is defined as the hash code\n",
+        "426": "   * of a map from each of the graph's nodes to their incident edges.\n",
+        "427": "   *\n",
+        "428": "   * <p>A reference implementation of this is provided by {@link Graphs#hashCode(Graph)}.\n",
+        "429": "   *\n",
+        "430": "   * <p>Note that by this definition, two graphs that are equal in every aspect except edge\n",
+        "431": "   * direction will have the same hash code (but can still be differentiated by {@link #equals}.\n",
+        "432": "   */\n",
+        "433": "  @Override\n",
+        "434": "  int hashCode();\n"
+    },
+    "removed": {
+        "396": "   * Returns {@code true} iff {@code object} is the same type of graph (directed, undirected,\n",
+        "397": "   * hypergraph) as this graph, and the same node/edge relationships exist in both graphs.\n",
+        "401": "   * <li>A and B are of the same type ({@code DirectedGraph, UndirectedGraph, Hypergraph})\n",
+        "406": "   *     <br>Thus, even if a {@code node} has the same sets of <i>adjacent</i> nodes\n",
+        "407": "   *         (neighbors) in both A and B, if the sets of edges by which {@code node} is connected to\n",
+        "408": "   *         its adjacent nodes are not the same in both A and B, then A and B are not equal.\n"
+    }
+}

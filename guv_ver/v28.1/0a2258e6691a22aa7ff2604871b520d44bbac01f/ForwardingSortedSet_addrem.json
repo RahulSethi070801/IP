@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "25": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "95": "  private int unsafeCompare(@Nullable Object o1, @Nullable Object o2) {\n",
+        "111": "  protected boolean standardContains(@Nullable Object object) {\n",
+        "132": "  protected boolean standardRemove(@Nullable Object object) {\n"
+    },
+    "removed": {
+        "25": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "95": "  private int unsafeCompare(@NullableDecl Object o1, @NullableDecl Object o2) {\n",
+        "111": "  protected boolean standardContains(@NullableDecl Object object) {\n",
+        "132": "  protected boolean standardRemove(@NullableDecl Object object) {\n"
+    }
+}

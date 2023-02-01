@@ -1,0 +1,4 @@
+MoreExecutorsDirectExecutorBenchmark_2
+Insertions: [34, 35, 41, 42, 47, 48, 61, 62, 63, 72, 73, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 91, 92, 94, 99, 100, 104, 105, 114, 115]
+Deletions: [34, 35, 41, 46, 58, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 83, 85, 90, 94, 103]
+guava-tests/benchmark/com/google/common/util/concurrent/MoreExecutorsDirectExecutorBenchmark.java

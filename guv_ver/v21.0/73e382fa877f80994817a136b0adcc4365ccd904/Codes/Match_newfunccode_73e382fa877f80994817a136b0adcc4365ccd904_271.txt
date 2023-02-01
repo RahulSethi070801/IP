@@ -1,0 +1,6 @@
+@Override
+public V putIfAbsent(K key, V value) {
+    synchronized (mutex) {
+        return delegate().putIfAbsent(key, value);
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "253": "   * <p>If the graph is directed, the {@linkplain DirectedGraph#source(Object) source} and\n"
+    },
+    "removed": {
+        "253": "   * <p>If the graph is directed, the {@linkplain #source(Object) source} and\n"
+    }
+}

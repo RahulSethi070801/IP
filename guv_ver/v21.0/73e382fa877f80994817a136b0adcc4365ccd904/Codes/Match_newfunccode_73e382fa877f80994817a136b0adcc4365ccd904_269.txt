@@ -1,0 +1,3 @@
+public static IntStream stream(OptionalInt optional) {
+    return optional.isPresent() ? IntStream.of(optional.getAsInt()) : IntStream.empty();
+}

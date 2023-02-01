@@ -1,0 +1,3 @@
+public static Escaper htmlEscaper() {
+    return HTML_ESCAPER;
+}

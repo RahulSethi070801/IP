@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "424": "   * @deprecated Use {@link #newSequentialExecutor}. This method is scheduled for removal in\n",
+        "425": "   *     January 2018.\n",
+        "429": "  @Deprecated\n",
+        "435": "  /**\n",
+        "436": "   * Returns an {@link Executor} that runs each task executed sequentially, such that no two tasks\n",
+        "437": "   * are running concurrently.\n",
+        "438": "   *\n",
+        "439": "   * <p>The executor uses {@code delegate} in order to {@link Executor#execute execute} each task in\n",
+        "440": "   * turn, and does not create any threads of its own.\n",
+        "441": "   *\n",
+        "442": "   * <p>After execution starts on the {@code delegate} {@link Executor}, tasks are polled and\n",
+        "443": "   * executed from the queue until there are no more tasks. The thread will not be released until\n",
+        "444": "   * there are no more tasks to run.\n",
+        "445": "   *\n",
+        "446": "   * <p>If a task is {@linkplain Thread#interrupt interrupted}, execution of subsequent tasks\n",
+        "447": "   * continues. {@code RuntimeException}s thrown by tasks are simply logged and the executor keeps\n",
+        "448": "   * trucking. If an {@code Error} is thrown, the error will propagate and execution will stop until\n",
+        "449": "   * the next time a task is submitted.\n",
+        "450": "   *\n",
+        "451": "   * @since NEXT\n",
+        "452": "   */\n",
+        "453": "  @Beta\n",
+        "454": "  @GwtIncompatible\n",
+        "455": "  public static Executor newSequentialExecutor(Executor delegate) {\n",
+        "456": "    return new SequentialExecutor(delegate);\n",
+        "457": "  }\n",
+        "458": "\n"
+    },
+    "removed": {}
+}

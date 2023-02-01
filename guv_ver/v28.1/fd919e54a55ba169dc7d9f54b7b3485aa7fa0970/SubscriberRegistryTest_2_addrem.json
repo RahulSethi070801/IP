@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "155": "    public void handle(String s) {}\n",
+        "161": "    public void handle(Integer i) {}\n",
+        "167": "    public void handle(Object o) {}\n",
+        "185": "  private interface HierarchyFixtureSubinterface extends HierarchyFixtureInterface {\n",
+        "189": "  private static class HierarchyFixtureParent implements HierarchyFixtureSubinterface {\n"
+    },
+    "removed": {
+        "155": "    public void handle(String s) {\n",
+        "156": "    }\n",
+        "162": "    public void handle(Integer i) {\n",
+        "163": "    }\n",
+        "169": "    public void handle(Object o) {\n",
+        "170": "    }\n",
+        "188": "  private interface HierarchyFixtureSubinterface\n",
+        "189": "      extends HierarchyFixtureInterface {\n",
+        "193": "  private static class HierarchyFixtureParent\n",
+        "194": "      implements HierarchyFixtureSubinterface {\n"
+    }
+}

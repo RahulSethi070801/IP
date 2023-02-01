@@ -1,0 +1,5 @@
+com.google.common.graph.ValueGraphBuilder
+incidentEdgeOrder
+ValueGraphBuilder<N1, V> incidentEdgeOrder(ElementOrder<N1> incidentEdgeOrder)
+ElementOrder
+ValueGraphBuilder

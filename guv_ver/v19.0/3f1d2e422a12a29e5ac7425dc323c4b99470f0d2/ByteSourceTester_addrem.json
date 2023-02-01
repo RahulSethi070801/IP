@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "101": "\n",
+        "102": "      // test a slice() of the ByteSource starting at an offset greater than its size\n",
+        "103": "      ByteSourceFactory slicedOffsetPastEnd = SourceSinkFactories.asSlicedByteSourceFactory(\n",
+        "104": "          factory, expected.length + 2, expected.length + 10);\n",
+        "105": "      suite.addTest(suiteForBytes(slicedOffsetPastEnd, bytes, name + \".slice[size + 2, long]\",\n",
+        "106": "          desc, false));\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "98": "              ?, ? extends OneSizeTestContainerGenerator<SetMultimap<K, V>, Entry<K, V>>>\n"
+    },
+    "removed": {
+        "32": "import java.util.Map;\n",
+        "99": "              ?, ? extends OneSizeTestContainerGenerator<SetMultimap<K, V>, Map.Entry<K, V>>>\n"
+    }
+}

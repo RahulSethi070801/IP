@@ -1,0 +1,33 @@
+@Override
+public Set<N> predecessors() {
+    return new AbstractSet<N>() {
+
+        @Override
+        public UnmodifiableIterator<N> iterator() {
+            final Iterator<Entry<N, Object>> entries = adjacentNodeValues.entrySet().iterator();
+            return new AbstractIterator<N>() {
+
+                @Override
+                protected N computeNext() {
+                    while (entries.hasNext()) {
+                        Entry<N, Object> entry = entries.next();
+                        if (isPredecessor(entry.getValue())) {
+                            return entry.getKey();
+                        }
+                    }
+                    return endOfData();
+                }
+            };
+        }
+
+        @Override
+        public int size() {
+            return predecessorCount;
+        }
+
+        @Override
+        public boolean contains(@NullableDecl Object obj) {
+            return isPredecessor(adjacentNodeValues.get(obj));
+        }
+    };
+}

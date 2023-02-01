@@ -1,0 +1,5 @@
+@Override
+@ParametricNullness
+public E last() {
+    return getElementOrThrow(multiset().lastEntry());
+}

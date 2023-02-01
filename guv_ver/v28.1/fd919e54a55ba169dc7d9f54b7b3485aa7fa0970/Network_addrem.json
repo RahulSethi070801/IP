@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "54": " * create an instance of one of the built-in implementations of {@code Network}, use the {@link\n",
+        "55": " * NetworkBuilder} class:\n",
+        "304": "   * equivalent to {@code nodes().contains(nodeU) && successors(nodeU).contains(nodeV)}, and to\n",
+        "305": "   * {@code edgeConnectingOrNull(nodeU, nodeV) != null}.\n",
+        "324": "   *   <li>A and B have equal {@link #isDirected() directedness}.\n",
+        "325": "   *   <li>A and B have equal {@link #nodes() node sets}.\n",
+        "326": "   *   <li>A and B have equal {@link #edges() edge sets}.\n",
+        "327": "   *   <li>Every edge in A and B connects the same nodes in the same direction (if any).\n"
+    },
+    "removed": {
+        "54": " * create an instance of one of the built-in implementations of {@code Network}, use the\n",
+        "55": " * {@link NetworkBuilder} class:\n",
+        "304": "   * equivalent to {@code nodes().contains(nodeU) && successors(nodeU).contains(nodeV)},\n",
+        "305": "   * and to {@code edgeConnectingOrNull(nodeU, nodeV) != null}.\n",
+        "324": "   * <li>A and B have equal {@link #isDirected() directedness}.\n",
+        "325": "   * <li>A and B have equal {@link #nodes() node sets}.\n",
+        "326": "   * <li>A and B have equal {@link #edges() edge sets}.\n",
+        "327": "   * <li>Every edge in A and B connects the same nodes in the same direction (if any).\n"
+    }
+}

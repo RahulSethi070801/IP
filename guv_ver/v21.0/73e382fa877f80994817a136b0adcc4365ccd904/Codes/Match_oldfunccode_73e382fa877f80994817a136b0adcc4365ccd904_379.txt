@@ -1,0 +1,15 @@
+public static <T> Iterable<T> cycle(final Iterable<T> iterable) {
+    checkNotNull(iterable);
+    return new FluentIterable<T>() {
+
+        @Override
+        public Iterator<T> iterator() {
+            return Iterators.cycle(iterable);
+        }
+
+        @Override
+        public String toString() {
+            return iterable.toString() + " (cycled)";
+        }
+    };
+}

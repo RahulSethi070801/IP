@@ -1,0 +1,4 @@
+CompactLinkedHashMap_2
+Insertions: [113, 114, 115, 116, 117, 118, 182, 189, 191, 192, 193, 288, 289, 290, 293, 294]
+Deletions: [277]
+guava/src/com/google/common/collect/CompactLinkedHashMap.java

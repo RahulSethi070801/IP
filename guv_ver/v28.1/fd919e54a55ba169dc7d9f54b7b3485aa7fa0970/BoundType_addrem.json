@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "28": "  /** The endpoint value <i>is not</i> considered part of the set (\"exclusive\"). */\n",
+        "38": "  /** Returns the bound type corresponding to a boolean value for inclusivity. */\n"
+    },
+    "removed": {
+        "28": "  /**\n",
+        "29": "   * The endpoint value <i>is not</i> considered part of the set (\"exclusive\").\n",
+        "30": "   */\n",
+        "40": "  /**\n",
+        "41": "   * Returns the bound type corresponding to a boolean value for inclusivity.\n",
+        "42": "   */\n"
+    }
+}

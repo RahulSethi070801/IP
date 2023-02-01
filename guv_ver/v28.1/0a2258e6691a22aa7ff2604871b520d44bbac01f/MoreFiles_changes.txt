@@ -1,0 +1,4 @@
+MoreFiles
+Insertions: [57, 614, 643, 662, 689, 709, 756, 769, 771]
+Deletions: [57, 614, 643, 662, 689, 709, 756, 769, 771, 772]
+guava/src/com/google/common/io/MoreFiles.java

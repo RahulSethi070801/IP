@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "35": "  /** Constructor for use by subclasses. */\n",
+        "38": "  /** Returns the number of nanoseconds elapsed since this ticker's fixed point of reference. */\n"
+    },
+    "removed": {
+        "35": "  /**\n",
+        "36": "   * Constructor for use by subclasses.\n",
+        "37": "   */\n",
+        "40": "  /**\n",
+        "41": "   * Returns the number of nanoseconds elapsed since this ticker's fixed point of reference.\n",
+        "42": "   */\n"
+    }
+}

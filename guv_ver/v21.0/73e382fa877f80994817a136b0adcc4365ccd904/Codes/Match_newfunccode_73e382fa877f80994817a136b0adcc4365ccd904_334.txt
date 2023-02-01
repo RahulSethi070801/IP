@@ -1,0 +1,5 @@
+@Override
+public void forEach(Consumer<? super K> consumer) {
+    checkNotNull(consumer);
+    multimap.entries().forEach(entry -> consumer.accept(entry.getKey()));
+}

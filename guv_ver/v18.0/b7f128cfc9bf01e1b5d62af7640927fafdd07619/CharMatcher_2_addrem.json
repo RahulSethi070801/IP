@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "153": "   * Determines whether a character is a digit according to {@linkplain Character#isDigit(char)\n",
+        "154": "   * Java's definition}. If you only care to match ASCII digits, you can use {@code\n",
+        "155": "   * inRange('0', '9')}.\n",
+        "164": "   * Determines whether a character is a letter according to {@linkplain Character#isLetter(char)\n",
+        "165": "   * Java's definition}. If you only care to match letters of the Latin alphabet, you can use {@code\n",
+        "175": "   * Determines whether a character is a letter or digit according to {@linkplain\n",
+        "186": "   * Determines whether a character is upper case according to {@linkplain\n",
+        "187": "   * Character#isUpperCase(char) Java's definition}.\n",
+        "197": "   * Determines whether a character is lower case according to {@linkplain\n",
+        "198": "   * Character#isLowerCase(char) Java's definition}.\n"
+    },
+    "removed": {
+        "153": "   * Determines whether a character is a digit according to {@link Character#isDigit(char) Java's\n",
+        "154": "   * definition}. If you only care to match ASCII digits, you can use {@code inRange('0', '9')}.\n",
+        "163": "   * Determines whether a character is a letter according to {@link Character#isLetter(char) Java's\n",
+        "164": "   * definition}. If you only care to match letters of the Latin alphabet, you can use {@code\n",
+        "174": "   * Determines whether a character is a letter or digit according to {@link\n",
+        "185": "   * Determines whether a character is upper case according to {@link Character#isUpperCase(char)\n",
+        "186": "   * Java's definition}.\n",
+        "196": "   * Determines whether a character is lower case according to {@link Character#isLowerCase(char)\n",
+        "197": "   * Java's definition}.\n"
+    }
+}

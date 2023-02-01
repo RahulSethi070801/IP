@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "156": "    RateLimiter limiter = RateLimiter.createWithCapacity(ticker, 1.0, 10, TimeUnit.SECONDS);\n"
+    },
+    "removed": {
+        "156": "    RateLimiter limiter = RateLimiter.createBursty(ticker, 1.0, 10, TimeUnit.SECONDS);\n"
+    }
+}

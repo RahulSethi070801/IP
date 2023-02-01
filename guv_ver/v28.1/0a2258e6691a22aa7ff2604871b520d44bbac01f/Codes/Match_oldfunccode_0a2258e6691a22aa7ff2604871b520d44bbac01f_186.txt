@@ -1,0 +1,22 @@
+@CanIgnoreReturnValue
+@Override
+public boolean setCount(@NullableDecl E element, int oldCount, int newCount) {
+    checkNonnegative(newCount, "newCount");
+    checkNonnegative(oldCount, "oldCount");
+    checkArgument(range.contains(element));
+    AvlNode<E> root = rootReference.get();
+    if (root == null) {
+        if (oldCount == 0) {
+            if (newCount > 0) {
+                add(element, newCount);
+            }
+            return true;
+        } else {
+            return false;
+        }
+    }
+    int[] result = new int[1];
+    AvlNode<E> newRoot = root.setCount(comparator(), element, oldCount, newCount, result);
+    rootReference.checkAndSet(root, newRoot);
+    return result[0] == oldCount;
+}

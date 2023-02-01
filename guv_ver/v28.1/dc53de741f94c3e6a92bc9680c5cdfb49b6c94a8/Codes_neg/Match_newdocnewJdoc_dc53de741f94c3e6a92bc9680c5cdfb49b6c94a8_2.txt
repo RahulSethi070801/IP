@@ -1,0 +1,1 @@
+ Re-declare this as abstract to force subclasses to override.

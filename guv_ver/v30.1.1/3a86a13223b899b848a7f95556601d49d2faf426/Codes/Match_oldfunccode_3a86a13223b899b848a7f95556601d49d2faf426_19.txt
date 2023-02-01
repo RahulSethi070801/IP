@@ -1,0 +1,4 @@
+@SuppressWarnings("unchecked")
+E elementData(int index) {
+    return (E) queue[index];
+}

@@ -1,0 +1,4 @@
+ElementTest
+Insertions: [183, 189, 199, 200, 204, 205, 207, 208, 210, 211, 213, 214, 216, 217]
+Deletions: [183, 184, 190, 200, 204, 206, 208, 210, 212]
+android/guava-tests/test/com/google/common/reflect/ElementTest.java

@@ -1,0 +1,4 @@
+@Beta
+public static <E> FluentIterable<E> from(E[] elements) {
+    return from(Arrays.asList(elements));
+}

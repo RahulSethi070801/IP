@@ -1,0 +1,4 @@
+
+   * Returns the internal entry for the specified key. The entry may be computing or partially
+   * collected. Does not impact recency ordering.
+   

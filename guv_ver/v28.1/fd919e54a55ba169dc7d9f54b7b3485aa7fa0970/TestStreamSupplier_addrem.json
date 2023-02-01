@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "28": "  /** Returns whether or not a new stream was opened. */\n",
+        "31": "  /** Returns whether or not an open stream was closed. */\n"
+    },
+    "removed": {
+        "28": "  /**\n",
+        "29": "   * Returns whether or not a new stream was opened.\n",
+        "30": "   */\n",
+        "33": "  /**\n",
+        "34": "   * Returns whether or not an open stream was closed.\n",
+        "35": "   */\n"
+    }
+}

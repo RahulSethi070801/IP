@@ -1,0 +1,4 @@
+
+   * Returns the array component type if this type represents an array ({@code int[]}, {@code T[]},
+   * {@code <? extends Map<String, Integer>[]>} etc.), or else {@code null} is returned.
+   

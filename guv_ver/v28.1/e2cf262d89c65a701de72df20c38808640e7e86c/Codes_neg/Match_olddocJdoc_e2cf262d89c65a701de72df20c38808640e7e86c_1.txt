@@ -1,0 +1,6 @@
+
+   * Creates a new {@link Guard} for {@code this} monitor. @Param isSatisfied The guards boolean
+   * condition. See {@link Guard#isSatisfied}.
+   *
+   * @since 21.0
+   

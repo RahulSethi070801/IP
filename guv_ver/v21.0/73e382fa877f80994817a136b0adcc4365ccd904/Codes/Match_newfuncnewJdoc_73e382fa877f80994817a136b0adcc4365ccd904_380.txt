@@ -1,0 +1,18 @@
+
+   * Returns an iterable whose iterators cycle indefinitely over the elements of {@code iterable}.
+   *
+   * <p>That iterator supports {@code remove()} if {@code iterable.iterator()} does. After {@code
+   * remove()} is called, subsequent cycles omit the removed element, which is no longer in {@code
+   * iterable}. The iterator's {@code hasNext()} method returns {@code true} until {@code iterable}
+   * is empty.
+   *
+   * <p><b>Warning:</b> Typical uses of the resulting iterator may produce an infinite loop. You
+   * should use an explicit {@code break} or be certain that you will eventually remove all the
+   * elements.
+   *
+   * <p>To cycle over the iterable {@code n} times, use the following: {@code
+   * Iterables.concat(Collections.nCopies(n, iterable))}
+   *
+   * <p><b>Java 8 users:</b> The {@code Stream} equivalent of this method is {@code
+   * Stream.generate(() -> iterable).flatMap(Streams::stream)}.
+   

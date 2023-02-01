@@ -1,0 +1,7 @@
+
+   * Returns all nodes in this graph adjacent to {@code node} which can be reached by traversing
+   * {@code node}'s {@linkplain #inEdges(Object) incoming edges} <i>against</i> the direction
+   * (if any) of the edge.
+   *
+   * @throws IllegalArgumentException if {@code node} is not an element of this graph
+   

@@ -1,0 +1,8 @@
+@GwtIncompatible
+void setBits(BitSet table) {
+    for (int c = Character.MAX_VALUE; c >= Character.MIN_VALUE; c--) {
+        if (matches((char) c)) {
+            table.set(c);
+        }
+    }
+}

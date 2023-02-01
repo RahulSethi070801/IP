@@ -1,0 +1,9 @@
+
+     * Returns the simple name of the underlying class as given in the source code.
+     *
+     * <p>Behaves similarly to {@link Class#getSimpleName()} but does not require the class to be
+     * loaded.
+     *
+     * <p>But note that this class uses heuristics to identify the simple name. See a related
+     * discussion in <a href="https://github.com/google/guava/issues/3349">issue 3349</a>.
+     

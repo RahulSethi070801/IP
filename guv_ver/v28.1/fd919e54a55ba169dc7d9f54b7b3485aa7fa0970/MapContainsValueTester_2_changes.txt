@@ -1,0 +1,4 @@
+MapContainsValueTester_2
+Insertions: [30, 31, 74]
+Deletions: [30, 31, 32, 75]
+guava-testlib/src/com/google/common/collect/testing/testers/MapContainsValueTester.java

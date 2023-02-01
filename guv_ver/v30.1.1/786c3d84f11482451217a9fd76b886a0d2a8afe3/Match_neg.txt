@@ -1,0 +1,6 @@
+public Map<Integer, Double> computeInPlace(double... dataset)
+public Map<Integer, Double> compute(int... dataset)
+
+public Map<Integer, Double> computeInPlace(double... dataset)
+public Map<Integer, Double> compute(double... dataset)
+

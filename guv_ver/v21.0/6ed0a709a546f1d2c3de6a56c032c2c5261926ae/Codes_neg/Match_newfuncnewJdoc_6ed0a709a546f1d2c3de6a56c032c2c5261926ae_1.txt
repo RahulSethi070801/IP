@@ -1,0 +1,3 @@
+
+   * Returns the hash code of {@code graph} as defined by {@link Graph#hashCode()}.
+   

@@ -1,0 +1,5 @@
+@Override
+public Set<V> get(@NullableDecl K key) {
+    assertTrue(Thread.holdsLock(mutex));
+    return super.get(key);
+}

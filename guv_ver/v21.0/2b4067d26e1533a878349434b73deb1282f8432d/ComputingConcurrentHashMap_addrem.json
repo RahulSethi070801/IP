@@ -1,0 +1,9 @@
+{
+    "addition": {},
+    "removed": {
+        "128": "                    evictionQueue.remove(e);\n",
+        "384": "        maximumSize,\n",
+        "401": "        int maximumSize,\n",
+        "412": "          maximumSize,\n"
+    }
+}

@@ -1,0 +1,5 @@
+@Nullable
+@CanIgnoreReturnValue
+public final B convert(@Nullable A a) {
+    return correctedDoForward(a);
+}

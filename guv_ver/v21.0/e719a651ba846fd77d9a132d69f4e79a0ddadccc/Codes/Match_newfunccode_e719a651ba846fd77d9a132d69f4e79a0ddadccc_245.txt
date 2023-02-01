@@ -1,0 +1,8 @@
+@Override
+public float readFloat() {
+    try {
+        return input.readFloat();
+    } catch (IOException e) {
+        throw new IllegalStateException(e);
+    }
+}

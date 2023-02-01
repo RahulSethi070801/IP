@@ -1,0 +1,5 @@
+@Override
+final void done() {
+    super.done();
+    this.runningState = null;
+}

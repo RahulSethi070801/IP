@@ -1,0 +1,4 @@
+
+   * Any interruption that happens as a result of calling interruptTask will arrive before this
+   * method is called. Complete Futures here.
+   

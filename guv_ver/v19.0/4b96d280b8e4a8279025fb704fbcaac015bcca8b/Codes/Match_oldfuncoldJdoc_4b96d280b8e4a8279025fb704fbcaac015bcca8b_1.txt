@@ -1,0 +1,14 @@
+
+   * Returns an immutable map whose keys are the distinct elements of {@code
+   * keys} and whose value for each key was computed by {@code valueFunction}.
+   * The map's iteration order is the order of the first appearance of each key
+   * in {@code keys}.
+   *
+   * <p>If {@code keys} is a {@link Set}, a live view can be obtained instead of
+   * a copy using {@link Maps#asMap(Set, Function)}.
+   *
+   * @throws NullPointerException if any element of {@code keys} is
+   *     {@code null}, or if {@code valueFunction} produces {@code null}
+   *     for any key
+   * @since 14.0
+   

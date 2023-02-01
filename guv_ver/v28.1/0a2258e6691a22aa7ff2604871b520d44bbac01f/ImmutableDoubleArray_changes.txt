@@ -1,0 +1,4 @@
+ImmutableDoubleArray
+Insertions: [36, 515, 555]
+Deletions: [36, 515, 555]
+guava/src/com/google/common/primitives/ImmutableDoubleArray.java

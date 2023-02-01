@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "38": "  private static final ImmutableList<Method> testMethods = getTestMethods(CharSinkTester.class);\n",
+        "50": "  static TestSuite suiteForString(\n",
+        "51": "      String name, CharSinkFactory factory, String string, String desc) {\n",
+        "64": "  public CharSinkTester(\n",
+        "65": "      CharSinkFactory factory, String string, String suiteName, String caseDesc, Method method) {\n",
+        "123": "    String expected = expectedLines.isEmpty() ? \"\" : Joiner.on(separator).join(expectedLines);\n"
+    },
+    "removed": {
+        "38": "  private static final ImmutableList<Method> testMethods\n",
+        "39": "      = getTestMethods(CharSinkTester.class);\n",
+        "51": "  static TestSuite suiteForString(String name, CharSinkFactory factory,\n",
+        "52": "      String string, String desc) {\n",
+        "65": "  public CharSinkTester(CharSinkFactory factory, String string,\n",
+        "66": "      String suiteName, String caseDesc, Method method) {\n",
+        "124": "    String expected = expectedLines.isEmpty()\n",
+        "125": "        ? \"\"\n",
+        "126": "        : Joiner.on(separator).join(expectedLines);\n"
+    }
+}

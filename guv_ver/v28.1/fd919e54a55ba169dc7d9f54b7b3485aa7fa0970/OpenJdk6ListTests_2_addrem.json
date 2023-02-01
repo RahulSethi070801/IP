@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "32": " * Tests the {@link List} implementations of {@link java.util}, suppressing tests that trip known\n",
+        "33": " * OpenJDK 6 bugs.\n",
+        "42": "  @Override\n",
+        "43": "  protected Collection<Method> suppressForArraysAsList() {\n",
+        "44": "    return Arrays.asList(getToArrayIsPlainObjectArrayMethod());\n",
+        "47": "  @Override\n",
+        "48": "  protected Collection<Method> suppressForCheckedList() {\n"
+    },
+    "removed": {
+        "32": " * Tests the {@link List} implementations of {@link java.util}, suppressing\n",
+        "33": " * tests that trip known OpenJDK 6 bugs.\n",
+        "42": "  @Override protected Collection<Method> suppressForArraysAsList() {\n",
+        "43": "    return Arrays.asList(\n",
+        "44": "        getToArrayIsPlainObjectArrayMethod());\n",
+        "47": "  @Override protected Collection<Method> suppressForCheckedList() {\n"
+    }
+}

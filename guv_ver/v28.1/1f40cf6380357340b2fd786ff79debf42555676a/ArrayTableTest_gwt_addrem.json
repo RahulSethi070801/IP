@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "117": "public void testCreateCopyEmptyArrayTable() throws Exception {\n",
+        "118": "  com.google.common.collect.ArrayTableTest testCase = new com.google.common.collect.ArrayTableTest();\n",
+        "119": "  testCase.setUp();\n",
+        "120": "  testCase.testCreateCopyEmptyArrayTable();\n",
+        "121": "}\n",
+        "122": "\n",
+        "159": "public void testCreateEmptyRowsXColumns() throws Exception {\n",
+        "160": "  com.google.common.collect.ArrayTableTest testCase = new com.google.common.collect.ArrayTableTest();\n",
+        "161": "  testCase.setUp();\n",
+        "162": "  testCase.testCreateEmptyRowsXColumns();\n",
+        "163": "}\n",
+        "164": "\n"
+    },
+    "removed": {}
+}

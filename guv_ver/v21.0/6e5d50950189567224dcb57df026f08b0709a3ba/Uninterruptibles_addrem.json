@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "25": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "80": "  @CanIgnoreReturnValue // TODO(cpovirk): Consider being more strict.\n",
+        "138": "  @CanIgnoreReturnValue\n",
+        "139": "  public static <V> V getUninterruptibly(Future<V> future) throws ExecutionException {\n",
+        "169": "  @CanIgnoreReturnValue\n"
+    },
+    "removed": {
+        "136": "  public static <V> V getUninterruptibly(Future<V> future)\n",
+        "137": "      throws ExecutionException {\n"
+    }
+}

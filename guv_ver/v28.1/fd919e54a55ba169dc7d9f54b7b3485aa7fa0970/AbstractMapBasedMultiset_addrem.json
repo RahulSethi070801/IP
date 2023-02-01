@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "197": "   * @throws IllegalArgumentException if the call would result in more than {@link\n",
+        "198": "   *     Integer#MAX_VALUE} occurrences of {@code element} in this multiset.\n"
+    },
+    "removed": {
+        "197": "   * @throws IllegalArgumentException if the call would result in more than\n",
+        "198": "   *     {@link Integer#MAX_VALUE} occurrences of {@code element} in this\n",
+        "199": "   *     multiset.\n"
+    }
+}

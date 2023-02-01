@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "23": " * A GWT-only class only used by GWT emulations. It is used to consolidate the definitions of method\n",
+        "24": " * delegation to save code size.\n",
+        "31": "  final transient Collection<E> delegate;\n",
+        "37": "  @Override\n",
+        "38": "  public UnmodifiableIterator<E> iterator() {\n",
+        "42": "  @Override\n",
+        "43": "  public boolean contains(@Nullable Object object) {\n",
+        "47": "  @Override\n",
+        "48": "  public boolean containsAll(Collection<?> targets) {\n",
+        "56": "  @Override\n",
+        "57": "  public boolean isEmpty() {\n",
+        "61": "  @Override\n",
+        "62": "  public Object[] toArray() {\n",
+        "66": "  @Override\n",
+        "67": "  public <T> T[] toArray(T[] other) {\n",
+        "71": "  @Override\n",
+        "72": "  public String toString() {\n"
+    },
+    "removed": {
+        "23": " * A GWT-only class only used by GWT emulations.  It is used to consolidate the\n",
+        "24": " * definitions of method delegation to save code size.\n",
+        "31": "  transient final Collection<E> delegate;\n",
+        "37": "  @Override public UnmodifiableIterator<E> iterator() {\n",
+        "41": "  @Override public boolean contains(@Nullable Object object) {\n",
+        "45": "  @Override public boolean containsAll(Collection<?> targets) {\n",
+        "53": "  @Override public boolean isEmpty() {\n",
+        "57": "  @Override public Object[] toArray() {\n",
+        "61": "  @Override public <T> T[] toArray(T[] other) {\n",
+        "65": "  @Override public String toString() {\n"
+    }
+}

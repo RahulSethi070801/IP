@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "34": "        .addEqualityGroup(RemovalNotification.create(\"1\", 1, RemovalCause.EXPLICIT))\n",
+        "35": "        .addEqualityGroup(RemovalNotification.create(\"one\", 2, RemovalCause.EXPLICIT))\n"
+    },
+    "removed": {
+        "34": "        .addEqualityGroup(\n",
+        "35": "            RemovalNotification.create(\"1\", 1, RemovalCause.EXPLICIT))\n",
+        "36": "        .addEqualityGroup(\n",
+        "37": "            RemovalNotification.create(\"one\", 2, RemovalCause.EXPLICIT))\n"
+    }
+}

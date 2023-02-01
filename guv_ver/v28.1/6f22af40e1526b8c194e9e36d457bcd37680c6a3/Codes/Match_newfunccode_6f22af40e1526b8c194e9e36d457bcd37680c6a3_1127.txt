@@ -1,0 +1,38 @@
+@Beta
+public static <E> Multiset<E> difference(final Multiset<E> multiset1, final Multiset<?> multiset2) {
+    checkNotNull(multiset1);
+    checkNotNull(multiset2);
+    return new AbstractMultiset<E>() {
+
+        @Override
+        public int count(@NullableDecl Object element) {
+            int count1 = multiset1.count(element);
+            return (count1 == 0) ? 0 : Math.max(0, count1 - multiset2.count(element));
+        }
+
+        @Override
+        Iterator<Entry<E>> entryIterator() {
+            final Iterator<Entry<E>> iterator1 = multiset1.entrySet().iterator();
+            return new AbstractIterator<Entry<E>>() {
+
+                @Override
+                protected Entry<E> computeNext() {
+                    while (iterator1.hasNext()) {
+                        Entry<E> entry1 = iterator1.next();
+                        E element = entry1.getElement();
+                        int count = entry1.getCount() - multiset2.count(element);
+                        if (count > 0) {
+                            return immutableEntry(element, count);
+                        }
+                    }
+                    return endOfData();
+                }
+            };
+        }
+
+        @Override
+        int distinctElements() {
+            return Iterators.size(entryIterator());
+        }
+    };
+}

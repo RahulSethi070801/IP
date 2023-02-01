@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.Futures
+getChecked
+public static V getChecked(Future<V> future, long timeout, TimeUnit unit, Class<X> exceptionClass) throws X
+Future,long,TimeUnit,Class
+V
+com.google.common.util.concurrent.Futures
+getChecked
+public static V getChecked(Future<V> future, Class<X> exceptionClass) throws X
+Future,Class
+V

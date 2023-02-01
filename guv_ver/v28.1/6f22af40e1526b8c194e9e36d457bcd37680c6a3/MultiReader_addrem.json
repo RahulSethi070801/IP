@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "49": "  public int read(@NullableDecl char cbuf[], int off, int len) throws IOException {\n"
+    },
+    "removed": {
+        "22": "import javax.annotation.Nullable;\n",
+        "49": "  public int read(@Nullable char cbuf[], int off, int len) throws IOException {\n"
+    }
+}

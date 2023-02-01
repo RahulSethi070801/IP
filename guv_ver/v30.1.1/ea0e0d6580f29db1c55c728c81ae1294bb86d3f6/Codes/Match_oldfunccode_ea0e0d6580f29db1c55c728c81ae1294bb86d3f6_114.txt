@@ -1,0 +1,5 @@
+public static <E> LinkedHashMultiset<E> create(Iterable<? extends E> elements) {
+    LinkedHashMultiset<E> multiset = create(Multisets.inferDistinctElements(elements));
+    Iterables.addAll(multiset, elements);
+    return multiset;
+}

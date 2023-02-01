@@ -1,0 +1,4 @@
+SipHashFunction
+Insertions: [27, 84]
+Deletions: [27, 84]
+guava/src/com/google/common/hash/SipHashFunction.java

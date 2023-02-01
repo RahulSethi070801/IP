@@ -1,0 +1,4 @@
+ImmutableCollection
+Insertions: [27, 46]
+Deletions: [27, 46]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableCollection.java

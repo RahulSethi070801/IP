@@ -1,0 +1,7 @@
+
+   * Returns the single element contained in {@code iterator}, or {@code defaultValue} if the
+   * iterator is empty.
+   *
+   * @throws IllegalArgumentException if the iterator contains multiple elements. The state of the
+   *     iterator is unspecified.
+   

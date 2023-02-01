@@ -1,0 +1,10 @@
+com.google.common.base.Preconditions
+checkArgument
+public static void checkArgument(boolean expression, @Nullable String errorMessageTemplate, @Nullable Object... errorMessageArgs)
+boolean,String,Object...
+void
+com.google.common.base.Preconditions
+checkState
+public static void checkState(boolean expression, @Nullable String errorMessageTemplate, @Nullable Object... errorMessageArgs)
+boolean,String,Object...
+void

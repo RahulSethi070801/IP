@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "35": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "365": "  @Nullable\n",
+        "390": "  @Nullable\n",
+        "746": "    public boolean equals(@Nullable Object object) {\n"
+    },
+    "removed": {
+        "35": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "365": "  @NullableDecl\n",
+        "390": "  @NullableDecl\n",
+        "746": "    public boolean equals(@NullableDecl Object object) {\n"
+    }
+}

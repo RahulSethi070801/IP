@@ -1,0 +1,4 @@
+EvictingQueue
+Insertions: [48, 130, 131, 132, 138, 139, 140]
+Deletions: [129, 135]
+android/guava/src/com/google/common/collect/EvictingQueue.java

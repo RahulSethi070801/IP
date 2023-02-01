@@ -1,0 +1,30 @@
+com.google.common.net.InetAddresses
+isUriInetAddress
+public static boolean isUriInetAddress(String ipString)
+String
+boolean
+com.google.common.net.InetAddresses
+forString
+public static InetAddress forString(String ipString)
+String
+InetAddress
+com.google.common.net.InetAddresses
+isInetAddress
+public static boolean isInetAddress(String ipString)
+String
+boolean
+com.google.common.net.InetAddresses
+isMappedIPv4Address
+public static boolean isMappedIPv4Address(String ipString)
+String
+boolean
+com.google.common.net.InetAddresses
+forUriString
+public static InetAddress forUriString(String hostAddr)
+String
+InetAddress
+com.google.common.net.InetAddresses
+getCoercedIPv4Address
+public static Inet4Address getCoercedIPv4Address(InetAddress ip)
+InetAddress
+Inet4Address

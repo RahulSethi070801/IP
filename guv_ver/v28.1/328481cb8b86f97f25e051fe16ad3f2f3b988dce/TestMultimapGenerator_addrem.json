@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "24": "import java.util.Map.Entry;\n",
+        "33": "    extends TestContainerGenerator<M, Entry<K, V>> {\n"
+    },
+    "removed": {
+        "24": "import java.util.Map;\n",
+        "33": "    extends TestContainerGenerator<M, Map.Entry<K, V>> {\n"
+    }
+}

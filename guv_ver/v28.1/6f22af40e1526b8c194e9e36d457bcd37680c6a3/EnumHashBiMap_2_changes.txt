@@ -1,0 +1,4 @@
+EnumHashBiMap_2
+Insertions: [30, 88, 94]
+Deletions: [30, 88, 94]
+guava/src/com/google/common/collect/EnumHashBiMap.java

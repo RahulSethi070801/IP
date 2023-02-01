@@ -1,0 +1,3 @@
+BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {
+    return new StandardBaseEncoding(alphabet, paddingChar);
+}

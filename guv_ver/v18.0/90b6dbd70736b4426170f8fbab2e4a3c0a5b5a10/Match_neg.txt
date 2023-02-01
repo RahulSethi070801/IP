@@ -1,0 +1,6 @@
+public InputStream openStream() throws IOException
+public FileBackedOutputStream(int fileThreshold)
+
+public InputSupplier<InputStream> getSupplier()
+public FileBackedOutputStream(int fileThreshold)
+

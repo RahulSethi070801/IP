@@ -1,0 +1,10 @@
+
+   * Copies all characters from a file to an appendable object,
+   * using the given character set.
+   *
+   * @param from the source file
+   * @param charset the charset used to decode the input stream; see {@link
+   *     Charsets} for helpful predefined constants
+   * @param to the appendable object
+   * @throws IOException if an I/O error occurs
+   

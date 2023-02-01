@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "203": "        assertThat(graph.outEdges(graph.incidentNodes(inEdge).otherNode(node))).contains(inEdge);\n",
+        "208": "        assertThat(graph.inEdges(graph.incidentNodes(outEdge).otherNode(node))).contains(outEdge);\n"
+    },
+    "removed": {
+        "203": "        assertThat(graph.outEdges(Graphs.oppositeNode(graph, inEdge, node))).contains(inEdge);\n",
+        "208": "        assertThat(graph.inEdges(Graphs.oppositeNode(graph, outEdge, node))).contains(outEdge);\n"
+    }
+}

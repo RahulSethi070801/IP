@@ -1,0 +1,4 @@
+
+   * Returns a sequential {@link Stream} of the contents of {@code iterable}, delegating to {@link
+   * Collection#stream} if possible.
+   

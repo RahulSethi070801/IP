@@ -1,0 +1,4 @@
+EventSubscriberTest
+Insertions: [27, 31, 53, 55, 57, 58, 64, 67, 68, 77, 80, 81, 92, 93, 94, 115, 138, 161, 169]
+Deletions: [27, 31, 53, 55, 57, 58, 64, 67, 68, 77, 80, 81, 92, 93, 94, 115, 138, 161, 169]
+guava-tests/test/com/google/common/eventbus/EventSubscriberTest.java

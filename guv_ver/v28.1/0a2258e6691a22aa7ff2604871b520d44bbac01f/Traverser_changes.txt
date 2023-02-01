@@ -1,0 +1,4 @@
+Traverser
+Insertions: [33, 474, 477, 647, 650]
+Deletions: [33, 474, 477, 647, 650]
+guava/src/com/google/common/graph/Traverser.java

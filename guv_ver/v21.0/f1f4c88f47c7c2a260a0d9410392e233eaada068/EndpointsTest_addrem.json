@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "20": "import static org.junit.Assert.fail;\n",
+        "22": "import com.google.common.collect.ImmutableList;\n",
+        "29": "import java.util.List;\n",
+        "30": "\n",
+        "42": "    assertThat(directed.otherNode(\"source\")).isEqualTo(\"target\");\n",
+        "43": "    assertThat(directed.otherNode(\"target\")).isEqualTo(\"source\");\n",
+        "51": "    assertThat(undirected.otherNode(\"chicken\")).isEqualTo(\"egg\");\n",
+        "52": "    assertThat(undirected.otherNode(\"egg\")).isEqualTo(\"chicken\");\n",
+        "61": "    assertThat(undirected.otherNode(\"node\")).isEqualTo(\"node\");\n",
+        "66": "  @Test\n",
+        "67": "  public void testOtherNode_nodeNotIncident() {\n",
+        "68": "    List<MutableNetwork<Integer, String>> testGraphs = ImmutableList.of(\n",
+        "69": "        NetworkBuilder.directed().<Integer, String>build(),\n",
+        "70": "        NetworkBuilder.undirected().<Integer, String>build());\n",
+        "71": "    for (MutableNetwork<Integer, String> graph : testGraphs) {\n",
+        "72": "      graph.addEdge(\"1-2\", 1, 2);\n",
+        "73": "      Endpoints<Integer> endpoints = graph.incidentNodes(\"1-2\");\n",
+        "74": "      try {\n",
+        "75": "        endpoints.otherNode(3);\n",
+        "76": "        fail(\"Should have rejected otherNode() called with a node not incident to edge.\");\n",
+        "77": "      } catch (IllegalArgumentException expected) {\n",
+        "78": "      }\n",
+        "79": "    }\n",
+        "80": "  }\n",
+        "81": "\n"
+    },
+    "removed": {}
+}

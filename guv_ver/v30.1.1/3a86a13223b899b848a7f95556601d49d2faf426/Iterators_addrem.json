@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "614": "  public static <T extends @Nullable Object>\n",
+        "615": "      UnmodifiableIterator<List<@Nullable T>> paddedPartition(Iterator<T> iterator, int size) {\n",
+        "619": "  private static <T extends @Nullable Object> UnmodifiableIterator<List<@Nullable T>> partitionImpl(\n",
+        "623": "    return new UnmodifiableIterator<List<@Nullable T>>() {\n",
+        "630": "      public List<@Nullable T> next() {\n",
+        "636": "        T[] array = (@Nullable T[]) new Object[size];\n",
+        "645": "        List<@Nullable T> list = Collections.unmodifiableList(Arrays.asList(array));\n",
+        "646": "        // TODO(b/192579700): Use a ternary once it no longer confuses our nullness checker.\n",
+        "647": "        if (pad || count == size) {\n",
+        "648": "          return list;\n",
+        "649": "        } else {\n",
+        "650": "          return list.subList(0, count);\n",
+        "651": "        }\n"
+    },
+    "removed": {
+        "614": "  public static <T extends @Nullable Object> UnmodifiableIterator<List<T>> paddedPartition(\n",
+        "615": "      Iterator<T> iterator, int size) {\n",
+        "619": "  private static <T extends @Nullable Object> UnmodifiableIterator<List<T>> partitionImpl(\n",
+        "623": "    return new UnmodifiableIterator<List<T>>() {\n",
+        "630": "      public List<T> next() {\n",
+        "636": "        T[] array = (T[]) new Object[size];\n",
+        "645": "        List<T> list = Collections.unmodifiableList((List<T>) Arrays.asList(array));\n",
+        "646": "        return (pad || count == size) ? list : list.subList(0, count);\n"
+    }
+}

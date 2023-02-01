@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "33": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "142": "  @Nullable\n",
+        "143": "  private static <T> T getReference(@Nullable Reference<T> reference) {\n"
+    },
+    "removed": {
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "142": "  @NullableDecl\n",
+        "143": "  private static <T> T getReference(@NullableDecl Reference<T> reference) {\n"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "68": "  boolean getIfPresent(int repetitions) {\n",
+        "69": "    boolean retVal = false;\n",
+        "71": "      retVal &= Enums.getIfPresent(enumType, sampleData[i & 255]).isPresent();\n",
+        "73": "    return retVal;\n"
+    },
+    "removed": {
+        "68": "  void getIfPresent(int repetitions) {\n",
+        "70": "      Enums.getIfPresent(enumType, sampleData[i & 255]);\n"
+    }
+}

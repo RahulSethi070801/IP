@@ -1,0 +1,3 @@
+public static MutableGraph<N> inducedSubgraph(Graph<N> graph, Iterable<? extends N> nodes)
+public Set<E> edges()
+

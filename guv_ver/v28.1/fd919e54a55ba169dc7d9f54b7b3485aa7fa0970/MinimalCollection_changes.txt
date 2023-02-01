@@ -1,0 +1,4 @@
+MinimalCollection
+Insertions: [26, 27]
+Deletions: [26, 27]
+android/guava-testlib/src/com/google/common/collect/testing/MinimalCollection.java

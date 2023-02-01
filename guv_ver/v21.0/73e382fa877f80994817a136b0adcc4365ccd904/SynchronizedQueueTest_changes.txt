@@ -1,0 +1,4 @@
+SynchronizedQueueTest
+Insertions: [33, 34, 35, 41]
+Deletions: [33, 34, 40]
+guava-tests/test/com/google/common/collect/SynchronizedQueueTest.java

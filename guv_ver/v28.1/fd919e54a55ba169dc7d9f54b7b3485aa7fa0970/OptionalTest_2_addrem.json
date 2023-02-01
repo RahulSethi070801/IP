@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "209": "    assertEquals(\n",
+        "210": "        Optional.absent(),\n",
+        "211": "        Optional.absent()\n",
+        "212": "            .transform(\n",
+        "213": "                new Function<Object, Object>() {\n",
+        "214": "                  @Override\n",
+        "215": "                  public Object apply(Object input) {\n",
+        "216": "                    return null;\n",
+        "217": "                  }\n",
+        "218": "                }));\n",
+        "244": "    List<Optional<Object>> optionals = ImmutableList.of(Optional.absent(), Optional.absent());\n"
+    },
+    "removed": {
+        "209": "    assertEquals(Optional.absent(),\n",
+        "210": "        Optional.absent().transform(\n",
+        "211": "          new Function<Object, Object>() {\n",
+        "212": "            @Override public Object apply(Object input) {\n",
+        "213": "              return null;\n",
+        "214": "            }\n",
+        "215": "          }));\n",
+        "241": "    List<Optional<Object>> optionals =\n",
+        "242": "        ImmutableList.of(Optional.absent(), Optional.absent());\n"
+    }
+}

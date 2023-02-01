@@ -1,0 +1,8 @@
+
+   * Returns the count of {@code node}'s {@link #inEdges(Object) incoming edges} in a directed
+   * graph. In an undirected graph, returns the {@link #degree(Object)}.
+   *
+   * <p>If the count is greater than {@code Integer.MAX_VALUE}, returns {@code Integer.MAX_VALUE}.
+   *
+   * @throws IllegalArgumentException if {@code node} is not an element of this graph
+   

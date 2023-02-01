@@ -1,0 +1,3 @@
+public static final <S> ElementOrder<S> unordered() {
+    return new ElementOrder<S>(Type.UNORDERED, null);
+}

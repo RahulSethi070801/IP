@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "78": "   * Copy of the {@link #testContainsEntryNullDisallowed} test. Needed because \"optional\" feature\n",
+        "79": "   * requirements are not supported.\n"
+    },
+    "removed": {
+        "78": "   * Copy of the {@link #testContainsEntryNullDisallowed} test. Needed because\n",
+        "79": "   * \"optional\" feature requirements are not supported.\n"
+    }
+}

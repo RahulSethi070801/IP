@@ -1,0 +1,41 @@
+@Override
+public final Iterable<T> children(final T root) {
+    checkNotNull(root);
+    return new FluentIterable<T>() {
+
+        @Override
+        public Iterator<T> iterator() {
+            return new AbstractIterator<T>() {
+
+                boolean doneLeft;
+
+                boolean doneRight;
+
+                @Override
+                protected T computeNext() {
+                    if (!doneLeft) {
+                        doneLeft = true;
+                        Optional<T> left = leftChild(root);
+                        if (left.isPresent()) {
+                            return left.get();
+                        }
+                    }
+                    if (!doneRight) {
+                        doneRight = true;
+                        Optional<T> right = rightChild(root);
+                        if (right.isPresent()) {
+                            return right.get();
+                        }
+                    }
+                    return endOfData();
+                }
+            };
+        }
+
+        @Override
+        public void forEach(Consumer<? super T> action) {
+            acceptIfPresent(action, leftChild(root));
+            acceptIfPresent(action, rightChild(root));
+        }
+    };
+}

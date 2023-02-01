@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "45": "   * Adds an (implicit) edge to this graph connecting {@code nodeA} to {@code nodeB}\n",
+        "48": "   * <p>Behavior if {@code nodeA} and {@code nodeB} are not already elements of the graph is\n",
+        "49": "   * unspecified. Suggested behaviors include (a) silently adding {@code nodeA} and {@code nodeB}\n",
+        "52": "   * <p>Currently, this type does not support parallel edges.  {@code addEdge(nodeA, nodeB)} will\n",
+        "54": "   * {@code Network.addEdge(e, nodeA, nodeB)}).  A hypothetical instance that supported parallel\n",
+        "55": "   * edges would add a new edge between {@code nodeA} and {@code nodeB} for every call to\n",
+        "56": "   * {@code addEdge(nodeA, nodeB)}, and return {@code true} every time.\n",
+        "62": "  boolean addEdge(N nodeA, N nodeB);\n",
+        "76": "   * Removes an edge connecting {@code nodeA} to {@code nodeB} from this graph, if one is present\n",
+        "86": "  boolean removeEdge(Object nodeA, Object nodeB);\n"
+    },
+    "removed": {
+        "45": "   * Adds an (implicit) edge to this graph connecting {@code node1} to {@code node2}\n",
+        "48": "   * <p>Behavior if {@code node1} and {@code node2} are not already elements of the graph is\n",
+        "49": "   * unspecified. Suggested behaviors include (a) silently adding {@code node1} and {@code node2}\n",
+        "52": "   * <p>Currently, this type does not support parallel edges.  {@code addEdge(node1, node2)} will\n",
+        "54": "   * {@code Network.addEdge(e, node1, node2)}).  A hypothetical instance that supported parallel\n",
+        "55": "   * edges would add a new edge between {@code node1} and {@code node2} for every call to\n",
+        "56": "   * {@code addEdge(node1, node2)}, and return {@code true} every time.\n",
+        "62": "  boolean addEdge(N node1, N node2);\n",
+        "76": "   * Removes an edge connecting {@code node1} to {@code node2} from this graph, if one is present\n",
+        "86": "  boolean removeEdge(Object node1, Object node2);\n"
+    }
+}

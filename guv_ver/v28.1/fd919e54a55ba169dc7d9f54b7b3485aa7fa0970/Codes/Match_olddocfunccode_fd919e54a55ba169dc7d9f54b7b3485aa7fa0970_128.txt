@@ -1,0 +1,17 @@
+public final LinearTransformation leastSquaresFit() {
+    checkState(count() > 1);
+    if (isNaN(sumOfProductsOfDeltas)) {
+        return LinearTransformation.forNaN();
+    }
+    double xSumOfSquaresOfDeltas = xStats.sumOfSquaresOfDeltas();
+    if (xSumOfSquaresOfDeltas > 0.0) {
+        if (yStats.sumOfSquaresOfDeltas() > 0.0) {
+            return LinearTransformation.mapping(xStats.mean(), yStats.mean()).withSlope(sumOfProductsOfDeltas / xSumOfSquaresOfDeltas);
+        } else {
+            return LinearTransformation.horizontal(yStats.mean());
+        }
+    } else {
+        checkState(yStats.sumOfSquaresOfDeltas() > 0.0);
+        return LinearTransformation.vertical(xStats.mean());
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+protected final <T> RunnableFuture<T> newTaskFor(Runnable runnable, T value) {
+    return TrustedListenableFutureTask.create(runnable, value);
+}

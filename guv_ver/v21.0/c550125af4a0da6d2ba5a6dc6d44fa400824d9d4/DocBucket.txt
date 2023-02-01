@@ -1,0 +1,10 @@
+com.google.common.graph.Network
+degree
+int degree(Object node)
+Object
+int
+com.google.common.graph.Network
+isDirected
+boolean isDirected()
+empty
+boolean

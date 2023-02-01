@@ -1,0 +1,4 @@
+InputSupplier
+Insertions: [26, 27, 28, 29, 30, 31, 33]
+Deletions: []
+guava/src/com/google/common/io/InputSupplier.java

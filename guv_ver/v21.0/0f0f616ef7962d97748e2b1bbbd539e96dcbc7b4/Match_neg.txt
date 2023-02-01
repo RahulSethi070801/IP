@@ -1,0 +1,6 @@
+public static Graph<N> transitiveClosure(Graph<N> graph)
+Set<N> successors(Object node)
+
+public static Graph<N> transitiveClosure(Graph<N> graph)
+Set<N> successors(Object node)
+

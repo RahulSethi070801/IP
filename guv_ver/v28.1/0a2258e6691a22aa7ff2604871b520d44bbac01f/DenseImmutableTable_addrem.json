@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "24": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "104": "    @Nullable\n",
+        "118": "    public V get(@Nullable Object key) {\n",
+        "250": "  public V get(@Nullable Object rowKey, @Nullable Object columnKey) {\n"
+    },
+    "removed": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "104": "    @NullableDecl\n",
+        "118": "    public V get(@NullableDecl Object key) {\n",
+        "250": "  public V get(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n"
+    }
+}

@@ -1,0 +1,16 @@
+
+   * Returns an unmodifiable list containing the specified first and second element, and backed by
+   * the specified array of additional elements. Changes to the {@code rest} array will be reflected
+   * in the returned list. Unlike {@link Arrays#asList}, the returned list is unmodifiable.
+   *
+   * <p>This is useful when a varargs method needs to use a signature such as {@code (Foo firstFoo,
+   * Foo secondFoo, Foo... moreFoos)}, in order to avoid overload ambiguity or to enforce a minimum
+   * argument count.
+   *
+   * <p>The returned list is serializable and implements {@link RandomAccess}.
+   *
+   * @param first the first element
+   * @param second the second element
+   * @param rest an array of additional elements, possibly empty
+   * @return an unmodifiable list containing the specified elements
+   

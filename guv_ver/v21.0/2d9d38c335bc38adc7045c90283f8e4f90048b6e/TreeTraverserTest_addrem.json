@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "21": "import com.google.common.base.Function;\n",
+        "67": "  private static final TreeTraverser<Tree> ADAPTER_USING_USING =\n",
+        "68": "      TreeTraverser.using(\n",
+        "69": "          new Function<Tree, Iterable<Tree>>() {\n",
+        "70": "            @Override\n",
+        "71": "            public Iterable<Tree> apply(Tree node) {\n",
+        "72": "              return node.children;\n",
+        "73": "            }\n",
+        "74": "          });\n",
+        "75": "\n",
+        "156": "  public void testUsing() {\n",
+        "157": "    assertThat(iterationOrder(ADAPTER_USING_USING.preOrderTraversal(h))).isEqualTo(\"hdabcegf\");\n",
+        "158": "  }\n",
+        "159": "\n"
+    },
+    "removed": {}
+}

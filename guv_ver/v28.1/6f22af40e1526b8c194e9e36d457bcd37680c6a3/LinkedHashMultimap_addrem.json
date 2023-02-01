@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "41": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "154": "    @NullableDecl ValueEntry<K, V> nextInValueBucket;\n",
+        "163": "        @NullableDecl K key,\n",
+        "164": "        @NullableDecl V value,\n",
+        "166": "        @NullableDecl ValueEntry<K, V> nextInValueBucket) {\n",
+        "172": "    boolean matchesValue(@NullableDecl Object v, int smearedVHash) {\n",
+        "264": "  public Set<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {\n",
+        "413": "    public boolean contains(@NullableDecl Object o) {\n",
+        "426": "    public boolean add(@NullableDecl V value) {\n",
+        "467": "    public boolean remove(@NullableDecl Object o) {\n"
+    },
+    "removed": {
+        "41": "import javax.annotation.Nullable;\n",
+        "154": "    @Nullable ValueEntry<K, V> nextInValueBucket;\n",
+        "163": "        @Nullable K key,\n",
+        "164": "        @Nullable V value,\n",
+        "166": "        @Nullable ValueEntry<K, V> nextInValueBucket) {\n",
+        "172": "    boolean matchesValue(@Nullable Object v, int smearedVHash) {\n",
+        "264": "  public Set<V> replaceValues(@Nullable K key, Iterable<? extends V> values) {\n",
+        "413": "    public boolean contains(@Nullable Object o) {\n",
+        "426": "    public boolean add(@Nullable V value) {\n",
+        "467": "    public boolean remove(@Nullable Object o) {\n"
+    }
+}

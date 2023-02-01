@@ -1,0 +1,5 @@
+@Override
+@Nullable
+public E lower(E e) {
+    return Iterators.find(unfiltered().headSet(e, false).descendingIterator(), predicate, null);
+}

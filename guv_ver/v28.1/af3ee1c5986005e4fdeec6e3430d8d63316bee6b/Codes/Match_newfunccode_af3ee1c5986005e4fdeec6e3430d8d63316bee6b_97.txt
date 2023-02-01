@@ -1,0 +1,4 @@
+@Override
+public Set<E> edgesConnecting(EndpointPair<N> endpoints) {
+    return delegate().edgesConnecting(endpoints);
+}

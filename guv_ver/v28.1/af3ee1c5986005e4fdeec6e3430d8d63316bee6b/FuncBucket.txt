@@ -1,0 +1,170 @@
+com.google.common.graph.ConfigurableValueGraph
+hasEdgeConnecting
+public boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+EndpointPair
+boolean
+com.google.common.graph.ConfigurableMutableGraph
+removeEdge
+public boolean removeEdge(EndpointPair<N> endpoints)
+EndpointPair
+boolean
+com.google.common.graph.AbstractBaseGraph
+isOrderingCompatible
+protected final boolean isOrderingCompatible(EndpointPair<?> endpoints)
+EndpointPair
+boolean
+com.google.common.graph.MutableNetwork
+addEdge
+boolean addEdge(EndpointPair<N> endpoints, E edge)
+EndpointPair,E
+boolean
+com.google.common.graph.ConfigurableMutableValueGraph
+putEdgeValue
+public V putEdgeValue(EndpointPair<N> endpoints, V value)
+EndpointPair,V
+V
+com.google.common.graph.ConfigurableValueGraph
+hasEdgeConnecting
+public boolean hasEdgeConnecting(N nodeU, N nodeV)
+N,N
+boolean
+com.google.common.graph.MutableValueGraph
+removeEdge
+V removeEdge(EndpointPair<N> endpoints)
+EndpointPair
+V
+com.google.common.graph.ConfigurableMutableValueGraph
+removeEdge
+public V removeEdge(EndpointPair<N> endpoints)
+EndpointPair
+V
+com.google.common.graph.ForwardingValueGraph
+edgeValue
+public Optional<V> edgeValue(EndpointPair<N> endpoints)
+EndpointPair
+Optional
+com.google.common.graph.Network
+edgeConnectingOrNull
+E edgeConnectingOrNull(EndpointPair<N> endpoints)
+EndpointPair
+E
+com.google.common.graph.ValueGraph
+edgeValue
+Optional<V> edgeValue(EndpointPair<N> endpoints)
+EndpointPair
+Optional
+com.google.common.graph.AbstractNetwork
+edges
+public Set<EndpointPair<N>> edges()
+empty
+Set
+com.google.common.graph.MutableGraph
+removeEdge
+boolean removeEdge(EndpointPair<N> endpoints)
+EndpointPair
+boolean
+com.google.common.graph.AbstractBaseGraph
+contains
+public boolean contains(@Nullable Object obj)
+Object
+boolean
+com.google.common.graph.MutableValueGraph
+putEdgeValue
+V putEdgeValue(EndpointPair<N> endpoints, V value)
+EndpointPair,V
+V
+com.google.common.graph.Network
+edgesConnecting
+Set<E> edgesConnecting(EndpointPair<N> endpoints)
+EndpointPair
+Set
+com.google.common.graph.ForwardingNetwork
+edgeConnectingOrNull
+public E edgeConnectingOrNull(EndpointPair<N> endpoints)
+EndpointPair
+E
+com.google.common.graph.ConfigurableMutableNetwork
+addEdge
+public boolean addEdge(EndpointPair<N> endpoints, E edge)
+EndpointPair,E
+boolean
+com.google.common.graph.ConfigurableValueGraph
+edgeValueOrDefault
+public V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+EndpointPair,V
+V
+com.google.common.graph.ValueGraph
+edgeValueOrDefault
+V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+EndpointPair,V
+V
+com.google.common.graph.ForwardingNetwork
+edgeConnecting
+public Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+EndpointPair
+Optional
+com.google.common.graph.Network
+edgeConnecting
+Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+EndpointPair
+Optional
+com.google.common.graph.Graphs
+transpose
+static EndpointPair<N> transpose(EndpointPair<N> endpoints)
+EndpointPair
+EndpointPair
+com.google.common.graph.MutableGraph
+putEdge
+boolean putEdge(EndpointPair<N> endpoints)
+EndpointPair
+boolean
+com.google.common.graph.ConfigurableValueGraph
+edgeValueOrDefault_internal
+protected final V edgeValueOrDefault_internal(N nodeU, N nodeV, V defaultValue)
+N,N,V
+V
+com.google.common.graph.AbstractNetwork
+edgeConnectingOrNull
+public E edgeConnectingOrNull(N nodeU, N nodeV)
+N,N
+E
+com.google.common.graph.ConfigurableMutableGraph
+putEdge
+public boolean putEdge(EndpointPair<N> endpoints)
+EndpointPair
+boolean
+com.google.common.graph.ConfigurableValueGraph
+hasEdgeConnecting_internal
+protected final boolean hasEdgeConnecting_internal(N nodeU, N nodeV)
+N,N
+boolean
+com.google.common.graph.AbstractNetwork
+asGraph
+public Graph<N> asGraph()
+empty
+Graph
+com.google.common.graph.Graph
+hasEdgeConnecting
+boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+EndpointPair
+boolean
+com.google.common.graph.AbstractBaseGraph
+validateEndpoints
+protected final void validateEndpoints(EndpointPair<?> endpoints)
+EndpointPair
+void
+com.google.common.graph.ConfigurableValueGraph
+edgeValueOrDefault
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+N,N,V
+V
+com.google.common.graph.ForwardingNetwork
+edgesConnecting
+public Set<E> edgesConnecting(EndpointPair<N> endpoints)
+EndpointPair
+Set
+com.google.common.graph.AbstractNetwork
+edgeConnecting
+public Optional<E> edgeConnecting(N nodeU, N nodeV)
+N,N
+Optional

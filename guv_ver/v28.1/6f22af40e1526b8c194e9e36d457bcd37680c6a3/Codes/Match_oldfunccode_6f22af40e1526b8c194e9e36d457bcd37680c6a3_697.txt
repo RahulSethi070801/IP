@@ -1,0 +1,4 @@
+@Nullable
+public T get() {
+    return reference;
+}

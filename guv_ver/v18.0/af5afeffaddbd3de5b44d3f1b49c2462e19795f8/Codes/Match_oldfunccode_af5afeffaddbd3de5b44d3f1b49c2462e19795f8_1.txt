@@ -1,0 +1,6 @@
+@Beta
+@CheckForNull
+@GwtIncompatible("TODO")
+public static Integer tryParse(String string) {
+    return AndroidInteger.tryParse(string, 10);
+}

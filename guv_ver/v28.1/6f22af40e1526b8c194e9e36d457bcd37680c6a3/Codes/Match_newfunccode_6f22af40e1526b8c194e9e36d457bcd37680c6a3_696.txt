@@ -1,0 +1,6 @@
+static <K, V> ListMultimap<K, V> listMultimap(ListMultimap<K, V> multimap, @NullableDecl Object mutex) {
+    if (multimap instanceof SynchronizedListMultimap || multimap instanceof ImmutableListMultimap) {
+        return multimap;
+    }
+    return new SynchronizedListMultimap<>(multimap, mutex);
+}

@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+int remove(@NullableDecl @CompatibleWith("E") Object element, int occurrences);

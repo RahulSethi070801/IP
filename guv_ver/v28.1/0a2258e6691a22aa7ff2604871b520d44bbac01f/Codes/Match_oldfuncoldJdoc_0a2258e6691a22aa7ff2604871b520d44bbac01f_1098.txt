@@ -1,0 +1,8 @@
+
+   * Returns a fluent iterable containing the specified elements in order.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@link java.util.stream.Stream#of(Object[])
+   * Stream.of(T...)}.
+   *
+   * @since 20.0
+   

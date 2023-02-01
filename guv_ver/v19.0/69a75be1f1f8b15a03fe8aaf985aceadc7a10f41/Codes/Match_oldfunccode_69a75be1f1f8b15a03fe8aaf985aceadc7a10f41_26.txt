@@ -1,0 +1,40 @@
+public boolean enterWhen(Guard guard, long time, TimeUnit unit) throws InterruptedException {
+    final long timeoutNanos = toSafeNanos(time, unit);
+    if (guard.monitor != this) {
+        throw new IllegalMonitorStateException();
+    }
+    final ReentrantLock lock = this.lock;
+    boolean reentrant = lock.isHeldByCurrentThread();
+    long startTime = 0L;
+    locked: {
+        if (!fair) {
+            if (Thread.interrupted()) {
+                throw new InterruptedException();
+            }
+            if (lock.tryLock()) {
+                break locked;
+            }
+        }
+        startTime = initNanoTime(timeoutNanos);
+        if (!lock.tryLock(time, unit)) {
+            return false;
+        }
+    }
+    boolean satisfied = false;
+    boolean threw = true;
+    try {
+        satisfied = guard.isSatisfied() || awaitNanos(guard, (startTime == 0L) ? timeoutNanos : remainingNanos(startTime, timeoutNanos), reentrant);
+        threw = false;
+        return satisfied;
+    } finally {
+        if (!satisfied) {
+            try {
+                if (threw && !reentrant) {
+                    signalNextWaiter();
+                }
+            } finally {
+                lock.unlock();
+            }
+        }
+    }
+}

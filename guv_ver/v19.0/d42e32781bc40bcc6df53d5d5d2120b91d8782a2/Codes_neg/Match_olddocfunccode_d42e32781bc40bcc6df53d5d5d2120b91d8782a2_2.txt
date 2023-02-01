@@ -1,0 +1,3 @@
+public static <E> ImmutableSet<E> of(E element) {
+    return new SingletonImmutableSet<E>(element);
+}

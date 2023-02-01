@@ -1,0 +1,6 @@
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+boolean isLoading()
+
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+public CacheBuilder<K1, V1> removalListener(RemovalListener<? super K1, ? super V1> listener)
+

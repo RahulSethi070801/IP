@@ -1,0 +1,6 @@
+public final FluentIterable<E> limit(int size)
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+
+public final FluentIterable<E> limit(int maxSize)
+public String toString()
+

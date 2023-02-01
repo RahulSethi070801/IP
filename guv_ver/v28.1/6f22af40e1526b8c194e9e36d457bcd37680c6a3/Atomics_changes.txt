@@ -1,0 +1,4 @@
+Atomics
+Insertions: [20, 47]
+Deletions: [20, 47]
+android/guava/src/com/google/common/util/concurrent/Atomics.java

@@ -1,0 +1,5 @@
+@Deprecated
+@InlineMe(replacement = "checkNotNull(iterable)", staticImports = { "com.google.common.base.Preconditions.checkNotNull" })
+public static <E extends @Nullable Object> FluentIterable<E> from(FluentIterable<E> iterable) {
+    return checkNotNull(iterable);
+}

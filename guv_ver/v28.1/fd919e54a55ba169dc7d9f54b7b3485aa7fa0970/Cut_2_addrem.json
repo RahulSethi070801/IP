@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "26": " * Implementation detail for the internal structure of {@link Range} instances. Represents a unique\n",
+        "27": " * way of \"cutting\" a \"number line\" (actually of instances of type {@code C}, not necessarily\n",
+        "28": " * \"numbers\") into two sections; this can be done below a certain value, above a certain value,\n",
+        "29": " * below all values or above all values. With this object defined in this way, an interval can\n",
+        "30": " * always be represented by a pair of {@code Cut} instances.\n",
+        "105": "  @Override\n",
+        "106": "  public abstract int hashCode();\n"
+    },
+    "removed": {
+        "26": " * Implementation detail for the internal structure of {@link Range} instances. Represents\n",
+        "27": " * a unique way of \"cutting\" a \"number line\" (actually of instances of type {@code C}, not\n",
+        "28": " * necessarily \"numbers\") into two sections; this can be done below a certain value, above\n",
+        "29": " * a certain value, below all values or above all values. With this object defined in this\n",
+        "30": " * way, an interval can always be represented by a pair of {@code Cut} instances.\n",
+        "105": "  @Override public abstract int hashCode();\n"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "21": "import com.google.common.collect.ImmutableList;\n",
+        "27": " * Benchmarks for the {@code TreeTraverser} operations on binary trees.\n",
+        "117": "          return Optional.presentInstances(ImmutableList.of(root.left, root.right));\n",
+        "158": "    this.view = traversal.view(topology.createTree(size, rng).get(), VIEWER);\n"
+    },
+    "removed": {
+        "26": " * Benchmarks for the {@code TreeTraverser} and optimized {@code BinaryTreeTraverser} operations on\n",
+        "27": " * binary trees.\n",
+        "113": "  private static final BinaryTreeTraverser<BinaryNode> BINARY_VIEWER =\n",
+        "114": "      new BinaryTreeTraverser<BinaryNode>() {\n",
+        "115": "\n",
+        "116": "        @Override\n",
+        "117": "        public Optional<BinaryNode> leftChild(BinaryNode node) {\n",
+        "118": "          return node.left;\n",
+        "119": "        }\n",
+        "120": "\n",
+        "121": "        @Override\n",
+        "122": "        public Optional<BinaryNode> rightChild(BinaryNode node) {\n",
+        "123": "          return node.right;\n",
+        "124": "        }\n",
+        "125": "      };\n",
+        "126": "\n",
+        "131": "          return BINARY_VIEWER.children(root);\n",
+        "167": "  @Param boolean useBinaryTraverser;\n",
+        "168": "\n",
+        "174": "    this.view =\n",
+        "175": "        traversal.view(\n",
+        "176": "            topology.createTree(size, rng).get(), useBinaryTraverser ? BINARY_VIEWER : VIEWER);\n"
+    }
+}

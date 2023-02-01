@@ -1,0 +1,3 @@
+public static Escaper xmlAttributeEscaper() {
+    return XML_ATTRIBUTE_ESCAPER;
+}

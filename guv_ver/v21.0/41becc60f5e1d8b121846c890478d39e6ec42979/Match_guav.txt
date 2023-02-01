@@ -1,0 +1,93 @@
+public static Set<N> reachableNodes(Graph<N, ?> graph, Object node)
+int hashCode()
+
+public ValueGraph<N, Set<E>> asGraph()
+int hashCode()
+
+public GraphBuilder<N, V> allowsSelfLoops(boolean allowsSelfLoops)
+int hashCode()
+
+public static GraphBuilder<N, Object> from(Graph<N, ?> graph)
+int hashCode()
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+int hashCode()
+
+public Graph<N, Set<E>> asGraph()
+int hashCode()
+
+public static BasicGraph<N> transitiveClosure(ValueGraph<N, ?> graph)
+int hashCode()
+
+public static boolean hasCycle(ValueGraph<?, ?> graph)
+int hashCode()
+
+private static boolean canTraverseWithoutReusingEdge(Graph<?, ?> graph, Object nextNode, @Nullable Object previousNode)
+int hashCode()
+
+public static MutableGraph<N, V> copyOf(Graph<N, V> graph)
+int hashCode()
+
+public static GraphBuilder<Object, Object> undirected()
+int hashCode()
+
+public static Set<N> reachableNodes(ValueGraph<N, ?> graph, Object node)
+int hashCode()
+
+public static BasicGraph<N> transitiveClosure(Graph<N, ?> graph)
+int hashCode()
+
+public static ImmutableGraph<N, V> copyOf(ImmutableGraph<N, V> graph)
+int hashCode()
+
+private static boolean subgraphHasCycle(ValueGraph<?, ?> graph, Map<Object, NodeVisitState> visitedNodes, Object node, @Nullable Object previousNode)
+int hashCode()
+
+private GraphBuilder<N1, V1> cast()
+int hashCode()
+
+public static MutableGraph<N, V> inducedSubgraph(Graph<N, V> graph, Iterable<? extends N> nodes)
+int hashCode()
+
+public static ImmutableGraph<N, V> copyOf(Graph<N, V> graph)
+int hashCode()
+
+public GraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+int hashCode()
+
+public static GraphBuilder<Object, Object> directed()
+int hashCode()
+
+public GraphBuilder<N, V> expectedNodeCount(int expectedNodeCount)
+int hashCode()
+
+private static boolean subgraphHasCycle(Graph<?, ?> graph, Map<Object, NodeVisitState> visitedNodes, Object node, @Nullable Object previousNode)
+int hashCode()
+
+public static boolean hasCycle(Graph<?, ?> graph)
+int hashCode()
+
+ValueGraph<N, Set<E>> asGraph()
+int hashCode()
+
+private static boolean canTraverseWithoutReusingEdge(ValueGraph<?, ?> graph, Object nextNode, @Nullable Object previousNode)
+int hashCode()
+
+public MutableGraph<N1, V1> build()
+int hashCode()
+
+private static GraphConnections<N, V> connectionsOf(final Graph<N, V> graph, final N node)
+int hashCode()
+
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+int hashCode()
+
+Graph<N, Set<E>> asGraph()
+int hashCode()
+
+private static ImmutableMap<N, GraphConnections<N, V>> getNodeConnections(Graph<N, V> graph)
+int hashCode()
+
+private static int degree(Graph<?, ?> graph, Object node)
+int hashCode()
+

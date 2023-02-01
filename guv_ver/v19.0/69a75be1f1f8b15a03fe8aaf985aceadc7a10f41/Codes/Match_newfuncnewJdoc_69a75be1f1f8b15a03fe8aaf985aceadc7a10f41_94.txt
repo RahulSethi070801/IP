@@ -1,0 +1,7 @@
+
+   * {@inheritDoc}
+   *
+   * <p>If a cancellation attempt succeeds on a {@code Future} that had previously been {@linkplain
+   * #setFuture set asynchronously}, then the cancellation will also be propagated to the delegate
+   * {@code Future} that was supplied in the {@code setFuture} call.
+   

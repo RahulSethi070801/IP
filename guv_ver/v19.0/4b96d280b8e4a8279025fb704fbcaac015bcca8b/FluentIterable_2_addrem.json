@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "414": "   * Returns an immutable map whose keys are the distinct elements of this {@code FluentIterable}\n",
+        "415": "   * and whose value for each key was computed by {@code valueFunction}. The map's iteration order\n",
+        "416": "   * is the order of the first appearance of each key in this iterable.\n",
+        "417": "   *\n",
+        "418": "   * <p>When there are multiple instances of a key in this iterable, it is unspecified whether\n",
+        "419": "   * {@code valueFunction} will be applied to more than one instance of that key and, if it is,\n",
+        "420": "   * which result will be mapped to that key in the returned map.\n"
+    },
+    "removed": {
+        "414": "   * Returns an immutable map for which the elements of this {@code FluentIterable} are the keys in\n",
+        "415": "   * the same order, mapped to values by the given function. If this iterable contains duplicate\n",
+        "416": "   * elements, the returned map will contain each distinct element once in the order it first\n",
+        "417": "   * appears.\n"
+    }
+}

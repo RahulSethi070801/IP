@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "25": "import java.util.function.Function;\n",
+        "26": "import java.util.stream.Collector;\n",
+        "27": "import java.util.stream.Collectors;\n",
+        "37": "public abstract class ImmutableBiMap<K, V> extends ImmutableBiMapFauxverideShim<K, V>\n",
+        "38": "    implements BiMap<K, V> {\n",
+        "39": "\n",
+        "40": "  /**\n",
+        "41": "   * Returns a {@link Collector} that accumulates elements into an {@code ImmutableBiMap} whose\n",
+        "42": "   * keys and values are the result of applying the provided mapping functions to the input\n",
+        "43": "   * elements. Entries appear in the result {@code ImmutableBiMap} in encounter order.\n",
+        "44": "   *\n",
+        "45": "   * <p>If the mapped keys or values contain duplicates\n",
+        "46": "   * (according to {@link Object#equals(Object)}, an {@code IllegalArgumentException} is thrown\n",
+        "47": "   * when the collection operation is performed. (This differs from the {@code Collector} returned\n",
+        "48": "   * by {@link Collectors#toMap(Function, Function)}, which throws an\n",
+        "49": "   * {@code IllegalStateException}.)\n",
+        "50": "   *\n",
+        "51": "   * @since 21.0\n",
+        "52": "   */\n",
+        "53": "  @Beta\n",
+        "54": "  public static <T, K, V> Collector<T, ?, ImmutableBiMap<K, V>> toImmutableBiMap(\n",
+        "55": "      Function<? super T, ? extends K> keyFunction,\n",
+        "56": "      Function<? super T, ? extends V> valueFunction) {\n",
+        "57": "    return CollectCollectors.toImmutableBiMap(keyFunction, valueFunction);\n",
+        "58": "  }\n",
+        "229": "    @CanIgnoreReturnValue\n",
+        "230": "    Builder<K, V> combine(ImmutableMap.Builder<K, V> builder) {\n",
+        "231": "      super.combine(builder);\n",
+        "232": "      return this;\n",
+        "233": "    }\n",
+        "234": "\n"
+    },
+    "removed": {
+        "34": "public abstract class ImmutableBiMap<K, V> extends ImmutableMap<K, V> implements BiMap<K, V> {\n"
+    }
+}

@@ -1,0 +1,3 @@
+public static <V> ListenableFutureTask<V> create(Runnable runnable, @Nullable V result) {
+    return new ListenableFutureTask<V>(runnable, result);
+}

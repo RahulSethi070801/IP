@@ -1,0 +1,4 @@
+@Override
+default boolean test(@Nullable T input) {
+    return apply(input);
+}

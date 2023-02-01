@@ -1,0 +1,4 @@
+ImmutableSortedMapFauxverideShim
+Insertions: [22, 23, 24, 31, 32, 33, 36, 55, 56, 57, 69, 70, 71, 83, 84, 85, 89, 97, 98, 99, 103, 104, 112, 113, 114, 118, 119]
+Deletions: [22, 23, 24, 31, 32, 33, 36, 37, 56, 57, 58, 70, 71, 72, 84, 85, 86, 90, 91, 99, 100, 101, 105, 106, 114, 115, 116, 120, 121]
+android/guava/src/com/google/common/collect/ImmutableSortedMapFauxverideShim.java

@@ -1,0 +1,5 @@
+com.google.common.graph.BaseGraph
+degree
+int degree(N node)
+N
+int

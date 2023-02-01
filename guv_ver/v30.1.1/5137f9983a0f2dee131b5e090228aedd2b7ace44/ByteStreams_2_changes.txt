@@ -1,0 +1,4 @@
+ByteStreams_2
+Insertions: [44, 45, 55, 444, 876, 877, 878]
+Deletions: [872]
+guava/src/com/google/common/io/ByteStreams.java

@@ -1,0 +1,6 @@
+private OneNode(N node)
+abstract N node1()
+
+private TwoNodes(N node1, N node2)
+abstract N node1()
+

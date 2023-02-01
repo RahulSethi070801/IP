@@ -1,0 +1,5 @@
+
+   * Compares this unsigned integer to another unsigned integer. Returns {@code 0} if they are
+   * equal, a negative number if {@code this < other}, and a positive number if
+   * {@code this > other}.
+   

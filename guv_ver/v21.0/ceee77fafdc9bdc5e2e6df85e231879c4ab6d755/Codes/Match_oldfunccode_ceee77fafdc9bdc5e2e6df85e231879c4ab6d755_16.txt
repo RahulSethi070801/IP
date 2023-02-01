@@ -1,0 +1,4 @@
+@Override
+public boolean addNode(N node) {
+    return backingGraph.addNode(node);
+}

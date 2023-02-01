@@ -1,0 +1,4 @@
+EndpointPairTest
+Insertions: [206, 217, 218, 219, 220, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242]
+Deletions: [206, 217, 218]
+android/guava-tests/test/com/google/common/graph/EndpointPairTest.java

@@ -1,0 +1,18 @@
+public final String join(@Nullable Object first, @Nullable Object second, Object... rest)
+public final String join(Iterator<?> parts)
+
+public final String join(@Nullable Object first, @Nullable Object second, Object... rest)
+public String join(Map<?, ?> map)
+
+public final String join(@Nullable Object first, @Nullable Object second, Object... rest)
+public final String join(Object[] parts)
+
+public final String join(@Nullable Object first, @Nullable Object second, Object... rest)
+public String join(Iterator<? extends Entry<?, ?>> entries)
+
+public final String join(@Nullable Object first, @Nullable Object second, Object... rest)
+public final String join(Iterable<?> parts)
+
+public final String join(@Nullable Object first, @Nullable Object second, Object... rest)
+public String join(Iterable<? extends Entry<?, ?>> entries)
+

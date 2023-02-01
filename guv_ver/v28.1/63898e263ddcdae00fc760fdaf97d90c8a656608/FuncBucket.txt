@@ -1,0 +1,15 @@
+com.google.common.reflect.ClassPath$Scanner
+parseJavaClassPath
+static ImmutableList<URL> parseJavaClassPath()
+empty
+ImmutableList
+com.google.common.reflect.ClassPath$Scanner
+getClassLoaderUrls
+private static ImmutableList<URL> getClassLoaderUrls(ClassLoader classloader)
+ClassLoader
+ImmutableList
+com.google.common.reflect.ClassPath$Scanner
+getClassPathEntries
+static ImmutableMap<File, ClassLoader> getClassPathEntries(ClassLoader classloader)
+ClassLoader
+ImmutableMap

@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "36": " * Inputs, expected outputs, and helper methods for tests of {@link StatsAccumulator}, {@link\n",
+        "37": " * Stats}, {@link PairedStatsAccumulator}, and {@link PairedStats}.\n",
+        "67": "   * instances with many combinations of finite and non-finite values. All have {@link\n",
+        "68": "   * #MANY_VALUES_COUNT} values. If all the values are finite then the mean is {@link\n",
+        "69": "   * #MANY_VALUES_MEAN} and the sum-of-squares-of-deltas is {@link\n",
+        "70": "   * #MANY_VALUES_SUM_OF_SQUARES_OF_DELTAS}. The smallest and largest finite values are always\n",
+        "71": "   * {@link #MANY_VALUES_MIN} and {@link #MANY_VALUES_MAX}, although setting non-finite values will\n",
+        "72": "   * change the true min and max.\n",
+        "397": "   * assertion that {@link LinearTransformation#transform} and {@link LinearTransformation#slope} on\n",
+        "398": "   * its inverse throws as expected.\n",
+        "451": "   * Asserts that {@code transformation} behaves as expected for {@link\n",
+        "452": "   * LinearTransformation#forNaN}.\n",
+        "486": "   * values, which must be of the same size, added in groups of {@code partitionSize} using {@link\n",
+        "487": "   * PairedStatsAccumulator#addAll(PairedStats)}.\n"
+    },
+    "removed": {
+        "36": " * Inputs, expected outputs, and helper methods for tests of {@link StatsAccumulator},\n",
+        "37": " * {@link Stats}, {@link PairedStatsAccumulator}, and {@link PairedStats}.\n",
+        "67": "   * instances with many combinations of finite and non-finite values. All have\n",
+        "68": "   * {@link #MANY_VALUES_COUNT} values. If all the values are finite then the mean is\n",
+        "69": "   * {@link #MANY_VALUES_MEAN} and the sum-of-squares-of-deltas is\n",
+        "70": "   * {@link #MANY_VALUES_SUM_OF_SQUARES_OF_DELTAS}. The smallest and largest finite values are\n",
+        "71": "   * always {@link #MANY_VALUES_MIN} and {@link #MANY_VALUES_MAX}, although setting non-finite\n",
+        "72": "   * values will change the true min and max.\n",
+        "397": "   * assertion that {@link LinearTransformation#transform} and {@link LinearTransformation#slope}\n",
+        "398": "   * on its inverse throws as expected.\n",
+        "451": "   * Asserts that {@code transformation} behaves as expected for\n",
+        "452": "   * {@link LinearTransformation#forNaN}.\n",
+        "486": "   * values, which must be of the same size, added in groups of {@code partitionSize} using\n",
+        "487": "   * {@link PairedStatsAccumulator#addAll(PairedStats)}.\n"
+    }
+}

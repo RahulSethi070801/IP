@@ -1,0 +1,3 @@
+public static <E> Function<Object, E> constant(@Nullable E value) {
+    return new ConstantFunction<E>(value);
+}

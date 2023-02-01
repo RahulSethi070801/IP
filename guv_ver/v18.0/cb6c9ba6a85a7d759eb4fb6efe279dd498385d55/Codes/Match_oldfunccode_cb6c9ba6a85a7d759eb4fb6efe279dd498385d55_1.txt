@@ -1,0 +1,3 @@
+long reserve() {
+    return reserve(1);
+}

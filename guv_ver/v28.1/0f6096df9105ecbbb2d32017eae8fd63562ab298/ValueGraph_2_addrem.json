@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "20": "import java.util.Optional;\n",
+        "179": "   * Returns the value of the edge connecting {@code nodeU} to {@code nodeV}, if one is present;\n",
+        "180": "   * otherwise, returns {@code Optional.empty()}.\n",
+        "184": "   * @throws IllegalArgumentException if {@code nodeU} or {@code nodeV} is not an element of this\n",
+        "185": "   *     graph\n",
+        "187": "  Optional<V> edgeValue(N nodeU, N nodeV);\n",
+        "190": "   * Returns the value of the edge connecting {@code nodeU} to {@code nodeV}, if one is present;\n",
+        "191": "   * otherwise, returns null.\n",
+        "193": "   * <p>In an undirected graph, this is equal to {@code edgeValueOrNull(nodeV, nodeU)}.\n",
+        "194": "   *\n",
+        "195": "   * @throws IllegalArgumentException if {@code nodeU} or {@code nodeV} is not an element of this\n",
+        "196": "   *     graph\n",
+        "198": "  @Nullable\n",
+        "199": "  V edgeValueOrNull(N nodeU, N nodeV);\n"
+    },
+    "removed": {
+        "178": "   * If there is an edge connecting {@code nodeU} to {@code nodeV}, returns the non-null value\n",
+        "179": "   * associated with that edge.\n",
+        "183": "   * @throws IllegalArgumentException if there is no edge connecting {@code nodeU} to {@code nodeV}.\n",
+        "185": "  V edgeValue(N nodeU, N nodeV);\n",
+        "188": "   * If there is an edge connecting {@code nodeU} to {@code nodeV}, returns the non-null value\n",
+        "189": "   * associated with that edge; otherwise, returns {@code defaultValue}.\n",
+        "191": "   * <p>In an undirected graph, this is equal to {@code edgeValueOrDefault(nodeV, nodeU,\n",
+        "192": "   * defaultValue)}.\n",
+        "194": "  V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue);\n"
+    }
+}

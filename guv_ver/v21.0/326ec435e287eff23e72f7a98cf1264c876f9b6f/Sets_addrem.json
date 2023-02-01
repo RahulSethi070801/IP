@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "257": "    return Collections.newSetFromMap(new ConcurrentHashMap<E, Boolean>());\n",
+        "413": "    return Collections.newSetFromMap(Maps.<E, Boolean>newIdentityHashMap());\n",
+        "529": "   *     will be removed in December 2017.\n"
+    },
+    "removed": {
+        "257": "    return newSetFromMap(new ConcurrentHashMap<E, Boolean>());\n",
+        "413": "    return Sets.newSetFromMap(Maps.<E, Boolean>newIdentityHashMap());\n",
+        "529": "   *     will be removed in August 2017.\n"
+    }
+}

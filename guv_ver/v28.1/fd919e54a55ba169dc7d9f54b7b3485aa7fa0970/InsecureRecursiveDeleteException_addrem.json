@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "29": " * allow it to delete files and directories outside of the directory being deleted (i.e., {@link\n",
+        "30": " * SecureDirectoryStream} is not supported).\n"
+    },
+    "removed": {
+        "29": " * allow it to delete files and directories outside of the directory being deleted (i.e.,\n",
+        "30": " * {@link SecureDirectoryStream} is not supported).\n"
+    }
+}

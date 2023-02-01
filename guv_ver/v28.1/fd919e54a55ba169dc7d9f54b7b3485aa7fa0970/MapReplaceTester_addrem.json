@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "32": " * A generic JUnit test which tests {@link Map#replace(Object, Object)}. Can't be invoked directly;\n",
+        "33": " * please see {@link com.google.common.collect.testing.ConcurrentMapTestSuiteBuilder}.\n",
+        "70": "    } catch (NullPointerException expected) {\n",
+        "71": "    }\n"
+    },
+    "removed": {
+        "32": " * A generic JUnit test which tests {@link Map#replace(Object, Object)}. Can't be\n",
+        "33": " * invoked directly; please see\n",
+        "34": " * {@link com.google.common.collect.testing.ConcurrentMapTestSuiteBuilder}.\n",
+        "71": "    } catch (NullPointerException expected) {}\n"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "82": "   * Uses a hash table to map keys to value collections, initialized to expect the specified number\n",
+        "83": "   * of keys.\n",
+        "110": "   * Uses an hash table to map keys to value collections, initialized to expect the specified number\n",
+        "111": "   * of keys.\n",
+        "322": "     * Uses a hash-based {@code Set} to store value collections, initialized to expect the specified\n",
+        "323": "     * number of values per key.\n",
+        "345": "     * Uses an insertion-ordered hash-based {@code Set} to store value collections, initialized to\n",
+        "346": "     * expect the specified number of values per key.\n"
+    },
+    "removed": {
+        "82": "   * Uses a hash table to map keys to value collections, initialized to expect the specified\n",
+        "83": "   * number of keys.\n",
+        "110": "   * Uses an hash table to map keys to value collections, initialized to expect the\n",
+        "111": "   * specified number of keys.\n",
+        "322": "     * Uses a hash-based {@code Set} to store value collections, initialized to expect the specified number\n",
+        "323": "     * of values per key.\n",
+        "345": "     * Uses an insertion-ordered hash-based {@code Set} to store value collections, initialized to expect the specified\n",
+        "346": "     * number of values per key.\n"
+    }
+}

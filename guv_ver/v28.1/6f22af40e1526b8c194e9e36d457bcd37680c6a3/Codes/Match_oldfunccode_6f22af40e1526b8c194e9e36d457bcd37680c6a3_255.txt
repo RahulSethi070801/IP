@@ -1,0 +1,6 @@
+@Nullable
+@CanIgnoreReturnValue
+protected final T endOfData() {
+    state = State.DONE;
+    return null;
+}

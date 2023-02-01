@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "31": "   * Creates a new AsyncEventBus that will use {@code executor} to dispatch events. Assigns {@code\n",
+        "32": "   * identifier} as the bus's name for logging purposes.\n"
+    },
+    "removed": {
+        "31": "   * Creates a new AsyncEventBus that will use {@code executor} to dispatch events. Assigns\n",
+        "32": "   * {@code identifier} as the bus's name for logging purposes.\n"
+    }
+}

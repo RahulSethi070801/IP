@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "25": "import javax.annotation.CheckForNull;\n",
+        "34": "@ElementTypesAreNonnullByDefault\n",
+        "127": "        @SuppressWarnings(\"rawtypes\") // using raw types to avoid a bug in our nullness checker :(\n",
+        "128": "        InternalEntry entry = map.getEntry(sample);\n",
+        "130": "          Object canonical = entry.getKey();\n",
+        "132": "            // The compiler would know this is safe if not for our use of raw types (see above).\n",
+        "133": "            @SuppressWarnings(\"unchecked\")\n",
+        "134": "            E result = (E) canonical;\n",
+        "135": "            return result;\n",
+        "183": "    public boolean equals(@CheckForNull Object other) {\n"
+    },
+    "removed": {
+        "125": "        InternalEntry<E, Dummy, ?> entry = map.getEntry(sample);\n",
+        "127": "          E canonical = entry.getKey();\n",
+        "129": "            return canonical;\n",
+        "177": "    public boolean equals(Object other) {\n"
+    }
+}

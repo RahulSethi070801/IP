@@ -1,0 +1,5 @@
+com.google.common.collect.MapMaker
+maximumSize
+MapMaker maximumSize(int size)
+int
+MapMaker

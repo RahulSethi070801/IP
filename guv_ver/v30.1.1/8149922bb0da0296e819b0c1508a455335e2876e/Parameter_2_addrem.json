@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "25": "import javax.annotation.CheckForNull;\n",
+        "34": "@ElementTypesAreNonnullByDefault\n",
+        "72": "  @CheckForNull\n",
+        "73": "  public <A extends Annotation> A getAnnotation(Class<A> annotationType) {\n",
+        "105": "  @CheckForNull\n",
+        "106": "  public <A extends Annotation> A getDeclaredAnnotation(Class<A> annotationType) {\n",
+        "125": "  public boolean equals(@CheckForNull Object obj) {\n"
+    },
+    "removed": {
+        "25": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "71": "  public <A extends Annotation> @Nullable A getAnnotation(Class<A> annotationType) {\n",
+        "103": "  public <A extends Annotation> @Nullable A getDeclaredAnnotation(Class<A> annotationType) {\n",
+        "122": "  public boolean equals(@Nullable Object obj) {\n"
+    }
+}

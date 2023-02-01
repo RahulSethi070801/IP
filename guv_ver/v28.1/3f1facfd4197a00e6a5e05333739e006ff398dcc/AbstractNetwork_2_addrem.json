@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "235": "   * Throws an IllegalArgumentException if the ordering of {@code endpoints} is not compatible with\n",
+        "236": "   * the directionality of this graph.\n"
+    },
+    "removed": {
+        "235": "   * Throws an IllegalArgumentException if the ordering of {@code endpoints} is not compatible\n",
+        "236": "   * with the directionality of this graph.\n"
+    }
+}

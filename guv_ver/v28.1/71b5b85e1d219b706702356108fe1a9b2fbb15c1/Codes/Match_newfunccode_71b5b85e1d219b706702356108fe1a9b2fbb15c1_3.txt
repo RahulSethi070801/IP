@@ -1,0 +1,12 @@
+@Override
+void runInterruptibly() {
+    if (!isDone()) {
+        try {
+            ListenableFuture<V> result = callable.call();
+            checkNotNull(result, "AsyncCallable.call returned null instead of a Future. " + "Did you mean to return immediateFuture(null)?");
+            setFuture(result);
+        } catch (Throwable t) {
+            setException(t);
+        }
+    }
+}

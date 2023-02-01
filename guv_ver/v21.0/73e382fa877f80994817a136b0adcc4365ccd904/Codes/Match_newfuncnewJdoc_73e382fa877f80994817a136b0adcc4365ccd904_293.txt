@@ -1,0 +1,9 @@
+
+   * Returns a {@code Collector} that accumulates the input elements into a new
+   * {@code ImmutableMultiset}.  Elements are sorted by the specified comparator.
+   *
+   * <p><b>Warning:</b> {@code comparator} should be <i>consistent with {@code
+   * equals}</i> as explained in the {@link Comparator} documentation.
+   *
+   * @since 21.0
+   

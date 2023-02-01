@@ -1,0 +1,6 @@
+@Beta
+@Nullable
+@CheckForNull
+public static Integer tryParse(String string) {
+    return tryParse(string, 10);
+}

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "33": "class TrustedListenableFutureTask<V> extends FluentFuture.TrustedFuture<V>\n"
+    },
+    "removed": {
+        "33": "class TrustedListenableFutureTask<V> extends AbstractFuture.TrustedFuture<V>\n"
+    }
+}

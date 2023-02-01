@@ -1,0 +1,6 @@
+
+   * Returns the hash code for this graph. The hash code of a graph is defined as the hash code
+   * of a map from each of the graph's nodes to its outgoing edges.
+   *
+   * <p>A reference implementation of this is provided by {@link Graphs#hashCode(Graph)}.
+   

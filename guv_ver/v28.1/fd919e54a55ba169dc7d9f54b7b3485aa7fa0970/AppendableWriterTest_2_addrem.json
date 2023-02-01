@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "37": "    @Override\n",
+        "38": "    public Appendable append(CharSequence csq) {\n",
+        "43": "    @Override\n",
+        "44": "    public Appendable append(char c) {\n",
+        "49": "    @Override\n",
+        "50": "    public Appendable append(CharSequence csq, int start, int end) {\n",
+        "55": "    @Override\n",
+        "56": "    public void flush() {\n",
+        "60": "    @Override\n",
+        "61": "    public void close() {\n"
+    },
+    "removed": {
+        "37": "    @Override public Appendable append(CharSequence csq) {\n",
+        "42": "    @Override public Appendable append(char c) {\n",
+        "47": "    @Override public Appendable append(CharSequence csq, int start, int end) {\n",
+        "52": "    @Override public void flush() {\n",
+        "56": "    @Override public void close() {\n"
+    }
+}

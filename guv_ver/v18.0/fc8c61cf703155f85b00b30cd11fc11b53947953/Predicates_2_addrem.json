@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "297": "    @SuppressWarnings(\"unchecked\") // safe contravariant cast\n",
+        "611": "    // TODO(kevinb): understand why we still get a warning despite @SafeVarargs!\n"
+    },
+    "removed": {
+        "297": "    @SuppressWarnings(\"unchecked\") // these Object predicates work for any T\n",
+        "609": "  @SuppressWarnings(\"unchecked\")\n"
+    }
+}

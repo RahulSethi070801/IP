@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "25": " * Test {@link Multimap#asMap()} for an arbitrary multimap with {@link MapInterfaceTest}.\n",
+        "48": "  @Override\n",
+        "49": "  protected String getKeyNotInPopulatedMap() throws UnsupportedOperationException {\n",
+        "53": "  @Override\n",
+        "54": "  protected Collection<Integer> getValueNotInPopulatedMap() throws UnsupportedOperationException {\n",
+        "59": "   * The version of this test supplied by {@link MapInterfaceTest} fails for this particular Map\n",
+        "60": "   * implementation, because {@code map.get()} returns a view collection that changes in the course\n",
+        "61": "   * of a call to {@code remove()}. Thus, the expectation doesn't hold that {@code map.remove(x)}\n",
+        "62": "   * returns the same value which {@code map.get(x)} did immediately beforehand.\n",
+        "64": "  @Override\n",
+        "65": "  public void testRemove() {\n"
+    },
+    "removed": {
+        "25": " * Test {@link Multimap#asMap()} for an arbitrary multimap with\n",
+        "26": " * {@link MapInterfaceTest}.\n",
+        "49": "  @Override protected String getKeyNotInPopulatedMap()\n",
+        "50": "      throws UnsupportedOperationException {\n",
+        "54": "  @Override protected Collection<Integer> getValueNotInPopulatedMap()\n",
+        "55": "      throws UnsupportedOperationException {\n",
+        "60": "   * The version of this test supplied by {@link MapInterfaceTest} fails for\n",
+        "61": "   * this particular Map implementation, because {@code map.get()} returns a\n",
+        "62": "   * view collection that changes in the course of a call to {@code remove()}.\n",
+        "63": "   * Thus, the expectation doesn't hold that {@code map.remove(x)} returns the\n",
+        "64": "   * same value which {@code map.get(x)} did immediately beforehand.\n",
+        "66": "  @Override public void testRemove() {\n"
+    }
+}

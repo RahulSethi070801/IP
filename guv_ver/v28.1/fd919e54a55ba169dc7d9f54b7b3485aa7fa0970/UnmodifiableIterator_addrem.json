@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "25": " * <p>{@code UnmodifiableIterator} is used primarily in conjunction with implementations of {@link\n",
+        "26": " * ImmutableCollection}, such as {@link ImmutableList}. You can, however, convert an existing\n"
+    },
+    "removed": {
+        "25": " * <p>{@code UnmodifiableIterator} is used primarily in conjunction with implementations of\n",
+        "26": " * {@link ImmutableCollection}, such as {@link ImmutableList}. You can, however, convert an existing\n"
+    }
+}

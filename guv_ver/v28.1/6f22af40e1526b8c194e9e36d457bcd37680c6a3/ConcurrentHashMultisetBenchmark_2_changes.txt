@@ -1,0 +1,4 @@
+ConcurrentHashMultisetBenchmark_2
+Insertions: [40, 195, 298, 333, 352, 536]
+Deletions: [40, 195, 298, 333, 352, 536]
+guava-tests/benchmark/com/google/common/collect/ConcurrentHashMultisetBenchmark.java

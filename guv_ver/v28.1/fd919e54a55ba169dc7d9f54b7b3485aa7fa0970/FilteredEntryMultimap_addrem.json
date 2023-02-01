@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "394": "          return FilteredEntryMultimap.this.removeEntriesIf(\n",
+        "395": "              new Predicate<Map.Entry<K, Collection<V>>>() {\n",
+        "396": "                @Override\n",
+        "397": "                public boolean apply(Map.Entry<K, Collection<V>> entry) {\n",
+        "398": "                  return predicate.apply(\n",
+        "399": "                      Multisets.immutableEntry(entry.getKey(), entry.getValue().size()));\n",
+        "400": "                }\n",
+        "401": "              });\n"
+    },
+    "removed": {
+        "394": "          return FilteredEntryMultimap.this\n",
+        "395": "              .removeEntriesIf(\n",
+        "396": "                  new Predicate<Map.Entry<K, Collection<V>>>() {\n",
+        "397": "                    @Override\n",
+        "398": "                    public boolean apply(Map.Entry<K, Collection<V>> entry) {\n",
+        "399": "                      return predicate.apply(\n",
+        "400": "                          Multisets.immutableEntry(entry.getKey(), entry.getValue().size()));\n",
+        "401": "                    }\n",
+        "402": "                  });\n"
+    }
+}

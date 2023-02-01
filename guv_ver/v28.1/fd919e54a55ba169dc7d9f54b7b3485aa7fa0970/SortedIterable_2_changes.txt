@@ -1,0 +1,4 @@
+SortedIterable_2
+Insertions: [36, 37]
+Deletions: [36, 37]
+guava/src/com/google/common/collect/SortedIterable.java

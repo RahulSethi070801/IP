@@ -1,0 +1,3 @@
+
+   * Checks that the given options allow an insecure delete, throwing an exception if not.
+   

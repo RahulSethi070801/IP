@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "43": "    Map<Object, Collection<Object>> map = new LinkedHashMap<Object, Collection<Object>>();\n"
+    },
+    "removed": {
+        "42": "    multimap.valueSetCapacity = stream.readInt();\n",
+        "44": "    Map<Object, Collection<Object>> map =\n",
+        "45": "        new LinkedHashMap<Object, Collection<Object>>(Maps.capacity(distinctKeys));\n",
+        "63": "    stream.writeInt(multimap.valueSetCapacity);\n"
+    }
+}

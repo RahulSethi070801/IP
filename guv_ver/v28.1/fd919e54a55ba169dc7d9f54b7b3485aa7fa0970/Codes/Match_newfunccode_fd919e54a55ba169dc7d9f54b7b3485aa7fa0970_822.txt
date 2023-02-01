@@ -1,0 +1,5 @@
+@Override
+public ImmutableSortedSet<K> keySet() {
+    ImmutableSortedSet<K> ks = keySet;
+    return (ks == null) ? (keySet = createKeySet()) : ks;
+}

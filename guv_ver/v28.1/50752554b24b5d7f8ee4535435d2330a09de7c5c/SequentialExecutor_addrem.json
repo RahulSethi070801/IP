@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "22": "import java.util.Queue;\n",
+        "56": "  private final Queue<Runnable> queue = new ArrayDeque<>();\n",
+        "81": "      queue.add(task);\n",
+        "110": "   * execution of tasks will stop until a call to this method or to {@link #execute(Runnable)} is\n",
+        "111": "   * made.\n",
+        "179": "            task = queue.poll();\n"
+    },
+    "removed": {
+        "22": "import java.util.Deque;\n",
+        "56": "  private final Deque<Runnable> queue = new ArrayDeque<>();\n",
+        "81": "      queue.addLast(task);\n",
+        "82": "      if (isWorkerRunning || suspensions > 0) {\n",
+        "83": "        return;\n",
+        "84": "      }\n",
+        "85": "      isWorkerRunning = true;\n",
+        "86": "    }\n",
+        "87": "    startQueueWorker();\n",
+        "88": "  }\n",
+        "89": "\n",
+        "90": "  /**\n",
+        "91": "   * Prepends a task to the front of the queue and makes sure a worker thread is running, unless the\n",
+        "92": "   * queue has been suspended.\n",
+        "93": "   */\n",
+        "94": "  public void executeFirst(Runnable task) {\n",
+        "95": "    synchronized (queue) {\n",
+        "96": "      queue.addFirst(task);\n",
+        "125": "   * execution of tasks will stop until a call to this method or to {@link #execute(Runnable)} or\n",
+        "126": "   * {@link #executeFirst(Runnable)} is made.\n",
+        "194": "            task = queue.pollFirst();\n"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "38": "    extends AbstractContainerTester<M, Entry<K, V>> {\n",
+        "50": "  protected Entry<K, V>[] createArrayWithNullKey() {\n",
+        "51": "    Entry<K, V>[] array = createSamplesArray();\n",
+        "53": "    final Entry<K, V> oldEntry = array[nullKeyLocation];\n",
+        "62": "  protected Entry<K, V>[] createArrayWithNullValue() {\n",
+        "63": "    Entry<K, V>[] array = createSamplesArray();\n",
+        "65": "    final Entry<K, V> oldEntry = array[nullValueLocation];\n",
+        "74": "  protected Entry<K, V>[] createArrayWithNullKeyAndValue() {\n",
+        "75": "    Entry<K, V>[] array = createSamplesArray();\n"
+    },
+    "removed": {
+        "29": "import java.util.Map;\n",
+        "39": "    extends AbstractContainerTester<M, Map.Entry<K, V>> {\n",
+        "51": "  protected Map.Entry<K, V>[] createArrayWithNullKey() {\n",
+        "52": "    Map.Entry<K, V>[] array = createSamplesArray();\n",
+        "54": "    final Map.Entry<K, V> oldEntry = array[nullKeyLocation];\n",
+        "63": "  protected Map.Entry<K, V>[] createArrayWithNullValue() {\n",
+        "64": "    Map.Entry<K, V>[] array = createSamplesArray();\n",
+        "66": "    final Map.Entry<K, V> oldEntry = array[nullValueLocation];\n",
+        "75": "  protected Map.Entry<K, V>[] createArrayWithNullKeyAndValue() {\n",
+        "76": "    Map.Entry<K, V>[] array = createSamplesArray();\n"
+    }
+}

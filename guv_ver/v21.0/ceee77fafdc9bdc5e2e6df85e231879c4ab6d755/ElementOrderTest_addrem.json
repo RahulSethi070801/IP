@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "39": "    MutableBasicGraph<Integer> graph = BasicGraphBuilder\n",
+        "49": "    MutableBasicGraph<Integer> graph = BasicGraphBuilder\n",
+        "63": "    MutableBasicGraph<Integer> graph = BasicGraphBuilder\n",
+        "75": "    MutableBasicGraph<Integer> graph = BasicGraphBuilder\n",
+        "88": "    MutableBasicGraph<Integer> graph = BasicGraphBuilder\n",
+        "200": "    MutableBasicGraph<NonComparableSuperClass> graph = BasicGraphBuilder\n",
+        "220": "    MutableBasicGraph<ComparableSubClass> graph = BasicGraphBuilder\n",
+        "238": "  private static void addNodes(MutableBasicGraph<Integer> graph) {\n"
+    },
+    "removed": {
+        "39": "    MutableGraph<Integer> graph = GraphBuilder\n",
+        "49": "    MutableGraph<Integer> graph = GraphBuilder\n",
+        "63": "    MutableGraph<Integer> graph = GraphBuilder\n",
+        "75": "    MutableGraph<Integer> graph = GraphBuilder\n",
+        "88": "    MutableGraph<Integer> graph = GraphBuilder\n",
+        "200": "    MutableGraph<NonComparableSuperClass> graph = GraphBuilder\n",
+        "220": "    MutableGraph<ComparableSubClass> graph = GraphBuilder\n",
+        "238": "  private static void addNodes(MutableGraph<Integer> graph) {\n"
+    }
+}

@@ -1,0 +1,17 @@
+@SuppressWarnings("unchecked")
+public static <N> Set<N> reachableNodes(Graph<N, ?> graph, Object node) {
+    checkArgument(graph.nodes().contains(node));
+    Set<N> visitedNodes = new HashSet<N>();
+    Queue<N> queuedNodes = new ArrayDeque<N>();
+    visitedNodes.add((N) node);
+    queuedNodes.add((N) node);
+    while (!queuedNodes.isEmpty()) {
+        N currentNode = queuedNodes.remove();
+        for (N successor : graph.successors(currentNode)) {
+            if (visitedNodes.add(successor)) {
+                queuedNodes.add(successor);
+            }
+        }
+    }
+    return Collections.unmodifiableSet(visitedNodes);
+}

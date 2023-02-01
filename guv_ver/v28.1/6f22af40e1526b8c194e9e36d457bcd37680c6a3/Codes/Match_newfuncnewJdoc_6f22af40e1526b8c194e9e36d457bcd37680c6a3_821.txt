@@ -1,0 +1,5 @@
+
+   * Two ordered {@link EndpointPair}s are equal if their {@link #source()} and {@link #target()}
+   * are equal. Two unordered {@link EndpointPair}s are equal if they contain the same nodes. An
+   * ordered {@link EndpointPair} is never equal to an unordered {@link EndpointPair}.
+   

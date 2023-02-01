@@ -1,0 +1,4 @@
+AbstractImmutableGraph
+Insertions: [76]
+Deletions: [76]
+guava/src/com/google/common/graph/AbstractImmutableGraph.java

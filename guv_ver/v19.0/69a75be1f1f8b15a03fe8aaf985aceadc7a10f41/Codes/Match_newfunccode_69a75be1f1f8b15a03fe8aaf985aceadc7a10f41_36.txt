@@ -1,0 +1,4 @@
+@Override
+public E take() throws InterruptedException {
+    return delegate().take();
+}

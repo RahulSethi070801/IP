@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "78": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "1065": "      SortedSet<E> set, Iterable<E> iterable, @NullableDecl Comparator<E> comparator) {\n"
+    },
+    "removed": {
+        "75": "import javax.annotation.Nullable;\n",
+        "1065": "      SortedSet<E> set, Iterable<E> iterable, @Nullable Comparator<E> comparator) {\n"
+    }
+}

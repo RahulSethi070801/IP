@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "51": "   * Returns the smallest power of two greater than or equal to {@code x}. This is equivalent to\n",
+        "63": "   * Returns the largest power of two less than or equal to {@code x}. This is equivalent to {@code\n",
+        "64": "   * BigInteger.valueOf(2).pow(log2(x, FLOOR))}.\n",
+        "74": "  /** Returns {@code true} if {@code x} represents a power of two. */\n",
+        "221": "   * @throws ArithmeticException if {@code mode} is {@link RoundingMode#UNNECESSARY} and {@code\n",
+        "222": "   *     sqrt(x)} is not an integer\n",
+        "310": "   * Returns the result of dividing {@code p} by {@code q}, rounding using the specified {@code\n",
+        "311": "   * RoundingMode}.\n"
+    },
+    "removed": {
+        "51": "   * Returns the smallest power of two greater than or equal to {@code x}.  This is equivalent to\n",
+        "63": "   * Returns the largest power of two less than or equal to {@code x}.  This is equivalent to\n",
+        "64": "   * {@code BigInteger.valueOf(2).pow(log2(x, FLOOR))}.\n",
+        "74": "  /**\n",
+        "75": "   * Returns {@code true} if {@code x} represents a power of two.\n",
+        "76": "   */\n",
+        "223": "   * @throws ArithmeticException if {@code mode} is {@link RoundingMode#UNNECESSARY} and\n",
+        "224": "   *     {@code sqrt(x)} is not an integer\n",
+        "312": "   * Returns the result of dividing {@code p} by {@code q}, rounding using the specified\n",
+        "313": "   * {@code RoundingMode}.\n"
+    }
+}

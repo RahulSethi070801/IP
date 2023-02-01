@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public boolean setCount(@Nullable E element, int oldCount, int newCount) {
+    return setCountImpl(this, element, oldCount, newCount);
+}

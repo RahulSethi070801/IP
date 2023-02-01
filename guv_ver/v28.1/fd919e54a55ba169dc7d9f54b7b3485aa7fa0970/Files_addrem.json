@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "712": "   *   <li>empty string becomes .\n",
+        "713": "   *   <li>. stays as .\n",
+        "714": "   *   <li>fold out ./\n",
+        "715": "   *   <li>fold out ../ when possible\n",
+        "716": "   *   <li>collapse multiple slashes\n",
+        "717": "   *   <li>delete trailing slashes (unless the path is just \"/\")\n",
+        "795": "   * Returns the file name without its <a\n",
+        "796": "   * href=\"http://en.wikipedia.org/wiki/Filename_extension\">file extension</a> or path. This is\n"
+    },
+    "removed": {
+        "712": "   * <li>empty string becomes .\n",
+        "713": "   * <li>. stays as .\n",
+        "714": "   * <li>fold out ./\n",
+        "715": "   * <li>fold out ../ when possible\n",
+        "716": "   * <li>collapse multiple slashes\n",
+        "717": "   * <li>delete trailing slashes (unless the path is just \"/\")\n",
+        "795": "   * Returns the file name without its\n",
+        "796": "   * <a href=\"http://en.wikipedia.org/wiki/Filename_extension\">file extension</a> or path. This is\n"
+    }
+}

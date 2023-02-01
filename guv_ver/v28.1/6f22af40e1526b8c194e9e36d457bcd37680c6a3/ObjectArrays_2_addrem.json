@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "27": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "85": "  public static <T> T[] concat(@NullableDecl T element, T[] array) {\n",
+        "100": "  public static <T> T[] concat(T[] array, @NullableDecl T element) {\n"
+    },
+    "removed": {
+        "27": "import javax.annotation.Nullable;\n",
+        "85": "  public static <T> T[] concat(@Nullable T element, T[] array) {\n",
+        "100": "  public static <T> T[] concat(T[] array, @Nullable T element) {\n"
+    }
+}

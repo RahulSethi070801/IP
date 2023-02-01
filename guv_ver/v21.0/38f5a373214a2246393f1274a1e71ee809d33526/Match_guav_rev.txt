@@ -1,0 +1,135 @@
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Graph<?> graphA, @Nullable Graph<?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable ValueGraph<?, ?> graphA, @Nullable ValueGraph<?, ?> graphB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+
+public static boolean equivalent(@Nullable Network<?, ?> networkA, @Nullable Network<?, ?> networkB)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+

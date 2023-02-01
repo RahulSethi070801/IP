@@ -1,0 +1,4 @@
+ResourcesTest_2
+Insertions: [47, 48, 49, 50, 51, 52, 53, 54, 62, 67, 73, 93, 94, 117, 122, 157, 169, 172]
+Deletions: [47, 48, 49, 50, 58, 59, 64, 65, 71, 72, 92, 93, 116, 117, 122, 123, 158, 159, 171, 172, 175, 176]
+guava-tests/test/com/google/common/io/ResourcesTest.java

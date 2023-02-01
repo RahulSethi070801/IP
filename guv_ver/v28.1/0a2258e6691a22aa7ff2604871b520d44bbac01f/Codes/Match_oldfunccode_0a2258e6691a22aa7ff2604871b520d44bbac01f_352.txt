@@ -1,0 +1,4 @@
+@Override
+public boolean containsRow(@NullableDecl Object rowKey) {
+    return rowKey != null && safeContainsKey(backingMap, rowKey);
+}

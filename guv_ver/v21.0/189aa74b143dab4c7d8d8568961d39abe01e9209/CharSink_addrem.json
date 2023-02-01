@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "20": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "146": "   * @return the number of characters written\n",
+        "150": "  @CanIgnoreReturnValue\n"
+    },
+    "removed": {}
+}

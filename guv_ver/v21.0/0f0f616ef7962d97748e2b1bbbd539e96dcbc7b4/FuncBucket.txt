@@ -1,0 +1,10 @@
+com.google.common.graph.Graphs
+reachableNodes
+public static Set<N> reachableNodes(Graph<N> graph, Object node)
+Graph,Object
+Set
+com.google.common.graph.Graphs
+transitiveClosure
+public static Graph<N> transitiveClosure(Graph<N> graph)
+Graph
+Graph

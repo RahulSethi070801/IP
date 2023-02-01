@@ -1,0 +1,3 @@
+static int readCount(ObjectInputStream stream) throws IOException {
+    return stream.readInt();
+}

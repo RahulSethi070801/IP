@@ -1,0 +1,4 @@
+ImmutableAsList_CustomFieldSerializer
+Insertions: [20, 21]
+Deletions: [20, 21]
+guava-gwt/src/com/google/common/collect/ImmutableAsList_CustomFieldSerializer.java

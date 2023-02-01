@@ -1,0 +1,6 @@
+void addInEdge(E edge, N node, boolean isSelfLoop)
+N removeOutEdge(Object edge)
+
+boolean addInEdge(E edge, N node, boolean isSelfLoop)
+N removeOutEdge(Object edge)
+

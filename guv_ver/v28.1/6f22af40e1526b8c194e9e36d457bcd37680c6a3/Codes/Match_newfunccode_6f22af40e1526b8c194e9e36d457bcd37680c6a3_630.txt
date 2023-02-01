@@ -1,0 +1,7 @@
+@SuppressWarnings("unchecked")
+static <E> Comparator<? super E> orNaturalOrder(@NullableDecl Comparator<? super E> comparator) {
+    if (comparator != null) {
+        return comparator;
+    }
+    return (Comparator<E>) Ordering.natural();
+}

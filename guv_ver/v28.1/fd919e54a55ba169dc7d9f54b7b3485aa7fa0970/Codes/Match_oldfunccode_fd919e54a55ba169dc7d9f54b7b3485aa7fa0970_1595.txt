@@ -1,0 +1,29 @@
+public static void deleteRecursively(Path path, RecursiveDeleteOption... options) throws IOException {
+    Path parentPath = getParentPath(path);
+    if (parentPath == null) {
+        throw new FileSystemException(path.toString(), null, "can't delete recursively");
+    }
+    Collection<IOException> exceptions = null;
+    try {
+        boolean sdsSupported = false;
+        try (DirectoryStream<Path> parent = Files.newDirectoryStream(parentPath)) {
+            if (parent instanceof SecureDirectoryStream) {
+                sdsSupported = true;
+                exceptions = deleteRecursivelySecure((SecureDirectoryStream<Path>) parent, path.getFileName());
+            }
+        }
+        if (!sdsSupported) {
+            checkAllowsInsecure(path, options);
+            exceptions = deleteRecursivelyInsecure(path);
+        }
+    } catch (IOException e) {
+        if (exceptions == null) {
+            throw e;
+        } else {
+            exceptions.add(e);
+        }
+    }
+    if (exceptions != null) {
+        throwDeleteFailed(path, exceptions);
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "139": "   * <p>By default, a {@code Builder} will generate bimaps that iterate over entries in the order\n",
+        "140": "   * they were inserted into the builder.  For example, in the above example,\n",
+        "141": "   * {@code WORD_TO_INT.entrySet()} is guaranteed to iterate over the entries in the order\n",
+        "142": "   * {@code \"one\"=1, \"two\"=2, \"three\"=3}, and {@code keySet()} and {@code values()} respect the same\n",
+        "143": "   * order. If you want a different order, consider using\n",
+        "144": "   * {@link #orderEntriesByValue(Comparator)}, which changes this builder to sort\n",
+        "145": "   * entries by value.\n",
+        "146": "   *\n",
+        "245": "     * Returns a newly-created immutable bimap.  The iteration order of the returned bimap is\n",
+        "246": "     * the order in which entries were inserted into the builder, unless\n",
+        "247": "     * {@link #orderEntriesByValue} was called, in which case entries are sorted by value.\n",
+        "288": "   * <p>The returned {@code BiMap} iterates over entries in the same order as the\n",
+        "289": "   * {@code entrySet} of the original map.\n",
+        "290": "   *\n",
+        "295": "   * @throws IllegalArgumentException if two keys have the same value or two values have the same\n",
+        "296": "   *     key\n",
+        "313": "   * Returns an immutable bimap containing the given entries.  The returned bimap iterates over\n",
+        "314": "   * entries in the same order as the original iterable.\n",
+        "353": "   * Returns an immutable set of the values in this map, in the same order they appear in {@link\n",
+        "354": "   * #entrySet}.\n"
+    },
+    "removed": {
+        "237": "     * Returns a newly-created immutable bimap.\n",
+        "282": "   * @throws IllegalArgumentException if two keys have the same value\n",
+        "299": "   * Returns an immutable bimap containing the given entries.\n",
+        "338": "   * Returns an immutable set of the values in this map. The values are in the\n",
+        "339": "   * same order as the parameters used to build this map.\n"
+    }
+}

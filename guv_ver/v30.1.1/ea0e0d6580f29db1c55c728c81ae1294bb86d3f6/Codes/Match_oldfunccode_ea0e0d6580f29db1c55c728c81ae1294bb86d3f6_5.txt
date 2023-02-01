@@ -1,0 +1,4 @@
+@Override
+public int setCount(E element, int count) {
+    throw new UnsupportedOperationException();
+}

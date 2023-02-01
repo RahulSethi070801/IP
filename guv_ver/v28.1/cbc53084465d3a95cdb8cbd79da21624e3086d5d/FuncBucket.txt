@@ -1,0 +1,115 @@
+com.google.common.graph.Traverser$GraphTraverser
+breadthFirst
+public Iterable<N> breadthFirst(final Iterable<? extends N> startNodes)
+Iterable
+Iterable
+com.google.common.graph.Traverser$NodeAndChildren
+NodeAndChildren
+NodeAndChildren(N node, Iterable<? extends N> children)
+N,Iterable
+constructor
+com.google.common.graph.Traverser$GraphTraverser
+breadthFirst
+public Iterable<N> breadthFirst(final N startNode)
+N
+Iterable
+com.google.common.graph.Traverser
+depthFirstPreOrder
+public abstract Iterable<N> depthFirstPreOrder(Iterable<? extends N> startNodes)
+Iterable
+Iterable
+com.google.common.graph.Traverser$DepthFirstIterator
+computeNext
+protected N computeNext()
+empty
+N
+com.google.common.graph.Traverser$DepthFirstPreOrderIterator
+DepthFirstPreOrderIterator
+DepthFirstPreOrderIterator(Iterable<? extends N> roots)
+Iterable
+constructor
+com.google.common.graph.Traverser$NodeAndChildren
+NodeAndChildren
+NodeAndChildren(@NullableDecl N node, Iterable<? extends N> children)
+N,Iterable
+constructor
+com.google.common.graph.Traverser$GraphTraverser
+depthFirstPreOrder
+public Iterable<N> depthFirstPreOrder(final N startNode)
+N
+Iterable
+com.google.common.graph.Traverser
+iterator
+public Iterator<N> iterator()
+empty
+Iterator
+com.google.common.graph.Traverser$NodeAndSuccessors
+NodeAndSuccessors
+NodeAndSuccessors(@NullableDecl N node, Iterable<? extends N> successors)
+N,Iterable
+constructor
+com.google.common.graph.Traverser$GraphTraverser
+depthFirstPostOrder
+public Iterable<N> depthFirstPostOrder(final Iterable<? extends N> startNodes)
+Iterable
+Iterable
+com.google.common.graph.Traverser$DepthFirstPostOrderIterator
+DepthFirstPostOrderIterator
+DepthFirstPostOrderIterator(N root)
+N
+constructor
+com.google.common.graph.Traverser$GraphTraverser
+depthFirstPostOrder
+public Iterable<N> depthFirstPostOrder(final N startNode)
+N
+Iterable
+com.google.common.graph.Traverser
+breadthFirst
+public abstract Iterable<N> breadthFirst(Iterable<? extends N> startNodes)
+Iterable
+Iterable
+com.google.common.graph.Traverser$BreadthFirstIterator
+BreadthFirstIterator
+BreadthFirstIterator(N root)
+N
+constructor
+com.google.common.graph.Traverser$DepthFirstPreOrderIterator
+DepthFirstPreOrderIterator
+DepthFirstPreOrderIterator(N root)
+N
+constructor
+com.google.common.graph.Traverser
+depthFirstPostOrder
+public abstract Iterable<N> depthFirstPostOrder(Iterable<? extends N> startNodes)
+Iterable
+Iterable
+com.google.common.graph.Traverser$DepthFirstIterator
+DepthFirstIterator
+DepthFirstIterator(Iterable<? extends N> roots, Order order)
+Iterable,Order
+constructor
+com.google.common.graph.Traverser$DepthFirstIterator
+DepthFirstIterator
+DepthFirstIterator(N root, Order order)
+N,Order
+constructor
+com.google.common.graph.Traverser$DepthFirstPostOrderIterator
+DepthFirstPostOrderIterator
+DepthFirstPostOrderIterator(Iterable<? extends N> roots)
+Iterable
+constructor
+com.google.common.graph.Traverser$NodeAndSuccessors
+NodeAndSuccessors
+NodeAndSuccessors(N node, Iterable<? extends N> successors)
+N,Iterable
+constructor
+com.google.common.graph.Traverser$BreadthFirstIterator
+BreadthFirstIterator
+BreadthFirstIterator(Iterable<? extends N> roots)
+Iterable
+constructor
+com.google.common.graph.Traverser$GraphTraverser
+depthFirstPreOrder
+public Iterable<N> depthFirstPreOrder(final Iterable<? extends N> startNodes)
+Iterable
+Iterable

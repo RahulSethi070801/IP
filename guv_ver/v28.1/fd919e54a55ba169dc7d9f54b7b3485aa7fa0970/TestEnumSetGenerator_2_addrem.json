@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "54": "  /** Sorts the enums according to their natural ordering. */\n"
+    },
+    "removed": {
+        "54": "  /**\n",
+        "55": "   * Sorts the enums according to their natural ordering.\n",
+        "56": "   */\n"
+    }
+}

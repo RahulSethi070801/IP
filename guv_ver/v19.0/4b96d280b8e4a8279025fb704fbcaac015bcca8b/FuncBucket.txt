@@ -1,0 +1,25 @@
+com.google.common.collect.Maps
+toMap
+public static ImmutableMap<K, V> toMap(Iterable<K> keys, Function<? super K, V> valueFunction)
+Iterable,Function
+ImmutableMap
+com.google.common.collect.Maps
+asMap
+public static NavigableMap<K, V> asMap(NavigableSet<K> set, Function<? super K, V> function)
+NavigableSet,Function
+NavigableMap
+com.google.common.collect.Maps
+asMap
+public static Map<K, V> asMap(Set<K> set, Function<? super K, V> function)
+Set,Function
+Map
+com.google.common.collect.Maps
+toMap
+public static ImmutableMap<K, V> toMap(Iterator<K> keys, Function<? super K, V> valueFunction)
+Iterator,Function
+ImmutableMap
+com.google.common.collect.Maps
+asMap
+public static SortedMap<K, V> asMap(SortedSet<K> set, Function<? super K, V> function)
+SortedSet,Function
+SortedMap

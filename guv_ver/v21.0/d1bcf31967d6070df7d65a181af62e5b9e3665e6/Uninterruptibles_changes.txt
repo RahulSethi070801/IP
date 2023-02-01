@@ -1,0 +1,4 @@
+Uninterruptibles
+Insertions: [122, 124, 125, 126, 127, 128, 129, 130, 131, 132, 158, 159, 160, 161, 162, 163, 164, 165, 166]
+Deletions: [122, 123, 125, 126, 152, 153]
+guava/src/com/google/common/util/concurrent/Uninterruptibles.java

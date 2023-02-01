@@ -1,0 +1,10 @@
+
+   * Performs the given action for all key-value pairs contained in this multimap. If an ordering is
+   * specified by the {@code Multimap} implementation, actions will be performed in the order of
+   * iteration of {@link #entries()}. Exceptions thrown by the action are relayed to the caller.
+   *
+   * <p>To loop over all keys and their associated value collections, write
+   * {@code Multimaps.asMap(multimap).forEach((key, valueCollection) -> action())}.
+   *
+   * @since 21.0
+   

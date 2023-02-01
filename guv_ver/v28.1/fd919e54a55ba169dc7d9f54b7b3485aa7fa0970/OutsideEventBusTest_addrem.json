@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "41": "    bus.register(\n",
+        "42": "        new Object() {\n",
+        "43": "          @Subscribe\n",
+        "44": "          public void accept(String str) {\n",
+        "45": "            holder.set(str);\n",
+        "46": "            deliveries.incrementAndGet();\n",
+        "47": "          }\n",
+        "48": "        });\n"
+    },
+    "removed": {
+        "41": "    bus.register(new Object() {\n",
+        "42": "      @Subscribe\n",
+        "43": "      public void accept(String str) {\n",
+        "44": "        holder.set(str);\n",
+        "45": "        deliveries.incrementAndGet();\n",
+        "46": "      }\n",
+        "47": "    });\n"
+    }
+}

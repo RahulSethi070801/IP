@@ -1,0 +1,18 @@
+
+   * Returns the
+   * <a href="http://en.wikipedia.org/wiki/Standard_deviation#Corrected_sample_standard_deviation">
+   * corrected sample standard deviation</a> of the values. If this dataset is a sample drawn from a
+   * population, this is an estimator of the population standard deviation of the population which
+   * is less biased than {@link #populationStandardDeviation()} (the unbiased estimator depends on
+   * the distribution). The count must be greater than one.
+   *
+   * <p>This is not guaranteed to return zero when the dataset consists of the same value multiple
+   * times, due to numerical errors. However, it is guaranteed never to return a negative result.
+   *
+   * <h3>Non-finite values</h3>
+   *
+   * <p>If the dataset contains any non-finite values ({@link Double#POSITIVE_INFINITY},
+   * {@link Double#NEGATIVE_INFINITY}, or {@link Double#NaN}) then the result is {@link Double#NaN}.
+   *
+   * @throws IllegalStateException if the dataset is empty or contains a single value
+   

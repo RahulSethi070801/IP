@@ -1,0 +1,4 @@
+MinimalIterableTest_2
+Insertions: [68, 84]
+Deletions: [68, 69, 85, 86]
+guava-testlib/test/com/google/common/collect/testing/MinimalIterableTest.java

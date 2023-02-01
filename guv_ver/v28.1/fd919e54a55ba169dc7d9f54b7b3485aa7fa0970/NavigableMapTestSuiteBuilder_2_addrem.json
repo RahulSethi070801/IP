@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "37": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests a NavigableMap\n",
+        "38": " * implementation.\n",
+        "117": "  /** Create a suite whose maps are descending views of other maps. */\n"
+    },
+    "removed": {
+        "37": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests\n",
+        "38": " * a NavigableMap implementation.\n",
+        "117": "  /**\n",
+        "118": "   * Create a suite whose maps are descending views of other maps.\n",
+        "119": "   */\n"
+    }
+}

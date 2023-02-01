@@ -1,0 +1,4 @@
+MapRemoveTester_2
+Insertions: [36, 37]
+Deletions: [36, 37, 38]
+guava-testlib/src/com/google/common/collect/testing/testers/MapRemoveTester.java

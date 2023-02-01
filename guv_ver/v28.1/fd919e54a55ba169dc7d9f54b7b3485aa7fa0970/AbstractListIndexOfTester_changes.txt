@@ -1,0 +1,4 @@
+AbstractListIndexOfTester
+Insertions: [28, 37]
+Deletions: [28, 29, 38, 39, 40, 41]
+android/guava-testlib/src/com/google/common/collect/testing/testers/AbstractListIndexOfTester.java

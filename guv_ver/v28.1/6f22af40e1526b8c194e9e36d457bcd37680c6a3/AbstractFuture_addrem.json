@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "45": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "175": "    @NullableDecl volatile Thread thread;\n",
+        "176": "    @NullableDecl volatile Waiter next;\n",
+        "253": "    @NullableDecl Listener next;\n",
+        "298": "    @NullableDecl final Throwable cause;\n",
+        "300": "    Cancellation(boolean wasInterrupted, @NullableDecl Throwable cause) {\n",
+        "688": "  protected boolean set(@NullableDecl V value) {\n",
+        "905": "  final void maybePropagateCancellationTo(@NullableDecl Future<?> related) {\n",
+        "983": "  @NullableDecl\n",
+        "1226": "      @NullableDecl String message, @NullableDecl Throwable cause) {\n"
+    },
+    "removed": {
+        "45": "import javax.annotation.Nullable;\n",
+        "175": "    @Nullable volatile Thread thread;\n",
+        "176": "    @Nullable volatile Waiter next;\n",
+        "253": "    @Nullable Listener next;\n",
+        "298": "    @Nullable final Throwable cause;\n",
+        "300": "    Cancellation(boolean wasInterrupted, @Nullable Throwable cause) {\n",
+        "688": "  protected boolean set(@Nullable V value) {\n",
+        "905": "  final void maybePropagateCancellationTo(@Nullable Future<?> related) {\n",
+        "983": "  @Nullable\n",
+        "1226": "      @Nullable String message, @Nullable Throwable cause) {\n"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "addition": {
+        "602": "        .setDefault(RateLimiter.class, RateLimiter.create(1.0))\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,8 @@
+static boolean safeRemove(Collection<?> collection, @Nullable Object object) {
+    checkNotNull(collection);
+    try {
+        return collection.remove(object);
+    } catch (ClassCastException | NullPointerException e) {
+        return false;
+    }
+}

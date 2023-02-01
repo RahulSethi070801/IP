@@ -1,0 +1,5 @@
+@Override
+public boolean removeIf(Predicate<? super V> filter) {
+    checkNotNull(filter);
+    return LocalCache.this.removeIf((k, v) -> filter.test(v));
+}

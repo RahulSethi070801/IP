@@ -1,0 +1,5 @@
+com.google.common.collect.ImmutableMapEntry
+createEntryArray
+static ImmutableMapEntry<K, V>[] createEntryArray(int size)
+int
+ImmutableMapEntry[]

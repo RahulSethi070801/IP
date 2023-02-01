@@ -1,0 +1,4 @@
+@VisibleForTesting
+static <E> Set<E> set(Set<E> set, @NullableDecl Object mutex) {
+    return new SynchronizedSet<E>(set, mutex);
+}

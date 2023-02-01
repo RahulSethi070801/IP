@@ -1,0 +1,3 @@
+public final ImmutableSortedSet<E> toSortedSet(Comparator<? super E> comparator) {
+    return ImmutableSortedSet.copyOf(comparator, getDelegate());
+}

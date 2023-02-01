@@ -1,0 +1,3 @@
+public static <E extends @Nullable Object> LinkedHashMultiset<E> create(int distinctElements) {
+    return new LinkedHashMultiset<E>(distinctElements);
+}

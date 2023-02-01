@@ -1,0 +1,9 @@
+static ImmutableMap<String, PublicSuffixType> parseTrie(CharSequence encoded) {
+    ImmutableMap.Builder<String, PublicSuffixType> builder = ImmutableMap.builder();
+    int encodedLen = encoded.length();
+    int idx = 0;
+    while (idx < encodedLen) {
+        idx += doParseTrieToBuilder(Lists.<CharSequence>newLinkedList(), encoded.subSequence(idx, encodedLen), builder);
+    }
+    return builder.build();
+}

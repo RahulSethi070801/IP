@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "221": "    protected boolean set(@NullableDecl V value) {\n",
+        "363": "      boolean set(@NullableDecl V v) {\n",
+        "387": "      private boolean complete(@NullableDecl V v, @NullableDecl Throwable t, int finalState) {\n",
+        "409": "        @NullableDecl String message, @NullableDecl Throwable cause) {\n"
+    },
+    "removed": {
+        "28": "import javax.annotation.Nullable;\n",
+        "221": "    protected boolean set(@Nullable V value) {\n",
+        "363": "      boolean set(@Nullable V v) {\n",
+        "387": "      private boolean complete(@Nullable V v, @Nullable Throwable t, int finalState) {\n",
+        "409": "        @Nullable String message, @Nullable Throwable cause) {\n"
+    }
+}

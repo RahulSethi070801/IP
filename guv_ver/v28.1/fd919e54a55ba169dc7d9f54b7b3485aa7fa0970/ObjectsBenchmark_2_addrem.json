@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "39": "  @Benchmark\n",
+        "40": "  int hashString_2(int reps) {\n",
+        "48": "  @Benchmark\n",
+        "49": "  int hashString_3(int reps) {\n",
+        "57": "  @Benchmark\n",
+        "58": "  int hashString_4(int reps) {\n",
+        "66": "  @Benchmark\n",
+        "67": "  int hashString_5(int reps) {\n",
+        "75": "  @Benchmark\n",
+        "76": "  int hashMixed_5(int reps) {\n"
+    },
+    "removed": {
+        "39": "  @Benchmark int hashString_2(int reps) {\n",
+        "47": "  @Benchmark int hashString_3(int reps) {\n",
+        "55": "  @Benchmark int hashString_4(int reps) {\n",
+        "63": "  @Benchmark int hashString_5(int reps) {\n",
+        "71": "  @Benchmark int hashMixed_5(int reps) {\n"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "46": " * Synchronized collection views. The returned synchronized collection views are serializable if the\n",
+        "47": " * backing collection and the mutex are serializable.\n",
+        "49": " * <p>If {@code null} is passed as the {@code mutex} parameter to any of this class's top-level\n",
+        "50": " * methods or inner class constructors, the created object uses itself as the synchronization mutex.\n",
+        "1161": "    @RetainedWith private transient BiMap<V, K> inverse;\n"
+    },
+    "removed": {
+        "46": " * Synchronized collection views. The returned synchronized collection views are\n",
+        "47": " * serializable if the backing collection and the mutex are serializable.\n",
+        "49": " * <p>If {@code null} is passed as the {@code mutex} parameter to any of this\n",
+        "50": " * class's top-level methods or inner class constructors, the created object\n",
+        "51": " * uses itself as the synchronization mutex.\n",
+        "1162": "    @RetainedWith\n",
+        "1163": "    private transient BiMap<V, K> inverse;\n"
+    }
+}

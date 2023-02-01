@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "32": " * This class provides a skeletal implementation of the {@link Multiset} interface. A new multiset\n",
+        "33": " * implementation can be created easily by extending this class and implementing the {@link\n",
+        "34": " * Multiset#entrySet()} method, plus optionally overriding {@link #add(Object, int)} and {@link\n",
+        "35": " * #remove(Object, int)} to enable modifications to the multiset.\n",
+        "37": " * <p>The {@link #count} and {@link #size} implementations all iterate across the set returned by\n",
+        "38": " * {@link Multiset#entrySet()}, as do many methods acting on the set returned by {@link\n",
+        "39": " * #elementSet()}. Override those methods for better performance.\n",
+        "121": "   * <p>This implementation is highly efficient when {@code elementsToAdd} is itself a {@link\n",
+        "122": "   * Multiset}.\n",
+        "161": "   * Creates a new instance of this multiset's element set, which will be returned by {@link\n",
+        "162": "   * #elementSet()}.\n",
+        "218": "   * <p>This implementation returns {@code true} if {@code object} is a multiset of the same size\n",
+        "219": "   * and if, for each element, the two multisets have the same count.\n",
+        "229": "   * <p>This implementation returns the hash code of {@link Multiset#entrySet()}.\n",
+        "239": "   * <p>This implementation returns the result of invoking {@code toString} on {@link\n",
+        "240": "   * Multiset#entrySet()}.\n"
+    },
+    "removed": {
+        "32": " * This class provides a skeletal implementation of the {@link Multiset}\n",
+        "33": " * interface. A new multiset implementation can be created easily by extending\n",
+        "34": " * this class and implementing the {@link Multiset#entrySet()} method, plus\n",
+        "35": " * optionally overriding {@link #add(Object, int)} and\n",
+        "36": " * {@link #remove(Object, int)} to enable modifications to the multiset.\n",
+        "38": " * <p>The {@link #count} and {@link #size} implementations all iterate across\n",
+        "39": " * the set returned by {@link Multiset#entrySet()}, as do many methods acting on\n",
+        "40": " * the set returned by {@link #elementSet()}. Override those methods for better\n",
+        "41": " * performance.\n",
+        "123": "   * <p>This implementation is highly efficient when {@code elementsToAdd}\n",
+        "124": "   * is itself a {@link Multiset}.\n",
+        "163": "   * Creates a new instance of this multiset's element set, which will be\n",
+        "164": "   * returned by {@link #elementSet()}.\n",
+        "220": "   * <p>This implementation returns {@code true} if {@code object} is a multiset\n",
+        "221": "   * of the same size and if, for each element, the two multisets have the same\n",
+        "222": "   * count.\n",
+        "232": "   * <p>This implementation returns the hash code of {@link\n",
+        "233": "   * Multiset#entrySet()}.\n",
+        "243": "   * <p>This implementation returns the result of invoking {@code toString} on\n",
+        "244": "   * {@link Multiset#entrySet()}.\n"
+    }
+}

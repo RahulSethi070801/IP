@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "22": "import com.google.common.base.Function;\n",
+        "23": "import com.google.common.collect.Maps;\n",
+        "24": "import java.util.Map;\n",
+        "27": " * This class provides a skeletal implementation of {@link ValueGraph}. It is recommended to extend\n",
+        "28": " * this class rather than implement {@link ValueGraph} directly.\n",
+        "32": " * @param <V> Value parameter type\n",
+        "36": "public abstract class AbstractValueGraph<N, V>\n",
+        "37": "    extends AbstractGraph<N> implements ValueGraph<N, V> {\n",
+        "44": "    return toString(this);\n",
+        "45": "  }\n",
+        "46": "\n",
+        "47": "  static String toString(ValueGraph<?, ?> graph) {\n",
+        "49": "        \"isDirected: %s, allowsSelfLoops: %s\", graph.isDirected(), graph.allowsSelfLoops());\n",
+        "52": "        graph.nodes(),\n",
+        "53": "        edgeValueMap(graph));\n",
+        "54": "  }\n",
+        "55": "\n",
+        "56": "  private static <N, V> Map<EndpointPair<N>, V> edgeValueMap(final ValueGraph<N, V> graph) {\n",
+        "57": "    Function<EndpointPair<N>, V> edgeToValueFn = new Function<EndpointPair<N>, V>() {\n",
+        "58": "      @Override\n",
+        "59": "      public V apply(EndpointPair<N> edge) {\n",
+        "60": "        return graph.edgeValue(edge.nodeU(), edge.nodeV());\n",
+        "61": "      }\n",
+        "62": "    };\n",
+        "63": "    return Maps.asMap(graph.edges(), edgeToValueFn);\n"
+    },
+    "removed": {
+        "22": "import com.google.common.graph.BasicGraph.Presence;\n",
+        "25": " * This class provides a skeletal implementation of {@link BasicGraph}. It is recommended to extend\n",
+        "26": " * this class rather than implement {@link BasicGraph} directly, to ensure consistent {@link\n",
+        "27": " * #equals(Object)} and {@link #hashCode()} results across different graph implementations.\n",
+        "34": "public abstract class AbstractBasicGraph<N>\n",
+        "35": "    extends AbstractGraph<N, Presence> implements BasicGraph<N> {\n",
+        "43": "        \"isDirected: %s, allowsSelfLoops: %s\", isDirected(), allowsSelfLoops());\n",
+        "46": "        nodes(),\n",
+        "47": "        edges());\n"
+    }
+}

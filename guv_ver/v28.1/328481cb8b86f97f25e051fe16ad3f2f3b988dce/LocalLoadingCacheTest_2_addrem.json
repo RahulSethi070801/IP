@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "165": "    //Set<Entry<Object, Object>> entries = map.entrySet();\n"
+    },
+    "removed": {
+        "165": "    //Set<Map.Entry<Object, Object>> entries = map.entrySet();\n"
+    }
+}

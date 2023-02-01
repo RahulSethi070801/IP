@@ -1,0 +1,4 @@
+RegularImmutableBiMap
+Insertions: [35, 128, 138, 139, 213]
+Deletions: [35, 128, 138, 139, 213]
+guava/src/com/google/common/collect/RegularImmutableBiMap.java

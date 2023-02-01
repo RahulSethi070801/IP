@@ -1,0 +1,4 @@
+ConflictingRequirementsException_2
+Insertions: [23]
+Deletions: [23, 24]
+guava-testlib/src/com/google/common/collect/testing/features/ConflictingRequirementsException.java

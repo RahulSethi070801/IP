@@ -1,0 +1,6 @@
+public static CharMatcher javaDigit()
+public static CharMatcher javaIsoControl()
+
+public static CharMatcher javaDigit()
+public static CharMatcher anyOf(final CharSequence sequence)
+

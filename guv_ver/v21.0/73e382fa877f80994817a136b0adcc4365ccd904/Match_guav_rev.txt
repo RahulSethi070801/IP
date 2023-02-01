@@ -1,0 +1,318 @@
+public final ImmutableSet<E> toSet()
+public static IntStream concat(IntStream... streams)
+
+public final ImmutableSet<E> toSet()
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final ImmutableSet<E> toSet()
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final ImmutableSet<E> toSet()
+public static DoubleStream concat(DoubleStream... streams)
+
+public final ImmutableSet<E> toSet()
+public static LongStream concat(LongStream... streams)
+
+public final ImmutableSet<E> toSet()
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public final ImmutableSortedSet<E> toSortedSet(Comparator<? super E> comparator)
+public static IntStream concat(IntStream... streams)
+
+public final ImmutableSortedSet<E> toSortedSet(Comparator<? super E> comparator)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final ImmutableSortedSet<E> toSortedSet(Comparator<? super E> comparator)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final ImmutableSortedSet<E> toSortedSet(Comparator<? super E> comparator)
+public static DoubleStream concat(DoubleStream... streams)
+
+public final ImmutableSortedSet<E> toSortedSet(Comparator<? super E> comparator)
+public static LongStream concat(LongStream... streams)
+
+public final ImmutableSortedSet<E> toSortedSet(Comparator<? super E> comparator)
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public static FluentIterable<E> of()
+public static IntStream concat(IntStream... streams)
+
+public static FluentIterable<E> of()
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public static FluentIterable<E> of()
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public static FluentIterable<E> of()
+public static DoubleStream concat(DoubleStream... streams)
+
+public static FluentIterable<E> of()
+public static LongStream concat(LongStream... streams)
+
+public static FluentIterable<E> of()
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public final ImmutableMap<K, E> uniqueIndex(Function<? super E, K> keyFunction)
+public static IntStream concat(IntStream... streams)
+
+public final ImmutableMap<K, E> uniqueIndex(Function<? super E, K> keyFunction)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final ImmutableMap<K, E> uniqueIndex(Function<? super E, K> keyFunction)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final ImmutableMap<K, E> uniqueIndex(Function<? super E, K> keyFunction)
+public static DoubleStream concat(DoubleStream... streams)
+
+public final ImmutableMap<K, E> uniqueIndex(Function<? super E, K> keyFunction)
+public static LongStream concat(LongStream... streams)
+
+public final ImmutableMap<K, E> uniqueIndex(Function<? super E, K> keyFunction)
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public final ImmutableList<E> toSortedList(Comparator<? super E> comparator)
+public static IntStream concat(IntStream... streams)
+
+public final ImmutableList<E> toSortedList(Comparator<? super E> comparator)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final ImmutableList<E> toSortedList(Comparator<? super E> comparator)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final ImmutableList<E> toSortedList(Comparator<? super E> comparator)
+public static DoubleStream concat(DoubleStream... streams)
+
+public final ImmutableList<E> toSortedList(Comparator<? super E> comparator)
+public static LongStream concat(LongStream... streams)
+
+public final ImmutableList<E> toSortedList(Comparator<? super E> comparator)
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public final ImmutableList<E> toList()
+public static IntStream concat(IntStream... streams)
+
+public final ImmutableList<E> toList()
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final ImmutableList<E> toList()
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final ImmutableList<E> toList()
+public static DoubleStream concat(DoubleStream... streams)
+
+public final ImmutableList<E> toList()
+public static LongStream concat(LongStream... streams)
+
+public final ImmutableList<E> toList()
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public final ImmutableMultiset<E> toMultiset()
+public static IntStream concat(IntStream... streams)
+
+public final ImmutableMultiset<E> toMultiset()
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final ImmutableMultiset<E> toMultiset()
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final ImmutableMultiset<E> toMultiset()
+public static DoubleStream concat(DoubleStream... streams)
+
+public final ImmutableMultiset<E> toMultiset()
+public static LongStream concat(LongStream... streams)
+
+public final ImmutableMultiset<E> toMultiset()
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public List<E> leastOf(Iterable<E> iterable, int k)
+public static IntStream concat(IntStream... streams)
+
+public List<E> leastOf(Iterable<E> iterable, int k)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public List<E> leastOf(Iterable<E> iterable, int k)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public List<E> leastOf(Iterable<E> iterable, int k)
+public static DoubleStream concat(DoubleStream... streams)
+
+public List<E> leastOf(Iterable<E> iterable, int k)
+public static LongStream concat(LongStream... streams)
+
+public List<E> leastOf(Iterable<E> iterable, int k)
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static IntStream concat(IntStream... streams)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static DoubleStream concat(DoubleStream... streams)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static LongStream concat(LongStream... streams)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static IntStream concat(IntStream... streams)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static DoubleStream concat(DoubleStream... streams)
+
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+public static LongStream concat(LongStream... streams)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static IntStream concat(IntStream... streams)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static DoubleStream concat(DoubleStream... streams)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static LongStream concat(LongStream... streams)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static IntStream concat(IntStream... streams)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static DoubleStream concat(DoubleStream... streams)
+
+public static FluentIterable<E> from(final Iterable<E> iterable)
+public static LongStream concat(LongStream... streams)
+
+public final int size()
+public static IntStream concat(IntStream... streams)
+
+public final int size()
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final int size()
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final int size()
+public static DoubleStream concat(DoubleStream... streams)
+
+public final int size()
+public static LongStream concat(LongStream... streams)
+
+public final int size()
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public final int size()
+public long size() throws IOException
+
+public final int size()
+public static IntStream concat(IntStream... streams)
+
+public final int size()
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final int size()
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final int size()
+public static DoubleStream concat(DoubleStream... streams)
+
+public final int size()
+public static LongStream concat(LongStream... streams)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static IntStream concat(IntStream... streams)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static DoubleStream concat(DoubleStream... streams)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static LongStream concat(LongStream... streams)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public long size() throws IOException
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static IntStream concat(IntStream... streams)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static DoubleStream concat(DoubleStream... streams)
+
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+public static LongStream concat(LongStream... streams)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static IntStream concat(IntStream... streams)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static DoubleStream concat(DoubleStream... streams)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static LongStream concat(LongStream... streams)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public long size() throws IOException
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static IntStream concat(IntStream... streams)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static Stream<T> concat(Stream<? extends T>... streams)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static DoubleStream concat(DoubleStream... streams)
+
+public List<E> greatestOf(Iterable<E> iterable, int k)
+public static LongStream concat(LongStream... streams)
+

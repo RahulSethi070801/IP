@@ -1,0 +1,15 @@
+
+   * {@inheritDoc}
+   *
+   * <ul>
+   *   <li>{@code proxy.hashCode()} delegates to {@link AbstractInvocationHandler#hashCode}
+   *   <li>{@code proxy.toString()} delegates to {@link AbstractInvocationHandler#toString}
+   *   <li>{@code proxy.equals(argument)} returns true if:
+   *       <ul>
+   *         <li>{@code proxy} and {@code argument} are of the same type
+   *         <li>and {@link AbstractInvocationHandler#equals} returns true for the {@link
+   *             InvocationHandler} of {@code argument}
+   *       </ul>
+   *   <li>other method calls are dispatched to {@link #handleInvocation}.
+   * </ul>
+   

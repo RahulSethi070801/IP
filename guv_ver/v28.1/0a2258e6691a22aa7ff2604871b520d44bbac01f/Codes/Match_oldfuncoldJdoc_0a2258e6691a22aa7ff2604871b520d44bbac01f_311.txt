@@ -1,0 +1,11 @@
+
+   * Propagates {@code throwable} exactly as-is, if and only if it is an instance of {@link
+   * RuntimeException}, {@link Error}, {@code declaredType1}, or {@code declaredType2}. In the
+   * unlikely case that you have three or more declared checked exception types, you can handle them
+   * all by invoking these methods repeatedly. See usage example in {@link
+   * #propagateIfPossible(Throwable, Class)}.
+   *
+   * @param throwable the Throwable to possibly propagate
+   * @param declaredType1 any checked exception type declared by the calling method
+   * @param declaredType2 any other checked exception type declared by the calling method
+   

@@ -1,0 +1,4 @@
+@Nullable
+public static String emptyToNull(@Nullable String string) {
+    return Platform.emptyToNull(string);
+}

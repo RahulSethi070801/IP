@@ -1,0 +1,4 @@
+@Override
+public Annotation[] getDeclaredAnnotations() {
+    return annotations.toArray(new Annotation[annotations.size()]);
+}

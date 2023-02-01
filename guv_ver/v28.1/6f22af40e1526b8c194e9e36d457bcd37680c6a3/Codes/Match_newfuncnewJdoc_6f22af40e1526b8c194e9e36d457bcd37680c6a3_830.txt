@@ -1,0 +1,4 @@
+
+   * Returns {@code true} if {@code obj} is another {@code RangeMap} that has an equivalent {@link
+   * #asMapOfRanges()}.
+   

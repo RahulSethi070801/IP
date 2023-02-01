@@ -1,0 +1,3 @@
+public boolean hasPublicSuffix() {
+    return publicSuffixIndex != NO_SUFFIX_FOUND;
+}

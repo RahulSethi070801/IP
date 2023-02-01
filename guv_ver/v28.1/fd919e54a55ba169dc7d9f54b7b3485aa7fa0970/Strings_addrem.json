@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "75": "   *   <li>{@code padStart(\"7\", 3, '0')} returns {@code \"007\"}\n",
+        "76": "   *   <li>{@code padStart(\"2010\", 3, '0')} returns {@code \"2010\"}\n",
+        "106": "   *   <li>{@code padEnd(\"4.\", 5, '0')} returns {@code \"4.000\"}\n",
+        "107": "   *   <li>{@code padEnd(\"2010\", 3, '!')} returns {@code \"2010\"}\n",
+        "169": "   * Returns the longest string {@code prefix} such that {@code a.toString().startsWith(prefix) &&\n",
+        "170": "   * b.toString().startsWith(prefix)}, taking care not to split surrogate pairs. If {@code a} and\n",
+        "171": "   * {@code b} have no common prefix, returns the empty string.\n",
+        "191": "   * Returns the longest string {@code suffix} such that {@code a.toString().endsWith(suffix) &&\n",
+        "192": "   * b.toString().endsWith(suffix)}, taking care not to split surrogate pairs. If {@code a} and\n",
+        "193": "   * {@code b} have no common suffix, returns the empty string.\n"
+    },
+    "removed": {
+        "75": "   * <li>{@code padStart(\"7\", 3, '0')} returns {@code \"007\"}\n",
+        "76": "   * <li>{@code padStart(\"2010\", 3, '0')} returns {@code \"2010\"}\n",
+        "106": "   * <li>{@code padEnd(\"4.\", 5, '0')} returns {@code \"4.000\"}\n",
+        "107": "   * <li>{@code padEnd(\"2010\", 3, '!')} returns {@code \"2010\"}\n",
+        "169": "   * Returns the longest string {@code prefix} such that\n",
+        "170": "   * {@code a.toString().startsWith(prefix) && b.toString().startsWith(prefix)}, taking care not to\n",
+        "171": "   * split surrogate pairs. If {@code a} and {@code b} have no common prefix, returns the empty\n",
+        "172": "   * string.\n",
+        "192": "   * Returns the longest string {@code suffix} such that\n",
+        "193": "   * {@code a.toString().endsWith(suffix) && b.toString().endsWith(suffix)}, taking care not to\n",
+        "194": "   * split surrogate pairs. If {@code a} and {@code b} have no common suffix, returns the empty\n",
+        "195": "   * string.\n"
+    }
+}

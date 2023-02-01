@@ -1,0 +1,4 @@
+ByFunctionOrdering
+Insertions: [28, 29]
+Deletions: [28, 29]
+android/guava/src/com/google/common/collect/ByFunctionOrdering.java

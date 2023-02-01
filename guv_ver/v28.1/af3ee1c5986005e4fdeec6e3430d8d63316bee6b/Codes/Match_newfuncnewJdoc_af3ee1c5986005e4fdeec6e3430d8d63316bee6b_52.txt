@@ -1,0 +1,13 @@
+
+   * Returns the single edge that directly connects {@code endpoints} (in the order, if any,
+   * specified by {@code endpoints}), if one is present, or {@code Optional.empty()} if no such edge
+   * exists.
+   *
+   * <p>If this graph is directed, the endpoints must be ordered.
+   *
+   * @throws IllegalArgumentException if there are multiple parallel edges connecting {@code nodeU}
+   *     to {@code nodeV}
+   * @throws IllegalArgumentException if either endpoint is not an element of this network
+   * @throws IllegalArgumentException if the endpoints are unordered and the graph is directed
+   * @since NEXT
+   

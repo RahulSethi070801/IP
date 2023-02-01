@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkArgument;\n",
+        "33": "// TODO(b/27628622): Move these methods to {@link Graphs}? Or at least rename this class to\n",
+        "34": "// something besides \"GraphProperties\", and consider putting in graph/algorithms/.\n",
+        "43": "  public static boolean isCyclic(Graph<?, ?> graph) {\n",
+        "44": "    // TODO(user): Implement an algorithm that also works on undirected graphs.\n",
+        "45": "    // For instance, we should keep track of the edge used to reach a node to avoid\n",
+        "46": "    // reusing it (making a cycle by getting back to that node). Also, parallel edges\n",
+        "47": "    // will need to be carefully handled for undirected graphs.\n",
+        "48": "    checkArgument(graph.isDirected(), \"isCyclic() currently only works on directed graphs\");\n",
+        "49": "\n",
+        "66": "      Graph<?, ?> graph, Map<Object, NodeVisitState> nodeToVisitState, Object node) {\n",
+        "94": "   * Returns the set of all nodes in {@code graph} that have no predecessors.\n",
+        "95": "   *\n",
+        "96": "   * <p>Note that in an undirected graph, this is equivalent to all isolated nodes.\n",
+        "98": "  public static <N> ImmutableSet<N> roots(Graph<N, ?> graph) {\n",
+        "100": "    for (N node : graph.nodes()) {\n",
+        "101": "      if (graph.predecessors(node).isEmpty()) {\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "41": "  // TODO(user): Implement a similar method for undirected graphs, taking into\n",
+        "42": "  // consideration the difference in implementation, due to the notion of undirected\n",
+        "43": "  // edges. For instance, we should keep track of the edge used to reach a node to avoid\n",
+        "44": "  // reusing it (making a cycle by getting back to that node). Also, parallel edges will\n",
+        "45": "  // need to be carefully handled for undirected graphs.\n",
+        "46": "  public static boolean isCyclic(DirectedGraph<?, ?> graph) {\n",
+        "47": "    checkNotNull(graph, \"Directed graph passed can't be null.\");\n",
+        "64": "      DirectedGraph<?, ?> graph, Map<Object, NodeVisitState> nodeToVisitState, Object node) {\n",
+        "92": "   * Returns the set of all nodes in {@code directedGraph} that have no predecessors.\n",
+        "94": "  public static <N> ImmutableSet<N> roots(DirectedGraph<N, ?> directedGraph) {\n",
+        "96": "    for (N node : directedGraph.nodes()) {\n",
+        "97": "      if (directedGraph.predecessors(node).isEmpty()) {\n"
+    }
+}

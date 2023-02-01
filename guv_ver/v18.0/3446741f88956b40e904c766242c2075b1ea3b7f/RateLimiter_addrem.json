@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "251": "  /*\n",
+        "252": "   * TODO(cpovirk): make SleepingStopwatch the last parameter throughout the class so that the\n",
+        "253": "   * overloads follow the usual convention: Foo(int), Foo(int, SleepingStopwatch)\n",
+        "254": "   */\n",
+        "497": "  private boolean canAcquire(long nowMicros, long timeoutMicros) {\n"
+    },
+    "removed": {
+        "493": "  private final boolean canAcquire(long nowMicros, long timeoutMicros) {\n"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "23": " * Simple benchmark: create, start, read. This does not currently report the most useful result\n",
+        "24": " * because it's ambiguous to what extent the stopwatch benchmark is being affected by GC.\n",
+        "29": "  @Benchmark\n",
+        "30": "  long stopwatch(int reps) {\n",
+        "40": "  @Benchmark\n",
+        "41": "  long manual(int reps) {\n"
+    },
+    "removed": {
+        "23": " * Simple benchmark: create, start, read. This does not currently report the\n",
+        "24": " * most useful result because it's ambiguous to what extent the stopwatch\n",
+        "25": " * benchmark is being affected by GC.\n",
+        "30": "  @Benchmark long stopwatch(int reps) {\n",
+        "40": "  @Benchmark long manual(int reps) {\n"
+    }
+}

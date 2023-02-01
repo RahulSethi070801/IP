@@ -1,0 +1,11 @@
+private static <N, E> NetworkConnections<N, E> connectionsOf(Network<N, E> graph, N node) {
+    if (graph.isDirected()) {
+        Map<E, N> inEdgeMap = Maps.asMap(graph.inEdges(node), sourceNodeFn(graph));
+        Map<E, N> outEdgeMap = Maps.asMap(graph.outEdges(node), targetNodeFn(graph));
+        int selfLoopCount = graph.edgesConnecting(node, node).size();
+        return graph.allowsParallelEdges() ? DirectedMultiNetworkConnections.ofImmutable(inEdgeMap, outEdgeMap, selfLoopCount) : DirectedNetworkConnections.ofImmutable(inEdgeMap, outEdgeMap, selfLoopCount);
+    } else {
+        Map<E, N> incidentEdgeMap = Maps.asMap(graph.incidentEdges(node), adjacentNodeFn(graph, node));
+        return graph.allowsParallelEdges() ? UndirectedMultiNetworkConnections.ofImmutable(incidentEdgeMap) : UndirectedNetworkConnections.ofImmutable(incidentEdgeMap);
+    }
+}

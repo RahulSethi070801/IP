@@ -1,0 +1,3 @@
+protected int standardIndexOf(@Nullable Object element) {
+    return Lists.indexOfImpl(this, element);
+}

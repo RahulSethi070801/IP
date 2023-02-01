@@ -1,0 +1,7 @@
+
+   * Implementing classes should invoke this method once their service has stopped. It will cause
+   * the service to transition from {@link State#STOPPING} to {@link State#TERMINATED}.
+   *
+   * @throws IllegalStateException if the service is neither {@link State#STOPPING} nor {@link
+   *     State#RUNNING}.
+   

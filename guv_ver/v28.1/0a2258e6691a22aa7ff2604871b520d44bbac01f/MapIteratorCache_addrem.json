@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "50": "  @Nullable private transient Entry<K, V> entrySetCache;\n",
+        "57": "  public V put(@Nullable K key, @Nullable V value) {\n",
+        "63": "  public V remove(@Nullable Object key) {\n",
+        "73": "  public V get(@Nullable Object key) {\n",
+        "78": "  public final V getWithoutCaching(@Nullable Object key) {\n",
+        "82": "  public final boolean containsKey(@Nullable Object key) {\n",
+        "113": "      public boolean contains(@Nullable Object key) {\n",
+        "121": "  protected V getIfCached(@Nullable Object key) {\n"
+    },
+    "removed": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "50": "  @NullableDecl private transient Entry<K, V> entrySetCache;\n",
+        "57": "  public V put(@NullableDecl K key, @NullableDecl V value) {\n",
+        "63": "  public V remove(@NullableDecl Object key) {\n",
+        "73": "  public V get(@NullableDecl Object key) {\n",
+        "78": "  public final V getWithoutCaching(@NullableDecl Object key) {\n",
+        "82": "  public final boolean containsKey(@NullableDecl Object key) {\n",
+        "113": "      public boolean contains(@NullableDecl Object key) {\n",
+        "121": "  protected V getIfCached(@NullableDecl Object key) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public final StringBuilder appendTo(StringBuilder builder, @Nullable Object first, @Nullable Object second, Object... rest) {
+    return appendTo(builder, iterable(first, second, rest));
+}

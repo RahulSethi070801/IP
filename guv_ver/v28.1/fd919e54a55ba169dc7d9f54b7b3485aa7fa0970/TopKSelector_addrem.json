@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "37": " * <p>If your input data is available as an {@link Iterable} or {@link Iterator}, prefer {@link\n",
+        "38": " * Ordering#leastOf(Iterable, int)}, which provides the same implementation with an interface\n",
+        "39": " * tailored to that use case.\n",
+        "42": " * offering expected O(n + k log k) performance (worst case O(n log k)) for n calls to {@link\n",
+        "43": " * #offer} and a call to {@link #topK}, with O(k) memory. In comparison, quickselect has the same\n",
+        "44": " * asymptotics but requires O(n) memory, and a {@code PriorityQueue} implementation takes O(n log\n",
+        "45": " * k). In benchmarks, this implementation performs at least as well as either implementation, and\n",
+        "46": " * degrades more gracefully for worst-case input.\n",
+        "124": "   * Adds {@code elem} as a candidate for the top {@code k} elements. This operation takes amortized\n",
+        "125": "   * O(1) time.\n",
+        "149": "   * Quickselects the top k elements from the 2k elements in the buffer. O(k) expected time, O(k log\n",
+        "150": "   * k) worst case.\n",
+        "224": "   * <p>If all input data to this {@code TopKSelector} is in a single {@code Iterable}, prefer\n",
+        "225": "   * {@link Ordering#leastOf(Iterable, int)}, which provides a simpler API for that use case.\n",
+        "236": "   * <p>If all input data to this {@code TopKSelector} is in a single {@code Iterator}, prefer\n",
+        "237": "   * {@link Ordering#leastOf(Iterator, int)}, which provides a simpler API for that use case.\n"
+    },
+    "removed": {
+        "37": " * <p>If your input data is available as an {@link Iterable} or {@link Iterator}, prefer\n",
+        "38": " * {@link Ordering#leastOf(Iterable, int)}, which provides the same implementation with an\n",
+        "39": " * interface tailored to that use case.\n",
+        "42": " * offering expected O(n + k log k) performance (worst case O(n log k)) for n calls to\n",
+        "43": " * {@link #offer} and a call to {@link #topK}, with O(k) memory. In comparison, quickselect has the\n",
+        "44": " * same asymptotics but requires O(n) memory, and a {@code PriorityQueue} implementation takes O(n\n",
+        "45": " * log k). In benchmarks, this implementation performs at least as well as either implementation,\n",
+        "46": " * and degrades more gracefully for worst-case input.\n",
+        "124": "   * Adds {@code elem} as a candidate for the top {@code k} elements. This operation takes\n",
+        "125": "   * amortized O(1) time.\n",
+        "149": "   * Quickselects the top k elements from the 2k elements in the buffer.  O(k) expected time,\n",
+        "150": "   * O(k log k) worst case.\n",
+        "224": "   * <p>If all input data to this {@code TopKSelector} is in a single {@code Iterable},\n",
+        "225": "   * prefer {@link Ordering#leastOf(Iterable, int)}, which provides a simpler API for that use\n",
+        "226": "   * case.\n",
+        "237": "   * <p>If all input data to this {@code TopKSelector} is in a single {@code Iterator},\n",
+        "238": "   * prefer {@link Ordering#leastOf(Iterator, int)}, which provides a simpler API for that use\n",
+        "239": "   * case.\n"
+    }
+}

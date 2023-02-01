@@ -1,0 +1,23 @@
+static byte[] toByteArray(InputStream in, int expectedSize) throws IOException {
+    byte[] bytes = new byte[expectedSize];
+    int remaining = expectedSize;
+    while (remaining > 0) {
+        int off = expectedSize - remaining;
+        int read = in.read(bytes, off, remaining);
+        if (read == -1) {
+            return Arrays.copyOf(bytes, off);
+        }
+        remaining -= read;
+    }
+    int b = in.read();
+    if (b == -1) {
+        return bytes;
+    }
+    FastByteArrayOutputStream out = new FastByteArrayOutputStream();
+    out.write(b);
+    copy(in, out);
+    byte[] result = new byte[bytes.length + out.size()];
+    System.arraycopy(bytes, 0, result, 0, bytes.length);
+    out.writeTo(result, bytes.length);
+    return result;
+}

@@ -1,0 +1,5 @@
+public static void verify(boolean expression, @NullableDecl String errorMessageTemplate, int p1, int p2) {
+    if (!expression) {
+        throw new VerifyException(format(errorMessageTemplate, p1, p2));
+    }
+}

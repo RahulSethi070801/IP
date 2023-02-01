@@ -1,0 +1,594 @@
+ReferenceEntry<K, V> removeEntryFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry)
+V get(K key) throws ExecutionException
+
+ReferenceEntry<K, V> removeEntryFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry)
+V get(K key) throws ExecutionException
+
+ReferenceEntry<K, V> removeEntryFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry)
+V get(K key) throws ExecutionException
+
+public double averageLoadPenalty()
+V get(K key) throws ExecutionException
+
+public double averageLoadPenalty()
+V get(K key) throws ExecutionException
+
+public double averageLoadPenalty()
+V get(K key) throws ExecutionException
+
+protected abstract void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+protected abstract void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+protected abstract void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public int size()
+V get(K key) throws ExecutionException
+
+public int size()
+V get(K key) throws ExecutionException
+
+public int size()
+V get(K key) throws ExecutionException
+
+boolean reclaimKey(ReferenceEntry<K, V> entry, int hash)
+V get(K key) throws ExecutionException
+
+boolean reclaimKey(ReferenceEntry<K, V> entry, int hash)
+V get(K key) throws ExecutionException
+
+boolean reclaimKey(ReferenceEntry<K, V> entry, int hash)
+V get(K key) throws ExecutionException
+
+public void parse(CacheBuilderSpec spec, String key, String value)
+V get(K key) throws ExecutionException
+
+public void parse(CacheBuilderSpec spec, String key, String value)
+V get(K key) throws ExecutionException
+
+public void parse(CacheBuilderSpec spec, String key, String value)
+V get(K key) throws ExecutionException
+
+public static CacheBuilderSpec parse(String cacheBuilderSpecification)
+V get(K key) throws ExecutionException
+
+public static CacheBuilderSpec parse(String cacheBuilderSpecification)
+V get(K key) throws ExecutionException
+
+public static CacheBuilderSpec parse(String cacheBuilderSpecification)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> maximumSize(long size)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> maximumSize(long size)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> maximumSize(long size)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> initialCapacity(int initialCapacity)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> initialCapacity(int initialCapacity)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> initialCapacity(int initialCapacity)
+V get(K key) throws ExecutionException
+
+private static Long durationInNanos(long duration, @Nullable TimeUnit unit)
+V get(K key) throws ExecutionException
+
+private static Long durationInNanos(long duration, @Nullable TimeUnit unit)
+V get(K key) throws ExecutionException
+
+private static Long durationInNanos(long duration, @Nullable TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public void parse(CacheBuilderSpec spec, String key, @Nullable String value)
+V get(K key) throws ExecutionException
+
+public void parse(CacheBuilderSpec spec, String key, @Nullable String value)
+V get(K key) throws ExecutionException
+
+public void parse(CacheBuilderSpec spec, String key, @Nullable String value)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> maximumWeight(long weight)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> maximumWeight(long weight)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> maximumWeight(long weight)
+V get(K key) throws ExecutionException
+
+V replace(K key, int hash, V newValue)
+V get(K key) throws ExecutionException
+
+V replace(K key, int hash, V newValue)
+V get(K key) throws ExecutionException
+
+V replace(K key, int hash, V newValue)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> expireAfterAccess(long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> expireAfterAccess(long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> expireAfterAccess(long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public boolean isEmpty()
+V get(K key) throws ExecutionException
+
+public boolean isEmpty()
+V get(K key) throws ExecutionException
+
+public boolean isEmpty()
+V get(K key) throws ExecutionException
+
+boolean storeLoadedValue(K key, int hash, LoadingValueReference<K, V> oldValueReference, V newValue)
+V get(K key) throws ExecutionException
+
+boolean storeLoadedValue(K key, int hash, LoadingValueReference<K, V> oldValueReference, V newValue)
+V get(K key) throws ExecutionException
+
+boolean storeLoadedValue(K key, int hash, LoadingValueReference<K, V> oldValueReference, V newValue)
+V get(K key) throws ExecutionException
+
+boolean isExpired(ReferenceEntry<K, V> entry, long now)
+V get(K key) throws ExecutionException
+
+boolean isExpired(ReferenceEntry<K, V> entry, long now)
+V get(K key) throws ExecutionException
+
+boolean isExpired(ReferenceEntry<K, V> entry, long now)
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getNextInAccessQueue()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getNextInAccessQueue()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getNextInAccessQueue()
+V get(K key) throws ExecutionException
+
+public void setPreviousInAccessQueue(ReferenceEntry<K, V> previous)
+V get(K key) throws ExecutionException
+
+public void setPreviousInAccessQueue(ReferenceEntry<K, V> previous)
+V get(K key) throws ExecutionException
+
+public void setPreviousInAccessQueue(ReferenceEntry<K, V> previous)
+V get(K key) throws ExecutionException
+
+public String toString()
+V get(K key) throws ExecutionException
+
+public String toString()
+V get(K key) throws ExecutionException
+
+public String toString()
+V get(K key) throws ExecutionException
+
+public int hashCode()
+V get(K key) throws ExecutionException
+
+public int hashCode()
+V get(K key) throws ExecutionException
+
+public int hashCode()
+V get(K key) throws ExecutionException
+
+public void setPreviousInWriteQueue(ReferenceEntry<K, V> previous)
+V get(K key) throws ExecutionException
+
+public void setPreviousInWriteQueue(ReferenceEntry<K, V> previous)
+V get(K key) throws ExecutionException
+
+public void setPreviousInWriteQueue(ReferenceEntry<K, V> previous)
+V get(K key) throws ExecutionException
+
+public V get(K key, final Callable<? extends V> valueLoader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+public V get(K key, final Callable<? extends V> valueLoader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+public V get(K key, final Callable<? extends V> valueLoader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+public static RemovalListener<K, V> asynchronous(final RemovalListener<K, V> listener, final Executor executor)
+V get(K key) throws ExecutionException
+
+public static RemovalListener<K, V> asynchronous(final RemovalListener<K, V> listener, final Executor executor)
+V get(K key) throws ExecutionException
+
+public static RemovalListener<K, V> asynchronous(final RemovalListener<K, V> listener, final Executor executor)
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<Object, Object> getEntry()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<Object, Object> getEntry()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<Object, Object> getEntry()
+V get(K key) throws ExecutionException
+
+ReferenceEntry<K, V> removeValueFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry, @Nullable K key, int hash, V value, ValueReference<K, V> valueReference, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+ReferenceEntry<K, V> removeValueFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry, @Nullable K key, int hash, V value, ValueReference<K, V> valueReference, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+ReferenceEntry<K, V> removeValueFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry, @Nullable K key, int hash, V value, ValueReference<K, V> valueReference, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+V getAndRecordStats(K key, int hash, LoadingValueReference<K, V> loadingValueReference, ListenableFuture<V> newValue) throws ExecutionException
+V get(K key) throws ExecutionException
+
+V getAndRecordStats(K key, int hash, LoadingValueReference<K, V> loadingValueReference, ListenableFuture<V> newValue) throws ExecutionException
+V get(K key) throws ExecutionException
+
+V getAndRecordStats(K key, int hash, LoadingValueReference<K, V> loadingValueReference, ListenableFuture<V> newValue) throws ExecutionException
+V get(K key) throws ExecutionException
+
+protected void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+protected void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+protected void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+public boolean matches(char c)
+V get(K key) throws ExecutionException
+
+public boolean matches(char c)
+V get(K key) throws ExecutionException
+
+public boolean matches(char c)
+V get(K key) throws ExecutionException
+
+boolean remove(Object key, int hash, Object value)
+V get(K key) throws ExecutionException
+
+boolean remove(Object key, int hash, Object value)
+V get(K key) throws ExecutionException
+
+boolean remove(Object key, int hash, Object value)
+V get(K key) throws ExecutionException
+
+void removeCollectedEntry(ReferenceEntry<K, V> entry)
+V get(K key) throws ExecutionException
+
+void removeCollectedEntry(ReferenceEntry<K, V> entry)
+V get(K key) throws ExecutionException
+
+void removeCollectedEntry(ReferenceEntry<K, V> entry)
+V get(K key) throws ExecutionException
+
+public void putAll(Map<? extends K, ? extends V> m)
+V get(K key) throws ExecutionException
+
+public void putAll(Map<? extends K, ? extends V> m)
+V get(K key) throws ExecutionException
+
+public void putAll(Map<? extends K, ? extends V> m)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> expireAfterWrite(long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> expireAfterWrite(long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> expireAfterWrite(long duration, TimeUnit unit)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> concurrencyLevel(int concurrencyLevel)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> concurrencyLevel(int concurrencyLevel)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K, V> concurrencyLevel(int concurrencyLevel)
+V get(K key) throws ExecutionException
+
+public boolean equals(@Nullable Object obj)
+V get(K key) throws ExecutionException
+
+public boolean equals(@Nullable Object obj)
+V get(K key) throws ExecutionException
+
+public boolean equals(@Nullable Object obj)
+V get(K key) throws ExecutionException
+
+public void setNextInWriteQueue(ReferenceEntry<K, V> next)
+V get(K key) throws ExecutionException
+
+public void setNextInWriteQueue(ReferenceEntry<K, V> next)
+V get(K key) throws ExecutionException
+
+public void setNextInWriteQueue(ReferenceEntry<K, V> next)
+V get(K key) throws ExecutionException
+
+void clear()
+V get(K key) throws ExecutionException
+
+void clear()
+V get(K key) throws ExecutionException
+
+void clear()
+V get(K key) throws ExecutionException
+
+boolean removeEntry(ReferenceEntry<K, V> entry, int hash, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+boolean removeEntry(ReferenceEntry<K, V> entry, int hash, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+boolean removeEntry(ReferenceEntry<K, V> entry, int hash, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+V loadSync(K key, int hash, LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+V loadSync(K key, int hash, LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+V loadSync(K key, int hash, LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+public void setNextInAccessQueue(ReferenceEntry<K, V> next)
+V get(K key) throws ExecutionException
+
+public void setNextInAccessQueue(ReferenceEntry<K, V> next)
+V get(K key) throws ExecutionException
+
+public void setNextInAccessQueue(ReferenceEntry<K, V> next)
+V get(K key) throws ExecutionException
+
+protected void parseInteger(CacheBuilderSpec spec, int value)
+V get(K key) throws ExecutionException
+
+protected void parseInteger(CacheBuilderSpec spec, int value)
+V get(K key) throws ExecutionException
+
+protected void parseInteger(CacheBuilderSpec spec, int value)
+V get(K key) throws ExecutionException
+
+LoadingValueReference<K, V> insertLoadingValueReference(final K key, final int hash, boolean checkTime)
+V get(K key) throws ExecutionException
+
+LoadingValueReference<K, V> insertLoadingValueReference(final K key, final int hash, boolean checkTime)
+V get(K key) throws ExecutionException
+
+LoadingValueReference<K, V> insertLoadingValueReference(final K key, final int hash, boolean checkTime)
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getPreviousInWriteQueue()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getPreviousInWriteQueue()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getPreviousInWriteQueue()
+V get(K key) throws ExecutionException
+
+public Object get()
+V get(K key) throws ExecutionException
+
+public Object get()
+V get(K key) throws ExecutionException
+
+public Object get()
+V get(K key) throws ExecutionException
+
+V lockedGetOrLoad(K key, int hash, CacheLoader<? super K, V> loader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+V lockedGetOrLoad(K key, int hash, CacheLoader<? super K, V> loader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+V lockedGetOrLoad(K key, int hash, CacheLoader<? super K, V> loader) throws ExecutionException
+V get(K key) throws ExecutionException
+
+V scheduleRefresh(ReferenceEntry<K, V> entry, K key, int hash, V oldValue, long now, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+V scheduleRefresh(ReferenceEntry<K, V> entry, K key, int hash, V oldValue, long now, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+V scheduleRefresh(ReferenceEntry<K, V> entry, K key, int hash, V oldValue, long now, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+CacheBuilder<K, V> valueEquivalence(Equivalence<Object> equivalence)
+V get(K key) throws ExecutionException
+
+CacheBuilder<K, V> valueEquivalence(Equivalence<Object> equivalence)
+V get(K key) throws ExecutionException
+
+CacheBuilder<K, V> valueEquivalence(Equivalence<Object> equivalence)
+V get(K key) throws ExecutionException
+
+void enqueueNotification(@Nullable K key, int hash, @Nullable V value, int weight, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+void enqueueNotification(@Nullable K key, int hash, @Nullable V value, int weight, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+void enqueueNotification(@Nullable K key, int hash, @Nullable V value, int weight, RemovalCause cause)
+V get(K key) throws ExecutionException
+
+public LoadingCache<K1, V1> build(CacheLoader<? super K1, V1> loader)
+V get(K key) throws ExecutionException
+
+public LoadingCache<K1, V1> build(CacheLoader<? super K1, V1> loader)
+V get(K key) throws ExecutionException
+
+public LoadingCache<K1, V1> build(CacheLoader<? super K1, V1> loader)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K1, V1> weigher(Weigher<? super K1, ? super V1> weigher)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K1, V1> weigher(Weigher<? super K1, ? super V1> weigher)
+V get(K key) throws ExecutionException
+
+public CacheBuilder<K1, V1> weigher(Weigher<? super K1, ? super V1> weigher)
+V get(K key) throws ExecutionException
+
+boolean removeLoadingValue(K key, int hash, LoadingValueReference<K, V> valueReference)
+V get(K key) throws ExecutionException
+
+boolean removeLoadingValue(K key, int hash, LoadingValueReference<K, V> valueReference)
+V get(K key) throws ExecutionException
+
+boolean removeLoadingValue(K key, int hash, LoadingValueReference<K, V> valueReference)
+V get(K key) throws ExecutionException
+
+V remove(Object key, int hash)
+V get(K key) throws ExecutionException
+
+V remove(Object key, int hash)
+V get(K key) throws ExecutionException
+
+V remove(Object key, int hash)
+V get(K key) throws ExecutionException
+
+public void clear()
+V get(K key) throws ExecutionException
+
+public void clear()
+V get(K key) throws ExecutionException
+
+public void clear()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getNextInWriteQueue()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getNextInWriteQueue()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getNextInWriteQueue()
+V get(K key) throws ExecutionException
+
+CacheBuilder<K, V> recreateCacheBuilder()
+V get(K key) throws ExecutionException
+
+CacheBuilder<K, V> recreateCacheBuilder()
+V get(K key) throws ExecutionException
+
+CacheBuilder<K, V> recreateCacheBuilder()
+V get(K key) throws ExecutionException
+
+boolean replace(K key, int hash, V oldValue, V newValue)
+V get(K key) throws ExecutionException
+
+boolean replace(K key, int hash, V oldValue, V newValue)
+V get(K key) throws ExecutionException
+
+boolean replace(K key, int hash, V oldValue, V newValue)
+V get(K key) throws ExecutionException
+
+boolean reclaimValue(K key, int hash, ValueReference<K, V> valueReference)
+V get(K key) throws ExecutionException
+
+boolean reclaimValue(K key, int hash, ValueReference<K, V> valueReference)
+V get(K key) throws ExecutionException
+
+boolean reclaimValue(K key, int hash, ValueReference<K, V> valueReference)
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getPreviousInAccessQueue()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getPreviousInAccessQueue()
+V get(K key) throws ExecutionException
+
+public ReferenceEntry<K, V> getPreviousInAccessQueue()
+V get(K key) throws ExecutionException
+
+long getExpireAfterAccessNanos()
+V get(K key) throws ExecutionException
+
+long getExpireAfterAccessNanos()
+V get(K key) throws ExecutionException
+
+long getExpireAfterAccessNanos()
+V get(K key) throws ExecutionException
+
+ListenableFuture<V> loadAsync(final K key, final int hash, final LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+ListenableFuture<V> loadAsync(final K key, final int hash, final LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+ListenableFuture<V> loadAsync(final K key, final int hash, final LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader)
+V get(K key) throws ExecutionException
+
+public ListenableFuture<V> reload(final K key, final V oldValue) throws Exception
+V get(K key) throws ExecutionException
+
+public ListenableFuture<V> reload(final K key, final V oldValue) throws Exception
+V get(K key) throws ExecutionException
+
+public ListenableFuture<V> reload(final K key, final V oldValue) throws Exception
+V get(K key) throws ExecutionException
+
+V put(K key, int hash, V value, boolean onlyIfAbsent)
+V get(K key) throws ExecutionException
+
+V put(K key, int hash, V value, boolean onlyIfAbsent)
+V get(K key) throws ExecutionException
+
+V put(K key, int hash, V value, boolean onlyIfAbsent)
+V get(K key) throws ExecutionException
+
+public static CacheBuilder<Object, Object> from(CacheBuilderSpec spec)
+V get(K key) throws ExecutionException
+
+public static CacheBuilder<Object, Object> from(CacheBuilderSpec spec)
+V get(K key) throws ExecutionException
+
+public static CacheBuilder<Object, Object> from(CacheBuilderSpec spec)
+V get(K key) throws ExecutionException
+
+public double loadExceptionRate()
+V get(K key) throws ExecutionException
+
+public double loadExceptionRate()
+V get(K key) throws ExecutionException
+
+public double loadExceptionRate()
+V get(K key) throws ExecutionException
+
+protected void parseLong(CacheBuilderSpec spec, long value)
+V get(K key) throws ExecutionException
+
+protected void parseLong(CacheBuilderSpec spec, long value)
+V get(K key) throws ExecutionException
+
+protected void parseLong(CacheBuilderSpec spec, long value)
+V get(K key) throws ExecutionException
+

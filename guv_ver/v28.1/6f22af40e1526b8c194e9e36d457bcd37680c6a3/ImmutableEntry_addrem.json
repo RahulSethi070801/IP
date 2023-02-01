@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "29": "  ImmutableEntry(@NullableDecl K key, @NullableDecl V value) {\n",
+        "34": "  @NullableDecl\n",
+        "40": "  @NullableDecl\n"
+    },
+    "removed": {
+        "21": "import javax.annotation.Nullable;\n",
+        "29": "  ImmutableEntry(@Nullable K key, @Nullable V value) {\n",
+        "34": "  @Nullable\n",
+        "40": "  @Nullable\n"
+    }
+}

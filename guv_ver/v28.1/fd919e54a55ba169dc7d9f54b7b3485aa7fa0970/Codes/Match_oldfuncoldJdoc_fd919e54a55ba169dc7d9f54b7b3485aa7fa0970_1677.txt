@@ -1,0 +1,9 @@
+
+   * Starts the Finalizer thread. FinalizableReferenceQueue calls this method reflectively.
+   *
+   * @param finalizableReferenceClass FinalizableReference.class.
+   * @param queue a reference queue that the thread will poll.
+   * @param frqReference a phantom reference to the FinalizableReferenceQueue, which will be queued
+   *     either when the FinalizableReferenceQueue is no longer referenced anywhere, or when its
+   *     close() method is called.
+   

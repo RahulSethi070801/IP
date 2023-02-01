@@ -1,0 +1,50 @@
+com.google.common.util.concurrent.Futures
+catching
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback)
+ListenableFuture,Class,Function
+ListenableFuture
+com.google.common.util.concurrent.Futures
+addCallback
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+ListenableFuture,FutureCallback
+void
+com.google.common.util.concurrent.Futures
+catchingAsync
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+ListenableFuture,Class,AsyncFunction
+ListenableFuture
+com.google.common.util.concurrent.Futures
+transformAsync
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+ListenableFuture,AsyncFunction,Executor
+ListenableFuture
+com.google.common.util.concurrent.Futures
+addCallback
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+ListenableFuture,FutureCallback,Executor
+void
+com.google.common.util.concurrent.Futures
+transform
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+ListenableFuture,Function
+ListenableFuture
+com.google.common.util.concurrent.Futures
+transformAsync
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+ListenableFuture,AsyncFunction
+ListenableFuture
+com.google.common.util.concurrent.Futures
+transform
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+ListenableFuture,Function,Executor
+ListenableFuture
+com.google.common.util.concurrent.Futures
+catchingAsync
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+ListenableFuture,Class,AsyncFunction,Executor
+ListenableFuture
+com.google.common.util.concurrent.Futures
+catching
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+ListenableFuture,Class,Function,Executor
+ListenableFuture

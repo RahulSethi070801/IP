@@ -1,0 +1,4 @@
+@CheckReturnValue
+public final FluentIterable<E> limit(int size) {
+    return from(Iterables.limit(iterable, size));
+}

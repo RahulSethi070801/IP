@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "28": " * An implementation of {@link DataOutput} that uses little-endian byte ordering for writing {@code\n",
+        "29": " * char}, {@code short}, {@code int}, {@code float}, {@code double}, and {@code long} values.\n",
+        "31": " * <p><b>Note:</b> This class intentionally violates the specification of its supertype {@code\n",
+        "32": " * DataOutput}, which explicitly requires big-endian byte order.\n"
+    },
+    "removed": {
+        "28": " * An implementation of {@link DataOutput} that uses little-endian byte ordering for writing\n",
+        "29": " * {@code char}, {@code short}, {@code int}, {@code float}, {@code double}, and {@code long} values.\n",
+        "31": " * <p><b>Note:</b> This class intentionally violates the specification of its supertype\n",
+        "32": " * {@code DataOutput}, which explicitly requires big-endian byte order.\n"
+    }
+}

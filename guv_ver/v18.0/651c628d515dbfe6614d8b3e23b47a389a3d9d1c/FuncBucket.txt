@@ -1,0 +1,15 @@
+com.google.common.collect.DiscreteDomains
+DiscreteDomains
+private DiscreteDomains()
+empty
+constructor
+com.google.common.collect.DiscreteDomains
+integers
+public static DiscreteDomain<Integer> integers()
+empty
+DiscreteDomain
+com.google.common.collect.DiscreteDomains
+longs
+public static DiscreteDomain<Long> longs()
+empty
+DiscreteDomain

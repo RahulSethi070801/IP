@@ -1,0 +1,30 @@
+@Nullable
+private K putInverse(@Nullable V value, @Nullable K key, boolean force) {
+    int valueHash = smearedHash(value);
+    int keyHash = smearedHash(key);
+    BiEntry<K, V> oldEntryForValue = seekByValue(value, valueHash);
+    BiEntry<K, V> oldEntryForKey = seekByKey(key, keyHash);
+    if (oldEntryForValue != null && keyHash == oldEntryForValue.keyHash && Objects.equal(key, oldEntryForValue.key)) {
+        return key;
+    } else if (oldEntryForKey != null && !force) {
+        throw new IllegalArgumentException("key already present: " + key);
+    }
+    if (oldEntryForValue != null) {
+        delete(oldEntryForValue);
+    }
+    if (oldEntryForKey != null) {
+        delete(oldEntryForKey);
+    }
+    BiEntry<K, V> newEntry = new BiEntry<>(key, keyHash, value, valueHash);
+    insert(newEntry, oldEntryForKey);
+    if (oldEntryForKey != null) {
+        oldEntryForKey.prevInKeyInsertionOrder = null;
+        oldEntryForKey.nextInKeyInsertionOrder = null;
+    }
+    if (oldEntryForValue != null) {
+        oldEntryForValue.prevInKeyInsertionOrder = null;
+        oldEntryForValue.nextInKeyInsertionOrder = null;
+    }
+    rehashIfNecessary();
+    return Maps.keyOrNull(oldEntryForValue);
+}

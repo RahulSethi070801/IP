@@ -1,0 +1,1 @@
+ Uses a {@link HashMap} to map keys to value collections. 

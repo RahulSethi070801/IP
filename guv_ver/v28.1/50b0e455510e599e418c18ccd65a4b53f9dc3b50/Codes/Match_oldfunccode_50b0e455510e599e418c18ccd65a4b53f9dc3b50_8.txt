@@ -1,0 +1,10 @@
+@Override
+public Iterable<N> depthFirstPostOrder(final N startNode) {
+    return new Iterable<N>() {
+
+        @Override
+        public Iterator<N> iterator() {
+            return new DepthFirstPostOrderIterator(startNode);
+        }
+    };
+}

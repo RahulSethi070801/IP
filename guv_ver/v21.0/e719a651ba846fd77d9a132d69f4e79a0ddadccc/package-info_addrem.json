@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "16": " * This package contains utility methods and classes for working with Java I/O; for example input\n",
+        "17": " * streams, output streams, readers, writers, and files.\n",
+        "19": " * <p>At the core of this package are the Source/Sink types: {@link com.google.common.io.ByteSource\n",
+        "20": " * ByteSource}, {@link com.google.common.io.CharSource CharSource},\n",
+        "22": " * {@link com.google.common.io.CharSink CharSink}. They are factories for I/O streams that provide\n",
+        "23": " * many convenience methods that handle both opening and closing streams for you.\n",
+        "25": " * <p>This package is a part of the open-source <a href=\"http://github.com/google/guava\">Guava</a>\n",
+        "26": " * library. For more information on Sources and Sinks as well as other features of this package, see\n",
+        "27": " * <a href=\"https://github.com/google/guava/wiki/IOExplained\">I/O Explained</a> on the Guava wiki.\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "18": " * This package contains utility methods and classes for working with Java I/O;\n",
+        "19": " * for example input streams, output streams, readers, writers, and files.\n",
+        "21": " * <p>At the core of this package are the Source/Sink types:\n",
+        "22": " * {@link com.google.common.io.ByteSource ByteSource},\n",
+        "23": " * {@link com.google.common.io.CharSource CharSource},\n",
+        "25": " * {@link com.google.common.io.CharSink CharSink}. They are factories for I/O streams that\n",
+        "26": " * provide many convenience methods that handle both opening and closing streams for you.\n",
+        "28": " * <p>This package is a part of the open-source\n",
+        "29": " * <a href=\"http://github.com/google/guava\">Guava</a> library. For more information on\n",
+        "30": " * Sources and Sinks as well as other features of this package, see\n",
+        "31": " * <a href=\"https://github.com/google/guava/wiki/IOExplained\">I/O Explained</a> on the\n",
+        "32": " * Guava wiki.\n"
+    }
+}

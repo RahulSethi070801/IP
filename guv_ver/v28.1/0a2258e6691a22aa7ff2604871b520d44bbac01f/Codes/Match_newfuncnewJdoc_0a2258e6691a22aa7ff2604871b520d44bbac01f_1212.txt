@@ -1,0 +1,5 @@
+
+   * Returns an iterator containing only {@code value}.
+   *
+   * <p>The {@link Iterable} equivalent of this method is {@link Collections#singleton}.
+   

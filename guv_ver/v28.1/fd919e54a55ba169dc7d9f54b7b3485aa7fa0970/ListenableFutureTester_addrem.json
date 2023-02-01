@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "52": "    future.addListener(\n",
+        "53": "        new Runnable() {\n",
+        "54": "          @Override\n",
+        "55": "          public void run() {\n",
+        "56": "            latch.countDown();\n",
+        "57": "          }\n",
+        "58": "        },\n",
+        "59": "        exec);\n",
+        "82": "  public void testCancelledFuture() throws InterruptedException, ExecutionException {\n",
+        "93": "    } catch (CancellationException expected) {\n",
+        "94": "    }\n",
+        "97": "  public void testFailedFuture(@Nullable String message) throws InterruptedException {\n"
+    },
+    "removed": {
+        "52": "    future.addListener(new Runnable() {\n",
+        "53": "      @Override public void run() {\n",
+        "54": "        latch.countDown();\n",
+        "55": "      }\n",
+        "56": "    }, exec);\n",
+        "79": "  public void testCancelledFuture()\n",
+        "80": "      throws InterruptedException, ExecutionException {\n",
+        "91": "    } catch (CancellationException expected) {}\n",
+        "94": "  public void testFailedFuture(@Nullable String message)\n",
+        "95": "      throws InterruptedException {\n"
+    }
+}

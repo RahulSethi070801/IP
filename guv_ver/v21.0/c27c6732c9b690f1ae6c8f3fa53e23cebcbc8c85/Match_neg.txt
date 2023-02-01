@@ -1,0 +1,6 @@
+private static PatternCompiler loadPatternCompiler()
+public List<E> leastOf(Iterable<E> iterable, int k)
+
+private static PatternCompiler loadPatternCompiler()
+public List<E> leastOf(Iterable<E> iterable, int k)
+

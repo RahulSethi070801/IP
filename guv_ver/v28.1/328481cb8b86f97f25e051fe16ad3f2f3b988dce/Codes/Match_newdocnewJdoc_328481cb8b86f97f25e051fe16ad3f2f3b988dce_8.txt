@@ -1,0 +1,13 @@
+
+   * Implements {@code Collection.remove} safely for forwarding collections of
+   * map entries. If {@code o} is an instance of {@code Entry}, it is
+   * wrapped using {@link #unmodifiableEntry} to protect against a possible
+   * nefarious equals method.
+   *
+   * <p>Note that {@code c} is backing (delegate) collection, rather than the
+   * forwarding collection.
+   *
+   * @param c the delegate (unwrapped) collection of map entries
+   * @param o the object to remove from {@code c}
+   * @return {@code true} if {@code c} was changed
+   

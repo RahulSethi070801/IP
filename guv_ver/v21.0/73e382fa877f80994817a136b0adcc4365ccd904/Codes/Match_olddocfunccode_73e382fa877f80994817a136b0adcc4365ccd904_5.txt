@@ -1,0 +1,3 @@
+public final ImmutableList<E> toSortedList(Comparator<? super E> comparator) {
+    return Ordering.from(comparator).immutableSortedCopy(getDelegate());
+}

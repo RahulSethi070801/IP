@@ -1,0 +1,4 @@
+AbstractConfigurableGraph
+Insertions: [61, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 95, 99, 100, 101, 102, 103, 104, 120, 121, 122, 123, 124]
+Deletions: [55, 69, 70, 71, 72]
+guava/src/com/google/common/graph/AbstractConfigurableGraph.java

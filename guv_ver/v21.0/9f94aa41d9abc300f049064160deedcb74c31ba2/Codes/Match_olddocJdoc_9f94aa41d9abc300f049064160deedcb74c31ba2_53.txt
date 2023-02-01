@@ -1,0 +1,25 @@
+
+   * Returns the value associated with {@code key} in this cache, first loading that value if
+   * necessary. No observable state associated with this cache is modified until loading completes.
+   *
+   * <p>If another call to {@link #get} or {@link #getUnchecked} is currently loading the value for
+   * {@code key}, simply waits for that thread to finish and returns its loaded value. Note that
+   * multiple threads can concurrently load values for distinct keys.
+   *
+   * <p>Caches loaded by a {@link CacheLoader} will call {@link CacheLoader#load} to load new values
+   * into the cache. Newly loaded values are added to the cache using
+   * {@code Cache.asMap().putIfAbsent} after loading has completed; if another value was associated
+   * with {@code key} while the new value was loading then a removal notification will be sent for
+   * the new value.
+   *
+   * <p>If the cache loader associated with this cache is known not to throw checked
+   * exceptions, then prefer {@link #getUnchecked} over this method.
+   *
+   * @throws ExecutionException if a checked exception was thrown while loading the value. ({@code
+   *     ExecutionException} is thrown <a
+   *     href="https://github.com/google/guava/wiki/CachesExplained#interruption">even if
+   *     computation was interrupted by an {@code InterruptedException}</a>.)
+   * @throws UncheckedExecutionException if an unchecked exception was thrown while loading the
+   *     value
+   * @throws ExecutionError if an error was thrown while loading the value
+   

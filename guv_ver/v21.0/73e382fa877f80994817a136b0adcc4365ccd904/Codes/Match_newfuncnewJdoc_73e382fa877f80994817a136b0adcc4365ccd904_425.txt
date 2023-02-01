@@ -1,0 +1,4 @@
+
+   * Returns a predicate that returns the result of {@link Files#isDirectory(Path, LinkOption...)}
+   * on input paths with the given link options.
+   

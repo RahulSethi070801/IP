@@ -1,0 +1,6 @@
+@Override
+public V setValue(@Nullable V newValue) {
+    V result = value;
+    this.value = newValue;
+    return result;
+}

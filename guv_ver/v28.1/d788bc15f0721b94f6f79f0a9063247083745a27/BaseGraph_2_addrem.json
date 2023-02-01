@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "95": "  /**\n",
+        "96": "   * Returns the edges in this graph whose endpoints include {@code node}.\n",
+        "97": "   *\n",
+        "98": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "99": "   */\n",
+        "100": "  Set<EndpointPair<N>> incidentEdges(N node);\n",
+        "101": "\n",
+        "108": "   * <p>For undirected graphs, this is equal to {@code incidentEdges(node).size()} + (number of\n",
+        "109": "   * self-loops incident to {@code node}).\n"
+    },
+    "removed": {
+        "101": "   * <p>For undirected graphs, this is equal to {@code adjacentNodes(node).size()} + (1 if {@code\n",
+        "102": "   * node} has an incident self-loop, 0 otherwise).\n"
+    }
+}

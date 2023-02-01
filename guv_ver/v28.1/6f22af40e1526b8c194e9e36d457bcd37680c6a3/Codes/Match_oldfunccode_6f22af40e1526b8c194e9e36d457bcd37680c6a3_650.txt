@@ -1,0 +1,6 @@
+@Override
+@SuppressWarnings("unchecked")
+@Nullable
+public <T extends B> T getInstance(Class<T> type) {
+    return (T) delegate.get(checkNotNull(type));
+}

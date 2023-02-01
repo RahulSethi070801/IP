@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "30": " * A generic JUnit test which tests {@code forEach} operations on a collection. Can't be invoked\n",
+        "31": " * directly; please see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "41": "    Helpers.assertEqualIgnoringOrder(Arrays.asList(createSamplesArray()), elements);\n"
+    },
+    "removed": {
+        "30": " * A generic JUnit test which tests {@code forEach} operations on a collection.\n",
+        "31": " * Can't be invoked directly; please see\n",
+        "32": " * {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "42": "    Helpers.assertEqualIgnoringOrder(\n",
+        "43": "        Arrays.asList(createSamplesArray()), elements);\n"
+    }
+}

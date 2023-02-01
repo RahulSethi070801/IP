@@ -1,0 +1,4 @@
+
+     * Two instances are considered equal if their {@link #leftValue()} values are equal and their
+     * {@link #rightValue()} values are also equal.
+     

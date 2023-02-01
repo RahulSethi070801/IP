@@ -1,0 +1,3 @@
+
+     * Removes an entry whose value has been garbage collected.
+     

@@ -1,0 +1,4 @@
+@Override
+final Spliterator<Cell<R, C, V>> cellSpliterator() {
+    throw new AssertionError("should never be called");
+}

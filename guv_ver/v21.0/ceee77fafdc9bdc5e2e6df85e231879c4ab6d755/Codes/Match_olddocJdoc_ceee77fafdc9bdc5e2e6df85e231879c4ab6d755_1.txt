@@ -1,0 +1,7 @@
+
+   * {@inheritDoc}
+   *
+   * <p>The order of iteration for this set is determined by the {@code ElementOrder<E>} provided
+   * to the {@code GraphBuilder} that was used to create this instance.
+   * By default, that order is the order in which the edges were added to the graph.
+   

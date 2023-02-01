@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "87": "    // TODO(lukes): Consider throwing InterruptedException when appropriate.\n"
+    },
+    "removed": {
+        "36": "  /*\n",
+        "37": "   * TODO(lukes): Use AbstractFuture.TrustedFuture instead of special classes so that get() throws\n",
+        "38": "   * InterruptedException when appropriate, and, more importantly for failed/cancelled Futures, we\n",
+        "39": "   * can take advantage of the TrustedFuture optimizations.\n",
+        "40": "   */\n"
+    }
+}

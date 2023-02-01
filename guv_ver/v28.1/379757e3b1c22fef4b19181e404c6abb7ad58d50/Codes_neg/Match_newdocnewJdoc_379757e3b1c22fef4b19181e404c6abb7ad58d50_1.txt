@@ -1,0 +1,5 @@
+
+   * Returns a hash function implementing the SHA-384 algorithm (384 hash bits).
+   *
+   * @since 19.0
+   

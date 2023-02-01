@@ -1,0 +1,8 @@
+
+   * Ensures that {@code reference} is non-null, throwing a {@code VerifyException} with a default
+   * message otherwise.
+   *
+   * @return {@code reference}, guaranteed to be non-null, for convenience
+   * @throws VerifyException if {@code reference} is {@code null}
+   * @see Preconditions#checkNotNull Preconditions.checkNotNull()
+   

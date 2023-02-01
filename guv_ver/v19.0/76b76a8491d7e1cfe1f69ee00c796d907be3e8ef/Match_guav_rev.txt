@@ -1,0 +1,9 @@
+public static BloomFilter<T> create(Funnel<? super T> funnel, long expectedInsertions)
+public static BloomFilter<T> create(Funnel<? super T> funnel, int expectedInsertions, double fpp)
+
+public static BloomFilter<T> create(Funnel<? super T> funnel, long expectedInsertions)
+public static BloomFilter<T> create(Funnel<? super T> funnel, long expectedInsertions, double fpp)
+
+public static BloomFilter<T> create(Funnel<? super T> funnel, long expectedInsertions)
+public static BloomFilter<T> create(Funnel<? super T> funnel, int expectedInsertions)
+

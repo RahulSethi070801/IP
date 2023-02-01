@@ -1,0 +1,1 @@
+int outDegree(Object node);

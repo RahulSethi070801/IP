@@ -1,0 +1,10 @@
+public void removeAllZeros() {
+    Iterator<Map.Entry<K, AtomicLong>> entryIterator = map.entrySet().iterator();
+    while (entryIterator.hasNext()) {
+        Map.Entry<K, AtomicLong> entry = entryIterator.next();
+        AtomicLong atomic = entry.getValue();
+        if (atomic != null && atomic.get() == 0L) {
+            entryIterator.remove();
+        }
+    }
+}

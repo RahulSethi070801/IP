@@ -1,0 +1,4 @@
+@Override
+public NavigableSet<E> headSet(@ParametricNullness E toElement, boolean inclusive) {
+    return new NavigableElementSet<E>(multiset().headMultiset(toElement, BoundType.forBoolean(inclusive)));
+}

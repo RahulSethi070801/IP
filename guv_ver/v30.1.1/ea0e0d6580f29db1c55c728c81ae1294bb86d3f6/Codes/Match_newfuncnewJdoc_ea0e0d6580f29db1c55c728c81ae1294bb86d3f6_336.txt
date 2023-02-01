@@ -1,0 +1,12 @@
+
+   * Returns a view of this multiset restricted to the range between {@code lowerBound} and {@code
+   * upperBound}. The returned multiset is a view of this multiset, so changes to one will be
+   * reflected in the other. The returned multiset supports all operations that this multiset
+   * supports.
+   *
+   * <p>The returned multiset will throw an {@link IllegalArgumentException} on attempts to add
+   * elements outside its range.
+   *
+   * <p>This method is equivalent to {@code tailMultiset(lowerBound,
+   * lowerBoundType).headMultiset(upperBound, upperBoundType)}.
+   

@@ -1,0 +1,6 @@
+private void workOnQueue()
+public static Executor sequentialExecutor(Executor delegate)
+
+private void workOnQueue()
+public static Executor sequentialExecutor(Executor delegate)
+

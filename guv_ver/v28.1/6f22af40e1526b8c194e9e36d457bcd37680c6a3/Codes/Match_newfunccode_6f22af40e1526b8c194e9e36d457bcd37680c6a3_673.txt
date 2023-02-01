@@ -1,0 +1,7 @@
+@Override
+Collection<V> createCollection(@NullableDecl K key) {
+    if (key == null) {
+        keyComparator().compare(key, key);
+    }
+    return super.createCollection(key);
+}

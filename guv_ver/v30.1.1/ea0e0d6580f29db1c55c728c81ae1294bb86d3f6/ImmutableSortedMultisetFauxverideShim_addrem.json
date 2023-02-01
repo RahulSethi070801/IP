@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "18": "import com.google.errorprone.annotations.DoNotCall;\n",
+        "38": "@ElementTypesAreNonnullByDefault\n",
+        "48": "  @DoNotCall(\"Use naturalOrder.\")\n",
+        "63": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "78": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "93": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "108": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "124": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "140": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n",
+        "156": "  @DoNotCall(\"Elements must be Comparable. (Or, pass a Comparator to orderedBy or copyOf.)\")\n"
+    },
+    "removed": {}
+}

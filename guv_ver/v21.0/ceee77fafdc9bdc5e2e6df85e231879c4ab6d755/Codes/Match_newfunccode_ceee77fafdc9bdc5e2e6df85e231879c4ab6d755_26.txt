@@ -1,0 +1,1 @@
+ValueGraph<N, Set<E>> asGraph();

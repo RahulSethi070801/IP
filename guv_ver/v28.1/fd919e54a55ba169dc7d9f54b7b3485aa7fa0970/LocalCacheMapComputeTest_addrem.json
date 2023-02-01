@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "26": "/** Test Java8 map.compute in concurrent cache context. */\n",
+        "50": "    doParallelCacheOp(\n",
+        "51": "        count,\n",
+        "52": "        n -> {\n",
+        "53": "          cache.asMap().computeIfAbsent(key, k -> \"value\" + n);\n",
+        "54": "        });\n",
+        "61": "    doParallelCacheOp(\n",
+        "62": "        count,\n",
+        "63": "        n -> {\n",
+        "64": "          cache.asMap().computeIfPresent(key, (k, v) -> v + delimiter + n);\n",
+        "65": "        });\n",
+        "73": "    doParallelCacheOp(\n",
+        "74": "        count,\n",
+        "75": "        n -> {\n",
+        "76": "          cache.asMap().compute(key, (k, v) -> n % 2 == 0 ? v + delimiter + n : null);\n",
+        "77": "        });\n",
+        "84": "    doParallelCacheOp(\n",
+        "85": "        count,\n",
+        "86": "        n -> {\n",
+        "87": "          cache.asMap().compute(key, (k, v) -> null);\n",
+        "88": "        });\n"
+    },
+    "removed": {
+        "26": "/**\n",
+        "27": " * Test Java8 map.compute in concurrent cache context.\n",
+        "28": " */\n",
+        "52": "    doParallelCacheOp(count, n -> {\n",
+        "53": "      cache.asMap().computeIfAbsent(key, k -> \"value\" + n);\n",
+        "54": "    });\n",
+        "61": "    doParallelCacheOp(count, n -> {\n",
+        "62": "      cache.asMap().computeIfPresent(key, (k, v) -> v + delimiter + n);\n",
+        "63": "    });\n",
+        "71": "    doParallelCacheOp(count, n -> {\n",
+        "72": "      cache.asMap().compute(key, (k, v) -> n % 2 == 0 ? v + delimiter + n : null);\n",
+        "73": "    });\n",
+        "80": "    doParallelCacheOp(count, n -> {\n",
+        "81": "      cache.asMap().compute(key, (k, v) -> null);\n",
+        "82": "    });\n"
+    }
+}

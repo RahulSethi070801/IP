@@ -1,0 +1,4 @@
+TestsForQueuesInJavaUtil_2
+Insertions: [39, 40, 107, 108, 109, 110, 111, 112, 113]
+Deletions: [39, 40, 41, 108, 109, 110, 111, 112, 113, 114]
+guava-testlib/src/com/google/common/collect/testing/TestsForQueuesInJavaUtil.java

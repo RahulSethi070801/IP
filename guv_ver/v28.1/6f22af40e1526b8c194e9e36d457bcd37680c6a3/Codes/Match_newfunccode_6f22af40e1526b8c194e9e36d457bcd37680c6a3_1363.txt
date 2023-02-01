@@ -1,0 +1,8 @@
+@Override
+public final boolean equals(@NullableDecl Object object) {
+    if (object instanceof HashCode) {
+        HashCode that = (HashCode) object;
+        return bits() == that.bits() && equalsSameBits(that);
+    }
+    return false;
+}

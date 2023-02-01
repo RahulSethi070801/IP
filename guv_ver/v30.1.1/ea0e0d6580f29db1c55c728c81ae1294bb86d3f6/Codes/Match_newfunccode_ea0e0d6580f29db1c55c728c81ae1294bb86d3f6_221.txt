@@ -1,0 +1,4 @@
+@CheckForNull
+public T get() {
+    return value;
+}

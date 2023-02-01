@@ -1,0 +1,8 @@
+@Override
+public long readLong() {
+    try {
+        return input.readLong();
+    } catch (IOException e) {
+        throw new IllegalStateException(e);
+    }
+}

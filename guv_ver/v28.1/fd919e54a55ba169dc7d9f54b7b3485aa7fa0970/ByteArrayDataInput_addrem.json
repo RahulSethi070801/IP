@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "27": " * array. If any method encounters the end of the array prematurely, it throws {@link\n",
+        "28": " * IllegalStateException} to signify <i>programmer error</i>. This behavior is a technical violation\n",
+        "29": " * of the supertype's contract, which specifies a checked exception.\n"
+    },
+    "removed": {
+        "27": " * array. If any method encounters the end of the array prematurely, it throws\n",
+        "28": " * {@link IllegalStateException} to signify <i>programmer error</i>. This behavior is a technical\n",
+        "29": " * violation of the supertype's contract, which specifies a checked exception.\n"
+    }
+}

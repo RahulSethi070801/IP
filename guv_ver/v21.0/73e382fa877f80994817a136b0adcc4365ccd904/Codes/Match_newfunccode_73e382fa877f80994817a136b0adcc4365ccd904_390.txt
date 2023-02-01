@@ -1,0 +1,6 @@
+static <T, K, V> Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction) {
+    checkNotNull(comparator);
+    checkNotNull(keyFunction);
+    checkNotNull(valueFunction);
+    return Collector.of(() -> new ImmutableSortedMap.Builder<K, V>(comparator), (builder, input) -> builder.put(keyFunction.apply(input), valueFunction.apply(input)), ImmutableSortedMap.Builder::combine, ImmutableSortedMap.Builder::build, Collector.Characteristics.UNORDERED);
+}

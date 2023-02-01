@@ -1,0 +1,5 @@
+@Override
+@CheckForNull
+public E peek() {
+    return isEmpty() ? null : elementData(0);
+}

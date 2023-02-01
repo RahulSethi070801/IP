@@ -1,0 +1,4 @@
+@Deprecated
+public static HashFunction md5() {
+    return Md5Holder.MD5;
+}

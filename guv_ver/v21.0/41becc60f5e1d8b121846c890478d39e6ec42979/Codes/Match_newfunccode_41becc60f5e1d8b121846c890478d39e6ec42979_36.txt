@@ -1,0 +1,6 @@
+public <N1 extends N> GraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder) {
+    checkNotNull(nodeOrder);
+    GraphBuilder<N1, V> newBuilder = cast();
+    newBuilder.nodeOrder = nodeOrder;
+    return newBuilder;
+}

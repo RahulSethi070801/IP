@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "69": " * moderately increased constant factors of CPU. Only use this class when there is a specific reason\n",
+        "70": " * to prioritize memory over CPU.\n",
+        "142": "  @VisibleForTesting transient Object @MonotonicNonNull [] keys;\n",
+        "148": "  @VisibleForTesting transient Object @MonotonicNonNull [] values;\n"
+    },
+    "removed": {
+        "69": " * moderately increased constant factors of CPU.  Only use this class when there is a specific\n",
+        "70": " * reason to prioritize memory over CPU.\n",
+        "142": "  @VisibleForTesting transient Object @MonotonicNonNull[] keys;\n",
+        "148": "  @VisibleForTesting transient Object @MonotonicNonNull[] values;\n"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "24": " * An immutable version of CharMatcher for smallish sets of characters that uses a hash table with\n",
+        "25": " * linear probing to check for matches.\n",
+        "69": "   * Returns an array size suitable for the backing array of a hash table that uses open addressing\n",
+        "70": "   * with linear probing in its implementation. The returned size is the smallest power of two that\n",
+        "71": "   * can hold setSize elements with the desired load factor.\n",
+        "124": "      if (table[index] == 0) { // Check for empty.\n",
+        "126": "      } else if (table[index] == c) { // Check for match.\n",
+        "128": "      } else { // Linear probing.\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "26": " * An immutable version of CharMatcher for smallish sets of characters that uses a hash table\n",
+        "27": " * with linear probing to check for matches.\n",
+        "71": "   * Returns an array size suitable for the backing array of a hash table that\n",
+        "72": "   * uses open addressing with linear probing in its implementation.  The\n",
+        "73": "   * returned size is the smallest power of two that can hold setSize elements\n",
+        "74": "   * with the desired load factor.\n",
+        "127": "      // Check for empty.\n",
+        "128": "      if (table[index] == 0) {\n",
+        "130": "      // Check for match.\n",
+        "131": "      } else if (table[index] == c) {\n",
+        "133": "      } else {\n",
+        "134": "        // Linear probing.\n"
+    }
+}

@@ -1,0 +1,10 @@
+com.google.common.graph.Hypergraph
+addEdge
+boolean addEdge(E edge, N... nodes)
+E,N...
+boolean
+com.google.common.graph.Hypergraph
+addEdge
+boolean addEdge(E edge, Iterable<N> nodes)
+E,Iterable
+boolean

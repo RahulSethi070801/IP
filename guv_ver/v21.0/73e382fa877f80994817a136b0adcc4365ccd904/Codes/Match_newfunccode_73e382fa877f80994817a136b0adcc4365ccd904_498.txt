@@ -1,0 +1,6 @@
+@Override
+public boolean removeIf(Predicate<? super E> filter) {
+    synchronized (mutex) {
+        return delegate().removeIf(filter);
+    }
+}

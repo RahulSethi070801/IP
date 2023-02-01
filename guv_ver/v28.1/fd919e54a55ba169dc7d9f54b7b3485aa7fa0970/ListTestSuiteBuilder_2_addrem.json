@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "55": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests a List\n",
+        "56": " * implementation.\n",
+        "95": "   * Specifies {@link CollectionFeature#KNOWN_ORDER} for all list tests, since lists have an\n",
+        "96": "   * iteration ordering corresponding to the insertion order.\n"
+    },
+    "removed": {
+        "55": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests\n",
+        "56": " * a List implementation.\n",
+        "95": "   * Specifies {@link CollectionFeature#KNOWN_ORDER} for all list tests, since\n",
+        "96": "   * lists have an iteration ordering corresponding to the insertion order.\n"
+    }
+}

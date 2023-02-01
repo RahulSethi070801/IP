@@ -1,0 +1,21 @@
+protected final void notifyStopped() {
+    monitor.enter();
+    try {
+        State previous = state();
+        switch(previous) {
+            case NEW:
+            case TERMINATED:
+            case FAILED:
+                throw new IllegalStateException("Cannot notifyStopped() when the service is " + previous);
+            case RUNNING:
+            case STARTING:
+            case STOPPING:
+                snapshot = new StateSnapshot(TERMINATED);
+                enqueueTerminatedEvent(previous);
+                break;
+        }
+    } finally {
+        monitor.leave();
+        dispatchListenerEvents();
+    }
+}

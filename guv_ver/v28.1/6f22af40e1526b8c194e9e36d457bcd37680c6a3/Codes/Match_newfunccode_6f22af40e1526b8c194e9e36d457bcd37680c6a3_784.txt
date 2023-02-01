@@ -1,0 +1,3 @@
+public static <K, V> Function<K, V> forMap(Map<K, ? extends V> map, @NullableDecl V defaultValue) {
+    return new ForMapWithDefault<>(map, defaultValue);
+}

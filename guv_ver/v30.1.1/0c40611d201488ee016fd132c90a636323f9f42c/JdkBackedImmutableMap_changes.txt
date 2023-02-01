@@ -1,0 +1,4 @@
+JdkBackedImmutableMap
+Insertions: [21, 26, 34, 41, 44, 45, 68, 69]
+Deletions: [38, 41, 64]
+guava/src/com/google/common/collect/JdkBackedImmutableMap.java

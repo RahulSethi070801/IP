@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "63": "    assertTrue(\n",
+        "64": "        \"Subscriber argument must be exactly the provided object.\",\n",
+        "111": "   * Records the provided object in {@link #methodArgument} and sets {@link #methodCalled}. This\n",
+        "128": "  /** Local exception subclass to check variety of exception thrown. */\n",
+        "139": "  @Subscribe\n",
+        "140": "  @AllowConcurrentEvents\n",
+        "141": "  public void threadSafeMethod(Object arg) {}\n",
+        "143": "  /** Local Error subclass to check variety of error thrown. */\n"
+    },
+    "removed": {
+        "63": "    assertTrue(\"Subscriber argument must be exactly the provided object.\",\n",
+        "110": "   * Records the provided object in {@link #methodArgument} and sets {@link #methodCalled}.  This\n",
+        "127": "  /**\n",
+        "128": "   * Local exception subclass to check variety of exception thrown.\n",
+        "129": "   */\n",
+        "140": "  @Subscribe @AllowConcurrentEvents\n",
+        "141": "  public void threadSafeMethod(Object arg) {\n",
+        "142": "  }\n",
+        "144": "  /**\n",
+        "145": "   * Local Error subclass to check variety of error thrown.\n",
+        "146": "   */\n"
+    }
+}

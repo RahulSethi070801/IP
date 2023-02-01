@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "33": "    new ForwardingWrapperTester()\n",
+        "34": "        .testForwarding(\n",
+        "35": "            SortedSetMultimap.class,\n",
+        "36": "            new Function<SortedSetMultimap, SortedSetMultimap>() {\n",
+        "37": "              @Override\n",
+        "38": "              public SortedSetMultimap apply(SortedSetMultimap delegate) {\n",
+        "39": "                return wrap(delegate);\n",
+        "40": "              }\n",
+        "41": "            });\n",
+        "55": "      @Override\n",
+        "56": "      protected SortedSetMultimap<K, V> delegate() {\n"
+    },
+    "removed": {
+        "33": "    new ForwardingWrapperTester().testForwarding(\n",
+        "34": "        SortedSetMultimap.class, new Function<SortedSetMultimap, SortedSetMultimap>() {\n",
+        "35": "          @Override public SortedSetMultimap apply(SortedSetMultimap delegate) {\n",
+        "36": "            return wrap(delegate);\n",
+        "37": "          }\n",
+        "38": "        });\n",
+        "52": "      @Override protected SortedSetMultimap<K, V> delegate() {\n"
+    }
+}

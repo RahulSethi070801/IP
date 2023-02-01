@@ -1,0 +1,13 @@
+public static void createParentDirectories(Path path, FileAttribute<?>... attrs) throws IOException {
+    Path normalizedAbsolutePath = path.toAbsolutePath().normalize();
+    Path parent = normalizedAbsolutePath.getParent();
+    if (parent == null) {
+        return;
+    }
+    if (!Files.isDirectory(parent)) {
+        Files.createDirectories(parent, attrs);
+        if (!Files.isDirectory(parent)) {
+            throw new IOException("Unable to create parent directories of " + path);
+        }
+    }
+}

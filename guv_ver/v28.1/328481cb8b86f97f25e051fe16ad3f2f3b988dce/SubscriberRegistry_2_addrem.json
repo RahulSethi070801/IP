@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "43": "import java.util.Map.Entry;\n",
+        "80": "    for (Entry<Class<?>, Collection<Subscriber>> entry : listenerMethods.asMap().entrySet()) {\n",
+        "102": "    for (Entry<Class<?>, Collection<Subscriber>> entry : listenerMethods.asMap().entrySet()) {\n"
+    },
+    "removed": {
+        "79": "    for (Map.Entry<Class<?>, Collection<Subscriber>> entry : listenerMethods.asMap().entrySet()) {\n",
+        "101": "    for (Map.Entry<Class<?>, Collection<Subscriber>> entry : listenerMethods.asMap().entrySet()) {\n"
+    }
+}

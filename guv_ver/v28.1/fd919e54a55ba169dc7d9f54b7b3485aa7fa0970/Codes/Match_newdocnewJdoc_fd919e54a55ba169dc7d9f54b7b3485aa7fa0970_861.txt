@@ -1,0 +1,18 @@
+
+   * Returns a substring of the input character sequence that omits all matching BMP characters from
+   * the beginning and from the end of the string. For example:
+   *
+   * <pre>{@code
+   * CharMatcher.anyOf("ab").trimFrom("abacatbab")
+   * }</pre>
+   *
+   * ... returns {@code "cat"}.
+   *
+   * <p>Note that:
+   *
+   * <pre>{@code
+   * CharMatcher.inRange('\0', ' ').trimFrom(str)
+   * }</pre>
+   *
+   * ... is equivalent to {@link String#trim()}.
+   

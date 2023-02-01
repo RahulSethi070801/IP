@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "64": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests a Map implementation.\n"
+    },
+    "removed": {
+        "64": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests\n",
+        "65": " * a Map implementation.\n"
+    }
+}

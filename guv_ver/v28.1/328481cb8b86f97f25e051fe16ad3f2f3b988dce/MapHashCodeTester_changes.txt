@@ -1,0 +1,4 @@
+MapHashCodeTester
+Insertions: [27, 39, 51, 58, 62, 63, 68, 80]
+Deletions: [27, 39, 51, 58, 62, 63, 68, 80]
+android/guava-testlib/src/com/google/common/collect/testing/testers/MapHashCodeTester.java

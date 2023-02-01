@@ -1,0 +1,3 @@
+public static void copy(File from, OutputStream to) throws IOException {
+    asByteSource(from).copyTo(to);
+}

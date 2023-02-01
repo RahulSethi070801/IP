@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "108": "  @Override\n",
+        "109": "  public Optional<V> edgeValue(EndpointPair<N> endpoints) {\n",
+        "110": "    return Optional.ofNullable(edgeValueOrDefault(endpoints, null));\n",
+        "111": "  }\n",
+        "112": "\n"
+    },
+    "removed": {}
+}

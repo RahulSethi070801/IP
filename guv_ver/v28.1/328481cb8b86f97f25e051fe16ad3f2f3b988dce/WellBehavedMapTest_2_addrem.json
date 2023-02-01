@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "21": "import java.util.Map.Entry;\n",
+        "52": "    for (Entry<Foo, Integer> entry : map.entrySet()) {\n",
+        "64": "    Entry<Foo, Integer> entry1 = Iterables.getOnlyElement(map.entrySet());\n",
+        "65": "    Entry<Foo, Integer> entry2 = Iterables.getOnlyElement(map.entrySet());\n",
+        "70": "    Set<Entry<Foo, Integer>> entrySet = map.entrySet();\n",
+        "90": "    Set<Entry<Foo, Integer>> entrySet = map.entrySet();\n",
+        "93": "    Entry<Foo, Integer> entry = Maps.immutableEntry(Foo.Y, 2);\n"
+    },
+    "removed": {
+        "21": "import java.util.Map;\n",
+        "52": "    for (Map.Entry<Foo, Integer> entry : map.entrySet()) {\n",
+        "64": "    Map.Entry<Foo, Integer> entry1 = Iterables.getOnlyElement(map.entrySet());\n",
+        "65": "    Map.Entry<Foo, Integer> entry2 = Iterables.getOnlyElement(map.entrySet());\n",
+        "70": "    Set<Map.Entry<Foo, Integer>> entrySet = map.entrySet();\n",
+        "90": "    Set<Map.Entry<Foo, Integer>> entrySet = map.entrySet();\n",
+        "93": "    Map.Entry<Foo, Integer> entry = Maps.immutableEntry(Foo.Y, 2);\n"
+    }
+}

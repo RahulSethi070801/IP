@@ -1,0 +1,4 @@
+ContiguousSet_2
+Insertions: [32]
+Deletions: [32]
+guava/src/com/google/common/collect/ContiguousSet.java

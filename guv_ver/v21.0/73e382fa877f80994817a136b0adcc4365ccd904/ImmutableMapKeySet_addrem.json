@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "20": "\n",
+        "23": "import com.google.common.collect.ImmutableSet.Indexed;\n",
+        "26": "import java.util.Spliterator;\n",
+        "27": "import java.util.function.Consumer;\n",
+        "54": "  @Override\n",
+        "55": "  public Spliterator<K> spliterator() {\n",
+        "56": "    return map.keySpliterator();\n",
+        "57": "  }\n",
+        "58": "\n",
+        "69": "  @Override\n",
+        "70": "  public void forEach(Consumer<? super K> action) {\n",
+        "71": "    checkNotNull(action);\n",
+        "72": "    map.forEach((k, v) -> action.accept(k));\n",
+        "73": "  }\n",
+        "74": "\n"
+    },
+    "removed": {}
+}

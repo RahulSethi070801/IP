@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "250": "      ASSERT.that(entries).has().exactlyAs((Collection<Entry<Object, Object>>) expected);\n",
+        "251": "      ASSERT.that(entries.toArray()).has().exactlyAs((Collection<Object>) expected);\n",
+        "252": "      ASSERT.that(entries.toArray(new Entry[0])).has().exactlyAs((Collection<Entry>) expected);\n"
+    },
+    "removed": {
+        "250": "      ASSERT.that(entries).has().exactlyAs((Collection<Entry<Object, Object>>)expected);\n",
+        "251": "      ASSERT.that(entries.toArray()).has().exactlyAs((Collection<Object>)expected);\n",
+        "252": "      ASSERT.that(entries.toArray(new Entry[0])).has().exactlyAs((Collection<Entry>)expected);\n"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "45": "  @LazyInit private transient ImmutableSet<E> elementSet;\n"
+    },
+    "removed": {
+        "45": "  @LazyInit\n",
+        "46": "  private transient ImmutableSet<E> elementSet;\n"
+    }
+}

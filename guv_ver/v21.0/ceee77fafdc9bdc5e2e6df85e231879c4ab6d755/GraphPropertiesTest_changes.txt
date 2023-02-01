@@ -1,0 +1,4 @@
+GraphPropertiesTest
+Insertions: [29, 34, 35, 36, 45, 46, 65, 75, 84, 93, 103, 113, 124, 135, 146]
+Deletions: [29, 34, 35, 36, 45, 46, 65, 75, 84, 93, 103, 113, 124, 135, 146]
+guava-tests/test/com/google/common/graph/GraphPropertiesTest.java

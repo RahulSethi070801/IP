@@ -1,0 +1,4 @@
+RegularImmutableAsList
+Insertions: [21, 59, 60, 61, 62, 63, 64]
+Deletions: []
+guava/src/com/google/common/collect/RegularImmutableAsList.java

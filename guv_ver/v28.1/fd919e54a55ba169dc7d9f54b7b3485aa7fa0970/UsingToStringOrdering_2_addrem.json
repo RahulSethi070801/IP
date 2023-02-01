@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "22": "/** An ordering that uses the natural order of the string representation of the values. */\n"
+    },
+    "removed": {
+        "22": "/**\n",
+        "23": " * An ordering that uses the natural order of the string representation of the\n",
+        "24": " * values.\n",
+        "25": " */\n"
+    }
+}

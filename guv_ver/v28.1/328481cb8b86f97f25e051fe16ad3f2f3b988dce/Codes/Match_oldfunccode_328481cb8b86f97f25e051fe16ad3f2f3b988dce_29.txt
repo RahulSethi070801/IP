@@ -1,0 +1,51 @@
+@Nullable
+Map<K, V> loadAll(Set<? extends K> keys, CacheLoader<? super K, V> loader) throws ExecutionException {
+    checkNotNull(loader);
+    checkNotNull(keys);
+    Stopwatch stopwatch = Stopwatch.createStarted();
+    Map<K, V> result;
+    boolean success = false;
+    try {
+        @SuppressWarnings("unchecked")
+        Map<K, V> map = (Map<K, V>) loader.loadAll(keys);
+        result = map;
+        success = true;
+    } catch (UnsupportedLoadingOperationException e) {
+        success = true;
+        throw e;
+    } catch (InterruptedException e) {
+        Thread.currentThread().interrupt();
+        throw new ExecutionException(e);
+    } catch (RuntimeException e) {
+        throw new UncheckedExecutionException(e);
+    } catch (Exception e) {
+        throw new ExecutionException(e);
+    } catch (Error e) {
+        throw new ExecutionError(e);
+    } finally {
+        if (!success) {
+            globalStatsCounter.recordLoadException(stopwatch.elapsed(NANOSECONDS));
+        }
+    }
+    if (result == null) {
+        globalStatsCounter.recordLoadException(stopwatch.elapsed(NANOSECONDS));
+        throw new InvalidCacheLoadException(loader + " returned null map from loadAll");
+    }
+    stopwatch.stop();
+    boolean nullsPresent = false;
+    for (Map.Entry<K, V> entry : result.entrySet()) {
+        K key = entry.getKey();
+        V value = entry.getValue();
+        if (key == null || value == null) {
+            nullsPresent = true;
+        } else {
+            put(key, value);
+        }
+    }
+    if (nullsPresent) {
+        globalStatsCounter.recordLoadException(stopwatch.elapsed(NANOSECONDS));
+        throw new InvalidCacheLoadException(loader + " returned null keys or values from loadAll");
+    }
+    globalStatsCounter.recordLoadSuccess(stopwatch.elapsed(NANOSECONDS));
+    return result;
+}

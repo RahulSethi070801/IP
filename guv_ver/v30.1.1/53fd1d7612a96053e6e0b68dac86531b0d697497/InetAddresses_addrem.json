@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "137": "   * <p>This method accepts non-ASCII digits, for example {@code \"\uff11\uff19\uff12.\uff11\uff16\uff18.\uff10.\uff11\"} (those are fullwidth\n",
+        "138": "   * characters). That is consistent with {@link InetAddress}, but not with various RFCs. If you\n",
+        "139": "   * want to accept ASCII digits only, you can use something like {@code\n",
+        "140": "   * CharMatcher.ascii().matchesAllOf(ipString)}.\n",
+        "141": "   *\n",
+        "162": "   * <p>This method accepts non-ASCII digits, for example {@code \"\uff11\uff19\uff12.\uff11\uff16\uff18.\uff10.\uff11\"} (those are fullwidth\n",
+        "163": "   * characters). That is consistent with {@link InetAddress}, but not with various RFCs. If you\n",
+        "164": "   * want to accept ASCII digits only, you can use something like {@code\n",
+        "165": "   * CharMatcher.ascii().matchesAllOf(ipString)}.\n",
+        "166": "   *\n",
+        "515": "   * <p>This method is similar to {@link InetAddresses#forString(String)}, however, it requires that\n",
+        "516": "   * IPv6 addresses are surrounded by square brackets.\n",
+        "517": "   *\n",
+        "518": "   * <p>This method is the inverse of {@link InetAddresses#toUriString(java.net.InetAddress)}.\n",
+        "520": "   * <p>This method accepts non-ASCII digits, for example {@code \"\uff11\uff19\uff12.\uff11\uff16\uff18.\uff10.\uff11\"} (those are fullwidth\n",
+        "521": "   * characters). That is consistent with {@link InetAddress}, but not with various RFCs. If you\n",
+        "522": "   * want to accept ASCII digits only, you can use something like {@code\n",
+        "523": "   * CharMatcher.ascii().matchesAllOf(ipString)}.\n",
+        "567": "   * <p>This method accepts non-ASCII digits, for example {@code \"\uff11\uff19\uff12.\uff11\uff16\uff18.\uff10.\uff11\"} (those are fullwidth\n",
+        "568": "   * characters). That is consistent with {@link InetAddress}, but not with various RFCs. If you\n",
+        "569": "   * want to accept ASCII digits only, you can use something like {@code\n",
+        "570": "   * CharMatcher.ascii().matchesAllOf(ipString)}.\n",
+        "571": "   *\n",
+        "867": "   * <p>This method accepts non-ASCII digits. That is consistent with {@link InetAddress}, but not\n",
+        "868": "   * with various RFCs. If you want to accept ASCII digits only, you can use something like {@code\n",
+        "869": "   * CharMatcher.ascii().matchesAllOf(ipString)}.\n",
+        "870": "   *\n",
+        "898": "   * This method does so by hashing 64 bits of the IPv6 address into {@code 224.0.0.0/3} (64 bits\n",
+        "908": "   * <p>NOTE: This method is failsafe for security purposes: ALL IPv6 addresses (except localhost\n"
+    },
+    "removed": {
+        "505": "   * <p>This function is similar to {@link InetAddresses#forString(String)}, however, it requires\n",
+        "506": "   * that IPv6 addresses are surrounded by square brackets.\n",
+        "508": "   * <p>This function is the inverse of {@link InetAddresses#toUriString(java.net.InetAddress)}.\n",
+        "874": "   * This function does so by hashing 64 bits of the IPv6 address into {@code 224.0.0.0/3} (64 bits\n",
+        "884": "   * <p>NOTE: This function is failsafe for security purposes: ALL IPv6 addresses (except localhost\n"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "20": "import java.util.Map.Entry;\n",
+        "82": "    for (Entry<R, Map<C, V>> row : rows.entrySet()) {\n",
+        "88": "    for (Entry<C, Map<R, V>> col : columns.entrySet()) {\n",
+        "112": "    Entry<R, Map<C, V>> rowEntry = rowMap.entrySet().asList().get(rowIndex);\n",
+        "115": "    Entry<C, V> colEntry = row.entrySet().asList().get(columnIndex);\n"
+    },
+    "removed": {
+        "81": "    for (Map.Entry<R, Map<C, V>> row : rows.entrySet()) {\n",
+        "87": "    for (Map.Entry<C, Map<R, V>> col : columns.entrySet()) {\n",
+        "111": "    Map.Entry<R, Map<C, V>> rowEntry = rowMap.entrySet().asList().get(rowIndex);\n",
+        "114": "    Map.Entry<C, V> colEntry = row.entrySet().asList().get(columnIndex);\n"
+    }
+}

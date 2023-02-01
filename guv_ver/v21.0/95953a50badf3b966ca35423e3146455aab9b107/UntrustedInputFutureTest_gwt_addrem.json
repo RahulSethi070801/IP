@@ -1,0 +1,17 @@
+{
+    "addition": {},
+    "removed": {
+        "159": "public void testSetFutureDelegateAlreadyInterrupted() throws Exception {\n",
+        "160": "  com.google.common.util.concurrent.UntrustedInputFutureTest testCase = new com.google.common.util.concurrent.UntrustedInputFutureTest();\n",
+        "161": "  testCase.setUp();\n",
+        "162": "  testCase.testSetFutureDelegateAlreadyInterrupted();\n",
+        "163": "}\n",
+        "164": "\n",
+        "177": "public void testSetFutureDelegateLaterInterrupted() throws Exception {\n",
+        "178": "  com.google.common.util.concurrent.UntrustedInputFutureTest testCase = new com.google.common.util.concurrent.UntrustedInputFutureTest();\n",
+        "179": "  testCase.setUp();\n",
+        "180": "  testCase.testSetFutureDelegateLaterInterrupted();\n",
+        "181": "}\n",
+        "182": "\n"
+    }
+}

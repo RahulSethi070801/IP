@@ -1,0 +1,5 @@
+@GwtIncompatible
+@J2ObjCIncompatible
+public Duration elapsed() {
+    return Duration.ofNanos(elapsedNanos());
+}

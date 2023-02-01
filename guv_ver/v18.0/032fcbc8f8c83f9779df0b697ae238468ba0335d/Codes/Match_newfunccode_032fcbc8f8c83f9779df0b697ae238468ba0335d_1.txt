@@ -1,0 +1,35 @@
+@Override
+public final Service stopAsync() {
+    if (monitor.enterIf(isStoppable)) {
+        try {
+            State previous = state();
+            switch(previous) {
+                case NEW:
+                    snapshot = new StateSnapshot(TERMINATED);
+                    terminated(NEW);
+                    break;
+                case STARTING:
+                    snapshot = new StateSnapshot(STARTING, true, null);
+                    stopping(STARTING);
+                    break;
+                case RUNNING:
+                    snapshot = new StateSnapshot(STOPPING);
+                    stopping(RUNNING);
+                    doStop();
+                    break;
+                case STOPPING:
+                case TERMINATED:
+                case FAILED:
+                    throw new AssertionError("isStoppable is incorrectly implemented, saw: " + previous);
+                default:
+                    throw new AssertionError("Unexpected state: " + previous);
+            }
+        } catch (Throwable shutdownFailure) {
+            notifyFailed(shutdownFailure);
+        } finally {
+            monitor.leave();
+            executeListeners();
+        }
+    }
+    return this;
+}

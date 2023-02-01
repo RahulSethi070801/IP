@@ -1,0 +1,4 @@
+ForwardingImmutableCollection
+Insertions: [22]
+Deletions: [22, 23]
+android/guava/src/com/google/common/collect/ForwardingImmutableCollection.java

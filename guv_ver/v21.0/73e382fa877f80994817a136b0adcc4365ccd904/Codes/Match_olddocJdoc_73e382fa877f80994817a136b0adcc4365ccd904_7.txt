@@ -1,0 +1,9 @@
+
+   * Returns an {@code ImmutableMultiset} containing all of the elements from this fluent iterable.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code ImmutableMultiset.copyOf(stream.iterator())}, or
+   * after the next release of Guava, pass {@link ImmutableMultiset#toImmutableMultiset} to {@code
+   * stream.collect()}.
+   *
+   * @since 19.0
+   

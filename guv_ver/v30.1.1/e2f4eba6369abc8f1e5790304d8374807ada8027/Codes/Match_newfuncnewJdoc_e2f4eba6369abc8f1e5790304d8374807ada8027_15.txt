@@ -1,0 +1,11 @@
+
+   * Returns a {@link Collector} which accumulates statistics from a {@link java.util.stream.Stream}
+   * of any type of boxed {@link Number} into a {@link Stats}. Use by calling {@code
+   * boxedNumericStream.collect(toStats())}. The numbers will be converted to {@code double} values
+   * (which may cause loss of precision).
+   *
+   * <p>If you have any of the primitive streams {@code DoubleStream}, {@code IntStream}, or {@code
+   * LongStream}, you should use the factory method {@link #of} instead.
+   *
+   * @since NEXT
+   

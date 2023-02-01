@@ -1,0 +1,15 @@
+com.google.common.collect.ImmutableRangeSet
+addAll
+public Builder<C> addAll(RangeSet<C> ranges)
+RangeSet
+Builder
+com.google.common.collect.ImmutableRangeSet
+addAll
+public Builder<C> addAll(Iterable<Range<C>> ranges)
+Iterable
+Builder
+com.google.common.collect.ImmutableRangeMap
+putAll
+public Builder<K, V> putAll(RangeMap<K, ? extends V> rangeMap)
+RangeMap
+Builder

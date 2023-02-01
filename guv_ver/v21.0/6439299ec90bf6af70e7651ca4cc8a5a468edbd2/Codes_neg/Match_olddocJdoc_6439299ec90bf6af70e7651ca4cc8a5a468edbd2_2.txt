@@ -1,0 +1,4 @@
+
+   * Returns the node that is adjacent to {@link #nodeA()} via the origin edge.
+   * If this {@link Endpoints} is directed, this is equal to the {@link #target()}.
+   

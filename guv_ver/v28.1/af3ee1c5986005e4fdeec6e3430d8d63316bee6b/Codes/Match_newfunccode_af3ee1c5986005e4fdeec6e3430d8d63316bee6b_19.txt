@@ -1,0 +1,4 @@
+@Override
+public Optional<V> edgeValue(EndpointPair<N> endpoints) {
+    return delegate().edgeValue(endpoints);
+}

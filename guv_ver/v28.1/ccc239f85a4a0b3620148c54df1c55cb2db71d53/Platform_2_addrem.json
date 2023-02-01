@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "20": "import java.util.Map;\n",
+        "21": "import java.util.Set;\n",
+        "34": "  static <K, V> Map<K, V> newHashMapWithExpectedSize(int expectedSize) {\n",
+        "35": "    return Maps.newHashMapWithExpectedSize(expectedSize);\n",
+        "36": "  }\n",
+        "37": "\n",
+        "38": "  static <K, V> Map<K, V> newLinkedHashMapWithExpectedSize(int expectedSize) {\n",
+        "39": "    return Maps.newLinkedHashMapWithExpectedSize(expectedSize);\n",
+        "40": "  }\n",
+        "41": "\n",
+        "42": "  static <E> Set<E> newHashSetWithExpectedSize(int expectedSize) {\n",
+        "43": "    return Sets.newHashSetWithExpectedSize(expectedSize);\n",
+        "44": "  }\n",
+        "45": "\n",
+        "46": "  static <E> Set<E> newLinkedHashSetWithExpectedSize(int expectedSize) {\n",
+        "47": "    return Sets.newLinkedHashSetWithExpectedSize(expectedSize);\n",
+        "48": "  }\n"
+    },
+    "removed": {}
+}

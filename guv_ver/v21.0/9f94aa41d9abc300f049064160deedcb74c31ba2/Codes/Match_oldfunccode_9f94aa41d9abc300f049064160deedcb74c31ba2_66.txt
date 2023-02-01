@@ -1,0 +1,24 @@
+CacheBuilder<K, V> recreateCacheBuilder() {
+    CacheBuilder<K, V> builder = CacheBuilder.newBuilder().setKeyStrength(keyStrength).setValueStrength(valueStrength).keyEquivalence(keyEquivalence).valueEquivalence(valueEquivalence).concurrencyLevel(concurrencyLevel).removalListener(removalListener);
+    builder.strictParsing = false;
+    if (expireAfterWriteNanos > 0) {
+        builder.expireAfterWrite(expireAfterWriteNanos, TimeUnit.NANOSECONDS);
+    }
+    if (expireAfterAccessNanos > 0) {
+        builder.expireAfterAccess(expireAfterAccessNanos, TimeUnit.NANOSECONDS);
+    }
+    if (weigher != OneWeigher.INSTANCE) {
+        builder.weigher(weigher);
+        if (maxWeight != UNSET_INT) {
+            builder.maximumWeight(maxWeight);
+        }
+    } else {
+        if (maxWeight != UNSET_INT) {
+            builder.maximumSize(maxWeight);
+        }
+    }
+    if (ticker != null) {
+        builder.ticker(ticker);
+    }
+    return builder;
+}

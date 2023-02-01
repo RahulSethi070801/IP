@@ -1,0 +1,30 @@
+public int hashCode()
+int hashCode()
+
+public Type type()
+int hashCode()
+
+public static final ElementOrder<S> insertion()
+int hashCode()
+
+public static GraphBuilder<N> from(Graph<N> graph)
+int hashCode()
+
+public boolean equals(Object o)
+int hashCode()
+
+public static final ElementOrder<S> sorted(Comparator<S> comparator)
+int hashCode()
+
+public static final ElementOrder<S> natural()
+int hashCode()
+
+public static NetworkBuilder<N, E> from(Network<N, E> graph)
+int hashCode()
+
+public static final ElementOrder<S> unordered()
+int hashCode()
+
+private GraphBuilder<N1> cast()
+int hashCode()
+

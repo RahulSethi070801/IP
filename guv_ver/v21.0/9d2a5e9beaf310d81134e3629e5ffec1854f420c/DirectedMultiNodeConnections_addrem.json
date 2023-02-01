@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "46": "  private DirectedMultiNodeConnections(Map<E, N> inEdges, Map<E, N> outEdges, int selfLoopCount) {\n",
+        "47": "    super(inEdges, outEdges, selfLoopCount);\n",
+        "53": "        Maps.<E, N>newHashMapWithExpectedSize(EXPECTED_DEGREE),\n",
+        "54": "        0);\n",
+        "58": "      Map<E, N> inEdges, Map<E, N> outEdges, int selfLoopCount) {\n",
+        "60": "        ImmutableMap.copyOf(inEdges), ImmutableMap.copyOf(outEdges), selfLoopCount);\n",
+        "99": "  public N removeInEdge(Object edge, boolean isSelfLoop) {\n",
+        "100": "    N node = super.removeInEdge(edge, isSelfLoop);\n",
+        "123": "  public boolean addInEdge(E edge, N node, boolean isSelfLoop) {\n",
+        "124": "    if (super.addInEdge(edge, node, isSelfLoop)) {\n"
+    },
+    "removed": {
+        "46": "  private DirectedMultiNodeConnections(Map<E, N> inEdges, Map<E, N> outEdges) {\n",
+        "47": "    super(inEdges, outEdges);\n",
+        "53": "        Maps.<E, N>newHashMapWithExpectedSize(EXPECTED_DEGREE));\n",
+        "57": "      Map<E, N> inEdges, Map<E, N> outEdges) {\n",
+        "59": "        ImmutableMap.copyOf(inEdges), ImmutableMap.copyOf(outEdges));\n",
+        "98": "  public N removeInEdge(Object edge) {\n",
+        "99": "    N node = super.removeInEdge(edge);\n",
+        "122": "  public boolean addInEdge(E edge, N node) {\n",
+        "123": "    if (super.addInEdge(edge, node)) {\n"
+    }
+}

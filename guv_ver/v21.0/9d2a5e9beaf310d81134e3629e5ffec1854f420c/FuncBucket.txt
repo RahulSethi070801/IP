@@ -1,0 +1,140 @@
+com.google.common.graph.DirectedNodeConnections
+DirectedNodeConnections
+protected DirectedNodeConnections(Map<E, N> inEdgeMap, Map<E, N> outEdgeMap, int selfLoopCount)
+Map,Map,int
+constructor
+com.google.common.graph.AbstractUndirectedNodeConnections
+removeInEdge
+public N removeInEdge(Object edge)
+Object
+N
+com.google.common.graph.DirectedMultiNodeConnections
+DirectedMultiNodeConnections
+private DirectedMultiNodeConnections(Map<E, N> inEdges, Map<E, N> outEdges)
+Map,Map
+constructor
+com.google.common.graph.AbstractUndirectedNodeConnections
+removeInEdge
+public N removeInEdge(Object edge, boolean isSelfLoop)
+Object,boolean
+N
+com.google.common.graph.AbstractDirectedNodeConnections
+iterator
+public Iterator<E> iterator()
+empty
+Iterator
+com.google.common.graph.DirectedMultiNodeConnections
+of
+static DirectedMultiNodeConnections<N, E> of()
+empty
+DirectedMultiNodeConnections
+com.google.common.graph.DirectedNodeConnections
+DirectedNodeConnections
+protected DirectedNodeConnections(Map<E, N> inEdgeMap, Map<E, N> outEdgeMap)
+Map,Map
+constructor
+com.google.common.graph.NodeConnections
+removeInEdge
+N removeInEdge(Object edge, boolean isSelfLoop)
+Object,boolean
+N
+com.google.common.graph.DirectedMultiNodeConnections
+ofImmutable
+static DirectedMultiNodeConnections<N, E> ofImmutable(Map<E, N> inEdges, Map<E, N> outEdges, int selfLoopCount)
+Map,Map,int
+DirectedMultiNodeConnections
+com.google.common.graph.DirectedNodeConnections
+ofImmutable
+static DirectedNodeConnections<N, E> ofImmutable(Map<E, N> inEdges, Map<E, N> outEdges)
+Map,Map
+DirectedNodeConnections
+com.google.common.graph.DirectedNodeConnections
+ofImmutable
+static DirectedNodeConnections<N, E> ofImmutable(Map<E, N> inEdges, Map<E, N> outEdges, int selfLoopCount)
+Map,Map,int
+DirectedNodeConnections
+com.google.common.graph.DirectedMultiNodeConnections
+DirectedMultiNodeConnections
+private DirectedMultiNodeConnections(Map<E, N> inEdges, Map<E, N> outEdges, int selfLoopCount)
+Map,Map,int
+constructor
+com.google.common.graph.ConfigurableMutableNetwork
+removeEdge
+public boolean removeEdge(Object edge)
+Object
+boolean
+com.google.common.graph.AbstractDirectedNodeConnections
+contains
+public boolean contains(Object obj)
+Object
+boolean
+com.google.common.graph.DirectedNodeConnections
+of
+static DirectedNodeConnections<N, E> of()
+empty
+DirectedNodeConnections
+com.google.common.graph.AbstractDirectedNodeConnections
+AbstractDirectedNodeConnections
+protected AbstractDirectedNodeConnections(Map<E, N> inEdgeMap, Map<E, N> outEdgeMap)
+Map,Map
+constructor
+com.google.common.graph.NodeConnections
+addInEdge
+boolean addInEdge(E edge, N node, boolean isSelfLoop)
+E,N,boolean
+boolean
+com.google.common.graph.ConfigurableMutableNetwork
+addEdge
+public boolean addEdge(E edge, N nodeA, N nodeB)
+E,N,N
+boolean
+com.google.common.graph.AbstractDirectedNodeConnections
+incidentEdges
+public Set<E> incidentEdges()
+empty
+Set
+com.google.common.graph.AbstractUndirectedNodeConnections
+addInEdge
+public boolean addInEdge(E edge, N node)
+E,N
+boolean
+com.google.common.graph.DirectedMultiNodeConnections
+ofImmutable
+static DirectedMultiNodeConnections<N, E> ofImmutable(Map<E, N> inEdges, Map<E, N> outEdges)
+Map,Map
+DirectedMultiNodeConnections
+com.google.common.graph.NodeConnections
+removeInEdge
+N removeInEdge(Object edge)
+Object
+N
+com.google.common.graph.ImmutableNetwork
+nodeConnectionsOf
+private static NodeConnections<N, E> nodeConnectionsOf(Network<N, E> graph, N node)
+Network,N
+NodeConnections
+com.google.common.graph.AbstractUndirectedNodeConnections
+addInEdge
+public boolean addInEdge(E edge, N node, boolean isSelfLoop)
+E,N,boolean
+boolean
+com.google.common.graph.AbstractDirectedNodeConnections
+addOutEdge
+public boolean addOutEdge(E edge, N node)
+E,N
+boolean
+com.google.common.graph.NodeConnections
+addInEdge
+boolean addInEdge(E edge, N node)
+E,N
+boolean
+com.google.common.graph.AbstractDirectedNodeConnections
+AbstractDirectedNodeConnections
+protected AbstractDirectedNodeConnections(Map<E, N> inEdgeMap, Map<E, N> outEdgeMap, int selfLoopCount)
+Map,Map,int
+constructor
+com.google.common.graph.ConfigurableMutableGraph
+addEdge
+public boolean addEdge(N nodeA, N nodeB)
+N,N
+boolean

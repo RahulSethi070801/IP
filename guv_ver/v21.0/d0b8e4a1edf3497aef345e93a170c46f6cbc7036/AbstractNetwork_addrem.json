@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkArgument;\n",
+        "20": "import static com.google.common.graph.GraphConstants.EDGE_CONNECTING_NOT_IN_GRAPH;\n",
+        "124": "        Set<E> edges = edgesConnecting(nodeA, nodeB);\n",
+        "125": "        checkArgument(!edges.isEmpty(), EDGE_CONNECTING_NOT_IN_GRAPH, nodeA, nodeB);\n",
+        "126": "        return edges;\n",
+        "131": "        Set<E> edges = edgesConnecting(nodeA, nodeB);\n",
+        "132": "        return edges.isEmpty() ? defaultValue : edges;\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "123": "        return checkNotNull(edgesConnecting(nodeA, nodeB));\n",
+        "128": "        return checkNotNull(edgesConnecting(nodeA, nodeB));\n"
+    }
+}

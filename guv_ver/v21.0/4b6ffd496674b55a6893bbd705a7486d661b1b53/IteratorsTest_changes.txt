@@ -1,0 +1,4 @@
+IteratorsTest
+Insertions: [820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837]
+Deletions: []
+guava-tests/test/com/google/common/collect/IteratorsTest.java

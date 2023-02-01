@@ -1,0 +1,4 @@
+Absent_CustomFieldSerializer
+Insertions: [34, 36, 40]
+Deletions: [34, 36, 40]
+guava-gwt/src/com/google/common/base/Absent_CustomFieldSerializer.java

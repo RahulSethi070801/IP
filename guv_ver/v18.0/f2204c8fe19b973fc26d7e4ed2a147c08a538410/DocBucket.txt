@@ -1,0 +1,30 @@
+com.google.common.util.concurrent.Striped
+readWriteLock
+public static Striped<ReadWriteLock> readWriteLock(int stripes)
+int
+Striped
+com.google.common.util.concurrent.Striped
+lock
+public static Striped<Lock> lock(int stripes)
+int
+Striped
+com.google.common.util.concurrent.Striped
+semaphore
+public static Striped<Semaphore> semaphore(int stripes, final int permits)
+int,int
+Striped
+com.google.common.util.concurrent.Striped
+lazyWeakReadWriteLock
+public static Striped<ReadWriteLock> lazyWeakReadWriteLock(int stripes)
+int
+Striped
+com.google.common.util.concurrent.Striped
+lazyWeakSemaphore
+public static Striped<Semaphore> lazyWeakSemaphore(int stripes, final int permits)
+int,int
+Striped
+com.google.common.util.concurrent.Striped
+lazyWeakLock
+public static Striped<Lock> lazyWeakLock(int stripes)
+int
+Striped

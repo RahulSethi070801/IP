@@ -1,0 +1,12 @@
+@Nullable
+private static Collection<IOException> deleteDirectoryContentsSecure(SecureDirectoryStream<Path> dir) {
+    Collection<IOException> exceptions = null;
+    try {
+        for (Path path : dir) {
+            exceptions = concat(exceptions, deleteRecursivelySecure(dir, path.getFileName()));
+        }
+        return exceptions;
+    } catch (DirectoryIteratorException e) {
+        return addException(exceptions, e.getCause());
+    }
+}

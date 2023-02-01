@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "22": " * Utility class for being able to seed a {@link Random} value with a passed in seed from a\n",
+        "23": " * benchmark parameter.\n",
+        "25": " * <p>TODO: Remove this class once Caliper has a better way.\n",
+        "31": "    return (s.length() == 0) ? new SpecialRandom() : new SpecialRandom(Long.parseLong(s));\n",
+        "48": "  @Override\n",
+        "49": "  public String toString() {\n"
+    },
+    "removed": {
+        "22": " * Utility class for being able to seed a {@link Random} value with a passed\n",
+        "23": " * in seed from a benchmark parameter.\n",
+        "25": " * TODO: Remove this class once Caliper has a better way.\n",
+        "31": "    return (s.length() == 0)\n",
+        "32": "        ? new SpecialRandom()\n",
+        "33": "        : new SpecialRandom(Long.parseLong(s));\n",
+        "50": "  @Override public String toString() {\n"
+    }
+}

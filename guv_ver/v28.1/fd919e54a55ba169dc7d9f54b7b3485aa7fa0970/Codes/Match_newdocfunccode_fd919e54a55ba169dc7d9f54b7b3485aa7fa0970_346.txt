@@ -1,0 +1,7 @@
+@GwtIncompatible
+@Override
+void setBits(BitSet table) {
+    for (int i = 0; i < TABLE.length(); i++) {
+        table.set(TABLE.charAt(i));
+    }
+}

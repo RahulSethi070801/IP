@@ -1,0 +1,5 @@
+@NullableDecl
+@Override
+public final K getKey() {
+    return key;
+}

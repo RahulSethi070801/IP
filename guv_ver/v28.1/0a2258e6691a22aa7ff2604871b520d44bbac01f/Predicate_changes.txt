@@ -1,0 +1,4 @@
+Predicate
+Insertions: [19, 62, 75, 78]
+Deletions: [19, 62, 75, 78]
+guava/src/com/google/common/base/Predicate.java

@@ -1,0 +1,6 @@
+@Nullable
+private Range<C> rangeEnclosing(Range<C> range) {
+    checkNotNull(range);
+    Entry<Cut<C>, Range<C>> floorEntry = rangesByLowerBound.floorEntry(range.lowerBound);
+    return (floorEntry != null && floorEntry.getValue().encloses(range)) ? floorEntry.getValue() : null;
+}

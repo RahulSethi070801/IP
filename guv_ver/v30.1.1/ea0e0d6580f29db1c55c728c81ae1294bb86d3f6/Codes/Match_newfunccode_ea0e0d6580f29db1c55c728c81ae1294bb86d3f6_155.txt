@@ -1,0 +1,15 @@
+@SuppressWarnings("cast")
+@Override
+public boolean remove(@CheckForNull Object object) {
+    if (object instanceof Multiset.Entry) {
+        Entry<?> entry = (Entry<?>) object;
+        Object element = entry.getElement();
+        int entryCount = entry.getCount();
+        if (entryCount != 0) {
+            @SuppressWarnings({ "unchecked", "nullness" })
+            Multiset<@Nullable Object> multiset = (Multiset<@Nullable Object>) multiset();
+            return multiset.setCount(element, entryCount, 0);
+        }
+    }
+    return false;
+}

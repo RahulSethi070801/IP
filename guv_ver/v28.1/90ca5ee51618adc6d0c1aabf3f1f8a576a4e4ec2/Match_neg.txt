@@ -1,0 +1,6 @@
+public Iterable<Path> successors(Path path)
+public static Traverser<File> fileTraverser()
+
+public static Traverser<Path> fileTraverser()
+public static Traverser<File> fileTraverser()
+

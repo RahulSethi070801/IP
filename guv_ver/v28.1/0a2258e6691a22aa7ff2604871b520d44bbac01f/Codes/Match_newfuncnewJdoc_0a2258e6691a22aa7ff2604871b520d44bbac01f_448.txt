@@ -1,0 +1,6 @@
+
+     * Called only if {@code collectsValues} is true.
+     *
+     * <p>If {@code allMustSucceed} is true, called as each future completes; otherwise, called for
+     * each future when all futures complete.
+     

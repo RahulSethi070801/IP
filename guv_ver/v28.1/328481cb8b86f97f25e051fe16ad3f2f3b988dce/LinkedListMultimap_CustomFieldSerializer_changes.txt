@@ -1,0 +1,4 @@
+LinkedListMultimap_CustomFieldSerializer
+Insertions: [22, 48]
+Deletions: [22, 48]
+guava-gwt/src/com/google/common/collect/LinkedListMultimap_CustomFieldSerializer.java

@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "18": "import static java.util.Objects.requireNonNull;\n",
+        "19": "\n",
+        "27": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "37": "  static <K, V> ImmutableBiMap<K, V> create(int n, @Nullable Entry<K, V>[] entryArray) {\n",
+        "41": "      // requireNonNull is safe because the first `n` elements have been filled in.\n",
+        "42": "      Entry<K, V> e = RegularImmutableMap.makeImmutable(requireNonNull(entryArray[i]));\n"
+    },
+    "removed": {
+        "34": "  static <K, V> ImmutableBiMap<K, V> create(int n, Entry<K, V>[] entryArray) {\n",
+        "38": "      Entry<K, V> e = RegularImmutableMap.makeImmutable(entryArray[i]);\n"
+    }
+}

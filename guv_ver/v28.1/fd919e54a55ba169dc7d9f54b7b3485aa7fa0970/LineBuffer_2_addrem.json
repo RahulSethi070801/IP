@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "22": " * Package-protected abstract class that implements the line reading algorithm used by {@link\n",
+        "23": " * LineReader}. Line separators are per {@link java.io.BufferedReader}: line feed, carriage return,\n",
+        "24": " * or carriage return followed immediately by a linefeed.\n",
+        "88": "    String separator = sawReturn ? (sawNewline ? \"\\r\\n\" : \"\\r\") : (sawNewline ? \"\\n\" : \"\");\n"
+    },
+    "removed": {
+        "22": " * Package-protected abstract class that implements the line reading algorithm used by\n",
+        "23": " * {@link LineReader}. Line separators are per {@link java.io.BufferedReader}: line feed, carriage\n",
+        "24": " * return, or carriage return followed immediately by a linefeed.\n",
+        "88": "    String separator = sawReturn\n",
+        "89": "        ? (sawNewline ? \"\\r\\n\" : \"\\r\")\n",
+        "90": "        : (sawNewline ? \"\\n\" : \"\");\n"
+    }
+}

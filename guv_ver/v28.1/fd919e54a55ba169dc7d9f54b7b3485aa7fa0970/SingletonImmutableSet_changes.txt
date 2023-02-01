@@ -1,0 +1,4 @@
+SingletonImmutableSet
+Insertions: [41]
+Deletions: [41, 42]
+android/guava/src/com/google/common/collect/SingletonImmutableSet.java

@@ -1,0 +1,5 @@
+@GwtIncompatible("AVAILABLE but requires exceptionType to be Throwable.class")
+@CheckReturnValue
+public static <V, X extends Throwable> ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback) {
+    return AbstractCatchingFuture.create(input, exceptionType, fallback);
+}

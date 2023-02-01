@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "57": "    public boolean contains(@NullableDecl Object object) {\n",
+        "99": "      @NullableDecl final Comparator<? super R> rowComparator,\n",
+        "100": "      @NullableDecl final Comparator<? super C> columnComparator) {\n",
+        "137": "      @NullableDecl Comparator<? super R> rowComparator,\n",
+        "138": "      @NullableDecl Comparator<? super C> columnComparator) {\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "57": "    public boolean contains(@Nullable Object object) {\n",
+        "99": "      @Nullable final Comparator<? super R> rowComparator,\n",
+        "100": "      @Nullable final Comparator<? super C> columnComparator) {\n",
+        "137": "      @Nullable Comparator<? super R> rowComparator,\n",
+        "138": "      @Nullable Comparator<? super C> columnComparator) {\n"
+    }
+}

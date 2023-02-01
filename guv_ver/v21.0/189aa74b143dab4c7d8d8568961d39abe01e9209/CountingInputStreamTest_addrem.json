@@ -1,0 +1,6 @@
+{
+    "addition": {
+        "77": "  @SuppressWarnings(\"CheckReturnValue\") // calling read() to skip a byte\n"
+    },
+    "removed": {}
+}

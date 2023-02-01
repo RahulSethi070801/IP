@@ -1,0 +1,18 @@
+
+   * Propagates {@code throwable} exactly as-is, if and only if it is an instance of {@link
+   * RuntimeException} or {@link Error}. Example usage:
+   *
+   * <pre>
+   * try {
+   *   someMethodThatCouldThrowAnything();
+   * } catch (IKnowWhatToDoWithThisException e) {
+   *   handle(e);
+   * } catch (Throwable t) {
+   *   Throwables.propagateIfPossible(t);
+   *   throw new RuntimeException("unexpected", t);
+   * }
+   * </pre>
+   *
+   * @deprecated Use {@link #throwIfUnchecked}, which has the same behavior but rejects {@code
+   *     null}.
+   

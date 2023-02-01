@@ -1,0 +1,4 @@
+@NullableDecl
+private Entry<K, V2> transformEntry(@NullableDecl Entry<K, V1> entry) {
+    return (entry == null) ? null : Maps.transformEntry(transformer, entry);
+}

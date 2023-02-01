@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "210": "   * Returns {@code true} iff {@code object} is a {@link Graph} that has the same elements and the\n",
+        "211": "   * same structural relationships as those in this graph.\n",
+        "213": "   * <p>Thus, two graphs A and B are equal if <b>all</b> of the following are true:\n",
+        "214": "   *\n",
+        "215": "   * <ul>\n",
+        "216": "   * <li>A and B have equal {@link #isDirected() directedness}.\n",
+        "217": "   * <li>A and B have equal {@link #nodes() node sets}.\n",
+        "218": "   * <li>A and B have equal {@link #edges() edge sets}.\n",
+        "219": "   * </ul>\n",
+        "220": "   *\n",
+        "221": "   * <p>Graph properties besides {@link #isDirected() directedness} do <b>not</b> affect equality.\n",
+        "222": "   * For example, two graphs may be considered equal even if one allows self-loops and the other\n",
+        "223": "   * doesn't. Additionally, the order in which nodes or edges are added to the graph, and the order\n",
+        "224": "   * in which they are iterated over, are irrelevant.\n",
+        "225": "   *\n",
+        "226": "   * <p>A reference implementation of this is provided by {@link AbstractGraph#equals(Object)}.\n",
+        "232": "   * Returns the hash code for this graph. The hash code of a graph is defined as the hash code of\n",
+        "233": "   * the set returned by {@link #edges()}.\n",
+        "234": "   *\n",
+        "235": "   * <p>A reference implementation of this is provided by {@link AbstractGraph#hashCode()}.\n"
+    },
+    "removed": {
+        "210": "   * For the default {@link Graph} implementations, returns true if {@code this == object}\n",
+        "211": "   * (reference equality). External implementations are free to define this method as they see fit,\n",
+        "212": "   * as long as they satisfy the {@link Object#equals(Object)} contract.\n",
+        "214": "   * <p>To compare two {@link Graph}s based on their contents rather than their references, see\n",
+        "215": "   * {@link Graphs#equivalent(Graph, Graph)}.\n",
+        "221": "   * For the default {@link Graph} implementations, returns {@code System.identityHashCode(this)}.\n",
+        "222": "   * External implementations are free to define this method as they see fit, as long as they\n",
+        "223": "   * satisfy the {@link Object#hashCode()} contract.\n"
+    }
+}

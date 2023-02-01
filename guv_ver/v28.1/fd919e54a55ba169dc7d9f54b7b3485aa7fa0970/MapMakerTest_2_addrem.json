@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "30": "/** @author Charles Fry */\n",
+        "48": "    @Override\n",
+        "49": "    public T apply(T key) {\n",
+        "83": "      Map<?, ?> map = new MapMaker().initialCapacity(5).makeMap();\n"
+    },
+    "removed": {
+        "30": "/**\n",
+        "31": " * @author Charles Fry\n",
+        "32": " */\n",
+        "50": "    @Override public T apply(T key) {\n",
+        "84": "      Map<?, ?> map = new MapMaker()\n",
+        "85": "          .initialCapacity(5)\n",
+        "86": "          .makeMap();\n"
+    }
+}

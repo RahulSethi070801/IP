@@ -1,0 +1,4 @@
+FluentIterable
+Insertions: [34, 324, 355, 825]
+Deletions: [34, 324, 355, 825]
+guava/src/com/google/common/collect/FluentIterable.java

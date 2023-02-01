@@ -1,0 +1,425 @@
+com.google.common.graph.BasicGraphBuilder
+expectedNodeCount
+public BasicGraphBuilder<N> expectedNodeCount(int expectedNodeCount)
+int
+BasicGraphBuilder
+com.google.common.graph.Graphs
+canTraverseWithoutReusingEdge
+private static boolean canTraverseWithoutReusingEdge(Graph<?> graph, Object nextNode, @Nullable Object previousNode)
+Graph,Object,Object
+boolean
+com.google.common.graph.AbstractGraph
+apply
+public Set<N> apply(N node)
+N
+Set
+com.google.common.graph.AbstractGraph
+edgeCount
+protected long edgeCount()
+empty
+long
+com.google.common.graph.AbstractGraph
+size
+public int size()
+empty
+int
+com.google.common.graph.BasicGraphBuilder
+from
+public static BasicGraphBuilder<N> from(ValueGraph<N, ?> graph)
+ValueGraph
+BasicGraphBuilder
+com.google.common.graph.ImmutableValueGraph
+ImmutableValueGraph
+private ImmutableValueGraph(ValueGraph<N, V> graph)
+ValueGraph
+constructor
+com.google.common.graph.ForwardingGraph
+predecessors
+public Set<N> predecessors(Object node)
+Object
+Set
+com.google.common.graph.ImmutableGraph
+getNodeConnections
+private static ImmutableMap<N, GraphConnections<N, Object>> getNodeConnections(Graph<N> graph)
+Graph
+ImmutableMap
+com.google.common.graph.ForwardingGraph
+successors
+public Set<N> successors(Object node)
+Object
+Set
+com.google.common.graph.AbstractGraph
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.graph.BasicGraphBuilder
+BasicGraphBuilder
+private BasicGraphBuilder(boolean directed)
+boolean
+constructor
+com.google.common.graph.ImmutableBasicGraph
+ImmutableBasicGraph
+private ImmutableBasicGraph(BasicGraph<N> graph)
+BasicGraph
+constructor
+com.google.common.graph.AbstractNetwork
+asGraph
+public ValueGraph<N, Set<E>> asGraph()
+empty
+ValueGraph
+com.google.common.graph.ImmutableBasicGraph
+copyOf
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+BasicGraph
+ImmutableBasicGraph
+com.google.common.graph.BasicGraphBuilder
+build
+public MutableBasicGraph<N1> build()
+empty
+MutableBasicGraph
+com.google.common.graph.Graphs
+reachableNodes
+public static Set<N> reachableNodes(Graph<N> graph, Object node)
+Graph,Object
+Set
+com.google.common.graph.AbstractGraph
+contains
+public boolean contains(Object obj)
+Object
+boolean
+com.google.common.graph.ValueGraph
+adjacentNodes
+Set<N> adjacentNodes(Object node)
+Object
+Set
+com.google.common.graph.Endpoints
+of
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+ValueGraph,N,N
+Endpoints
+com.google.common.graph.EndpointsIterator$Directed
+Directed
+Directed(Graph<N> graph)
+Graph
+constructor
+com.google.common.graph.AbstractValueGraph
+degree
+private static int degree(ValueGraph<?, ?> graph, Object node)
+ValueGraph,Object
+int
+com.google.common.graph.BasicGraphBuilder
+nodeOrder
+public BasicGraphBuilder<N1> nodeOrder(ElementOrder<N1> nodeOrder)
+ElementOrder
+BasicGraphBuilder
+com.google.common.graph.ValueGraph
+predecessors
+Set<N> predecessors(Object node)
+Object
+Set
+com.google.common.graph.ForwardingGraph
+delegate
+protected abstract Graph<N> delegate()
+empty
+Graph
+com.google.common.graph.Graphs
+copyOf
+public static MutableGraph<N> copyOf(Graph<N> graph)
+Graph
+MutableGraph
+com.google.common.graph.ForwardingGraph
+adjacentNodes
+public Set<N> adjacentNodes(Object node)
+Object
+Set
+com.google.common.graph.EndpointsIterator
+of
+static EndpointsIterator<N> of(Graph<N> graph)
+Graph
+EndpointsIterator
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableGraph<N> inducedSubgraph(Graph<N> graph, Iterable<? extends N> nodes)
+Graph,Iterable
+MutableGraph
+com.google.common.graph.Graphs
+transitiveClosure
+public static BasicGraph<N> transitiveClosure(ValueGraph<N, ?> graph)
+ValueGraph
+BasicGraph
+com.google.common.graph.EndpointsIterator
+of
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+ValueGraph
+EndpointsIterator
+com.google.common.graph.ForwardingGraph
+nodes
+public Set<N> nodes()
+empty
+Set
+com.google.common.graph.BasicGraphBuilder
+allowsSelfLoops
+public BasicGraphBuilder<N> allowsSelfLoops(boolean allowsSelfLoops)
+boolean
+BasicGraphBuilder
+com.google.common.graph.Graphs
+hasCycle
+public static boolean hasCycle(ValueGraph<?, ?> graph)
+ValueGraph
+boolean
+com.google.common.graph.EndpointsIterator$Undirected
+Undirected
+Undirected(ValueGraph<N, ?> graph)
+ValueGraph
+constructor
+com.google.common.graph.ConfigurableMutableGraph
+addNode
+public boolean addNode(N node)
+N
+boolean
+com.google.common.graph.ConfigurableMutableGraph
+putEdge
+public boolean putEdge(N nodeA, N nodeB)
+N,N
+boolean
+com.google.common.graph.ForwardingGraph
+nodeOrder
+public ElementOrder<N> nodeOrder()
+empty
+ElementOrder
+com.google.common.graph.ImmutableGraph
+ImmutableGraph
+private ImmutableGraph(Graph<N> graph)
+Graph
+constructor
+com.google.common.graph.ImmutableGraph
+connectionsOf
+private static GraphConnections<N, Object> connectionsOf(Graph<N> graph, N node)
+Graph,N
+GraphConnections
+com.google.common.graph.Graphs
+reachableNodes
+public static Set<N> reachableNodes(ValueGraph<N, ?> graph, Object node)
+ValueGraph,Object
+Set
+com.google.common.graph.BasicGraphBuilder
+undirected
+public static BasicGraphBuilder<Object> undirected()
+empty
+BasicGraphBuilder
+com.google.common.graph.ValueGraphBuilder
+from
+public static ValueGraphBuilder<N, Object> from(ValueGraph<N, ?> graph)
+ValueGraph
+ValueGraphBuilder
+com.google.common.graph.ConfigurableMutableBasicGraph
+ConfigurableMutableBasicGraph
+ConfigurableMutableBasicGraph(AbstractGraphBuilder<? super N> builder)
+AbstractGraphBuilder
+constructor
+com.google.common.graph.ConfigurableMutableGraph
+ConfigurableMutableGraph
+ConfigurableMutableGraph(AbstractGraphBuilder<? super N> builder)
+AbstractGraphBuilder
+constructor
+com.google.common.graph.Graphs
+subgraphHasCycle
+private static boolean subgraphHasCycle(ValueGraph<?, ?> graph, Map<Object, NodeVisitState> visitedNodes, Object node, @Nullable Object previousNode)
+ValueGraph,Map,Object,Object
+boolean
+com.google.common.graph.ValueGraph
+successors
+Set<N> successors(Object node)
+Object
+Set
+com.google.common.graph.AbstractGraph
+iterator
+public Iterator<Endpoints<N>> iterator()
+empty
+Iterator
+com.google.common.graph.Graphs
+hasCycle
+public static boolean hasCycle(Graph<?> graph)
+Graph
+boolean
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableBasicGraph<N> inducedSubgraph(BasicGraph<N> graph, Iterable<? extends N> nodes)
+BasicGraph,Iterable
+MutableBasicGraph
+com.google.common.graph.EndpointsIterator$Directed
+Directed
+Directed(ValueGraph<N, ?> graph)
+ValueGraph
+constructor
+com.google.common.graph.AbstractGraph
+toString
+public String toString()
+empty
+String
+com.google.common.graph.AbstractGraph
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.ConfigurableMutableBasicGraph
+edgeValueOrDefault
+public Presence edgeValueOrDefault(Object nodeA, Object nodeB, Presence defaultValue)
+Object,Object,Presence
+Presence
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+Graph
+ImmutableGraph
+com.google.common.graph.ValueGraph
+allowsSelfLoops
+boolean allowsSelfLoops()
+empty
+boolean
+com.google.common.graph.Network
+asGraph
+ValueGraph<N, Set<E>> asGraph()
+empty
+ValueGraph
+com.google.common.graph.ConfigurableMutableBasicGraph
+edgeValue
+public Presence edgeValue(Object nodeA, Object nodeB)
+Object,Object
+Presence
+com.google.common.graph.Endpoints
+of
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+Graph,N,N
+Endpoints
+com.google.common.graph.EndpointsIterator
+EndpointsIterator
+EndpointsIterator(ValueGraph<N, ?> graph)
+ValueGraph
+constructor
+com.google.common.graph.ImmutableGraph
+delegate
+protected Graph<N> delegate()
+empty
+Graph
+com.google.common.graph.ConfigurableMutableGraph
+removeEdge
+public boolean removeEdge(Object nodeA, Object nodeB)
+Object,Object
+boolean
+com.google.common.graph.ValueGraph
+nodeOrder
+ElementOrder<N> nodeOrder()
+empty
+ElementOrder
+com.google.common.graph.ImmutableBasicGraph
+copyOf
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+ImmutableBasicGraph
+ImmutableBasicGraph
+com.google.common.graph.ForwardingGraph
+edges
+public Set<Endpoints<N>> edges()
+empty
+Set
+com.google.common.graph.ForwardingGraph
+isDirected
+public boolean isDirected()
+empty
+boolean
+com.google.common.graph.Graphs
+canTraverseWithoutReusingEdge
+private static boolean canTraverseWithoutReusingEdge(ValueGraph<?, ?> graph, Object nextNode, @Nullable Object previousNode)
+ValueGraph,Object,Object
+boolean
+com.google.common.graph.BasicGraphBuilder
+directed
+public static BasicGraphBuilder<Object> directed()
+empty
+BasicGraphBuilder
+com.google.common.graph.ForwardingGraph
+allowsSelfLoops
+public boolean allowsSelfLoops()
+empty
+boolean
+com.google.common.graph.Graphs
+copyOf
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+BasicGraph
+MutableBasicGraph
+com.google.common.graph.EndpointsIterator$Undirected
+Undirected
+Undirected(Graph<N> graph)
+Graph
+constructor
+com.google.common.graph.BasicGraphBuilder
+cast
+private BasicGraphBuilder<N1> cast()
+empty
+BasicGraphBuilder
+com.google.common.graph.Graphs
+subgraphHasCycle
+private static boolean subgraphHasCycle(Graph<?> graph, Map<Object, NodeVisitState> visitedNodes, Object node, @Nullable Object previousNode)
+Graph,Map,Object,Object
+boolean
+com.google.common.graph.ValueGraphBuilder
+from
+public static ValueGraphBuilder<N, Object> from(Graph<N> graph)
+Graph
+ValueGraphBuilder
+com.google.common.graph.ValueGraph
+isDirected
+boolean isDirected()
+empty
+boolean
+com.google.common.graph.Graphs
+transitiveClosure
+public static Graph<N> transitiveClosure(Graph<N> graph)
+Graph
+Graph
+com.google.common.graph.ValueGraph
+edges
+Set<Endpoints<N>> edges()
+empty
+Set
+com.google.common.graph.ValueGraph
+nodes
+Set<N> nodes()
+empty
+Set
+com.google.common.graph.AbstractNetwork
+asGraph
+public Graph<N> asGraph()
+empty
+Graph
+com.google.common.graph.Network
+asGraph
+Graph<N> asGraph()
+empty
+Graph
+com.google.common.graph.EndpointsIterator
+EndpointsIterator
+EndpointsIterator(Graph<N> graph)
+Graph
+constructor
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+ImmutableGraph
+ImmutableGraph
+com.google.common.graph.AbstractGraph
+degree
+private static int degree(Graph<?> graph, Object node)
+Graph,Object
+int
+com.google.common.graph.ConfigurableMutableGraph
+removeNode
+public boolean removeNode(Object node)
+Object
+boolean
+com.google.common.graph.ImmutableValueGraph
+ImmutableValueGraph
+ImmutableValueGraph(ValueGraph<N, V> graph)
+ValueGraph
+constructor

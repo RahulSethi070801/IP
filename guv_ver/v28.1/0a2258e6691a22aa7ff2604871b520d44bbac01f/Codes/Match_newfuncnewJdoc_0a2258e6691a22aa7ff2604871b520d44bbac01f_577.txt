@@ -1,0 +1,4 @@
+
+   * If this future has been cancelled (and possibly interrupted), cancels (and possibly interrupts)
+   * the given future (if available).
+   

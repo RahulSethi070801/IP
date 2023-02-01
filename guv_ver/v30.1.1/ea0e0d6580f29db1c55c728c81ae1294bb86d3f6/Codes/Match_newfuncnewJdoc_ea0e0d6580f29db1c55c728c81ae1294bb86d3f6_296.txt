@@ -1,0 +1,12 @@
+
+   * Removes a number of occurrences of the specified element from this multiset. If the multiset
+   * contains fewer than this number of occurrences to begin with, all occurrences will be removed.
+   * Note that if {@code occurrences == 1}, this is functionally equivalent to the call {@code
+   * remove(element)}.
+   *
+   * @param element the element to conditionally remove occurrences of
+   * @param occurrences the number of occurrences of the element to remove. May be zero, in which
+   *     case no change will be made.
+   * @return the count of the element before the operation; possibly zero
+   * @throws IllegalArgumentException if {@code occurrences} is negative
+   

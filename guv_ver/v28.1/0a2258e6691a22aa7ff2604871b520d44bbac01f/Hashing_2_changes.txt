@@ -1,0 +1,4 @@
+Hashing_2
+Insertions: [31, 645]
+Deletions: [31, 645]
+guava/src/com/google/common/hash/Hashing.java

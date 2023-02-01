@@ -1,0 +1,3 @@
+public static <N> GraphBuilder<N> from(Graph<N> graph) {
+    return new GraphBuilder<Object>(graph.isDirected()).allowsSelfLoops(graph.allowsSelfLoops()).nodeOrder(graph.nodeOrder());
+}

@@ -1,0 +1,6 @@
+
+   * Waits for the guard to be satisfied. Waits indefinitely, but may be interrupted. May be
+   * called only by a thread currently occupying this monitor.
+   *
+   * @throws InterruptedException if interrupted while waiting
+   

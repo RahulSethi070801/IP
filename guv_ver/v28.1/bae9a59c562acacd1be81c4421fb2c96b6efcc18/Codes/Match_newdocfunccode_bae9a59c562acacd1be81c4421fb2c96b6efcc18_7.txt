@@ -1,0 +1,5 @@
+@Beta
+public static <K, V> ImmutableBiMap<K, V> copyOf(Iterable<? extends Entry<? extends K, ? extends V>> entries) {
+    int estimatedSize = (entries instanceof Collection) ? ((Collection<?>) entries).size() : ImmutableCollection.Builder.DEFAULT_INITIAL_CAPACITY;
+    return new Builder<K, V>(estimatedSize).putAll(entries).build();
+}

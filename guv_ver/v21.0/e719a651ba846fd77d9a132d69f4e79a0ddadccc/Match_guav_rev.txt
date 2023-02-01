@@ -1,0 +1,15 @@
+public long size() throws IOException
+public RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X
+
+public static BaseEncoding base16()
+public RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X
+
+public boolean isEmpty() throws IOException
+public RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X
+
+public Optional<Long> sizeIfKnown()
+public RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X
+
+public static BaseEncoding base64()
+public RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X
+

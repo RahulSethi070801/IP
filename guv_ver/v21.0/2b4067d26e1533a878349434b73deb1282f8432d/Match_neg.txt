@@ -1,0 +1,6 @@
+SerializationProxy(Strength keyStrength, Strength valueStrength, Equivalence<Object> keyEquivalence, Equivalence<Object> valueEquivalence, long expireAfterWriteNanos, long expireAfterAccessNanos, int maximumSize, int concurrencyLevel, ConcurrentMap<K, V> delegate)
+MapMaker expireAfterWrite(long duration, TimeUnit unit)
+
+ExpiringComputingMap(long expirationMillis, Function<? super K, ? extends V> computer, int maximumSize, int initialCapacity)
+MapMaker expireAfterAccess(long duration, TimeUnit unit)
+

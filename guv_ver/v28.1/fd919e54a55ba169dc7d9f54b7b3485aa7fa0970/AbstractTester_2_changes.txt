@@ -1,0 +1,4 @@
+AbstractTester_2
+Insertions: [23, 24, 28, 29, 30]
+Deletions: [23, 24, 28, 29, 30, 31]
+guava-testlib/src/com/google/common/collect/testing/AbstractTester.java

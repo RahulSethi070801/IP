@@ -1,0 +1,4 @@
+
+     * Returns an {@code ImmutableRangeMap} containing the associations previously added to this
+     * builder.
+     

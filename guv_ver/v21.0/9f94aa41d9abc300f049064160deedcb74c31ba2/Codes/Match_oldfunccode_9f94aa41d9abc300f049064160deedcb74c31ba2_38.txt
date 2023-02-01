@@ -1,0 +1,6 @@
+@Override
+protected void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit) {
+    checkArgument(spec.accessExpirationTimeUnit == null, "expireAfterAccess already set");
+    spec.accessExpirationDuration = duration;
+    spec.accessExpirationTimeUnit = unit;
+}

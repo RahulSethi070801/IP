@@ -1,0 +1,4 @@
+CharSequenceReader
+Insertions: [40]
+Deletions: [40, 41, 42]
+android/guava/src/com/google/common/io/CharSequenceReader.java

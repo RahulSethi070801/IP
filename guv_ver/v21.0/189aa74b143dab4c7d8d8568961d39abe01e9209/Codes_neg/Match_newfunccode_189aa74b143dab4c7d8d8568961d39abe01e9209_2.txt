@@ -1,0 +1,3 @@
+public String encode(byte[] bytes) {
+    return encode(bytes, 0, bytes.length);
+}

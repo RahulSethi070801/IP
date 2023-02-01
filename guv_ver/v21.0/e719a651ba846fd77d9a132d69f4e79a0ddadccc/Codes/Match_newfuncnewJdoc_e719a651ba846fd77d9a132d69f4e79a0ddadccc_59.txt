@@ -1,0 +1,5 @@
+
+   * Reads a file of the given expected size from the given input stream, if it will fit into a byte
+   * array. This method handles the case where the file size changes between when the size is read
+   * and when the contents are read from the stream.
+   

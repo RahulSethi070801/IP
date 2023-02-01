@@ -1,0 +1,3 @@
+public static ByteSink asByteSink(Path path, OpenOption... options) {
+    return new PathByteSink(path, options);
+}

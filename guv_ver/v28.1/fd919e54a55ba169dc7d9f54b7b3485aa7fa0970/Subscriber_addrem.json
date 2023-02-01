@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "37": "  /** Creates a {@code Subscriber} for {@code method} on {@code listener}. */\n",
+        "65": "  /** Dispatches {@code event} to this subscriber using the proper executor. */\n",
+        "100": "  /** Gets the context for the given event. */\n",
+        "123": "   * Checks whether {@code method} is thread-safe, as indicated by the presence of the {@link\n",
+        "124": "   * AllowConcurrentEvents} annotation.\n"
+    },
+    "removed": {
+        "37": "  /**\n",
+        "38": "   * Creates a {@code Subscriber} for {@code method} on {@code listener}.\n",
+        "39": "   */\n",
+        "67": "  /**\n",
+        "68": "   * Dispatches {@code event} to this subscriber using the proper executor.\n",
+        "69": "   */\n",
+        "104": "  /**\n",
+        "105": "   * Gets the context for the given event.\n",
+        "106": "   */\n",
+        "129": "   * Checks whether {@code method} is thread-safe, as indicated by the presence of the\n",
+        "130": "   * {@link AllowConcurrentEvents} annotation.\n"
+    }
+}

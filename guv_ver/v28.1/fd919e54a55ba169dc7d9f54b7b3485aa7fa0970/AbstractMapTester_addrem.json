@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "30": " * <p>TODO: see how much of this is actually needed once Map testers are written. (It was cloned\n",
+        "31": " * from AbstractCollectionTester.)\n",
+        "66": "  /** @return an array of the proper size with {@code null} as the key of the middle element. */\n",
+        "91": "  /** @return an array of the proper size with {@code null} as the value of the middle element. */\n",
+        "109": "   * Equivalent to {@link #expectMissingKeys(Object[]) expectMissingKeys} {@code (null)} except that\n",
+        "110": "   * the call to {@code contains(null)} is permitted to throw a {@code NullPointerException}.\n",
+        "111": "   *\n",
+        "123": "   * Equivalent to {@link #expectMissingValues(Object[]) expectMissingValues} {@code (null)} except\n",
+        "124": "   * that the call to {@code contains(null)} is permitted to throw a {@code NullPointerException}.\n",
+        "125": "   *\n",
+        "202": "   * Wrapper for {@link Map#get(Object)} that forces the caller to pass in a key of the same type as\n",
+        "203": "   * the map. Besides being slightly shorter than code that uses {@link #getMap()}, it also ensures\n",
+        "204": "   * that callers don't pass an {@link Entry} by mistake.\n"
+    },
+    "removed": {
+        "30": " * TODO: see how much of this is actually needed once Map testers are written.\n",
+        "31": " * (It was cloned from AbstractCollectionTester.)\n",
+        "35": " *\n",
+        "67": "  /**\n",
+        "68": "   * @return an array of the proper size with {@code null} as the key of the\n",
+        "69": "   * middle element.\n",
+        "70": "   */\n",
+        "95": "  /**\n",
+        "96": "   * @return an array of the proper size with {@code null} as the value of the\n",
+        "97": "   * middle element.\n",
+        "98": "   */\n",
+        "116": "   * Equivalent to {@link #expectMissingKeys(Object[]) expectMissingKeys}\n",
+        "117": "   * {@code (null)}\n",
+        "118": "   * except that the call to {@code contains(null)} is permitted to throw a\n",
+        "119": "   * {@code NullPointerException}.\n",
+        "131": "   * Equivalent to {@link #expectMissingValues(Object[]) expectMissingValues}\n",
+        "132": "   * {@code (null)}\n",
+        "133": "   * except that the call to {@code contains(null)} is permitted to throw a\n",
+        "134": "   * {@code NullPointerException}.\n",
+        "211": "   * Wrapper for {@link Map#get(Object)} that forces the caller to pass in a key\n",
+        "212": "   * of the same type as the map. Besides being slightly shorter than code that\n",
+        "213": "   * uses {@link #getMap()}, it also ensures that callers don't pass an\n",
+        "214": "   * {@link Entry} by mistake.\n"
+    }
+}

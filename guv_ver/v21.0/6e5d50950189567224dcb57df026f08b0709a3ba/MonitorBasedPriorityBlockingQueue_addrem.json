@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "21": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "22": "\n",
+        "89": "@CanIgnoreReturnValue // TODO(cpovirk): Consider being more strict.\n"
+    },
+    "removed": {}
+}

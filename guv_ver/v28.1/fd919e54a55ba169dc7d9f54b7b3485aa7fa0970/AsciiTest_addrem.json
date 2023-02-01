@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "32": "   * The Unicode points {@code 00c1} and {@code 00e1} are the upper- and lowercase forms of\n",
+        "33": "   * A-with-acute-accent, {@code \u00c1} and {@code \u00e1}.\n",
+        "35": "  private static final String IGNORED = \"`10-=~!@#$%^&*()_+[]\\\\{}|;':\\\",./<>?'\\u00c1\\u00e1\\n\";\n",
+        "36": "\n",
+        "105": "    } catch (IllegalArgumentException expected) {\n",
+        "106": "    }\n",
+        "111": "    } catch (IllegalArgumentException expected) {\n",
+        "112": "    }\n",
+        "117": "    } catch (IllegalArgumentException expected) {\n",
+        "118": "    }\n",
+        "123": "    } catch (IllegalArgumentException expected) {\n",
+        "124": "    }\n",
+        "151": "    assertFalse(\"pa\\u00dfword\".equalsIgnoreCase(\"PASSWORD\")); // [*]\n"
+    },
+    "removed": {
+        "32": "   * The Unicode points {@code 00c1} and {@code 00e1} are the upper- and\n",
+        "33": "   * lowercase forms of A-with-acute-accent, {@code \u00c1} and {@code \u00e1}.\n",
+        "35": "  private static final String IGNORED =\n",
+        "36": "      \"`10-=~!@#$%^&*()_+[]\\\\{}|;':\\\",./<>?'\\u00c1\\u00e1\\n\";\n",
+        "105": "    } catch (IllegalArgumentException expected) {}\n",
+        "110": "    } catch (IllegalArgumentException expected) {}\n",
+        "115": "    } catch (IllegalArgumentException expected) {}\n",
+        "120": "    } catch (IllegalArgumentException expected) {}\n",
+        "147": "    assertFalse(\"pa\\u00dfword\".equalsIgnoreCase(\"PASSWORD\"));  // [*]\n"
+    }
+}

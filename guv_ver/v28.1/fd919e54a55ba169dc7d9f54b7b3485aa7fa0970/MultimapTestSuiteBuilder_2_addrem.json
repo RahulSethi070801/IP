@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "60": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests a {@code Multimap}\n",
+        "61": " * implementation.\n",
+        "104": "      FeatureSpecificTestSuiteBuilder<?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "139": "      FeatureSpecificTestSuiteBuilder<?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "150": "      FeatureSpecificTestSuiteBuilder<?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "161": "      FeatureSpecificTestSuiteBuilder<?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "172": "      FeatureSpecificTestSuiteBuilder<?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "188": "      FeatureSpecificTestSuiteBuilder<?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "545": "    public MultimapGetGenerator(OneSizeTestContainerGenerator<M, Entry<K, V>> multimapGenerator) {\n"
+    },
+    "removed": {
+        "60": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests\n",
+        "61": " * a {@code Multimap} implementation.\n",
+        "104": "      FeatureSpecificTestSuiteBuilder<\n",
+        "105": "              ?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "140": "      FeatureSpecificTestSuiteBuilder<\n",
+        "141": "              ?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "152": "      FeatureSpecificTestSuiteBuilder<\n",
+        "153": "              ?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "164": "      FeatureSpecificTestSuiteBuilder<\n",
+        "165": "              ?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "176": "      FeatureSpecificTestSuiteBuilder<\n",
+        "177": "              ?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "193": "      FeatureSpecificTestSuiteBuilder<\n",
+        "194": "              ?, ? extends OneSizeTestContainerGenerator<M, Entry<K, V>>>\n",
+        "551": "    public MultimapGetGenerator(\n",
+        "552": "        OneSizeTestContainerGenerator<M, Entry<K, V>> multimapGenerator) {\n"
+    }
+}

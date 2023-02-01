@@ -1,0 +1,7 @@
+private boolean finishLine(boolean sawNewline) throws IOException {
+    String separator = sawReturn ? (sawNewline ? "\r\n" : "\r") : (sawNewline ? "\n" : "");
+    handleLine(line.toString(), separator);
+    line = new StringBuilder();
+    sawReturn = false;
+    return sawNewline;
+}

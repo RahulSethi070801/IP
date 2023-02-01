@@ -1,0 +1,50 @@
+com.google.common.graph.AbstractUndirectedNodeConnections
+addInEdge
+public void addInEdge(E edge, N node, boolean isSelfLoop)
+E,N,boolean
+void
+com.google.common.graph.NodeConnections
+addInEdge
+void addInEdge(E edge, N node, boolean isSelfLoop)
+E,N,boolean
+void
+com.google.common.graph.NodeConnections
+addOutEdge
+boolean addOutEdge(E edge, N node)
+E,N
+boolean
+com.google.common.graph.NodeConnections
+addOutEdge
+void addOutEdge(E edge, N node)
+E,N
+void
+com.google.common.graph.AbstractUndirectedNodeConnections
+removeInEdge
+public N removeInEdge(Object edge, boolean isSelfLoop)
+Object,boolean
+N
+com.google.common.graph.AbstractUndirectedNodeConnections
+removeOutEdge
+public N removeOutEdge(Object edge)
+Object
+N
+com.google.common.graph.AbstractUndirectedNodeConnections
+addInEdge
+public boolean addInEdge(E edge, N node, boolean isSelfLoop)
+E,N,boolean
+boolean
+com.google.common.graph.AbstractUndirectedNodeConnections
+addOutEdge
+public boolean addOutEdge(E edge, N node)
+E,N
+boolean
+com.google.common.graph.AbstractUndirectedNodeConnections
+addOutEdge
+public void addOutEdge(E edge, N node)
+E,N
+void
+com.google.common.graph.NodeConnections
+addInEdge
+boolean addInEdge(E edge, N node, boolean isSelfLoop)
+E,N,boolean
+boolean

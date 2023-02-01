@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "32": " * Configurable implementation of {@link Graph} that supports the options supplied by\n",
+        "56": "class ConfigurableGraph<N, V> extends AbstractGraph<N, V> {\n",
+        "68": "  ConfigurableGraph(AbstractGraphBuilder<? super N> builder) {\n",
+        "80": "  ConfigurableGraph(AbstractGraphBuilder<? super N> builder,\n"
+    },
+    "removed": {
+        "32": " * Configurable implementation of {@link ValueGraph} that supports the options supplied by\n",
+        "56": "class ConfigurableValueGraph<N, V> extends AbstractValueGraph<N, V> {\n",
+        "68": "  ConfigurableValueGraph(AbstractGraphBuilder<? super N> builder) {\n",
+        "80": "  ConfigurableValueGraph(AbstractGraphBuilder<? super N> builder,\n"
+    }
+}

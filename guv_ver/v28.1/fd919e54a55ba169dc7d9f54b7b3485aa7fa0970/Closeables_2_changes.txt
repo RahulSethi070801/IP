@@ -1,0 +1,4 @@
+Closeables_2
+Insertions: [49, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 69, 70]
+Deletions: [49, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 67, 68]
+guava/src/com/google/common/io/Closeables.java

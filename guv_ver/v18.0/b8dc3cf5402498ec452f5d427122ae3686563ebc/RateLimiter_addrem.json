@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "227": "  //                 {@code createWithCapacity(permitsPerSecond, 1, TimeUnit.SECONDS)}\".\n",
+        "287": "  static RateLimiter createWithCapacity(\n"
+    },
+    "removed": {
+        "227": "  //                 {@code createBursty(permitsPerSecond, 1, TimeUnit.SECONDS)}\".\n",
+        "286": "  /**\n",
+        "287": "   * Creates a {@code RateLimiter} with the specified stable throughput, given as\n",
+        "288": "   * \"permits per second\" (commonly referred to as <i>QPS</i>, queries per second),\n",
+        "289": "   * and the specified bursty behavior.\n",
+        "290": "   *\n",
+        "291": "   * <p>The returned {@code RateLimiter} ensures that on average no more than {@code\n",
+        "292": "   * permitsPerSecond} are issued during any given second, with sustained requests\n",
+        "293": "   * being smoothly spread over each second. When the incoming request rate exceeds\n",
+        "294": "   * {@code permitsPerSecond} the rate limiter will release one permit every {@code\n",
+        "295": "   * (1.0 / permitsPerSecond)} seconds.\n",
+        "296": "   *\n",
+        "297": "   * <p>When the rate limiter is unused, permits of up to {@code maxBurstBuildup} time\n",
+        "298": "   * period can be accumulated, and then produced upon request with no wait (in a burst).\n",
+        "299": "   * For example, {@code createBursty(2.0, 30, TimeUnit.SECONDS)} constructs a {@code RateLimiter}\n",
+        "300": "   * with a max rate of 2 qps, but if it is unused, it can save up permits that would have been\n",
+        "301": "   * produced in 30 seconds (at 2 qps rate, that's 60 permits), and give them to callers with no\n",
+        "302": "   * throttling. If the rate is changed to, say, 4 qps, then similarly the max saved permits\n",
+        "303": "   * will be {@code 4 * 30 = 120}.\n",
+        "304": "   *\n",
+        "305": "   * @param permitsPerSecond the rate of the returned {@code RateLimiter}, measured in\n",
+        "306": "   *        how many permits become available per second.\n",
+        "307": "   * @param maxBurstBuildup\n",
+        "308": "   * @param unit\n",
+        "309": "   */\n",
+        "310": "\n",
+        "311": "  /* public */ static RateLimiter createBursty(\n",
+        "312": "      double permitsPerSecond, long maxBurstBuildup, TimeUnit unit) {\n",
+        "313": "    return createBursty(SleepingTicker.SYSTEM_TICKER, permitsPerSecond, maxBurstBuildup, unit);\n",
+        "314": "  }\n",
+        "315": "\n",
+        "317": "  static RateLimiter createBursty(\n"
+    }
+}

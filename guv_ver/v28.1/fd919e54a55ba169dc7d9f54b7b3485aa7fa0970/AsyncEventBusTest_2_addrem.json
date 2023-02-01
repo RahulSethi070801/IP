@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "34": "\n",
+        "37": "  @Override\n",
+        "38": "  protected void setUp() throws Exception {\n",
+        "52": "    assertTrue(\"No events should be delivered synchronously.\", events.isEmpty());\n",
+        "65": "   * An {@link Executor} wanna-be that simply records the tasks it's given. Arguably the Worst\n",
+        "66": "   * Executor Ever.\n"
+    },
+    "removed": {
+        "36": "  @Override protected void setUp() throws Exception {\n",
+        "50": "    assertTrue(\"No events should be delivered synchronously.\",\n",
+        "51": "        events.isEmpty());\n",
+        "64": "   * An {@link Executor} wanna-be that simply records the tasks it's given.\n",
+        "65": "   * Arguably the Worst Executor Ever.\n",
+        "68": "   *\n"
+    }
+}

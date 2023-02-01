@@ -1,0 +1,4 @@
+MapToStringTester_2
+Insertions: [82]
+Deletions: [82]
+guava-testlib/src/com/google/common/collect/testing/testers/MapToStringTester.java

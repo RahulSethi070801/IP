@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "41": " *   <li>Has the value-based (not identity-based) {@link #equals}, {@link #hashCode}, and {@link\n",
+        "42": " *       #toString} behavior you expect\n",
+        "282": "     * Returns a new immutable array. The builder can continue to be used after this call, to append\n",
+        "283": "     * more values and build again.\n"
+    },
+    "removed": {
+        "41": " *   <li>Has the value-based (not identity-based) {@link #equals}, {@link #hashCode}, and\n",
+        "42": " *       {@link #toString} behavior you expect\n",
+        "282": "     * Returns a new immutable array. The builder can continue to be used after this call, to\n",
+        "283": "     * append more values and build again.\n"
+    }
+}

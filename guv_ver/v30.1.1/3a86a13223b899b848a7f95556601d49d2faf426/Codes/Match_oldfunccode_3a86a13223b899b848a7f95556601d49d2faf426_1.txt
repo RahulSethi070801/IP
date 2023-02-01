@@ -1,0 +1,4 @@
+@Beta
+public static <T> FluentIterable<T> concat(Iterable<? extends T>... inputs) {
+    return concatNoDefensiveCopy(Arrays.copyOf(inputs, inputs.length));
+}

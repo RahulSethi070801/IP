@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "34": "    setDefault(EventSubscriber.class, new DummySubscriber().toEventSubscriber());\n",
+        "35": "    setDefault(Method.class, DummySubscriber.subscriberMethod());\n",
+        "38": "  private static class DummySubscriber {\n",
+        "43": "    EventSubscriber toEventSubscriber() throws Exception {\n",
+        "44": "      return new EventSubscriber(this, subscriberMethod());\n",
+        "47": "    private static Method subscriberMethod() throws NoSuchMethodException {\n",
+        "48": "      return DummySubscriber.class.getMethod(\"handle\", Object.class);\n"
+    },
+    "removed": {
+        "34": "    setDefault(EventHandler.class, new DummyHandler().toEventHandler());\n",
+        "35": "    setDefault(Method.class, DummyHandler.handlerMethod());\n",
+        "38": "  private static class DummyHandler {\n",
+        "43": "    EventHandler toEventHandler() throws Exception {\n",
+        "44": "      return new EventHandler(this, handlerMethod());\n",
+        "47": "    private static Method handlerMethod() throws NoSuchMethodException {\n",
+        "48": "      return DummyHandler.class.getMethod(\"handle\", Object.class);\n"
+    }
+}

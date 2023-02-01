@@ -1,0 +1,4 @@
+AbstractTable_2
+Insertions: [28, 39, 44, 59, 69, 75, 92, 141, 227]
+Deletions: [28, 39, 44, 59, 69, 75, 92, 141, 227]
+guava/src/com/google/common/collect/AbstractTable.java

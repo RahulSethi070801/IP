@@ -1,0 +1,4 @@
+@Override
+public final Throwable failureCause() {
+    return delegate.failureCause();
+}

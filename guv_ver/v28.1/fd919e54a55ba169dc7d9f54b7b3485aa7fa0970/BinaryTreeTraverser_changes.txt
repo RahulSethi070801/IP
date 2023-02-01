@@ -1,0 +1,4 @@
+BinaryTreeTraverser
+Insertions: [58]
+Deletions: [58, 59, 60]
+android/guava/src/com/google/common/collect/BinaryTreeTraverser.java

@@ -1,0 +1,27 @@
+public static MultimapBuilderWithKeys<Object> linkedHashKeys()
+public static MultimapBuilderWithKeys<Object> linkedHashKeys(final int expectedKeys)
+
+public static MultimapBuilderWithKeys<Object> linkedHashKeys()
+public Set<V> get()
+
+public static MultimapBuilderWithKeys<Object> linkedHashKeys()
+public Set<V> get()
+
+public static MultimapBuilderWithKeys<Object> hashKeys(final int expectedKeys)
+public static MultimapBuilderWithKeys<Object> linkedHashKeys(final int expectedKeys)
+
+public static MultimapBuilderWithKeys<Object> hashKeys(final int expectedKeys)
+public Set<V> get()
+
+public static MultimapBuilderWithKeys<Object> hashKeys(final int expectedKeys)
+public Set<V> get()
+
+public static MultimapBuilderWithKeys<Object> hashKeys()
+public static MultimapBuilderWithKeys<Object> linkedHashKeys(final int expectedKeys)
+
+public static MultimapBuilderWithKeys<Object> hashKeys()
+public Set<V> get()
+
+public static MultimapBuilderWithKeys<Object> hashKeys()
+public Set<V> get()
+

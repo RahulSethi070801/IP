@@ -1,0 +1,3 @@
+public static <T extends @Nullable Object> UnmodifiableIterator<List<T>> paddedPartition(Iterator<T> iterator, int size) {
+    return partitionImpl(iterator, size, true);
+}

@@ -1,0 +1,4 @@
+Types
+Insertions: [47, 89, 108, 115, 126, 175, 207, 263, 267]
+Deletions: [47, 89, 108, 115, 126, 175, 207, 263, 267]
+guava/src/com/google/common/reflect/Types.java

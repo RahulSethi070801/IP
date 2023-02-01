@@ -1,0 +1,14 @@
+
+   * Reads lines of text from this source, processing each line as it is read using the given {@link
+   * LineProcessor processor}. Stops when all lines have been processed or the processor returns
+   * {@code false} and returns the result produced by the processor.
+   *
+   * <p>Like {@link BufferedReader#readLine()}, this method considers a line to be a sequence of
+   * text that is terminated by (but does not include) one of {@code \r\n}, {@code \r} or {@code
+   * \n}. If the source's content does not end in a line termination sequence, it is treated as if
+   * it does.
+   *
+   * @throws IOException if an I/O error occurs while reading from this source or if {@code
+   *     processor} throws an {@code IOException}
+   * @since 16.0
+   

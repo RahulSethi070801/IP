@@ -1,0 +1,3 @@
+public static Escaper urlFormParameterEscaper() {
+    return URL_FORM_PARAMETER_ESCAPER;
+}

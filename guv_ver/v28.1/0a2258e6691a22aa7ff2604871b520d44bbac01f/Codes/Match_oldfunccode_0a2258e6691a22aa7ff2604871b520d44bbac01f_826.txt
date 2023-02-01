@@ -1,0 +1,4 @@
+@Override
+public boolean remove(@NullableDecl Object object) {
+    return standardRemove(object);
+}

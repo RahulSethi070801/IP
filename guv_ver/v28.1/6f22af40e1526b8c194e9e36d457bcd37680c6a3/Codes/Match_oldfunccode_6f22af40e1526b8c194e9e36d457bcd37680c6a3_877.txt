@@ -1,0 +1,6 @@
+@Override
+public Map<C, V> row(@Nullable R rowKey) {
+    synchronized (mutex) {
+        return map(delegate().row(rowKey), mutex);
+    }
+}

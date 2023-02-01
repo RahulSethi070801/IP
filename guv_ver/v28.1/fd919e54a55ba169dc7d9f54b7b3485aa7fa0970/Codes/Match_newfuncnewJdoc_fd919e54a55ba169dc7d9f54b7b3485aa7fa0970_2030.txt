@@ -1,0 +1,1 @@
+ Returns true if an exact reference (==) was found and removed from the supplied iterable. 

@@ -1,0 +1,4 @@
+ImmutableMapEntrySet
+Insertions: [26, 91]
+Deletions: [26, 91]
+guava/src/com/google/common/collect/ImmutableMapEntrySet.java

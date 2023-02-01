@@ -1,0 +1,5 @@
+@Override
+public Set<Entry<K, V>> entries() {
+    assertTrue(Thread.holdsLock(mutex));
+    return super.entries();
+}

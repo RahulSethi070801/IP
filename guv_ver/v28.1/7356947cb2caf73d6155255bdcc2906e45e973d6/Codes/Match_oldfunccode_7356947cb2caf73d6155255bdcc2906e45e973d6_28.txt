@@ -1,0 +1,3 @@
+public static void append(CharSequence from, File to, Charset charset) throws IOException {
+    asCharSink(to, charset, new FileWriteMode[] { FileWriteMode.APPEND }).write(from);
+}

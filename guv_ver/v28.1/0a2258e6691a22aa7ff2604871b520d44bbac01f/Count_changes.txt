@@ -1,0 +1,4 @@
+Count
+Insertions: [19, 62]
+Deletions: [19, 62]
+guava/src/com/google/common/collect/Count.java

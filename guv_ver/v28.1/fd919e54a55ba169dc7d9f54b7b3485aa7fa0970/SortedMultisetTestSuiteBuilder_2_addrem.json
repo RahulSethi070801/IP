@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "49": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests a {@code\n",
+        "50": " * SortedMultiset} implementation.\n",
+        "95": "   * To avoid infinite recursion, test suites with these marker features won't have derived suites\n",
+        "96": "   * created for them.\n",
+        "108": "  /** Two bounds (from and to) define how to build a subMultiset. */\n",
+        "220": "   * Returns an array of four bogus elements that will always be too high or too low for the\n",
+        "221": "   * display. This includes two values for each extreme.\n",
+        "223": "   * <p>This method (dangerously) assume that the strings {@code \"!! a\"} and {@code \"~~ z\"} will\n",
+        "224": "   * work for this purpose, which may cause problems for navigable maps with non-string or unicode\n",
+        "225": "   * generators.\n"
+    },
+    "removed": {
+        "49": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests a\n",
+        "50": " * {@code SortedMultiset} implementation.\n",
+        "95": "   * To avoid infinite recursion, test suites with these marker features won't\n",
+        "96": "   * have derived suites created for them.\n",
+        "108": "  /**\n",
+        "109": "   * Two bounds (from and to) define how to build a subMultiset.\n",
+        "110": "   */\n",
+        "222": "   * Returns an array of four bogus elements that will always be too high or too\n",
+        "223": "   * low for the display. This includes two values for each extreme.\n",
+        "225": "   * <p>\n",
+        "226": "   * This method (dangerously) assume that the strings {@code \"!! a\"} and\n",
+        "227": "   * {@code \"~~ z\"} will work for this purpose, which may cause problems for\n",
+        "228": "   * navigable maps with non-string or unicode generators.\n"
+    }
+}

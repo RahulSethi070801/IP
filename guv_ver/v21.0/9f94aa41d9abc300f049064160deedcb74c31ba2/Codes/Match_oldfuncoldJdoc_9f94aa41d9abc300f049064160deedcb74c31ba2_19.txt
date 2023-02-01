@@ -1,0 +1,11 @@
+
+   * Sets the minimum total size for the internal hash tables. For example, if the initial capacity
+   * is {@code 60}, and the concurrency level is {@code 8}, then eight segments are created, each
+   * having a hash table of size eight. Providing a large enough estimate at construction time
+   * avoids the need for expensive resizing operations later, but setting this value unnecessarily
+   * high wastes memory.
+   *
+   * @return this {@code CacheBuilder} instance (for chaining)
+   * @throws IllegalArgumentException if {@code initialCapacity} is negative
+   * @throws IllegalStateException if an initial capacity was already set
+   

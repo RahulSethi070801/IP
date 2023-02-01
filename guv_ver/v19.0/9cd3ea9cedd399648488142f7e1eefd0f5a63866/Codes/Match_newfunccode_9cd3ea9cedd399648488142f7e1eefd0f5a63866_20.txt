@@ -1,0 +1,5 @@
+@Beta
+@CheckReturnValue
+public String join(Iterable<? extends Entry<?, ?>> entries) {
+    return join(entries.iterator());
+}

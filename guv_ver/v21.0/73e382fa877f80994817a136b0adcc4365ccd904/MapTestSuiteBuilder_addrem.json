@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "29": "import com.google.common.collect.testing.testers.MapComputeIfAbsentTester;\n",
+        "30": "import com.google.common.collect.testing.testers.MapComputeIfPresentTester;\n",
+        "31": "import com.google.common.collect.testing.testers.MapComputeTester;\n",
+        "37": "import com.google.common.collect.testing.testers.MapForEachTester;\n",
+        "38": "import com.google.common.collect.testing.testers.MapGetOrDefaultTester;\n",
+        "42": "import com.google.common.collect.testing.testers.MapMergeTester;\n",
+        "44": "import com.google.common.collect.testing.testers.MapPutIfAbsentTester;\n",
+        "46": "import com.google.common.collect.testing.testers.MapRemoveEntryTester;\n",
+        "48": "import com.google.common.collect.testing.testers.MapReplaceAllTester;\n",
+        "49": "import com.google.common.collect.testing.testers.MapReplaceEntryTester;\n",
+        "50": "import com.google.common.collect.testing.testers.MapReplaceTester;\n",
+        "81": "        MapComputeTester.class,\n",
+        "82": "        MapComputeIfAbsentTester.class,\n",
+        "83": "        MapComputeIfPresentTester.class,\n",
+        "89": "        MapForEachTester.class,\n",
+        "91": "        MapGetOrDefaultTester.class,\n",
+        "94": "        MapMergeTester.class,\n",
+        "97": "        MapPutIfAbsentTester.class,\n",
+        "99": "        MapRemoveEntryTester.class,\n",
+        "100": "        MapReplaceTester.class,\n",
+        "101": "        MapReplaceAllTester.class,\n",
+        "102": "        MapReplaceEntryTester.class,\n"
+    },
+    "removed": {}
+}

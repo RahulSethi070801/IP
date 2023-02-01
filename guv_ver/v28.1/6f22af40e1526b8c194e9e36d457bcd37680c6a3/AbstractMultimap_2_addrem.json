@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "32": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "47": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "58": "  public boolean containsEntry(@NullableDecl Object key, @NullableDecl Object value) {\n",
+        "65": "  public boolean remove(@NullableDecl Object key, @NullableDecl Object value) {\n",
+        "72": "  public boolean put(@NullableDecl K key, @NullableDecl V value) {\n",
+        "78": "  public boolean putAll(@NullableDecl K key, Iterable<? extends V> values) {\n",
+        "103": "  public Collection<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {\n",
+        "152": "    public boolean equals(@NullableDecl Object obj) {\n",
+        "218": "    public boolean contains(@NullableDecl Object o) {\n",
+        "249": "  public boolean equals(@NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "32": "import javax.annotation.Nullable;\n",
+        "47": "  public boolean containsValue(@Nullable Object value) {\n",
+        "58": "  public boolean containsEntry(@Nullable Object key, @Nullable Object value) {\n",
+        "65": "  public boolean remove(@Nullable Object key, @Nullable Object value) {\n",
+        "72": "  public boolean put(@Nullable K key, @Nullable V value) {\n",
+        "78": "  public boolean putAll(@Nullable K key, Iterable<? extends V> values) {\n",
+        "103": "  public Collection<V> replaceValues(@Nullable K key, Iterable<? extends V> values) {\n",
+        "152": "    public boolean equals(@Nullable Object obj) {\n",
+        "218": "    public boolean contains(@Nullable Object o) {\n",
+        "249": "  public boolean equals(@Nullable Object object) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public int compare(@NullableDecl Object left, @NullableDecl Object right) {
+    return 0;
+}

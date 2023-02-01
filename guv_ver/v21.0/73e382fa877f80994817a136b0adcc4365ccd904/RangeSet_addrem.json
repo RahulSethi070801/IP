@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "53": "  // TODO(lowasser): consider adding default implementations of some of these methods\n",
+        "102": "  default boolean enclosesAll(Iterable<Range<C>> other) {\n",
+        "103": "    for (Range<C> range : other) {\n",
+        "104": "      if (!encloses(range)) {\n",
+        "105": "        return false;\n",
+        "106": "      }\n",
+        "107": "    }\n",
+        "108": "    return true;\n",
+        "109": "  }\n",
+        "223": "  default void addAll(Iterable<Range<C>> ranges) {\n",
+        "224": "    for (Range<C> range : ranges) {\n",
+        "225": "      add(range);\n",
+        "226": "    }\n",
+        "227": "  }\n",
+        "252": "  default void removeAll(Iterable<Range<C>> ranges) {\n",
+        "253": "    for (Range<C> range : ranges) {\n",
+        "254": "      remove(range);\n",
+        "255": "    }\n",
+        "256": "  }\n"
+    },
+    "removed": {
+        "101": "  boolean enclosesAll(Iterable<Range<C>> other);\n",
+        "215": "  void addAll(Iterable<Range<C>> ranges);\n",
+        "240": "  void removeAll(Iterable<Range<C>> ranges);\n"
+    }
+}

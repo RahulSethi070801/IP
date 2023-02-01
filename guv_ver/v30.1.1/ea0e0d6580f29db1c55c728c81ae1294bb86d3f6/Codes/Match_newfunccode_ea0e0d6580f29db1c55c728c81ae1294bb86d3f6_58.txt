@@ -1,0 +1,11 @@
+static <E extends @Nullable Object> boolean addAllImpl(Multiset<E> self, Collection<? extends E> elements) {
+    checkNotNull(self);
+    checkNotNull(elements);
+    if (elements instanceof Multiset) {
+        return addAllImpl(self, cast(elements));
+    } else if (elements.isEmpty()) {
+        return false;
+    } else {
+        return Iterators.addAll(self, elements.iterator());
+    }
+}

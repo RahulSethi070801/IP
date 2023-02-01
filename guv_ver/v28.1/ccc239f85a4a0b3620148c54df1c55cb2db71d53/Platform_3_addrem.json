@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "21": "import java.util.Map;\n",
+        "22": "import java.util.Set;\n",
+        "31": "  /** Returns the platform preferred implementation of a map based on a hash table. */\n",
+        "32": "  static <K, V> Map<K, V> newHashMapWithExpectedSize(int expectedSize) {\n",
+        "33": "    return Maps.newHashMapWithExpectedSize(expectedSize);\n",
+        "34": "  }\n",
+        "35": "\n",
+        "36": "  /**\n",
+        "37": "   * Returns the platform preferred implementation of an insertion ordered map based on a hash\n",
+        "38": "   * table.\n",
+        "39": "   */\n",
+        "40": "  static <K, V> Map<K, V> newLinkedHashMapWithExpectedSize(int expectedSize) {\n",
+        "41": "    return Maps.newLinkedHashMapWithExpectedSize(expectedSize);\n",
+        "42": "  }\n",
+        "43": "\n",
+        "44": "  /** Returns the platform preferred implementation of a set based on a hash table. */\n",
+        "45": "  static <E> Set<E> newHashSetWithExpectedSize(int expectedSize) {\n",
+        "46": "    return Sets.newHashSetWithExpectedSize(expectedSize);\n",
+        "47": "  }\n",
+        "48": "\n",
+        "49": "  /**\n",
+        "50": "   * Returns the platform preferred implementation of an insertion ordered set based on a hash\n",
+        "51": "   * table.\n",
+        "52": "   */\n",
+        "53": "  static <E> Set<E> newLinkedHashSetWithExpectedSize(int expectedSize) {\n",
+        "54": "    return Sets.newLinkedHashSetWithExpectedSize(expectedSize);\n",
+        "55": "  }\n",
+        "56": "\n"
+    },
+    "removed": {}
+}

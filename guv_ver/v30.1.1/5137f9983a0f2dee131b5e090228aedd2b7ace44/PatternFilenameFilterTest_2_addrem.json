@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "19": "import com.google.common.testing.NullPointerTester;\n",
+        "20": "import com.google.common.testing.NullPointerTester.Visibility;\n",
+        "51": "\n",
+        "52": "  public void testNulls() throws Exception {\n",
+        "53": "    NullPointerTester tester = new NullPointerTester();\n",
+        "54": "\n",
+        "55": "    tester.testConstructors(PatternFilenameFilter.class, Visibility.PACKAGE);\n",
+        "56": "    tester.testStaticMethods(PatternFilenameFilter.class, Visibility.PACKAGE); // currently none\n",
+        "57": "\n",
+        "58": "    // The reason that we skip this method is discussed in a comment on the method.\n",
+        "59": "    tester.ignore(PatternFilenameFilter.class.getMethod(\"accept\", File.class, String.class));\n",
+        "60": "    tester.testInstanceMethods(new PatternFilenameFilter(\".*\"), Visibility.PACKAGE);\n",
+        "61": "  }\n"
+    },
+    "removed": {}
+}

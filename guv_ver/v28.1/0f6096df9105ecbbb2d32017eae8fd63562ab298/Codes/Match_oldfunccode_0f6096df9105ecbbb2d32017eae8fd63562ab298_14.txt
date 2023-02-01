@@ -1,0 +1,12 @@
+@Override
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {
+    GraphConnections<N, V> connectionsU = nodeConnections.get(nodeU);
+    if (connectionsU == null) {
+        return defaultValue;
+    }
+    V value = connectionsU.value(nodeV);
+    if (value == null) {
+        return defaultValue;
+    }
+    return value;
+}

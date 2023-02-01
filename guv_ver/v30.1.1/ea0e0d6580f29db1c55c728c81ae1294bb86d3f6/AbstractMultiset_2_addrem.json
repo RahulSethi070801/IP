@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "29": "import javax.annotation.CheckForNull;\n",
+        "46": "@ElementTypesAreNonnullByDefault\n",
+        "47": "abstract class AbstractMultiset<E extends @Nullable Object> extends AbstractCollection<E>\n",
+        "48": "    implements Multiset<E> {\n",
+        "57": "  public boolean contains(@CheckForNull Object element) {\n",
+        "64": "  public final boolean add(@ParametricNullness E element) {\n",
+        "71": "  public int add(@ParametricNullness E element, int occurrences) {\n",
+        "77": "  public final boolean remove(@CheckForNull Object element) {\n",
+        "83": "  public int remove(@CheckForNull Object element, int occurrences) {\n",
+        "89": "  public int setCount(@ParametricNullness E element, int count) {\n",
+        "95": "  public boolean setCount(@ParametricNullness E element, int oldCount, int newCount) {\n",
+        "130": "  @LazyInit @CheckForNull private transient Set<E> elementSet;\n",
+        "164": "  @LazyInit @CheckForNull private transient Set<Entry<E>> entrySet;\n",
+        "210": "  public final boolean equals(@CheckForNull Object object) {\n"
+    },
+    "removed": {
+        "45": "abstract class AbstractMultiset<E> extends AbstractCollection<E> implements Multiset<E> {\n",
+        "54": "  public boolean contains(@Nullable Object element) {\n",
+        "61": "  public final boolean add(@Nullable E element) {\n",
+        "68": "  public int add(@Nullable E element, int occurrences) {\n",
+        "74": "  public final boolean remove(@Nullable Object element) {\n",
+        "80": "  public int remove(@Nullable Object element, int occurrences) {\n",
+        "86": "  public int setCount(@Nullable E element, int count) {\n",
+        "92": "  public boolean setCount(@Nullable E element, int oldCount, int newCount) {\n",
+        "127": "  @LazyInit private transient @Nullable Set<E> elementSet;\n",
+        "161": "  @LazyInit private transient @Nullable Set<Entry<E>> entrySet;\n",
+        "207": "  public final boolean equals(@Nullable Object object) {\n"
+    }
+}

@@ -1,0 +1,6 @@
+
+   * Gets the value from an entry. Returns null if the entry is invalid, partially-collected,
+   * loading, or expired. Unlike {@link Segment#getLiveValue} this method does not attempt to
+   * cleanup stale entries. As such it should only be called outside of a segment context, such as
+   * during iteration.
+   

@@ -1,0 +1,4 @@
+Files_2
+Insertions: [55, 56, 69, 535, 595, 597, 598, 617, 619, 620]
+Deletions: [592, 612]
+guava/src/com/google/common/io/Files.java

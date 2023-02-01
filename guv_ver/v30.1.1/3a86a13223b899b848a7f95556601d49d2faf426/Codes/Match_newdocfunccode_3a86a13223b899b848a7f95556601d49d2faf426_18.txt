@@ -1,0 +1,1 @@
+public abstract ComparisonChain compare(Comparable<?> left, Comparable<?> right);

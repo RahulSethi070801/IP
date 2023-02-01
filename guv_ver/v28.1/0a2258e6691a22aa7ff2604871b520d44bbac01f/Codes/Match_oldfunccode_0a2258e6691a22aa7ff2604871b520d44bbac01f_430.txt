@@ -1,0 +1,4 @@
+@Override
+public SortedMultiset<E> headMultiset(@NullableDecl E upperBound, BoundType boundType) {
+    return new TreeMultiset<E>(rootReference, range.intersect(GeneralRange.upTo(comparator(), upperBound, boundType)), header);
+}

@@ -1,0 +1,4 @@
+@Override
+public int indexIn(CharSequence sequence) {
+    return (sequence.length() == 0) ? -1 : 0;
+}

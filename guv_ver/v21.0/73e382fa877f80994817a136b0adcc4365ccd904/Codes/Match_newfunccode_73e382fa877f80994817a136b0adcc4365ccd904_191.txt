@@ -1,0 +1,6 @@
+@Override
+public V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction) {
+    synchronized (mutex) {
+        return delegate().merge(key, value, remappingFunction);
+    }
+}

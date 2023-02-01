@@ -1,0 +1,31 @@
+{
+    "addition": {},
+    "removed": {
+        "20": "import static com.google.common.graph.Graphs.addEdge;\n",
+        "148": "  @Test\n",
+        "149": "  public void addEdge_mismatchedDirectedness() {\n",
+        "150": "    try {\n",
+        "151": "      addEdge(NetworkBuilder.undirected().<Integer, String>build(), E12,\n",
+        "152": "          Endpoints.ofDirected(N1, N2));\n",
+        "153": "      fail(\"Should have rejected adding an edge with directed endpoints to a undirected graph.\");\n",
+        "154": "    } catch (IllegalArgumentException expected) {\n",
+        "155": "    }\n",
+        "156": "  }\n",
+        "157": "\n",
+        "158": "  @Test\n",
+        "159": "  public void addEdge_selfLoop() {\n",
+        "160": "    MutableNetwork<Integer, String> undirectedGraph = NetworkBuilder.undirected().build();\n",
+        "161": "    assertThat(addEdge(undirectedGraph, E11, Endpoints.ofUndirected(N1, N1))).isTrue();\n",
+        "162": "    assertThat(undirectedGraph.edgesConnecting(N1, N1)).containsExactly(E11);\n",
+        "163": "  }\n",
+        "164": "\n",
+        "165": "  @Test\n",
+        "166": "  public void addEdge_basic() {\n",
+        "167": "    MutableNetwork<Integer, String> directedGraph = NetworkBuilder.directed().build();\n",
+        "168": "    assertThat(addEdge(directedGraph, E12, Endpoints.ofDirected(N1, N2))).isTrue();\n",
+        "169": "    assertThat(directedGraph.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "170": "    assertThat(directedGraph.edgesConnecting(N2, N1)).isEmpty();\n",
+        "171": "  }\n",
+        "172": "\n"
+    }
+}

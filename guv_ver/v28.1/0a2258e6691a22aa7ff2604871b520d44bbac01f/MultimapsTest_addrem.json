@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "65": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "327": "      @Nullable String nullKey,\n",
+        "328": "      @Nullable Integer nullValue) {\n",
+        "357": "      @Nullable String nullKey,\n",
+        "358": "      @Nullable Integer nullValue) {\n"
+    },
+    "removed": {
+        "65": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "327": "      @NullableDecl String nullKey,\n",
+        "328": "      @NullableDecl Integer nullValue) {\n",
+        "357": "      @NullableDecl String nullKey,\n",
+        "358": "      @NullableDecl Integer nullValue) {\n"
+    }
+}

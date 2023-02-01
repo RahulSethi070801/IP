@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "267": "  @SuppressWarnings(\"unused\") // compilation test\n",
+        "273": "  @SuppressWarnings(\"unused\") // compilation test\n",
+        "280": "  @SuppressWarnings(\"unused\") // compilation test\n",
+        "282": "    Optional<Number> optionalInt = Optional.of((Number) 1);\n",
+        "286": "  @SuppressWarnings(\"unused\") // compilation test\n",
+        "289": "\n",
+        "290": "    // Sadly, the following is what users will have to do in some circumstances.\n",
+        "291": "\n",
+        "292": "    @SuppressWarnings(\"unchecked\") // safe covariant cast\n"
+    },
+    "removed": {
+        "278": "  @SuppressWarnings(\"unchecked\") // safe covariant cast\n",
+        "280": "    Optional<Number> optionalInt = (Optional) getSomeOptionalInt();\n",
+        "284": "  @SuppressWarnings(\"unchecked\") // safe covariant cast\n"
+    }
+}

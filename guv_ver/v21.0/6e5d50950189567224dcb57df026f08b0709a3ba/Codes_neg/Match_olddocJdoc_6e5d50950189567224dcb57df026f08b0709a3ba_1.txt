@@ -1,0 +1,4 @@
+
+   * Returns the {@link Scheduler} object used to configure this service. This method will only be
+   * called once.
+   

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "206": "   * <li>The {@link #edgeValue(Object, Object) value} of a given edge is the same in both A and B.\n"
+    },
+    "removed": {
+        "206": "   * <li>Every edge in A and B are associated with equal {@link #edgeValue(Object, Object) values}.\n"
+    }
+}

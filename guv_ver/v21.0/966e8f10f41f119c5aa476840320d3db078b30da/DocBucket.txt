@@ -1,0 +1,10 @@
+com.google.common.graph.IncidentNodes
+node1
+abstract N node1()
+empty
+N
+com.google.common.graph.IncidentNodes
+node2
+abstract N node2()
+empty
+N

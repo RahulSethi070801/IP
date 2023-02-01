@@ -1,0 +1,7 @@
+
+   * Updates the value currently associated with {@code key} with the specified function,
+   * and returns the old value.  If there is not currently a value associated with {@code key},
+   * the function is applied to {@code 0L}.
+   *
+   * @since 21.0
+   

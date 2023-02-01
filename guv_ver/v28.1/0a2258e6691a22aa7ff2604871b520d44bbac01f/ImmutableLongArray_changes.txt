@@ -1,0 +1,4 @@
+ImmutableLongArray
+Insertions: [36, 512, 552]
+Deletions: [36, 512, 552]
+guava/src/com/google/common/primitives/ImmutableLongArray.java

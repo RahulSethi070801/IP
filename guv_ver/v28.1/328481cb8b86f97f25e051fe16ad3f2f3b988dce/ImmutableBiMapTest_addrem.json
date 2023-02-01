@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "213": "      Entry<Integer, Integer>[] builderArray = builder.entries;\n",
+        "217": "      Entry<Integer, Integer>[] builderArrayAfterPuts = builder.entries;\n",
+        "220": "      Entry<Integer, Integer>[] mapInternalArray = map.entries;\n"
+    },
+    "removed": {
+        "213": "      Map.Entry<Integer, Integer>[] builderArray = builder.entries;\n",
+        "217": "      Map.Entry<Integer, Integer>[] builderArrayAfterPuts = builder.entries;\n",
+        "220": "      Map.Entry<Integer, Integer>[] mapInternalArray = map.entries;\n"
+    }
+}

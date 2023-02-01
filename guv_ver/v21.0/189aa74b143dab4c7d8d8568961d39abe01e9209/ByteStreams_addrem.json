@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "23": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "104": "  @CanIgnoreReturnValue\n",
+        "130": "  @CanIgnoreReturnValue\n",
+        "800": "  @CanIgnoreReturnValue // some processors won't return a useful result\n",
+        "836": "  @CanIgnoreReturnValue\n",
+        "837": "  // Sometimes you don't care how many bytes you actually read, I guess.\n",
+        "838": "  // (You know that it's either going to read len bytes or stop at EOF.)\n"
+    },
+    "removed": {}
+}

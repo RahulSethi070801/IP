@@ -1,0 +1,5 @@
+
+   * Returns true if the files contains the same bytes.
+   *
+   * @throws IOException if an I/O error occurs
+   

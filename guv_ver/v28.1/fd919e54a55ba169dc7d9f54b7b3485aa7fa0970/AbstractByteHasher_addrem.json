@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "38": "  /** Updates this hasher with the given byte. */\n",
+        "41": "  /** Updates this hasher with the given bytes. */\n",
+        "46": "  /** Updates this hasher with {@code len} bytes starting at {@code off} in the given buffer. */\n",
+        "91": "  /** Updates the sink with the given number of bytes from the buffer. */\n"
+    },
+    "removed": {
+        "38": "  /**\n",
+        "39": "   * Updates this hasher with the given byte.\n",
+        "40": "   */\n",
+        "43": "  /**\n",
+        "44": "   * Updates this hasher with the given bytes.\n",
+        "45": "   */\n",
+        "50": "  /**\n",
+        "51": "   * Updates this hasher with {@code len} bytes starting at {@code off} in the given buffer.\n",
+        "52": "   */\n",
+        "97": "  /**\n",
+        "98": "   * Updates the sink with the given number of bytes from the buffer.\n",
+        "99": "   */\n"
+    }
+}

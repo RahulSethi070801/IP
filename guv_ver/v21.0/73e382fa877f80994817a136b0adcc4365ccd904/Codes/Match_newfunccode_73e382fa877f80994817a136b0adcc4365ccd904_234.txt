@@ -1,0 +1,5 @@
+@Override
+Builder<K, V> combine(ImmutableMap.Builder<K, V> other) {
+    super.combine(other);
+    return this;
+}

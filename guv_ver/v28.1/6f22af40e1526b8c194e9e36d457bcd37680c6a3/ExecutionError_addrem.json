@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "18": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "36": "  protected ExecutionError(@NullableDecl String message) {\n",
+        "41": "  public ExecutionError(@NullableDecl String message, @NullableDecl Error cause) {\n",
+        "46": "  public ExecutionError(@NullableDecl Error cause) {\n"
+    },
+    "removed": {
+        "18": "import javax.annotation.Nullable;\n",
+        "36": "  protected ExecutionError(@Nullable String message) {\n",
+        "41": "  public ExecutionError(@Nullable String message, @Nullable Error cause) {\n",
+        "46": "  public ExecutionError(@Nullable Error cause) {\n"
+    }
+}

@@ -1,0 +1,3 @@
+static boolean isInstanceOfThrowableClass(@NullableDecl Throwable t, Class<? extends Throwable> expectedClass) {
+    return expectedClass.isInstance(t);
+}

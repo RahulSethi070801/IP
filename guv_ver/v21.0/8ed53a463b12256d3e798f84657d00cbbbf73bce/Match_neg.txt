@@ -1,0 +1,6 @@
+Set<N> incidentNodes(Object edge)
+Set<E> edgesConnecting(Object node1, Object node2)
+
+Set<E> edgesConnecting(Object source, Object target)
+Set<E> edgesConnecting(Object node1, Object node2)
+

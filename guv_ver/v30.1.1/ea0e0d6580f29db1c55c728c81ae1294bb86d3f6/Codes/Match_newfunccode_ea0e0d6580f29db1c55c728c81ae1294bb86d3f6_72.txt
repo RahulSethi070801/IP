@@ -1,0 +1,6 @@
+private static int getAndSet(@CheckForNull Count i, int count) {
+    if (i == null) {
+        return 0;
+    }
+    return i.getAndSet(count);
+}

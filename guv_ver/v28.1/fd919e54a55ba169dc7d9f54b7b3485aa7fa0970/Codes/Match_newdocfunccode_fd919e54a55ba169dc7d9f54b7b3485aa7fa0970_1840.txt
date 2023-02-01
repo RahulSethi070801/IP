@@ -1,0 +1,14 @@
+@Override
+public long copyTo(CharSink sink) throws IOException {
+    checkNotNull(sink);
+    Closer closer = Closer.create();
+    try {
+        Writer writer = closer.register(sink.openStream());
+        writer.write((String) seq);
+        return seq.length();
+    } catch (Throwable e) {
+        throw closer.rethrow(e);
+    } finally {
+        closer.close();
+    }
+}

@@ -1,0 +1,3 @@
+
+   * Creates a mutable copy of {@code graph}, using the same node and edge elements.
+   

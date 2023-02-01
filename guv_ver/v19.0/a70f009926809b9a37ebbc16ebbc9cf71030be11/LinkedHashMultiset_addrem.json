@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "106": "    setBackingMap(new LinkedHashMap<E, Count>());\n"
+    },
+    "removed": {
+        "106": "    setBackingMap(new LinkedHashMap<E, Count>(\n",
+        "107": "        Maps.capacity(distinctElements)));\n"
+    }
+}

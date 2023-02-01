@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "40": "import java.util.Spliterator;\n",
+        "1090": "  static <E> Spliterator<E> spliteratorImpl(Multiset<E> multiset) {\n",
+        "1091": "    Spliterator<Entry<E>> entrySpliterator = multiset.entrySet().spliterator();\n",
+        "1092": "    return CollectSpliterators.flatMap(\n",
+        "1093": "        entrySpliterator,\n",
+        "1094": "        entry -> Collections.nCopies(entry.getCount(), entry.getElement()).spliterator(),\n",
+        "1095": "        Spliterator.SIZED\n",
+        "1096": "            | (entrySpliterator.characteristics()\n",
+        "1097": "                & (Spliterator.ORDERED | Spliterator.NONNULL | Spliterator.IMMUTABLE)),\n",
+        "1098": "        multiset.size());\n",
+        "1099": "  }\n",
+        "1100": "\n"
+    },
+    "removed": {}
+}

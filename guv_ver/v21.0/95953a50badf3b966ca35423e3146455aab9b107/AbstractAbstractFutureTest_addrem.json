@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "126": "  @GwtIncompatible // All GWT Futures behaves like TrustedFuture.\n",
+        "138": "  @GwtIncompatible // All GWT Futures behaves like TrustedFuture.\n"
+    },
+    "removed": {}
+}

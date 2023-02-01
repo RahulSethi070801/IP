@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "32": " * A generic JUnit test which tests {@code add(Object)} operations on a list. Can't be invoked\n",
+        "33": " * directly; please see {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n",
+        "74": "   * Returns the {@link Method} instance for {@link #testAdd_supportedNullPresent()} so that tests\n",
+        "75": "   * can suppress it. See {@link CollectionAddTester#getAddNullSupportedMethod()} for details.\n"
+    },
+    "removed": {
+        "32": " * A generic JUnit test which tests {@code add(Object)} operations on a list.\n",
+        "33": " * Can't be invoked directly; please see\n",
+        "34": " * {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n",
+        "75": "   * Returns the {@link Method} instance for\n",
+        "76": "   * {@link #testAdd_supportedNullPresent()} so that tests can suppress it. See\n",
+        "77": "   * {@link CollectionAddTester#getAddNullSupportedMethod()} for details.\n"
+    }
+}

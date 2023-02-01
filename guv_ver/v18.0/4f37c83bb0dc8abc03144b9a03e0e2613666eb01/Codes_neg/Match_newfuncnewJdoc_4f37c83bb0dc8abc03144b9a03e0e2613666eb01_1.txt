@@ -1,0 +1,9 @@
+
+   * Writes a byte array to an output stream from the given supplier.
+   *
+   * @param from the bytes to write
+   * @param to the output supplier
+   * @throws IOException if an I/O error occurs
+   * @deprecated Use {@link ByteSink#write(byte[])} instead. This method is
+   *     scheduled for removal in Guava 18.0.
+   

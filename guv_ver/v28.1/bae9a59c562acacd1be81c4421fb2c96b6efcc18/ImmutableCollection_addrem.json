@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "60": " *     the collection was created. Typically this is insertion order unless an explicit ordering is\n",
+        "61": " *     otherwise specified (e.g. {@link ImmutableSortedSet#naturalOrder}).  See the appropriate\n",
+        "62": " *     factory method for details. View collections such as {@link ImmutableMultiset#elementSet}\n",
+        "63": " *     iterate in the same order as the parent, except as noted.\n"
+    },
+    "removed": {
+        "60": " *     the collection was created (see the appropriate factory method for details). View collections\n",
+        "61": " *     such as {@link ImmutableMultiset#elementSet} iterate in the same order as the parent, except\n",
+        "62": " *     as noted.\n"
+    }
+}

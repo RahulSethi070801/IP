@@ -1,0 +1,4 @@
+@Override
+public void addListener(Runnable listener, Executor executor) {
+    delegate.addListener(listener, executor);
+}

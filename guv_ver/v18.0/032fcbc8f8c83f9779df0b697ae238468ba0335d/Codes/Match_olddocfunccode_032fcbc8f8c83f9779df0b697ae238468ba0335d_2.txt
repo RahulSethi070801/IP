@@ -1,0 +1,6 @@
+public ServiceManager stopAsync() {
+    for (Service service : services) {
+        service.stopAsync();
+    }
+    return this;
+}

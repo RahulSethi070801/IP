@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "229": "    assertThat(transpose).isEqualTo(expectedTranspose);\n",
+        "267": "    assertThat(transpose).isEqualTo(expectedTranspose);\n",
+        "307": "    assertThat(transpose).isEqualTo(expectedTranspose);\n",
+        "334": "    assertThat(inducedSubgraph(directedGraph, nodeSubset)).isEqualTo(expectedSubgraph);\n",
+        "355": "    assertThat(inducedSubgraph(directedGraph, nodeSubset)).isEqualTo(expectedSubgraph);\n",
+        "376": "    assertThat(inducedSubgraph(directedGraph, nodeSubset)).isEqualTo(expectedSubgraph);\n",
+        "404": "    assertThat(copy).isEqualTo(directedGraph);\n",
+        "412": "    assertThat(copy).isEqualTo(undirectedGraph);\n",
+        "420": "    assertThat(copy).isEqualTo(directedGraph);\n",
+        "428": "    assertThat(copy).isEqualTo(undirectedGraph);\n",
+        "436": "    assertThat(copy).isEqualTo(directedGraph);\n",
+        "444": "    assertThat(copy).isEqualTo(undirectedGraph);\n",
+        "588": "    assertThat(transitiveClosure(originalGraph)).isEqualTo(expectedClosure);\n"
+    },
+    "removed": {
+        "229": "    assertThat(Graphs.equivalent(transpose, expectedTranspose)).isTrue();\n",
+        "267": "    assertThat(Graphs.equivalent(transpose, expectedTranspose)).isTrue();\n",
+        "307": "    assertThat(Graphs.equivalent(transpose, expectedTranspose)).isTrue();\n",
+        "334": "    assertThat(Graphs.equivalent(inducedSubgraph(directedGraph, nodeSubset), expectedSubgraph))\n",
+        "335": "        .isTrue();\n",
+        "356": "    assertThat(Graphs.equivalent(inducedSubgraph(directedGraph, nodeSubset), expectedSubgraph))\n",
+        "357": "        .isTrue();\n",
+        "378": "    assertThat(Graphs.equivalent(inducedSubgraph(directedGraph, nodeSubset), expectedSubgraph))\n",
+        "379": "        .isTrue();\n",
+        "407": "    assertThat(Graphs.equivalent(copy, directedGraph)).isTrue();\n",
+        "415": "    assertThat(Graphs.equivalent(copy, undirectedGraph)).isTrue();\n",
+        "423": "    assertThat(Graphs.equivalent(copy, directedGraph)).isTrue();\n",
+        "431": "    assertThat(Graphs.equivalent(copy, undirectedGraph)).isTrue();\n",
+        "439": "    assertThat(Graphs.equivalent(copy, directedGraph)).isTrue();\n",
+        "447": "    assertThat(Graphs.equivalent(copy, undirectedGraph)).isTrue();\n",
+        "591": "    assertThat(Graphs.equivalent(transitiveClosure(originalGraph), expectedClosure)).isTrue();\n"
+    }
+}

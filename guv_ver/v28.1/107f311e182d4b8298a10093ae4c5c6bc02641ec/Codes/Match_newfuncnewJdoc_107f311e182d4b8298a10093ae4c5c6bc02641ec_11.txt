@@ -1,0 +1,7 @@
+
+   * Converts the given {@code ListenableFuture} to an equivalent {@code FluentFuture}.
+   *
+   * <p>If the given {@code ListenableFuture} is already a {@code FluentFuture}, it is returned
+   * directly. If not, it is wrapped in a {@code FluentFuture} that delegates all calls to the
+   * original {@code ListenableFuture}.
+   

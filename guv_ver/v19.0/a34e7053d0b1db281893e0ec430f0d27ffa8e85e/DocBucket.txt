@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.AbstractFuture
+done
+void done()
+empty
+void

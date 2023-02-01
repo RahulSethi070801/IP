@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "24": " * Suite of tests for OpenJdk 6 tests. The existence of this class is a hack because the\n",
+        "25": " * suitebuilder won't pick up the suites directly in the other classes because they don't extend\n",
+        "26": " * TestCase. Ergh.\n"
+    },
+    "removed": {
+        "24": " * Suite of tests for OpenJdk 6 tests. The existence of this class is a hack\n",
+        "25": " * because the suitebuilder won't pick up the suites directly in the other\n",
+        "26": " * classes because they don't extend TestCase.  Ergh.\n"
+    }
+}

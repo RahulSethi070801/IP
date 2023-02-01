@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "35": "   * Returns a {@code RemovalListener} which processes all eviction notifications using\n",
+        "36": "   * {@code executor}.\n",
+        "39": "   * @param executor the executor with which removal notifications are asynchronously executed\n",
+        "48": "        executor.execute(\n",
+        "49": "            new Runnable() {\n",
+        "50": "              @Override\n",
+        "51": "              public void run() {\n",
+        "52": "                listener.onRemoval(notification);\n",
+        "53": "              }\n",
+        "54": "            });\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "37": "   * Returns a {@code RemovalListener} which processes all eviction\n",
+        "38": "   * notifications using {@code executor}.\n",
+        "41": "   * @param executor the executor with which removal notifications are\n",
+        "42": "   *     asynchronously executed\n",
+        "51": "        executor.execute(new Runnable() {\n",
+        "52": "          @Override\n",
+        "53": "          public void run() {\n",
+        "54": "            listener.onRemoval(notification);\n",
+        "55": "          }\n",
+        "56": "        });\n"
+    }
+}

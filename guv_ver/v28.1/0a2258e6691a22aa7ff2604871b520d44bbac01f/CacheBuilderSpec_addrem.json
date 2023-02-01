@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "84": "    void parse(CacheBuilderSpec spec, String key, @Nullable String value);\n",
+        "251": "  public boolean equals(@Nullable Object obj) {\n",
+        "281": "  @Nullable\n",
+        "282": "  private static Long durationInNanos(long duration, @Nullable TimeUnit unit) {\n",
+        "373": "    public void parse(CacheBuilderSpec spec, String key, @Nullable String value) {\n",
+        "389": "    public void parse(CacheBuilderSpec spec, String key, @Nullable String value) {\n",
+        "402": "    public void parse(CacheBuilderSpec spec, String key, @Nullable String value) {\n"
+    },
+    "removed": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "84": "    void parse(CacheBuilderSpec spec, String key, @NullableDecl String value);\n",
+        "251": "  public boolean equals(@NullableDecl Object obj) {\n",
+        "281": "  @NullableDecl\n",
+        "282": "  private static Long durationInNanos(long duration, @NullableDecl TimeUnit unit) {\n",
+        "373": "    public void parse(CacheBuilderSpec spec, String key, @NullableDecl String value) {\n",
+        "389": "    public void parse(CacheBuilderSpec spec, String key, @NullableDecl String value) {\n",
+        "402": "    public void parse(CacheBuilderSpec spec, String key, @NullableDecl String value) {\n"
+    }
+}

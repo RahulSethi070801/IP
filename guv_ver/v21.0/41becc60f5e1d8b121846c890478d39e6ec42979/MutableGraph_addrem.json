@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "23": " * A subtype of {@link Graph} which permits mutations.\n",
+        "24": " * Users should generally use the {@link Graph} interface where possible.\n",
+        "32": "public interface MutableGraph<N, V> extends Graph<N, V> {\n"
+    },
+    "removed": {
+        "23": " * A subtype of {@link ValueGraph} which permits mutations.\n",
+        "24": " * Users should generally use the {@link ValueGraph} interface where possible.\n",
+        "32": "public interface MutableValueGraph<N, V> extends ValueGraph<N, V> {\n"
+    }
+}

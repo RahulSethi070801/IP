@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "132": "    return graph.isDirected() == (endpoints instanceof Endpoints.Directed)\n",
+        "219": "      Endpoints<N> endpoints = graph.incidentNodes(edge);\n",
+        "220": "      checkState(copy.addEdge(edge, endpoints.nodeA(), endpoints.nodeB()));\n"
+    },
+    "removed": {
+        "22": "import static com.google.common.graph.GraphConstants.ENDPOINTS_GRAPH_DIRECTEDNESS;\n",
+        "34": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "134": "    return graph.isDirected() == endpoints.isDirected()\n",
+        "156": "  /**\n",
+        "157": "   * Adds {@code edge} to {@code graph} with the specified {@code endpoints}.\n",
+        "158": "   */\n",
+        "159": "  @CanIgnoreReturnValue\n",
+        "160": "  public static <N, E> boolean addEdge(MutableNetwork<N, E> graph, E edge, Endpoints<N> endpoints) {\n",
+        "161": "    checkNotNull(graph, \"graph\");\n",
+        "162": "    checkNotNull(edge, \"edge\");\n",
+        "163": "    checkNotNull(endpoints, \"endpoints\");\n",
+        "164": "    checkArgument(endpoints.isDirected() == graph.isDirected(),\n",
+        "165": "        ENDPOINTS_GRAPH_DIRECTEDNESS, endpoints.isDirected(), graph.isDirected());\n",
+        "166": "    return graph.addEdge(edge, endpoints.nodeA(), endpoints.nodeB());\n",
+        "167": "  }\n",
+        "168": "\n",
+        "234": "      checkState(addEdge(copy, edge, graph.incidentNodes(edge)));\n"
+    }
+}

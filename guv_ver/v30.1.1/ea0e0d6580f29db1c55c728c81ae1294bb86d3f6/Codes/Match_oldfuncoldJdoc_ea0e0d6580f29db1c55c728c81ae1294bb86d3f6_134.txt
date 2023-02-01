@@ -1,0 +1,9 @@
+
+   * Returns a view of this multiset restricted to the elements less than {@code upperBound},
+   * optionally including {@code upperBound} itself. The returned multiset is a view of this
+   * multiset, so changes to one will be reflected in the other. The returned multiset supports all
+   * operations that this multiset supports.
+   *
+   * <p>The returned multiset will throw an {@link IllegalArgumentException} on attempts to add
+   * elements outside its range.
+   

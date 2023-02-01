@@ -1,0 +1,35 @@
+com.google.common.util.concurrent.Futures
+immediateFailedCheckedFuture
+public static CheckedFuture<V, X> immediateFailedCheckedFuture(X exception)
+X
+CheckedFuture
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@NullableDecl Graph<?> graphA, @NullableDecl Graph<?> graphB)
+Graph,Graph
+boolean
+com.google.common.util.concurrent.Futures
+immediateCheckedFuture
+public static CheckedFuture<V, X> immediateCheckedFuture(@NullableDecl V value)
+V
+CheckedFuture
+com.google.common.util.concurrent.Futures
+makeChecked
+public static CheckedFuture<V, X> makeChecked(ListenableFuture<V> future, Function<? super Exception, X> mapper)
+ListenableFuture,Function
+CheckedFuture
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@NullableDecl ValueGraph<?, ?> graphA, @NullableDecl ValueGraph<?, ?> graphB)
+ValueGraph,ValueGraph
+boolean
+com.google.common.base.Predicates
+assignableFrom
+public static Predicate<Class<?>> assignableFrom(Class<?> clazz)
+Class
+Predicate
+com.google.common.graph.Graphs
+equivalent
+public static boolean equivalent(@NullableDecl Network<?, ?> networkA, @NullableDecl Network<?, ?> networkB)
+Network,Network
+boolean

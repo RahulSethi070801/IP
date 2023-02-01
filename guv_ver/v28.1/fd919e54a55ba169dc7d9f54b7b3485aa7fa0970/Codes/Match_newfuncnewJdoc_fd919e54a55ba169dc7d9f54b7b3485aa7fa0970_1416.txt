@@ -1,0 +1,1 @@
+ Prevent "missing hashCode" warning by explicitly forcing subclasses implement it

@@ -1,0 +1,4 @@
+@CheckReturnValue
+public static ToStringHelper toStringHelper(String className) {
+    return new ToStringHelper(className);
+}

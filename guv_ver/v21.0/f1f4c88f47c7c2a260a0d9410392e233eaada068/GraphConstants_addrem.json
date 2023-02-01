@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "53": "      \"Cannot call source()/target() on undirected endpoints. Consider calling otherNode() to get \"\n",
+        "54": "          + \"a single node or using the endpoints' iterator to get both nodes.\";\n"
+    },
+    "removed": {
+        "53": "      \"Cannot call source()/target() on undirected endpoints.\";\n"
+    }
+}

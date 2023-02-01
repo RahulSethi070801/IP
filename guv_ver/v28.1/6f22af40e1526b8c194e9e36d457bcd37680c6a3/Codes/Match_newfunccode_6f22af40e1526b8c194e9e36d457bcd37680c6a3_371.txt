@@ -1,0 +1,35 @@
+static <K, V> RegularImmutableMap<K, V> fromEntryArray(int n, Entry<K, V>[] entryArray) {
+    checkPositionIndex(n, entryArray.length);
+    if (n == 0) {
+        return (RegularImmutableMap<K, V>) EMPTY;
+    }
+    Entry<K, V>[] entries;
+    if (n == entryArray.length) {
+        entries = entryArray;
+    } else {
+        entries = createEntryArray(n);
+    }
+    int tableSize = Hashing.closedTableSize(n, MAX_LOAD_FACTOR);
+    ImmutableMapEntry<K, V>[] table = createEntryArray(tableSize);
+    int mask = tableSize - 1;
+    for (int entryIndex = 0; entryIndex < n; entryIndex++) {
+        Entry<K, V> entry = entryArray[entryIndex];
+        K key = entry.getKey();
+        V value = entry.getValue();
+        checkEntryNotNull(key, value);
+        int tableIndex = Hashing.smear(key.hashCode()) & mask;
+        @NullableDecl
+        ImmutableMapEntry<K, V> existing = table[tableIndex];
+        ImmutableMapEntry<K, V> newEntry;
+        if (existing == null) {
+            boolean reusable = entry instanceof ImmutableMapEntry && ((ImmutableMapEntry<K, V>) entry).isReusable();
+            newEntry = reusable ? (ImmutableMapEntry<K, V>) entry : new ImmutableMapEntry<K, V>(key, value);
+        } else {
+            newEntry = new NonTerminalImmutableMapEntry<>(key, value, existing);
+        }
+        table[tableIndex] = newEntry;
+        entries[entryIndex] = newEntry;
+        checkNoConflictInKeyBucket(key, newEntry, existing);
+    }
+    return new RegularImmutableMap<>(entries, table, mask);
+}

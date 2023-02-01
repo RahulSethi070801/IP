@@ -1,0 +1,7 @@
+private static void executeListener(Runnable runnable, Executor executor) {
+    try {
+        executor.execute(runnable);
+    } catch (RuntimeException e) {
+        log.log(Level.SEVERE, "RuntimeException while executing runnable " + runnable + " with executor " + executor, e);
+    }
+}

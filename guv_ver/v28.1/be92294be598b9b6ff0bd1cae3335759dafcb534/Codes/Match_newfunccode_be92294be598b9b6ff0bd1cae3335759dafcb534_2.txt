@@ -1,0 +1,47 @@
+@CanIgnoreReturnValue
+@Override
+@Nullable
+public V put(@Nullable K key, @Nullable V value) {
+    if (needsAllocArrays()) {
+        allocArrays();
+    }
+    long[] entries = this.entries;
+    Object[] keys = this.keys;
+    Object[] values = this.values;
+    int hash = smearedHash(key);
+    int tableIndex = hash & hashTableMask();
+    int newEntryIndex = this.size;
+    int next = table[tableIndex];
+    if (next == UNSET) {
+        table[tableIndex] = newEntryIndex;
+    } else {
+        int last;
+        long entry;
+        do {
+            last = next;
+            entry = entries[next];
+            if (getHash(entry) == hash && Objects.equal(key, keys[next])) {
+                @SuppressWarnings("unchecked")
+                @Nullable
+                V oldValue = (V) values[next];
+                values[next] = value;
+                accessEntry(next);
+                return oldValue;
+            }
+            next = getNext(entry);
+        } while (next != UNSET);
+        entries[last] = swapNext(entry, newEntryIndex);
+    }
+    if (newEntryIndex == Integer.MAX_VALUE) {
+        throw new IllegalStateException("Cannot contain more than Integer.MAX_VALUE elements!");
+    }
+    int newSize = newEntryIndex + 1;
+    resizeMeMaybe(newSize);
+    insertEntry(newEntryIndex, key, value, hash);
+    this.size = newSize;
+    if (newEntryIndex >= threshold) {
+        resizeTable(2 * table.length);
+    }
+    modCount++;
+    return null;
+}

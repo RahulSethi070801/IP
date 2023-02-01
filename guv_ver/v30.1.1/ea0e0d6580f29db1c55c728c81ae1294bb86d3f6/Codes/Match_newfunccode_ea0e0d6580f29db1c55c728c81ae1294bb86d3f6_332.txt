@@ -1,0 +1,1 @@
+SortedMultiset<E> headMultiset(@ParametricNullness E upperBound, BoundType boundType);

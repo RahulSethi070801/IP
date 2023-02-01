@@ -1,0 +1,25 @@
+@Override
+public Set<Entry<K, V>> entrySet() {
+    return new EntrySet<K, V>() {
+
+        @Override
+        Map<K, V> map() {
+            return IteratorBasedAbstractMap.this;
+        }
+
+        @Override
+        public Iterator<Entry<K, V>> iterator() {
+            return entryIterator();
+        }
+
+        @Override
+        public Spliterator<Entry<K, V>> spliterator() {
+            return entrySpliterator();
+        }
+
+        @Override
+        public void forEach(Consumer<? super Entry<K, V>> action) {
+            forEachEntry(action);
+        }
+    };
+}

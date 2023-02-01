@@ -1,0 +1,10 @@
+com.google.common.base.Optional
+toJavaUtil
+public java.util.Optional<T> toJavaUtil()
+empty
+java.util.Optional
+com.google.common.base.Optional
+toJavaUtil
+public static java.util.Optional<T> toJavaUtil(@Nullable Optional<T> googleOptional)
+Optional
+java.util.Optional

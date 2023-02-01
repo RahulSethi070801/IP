@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "31": "  @Param({\"1\", \"10\", \"100\", \"1000\"})\n",
+        "32": "  int length;\n",
+        "34": "  @Param({\"xxxx\", \"xxXx\", \"xXxX\", \"XXXX\"})\n",
+        "35": "  String text;\n",
+        "42": "  @BeforeExperiment\n",
+        "43": "  void setUp() {\n",
+        "47": "  @Benchmark\n",
+        "48": "  void charSplitter(int reps) {\n",
+        "56": "  @Benchmark\n",
+        "57": "  void stringSplitter(int reps) {\n",
+        "61": "      total += Iterables.size(STRING_SPLITTER.split(input));\n"
+    },
+    "removed": {
+        "31": "  @Param({\"1\", \"10\", \"100\", \"1000\"}) int length;\n",
+        "33": "  @Param({\"xxxx\", \"xxXx\", \"xXxX\", \"XXXX\"}) String text;\n",
+        "40": "  @BeforeExperiment void setUp() {\n",
+        "44": "  @Benchmark void charSplitter(int reps) {\n",
+        "52": "  @Benchmark void stringSplitter(int reps) {\n",
+        "56": "     total += Iterables.size(STRING_SPLITTER.split(input));\n"
+    }
+}

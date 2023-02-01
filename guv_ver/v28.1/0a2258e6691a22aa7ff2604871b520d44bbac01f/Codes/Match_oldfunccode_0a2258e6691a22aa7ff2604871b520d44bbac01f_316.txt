@@ -1,0 +1,3 @@
+public static <E> List<E> asList(@NullableDecl E first, E[] rest) {
+    return new OnePlusArrayList<>(first, rest);
+}

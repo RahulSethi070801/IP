@@ -1,0 +1,3 @@
+public static TreeTraverser<Path> directoryTreeTraverser() {
+    return DirectoryTreeTraverser.INSTANCE;
+}

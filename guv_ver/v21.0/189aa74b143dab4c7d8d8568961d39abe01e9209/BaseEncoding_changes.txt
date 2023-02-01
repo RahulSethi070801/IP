@@ -1,0 +1,4 @@
+BaseEncoding
+Insertions: [227]
+Deletions: [41, 148, 157, 175, 182, 209, 219, 234, 235, 249, 257, 287, 297, 309, 319, 329, 349, 372, 392, 412, 432]
+guava/src/com/google/common/io/BaseEncoding.java

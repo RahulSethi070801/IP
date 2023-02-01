@@ -1,0 +1,4 @@
+
+   * Returns whether the nodes of this {@link Endpoints} are ordered. Generally, this is equal to
+   * {@link Graph#isDirected()} of the graph that generated this {@link Endpoints}.
+   

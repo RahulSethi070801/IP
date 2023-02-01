@@ -1,0 +1,4 @@
+ForwardingListenableFuture
+Insertions: [19, 33]
+Deletions: []
+guava/src/com/google/common/util/concurrent/ForwardingListenableFuture.java

@@ -1,0 +1,4 @@
+@Override
+<K, V> ReferenceEntry<K, V> newEntry(Segment<K, V> segment, K key, int hash, @Nullable ReferenceEntry<K, V> next) {
+    return new StrongEntry<>(key, hash, next);
+}

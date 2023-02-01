@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "108": "    private final List<Entry<Range<K>, V>> entries;\n",
+        "199": "  public Entry<Range<K>, V> getEntry(K key) {\n"
+    },
+    "removed": {
+        "108": "    private final List<Map.Entry<Range<K>, V>> entries;\n",
+        "199": "  public Map.Entry<Range<K>, V> getEntry(K key) {\n"
+    }
+}

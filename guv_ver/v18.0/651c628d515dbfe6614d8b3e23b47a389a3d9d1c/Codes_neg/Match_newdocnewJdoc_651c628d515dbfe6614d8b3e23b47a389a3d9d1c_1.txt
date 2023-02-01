@@ -1,0 +1,5 @@
+
+   * A deprecated synonym for {@link #toString()}.
+   *
+   * @deprecated Use {@link #toString()}
+   

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "104": "  @Nullable\n",
+        "105": "  public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {\n"
+    },
+    "removed": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "104": "  @NullableDecl\n",
+        "105": "  public V edgeValueOrDefault(N nodeU, N nodeV, @NullableDecl V defaultValue) {\n"
+    }
+}

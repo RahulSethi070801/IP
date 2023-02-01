@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "168": "      for (N otherNode : graph.nodes()) {\n",
+        "169": "        if (graph.successors(node).contains(otherNode)) {\n",
+        "170": "          assertThat(graph.edgeValue(node, otherNode)).isNotNull();\n",
+        "171": "        } else {\n",
+        "172": "          assertThat(graph.edgeValueOrDefault(node, otherNode, null)).isNull();\n",
+        "173": "        }\n",
+        "174": "      }\n",
+        "175": "\n"
+    },
+    "removed": {}
+}

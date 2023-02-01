@@ -1,0 +1,70 @@
+com.google.common.collect.MultitransformedIterator
+remove
+public void remove()
+empty
+void
+com.google.common.collect.Iterators$ConcatenatedIterator
+ConcatenatedIterator
+public ConcatenatedIterator(Iterator<? extends Iterator<? extends T>> iterators)
+Iterator
+constructor
+com.google.common.collect.Iterators
+transform
+Iterator<? extends Iterator<? extends T>> transform(Iterator<? extends T> iterator)
+Iterator
+Iterator
+com.google.common.collect.Iterables
+iterators
+private static Iterator<Iterator<? extends T>> iterators(Iterable<? extends Iterable<? extends T>> iterables)
+Iterable
+Iterator
+com.google.common.collect.Iterators
+concat
+public static Iterator<T> concat(final Iterator<? extends Iterator<? extends T>> inputs)
+Iterator
+Iterator
+com.google.common.collect.MultitransformedIterator
+next
+public T next()
+empty
+T
+com.google.common.collect.Iterators
+concat
+public static Iterator<T> concat(Iterator<? extends Iterator<? extends T>> inputs)
+Iterator
+Iterator
+com.google.common.collect.Iterables
+iterator
+public Iterator<T> iterator()
+empty
+Iterator
+com.google.common.collect.MultitransformedIterator
+MultitransformedIterator
+MultitransformedIterator(Iterator<? extends F> backingIterator)
+Iterator
+constructor
+com.google.common.collect.MultitransformedIterator
+hasNext
+public boolean hasNext()
+empty
+boolean
+com.google.common.collect.Iterables
+concat
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+Iterable
+Iterable
+com.google.common.collect.Iterators$ConcatenatedIterator
+transform
+Iterator<? extends T> transform(Iterator<? extends T> iterator)
+Iterator
+Iterator
+com.google.common.collect.Iterators$ConcatenatedIterator
+getComponentIterators
+private static Iterator<Iterator<? extends T>> getComponentIterators(Iterator<? extends Iterator<? extends T>> iterators)
+Iterator
+Iterator
+com.google.common.collect.MultitransformedIterator
+transform
+abstract Iterator<? extends T> transform(F from)
+F
+Iterator

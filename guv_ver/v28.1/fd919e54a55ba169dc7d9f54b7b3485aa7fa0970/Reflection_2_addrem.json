@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "52": "   * Ensures that the given classes are initialized, as described in <a\n",
+        "53": "   * href=\"http://java.sun.com/docs/books/jls/third_edition/html/execution.html#12.4.2\">JLS Section\n",
+        "54": "   * 12.4.2</a>.\n",
+        "75": "   * define the proxy class. To implement multiple interfaces or specify a class loader, use {@link\n",
+        "76": "   * Proxy#newProxyInstance}.\n"
+    },
+    "removed": {
+        "52": "   * Ensures that the given classes are initialized, as described in\n",
+        "53": "   * <a href=\"http://java.sun.com/docs/books/jls/third_edition/html/execution.html#12.4.2\">\n",
+        "54": "   * JLS Section 12.4.2</a>.\n",
+        "75": "   * define the proxy class. To implement multiple interfaces or specify a class loader, use\n",
+        "76": "   * {@link Proxy#newProxyInstance}.\n"
+    }
+}

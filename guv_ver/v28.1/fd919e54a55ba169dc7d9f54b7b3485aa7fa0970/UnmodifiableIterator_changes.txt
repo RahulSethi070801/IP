@@ -1,0 +1,4 @@
+UnmodifiableIterator
+Insertions: [25, 26]
+Deletions: [25, 26]
+android/guava/src/com/google/common/collect/UnmodifiableIterator.java

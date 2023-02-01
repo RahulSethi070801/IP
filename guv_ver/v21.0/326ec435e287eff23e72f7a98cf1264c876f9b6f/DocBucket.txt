@@ -1,0 +1,5 @@
+com.google.common.collect.Sets
+newSetFromMap
+public static Set<E> newSetFromMap(Map<E, Boolean> map)
+Map
+Set

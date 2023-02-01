@@ -1,0 +1,41 @@
+@GwtIncompatible("TODO")
+@CheckReturnValue
+public static <I, O> Future<O> lazyTransform(final Future<I> input, final Function<? super I, ? extends O> function) {
+    checkNotNull(input);
+    checkNotNull(function);
+    return new Future<O>() {
+
+        @Override
+        public boolean cancel(boolean mayInterruptIfRunning) {
+            return input.cancel(mayInterruptIfRunning);
+        }
+
+        @Override
+        public boolean isCancelled() {
+            return input.isCancelled();
+        }
+
+        @Override
+        public boolean isDone() {
+            return input.isDone();
+        }
+
+        @Override
+        public O get() throws InterruptedException, ExecutionException {
+            return applyTransformation(input.get());
+        }
+
+        @Override
+        public O get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException {
+            return applyTransformation(input.get(timeout, unit));
+        }
+
+        private O applyTransformation(I input) throws ExecutionException {
+            try {
+                return function.apply(input);
+            } catch (Throwable t) {
+                throw new ExecutionException(t);
+            }
+        }
+    };
+}

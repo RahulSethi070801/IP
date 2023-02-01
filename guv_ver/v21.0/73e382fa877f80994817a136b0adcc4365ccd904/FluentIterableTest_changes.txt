@@ -1,0 +1,4 @@
+FluentIterableTest
+Insertions: [19, 34, 35, 44, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939]
+Deletions: []
+guava-tests/test/com/google/common/collect/FluentIterableTest.java

@@ -1,0 +1,7 @@
+
+     * Returns a newly-created immutable map.  The iteration order of the returned map is
+     * the order in which entries were inserted into the builder, unless
+     * {@link #orderEntriesByValue} was called, in which case entries are sorted by value.
+     *
+     * @throws IllegalArgumentException if duplicate keys were added
+     

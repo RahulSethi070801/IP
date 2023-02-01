@@ -1,0 +1,4 @@
+ClassPath_2
+Insertions: [49, 353, 511]
+Deletions: [49, 353, 511]
+guava/src/com/google/common/reflect/ClassPath.java

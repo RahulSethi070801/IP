@@ -1,0 +1,15 @@
+com.google.common.hash.BloomFilter
+create
+public static BloomFilter<T> create(Funnel<? super T> funnel, int expectedInsertions, double fpp)
+Funnel,int,double
+BloomFilter
+com.google.common.hash.BloomFilter
+create
+public static BloomFilter<T> create(Funnel<? super T> funnel, long expectedInsertions, double fpp)
+Funnel,long,double
+BloomFilter
+com.google.common.hash.BloomFilter
+create
+public static BloomFilter<T> create(Funnel<? super T> funnel, int expectedInsertions)
+Funnel,int
+BloomFilter

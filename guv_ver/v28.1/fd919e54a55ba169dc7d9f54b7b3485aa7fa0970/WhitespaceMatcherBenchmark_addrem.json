@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "26": "/** Benchmark for the {@link CharMatcher#whitespace} implementation. */\n",
+        "32": "          + \"\\u0000\\u0009\\n\\u000b\\u000c\\r\\u0000\\u0000\\u2028\\u2029\\u0000\\u0000\\u0000\\u0000\\u0000\"\n",
+        "33": "          + \"\\u202f\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0020\\u0000\\u0000\\u0000\\u0000\"\n",
+        "34": "          + \"\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u3000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\"\n",
+        "35": "          + \"\\u0000\\u0000\\u0000\\u0085\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\"\n",
+        "36": "          + \"\\u200a\\u0000\\u0000\\u0000\\u0000\\u0000\\u205f\\u1680\\u0000\\u0000\\u180e\\u0000\\u0000\\u0000\";\n",
+        "38": "  public static final CharMatcher OLD_WHITESPACE =\n",
+        "39": "      new CharMatcher() {\n",
+        "40": "        @Override\n",
+        "41": "        public boolean matches(char c) {\n",
+        "42": "          return OLD_WHITESPACE_TABLE.charAt(c % 79) == c;\n",
+        "43": "        }\n",
+        "44": "      };\n",
+        "46": "  @Param private boolean useNew;\n",
+        "70": "  @Benchmark\n",
+        "71": "  public int countIn(int reps) {\n",
+        "81": "  @Benchmark\n",
+        "82": "  public int collapseFrom(int reps) {\n"
+    },
+    "removed": {
+        "26": "/**\n",
+        "27": " * Benchmark for the {@link CharMatcher#whitespace} implementation.\n",
+        "28": " */\n",
+        "34": "      + \"\\u0000\\u0009\\n\\u000b\\u000c\\r\\u0000\\u0000\\u2028\\u2029\\u0000\\u0000\\u0000\\u0000\\u0000\\u202f\"\n",
+        "35": "      + \"\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0020\\u0000\\u0000\\u0000\\u0000\\u0000\"\n",
+        "36": "      + \"\\u0000\\u0000\\u0000\\u0000\\u0000\\u3000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\\u0000\"\n",
+        "37": "      + \"\\u0000\\u0000\\u0085\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\"\n",
+        "38": "      + \"\\u0000\\u0000\\u0000\\u0000\\u0000\\u205f\\u1680\\u0000\\u0000\\u180e\\u0000\\u0000\\u0000\";\n",
+        "40": "  public static final CharMatcher OLD_WHITESPACE = new CharMatcher() {\n",
+        "41": "    @Override public boolean matches(char c) {\n",
+        "42": "      return OLD_WHITESPACE_TABLE.charAt(c % 79) == c;\n",
+        "43": "    }\n",
+        "44": "  };\n",
+        "46": "  @Param\n",
+        "47": "  private boolean useNew;\n",
+        "71": "  @Benchmark public int countIn(int reps) {\n",
+        "81": "  @Benchmark public int collapseFrom(int reps) {\n"
+    }
+}

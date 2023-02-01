@@ -1,0 +1,8 @@
+@Override
+public boolean equals(Object o) {
+    if (!(o instanceof ElementOrder)) {
+        return false;
+    }
+    ElementOrder<?> other = (ElementOrder<?>) o;
+    return other.type == this.type && Objects.equal(other.comparator, this.comparator);
+}

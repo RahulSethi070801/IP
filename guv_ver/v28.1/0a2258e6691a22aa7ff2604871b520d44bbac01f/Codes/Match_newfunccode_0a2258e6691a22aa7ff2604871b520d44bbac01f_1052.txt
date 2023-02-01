@@ -1,0 +1,7 @@
+E getEntry(@Nullable Object key) {
+    if (key == null) {
+        return null;
+    }
+    int hash = hash(key);
+    return segmentFor(hash).getEntry(key, hash);
+}

@@ -1,0 +1,4 @@
+Table
+Insertions: [26, 68, 69, 76, 83, 90, 100, 101, 114, 139, 158, 160, 161, 255, 259, 263, 271]
+Deletions: [26, 68, 69, 76, 83, 90, 100, 101, 114, 139, 158, 160, 161, 255, 259, 263, 271]
+android/guava/src/com/google/common/collect/Table.java

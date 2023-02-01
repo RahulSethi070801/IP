@@ -1,0 +1,40 @@
+com.google.common.cache.Striped64$ThreadHashCode
+initialValue
+public HashCode initialValue()
+empty
+HashCode
+com.google.common.cache.LongAdder
+writeObject
+private void writeObject(ObjectOutputStream s) throws java.io.IOException
+ObjectOutputStream
+void
+com.google.common.cache.LongAdder
+readObject
+private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundException
+ObjectInputStream
+void
+com.google.common.cache.Striped64$HashCode
+HashCode
+HashCode()
+empty
+constructor
+com.google.common.cache.Striped64
+retryUpdate
+final void retryUpdate(long x, HashCode hc, boolean wasUncontended)
+long,HashCode,boolean
+void
+com.google.common.cache.Striped64
+retryUpdate
+final void retryUpdate(long x, @Nullable int[] hc, boolean wasUncontended)
+long,int[],boolean
+void
+com.google.common.cache.LongAdder
+add
+public void add(long x)
+long
+void
+com.google.common.cache.LongAdder
+writeObject
+private void writeObject(ObjectOutputStream s) throws IOException
+ObjectOutputStream
+void

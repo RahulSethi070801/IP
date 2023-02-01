@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "46": "    suite.addTest(\n",
+        "47": "        MultisetTestSuiteBuilder.using(linkedHashMultisetGenerator())\n",
+        "48": "            .named(\"LinkedHashMultiset\")\n",
+        "49": "            .withFeatures(\n",
+        "50": "                CollectionSize.ANY,\n",
+        "51": "                CollectionFeature.KNOWN_ORDER,\n",
+        "52": "                CollectionFeature.FAILS_FAST_ON_CONCURRENT_MODIFICATION,\n",
+        "53": "                CollectionFeature.ALLOWS_NULL_VALUES,\n",
+        "54": "                CollectionFeature.SERIALIZABLE,\n",
+        "55": "                CollectionFeature.GENERAL_PURPOSE,\n",
+        "56": "                MultisetFeature.ENTRIES_ARE_VIEWS)\n",
+        "57": "            .createTestSuite());\n",
+        "64": "      @Override\n",
+        "65": "      protected Multiset<String> create(String[] elements) {\n",
+        "104": "    Multiset<String> multiset = LinkedHashMultiset.create(Arrays.asList(\"foo\", \"bar\", \"foo\"));\n"
+    },
+    "removed": {
+        "46": "    suite.addTest(MultisetTestSuiteBuilder.using(linkedHashMultisetGenerator())\n",
+        "47": "        .named(\"LinkedHashMultiset\")\n",
+        "48": "        .withFeatures(CollectionSize.ANY,\n",
+        "49": "            CollectionFeature.KNOWN_ORDER,\n",
+        "50": "            CollectionFeature.FAILS_FAST_ON_CONCURRENT_MODIFICATION,\n",
+        "51": "            CollectionFeature.ALLOWS_NULL_VALUES,\n",
+        "52": "            CollectionFeature.SERIALIZABLE,\n",
+        "53": "            CollectionFeature.GENERAL_PURPOSE,\n",
+        "54": "            MultisetFeature.ENTRIES_ARE_VIEWS)\n",
+        "55": "        .createTestSuite());\n",
+        "62": "      @Override protected Multiset<String> create(String[] elements) {\n",
+        "101": "    Multiset<String> multiset\n",
+        "102": "        = LinkedHashMultiset.create(Arrays.asList(\"foo\", \"bar\", \"foo\"));\n"
+    }
+}

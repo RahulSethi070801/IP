@@ -1,0 +1,6 @@
+public Builder()
+public Builder<C> addAll(RangeSet<C> ranges)
+
+public ImmutableRangeMap<K, V> build()
+public Builder<K, V> putAll(RangeMap<K, ? extends V> rangeMap)
+

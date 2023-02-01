@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "33": "   * Performs a <b>single</b> tear-down operation. See test-libraries-for-java's {@code\n",
+        "34": "   * com.google.common.testing.junit3.TearDownTestCase} and {@code\n",
+        "35": "   * com.google.common.testing.junit4.TearDownTestCase} for example.\n",
+        "37": "   * <p>A failing {@link TearDown} may or may not fail a tl4j test, depending on the version of\n",
+        "38": "   * JUnit test case you are running under. To avoid failing in the face of an exception regardless\n",
+        "39": "   * of JUnit version, implement a {@link SloppyTearDown} instead.\n",
+        "41": "   * <p>tl4j details: For backwards compatibility, {@code junit3.TearDownTestCase} currently does\n",
+        "42": "   * not fail a test when an exception is thrown from one of its {@link TearDown} instances, but\n",
+        "43": "   * this is subject to change. Also, {@code junit4.TearDownTestCase} will.\n",
+        "45": "   * @throws Exception for any reason. {@code TearDownTestCase} ensures that any exception thrown\n",
+        "46": "   *     will not interfere with other TearDown operations.\n"
+    },
+    "removed": {
+        "33": "   * Performs a <b>single</b> tear-down operation. See test-libraries-for-java's\n",
+        "34": "   * {@code com.google.common.testing.junit3.TearDownTestCase} and\n",
+        "35": "   * {@code com.google.common.testing.junit4.TearDownTestCase} for example.\n",
+        "37": "   * <p>A failing {@link TearDown} may or may not fail a tl4j test, depending on\n",
+        "38": "   * the version of JUnit test case you are running under. To avoid failing in\n",
+        "39": "   * the face of an exception regardless of JUnit version, implement a {@link\n",
+        "40": "   * SloppyTearDown} instead.\n",
+        "42": "   * <p>tl4j details: For backwards compatibility, {@code\n",
+        "43": "   * junit3.TearDownTestCase} currently does not fail a test when an exception\n",
+        "44": "   * is thrown from one of its {@link TearDown} instances, but this is subject to\n",
+        "45": "   * change. Also, {@code junit4.TearDownTestCase} will.\n",
+        "47": "   * @throws Exception for any reason. {@code TearDownTestCase} ensures that\n",
+        "48": "   *     any exception thrown will not interfere with other TearDown\n",
+        "49": "   *     operations.\n"
+    }
+}

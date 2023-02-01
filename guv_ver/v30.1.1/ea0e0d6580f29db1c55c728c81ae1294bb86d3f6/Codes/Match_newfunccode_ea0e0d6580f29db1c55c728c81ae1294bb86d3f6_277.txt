@@ -1,0 +1,3 @@
+protected boolean standardEquals(@CheckForNull Object object) {
+    return Multisets.equalsImpl(this, object);
+}

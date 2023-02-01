@@ -1,0 +1,3 @@
+public static void write(byte[] from, OutputSupplier<? extends OutputStream> to) throws IOException {
+    asByteSink(to).write(from);
+}

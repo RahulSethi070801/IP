@@ -1,0 +1,5 @@
+@Override
+public N removeOutEdge(E edge) {
+    N previousNode = incidentEdgeMap.remove(edge);
+    return checkNotNull(previousNode);
+}

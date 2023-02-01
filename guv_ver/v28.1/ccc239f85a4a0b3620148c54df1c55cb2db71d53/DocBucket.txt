@@ -1,0 +1,35 @@
+com.google.common.collect.MultimapBuilder
+linkedHashSetValues
+public SetMultimapBuilder<K0, Object> linkedHashSetValues(final int expectedValuesPerKey)
+int
+SetMultimapBuilder
+com.google.common.collect.MultimapBuilder
+linkedHashKeys
+public static MultimapBuilderWithKeys<Object> linkedHashKeys()
+empty
+MultimapBuilderWithKeys
+com.google.common.collect.MultimapBuilder
+linkedHashSetValues
+public SetMultimapBuilder<K0, Object> linkedHashSetValues()
+empty
+SetMultimapBuilder
+com.google.common.collect.MultimapBuilder
+hashKeys
+public static MultimapBuilderWithKeys<Object> hashKeys(final int expectedKeys)
+int
+MultimapBuilderWithKeys
+com.google.common.collect.MultimapBuilder
+hashSetValues
+public SetMultimapBuilder<K0, Object> hashSetValues(final int expectedValuesPerKey)
+int
+SetMultimapBuilder
+com.google.common.collect.MultimapBuilder
+hashKeys
+public static MultimapBuilderWithKeys<Object> hashKeys()
+empty
+MultimapBuilderWithKeys
+com.google.common.collect.MultimapBuilder
+hashSetValues
+public SetMultimapBuilder<K0, Object> hashSetValues()
+empty
+SetMultimapBuilder

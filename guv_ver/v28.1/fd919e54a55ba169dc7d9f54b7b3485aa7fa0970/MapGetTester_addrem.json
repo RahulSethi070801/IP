@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "30": " * A generic JUnit test which tests {@code get} operations on a map. Can't be invoked directly;\n",
+        "31": " * please see {@link com.google.common.collect.testing.MapTestSuiteBuilder}.\n"
+    },
+    "removed": {
+        "30": " * A generic JUnit test which tests {@code get} operations on a map. Can't be\n",
+        "31": " * invoked directly; please see\n",
+        "32": " * {@link com.google.common.collect.testing.MapTestSuiteBuilder}.\n"
+    }
+}

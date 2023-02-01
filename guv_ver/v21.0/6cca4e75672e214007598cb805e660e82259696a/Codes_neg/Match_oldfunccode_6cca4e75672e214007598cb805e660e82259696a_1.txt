@@ -1,0 +1,30 @@
+private static int doParseTrieToBuilder(List<CharSequence> stack, CharSequence encoded, ImmutableMap.Builder<String, PublicSuffixType> builder) {
+    int encodedLen = encoded.length();
+    int idx = 0;
+    char c = '\0';
+    for (; idx < encodedLen; idx++) {
+        c = encoded.charAt(idx);
+        if (c == '&' || c == '?' || c == '!' || c == ':' || c == ',') {
+            break;
+        }
+    }
+    stack.add(0, reverse(encoded.subSequence(0, idx)));
+    if (c == '!' || c == '?' || c == ':' || c == ',') {
+        String domain = PREFIX_JOINER.join(stack);
+        if (domain.length() > 0) {
+            builder.put(domain, PublicSuffixType.fromCode(c));
+        }
+    }
+    idx++;
+    if (c != '?' && c != ',') {
+        while (idx < encodedLen) {
+            idx += doParseTrieToBuilder(stack, encoded.subSequence(idx, encodedLen), builder);
+            if (encoded.charAt(idx) == '?' || encoded.charAt(idx) == ',') {
+                idx++;
+                break;
+            }
+        }
+    }
+    stack.remove(0);
+    return idx;
+}

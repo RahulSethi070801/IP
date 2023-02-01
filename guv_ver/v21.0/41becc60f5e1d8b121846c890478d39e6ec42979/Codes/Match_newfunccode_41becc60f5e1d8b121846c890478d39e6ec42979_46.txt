@@ -1,0 +1,7 @@
+private static <N, V> ImmutableMap<N, GraphConnections<N, V>> getNodeConnections(Graph<N, V> graph) {
+    ImmutableMap.Builder<N, GraphConnections<N, V>> nodeConnections = ImmutableMap.builder();
+    for (N node : graph.nodes()) {
+        nodeConnections.put(node, connectionsOf(graph, node));
+    }
+    return nodeConnections.build();
+}

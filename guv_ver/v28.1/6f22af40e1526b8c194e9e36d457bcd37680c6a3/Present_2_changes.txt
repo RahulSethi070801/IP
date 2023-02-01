@@ -1,0 +1,4 @@
+Present_2
+Insertions: [22, 80]
+Deletions: [22, 80]
+guava/src/com/google/common/base/Present.java

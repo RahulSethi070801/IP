@@ -1,0 +1,4 @@
+GwtIncompatible
+Insertions: [27, 28, 43, 44]
+Deletions: [27, 28, 43, 44]
+guava/src/com/google/common/annotations/GwtIncompatible.java

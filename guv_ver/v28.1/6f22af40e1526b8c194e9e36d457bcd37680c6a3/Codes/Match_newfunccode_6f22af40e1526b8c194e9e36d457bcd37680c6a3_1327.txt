@@ -1,0 +1,13 @@
+Collection<V> wrapCollection(@NullableDecl K key, Collection<V> collection) {
+    if (collection instanceof NavigableSet) {
+        return new WrappedNavigableSet(key, (NavigableSet<V>) collection, null);
+    } else if (collection instanceof SortedSet) {
+        return new WrappedSortedSet(key, (SortedSet<V>) collection, null);
+    } else if (collection instanceof Set) {
+        return new WrappedSet(key, (Set<V>) collection);
+    } else if (collection instanceof List) {
+        return wrapList(key, (List<V>) collection, null);
+    } else {
+        return new WrappedCollection(key, collection, null);
+    }
+}

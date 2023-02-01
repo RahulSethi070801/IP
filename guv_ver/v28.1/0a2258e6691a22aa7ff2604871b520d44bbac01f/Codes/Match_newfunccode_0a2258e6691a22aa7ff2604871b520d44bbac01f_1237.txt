@@ -1,0 +1,9 @@
+public static <T> Callable<T> returning(@Nullable final T value) {
+    return new Callable<T>() {
+
+        @Override
+        public T call() {
+            return value;
+        }
+    };
+}

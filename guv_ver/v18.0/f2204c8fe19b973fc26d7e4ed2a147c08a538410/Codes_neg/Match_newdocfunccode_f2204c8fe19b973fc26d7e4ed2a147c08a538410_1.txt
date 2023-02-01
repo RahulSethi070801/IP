@@ -1,0 +1,8 @@
+public static Striped<Lock> lock(int stripes) {
+    return new CompactStriped<Lock>(stripes, new Supplier<Lock>() {
+
+        public Lock get() {
+            return new PaddedLock();
+        }
+    });
+}

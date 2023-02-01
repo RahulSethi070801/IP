@@ -1,0 +1,4 @@
+@Override
+public UnmodifiableIterator<E> iterator() {
+    return Iterators.unmodifiableIterator(delegate.iterator());
+}

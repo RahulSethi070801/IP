@@ -1,0 +1,9 @@
+@Override
+public BaseEncoding upperCase() {
+    BaseEncoding result = upperCase;
+    if (result == null) {
+        Alphabet upper = alphabet.upperCase();
+        result = upperCase = (upper == alphabet) ? this : newInstance(upper, paddingChar);
+    }
+    return result;
+}

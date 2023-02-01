@@ -1,0 +1,4 @@
+Closeables_2
+Insertions: [26, 72, 102, 123]
+Deletions: [26, 72, 102, 123]
+guava/src/com/google/common/io/Closeables.java

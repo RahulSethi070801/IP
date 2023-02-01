@@ -1,0 +1,4 @@
+ImmutableListTest
+Insertions: [539, 548, 557]
+Deletions: [539, 548, 557]
+guava-tests/test/com/google/common/collect/ImmutableListTest.java

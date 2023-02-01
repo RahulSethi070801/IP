@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "44": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "1033": "                  public T apply(@Nullable Integer from) {\n"
+    },
+    "removed": {
+        "44": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "1033": "                  public T apply(@NullableDecl Integer from) {\n"
+    }
+}

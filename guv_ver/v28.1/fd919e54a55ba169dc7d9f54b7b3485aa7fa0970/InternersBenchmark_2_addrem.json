@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "27": "  @Benchmark\n",
+        "28": "  int weakInterner(int reps) {\n",
+        "36": "  @Benchmark\n",
+        "37": "  int strongInterner(int reps) {\n",
+        "45": "  @Benchmark\n",
+        "46": "  int stringIntern(int reps) {\n"
+    },
+    "removed": {
+        "27": "  @Benchmark int weakInterner(int reps) {\n",
+        "35": "  @Benchmark int strongInterner(int reps) {\n",
+        "43": "  @Benchmark int stringIntern(int reps) {\n"
+    }
+}

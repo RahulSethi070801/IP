@@ -1,0 +1,4 @@
+ForwardingImmutableMap
+Insertions: [24, 60, 64, 68, 122]
+Deletions: [24, 60, 64, 68, 122]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ForwardingImmutableMap.java

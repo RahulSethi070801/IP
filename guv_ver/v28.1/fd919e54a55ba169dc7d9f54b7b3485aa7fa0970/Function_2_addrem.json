@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "26": " * <p>As this interface extends {@link java.util.function.Function}, an instance of this type can be\n",
+        "27": " * used as a {@code java.util.function.Function} directly. To use a {@code\n",
+        "28": " * java.util.function.Function} in a context where a {@code com.google.common.base.Function} is\n",
+        "29": " * needed, use {@code function::apply}.\n",
+        "36": " * <p>See the Guava User Guide article on <a\n",
+        "37": " * href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code Function}</a>.\n"
+    },
+    "removed": {
+        "26": " * <p>As this interface extends {@link java.util.function.Function}, an instance of this type\n",
+        "27": " * can be used as a {@code java.util.function.Function} directly.  To use a\n",
+        "28": " * {@code java.util.function.Function} in a context where a\n",
+        "29": " * {@code com.google.common.base.Function} is needed, use {@code function::apply}.\n",
+        "36": " * <p>See the Guava User Guide article on\n",
+        "37": " * <a href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code\n",
+        "38": " * Function}</a>.\n"
+    }
+}

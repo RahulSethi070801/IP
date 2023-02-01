@@ -1,0 +1,220 @@
+com.google.common.io.CharStreams
+newReaderSupplier
+public static InputSupplier<InputStreamReader> newReaderSupplier(final InputSupplier<? extends InputStream> in, final Charset charset)
+InputSupplier,Charset
+InputSupplier
+com.google.common.io.CharStreams
+copy
+public static long copy(InputSupplier<R> from, OutputSupplier<W> to) throws IOException
+InputSupplier,OutputSupplier
+long
+com.google.common.io.Files
+newInputStreamSupplier
+public static InputSupplier<FileInputStream> newInputStreamSupplier(final File file)
+File
+InputSupplier
+com.google.common.io.Resources
+newInputStreamSupplier
+public static InputSupplier<InputStream> newInputStreamSupplier(URL url)
+URL
+InputSupplier
+com.google.common.io.CharSource
+readLines
+public T readLines(LineProcessor<T> processor) throws IOException
+LineProcessor
+T
+com.google.common.io.ByteSource
+read
+public T read(ByteProcessor<T> processor) throws IOException
+ByteProcessor
+T
+com.google.common.io.Files
+newOutputStreamSupplier
+public static OutputSupplier<FileOutputStream> newOutputStreamSupplier(File file)
+File
+OutputSupplier
+com.google.common.io.ByteStreams
+write
+public static void write(byte[] from, OutputSupplier<? extends OutputStream> to) throws IOException
+byte[],OutputSupplier
+void
+com.google.common.io.CharStreams
+readLines
+public static T readLines(InputSupplier<R> supplier, LineProcessor<T> callback) throws IOException
+InputSupplier,LineProcessor
+T
+com.google.common.io.CharStreams
+toString
+public static String toString(InputSupplier<R> supplier) throws IOException
+InputSupplier
+String
+com.google.common.io.CharStreams
+write
+public static void write(CharSequence from, OutputSupplier<W> to) throws IOException
+CharSequence,OutputSupplier
+void
+com.google.common.io.ByteStreams
+length
+public static long length(InputSupplier<? extends InputStream> supplier) throws IOException
+InputSupplier
+long
+com.google.common.io.Files
+copy
+public static void copy(File from, OutputSupplier<? extends OutputStream> to) throws IOException
+File,OutputSupplier
+void
+com.google.common.io.CharStreams
+readFirstLine
+public static String readFirstLine(InputSupplier<R> supplier) throws IOException
+InputSupplier
+String
+com.google.common.io.ByteStreams
+copy
+public static long copy(InputSupplier<? extends InputStream> from, OutputStream to) throws IOException
+InputSupplier,OutputStream
+long
+com.google.common.io.ByteStreams
+toByteArray
+public static byte[] toByteArray(InputSupplier<? extends InputStream> supplier) throws IOException
+InputSupplier
+byte[]
+com.google.common.io.ByteStreams
+hash
+public static HashCode hash(InputSupplier<? extends InputStream> supplier, HashFunction hashFunction) throws IOException
+InputSupplier,HashFunction
+HashCode
+com.google.common.io.CharStreams
+newReaderSupplier
+public static InputSupplier<StringReader> newReaderSupplier(final String value)
+String
+InputSupplier
+com.google.common.io.Files
+newWriterSupplier
+public static OutputSupplier<OutputStreamWriter> newWriterSupplier(File file, Charset charset, boolean append)
+File,Charset,boolean
+OutputSupplier
+com.google.common.io.ByteStreams
+asByteSink
+public static ByteSink asByteSink(final OutputSupplier<? extends OutputStream> supplier)
+OutputSupplier
+ByteSink
+com.google.common.io.ByteStreams
+newInputStreamSupplier
+public static InputSupplier<ByteArrayInputStream> newInputStreamSupplier(final byte[] b, final int off, final int len)
+byte[],int,int
+InputSupplier
+com.google.common.io.CharStreams
+join
+public static InputSupplier<Reader> join(InputSupplier<? extends Reader>... suppliers)
+InputSupplier...
+InputSupplier
+com.google.common.io.CharStreams
+readLines
+public static List<String> readLines(InputSupplier<R> supplier) throws IOException
+InputSupplier
+List
+com.google.common.io.Files
+copy
+public static void copy(InputSupplier<R> from, File to, Charset charset) throws IOException
+InputSupplier,File,Charset
+void
+com.google.common.io.CharStreams
+asCharSource
+public static CharSource asCharSource(final InputSupplier<? extends Readable> supplier)
+InputSupplier
+CharSource
+com.google.common.io.ByteStreams
+newInputStreamSupplier
+public static InputSupplier<ByteArrayInputStream> newInputStreamSupplier(byte[] b)
+byte[]
+InputSupplier
+com.google.common.io.CharStreams
+join
+public static InputSupplier<Reader> join(final Iterable<? extends InputSupplier<? extends Reader>> suppliers)
+Iterable
+InputSupplier
+com.google.common.io.CharStreams
+copy
+public static long copy(InputSupplier<R> from, Appendable to) throws IOException
+InputSupplier,Appendable
+long
+com.google.common.io.CharStreams
+asCharSink
+public static CharSink asCharSink(final OutputSupplier<? extends Appendable> supplier)
+OutputSupplier
+CharSink
+com.google.common.io.Files
+copy
+public static void copy(File from, Charset charset, OutputSupplier<W> to) throws IOException
+File,Charset,OutputSupplier
+void
+com.google.common.io.ByteStreams
+copy
+public static long copy(InputSupplier<? extends InputStream> from, OutputSupplier<? extends OutputStream> to) throws IOException
+InputSupplier,OutputSupplier
+long
+com.google.common.io.ByteStreams
+join
+public static InputSupplier<InputStream> join(final Iterable<? extends InputSupplier<? extends InputStream>> suppliers)
+Iterable
+InputSupplier
+com.google.common.io.Files
+newOutputStreamSupplier
+public static OutputSupplier<FileOutputStream> newOutputStreamSupplier(final File file, final boolean append)
+File,boolean
+OutputSupplier
+com.google.common.io.CharStreams
+newWriterSupplier
+public static OutputSupplier<OutputStreamWriter> newWriterSupplier(final OutputSupplier<? extends OutputStream> out, final Charset charset)
+OutputSupplier,Charset
+OutputSupplier
+com.google.common.io.ByteStreams
+readBytes
+public static T readBytes(InputSupplier<? extends InputStream> supplier, ByteProcessor<T> processor) throws IOException
+InputSupplier,ByteProcessor
+T
+com.google.common.io.ByteStreams
+copy
+public static long copy(InputStream from, OutputSupplier<? extends OutputStream> to) throws IOException
+InputStream,OutputSupplier
+long
+com.google.common.io.Files
+copy
+public static void copy(InputSupplier<? extends InputStream> from, File to) throws IOException
+InputSupplier,File
+void
+com.google.common.io.ByteStreams
+asByteSource
+public static ByteSource asByteSource(final InputSupplier<? extends InputStream> supplier)
+InputSupplier
+ByteSource
+com.google.common.io.Files
+newWriterSupplier
+public static OutputSupplier<OutputStreamWriter> newWriterSupplier(File file, Charset charset)
+File,Charset
+OutputSupplier
+com.google.common.io.ByteStreams
+equal
+public static boolean equal(InputSupplier<? extends InputStream> supplier1, InputSupplier<? extends InputStream> supplier2) throws IOException
+InputSupplier,InputSupplier
+boolean
+com.google.common.io.ByteStreams
+join
+public static InputSupplier<InputStream> join(InputSupplier<? extends InputStream>... suppliers)
+InputSupplier...
+InputSupplier
+com.google.common.io.Files
+newReaderSupplier
+public static InputSupplier<InputStreamReader> newReaderSupplier(File file, Charset charset)
+File,Charset
+InputSupplier
+com.google.common.io.ByteStreams
+slice
+public static InputSupplier<InputStream> slice(final InputSupplier<? extends InputStream> supplier, final long offset, final long length)
+InputSupplier,long,long
+InputSupplier
+com.google.common.io.Resources
+newReaderSupplier
+public static InputSupplier<InputStreamReader> newReaderSupplier(URL url, Charset charset)
+URL,Charset
+InputSupplier

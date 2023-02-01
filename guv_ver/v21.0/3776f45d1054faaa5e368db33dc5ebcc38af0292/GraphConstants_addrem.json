@@ -1,0 +1,7 @@
+{
+    "addition": {},
+    "removed": {
+        "55": "  static final String NETWORK_WITH_PARALLEL_EDGE =\n",
+        "56": "      \"Cannot make a Graph copy of a Network that allows parallel edges.\";\n"
+    }
+}

@@ -1,0 +1,13 @@
+public long remove(K key) {
+    AtomicLong atomic = map.get(key);
+    if (atomic == null) {
+        return 0L;
+    }
+    while (true) {
+        long oldValue = atomic.get();
+        if (oldValue == 0L || atomic.compareAndSet(oldValue, 0L)) {
+            map.remove(key, atomic);
+            return oldValue;
+        }
+    }
+}

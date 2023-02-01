@@ -1,0 +1,11 @@
+@NullableDecl
+private AvlNode<E> ceiling(Comparator<? super E> comparator, E e) {
+    int cmp = comparator.compare(e, elem);
+    if (cmp < 0) {
+        return (left == null) ? this : MoreObjects.firstNonNull(left.ceiling(comparator, e), this);
+    } else if (cmp == 0) {
+        return this;
+    } else {
+        return (right == null) ? null : right.ceiling(comparator, e);
+    }
+}

@@ -1,0 +1,13 @@
+@Override
+public V checkedGet() throws X {
+    try {
+        return get();
+    } catch (InterruptedException e) {
+        Thread.currentThread().interrupt();
+        throw mapException(e);
+    } catch (CancellationException e) {
+        throw mapException(e);
+    } catch (ExecutionException e) {
+        throw mapException(e);
+    }
+}

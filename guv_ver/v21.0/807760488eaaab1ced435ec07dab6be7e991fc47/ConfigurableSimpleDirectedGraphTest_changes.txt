@@ -1,0 +1,4 @@
+ConfigurableSimpleDirectedGraphTest
+Insertions: [30, 31, 34, 37, 38, 44, 50, 57, 63, 71, 77, 85, 97, 103, 111, 117, 126, 132, 140, 146, 154, 160, 168, 174, 182, 188, 213, 214, 215, 216, 217, 218, 219, 220, 221, 223]
+Deletions: [30, 31, 34, 37, 38, 44, 50, 57, 63, 71, 77, 85, 97, 103, 111, 117, 126, 132, 140, 146, 154, 160, 168, 174, 182, 188, 213, 214, 215, 216, 217, 218, 219, 220, 221, 223]
+guava-tests/test/com/google/common/graph/ConfigurableSimpleDirectedGraphTest.java

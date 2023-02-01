@@ -1,0 +1,130 @@
+com.google.common.eventbus.SynchronizedEventSubscriber
+SynchronizedEventSubscriber
+public SynchronizedEventSubscriber(Object target, Method method)
+Object,Method
+constructor
+com.google.common.eventbus.EventBus
+dispatch
+void dispatch(Object event, EventSubscriber wrapper)
+Object,EventSubscriber
+void
+com.google.common.eventbus.EventBus$EventWithSubscriber
+EventWithSubscriber
+public EventWithSubscriber(Object event, EventSubscriber subscriber)
+Object,EventSubscriber
+constructor
+com.google.common.eventbus.EventBus$EventWithHandler
+EventWithHandler
+public EventWithHandler(Object event, EventHandler handler)
+Object,EventHandler
+constructor
+com.google.common.eventbus.EventSubscriber
+getSubscriber
+public Object getSubscriber()
+empty
+Object
+com.google.common.eventbus.EventBus
+register
+public void register(Object object)
+Object
+void
+com.google.common.eventbus.EventBus
+initialValue
+protected Queue<EventWithSubscriber> initialValue()
+empty
+Queue
+com.google.common.eventbus.EventBus
+initialValue
+protected Queue<EventWithHandler> initialValue()
+empty
+Queue
+com.google.common.eventbus.AsyncEventBus
+dispatchQueuedEvents
+protected void dispatchQueuedEvents()
+empty
+void
+com.google.common.eventbus.EventSubscriber
+EventSubscriber
+EventSubscriber(Object target, Method method)
+Object,Method
+constructor
+com.google.common.eventbus.EventSubscriber
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.eventbus.EventBus
+enqueueEvent
+void enqueueEvent(Object event, EventSubscriber subscriber)
+Object,EventSubscriber
+void
+com.google.common.eventbus.AnnotatedSubscriberFinder
+getAnnotatedMethodsInternal
+private static ImmutableList<Method> getAnnotatedMethodsInternal(Class<?> clazz)
+Class
+ImmutableList
+com.google.common.eventbus.EventBus
+dispatchQueuedEvents
+void dispatchQueuedEvents()
+empty
+void
+com.google.common.eventbus.EventBus
+post
+public void post(Object event)
+Object
+void
+com.google.common.eventbus.EventBus
+enqueueEvent
+void enqueueEvent(Object event, EventHandler handler)
+Object,EventHandler
+void
+com.google.common.eventbus.AnnotatedSubscriberFinder
+findAllSubscribers
+public Multimap<Class<?>, EventSubscriber> findAllSubscribers(Object listener)
+Object
+Multimap
+com.google.common.eventbus.AsyncEventBus
+dispatch
+void dispatch(final Object event, final EventSubscriber subscriber)
+Object,EventSubscriber
+void
+com.google.common.eventbus.AnnotatedSubscriberFinder
+makeSubscriber
+private static EventSubscriber makeSubscriber(Object listener, Method method)
+Object,Method
+EventSubscriber
+com.google.common.eventbus.EventBus
+dispatch
+void dispatch(Object event, EventHandler wrapper)
+Object,EventHandler
+void
+com.google.common.eventbus.SubscriberFindingStrategy
+findAllSubscribers
+Multimap<Class<?>, EventSubscriber> findAllSubscribers(Object source)
+Object
+Multimap
+com.google.common.eventbus.EventBus
+unregister
+public void unregister(Object object)
+Object
+void
+com.google.common.eventbus.AsyncEventBus
+run
+public void run()
+empty
+void
+com.google.common.eventbus.EventSubscriber
+getMethod
+public Method getMethod()
+empty
+Method
+com.google.common.eventbus.AsyncEventBus
+dispatch
+void dispatch(final Object event, final EventHandler handler)
+Object,EventHandler
+void
+com.google.common.eventbus.AnnotatedSubscriberFinder
+getAnnotatedMethods
+private static ImmutableList<Method> getAnnotatedMethods(Class<?> clazz)
+Class
+ImmutableList

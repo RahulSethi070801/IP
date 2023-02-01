@@ -1,0 +1,10 @@
+{
+    "addition": {},
+    "removed": {
+        "26": "public void testInOrder() throws Exception {\n",
+        "27": "  com.google.common.collect.TreeTraverserTest testCase = new com.google.common.collect.TreeTraverserTest();\n",
+        "28": "  testCase.testInOrder();\n",
+        "29": "}\n",
+        "30": "\n"
+    }
+}

@@ -1,0 +1,14 @@
+
+   * Stores a key-value pair in this multimap for each of {@code values}, all using the same key,
+   * {@code key}. Equivalent to (but expected to be more efficient than):
+   *
+   * <pre>{@code
+   * for (V value : values) {
+   *   put(key, value);
+   * }
+   * }</pre>
+   *
+   * <p>In particular, this is a no-op if {@code values} is empty.
+   *
+   * @return {@code true} if the multimap changed
+   

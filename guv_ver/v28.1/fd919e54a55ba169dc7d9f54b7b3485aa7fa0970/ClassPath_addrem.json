@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "158": "   * Returns all top level classes whose package name is {@code packageName} or starts with {@code\n",
+        "159": "   * packageName} followed by a '.'.\n",
+        "411": "     * to <a\n",
+        "412": "     * href=\"http://docs.oracle.com/javase/8/docs/technotes/guides/jar/jar.html#Main_Attributes\">JAR\n",
+        "413": "     * File Specification</a>. If {@code manifest} is null, it means the jar file has no manifest,\n",
+        "414": "     * and an empty set will be returned.\n",
+        "493": "     * Returns the absolute uri of the Class-Path entry value as specified in <a\n",
+        "494": "     * href=\"http://docs.oracle.com/javase/8/docs/technotes/guides/jar/jar.html#Main_Attributes\">JAR\n",
+        "495": "     * File Specification</a>. Even though the specification only talks about relative urls,\n",
+        "586": "      return new File(url.toURI()); // Accepts escaped characters like %20.\n",
+        "587": "    } catch (URISyntaxException e) { // URL.toURI() doesn't escape chars.\n",
+        "588": "      return new File(url.getPath()); // Accepts non-escaped chars like space.\n"
+    },
+    "removed": {
+        "158": "   * Returns all top level classes whose package name is {@code packageName} or starts with\n",
+        "159": "   * {@code packageName} followed by a '.'.\n",
+        "411": "     * to\n",
+        "412": "     * <a href=\"http://docs.oracle.com/javase/8/docs/technotes/guides/jar/jar.html#Main_Attributes\">\n",
+        "413": "     * JAR File Specification</a>. If {@code manifest} is null, it means the jar file has no\n",
+        "414": "     * manifest, and an empty set will be returned.\n",
+        "493": "     * Returns the absolute uri of the Class-Path entry value as specified in\n",
+        "494": "     * <a href=\"http://docs.oracle.com/javase/8/docs/technotes/guides/jar/jar.html#Main_Attributes\">\n",
+        "495": "     * JAR File Specification</a>. Even though the specification only talks about relative urls,\n",
+        "586": "      return new File(url.toURI());  // Accepts escaped characters like %20.\n",
+        "587": "    } catch (URISyntaxException e) {  // URL.toURI() doesn't escape chars.\n",
+        "588": "      return new File(url.getPath());  // Accepts non-escaped chars like space.\n"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "26": "import com.google.common.collect.Iterables;\n",
+        "33": "import java.io.Reader;\n",
+        "182": "  public void testConcat_infiniteIterable() throws IOException {\n",
+        "183": "    CharSource source = CharSource.wrap(\"abcd\");\n",
+        "184": "    Iterable<CharSource> cycle = Iterables.cycle(ImmutableList.of(source));\n",
+        "185": "    CharSource concatenated = CharSource.concat(cycle);\n",
+        "186": "\n",
+        "187": "    String expected = \"abcdabcd\";\n",
+        "188": "\n",
+        "189": "    // read the first 8 chars manually, since there's no equivalent to ByteSource.slice\n",
+        "190": "    // TODO(user): Add CharSource.slice?\n",
+        "191": "    StringBuilder builder = new StringBuilder();\n",
+        "192": "    Reader reader = concatenated.openStream(); // no need to worry about closing\n",
+        "193": "    for (int i = 0; i < 8; i++) {\n",
+        "194": "      builder.append((char) reader.read());\n",
+        "195": "    }\n",
+        "196": "    assertEquals(expected, builder.toString());\n",
+        "197": "  }\n",
+        "198": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "621": "   *   Iterator<Entry<C, V>> i = row.entrySet().iterator(); // Must be in synchronized block\n"
+    },
+    "removed": {
+        "621": "   *   Iterator<Map.Entry<C, V>> i = row.entrySet().iterator(); // Must be in synchronized block\n"
+    }
+}

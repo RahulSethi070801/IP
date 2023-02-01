@@ -1,0 +1,3 @@
+public final Stream<E> stream() {
+    return Streams.stream(getDelegate());
+}

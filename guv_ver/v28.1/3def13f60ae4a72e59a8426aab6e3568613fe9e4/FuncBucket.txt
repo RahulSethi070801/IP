@@ -1,0 +1,10 @@
+com.google.common.graph.AbstractNetwork
+edgeConnecting
+public Optional<E> edgeConnecting(Object nodeU, Object nodeV)
+Object,Object
+Optional
+com.google.common.graph.Network
+edgeConnecting
+Optional<E> edgeConnecting(@CompatibleWith("N") Object nodeU, @CompatibleWith("N") Object nodeV)
+Object,Object
+Optional

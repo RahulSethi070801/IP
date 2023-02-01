@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "150": "    new EqualsTester().addEqualityGroup(graph, ImmutableGraph.copyOf(graph)).testEquals();\n"
+    },
+    "removed": {
+        "150": "    new EqualsTester().addEqualityGroup(graph).testEquals();\n"
+    }
+}

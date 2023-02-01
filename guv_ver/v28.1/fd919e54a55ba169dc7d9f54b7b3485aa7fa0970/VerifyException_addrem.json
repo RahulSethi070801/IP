@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "21": " * Exception thrown upon the failure of a <a\n",
+        "22": " * href=\"https://github.com/google/guava/wiki/ConditionalFailuresExplained\">verification check</a>,\n",
+        "23": " * including those performed by the convenience methods of the {@link Verify} class.\n",
+        "38": "   * Constructs a {@code VerifyException} with the cause {@code cause} and a message that is {@code\n",
+        "39": "   * null} if {@code cause} is null, and {@code cause.toString()} otherwise.\n",
+        "48": "   * Constructs a {@code VerifyException} with the message {@code message} and the cause {@code\n",
+        "49": "   * cause}.\n"
+    },
+    "removed": {
+        "21": " * Exception thrown upon the failure of a\n",
+        "22": " * <a href=\"https://github.com/google/guava/wiki/ConditionalFailuresExplained\">verification\n",
+        "23": " * check</a>, including those performed by the convenience methods of the {@link Verify} class.\n",
+        "38": "   * Constructs a {@code VerifyException} with the cause {@code cause} and a message that is\n",
+        "39": "   * {@code null} if {@code cause} is null, and {@code cause.toString()} otherwise.\n",
+        "48": "   * Constructs a {@code VerifyException} with the message {@code message} and the cause\n",
+        "49": "   * {@code cause}.\n"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "40": "    extends AbstractContainerTester<Map<K, V>, Entry<K, V>> {\n",
+        "46": "  protected Collection<Entry<K, V>> actualContents() {\n",
+        "71": "  protected Entry<K, V>[] createArrayWithNullKey() {\n",
+        "72": "    Entry<K, V>[] array = createSamplesArray();\n",
+        "74": "    final Entry<K, V> oldEntry = array[nullKeyLocation];\n",
+        "99": "  protected Entry<K, V>[] createArrayWithNullValue() {\n",
+        "100": "    Entry<K, V>[] array = createSamplesArray();\n",
+        "102": "    final Entry<K, V> oldEntry = array[nullValueLocation];\n",
+        "147": "  protected MinimalCollection<Entry<K, V>> createDisjointCollection() {\n",
+        "155": "  protected Collection<Entry<K, V>> getSampleEntries(int howMany) {\n",
+        "159": "  protected Collection<Entry<K, V>> getSampleEntries() {\n"
+    },
+    "removed": {
+        "40": "    extends AbstractContainerTester<Map<K, V>, Map.Entry<K, V>> {\n",
+        "46": "  protected Collection<Map.Entry<K, V>> actualContents() {\n",
+        "71": "  protected Map.Entry<K, V>[] createArrayWithNullKey() {\n",
+        "72": "    Map.Entry<K, V>[] array = createSamplesArray();\n",
+        "74": "    final Map.Entry<K, V> oldEntry = array[nullKeyLocation];\n",
+        "99": "  protected Map.Entry<K, V>[] createArrayWithNullValue() {\n",
+        "100": "    Map.Entry<K, V>[] array = createSamplesArray();\n",
+        "102": "    final Map.Entry<K, V> oldEntry = array[nullValueLocation];\n",
+        "147": "  protected MinimalCollection<Map.Entry<K, V>> createDisjointCollection() {\n",
+        "155": "  protected Collection<Map.Entry<K, V>> getSampleEntries(int howMany) {\n",
+        "159": "  protected Collection<Map.Entry<K, V>> getSampleEntries() {\n"
+    }
+}

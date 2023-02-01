@@ -1,0 +1,5 @@
+public static void checkArgument(boolean b, @NullableDecl String errorMessageTemplate, int p1, @NullableDecl Object p2) {
+    if (!b) {
+        throw new IllegalArgumentException(format(errorMessageTemplate, p1, p2));
+    }
+}

@@ -1,0 +1,3 @@
+static <T> Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function) {
+    return indexed(size, extraCharacteristics, function, null);
+}

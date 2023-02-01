@@ -1,0 +1,3 @@
+
+   * Returns an instance which specifies that the natural ordering of the elements is guaranteed.
+   

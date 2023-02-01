@@ -1,0 +1,4 @@
+
+   * Retrieves, but does not remove, the least element of this queue, or returns {@code null} if the
+   * queue is empty.
+   

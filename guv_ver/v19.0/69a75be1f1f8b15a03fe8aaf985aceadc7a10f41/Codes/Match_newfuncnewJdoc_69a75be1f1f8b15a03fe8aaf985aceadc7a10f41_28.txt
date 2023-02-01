@@ -1,0 +1,6 @@
+
+   * Implementing classes should invoke this method once their service has started. It will cause
+   * the service to transition from {@link State#STARTING} to {@link State#RUNNING}.
+   *
+   * @throws IllegalStateException if the service is not {@link State#STARTING}.
+   

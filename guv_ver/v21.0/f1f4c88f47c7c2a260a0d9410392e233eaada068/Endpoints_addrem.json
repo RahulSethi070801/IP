@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "31": " * An immutable {@link Collection} to represent the two (possibly equal, in the case of a self-loop)\n",
+        "32": " * endpoints of an edge in a graph.\n",
+        "75": "   * If this {@link Endpoints} is directed, returns the node which is the source of the origin edge.\n",
+        "82": "   * If this {@link Endpoints} is directed, returns the node which is the target of the origin edge.\n",
+        "89": "   * If this {@link Endpoints} is directed, returns the {@link #source()};\n",
+        "90": "   * otherwise, returns an arbitrary (but consistent) endpoint of the origin edge.\n",
+        "97": "   * Returns the node that is adjacent to {@link #nodeA()} via the origin edge.\n",
+        "98": "   * If this {@link Endpoints} is directed, this is equal to the {@link #target()}.\n",
+        "104": "  /**\n",
+        "105": "   * Returns the node that is adjacent to {@code node} via the origin edge.\n",
+        "106": "   *\n",
+        "107": "   * @throws IllegalArgumentException if the origin edge is not incident to {@code node}\n",
+        "108": "   */\n",
+        "109": "  public final N otherNode(Object node) {\n",
+        "110": "    checkNotNull(node, \"node\");\n",
+        "111": "    if (node.equals(nodeA())) {\n",
+        "112": "      return nodeB();\n",
+        "113": "    } else if (node.equals(nodeB())) {\n",
+        "114": "      return nodeA();\n",
+        "115": "    } else {\n",
+        "116": "      throw new IllegalArgumentException(\n",
+        "117": "          String.format(\"Endpoints %s does not contain node %s\", this, node));\n",
+        "118": "    }\n",
+        "119": "  }\n",
+        "120": "\n",
+        "122": "  public final UnmodifiableIterator<N> iterator() {\n",
+        "147": "  public final int size() {\n",
+        "152": "  public final boolean contains(Object obj) {\n"
+    },
+    "removed": {
+        "31": " * An immutable {@link Collection} to represent the endpoints of an edge in a graph.\n",
+        "74": "   * If this {@link Endpoints} is directed, returns the node which is the source.\n",
+        "81": "   * If this {@link Endpoints} is directed, returns the node which is the target.\n",
+        "88": "   * If this {@link Endpoints} is directed, returns the node which is the source.\n",
+        "89": "   * Otherwise, returns an arbitrary (but consistent) endpoint of the edge.\n",
+        "96": "   * Returns the node that is opposite {@link #nodeA()}. In the directed case, this is the target.\n",
+        "103": "  public UnmodifiableIterator<N> iterator() {\n",
+        "128": "  public int size() {\n",
+        "133": "  public boolean contains(Object obj) {\n"
+    }
+}

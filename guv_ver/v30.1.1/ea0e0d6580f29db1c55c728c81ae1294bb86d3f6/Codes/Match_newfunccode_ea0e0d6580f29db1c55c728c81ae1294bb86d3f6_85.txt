@@ -1,0 +1,20 @@
+private long aggregateBelowRange(Aggregate aggr, @CheckForNull AvlNode<E> node) {
+    if (node == null) {
+        return 0;
+    }
+    int cmp = comparator().compare(uncheckedCastNullableTToT(range.getLowerEndpoint()), node.getElement());
+    if (cmp < 0) {
+        return aggregateBelowRange(aggr, node.left);
+    } else if (cmp == 0) {
+        switch(range.getLowerBoundType()) {
+            case OPEN:
+                return aggr.nodeAggregate(node) + aggr.treeAggregate(node.left);
+            case CLOSED:
+                return aggr.treeAggregate(node.left);
+            default:
+                throw new AssertionError();
+        }
+    } else {
+        return aggr.treeAggregate(node.left) + aggr.nodeAggregate(node) + aggregateBelowRange(aggr, node.right);
+    }
+}

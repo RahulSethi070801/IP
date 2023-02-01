@@ -1,0 +1,20 @@
+
+   * Indicates whether this domain name represents a <i>public suffix</i>, as defined by the Mozilla
+   * Foundation's <a href="http://publicsuffix.org/">Public Suffix List</a> (PSL). A public suffix
+   * is one under which Internet users can directly register names, such as {@code com}, {@code
+   * co.uk} or {@code pvt.k12.wy.us}. Examples of domain names that are <i>not</i> public suffixes
+   * include {@code google.com}, {@code foo.co.uk}, and {@code myblog.blogspot.com}.
+   *
+   * <p>Public suffixes are a proper superset of {@linkplain #isRegistrySuffix() registry suffixes}.
+   * The list of public suffixes additionally contains privately owned domain names under which
+   * Internet users can register subdomains. An example of a public suffix that is not a registry
+   * suffix is {@code blogspot.com}. Note that it is true that all public suffixes <i>have</i>
+   * registry suffixes, since domain name registries collectively control all internet domain names.
+   *
+   * <p>For considerations on whether the public suffix or registry suffix designation is more
+   * suitable for your application, see <a
+   * href="https://github.com/google/guava/wiki/InternetDomainNameExplained">this article</a>.
+   *
+   * @return {@code true} if this domain name appears exactly on the public suffix list
+   * @since 6.0
+   

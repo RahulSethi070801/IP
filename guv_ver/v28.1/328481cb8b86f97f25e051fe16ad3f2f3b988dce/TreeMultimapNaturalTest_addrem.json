@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "305": "    Iterator<Entry<String, Collection<Integer>>> iterator =\n",
+        "307": "    Entry<String, Collection<Integer>> entry = iterator.next();\n"
+    },
+    "removed": {
+        "44": "import java.util.Map;\n",
+        "306": "    Iterator<Map.Entry<String, Collection<Integer>>> iterator =\n",
+        "308": "    Map.Entry<String, Collection<Integer>> entry = iterator.next();\n"
+    }
+}

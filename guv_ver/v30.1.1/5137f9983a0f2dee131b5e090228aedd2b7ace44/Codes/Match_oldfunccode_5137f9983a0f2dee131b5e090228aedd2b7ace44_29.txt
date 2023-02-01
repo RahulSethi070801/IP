@@ -1,0 +1,4 @@
+@VisibleForTesting
+synchronized File getFile() {
+    return file;
+}

@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "214": "   * @deprecated Use {@link Graph#equals(Object)} instead. This method is scheduled to be removed in\n",
+        "215": "   *     April 2018.\n",
+        "217": "  // TODO(b/72241742): Remove by 2018-04\n",
+        "224": "   * @deprecated Use {@link ValueGraph#equals(Object)} instead. This method is scheduled to be\n",
+        "225": "   *     removed in April 2018.\n",
+        "227": "  // TODO(b/72241742): Remove by 2018-04\n",
+        "235": "   * @deprecated Use {@link Network#equals(Object)} instead. This method is scheduled to be removed\n",
+        "236": "   *     in April 2018.\n",
+        "238": "  // TODO(b/72241742): Remove by 2018-04\n"
+    },
+    "removed": {
+        "214": "   * @deprecated Use {@link Graph#equals(Object)} instead. This method will be removed in January\n",
+        "215": "   *     2018.\n",
+        "217": "  // TODO(user): Delete this method.\n",
+        "224": "   * @deprecated Use {@link ValueGraph#equals(Object)} instead. This method will be removed in\n",
+        "225": "   *     January 2018.\n",
+        "227": "  // TODO(user): Delete this method.\n",
+        "235": "   * @deprecated Use {@link Network#equals(Object)} instead. This method will be removed in January\n",
+        "236": "   *     2018.\n",
+        "238": "  // TODO(user): Delete this method.\n"
+    }
+}

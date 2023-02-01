@@ -1,0 +1,12 @@
+long putIfAbsent(K key, long newValue) {
+    AtomicBoolean noValue = new AtomicBoolean(false);
+    Long result = map.compute(key, (k, oldValue) -> {
+        if (oldValue == null || oldValue == 0) {
+            noValue.set(true);
+            return newValue;
+        } else {
+            return oldValue;
+        }
+    });
+    return noValue.get() ? 0L : result.longValue();
+}

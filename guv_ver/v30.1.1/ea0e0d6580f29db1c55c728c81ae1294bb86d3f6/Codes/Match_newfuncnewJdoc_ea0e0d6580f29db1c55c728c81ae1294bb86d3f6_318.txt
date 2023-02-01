@@ -1,0 +1,12 @@
+
+   * Removes a <i>single</i> occurrence of the specified element from this multiset, if present.
+   *
+   * <p>This method refines {@link Collection#remove} to further specify that it <b>may not</b>
+   * throw an exception in response to {@code element} being null or of the wrong type.
+   *
+   * <p>To both remove the element and obtain the previous count of that element, use {@link
+   * #remove(Object, int) remove}{@code (element, 1)} instead.
+   *
+   * @param element the element to remove one occurrence of
+   * @return {@code true} if an occurrence was found and removed
+   

@@ -1,0 +1,4 @@
+StopwatchBenchmark_2
+Insertions: [23, 24, 29, 30, 40, 41]
+Deletions: [23, 24, 25, 30, 40]
+guava-tests/benchmark/com/google/common/base/StopwatchBenchmark.java

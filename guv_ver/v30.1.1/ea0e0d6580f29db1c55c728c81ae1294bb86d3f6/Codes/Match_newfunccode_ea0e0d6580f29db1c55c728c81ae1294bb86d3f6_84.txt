@@ -1,0 +1,11 @@
+static <E extends @Nullable Object> int setCountImpl(Multiset<E> self, @ParametricNullness E element, int count) {
+    checkNonnegative(count, "count");
+    int oldCount = self.count(element);
+    int delta = count - oldCount;
+    if (delta > 0) {
+        self.add(element, delta);
+    } else if (delta < 0) {
+        self.remove(element, -delta);
+    }
+    return oldCount;
+}

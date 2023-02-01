@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "147": "    Iterator<? extends Entry<K, ? extends V>> entryItr = map.entrySet().iterator();\n",
+        "151": "    Entry<K, ? extends V> entry1 = entryItr.next();\n",
+        "3753": "   * map entries. If {@code o} is an instance of {@code Entry}, it is\n",
+        "3773": "   * map entries. If {@code o} is an instance of {@code Entry}, it is\n",
+        "3810": "    for (Entry<?, ?> entry : map.entrySet()) {\n",
+        "3824": "    for (Entry<? extends K, ? extends V> entry : map.entrySet()) {\n"
+    },
+    "removed": {
+        "147": "    Iterator<? extends Map.Entry<K, ? extends V>> entryItr = map.entrySet().iterator();\n",
+        "151": "    Map.Entry<K, ? extends V> entry1 = entryItr.next();\n",
+        "3753": "   * map entries. If {@code o} is an instance of {@code Map.Entry}, it is\n",
+        "3773": "   * map entries. If {@code o} is an instance of {@code Map.Entry}, it is\n",
+        "3810": "    for (Map.Entry<?, ?> entry : map.entrySet()) {\n",
+        "3824": "    for (Map.Entry<? extends K, ? extends V> entry : map.entrySet()) {\n"
+    }
+}

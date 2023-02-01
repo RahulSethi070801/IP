@@ -1,0 +1,6 @@
+public final Service stopAsync()
+public void terminated(State from)
+
+private void enqueueTerminatedEvent(final State from)
+protected abstract void doStop()
+

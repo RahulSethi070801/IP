@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "34": "import java.util.regex.Pattern;\n",
+        "543": "    assertThat(input)\n",
+        "544": "        .matches(\n",
+        "545": "            Pattern.compile(\n",
+        "546": "                Doubles.FLOATING_POINT_PATTERN.pattern(), Doubles.FLOATING_POINT_PATTERN.flags()));\n",
+        "628": "      assertThat(badInput)\n",
+        "629": "          .doesNotMatch(\n",
+        "630": "              Pattern.compile(\n",
+        "631": "                  Doubles.FLOATING_POINT_PATTERN.pattern(),\n",
+        "632": "                  Doubles.FLOATING_POINT_PATTERN.flags()));\n"
+    },
+    "removed": {
+        "542": "    assertThat(input).matches(Doubles.FLOATING_POINT_PATTERN);\n",
+        "624": "      assertThat(badInput).doesNotMatch(Doubles.FLOATING_POINT_PATTERN);\n"
+    }
+}

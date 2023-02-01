@@ -1,0 +1,4 @@
+@Override
+public T set(int index, @NullableDecl T element) {
+    return forwardList.set(reverseIndex(index), element);
+}

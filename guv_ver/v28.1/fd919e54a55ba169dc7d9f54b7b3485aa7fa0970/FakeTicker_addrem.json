@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "29": " *\n",
+        "30": " * <p>The ticker can be configured so that the time is incremented whenever {@link #read} is called:\n",
+        "32": " *\n",
+        "33": " * <p>This class is thread-safe.\n",
+        "68": "  @Override\n",
+        "69": "  public long read() {\n"
+    },
+    "removed": {
+        "29": " * <p>\n",
+        "30": " * The ticker can be configured so that the time is incremented whenever {@link #read} is called:\n",
+        "32": " * <p>\n",
+        "33": " * This class is thread-safe.\n",
+        "68": "  @Override public long read() {\n"
+    }
+}

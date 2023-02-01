@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "24": "/** Tests for {@link AbstractFuture} with the cancellation cause system property set */\n",
+        "31": "  @Override\n",
+        "32": "  protected void setUp() throws Exception {\n"
+    },
+    "removed": {
+        "24": "/**\n",
+        "25": " * Tests for {@link AbstractFuture} with the cancellation cause system property set\n",
+        "26": " */\n",
+        "33": "  @Override protected void setUp() throws Exception {\n"
+    }
+}

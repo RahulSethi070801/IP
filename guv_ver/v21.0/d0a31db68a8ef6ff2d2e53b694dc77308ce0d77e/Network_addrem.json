@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "350": "   * Returns {@code true} iff {@code object} is a {@link Network} that has the same elements and the\n",
+        "351": "   * same structural relationships as those in this network.\n"
+    },
+    "removed": {
+        "350": "   * Returns {@code true} iff {@code object} is a {@link Network} that has the same structural\n",
+        "351": "   * relationships as those in this network.\n"
+    }
+}

@@ -1,0 +1,3 @@
+public static void append(CharSequence from, File to, Charset charset) throws IOException {
+    write(from, to, charset, true);
+}

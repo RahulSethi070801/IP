@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "28": "abstract class AbstractImmutableGraph<N, E> extends AbstractGraph<N, E> {\n",
+        "29": "\n",
+        "30": "  AbstractImmutableGraph(GraphConfig config) {\n",
+        "31": "    super(config);\n",
+        "32": "  }\n"
+    },
+    "removed": {
+        "28": "abstract class AbstractImmutableGraph<N, E> implements Graph<N, E> {\n"
+    }
+}

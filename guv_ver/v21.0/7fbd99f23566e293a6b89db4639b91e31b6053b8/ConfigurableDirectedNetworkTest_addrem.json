@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "57": "    assertThat(graph.incidentNodes(E11)).containsExactly(N1, N1);\n",
+        "144": "    assertEquals(N1, graph.incidentNodes(E11).source());\n",
+        "150": "    assertEquals(N1, graph.incidentNodes(E11).target());\n"
+    },
+    "removed": {
+        "57": "    assertThat(graph.incidentNodes(E11)).containsExactly(N1);\n",
+        "144": "    assertEquals(N1, graph.source(E11));\n",
+        "150": "    assertEquals(N1, graph.target(E11));\n"
+    }
+}

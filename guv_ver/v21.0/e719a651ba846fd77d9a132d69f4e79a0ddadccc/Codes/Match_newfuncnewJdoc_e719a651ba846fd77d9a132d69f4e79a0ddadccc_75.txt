@@ -1,0 +1,6 @@
+
+   * Writes a {@code double} as specified by {@link DataOutputStream#writeDouble(double)}, except
+   * using little-endian byte order.
+   *
+   * @throws IOException if an I/O error occurs
+   

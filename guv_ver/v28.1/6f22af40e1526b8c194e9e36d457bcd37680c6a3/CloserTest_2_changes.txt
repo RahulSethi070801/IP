@@ -1,0 +1,4 @@
+CloserTest_2
+Insertions: [37, 462]
+Deletions: [36, 462]
+guava-tests/test/com/google/common/io/CloserTest.java

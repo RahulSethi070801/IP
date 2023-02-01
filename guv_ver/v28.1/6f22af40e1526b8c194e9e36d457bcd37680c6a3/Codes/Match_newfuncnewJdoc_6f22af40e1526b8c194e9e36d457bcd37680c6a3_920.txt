@@ -1,0 +1,5 @@
+
+   * Compares the specified object with this multiset for equality. Returns {@code true} if the
+   * given object is also a multiset and contains equal elements with equal counts, regardless of
+   * order.
+   

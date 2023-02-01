@@ -1,0 +1,4 @@
+Enums
+Insertions: [4, 5, 9, 10, 11, 12, 110, 111]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 112, 113]
+guava/src/com/google/common/base/Enums.java

@@ -1,0 +1,510 @@
+com.google.common.cache.LocalCache$Segment
+removeEntryFromChain
+ReferenceEntry<K, V> removeEntryFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry)
+ReferenceEntry,ReferenceEntry
+ReferenceEntry
+com.google.common.cache.CacheStats
+averageLoadPenalty
+public double averageLoadPenalty()
+empty
+double
+com.google.common.cache.CacheBuilderSpec$DurationParser
+parseDuration
+protected abstract void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit)
+CacheBuilderSpec,long,TimeUnit
+void
+com.google.common.cache.LocalCache
+poll
+public Object poll()
+empty
+Object
+com.google.common.cache.LocalCache
+size
+public int size()
+empty
+int
+com.google.common.cache.LocalCache$Segment
+reclaimKey
+boolean reclaimKey(ReferenceEntry<K, V> entry, int hash)
+ReferenceEntry,int
+boolean
+com.google.common.cache.CacheBuilderSpec$DurationParser
+parse
+public void parse(CacheBuilderSpec spec, String key, String value)
+CacheBuilderSpec,String,String
+void
+com.google.common.cache.CacheBuilder
+read
+public long read()
+empty
+long
+com.google.common.cache.CacheBuilderSpec
+parse
+public static CacheBuilderSpec parse(String cacheBuilderSpecification)
+String
+CacheBuilderSpec
+com.google.common.cache.CacheBuilder
+maximumSize
+public CacheBuilder<K, V> maximumSize(long size)
+long
+CacheBuilder
+com.google.common.cache.CacheBuilder
+initialCapacity
+public CacheBuilder<K, V> initialCapacity(int initialCapacity)
+int
+CacheBuilder
+com.google.common.cache.CacheBuilderSpec
+durationInNanos
+private static Long durationInNanos(long duration, @Nullable TimeUnit unit)
+long,TimeUnit
+Long
+com.google.common.cache.CacheBuilderSpec$ValueStrengthParser
+parse
+public void parse(CacheBuilderSpec spec, String key, @Nullable String value)
+CacheBuilderSpec,String,String
+void
+com.google.common.cache.CacheBuilder
+maximumWeight
+public CacheBuilder<K, V> maximumWeight(long weight)
+long
+CacheBuilder
+com.google.common.cache.CacheStats
+CacheStats
+public CacheStats(long hitCount, long missCount, long loadSuccessCount, long loadExceptionCount, long totalLoadTime, long evictionCount)
+long,long,long,long,long,long
+constructor
+com.google.common.cache.LocalCache$WeakWriteEntry
+WeakWriteEntry
+WeakWriteEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.cache.RemovalListeners
+run
+public void run()
+empty
+void
+com.google.common.cache.CacheBuilder
+recordMisses
+public void recordMisses(int count)
+int
+void
+com.google.common.cache.LocalCache$Segment
+replace
+V replace(K key, int hash, V newValue)
+K,int,V
+V
+com.google.common.cache.CacheBuilder
+get
+public StatsCounter get()
+empty
+StatsCounter
+com.google.common.cache.CacheBuilder
+expireAfterAccess
+public CacheBuilder<K, V> expireAfterAccess(long duration, TimeUnit unit)
+long,TimeUnit
+CacheBuilder
+com.google.common.cache.LocalCache$AbstractCacheSet
+isEmpty
+public boolean isEmpty()
+empty
+boolean
+com.google.common.cache.CacheBuilder
+recordLoadSuccess
+public void recordLoadSuccess(long loadTime)
+long
+void
+com.google.common.cache.LocalCache$Segment
+storeLoadedValue
+boolean storeLoadedValue(K key, int hash, LoadingValueReference<K, V> oldValueReference, V newValue)
+K,int,LoadingValueReference,V
+boolean
+com.google.common.cache.LocalCache
+getWriteTime
+public long getWriteTime()
+empty
+long
+com.google.common.cache.LocalCache
+isExpired
+boolean isExpired(ReferenceEntry<K, V> entry, long now)
+ReferenceEntry,long
+boolean
+com.google.common.cache.LocalCache$StrongAccessEntry
+getNextInAccessQueue
+public ReferenceEntry<K, V> getNextInAccessQueue()
+empty
+ReferenceEntry
+com.google.common.cache.LocalCache
+apply
+public V apply(V newValue)
+V
+V
+com.google.common.cache.LocalCache$StrongAccessEntry
+setPreviousInAccessQueue
+public void setPreviousInAccessQueue(ReferenceEntry<K, V> previous)
+ReferenceEntry
+void
+com.google.common.cache.LocalCache$WriteThroughEntry
+toString
+public String toString()
+empty
+String
+com.google.common.cache.CacheStats
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.cache.LocalCache$StrongWriteEntry
+setPreviousInWriteQueue
+public void setPreviousInWriteQueue(ReferenceEntry<K, V> previous)
+ReferenceEntry
+void
+com.google.common.cache.LocalCache$LocalManualCache
+get
+public V get(K key, final Callable<? extends V> valueLoader) throws ExecutionException
+K,Callable
+V
+com.google.common.cache.LocalCache$Segment
+Segment
+Segment(LocalCache<K, V> map, int initialCapacity, long maxSegmentWeight, StatsCounter statsCounter)
+LocalCache,int,long,StatsCounter
+constructor
+com.google.common.cache.RemovalListeners
+asynchronous
+public static RemovalListener<K, V> asynchronous(final RemovalListener<K, V> listener, final Executor executor)
+RemovalListener,Executor
+RemovalListener
+com.google.common.cache.LocalCache
+getEntry
+public ReferenceEntry<Object, Object> getEntry()
+empty
+ReferenceEntry
+com.google.common.cache.LocalCache$Segment
+removeValueFromChain
+ReferenceEntry<K, V> removeValueFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry, @Nullable K key, int hash, V value, ValueReference<K, V> valueReference, RemovalCause cause)
+ReferenceEntry,ReferenceEntry,K,int,V,ValueReference,RemovalCause
+ReferenceEntry
+com.google.common.cache.LocalCache$Segment
+getAndRecordStats
+V getAndRecordStats(K key, int hash, LoadingValueReference<K, V> loadingValueReference, ListenableFuture<V> newValue) throws ExecutionException
+K,int,LoadingValueReference,ListenableFuture
+V
+com.google.common.cache.LocalCache
+load
+public V load(Object key) throws Exception
+Object
+V
+com.google.common.cache.CacheBuilderSpec$AccessDurationParser
+parseDuration
+protected void parseDuration(CacheBuilderSpec spec, long duration, TimeUnit unit)
+CacheBuilderSpec,long,TimeUnit
+void
+com.google.common.cache.LocalCache$LoadingValueReference
+loadFuture
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+K,CacheLoader
+ListenableFuture
+com.google.common.base.SmallCharMatcher
+matches
+public boolean matches(char c)
+char
+boolean
+com.google.common.cache.LocalCache$WeightedWeakValueReference
+WeightedWeakValueReference
+WeightedWeakValueReference(ReferenceQueue<V> queue, V referent, ReferenceEntry<K, V> entry, int weight)
+ReferenceQueue,V,ReferenceEntry,int
+constructor
+com.google.common.cache.LocalCache$Segment
+remove
+boolean remove(Object key, int hash, Object value)
+Object,int,Object
+boolean
+com.google.common.cache.LocalCache$Segment
+removeCollectedEntry
+void removeCollectedEntry(ReferenceEntry<K, V> entry)
+ReferenceEntry
+void
+com.google.common.cache.ForwardingCache
+putAll
+public void putAll(Map<? extends K, ? extends V> m)
+Map
+void
+com.google.common.cache.CacheBuilder
+expireAfterWrite
+public CacheBuilder<K, V> expireAfterWrite(long duration, TimeUnit unit)
+long,TimeUnit
+CacheBuilder
+com.google.common.cache.CacheBuilder
+concurrencyLevel
+public CacheBuilder<K, V> concurrencyLevel(int concurrencyLevel)
+int
+CacheBuilder
+com.google.common.cache.LocalCache$WeightedSoftValueReference
+WeightedSoftValueReference
+WeightedSoftValueReference(ReferenceQueue<V> queue, V referent, ReferenceEntry<K, V> entry, int weight)
+ReferenceQueue,V,ReferenceEntry,int
+constructor
+com.google.common.cache.CacheBuilderSpec
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.cache.LocalCache$StrongWriteEntry
+setNextInWriteQueue
+public void setNextInWriteQueue(ReferenceEntry<K, V> next)
+ReferenceEntry
+void
+com.google.common.cache.LocalCache
+setWriteTime
+public void setWriteTime(long time)
+long
+void
+com.google.common.cache.LocalCache
+LocalCache
+LocalCache(CacheBuilder<? super K, ? super V> builder, @Nullable CacheLoader<? super K, V> loader)
+CacheBuilder,CacheLoader
+constructor
+com.google.common.cache.LocalCache$Segment
+clear
+void clear()
+empty
+void
+com.google.common.cache.LocalCache$Segment
+removeEntry
+boolean removeEntry(ReferenceEntry<K, V> entry, int hash, RemovalCause cause)
+ReferenceEntry,int,RemovalCause
+boolean
+com.google.common.cache.LocalCache
+isActive
+public boolean isActive()
+empty
+boolean
+com.google.common.cache.LocalCache$Segment
+loadSync
+V loadSync(K key, int hash, LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader) throws ExecutionException
+K,int,LoadingValueReference,CacheLoader
+V
+com.google.common.cache.LocalCache
+setAccessTime
+public void setAccessTime(long time)
+long
+void
+com.google.common.cache.LongAddables
+get
+public LongAddable get()
+empty
+LongAddable
+com.google.common.cache.LocalCache
+copyFor
+public ValueReference<Object, Object> copyFor(ReferenceQueue<Object> queue, @Nullable Object value, ReferenceEntry<Object, Object> entry)
+ReferenceQueue,Object,ReferenceEntry
+ValueReference
+com.google.common.cache.LocalCache$StrongAccessEntry
+setNextInAccessQueue
+public void setNextInAccessQueue(ReferenceEntry<K, V> next)
+ReferenceEntry
+void
+com.google.common.cache.CacheBuilderSpec$InitialCapacityParser
+parseInteger
+protected void parseInteger(CacheBuilderSpec spec, int value)
+CacheBuilderSpec,int
+void
+com.google.common.cache.CacheBuilder
+snapshot
+public CacheStats snapshot()
+empty
+CacheStats
+com.google.common.cache.CacheBuilder
+recordEviction
+public void recordEviction()
+empty
+void
+com.google.common.cache.LocalCache$Segment
+insertLoadingValueReference
+LoadingValueReference<K, V> insertLoadingValueReference(final K key, final int hash, boolean checkTime)
+K,int,boolean
+LoadingValueReference
+com.google.common.cache.LocalCache
+waitForValue
+public Object waitForValue()
+empty
+Object
+com.google.common.cache.LocalCache$StrongWriteEntry
+getPreviousInWriteQueue
+public ReferenceEntry<K, V> getPreviousInWriteQueue()
+empty
+ReferenceEntry
+com.google.common.cache.LocalCache
+getAccessTime
+public long getAccessTime()
+empty
+long
+com.google.common.cache.LocalCache
+get
+public Object get()
+empty
+Object
+com.google.common.cache.LocalCache$LocalLoadingCache
+LocalLoadingCache
+LocalLoadingCache(CacheBuilder<? super K, ? super V> builder, CacheLoader<? super K, V> loader)
+CacheBuilder,CacheLoader
+constructor
+com.google.common.cache.LocalCache
+notifyNewValue
+public void notifyNewValue(Object newValue)
+Object
+void
+com.google.common.cache.LocalCache$Segment
+lockedGetOrLoad
+V lockedGetOrLoad(K key, int hash, CacheLoader<? super K, V> loader) throws ExecutionException
+K,int,CacheLoader
+V
+com.google.common.cache.LocalCache$Segment
+scheduleRefresh
+V scheduleRefresh(ReferenceEntry<K, V> entry, K key, int hash, V oldValue, long now, CacheLoader<? super K, V> loader)
+ReferenceEntry,K,int,V,long,CacheLoader
+V
+com.google.common.cache.LocalCache
+getWeight
+public int getWeight()
+empty
+int
+com.google.common.cache.CacheBuilder
+valueEquivalence
+CacheBuilder<K, V> valueEquivalence(Equivalence<Object> equivalence)
+Equivalence
+CacheBuilder
+com.google.common.cache.LocalCache
+getFactory
+static EntryFactory getFactory(Strength keyStrength, boolean usesAccessQueue, boolean usesWriteQueue)
+Strength,boolean,boolean
+EntryFactory
+com.google.common.cache.CacheBuilder
+recordHits
+public void recordHits(int count)
+int
+void
+com.google.common.cache.LocalCache$Segment
+enqueueNotification
+void enqueueNotification(@Nullable K key, int hash, @Nullable V value, int weight, RemovalCause cause)
+K,int,V,int,RemovalCause
+void
+com.google.common.cache.CacheBuilder
+build
+public LoadingCache<K1, V1> build(CacheLoader<? super K1, V1> loader)
+CacheLoader
+LoadingCache
+com.google.common.cache.LocalCache$ManualSerializationProxy
+ManualSerializationProxy
+private ManualSerializationProxy(Strength keyStrength, Strength valueStrength, Equivalence<Object> keyEquivalence, Equivalence<Object> valueEquivalence, long expireAfterWriteNanos, long expireAfterAccessNanos, long maxWeight, Weigher<K, V> weigher, int concurrencyLevel, RemovalListener<? super K, ? super V> removalListener, Ticker ticker, CacheLoader<? super K, V> loader)
+Strength,Strength,Equivalence,Equivalence,long,long,long,Weigher,int,RemovalListener,Ticker,CacheLoader
+constructor
+com.google.common.cache.CacheBuilder
+weigher
+public CacheBuilder<K1, V1> weigher(Weigher<? super K1, ? super V1> weigher)
+Weigher
+CacheBuilder
+com.google.common.cache.LocalCache$Segment
+removeLoadingValue
+boolean removeLoadingValue(K key, int hash, LoadingValueReference<K, V> valueReference)
+K,int,LoadingValueReference
+boolean
+com.google.common.cache.LocalCache$Segment
+remove
+V remove(Object key, int hash)
+Object,int
+V
+com.google.common.cache.LocalCache
+peek
+public Object peek()
+empty
+Object
+com.google.common.cache.LocalCache$AbstractCacheSet
+clear
+public void clear()
+empty
+void
+com.google.common.cache.LocalCache$StrongWriteEntry
+getNextInWriteQueue
+public ReferenceEntry<K, V> getNextInWriteQueue()
+empty
+ReferenceEntry
+com.google.common.cache.LocalCache$ManualSerializationProxy
+recreateCacheBuilder
+CacheBuilder<K, V> recreateCacheBuilder()
+empty
+CacheBuilder
+com.google.common.cache.LocalCache$Segment
+replace
+boolean replace(K key, int hash, V oldValue, V newValue)
+K,int,V,V
+boolean
+com.google.common.cache.LocalCache
+iterator
+public Iterator<Object> iterator()
+empty
+Iterator
+com.google.common.cache.LocalCache$Segment
+reclaimValue
+boolean reclaimValue(K key, int hash, ValueReference<K, V> valueReference)
+K,int,ValueReference
+boolean
+com.google.common.cache.LocalCache
+offer
+public boolean offer(Object o)
+Object
+boolean
+com.google.common.cache.LocalCache$StrongAccessEntry
+getPreviousInAccessQueue
+public ReferenceEntry<K, V> getPreviousInAccessQueue()
+empty
+ReferenceEntry
+com.google.common.cache.CacheBuilder
+getExpireAfterAccessNanos
+long getExpireAfterAccessNanos()
+empty
+long
+com.google.common.cache.LocalCache$Segment
+loadAsync
+ListenableFuture<V> loadAsync(final K key, final int hash, final LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader)
+K,int,LoadingValueReference,CacheLoader
+ListenableFuture
+com.google.common.cache.CacheLoader
+reload
+public ListenableFuture<V> reload(final K key, final V oldValue) throws Exception
+K,V
+ListenableFuture
+com.google.common.cache.LocalCache$WeakAccessEntry
+WeakAccessEntry
+WeakAccessEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable ReferenceEntry<K, V> next)
+ReferenceQueue,K,int,ReferenceEntry
+constructor
+com.google.common.cache.CacheBuilder
+recordLoadException
+public void recordLoadException(long loadTime)
+long
+void
+com.google.common.cache.LocalCache$Segment
+put
+V put(K key, int hash, V value, boolean onlyIfAbsent)
+K,int,V,boolean
+V
+com.google.common.cache.CacheBuilder
+from
+public static CacheBuilder<Object, Object> from(CacheBuilderSpec spec)
+CacheBuilderSpec
+CacheBuilder
+com.google.common.cache.CacheStats
+loadExceptionRate
+public double loadExceptionRate()
+empty
+double
+com.google.common.cache.CacheBuilderSpec$MaximumSizeParser
+parseLong
+protected void parseLong(CacheBuilderSpec spec, long value)
+CacheBuilderSpec,long
+void
+com.google.common.base.CharMatcher$Invisible
+Invisible
+private Invisible()
+empty
+constructor

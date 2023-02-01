@@ -1,0 +1,5 @@
+@Override
+@CheckForNull
+public E higher(@ParametricNullness E e) {
+    return getElementOrNull(multiset().tailMultiset(e, OPEN).firstEntry());
+}

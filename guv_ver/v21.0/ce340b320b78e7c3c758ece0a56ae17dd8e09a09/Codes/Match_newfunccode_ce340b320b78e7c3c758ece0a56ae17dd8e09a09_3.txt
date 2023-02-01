@@ -1,0 +1,3 @@
+public static final <S> ElementOrder<S> insertion() {
+    return new ElementOrder<S>(Type.INSERTION, null);
+}

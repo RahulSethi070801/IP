@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "24": " * A {@link FutureTask} that also implements the {@link ListenableFuture} interface. Unlike {@code\n",
+        "25": " * FutureTask}, {@code ListenableFutureTask} does not provide an overrideable {@link\n",
+        "83": "  /** Internal implementation detail used to invoke the listeners. */\n"
+    },
+    "removed": {
+        "24": " * A {@link FutureTask} that also implements the {@link ListenableFuture} interface. Unlike\n",
+        "25": " * {@code FutureTask}, {@code ListenableFutureTask} does not provide an overrideable {@link\n",
+        "83": "  /**\n",
+        "84": "   * Internal implementation detail used to invoke the listeners.\n",
+        "85": "   */\n"
+    }
+}

@@ -1,0 +1,9 @@
+static int tableGet(Object table, int index) {
+    if (table instanceof byte[]) {
+        return ((byte[]) table)[index] & BYTE_MASK;
+    } else if (table instanceof short[]) {
+        return ((short[]) table)[index] & SHORT_MASK;
+    } else {
+        return ((int[]) table)[index];
+    }
+}

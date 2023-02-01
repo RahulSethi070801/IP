@@ -1,0 +1,4 @@
+@Deprecated
+public static <I, O> ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function) {
+    return transformAsync(input, function);
+}

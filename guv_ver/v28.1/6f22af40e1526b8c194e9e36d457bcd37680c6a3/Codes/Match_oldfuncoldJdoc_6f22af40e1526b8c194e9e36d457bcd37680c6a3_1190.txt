@@ -1,0 +1,4 @@
+
+   * Returns the internal entry for the specified key. The entry may be loading, expired, or
+   * partially collected.
+   

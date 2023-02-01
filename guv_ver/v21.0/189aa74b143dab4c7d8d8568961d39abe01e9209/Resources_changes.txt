@@ -1,0 +1,4 @@
+Resources
+Insertions: [25, 126, 190, 191, 192]
+Deletions: []
+guava/src/com/google/common/io/Resources.java

@@ -1,0 +1,5 @@
+@Deprecated
+@Override
+public final V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction) {
+    throw new UnsupportedOperationException();
+}

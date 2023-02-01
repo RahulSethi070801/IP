@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "43": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "853": "                    public Object apply(@NullableDecl Integer input) {\n"
+    },
+    "removed": {
+        "41": "import javax.annotation.Nullable;\n",
+        "853": "                    public Object apply(@Nullable Integer input) {\n"
+    }
+}

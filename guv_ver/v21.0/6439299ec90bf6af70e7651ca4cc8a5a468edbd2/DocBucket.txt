@@ -1,0 +1,35 @@
+com.google.common.graph.Endpoints
+nodeA
+final N nodeA()
+empty
+N
+com.google.common.graph.Endpoints
+nodeB
+final N nodeB()
+empty
+N
+com.google.common.graph.Endpoints
+target
+public abstract N target()
+empty
+N
+com.google.common.graph.Endpoints
+equals
+public abstract boolean equals(Object obj)
+Object
+boolean
+com.google.common.graph.Endpoints
+ofUndirected
+public static Endpoints<N> ofUndirected(N nodeA, N nodeB)
+N,N
+Endpoints
+com.google.common.graph.Endpoints
+ofDirected
+public static Endpoints<N> ofDirected(N source, N target)
+N,N
+Endpoints
+com.google.common.graph.Endpoints
+source
+public abstract N source()
+empty
+N

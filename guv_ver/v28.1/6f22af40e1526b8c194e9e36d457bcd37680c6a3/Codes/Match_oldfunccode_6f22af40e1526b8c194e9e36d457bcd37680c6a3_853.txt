@@ -1,0 +1,4 @@
+@Override
+final Object invokeInternal(@Nullable Object receiver, Object[] args) throws InvocationTargetException, IllegalAccessException {
+    return method.invoke(receiver, args);
+}

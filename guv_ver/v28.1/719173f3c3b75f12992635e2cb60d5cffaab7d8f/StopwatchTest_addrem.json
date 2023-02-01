@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "24": "import com.google.common.annotations.GwtIncompatible;\n",
+        "26": "import java.time.Duration;\n",
+        "171": "  @GwtIncompatible\n",
+        "172": "  public void testElapsed_duration() {\n",
+        "173": "    stopwatch.start();\n",
+        "174": "    ticker.advance(999999);\n",
+        "175": "    assertEquals(Duration.ofNanos(999999), stopwatch.elapsed());\n",
+        "176": "    ticker.advance(1);\n",
+        "177": "    assertEquals(Duration.ofMillis(1), stopwatch.elapsed());\n",
+        "178": "  }\n",
+        "179": "\n"
+    },
+    "removed": {}
+}

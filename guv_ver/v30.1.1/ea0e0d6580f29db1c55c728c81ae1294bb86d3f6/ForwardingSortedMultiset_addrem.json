@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "22": "import javax.annotation.CheckForNull;\n",
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "49": "@ElementTypesAreNonnullByDefault\n",
+        "50": "public abstract class ForwardingSortedMultiset<E extends @Nullable Object>\n",
+        "51": "    extends ForwardingMultiset<E> implements SortedMultiset<E> {\n",
+        "116": "  @CheckForNull\n",
+        "127": "  @CheckForNull\n",
+        "138": "  @CheckForNull\n",
+        "150": "  @CheckForNull\n",
+        "161": "  @CheckForNull\n",
+        "172": "  @CheckForNull\n",
+        "185": "  @CheckForNull\n",
+        "197": "  @CheckForNull\n",
+        "210": "  public SortedMultiset<E> headMultiset(@ParametricNullness E upperBound, BoundType boundType) {\n",
+        "216": "      @ParametricNullness E lowerBound,\n",
+        "217": "      BoundType lowerBoundType,\n",
+        "218": "      @ParametricNullness E upperBound,\n",
+        "219": "      BoundType upperBoundType) {\n",
+        "232": "      @ParametricNullness E lowerBound,\n",
+        "233": "      BoundType lowerBoundType,\n",
+        "234": "      @ParametricNullness E upperBound,\n",
+        "235": "      BoundType upperBoundType) {\n",
+        "240": "  public SortedMultiset<E> tailMultiset(@ParametricNullness E lowerBound, BoundType boundType) {\n"
+    },
+    "removed": {
+        "47": "public abstract class ForwardingSortedMultiset<E> extends ForwardingMultiset<E>\n",
+        "48": "    implements SortedMultiset<E> {\n",
+        "199": "  public SortedMultiset<E> headMultiset(E upperBound, BoundType boundType) {\n",
+        "205": "      E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType) {\n",
+        "218": "      E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType) {\n",
+        "223": "  public SortedMultiset<E> tailMultiset(E lowerBound, BoundType boundType) {\n"
+    }
+}

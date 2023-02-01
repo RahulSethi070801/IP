@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "23": " * Wraps a single-argument subscriber method on a specific object, and ensures\n",
+        "27": " * {@link EventSubscriber}.\n",
+        "31": "final class SynchronizedEventSubscriber extends EventSubscriber {\n",
+        "33": "   * Creates a new SynchronizedEventSubscriber to wrap {@code method} on\n",
+        "37": "   * @param method  subscriber method.\n",
+        "39": "  public SynchronizedEventSubscriber(Object target, Method method) {\n"
+    },
+    "removed": {
+        "23": " * Wraps a single-argument 'handler' method on a specific object, and ensures\n",
+        "27": " * {@link EventHandler}.\n",
+        "31": "final class SynchronizedEventHandler extends EventHandler {\n",
+        "33": "   * Creates a new SynchronizedEventHandler to wrap {@code method} on\n",
+        "37": "   * @param method  handler method.\n",
+        "39": "  public SynchronizedEventHandler(Object target, Method method) {\n"
+    }
+}

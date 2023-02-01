@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "34": "  @VisibleForTesting final transient Object[] alternatingKeysAndValues;\n"
+    },
+    "removed": {
+        "34": "  @VisibleForTesting\n",
+        "35": "  final transient Object[] alternatingKeysAndValues;\n"
+    }
+}

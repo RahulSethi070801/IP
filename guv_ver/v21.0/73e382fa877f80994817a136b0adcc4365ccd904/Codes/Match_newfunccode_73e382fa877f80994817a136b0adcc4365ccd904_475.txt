@@ -1,0 +1,4 @@
+@Override
+public Spliterator<Entry<K, V>> spliterator() {
+    return entrySpliterator();
+}

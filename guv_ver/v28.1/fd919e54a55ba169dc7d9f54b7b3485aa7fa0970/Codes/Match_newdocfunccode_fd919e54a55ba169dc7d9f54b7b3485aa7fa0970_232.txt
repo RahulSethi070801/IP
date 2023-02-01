@@ -1,0 +1,4 @@
+@Deprecated
+public static CharMatcher digit() {
+    return Digit.INSTANCE;
+}

@@ -1,0 +1,19 @@
+@VisibleForTesting
+static <E extends Enum<E>> Map<E, LockGraphNode> createNodes(Class<E> clazz) {
+    EnumMap<E, LockGraphNode> map = Maps.newEnumMap(clazz);
+    E[] keys = clazz.getEnumConstants();
+    final int numKeys = keys.length;
+    ArrayList<LockGraphNode> nodes = Lists.newArrayListWithCapacity(numKeys);
+    for (E key : keys) {
+        LockGraphNode node = new LockGraphNode(getLockName(key));
+        nodes.add(node);
+        map.put(key, node);
+    }
+    for (int i = 1; i < numKeys; i++) {
+        nodes.get(i).checkAcquiredLocks(Policies.THROW, nodes.subList(0, i));
+    }
+    for (int i = 0; i < numKeys - 1; i++) {
+        nodes.get(i).checkAcquiredLocks(Policies.DISABLED, nodes.subList(i + 1, numKeys));
+    }
+    return Collections.unmodifiableMap(map);
+}

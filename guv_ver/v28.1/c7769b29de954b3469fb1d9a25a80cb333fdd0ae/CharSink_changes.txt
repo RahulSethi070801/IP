@@ -1,0 +1,4 @@
+CharSink
+Insertions: [58, 59, 63, 71, 75, 88, 110, 120, 146, 147]
+Deletions: [58, 59, 63, 71, 75, 88, 110, 120, 146, 147]
+guava/src/com/google/common/io/CharSink.java

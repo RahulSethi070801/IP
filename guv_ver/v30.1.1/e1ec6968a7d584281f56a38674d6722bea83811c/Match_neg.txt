@@ -1,0 +1,6 @@
+private int resizeTable(int oldMask, int newCapacity, int targetHash, int targetEntryIndex)
+static int tableGet(Object table, int index)
+
+private int resizeTable(int mask, int newCapacity, int targetHash, int targetEntryIndex)
+static int tableGet(Object table, int index)
+

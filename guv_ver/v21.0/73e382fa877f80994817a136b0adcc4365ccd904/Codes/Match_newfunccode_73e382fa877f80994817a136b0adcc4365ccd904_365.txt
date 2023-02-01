@@ -1,0 +1,7 @@
+@Override
+public void forEach(Consumer<? super Entry<K, V>> action) {
+    checkNotNull(action);
+    for (Entry<K, V> entry : entries) {
+        action.accept(entry);
+    }
+}

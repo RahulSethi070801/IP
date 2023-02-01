@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "29": "    setDefault(\n",
+        "30": "        CacheLoader.class,\n",
+        "31": "        new CacheLoader<Object, Object>() {\n",
+        "32": "          @Override\n",
+        "33": "          public Object load(Object key) {\n",
+        "34": "            return key;\n",
+        "35": "          }\n",
+        "36": "        });\n"
+    },
+    "removed": {
+        "29": "    setDefault(CacheLoader.class, new CacheLoader<Object, Object>() {\n",
+        "30": "      @Override public Object load(Object key) {\n",
+        "31": "        return key;\n",
+        "32": "      }});\n"
+    }
+}

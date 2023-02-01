@@ -1,0 +1,10 @@
+com.google.common.hash.BloomFilter
+toBloomFilter
+public static Collector<T, ?, BloomFilter<T>> toBloomFilter(Funnel<? super T> funnel, long expectedInsertions, double fpp)
+Funnel,long,double
+Collector
+com.google.common.hash.BloomFilter
+toBloomFilter
+public static Collector<T, ?, BloomFilter<T>> toBloomFilter(Funnel<? super T> funnel, long expectedInsertions)
+Funnel,long
+Collector

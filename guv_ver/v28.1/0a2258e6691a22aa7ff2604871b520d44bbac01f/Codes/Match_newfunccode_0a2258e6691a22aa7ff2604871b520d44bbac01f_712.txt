@@ -1,0 +1,17 @@
+@Nullable
+ReferenceEntry<K, V> getEntry(Object key, int hash) {
+    for (ReferenceEntry<K, V> e = getFirst(hash); e != null; e = e.getNext()) {
+        if (e.getHash() != hash) {
+            continue;
+        }
+        K entryKey = e.getKey();
+        if (entryKey == null) {
+            tryDrainReferenceQueues();
+            continue;
+        }
+        if (map.keyEquivalence.equivalent(key, entryKey)) {
+            return e;
+        }
+    }
+    return null;
+}

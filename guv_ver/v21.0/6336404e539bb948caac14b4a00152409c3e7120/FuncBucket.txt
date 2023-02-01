@@ -1,0 +1,360 @@
+com.google.common.graph.NodeConnections
+inEdges
+Set<E> inEdges()
+empty
+Set
+com.google.common.graph.ImmutableDirectedGraph
+source
+public N source(Object edge)
+Object
+N
+com.google.common.graph.IncidenceSetUndirectedGraph
+IncidenceSetUndirectedGraph
+IncidenceSetUndirectedGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.SetView
+size
+public int size()
+empty
+int
+com.google.common.graph.SetView
+iterator
+public Iterator<E> iterator()
+empty
+Iterator
+com.google.common.graph.DirectedNodeConnections
+predecessors
+public Set<N> predecessors()
+empty
+Set
+com.google.common.graph.ImmutableDirectedGraph
+predecessors
+public Set<N> predecessors(Object node)
+Object
+Set
+com.google.common.graph.DirectedIncidentEdges
+of
+static DirectedIncidentEdges<E> of()
+empty
+DirectedIncidentEdges
+com.google.common.graph.DirectedNodeConnections
+addSuccessor
+public void addSuccessor(N node, E edge)
+N,E
+void
+com.google.common.graph.NodeConnections
+incidentEdges
+Set<E> incidentEdges()
+empty
+Set
+com.google.common.graph.ImmutableDirectedGraph
+successors
+public Set<N> successors(Object node)
+Object
+Set
+com.google.common.graph.Graphs
+noSelfLoopPredicate
+public static Predicate<E> noSelfLoopPredicate(final Graph<?, E> graph)
+Graph
+Predicate
+com.google.common.graph.UndirectedNodeConnections
+UndirectedNodeConnections
+private UndirectedNodeConnections(Set<N> adjacentNodes, Set<E> incidentEdges)
+Set,Set
+constructor
+com.google.common.graph.ImmutableDirectedGraph
+adjacentEdges
+public Set<E> adjacentEdges(Object edge)
+Object
+Set
+com.google.common.graph.IncidenceSetDirectedGraph
+removeEdge
+public boolean removeEdge(Object edge)
+Object
+boolean
+com.google.common.graph.NodeConnections
+removeEdge
+void removeEdge(Object edge)
+Object
+void
+com.google.common.graph.DirectedNodeConnections
+outEdges
+public Set<E> outEdges()
+empty
+Set
+com.google.common.graph.DirectedIncidentEdges
+ofImmutable
+static DirectedIncidentEdges<E> ofImmutable(Set<E> inEdges, Set<E> outEdges)
+Set,Set
+DirectedIncidentEdges
+com.google.common.graph.NodeConnections
+adjacentNodes
+Set<N> adjacentNodes()
+empty
+Set
+com.google.common.graph.ImmutableDirectedGraph
+adjacentNodes
+public Set<N> adjacentNodes(Object node)
+Object
+Set
+com.google.common.graph.ImmutableDirectedGraph
+inEdges
+public Set<E> inEdges(Object node)
+Object
+Set
+com.google.common.graph.ImmutableDirectedGraph
+target
+public N target(Object edge)
+Object
+N
+com.google.common.graph.NodeConnections
+successors
+Set<N> successors()
+empty
+Set
+com.google.common.graph.DirectedNodeConnections
+inEdges
+public Set<E> inEdges()
+empty
+Set
+com.google.common.graph.ImmutableDirectedGraph
+nodes
+public Set<N> nodes()
+empty
+Set
+com.google.common.graph.UndirectedNodeConnections
+ofImmutable
+static UndirectedNodeConnections<N, E> ofImmutable(Set<N> adjacentNodes, Set<E> incidentEdges)
+Set,Set
+UndirectedNodeConnections
+com.google.common.graph.IncidenceSetDirectedGraph
+addNode
+public boolean addNode(N node)
+N
+boolean
+com.google.common.graph.NodeConnections
+addPredecessor
+void addPredecessor(N node, E edge)
+N,E
+void
+com.google.common.graph.ImmutableDirectedGraph
+degree
+public long degree(Object node)
+Object
+long
+com.google.common.graph.NodeConnections
+removeNode
+void removeNode(Object node)
+Object
+void
+com.google.common.graph.IncidenceSetDirectedGraph
+containsNode
+private boolean containsNode(Object node)
+Object
+boolean
+com.google.common.graph.ImmutableDirectedGraph
+incidentNodes
+public Set<N> incidentNodes(Object edge)
+Object
+Set
+com.google.common.graph.IncidenceSetDirectedGraph
+incidentNodes
+public Set<N> incidentNodes(final Object edge)
+Object
+Set
+com.google.common.graph.SetView
+isEmpty
+public boolean isEmpty()
+empty
+boolean
+com.google.common.graph.DirectedNodeConnections
+adjacentNodes
+public Set<N> adjacentNodes()
+empty
+Set
+com.google.common.graph.NodeConnections
+outEdges
+Set<E> outEdges()
+empty
+Set
+com.google.common.graph.DirectedNodeConnections
+removeEdge
+public void removeEdge(Object edge)
+Object
+void
+com.google.common.graph.ImmutableDirectedGraph
+checkedConnections
+private NodeConnections<N, E> checkedConnections(Object node)
+Object
+NodeConnections
+com.google.common.graph.DirectedNodeConnections
+removeNode
+public void removeNode(Object node)
+Object
+void
+com.google.common.graph.ImmutableDirectedGraph
+ImmutableDirectedGraph
+private ImmutableDirectedGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.IncidenceSetDirectedGraph
+inDegree
+public long inDegree(Object node)
+Object
+long
+com.google.common.graph.ImmutableDirectedGraph
+incidentEdges
+public Set<E> incidentEdges(Object node)
+Object
+Set
+com.google.common.graph.ImmutableDirectedGraph
+edgesConnecting
+public Set<E> edgesConnecting(Object node1, Object node2)
+Object,Object
+Set
+com.google.common.graph.NodeConnections
+addSuccessor
+void addSuccessor(N node, E edge)
+N,E
+void
+com.google.common.graph.IncidenceSetDirectedGraph
+IncidenceSetDirectedGraph
+IncidenceSetDirectedGraph(GraphConfig config)
+GraphConfig
+constructor
+com.google.common.graph.IncidenceSetDirectedGraph
+addEdge
+public boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.IncidenceSetDirectedGraph
+elements
+Set<N> elements()
+empty
+Set
+com.google.common.graph.IncidenceSetUndirectedGraph
+edgesConnecting
+public Set<E> edgesConnecting(final Object node1, Object node2)
+Object,Object
+Set
+com.google.common.graph.DirectedNodeConnections
+toString
+public String toString()
+empty
+String
+com.google.common.graph.DirectedNodeConnections
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.ImmutableUndirectedGraph
+ImmutableUndirectedGraph
+private ImmutableUndirectedGraph(Builder<N, E> builder)
+Builder
+constructor
+com.google.common.graph.IncidenceSetUndirectedGraph
+adjacentNodes
+public Set<N> adjacentNodes(final Object node)
+Object
+Set
+com.google.common.graph.DirectedIncidentEdges
+DirectedIncidentEdges
+private DirectedIncidentEdges(Set<E> inEdges, Set<E> outEdges)
+Set,Set
+constructor
+com.google.common.graph.SetView
+SetView
+SetView()
+empty
+constructor
+com.google.common.graph.IncidenceSetDirectedGraph
+equals
+public boolean equals(@Nullable Object other)
+Object
+boolean
+com.google.common.graph.DirectedNodeConnections
+successors
+public Set<N> successors()
+empty
+Set
+com.google.common.graph.DirectedNodeConnections
+ofImmutable
+static DirectedNodeConnections<N, E> ofImmutable(Set<N> predecessors, Set<N> successors, Set<E> inEdges, Set<E> outEdges)
+Set,Set,Set,Set
+DirectedNodeConnections
+com.google.common.graph.DirectedNodeConnections
+of
+static DirectedNodeConnections<N, E> of()
+empty
+DirectedNodeConnections
+com.google.common.graph.NodeConnections
+predecessors
+Set<N> predecessors()
+empty
+Set
+com.google.common.graph.Graphs
+selfLoopPredicate
+public static Predicate<E> selfLoopPredicate(final Graph<?, E> graph)
+Graph
+Predicate
+com.google.common.graph.DirectedNodeConnections
+DirectedNodeConnections
+private DirectedNodeConnections(Set<N> predecessors, Set<N> successors, Set<E> inEdges, Set<E> outEdges)
+Set,Set,Set,Set
+constructor
+com.google.common.graph.IncidenceSetUndirectedGraph
+elements
+Set<E> elements()
+empty
+Set
+com.google.common.graph.IncidenceSetDirectedGraph
+outDegree
+public long outDegree(Object node)
+Object
+long
+com.google.common.graph.SetView
+elements
+abstract Set<E> elements()
+empty
+Set
+com.google.common.graph.DirectedNodeConnections
+incidentEdges
+public Set<E> incidentEdges()
+empty
+Set
+com.google.common.graph.DirectedNodeConnections
+addPredecessor
+public void addPredecessor(N node, E edge)
+N,E
+void
+com.google.common.graph.UndirectedNodeConnections
+of
+static UndirectedNodeConnections<N, E> of()
+empty
+UndirectedNodeConnections
+com.google.common.graph.ImmutableDirectedGraph
+outEdges
+public Set<E> outEdges(Object node)
+Object
+Set
+com.google.common.graph.ImmutableDirectedGraph
+checkedEndpoints
+private DirectedIncidentNodes<N> checkedEndpoints(Object edge)
+Object
+DirectedIncidentNodes
+com.google.common.graph.DirectedNodeConnections
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.SetView
+contains
+public boolean contains(Object object)
+Object
+boolean
+com.google.common.graph.IncidenceSetDirectedGraph
+removeNode
+public boolean removeNode(Object node)
+Object
+boolean

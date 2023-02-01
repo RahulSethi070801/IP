@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public long put(K key, long newValue) {
+    return getAndUpdate(key, x -> newValue);
+}

@@ -1,0 +1,14 @@
+@Beta
+@CanIgnoreReturnValue
+public static <T> T readLines(Readable readable, LineProcessor<T> processor) throws IOException {
+    checkNotNull(readable);
+    checkNotNull(processor);
+    LineReader lineReader = new LineReader(readable);
+    String line;
+    while ((line = lineReader.readLine()) != null) {
+        if (!processor.processLine(line)) {
+            break;
+        }
+    }
+    return processor.getResult();
+}

@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "229": "   * <p>If {@code edge} is a self-loop, the returned set will only have a single node.\n",
+        "230": "   *\n"
+    },
+    "removed": {
+        "256": "   * <p>If the graph is directed, the {@linkplain DirectedGraph#source(Object) source} and\n",
+        "257": "   * {@linkplain DirectedGraph#target(Object) target} of the edges returned must be {@code node1}\n",
+        "258": "   * and {@code node2}, respectively.\n",
+        "259": "   *\n",
+        "357": "   * <p>If the graph is directed, {@code node1} is {@code edge}'s source,\n",
+        "358": "   * {@code node2} is {@code edge}'s target, and {@code edge} is an outgoing edge of\n",
+        "359": "   * {@code node1} and an incoming edge of {@code node2}.\n",
+        "360": "   *\n"
+    }
+}

@@ -1,0 +1,2 @@
+@NullableDecl
+abstract N visitNext(Deque<Iterator<? extends N>> horizon);

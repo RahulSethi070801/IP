@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "52": "    SetMultimap<String, Integer> c =\n",
+        "53": "        MultimapBuilder.treeKeys(String.CASE_INSENSITIVE_ORDER)\n",
+        "54": "            .hashSetValues()\n",
+        "55": "            .<String, Integer>build();\n",
+        "74": "    for (MultimapBuilderWithKeys<?> builderWithKeys :\n",
+        "75": "        ImmutableList.of(\n",
+        "76": "            MultimapBuilder.hashKeys(),\n",
+        "77": "            MultimapBuilder.linkedHashKeys(),\n",
+        "78": "            MultimapBuilder.treeKeys(),\n",
+        "79": "            MultimapBuilder.enumKeys(RoundingMode.class))) {\n",
+        "80": "      for (MultimapBuilder<?, ?> builder :\n",
+        "81": "          ImmutableList.of(\n",
+        "82": "              builderWithKeys.arrayListValues(),\n",
+        "83": "              builderWithKeys.linkedListValues(),\n",
+        "84": "              builderWithKeys.hashSetValues(),\n",
+        "85": "              builderWithKeys.linkedHashSetValues(),\n",
+        "86": "              builderWithKeys.treeSetValues(),\n",
+        "87": "              builderWithKeys.enumSetValues(RoundingMode.class))) {\n"
+    },
+    "removed": {
+        "52": "    SetMultimap<String, Integer> c = MultimapBuilder.treeKeys(String.CASE_INSENSITIVE_ORDER)\n",
+        "53": "        .hashSetValues().<String, Integer>build();\n",
+        "72": "    for (MultimapBuilderWithKeys<?> builderWithKeys : ImmutableList.of(\n",
+        "73": "        MultimapBuilder.hashKeys(), MultimapBuilder.linkedHashKeys(), MultimapBuilder.treeKeys(),\n",
+        "74": "        MultimapBuilder.enumKeys(RoundingMode.class))) {\n",
+        "75": "      for (MultimapBuilder<?, ?> builder : ImmutableList.of(\n",
+        "76": "          builderWithKeys.arrayListValues(),\n",
+        "77": "          builderWithKeys.linkedListValues(),\n",
+        "78": "          builderWithKeys.hashSetValues(),\n",
+        "79": "          builderWithKeys.linkedHashSetValues(),\n",
+        "80": "          builderWithKeys.treeSetValues(),\n",
+        "81": "          builderWithKeys.enumSetValues(RoundingMode.class))) {\n"
+    }
+}

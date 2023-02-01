@@ -1,0 +1,4 @@
+public long get(K key) {
+    AtomicLong atomic = map.get(key);
+    return atomic == null ? 0L : atomic.get();
+}

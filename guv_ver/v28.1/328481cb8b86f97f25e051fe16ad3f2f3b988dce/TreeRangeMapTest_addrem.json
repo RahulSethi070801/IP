@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "536": "          for (Entry<Range<Integer>, Integer> entry : rangeMap.asMapOfRanges().entrySet()) {\n",
+        "689": "      Entry<Range<Integer>, Integer> entry = test.getEntry(i);\n"
+    },
+    "removed": {
+        "536": "          for (Map.Entry<Range<Integer>, Integer> entry : rangeMap.asMapOfRanges().entrySet()) {\n",
+        "689": "      Map.Entry<Range<Integer>, Integer> entry = test.getEntry(i);\n"
+    }
+}

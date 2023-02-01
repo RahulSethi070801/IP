@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "92": "    @Override public Builder<K, V> put(Entry<? extends K, ? extends V> entry) {\n"
+    },
+    "removed": {
+        "92": "    @Override public Builder<K, V> put(Map.Entry<? extends K, ? extends V> entry) {\n"
+    }
+}

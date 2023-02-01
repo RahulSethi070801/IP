@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean apply(@Nullable T input);

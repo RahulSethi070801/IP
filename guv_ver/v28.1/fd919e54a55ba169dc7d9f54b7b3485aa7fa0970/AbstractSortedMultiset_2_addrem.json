@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "29": " * {@link Multiset#entrySet()}, as do many methods acting on the set returned by {@link\n",
+        "30": " * #elementSet()}. Override those methods for better performance.\n",
+        "100": "  public SortedMultiset<E> subMultiset(\n",
+        "101": "      @Nullable E fromElement,\n",
+        "102": "      BoundType fromBoundType,\n",
+        "103": "      @Nullable E toElement,\n",
+        "104": "      BoundType toBoundType) {\n"
+    },
+    "removed": {
+        "29": " * {@link Multiset#entrySet()}, as do many methods acting on the set returned by\n",
+        "30": " * {@link #elementSet()}. Override those methods for better performance.\n",
+        "100": "  public SortedMultiset<E> subMultiset(@Nullable E fromElement, BoundType fromBoundType,\n",
+        "101": "      @Nullable E toElement, BoundType toBoundType) {\n"
+    }
+}

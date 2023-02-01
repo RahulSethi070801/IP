@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "24": " * GWT emulation of {@code SortedMultiset}, with {@code elementSet} reduced to returning a {@code\n",
+        "25": " * SortedSet} for GWT compatibility.\n",
+        "43": "   * Returns a {@link SortedSet} view of the distinct elements in this multiset. (Outside GWT, this\n",
+        "44": "   * returns a {@code NavigableSet}.)\n",
+        "46": "  @Override\n",
+        "47": "  SortedSet<E> elementSet();\n",
+        "53": "  SortedMultiset<E> subMultiset(\n",
+        "54": "      E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType);\n"
+    },
+    "removed": {
+        "24": " * GWT emulation of {@code SortedMultiset}, with {@code elementSet} reduced\n",
+        "25": " * to returning a {@code SortedSet} for GWT compatibility.\n",
+        "43": "   * Returns a {@link SortedSet} view of the distinct elements in this multiset.\n",
+        "44": "   * (Outside GWT, this returns a {@code NavigableSet}.)\n",
+        "46": "  @Override SortedSet<E> elementSet();\n",
+        "52": "  SortedMultiset<E> subMultiset(E lowerBound, BoundType lowerBoundType,\n",
+        "53": "      E upperBound, BoundType upperBoundType);\n"
+    }
+}

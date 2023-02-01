@@ -1,0 +1,6 @@
+
+   * {@inheritDoc}
+   *
+   * @throws IllegalArgumentException if {@code rowKey} is not in {@link #rowKeySet()} or {@code
+   *     columnKey} is not in {@link #columnKeySet()}.
+   

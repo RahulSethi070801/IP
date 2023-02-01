@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "45": "    \"HashMapImpl\",\n",
+        "46": "    \"LinkedHashMapImpl\",\n",
+        "47": "    \"ConcurrentHashMapImpl\",\n",
+        "48": "    \"ImmutableMapImpl\",\n",
+        "49": "    \"TreeMapImpl\",\n",
+        "50": "    \"ImmutableSortedMapImpl\",\n",
+        "51": "    \"MapMakerWeakKeysWeakValues\",\n",
+        "52": "    \"MapMakerWeakKeysStrongValues\",\n",
+        "53": "    \"MapMakerStrongKeysWeakValues\",\n",
+        "54": "    \"MapMakerStrongKeysStrongValues\",\n",
+        "55": "    \"HashBiMapImpl\",\n",
+        "56": "    \"ImmutableBiMapImpl\"\n",
+        "63": "   * A map of contents pre-created before experiment starts to only measure map creation cost. The\n",
+        "64": "   * implementation for the creation of contents is independent and could be different from that of\n",
+        "65": "   * the map under test.\n",
+        "69": "  /** Map pre-created before experiment starts to only measure iteration cost during experiment. */\n",
+        "71": "\n"
+    },
+    "removed": {
+        "45": "      \"HashMapImpl\",\n",
+        "46": "      \"LinkedHashMapImpl\",\n",
+        "47": "      \"ConcurrentHashMapImpl\",\n",
+        "48": "      \"ImmutableMapImpl\",\n",
+        "49": "      \"TreeMapImpl\",\n",
+        "50": "      \"ImmutableSortedMapImpl\",\n",
+        "51": "      \"MapMakerWeakKeysWeakValues\",\n",
+        "52": "      \"MapMakerWeakKeysStrongValues\",\n",
+        "53": "      \"MapMakerStrongKeysWeakValues\",\n",
+        "54": "      \"MapMakerStrongKeysStrongValues\",\n",
+        "55": "      \"HashBiMapImpl\",\n",
+        "56": "      \"ImmutableBiMapImpl\"\n",
+        "63": "   * A map of contents pre-created before experiment starts to only measure map creation cost.\n",
+        "64": "   * The implementation for the creation of contents is independent and could be different from\n",
+        "65": "   * that of the map under test.\n",
+        "69": "  /**\n",
+        "70": "   * Map pre-created before experiment starts to only measure iteration cost during experiment.\n",
+        "71": "   */\n"
+    }
+}

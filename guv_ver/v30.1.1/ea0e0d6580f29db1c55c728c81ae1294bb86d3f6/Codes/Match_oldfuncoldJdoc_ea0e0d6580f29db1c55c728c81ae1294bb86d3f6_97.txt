@@ -1,0 +1,8 @@
+
+   * A sensible definition of {@link #subMultiset(Object, BoundType, Object, BoundType)} in terms of
+   * {@link #headMultiset(Object, BoundType) headMultiset} and {@link #tailMultiset(Object,
+   * BoundType) tailMultiset}.
+   *
+   * <p>If you override either of these methods, you may wish to override {@link
+   * #subMultiset(Object, BoundType, Object, BoundType)} to forward to this implementation.
+   

@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "127": "      A appendable, @NullableDecl Object first, @NullableDecl Object second, Object... rest)\n",
+        "176": "      StringBuilder builder,\n",
+        "177": "      @NullableDecl Object first,\n",
+        "178": "      @NullableDecl Object second,\n",
+        "179": "      Object... rest) {\n",
+        "213": "  public final String join(\n",
+        "214": "      @NullableDecl Object first, @NullableDecl Object second, Object... rest) {\n",
+        "226": "      CharSequence toString(@NullableDecl Object part) {\n"
+    },
+    "removed": {
+        "28": "import javax.annotation.Nullable;\n",
+        "127": "      A appendable, @Nullable Object first, @Nullable Object second, Object... rest)\n",
+        "176": "      StringBuilder builder, @Nullable Object first, @Nullable Object second, Object... rest) {\n",
+        "210": "  public final String join(@Nullable Object first, @Nullable Object second, Object... rest) {\n",
+        "222": "      CharSequence toString(@Nullable Object part) {\n"
+    }
+}

@@ -1,0 +1,65 @@
+com.google.common.math.LinearTransformation$RegularLinearTransformation
+inverse
+public LinearTransformation inverse()
+empty
+LinearTransformation
+com.google.common.math.LinearTransformation$RegularLinearTransformation
+transformX
+public double transformX(double x)
+double
+double
+com.google.common.math.LinearTransformation$RegularLinearTransformation
+RegularLinearTransformation
+RegularLinearTransformation(double slope, double yIntercept)
+double,double
+constructor
+com.google.common.math.LinearTransformation$RegularLinearTransformation
+RegularLinearTransformation
+RegularLinearTransformation(double slope, double yIntercept, LinearTransformation inverse)
+double,double,LinearTransformation
+constructor
+com.google.common.math.LinearTransformation$RegularLinearTransformation
+transform
+public double transform(double x)
+double
+double
+com.google.common.math.LinearTransformation
+transformY
+public abstract double transformY(double y)
+double
+double
+com.google.common.math.LinearTransformation
+transformX
+public abstract double transformX(double x)
+double
+double
+com.google.common.math.LinearTransformation
+transform
+public abstract double transform(double x)
+double
+double
+com.google.common.math.LinearTransformation$VerticalLinearTransformation
+VerticalLinearTransformation
+VerticalLinearTransformation(double x, LinearTransformation inverse)
+double,LinearTransformation
+constructor
+com.google.common.math.LinearTransformation$RegularLinearTransformation
+createInverse
+private LinearTransformation createInverse()
+empty
+LinearTransformation
+com.google.common.math.LinearTransformation
+inverse
+public abstract LinearTransformation inverse()
+empty
+LinearTransformation
+com.google.common.math.LinearTransformation$RegularLinearTransformation
+transformY
+public double transformY(double y)
+double
+double
+com.google.common.math.LinearTransformation$VerticalLinearTransformation
+VerticalLinearTransformation
+VerticalLinearTransformation(double x)
+double
+constructor

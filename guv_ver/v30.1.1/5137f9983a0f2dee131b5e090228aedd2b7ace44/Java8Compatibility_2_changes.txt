@@ -1,0 +1,4 @@
+Java8Compatibility_2
+Insertions: [25]
+Deletions: []
+guava/src/com/google/common/io/Java8Compatibility.java

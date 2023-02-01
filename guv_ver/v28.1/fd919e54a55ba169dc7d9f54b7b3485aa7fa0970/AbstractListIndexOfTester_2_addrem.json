@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "28": " * Common parent class for {@link ListIndexOfTester} and {@link ListLastIndexOfTester}.\n",
+        "37": "  /** Override to return \"indexOf\" or \"lastIndexOf()\" for use in failure messages. */\n"
+    },
+    "removed": {
+        "28": " * Common parent class for {@link ListIndexOfTester} and\n",
+        "29": " * {@link ListLastIndexOfTester}.\n",
+        "38": "  /**\n",
+        "39": "   * Override to return \"indexOf\" or \"lastIndexOf()\" for use in failure\n",
+        "40": "   * messages.\n",
+        "41": "   */\n"
+    }
+}

@@ -1,0 +1,6 @@
+@Override
+@CanIgnoreReturnValue
+public boolean addEdge(EndpointPair<N> endpoints, E edge) {
+    validateEndpoints(endpoints);
+    return addEdge(endpoints.nodeU(), endpoints.nodeV(), edge);
+}

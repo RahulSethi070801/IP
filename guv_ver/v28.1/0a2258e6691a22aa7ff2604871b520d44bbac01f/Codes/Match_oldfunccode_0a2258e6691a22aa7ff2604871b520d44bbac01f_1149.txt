@@ -1,0 +1,32 @@
+static <K, V> ImmutableMap<K, V> fromEntryArray(int n, Entry<K, V>[] entryArray) {
+    checkPositionIndex(n, entryArray.length);
+    if (n == 0) {
+        return (RegularImmutableMap<K, V>) EMPTY;
+    }
+    Entry<K, V>[] entries;
+    if (n == entryArray.length) {
+        entries = entryArray;
+    } else {
+        entries = createEntryArray(n);
+    }
+    int tableSize = Hashing.closedTableSize(n, MAX_LOAD_FACTOR);
+    ImmutableMapEntry<K, V>[] table = createEntryArray(tableSize);
+    int mask = tableSize - 1;
+    for (int entryIndex = 0; entryIndex < n; entryIndex++) {
+        Entry<K, V> entry = entryArray[entryIndex];
+        K key = entry.getKey();
+        V value = entry.getValue();
+        checkEntryNotNull(key, value);
+        int tableIndex = Hashing.smear(key.hashCode()) & mask;
+        @NullableDecl
+        ImmutableMapEntry<K, V> existing = table[tableIndex];
+        ImmutableMapEntry<K, V> newEntry = (existing == null) ? makeImmutable(entry, key, value) : new NonTerminalImmutableMapEntry<K, V>(key, value, existing);
+        table[tableIndex] = newEntry;
+        entries[entryIndex] = newEntry;
+        int bucketSize = checkNoConflictInKeyBucket(key, newEntry, existing);
+        if (bucketSize > MAX_HASH_BUCKET_LENGTH) {
+            return JdkBackedImmutableMap.create(n, entryArray);
+        }
+    }
+    return new RegularImmutableMap<>(entries, table, mask);
+}

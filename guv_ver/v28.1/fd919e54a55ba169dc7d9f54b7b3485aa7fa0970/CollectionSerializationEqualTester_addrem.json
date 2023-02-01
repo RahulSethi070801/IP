@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "27": " * Basic reserialization test for collection types that must preserve {@code equals()} behavior when\n",
+        "28": " * reserialized. (Sets and Lists, but not bare Collections.)\n"
+    },
+    "removed": {
+        "27": " * Basic reserialization test for collection types that must preserve {@code equals()} behavior\n",
+        "28": " * when reserialized.  (Sets and Lists, but not bare Collections.)\n"
+    }
+}

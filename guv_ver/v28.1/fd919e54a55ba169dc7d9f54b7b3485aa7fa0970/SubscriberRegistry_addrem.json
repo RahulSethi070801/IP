@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "65": "  /** The event bus this registry belongs to. */\n",
+        "72": "  /** Registers all subscriber methods on the given listener object. */\n",
+        "92": "  /** Unregisters all subscribers on the given listener object. */\n",
+        "201": "  /** Global cache of classes to their flattened hierarchy of supertypes. */\n"
+    },
+    "removed": {
+        "65": "  /**\n",
+        "66": "   * The event bus this registry belongs to.\n",
+        "67": "   */\n",
+        "74": "  /**\n",
+        "75": "   * Registers all subscriber methods on the given listener object.\n",
+        "76": "   */\n",
+        "96": "  /**\n",
+        "97": "   * Unregisters all subscribers on the given listener object.\n",
+        "98": "   */\n",
+        "207": "  /**\n",
+        "208": "   * Global cache of classes to their flattened hierarchy of supertypes.\n",
+        "209": "   */\n"
+    }
+}

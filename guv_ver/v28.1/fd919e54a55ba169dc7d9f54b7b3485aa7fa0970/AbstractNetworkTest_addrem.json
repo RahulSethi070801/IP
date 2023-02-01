@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "46": " *   <li>Test cases related to whether the graph is directed, undirected, mutable, or immutable.\n",
+        "47": " *   <li>Test cases related to the specific implementation of the {@link Network} interface.\n",
+        "219": "          case 0:\n",
+        "220": "            assertThat(network.edgeConnectingOrNull(node, otherNode)).isNull();\n",
+        "221": "            assertThat(network.hasEdgeConnecting(node, otherNode)).isFalse();\n",
+        "222": "            break;\n",
+        "223": "          case 1:\n",
+        "224": "            assertThat(network.edgeConnectingOrNull(node, otherNode))\n",
+        "225": "                .isEqualTo(edgesConnecting.iterator().next());\n",
+        "226": "            assertThat(network.hasEdgeConnecting(node, otherNode)).isTrue();\n",
+        "227": "            break;\n",
+        "228": "          default:\n",
+        "229": "            assertThat(network.hasEdgeConnecting(node, otherNode)).isTrue();\n",
+        "230": "            try {\n",
+        "231": "              network.edgeConnectingOrNull(node, otherNode);\n",
+        "232": "              fail();\n",
+        "233": "            } catch (IllegalArgumentException expected) {\n",
+        "234": "            }\n"
+    },
+    "removed": {
+        "46": " * <li>Test cases related to whether the graph is directed, undirected, mutable, or immutable.\n",
+        "47": " * <li>Test cases related to the specific implementation of the {@link Network} interface.\n",
+        "219": "            case 0:\n",
+        "220": "              assertThat(network.edgeConnectingOrNull(node, otherNode)).isNull();\n",
+        "221": "              assertThat(network.hasEdgeConnecting(node, otherNode)).isFalse();\n",
+        "222": "              break;\n",
+        "223": "            case 1:\n",
+        "224": "              assertThat(network.edgeConnectingOrNull(node, otherNode))\n",
+        "225": "                  .isEqualTo(edgesConnecting.iterator().next());\n",
+        "226": "              assertThat(network.hasEdgeConnecting(node, otherNode)).isTrue();\n",
+        "227": "              break;\n",
+        "228": "            default:\n",
+        "229": "              assertThat(network.hasEdgeConnecting(node, otherNode)).isTrue();\n",
+        "230": "              try {\n",
+        "231": "                network.edgeConnectingOrNull(node, otherNode);\n",
+        "232": "                fail();\n",
+        "233": "              } catch (IllegalArgumentException expected) {}\n"
+    }
+}

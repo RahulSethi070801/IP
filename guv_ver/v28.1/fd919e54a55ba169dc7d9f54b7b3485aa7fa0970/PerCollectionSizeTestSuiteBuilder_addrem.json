@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "32": " * This builder creates a composite test suite, containing a separate test suite for each {@link\n",
+        "33": " * CollectionSize} present in the features specified by {@link #withFeatures(Feature...)}.\n",
+        "35": " * @param <B> The concrete type of this builder (the 'self-type'). All the Builder methods of this\n",
+        "36": " *     class (such as {@link #named(String)}) return this type, so that Builder methods of more\n",
+        "37": " *     derived classes can be chained onto them without casting.\n",
+        "38": " * @param <G> The type of the generator to be passed to testers in the generated test suite. An\n",
+        "39": " *     instance of G should somehow provide an instance of the class under test, plus any other\n",
+        "40": " *     information required to parameterize the test.\n",
+        "47": "        G extends TestContainerGenerator<T, E>,\n",
+        "48": "        T,\n",
+        "49": "        E>\n",
+        "54": "  /** Creates a runnable JUnit test suite based on the criteria already given. */\n"
+    },
+    "removed": {
+        "32": " * This builder creates a composite test suite, containing a separate test suite\n",
+        "33": " * for each {@link CollectionSize} present in the features specified\n",
+        "34": " * by {@link #withFeatures(Feature...)}.\n",
+        "35": " *\n",
+        "36": " * @param <B> The concrete type of this builder (the 'self-type'). All the\n",
+        "37": " * Builder methods of this class (such as {@link #named(String)}) return this\n",
+        "38": " * type, so that Builder methods of more derived classes can be chained onto\n",
+        "39": " * them without casting.\n",
+        "40": " * @param <G> The type of the generator to be passed to testers in the\n",
+        "41": " * generated test suite. An instance of G should somehow provide an\n",
+        "42": " * instance of the class under test, plus any other information required\n",
+        "43": " * to parameterize the test.\n",
+        "46": " *\n",
+        "52": "        G extends TestContainerGenerator<T, E>, T, E>\n",
+        "57": "  /**\n",
+        "58": "   * Creates a runnable JUnit test suite based on the criteria already given.\n",
+        "59": "   */\n"
+    }
+}

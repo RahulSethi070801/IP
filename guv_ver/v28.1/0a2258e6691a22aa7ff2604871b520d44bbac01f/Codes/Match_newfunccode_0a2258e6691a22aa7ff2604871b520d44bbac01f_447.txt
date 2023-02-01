@@ -1,0 +1,10 @@
+@Nullable
+private TypeToken<? super T> boundAsSuperclass(Type bound) {
+    TypeToken<?> token = of(bound);
+    if (token.getRawType().isInterface()) {
+        return null;
+    }
+    @SuppressWarnings("unchecked")
+    TypeToken<? super T> superclass = (TypeToken<? super T>) token;
+    return superclass;
+}

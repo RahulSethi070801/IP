@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "51": "    return ref == null ? Optional.<T>absent() : Optional.of(enumClass.cast(ref.get()));\n",
+        "75": "      for (Iterator<PatternCompiler> it = loader.iterator(); it.hasNext(); ) {\n"
+    },
+    "removed": {
+        "51": "    return ref == null\n",
+        "52": "        ? Optional.<T>absent()\n",
+        "53": "        : Optional.of(enumClass.cast(ref.get()));\n",
+        "77": "      for (Iterator<PatternCompiler> it = loader.iterator(); it.hasNext();) {\n"
+    }
+}

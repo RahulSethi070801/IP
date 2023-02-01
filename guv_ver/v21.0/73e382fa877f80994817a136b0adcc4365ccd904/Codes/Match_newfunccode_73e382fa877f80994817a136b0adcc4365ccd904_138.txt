@@ -1,0 +1,4 @@
+@Override
+public boolean retainAll(final Collection<?> collection) {
+    return removeIf(element -> !collection.contains(element));
+}

@@ -1,0 +1,10 @@
+
+   * {@inheritDoc}
+   *
+   * <p>A directed edge is an {@linkplain #outEdges(Object) outgoing edge} of its
+   * {@linkplain Endpoints#source() source}, and an {@linkplain #inEdges(Object) incoming edge}
+   * of its {@linkplain Endpoints#target() target}. An undirected edge connects its
+   * {@linkplain #incidentNodes(Object) incident nodes} to each other, and is both an
+   * {@linkplain #outEdges(Object) outgoing edge} and {@linkplain #inEdges(Object) incoming edge}
+   * of each incident node.
+   

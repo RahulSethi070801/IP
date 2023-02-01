@@ -1,0 +1,7 @@
+public InternetDomainName topPrivateDomain() {
+    if (isTopPrivateDomain()) {
+        return this;
+    }
+    checkState(isUnderPublicSuffix(), "Not under a public suffix: %s", name);
+    return ancestor(publicSuffixIndex - 1);
+}

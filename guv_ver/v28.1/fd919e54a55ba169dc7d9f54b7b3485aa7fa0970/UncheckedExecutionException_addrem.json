@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "21": " * Unchecked variant of {@link java.util.concurrent.ExecutionException}. As with {@code\n",
+        "22": " * ExecutionException}, the exception's {@linkplain #getCause() cause} comes from a failed task,\n",
+        "23": " * possibly run in another thread.\n",
+        "25": " * <p>{@code UncheckedExecutionException} is intended as an alternative to {@code\n",
+        "26": " * ExecutionException} when the exception thrown by a task is an unchecked exception. However, it\n",
+        "27": " * may also wrap a checked exception in some cases.\n",
+        "30": " * wrapping a checked exception, prefer {@code ExecutionException}.\n",
+        "37": "  /** Creates a new instance with {@code null} as its detail message. */\n",
+        "40": "  /** Creates a new instance with the given detail message. */\n",
+        "45": "  /** Creates a new instance with the given detail message and cause. */\n",
+        "50": "  /** Creates a new instance with the given cause. */\n"
+    },
+    "removed": {
+        "21": " * Unchecked variant of {@link java.util.concurrent.ExecutionException}. As with\n",
+        "22": " * {@code ExecutionException}, the exception's {@linkplain #getCause() cause} comes from a failed\n",
+        "23": " * task, possibly run in another thread.\n",
+        "25": " * <p>{@code UncheckedExecutionException} is intended as an alternative to\n",
+        "26": " * {@code ExecutionException} when the exception thrown by a task is an unchecked exception.\n",
+        "27": " * However, it may also wrap a checked exception in some cases.\n",
+        "30": " * wrapping a checked exception, prefer {@code\n",
+        "31": " * ExecutionException}.\n",
+        "38": "  /**\n",
+        "39": "   * Creates a new instance with {@code null} as its detail message.\n",
+        "40": "   */\n",
+        "43": "  /**\n",
+        "44": "   * Creates a new instance with the given detail message.\n",
+        "45": "   */\n",
+        "50": "  /**\n",
+        "51": "   * Creates a new instance with the given detail message and cause.\n",
+        "52": "   */\n",
+        "57": "  /**\n",
+        "58": "   * Creates a new instance with the given cause.\n",
+        "59": "   */\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Beta
+public static Converter<String, Double> stringConverter() {
+    return DoubleConverter.INSTANCE;
+}

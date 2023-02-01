@@ -1,0 +1,3 @@
+protected int standardLastIndexOf(@Nullable Object element) {
+    return Lists.lastIndexOfImpl(this, element);
+}

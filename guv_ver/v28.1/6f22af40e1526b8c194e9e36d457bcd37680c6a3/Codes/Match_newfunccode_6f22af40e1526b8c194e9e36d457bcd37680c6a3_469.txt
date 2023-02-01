@@ -1,0 +1,5 @@
+private static void checkElement(@NullableDecl Object node) {
+    if (node == null) {
+        throw new NoSuchElementException();
+    }
+}

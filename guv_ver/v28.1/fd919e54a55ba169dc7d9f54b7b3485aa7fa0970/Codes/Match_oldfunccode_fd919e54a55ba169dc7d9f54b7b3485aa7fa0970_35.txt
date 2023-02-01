@@ -1,0 +1,7 @@
+@Override
+public Builder<K, V> putAll(Iterable<? extends Entry<? extends K, ? extends V>> entries) {
+    for (Entry<? extends K, ? extends V> entry : entries) {
+        put(entry);
+    }
+    return this;
+}

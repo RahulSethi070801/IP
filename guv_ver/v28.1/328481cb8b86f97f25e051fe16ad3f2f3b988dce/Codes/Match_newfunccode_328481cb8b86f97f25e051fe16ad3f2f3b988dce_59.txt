@@ -1,0 +1,32 @@
+@Override
+Iterator<Entry<K, V>> entryIterator() {
+    return new Iterator<Entry<K, V>>() {
+
+        ValueEntry<K, V> nextEntry = multimapHeaderEntry.successorInMultimap;
+
+        ValueEntry<K, V> toRemove;
+
+        @Override
+        public boolean hasNext() {
+            return nextEntry != multimapHeaderEntry;
+        }
+
+        @Override
+        public Entry<K, V> next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            ValueEntry<K, V> result = nextEntry;
+            toRemove = result;
+            nextEntry = nextEntry.successorInMultimap;
+            return result;
+        }
+
+        @Override
+        public void remove() {
+            checkRemove(toRemove != null);
+            LinkedHashMultimap.this.remove(toRemove.getKey(), toRemove.getValue());
+            toRemove = null;
+        }
+    };
+}

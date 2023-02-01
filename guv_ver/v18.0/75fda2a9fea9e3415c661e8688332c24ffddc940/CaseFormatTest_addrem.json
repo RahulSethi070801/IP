@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "178": "\n",
+        "179": "  public void testConverterToForward() {\n",
+        "180": "    assertEquals(\"FooBar\", UPPER_UNDERSCORE.converterTo(UPPER_CAMEL).convert(\"FOO_BAR\"));\n",
+        "181": "    assertEquals(\"fooBar\", UPPER_UNDERSCORE.converterTo(LOWER_CAMEL).convert(\"FOO_BAR\"));\n",
+        "182": "    assertEquals(\"FOO_BAR\", UPPER_CAMEL.converterTo(UPPER_UNDERSCORE).convert(\"FooBar\"));\n",
+        "183": "    assertEquals(\"FOO_BAR\", LOWER_CAMEL.converterTo(UPPER_UNDERSCORE).convert(\"fooBar\"));\n",
+        "184": "  }\n",
+        "185": "\n",
+        "186": "  public void testConverterToBackward() {\n",
+        "187": "    assertEquals(\"FOO_BAR\", UPPER_UNDERSCORE.converterTo(UPPER_CAMEL).reverse().convert(\"FooBar\"));\n",
+        "188": "    assertEquals(\"FOO_BAR\", UPPER_UNDERSCORE.converterTo(LOWER_CAMEL).reverse().convert(\"fooBar\"));\n",
+        "189": "    assertEquals(\"FooBar\", UPPER_CAMEL.converterTo(UPPER_UNDERSCORE).reverse().convert(\"FOO_BAR\"));\n",
+        "190": "    assertEquals(\"fooBar\", LOWER_CAMEL.converterTo(UPPER_UNDERSCORE).reverse().convert(\"FOO_BAR\"));\n",
+        "191": "  }\n",
+        "192": "\n",
+        "193": "  public void testConverter_nullConversions() {\n",
+        "194": "    for (CaseFormat outer : CaseFormat.values()) {\n",
+        "195": "      for (CaseFormat inner : CaseFormat.values()) {\n",
+        "196": "        assertNull(outer.converterTo(inner).convert(null));\n",
+        "197": "        assertNull(outer.converterTo(inner).reverse().convert(null));\n",
+        "198": "      }\n",
+        "199": "    }\n",
+        "200": "  }\n",
+        "202": "\n"
+    },
+    "removed": {}
+}

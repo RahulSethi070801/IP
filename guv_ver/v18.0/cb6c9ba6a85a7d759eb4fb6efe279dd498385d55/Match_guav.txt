@@ -1,0 +1,21 @@
+long reserve()
+abstract long readMicros()
+
+private boolean canAcquire(long nowMicros, long timeoutMicros)
+abstract long readMicros()
+
+abstract long queryEarliestAvailable(long nowMicros)
+abstract long readMicros()
+
+final long reserveAndGetWaitLength(int permits, long nowMicros)
+abstract long readMicros()
+
+public boolean tryAcquire(int permits, long timeout, TimeUnit unit)
+abstract long readMicros()
+
+abstract long reserveEarliestAvailable(int permits, long nowMicros)
+abstract long readMicros()
+
+final long reserve(int permits)
+abstract long readMicros()
+

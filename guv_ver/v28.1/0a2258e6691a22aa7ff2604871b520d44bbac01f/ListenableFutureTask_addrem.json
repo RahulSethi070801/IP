@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "66": "  public static <V> ListenableFutureTask<V> create(Runnable runnable, @Nullable V result) {\n",
+        "74": "  ListenableFutureTask(Runnable runnable, @Nullable V result) {\n"
+    },
+    "removed": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "66": "  public static <V> ListenableFutureTask<V> create(Runnable runnable, @NullableDecl V result) {\n",
+        "74": "  ListenableFutureTask(Runnable runnable, @NullableDecl V result) {\n"
+    }
+}

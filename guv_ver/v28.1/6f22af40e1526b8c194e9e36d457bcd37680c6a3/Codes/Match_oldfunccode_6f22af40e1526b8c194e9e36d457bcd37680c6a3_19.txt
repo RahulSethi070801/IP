@@ -1,0 +1,6 @@
+@Override
+public V put(@Nullable R rowKey, @Nullable C columnKey, @Nullable V value) {
+    synchronized (mutex) {
+        return delegate().put(rowKey, columnKey, value);
+    }
+}

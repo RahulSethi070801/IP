@@ -1,0 +1,5 @@
+com.google.common.base.Enums
+valueOfFunction
+public static Function<String, T> valueOfFunction(Class<T> enumClass)
+Class
+Function

@@ -1,0 +1,6 @@
+@CanIgnoreReturnValue
+@Deprecated
+@Override
+public final V remove(Object o) {
+    throw new UnsupportedOperationException();
+}

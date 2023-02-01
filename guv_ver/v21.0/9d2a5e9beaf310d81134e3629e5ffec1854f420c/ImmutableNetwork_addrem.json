@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import com.google.common.collect.Sets;\n",
+        "101": "      int selfLoopCount = graph.allowsSelfLoops()\n",
+        "102": "          ? Sets.intersection(inEdgeMap.keySet(), outEdgeMap.keySet()).size()\n",
+        "103": "          : 0;\n",
+        "105": "           ? DirectedMultiNodeConnections.ofImmutable(inEdgeMap, outEdgeMap, selfLoopCount)\n",
+        "106": "           : DirectedNodeConnections.ofImmutable(inEdgeMap, outEdgeMap, selfLoopCount);\n"
+    },
+    "removed": {
+        "101": "           ? DirectedMultiNodeConnections.ofImmutable(inEdgeMap, outEdgeMap)\n",
+        "102": "           : DirectedNodeConnections.ofImmutable(inEdgeMap, outEdgeMap);\n"
+    }
+}

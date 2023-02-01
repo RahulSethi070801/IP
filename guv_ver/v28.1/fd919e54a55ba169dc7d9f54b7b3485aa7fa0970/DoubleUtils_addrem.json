@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "59": "  /** The implicit 1 bit that is omitted in significands of normal doubles. */\n",
+        "67": "    return (exponent == MIN_EXPONENT - 1) ? bits << 1 : bits | IMPLICIT_BIT;\n",
+        "131": "  /** Returns its argument if it is non-negative, zero if it is negative. */\n",
+        "141": "  @VisibleForTesting static final long ONE_BITS = 0x3ff0000000000000L;\n"
+    },
+    "removed": {
+        "59": "  /**\n",
+        "60": "   * The implicit 1 bit that is omitted in significands of normal doubles.\n",
+        "61": "   */\n",
+        "69": "    return (exponent == MIN_EXPONENT - 1)\n",
+        "70": "        ? bits << 1\n",
+        "71": "        : bits | IMPLICIT_BIT;\n",
+        "135": "  /**\n",
+        "136": "   * Returns its argument if it is non-negative, zero if it is negative.\n",
+        "137": "   */\n",
+        "147": "  @VisibleForTesting\n",
+        "148": "  static final long ONE_BITS = 0x3ff0000000000000L;\n"
+    }
+}

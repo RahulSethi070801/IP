@@ -1,0 +1,20 @@
+com.google.common.math.Quantiles
+compute
+public Map<Integer, Double> compute(long... dataset)
+long...
+Map
+com.google.common.math.Quantiles
+compute
+public Map<Integer, Double> compute(Collection<? extends Number> dataset)
+Collection
+Map
+com.google.common.math.Quantiles
+compute
+public Map<Integer, Double> compute(int... dataset)
+int...
+Map
+com.google.common.math.Quantiles
+compute
+public Map<Integer, Double> compute(double... dataset)
+double...
+Map

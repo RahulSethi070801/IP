@@ -1,0 +1,12 @@
+@NullableDecl
+private Method getFinalizeReferentMethod() {
+    Class<?> finalizableReferenceClass = finalizableReferenceClassReference.get();
+    if (finalizableReferenceClass == null) {
+        return null;
+    }
+    try {
+        return finalizableReferenceClass.getMethod("finalizeReferent");
+    } catch (NoSuchMethodException e) {
+        throw new AssertionError(e);
+    }
+}

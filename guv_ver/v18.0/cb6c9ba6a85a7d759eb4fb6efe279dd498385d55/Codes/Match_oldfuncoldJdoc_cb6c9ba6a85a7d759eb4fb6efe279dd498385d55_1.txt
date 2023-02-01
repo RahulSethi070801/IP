@@ -1,0 +1,8 @@
+
+   * Reserves a single permit from this {@code RateLimiter} for future use, returning the number of
+   * microseconds until the reservation.
+   *
+   * <p>This method is equivalent to {@code reserve(1)}.
+   *
+   * @return time in microseconds to wait until the resource can be acquired.
+   

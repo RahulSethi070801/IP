@@ -1,0 +1,4 @@
+
+   * Does the domain name match one of the "wildcard" patterns (e.g. {@code "*.ar"})? If a {@code
+   * desiredType} is specified, the wildcard pattern must also match that type.
+   

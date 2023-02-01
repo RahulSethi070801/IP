@@ -1,0 +1,5 @@
+@Override
+public ImmutableSet<V> get(@NullableDecl K key) {
+    ImmutableSet<V> set = (ImmutableSet<V>) map.get(key);
+    return MoreObjects.firstNonNull(set, emptySet);
+}

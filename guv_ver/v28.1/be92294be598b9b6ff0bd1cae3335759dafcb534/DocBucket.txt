@@ -1,0 +1,5 @@
+com.google.common.collect.CompactHashSet
+resizeMeMaybe
+private void resizeMeMaybe(int newSize)
+int
+void

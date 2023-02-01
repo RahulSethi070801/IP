@@ -1,0 +1,3 @@
+public final boolean containsKey(@Nullable Object key) {
+    return getIfCached(key) != null || backingMap.containsKey(key);
+}

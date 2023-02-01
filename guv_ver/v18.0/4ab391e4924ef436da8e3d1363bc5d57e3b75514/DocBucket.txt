@@ -1,0 +1,10 @@
+com.google.common.base.Converter
+doBackward
+protected abstract A doBackward(B b)
+B
+A
+com.google.common.base.Converter
+doForward
+protected abstract B doForward(A a)
+A
+B

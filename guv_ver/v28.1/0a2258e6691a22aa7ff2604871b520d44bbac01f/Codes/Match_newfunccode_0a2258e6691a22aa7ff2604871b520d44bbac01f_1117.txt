@@ -1,0 +1,11 @@
+@Nullable
+private Iterator<? extends Iterator<? extends T>> getTopMetaIterator() {
+    while (topMetaIterator == null || !topMetaIterator.hasNext()) {
+        if (metaIterators != null && !metaIterators.isEmpty()) {
+            topMetaIterator = metaIterators.removeFirst();
+        } else {
+            return null;
+        }
+    }
+    return topMetaIterator;
+}

@@ -1,0 +1,4 @@
+ClassSanityTester
+Insertions: [50, 630]
+Deletions: [50, 630]
+android/guava-testlib/src/com/google/common/testing/ClassSanityTester.java

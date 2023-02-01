@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "35": " * A generic JUnit test which tests {@code toArray()} operations on a collection. Can't be invoked\n",
+        "36": " * directly; please see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "49": "   * {@link Collection#toArray(Object[])} says: \"Note that <tt>toArray(new Object[0])</tt> is\n",
+        "50": "   * identical in function to <tt>toArray()</tt>.\"\n",
+        "52": "   * <p>For maximum effect, the collection under test should be created from an element array of a\n",
+        "53": "   * type other than {@code Object[]}.\n",
+        "190": "   * Returns the {@link Method} instance for {@link #testToArray_isPlainObjectArray()} so that tests\n",
+        "191": "   * of {@link Arrays#asList(Object[])} can suppress it with {@code\n",
+        "193": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6260652\">Sun bug 6260652</a> is fixed.\n"
+    },
+    "removed": {
+        "35": " * A generic JUnit test which tests {@code toArray()} operations on a\n",
+        "36": " * collection. Can't be invoked directly; please see\n",
+        "37": " * {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "50": "   * {@link Collection#toArray(Object[])} says: \"Note that\n",
+        "51": "   * <tt>toArray(new Object[0])</tt> is identical in function to\n",
+        "52": "   * <tt>toArray()</tt>.\"\n",
+        "54": "   * <p>For maximum effect, the collection under test should be created from an\n",
+        "55": "   * element array of a type other than {@code Object[]}.\n",
+        "192": "   * Returns the {@link Method} instance for\n",
+        "193": "   * {@link #testToArray_isPlainObjectArray()} so that tests of\n",
+        "194": "   * {@link Arrays#asList(Object[])} can suppress it with {@code\n",
+        "196": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6260652\">Sun bug\n",
+        "197": "   * 6260652</a> is fixed.\n"
+    }
+}

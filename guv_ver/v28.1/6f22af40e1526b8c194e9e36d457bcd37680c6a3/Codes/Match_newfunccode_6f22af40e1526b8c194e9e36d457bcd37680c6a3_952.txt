@@ -1,0 +1,3 @@
+public final <S extends T> Wrapper<S> wrap(@NullableDecl S reference) {
+    return new Wrapper<S>(this, reference);
+}

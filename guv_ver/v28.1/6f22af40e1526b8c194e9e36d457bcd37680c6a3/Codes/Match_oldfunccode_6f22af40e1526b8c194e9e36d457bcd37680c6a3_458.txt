@@ -1,0 +1,3 @@
+public static <K, V> RemovalNotification<K, V> create(@Nullable K key, @Nullable V value, RemovalCause cause) {
+    return new RemovalNotification(key, value, cause);
+}

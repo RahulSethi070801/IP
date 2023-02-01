@@ -1,0 +1,4 @@
+HttpHeaders
+Insertions: [4, 5, 9, 10, 11, 12, 192, 193, 194, 232, 233, 234, 238, 245]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 194, 195, 233, 234, 238, 239, 246, 247]
+guava/src/com/google/common/net/HttpHeaders.java

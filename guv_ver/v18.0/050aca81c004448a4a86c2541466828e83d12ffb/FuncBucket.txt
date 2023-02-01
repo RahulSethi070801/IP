@@ -1,0 +1,15 @@
+com.google.common.collect.Multisets
+removeOccurrences
+public static boolean removeOccurrences(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove)
+Multiset,Iterable
+boolean
+com.google.common.collect.Multisets
+removeOccurrencesImpl
+private static boolean removeOccurrencesImpl(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove)
+Multiset,Iterable
+boolean
+com.google.common.collect.Multisets
+removeOccurrences
+public static boolean removeOccurrences(Multiset<?> multisetToModify, Multiset<?> occurrencesToRemove)
+Multiset,Multiset
+boolean

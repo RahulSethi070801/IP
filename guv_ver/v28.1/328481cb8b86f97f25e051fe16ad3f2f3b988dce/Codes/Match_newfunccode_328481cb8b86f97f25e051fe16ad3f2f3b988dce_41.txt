@@ -1,0 +1,21 @@
+@Override
+public Iterator<Entry<K, Collection<V>>> iterator() {
+    return new TransformedIterator<Entry<K, Collection<V>>, Entry<K, Collection<V>>>(super.iterator()) {
+
+        @Override
+        Entry<K, Collection<V>> transform(final Entry<K, Collection<V>> entry) {
+            return new ForwardingMapEntry<K, Collection<V>>() {
+
+                @Override
+                protected Entry<K, Collection<V>> delegate() {
+                    return entry;
+                }
+
+                @Override
+                public Collection<V> getValue() {
+                    return typePreservingCollection(entry.getValue(), mutex);
+                }
+            };
+        }
+    };
+}

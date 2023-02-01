@@ -1,0 +1,14 @@
+
+   * Returns a fluent iterable that combines several iterables. The returned iterable has an
+   * iterator that traverses the elements of each iterable in {@code inputs}. The input iterators
+   * are not polled until necessary.
+   *
+   * <p>The returned iterable's iterator supports {@code remove()} when the corresponding input
+   * iterator supports it. The methods of the returned iterable may throw {@code
+   * NullPointerException} if any of the input iterators is {@code null}.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code streamOfStreams.flatMap(s -> s)} or {@code
+   * streamOfIterables.flatMap(Streams::stream)}. (See {@link Streams#stream}.)
+   *
+   * @since 20.0
+   

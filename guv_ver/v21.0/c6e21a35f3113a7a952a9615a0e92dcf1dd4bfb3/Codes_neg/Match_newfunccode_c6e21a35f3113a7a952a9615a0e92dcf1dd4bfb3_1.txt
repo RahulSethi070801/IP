@@ -1,0 +1,7 @@
+private static String toString(Cut<?> lowerBound, Cut<?> upperBound) {
+    StringBuilder sb = new StringBuilder(16);
+    lowerBound.describeAsLowerBound(sb);
+    sb.append("..");
+    upperBound.describeAsUpperBound(sb);
+    return sb.toString();
+}

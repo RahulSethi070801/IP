@@ -1,0 +1,4 @@
+AtomicBoolean
+Insertions: [15, 16, 17, 18, 20, 21, 29, 37]
+Deletions: [15, 16, 17, 19, 20, 21, 27, 30, 31, 32, 40, 41]
+guava-gwt/src-super/java/util/super/java/util/concurrent/atomic/AtomicBoolean.java

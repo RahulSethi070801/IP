@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "61": "  SortedSet<V> get(@Nullable K key);\n",
+        "72": "  SortedSet<V> removeAll(@Nullable Object key);\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "61": "  SortedSet<V> get(@NullableDecl K key);\n",
+        "72": "  SortedSet<V> removeAll(@NullableDecl Object key);\n"
+    }
+}

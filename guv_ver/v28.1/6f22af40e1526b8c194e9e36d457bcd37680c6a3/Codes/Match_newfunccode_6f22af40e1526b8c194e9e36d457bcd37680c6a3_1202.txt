@@ -1,0 +1,5 @@
+public static void checkState(boolean b, @NullableDecl String errorMessageTemplate, int p1) {
+    if (!b) {
+        throw new IllegalStateException(format(errorMessageTemplate, p1));
+    }
+}

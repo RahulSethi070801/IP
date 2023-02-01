@@ -1,0 +1,7 @@
+@CanIgnoreReturnValue
+public static <T> T checkNotNull(T obj, @Nullable String errorMessageTemplate, @Nullable Object p1, @Nullable Object p2, @Nullable Object p3) {
+    if (obj == null) {
+        throw new NullPointerException(format(errorMessageTemplate, p1, p2, p3));
+    }
+    return obj;
+}

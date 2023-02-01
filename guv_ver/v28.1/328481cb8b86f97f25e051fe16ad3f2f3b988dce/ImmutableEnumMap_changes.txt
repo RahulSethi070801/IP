@@ -1,0 +1,4 @@
+ImmutableEnumMap
+Insertions: [22, 32]
+Deletions: [31]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableEnumMap.java

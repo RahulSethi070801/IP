@@ -1,0 +1,1 @@
+ safe as long as the user followed the <b>Warning</b> in the javadoc

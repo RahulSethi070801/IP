@@ -1,0 +1,2 @@
+@NullableDecl
+abstract K getSuperclass(K type);

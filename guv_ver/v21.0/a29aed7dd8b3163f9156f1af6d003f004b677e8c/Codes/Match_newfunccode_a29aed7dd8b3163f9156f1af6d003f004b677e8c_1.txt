@@ -1,0 +1,4 @@
+@Override
+public int outDegree(Object node) {
+    return isDirected() ? successors(node).size() : degree(node);
+}

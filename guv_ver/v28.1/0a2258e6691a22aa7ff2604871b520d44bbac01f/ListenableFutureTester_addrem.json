@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "32": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "70": "  public void testCompletedFuture(@Nullable Object expectedValue)\n",
+        "97": "  public void testFailedFuture(@Nullable String message) throws InterruptedException {\n"
+    },
+    "removed": {
+        "32": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "70": "  public void testCompletedFuture(@NullableDecl Object expectedValue)\n",
+        "97": "  public void testFailedFuture(@NullableDecl String message) throws InterruptedException {\n"
+    }
+}

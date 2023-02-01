@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "44": "  V value(N node);\n",
+        "47": "  void removePredecessor(N node);\n",
+        "54": "  V removeSuccessor(N node);\n"
+    },
+    "removed": {
+        "44": "  V value(Object node);\n",
+        "47": "  void removePredecessor(Object node);\n",
+        "54": "  V removeSuccessor(Object node);\n"
+    }
+}

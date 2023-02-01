@@ -1,0 +1,4 @@
+@GuardedBy("this")
+void preWriteCleanup() {
+    runLockedCleanup();
+}

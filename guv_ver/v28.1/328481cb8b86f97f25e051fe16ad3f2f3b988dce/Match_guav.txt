@@ -1,0 +1,312 @@
+public Iterator<K> iterator()
+Map<K, Collection<V>> asMap()
+
+public Iterator<K> iterator()
+Map<K, Collection<V>> asMap()
+
+public char[][] toArray()
+Map<K, Collection<V>> asMap()
+
+public char[][] toArray()
+Map<K, Collection<V>> asMap()
+
+public Entry<Range<K>, V> getEntry(K key)
+Map<K, Collection<V>> asMap()
+
+public Entry<Range<K>, V> getEntry(K key)
+Map<K, Collection<V>> asMap()
+
+void unregister(Object listener)
+Map<K, Collection<V>> asMap()
+
+void unregister(Object listener)
+Map<K, Collection<V>> asMap()
+
+public T next()
+Map<K, Collection<V>> asMap()
+
+public T next()
+Map<K, Collection<V>> asMap()
+
+public boolean remove(@Nullable Object o)
+Map<K, Collection<V>> asMap()
+
+public boolean remove(@Nullable Object o)
+Map<K, Collection<V>> asMap()
+
+public void remove(Range<K> rangeToRemove)
+Map<K, Collection<V>> asMap()
+
+public void remove(Range<K> rangeToRemove)
+Map<K, Collection<V>> asMap()
+
+public ImmutableSetMultimap<K, V> build()
+Map<K, Collection<V>> asMap()
+
+public ImmutableSetMultimap<K, V> build()
+Map<K, Collection<V>> asMap()
+
+Map<K, V> loadAll(Set<? extends K> keys, CacheLoader<? super K, V> loader) throws ExecutionException
+Map<K, Collection<V>> asMap()
+
+Map<K, V> loadAll(Set<? extends K> keys, CacheLoader<? super K, V> loader) throws ExecutionException
+Map<K, Collection<V>> asMap()
+
+public void putAll(Map<? extends K, ? extends V> m)
+Map<K, Collection<V>> asMap()
+
+public void putAll(Map<? extends K, ? extends V> m)
+Map<K, Collection<V>> asMap()
+
+public boolean putAll(Multimap<? extends K, ? extends V> multimap)
+Map<K, Collection<V>> asMap()
+
+public boolean putAll(Multimap<? extends K, ? extends V> multimap)
+Map<K, Collection<V>> asMap()
+
+Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator)
+Map<K, Collection<V>> asMap()
+
+Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator)
+Map<K, Collection<V>> asMap()
+
+Ordering<Map.Entry<T2, ?>> onKeys()
+Map<K, Collection<V>> asMap()
+
+Ordering<Map.Entry<T2, ?>> onKeys()
+Map<K, Collection<V>> asMap()
+
+protected abstract Map.Entry<K, V> delegate()
+Map<K, Collection<V>> asMap()
+
+protected abstract Map.Entry<K, V> delegate()
+Map<K, Collection<V>> asMap()
+
+static String toStringImpl(Map<?, ?> map)
+Map<K, Collection<V>> asMap()
+
+static String toStringImpl(Map<?, ?> map)
+Map<K, Collection<V>> asMap()
+
+void register(Object listener)
+Map<K, Collection<V>> asMap()
+
+void register(Object listener)
+Map<K, Collection<V>> asMap()
+
+Set<Map.Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+Set<Map.Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+Collection<Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+Collection<Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public static ImmutableMap<K, V> immutableEnumMap(Map<K, ? extends V> map)
+Map<K, Collection<V>> asMap()
+
+public static ImmutableMap<K, V> immutableEnumMap(Map<K, ? extends V> map)
+Map<K, Collection<V>> asMap()
+
+Entry<Range<K>, V> getEntry(K key)
+Map<K, Collection<V>> asMap()
+
+Entry<Range<K>, V> getEntry(K key)
+Map<K, Collection<V>> asMap()
+
+public Iterator<Entry<K, Collection<V>>> iterator()
+Map<K, Collection<V>> asMap()
+
+public Iterator<Entry<K, Collection<V>>> iterator()
+Map<K, Collection<V>> asMap()
+
+private void writeObject(ObjectOutputStream stream) throws IOException
+Map<K, Collection<V>> asMap()
+
+private void writeObject(ObjectOutputStream stream) throws IOException
+Map<K, Collection<V>> asMap()
+
+Map.Entry<Range<K>, V> getEntry(K key)
+Map<K, Collection<V>> asMap()
+
+Map.Entry<Range<K>, V> getEntry(K key)
+Map<K, Collection<V>> asMap()
+
+private static Range<K> coalesce(Range<K> range, V value, @Nullable Map.Entry<Cut<K>, RangeMapEntry<K, V>> entry)
+Map<K, Collection<V>> asMap()
+
+private static Range<K> coalesce(Range<K> range, V value, @Nullable Map.Entry<Cut<K>, RangeMapEntry<K, V>> entry)
+Map<K, Collection<V>> asMap()
+
+Set<Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+Set<Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+final TypeTable where(Map<TypeVariableKey, ? extends Type> mappings)
+Map<K, Collection<V>> asMap()
+
+final TypeTable where(Map<TypeVariableKey, ? extends Type> mappings)
+Map<K, Collection<V>> asMap()
+
+public Map.Entry<Range<K>, V> getEntry(K key)
+Map<K, Collection<V>> asMap()
+
+public Map.Entry<Range<K>, V> getEntry(K key)
+Map<K, Collection<V>> asMap()
+
+Collection<Map.Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+Collection<Map.Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public Set<Map.Entry<K, V>> entrySet()
+Map<K, Collection<V>> asMap()
+
+public Set<Map.Entry<K, V>> entrySet()
+Map<K, Collection<V>> asMap()
+
+protected abstract Entry<K, V> delegate()
+Map<K, Collection<V>> asMap()
+
+protected abstract Entry<K, V> delegate()
+Map<K, Collection<V>> asMap()
+
+public Set<Map.Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public Set<Map.Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public final void scan(ClassLoader classloader) throws IOException
+Map<K, Collection<V>> asMap()
+
+public final void scan(ClassLoader classloader) throws IOException
+Map<K, Collection<V>> asMap()
+
+Iterator<Map.Entry<K, V>> entryIterator()
+Map<K, Collection<V>> asMap()
+
+Iterator<Map.Entry<K, V>> entryIterator()
+Map<K, Collection<V>> asMap()
+
+ImmutableSet<ResourceInfo> getResources()
+Map<K, Collection<V>> asMap()
+
+ImmutableSet<ResourceInfo> getResources()
+Map<K, Collection<V>> asMap()
+
+static void putAllImpl(Map<K, V> self, Map<? extends K, ? extends V> map)
+Map<K, Collection<V>> asMap()
+
+static void putAllImpl(Map<K, V> self, Map<? extends K, ? extends V> map)
+Map<K, Collection<V>> asMap()
+
+private ExampleStackTrace findPathTo(LockGraphNode node, Set<LockGraphNode> seen)
+Map<K, Collection<V>> asMap()
+
+private ExampleStackTrace findPathTo(LockGraphNode node, Set<LockGraphNode> seen)
+Map<K, Collection<V>> asMap()
+
+Ordering<Entry<T2, ?>> onKeys()
+Map<K, Collection<V>> asMap()
+
+Ordering<Entry<T2, ?>> onKeys()
+Map<K, Collection<V>> asMap()
+
+public void putAll(RangeMap<K, V> rangeMap)
+Map<K, Collection<V>> asMap()
+
+public void putAll(RangeMap<K, V> rangeMap)
+Map<K, Collection<V>> asMap()
+
+Iterator<Entry<K, V>> entryIterator()
+Map<K, Collection<V>> asMap()
+
+Iterator<Entry<K, V>> entryIterator()
+Map<K, Collection<V>> asMap()
+
+public Set<Entry<K, Collection<V>>> entrySet()
+Map<K, Collection<V>> asMap()
+
+public Set<Entry<K, Collection<V>>> entrySet()
+Map<K, Collection<V>> asMap()
+
+private static ImmutableMap<K, V> copyOfEnumMap(EnumMap<K, ? extends V> original)
+Map<K, Collection<V>> asMap()
+
+private static ImmutableMap<K, V> copyOfEnumMap(EnumMap<K, ? extends V> original)
+Map<K, Collection<V>> asMap()
+
+Spliterator<Cell<R, C, V>> cellSpliterator()
+Map<K, Collection<V>> asMap()
+
+Spliterator<Cell<R, C, V>> cellSpliterator()
+Map<K, Collection<V>> asMap()
+
+Cell<R, C, V> getCell(int index)
+Map<K, Collection<V>> asMap()
+
+Cell<R, C, V> getCell(int index)
+Map<K, Collection<V>> asMap()
+
+private Range<K> coalescedRange(Range<K> range, V value)
+Map<K, Collection<V>> asMap()
+
+private Range<K> coalescedRange(Range<K> range, V value)
+Map<K, Collection<V>> asMap()
+
+public Set<Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public Set<Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public Collection<Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public Collection<Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public Iterator<Map.Entry<K, Collection<V>>> iterator()
+Map<K, Collection<V>> asMap()
+
+public Iterator<Map.Entry<K, Collection<V>>> iterator()
+Map<K, Collection<V>> asMap()
+
+Map.Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator)
+Map<K, Collection<V>> asMap()
+
+Map.Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator)
+Map<K, Collection<V>> asMap()
+
+public Collection<Map.Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+public Collection<Map.Entry<K, V>> entries()
+Map<K, Collection<V>> asMap()
+
+private static Range<K> coalesce(Range<K> range, V value, @Nullable Entry<Cut<K>, RangeMapEntry<K, V>> entry)
+Map<K, Collection<V>> asMap()
+
+private static Range<K> coalesce(Range<K> range, V value, @Nullable Entry<Cut<K>, RangeMapEntry<K, V>> entry)
+Map<K, Collection<V>> asMap()
+
+public Set<Map.Entry<K, Collection<V>>> entrySet()
+Map<K, Collection<V>> asMap()
+
+public Set<Map.Entry<K, Collection<V>>> entrySet()
+Map<K, Collection<V>> asMap()
+
+public Set<Entry<K, V>> entrySet()
+Map<K, Collection<V>> asMap()
+
+public Set<Entry<K, V>> entrySet()
+Map<K, Collection<V>> asMap()
+

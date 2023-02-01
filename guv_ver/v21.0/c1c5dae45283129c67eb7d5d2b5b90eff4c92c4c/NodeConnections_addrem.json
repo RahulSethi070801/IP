@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "22": " * An interface for representing an origin node's adjacent nodes and incident edges in a network.\n",
+        "44": "   * between two (formerly) connected nodes, {@link #removePredecessor} must also be called.\n",
+        "50": "   * between two (formerly) connected nodes, {@link #removeSuccessor} must also be called.\n"
+    },
+    "removed": {
+        "22": " * An interface for representing an origin node's adjacent nodes and incident edges in a graph.\n",
+        "44": "   * between two (formally) connected nodes, {@link #removePredecessor} must also be called.\n",
+        "50": "   * between two (formally) connected nodes, {@link #removeSuccessor} must also be called.\n"
+    }
+}

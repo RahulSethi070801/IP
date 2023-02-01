@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.RateLimiter
+create
+static RateLimiter create(SleepingStopwatch stopwatch, double permitsPerSecond)
+SleepingStopwatch,double
+RateLimiter

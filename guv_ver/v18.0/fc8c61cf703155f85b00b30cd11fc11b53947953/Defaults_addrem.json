@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "37": "    // Only add to this map via put(Map, Class<T>, T)\n",
+        "60": "    // Primitives.wrap(type).cast(...) would avoid the warning, but we can't use that from here\n",
+        "61": "    @SuppressWarnings(\"unchecked\") // the put method enforces this key-value relationship\n",
+        "62": "    T t = (T) DEFAULTS.get(checkNotNull(type));\n",
+        "63": "    return t;\n"
+    },
+    "removed": {
+        "58": "  @SuppressWarnings(\"unchecked\")\n",
+        "60": "    return (T) DEFAULTS.get(checkNotNull(type));\n"
+    }
+}

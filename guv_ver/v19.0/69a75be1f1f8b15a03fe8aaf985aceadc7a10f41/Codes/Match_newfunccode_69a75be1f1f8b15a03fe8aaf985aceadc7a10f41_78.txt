@@ -1,0 +1,4 @@
+@Override
+void putNext(Waiter waiter, Waiter next) {
+    UNSAFE.putObject(waiter, WAITER_NEXT_OFFSET, next);
+}

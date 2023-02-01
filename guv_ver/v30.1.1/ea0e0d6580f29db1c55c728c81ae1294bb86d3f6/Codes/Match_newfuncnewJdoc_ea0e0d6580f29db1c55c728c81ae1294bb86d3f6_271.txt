@@ -1,0 +1,6 @@
+
+   * A sensible definition of {@link #contains} in terms of {@link #count}. If you override {@link
+   * #count}, you may wish to override {@link #contains} to forward to this implementation.
+   *
+   * @since 7.0
+   

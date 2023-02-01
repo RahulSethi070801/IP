@@ -1,0 +1,5 @@
+com.google.common.primitives.Booleans
+countTrue
+public static int countTrue(boolean... values)
+boolean...
+int

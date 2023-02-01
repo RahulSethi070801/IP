@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "20": "import javax.annotation.CheckForNull;\n",
+        "37": "@ElementTypesAreNonnullByDefault\n",
+        "40": "  public ComputationException(@CheckForNull Throwable cause) {\n"
+    },
+    "removed": {
+        "20": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "39": "  public ComputationException(@NullableDecl Throwable cause) {\n"
+    }
+}

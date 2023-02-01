@@ -1,0 +1,4 @@
+Dispatcher_2
+Insertions: [69, 72, 77, 86, 129, 150, 178]
+Deletions: [69, 70, 71, 74, 75, 76, 81, 82, 83, 92, 93, 94, 137, 138, 139, 160, 161, 162, 190, 191, 192]
+guava/src/com/google/common/eventbus/Dispatcher.java

@@ -1,0 +1,4 @@
+ReaderInputStream
+Insertions: [4, 5, 9, 10, 11, 12, 83, 84, 85, 86, 113, 114, 118, 119, 125, 126, 137, 138, 139, 234]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 85, 86, 113, 117, 123, 134, 135, 230]
+guava/src/com/google/common/io/ReaderInputStream.java

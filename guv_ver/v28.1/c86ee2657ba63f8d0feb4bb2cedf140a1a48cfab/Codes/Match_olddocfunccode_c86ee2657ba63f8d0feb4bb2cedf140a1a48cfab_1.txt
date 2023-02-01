@@ -1,0 +1,3 @@
+public static <K, V> CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize) {
+    return new CompactLinkedHashMap<>(expectedSize);
+}

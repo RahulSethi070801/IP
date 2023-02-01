@@ -1,0 +1,7 @@
+
+   * Returns a string representation of this fluent iterable, with the format
+   * {@code [e1, e2, ..., en]}.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code stream.collect(Collectors.joining(", ", "[", "]"))}
+   * or (less efficiently) {@code collect(Collectors.toList()).toString()}.
+   

@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "48": "    } catch (TimeoutException expected) {\n",
+        "49": "    }\n",
+        "131": "    } catch (TimeoutException expected) {\n",
+        "132": "      /* expected */\n",
+        "133": "    }\n",
+        "158": "    } catch (TimeoutException expected) {\n",
+        "159": "      /* expected */\n",
+        "160": "    }\n",
+        "177": "    } catch (CancellationException expected) {\n",
+        "178": "      /* expected */\n",
+        "179": "    }\n",
+        "192": "    } catch (CancellationException expected) {\n",
+        "193": "      /* expected */\n",
+        "194": "    }\n",
+        "207": "    } catch (CancellationException expected) {\n",
+        "208": "      /* expected */\n",
+        "209": "    }\n"
+    },
+    "removed": {
+        "48": "    } catch (TimeoutException expected) {}\n",
+        "130": "    } catch (TimeoutException expected) { /* expected */ }\n",
+        "154": "    } catch (TimeoutException expected) { /* expected */ }\n",
+        "171": "    } catch (CancellationException expected) { /* expected */ }\n",
+        "184": "    } catch (CancellationException expected) { /* expected */ }\n",
+        "197": "    } catch (CancellationException expected) { /* expected */ }\n"
+    }
+}

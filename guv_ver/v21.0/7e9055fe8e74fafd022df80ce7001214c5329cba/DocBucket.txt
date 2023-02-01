@@ -1,0 +1,10 @@
+com.google.common.graph.Network
+inDegree
+int inDegree(Object node)
+Object
+int
+com.google.common.graph.Network
+outDegree
+int outDegree(Object node)
+Object
+int

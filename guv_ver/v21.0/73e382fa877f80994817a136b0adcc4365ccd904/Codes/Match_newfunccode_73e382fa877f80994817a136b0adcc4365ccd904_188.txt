@@ -1,0 +1,3 @@
+static <E> Collector<E, ?, ImmutableSet<E>> toImmutableSet() {
+    return Collector.of(ImmutableSet::<E>builder, ImmutableSet.Builder::add, ImmutableSet.Builder::combine, ImmutableSet.Builder::build);
+}

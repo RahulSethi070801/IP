@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "55": "    @Nullable final BinaryTree right;\n",
+        "64": "  private static final TreeTraverser<Tree> ADAPTER =\n",
+        "65": "      new TreeTraverser<Tree>() {\n",
+        "66": "        @Override\n",
+        "67": "        public Iterable<Tree> children(Tree node) {\n",
+        "68": "          return node.children;\n",
+        "69": "        }\n",
+        "70": "      };\n",
+        "84": "        @Override\n",
+        "85": "        public Optional<BinaryTree> leftChild(BinaryTree node) {\n",
+        "86": "          return Optional.fromNullable(node.left);\n",
+        "87": "        }\n",
+        "89": "        @Override\n",
+        "90": "        public Optional<BinaryTree> rightChild(BinaryTree node) {\n",
+        "91": "          return Optional.fromNullable(node.right);\n",
+        "92": "        }\n",
+        "93": "      };\n"
+    },
+    "removed": {
+        "55": "    @Nullable\n",
+        "56": "    final BinaryTree right;\n",
+        "65": "  private static final TreeTraverser<Tree> ADAPTER = new TreeTraverser<Tree>() {\n",
+        "66": "    @Override\n",
+        "67": "    public Iterable<Tree> children(Tree node) {\n",
+        "68": "      return node.children;\n",
+        "69": "    }\n",
+        "70": "  };\n",
+        "84": "    @Override\n",
+        "85": "    public Optional<BinaryTree> leftChild(BinaryTree node) {\n",
+        "86": "      return Optional.fromNullable(node.left);\n",
+        "87": "    }\n",
+        "89": "    @Override\n",
+        "90": "    public Optional<BinaryTree> rightChild(BinaryTree node) {\n",
+        "91": "      return Optional.fromNullable(node.right);\n",
+        "92": "    }\n",
+        "93": "  };\n"
+    }
+}

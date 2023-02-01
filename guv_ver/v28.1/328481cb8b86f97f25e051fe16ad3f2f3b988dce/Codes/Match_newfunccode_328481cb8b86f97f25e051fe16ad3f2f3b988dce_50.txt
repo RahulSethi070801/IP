@@ -1,0 +1,2 @@
+@Override
+protected abstract Entry<K, V> delegate();

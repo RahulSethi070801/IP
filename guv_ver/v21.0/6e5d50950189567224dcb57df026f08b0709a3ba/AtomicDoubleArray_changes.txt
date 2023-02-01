@@ -1,0 +1,4 @@
+AtomicDoubleArray
+Insertions: [20, 183, 203]
+Deletions: []
+guava/src/com/google/common/util/concurrent/AtomicDoubleArray.java

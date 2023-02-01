@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "33": "  @Override\n",
+        "34": "  protected void setUp() throws Exception {\n"
+    },
+    "removed": {
+        "33": "  @Override protected void setUp() throws Exception {\n"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "31": "@ElementTypesAreNonnullByDefault\n",
+        "32": "interface SortedMultisetBridge<E extends @Nullable Object> extends Multiset<E> {\n"
+    },
+    "removed": {
+        "30": "interface SortedMultisetBridge<E> extends Multiset<E> {\n"
+    }
+}

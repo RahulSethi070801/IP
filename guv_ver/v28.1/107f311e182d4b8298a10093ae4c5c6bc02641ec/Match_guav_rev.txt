@@ -1,0 +1,222 @@
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback)
+public V get() throws InterruptedException, ExecutionException
+
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+public V get() throws InterruptedException, ExecutionException
+
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+public V get() throws InterruptedException, ExecutionException
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+public V get() throws InterruptedException, ExecutionException
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+public V get() throws InterruptedException, ExecutionException
+
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+public V get() throws InterruptedException, ExecutionException
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+public V get() throws InterruptedException, ExecutionException
+
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+public V get() throws InterruptedException, ExecutionException
+
+public static ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+public V get() throws InterruptedException, ExecutionException
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+public V get() throws InterruptedException, ExecutionException
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+public void addListener(Runnable listener, Executor executor)
+

@@ -1,0 +1,1 @@
+ Returns currentSize + 1, after resizing the entries storage if necessary. 

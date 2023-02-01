@@ -1,0 +1,4 @@
+
+   * We let people override {@code get()} in the server version (though perhaps we shouldn't). Here,
+   * we don't want that, and anyway, users can't, thanks to the package-private parameter.
+   

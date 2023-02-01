@@ -1,0 +1,4 @@
+@Nullable
+private static Method getSizeMethod() {
+    return getJlaMethod("getStackTraceDepth", Throwable.class);
+}

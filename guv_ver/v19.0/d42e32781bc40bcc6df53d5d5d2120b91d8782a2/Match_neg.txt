@@ -1,0 +1,6 @@
+public static ImmutableSet<E> of()
+public static ImmutableSet<E> copyOf(Iterable<? extends E> elements)
+
+public static ImmutableSet<E> copyOf(Collection<? extends E> elements)
+public static ImmutableSet<E> of(E element)
+

@@ -1,0 +1,4 @@
+@Override
+public ReferenceEntry<Object, Object> getEntry() {
+    return null;
+}

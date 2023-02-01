@@ -1,0 +1,20 @@
+public static boolean equal(@Nullable Network<?, ?> graph1, @Nullable Network<?, ?> graph2) {
+    if (graph1 == graph2) {
+        return true;
+    }
+    if (graph1 == null || graph2 == null) {
+        return false;
+    }
+    if (graph1.isDirected() != graph2.isDirected()) {
+        return false;
+    }
+    if (!graph1.nodes().equals(graph2.nodes()) || !graph1.edges().equals(graph2.edges())) {
+        return false;
+    }
+    for (Object edge : graph1.edges()) {
+        if (!graph1.incidentNodes(edge).equals(graph2.incidentNodes(edge))) {
+            return false;
+        }
+    }
+    return true;
+}

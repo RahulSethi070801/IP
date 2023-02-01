@@ -1,0 +1,4 @@
+@Override
+public boolean remove(@CheckForNull Object o) {
+    return multiset().remove(o, Integer.MAX_VALUE) > 0;
+}

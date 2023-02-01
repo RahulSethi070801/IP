@@ -1,0 +1,4 @@
+StringCatcher
+Insertions: [27, 28]
+Deletions: [27, 28]
+android/guava-tests/test/com/google/common/eventbus/StringCatcher.java

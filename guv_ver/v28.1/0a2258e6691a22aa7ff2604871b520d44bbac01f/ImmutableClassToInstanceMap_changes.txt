@@ -1,0 +1,4 @@
+ImmutableClassToInstanceMap
+Insertions: [26, 172]
+Deletions: [26, 172]
+guava/src/com/google/common/collect/ImmutableClassToInstanceMap.java

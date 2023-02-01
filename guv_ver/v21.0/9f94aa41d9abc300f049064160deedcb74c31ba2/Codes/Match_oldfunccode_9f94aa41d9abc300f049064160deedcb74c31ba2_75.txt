@@ -1,0 +1,6 @@
+@Override
+protected void parseLong(CacheBuilderSpec spec, long value) {
+    checkArgument(spec.maximumSize == null, "maximum size was already set to ", spec.maximumSize);
+    checkArgument(spec.maximumWeight == null, "maximum weight was already set to ", spec.maximumWeight);
+    spec.maximumSize = value;
+}

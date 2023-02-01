@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "296": "  public Set<Entry<K, V>> entries() {\n",
+        "534": "  Iterator<Entry<K, V>> entryIterator() {\n",
+        "535": "    return new Iterator<Entry<K, V>>() {\n",
+        "545": "      public Entry<K, V> next() {\n",
+        "597": "    for (Entry<K, V> entry : entries()) {\n"
+    },
+    "removed": {
+        "296": "  public Set<Map.Entry<K, V>> entries() {\n",
+        "534": "  Iterator<Map.Entry<K, V>> entryIterator() {\n",
+        "535": "    return new Iterator<Map.Entry<K, V>>() {\n",
+        "545": "      public Map.Entry<K, V> next() {\n",
+        "597": "    for (Map.Entry<K, V> entry : entries()) {\n"
+    }
+}

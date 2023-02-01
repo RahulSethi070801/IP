@@ -1,0 +1,4 @@
+FuturesGetCheckedBenchmark_2
+Insertions: [49, 101, 102, 103, 122, 164, 165, 166, 167]
+Deletions: [49, 50, 51, 103, 104, 105, 106, 107, 108, 127, 169, 170]
+guava-tests/benchmark/com/google/common/util/concurrent/FuturesGetCheckedBenchmark.java

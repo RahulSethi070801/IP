@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "124": "  public <C extends Closeable> C register(@Nullable C closeable) {\n"
+    },
+    "removed": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "124": "  public <C extends Closeable> C register(@NullableDecl C closeable) {\n"
+    }
+}

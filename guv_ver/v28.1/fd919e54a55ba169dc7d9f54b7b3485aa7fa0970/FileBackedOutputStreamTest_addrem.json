@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "57": "    GcFinalization.awaitDone(\n",
+        "58": "        new GcFinalization.FinalizationPredicate() {\n",
+        "59": "          @Override\n",
+        "60": "          public boolean isDone() {\n",
+        "61": "            return !file.exists();\n",
+        "62": "          }\n",
+        "63": "        });\n",
+        "77": "  private void testThreshold(\n",
+        "78": "      int fileThreshold, int dataSize, boolean singleByte, boolean resetOnFinalize)\n",
+        "79": "      throws IOException {\n",
+        "113": "  private static void write(OutputStream out, byte[] b, int off, int len, boolean singleByte)\n"
+    },
+    "removed": {
+        "57": "    GcFinalization.awaitDone(new GcFinalization.FinalizationPredicate() {\n",
+        "58": "      @Override\n",
+        "59": "      public boolean isDone() {\n",
+        "60": "        return !file.exists();\n",
+        "61": "      }\n",
+        "62": "    });\n",
+        "76": "  private void testThreshold(int fileThreshold, int dataSize, boolean singleByte,\n",
+        "77": "      boolean resetOnFinalize) throws IOException {\n",
+        "111": "  private static void write(\n",
+        "112": "      OutputStream out, byte[] b, int off, int len, boolean singleByte)\n"
+    }
+}

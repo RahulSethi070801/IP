@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "67": " * to the user. Any {@link java.util.Entry} instance retrieved from the map's\n",
+        "69": " * such entries do, however, support {@link java.util.Entry#setValue}, which simply calls\n"
+    },
+    "removed": {
+        "67": " * to the user. Any {@link java.util.Map.Entry} instance retrieved from the map's\n",
+        "69": " * such entries do, however, support {@link java.util.Map.Entry#setValue}, which simply calls\n"
+    }
+}

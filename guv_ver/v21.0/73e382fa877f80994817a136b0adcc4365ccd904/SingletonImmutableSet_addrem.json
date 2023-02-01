@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "20": "\n"
+    },
+    "removed": {}
+}

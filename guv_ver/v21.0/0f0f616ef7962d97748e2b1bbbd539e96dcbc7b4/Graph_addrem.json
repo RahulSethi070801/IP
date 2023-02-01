@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "229": "   * edges\". For that functionality, see {@link Graphs#reachableNodes(Graph, Object)} and\n",
+        "230": "   * {@link Graphs#transitiveClosure(Graph)}.\n"
+    },
+    "removed": {
+        "229": "   * edges\" (also known as {@code node}'s transitive closure).\n"
+    }
+}

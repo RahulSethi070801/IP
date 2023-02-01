@@ -1,0 +1,8 @@
+
+   * Returns a view of the given {@code path} as a {@link ByteSource}.
+   *
+   * <p>Any {@linkplain OpenOption open options} provided are used when opening streams to the file
+   * and may affect the behavior of the returned source and the streams it provides. See {@link
+   * StandardOpenOption} for the standard options that may be provided. Providing no options is
+   * equivalent to providing the {@link StandardOpenOption#READ READ} option.
+   

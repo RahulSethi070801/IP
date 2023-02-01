@@ -1,0 +1,9 @@
+
+   * Stores a collection of values with the same key, replacing any existing values for that key.
+   *
+   * <p>If {@code values} is empty, this is equivalent to {@link #removeAll(Object) removeAll(key)}.
+   *
+   * @return the collection of replaced values, or an empty collection if no values were previously
+   *     associated with the key. The collection <i>may</i> be modifiable, but updating it will have
+   *     no effect on the multimap.
+   

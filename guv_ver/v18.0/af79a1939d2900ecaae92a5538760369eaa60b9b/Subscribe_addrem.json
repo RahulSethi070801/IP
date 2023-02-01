@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "27": " * Marks a method as an event subscriber.\n",
+        "34": " * <p>Unless also annotated with @{@link AllowConcurrentEvents}, event subscriber\n"
+    },
+    "removed": {
+        "27": " * Marks a method as an event handler, as used by\n",
+        "28": " * {@link AnnotatedHandlerFinder} and {@link EventBus}.\n",
+        "35": " * <p>Unless also annotated with @{@link AllowConcurrentEvents}, event handler\n"
+    }
+}

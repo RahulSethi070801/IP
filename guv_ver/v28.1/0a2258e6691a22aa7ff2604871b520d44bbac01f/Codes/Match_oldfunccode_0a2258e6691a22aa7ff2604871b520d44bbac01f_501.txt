@@ -1,0 +1,4 @@
+@Override
+@NullableDecl
+@CanIgnoreReturnValue
+T apply(@NullableDecl F input);

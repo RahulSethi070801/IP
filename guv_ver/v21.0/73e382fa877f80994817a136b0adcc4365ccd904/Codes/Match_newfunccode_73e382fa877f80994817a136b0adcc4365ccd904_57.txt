@@ -1,0 +1,5 @@
+@Override
+public void forEach(Consumer<? super K> action) {
+    checkNotNull(action);
+    map.forEach((k, v) -> action.accept(k));
+}

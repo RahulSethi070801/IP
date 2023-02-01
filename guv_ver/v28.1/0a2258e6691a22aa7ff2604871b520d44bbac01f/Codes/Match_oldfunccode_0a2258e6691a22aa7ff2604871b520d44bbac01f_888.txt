@@ -1,0 +1,5 @@
+@Override
+@GwtIncompatible
+public NavigableSet<V> get(@NullableDecl K key) {
+    return (NavigableSet<V>) super.get(key);
+}

@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public SortedSet<V> removeAll(@NullableDecl Object key) {
+    return (SortedSet<V>) super.removeAll(key);
+}

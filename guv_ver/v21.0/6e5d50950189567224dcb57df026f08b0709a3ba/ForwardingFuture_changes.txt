@@ -1,0 +1,4 @@
+ForwardingFuture
+Insertions: [20, 37]
+Deletions: []
+guava/src/com/google/common/util/concurrent/ForwardingFuture.java

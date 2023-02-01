@@ -1,0 +1,12 @@
+@Override
+public Optional<E> edgeConnecting(N nodeU, N nodeV) {
+    Set<E> edgesConnecting = edgesConnecting(nodeU, nodeV);
+    switch(edgesConnecting.size()) {
+        case 0:
+            return Optional.empty();
+        case 1:
+            return Optional.of(edgesConnecting.iterator().next());
+        default:
+            throw new IllegalArgumentException(String.format(MULTIPLE_EDGES_CONNECTING, nodeU, nodeV));
+    }
+}

@@ -1,0 +1,6 @@
+public long approximateCount() {
+    long bitSize = bits.bitSize();
+    long bitCount = bits.bitCount();
+    double fractionOfBitsSet = (double) bitCount / bitSize;
+    return DoubleMath.roundToLong(-Math.log1p(-fractionOfBitsSet) * bitSize / numHashFunctions, RoundingMode.HALF_UP);
+}

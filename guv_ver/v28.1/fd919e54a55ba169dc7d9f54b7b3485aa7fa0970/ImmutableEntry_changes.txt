@@ -1,0 +1,4 @@
+ImmutableEntry
+Insertions: [23]
+Deletions: [23, 24, 25]
+android/guava/src/com/google/common/collect/ImmutableEntry.java

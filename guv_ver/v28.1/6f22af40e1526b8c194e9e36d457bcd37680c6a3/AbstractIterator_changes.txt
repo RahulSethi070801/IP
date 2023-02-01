@@ -1,0 +1,4 @@
+AbstractIterator
+Insertions: [23, 46]
+Deletions: [23, 46]
+android/guava/src/com/google/common/base/AbstractIterator.java

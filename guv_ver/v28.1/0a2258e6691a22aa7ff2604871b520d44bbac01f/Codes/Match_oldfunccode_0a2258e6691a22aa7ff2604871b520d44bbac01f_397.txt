@@ -1,0 +1,3 @@
+public static String nullToEmpty(@NullableDecl String string) {
+    return Platform.nullToEmpty(string);
+}

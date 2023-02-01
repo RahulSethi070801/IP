@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "31": "  @Param({\"1\", \"2\", \"3\", \"4\", \"5\", \"6\"})\n",
+        "32": "  int length;\n",
+        "53": "  @Benchmark\n",
+        "54": "  int time(int reps) {\n"
+    },
+    "removed": {
+        "31": "  @Param({\"1\", \"2\", \"3\", \"4\", \"5\", \"6\"}) int length;\n",
+        "52": "  @Benchmark int time(int reps) {\n"
+    }
+}

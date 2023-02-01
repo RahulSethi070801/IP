@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "196": "public void testToJavaUtil_instance() throws Exception {\n",
+        "198": "  testCase.testToJavaUtil_instance();\n",
+        "199": "}\n",
+        "200": "\n",
+        "201": "public void testToJavaUtil_static() throws Exception {\n",
+        "202": "  com.google.common.base.OptionalTest testCase = new com.google.common.base.OptionalTest();\n",
+        "203": "  testCase.testToJavaUtil_static();\n"
+    },
+    "removed": {
+        "196": "public void testToJavaUtil() throws Exception {\n",
+        "198": "  testCase.testToJavaUtil();\n"
+    }
+}

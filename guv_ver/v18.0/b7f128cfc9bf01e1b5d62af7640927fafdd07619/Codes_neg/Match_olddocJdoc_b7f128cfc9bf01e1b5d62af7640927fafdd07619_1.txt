@@ -1,0 +1,5 @@
+
+   * Waits for the all the services to reach a terminal state. After this method returns all
+   * services will either be {@link Service.State#TERMINATED terminated} or 
+   * {@link Service.State#FAILED failed}
+   

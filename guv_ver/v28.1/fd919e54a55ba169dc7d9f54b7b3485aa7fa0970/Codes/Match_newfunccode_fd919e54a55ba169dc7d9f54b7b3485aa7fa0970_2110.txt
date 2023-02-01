@@ -1,0 +1,4 @@
+@Override
+public BaseEncoding upperCase() {
+    return delegate.upperCase().withSeparator(separator, afterEveryChars);
+}

@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "9": " * http://gee.cs.oswego.edu/cgi-bin/viewcvs.cgi/jsr166/src/jsr166e/LongAdder.java?revision=1.17\n",
+        "30": " * <p>This class is usually preferable to {@link AtomicLong} when\n",
+        "39": " * methods such as {@code equals}, {@code hashCode} and {@code\n",
+        "40": " * compareTo} because instances are expected to be mutated, and so are\n",
+        "41": " * not useful as collection keys.\n",
+        "44": " * java.util.concurrent.atomic.</em>\n",
+        "70": "        Cell[] as; long b, v; int[] hc; Cell a; int n;\n",
+        "73": "            if ((hc = threadHashCode.get()) == null ||\n",
+        "74": "                as == null || (n = as.length) < 1 ||\n",
+        "75": "                (a = as[(n - 1) & hc[0]]) == null ||\n",
+        "97": "     * atomic snapshot; invocation in the absence of concurrent\n",
+        "197": "    private void writeObject(ObjectOutputStream s) throws IOException {\n",
+        "203": "            throws IOException, ClassNotFoundException {\n"
+    },
+    "removed": {
+        "9": " * http://gee.cs.oswego.edu/cgi-bin/viewcvs.cgi/jsr166/src/jsr166e/LongAdder.java?revision=1.8\n",
+        "30": " * <p> This class is usually preferable to {@link AtomicLong} when\n",
+        "39": " * methods such as {@code hashCode} and {@code compareTo} because\n",
+        "40": " * instances are expected to be mutated, and so are not useful as\n",
+        "41": " * collection keys.\n",
+        "44": " * java.util.concurrent.atomic<em>\n",
+        "70": "        Cell[] as; long b, v; HashCode hc; Cell a; int n;\n",
+        "73": "            int h = (hc = threadHashCode.get()).code;\n",
+        "74": "            if (as == null || (n = as.length) < 1 ||\n",
+        "75": "                (a = as[(n - 1) & h]) == null ||\n",
+        "97": "     * atomic snapshot: Invocation in the absence of concurrent\n",
+        "197": "    private void writeObject(ObjectOutputStream s)\n",
+        "198": "        throws java.io.IOException {\n",
+        "204": "        throws IOException, ClassNotFoundException {\n"
+    }
+}

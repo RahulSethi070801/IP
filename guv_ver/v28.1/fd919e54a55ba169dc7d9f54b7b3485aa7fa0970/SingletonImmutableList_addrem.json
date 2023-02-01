@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "42": "  @Override\n",
+        "43": "  List<E> delegateList() {\n"
+    },
+    "removed": {
+        "42": "  @Override List<E> delegateList() {\n"
+    }
+}

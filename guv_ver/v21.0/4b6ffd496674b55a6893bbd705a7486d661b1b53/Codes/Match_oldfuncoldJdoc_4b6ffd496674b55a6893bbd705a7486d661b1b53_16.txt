@@ -1,0 +1,10 @@
+
+   * Combines multiple iterables into a single iterable. The returned iterable
+   * has an iterator that traverses the elements of each iterable in
+   * {@code inputs}. The input iterators are not polled until necessary.
+   *
+   * <p>The returned iterable's iterator supports {@code remove()} when the
+   * corresponding input iterator supports it. The methods of the returned
+   * iterable may throw {@code NullPointerException} if any of the input
+   * iterators is null.
+   

@@ -1,0 +1,4 @@
+CollectionIteratorTester_2
+Insertions: [42, 43]
+Deletions: [42, 43, 44]
+guava-testlib/src/com/google/common/collect/testing/testers/CollectionIteratorTester.java

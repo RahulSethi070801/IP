@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "39": "  private static final Set<QuantilesAlgorithm> NON_REFERENCE_ALGORITHMS =\n",
+        "40": "      Sets.difference(\n",
+        "41": "          ImmutableSet.copyOf(QuantilesAlgorithm.values()), ImmutableSet.of(REFERENCE_ALGORITHM));\n"
+    },
+    "removed": {
+        "39": "  private static final Set<QuantilesAlgorithm> NON_REFERENCE_ALGORITHMS = Sets.difference(\n",
+        "40": "      ImmutableSet.copyOf(QuantilesAlgorithm.values()), ImmutableSet.of(REFERENCE_ALGORITHM));\n"
+    }
+}

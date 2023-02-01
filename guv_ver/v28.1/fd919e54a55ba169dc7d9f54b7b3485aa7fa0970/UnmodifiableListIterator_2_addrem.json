@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "23": " * A list iterator that does not support {@link #remove}, {@link #add}, or {@link #set}.\n"
+    },
+    "removed": {
+        "23": " * A list iterator that does not support {@link #remove}, {@link #add}, or\n",
+        "24": " * {@link #set}.\n"
+    }
+}

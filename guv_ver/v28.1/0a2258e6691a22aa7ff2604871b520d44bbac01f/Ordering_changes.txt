@@ -1,0 +1,4 @@
+Ordering
+Insertions: [38, 527, 530, 595, 614, 687, 706, 934]
+Deletions: [38, 527, 530, 595, 614, 687, 706, 934]
+guava/src/com/google/common/collect/Ordering.java

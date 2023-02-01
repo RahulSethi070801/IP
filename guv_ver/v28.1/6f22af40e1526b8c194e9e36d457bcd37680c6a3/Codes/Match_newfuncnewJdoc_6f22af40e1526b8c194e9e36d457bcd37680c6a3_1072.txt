@@ -1,0 +1,13 @@
+
+   * Returns the equivalent {@code java.util.Optional} value to the given {@code
+   * com.google.common.base.Optional}, or {@code null} if the argument is null.
+   *
+   * <p>If {@code googleOptional} is known to be non-null, use {@code googleOptional.toJavaUtil()}
+   * instead.
+   *
+   * <p>Unfortunately, the method reference {@code Optional::toJavaUtil} will not work, because it
+   * could refer to either the static or instance version of this method. Write out the lambda
+   * expression {@code o -> Optional.toJavaUtil(o)} instead.
+   *
+   * @since 21.0
+   

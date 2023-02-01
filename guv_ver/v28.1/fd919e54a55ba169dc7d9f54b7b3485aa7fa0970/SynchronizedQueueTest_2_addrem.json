@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "175": "    create().toArray(new String[] {\"foo\"});\n"
+    },
+    "removed": {
+        "175": "    create().toArray(new String[] { \"foo\" });\n"
+    }
+}

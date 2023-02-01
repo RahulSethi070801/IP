@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "311": "   * {@inheritDoc}\n",
+        "319": "   * {@inheritDoc}\n"
+    },
+    "removed": {
+        "260": "  /**\n",
+        "261": "   * Returns the nodes which have an {@linkplain #incidentEdges(Object) incident edge}\n",
+        "262": "   * in common with {@code node} in this graph.\n",
+        "263": "   *\n",
+        "264": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "265": "   */\n",
+        "266": "  @Override\n",
+        "267": "  Set<N> adjacentNodes(Object node);\n",
+        "268": "\n",
+        "320": "   * Returns the number of {@linkplain #inEdges(Object) incoming edges} in this graph\n",
+        "321": "   * of {@code node}.  If this node has more than {@code Integer.MAX_VALUE} incoming edges\n",
+        "322": "   * in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "325": "   *\n",
+        "326": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "332": "   * Returns the number of {@linkplain #outEdges(Object) outgoing edges} in this graph\n",
+        "333": "   * of {@code node}.  If this node has more than {@code Integer.MAX_VALUE} outgoing edges\n",
+        "334": "   * in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "337": "   *\n",
+        "338": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n"
+    }
+}

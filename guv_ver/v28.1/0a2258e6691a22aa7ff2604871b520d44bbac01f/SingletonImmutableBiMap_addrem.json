@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "54": "  public V get(@Nullable Object key) {\n",
+        "69": "  public boolean containsKey(@Nullable Object key) {\n",
+        "74": "  public boolean containsValue(@Nullable Object value) {\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "54": "  public V get(@NullableDecl Object key) {\n",
+        "69": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "74": "  public boolean containsValue(@NullableDecl Object value) {\n"
+    }
+}

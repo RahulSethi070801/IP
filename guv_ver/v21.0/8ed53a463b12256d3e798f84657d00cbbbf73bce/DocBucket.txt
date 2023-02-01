@@ -1,0 +1,10 @@
+com.google.common.graph.Graph
+addEdge
+boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.Graph
+edgesConnecting
+Set<E> edgesConnecting(Object node1, Object node2)
+Object,Object
+Set

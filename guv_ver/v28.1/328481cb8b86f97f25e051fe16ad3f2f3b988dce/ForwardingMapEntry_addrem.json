@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "60": "  protected abstract Entry<K, V> delegate();\n"
+    },
+    "removed": {
+        "60": "  protected abstract Map.Entry<K, V> delegate();\n"
+    }
+}

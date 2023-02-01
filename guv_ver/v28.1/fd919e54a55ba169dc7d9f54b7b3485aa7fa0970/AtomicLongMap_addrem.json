@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "49": " * <p><b>Warning:</b> Unlike {@code Multiset}, entries whose values are zero are not automatically\n",
+        "63": "  /** Creates an {@code AtomicLongMap}. */\n",
+        "68": "  /** Creates an {@code AtomicLongMap} with the same mappings as the specified {@code Map}. */\n",
+        "303": "  /** Returns a live, read-only view of the map backing this {@code AtomicLongMap}. */\n",
+        "321": "  /** Returns true if this map contains a mapping for the specified key. */\n",
+        "334": "  /** Returns {@code true} if this map contains no key-value mappings. */\n"
+    },
+    "removed": {
+        "49": " * <b>Warning:</b> Unlike {@code Multiset}, entries whose values are zero are not automatically\n",
+        "63": "  /**\n",
+        "64": "   * Creates an {@code AtomicLongMap}.\n",
+        "65": "   */\n",
+        "70": "  /**\n",
+        "71": "   * Creates an {@code AtomicLongMap} with the same mappings as the specified {@code Map}.\n",
+        "72": "   */\n",
+        "307": "  /**\n",
+        "308": "   * Returns a live, read-only view of the map backing this {@code AtomicLongMap}.\n",
+        "309": "   */\n",
+        "327": "  /**\n",
+        "328": "   * Returns true if this map contains a mapping for the specified key.\n",
+        "329": "   */\n",
+        "342": "  /**\n",
+        "343": "   * Returns {@code true} if this map contains no key-value mappings.\n",
+        "344": "   */\n"
+    }
+}

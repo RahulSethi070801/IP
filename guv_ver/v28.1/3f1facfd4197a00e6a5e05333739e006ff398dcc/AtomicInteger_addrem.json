@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "20": " * GWT emulated version of {@link AtomicInteger}. It's a thin wrapper around the primitive {@code\n",
+        "21": " * int}.\n",
+        "33": "  public AtomicInteger() {}\n",
+        "89": "  @Override\n",
+        "90": "  public String toString() {\n"
+    },
+    "removed": {
+        "20": " * GWT emulated version of {@link AtomicInteger}.  It's a thin wrapper\n",
+        "21": " * around the primitive {@code int}.\n",
+        "33": "  public AtomicInteger() {\n",
+        "34": "  }\n",
+        "90": "  @Override public String toString() {\n"
+    }
+}

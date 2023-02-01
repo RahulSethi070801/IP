@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "30": "  private static class TestMap extends ForwardingConcurrentMap<String, Integer> {\n",
+        "33": "    @Override\n",
+        "34": "    protected ConcurrentMap<String, Integer> delegate() {\n"
+    },
+    "removed": {
+        "30": "  private static class TestMap\n",
+        "31": "      extends ForwardingConcurrentMap<String, Integer> {\n",
+        "34": "    @Override protected ConcurrentMap<String, Integer> delegate() {\n"
+    }
+}

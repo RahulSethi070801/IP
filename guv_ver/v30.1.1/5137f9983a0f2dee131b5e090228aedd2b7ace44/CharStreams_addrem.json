@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "31": "import javax.annotation.CheckForNull;\n",
+        "32": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "49": "@ElementTypesAreNonnullByDefault\n",
+        "220": "  @ParametricNullness\n",
+        "221": "  public static <T extends @Nullable Object> T readLines(\n",
+        "222": "      Readable readable, LineProcessor<T> processor) throws IOException {\n",
+        "314": "    public Writer append(@CheckForNull CharSequence csq) {\n",
+        "319": "    public Writer append(@CheckForNull CharSequence csq, int start, int end) {\n"
+    },
+    "removed": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "218": "  public static <T> T readLines(Readable readable, LineProcessor<T> processor) throws IOException {\n",
+        "310": "    public Writer append(@NullableDecl CharSequence csq) {\n",
+        "315": "    public Writer append(@NullableDecl CharSequence csq, int start, int end) {\n"
+    }
+}

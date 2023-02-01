@@ -1,0 +1,8 @@
+
+   * Returns an immutable list of paths to the files contained in the given directory.
+   *
+   * @throws NoSuchFileException if the file does not exist <i>(optional specific exception)</i>
+   * @throws NotDirectoryException if the file could not be opened because it is not a directory
+   *     <i>(optional specific exception)</i>
+   * @throws IOException if an I/O error occurs
+   

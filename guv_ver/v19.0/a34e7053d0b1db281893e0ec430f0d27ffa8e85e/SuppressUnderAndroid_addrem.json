@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "32": " * Signifies that a member should be stripped from the internal Android flavor of Guava. This\n",
+        "33": " * annotation is respected only by our Google-internal build system. Note that that system also\n",
+        "34": " * strips any test annotated with MediumTest or LargeTest.\n",
+        "35": " *\n",
+        "36": " * TODO(cpovirk): Replicate this revised description to other copies of the annotation, or better\n",
+        "37": " * yet, eliminate the need to use it in prod code, revert the description, and move it back to the\n",
+        "38": " * test directory.\n"
+    },
+    "removed": {
+        "32": " * Signifies that a test should not be run under Android. This annotation is respected only by our\n",
+        "33": " * Google-internal Android suite generators. Note that those generators also suppress any test\n",
+        "34": " * annotated with MediumTest or LargeTest.\n"
+    }
+}

@@ -1,0 +1,4 @@
+ImmutableSet
+Insertions: [43, 283, 305]
+Deletions: [43, 283, 305]
+guava/src/com/google/common/collect/ImmutableSet.java

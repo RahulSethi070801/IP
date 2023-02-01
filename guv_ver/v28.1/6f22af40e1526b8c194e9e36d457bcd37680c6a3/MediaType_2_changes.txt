@@ -1,0 +1,4 @@
+MediaType_2
+Insertions: [47, 888]
+Deletions: [47, 888]
+guava/src/com/google/common/net/MediaType.java

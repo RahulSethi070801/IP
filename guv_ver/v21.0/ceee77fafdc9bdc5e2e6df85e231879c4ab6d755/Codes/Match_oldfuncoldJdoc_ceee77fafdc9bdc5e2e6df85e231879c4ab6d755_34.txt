@@ -1,0 +1,9 @@
+
+   * Returns the transitive closure of {@code graph}. The transitive closure of a graph is another
+   * graph with an edge connecting node A to node B iff node B is {@link #reachableNodes(Graph,
+   * Object) reachable} from node A.
+   *
+   * <p>This is a "snapshot" based on the current topology of {@code graph}, rather than a live
+   * view of the transitive closure of {@code graph}. In other words, the returned {@link Graph}
+   * will not be updated after modifications to {@code graph}.
+   

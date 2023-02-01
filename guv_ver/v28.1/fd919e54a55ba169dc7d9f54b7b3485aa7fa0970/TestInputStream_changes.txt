@@ -1,0 +1,4 @@
+TestInputStream
+Insertions: [31]
+Deletions: [31, 32, 33]
+android/guava-tests/test/com/google/common/io/TestInputStream.java

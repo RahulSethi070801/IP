@@ -1,0 +1,11 @@
+@Override
+public L getAt(int index) {
+    Preconditions.checkElementIndex(index, size());
+    L existing = locks.get(index);
+    if (existing != null) {
+        return existing;
+    }
+    L created = supplier.get();
+    existing = locks.putIfAbsent(index, created);
+    return firstNonNull(existing, created);
+}

@@ -1,0 +1,10 @@
+@Override
+public long size() throws IOException {
+    BasicFileAttributes attrs = readAttributes();
+    if (attrs.isDirectory()) {
+        throw new IOException("can't read: is a directory");
+    } else if (attrs.isSymbolicLink()) {
+        throw new IOException("can't read: is a symbolic link");
+    }
+    return attrs.size();
+}

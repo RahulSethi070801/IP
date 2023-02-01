@@ -1,0 +1,4 @@
+Cache
+Insertions: [26, 48]
+Deletions: [26, 48]
+guava/src/com/google/common/cache/Cache.java

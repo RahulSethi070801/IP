@@ -1,0 +1,14 @@
+public static <N, E> MutableNetwork<N, E> copyOf(Network<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate) {
+    checkNotNull(graph, "graph");
+    checkNotNull(nodePredicate, "nodePredicate");
+    checkNotNull(edgePredicate, "edgePredicate");
+    MutableNetwork<N, E> copy = NetworkBuilder.from(graph).expectedNodeCount(graph.nodes().size()).expectedEdgeCount(graph.edges().size()).build();
+    mergeNodesFrom(graph, copy, nodePredicate);
+    for (E edge : Sets.filter(graph.edges(), edgePredicate)) {
+        Endpoints<N> endpoints = graph.incidentNodes(edge);
+        if (copy.nodes().containsAll(endpoints)) {
+            addEdge(copy, edge, endpoints);
+        }
+    }
+    return copy;
+}

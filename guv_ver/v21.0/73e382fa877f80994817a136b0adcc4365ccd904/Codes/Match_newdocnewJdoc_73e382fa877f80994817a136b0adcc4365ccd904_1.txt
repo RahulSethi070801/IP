@@ -1,0 +1,9 @@
+
+   * Returns an {@code ImmutableSet} containing all of the elements from this fluent iterable with
+   * duplicates removed.
+   *
+   * <p><b>{@code Stream} equivalent:</b> pass {@link ImmutableSet#toImmutableSet} to {@code
+   * stream.collect()}.
+   *
+   * @since 14.0 (since 12.0 as {@code toImmutableSet()}).
+   

@@ -1,0 +1,5 @@
+
+   * If {@code key} is not already associated with a value or if {@code key} is associated with
+   * zero, associate it with {@code newValue}. Returns the previous value associated with
+   * {@code key}, or zero if there was no mapping for {@code key}.
+   

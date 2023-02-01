@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "18": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "43": "  // not guaranteed to skip n bytes so result should NOT be ignored\n",
+        "44": "  // use ByteStreams.skipFully or one of the read methods instead\n",
+        "48": "  @CanIgnoreReturnValue // to skip a byte\n",
+        "52": "  @CanIgnoreReturnValue // to skip a byte\n",
+        "56": "  @CanIgnoreReturnValue // to skip a byte\n",
+        "60": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "64": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "68": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "72": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "76": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "80": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "84": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "88": "  @CanIgnoreReturnValue // to skip a line\n",
+        "92": "  @CanIgnoreReturnValue // to skip a field\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,4 @@
+@Deprecated
+public static <V> void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback) {
+    addCallback(future, callback, directExecutor());
+}

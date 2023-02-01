@@ -1,0 +1,4 @@
+SampleElements_2
+Insertions: [23, 91]
+Deletions: [23, 91]
+guava-testlib/src/com/google/common/collect/testing/SampleElements.java

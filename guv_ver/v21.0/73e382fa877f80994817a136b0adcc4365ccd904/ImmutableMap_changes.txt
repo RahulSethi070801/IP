@@ -1,0 +1,4 @@
+ImmutableMap
+Insertions: [24, 25, 32, 36, 37, 38, 39, 40, 41, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 184, 185, 186, 187, 188, 189, 333, 334, 335, 336]
+Deletions: []
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableMap.java

@@ -1,0 +1,3 @@
+private void removeAllNodes(@NullableDecl Object key) {
+    Iterators.clear(new ValueForKeyIterator(key));
+}

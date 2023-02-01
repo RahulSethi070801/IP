@@ -1,0 +1,3 @@
+public static BaseEncoding base32() {
+    return BASE32;
+}

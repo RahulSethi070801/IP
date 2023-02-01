@@ -1,0 +1,4 @@
+CollectionSizeTester
+Insertions: [23, 24]
+Deletions: [23, 24, 25]
+android/guava-testlib/src/com/google/common/collect/testing/testers/CollectionSizeTester.java

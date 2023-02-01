@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public V remove(@Nullable Object key) {
+    return containsKey(key) ? removeFromBothMaps(key) : null;
+}

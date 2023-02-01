@@ -1,0 +1,21 @@
+@GwtIncompatible("threads")
+static Runnable threadRenaming(final Runnable task, final Supplier<String> nameSupplier) {
+    checkNotNull(nameSupplier);
+    checkNotNull(task);
+    return new Runnable() {
+
+        @Override
+        public void run() {
+            Thread currentThread = Thread.currentThread();
+            String oldName = currentThread.getName();
+            boolean restoreName = trySetName(nameSupplier.get(), currentThread);
+            try {
+                task.run();
+            } finally {
+                if (restoreName) {
+                    trySetName(oldName, currentThread);
+                }
+            }
+        }
+    };
+}

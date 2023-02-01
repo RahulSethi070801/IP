@@ -1,0 +1,4 @@
+AbstractValueGraph
+Insertions: [140]
+Deletions: [19, 20, 21, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 155]
+android/guava/src/com/google/common/graph/AbstractValueGraph.java

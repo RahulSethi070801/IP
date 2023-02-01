@@ -1,0 +1,13 @@
+@Nullable
+static <T> T removeFirstMatching(Iterable<T> removeFrom, Predicate<? super T> predicate) {
+    checkNotNull(predicate);
+    Iterator<T> iterator = removeFrom.iterator();
+    while (iterator.hasNext()) {
+        T next = iterator.next();
+        if (predicate.apply(next)) {
+            iterator.remove();
+            return next;
+        }
+    }
+    return null;
+}

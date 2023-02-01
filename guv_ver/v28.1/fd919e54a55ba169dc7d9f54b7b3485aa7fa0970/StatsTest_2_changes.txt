@@ -1,0 +1,4 @@
+StatsTest_2
+Insertions: [85, 86, 481, 482, 490, 491, 585, 594, 595, 596, 597, 598, 599, 609, 610, 611, 612, 613]
+Deletions: [85, 86, 481, 489, 490, 584, 593, 594, 604, 605]
+guava-tests/test/com/google/common/math/StatsTest.java

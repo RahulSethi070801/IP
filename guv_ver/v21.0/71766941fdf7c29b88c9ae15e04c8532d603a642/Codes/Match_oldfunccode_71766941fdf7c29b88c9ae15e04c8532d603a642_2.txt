@@ -1,0 +1,4 @@
+@Override
+public int outDegree(Object node) {
+    return successors(node).size();
+}

@@ -1,0 +1,25 @@
+
+   * Returns {@code true} iff {@code object} is the same type of graph (directed, undirected,
+   * hypergraph) as this graph, and the same node/edge relationships exist in both graphs.
+   *
+   * <p>Thus, two graphs A and B are equal if <b>all</b> of the following are true:
+   * <ul>
+   * <li>A and B are of the same type ({@code DirectedGraph, UndirectedGraph, Hypergraph})
+   * <li>A and B have the same node set
+   * <li>A and B have the same edge set
+   * <li>A and B have the same incidence relationships, e.g., for each node/edge in A and in B
+   *     its incident edge/node set in A is the same as its incident edge/node set in B.
+   *     <br>Thus, even if a {@code node} has the same sets of <i>adjacent</i> nodes
+   *         (neighbors) in both A and B, if the sets of edges by which {@code node} is connected to
+   *         its adjacent nodes are not the same in both A and B, then A and B are not equal.
+   * </ul>
+   *
+   * <p>Properties that are <b>not</b> respected by this method:
+   * <ul>
+   * <li>{@code GraphConfig} configurations.  If two graphs are equal by the above criteria but have
+   * different configurations, they are still equal.  (For example: two graphs may be considered
+   * equal even if one allows parallel edges and the other doesn't.)
+   * <li>Edge/node ordering.  The order in which edges or nodes are added to the graph, and the
+   * order in which they are iterated over, are irrelevant.
+   * </ul>
+   

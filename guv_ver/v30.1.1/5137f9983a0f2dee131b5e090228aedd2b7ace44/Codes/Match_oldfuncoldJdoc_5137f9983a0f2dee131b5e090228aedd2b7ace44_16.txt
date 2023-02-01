@@ -1,0 +1,4 @@
+
+   * Adds the given exception to the given collection, creating the collection if it's null. Returns
+   * the collection.
+   

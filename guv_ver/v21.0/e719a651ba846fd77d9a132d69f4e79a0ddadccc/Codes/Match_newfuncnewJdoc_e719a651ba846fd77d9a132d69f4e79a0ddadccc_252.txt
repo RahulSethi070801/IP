@@ -1,0 +1,12 @@
+
+   * Returns a new {@link ByteArrayDataOutput} instance which writes to the given
+   * {@code ByteArrayOutputStream}. The given output stream is not reset before being written to by
+   * the returned {@code ByteArrayDataOutput} and new data will be appended to any existing content.
+   *
+   * <p>Note that if the given output stream was not empty or is modified after the
+   * {@code ByteArrayDataOutput} is created, the contract for
+   * {@link ByteArrayDataOutput#toByteArray} will not be honored (the bytes returned in the byte
+   * array may not be exactly what was written via calls to {@code ByteArrayDataOutput}).
+   *
+   * @since 17.0
+   

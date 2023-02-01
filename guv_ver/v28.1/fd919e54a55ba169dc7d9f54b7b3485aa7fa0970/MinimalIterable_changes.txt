@@ -1,0 +1,4 @@
+MinimalIterable
+Insertions: [25, 26, 28, 29, 32, 33, 34, 35, 38, 39, 40, 42, 43, 51, 58, 59]
+Deletions: [25, 26, 27, 29, 30, 31, 34, 35, 36, 37, 40, 41, 42, 44, 45, 46, 54, 55, 56, 63, 64, 65]
+android/guava-testlib/src/com/google/common/collect/testing/MinimalIterable.java

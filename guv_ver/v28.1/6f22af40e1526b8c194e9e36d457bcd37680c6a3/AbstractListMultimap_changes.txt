@@ -1,0 +1,4 @@
+AbstractListMultimap
+Insertions: [24, 64, 77, 90, 103, 125]
+Deletions: [24, 64, 77, 90, 103, 125]
+android/guava/src/com/google/common/collect/AbstractListMultimap.java

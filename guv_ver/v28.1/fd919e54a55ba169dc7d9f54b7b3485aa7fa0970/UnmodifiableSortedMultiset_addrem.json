@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "25": " * Implementation of {@link Multisets#unmodifiableSortedMultiset(SortedMultiset)}, split out into\n",
+        "26": " * its own file so it can be GWT emulated (to deal with the differing elementSet() types in GWT and\n",
+        "27": " * non-GWT).\n"
+    },
+    "removed": {
+        "25": " * Implementation of {@link Multisets#unmodifiableSortedMultiset(SortedMultiset)},\n",
+        "26": " * split out into its own file so it can be GWT emulated (to deal with the differing\n",
+        "27": " * elementSet() types in GWT and non-GWT).\n"
+    }
+}

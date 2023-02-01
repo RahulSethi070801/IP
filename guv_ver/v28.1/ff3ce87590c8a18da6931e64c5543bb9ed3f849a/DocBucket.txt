@@ -1,0 +1,5 @@
+com.google.common.collect.CompactHashMap
+CompactHashMap
+CompactHashMap(int expectedSize)
+int
+constructor

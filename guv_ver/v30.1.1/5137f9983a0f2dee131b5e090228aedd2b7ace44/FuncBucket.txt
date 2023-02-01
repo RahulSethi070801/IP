@@ -1,0 +1,350 @@
+com.google.common.io.ByteStreams
+readBytes
+public static T readBytes(InputStream input, ByteProcessor<T> processor) throws IOException
+InputStream,ByteProcessor
+T
+com.google.common.io.LineProcessor
+getResult
+T getResult()
+empty
+T
+com.google.common.io.Closer$SuppressingSuppressor
+isAvailable
+static boolean isAvailable()
+empty
+boolean
+com.google.common.io.CharSource
+readLines
+public T readLines(LineProcessor<T> processor) throws IOException
+LineProcessor
+T
+com.google.common.io.MultiInputStream
+read
+public int read(byte @Nullable [] b, int off, int len) throws IOException
+[],int,int
+int
+com.google.common.io.MoreFiles
+deleteRecursivelySecure
+private static Collection<IOException> deleteRecursivelySecure(SecureDirectoryStream<Path> dir, Path path)
+SecureDirectoryStream,Path
+Collection
+com.google.common.io.FileBackedOutputStream
+update
+private void update(int len) throws IOException
+int
+void
+com.google.common.io.MultiReader
+read
+public int read(char @Nullable [] cbuf, int off, int len) throws IOException
+[],int,int
+int
+com.google.common.io.Closeables
+closeQuietly
+public static void closeQuietly(@Nullable InputStream inputStream)
+InputStream
+void
+com.google.common.io.ByteSource
+read
+public T read(ByteProcessor<T> processor) throws IOException
+ByteProcessor
+T
+com.google.common.io.BaseEncoding
+separatingAppendable
+static Appendable separatingAppendable(final Appendable delegate, final String separator, final int afterEveryChars)
+Appendable,String,int
+Appendable
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+newInstance
+BaseEncoding newInstance(Alphabet alphabet, @CheckForNull Character paddingChar)
+Alphabet,Character
+BaseEncoding
+com.google.common.io.FileBackedOutputStream
+FileBackedOutputStream
+private FileBackedOutputStream(int fileThreshold, boolean resetOnFinalize, @CheckForNull File parentDirectory)
+int,boolean,File
+constructor
+com.google.common.io.MoreFiles
+getParentPath
+private static Path getParentPath(Path path)
+Path
+Path
+com.google.common.io.Files
+readLines
+public static T readLines(File file, Charset charset, LineProcessor<T> callback) throws IOException
+File,Charset,LineProcessor
+T
+com.google.common.io.BaseEncoding$Base64Encoding
+Base64Encoding
+Base64Encoding(String name, String alphabetChars, @Nullable Character paddingChar)
+String,String,Character
+constructor
+com.google.common.io.Closer
+register
+public C register(@CheckForNull C closeable)
+C
+C
+com.google.common.io.MoreFiles
+addException
+private static Collection<IOException> addException(@Nullable Collection<IOException> exceptions, IOException e)
+Collection,IOException
+Collection
+com.google.common.io.MultiReader
+read
+public int read(char[] cbuf, int off, int len) throws IOException
+char[],int,int
+int
+com.google.common.io.AppendableWriter
+append
+public Writer append(@Nullable CharSequence charSeq, int start, int end) throws IOException
+CharSequence,int,int
+Writer
+com.google.common.io.MoreFiles
+deleteDirectoryContentsSecure
+private static Collection<IOException> deleteDirectoryContentsSecure(SecureDirectoryStream<Path> dir)
+SecureDirectoryStream
+Collection
+com.google.common.io.CharStreams$NullWriter
+append
+public Writer append(@Nullable CharSequence csq)
+CharSequence
+Writer
+com.google.common.io.MoreFiles
+deleteRecursivelyInsecure
+private static Collection<IOException> deleteRecursivelyInsecure(Path path)
+Path
+Collection
+com.google.common.io.FileBackedOutputStream
+openInputStream
+private synchronized InputStream openInputStream() throws IOException
+empty
+InputStream
+com.google.common.io.InsecureRecursiveDeleteException
+InsecureRecursiveDeleteException
+public InsecureRecursiveDeleteException(@CheckForNull String file)
+String
+constructor
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+StandardBaseEncoding
+StandardBaseEncoding(String name, String alphabetChars, @Nullable Character paddingChar)
+String,String,Character
+constructor
+com.google.common.io.CharStreams$NullWriter
+append
+public Writer append(@CheckForNull CharSequence csq)
+CharSequence
+Writer
+com.google.common.io.ByteArrayDataInput
+readLine
+String readLine()
+empty
+String
+com.google.common.io.Resources
+readLines
+public static T readLines(URL url, Charset charset, LineProcessor<T> callback) throws IOException
+URL,Charset,LineProcessor
+T
+com.google.common.io.CharSource
+readFirstLine
+public String readFirstLine() throws IOException
+empty
+String
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+newInstance
+BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar)
+Alphabet,Character
+BaseEncoding
+com.google.common.io.BaseEncoding$Base64Encoding
+Base64Encoding
+private Base64Encoding(Alphabet alphabet, @CheckForNull Character paddingChar)
+Alphabet,Character
+constructor
+com.google.common.io.BaseEncoding$Alphabet
+equals
+public boolean equals(@CheckForNull Object other)
+Object
+boolean
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+StandardBaseEncoding
+StandardBaseEncoding(String name, String alphabetChars, @CheckForNull Character paddingChar)
+String,String,Character
+constructor
+com.google.common.io.FileBackedOutputStream
+getFile
+synchronized File getFile()
+empty
+File
+com.google.common.io.AppendableWriter
+append
+public Writer append(@CheckForNull CharSequence charSeq, int start, int end) throws IOException
+CharSequence,int,int
+Writer
+com.google.common.io.Closer$SuppressingSuppressor
+addSuppressedMethodOrNull
+private static Method addSuppressedMethodOrNull()
+empty
+Method
+com.google.common.io.Closeables
+closeQuietly
+public static void closeQuietly(@Nullable Reader reader)
+Reader
+void
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+StandardBaseEncoding
+StandardBaseEncoding(Alphabet alphabet, @CheckForNull Character paddingChar)
+Alphabet,Character
+constructor
+com.google.common.io.CharSource$CharSequenceCharSource
+readFirstLine
+public String readFirstLine()
+empty
+String
+com.google.common.io.InsecureRecursiveDeleteException
+InsecureRecursiveDeleteException
+public InsecureRecursiveDeleteException(@Nullable String file)
+String
+constructor
+com.google.common.io.AppendableWriter
+append
+public Writer append(@CheckForNull CharSequence charSeq) throws IOException
+CharSequence
+Writer
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+StandardBaseEncoding
+StandardBaseEncoding(Alphabet alphabet, @Nullable Character paddingChar)
+Alphabet,Character
+constructor
+com.google.common.io.Files
+readFirstLine
+public static String readFirstLine(File file, Charset charset) throws IOException
+File,Charset
+String
+com.google.common.io.BaseEncoding
+append
+public Appendable append(@CheckForNull CharSequence chars, int off, int len)
+CharSequence,int,int
+Appendable
+com.google.common.io.MoreFiles
+deleteDirectoryContentsInsecure
+private static Collection<IOException> deleteDirectoryContentsInsecure(DirectoryStream<Path> dir)
+DirectoryStream
+Collection
+com.google.common.io.MoreFiles
+addException
+private static Collection<IOException> addException(@CheckForNull Collection<IOException> exceptions, IOException e)
+Collection,IOException
+Collection
+com.google.common.io.BaseEncoding$Alphabet
+equals
+public boolean equals(@Nullable Object other)
+Object
+boolean
+com.google.common.io.MultiInputStream
+read
+public int read(byte[] b, int off, int len) throws IOException
+byte[],int,int
+int
+com.google.common.io.BaseEncoding$Base64Encoding
+Base64Encoding
+Base64Encoding(String name, String alphabetChars, @CheckForNull Character paddingChar)
+String,String,Character
+constructor
+com.google.common.io.Closeables
+closeQuietly
+public static void closeQuietly(@CheckForNull InputStream inputStream)
+InputStream
+void
+com.google.common.io.Closeables
+closeQuietly
+public static void closeQuietly(@CheckForNull Reader reader)
+Reader
+void
+com.google.common.io.Files
+readBytes
+public static T readBytes(File file, ByteProcessor<T> processor) throws IOException
+File,ByteProcessor
+T
+com.google.common.io.CharStreams$NullWriter
+append
+public Writer append(@CheckForNull CharSequence csq, int start, int end)
+CharSequence,int,int
+Writer
+com.google.common.io.FileBackedOutputStream
+FileBackedOutputStream
+private FileBackedOutputStream(int fileThreshold, boolean resetOnFinalize, @Nullable File parentDirectory)
+int,boolean,File
+constructor
+com.google.common.io.Closeables
+close
+public static void close(@CheckForNull Closeable closeable, boolean swallowIOException) throws IOException
+Closeable,boolean
+void
+com.google.common.io.Closer$SuppressingSuppressor
+tryCreate
+static SuppressingSuppressor tryCreate()
+empty
+SuppressingSuppressor
+com.google.common.io.CharStreams
+readLines
+public static T readLines(Readable readable, LineProcessor<T> processor) throws IOException
+Readable,LineProcessor
+T
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readLine
+public String readLine()
+empty
+String
+com.google.common.io.BaseEncoding$Base64Encoding
+Base64Encoding
+private Base64Encoding(Alphabet alphabet, @Nullable Character paddingChar)
+Alphabet,Character
+constructor
+com.google.common.io.PatternFilenameFilter
+accept
+public boolean accept(@Nullable File dir, String fileName)
+File,String
+boolean
+com.google.common.io.MoreFiles
+pathNotFound
+private static NoSuchFileException pathNotFound(Path path, Collection<IOException> exceptions)
+Path,Collection
+NoSuchFileException
+com.google.common.io.MoreFiles
+concat
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+Collection,Collection
+Collection
+com.google.common.io.Closer
+register
+public C register(@Nullable C closeable)
+C
+C
+com.google.common.io.Closer$SuppressingSuppressor
+SuppressingSuppressor
+private SuppressingSuppressor(Method addSuppressed)
+Method
+constructor
+com.google.common.io.AppendableWriter
+append
+public Writer append(@Nullable CharSequence charSeq) throws IOException
+CharSequence
+Writer
+com.google.common.io.BaseEncoding
+append
+public Appendable append(@CheckForNull CharSequence chars)
+CharSequence
+Appendable
+com.google.common.io.MoreFiles
+concat
+private static Collection<IOException> concat(@CheckForNull Collection<IOException> exceptions, @CheckForNull Collection<IOException> other)
+Collection,Collection
+Collection
+com.google.common.io.Closeables
+close
+public static void close(@Nullable Closeable closeable, boolean swallowIOException) throws IOException
+Closeable,boolean
+void
+com.google.common.io.CharStreams$NullWriter
+append
+public Writer append(@Nullable CharSequence csq, int start, int end)
+CharSequence,int,int
+Writer

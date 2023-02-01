@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "161": "   * @param expectedSize the initial capacity of this {@code CompactHashMap}.\n",
+        "169": "    Preconditions.checkArgument(expectedSize >= 0, \"Expected size must be non-negative\");\n"
+    },
+    "removed": {
+        "161": "   * @param capacity the initial capacity of this {@code CompactHashMap}.\n",
+        "169": "    Preconditions.checkArgument(expectedSize >= 0, \"Initial capacity must be non-negative\");\n"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "28": "  boolean cancel(boolean mayInterruptIfRunning);\n",
+        "30": "  boolean isCancelled();\n",
+        "32": "  boolean isDone();\n",
+        "38": "  V get() throws InterruptedException, ExecutionException;\n",
+        "40": "  V get(long timeout, TimeUnit unit)\n",
+        "41": "      throws InterruptedException, ExecutionException, TimeoutException;\n"
+    },
+    "removed": {
+        "28": "   boolean cancel(boolean mayInterruptIfRunning);\n",
+        "30": "   boolean isCancelled();\n",
+        "32": "   boolean isDone();\n",
+        "38": "   V get() throws InterruptedException, ExecutionException;\n",
+        "40": "   V get(long timeout, TimeUnit unit)\n",
+        "41": "       throws InterruptedException, ExecutionException, TimeoutException;\n"
+    }
+}

@@ -1,0 +1,14 @@
+
+   * Returns the set of edges that each directly connect {@code endpoints} (in the order, if any,
+   * specified by {@code endpoints}).
+   *
+   * <p>The resulting set of edges will be parallel (i.e. have equal {@link #incidentNodes(Object)}.
+   * If this network does not {@link #allowsParallelEdges() allow parallel edges}, the resulting set
+   * will contain at most one edge (equivalent to {@code edgeConnecting(endpoints).asSet()}).
+   *
+   * <p>If this network is directed, {@code endpoints} must be ordered.
+   *
+   * @throws IllegalArgumentException if either endpoint is not an element of this network
+   * @throws IllegalArgumentException if the endpoints are unordered and the graph is directed
+   * @since NEXT
+   

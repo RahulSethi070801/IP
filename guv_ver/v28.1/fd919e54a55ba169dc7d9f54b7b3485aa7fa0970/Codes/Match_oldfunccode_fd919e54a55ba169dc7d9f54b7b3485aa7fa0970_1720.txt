@@ -1,0 +1,4 @@
+@Override
+public Spliterator<V> spliterator() {
+    return CollectSpliterators.map(map.entrySet().spliterator(), Entry::getValue);
+}

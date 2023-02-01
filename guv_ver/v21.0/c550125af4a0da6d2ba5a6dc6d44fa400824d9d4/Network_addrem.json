@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "216": "   * {@inheritDoc}\n",
+        "320": "   * {@inheritDoc}\n"
+    },
+    "removed": {
+        "216": "   * Returns true if each edge in this graph is directed.\n",
+        "303": "  /**\n",
+        "304": "   * Returns all nodes in this graph adjacent to {@code node} which can be reached by traversing\n",
+        "305": "   * {@code node}'s {@linkplain #inEdges(Object) incoming edges} <i>against</i> the direction\n",
+        "306": "   * (if any) of the edge.\n",
+        "307": "   *\n",
+        "308": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "309": "   */\n",
+        "310": "  @Override\n",
+        "311": "  Set<N> predecessors(Object node);\n",
+        "312": "\n",
+        "313": "  /**\n",
+        "314": "   * Returns all nodes in this graph adjacent to {@code node} which can be reached by traversing\n",
+        "315": "   * {@code node}'s {@linkplain #outEdges(Object) outgoing edges} in the direction (if any) of the\n",
+        "316": "   * edge.\n",
+        "317": "   *\n",
+        "318": "   * <p>This is <i>not</i> the same as \"all nodes reachable from {@code node} by following outgoing\n",
+        "319": "   * edges\" (also known as {@code node}'s transitive closure).\n",
+        "320": "   *\n",
+        "321": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "322": "   */\n",
+        "323": "  @Override\n",
+        "324": "  Set<N> successors(Object node);\n",
+        "325": "\n",
+        "343": "   * Returns the number of edges {@linkplain #incidentEdges(Object) incident} in this graph\n",
+        "344": "   * to {@code node}.  If this node has more than {@code Integer.MAX_VALUE} incident edges\n",
+        "345": "   * in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "348": "   *\n",
+        "349": "   * <p>Note that self-loops only count once towards a node's degree.\n",
+        "350": "   * This is consistent with the definition of {@link #incidentEdges(Object)}.\n",
+        "351": "   *\n",
+        "352": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "27": "import com.google.common.collect.testing.testers.CollectionForEachTester;\n",
+        "31": "import com.google.common.collect.testing.testers.CollectionRemoveIfTester;\n",
+        "36": "import com.google.common.collect.testing.testers.CollectionSpliteratorTester;\n",
+        "37": "import com.google.common.collect.testing.testers.CollectionStreamTester;\n",
+        "65": "        CollectionForEachTester.class,\n",
+        "69": "        CollectionRemoveIfTester.class,\n",
+        "74": "        CollectionSpliteratorTester.class,\n",
+        "75": "        CollectionStreamTester.class,\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,10 @@
+public static boolean isCompatIPv4Address(Inet6Address ip) {
+    if (!ip.isIPv4CompatibleAddress()) {
+        return false;
+    }
+    byte[] bytes = ip.getAddress();
+    if ((bytes[12] == 0) && (bytes[13] == 0) && (bytes[14] == 0) && ((bytes[15] == 0) || (bytes[15] == 1))) {
+        return false;
+    }
+    return true;
+}

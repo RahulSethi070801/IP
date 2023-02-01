@@ -1,0 +1,9 @@
+@Override
+public Collection<Map.Entry<K, V>> entries() {
+    synchronized (mutex) {
+        if (entries == null) {
+            entries = typePreservingCollection(delegate().entries(), mutex);
+        }
+        return entries;
+    }
+}

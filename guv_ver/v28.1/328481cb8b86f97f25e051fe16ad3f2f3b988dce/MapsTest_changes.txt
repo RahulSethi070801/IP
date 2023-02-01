@@ -1,0 +1,4 @@
+MapsTest
+Insertions: [1274, 1275, 1281, 1282, 1290, 1302, 1789, 1791, 1797, 1842, 1843]
+Deletions: [1274, 1275, 1281, 1282, 1290, 1302, 1789, 1791, 1797, 1842, 1843]
+android/guava-tests/test/com/google/common/collect/MapsTest.java

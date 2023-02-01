@@ -1,0 +1,13 @@
+void add(Object o) {
+    checkNotNull(o);
+    if (element == null) {
+        this.element = o;
+    } else if (extras == null) {
+        extras = new ArrayList<>(MAX_EXTRAS);
+        extras.add(o);
+    } else if (extras.size() < MAX_EXTRAS) {
+        extras.add(o);
+    } else {
+        throw multiples(true);
+    }
+}

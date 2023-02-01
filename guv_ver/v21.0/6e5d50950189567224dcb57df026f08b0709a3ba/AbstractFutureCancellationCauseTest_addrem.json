@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "35": "    // Load the \"normal\" copy of SettableFuture and related classes.\n",
+        "36": "    SettableFuture<?> unused = SettableFuture.create();\n"
+    },
+    "removed": {
+        "35": "    SettableFuture.create();\n"
+    }
+}

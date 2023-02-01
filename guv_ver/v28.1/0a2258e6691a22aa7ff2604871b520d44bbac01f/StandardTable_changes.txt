@@ -1,0 +1,4 @@
+StandardTable
+Insertions: [46, 80, 85, 98, 103, 108, 153, 238, 292]
+Deletions: [46, 80, 85, 98, 103, 108, 153, 238, 292]
+guava/src/com/google/common/collect/StandardTable.java

@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "39": "import java.util.stream.Stream;\n",
+        "369": "  public void testCollector() {\n",
+        "370": "    BloomFilter<String> bf1 = BloomFilter.create(Funnels.unencodedCharsFunnel(), 100);\n",
+        "371": "    bf1.put(\"1\");\n",
+        "372": "    bf1.put(\"2\");\n",
+        "373": "\n",
+        "374": "    assertEquals(\n",
+        "375": "        bf1,\n",
+        "376": "        Stream.of(\"1\", \"2\")\n",
+        "377": "            .collect(BloomFilter.toBloomFilter(Funnels.unencodedCharsFunnel(), 100)));\n",
+        "378": "    assertEquals(\n",
+        "379": "        bf1,\n",
+        "380": "        Stream.of(\"2\", \"1\")\n",
+        "381": "            .collect(BloomFilter.toBloomFilter(Funnels.unencodedCharsFunnel(), 100)));\n",
+        "382": "  }\n",
+        "383": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,10 @@
+com.google.common.collect.CompactHashing
+tableSet
+static void tableSet(Object table, int index, int entry)
+Object,int,int
+void
+com.google.common.collect.CompactHashing
+tableGet
+static int tableGet(Object table, int index)
+Object,int
+int

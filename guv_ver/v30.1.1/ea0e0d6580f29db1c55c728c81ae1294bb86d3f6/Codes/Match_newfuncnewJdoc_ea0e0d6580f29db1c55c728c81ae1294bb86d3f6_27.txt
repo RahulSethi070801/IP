@@ -1,0 +1,6 @@
+
+   * A sensible definition of {@link #firstEntry()} in terms of {@code entrySet().iterator()}.
+   *
+   * <p>If you override {@link #entrySet()}, you may wish to override {@link #firstEntry()} to
+   * forward to this implementation.
+   

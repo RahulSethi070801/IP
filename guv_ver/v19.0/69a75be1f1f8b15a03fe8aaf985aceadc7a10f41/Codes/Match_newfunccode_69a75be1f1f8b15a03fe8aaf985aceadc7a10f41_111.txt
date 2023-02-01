@@ -1,0 +1,5 @@
+@Deprecated
+@GwtIncompatible("reflection")
+public static <V, X extends Exception> V get(Future<V> future, long timeout, TimeUnit unit, Class<X> exceptionClass) throws X {
+    return getChecked(future, exceptionClass, timeout, unit);
+}

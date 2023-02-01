@@ -1,0 +1,4 @@
+FluentFutureTest_2
+Insertions: [43, 134, 135]
+Deletions: [43, 134]
+guava-tests/test/com/google/common/util/concurrent/FluentFutureTest.java

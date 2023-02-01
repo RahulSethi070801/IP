@@ -1,0 +1,8 @@
+
+   * Returns a {@link Function} that maps an {@link Enum} name to the associated
+   * {@code Enum} constant. The {@code Function} will return {@code null} if the
+   * {@code Enum} constant does not exist.
+   *
+   * @param enumClass the {@link Class} of the {@code Enum} declaring the
+   *     constant values.
+   

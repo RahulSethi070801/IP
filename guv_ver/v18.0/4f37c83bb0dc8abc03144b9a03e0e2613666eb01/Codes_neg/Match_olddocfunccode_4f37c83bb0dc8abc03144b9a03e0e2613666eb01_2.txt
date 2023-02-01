@@ -1,0 +1,5 @@
+@Override
+@Deprecated
+public final InputStream getInput() throws IOException {
+    return openStream();
+}

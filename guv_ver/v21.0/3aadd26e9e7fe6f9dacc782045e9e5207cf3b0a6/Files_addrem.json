@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "341": "   * Returns true if the given files exist, are not directories, and contain the same bytes.\n"
+    },
+    "removed": {
+        "341": "   * Returns true if the files contains the same bytes.\n"
+    }
+}

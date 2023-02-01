@@ -1,0 +1,5 @@
+com.google.common.collect.ImmutableMap
+copyOf
+public static ImmutableMap<K, V> copyOf(Map<? extends K, ? extends V> map)
+Map
+ImmutableMap

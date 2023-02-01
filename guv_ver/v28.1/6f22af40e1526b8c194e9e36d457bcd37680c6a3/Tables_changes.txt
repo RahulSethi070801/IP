@@ -1,0 +1,4 @@
+Tables
+Insertions: [36, 62, 71, 170, 175, 180, 185, 190, 205, 479, 495, 505, 510, 628]
+Deletions: [36, 62, 71, 170, 175, 180, 185, 190, 205, 479, 495, 505, 510, 628]
+android/guava/src/com/google/common/collect/Tables.java

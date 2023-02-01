@@ -1,0 +1,820 @@
+com.google.common.io.Resources
+readLines
+public static List<String> readLines(URL url, Charset charset) throws IOException
+URL,Charset
+List
+com.google.common.io.ByteArrayDataInput
+readInt
+int readInt()
+empty
+int
+com.google.common.io.ByteArrayDataInput
+readByte
+byte readByte()
+empty
+byte
+com.google.common.io.ByteArrayDataInput
+readFully
+void readFully(byte[] b, int off, int len)
+byte[],int,int
+void
+com.google.common.io.ByteArrayDataOutput
+writeChar
+void writeChar(int v)
+int
+void
+com.google.common.io.ByteArrayDataInput
+readUTF
+String readUTF()
+empty
+String
+com.google.common.io.ByteStreams
+toByteArray
+static byte[] toByteArray(InputStream in, int expectedSize) throws IOException
+InputStream,int
+byte[]
+com.google.common.io.LittleEndianDataOutputStream
+write
+public void write(byte[] b, int off, int len) throws IOException
+byte[],int,int
+void
+com.google.common.io.Files
+move
+public static void move(File from, File to) throws IOException
+File,File
+void
+com.google.common.io.Flushables
+flush
+public static void flush(Flushable flushable, boolean swallowIOException) throws IOException
+Flushable,boolean
+void
+com.google.common.io.Resources
+getResource
+public static URL getResource(Class<?> contextClass, String resourceName)
+Class,String
+URL
+com.google.common.io.Files
+simplifyPath
+public static String simplifyPath(String pathname)
+String
+String
+com.google.common.io.Files
+readLines
+public static T readLines(File file, Charset charset, LineProcessor<T> callback) throws IOException
+File,Charset,LineProcessor
+T
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+write
+public void write(byte[] b)
+byte[]
+void
+com.google.common.io.LittleEndianDataOutputStream
+writeBytes
+public void writeBytes(String s) throws IOException
+String
+void
+com.google.common.io.CountingOutputStream
+write
+public void write(int b) throws IOException
+int
+void
+com.google.common.io.ByteArrayDataInput
+readFloat
+float readFloat()
+empty
+float
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+withSeparator
+public BaseEncoding withSeparator(String separator, int afterEveryChars)
+String,int
+BaseEncoding
+com.google.common.io.MultiInputStream
+available
+public int available() throws IOException
+empty
+int
+com.google.common.io.ByteArrayDataOutput
+write
+void write(int b)
+int
+void
+com.google.common.io.AppendableWriter
+write
+public void write(@Nullable String str, int off, int len) throws IOException
+String,int,int
+void
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+encodingStream
+public OutputStream encodingStream(final Writer out)
+Writer
+OutputStream
+com.google.common.io.AppendableWriter
+append
+public Writer append(@Nullable CharSequence charSeq, int start, int end) throws IOException
+CharSequence,int,int
+Writer
+com.google.common.io.Files
+readLines
+public static List<String> readLines(File file, Charset charset) throws IOException
+File,Charset
+List
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readChar
+public char readChar()
+empty
+char
+com.google.common.io.Resources
+getResource
+public static URL getResource(String resourceName)
+String
+URL
+com.google.common.io.ReaderInputStream
+ReaderInputStream
+ReaderInputStream(Reader reader, Charset charset, int bufferSize)
+Reader,Charset,int
+constructor
+com.google.common.io.Files
+children
+public Iterable<File> children(File file)
+File
+Iterable
+com.google.common.io.AppendableWriter
+write
+public void write(int c) throws IOException
+int
+void
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeChar
+public void writeChar(int v)
+int
+void
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readLong
+public long readLong()
+empty
+long
+com.google.common.io.BaseEncoding$Base64Encoding
+decodeTo
+int decodeTo(byte[] target, CharSequence chars) throws DecodingException
+byte[],CharSequence
+int
+com.google.common.io.ByteStreams
+newDataInput
+public static ByteArrayDataInput newDataInput(ByteArrayInputStream byteArrayInputStream)
+ByteArrayInputStream
+ByteArrayDataInput
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readBoolean
+public boolean readBoolean()
+empty
+boolean
+com.google.common.io.Files
+readFile
+static byte[] readFile(InputStream in, long expectedSize) throws IOException
+InputStream,long
+byte[]
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readInt
+public int readInt()
+empty
+int
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeDouble
+public void writeDouble(double v)
+double
+void
+com.google.common.io.Resources
+readLines
+public static T readLines(URL url, Charset charset, LineProcessor<T> callback) throws IOException
+URL,Charset,LineProcessor
+T
+com.google.common.io.LittleEndianDataOutputStream
+writeChars
+public void writeChars(String s) throws IOException
+String
+void
+com.google.common.io.CharSource
+readFirstLine
+public String readFirstLine() throws IOException
+empty
+String
+com.google.common.io.FileBackedOutputStream
+write
+public synchronized void write(byte[] b) throws IOException
+byte[]
+void
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readFully
+public void readFully(byte[] b)
+byte[]
+void
+com.google.common.io.LittleEndianDataOutputStream
+writeFloat
+public void writeFloat(float v) throws IOException
+float
+void
+com.google.common.io.LittleEndianDataOutputStream
+writeDouble
+public void writeDouble(double v) throws IOException
+double
+void
+com.google.common.io.LittleEndianDataOutputStream
+writeUTF
+public void writeUTF(String str) throws IOException
+String
+void
+com.google.common.io.MultiInputStream
+skip
+public long skip(long n) throws IOException
+long
+long
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readUnsignedByte
+public int readUnsignedByte()
+empty
+int
+com.google.common.io.ByteStreams
+skipFully
+public static void skipFully(InputStream in, long n) throws IOException
+InputStream,long
+void
+com.google.common.io.ByteArrayDataOutput
+writeBytes
+void writeBytes(String s)
+String
+void
+com.google.common.io.ByteArrayDataOutput
+writeBoolean
+void writeBoolean(boolean v)
+boolean
+void
+com.google.common.io.ByteArrayDataInput
+readShort
+short readShort()
+empty
+short
+com.google.common.io.Files
+newWriter
+public static BufferedWriter newWriter(File file, Charset charset) throws FileNotFoundException
+File,Charset
+BufferedWriter
+com.google.common.io.Files
+copy
+public static void copy(File from, File to) throws IOException
+File,File
+void
+com.google.common.io.FileBackedOutputStream
+close
+public synchronized void close() throws IOException
+empty
+void
+com.google.common.io.Closer
+rethrow
+public RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X
+Throwable,Class
+RuntimeException
+com.google.common.io.AppendableWriter
+write
+public void write(char[] cbuf, int off, int len) throws IOException
+char[],int,int
+void
+com.google.common.io.BaseEncoding$SeparatedBaseEncoding
+toString
+public String toString()
+empty
+String
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+StandardBaseEncoding
+StandardBaseEncoding(Alphabet alphabet, @Nullable Character paddingChar)
+Alphabet,Character
+constructor
+com.google.common.io.Files
+readFirstLine
+public static String readFirstLine(File file, Charset charset) throws IOException
+File,Charset
+String
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeUTF
+public void writeUTF(String s)
+String
+void
+com.google.common.io.Files
+createTempDir
+public static File createTempDir()
+empty
+File
+com.google.common.io.ByteArrayDataInput
+readUnsignedShort
+int readUnsignedShort()
+empty
+int
+com.google.common.io.CharStreams$NullWriter
+close
+public void close()
+empty
+void
+com.google.common.io.ByteStreams$LimitedInputStream
+read
+public int read(byte[] b, int off, int len) throws IOException
+byte[],int,int
+int
+com.google.common.io.ByteStreams
+read
+public static int read(InputStream in, byte[] b, int off, int len) throws IOException
+InputStream,byte[],int,int
+int
+com.google.common.io.Files
+hash
+public static HashCode hash(File file, HashFunction hashFunction) throws IOException
+File,HashFunction
+HashCode
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeChars
+public void writeChars(String s)
+String
+void
+com.google.common.io.ByteArrayDataInput
+readBoolean
+boolean readBoolean()
+empty
+boolean
+com.google.common.io.Files
+readBytes
+public static T readBytes(File file, ByteProcessor<T> processor) throws IOException
+File,ByteProcessor
+T
+com.google.common.io.ByteStreams
+readFully
+public static void readFully(InputStream in, byte[] b, int off, int len) throws IOException
+InputStream,byte[],int,int
+void
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readUTF
+public String readUTF()
+empty
+String
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readDouble
+public double readDouble()
+empty
+double
+com.google.common.io.ByteArrayDataInput
+readChar
+char readChar()
+empty
+char
+com.google.common.io.PatternFilenameFilter
+accept
+public boolean accept(@Nullable File dir, String fileName)
+File,String
+boolean
+com.google.common.io.LittleEndianDataOutputStream
+writeInt
+public void writeInt(int v) throws IOException
+int
+void
+com.google.common.io.Files
+append
+public static void append(CharSequence from, File to, Charset charset) throws IOException
+CharSequence,File,Charset
+void
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readFully
+public void readFully(byte[] b, int off, int len)
+byte[],int,int
+void
+com.google.common.io.BaseEncoding$SeparatedBaseEncoding
+maxEncodedSize
+int maxEncodedSize(int bytes)
+int
+int
+com.google.common.io.CharStreams$NullWriter
+flush
+public void flush()
+empty
+void
+com.google.common.io.Files
+copy
+public static void copy(File from, Charset charset, Appendable to) throws IOException
+File,Charset,Appendable
+void
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeLong
+public void writeLong(long v)
+long
+void
+com.google.common.io.Files
+newReader
+public static BufferedReader newReader(File file, Charset charset) throws FileNotFoundException
+File,Charset
+BufferedReader
+com.google.common.io.FileBackedOutputStream
+FileBackedOutputStream
+public FileBackedOutputStream(int fileThreshold, boolean resetOnFinalize)
+int,boolean
+constructor
+com.google.common.io.FileBackedOutputStream
+openStream
+public InputStream openStream() throws IOException
+empty
+InputStream
+com.google.common.io.AppendableWriter
+append
+public Writer append(@Nullable CharSequence charSeq) throws IOException
+CharSequence
+Writer
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+skipBytes
+public int skipBytes(int n)
+int
+int
+com.google.common.io.Closeables
+close
+public static void close(@Nullable Closeable closeable, boolean swallowIOException) throws IOException
+Closeable,boolean
+void
+com.google.common.io.MultiInputStream
+read
+public int read(@Nullable byte[] b, int off, int len) throws IOException
+byte[],int,int
+int
+com.google.common.io.ByteStreams
+readBytes
+public static T readBytes(InputStream input, ByteProcessor<T> processor) throws IOException
+InputStream,ByteProcessor
+T
+com.google.common.io.Files
+write
+private static void write(CharSequence from, File to, Charset charset, boolean append) throws IOException
+CharSequence,File,Charset,boolean
+void
+com.google.common.io.AppendableWriter
+append
+public Writer append(char c) throws IOException
+char
+Writer
+com.google.common.io.ByteStreams$LimitedInputStream
+mark
+public synchronized void mark(int readLimit)
+int
+void
+com.google.common.io.Closer
+Closer
+Closer(Suppressor suppressor)
+Suppressor
+constructor
+com.google.common.io.Files
+write
+public static void write(CharSequence from, File to, Charset charset) throws IOException
+CharSequence,File,Charset
+void
+com.google.common.io.FileBackedOutputStream
+write
+public synchronized void write(byte[] b, int off, int len) throws IOException
+byte[],int,int
+void
+com.google.common.io.FileBackedOutputStream
+flush
+public synchronized void flush() throws IOException
+empty
+void
+com.google.common.io.ByteArrayDataInput
+readUnsignedByte
+int readUnsignedByte()
+empty
+int
+com.google.common.io.FileBackedOutputStream
+write
+public synchronized void write(int b) throws IOException
+int
+void
+com.google.common.io.LittleEndianDataInputStream
+readInt
+public int readInt() throws IOException
+empty
+int
+com.google.common.io.AppendableWriter
+write
+public void write(@Nullable String str) throws IOException
+String
+void
+com.google.common.io.ByteStreams
+copy
+public static long copy(ReadableByteChannel from, WritableByteChannel to) throws IOException
+ReadableByteChannel,WritableByteChannel
+long
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+encodeChunkTo
+void encodeChunkTo(Appendable target, byte[] bytes, int off, int len) throws IOException
+Appendable,byte[],int,int
+void
+com.google.common.io.LineReader
+handleLine
+protected void handleLine(String line, String end)
+String,String
+void
+com.google.common.io.CharStreams$NullWriter
+write
+public void write(int c)
+int
+void
+com.google.common.io.ByteStreams
+newDataInput
+public static ByteArrayDataInput newDataInput(byte[] bytes, int start)
+byte[],int
+ByteArrayDataInput
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeInt
+public void writeInt(int v)
+int
+void
+com.google.common.io.MultiInputStream
+close
+public void close() throws IOException
+empty
+void
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+write
+public void write(byte[] b, int off, int len)
+byte[],int,int
+void
+com.google.common.io.FileBackedOutputStream
+openInputStream
+private synchronized InputStream openInputStream() throws IOException
+empty
+InputStream
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeShort
+public void writeShort(int v)
+int
+void
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeBoolean
+public void writeBoolean(boolean v)
+boolean
+void
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readShort
+public short readShort()
+empty
+short
+com.google.common.io.Files
+map
+public static MappedByteBuffer map(File file, MapMode mode, long size) throws FileNotFoundException, IOException
+File,MapMode,long
+MappedByteBuffer
+com.google.common.io.ByteArrayDataInput
+readLine
+String readLine()
+empty
+String
+com.google.common.io.Files
+map
+public static MappedByteBuffer map(File file, MapMode mode) throws IOException
+File,MapMode
+MappedByteBuffer
+com.google.common.io.ByteArrayDataInput
+readDouble
+double readDouble()
+empty
+double
+com.google.common.io.ByteArrayDataOutput
+writeByte
+void writeByte(int v)
+int
+void
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+write
+public void write(int b)
+int
+void
+com.google.common.io.ByteArrayDataOutput
+writeChars
+void writeChars(String s)
+String
+void
+com.google.common.io.ByteArrayDataOutput
+writeInt
+void writeInt(int v)
+int
+void
+com.google.common.io.ByteArrayDataOutput
+write
+void write(byte[] b, int off, int len)
+byte[],int,int
+void
+com.google.common.io.MultiInputStream
+read
+public int read() throws IOException
+empty
+int
+com.google.common.io.CountingInputStream
+mark
+public synchronized void mark(int readlimit)
+int
+void
+com.google.common.io.LineBuffer
+handleLine
+protected abstract void handleLine(String line, String end) throws IOException
+String,String
+void
+com.google.common.io.LittleEndianDataOutputStream
+writeChar
+public void writeChar(int v) throws IOException
+int
+void
+com.google.common.io.LittleEndianDataOutputStream
+writeShort
+public void writeShort(int v) throws IOException
+int
+void
+com.google.common.io.FileBackedOutputStream
+getFile
+synchronized File getFile()
+empty
+File
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+toByteArray
+public byte[] toByteArray()
+empty
+byte[]
+com.google.common.io.BaseEncoding$StandardBaseEncoding
+withPadChar
+public BaseEncoding withPadChar(char padChar)
+char
+BaseEncoding
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeFloat
+public void writeFloat(float v)
+float
+void
+com.google.common.io.MultiReader
+read
+public int read(@Nullable char[] cbuf, int off, int len) throws IOException
+char[],int,int
+int
+com.google.common.io.MultiInputStream
+markSupported
+public boolean markSupported()
+empty
+boolean
+com.google.common.io.LittleEndianDataOutputStream
+writeBoolean
+public void writeBoolean(boolean v) throws IOException
+boolean
+void
+com.google.common.io.ByteArrayDataOutput
+writeUTF
+void writeUTF(String s)
+String
+void
+com.google.common.io.ByteStreams
+copy
+public static long copy(InputStream from, OutputStream to) throws IOException
+InputStream,OutputStream
+long
+com.google.common.io.Files
+touch
+public static void touch(File file) throws IOException
+File
+void
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readUnsignedShort
+public int readUnsignedShort()
+empty
+int
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeByte
+public void writeByte(int v)
+int
+void
+com.google.common.io.ByteArrayDataOutput
+writeFloat
+void writeFloat(float v)
+float
+void
+com.google.common.io.ByteArrayDataInput
+readLong
+long readLong()
+empty
+long
+com.google.common.io.MultiInputStream
+MultiInputStream
+public MultiInputStream(Iterator<? extends ByteSource> it) throws IOException
+Iterator
+constructor
+com.google.common.io.AppendableWriter
+flush
+public void flush() throws IOException
+empty
+void
+com.google.common.io.Files
+asCharSink
+public static CharSink asCharSink(File file, Charset charset, FileWriteMode... modes)
+File,Charset,FileWriteMode...
+CharSink
+com.google.common.io.FileBackedOutputStream
+finalize
+protected void finalize()
+empty
+void
+com.google.common.io.ByteArrayDataOutput
+writeShort
+void writeShort(int v)
+int
+void
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readFloat
+public float readFloat()
+empty
+float
+com.google.common.io.MultiReader
+ready
+public boolean ready() throws IOException
+empty
+boolean
+com.google.common.io.CharStreams
+readLines
+public static T readLines(Readable readable, LineProcessor<T> processor) throws IOException
+Readable,LineProcessor
+T
+com.google.common.io.LineBuffer
+finishLine
+private boolean finishLine(boolean sawNewline) throws IOException
+boolean
+boolean
+com.google.common.io.ByteStreams
+newDataOutput
+public static ByteArrayDataOutput newDataOutput(ByteArrayOutputStream byteArrayOutputSteam)
+ByteArrayOutputStream
+ByteArrayDataOutput
+com.google.common.io.LittleEndianDataOutputStream
+writeByte
+public void writeByte(int v) throws IOException
+int
+void
+com.google.common.io.ByteArrayDataInput
+readFully
+void readFully(byte[] b)
+byte[]
+void
+com.google.common.io.ByteArrayDataInput
+skipBytes
+int skipBytes(int n)
+int
+int
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readLine
+public String readLine()
+empty
+String
+com.google.common.io.Closer$LoggingSuppressor
+suppress
+public void suppress(Closeable closeable, Throwable thrown, Throwable suppressed)
+Closeable,Throwable,Throwable
+void
+com.google.common.io.LittleEndianDataOutputStream
+writeLong
+public void writeLong(long v) throws IOException
+long
+void
+com.google.common.io.ByteArrayDataOutput
+writeLong
+void writeLong(long v)
+long
+void
+com.google.common.io.ByteStreams$ByteArrayDataInputStream
+readByte
+public byte readByte()
+empty
+byte
+com.google.common.io.Files
+map
+private static MappedByteBuffer map(RandomAccessFile raf, MapMode mode, long size) throws IOException
+RandomAccessFile,MapMode,long
+MappedByteBuffer
+com.google.common.io.ByteStreams$LimitedInputStream
+reset
+public synchronized void reset() throws IOException
+empty
+void
+com.google.common.io.ByteArrayDataOutput
+write
+void write(byte[] b)
+byte[]
+void
+com.google.common.io.ByteArrayDataOutput
+writeDouble
+void writeDouble(double v)
+double
+void
+com.google.common.io.BaseEncoding$Alphabet
+decode
+int decode(char ch) throws DecodingException
+char
+int
+com.google.common.io.ByteStreams$ByteArrayDataOutputStream
+writeBytes
+public void writeBytes(String s)
+String
+void

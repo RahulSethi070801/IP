@@ -1,0 +1,4 @@
+CollectionClearTester
+Insertions: [32, 33]
+Deletions: [32, 33, 34]
+android/guava-testlib/src/com/google/common/collect/testing/testers/CollectionClearTester.java

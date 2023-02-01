@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "29": " * Configurable implementation of {@link MutableGraph} that supports both directed and undirected\n",
+        "30": " * graphs. Instances of this class should be constructed with {@link GraphBuilder}.\n",
+        "41": "final class ConfigurableMutableGraph<N, V>\n",
+        "42": "    extends ConfigurableGraph<N, V> implements MutableGraph<N, V> {\n",
+        "47": "  ConfigurableMutableGraph(AbstractGraphBuilder<? super N> builder) {\n"
+    },
+    "removed": {
+        "29": " * Configurable implementation of {@link MutableValueGraph} that supports both directed and\n",
+        "30": " * undirected graphs. Instances of this class should be constructed with {@link ValueGraphBuilder}.\n",
+        "41": "final class ConfigurableMutableValueGraph<N, V>\n",
+        "42": "    extends ConfigurableValueGraph<N, V> implements MutableValueGraph<N, V> {\n",
+        "47": "  ConfigurableMutableValueGraph(AbstractGraphBuilder<? super N> builder) {\n"
+    }
+}

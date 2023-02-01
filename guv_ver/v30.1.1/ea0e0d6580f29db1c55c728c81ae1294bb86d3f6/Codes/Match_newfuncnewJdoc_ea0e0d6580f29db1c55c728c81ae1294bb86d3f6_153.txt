@@ -1,0 +1,8 @@
+
+   * A sensible definition of {@link #setCount(Object, int)} in terms of {@link #count(Object)},
+   * {@link #add(Object, int)}, and {@link #remove(Object, int)}. {@link #entrySet()}. If you
+   * override any of these methods, you may wish to override {@link #setCount(Object, int)} to
+   * forward to this implementation.
+   *
+   * @since 7.0
+   

@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "64": "    assertEscaping(e, \"%00\", '\\u0000'); // nul\n",
+        "65": "    assertEscaping(e, \"%7F\", '\\u007f'); // del\n",
+        "66": "    assertEscaping(e, \"%C2%80\", '\\u0080'); // xx-00010,x-000000\n",
+        "67": "    assertEscaping(e, \"%DF%BF\", '\\u07ff'); // xx-11111,x-111111\n"
+    },
+    "removed": {
+        "64": "    assertEscaping(e, \"%00\", '\\u0000');       // nul\n",
+        "65": "    assertEscaping(e, \"%7F\", '\\u007f');       // del\n",
+        "66": "    assertEscaping(e, \"%C2%80\", '\\u0080');    // xx-00010,x-000000\n",
+        "67": "    assertEscaping(e, \"%DF%BF\", '\\u07ff');    // xx-11111,x-111111\n"
+    }
+}

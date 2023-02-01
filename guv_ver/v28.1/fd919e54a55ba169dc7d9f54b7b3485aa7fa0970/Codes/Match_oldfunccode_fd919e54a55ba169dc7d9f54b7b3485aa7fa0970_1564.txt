@@ -1,0 +1,3 @@
+final boolean casBusy() {
+    return UNSAFE.compareAndSwapInt(this, busyOffset, 0, 1);
+}

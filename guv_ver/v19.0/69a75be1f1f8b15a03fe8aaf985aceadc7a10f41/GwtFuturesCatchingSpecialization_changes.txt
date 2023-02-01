@@ -1,0 +1,4 @@
+GwtFuturesCatchingSpecialization
+Insertions: [4, 5, 9, 10, 11, 12]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14]
+guava/src/com/google/common/util/concurrent/GwtFuturesCatchingSpecialization.java

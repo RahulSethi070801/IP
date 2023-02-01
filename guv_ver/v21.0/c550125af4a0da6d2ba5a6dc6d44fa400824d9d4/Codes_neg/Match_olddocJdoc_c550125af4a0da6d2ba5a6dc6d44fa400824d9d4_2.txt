@@ -1,0 +1,10 @@
+
+   * Returns true if each edge in this graph is directed.
+   *
+   * <p>A directed edge is an {@linkplain #outEdges(Object) outgoing edge} of its
+   * {@linkplain #source(Object) source}, and an {@linkplain #inEdges(Object) incoming edge} of its
+   * {@linkplain #target(Object) target}. An undirected edge connects its
+   * {@linkplain #incidentNodes(Object) incident nodes} to each other, and is both an
+   * {@linkplain #outEdges(Object) outgoing edge} and {@linkplain #inEdges(Object) incoming edge}
+   * of each incident node.
+   

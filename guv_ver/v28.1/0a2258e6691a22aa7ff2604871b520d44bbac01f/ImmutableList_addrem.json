@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "33": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "219": "  public int indexOf(@Nullable Object object) {\n",
+        "224": "  public int lastIndexOf(@Nullable Object object) {\n",
+        "275": "  public boolean equals(@Nullable Object obj) {\n"
+    },
+    "removed": {
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "219": "  public int indexOf(@NullableDecl Object object) {\n",
+        "224": "  public int lastIndexOf(@NullableDecl Object object) {\n",
+        "275": "  public boolean equals(@NullableDecl Object obj) {\n"
+    }
+}

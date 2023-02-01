@@ -1,0 +1,5 @@
+@Override
+@CheckReturnValue
+public String toString() {
+    return Iterables.toString(iterable);
+}

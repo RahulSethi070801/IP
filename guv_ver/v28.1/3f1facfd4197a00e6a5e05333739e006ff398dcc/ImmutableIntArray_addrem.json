@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "132": "        rest.length <= Integer.MAX_VALUE - 1, \"the total number of elements must fit in an int\");\n"
+    },
+    "removed": {
+        "132": "        rest.length <= Integer.MAX_VALUE - 1,\n",
+        "133": "        \"the total number of elements must fit in an int\");\n"
+    }
+}

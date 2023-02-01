@@ -1,0 +1,20 @@
+com.google.common.collect.FluentIterable
+limit
+public final FluentIterable<E> limit(int size)
+int
+FluentIterable
+com.google.common.collect.FluentIterable
+contains
+public final boolean contains(@Nullable Object target)
+Object
+boolean
+com.google.common.collect.FluentIterable
+limit
+public final FluentIterable<E> limit(int maxSize)
+int
+FluentIterable
+com.google.common.collect.FluentIterable
+contains
+public final boolean contains(@Nullable Object element)
+Object
+boolean

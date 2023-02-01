@@ -1,0 +1,4 @@
+@Override
+public int lastIndexIn(CharSequence sequence) {
+    return sequence.length() - 1;
+}

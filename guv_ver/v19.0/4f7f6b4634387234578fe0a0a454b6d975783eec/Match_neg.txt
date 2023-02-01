@@ -1,0 +1,6 @@
+public static List<List<B>> cartesianProduct(List<? extends List<? extends B>> lists)
+static List<List<B>> cartesianProduct(List<? extends List<? extends B>> lists)
+
+public static List<List<B>> cartesianProduct(List<? extends B>... lists)
+static List<List<B>> cartesianProduct(List<? extends List<? extends B>> lists)
+

@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "20": "import com.google.common.collect.Interners.InternerImpl;\n",
+        "21": "import com.google.common.collect.MapMakerInternalMap.Strength;\n",
+        "57": "    InternerImpl<Object> internerImpl = (InternerImpl<Object>) interner;\n",
+        "58": "    assertEquals(Strength.STRONG, internerImpl.map.keyStrength());\n",
+        "84": "    InternerImpl<Object> internerImpl = (InternerImpl<Object>) interner;\n",
+        "85": "    assertEquals(Strength.WEAK, internerImpl.map.keyStrength());\n",
+        "86": "    assertEquals(concurrencyLevel, internerImpl.map.concurrencyLevel);\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.truth.Truth.assertThat;\n",
+        "20": "\n",
+        "22": "import com.google.common.collect.Interners.StrongInterner;\n",
+        "23": "import com.google.common.collect.Interners.WeakInterner;\n",
+        "59": "    assertThat(interner).isInstanceOf(StrongInterner.class);\n",
+        "85": "    assertThat(interner).isInstanceOf(WeakInterner.class);\n",
+        "86": "    WeakInterner<Object> weakInterner = (WeakInterner<Object>) interner;\n",
+        "87": "    assertEquals(concurrencyLevel, weakInterner.map.concurrencyLevel);\n"
+    }
+}

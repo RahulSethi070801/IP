@@ -1,0 +1,4 @@
+@Override
+public boolean containsAll(Collection<?> targets) {
+    return delegate.containsAll(targets);
+}

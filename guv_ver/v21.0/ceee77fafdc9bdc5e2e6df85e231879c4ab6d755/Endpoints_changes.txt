@@ -1,0 +1,4 @@
+Endpoints
+Insertions: [46]
+Deletions: [46]
+guava/src/com/google/common/graph/Endpoints.java

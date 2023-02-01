@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "23": "import javax.annotation.CheckForNull;\n",
+        "24": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "34": "@ElementTypesAreNonnullByDefault\n",
+        "35": "final class UnmodifiableSortedMultiset<E extends @Nullable Object> extends UnmodifiableMultiset<E>\n",
+        "61": "  @CheckForNull private transient UnmodifiableSortedMultiset<E> descendingMultiset;\n",
+        "75": "  @CheckForNull\n",
+        "81": "  @CheckForNull\n",
+        "87": "  @CheckForNull\n",
+        "93": "  @CheckForNull\n",
+        "99": "  public SortedMultiset<E> headMultiset(@ParametricNullness E upperBound, BoundType boundType) {\n",
+        "105": "      @ParametricNullness E lowerBound,\n",
+        "106": "      BoundType lowerBoundType,\n",
+        "107": "      @ParametricNullness E upperBound,\n",
+        "108": "      BoundType upperBoundType) {\n",
+        "114": "  public SortedMultiset<E> tailMultiset(@ParametricNullness E lowerBound, BoundType boundType) {\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "33": "final class UnmodifiableSortedMultiset<E> extends UnmodifiableMultiset<E>\n",
+        "59": "  @NullableDecl private transient UnmodifiableSortedMultiset<E> descendingMultiset;\n",
+        "93": "  public SortedMultiset<E> headMultiset(E upperBound, BoundType boundType) {\n",
+        "99": "      E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType) {\n",
+        "105": "  public SortedMultiset<E> tailMultiset(E lowerBound, BoundType boundType) {\n"
+    }
+}

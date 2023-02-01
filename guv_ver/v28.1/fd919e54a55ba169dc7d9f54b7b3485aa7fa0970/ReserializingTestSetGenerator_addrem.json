@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "25": " * <p>TODO: make CollectionTestSuiteBuilder test reserialized collections\n"
+    },
+    "removed": {
+        "25": " * TODO: make CollectionTestSuiteBuilder test reserialized collections\n"
+    }
+}

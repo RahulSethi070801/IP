@@ -1,0 +1,6 @@
+public int size()
+final N nodeA()
+
+public final int size()
+final N nodeB()
+

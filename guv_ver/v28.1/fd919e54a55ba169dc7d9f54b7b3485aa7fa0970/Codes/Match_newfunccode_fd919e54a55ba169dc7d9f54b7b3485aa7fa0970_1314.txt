@@ -1,0 +1,4 @@
+@Override
+public ImmutableBiMap<V, K> inverse() {
+    return inverse;
+}

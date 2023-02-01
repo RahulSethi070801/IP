@@ -1,0 +1,4 @@
+AbstractSequentialIterator
+Insertions: [24, 25, 26, 28, 30, 31, 32, 33, 34, 35, 36, 37, 47, 48, 55, 56, 57]
+Deletions: [24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 36, 46, 47, 54, 55, 56, 57]
+android/guava/src/com/google/common/collect/AbstractSequentialIterator.java

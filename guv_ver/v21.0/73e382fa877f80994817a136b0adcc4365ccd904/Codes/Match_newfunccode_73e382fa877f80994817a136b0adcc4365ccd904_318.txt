@@ -1,0 +1,5 @@
+@Override
+public boolean removeIf(java.util.function.Predicate<? super T> filter) {
+    checkNotNull(filter);
+    return fromCollection.removeIf(element -> filter.test(function.apply(element)));
+}

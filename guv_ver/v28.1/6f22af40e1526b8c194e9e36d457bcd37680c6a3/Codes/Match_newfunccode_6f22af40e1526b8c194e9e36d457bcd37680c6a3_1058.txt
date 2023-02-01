@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public V getIfPresent(Object key) {
+    return delegate().getIfPresent(key);
+}

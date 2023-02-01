@@ -1,0 +1,8 @@
+
+   * Runs the specified action for each distinct element in this multiset, and the number of
+   * occurrences of that element. For some {@code Multiset} implementations, this may be more
+   * efficient than iterating over the {@link #entrySet()} either explicitly or with {@code
+   * entrySet().forEach(action)}.
+   *
+   * @since 21.0
+   

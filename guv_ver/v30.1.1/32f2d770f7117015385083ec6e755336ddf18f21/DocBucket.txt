@@ -1,0 +1,5 @@
+com.google.common.graph.Traverser
+visitNext
+abstract N visitNext(Deque<Iterator<? extends N>> horizon)
+Deque
+N

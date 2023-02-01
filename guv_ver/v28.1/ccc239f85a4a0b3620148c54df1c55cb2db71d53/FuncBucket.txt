@@ -1,0 +1,85 @@
+com.google.common.collect.ArrayListMultimap
+ArrayListMultimap
+private ArrayListMultimap(int expectedKeys, int expectedValuesPerKey)
+int,int
+constructor
+com.google.common.collect.LinkedListMultimap
+LinkedListMultimap
+private LinkedListMultimap(int expectedKeys)
+int
+constructor
+com.google.common.collect.HashMultimap
+HashMultimap
+private HashMultimap()
+empty
+constructor
+com.google.common.collect.super.com.google.common.collect.Platform
+newHashMapWithExpectedSize
+static Map<K, V> newHashMapWithExpectedSize(int expectedSize)
+int
+Map
+com.google.common.collect.super.com.google.common.collect.Platform
+newLinkedHashMapWithExpectedSize
+static Map<K, V> newLinkedHashMapWithExpectedSize(int expectedSize)
+int
+Map
+com.google.common.collect.MultimapBuilder
+createMap
+Map<K, Collection<V>> createMap()
+empty
+Map
+com.google.common.collect.LinkedHashMultimap
+createCollection
+Set<V> createCollection()
+empty
+Set
+com.google.common.collect.HashMultimap
+HashMultimap
+private HashMultimap(Multimap<? extends K, ? extends V> multimap)
+Multimap
+constructor
+com.google.common.collect.HashMultimap
+HashMultimap
+private HashMultimap(int expectedKeys, int expectedValuesPerKey)
+int,int
+constructor
+com.google.common.collect.LinkedHashMultimap
+LinkedHashMultimap
+private LinkedHashMultimap(int keyCapacity, int valueSetCapacity)
+int,int
+constructor
+com.google.common.collect.super.com.google.common.collect.Platform
+newHashSetWithExpectedSize
+static Set<E> newHashSetWithExpectedSize(int expectedSize)
+int
+Set
+com.google.common.collect.LinkedListMultimap
+LinkedListMultimap
+LinkedListMultimap()
+empty
+constructor
+com.google.common.collect.super.com.google.common.collect.Platform
+newLinkedHashSetWithExpectedSize
+static Set<E> newLinkedHashSetWithExpectedSize(int expectedSize)
+int
+Set
+com.google.common.collect.LinkedHashMultimap
+readObject
+private void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException
+ObjectInputStream
+void
+com.google.common.collect.MultimapBuilder
+linkedHashKeys
+public static MultimapBuilderWithKeys<Object> linkedHashKeys(final int expectedKeys)
+int
+MultimapBuilderWithKeys
+com.google.common.collect.ArrayListMultimap
+ArrayListMultimap
+private ArrayListMultimap()
+empty
+constructor
+com.google.common.collect.MultimapBuilder$HashSetSupplier
+get
+public Set<V> get()
+empty
+Set

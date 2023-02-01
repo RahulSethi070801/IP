@@ -1,0 +1,10 @@
+@VisibleForTesting
+ReferenceEntry<K, V> newEntry(K key, int hash, @NullableDecl ReferenceEntry<K, V> next) {
+    Segment<K, V> segment = segmentFor(hash);
+    segment.lock();
+    try {
+        return segment.newEntry(key, hash, next);
+    } finally {
+        segment.unlock();
+    }
+}

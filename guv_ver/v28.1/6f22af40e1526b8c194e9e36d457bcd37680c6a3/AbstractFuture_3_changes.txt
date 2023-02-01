@@ -1,0 +1,4 @@
+AbstractFuture_3
+Insertions: [45, 175, 176, 253, 298, 300, 688, 905, 983, 1226]
+Deletions: [45, 175, 176, 253, 298, 300, 688, 905, 983, 1226]
+guava/src/com/google/common/util/concurrent/AbstractFuture.java

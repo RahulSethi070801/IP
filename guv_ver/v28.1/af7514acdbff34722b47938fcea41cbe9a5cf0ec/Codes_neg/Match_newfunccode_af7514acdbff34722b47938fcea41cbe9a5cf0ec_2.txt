@@ -1,0 +1,4 @@
+@Override
+public Iterable<Path> children(Path dir) {
+    return fileTreeChildren(dir);
+}

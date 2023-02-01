@@ -1,0 +1,11 @@
+public static Scheduler newFixedRateSchedule(final long initialDelay, final long period, final TimeUnit unit) {
+    checkNotNull(unit);
+    checkArgument(period > 0, "period must be > 0, found %s", period);
+    return new Scheduler() {
+
+        @Override
+        public Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable task) {
+            return executor.scheduleAtFixedRate(task, initialDelay, period, unit);
+        }
+    };
+}

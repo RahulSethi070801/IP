@@ -1,0 +1,4 @@
+
+   * Secure recursive delete using {@code SecureDirectoryStream}. Returns a collection of
+   * exceptions that occurred or null if no exceptions were thrown.
+   

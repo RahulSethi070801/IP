@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "48": "    } catch (NullPointerException ok) {\n",
+        "49": "    }\n",
+        "54": "    Interner<Object> interner =\n",
+        "55": "        Interners.newBuilder().strong().concurrencyLevel(concurrencyLevel).build();\n",
+        "74": "    } catch (NullPointerException ok) {\n",
+        "75": "    }\n",
+        "80": "    Interner<Object> interner =\n",
+        "81": "        Interners.newBuilder().weak().concurrencyLevel(concurrencyLevel).build();\n",
+        "95": "    canonical = null; // Hint to the JIT that canonical is unreachable\n"
+    },
+    "removed": {
+        "48": "    } catch (NullPointerException ok) {}\n",
+        "53": "    Interner<Object> interner = Interners.newBuilder()\n",
+        "54": "        .strong()\n",
+        "55": "        .concurrencyLevel(concurrencyLevel)\n",
+        "56": "        .build();\n",
+        "75": "    } catch (NullPointerException ok) {}\n",
+        "80": "    Interner<Object> interner = Interners.newBuilder()\n",
+        "81": "        .weak()\n",
+        "82": "        .concurrencyLevel(concurrencyLevel)\n",
+        "83": "        .build();\n",
+        "97": "    canonical = null;  // Hint to the JIT that canonical is unreachable\n"
+    }
+}

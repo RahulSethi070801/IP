@@ -1,0 +1,3 @@
+static <V> TrustedListenableFutureTask<V> create(Callable<V> callable) {
+    return new TrustedListenableFutureTask<V>(callable);
+}

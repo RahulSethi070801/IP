@@ -1,0 +1,6 @@
+
+     * Returns the simple name of the underlying class as given in the source code.
+     *
+     * <p>Behaves identically to {@link Class#getSimpleName()} but does not require the class to be
+     * loaded.
+     

@@ -1,0 +1,10 @@
+{
+    "addition": {},
+    "removed": {
+        "63": "  /**\n",
+        "64": "   * See {@link MapMaker#maximumSize}.\n",
+        "65": "   */\n",
+        "66": "  abstract GenericMapMaker<K0, V0> maximumSize(int maximumSize);\n",
+        "67": "\n"
+    }
+}

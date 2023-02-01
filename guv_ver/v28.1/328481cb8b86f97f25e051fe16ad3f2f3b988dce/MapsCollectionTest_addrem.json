@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "253": "                      Entry<?, ?> entry = (Entry<?, ?>) e;\n"
+    },
+    "removed": {
+        "253": "                      Map.Entry<?, ?> entry = (Entry<?, ?>) e;\n"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "23": "import com.google.common.base.Equivalence;\n",
+        "24": "import com.google.common.collect.Table.Cell;\n",
+        "25": "import com.google.common.testing.CollectorTester;\n",
+        "27": "import java.util.stream.Collector;\n",
+        "46": "  public void testToImmutableTable() {\n",
+        "47": "    Collector<Cell<String, String, Integer>, ?, ImmutableTable<String, String, Integer>> collector =\n",
+        "48": "        ImmutableTable.toImmutableTable(Cell::getRowKey, Cell::getColumnKey, Cell::getValue);\n",
+        "49": "    Equivalence<ImmutableTable<String, String, Integer>> equivalence =\n",
+        "50": "        Equivalence.equals()\n",
+        "51": "            .<Cell<String, String, Integer>>pairwise()\n",
+        "52": "            .onResultOf(ImmutableTable::cellSet);\n",
+        "53": "    CollectorTester.of(collector, equivalence)\n",
+        "54": "        .expectCollects(\n",
+        "55": "            new ImmutableTable.Builder<String, String, Integer>()\n",
+        "56": "                .put(\"one\", \"uno\", 1)\n",
+        "57": "                .put(\"two\", \"dos\", 2)\n",
+        "58": "                .put(\"three\", \"tres\", 3)\n",
+        "59": "                .build(),\n",
+        "60": "            Tables.immutableCell(\"one\", \"uno\", 1),\n",
+        "61": "            Tables.immutableCell(\"two\", \"dos\", 2),\n",
+        "62": "            Tables.immutableCell(\"three\", \"tres\", 3));\n",
+        "63": "  }\n",
+        "64": "\n"
+    },
+    "removed": {}
+}

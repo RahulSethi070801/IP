@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "30": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "44": "  @Nullable\n",
+        "50": "  @Nullable\n",
+        "56": "  @Nullable\n",
+        "59": "  public <T extends B> T putInstance(Class<T> type, @Nullable T value) {\n",
+        "63": "  @Nullable\n",
+        "66": "  public <T extends B> T putInstance(TypeToken<T> type, @Nullable T value) {\n",
+        "106": "  @Nullable\n",
+        "107": "  private <T extends B> T trustedPut(TypeToken<T> type, @Nullable T value) {\n",
+        "112": "  @Nullable\n"
+    },
+    "removed": {
+        "30": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "44": "  @NullableDecl\n",
+        "50": "  @NullableDecl\n",
+        "56": "  @NullableDecl\n",
+        "59": "  public <T extends B> T putInstance(Class<T> type, @NullableDecl T value) {\n",
+        "63": "  @NullableDecl\n",
+        "66": "  public <T extends B> T putInstance(TypeToken<T> type, @NullableDecl T value) {\n",
+        "106": "  @NullableDecl\n",
+        "107": "  private <T extends B> T trustedPut(TypeToken<T> type, @NullableDecl T value) {\n",
+        "112": "  @NullableDecl\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public CommonMatcher matcher(CharSequence t) {
+    return new JdkMatcher(pattern.matcher(t));
+}

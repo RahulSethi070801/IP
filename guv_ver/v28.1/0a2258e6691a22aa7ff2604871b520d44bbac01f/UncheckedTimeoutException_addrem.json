@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "18": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "30": "  public UncheckedTimeoutException(@Nullable String message) {\n",
+        "34": "  public UncheckedTimeoutException(@Nullable Throwable cause) {\n",
+        "38": "  public UncheckedTimeoutException(@Nullable String message, @Nullable Throwable cause) {\n"
+    },
+    "removed": {
+        "18": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "30": "  public UncheckedTimeoutException(@NullableDecl String message) {\n",
+        "34": "  public UncheckedTimeoutException(@NullableDecl Throwable cause) {\n",
+        "38": "  public UncheckedTimeoutException(@NullableDecl String message, @NullableDecl Throwable cause) {\n"
+    }
+}

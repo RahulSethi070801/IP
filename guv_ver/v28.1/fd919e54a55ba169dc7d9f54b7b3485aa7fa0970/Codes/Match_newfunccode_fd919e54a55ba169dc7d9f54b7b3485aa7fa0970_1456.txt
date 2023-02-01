@@ -1,0 +1,4 @@
+TypeVariable<?> captureAsTypeVariable(Type[] upperBounds) {
+    String name = "capture#" + id.incrementAndGet() + "-of ? extends " + Joiner.on('&').join(upperBounds);
+    return Types.newArtificialTypeVariable(WildcardCapturer.class, name, upperBounds);
+}

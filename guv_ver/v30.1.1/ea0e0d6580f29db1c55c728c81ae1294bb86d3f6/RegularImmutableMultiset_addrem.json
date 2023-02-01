@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "24": "import javax.annotation.CheckForNull;\n",
+        "34": "@ElementTypesAreNonnullByDefault\n",
+        "42": "  @LazyInit @CheckForNull private transient ImmutableSet<E> elementSet;\n",
+        "59": "  public int count(@CheckForNull Object element) {\n",
+        "83": "    public boolean contains(@CheckForNull Object object) {\n",
+        "108": "    // \"extends Object\" works around https://github.com/typetools/checker-framework/issues/3013\n",
+        "109": "    SerializedForm(Multiset<? extends Object> multiset) {\n",
+        "114": "      for (Entry<? extends Object> entry : multiset.entrySet()) {\n"
+    },
+    "removed": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "41": "  @LazyInit private transient ImmutableSet<E> elementSet;\n",
+        "58": "  public int count(@NullableDecl Object element) {\n",
+        "82": "    public boolean contains(@NullableDecl Object object) {\n",
+        "107": "    SerializedForm(Multiset<?> multiset) {\n",
+        "112": "      for (Entry<?> entry : multiset.entrySet()) {\n"
+    }
+}

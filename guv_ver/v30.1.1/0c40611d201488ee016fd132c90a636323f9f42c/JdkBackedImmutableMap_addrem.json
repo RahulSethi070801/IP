@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "21": "import static java.util.Objects.requireNonNull;\n",
+        "26": "import javax.annotation.CheckForNull;\n",
+        "34": "@ElementTypesAreNonnullByDefault\n",
+        "41": "  static <K, V> ImmutableMap<K, V> create(int n, @Nullable Entry<K, V>[] entryArray) {\n",
+        "44": "      // requireNonNull is safe because the first `n` elements have been filled in.\n",
+        "45": "      entryArray[i] = makeImmutable(requireNonNull(entryArray[i]));\n",
+        "68": "  @CheckForNull\n",
+        "69": "  public V get(@CheckForNull Object key) {\n"
+    },
+    "removed": {
+        "38": "  static <K, V> ImmutableMap<K, V> create(int n, Entry<K, V>[] entryArray) {\n",
+        "41": "      entryArray[i] = makeImmutable(entryArray[i]);\n",
+        "64": "  public V get(@Nullable Object key) {\n"
+    }
+}

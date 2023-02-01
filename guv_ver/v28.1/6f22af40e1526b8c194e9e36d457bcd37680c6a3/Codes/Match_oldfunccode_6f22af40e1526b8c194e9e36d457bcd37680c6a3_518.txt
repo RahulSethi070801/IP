@@ -1,0 +1,3 @@
+@Nullable
+@CanIgnoreReturnValue
+T apply(@Nullable F input);

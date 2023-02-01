@@ -1,0 +1,35 @@
+com.google.common.io.FileBackedOutputStream
+openStream
+private synchronized InputStream openStream() throws IOException
+empty
+InputStream
+com.google.common.io.FileBackedOutputStream
+getInput
+public InputStream getInput() throws IOException
+empty
+InputStream
+com.google.common.io.FileBackedOutputStream
+getSupplier
+public InputSupplier<InputStream> getSupplier()
+empty
+InputSupplier
+com.google.common.io.FileBackedOutputStream
+FileBackedOutputStream
+public FileBackedOutputStream(int fileThreshold, boolean resetOnFinalize)
+int,boolean
+constructor
+com.google.common.io.FileBackedOutputStream
+openStream
+public InputStream openStream() throws IOException
+empty
+InputStream
+com.google.common.io.FileBackedOutputStream
+openInputStream
+private synchronized InputStream openInputStream() throws IOException
+empty
+InputStream
+com.google.common.io.FileBackedOutputStream
+asByteSource
+public ByteSource asByteSource()
+empty
+ByteSource

@@ -1,0 +1,4 @@
+Striped64
+Insertions: [16, 180]
+Deletions: [16, 180]
+android/guava/src/com/google/common/hash/Striped64.java

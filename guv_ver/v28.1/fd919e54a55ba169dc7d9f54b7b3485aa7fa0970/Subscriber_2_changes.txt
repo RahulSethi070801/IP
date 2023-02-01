@@ -1,0 +1,4 @@
+Subscriber_2
+Insertions: [37, 65, 100, 123, 124]
+Deletions: [37, 38, 39, 67, 68, 69, 104, 105, 106, 129, 130]
+guava/src/com/google/common/eventbus/Subscriber.java

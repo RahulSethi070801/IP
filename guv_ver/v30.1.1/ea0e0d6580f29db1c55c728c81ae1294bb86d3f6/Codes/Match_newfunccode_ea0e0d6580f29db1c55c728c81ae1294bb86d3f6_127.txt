@@ -1,0 +1,8 @@
+boolean tooHigh(@ParametricNullness T t) {
+    if (!hasUpperBound()) {
+        return false;
+    }
+    T ubound = uncheckedCastNullableTToT(getUpperEndpoint());
+    int cmp = comparator.compare(t, ubound);
+    return cmp > 0 | (cmp == 0 & getUpperBoundType() == OPEN);
+}

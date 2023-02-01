@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "35": " * A generic JUnit test which tests {@link Collection#removeIf}. Can't be invoked directly; please\n",
+        "36": " * see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "52": "    assertTrue(\n",
+        "53": "        \"removeIf(isEqual(present)) should return true\",\n",
+        "82": "      assertFalse(\n",
+        "83": "          \"removeIf(Predicate) should return false or throw \" + \"UnsupportedOperationException\",\n",
+        "84": "          collection.removeIf(\n",
+        "85": "              x -> {\n",
+        "86": "                throw new AssertionError(\"predicate should never be called\");\n",
+        "87": "              }));\n",
+        "98": "      fail(\"removeIf(x -> true) should throw \" + \"UnsupportedOperationException\");\n"
+    },
+    "removed": {
+        "35": " * A generic JUnit test which tests {@link Collection#removeIf}. Can't be invoked directly;\n",
+        "36": " * please see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "52": "    assertTrue(\"removeIf(isEqual(present)) should return true\",\n",
+        "81": "      assertFalse(\"removeIf(Predicate) should return false or throw \"\n",
+        "82": "          + \"UnsupportedOperationException\",\n",
+        "83": "        collection.removeIf(x -> {\n",
+        "84": "          throw new AssertionError(\"predicate should never be called\");\n",
+        "85": "        }));\n",
+        "96": "      fail(\"removeIf(x -> true) should throw \"\n",
+        "97": "          + \"UnsupportedOperationException\");\n"
+    }
+}

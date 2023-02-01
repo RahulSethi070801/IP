@@ -1,0 +1,4 @@
+CacheBuilder
+Insertions: [100, 234, 822, 823, 824, 825, 826]
+Deletions: [100, 234, 235, 236, 237, 238, 239, 240, 828, 829, 830, 831, 832]
+android/guava/src/com/google/common/cache/CacheBuilder.java

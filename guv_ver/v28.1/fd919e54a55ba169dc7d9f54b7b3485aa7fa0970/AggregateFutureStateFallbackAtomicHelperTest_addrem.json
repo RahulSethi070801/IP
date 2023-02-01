@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "32": " * synchronization primitives. The strategies are all implemented as subtypes of AtomicHelper and\n",
+        "33": " * the strategy is selected in the static initializer of AggregateFutureState. This is convenient\n",
+        "34": " * and performant but introduces some testing difficulties. This test exercises the two fallback\n",
+        "36": " *\n",
+        "38": " *   <li>SafeAtomicHelper: uses Atomic FieldsUpdaters to implement synchronization\n",
+        "39": " *   <li>SynchronizedHelper: uses {@code synchronized} blocks for synchronization\n",
+        "44": " * classes unavailable. Then we construct a test suite so we can run the normal FuturesTest test\n",
+        "45": " * methods in these degenerate classloaders.\n",
+        "54": "   * <p>Stashing this in a static field avoids loading it over and over again and speeds up test\n"
+    },
+    "removed": {
+        "32": " * synchronization primitives.  The strategies are all implemented as subtypes of AtomicHelper and\n",
+        "33": " * the strategy is selected in the static initializer of AggregateFutureState.  This is convenient\n",
+        "34": " * and performant but introduces some testing difficulties.   This test exercises the two fallback\n",
+        "37": " *     <li>SafeAtomicHelper: uses Atomic FieldsUpdaters to implement synchronization\n",
+        "38": " *     <li>SynchronizedHelper: uses {@code synchronized} blocks for synchronization\n",
+        "43": " * classes unavailable.  Then we construct a test suite so we can run the normal\n",
+        "44": " * FuturesTest test methods in these degenerate classloaders.\n",
+        "53": "   * Stashing this in a static field avoids loading it over and over again and speeds up test\n"
+    }
+}

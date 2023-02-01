@@ -1,0 +1,3 @@
+public static <T> java.util.@Nullable Optional<T> toJavaUtil(@Nullable Optional<T> googleOptional) {
+    return googleOptional == null ? null : googleOptional.toJavaUtil();
+}

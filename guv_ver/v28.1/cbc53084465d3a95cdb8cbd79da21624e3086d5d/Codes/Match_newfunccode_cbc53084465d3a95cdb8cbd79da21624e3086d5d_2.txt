@@ -1,0 +1,5 @@
+@Override
+public Iterable<N> breadthFirst(final N startNode) {
+    checkNotNull(startNode);
+    return breadthFirst(ImmutableSet.of(startNode));
+}

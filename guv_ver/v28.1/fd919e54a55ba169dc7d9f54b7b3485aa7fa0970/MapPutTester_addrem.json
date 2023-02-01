@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "37": " * A generic JUnit test which tests {@code put} operations on a map. Can't be invoked directly;\n",
+        "38": " * please see {@link com.google.common.collect.testing.MapTestSuiteBuilder}.\n",
+        "251": "   * Returns the {@link Method} instance for {@link #testPut_nullKeyUnsupported()} so that tests of\n",
+        "252": "   * {@link java.util.TreeMap} can suppress it with {@code\n",
+        "253": "   * FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "254": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5045147\">Sun bug 5045147</a> is fixed.\n"
+    },
+    "removed": {
+        "37": " * A generic JUnit test which tests {@code put} operations on a map. Can't be\n",
+        "38": " * invoked directly; please see\n",
+        "39": " * {@link com.google.common.collect.testing.MapTestSuiteBuilder}.\n",
+        "252": "   * Returns the {@link Method} instance for {@link\n",
+        "253": "   * #testPut_nullKeyUnsupported()} so that tests of {@link java.util.TreeMap}\n",
+        "254": "   * can suppress it with {@code FeatureSpecificTestSuiteBuilder.suppressing()}\n",
+        "255": "   * until <a\n",
+        "256": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5045147\">Sun bug\n",
+        "257": "   * 5045147</a> is fixed.\n"
+    }
+}

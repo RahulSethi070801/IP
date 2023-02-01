@@ -1,0 +1,4 @@
+PatternFilenameFilter
+Insertions: []
+Deletions: [43]
+android/guava/src/com/google/common/io/PatternFilenameFilter.java

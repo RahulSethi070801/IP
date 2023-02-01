@@ -1,0 +1,90 @@
+com.google.common.collect.ImmutableRangeMap
+of
+public static final ImmutableRangeMap<K, V> of()
+empty
+ImmutableRangeMap
+com.google.common.collect.ImmutableRangeMap
+copyOf
+public static final ImmutableRangeMap<K, V> copyOf(RangeMap<K, ? extends V> rangeMap)
+RangeMap
+ImmutableRangeMap
+com.google.common.collect.RegularImmutableTable
+forCells
+static final RegularImmutableTable<R, C, V> forCells(List<Cell<R, C, V>> cells, @Nullable final Comparator<? super R> rowComparator, @Nullable final Comparator<? super C> columnComparator)
+List,Comparator,Comparator
+RegularImmutableTable
+com.google.common.collect.ImmutableRangeMap
+of
+public static ImmutableRangeMap<K, V> of(Range<K> range, V value)
+Range,V
+ImmutableRangeMap
+com.google.common.collect.RegularImmutableTable
+forCells
+static final RegularImmutableTable<R, C, V> forCells(Iterable<Cell<R, C, V>> cells)
+Iterable
+RegularImmutableTable
+com.google.common.collect.RegularImmutableTable
+forCells
+static RegularImmutableTable<R, C, V> forCells(List<Cell<R, C, V>> cells, @Nullable final Comparator<? super R> rowComparator, @Nullable final Comparator<? super C> columnComparator)
+List,Comparator,Comparator
+RegularImmutableTable
+com.google.common.collect.ImmutableTable
+copyOf
+public static final ImmutableTable<R, C, V> copyOf(Table<? extends R, ? extends C, ? extends V> table)
+Table
+ImmutableTable
+com.google.common.collect.ImmutableRangeMap
+of
+public static final ImmutableRangeMap<K, V> of(Range<K> range, V value)
+Range,V
+ImmutableRangeMap
+com.google.common.collect.ImmutableTable
+of
+public static ImmutableTable<R, C, V> of(R rowKey, C columnKey, V value)
+R,C,V
+ImmutableTable
+com.google.common.collect.ImmutableRangeMap
+copyOf
+public static ImmutableRangeMap<K, V> copyOf(RangeMap<K, ? extends V> rangeMap)
+RangeMap
+ImmutableRangeMap
+com.google.common.collect.ImmutableTable
+builder
+public static Builder<R, C, V> builder()
+empty
+Builder
+com.google.common.collect.ImmutableTable
+of
+public static final ImmutableTable<R, C, V> of()
+empty
+ImmutableTable
+com.google.common.collect.ImmutableTable
+of
+public static final ImmutableTable<R, C, V> of(R rowKey, C columnKey, V value)
+R,C,V
+ImmutableTable
+com.google.common.collect.ImmutableTable
+builder
+public static final Builder<R, C, V> builder()
+empty
+Builder
+com.google.common.collect.ImmutableRangeMap
+of
+public static ImmutableRangeMap<K, V> of()
+empty
+ImmutableRangeMap
+com.google.common.collect.ImmutableTable
+of
+public static ImmutableTable<R, C, V> of()
+empty
+ImmutableTable
+com.google.common.collect.ImmutableTable
+copyOf
+public static ImmutableTable<R, C, V> copyOf(Table<? extends R, ? extends C, ? extends V> table)
+Table
+ImmutableTable
+com.google.common.collect.RegularImmutableTable
+forCells
+static RegularImmutableTable<R, C, V> forCells(Iterable<Cell<R, C, V>> cells)
+Iterable
+RegularImmutableTable

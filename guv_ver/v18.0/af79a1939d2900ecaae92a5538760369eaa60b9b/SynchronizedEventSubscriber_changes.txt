@@ -1,0 +1,4 @@
+SynchronizedEventSubscriber
+Insertions: [23, 27, 31, 33, 37, 39]
+Deletions: [23, 27, 31, 33, 37, 39]
+guava/src/com/google/common/eventbus/SynchronizedEventSubscriber.java

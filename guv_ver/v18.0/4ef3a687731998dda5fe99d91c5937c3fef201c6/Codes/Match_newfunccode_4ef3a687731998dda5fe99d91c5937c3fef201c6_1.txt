@@ -1,0 +1,5 @@
+public double acquire(int permits) {
+    long microsToWait = reserve(permits);
+    ticker.sleepMicrosUninterruptibly(microsToWait);
+    return 1.0 * microsToWait / TimeUnit.SECONDS.toMicros(1L);
+}

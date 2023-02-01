@@ -1,0 +1,5 @@
+com.google.common.graph.GraphBuilder
+immutable
+public ImmutableGraph.Builder<N1> immutable()
+empty
+ImmutableGraph.Builder

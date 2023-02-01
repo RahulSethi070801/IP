@@ -1,0 +1,4 @@
+
+   * Returns the result of calling {@link CacheLoader#loadAll}, or null if {@code loader} doesn't
+   * implement {@code loadAll}.
+   

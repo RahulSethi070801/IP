@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "24": " * This class implements the GWT serialization of {@link ImmutableEntry}.\n"
+    },
+    "removed": {
+        "24": " * This class implements the GWT serialization of\n",
+        "25": " * {@link ImmutableEntry}.\n"
+    }
+}

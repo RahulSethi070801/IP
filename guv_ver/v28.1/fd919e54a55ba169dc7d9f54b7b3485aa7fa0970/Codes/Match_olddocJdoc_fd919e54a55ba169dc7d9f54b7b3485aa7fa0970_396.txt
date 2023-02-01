@@ -1,0 +1,8 @@
+
+   * Returns a view of this immutable list in reverse order. For example, {@code
+   * ImmutableList.of(1, 2, 3).reverse()} is equivalent to {@code
+   * ImmutableList.of(3, 2, 1)}.
+   *
+   * @return a view of this immutable list in reverse order
+   * @since 7.0
+   

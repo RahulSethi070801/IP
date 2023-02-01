@@ -1,0 +1,4 @@
+TrustedListenableFutureTask_2
+Insertions: [45, 46, 50, 51]
+Deletions: [45, 46, 47, 51, 52, 53]
+guava/src/com/google/common/util/concurrent/TrustedListenableFutureTask.java

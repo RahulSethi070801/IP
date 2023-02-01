@@ -1,0 +1,9 @@
+@Override
+public boolean contains(@Nullable Object element) {
+    if (safeContains(unfiltered, element)) {
+        @SuppressWarnings("unchecked")
+        E e = (E) element;
+        return predicate.apply(e);
+    }
+    return false;
+}

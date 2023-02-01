@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "52": "  @Benchmark\n",
+        "53": "  int log2(int reps) {\n",
+        "62": "  @Benchmark\n",
+        "63": "  int log10(int reps) {\n",
+        "72": "  @Benchmark\n",
+        "73": "  int sqrt(int reps) {\n",
+        "82": "  @Benchmark\n",
+        "83": "  int divide(int reps) {\n"
+    },
+    "removed": {
+        "52": "  @Benchmark int log2(int reps) {\n",
+        "61": "  @Benchmark int log10(int reps) {\n",
+        "70": "  @Benchmark int sqrt(int reps) {\n",
+        "79": "  @Benchmark int divide(int reps) {\n"
+    }
+}

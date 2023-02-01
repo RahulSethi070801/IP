@@ -1,0 +1,4 @@
+@SuppressWarnings("CheckReturnValue")
+private void checkThatNodeIsInTree(N startNode) {
+    tree.successors(startNode);
+}

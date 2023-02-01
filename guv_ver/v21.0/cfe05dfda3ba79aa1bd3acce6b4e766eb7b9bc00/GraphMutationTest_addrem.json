@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "42": "  public void directedGraph() {\n",
+        "43": "    testGraphMutation(GraphBuilder.directed());\n",
+        "47": "  public void undirectedGraph() {\n",
+        "48": "    testGraphMutation(GraphBuilder.undirected());\n",
+        "51": "  private static void testGraphMutation(GraphBuilder<? super Integer> graphBuilder) {\n",
+        "55": "      MutableGraph<Integer> graph = graphBuilder.allowsSelfLoops(true).build();\n",
+        "68": "      ArrayList<EndpointPair<Integer>> edgeList =\n",
+        "69": "          new ArrayList<EndpointPair<Integer>>(graph.edges());\n",
+        "78": "        EndpointPair<Integer> edge = edgeList.get(i);\n",
+        "79": "        assertThat(graph.removeEdge(edge.nodeU(), edge.nodeV())).isTrue();\n",
+        "109": "      for (EndpointPair<Integer> edge : edgeList) {\n",
+        "110": "        assertThat(graph.putEdge(edge.nodeU(), edge.nodeV())).isTrue();\n"
+    },
+    "removed": {
+        "42": "  public void directedBasicGraph() {\n",
+        "43": "    testBasicGraphMutation(BasicGraphBuilder.directed());\n",
+        "47": "  public void undirectedBasicGraph() {\n",
+        "48": "    testBasicGraphMutation(BasicGraphBuilder.undirected());\n",
+        "51": "  private static void testBasicGraphMutation(BasicGraphBuilder<? super Integer> graphBuilder) {\n",
+        "55": "      MutableBasicGraph<Integer> graph = graphBuilder.allowsSelfLoops(true).build();\n",
+        "68": "      ArrayList<Endpoints<Integer>> edgeList = new ArrayList<Endpoints<Integer>>(graph.edges());\n",
+        "77": "        Endpoints<Integer> edge = edgeList.get(i);\n",
+        "78": "        assertThat(graph.removeEdge(edge.nodeA(), edge.nodeB())).isTrue();\n",
+        "108": "      for (Endpoints<Integer> edge : edgeList) {\n",
+        "109": "        assertThat(graph.putEdge(edge.nodeA(), edge.nodeB())).isTrue();\n"
+    }
+}

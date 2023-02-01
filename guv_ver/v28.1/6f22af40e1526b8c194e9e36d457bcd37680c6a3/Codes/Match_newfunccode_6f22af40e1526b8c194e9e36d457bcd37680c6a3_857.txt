@@ -1,0 +1,4 @@
+@VisibleForTesting
+static <K, V> Map<K, V> map(Map<K, V> map, @NullableDecl Object mutex) {
+    return new SynchronizedMap<>(map, mutex);
+}

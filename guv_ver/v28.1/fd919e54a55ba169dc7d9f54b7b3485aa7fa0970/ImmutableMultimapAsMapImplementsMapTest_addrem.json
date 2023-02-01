@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "25": " * Test {@link Multimap#asMap()} for an {@link ImmutableMultimap} with {@link MapInterfaceTest}.\n",
+        "37": "  @Override\n",
+        "38": "  protected Map<String, Collection<Integer>> makeEmptyMap() {\n",
+        "42": "  @Override\n",
+        "43": "  protected Map<String, Collection<Integer>> makePopulatedMap() {\n"
+    },
+    "removed": {
+        "25": " * Test {@link Multimap#asMap()} for an {@link ImmutableMultimap} with\n",
+        "26": " * {@link MapInterfaceTest}.\n",
+        "38": "  @Override protected Map<String, Collection<Integer>> makeEmptyMap() {\n",
+        "42": "  @Override protected Map<String, Collection<Integer>> makePopulatedMap() {\n"
+    }
+}

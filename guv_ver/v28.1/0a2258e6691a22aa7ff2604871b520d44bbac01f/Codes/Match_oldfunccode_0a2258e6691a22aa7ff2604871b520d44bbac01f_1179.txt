@@ -1,0 +1,4 @@
+@Override
+public Map<R, V> column(@NullableDecl C columnKey) {
+    return Collections.unmodifiableMap(super.column(columnKey));
+}

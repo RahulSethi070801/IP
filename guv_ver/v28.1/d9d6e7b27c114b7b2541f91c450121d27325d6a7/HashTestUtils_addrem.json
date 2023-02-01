@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "622": "    String string = new String(bytes, Charsets.US_ASCII);\n"
+    },
+    "removed": {
+        "622": "    String string = new String(bytes);\n"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "429": "      @Override public final ListenableFuture<State> start() {\n",
+        "430": "        return delegate.start();\n",
+        "431": "      }\n",
+        "432": "\n"
+    },
+    "removed": {
+        "425": "      @Override public final ListenableFuture<State> start() {\n",
+        "426": "        return delegate.start();\n",
+        "427": "      }\n",
+        "428": "\n"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "addition": {},
+    "removed": {
+        "90": "  @GwtIncompatible(\"java.util.BitSet\")\n",
+        "143": "  @GwtIncompatible(\"java.util.BitSet\")\n"
+    }
+}

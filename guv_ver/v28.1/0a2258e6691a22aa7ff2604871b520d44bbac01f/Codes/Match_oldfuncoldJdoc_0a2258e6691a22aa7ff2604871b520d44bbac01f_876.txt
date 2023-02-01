@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #equals(Object)} in terms of {@link #getKey()} and {@link
+   * #getValue()}. If you override either of these methods, you may wish to override {@link
+   * #equals(Object)} to forward to this implementation.
+   *
+   * @since 7.0
+   

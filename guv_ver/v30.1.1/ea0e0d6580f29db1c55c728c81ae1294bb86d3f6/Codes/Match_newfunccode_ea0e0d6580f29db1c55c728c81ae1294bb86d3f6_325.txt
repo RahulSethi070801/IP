@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+int add(@ParametricNullness E element, int occurrences);

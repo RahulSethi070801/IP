@@ -1,0 +1,135 @@
+com.google.common.io.CharSource
+openStream
+public abstract Reader openStream() throws IOException
+empty
+Reader
+com.google.common.io.ByteSink
+openBufferedStream
+public OutputStream openBufferedStream() throws IOException
+empty
+OutputStream
+com.google.common.io.ByteSource
+hash
+public HashCode hash(HashFunction hashFunction) throws IOException
+HashFunction
+HashCode
+com.google.common.io.ByteSource
+read
+public T read(ByteProcessor<T> processor) throws IOException
+ByteProcessor
+T
+com.google.common.io.ByteSource
+copyTo
+public long copyTo(OutputStream output) throws IOException
+OutputStream
+long
+com.google.common.io.ByteSink
+writeFrom
+public long writeFrom(InputStream input) throws IOException
+InputStream
+long
+com.google.common.io.CharSink
+write
+public void write(CharSequence charSequence) throws IOException
+CharSequence
+void
+com.google.common.io.CharSource
+copyTo
+public long copyTo(CharSink sink) throws IOException
+CharSink
+long
+com.google.common.io.ByteSource
+size
+public long size() throws IOException
+empty
+long
+com.google.common.io.CharSource
+copyTo
+public long copyTo(Appendable appendable) throws IOException
+Appendable
+long
+com.google.common.io.ByteSink
+write
+public void write(byte[] bytes) throws IOException
+byte[]
+void
+com.google.common.io.CharSource
+openBufferedStream
+public BufferedReader openBufferedStream() throws IOException
+empty
+BufferedReader
+com.google.common.io.CharSource
+read
+public String read() throws IOException
+empty
+String
+com.google.common.io.CharSink
+writeFrom
+public long writeFrom(Readable readable) throws IOException
+Readable
+long
+com.google.common.io.ByteSource
+copyTo
+public long copyTo(ByteSink sink) throws IOException
+ByteSink
+long
+com.google.common.io.CharSource
+readLines
+public ImmutableList<String> readLines() throws IOException
+empty
+ImmutableList
+com.google.common.io.CharSink
+writeLines
+public void writeLines(Iterable<? extends CharSequence> lines) throws IOException
+Iterable
+void
+com.google.common.io.ByteSource
+openStream
+public abstract InputStream openStream() throws IOException
+empty
+InputStream
+com.google.common.io.ByteSource
+contentEquals
+public boolean contentEquals(ByteSource other) throws IOException
+ByteSource
+boolean
+com.google.common.io.ByteSink
+openStream
+public abstract OutputStream openStream() throws IOException
+empty
+OutputStream
+com.google.common.io.ByteSource
+read
+public byte[] read() throws IOException
+empty
+byte[]
+com.google.common.io.ByteSource
+openBufferedStream
+public InputStream openBufferedStream() throws IOException
+empty
+InputStream
+com.google.common.io.CharSink
+writeLines
+public void writeLines(Iterable<? extends CharSequence> lines, String lineSeparator) throws IOException
+Iterable,String
+void
+com.google.common.io.CharSource
+readFirstLine
+public String readFirstLine() throws IOException
+empty
+String
+com.google.common.io.CharSink
+openBufferedStream
+public Writer openBufferedStream() throws IOException
+empty
+Writer
+com.google.common.io.CharSink
+openStream
+public abstract Writer openStream() throws IOException
+empty
+Writer
+com.google.common.io.CharSource
+length
+public long length() throws IOException
+empty
+long

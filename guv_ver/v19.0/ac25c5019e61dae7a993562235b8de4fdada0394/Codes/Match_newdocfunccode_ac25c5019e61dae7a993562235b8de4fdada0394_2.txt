@@ -1,0 +1,15 @@
+public boolean enterIfInterruptibly(Guard guard) throws InterruptedException {
+    if (guard.monitor != this) {
+        throw new IllegalMonitorStateException();
+    }
+    final ReentrantLock lock = this.lock;
+    lock.lockInterruptibly();
+    boolean satisfied = false;
+    try {
+        return satisfied = guard.isSatisfied();
+    } finally {
+        if (!satisfied) {
+            lock.unlock();
+        }
+    }
+}

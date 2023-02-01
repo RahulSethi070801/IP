@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "23": "  /** Handles exceptions thrown by subscribers. */\n"
+    },
+    "removed": {
+        "22": "  /**\n",
+        "23": "   * Handles exceptions thrown by subscribers.\n",
+        "24": "   */\n"
+    }
+}

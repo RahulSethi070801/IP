@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "31": " * Tester for {@link Map#remove(Object, Object)}. Can't be invoked directly; please see {@link\n",
+        "32": " * com.google.common.collect.testing.MapTestSuiteBuilder}.\n",
+        "89": "    } catch (UnsupportedOperationException expected) {\n",
+        "90": "    }\n"
+    },
+    "removed": {
+        "31": " * Tester for {@link Map#remove(Object, Object)}.  Can't be invoked directly; please see \n",
+        "32": " * {@link com.google.common.collect.testing.MapTestSuiteBuilder}. \n",
+        "89": "    } catch (UnsupportedOperationException expected) {}\n"
+    }
+}

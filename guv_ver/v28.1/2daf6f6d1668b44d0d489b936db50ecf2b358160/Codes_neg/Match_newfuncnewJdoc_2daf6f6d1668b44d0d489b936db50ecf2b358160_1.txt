@@ -1,0 +1,21 @@
+
+   * Returns a {@code Collector} expecting the specified number of insertions, and yielding a {@link
+   * BloomFilter} with false positive probability 3%.
+   *
+   * <p>Note that if the {@code Collector} receives significantly more elements than specified, the
+   * resulting {@code BloomFilter} will suffer a sharp deterioration of its false positive
+   * probability.
+   *
+   * <p>The constructed {@code BloomFilter} will be serializable if the provided {@code
+   * Funnel<T>} is.
+   *
+   * <p>It is recommended that the funnel be implemented as a Java enum. This has the benefit of
+   * ensuring proper serialization and deserialization, which is important since {@link #equals}
+   * also relies on object identity of funnels.
+   *
+   * @param funnel the funnel of T's that the constructed {@code BloomFilter} will use
+   * @param expectedInsertions the number of expected insertions to the constructed {@code
+   *     BloomFilter}; must be positive
+   * @return a {@code Collector} generating a {@code BloomFilter} of the received elements
+   * @since 23.0
+   

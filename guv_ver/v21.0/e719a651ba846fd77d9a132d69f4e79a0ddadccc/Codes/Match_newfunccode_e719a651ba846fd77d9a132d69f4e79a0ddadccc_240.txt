@@ -1,0 +1,3 @@
+public static CharSink asCharSink(File file, Charset charset, FileWriteMode... modes) {
+    return asByteSink(file, modes).asCharSink(charset);
+}

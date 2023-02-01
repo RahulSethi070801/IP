@@ -1,0 +1,11 @@
+@CheckForNull
+private MoveDesc<E> fillHole(int index, E toTrickle) {
+    Heap heap = heapForIndex(index);
+    int vacated = heap.fillHoleAt(index);
+    int bubbledTo = heap.bubbleUpAlternatingLevels(vacated, toTrickle);
+    if (bubbledTo == vacated) {
+        return heap.tryCrossOverAndBubbleUp(index, vacated, toTrickle);
+    } else {
+        return (bubbledTo < index) ? new MoveDesc<E>(toTrickle, elementData(index)) : null;
+    }
+}

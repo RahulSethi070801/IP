@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "26": " * One Google-authored templating system available for external use is <a\n",
+        "27": " * href=\"https://developers.google.com/closure/templates/\">Closure Templates</a>.\n",
+        "42": "   * Returns an {@link Escaper} instance that escapes HTML metacharacters as specified by <a\n",
+        "43": "   * href=\"http://www.w3.org/TR/html4/\">HTML 4.01</a>. The resulting strings can be used both in\n"
+    },
+    "removed": {
+        "26": " * One Google-authored templating system available for external use is\n",
+        "27": " * <a href=\"https://developers.google.com/closure/templates/\">Closure Templates</a>.\n",
+        "42": "   * Returns an {@link Escaper} instance that escapes HTML metacharacters as specified by\n",
+        "43": "   * <a href=\"http://www.w3.org/TR/html4/\">HTML 4.01</a>. The resulting strings can be used both in\n",
+        "48": "   *\n"
+    }
+}

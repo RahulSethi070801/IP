@@ -1,0 +1,19 @@
+@GuardedBy("monitor")
+private void terminated(final State from) {
+    switch(from) {
+        case NEW:
+            TERMINATED_FROM_NEW_CALLBACK.enqueueOn(listeners);
+            break;
+        case RUNNING:
+            TERMINATED_FROM_RUNNING_CALLBACK.enqueueOn(listeners);
+            break;
+        case STOPPING:
+            TERMINATED_FROM_STOPPING_CALLBACK.enqueueOn(listeners);
+            break;
+        case STARTING:
+        case TERMINATED:
+        case FAILED:
+        default:
+            throw new AssertionError();
+    }
+}

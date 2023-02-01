@@ -1,0 +1,4 @@
+@Override
+Spliterator<Cell<R, C, V2>> cellSpliterator() {
+    return CollectSpliterators.map(fromTable.cellSet().spliterator(), cellFunction());
+}

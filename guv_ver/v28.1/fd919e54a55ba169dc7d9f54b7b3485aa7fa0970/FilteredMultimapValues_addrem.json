@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "62": "        unfilteredItr.hasNext(); ) {\n"
+    },
+    "removed": {
+        "62": "        unfilteredItr.hasNext();\n",
+        "63": "        ) {\n"
+    }
+}

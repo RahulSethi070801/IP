@@ -1,0 +1,6 @@
+@Override
+public V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction) {
+    synchronized (mutex) {
+        return delegate().computeIfAbsent(key, mappingFunction);
+    }
+}

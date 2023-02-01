@@ -1,0 +1,8 @@
+@Nullable
+public final TypeToken<?> getComponentType() {
+    Type componentType = Types.getComponentType(runtimeType);
+    if (componentType == null) {
+        return null;
+    }
+    return of(componentType);
+}

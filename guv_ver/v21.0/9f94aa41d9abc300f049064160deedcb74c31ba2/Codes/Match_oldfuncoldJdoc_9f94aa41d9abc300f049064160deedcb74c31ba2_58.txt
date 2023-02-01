@@ -1,0 +1,9 @@
+
+   * Sets a custom {@code Equivalence} strategy for comparing values.
+   *
+   * <p>By default, the cache uses {@link Equivalence#identity} to determine value equality when
+   * {@link #weakValues} or {@link #softValues} is specified, and {@link Equivalence#equals()}
+   * otherwise.
+   *
+   * @return this {@code CacheBuilder} instance (for chaining)
+   

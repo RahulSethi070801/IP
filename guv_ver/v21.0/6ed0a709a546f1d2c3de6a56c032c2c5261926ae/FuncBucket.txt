@@ -1,0 +1,45 @@
+com.google.common.graph.Graphs
+nodeToIncidentEdges
+private static Map<N, Set<E>> nodeToIncidentEdges(final Network<N, E> graph)
+Network
+Map
+com.google.common.graph.Graphs
+nodeToAdjacentNodes
+private static Map<N, Set<N>> nodeToAdjacentNodes(final Graph<N> graph)
+Graph
+Map
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Graph<?> graph)
+Graph
+int
+com.google.common.graph.Graphs
+apply
+public Set<N> apply(N node)
+N
+Set
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Graph<?> graph1, @Nullable Graph<?> graph2)
+Graph,Graph
+boolean
+com.google.common.graph.Graphs
+nodeToOutEdges
+private static Map<N, Set<E>> nodeToOutEdges(final Network<N, E> graph)
+Network
+Map
+com.google.common.graph.Graphs
+nodeToSuccessorNodes
+private static Map<N, Set<N>> nodeToSuccessorNodes(final Graph<N> graph)
+Graph
+Map
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Network<?, ?> graph1, @Nullable Network<?, ?> graph2)
+Network,Network
+boolean
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Network<?, ?> graph)
+Network
+int

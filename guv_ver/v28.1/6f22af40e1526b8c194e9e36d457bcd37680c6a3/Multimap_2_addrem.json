@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "30": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "184": "  boolean containsKey(@CompatibleWith(\"K\") @NullableDecl Object key);\n",
+        "190": "  boolean containsValue(@CompatibleWith(\"V\") @NullableDecl Object value);\n",
+        "197": "      @CompatibleWith(\"K\") @NullableDecl Object key,\n",
+        "198": "      @CompatibleWith(\"V\") @NullableDecl Object value);\n",
+        "213": "  boolean put(@NullableDecl K key, @NullableDecl V value);\n",
+        "224": "      @CompatibleWith(\"K\") @NullableDecl Object key,\n",
+        "225": "      @CompatibleWith(\"V\") @NullableDecl Object value);\n",
+        "244": "  boolean putAll(@NullableDecl K key, Iterable<? extends V> values);\n",
+        "265": "  Collection<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values);\n",
+        "277": "  Collection<V> removeAll(@CompatibleWith(\"K\") @NullableDecl Object key);\n",
+        "291": "  Collection<V> get(@NullableDecl K key);\n",
+        "373": "  boolean equals(@NullableDecl Object obj);\n"
+    },
+    "removed": {
+        "30": "import javax.annotation.Nullable;\n",
+        "184": "  boolean containsKey(@CompatibleWith(\"K\") @Nullable Object key);\n",
+        "190": "  boolean containsValue(@CompatibleWith(\"V\") @Nullable Object value);\n",
+        "197": "      @CompatibleWith(\"K\") @Nullable Object key, @CompatibleWith(\"V\") @Nullable Object value);\n",
+        "212": "  boolean put(@Nullable K key, @Nullable V value);\n",
+        "223": "      @CompatibleWith(\"K\") @Nullable Object key, @CompatibleWith(\"V\") @Nullable Object value);\n",
+        "242": "  boolean putAll(@Nullable K key, Iterable<? extends V> values);\n",
+        "263": "  Collection<V> replaceValues(@Nullable K key, Iterable<? extends V> values);\n",
+        "275": "  Collection<V> removeAll(@CompatibleWith(\"K\") @Nullable Object key);\n",
+        "289": "  Collection<V> get(@Nullable K key);\n",
+        "371": "  boolean equals(@Nullable Object obj);\n"
+    }
+}

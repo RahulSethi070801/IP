@@ -1,0 +1,4 @@
+Platform_2
+Insertions: [35, 43]
+Deletions: [35, 36, 37, 45, 46]
+android/guava-testlib/src/com/google/common/testing/Platform.java

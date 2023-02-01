@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "25": "@ElementTypesAreNonnullByDefault\n",
+        "26": "class ImmutableEntry<K extends @Nullable Object, V extends @Nullable Object>\n",
+        "27": "    extends AbstractMapEntry<K, V> implements Serializable {\n",
+        "28": "  @ParametricNullness final K key;\n",
+        "29": "  @ParametricNullness final V value;\n",
+        "31": "  ImmutableEntry(@ParametricNullness K key, @ParametricNullness V value) {\n",
+        "37": "  @ParametricNullness\n",
+        "43": "  @ParametricNullness\n",
+        "49": "  @ParametricNullness\n",
+        "50": "  public final V setValue(@ParametricNullness V value) {\n"
+    },
+    "removed": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "25": "class ImmutableEntry<K, V> extends AbstractMapEntry<K, V> implements Serializable {\n",
+        "26": "  @NullableDecl final K key;\n",
+        "27": "  @NullableDecl final V value;\n",
+        "29": "  ImmutableEntry(@NullableDecl K key, @NullableDecl V value) {\n",
+        "35": "  @NullableDecl\n",
+        "41": "  @NullableDecl\n",
+        "47": "  public final V setValue(V value) {\n"
+    }
+}

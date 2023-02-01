@@ -1,0 +1,4 @@
+RegularContiguousSet
+Insertions: [26, 103, 149, 198]
+Deletions: [26, 103, 149, 198]
+android/guava/src/com/google/common/collect/RegularContiguousSet.java

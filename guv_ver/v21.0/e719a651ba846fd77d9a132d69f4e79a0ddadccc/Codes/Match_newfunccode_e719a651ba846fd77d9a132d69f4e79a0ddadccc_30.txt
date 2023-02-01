@@ -1,0 +1,5 @@
+@Deprecated
+@Override
+public void writeBytes(String s) throws IOException {
+    ((DataOutputStream) out).writeBytes(s);
+}

@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "113": "  public static <T> Optional<T> fromNullable(@NullableDecl T nullableReference) {\n",
+        "123": "  @NullableDecl\n",
+        "124": "  public static <T> Optional<T> fromJavaUtil(@NullableDecl java.util.Optional<T> javaUtilOptional) {\n",
+        "141": "  @NullableDecl\n",
+        "142": "  public static <T> java.util.Optional<T> toJavaUtil(@NullableDecl Optional<T> googleOptional) {\n",
+        "236": "  @NullableDecl\n",
+        "296": "  public abstract boolean equals(@NullableDecl Object object);\n"
+    },
+    "removed": {
+        "24": "import javax.annotation.Nullable;\n",
+        "113": "  public static <T> Optional<T> fromNullable(@Nullable T nullableReference) {\n",
+        "123": "  @Nullable\n",
+        "124": "  public static <T> Optional<T> fromJavaUtil(@Nullable java.util.Optional<T> javaUtilOptional) {\n",
+        "141": "  @Nullable\n",
+        "142": "  public static <T> java.util.Optional<T> toJavaUtil(@Nullable Optional<T> googleOptional) {\n",
+        "236": "  @Nullable\n",
+        "296": "  public abstract boolean equals(@Nullable Object object);\n"
+    }
+}

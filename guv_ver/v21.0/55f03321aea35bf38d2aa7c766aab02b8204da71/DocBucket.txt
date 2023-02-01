@@ -1,0 +1,80 @@
+com.google.common.primitives.Booleans
+indexOf
+public static int indexOf(boolean[] array, boolean[] target)
+boolean[],boolean[]
+int
+com.google.common.primitives.Chars
+indexOf
+public static int indexOf(char[] array, char[] target)
+char[],char[]
+int
+com.google.common.primitives.Booleans
+lexicographicalComparator
+public static Comparator<boolean[]> lexicographicalComparator()
+empty
+Comparator
+com.google.common.primitives.Doubles
+lexicographicalComparator
+public static Comparator<double[]> lexicographicalComparator()
+empty
+Comparator
+com.google.common.primitives.Shorts
+indexOf
+public static int indexOf(short[] array, short[] target)
+short[],short[]
+int
+com.google.common.primitives.Floats
+indexOf
+public static int indexOf(float[] array, float[] target)
+float[],float[]
+int
+com.google.common.primitives.Bytes
+indexOf
+public static int indexOf(byte[] array, byte[] target)
+byte[],byte[]
+int
+com.google.common.primitives.Longs
+lexicographicalComparator
+public static Comparator<long[]> lexicographicalComparator()
+empty
+Comparator
+com.google.common.primitives.Shorts
+lexicographicalComparator
+public static Comparator<short[]> lexicographicalComparator()
+empty
+Comparator
+com.google.common.primitives.Floats
+lexicographicalComparator
+public static Comparator<float[]> lexicographicalComparator()
+empty
+Comparator
+com.google.common.primitives.Doubles
+indexOf
+public static int indexOf(double[] array, double[] target)
+double[],double[]
+int
+com.google.common.primitives.Ints
+indexOf
+public static int indexOf(int[] array, int[] target)
+int[],int[]
+int
+com.google.common.primitives.UnsignedInts
+lexicographicalComparator
+public static Comparator<int[]> lexicographicalComparator()
+empty
+Comparator
+com.google.common.primitives.SignedBytes
+lexicographicalComparator
+public static Comparator<byte[]> lexicographicalComparator()
+empty
+Comparator
+com.google.common.primitives.Chars
+lexicographicalComparator
+public static Comparator<char[]> lexicographicalComparator()
+empty
+Comparator
+com.google.common.primitives.Longs
+indexOf
+public static int indexOf(long[] array, long[] target)
+long[],long[]
+int

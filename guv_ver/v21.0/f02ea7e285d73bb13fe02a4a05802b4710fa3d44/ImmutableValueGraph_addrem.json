@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "26": "import javax.annotation.Nullable;\n",
+        "99": "  public V edgeValueOrDefault(Object nodeU, Object nodeV, @Nullable V defaultValue) {\n",
+        "100": "    return backingValueGraph.edgeValueOrDefault(nodeU, nodeV, defaultValue);\n"
+    },
+    "removed": {
+        "26": "import java.util.Map;\n",
+        "99": "  public Map<EndpointPair<N>, V> edgeValues() {\n",
+        "100": "    return backingValueGraph.edgeValues();\n"
+    }
+}

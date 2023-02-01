@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "43": "   * Returns the {@link Method} instance for {@link #testHashCode()} so that list tests on\n",
+        "44": "   * unhashable objects can suppress it with {@code FeatureSpecificTestSuiteBuilder.suppressing()}.\n"
+    },
+    "removed": {
+        "43": "   * Returns the {@link Method} instance for {@link #testHashCode()} so that\n",
+        "44": "   * list tests on unhashable objects can suppress it with\n",
+        "45": "   * {@code FeatureSpecificTestSuiteBuilder.suppressing()}.\n"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "19": "import static com.google.common.collect.FluentIterableTest.Help.assertThat;\n",
+        "34": "import com.google.common.truth.IterableSubject;\n",
+        "35": "import com.google.common.truth.Truth;\n",
+        "44": "import java.util.stream.Stream;\n",
+        "922": "  /*\n",
+        "923": "   * Full and proper black-box testing of a Stream-returning method is extremely involved, and is\n",
+        "924": "   * overkill when nearly all Streams are produced using well-tested JDK calls. So, we cheat and\n",
+        "925": "   * just test that the toArray() contents are as expected.\n",
+        "926": "   */\n",
+        "927": "  public void testStream() {\n",
+        "928": "    assertThat(FluentIterable.of().stream()).isEmpty();\n",
+        "929": "    assertThat(FluentIterable.of(\"a\").stream()).containsExactly(\"a\");\n",
+        "930": "    assertThat(FluentIterable.of(1, 2, 3).stream().filter(n -> n > 1)).containsExactly(2, 3);\n",
+        "931": "  }\n",
+        "932": "\n",
+        "933": "  // TODO(kevinb): add assertThat(Stream) to Truth?\n",
+        "934": "  static class Help {\n",
+        "935": "    static IterableSubject assertThat(Stream<?> stream) {\n",
+        "936": "      return Truth.assertThat(stream.toArray()).asList();\n",
+        "937": "    }\n",
+        "938": "  }\n",
+        "939": "\n"
+    },
+    "removed": {}
+}

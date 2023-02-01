@@ -1,0 +1,5 @@
+@GwtIncompatible("java.util.concurrent.ScheduledExecutorService")
+@CheckReturnValue
+public static <V> ListenableFuture<V> withTimeout(ListenableFuture<V> delegate, long time, TimeUnit unit, ScheduledExecutorService scheduledExecutor) {
+    return TimeoutFuture.create(delegate, time, unit, scheduledExecutor);
+}

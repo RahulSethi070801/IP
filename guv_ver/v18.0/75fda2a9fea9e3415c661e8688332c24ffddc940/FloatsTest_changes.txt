@@ -1,0 +1,4 @@
+FloatsTest
+Insertions: [386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 400]
+Deletions: []
+guava-gwt/test-super/com/google/common/primitives/super/com/google/common/primitives/FloatsTest.java

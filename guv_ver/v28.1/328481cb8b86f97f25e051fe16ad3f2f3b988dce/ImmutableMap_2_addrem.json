@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "229": "      for (Entry<?, ?> entry : enumMap.entrySet()) {\n"
+    },
+    "removed": {
+        "231": "      for (Map.Entry<?, ?> entry : enumMap.entrySet()) {\n"
+    }
+}

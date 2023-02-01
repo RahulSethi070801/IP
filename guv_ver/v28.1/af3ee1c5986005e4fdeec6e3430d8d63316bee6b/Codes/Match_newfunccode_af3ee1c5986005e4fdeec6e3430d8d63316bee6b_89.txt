@@ -1,0 +1,4 @@
+protected final void validateEndpoints(EndpointPair<?> endpoints) {
+    checkNotNull(endpoints);
+    checkArgument(isOrderingCompatible(endpoints), ENDPOINTS_MISMATCH);
+}

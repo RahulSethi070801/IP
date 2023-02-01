@@ -1,0 +1,9 @@
+
+   * Returns an immutable map entry with the specified key and value. The {@link Entry#setValue}
+   * operation throws an {@link UnsupportedOperationException}.
+   *
+   * <p>The returned entry is serializable.
+   *
+   * @param key the key to be associated with the returned entry
+   * @param value the value to be associated with the returned entry
+   

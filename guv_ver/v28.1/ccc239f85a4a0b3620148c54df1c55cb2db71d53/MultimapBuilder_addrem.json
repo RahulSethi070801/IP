@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "76": "  /** Uses a hash table to map keys to value collections. */\n",
+        "82": "   * Uses a hash table to map keys to value collections, initialized to expect the specified\n",
+        "92": "        return Platform.newHashMapWithExpectedSize(expectedKeys);\n",
+        "98": "   * Uses a hash table to map keys to value collections.\n",
+        "110": "   * Uses an hash table to map keys to value collections, initialized to expect the\n",
+        "123": "        return Platform.newLinkedHashMapWithExpectedSize(expectedKeys);\n",
+        "223": "      return Platform.newHashSetWithExpectedSize(expectedValuesPerKey);\n",
+        "236": "      return Platform.newLinkedHashSetWithExpectedSize(expectedValuesPerKey);\n",
+        "316": "    /** Uses a hash-based {@code Set} to store value collections. */\n",
+        "322": "     * Uses a hash-based {@code Set} to store value collections, initialized to expect the specified number\n",
+        "339": "    /** Uses an insertion-ordered hash-based {@code Set} to store value collections. */\n",
+        "345": "     * Uses an insertion-ordered hash-based {@code Set} to store value collections, initialized to expect the specified\n"
+    },
+    "removed": {
+        "21": "import static com.google.common.collect.Maps.newLinkedHashMapWithExpectedSize;\n",
+        "32": "import java.util.HashMap;\n",
+        "33": "import java.util.HashSet;\n",
+        "34": "import java.util.LinkedHashMap;\n",
+        "35": "import java.util.LinkedHashSet;\n",
+        "81": "  /** Uses a {@link HashMap} to map keys to value collections. */\n",
+        "87": "   * Uses a {@link HashMap} to map keys to value collections, initialized to expect the specified\n",
+        "97": "        return Maps.newHashMapWithExpectedSize(expectedKeys);\n",
+        "103": "   * Uses a {@link LinkedHashMap} to map keys to value collections.\n",
+        "115": "   * Uses a {@link LinkedHashMap} to map keys to value collections, initialized to expect the\n",
+        "128": "        return newLinkedHashMapWithExpectedSize(expectedKeys);\n",
+        "228": "      return Sets.newHashSetWithExpectedSize(expectedValuesPerKey);\n",
+        "241": "      return Sets.newLinkedHashSetWithExpectedSize(expectedValuesPerKey);\n",
+        "321": "    /** Uses a {@link HashSet} to store value collections. */\n",
+        "327": "     * Uses a {@link HashSet} to store value collections, initialized to expect the specified number\n",
+        "344": "    /** Uses a {@link LinkedHashSet} to store value collections. */\n",
+        "350": "     * Uses a {@link LinkedHashSet} to store value collections, initialized to expect the specified\n"
+    }
+}

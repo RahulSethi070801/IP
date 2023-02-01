@@ -1,0 +1,4 @@
+LocalCache
+Insertions: [42, 378, 479, 685]
+Deletions: [42, 378, 479, 685]
+guava-gwt/src-super/com/google/common/cache/super/com/google/common/cache/LocalCache.java

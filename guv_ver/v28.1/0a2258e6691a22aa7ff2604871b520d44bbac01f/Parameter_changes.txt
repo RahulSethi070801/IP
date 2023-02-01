@@ -1,0 +1,4 @@
+Parameter
+Insertions: [25, 71, 102, 121]
+Deletions: [25, 71, 102, 121]
+guava/src/com/google/common/reflect/Parameter.java

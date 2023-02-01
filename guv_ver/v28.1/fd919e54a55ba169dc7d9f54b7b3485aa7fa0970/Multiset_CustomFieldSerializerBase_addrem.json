@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "24": " * This class contains static utility methods for writing {@code Multiset} GWT field serializers.\n",
+        "25": " * Serializers should delegate to {@link #serialize(SerializationStreamWriter, Multiset)} and {@link\n",
+        "26": " * #populate(SerializationStreamReader, Multiset)}.\n"
+    },
+    "removed": {
+        "24": " * This class contains static utility methods for writing {@code Multiset} GWT\n",
+        "25": " * field serializers. Serializers should delegate to\n",
+        "26": " * {@link #serialize(SerializationStreamWriter, Multiset)} and\n",
+        "27": " * {@link #populate(SerializationStreamReader, Multiset)}.\n"
+    }
+}

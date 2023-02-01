@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "56": "  /** Sample CharMatcher instances for benchmarking. */\n",
+        "65": "    HEX_22(\n",
+        "66": "        CharMatcher.inRange('0', '9')\n",
+        "67": "            .or(CharMatcher.inRange('A', 'F'))\n",
+        "68": "            .or(CharMatcher.inRange('a', 'f')),\n",
+        "70": "    GERMAN_59(\n",
+        "71": "        CharMatcher.inRange('a', 'z')\n",
+        "72": "            .or(CharMatcher.inRange('A', 'Z'))\n",
+        "73": "            .or(CharMatcher.anyOf(\"\u00e4\u00f6\u00fc\u00df\u00c4\u00d6\u00dc\")),\n"
+    },
+    "removed": {
+        "54": "  /**\n",
+        "55": "   * Sample CharMatcher instances for benchmarking.\n",
+        "56": "   */\n",
+        "65": "    HEX_22(CharMatcher.inRange('0', '9')\n",
+        "66": "        .or(CharMatcher.inRange('A', 'F')).or(CharMatcher.inRange('a', 'f')),\n",
+        "68": "    GERMAN_59(CharMatcher.inRange('a', 'z')\n",
+        "69": "        .or(CharMatcher.inRange('A', 'Z')).or(CharMatcher.anyOf(\"\u00e4\u00f6\u00fc\u00df\u00c4\u00d6\u00dc\")),\n"
+    }
+}

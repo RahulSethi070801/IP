@@ -1,0 +1,6 @@
+@Nullable
+public static <T> T get(Iterator<? extends T> iterator, int position, @Nullable T defaultValue) {
+    checkNonnegative(position);
+    advance(iterator, position);
+    return getNext(iterator, defaultValue);
+}

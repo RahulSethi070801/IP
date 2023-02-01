@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "34": "@ElementTypesAreNonnullByDefault\n",
+        "35": "public interface LineProcessor<T extends @Nullable Object> {\n",
+        "47": "  @ParametricNullness\n"
+    },
+    "removed": {
+        "33": "public interface LineProcessor<T> {\n"
+    }
+}

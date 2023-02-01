@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean putAll(@NullableDecl K key, Iterable<? extends V> values);

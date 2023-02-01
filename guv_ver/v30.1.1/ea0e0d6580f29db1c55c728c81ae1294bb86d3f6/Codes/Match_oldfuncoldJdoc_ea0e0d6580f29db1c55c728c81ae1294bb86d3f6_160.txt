@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #setCount(Object, int, int)} in terms of {@link #count(Object)}
+   * and {@link #setCount(Object, int)}. If you override either of these methods, you may wish to
+   * override {@link #setCount(Object, int, int)} to forward to this implementation.
+   *
+   * @since 7.0
+   

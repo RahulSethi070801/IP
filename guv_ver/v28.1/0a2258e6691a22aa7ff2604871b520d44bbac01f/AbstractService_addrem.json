@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "38": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "554": "    @Nullable final Throwable failure;\n",
+        "561": "        State internalState, boolean shutdownWhenStartupFinishes, @Nullable Throwable failure) {\n"
+    },
+    "removed": {
+        "38": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "554": "    @NullableDecl final Throwable failure;\n",
+        "561": "        State internalState, boolean shutdownWhenStartupFinishes, @NullableDecl Throwable failure) {\n"
+    }
+}

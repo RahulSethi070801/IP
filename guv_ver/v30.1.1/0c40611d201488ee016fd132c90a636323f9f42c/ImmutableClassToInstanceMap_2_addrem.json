@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "28": "import javax.annotation.CheckForNull;\n",
+        "39": "@ElementTypesAreNonnullByDefault\n",
+        "177": "  @CheckForNull\n",
+        "178": "  public <T extends B> T getInstance(Class<T> type) {\n",
+        "192": "  @CheckForNull\n"
+    },
+    "removed": {
+        "28": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "176": "  public <T extends B> @Nullable T getInstance(Class<T> type) {\n"
+    }
+}

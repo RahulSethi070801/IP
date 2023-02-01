@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+V checkValue(@Nullable V value) {
+    return value;
+}

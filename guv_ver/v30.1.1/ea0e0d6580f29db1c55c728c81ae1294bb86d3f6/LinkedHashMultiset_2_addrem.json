@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "25": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "43": "@ElementTypesAreNonnullByDefault\n",
+        "44": "public final class LinkedHashMultiset<E extends @Nullable Object>\n",
+        "45": "    extends AbstractMapBasedMultiset<E> {\n",
+        "48": "  public static <E extends @Nullable Object> LinkedHashMultiset<E> create() {\n",
+        "59": "  public static <E extends @Nullable Object> LinkedHashMultiset<E> create(int distinctElements) {\n",
+        "70": "  public static <E extends @Nullable Object> LinkedHashMultiset<E> create(\n",
+        "71": "      Iterable<? extends E> elements) {\n"
+    },
+    "removed": {
+        "42": "public final class LinkedHashMultiset<E> extends AbstractMapBasedMultiset<E> {\n",
+        "45": "  public static <E> LinkedHashMultiset<E> create() {\n",
+        "56": "  public static <E> LinkedHashMultiset<E> create(int distinctElements) {\n",
+        "67": "  public static <E> LinkedHashMultiset<E> create(Iterable<? extends E> elements) {\n"
+    }
+}

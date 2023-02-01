@@ -1,0 +1,4 @@
+SingletonImmutableTableTest
+Insertions: [67, 131, 132]
+Deletions: [67, 68, 132]
+android/guava-tests/test/com/google/common/collect/SingletonImmutableTableTest.java

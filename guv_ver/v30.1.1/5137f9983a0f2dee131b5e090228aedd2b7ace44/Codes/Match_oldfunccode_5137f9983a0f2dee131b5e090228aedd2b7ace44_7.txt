@@ -1,0 +1,20 @@
+@GuardedBy("this")
+private void update(int len) throws IOException {
+    if (file == null && (memory.getCount() + len > fileThreshold)) {
+        File temp = File.createTempFile("FileBackedOutputStream", null, parentDirectory);
+        if (resetOnFinalize) {
+            temp.deleteOnExit();
+        }
+        try {
+            FileOutputStream transfer = new FileOutputStream(temp);
+            transfer.write(memory.getBuffer(), 0, memory.getCount());
+            transfer.flush();
+            out = transfer;
+        } catch (IOException e) {
+            temp.delete();
+            throw e;
+        }
+        file = temp;
+        memory = null;
+    }
+}

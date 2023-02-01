@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "36": "   * <p>In JUnit3 language, that means during the {@link junit.framework.TestCase#tearDown()} step.\n"
+    },
+    "removed": {
+        "36": "   * <p>In JUnit3 language, that means during the\n",
+        "37": "   * {@link junit.framework.TestCase#tearDown()} step.\n"
+    }
+}

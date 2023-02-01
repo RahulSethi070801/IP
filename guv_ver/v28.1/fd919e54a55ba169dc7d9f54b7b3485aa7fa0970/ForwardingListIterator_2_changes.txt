@@ -1,0 +1,4 @@
+ForwardingListIterator_2
+Insertions: [24, 25]
+Deletions: [24, 25, 26]
+guava/src/com/google/common/collect/ForwardingListIterator.java

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "32": "  @Param({\"2\", \"4\", \"8\", \"16\"})\n",
+        "33": "  int elements;\n",
+        "37": "  @BeforeExperiment\n",
+        "38": "  void setUp() {\n",
+        "43": "  @Benchmark\n",
+        "44": "  int iteration(int reps) {\n"
+    },
+    "removed": {
+        "32": "  @Param({\"2\", \"4\", \"8\", \"16\"}) int elements;\n",
+        "36": "  @BeforeExperiment void setUp() {\n",
+        "41": "  @Benchmark int iteration(int reps) {\n"
+    }
+}

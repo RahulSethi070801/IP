@@ -1,0 +1,4 @@
+Reflection
+Insertions: [4, 5, 9, 10, 11, 12, 61, 74, 75, 76, 79, 80, 82, 85, 86, 87]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 63, 64, 77, 78, 79, 80, 83, 84, 86, 87, 90, 91, 92, 93]
+guava/src/com/google/common/reflect/Reflection.java

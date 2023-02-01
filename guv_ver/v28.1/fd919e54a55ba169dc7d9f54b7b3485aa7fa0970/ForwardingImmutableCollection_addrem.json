@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "22": " * Dummy class that makes the GWT serialization policy happy. It isn't used on the server-side.\n"
+    },
+    "removed": {
+        "22": " * Dummy class that makes the GWT serialization policy happy.  It isn't used\n",
+        "23": " * on the server-side.\n"
+    }
+}

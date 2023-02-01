@@ -1,0 +1,8 @@
+@Override
+protected String pendingToString() {
+    InterruptibleTask localTask = task;
+    if (localTask != null) {
+        return "task=[" + localTask + "]";
+    }
+    return null;
+}

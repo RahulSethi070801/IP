@@ -1,0 +1,3 @@
+
+   * Sets bits in {@code table} matched by this matcher.
+   

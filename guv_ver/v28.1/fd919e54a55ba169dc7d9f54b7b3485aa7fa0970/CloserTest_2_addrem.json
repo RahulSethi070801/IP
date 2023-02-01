@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "318": "      } catch (IOException expected) {\n",
+        "319": "      }\n",
+        "396": "  /** Suppressor that records suppressions. */\n",
+        "407": "  /** Record of a call to suppress. */\n"
+    },
+    "removed": {
+        "318": "      } catch (IOException expected) {}\n",
+        "395": "  /**\n",
+        "396": "   * Suppressor that records suppressions.\n",
+        "397": "   */\n",
+        "408": "  /**\n",
+        "409": "   * Record of a call to suppress.\n",
+        "410": "   */\n"
+    }
+}

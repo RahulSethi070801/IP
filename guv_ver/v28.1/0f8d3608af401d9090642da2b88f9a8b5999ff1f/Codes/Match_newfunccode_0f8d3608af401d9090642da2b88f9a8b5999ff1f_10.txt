@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public final boolean cancel(boolean mayInterruptIfRunning) {
+    return super.cancel(mayInterruptIfRunning);
+}

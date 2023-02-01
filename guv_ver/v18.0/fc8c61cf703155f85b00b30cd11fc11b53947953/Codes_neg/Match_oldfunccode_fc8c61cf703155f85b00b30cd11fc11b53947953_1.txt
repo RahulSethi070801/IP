@@ -1,0 +1,5 @@
+@Override
+public <V> Optional<V> transform(Function<Object, V> function) {
+    checkNotNull(function);
+    return Optional.absent();
+}

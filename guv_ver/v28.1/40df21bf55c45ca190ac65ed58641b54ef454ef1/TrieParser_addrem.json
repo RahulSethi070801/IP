@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "76": "      // '!' represents an interior node that represents a REGISTRY entry in the map.\n",
+        "77": "      // '?' represents a leaf node, which represents a REGISTRY entry in map.\n"
+    },
+    "removed": {
+        "77": "      // '!' represents an interior node that represents an ICANN entry in the map.\n",
+        "78": "      // '?' represents a leaf node, which represents an ICANN entry in map.\n"
+    }
+}

@@ -1,0 +1,4 @@
+
+   * Creates a mutable copy of {@code graph}, using all of its elements that satisfy
+   * {@code nodePredicate} and {@code edgePredicate}.
+   

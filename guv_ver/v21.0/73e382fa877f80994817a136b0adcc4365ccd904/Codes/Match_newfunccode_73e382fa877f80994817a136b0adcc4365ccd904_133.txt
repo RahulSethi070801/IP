@@ -1,0 +1,4 @@
+@Beta
+public static <E> Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator) {
+    return CollectCollectors.toImmutableSortedSet(comparator);
+}

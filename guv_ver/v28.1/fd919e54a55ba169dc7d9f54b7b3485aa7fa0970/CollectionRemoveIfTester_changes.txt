@@ -1,0 +1,4 @@
+CollectionRemoveIfTester
+Insertions: [35, 36, 52, 53, 82, 83, 84, 85, 86, 87, 98]
+Deletions: [35, 36, 52, 81, 82, 83, 84, 85, 96, 97]
+guava-testlib/src/com/google/common/collect/testing/testers/CollectionRemoveIfTester.java

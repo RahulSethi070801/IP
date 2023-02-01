@@ -1,0 +1,4 @@
+@Override
+public int compare(Entry<?> entry1, Entry<?> entry2) {
+    return entry2.getCount() - entry1.getCount();
+}

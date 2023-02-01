@@ -1,0 +1,16 @@
+@Override
+public UnmodifiableIterator<EndpointPair<N>> iterator() {
+    return Iterators.unmodifiableIterator(Iterators.concat(Iterators.transform(graph.predecessors(node).iterator(), new Function<N, EndpointPair<N>>() {
+
+        @Override
+        public EndpointPair<N> apply(N predecessor) {
+            return EndpointPair.ordered(predecessor, node);
+        }
+    }), Iterators.transform(Sets.difference(graph.successors(node), ImmutableSet.of(node)).iterator(), new Function<N, EndpointPair<N>>() {
+
+        @Override
+        public EndpointPair<N> apply(N successor) {
+            return EndpointPair.ordered(node, successor);
+        }
+    })));
+}

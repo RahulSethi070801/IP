@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "34": "import javax.annotation.CheckForNull;\n",
+        "35": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "54": "@ElementTypesAreNonnullByDefault\n",
+        "84": "  public static <T extends @Nullable Object, E>\n",
+        "85": "      Collector<T, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(\n",
+        "86": "          Comparator<? super E> comparator,\n",
+        "87": "          Function<? super T, ? extends E> elementFunction,\n",
+        "88": "          ToIntFunction<? super T> countFunction) {\n",
+        "334": "  @LazyInit @CheckForNull transient ImmutableSortedMultiset<E> descendingMultiset;\n",
+        "360": "  @CheckForNull\n",
+        "377": "  @CheckForNull\n"
+    },
+    "removed": {
+        "81": "  public static <T, E> Collector<T, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(\n",
+        "82": "      Comparator<? super E> comparator,\n",
+        "83": "      Function<? super T, ? extends E> elementFunction,\n",
+        "84": "      ToIntFunction<? super T> countFunction) {\n",
+        "123": "  @SuppressWarnings(\"unchecked\")\n",
+        "134": "  @SuppressWarnings(\"unchecked\")\n",
+        "145": "  @SuppressWarnings(\"unchecked\")\n",
+        "157": "  @SuppressWarnings(\"unchecked\")\n",
+        "169": "  @SuppressWarnings(\"unchecked\")\n",
+        "335": "  @LazyInit transient ImmutableSortedMultiset<E> descendingMultiset;\n"
+    }
+}

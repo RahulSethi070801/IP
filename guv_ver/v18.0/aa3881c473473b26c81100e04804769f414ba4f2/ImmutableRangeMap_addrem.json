@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "52": "  public static <K extends Comparable<?>, V> ImmutableRangeMap<K, V> of() {\n",
+        "59": "  public static <K extends Comparable<?>, V> ImmutableRangeMap<K, V> of(\n",
+        "65": "  public static <K extends Comparable<?>, V> ImmutableRangeMap<K, V> copyOf(\n"
+    },
+    "removed": {
+        "52": "  public static final <K extends Comparable<?>, V> ImmutableRangeMap<K, V> of() {\n",
+        "59": "  public static final <K extends Comparable<?>, V> ImmutableRangeMap<K, V> of(\n",
+        "65": "  public static final <K extends Comparable<?>, V> ImmutableRangeMap<K, V> copyOf(\n"
+    }
+}

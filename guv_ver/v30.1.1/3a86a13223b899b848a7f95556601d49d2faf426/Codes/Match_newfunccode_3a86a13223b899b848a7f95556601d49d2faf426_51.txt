@@ -1,0 +1,4 @@
+@Beta
+public static <E extends @Nullable Object> FluentIterable<E> of(@ParametricNullness E element, E... elements) {
+    return from(Lists.asList(element, elements));
+}

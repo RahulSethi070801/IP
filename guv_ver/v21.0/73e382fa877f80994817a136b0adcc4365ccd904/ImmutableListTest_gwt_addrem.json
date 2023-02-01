@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "285": "\n",
+        "286": "public void testToImmutableList__CreationTests() throws Exception {\n",
+        "287": "  com.google.common.collect.ImmutableListTest.CreationTests testCase = new com.google.common.collect.ImmutableListTest.CreationTests();\n",
+        "288": "  testCase.testToImmutableList();\n",
+        "289": "}\n"
+    },
+    "removed": {}
+}

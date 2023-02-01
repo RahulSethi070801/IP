@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "40": "    } catch (UnsupportedOperationException expected) {\n",
+        "41": "    }\n",
+        "54": "    } catch (UnsupportedOperationException expected) {\n",
+        "55": "    }\n",
+        "68": "    } catch (UnsupportedOperationException expected) {\n",
+        "69": "    }\n",
+        "90": "\n",
+        "91": "      @Override\n",
+        "92": "      public boolean hasPrevious() {\n",
+        "95": "\n",
+        "96": "      @Override\n",
+        "97": "      public int nextIndex() {\n",
+        "100": "\n",
+        "101": "      @Override\n",
+        "102": "      public String previous() {\n",
+        "108": "\n",
+        "109": "      @Override\n",
+        "110": "      public int previousIndex() {\n",
+        "111": "        return i - 1;\n"
+    },
+    "removed": {
+        "40": "    } catch (UnsupportedOperationException expected) {}\n",
+        "53": "    } catch (UnsupportedOperationException expected) {}\n",
+        "66": "    } catch (UnsupportedOperationException expected) {}\n",
+        "85": "      @Override public boolean hasPrevious() {\n",
+        "88": "      @Override public int nextIndex() {\n",
+        "91": "      @Override public String previous() {\n",
+        "97": "      @Override public int previousIndex() {\n",
+        "98": "        return i-1;\n"
+    }
+}

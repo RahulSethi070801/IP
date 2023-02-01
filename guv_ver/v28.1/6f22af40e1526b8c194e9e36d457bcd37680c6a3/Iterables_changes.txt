@@ -1,0 +1,4 @@
+Iterables
+Insertions: [39, 121, 240, 304, 305, 372, 661, 663, 664, 665, 756, 757, 758, 788, 789, 826, 827]
+Deletions: [39, 121, 240, 304, 305, 372, 661, 663, 754, 755, 785, 786, 823, 824]
+android/guava/src/com/google/common/collect/Iterables.java

@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "27": " * Tests for a directed {@link ConfigurableNetwork} allowing parallel edges.\n",
+        "30": "public class ConfigurableDirectedMultiNetworkTest extends ConfigurableDirectedNetworkTest {\n",
+        "32": "  public MutableNetwork<Integer, String> createGraph() {\n",
+        "33": "    return NetworkBuilder.directed().allowsParallelEdges(true).build();\n"
+    },
+    "removed": {
+        "27": " * Tests for a directed {@link ConfigurableGraph} allowing parallel edges.\n",
+        "30": "public class ConfigurableDirectedMultigraphTest extends ConfigurableDirectedGraphTest {\n",
+        "32": "  public Graph<Integer, String> createGraph() {\n",
+        "33": "    return GraphBuilder.directed().allowsParallelEdges(true).build();\n"
+    }
+}

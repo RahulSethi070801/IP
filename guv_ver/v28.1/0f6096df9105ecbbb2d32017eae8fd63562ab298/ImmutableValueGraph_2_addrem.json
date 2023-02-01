@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "90": "            return graph.edgeValueOrNull(node, successorNode);\n"
+    },
+    "removed": {
+        "90": "            return graph.edgeValue(node, successorNode);\n"
+    }
+}

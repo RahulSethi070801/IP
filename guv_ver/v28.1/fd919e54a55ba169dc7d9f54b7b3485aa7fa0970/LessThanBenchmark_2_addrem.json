@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "63": "  @Benchmark\n",
+        "64": "  int branchFreeLtIntInlined(int reps) {\n",
+        "76": "  @Benchmark\n",
+        "77": "  int branchFreeLtInt(int reps) {\n",
+        "89": "  @Benchmark\n",
+        "90": "  int ternaryLtIntAddOutsideTernary(int reps) {\n",
+        "102": "  @Benchmark\n",
+        "103": "  int ternaryLtIntAddInsideTernary(int reps) {\n",
+        "115": "  @Benchmark\n",
+        "116": "  int branchFreeLtLongInlined(int reps) {\n",
+        "128": "  @Benchmark\n",
+        "129": "  int branchFreeLtLong(int reps) {\n",
+        "141": "  @Benchmark\n",
+        "142": "  int ternaryLtLongAddOutsideTernary(int reps) {\n",
+        "154": "  @Benchmark\n",
+        "155": "  int ternaryLtLongAddInsideTernary(int reps) {\n"
+    },
+    "removed": {
+        "63": "  @Benchmark int branchFreeLtIntInlined(int reps) {\n",
+        "75": "  @Benchmark int branchFreeLtInt(int reps) {\n",
+        "87": "  @Benchmark int ternaryLtIntAddOutsideTernary(int reps) {\n",
+        "99": "  @Benchmark int ternaryLtIntAddInsideTernary(int reps) {\n",
+        "111": "  @Benchmark int branchFreeLtLongInlined(int reps) {\n",
+        "123": "  @Benchmark int branchFreeLtLong(int reps) {\n",
+        "135": "  @Benchmark int ternaryLtLongAddOutsideTernary(int reps) {\n",
+        "147": "  @Benchmark int ternaryLtLongAddInsideTernary(int reps) {\n"
+    }
+}

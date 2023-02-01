@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "29": " * Tests may use this to intercept messages that are logged by the code under test. Example:\n",
+        "30": " *\n",
+        "61": "  /** Adds the most recently logged record to our list. */\n",
+        "77": "  /** Returns a snapshot of the logged records. */\n"
+    },
+    "removed": {
+        "29": " * Tests may use this to intercept messages that are logged by the code under\n",
+        "30": " * test.  Example:\n",
+        "61": "  /**\n",
+        "62": "   * Adds the most recently logged record to our list.\n",
+        "63": "   */\n",
+        "79": "  /**\n",
+        "80": "   * Returns a snapshot of the logged records.\n",
+        "81": "   */\n"
+    }
+}

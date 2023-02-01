@@ -1,0 +1,4 @@
+
+   * Returns the owner type of a {@link ParameterizedType} or enclosing class of a {@link Class},
+   * or null otherwise.
+   

@@ -1,0 +1,4 @@
+@Deprecated
+public static void write(CharSequence from, File to, Charset charset) throws IOException {
+    asCharSink(to, charset).write(from);
+}

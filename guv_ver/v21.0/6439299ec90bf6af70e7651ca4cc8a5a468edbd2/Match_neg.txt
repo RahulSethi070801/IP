@@ -1,0 +1,6 @@
+public abstract boolean isDirected()
+public abstract N source()
+
+public boolean addEdge(E edge, N nodeA, N nodeB)
+final N nodeB()
+

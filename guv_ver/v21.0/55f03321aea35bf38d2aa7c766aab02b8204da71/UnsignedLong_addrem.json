@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "34": " * <p>See the Guava User Guide article on\n",
+        "35": " * <a href=\"https://github.com/google/guava/wiki/PrimitivesExplained#unsigned-support\">unsigned\n",
+        "36": " * primitive utilities</a>.\n",
+        "58": "   * Returns an {@code UnsignedLong} corresponding to a given bit representation. The argument is\n",
+        "59": "   * interpreted as an unsigned 64-bit value. Specifically, the sign bit of {@code bits} is\n",
+        "60": "   * interpreted as a normal bit, and all other bits are treated as usual.\n",
+        "88": "   * Returns a {@code UnsignedLong} representing the same value as the specified {@code BigInteger}.\n",
+        "89": "   * This is the inverse operation of {@link #bigIntegerValue()}.\n",
+        "104": "   * Returns an {@code UnsignedLong} holding the value of the specified {@code String}, parsed as an\n",
+        "105": "   * unsigned {@code long} value.\n",
+        "116": "   * Returns an {@code UnsignedLong} holding the value of the specified {@code String}, parsed as an\n",
+        "117": "   * unsigned {@code long} value in the specified radix.\n"
+    },
+    "removed": {
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the\n",
+        "10": " * License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either\n",
+        "11": " * express or implied. See the License for the specific language governing permissions and\n",
+        "12": " * limitations under the License.\n",
+        "34": " * <p>See the Guava User Guide article on <a href=\n",
+        "35": " * \"https://github.com/google/guava/wiki/PrimitivesExplained#unsigned-support\">\n",
+        "36": " * unsigned primitive utilities</a>.\n",
+        "58": "   * Returns an {@code UnsignedLong} corresponding to a given bit representation.\n",
+        "59": "   * The argument is interpreted as an unsigned 64-bit value. Specifically, the sign bit\n",
+        "60": "   * of {@code bits} is interpreted as a normal bit, and all other bits are treated as usual.\n",
+        "88": "   * Returns a {@code UnsignedLong} representing the same value as the specified\n",
+        "89": "   * {@code BigInteger}. This is the inverse operation of {@link #bigIntegerValue()}.\n",
+        "104": "   * Returns an {@code UnsignedLong} holding the value of the specified {@code String}, parsed as\n",
+        "105": "   * an unsigned {@code long} value.\n",
+        "116": "   * Returns an {@code UnsignedLong} holding the value of the specified {@code String}, parsed as\n",
+        "117": "   * an unsigned {@code long} value in the specified radix.\n"
+    }
+}

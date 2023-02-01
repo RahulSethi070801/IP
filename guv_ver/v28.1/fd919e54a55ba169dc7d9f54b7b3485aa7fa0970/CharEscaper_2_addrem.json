@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "35": " * <p>Popular escapers are defined as constants in classes like {@link\n",
+        "36": " * com.google.common.html.HtmlEscapers} and {@link com.google.common.xml.XmlEscapers}. To create\n",
+        "37": " * your own escapers extend this class and implement the {@link #escape(char)} method.\n",
+        "173": "  /** The multiplier for padding to use when growing the escape buffer. */\n"
+    },
+    "removed": {
+        "35": " * <p>Popular escapers are defined as constants in classes like\n",
+        "36": " * {@link com.google.common.html.HtmlEscapers} and {@link com.google.common.xml.XmlEscapers}. To\n",
+        "37": " * create your own escapers extend this class and implement the {@link #escape(char)} method.\n",
+        "173": "  /**\n",
+        "174": "   * The multiplier for padding to use when growing the escape buffer.\n",
+        "175": "   */\n"
+    }
+}

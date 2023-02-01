@@ -1,0 +1,13 @@
+{
+    "addition": {},
+    "removed": {
+        "181": "   *\n",
+        "182": "   * <p>A directed edge is an {@linkplain #outEdges(Object) outgoing edge} of its\n",
+        "183": "   * {@linkplain #source(Object) source}, and an {@linkplain #inEdges(Object) incoming edge} of its\n",
+        "184": "   * {@linkplain #target(Object) target}. An undirected edge connects its\n",
+        "185": "   * {@linkplain #incidentNodes(Object) incident nodes} to each other, and is both an\n",
+        "186": "   * {@linkplain #outEdges(Object) outgoing edge} and {@linkplain #inEdges(Object) incoming edge}\n",
+        "187": "   * of each incident node.\n",
+        "237": "   * This is consistent with the definition of {@link #incidentEdges(Object)}.\n"
+    }
+}

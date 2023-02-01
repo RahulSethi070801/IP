@@ -1,0 +1,10 @@
+
+   * Returns a fluent iterable that applies {@code function} to each element of this fluent
+   * iterable.
+   *
+   * <p>The returned fluent iterable's iterator supports {@code remove()} if this iterable's
+   * iterator does. After a successful {@code remove()} call, this fluent iterable no longer
+   * contains the corresponding element.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@link Stream#map}.
+   

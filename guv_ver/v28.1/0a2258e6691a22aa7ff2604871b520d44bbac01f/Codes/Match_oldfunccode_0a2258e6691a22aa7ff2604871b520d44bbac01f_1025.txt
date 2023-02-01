@@ -1,0 +1,7 @@
+@GwtIncompatible
+private static <K, V> Entry<K, V> nullableSynchronizedEntry(@NullableDecl Entry<K, V> entry, @NullableDecl Object mutex) {
+    if (entry == null) {
+        return null;
+    }
+    return new SynchronizedEntry<>(entry, mutex);
+}

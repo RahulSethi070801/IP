@@ -1,0 +1,4 @@
+ImmutableCollection_2
+Insertions: [35, 39, 40, 100]
+Deletions: [35, 36, 40, 41, 100, 101, 102]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableCollection.java

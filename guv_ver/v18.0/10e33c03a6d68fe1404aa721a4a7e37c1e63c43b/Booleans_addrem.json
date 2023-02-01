@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "24": "import com.google.common.annotations.Beta;\n",
+        "475": "   *\n",
+        "476": "   * @since 16.0\n",
+        "478": "  @Beta\n"
+    },
+    "removed": {}
+}

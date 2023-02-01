@@ -1,0 +1,4 @@
+LinkedHashMultiset_2
+Insertions: [25, 43, 44, 45, 48, 59, 70, 71]
+Deletions: [42, 45, 56, 67]
+guava/src/com/google/common/collect/LinkedHashMultiset.java

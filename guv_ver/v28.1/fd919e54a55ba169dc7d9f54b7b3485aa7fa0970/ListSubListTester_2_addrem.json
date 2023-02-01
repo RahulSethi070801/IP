@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "42": " * A generic JUnit test which tests {@code subList()} operations on a list. Can't be invoked\n",
+        "43": " * directly; please see {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n",
+        "315": "   * Returns the {@link Method} instance for {@link #testSubList_originalListSetAffectsSubList()} so\n",
+        "316": "   * that tests of {@link CopyOnWriteArrayList} can suppress them with {@code\n",
+        "317": "   * FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "318": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6570631\">Sun bug 6570631</a> is fixed.\n",
+        "326": "   * Returns the {@link Method} instance for {@link\n",
+        "327": "   * #testSubList_originalListSetAffectsSubListLargeList()} ()} so that tests of {@link\n",
+        "328": "   * CopyOnWriteArrayList} can suppress them with {@code\n",
+        "329": "   * FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "330": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6570631\">Sun bug 6570631</a> is fixed.\n",
+        "338": "   * Returns the {@link Method} instance for {@link\n",
+        "339": "   * #testSubList_subListRemoveAffectsOriginalLargeList()} so that tests of {@link\n",
+        "340": "   * CopyOnWriteArrayList} can suppress it with {@code\n",
+        "341": "   * FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "342": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6570575\">Sun bug 6570575</a> is fixed.\n"
+    },
+    "removed": {
+        "42": " * A generic JUnit test which tests {@code subList()} operations on a list.\n",
+        "43": " * Can't be invoked directly; please see\n",
+        "44": " * {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n",
+        "316": "   * Returns the {@link Method} instance for\n",
+        "317": "   * {@link #testSubList_originalListSetAffectsSubList()} so that tests\n",
+        "318": "   * of {@link CopyOnWriteArrayList} can suppress them with\n",
+        "319": "   * {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "320": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6570631\">Sun bug\n",
+        "321": "   * 6570631</a> is fixed.\n",
+        "329": "   * Returns the {@link Method} instance for\n",
+        "330": "   * {@link #testSubList_originalListSetAffectsSubListLargeList()} ()} so that\n",
+        "331": "   * tests of {@link CopyOnWriteArrayList} can suppress them with\n",
+        "332": "   * {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "333": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6570631\">Sun bug\n",
+        "334": "   * 6570631</a> is fixed.\n",
+        "342": "   * Returns the {@link Method} instance for\n",
+        "343": "   * {@link #testSubList_subListRemoveAffectsOriginalLargeList()} so that tests\n",
+        "344": "   * of {@link CopyOnWriteArrayList} can suppress it with\n",
+        "345": "   * {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "346": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6570575\">Sun bug\n",
+        "347": "   * 6570575</a> is fixed.\n"
+    }
+}

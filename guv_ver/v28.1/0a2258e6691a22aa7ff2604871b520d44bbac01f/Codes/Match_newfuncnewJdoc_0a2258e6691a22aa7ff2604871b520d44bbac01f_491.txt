@@ -1,0 +1,4 @@
+
+   * Gets the value from an entry. Returns {@code null} if the entry is invalid, partially-collected
+   * or computing.
+   

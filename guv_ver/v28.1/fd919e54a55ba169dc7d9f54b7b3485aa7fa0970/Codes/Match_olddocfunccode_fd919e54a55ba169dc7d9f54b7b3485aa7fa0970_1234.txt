@@ -1,0 +1,9 @@
+public static void initialize(Class<?>... classes) {
+    for (Class<?> clazz : classes) {
+        try {
+            Class.forName(clazz.getName(), true, clazz.getClassLoader());
+        } catch (ClassNotFoundException e) {
+            throw new AssertionError(e);
+        }
+    }
+}

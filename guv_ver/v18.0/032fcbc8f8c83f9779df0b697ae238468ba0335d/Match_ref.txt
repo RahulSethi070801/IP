@@ -1,0 +1,3 @@
+public final Service stopAsync()
+protected abstract void doStop()
+

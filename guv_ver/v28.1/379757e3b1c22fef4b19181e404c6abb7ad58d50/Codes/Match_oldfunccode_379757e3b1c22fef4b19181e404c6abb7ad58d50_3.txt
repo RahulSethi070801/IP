@@ -1,0 +1,3 @@
+public static HashFunction sha1() {
+    return Sha1Holder.SHA_1;
+}

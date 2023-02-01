@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "36": "  @BeforeExperiment\n",
+        "37": "  void setUp() throws Exception {\n",
+        "41": "  @Benchmark\n",
+        "42": "  int getInstance(int reps) throws Exception {\n",
+        "50": "  @Benchmark\n",
+        "51": "  int clone(int reps) throws Exception {\n"
+    },
+    "removed": {
+        "36": "  @BeforeExperiment void setUp() throws Exception {\n",
+        "40": "  @Benchmark int getInstance(int reps) throws Exception {\n",
+        "48": "  @Benchmark int clone(int reps) throws Exception {\n"
+    }
+}

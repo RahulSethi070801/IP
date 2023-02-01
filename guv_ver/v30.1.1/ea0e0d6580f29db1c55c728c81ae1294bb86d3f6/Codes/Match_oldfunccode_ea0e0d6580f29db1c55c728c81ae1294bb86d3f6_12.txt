@@ -1,0 +1,3 @@
+static int distinctElements(@Nullable AvlNode<?> node) {
+    return (node == null) ? 0 : node.distinctElements;
+}

@@ -1,0 +1,2 @@
+@NullableDecl
+public abstract T orNull();

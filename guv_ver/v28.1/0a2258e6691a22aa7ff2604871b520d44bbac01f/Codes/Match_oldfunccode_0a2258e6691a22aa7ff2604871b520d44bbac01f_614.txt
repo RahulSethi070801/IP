@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+C correctedDoForward(@NullableDecl A a) {
+    return second.correctedDoForward(first.correctedDoForward(a));
+}

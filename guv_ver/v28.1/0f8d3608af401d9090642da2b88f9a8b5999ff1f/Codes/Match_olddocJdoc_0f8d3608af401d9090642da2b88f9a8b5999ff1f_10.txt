@@ -1,0 +1,1 @@
+ TODO(user) move this up into FluentFuture, or parts as a default method on ListenableFuture?

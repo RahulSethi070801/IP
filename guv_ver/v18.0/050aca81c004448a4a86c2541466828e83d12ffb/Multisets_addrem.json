@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "718": "   * to, albeit sometimes more efficient than, the following: <pre>   {@code\n",
+        "729": "      Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove) {\n",
+        "730": "    if (occurrencesToRemove instanceof Multiset) {\n",
+        "731": "      return removeOccurrencesImpl(\n",
+        "732": "          multisetToModify, (Multiset<?>) occurrencesToRemove);\n",
+        "733": "    } else {\n",
+        "734": "      return removeOccurrencesImpl(multisetToModify, occurrencesToRemove);\n",
+        "735": "    }\n",
+        "736": "  }\n",
+        "737": "\n",
+        "738": "  private static boolean removeOccurrencesImpl(\n",
+        "739": "      Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove) {\n",
+        "740": "    checkNotNull(multisetToModify);\n",
+        "741": "    checkNotNull(occurrencesToRemove);\n",
+        "742": "    boolean changed = false;\n",
+        "743": "    for (Object o : occurrencesToRemove) {\n",
+        "744": "      changed |= multisetToModify.remove(o);\n",
+        "745": "    }\n",
+        "746": "    return changed;\n",
+        "750": "   * Delegate that cares about the element types in multisetToModify.\n"
+    },
+    "removed": {
+        "718": "   * to, albeit more efficient than, the following: <pre>   {@code\n",
+        "729": "      Multiset<?> multisetToModify, Multiset<?> occurrencesToRemove) {\n",
+        "730": "    return removeOccurrencesImpl(multisetToModify, occurrencesToRemove);\n",
+        "734": "   * Delegate that cares about the element types in occurrencesToRemove.\n"
+    }
+}

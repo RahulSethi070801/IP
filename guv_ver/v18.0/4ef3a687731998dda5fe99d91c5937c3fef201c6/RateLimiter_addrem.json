@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "379": "   * Acquires a single permit from this {@code RateLimiter}, blocking until the\n",
+        "400": "    long microsToWait = reserve(permits);\n",
+        "401": "    ticker.sleepMicrosUninterruptibly(microsToWait);\n",
+        "402": "    return 1.0 * microsToWait / TimeUnit.SECONDS.toMicros(1L);\n",
+        "403": "  }\n",
+        "404": "\n",
+        "405": "  /**\n",
+        "406": "   * Reserves a single permit from this {@code RateLimiter} for future use, returning the number of\n",
+        "407": "   * microseconds until the reservation.\n",
+        "408": "   *\n",
+        "409": "   * <p>This method is equivalent to {@code reserve(1)}.\n",
+        "410": "   *\n",
+        "411": "   * @return time in microseconds to wait until the resource can be acquired.\n",
+        "412": "   */\n",
+        "413": "  long reserve() {\n",
+        "414": "    return reserve(1);\n",
+        "415": "  }\n",
+        "416": "\n",
+        "417": "  /**\n",
+        "418": "   * Reserves the given number of permits from this {@code RateLimiter} for future use, returning\n",
+        "419": "   * the number of microseconds until the reservation can be consumed.\n",
+        "420": "   *\n",
+        "421": "   * @return time in microseconds to wait until the resource can be acquired.\n",
+        "422": "   */\n",
+        "423": "  long reserve(int permits) {\n",
+        "426": "      return reserveNextTicket(permits, readSafeMicros());\n",
+        "507": "   *\n",
+        "508": "   * <p>The return value is guaranteed to be non-negative.\n",
+        "512": "    long microsToNextFreeTicket = Math.max(0, nextFreeTicketMicros - nowMicros);\n"
+    },
+    "removed": {
+        "379": "   * Acquires the given number of permits from this {@code RateLimiter}, blocking until the\n",
+        "401": "    long microsToWait;\n",
+        "403": "      microsToWait = reserveNextTicket(permits, readSafeMicros());\n",
+        "405": "    ticker.sleepMicrosUninterruptibly(microsToWait);\n",
+        "406": "    return 1.0 * microsToWait / TimeUnit.SECONDS.toMicros(1L);\n",
+        "489": "    long microsToNextFreeTicket = nextFreeTicketMicros - nowMicros;\n"
+    }
+}

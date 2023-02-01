@@ -1,0 +1,6 @@
+public EventWithHandler(Object event, EventHandler handler)
+private static boolean methodIsDeclaredThreadSafe(Method method)
+
+public void run()
+private static boolean methodIsDeclaredThreadSafe(Method method)
+

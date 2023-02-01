@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "27": "import javax.annotation.Nullable;\n",
+        "28": "\n",
+        "30": " * An immutable set representing the nodes incident to an edge in a graph.\n",
+        "63": "   * In the case of a directed graph, returns the source node of the incident edge. In the case of\n",
+        "64": "   * an undirected graph, returns an arbitrary (but consistent) endpoint of the incident edge.\n",
+        "69": "   * Returns the node opposite to {@link #node1} along the incident edge. In the case of a directed\n",
+        "70": "   * graph, this will always be the target node of the incident edge.\n",
+        "78": "      this.node = checkNotNull(node, \"node\");\n",
+        "91": "    @Override\n",
+        "92": "    public boolean contains(@Nullable Object object) {\n",
+        "93": "      return node.equals(object);\n",
+        "94": "    }\n",
+        "95": "\n",
+        "111": "    /**\n",
+        "112": "     * An immutable set with two non-equal nodes. Iterates as {@code node1}, {@code node2}.\n",
+        "113": "     */\n",
+        "115": "      this.node1 = checkNotNull(node1, \"node1\");\n",
+        "116": "      this.node2 = checkNotNull(node2, \"node2\");\n",
+        "129": "    @Override\n",
+        "130": "    public boolean contains(@Nullable Object object) {\n",
+        "131": "      return node1.equals(object) || node2.equals(object);\n",
+        "132": "    }\n",
+        "133": "\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.base.Preconditions.checkArgument;\n",
+        "29": " * An immutable set representing the nodes incident to an origin edge in a graph.\n",
+        "62": "   * In the case of a directed graph, returns the source node of the origin edge. In the case of\n",
+        "63": "   * an undirected graph, returns an arbitrary (but consistent) endpoint of the origin edge.\n",
+        "68": "   * Returns the node opposite to {@link #node1} along the origin edge. In the case of a directed\n",
+        "69": "   * graph, this will always be the target node of the origin edge.\n",
+        "77": "      this.node = checkNotNull(node);\n",
+        "106": "      this.node1 = checkNotNull(node1);\n",
+        "107": "      this.node2 = checkNotNull(node2);\n",
+        "108": "      checkArgument(!node1.equals(node2));\n"
+    }
+}

@@ -1,0 +1,4 @@
+CacheTesting
+Insertions: [47, 370]
+Deletions: [47, 370]
+android/guava-tests/test/com/google/common/cache/CacheTesting.java

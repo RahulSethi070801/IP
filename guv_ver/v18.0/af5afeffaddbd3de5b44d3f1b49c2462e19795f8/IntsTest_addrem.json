@@ -1,0 +1,6 @@
+{
+    "addition": {
+        "484": "    assertNull(Ints.tryParse(\"\\u0662\\u06f3\"));\n"
+    },
+    "removed": {}
+}

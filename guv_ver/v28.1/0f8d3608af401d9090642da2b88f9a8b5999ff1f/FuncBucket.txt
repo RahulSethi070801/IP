@@ -1,0 +1,60 @@
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture
+addListener
+public final void addListener(Runnable runnable, Executor executor)
+Runnable,Executor
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture
+addListener
+public void addListener(Runnable runnable, Executor executor)
+Runnable,Executor
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture
+get
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+long,TimeUnit
+V
+com.google.common.util.concurrent.FluentFuture$TrustedFuture
+get
+public final V get() throws InterruptedException, ExecutionException
+empty
+V
+com.google.common.util.concurrent.FluentFuture$TrustedFuture
+addListener
+public final void addListener(Runnable listener, Executor executor)
+Runnable,Executor
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture
+get
+public V get() throws InterruptedException, ExecutionException
+empty
+V
+com.google.common.util.concurrent.FluentFuture$TrustedFuture
+isCancelled
+public final boolean isCancelled()
+empty
+boolean
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture
+isDone
+public boolean isDone()
+empty
+boolean
+com.google.common.util.concurrent.FluentFuture$TrustedFuture
+cancel
+public final boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture
+isCancelled
+public boolean isCancelled()
+empty
+boolean
+com.google.common.util.concurrent.FluentFuture$TrustedFuture
+isDone
+public final boolean isDone()
+empty
+boolean
+com.google.common.util.concurrent.FluentFuture$TrustedFuture
+get
+public final V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+long,TimeUnit
+V

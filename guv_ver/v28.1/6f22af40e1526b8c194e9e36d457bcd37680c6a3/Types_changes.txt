@@ -1,0 +1,4 @@
+Types
+Insertions: [47, 89, 108, 115, 126, 179, 211, 271]
+Deletions: [47, 89, 108, 115, 126, 179, 211, 271]
+android/guava/src/com/google/common/reflect/Types.java

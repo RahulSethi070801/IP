@@ -1,0 +1,3 @@
+public boolean set(@NullableDecl V newValue) {
+    return futureValue.set(newValue);
+}

@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "42": "  private final MutableBasicGraph<Integer> graph;\n",
+        "55": "  private static MutableBasicGraph<Integer> createGraph(GraphType graphType) {\n",
+        "58": "        return BasicGraphBuilder.undirected().build();\n",
+        "60": "        return BasicGraphBuilder.directed().build();\n",
+        "81": "    MutableBasicGraph<Integer> g2 = createGraph(graphType);\n",
+        "92": "    MutableBasicGraph<Integer> g2 = createGraph(oppositeType(graphType));\n",
+        "103": "    MutableBasicGraph<Integer> g2 = createGraph(oppositeType(graphType));\n",
+        "115": "    MutableBasicGraph<Integer> g2 = BasicGraphBuilder.from(graph)\n",
+        "127": "    BasicGraphBuilder<Integer> builder = BasicGraphBuilder.from(graph);\n",
+        "128": "    MutableBasicGraph<Integer> g1 = builder.build();\n",
+        "129": "    MutableBasicGraph<Integer> g2 = builder.build();\n",
+        "146": "    MutableBasicGraph<Integer> g2 = createGraph(graphType);\n"
+    },
+    "removed": {
+        "42": "  private final MutableGraph<Integer> graph;\n",
+        "55": "  private static MutableGraph<Integer> createGraph(GraphType graphType) {\n",
+        "58": "        return GraphBuilder.undirected().build();\n",
+        "60": "        return GraphBuilder.directed().build();\n",
+        "81": "    MutableGraph<Integer> g2 = createGraph(graphType);\n",
+        "92": "    MutableGraph<Integer> g2 = createGraph(oppositeType(graphType));\n",
+        "103": "    MutableGraph<Integer> g2 = createGraph(oppositeType(graphType));\n",
+        "115": "    MutableGraph<Integer> g2 = GraphBuilder.from(graph)\n",
+        "127": "    GraphBuilder<Integer> builder = GraphBuilder.from(graph);\n",
+        "128": "    MutableGraph<Integer> g1 = builder.build();\n",
+        "129": "    MutableGraph<Integer> g2 = builder.build();\n",
+        "146": "    MutableGraph<Integer> g2 = createGraph(graphType);\n"
+    }
+}

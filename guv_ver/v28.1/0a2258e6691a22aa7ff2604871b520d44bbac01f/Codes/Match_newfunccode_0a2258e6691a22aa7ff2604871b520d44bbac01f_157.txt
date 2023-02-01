@@ -1,0 +1,1 @@
+boolean containsColumn(@Nullable @CompatibleWith("C") Object columnKey);

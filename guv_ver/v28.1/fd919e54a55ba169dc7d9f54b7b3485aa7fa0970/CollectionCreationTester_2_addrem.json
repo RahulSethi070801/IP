@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "31": " * A generic JUnit test which tests creation (typically through a constructor or static factory\n",
+        "32": " * method) of a collection. Can't be invoked directly; please see {@link\n",
+        "33": " * com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "60": "   * Returns the {@link Method} instance for {@link #testCreateWithNull_unsupported()} so that tests\n",
+        "61": "   * can suppress it with {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "62": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5045147\">Sun bug 5045147</a> is fixed.\n"
+    },
+    "removed": {
+        "31": " * A generic JUnit test which tests creation (typically through a constructor or\n",
+        "32": " * static factory method) of a collection. Can't be invoked directly; please see\n",
+        "33": " * {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "60": "   * Returns the {@link Method} instance for {@link\n",
+        "61": "   * #testCreateWithNull_unsupported()} so that tests can suppress it\n",
+        "62": "   * with {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "63": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5045147\">Sun\n",
+        "64": "   * bug 5045147</a> is fixed.\n"
+    }
+}

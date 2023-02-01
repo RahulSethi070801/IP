@@ -1,0 +1,4 @@
+@Override
+ImmutableCollection<V> createValues() {
+    return ImmutableCollection.unsafeDelegate(delegate.values());
+}

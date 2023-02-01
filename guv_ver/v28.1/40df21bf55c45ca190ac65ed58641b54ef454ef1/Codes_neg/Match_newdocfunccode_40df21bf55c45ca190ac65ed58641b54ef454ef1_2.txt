@@ -1,0 +1,3 @@
+public boolean isUnderPublicSuffix() {
+    return publicSuffixIndex > 0;
+}

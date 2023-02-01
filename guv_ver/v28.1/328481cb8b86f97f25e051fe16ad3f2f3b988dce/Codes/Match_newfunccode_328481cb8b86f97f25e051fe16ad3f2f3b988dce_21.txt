@@ -1,0 +1,28 @@
+@Override
+public Iterator<K> iterator() {
+    final Iterator<Entry<K, Collection<V>>> entryIterator = map().entrySet().iterator();
+    return new Iterator<K>() {
+
+        Entry<K, Collection<V>> entry;
+
+        @Override
+        public boolean hasNext() {
+            return entryIterator.hasNext();
+        }
+
+        @Override
+        public K next() {
+            entry = entryIterator.next();
+            return entry.getKey();
+        }
+
+        @Override
+        public void remove() {
+            checkRemove(entry != null);
+            Collection<V> collection = entry.getValue();
+            entryIterator.remove();
+            totalSize -= collection.size();
+            collection.clear();
+        }
+    };
+}

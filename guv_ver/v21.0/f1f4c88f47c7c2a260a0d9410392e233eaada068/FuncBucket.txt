@@ -1,0 +1,65 @@
+com.google.common.graph.Endpoints
+iterator
+public final UnmodifiableIterator<N> iterator()
+empty
+UnmodifiableIterator
+com.google.common.graph.Endpoints
+contains
+public final boolean contains(Object obj)
+Object
+boolean
+com.google.common.graph.ImmutableNetwork
+oppositeNodeFn
+private static Function<E, N> oppositeNodeFn(final Network<N, E> graph, final N node)
+Network,N
+Function
+com.google.common.graph.ImmutableNetwork
+otherNodeFn
+private static Function<E, N> otherNodeFn(final Network<N, E> graph, final N node)
+Network,N
+Function
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableNetwork<N, E> inducedSubgraph(Network<N, E> graph, Iterable<? extends N> nodes)
+Network,Iterable
+MutableNetwork
+com.google.common.graph.ImmutableNetwork
+apply
+public N apply(E edge)
+E
+N
+com.google.common.graph.Endpoints
+iterator
+public UnmodifiableIterator<N> iterator()
+empty
+UnmodifiableIterator
+com.google.common.graph.Endpoints
+size
+public int size()
+empty
+int
+com.google.common.graph.Endpoints
+otherNode
+public final N otherNode(Object node)
+Object
+N
+com.google.common.graph.Endpoints
+size
+public final int size()
+empty
+int
+com.google.common.graph.Graphs
+oppositeNode
+public static N oppositeNode(Network<N, ?> graph, Object edge, Object node)
+Network,Object,Object
+N
+com.google.common.graph.ImmutableNetwork
+nodeConnectionsOf
+private static NodeConnections<N, E> nodeConnectionsOf(Network<N, E> graph, N node)
+Network,N
+NodeConnections
+com.google.common.graph.Endpoints
+contains
+public boolean contains(Object obj)
+Object
+boolean

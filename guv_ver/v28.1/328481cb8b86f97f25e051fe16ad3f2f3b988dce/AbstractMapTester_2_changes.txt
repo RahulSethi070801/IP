@@ -1,0 +1,4 @@
+AbstractMapTester_2
+Insertions: [40, 46, 71, 72, 74, 99, 100, 102, 147, 155, 159]
+Deletions: [40, 46, 71, 72, 74, 99, 100, 102, 147, 155, 159]
+guava-testlib/src/com/google/common/collect/testing/AbstractMapTester.java

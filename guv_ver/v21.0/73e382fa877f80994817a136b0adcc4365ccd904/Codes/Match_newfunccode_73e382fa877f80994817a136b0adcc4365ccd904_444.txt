@@ -1,0 +1,48 @@
+@Override
+ImmutableSet<Entry<K, V>> createEntrySet() {
+    @WeakOuter
+    class EntrySet extends ImmutableMapEntrySet<K, V> {
+
+        @Override
+        public UnmodifiableIterator<Entry<K, V>> iterator() {
+            return asList().iterator();
+        }
+
+        @Override
+        public Spliterator<Entry<K, V>> spliterator() {
+            return asList().spliterator();
+        }
+
+        @Override
+        public void forEach(Consumer<? super Entry<K, V>> action) {
+            asList().forEach(action);
+        }
+
+        @Override
+        ImmutableList<Entry<K, V>> createAsList() {
+            return new ImmutableAsList<Entry<K, V>>() {
+
+                @Override
+                public Entry<K, V> get(int index) {
+                    return Maps.immutableEntry(keySet.asList().get(index), valueList.get(index));
+                }
+
+                @Override
+                public Spliterator<Entry<K, V>> spliterator() {
+                    return CollectSpliterators.indexed(size(), ImmutableSet.SPLITERATOR_CHARACTERISTICS, this::get);
+                }
+
+                @Override
+                ImmutableCollection<Entry<K, V>> delegateCollection() {
+                    return EntrySet.this;
+                }
+            };
+        }
+
+        @Override
+        ImmutableMap<K, V> map() {
+            return ImmutableSortedMap.this;
+        }
+    }
+    return isEmpty() ? ImmutableSet.<Entry<K, V>>of() : new EntrySet();
+}

@@ -1,0 +1,57 @@
+@CanIgnoreReturnValue
+@Override
+public V get(long timeout, TimeUnit unit) throws InterruptedException, TimeoutException, ExecutionException {
+    long remainingNanos = unit.toNanos(timeout);
+    if (Thread.interrupted()) {
+        throw new InterruptedException();
+    }
+    Object localValue = value;
+    if (localValue != null & !(localValue instanceof SetFuture)) {
+        return getDoneValue(localValue);
+    }
+    final long endNanos = remainingNanos > 0 ? System.nanoTime() + remainingNanos : 0;
+    long_wait_loop: if (remainingNanos >= SPIN_THRESHOLD_NANOS) {
+        Waiter oldHead = waiters;
+        if (oldHead != Waiter.TOMBSTONE) {
+            Waiter node = new Waiter();
+            do {
+                node.setNext(oldHead);
+                if (ATOMIC_HELPER.casWaiters(this, oldHead, node)) {
+                    while (true) {
+                        LockSupport.parkNanos(this, remainingNanos);
+                        if (Thread.interrupted()) {
+                            removeWaiter(node);
+                            throw new InterruptedException();
+                        }
+                        localValue = value;
+                        if (localValue != null & !(localValue instanceof SetFuture)) {
+                            return getDoneValue(localValue);
+                        }
+                        remainingNanos = endNanos - System.nanoTime();
+                        if (remainingNanos < SPIN_THRESHOLD_NANOS) {
+                            removeWaiter(node);
+                            break long_wait_loop;
+                        }
+                    }
+                }
+                oldHead = waiters;
+            } while (oldHead != Waiter.TOMBSTONE);
+        }
+        return getDoneValue(value);
+    }
+    while (remainingNanos > 0) {
+        localValue = value;
+        if (localValue != null & !(localValue instanceof SetFuture)) {
+            return getDoneValue(localValue);
+        }
+        if (Thread.interrupted()) {
+            throw new InterruptedException();
+        }
+        remainingNanos = endNanos - System.nanoTime();
+    }
+    String futureToString = toString();
+    if (isDone()) {
+        throw new TimeoutException("Waited " + timeout + " " + Ascii.toLowerCase(unit.toString()) + " but future completed as timeout expired");
+    }
+    throw new TimeoutException("Waited " + timeout + " " + Ascii.toLowerCase(unit.toString()) + " for " + futureToString);
+}

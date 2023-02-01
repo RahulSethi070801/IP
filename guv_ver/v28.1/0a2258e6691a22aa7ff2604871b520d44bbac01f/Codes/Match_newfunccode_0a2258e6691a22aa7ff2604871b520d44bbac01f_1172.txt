@@ -1,0 +1,4 @@
+@Nullable
+private E getConnectingEdge() {
+    return nodeToOutEdge.get(targetNode);
+}

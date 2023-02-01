@@ -1,0 +1,4 @@
+
+   * An implementation of {@link BaseGraph#edges()} defined in terms of {@link #nodes()} and {@link
+   * #successors(Object)}.
+   

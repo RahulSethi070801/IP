@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "90": "   * Creates an {@code ArrayTable} filled with {@code null}.\n",
+        "96": "   *     contains duplicates or if exactly one of {@code rowKeys} or {@code\n",
+        "97": "   *     columnKeys} is empty.\n",
+        "148": "    checkArgument(rowList.isEmpty() == columnList.isEmpty());\n",
+        "151": "     * TODO(jlevy): Support only one of rowKey / columnKey being empty? If we\n",
+        "152": "     * do, when columnKeys is empty but rowKeys isn't, rowKeyList() can contain\n",
+        "153": "     * elements but rowKeySet() will be empty and containsRow() won't\n",
+        "154": "     * acknolwedge them.\n",
+        "317": "   *     rowIndex} is greater than or equal to the number of allowed row keys,\n",
+        "318": "   *     or {@code columnIndex} is greater than or equal to the number of\n",
+        "339": "   *     rowIndex} is greater than or equal to the number of allowed row keys,\n",
+        "340": "   *     or {@code columnIndex} is greater than or equal to the number of\n",
+        "396": "   * Returns {@code true} if the provided keys are among the keys provided\n",
+        "397": "   * when the table was constructed.\n",
+        "442": "   * Returns {@code true} if {@code rowKeyList().size == 0} or {@code\n",
+        "443": "   * columnKeyList().size() == 0}.\n",
+        "447": "    return rowList.isEmpty() || columnList.isEmpty();\n"
+    },
+    "removed": {
+        "90": "   * Creates an empty {@code ArrayTable}.\n",
+        "96": "   *     contains duplicates or is empty\n",
+        "129": "   * @throws IllegalArgumentException if the provided table is empty\n",
+        "148": "    checkArgument(!rowList.isEmpty());\n",
+        "149": "    checkArgument(!columnList.isEmpty());\n",
+        "152": "     * TODO(jlevy): Support empty rowKeys or columnKeys? If we do, when\n",
+        "153": "     * columnKeys is empty but rowKeys isn't, the table is empty but\n",
+        "154": "     * containsRow() can return true and rowKeySet() isn't empty.\n",
+        "179": "    // Necessary because in GWT the arrays are initialized with \"undefined\" instead of null.\n",
+        "180": "    eraseAll();\n",
+        "319": "   *     rowIndex} is greater then or equal to the number of allowed row keys,\n",
+        "320": "   *     or {@code columnIndex} is greater then or equal to the number of\n",
+        "341": "   *     rowIndex} is greater then or equal to the number of allowed row keys,\n",
+        "342": "   *     or {@code columnIndex} is greater then or equal to the number of\n",
+        "398": "   * Returns {@code true} if the provided keys are among the keys provided when\n",
+        "399": "   * the table was constructed.\n",
+        "444": "   * Always returns {@code false}.\n",
+        "448": "    return false;\n"
+    }
+}

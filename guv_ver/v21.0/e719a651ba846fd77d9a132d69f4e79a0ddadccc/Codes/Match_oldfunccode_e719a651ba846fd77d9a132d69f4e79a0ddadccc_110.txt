@@ -1,0 +1,12 @@
+@Override
+public int read(byte[] b, int off, int len) throws IOException {
+    if (left == 0) {
+        return -1;
+    }
+    len = (int) Math.min(len, left);
+    int result = in.read(b, off, len);
+    if (result != -1) {
+        left -= result;
+    }
+    return result;
+}

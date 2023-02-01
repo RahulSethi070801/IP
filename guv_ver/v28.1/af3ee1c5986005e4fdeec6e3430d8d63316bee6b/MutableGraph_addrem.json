@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "45": "   * Adds an edge connecting {@code nodeU} to {@code nodeV} if one is not already present.\n",
+        "46": "   *\n",
+        "47": "   * <p>If the graph is directed, the resultant edge will be directed; otherwise, it will be\n",
+        "48": "   * undirected.\n",
+        "60": "  /**\n",
+        "61": "   * Adds an edge connecting {@code endpoints} (in the order, if any, specified by {@code\n",
+        "62": "   * endpoints}) if one is not already present.\n",
+        "63": "   *\n",
+        "64": "   * <p>If this graph is directed, {@code endpoints} must be ordered and the added edge will be\n",
+        "65": "   * directed; if it is undirected, the added edge will be undirected.\n",
+        "66": "   *\n",
+        "67": "   * <p>If this graph is directed, {@code endpoints} must be ordered.\n",
+        "68": "   *\n",
+        "69": "   * <p>If either or both endpoints are not already present in this graph, this method will silently\n",
+        "70": "   * {@link #addNode(Object) add} each missing endpoint to the graph.\n",
+        "71": "   *\n",
+        "72": "   * @return {@code true} if the graph was modified as a result of this call\n",
+        "73": "   * @throws IllegalArgumentException if the introduction of the edge would violate {@link\n",
+        "74": "   *     #allowsSelfLoops()}\n",
+        "75": "   * @throws IllegalArgumentException if the endpoints are unordered and the graph is directed\n",
+        "76": "   */\n",
+        "77": "  @CanIgnoreReturnValue\n",
+        "78": "  boolean putEdge(EndpointPair<N> endpoints);\n",
+        "79": "\n",
+        "95": "\n",
+        "96": "  /**\n",
+        "97": "   * Removes the edge connecting {@code endpoints}, if it is present.\n",
+        "98": "   *\n",
+        "99": "   * <p>If this graph is directed, {@code endpoints} must be ordered.\n",
+        "100": "   *\n",
+        "101": "   * @throws IllegalArgumentException if the endpoints are unordered and the graph is directed\n",
+        "102": "   * @return {@code true} if the graph was modified as a result of this call\n",
+        "103": "   */\n",
+        "104": "  @CanIgnoreReturnValue\n",
+        "105": "  boolean removeEdge(EndpointPair<N> endpoints);\n"
+    },
+    "removed": {
+        "45": "   * Adds an edge connecting {@code nodeU} to {@code nodeV} if one is not already present. In an\n",
+        "46": "   * undirected graph, the edge will also connect {@code nodeV} to {@code nodeU}.\n"
+    }
+}

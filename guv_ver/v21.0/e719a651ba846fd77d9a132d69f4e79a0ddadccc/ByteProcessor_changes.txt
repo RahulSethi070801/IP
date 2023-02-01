@@ -1,0 +1,4 @@
+ByteProcessor
+Insertions: [4, 5, 9, 10, 11, 12, 25, 26, 35, 36]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 27, 28, 37, 38, 39, 40]
+guava/src/com/google/common/io/ByteProcessor.java

@@ -1,0 +1,34 @@
+private static <T extends @Nullable Object> UnmodifiableIterator<List<@Nullable T>> partitionImpl(final Iterator<T> iterator, final int size, final boolean pad) {
+    checkNotNull(iterator);
+    checkArgument(size > 0);
+    return new UnmodifiableIterator<List<@Nullable T>>() {
+
+        @Override
+        public boolean hasNext() {
+            return iterator.hasNext();
+        }
+
+        @Override
+        public List<@Nullable T> next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            @SuppressWarnings("unchecked")
+            @Nullable
+            T[] array = (@Nullable T[]) new Object[size];
+            int count = 0;
+            for (; count < size && iterator.hasNext(); count++) {
+                array[count] = iterator.next();
+            }
+            for (int i = count; i < size; i++) {
+                array[i] = null;
+            }
+            List<@Nullable T> list = Collections.unmodifiableList(Arrays.asList(array));
+            if (pad || count == size) {
+                return list;
+            } else {
+                return list.subList(0, count);
+            }
+        }
+    };
+}

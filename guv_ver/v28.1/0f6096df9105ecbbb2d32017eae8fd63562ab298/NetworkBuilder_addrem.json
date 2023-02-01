@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "83": "    return new NetworkBuilder<N, E>(network.isDirected())\n"
+    },
+    "removed": {
+        "83": "    return new NetworkBuilder<Object, Object>(network.isDirected())\n"
+    }
+}

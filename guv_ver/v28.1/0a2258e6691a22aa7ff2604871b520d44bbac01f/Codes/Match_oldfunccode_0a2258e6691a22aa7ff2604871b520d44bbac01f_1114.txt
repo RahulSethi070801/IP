@@ -1,0 +1,8 @@
+boolean tooLow(@NullableDecl T t) {
+    if (!hasLowerBound()) {
+        return false;
+    }
+    T lbound = getLowerEndpoint();
+    int cmp = comparator.compare(t, lbound);
+    return cmp < 0 | (cmp == 0 & getLowerBoundType() == OPEN);
+}

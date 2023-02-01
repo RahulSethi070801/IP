@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "32": "      assertTrue(SortedIterables.hasSameComparator(Ordering.natural(), Maps.newTreeMap().keySet()));\n",
+        "34": "    assertTrue(\n",
+        "35": "        SortedIterables.hasSameComparator(\n",
+        "36": "            Ordering.natural().reverse(), Sets.newTreeSet(Ordering.natural().reverse())));\n"
+    },
+    "removed": {
+        "32": "      assertTrue(\n",
+        "33": "          SortedIterables.hasSameComparator(Ordering.natural(), Maps.newTreeMap().keySet()));\n",
+        "35": "    assertTrue(SortedIterables.hasSameComparator(Ordering.natural().reverse(),\n",
+        "36": "        Sets.newTreeSet(Ordering.natural().reverse())));\n"
+    }
+}

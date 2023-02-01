@@ -1,0 +1,2 @@
+@NullableDecl
+E edgeConnectingOrNull(N nodeU, N nodeV);

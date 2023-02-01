@@ -1,0 +1,10 @@
+@Override
+public boolean remove(@Nullable Object o) {
+    final Monitor monitor = this.monitor;
+    monitor.enter();
+    try {
+        return q.remove(o);
+    } finally {
+        monitor.leave();
+    }
+}

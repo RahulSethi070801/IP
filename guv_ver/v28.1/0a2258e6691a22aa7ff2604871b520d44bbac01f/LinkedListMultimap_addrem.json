@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "678": "  public List<V> get(@NullableDecl final K key) {\n"
+    },
+    "removed": {
+        "678": "  public List<V> get(final @NullableDecl K key) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+ListenableFutureTester
+Insertions: [32, 70, 97]
+Deletions: [32, 70, 97]
+android/guava-tests/test/com/google/common/util/concurrent/ListenableFutureTester.java

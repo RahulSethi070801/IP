@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "19": "import static com.google.common.collect.ImmutableList.toImmutableList;\n",
+        "37": "import java.util.stream.Stream;\n",
+        "62": "  private static final ImmutableList<String> SPLIT_LINES =\n",
+        "63": "      ImmutableList.of(\"foo\", \"bar\", \"baz\", \"something\");\n",
+        "90": "  public void testLines() throws IOException {\n",
+        "91": "    source = new TestCharSource(LINES);\n",
+        "92": "\n",
+        "93": "    ImmutableList<String> lines;\n",
+        "94": "    try (Stream<String> linesStream = source.lines()) {\n",
+        "95": "      assertTrue(source.wasStreamOpened());\n",
+        "96": "      assertFalse(source.wasStreamClosed());\n",
+        "97": "\n",
+        "98": "      lines = linesStream.collect(toImmutableList());\n",
+        "99": "    }\n",
+        "100": "\n",
+        "101": "    assertTrue(source.wasStreamClosed());\n",
+        "102": "    assertEquals(SPLIT_LINES, lines);\n",
+        "103": "  }\n",
+        "104": "\n"
+    },
+    "removed": {}
+}

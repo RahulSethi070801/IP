@@ -1,0 +1,4 @@
+CacheReferencesTest_2
+Insertions: [37, 39, 40, 53, 54, 56, 57, 99, 100, 125, 126, 145, 146, 147, 151, 152, 170, 171]
+Deletions: [37, 39, 52, 54, 96, 121, 140, 144, 162]
+guava-tests/test/com/google/common/cache/CacheReferencesTest.java

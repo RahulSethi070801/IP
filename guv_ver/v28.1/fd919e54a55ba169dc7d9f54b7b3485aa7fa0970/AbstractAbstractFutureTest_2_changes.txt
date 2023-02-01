@@ -1,0 +1,4 @@
+AbstractAbstractFutureTest_2
+Insertions: [112, 113, 114, 115, 122, 123, 124, 125, 130, 131, 132, 133, 140, 141, 142, 143, 294, 296, 297, 298, 299, 300, 301, 302, 309, 312, 313, 314, 315, 316, 317, 318, 406]
+Deletions: [112, 119, 124, 131, 282, 283, 285, 286, 287, 288, 289, 290, 297, 298, 301, 302, 303, 304, 305, 306, 394, 395, 396]
+guava-tests/test/com/google/common/util/concurrent/AbstractAbstractFutureTest.java

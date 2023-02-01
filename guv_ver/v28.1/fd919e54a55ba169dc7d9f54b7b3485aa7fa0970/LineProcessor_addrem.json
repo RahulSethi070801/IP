@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "25": " * <p>{@link #processLine} will be called for each line that is read, and should return {@code\n",
+        "26": " * false} when you want to stop processing.\n"
+    },
+    "removed": {
+        "25": " * <p>{@link #processLine} will be called for each line that is read, and should return\n",
+        "26": " * {@code false} when you want to stop processing.\n"
+    }
+}

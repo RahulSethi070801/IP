@@ -1,0 +1,4 @@
+ImmutableSet_2
+Insertions: [20, 23, 36, 37, 38, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 536, 537, 538, 539, 540, 541, 542]
+Deletions: []
+guava/src/com/google/common/collect/ImmutableSet.java

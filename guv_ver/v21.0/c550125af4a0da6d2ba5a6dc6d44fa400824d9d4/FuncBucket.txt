@@ -1,0 +1,10 @@
+com.google.common.graph.Network
+predecessors
+Set<N> predecessors(Object node)
+Object
+Set
+com.google.common.graph.Network
+successors
+Set<N> successors(Object node)
+Object
+Set

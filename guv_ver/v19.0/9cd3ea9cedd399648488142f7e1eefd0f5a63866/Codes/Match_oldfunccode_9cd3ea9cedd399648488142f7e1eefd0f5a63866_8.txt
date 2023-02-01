@@ -1,0 +1,3 @@
+public static ToStringHelper toStringHelper(Class<?> clazz) {
+    return new ToStringHelper(clazz.getSimpleName());
+}

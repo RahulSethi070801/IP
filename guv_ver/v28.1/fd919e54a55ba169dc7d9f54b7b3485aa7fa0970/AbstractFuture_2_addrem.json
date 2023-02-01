@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "337": "        log.log(\n",
+        "338": "            Level.SEVERE,\n",
+        "339": "            \"RuntimeException while executing runnable \" + command + \" with executor \" + executor,\n",
+        "340": "            e);\n"
+    },
+    "removed": {
+        "337": "        log.log(Level.SEVERE, \"RuntimeException while executing runnable \"\n",
+        "338": "            + command + \" with executor \" + executor, e);\n"
+    }
+}

@@ -1,0 +1,4 @@
+ConfigurableSimpleDirectedNetworkTest
+Insertions: [43, 49, 56, 62, 70, 76, 84, 96, 102, 110, 116, 125, 131, 139, 145, 153, 159, 167, 173, 181, 187, 212, 213, 214, 215, 216, 217, 218, 219, 220, 222]
+Deletions: [43, 49, 56, 62, 70, 76, 84, 96, 102, 110, 116, 125, 131, 139, 145, 153, 159, 167, 173, 181, 187, 212, 213, 214, 215, 216, 217, 218, 219, 220, 222]
+guava-tests/test/com/google/common/graph/ConfigurableSimpleDirectedNetworkTest.java

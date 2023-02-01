@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "24": " * An iterator that transforms a backing list iterator; for internal use. This avoids the object\n",
+        "25": " * overhead of constructing a {@link Function} for internal methods.\n"
+    },
+    "removed": {
+        "24": " * An iterator that transforms a backing list iterator; for internal use. This\n",
+        "25": " * avoids the object overhead of constructing a {@link Function} for internal\n",
+        "26": " * methods.\n"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "addition": {},
+    "removed": {
+        "35": "// None of these classes are instantiated, let alone serialized:\n",
+        "36": "@SuppressWarnings(\"serial\")\n"
+    }
+}

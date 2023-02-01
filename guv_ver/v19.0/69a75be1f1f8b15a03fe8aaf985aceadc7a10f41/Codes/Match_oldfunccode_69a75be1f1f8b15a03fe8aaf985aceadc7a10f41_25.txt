@@ -1,0 +1,19 @@
+long putIfAbsent(K key, long newValue) {
+    for (; ; ) {
+        AtomicLong atomic = map.get(key);
+        if (atomic == null) {
+            atomic = map.putIfAbsent(key, new AtomicLong(newValue));
+            if (atomic == null) {
+                return 0L;
+            }
+        }
+        long oldValue = atomic.get();
+        if (oldValue == 0L) {
+            if (map.replace(key, atomic, new AtomicLong(newValue))) {
+                return 0L;
+            }
+            continue;
+        }
+        return oldValue;
+    }
+}

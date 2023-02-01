@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "215": "        \"LOWER_HYPHEN.converterTo(UPPER_CAMEL)\", LOWER_HYPHEN.converterTo(UPPER_CAMEL).toString());\n"
+    },
+    "removed": {
+        "215": "        \"LOWER_HYPHEN.converterTo(UPPER_CAMEL)\",\n",
+        "216": "        LOWER_HYPHEN.converterTo(UPPER_CAMEL).toString());\n"
+    }
+}

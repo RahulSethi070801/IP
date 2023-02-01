@@ -1,0 +1,4 @@
+@GwtIncompatible
+public static <K, V1, V2> NavigableMap<K, V2> transformEntries(final NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer) {
+    return new TransformedEntriesNavigableMap<K, V1, V2>(fromMap, transformer);
+}

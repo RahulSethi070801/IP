@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "37": "   * The map does not throw {@code NullPointerException} on calls such as {@code containsKey(null)},\n",
+        "38": "   * {@code get(null)}, {@code keySet().contains(null)} or {@code remove(null)}.\n",
+        "43": "   * The map does not throw {@code NullPointerException} on calls such as {@code\n",
+        "44": "   * containsValue(null)}, {@code values().contains(null)} or {@code values().remove(null)}.\n",
+        "49": "   * The map does not throw {@code NullPointerException} on calls such as {@code\n",
+        "50": "   * entrySet().contains(null)} or {@code entrySet().remove(null)}\n",
+        "54": "   * The map does not throw {@code NullPointerException} on any {@code null} queries.\n",
+        "68": "   * Indicates that the constructor or factory method of a map, usually an immutable map, throws an\n",
+        "69": "   * {@link IllegalArgumentException} when presented with duplicate keys instead of discarding all\n",
+        "70": "   * but one.\n"
+    },
+    "removed": {
+        "37": "   * The map does not throw {@code NullPointerException} on calls such as\n",
+        "38": "   * {@code containsKey(null)}, {@code get(null)},\n",
+        "39": "   * {@code keySet().contains(null)} or {@code remove(null)}.\n",
+        "44": "   * The map does not throw {@code NullPointerException} on calls such as\n",
+        "45": "   * {@code containsValue(null)}, {@code values().contains(null)} or\n",
+        "46": "   * {@code values().remove(null)}.\n",
+        "51": "   * The map does not throw {@code NullPointerException} on calls such as\n",
+        "52": "   * {@code entrySet().contains(null)} or {@code entrySet().remove(null)}\n",
+        "56": "   * The map does not throw {@code NullPointerException} on any {@code null}\n",
+        "57": "   * queries.\n",
+        "71": "   * Indicates that the constructor or factory method of a map, usually an\n",
+        "72": "   * immutable map, throws an {@link IllegalArgumentException} when presented\n",
+        "73": "   * with duplicate keys instead of discarding all but one.\n"
+    }
+}

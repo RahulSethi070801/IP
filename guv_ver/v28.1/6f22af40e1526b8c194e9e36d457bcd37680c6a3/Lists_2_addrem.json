@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "53": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "290": "  public static <E> List<E> asList(@NullableDecl E first, E[] rest) {\n",
+        "300": "    OnePlusArrayList(@NullableDecl E first, E[] rest) {\n",
+        "336": "  public static <E> List<E> asList(@NullableDecl E first, @NullableDecl E second, E[] rest) {\n",
+        "347": "    TwoPlusArrayList(@NullableDecl E first, @NullableDecl E second, E[] rest) {\n",
+        "721": "    public int indexOf(@NullableDecl Object object) {\n",
+        "726": "    public int lastIndexOf(@NullableDecl Object object) {\n",
+        "833": "    public void add(int index, @NullableDecl T element) {\n",
+        "853": "    public T set(int index, @NullableDecl T element) {\n",
+        "967": "  static boolean equalsImpl(List<?> thisList, @NullableDecl Object other) {\n",
+        "1004": "  static int indexOfImpl(List<?> list, @NullableDecl Object element) {\n",
+        "1018": "  private static int indexOfRandomAccess(List<?> list, @NullableDecl Object element) {\n",
+        "1037": "  static int lastIndexOfImpl(List<?> list, @NullableDecl Object element) {\n",
+        "1051": "  private static int lastIndexOfRandomAccess(List<?> list, @NullableDecl Object element) {\n"
+    },
+    "removed": {
+        "53": "import javax.annotation.Nullable;\n",
+        "290": "  public static <E> List<E> asList(@Nullable E first, E[] rest) {\n",
+        "300": "    OnePlusArrayList(@Nullable E first, E[] rest) {\n",
+        "336": "  public static <E> List<E> asList(@Nullable E first, @Nullable E second, E[] rest) {\n",
+        "347": "    TwoPlusArrayList(@Nullable E first, @Nullable E second, E[] rest) {\n",
+        "721": "    public int indexOf(@Nullable Object object) {\n",
+        "726": "    public int lastIndexOf(@Nullable Object object) {\n",
+        "833": "    public void add(int index, @Nullable T element) {\n",
+        "853": "    public T set(int index, @Nullable T element) {\n",
+        "967": "  static boolean equalsImpl(List<?> thisList, @Nullable Object other) {\n",
+        "1004": "  static int indexOfImpl(List<?> list, @Nullable Object element) {\n",
+        "1018": "  private static int indexOfRandomAccess(List<?> list, @Nullable Object element) {\n",
+        "1037": "  static int lastIndexOfImpl(List<?> list, @Nullable Object element) {\n",
+        "1051": "  private static int lastIndexOfRandomAccess(List<?> list, @Nullable Object element) {\n"
+    }
+}

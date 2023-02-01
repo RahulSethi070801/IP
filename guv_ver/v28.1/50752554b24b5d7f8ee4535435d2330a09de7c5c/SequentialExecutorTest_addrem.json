@@ -1,0 +1,29 @@
+{
+    "addition": {},
+    "removed": {
+        "182": "  public void testPrependContinuation() {\n",
+        "183": "    final List<Integer> callOrder = Lists.newArrayList();\n",
+        "184": "\n",
+        "185": "    class FakeOp implements Runnable {\n",
+        "186": "      final int op;\n",
+        "187": "\n",
+        "188": "      FakeOp(int op) {\n",
+        "189": "        this.op = op;\n",
+        "190": "      }\n",
+        "191": "\n",
+        "192": "      @Override\n",
+        "193": "      public void run() {\n",
+        "194": "        callOrder.add(op);\n",
+        "195": "      }\n",
+        "196": "    }\n",
+        "197": "\n",
+        "198": "    e.execute(new FakeOp(1));\n",
+        "199": "    e.execute(new FakeOp(2));\n",
+        "200": "    e.executeFirst(new FakeOp(0));\n",
+        "201": "    fakePool.runAll();\n",
+        "202": "\n",
+        "203": "    assertEquals(ImmutableList.of(0, 1, 2), callOrder);\n",
+        "204": "  }\n",
+        "205": "\n"
+    }
+}

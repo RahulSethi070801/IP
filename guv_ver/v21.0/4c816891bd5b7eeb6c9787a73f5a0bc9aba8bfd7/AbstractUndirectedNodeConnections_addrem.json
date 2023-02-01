@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "20": "import static com.google.common.base.Preconditions.checkState;\n",
+        "75": "    if (!isSelfLoop) {\n",
+        "76": "      return removeOutEdge(edge);\n",
+        "78": "    return null;\n",
+        "84": "    N previousNode = incidentEdgeMap.remove(edge);\n",
+        "85": "    return checkNotNull(previousNode);\n",
+        "89": "  public void addInEdge(E edge, N node, boolean isSelfLoop) {\n",
+        "90": "    if (!isSelfLoop) {\n",
+        "91": "      addOutEdge(edge, node);\n",
+        "96": "  public void addOutEdge(E edge, N node) {\n",
+        "100": "    checkState(previousNode == null);\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.base.Preconditions.checkArgument;\n",
+        "75": "    if (isSelfLoop) {\n",
+        "76": "      return null;\n",
+        "78": "    return removeOutEdge(edge);\n",
+        "84": "    return incidentEdgeMap.remove(edge);\n",
+        "88": "  public boolean addInEdge(E edge, N node, boolean isSelfLoop) {\n",
+        "89": "    if (isSelfLoop) {\n",
+        "90": "      return false;\n",
+        "92": "    return addOutEdge(edge, node);\n",
+        "96": "  public boolean addOutEdge(E edge, N node) {\n",
+        "100": "    if (previousNode != null) {\n",
+        "101": "      checkArgument(node.equals(previousNode));\n",
+        "102": "      return false;\n",
+        "103": "    }\n",
+        "104": "    return true;\n"
+    }
+}

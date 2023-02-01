@@ -1,0 +1,5 @@
+@Override
+@Nullable
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {
+    return edgeValueOrDefault_internal(checkNotNull(nodeU), checkNotNull(nodeV), defaultValue);
+}

@@ -1,0 +1,7 @@
+public static <E extends Enum<E>> WithExplicitOrdering<E> newInstanceWithExplicitOrdering(Class<E> enumClass, Policy policy) {
+    checkNotNull(enumClass);
+    checkNotNull(policy);
+    @SuppressWarnings("unchecked")
+    Map<E, LockGraphNode> lockGraphNodes = (Map<E, LockGraphNode>) getOrCreateNodes(enumClass);
+    return new WithExplicitOrdering<E>(policy, lockGraphNodes);
+}

@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "32": " * Tests the {@link Set} implementations of {@link java.util}, suppressing tests that trip known\n",
+        "33": " * OpenJDK 6 bugs.\n",
+        "42": "  @Override\n",
+        "43": "  protected Collection<Method> suppressForTreeSetNatural() {\n",
+        "50": "  @Override\n",
+        "51": "  protected Collection<Method> suppressForCheckedSet() {\n",
+        "52": "    return Arrays.asList(getAddNullSupportedMethod(), getAddSupportedNullPresentMethod());\n"
+    },
+    "removed": {
+        "32": " * Tests the {@link Set} implementations of {@link java.util}, suppressing\n",
+        "33": " * tests that trip known OpenJDK 6 bugs.\n",
+        "42": "  @Override protected Collection<Method> suppressForTreeSetNatural() {\n",
+        "49": "  @Override protected Collection<Method> suppressForCheckedSet() {\n",
+        "50": "    return Arrays.asList(\n",
+        "51": "        getAddNullSupportedMethod(),\n",
+        "52": "        getAddSupportedNullPresentMethod());\n"
+    }
+}

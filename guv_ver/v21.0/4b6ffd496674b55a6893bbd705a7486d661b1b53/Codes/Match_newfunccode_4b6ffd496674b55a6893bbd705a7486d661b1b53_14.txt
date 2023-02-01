@@ -1,0 +1,3 @@
+public static <T> Iterator<T> concat(Iterator<? extends Iterator<? extends T>> inputs) {
+    return new ConcatenatedIterator<T>(inputs);
+}

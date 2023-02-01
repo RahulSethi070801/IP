@@ -1,0 +1,6 @@
+public static boolean equal(Path path1, Path path2) throws IOException
+public static boolean equal(File file1, File file2) throws IOException
+
+public static boolean equal(Path path1, Path path2) throws IOException
+public static boolean equal(File file1, File file2) throws IOException
+

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "47": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "161": "  public static <V> ListenableFuture<V> immediateFuture(@NullableDecl V value) {\n",
+        "190": "      @NullableDecl V value) {\n"
+    },
+    "removed": {
+        "47": "import javax.annotation.Nullable;\n",
+        "161": "  public static <V> ListenableFuture<V> immediateFuture(@Nullable V value) {\n",
+        "190": "      @Nullable V value) {\n"
+    }
+}

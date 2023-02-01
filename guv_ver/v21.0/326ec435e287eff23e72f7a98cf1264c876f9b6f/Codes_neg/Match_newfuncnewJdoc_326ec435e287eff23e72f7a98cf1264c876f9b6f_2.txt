@@ -1,0 +1,11 @@
+
+   * Creates a thread-safe set backed by a hash map. The set is backed by a
+   * {@link ConcurrentHashMap} instance, and thus carries the same concurrency
+   * guarantees.
+   *
+   * <p>Unlike {@code HashSet}, this class does NOT allow {@code null} to be
+   * used as an element. The set is serializable.
+   *
+   * @return a new, empty thread-safe {@code Set}
+   * @since 15.0
+   

@@ -1,0 +1,4 @@
+UnsignedInteger
+Insertions: [9, 10, 11, 12, 36, 37, 38, 57, 58, 59, 73, 74, 100, 101, 104, 111, 112, 115, 219, 220, 221, 252, 253]
+Deletions: [9, 10, 11, 12, 36, 37, 38, 57, 58, 59, 73, 74, 100, 101, 104, 111, 112, 115, 219, 220, 221, 252, 253]
+guava/src/com/google/common/primitives/UnsignedInteger.java

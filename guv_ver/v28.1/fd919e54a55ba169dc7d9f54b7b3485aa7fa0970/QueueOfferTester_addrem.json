@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "26": " * A generic JUnit test which tests offer operations on a queue. Can't be invoked directly; please\n",
+        "27": " * see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n"
+    },
+    "removed": {
+        "26": " * A generic JUnit test which tests offer operations on a queue. Can't be\n",
+        "27": " * invoked directly; please see\n",
+        "28": " * {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n"
+    }
+}

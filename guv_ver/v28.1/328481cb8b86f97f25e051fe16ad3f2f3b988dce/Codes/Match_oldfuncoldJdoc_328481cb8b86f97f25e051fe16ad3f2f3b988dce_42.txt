@@ -1,0 +1,4 @@
+
+   * @serialData the expected values per key, the number of distinct keys,
+   * the number of entries, and the entries in order
+   

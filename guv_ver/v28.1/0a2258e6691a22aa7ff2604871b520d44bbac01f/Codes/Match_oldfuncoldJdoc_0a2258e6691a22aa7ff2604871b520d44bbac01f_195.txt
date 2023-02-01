@@ -1,0 +1,8 @@
+
+     * Creates a new entry.
+     *
+     * @param segment to create the entry for
+     * @param key of the entry
+     * @param hash of the key
+     * @param next entry in the same bucket
+     

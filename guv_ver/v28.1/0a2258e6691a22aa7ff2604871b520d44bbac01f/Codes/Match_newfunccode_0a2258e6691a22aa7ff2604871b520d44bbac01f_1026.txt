@@ -1,0 +1,4 @@
+@Override
+public boolean apply(@Nullable V value) {
+    return satisfies(key, value);
+}

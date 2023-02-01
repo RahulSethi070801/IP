@@ -1,0 +1,3 @@
+public final <V> ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction) {
+    return Maps.toMap(getDelegate(), valueFunction);
+}

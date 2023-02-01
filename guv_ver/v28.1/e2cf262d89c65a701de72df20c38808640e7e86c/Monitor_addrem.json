@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "123": " *   private V value;\n",
+        "169": " *   private final Monitor monitor = new Monitor();\n",
+        "170": " *   private final Monitor.Guard valuePresent = monitor.newGuard(() -> value != null);\n",
+        "171": " *   private final Monitor.Guard valueAbsent = monitor.newGuard(() -> value == null);\n",
+        "1009": "      throw throwable;\n"
+    },
+    "removed": {
+        "21": "import com.google.common.base.Throwables;\n",
+        "127": " *   private V value;\n",
+        "169": " *   private final Monitor monitor = new Monitor();\n",
+        "170": " *   private final Monitor.Guard valuePresent = new Monitor.Guard(monitor) {\n",
+        "171": " *     public boolean isSatisfied() {\n",
+        "172": " *       return value != null;\n",
+        "173": " *     }\n",
+        "174": " *   };\n",
+        "175": " *   private final Monitor.Guard valueAbsent = new Monitor.Guard(monitor) {\n",
+        "176": " *     public boolean isSatisfied() {\n",
+        "177": " *       return value == null;\n",
+        "178": " *     }\n",
+        "179": " *   };\n",
+        "1018": "      throw Throwables.propagate(throwable);\n"
+    }
+}

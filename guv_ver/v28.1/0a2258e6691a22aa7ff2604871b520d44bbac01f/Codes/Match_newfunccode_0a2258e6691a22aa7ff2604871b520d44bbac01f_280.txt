@@ -1,0 +1,8 @@
+static <V> V safeGet(Map<?, V> map, @Nullable Object key) {
+    checkNotNull(map);
+    try {
+        return map.get(key);
+    } catch (ClassCastException | NullPointerException e) {
+        return null;
+    }
+}

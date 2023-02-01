@@ -1,0 +1,3 @@
+protected boolean standardEquals(@Nullable Object object) {
+    return Multisets.equalsImpl(this, object);
+}

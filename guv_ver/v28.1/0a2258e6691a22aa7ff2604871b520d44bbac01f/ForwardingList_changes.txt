@@ -1,0 +1,4 @@
+ForwardingList
+Insertions: [26, 117, 156, 167, 225]
+Deletions: [26, 117, 156, 167, 225]
+guava/src/com/google/common/collect/ForwardingList.java

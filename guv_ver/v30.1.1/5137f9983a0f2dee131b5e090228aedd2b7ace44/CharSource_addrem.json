@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "37": "import javax.annotation.CheckForNull;\n",
+        "38": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "80": "@ElementTypesAreNonnullByDefault\n",
+        "265": "  @CheckForNull\n",
+        "322": "  @ParametricNullness\n",
+        "323": "  public <T extends @Nullable Object> T readLines(LineProcessor<T> processor) throws IOException {\n",
+        "526": "    @CheckForNull\n",
+        "538": "    @ParametricNullness\n",
+        "539": "    public <T extends @Nullable Object> T readLines(LineProcessor<T> processor) throws IOException {\n"
+    },
+    "removed": {
+        "37": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "263": "  @NullableDecl\n",
+        "320": "  public <T> T readLines(LineProcessor<T> processor) throws IOException {\n",
+        "534": "    public <T> T readLines(LineProcessor<T> processor) throws IOException {\n"
+    }
+}

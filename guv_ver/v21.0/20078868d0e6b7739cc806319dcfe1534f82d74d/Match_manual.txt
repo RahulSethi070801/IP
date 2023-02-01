@@ -1,0 +1,2 @@
+boolean equals(@Nullable Object object)
+public static <N, E> boolean equal(@Nullable DirectedGraph<?, ?> graph1, @Nullable DirectedGraph<?, ?> graph2)

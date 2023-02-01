@@ -1,0 +1,8 @@
+public CacheBuilder<K, V> maximumSize(long size) {
+    checkState(this.maximumSize == UNSET_INT, "maximum size was already set to %s", this.maximumSize);
+    checkState(this.maximumWeight == UNSET_INT, "maximum weight was already set to %s", this.maximumWeight);
+    checkState(this.weigher == null, "maximum size can not be combined with weigher");
+    checkArgument(size >= 0, "maximum size must not be negative");
+    this.maximumSize = size;
+    return this;
+}

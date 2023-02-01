@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "132": "    expectedValuesPerKey = DEFAULT_VALUES_PER_KEY;\n",
+        "134": "    Map<K, Collection<V>> map = Maps.newHashMap();\n"
+    },
+    "removed": {
+        "125": "    stream.writeInt(expectedValuesPerKey);\n",
+        "133": "    expectedValuesPerKey = stream.readInt();\n",
+        "135": "    Map<K, Collection<V>> map = Maps.newHashMapWithExpectedSize(distinctKeys);\n"
+    }
+}

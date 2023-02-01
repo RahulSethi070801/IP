@@ -1,0 +1,4 @@
+SingletonImmutableBiMap
+Insertions: [26, 54, 69, 74]
+Deletions: [26, 54, 69, 74]
+guava/src/com/google/common/collect/SingletonImmutableBiMap.java

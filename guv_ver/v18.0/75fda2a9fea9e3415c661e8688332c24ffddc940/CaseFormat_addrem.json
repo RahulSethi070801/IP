@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "21": "import com.google.common.annotations.Beta;\n",
+        "148": "  /**\n",
+        "149": "   * Returns a {@code Converter} that converts strings from this format to {@code targetFormat}.\n",
+        "150": "   *\n",
+        "151": "   * @since 16.0\n",
+        "152": "   */\n",
+        "153": "  @Beta\n",
+        "154": "  public Converter<String, String> converterTo(final CaseFormat targetFormat) {\n",
+        "155": "    checkNotNull(targetFormat);\n",
+        "156": "    return new Converter<String, String>() {\n",
+        "157": "      @Override protected String doForward(String s) {\n",
+        "158": "        // TODO(kevinb): remove null boilerplate (convert() will do it automatically)\n",
+        "159": "        return s == null ? null : to(targetFormat, s);\n",
+        "160": "      }\n",
+        "161": "\n",
+        "162": "      @Override protected String doBackward(String s) {\n",
+        "163": "        // TODO(kevinb): remove null boilerplate (convert() will do it automatically)\n",
+        "164": "        return s == null ? null : targetFormat.to(CaseFormat.this, s);\n",
+        "165": "      }\n",
+        "166": "    };\n",
+        "167": "  }\n",
+        "168": "\n"
+    },
+    "removed": {}
+}

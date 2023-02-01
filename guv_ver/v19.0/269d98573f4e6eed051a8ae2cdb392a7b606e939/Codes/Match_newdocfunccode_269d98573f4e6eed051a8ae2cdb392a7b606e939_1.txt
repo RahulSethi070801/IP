@@ -1,0 +1,8 @@
+private static boolean isAssignableFromAny(Type[] fromTypes, Type to) {
+    for (Type from : fromTypes) {
+        if (isAssignable(from, to)) {
+            return true;
+        }
+    }
+    return false;
+}

@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "45": "      boolean isUserTypeFast, SpecialRandom random, double hitRate, int size) {\n",
+        "103": "    return isUserTypeFast ? new Element(value) : new SlowElement(value);\n",
+        "112": "\n",
+        "113": "    @Override\n",
+        "114": "    public boolean equals(Object obj) {\n",
+        "115": "      return this == obj || (obj instanceof Element && ((Element) obj).hash == hash);\n",
+        "117": "\n",
+        "118": "    @Override\n",
+        "119": "    public int hashCode() {\n",
+        "122": "\n",
+        "127": "\n",
+        "128": "    @Override\n",
+        "129": "    public String toString() {\n",
+        "138": "\n",
+        "139": "    @Override\n",
+        "140": "    public boolean equals(Object obj) {\n",
+        "143": "\n",
+        "144": "    @Override\n",
+        "145": "    public int hashCode() {\n",
+        "148": "\n",
+        "149": "    @Override\n",
+        "150": "    public int compareTo(Element e) {\n"
+    },
+    "removed": {
+        "45": "      boolean isUserTypeFast,\n",
+        "46": "      SpecialRandom random,\n",
+        "47": "      double hitRate,\n",
+        "48": "      int size) {\n",
+        "106": "    return isUserTypeFast\n",
+        "107": "        ? new Element(value)\n",
+        "108": "        : new SlowElement(value);\n",
+        "116": "    @Override public boolean equals(Object obj) {\n",
+        "117": "      return this == obj\n",
+        "118": "          || (obj instanceof Element && ((Element) obj).hash == hash);\n",
+        "120": "    @Override public int hashCode() {\n",
+        "127": "    @Override public String toString() {\n",
+        "136": "    @Override public boolean equals(Object obj) {\n",
+        "139": "    @Override public int hashCode() {\n",
+        "142": "    @Override public int compareTo(Element e) {\n"
+    }
+}

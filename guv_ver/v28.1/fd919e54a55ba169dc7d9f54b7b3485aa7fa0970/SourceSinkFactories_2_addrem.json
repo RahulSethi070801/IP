@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "141": "        return factory.createSource(new String(data, Charsets.UTF_8)).asByteSource(Charsets.UTF_8);\n",
+        "161": "        return factory.createSource(string.getBytes(Charsets.UTF_8)).asCharSource(Charsets.UTF_8);\n",
+        "206": "  public static ByteSourceFactory asSlicedByteSourceFactory(\n",
+        "207": "      final ByteSourceFactory factory, final long off, final long len) {\n",
+        "243": "    public void tearDown() throws IOException {}\n",
+        "259": "    public void tearDown() throws IOException {}\n",
+        "275": "    public void tearDown() throws IOException {}\n",
+        "291": "    public void tearDown() throws IOException {}\n",
+        "435": "      return initialString == null ? string : initialString + string;\n",
+        "599": "      return initialString == null ? string : initialString + string;\n"
+    },
+    "removed": {
+        "141": "        return factory.createSource(new String(data, Charsets.UTF_8))\n",
+        "142": "            .asByteSource(Charsets.UTF_8);\n",
+        "162": "        return factory.createSource(string.getBytes(Charsets.UTF_8))\n",
+        "163": "            .asCharSource(Charsets.UTF_8);\n",
+        "208": "  public static ByteSourceFactory asSlicedByteSourceFactory(final ByteSourceFactory factory,\n",
+        "209": "      final long off, final long len) {\n",
+        "245": "    public void tearDown() throws IOException {\n",
+        "246": "    }\n",
+        "262": "    public void tearDown() throws IOException {\n",
+        "263": "    }\n",
+        "279": "    public void tearDown() throws IOException {\n",
+        "280": "    }\n",
+        "296": "    public void tearDown() throws IOException {\n",
+        "297": "    }\n",
+        "441": "      return initialString == null\n",
+        "442": "          ? string\n",
+        "443": "          : initialString + string;\n",
+        "607": "      return initialString == null\n",
+        "608": "          ? string\n",
+        "609": "          : initialString + string;\n"
+    }
+}

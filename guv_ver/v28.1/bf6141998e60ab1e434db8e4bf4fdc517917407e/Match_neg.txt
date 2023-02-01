@@ -1,0 +1,6 @@
+static String format(String template, @Nullable Object... args)
+public static void checkState(boolean expression, @Nullable String errorMessageTemplate, @Nullable Object... errorMessageArgs)
+
+static String format(String template, @Nullable Object... args)
+public static void checkState(boolean expression, @Nullable String errorMessageTemplate, @Nullable Object... errorMessageArgs)
+

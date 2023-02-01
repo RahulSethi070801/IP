@@ -1,0 +1,8 @@
+
+   * Returns an immutable multiset entry with the specified element and count. The entry will be
+   * serializable if {@code e} is.
+   *
+   * @param e the element to be associated with the returned entry
+   * @param n the count to be associated with the returned entry
+   * @throws IllegalArgumentException if {@code n} is negative
+   

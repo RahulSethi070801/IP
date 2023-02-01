@@ -1,0 +1,15 @@
+
+   * Returns the last element of the specified stream, or {@link java.util.Optional#empty} if the
+   * stream is empty.
+   *
+   * <p>Equivalent to {@code stream.reduce((a, b) -> b)}, but may perform significantly better. This
+   * method's runtime will be between O(log n) and O(n), performing better on <a
+   * href="http://gee.cs.oswego.edu/dl/html/StreamParallelGuidance.html">efficiently splittable</a>
+   * streams.
+   *
+   * <p>If the stream has nondeterministic order, this has equivalent semantics to {@link
+   * Stream#findAny} (which you might as well use).
+   *
+   * @see Stream#findFirst()
+   * @throws NullPointerException if the last element of the stream is null
+   

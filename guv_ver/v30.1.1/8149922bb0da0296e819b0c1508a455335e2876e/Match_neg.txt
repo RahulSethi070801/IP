@@ -1,0 +1,6 @@
+public final Object invoke(Object proxy, Method method, @CheckForNull @Nullable Object[] args) throws Throwable
+public final TypeToken<T> where(TypeParameter<X> typeParam, TypeToken<X> typeArg)
+
+Class<?> getOwnerType(Class<?> rawType)
+public String getSimpleName()
+

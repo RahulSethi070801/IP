@@ -1,0 +1,13 @@
+
+   * Returns the number of occurrences of an element in this multiset (the <i>count</i> of the
+   * element). Note that for an {@link Object#equals}-based multiset, this gives the same result as
+   * {@link Collections#frequency} (which would presumably perform more poorly).
+   *
+   * <p><b>Note:</b> the utility method {@link Iterables#frequency} generalizes this operation; it
+   * correctly delegates to this method when dealing with a multiset, but it can also accept any
+   * other iterable type.
+   *
+   * @param element the element to count occurrences of
+   * @return the number of occurrences of the element in this multiset; possibly zero but never
+   *     negative
+   

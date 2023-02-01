@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "16": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "137": "  transient volatile Cell @Nullable [] cells;\n",
+        "180": "  final void retryUpdate(long x, int @Nullable [] hc, boolean wasUncontended) {\n"
+    },
+    "removed": {
+        "16": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "137": "  @NullableDecl transient volatile Cell[] cells;\n",
+        "180": "  final void retryUpdate(long x, @NullableDecl int[] hc, boolean wasUncontended) {\n"
+    }
+}

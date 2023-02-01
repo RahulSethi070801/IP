@@ -1,0 +1,45 @@
+com.google.common.collect.ImmutableMap
+entrySet
+public ImmutableSet<Entry<K, V>> entrySet()
+empty
+ImmutableSet
+com.google.common.collect.ImmutableBiMap
+copyOf
+public static ImmutableBiMap<K, V> copyOf(Iterable<? extends Entry<? extends K, ? extends V>> entries)
+Iterable
+ImmutableBiMap
+com.google.common.collect.ImmutableBiMap
+build
+public ImmutableBiMap<K, V> build()
+empty
+ImmutableBiMap
+com.google.common.collect.ImmutableMap
+values
+public ImmutableCollection<V> values()
+empty
+ImmutableCollection
+com.google.common.collect.ImmutableSet
+toImmutableSet
+public static Collector<E, ?, ImmutableSet<E>> toImmutableSet()
+empty
+Collector
+com.google.common.collect.ImmutableMap
+build
+public ImmutableMap<K, V> build()
+empty
+ImmutableMap
+com.google.common.collect.ImmutableBiMap
+values
+public ImmutableSet<V> values()
+empty
+ImmutableSet
+com.google.common.collect.ImmutableMap
+keySet
+public ImmutableSet<K> keySet()
+empty
+ImmutableSet
+com.google.common.collect.ImmutableBiMap
+copyOf
+public static ImmutableBiMap<K, V> copyOf(Map<? extends K, ? extends V> map)
+Map
+ImmutableBiMap

@@ -1,0 +1,11 @@
+@NullableDecl
+private AvlNode<E> floor(Comparator<? super E> comparator, E e) {
+    int cmp = comparator.compare(e, elem);
+    if (cmp > 0) {
+        return (right == null) ? this : MoreObjects.firstNonNull(right.floor(comparator, e), this);
+    } else if (cmp == 0) {
+        return this;
+    } else {
+        return (left == null) ? null : left.floor(comparator, e);
+    }
+}

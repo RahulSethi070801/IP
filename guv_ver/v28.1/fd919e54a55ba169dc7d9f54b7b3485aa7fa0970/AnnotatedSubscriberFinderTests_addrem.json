@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "30": " * <p>This test must be outside the c.g.c.eventbus package to test correctly.\n",
+        "140": "      final List<Object> differentlyOverriddenNotAnnotatedInSubclassBadEvents =\n",
+        "141": "          Lists.newArrayList();\n",
+        "173": "      final List<Object> differentlyOverriddenNotAnnotatedInSubclassGoodEvents =\n",
+        "174": "          Lists.newArrayList();\n"
+    },
+    "removed": {
+        "30": " * This test must be outside the c.g.c.eventbus package to test correctly.\n",
+        "140": "      final List<Object> differentlyOverriddenNotAnnotatedInSubclassBadEvents = Lists\n",
+        "141": "          .newArrayList();\n",
+        "173": "      final List<Object> differentlyOverriddenNotAnnotatedInSubclassGoodEvents = Lists\n",
+        "174": "          .newArrayList();\n"
+    }
+}

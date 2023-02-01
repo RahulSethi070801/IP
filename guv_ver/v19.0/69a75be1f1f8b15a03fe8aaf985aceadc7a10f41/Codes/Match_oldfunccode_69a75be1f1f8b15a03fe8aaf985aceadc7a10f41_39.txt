@@ -1,0 +1,4 @@
+Throwable failureCause() {
+    checkState(state == FAILED, "failureCause() is only valid if the service has failed, service is %s", state);
+    return failure;
+}

@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "32": "  /** Creates a new instance with {@code null} as its detail message. */\n",
+        "35": "  /** Creates a new instance with the given detail message. */\n",
+        "40": "  /** Creates a new instance with the given detail message and cause. */\n",
+        "45": "  /** Creates a new instance with the given cause. */\n"
+    },
+    "removed": {
+        "32": "  /**\n",
+        "33": "   * Creates a new instance with {@code null} as its detail message.\n",
+        "34": "   */\n",
+        "37": "  /**\n",
+        "38": "   * Creates a new instance with the given detail message.\n",
+        "39": "   */\n",
+        "44": "  /**\n",
+        "45": "   * Creates a new instance with the given detail message and cause.\n",
+        "46": "   */\n",
+        "51": "  /**\n",
+        "52": "   * Creates a new instance with the given cause.\n",
+        "53": "   */\n"
+    }
+}

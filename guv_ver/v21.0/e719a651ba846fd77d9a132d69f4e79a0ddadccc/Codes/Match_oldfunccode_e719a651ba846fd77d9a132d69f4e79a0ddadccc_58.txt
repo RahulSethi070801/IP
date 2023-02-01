@@ -1,0 +1,6 @@
+static byte[] readFile(InputStream in, long expectedSize) throws IOException {
+    if (expectedSize > Integer.MAX_VALUE) {
+        throw new OutOfMemoryError("file is too large to fit in a byte array: " + expectedSize + " bytes");
+    }
+    return expectedSize == 0 ? ByteStreams.toByteArray(in) : ByteStreams.toByteArray(in, (int) expectedSize);
+}

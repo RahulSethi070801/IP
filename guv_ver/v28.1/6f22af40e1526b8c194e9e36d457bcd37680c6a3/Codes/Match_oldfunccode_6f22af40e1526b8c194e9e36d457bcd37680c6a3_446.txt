@@ -1,0 +1,3 @@
+private static <V> ImmutableSet<V> valueSet(@Nullable Comparator<? super V> valueComparator, Collection<? extends V> values) {
+    return (valueComparator == null) ? ImmutableSet.copyOf(values) : ImmutableSortedSet.copyOf(valueComparator, values);
+}

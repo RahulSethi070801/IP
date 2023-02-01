@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "33": "import javax.annotation.CheckForNull;\n",
+        "90": "@ElementTypesAreNonnullByDefault\n",
+        "91": "public interface Multiset<E extends @Nullable Object> extends Collection<E> {\n",
+        "116": "  int count(@CompatibleWith(\"E\") @CheckForNull Object element);\n",
+        "139": "  int add(@ParametricNullness E element, int occurrences);\n",
+        "162": "  boolean add(@ParametricNullness E element);\n",
+        "177": "  int remove(@CompatibleWith(\"E\") @CheckForNull Object element, int occurrences);\n",
+        "193": "  boolean remove(@CheckForNull Object element);\n",
+        "209": "  int setCount(@ParametricNullness E element, int count);\n",
+        "228": "  boolean setCount(@ParametricNullness E element, int oldCount, int newCount);\n",
+        "274": "  interface Entry<E extends @Nullable Object> {\n",
+        "282": "    @ParametricNullness\n",
+        "310": "    boolean equals(@CheckForNull Object o);\n",
+        "358": "  boolean equals(@CheckForNull Object object);\n",
+        "404": "  boolean contains(@CheckForNull Object element);\n"
+    },
+    "removed": {
+        "89": "public interface Multiset<E> extends Collection<E> {\n",
+        "114": "  int count(@Nullable @CompatibleWith(\"E\") Object element);\n",
+        "137": "  int add(@Nullable E element, int occurrences);\n",
+        "160": "  boolean add(E element);\n",
+        "175": "  int remove(@Nullable @CompatibleWith(\"E\") Object element, int occurrences);\n",
+        "191": "  boolean remove(@Nullable Object element);\n",
+        "207": "  int setCount(E element, int count);\n",
+        "226": "  boolean setCount(E element, int oldCount, int newCount);\n",
+        "272": "  interface Entry<E> {\n",
+        "307": "    boolean equals(Object o);\n",
+        "355": "  boolean equals(@Nullable Object object);\n",
+        "401": "  boolean contains(@Nullable Object element);\n"
+    }
+}

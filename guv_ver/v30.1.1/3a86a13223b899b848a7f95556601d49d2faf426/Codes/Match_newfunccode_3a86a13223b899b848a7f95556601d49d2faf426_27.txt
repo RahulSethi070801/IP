@@ -1,0 +1,4 @@
+@CheckForNull
+public E peekLast() {
+    return isEmpty() ? null : elementData(getMaxElementIndex());
+}

@@ -1,0 +1,4 @@
+CaseFormat
+Insertions: [32, 51, 70, 78, 86, 124]
+Deletions: [32, 33, 34, 53, 54, 55, 74, 75, 76, 84, 85, 86, 94, 95, 96, 134, 135, 136]
+android/guava/src/com/google/common/base/CaseFormat.java

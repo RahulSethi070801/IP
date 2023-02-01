@@ -1,0 +1,4 @@
+AbstractDirectedNodeConnections
+Insertions: [20, 22, 24, 26, 28, 50, 51, 52, 53, 56, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 104, 106, 107, 108, 109, 120, 123, 124, 125, 126, 129, 141]
+Deletions: [19, 46, 58, 79, 91, 96, 108]
+guava/src/com/google/common/graph/AbstractDirectedNodeConnections.java

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "33": "import java.util.Map.Entry;\n",
+        "449": "  <T2 extends T> Ordering<Entry<T2, ?>> onKeys() {\n"
+    },
+    "removed": {
+        "33": "import java.util.Map;\n",
+        "449": "  <T2 extends T> Ordering<Map.Entry<T2, ?>> onKeys() {\n"
+    }
+}

@@ -1,0 +1,7 @@
+
+   * Creates a new {@linkplain Guard guard} for this monitor.
+   *
+   * @param isSatisfied the new guard's boolean condition (see {@link Guard#isSatisfied
+   *     isSatisfied()})
+   * @since 21.0
+   

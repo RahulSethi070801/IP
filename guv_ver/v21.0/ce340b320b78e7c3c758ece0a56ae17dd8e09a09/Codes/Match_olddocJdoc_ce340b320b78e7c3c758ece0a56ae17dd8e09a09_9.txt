@@ -1,0 +1,9 @@
+
+   * Returns the hash code for this graph. The hash code of a graph is defined as the hash code
+   * of a map from each of the graph's nodes to their incident edges.
+   *
+   * <p>A reference implementation of this is provided by {@link Graphs#hashCode(Graph)}.
+   *
+   * <p>Note that by this definition, two graphs that are equal in every aspect except edge
+   * direction will have the same hash code (but can still be differentiated by {@link #equals}.
+   

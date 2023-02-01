@@ -1,0 +1,6 @@
+public static <T, R, C, V> Collector<T, ?, ImmutableTable<R, C, V>> toImmutableTable(Function<? super T, ? extends R> rowFunction, Function<? super T, ? extends C> columnFunction, Function<? super T, ? extends V> valueFunction) {
+    checkNotNull(rowFunction);
+    checkNotNull(columnFunction);
+    checkNotNull(valueFunction);
+    return Collector.of(Builder<R, C, V>::new, (builder, t) -> builder.put(rowFunction.apply(t), columnFunction.apply(t), valueFunction.apply(t)), Builder::combine, Builder::build);
+}

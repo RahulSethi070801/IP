@@ -1,0 +1,4 @@
+@Override
+Iterator<? extends T> transform(Iterator<? extends T> iterator) {
+    return iterator;
+}

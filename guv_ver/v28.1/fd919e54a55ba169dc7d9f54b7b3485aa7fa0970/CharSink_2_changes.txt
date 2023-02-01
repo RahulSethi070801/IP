@@ -1,0 +1,4 @@
+CharSink_2
+Insertions: [36, 38, 39, 40, 41, 42, 43, 56, 109, 110]
+Deletions: [37, 38, 39, 40, 41, 42, 55, 56, 57, 110, 111]
+guava/src/com/google/common/io/CharSink.java

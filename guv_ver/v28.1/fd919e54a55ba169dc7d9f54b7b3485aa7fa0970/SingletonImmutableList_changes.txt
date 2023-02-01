@@ -1,0 +1,4 @@
+SingletonImmutableList
+Insertions: [42, 43]
+Deletions: [42]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/SingletonImmutableList.java

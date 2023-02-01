@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "30": "import java.util.Arrays;\n",
+        "585": "  \n",
+        "586": "  private static final byte[] asciiDigits = new byte[128];\n",
+        "587": "  \n",
+        "588": "  static {\n",
+        "589": "    Arrays.fill(asciiDigits, (byte) -1);\n",
+        "590": "    for (int i = 0; i <= 9; i++) {\n",
+        "591": "      asciiDigits['0' + i] = (byte) i;\n",
+        "592": "    }\n",
+        "593": "    for (int i = 0; i <= 26; i++) {\n",
+        "594": "      asciiDigits['A' + i] = (byte) (10 + i);\n",
+        "595": "      asciiDigits['a' + i] = (byte) (10 + i);\n",
+        "596": "    }\n",
+        "597": "  }\n",
+        "598": "  \n",
+        "599": "  private static int digit(char c) {\n",
+        "600": "    return (c < 128) ? asciiDigits[c] : -1;\n",
+        "601": "  }\n"
+    },
+    "removed": {}
+}

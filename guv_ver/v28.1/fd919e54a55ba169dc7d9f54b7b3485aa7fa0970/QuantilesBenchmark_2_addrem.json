@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "28": "/** Benchmarks some algorithms providing the same functionality as {@link Quantiles}. */\n",
+        "37": "  @Param QuantilesAlgorithm algorithm;\n",
+        "58": "  @Benchmark\n",
+        "59": "  double median(int reps) {\n",
+        "67": "  @Benchmark\n",
+        "68": "  double percentile90(int reps) {\n",
+        "76": "  @Benchmark\n",
+        "77": "  double percentile99(int reps) {\n",
+        "85": "  @Benchmark\n",
+        "86": "  double percentiles90And99(int reps) {\n",
+        "94": "  @Benchmark\n",
+        "95": "  double threePercentiles(int reps) {\n",
+        "103": "  @Benchmark\n",
+        "104": "  double allDeciles(int reps) {\n"
+    },
+    "removed": {
+        "28": "/**\n",
+        "29": " * Benchmarks some algorithms providing the same functionality as {@link Quantiles}.\n",
+        "30": " */\n",
+        "39": "  @Param\n",
+        "40": "  QuantilesAlgorithm algorithm;\n",
+        "61": "  @Benchmark double median(int reps) {\n",
+        "69": "  @Benchmark double percentile90(int reps) {\n",
+        "77": "  @Benchmark double percentile99(int reps) {\n",
+        "85": "  @Benchmark double percentiles90And99(int reps) {\n",
+        "93": "  @Benchmark double threePercentiles(int reps) {\n",
+        "101": "  @Benchmark double allDeciles(int reps) {\n"
+    }
+}

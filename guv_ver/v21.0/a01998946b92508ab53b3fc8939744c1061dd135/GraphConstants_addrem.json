@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "57": "\n",
+        "58": "  static final String GRAPH_STRING_FORMAT = \"%s, nodes: %s, edges: %s\";\n"
+    },
+    "removed": {}
+}

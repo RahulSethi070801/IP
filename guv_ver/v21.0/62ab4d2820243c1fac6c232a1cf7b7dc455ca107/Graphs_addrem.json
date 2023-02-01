@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "85": "    return graph.isDirected() == endpoints.isDirected()\n"
+    },
+    "removed": {
+        "85": "    return graph.isDirected() == (endpoints instanceof Endpoints.Directed)\n"
+    }
+}

@@ -1,0 +1,4 @@
+ByteSink
+Insertions: [79]
+Deletions: [79]
+guava/src/com/google/common/io/ByteSink.java

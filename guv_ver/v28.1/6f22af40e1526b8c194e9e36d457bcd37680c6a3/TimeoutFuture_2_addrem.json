@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "73": "  @NullableDecl private ListenableFuture<V> delegateRef;\n",
+        "74": "  @NullableDecl private Future<?> timer;\n",
+        "82": "    @NullableDecl TimeoutFuture<V> timeoutFutureRef;\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "73": "  @Nullable private ListenableFuture<V> delegateRef;\n",
+        "74": "  @Nullable private Future<?> timer;\n",
+        "82": "    @Nullable TimeoutFuture<V> timeoutFutureRef;\n"
+    }
+}

@@ -1,0 +1,4 @@
+int hash(@Nullable Object key) {
+    int h = keyEquivalence.hash(key);
+    return rehash(h);
+}

@@ -1,0 +1,25 @@
+@Override
+public int remove(@Nullable Object key, int occurrences) {
+    checkNonnegative(occurrences, "occurrences");
+    if (occurrences == 0) {
+        return count(key);
+    }
+    Collection<V> collection = unfiltered.asMap().get(key);
+    if (collection == null) {
+        return 0;
+    }
+    @SuppressWarnings("unchecked")
+    K k = (K) key;
+    int oldCount = 0;
+    Iterator<V> itr = collection.iterator();
+    while (itr.hasNext()) {
+        V v = itr.next();
+        if (satisfies(k, v)) {
+            oldCount++;
+            if (oldCount <= occurrences) {
+                itr.remove();
+            }
+        }
+    }
+    return oldCount;
+}

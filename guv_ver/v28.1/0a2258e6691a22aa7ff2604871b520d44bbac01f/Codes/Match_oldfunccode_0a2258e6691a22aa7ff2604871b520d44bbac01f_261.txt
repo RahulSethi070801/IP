@@ -1,0 +1,3 @@
+private static <E> E getElementOrNull(@NullableDecl Entry<E> entry) {
+    return (entry == null) ? null : entry.getElement();
+}

@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "99": " * <p>These features are all optional; caches can be created using all or none of them. By default,\n",
+        "233": "  static final Supplier<StatsCounter> CACHE_STATS_COUNTER = SimpleStatsCounter::new;\n",
+        "923": "   * same instance, but only the returned reference has the correct generic type information to\n",
+        "924": "   * ensure type safety. For best results, use the standard method-chaining idiom illustrated in the\n",
+        "925": "   * class documentation above, configuring a builder and building your cache in a single statement.\n",
+        "926": "   * Failure to heed this advice can result in a {@link ClassCastException} being thrown by a cache\n",
+        "927": "   * operation at some <i>undefined</i> point in the future.\n"
+    },
+    "removed": {
+        "99": " * <p>These features are all optional; caches can be created using all or none of them. By default\n",
+        "233": "  static final Supplier<StatsCounter> CACHE_STATS_COUNTER =\n",
+        "234": "      new Supplier<StatsCounter>() {\n",
+        "235": "        @Override\n",
+        "236": "        public StatsCounter get() {\n",
+        "237": "          return new SimpleStatsCounter();\n",
+        "238": "        }\n",
+        "239": "      };\n",
+        "929": "   * same instance, but only the returned reference has the correct generic type information so as\n",
+        "930": "   * to ensure type safety. For best results, use the standard method-chaining idiom illustrated in\n",
+        "931": "   * the class documentation above, configuring a builder and building your cache in a single\n",
+        "932": "   * statement. Failure to heed this advice can result in a {@link ClassCastException} being thrown\n",
+        "933": "   * by a cache operation at some <i>undefined</i> point in the future.\n"
+    }
+}

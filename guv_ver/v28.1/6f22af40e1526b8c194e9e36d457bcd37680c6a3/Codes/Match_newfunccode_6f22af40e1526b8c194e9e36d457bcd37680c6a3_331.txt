@@ -1,0 +1,14 @@
+@NullableDecl
+V getLiveValue(ReferenceEntry<K, V> entry, long now) {
+    if (entry.getKey() == null) {
+        return null;
+    }
+    V value = entry.getValueReference().get();
+    if (value == null) {
+        return null;
+    }
+    if (isExpired(entry, now)) {
+        return null;
+    }
+    return value;
+}

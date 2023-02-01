@@ -1,0 +1,4 @@
+@Override
+public void setPreviousInWriteQueue(ReferenceEntry<K, V> previous) {
+    this.previousWrite = previous;
+}

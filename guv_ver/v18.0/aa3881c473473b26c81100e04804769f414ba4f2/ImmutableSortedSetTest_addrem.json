@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "717": "  private static <E> Iterator<E> asIterator(E... elements) {\n"
+    },
+    "removed": {
+        "717": "  private static final <E> Iterator<E> asIterator(E... elements) {\n"
+    }
+}

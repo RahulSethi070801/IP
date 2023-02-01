@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "118": "   * character does not have an explicit replacement and lies outside the safe range then {@link\n",
+        "119": "   * #escapeUnsafe} is called.\n"
+    },
+    "removed": {
+        "118": "   * character does not have an explicit replacement and lies outside the safe range then\n",
+        "119": "   * {@link #escapeUnsafe} is called.\n"
+    }
+}

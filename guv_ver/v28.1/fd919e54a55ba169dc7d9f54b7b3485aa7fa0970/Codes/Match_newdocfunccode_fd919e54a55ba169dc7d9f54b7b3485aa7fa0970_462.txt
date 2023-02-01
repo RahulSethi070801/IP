@@ -1,0 +1,7 @@
+@Override
+public String escape(String string) {
+    checkNotNull(string);
+    int end = string.length();
+    int index = nextEscapeIndex(string, 0, end);
+    return index == end ? string : escapeSlow(string, index);
+}

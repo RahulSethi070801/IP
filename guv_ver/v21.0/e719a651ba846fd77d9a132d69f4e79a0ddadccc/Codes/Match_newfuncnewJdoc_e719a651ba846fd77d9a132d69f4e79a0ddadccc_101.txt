@@ -1,0 +1,10 @@
+
+   * Reads the first line from a file. The line does not include line-termination characters, but
+   * does include other leading and trailing whitespace.
+   *
+   * @param file the file to read from
+   * @param charset the charset used to decode the input stream; see {@link StandardCharsets} for
+   *     helpful predefined constants
+   * @return the first line, or null if the file is empty
+   * @throws IOException if an I/O error occurs
+   

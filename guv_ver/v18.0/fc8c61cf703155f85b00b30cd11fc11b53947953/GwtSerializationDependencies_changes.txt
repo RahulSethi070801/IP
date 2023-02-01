@@ -1,0 +1,4 @@
+GwtSerializationDependencies
+Insertions: []
+Deletions: [35, 36]
+guava-gwt/src/com/google/common/base/GwtSerializationDependencies.java

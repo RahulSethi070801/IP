@@ -1,0 +1,1 @@
+void setNextExpirable(ReferenceEntry<K, V> next);

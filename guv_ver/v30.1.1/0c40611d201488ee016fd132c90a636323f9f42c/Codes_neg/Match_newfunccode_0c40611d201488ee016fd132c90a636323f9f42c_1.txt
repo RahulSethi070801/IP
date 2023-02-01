@@ -1,0 +1,6 @@
+@Deprecated
+@Override
+@DoNotCall("Always throws UnsupportedOperationException")
+public final boolean remove(@CheckForNull Object key, @CheckForNull Object value) {
+    throw new UnsupportedOperationException();
+}

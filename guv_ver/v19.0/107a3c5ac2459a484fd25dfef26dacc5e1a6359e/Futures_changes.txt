@@ -1,0 +1,4 @@
+Futures
+Insertions: [1256]
+Deletions: [1256]
+guava-gwt/src-super/com/google/common/util/concurrent/super/com/google/common/util/concurrent/Futures.java

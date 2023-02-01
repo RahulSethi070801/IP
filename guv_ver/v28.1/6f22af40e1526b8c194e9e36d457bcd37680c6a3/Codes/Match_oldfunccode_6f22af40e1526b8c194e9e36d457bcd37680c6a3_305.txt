@@ -1,0 +1,2 @@
+@Nullable
+<T extends B> T getInstance(Class<T> type);

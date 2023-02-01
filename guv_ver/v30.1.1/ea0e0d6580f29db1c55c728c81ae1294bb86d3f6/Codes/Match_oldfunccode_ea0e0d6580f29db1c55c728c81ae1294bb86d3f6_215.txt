@@ -1,0 +1,8 @@
+public static <E> Multiset<E> unmodifiableMultiset(Multiset<? extends E> multiset) {
+    if (multiset instanceof UnmodifiableMultiset || multiset instanceof ImmutableMultiset) {
+        @SuppressWarnings("unchecked")
+        Multiset<E> result = (Multiset<E>) multiset;
+        return result;
+    }
+    return new UnmodifiableMultiset<E>(checkNotNull(multiset));
+}

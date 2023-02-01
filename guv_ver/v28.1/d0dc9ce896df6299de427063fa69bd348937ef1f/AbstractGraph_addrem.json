@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "107": "  @Override\n",
+        "108": "  public final boolean equals(@Nullable Object obj) {\n",
+        "109": "    if (obj == this) {\n",
+        "110": "      return true;\n",
+        "111": "    }\n",
+        "112": "    if (!(obj instanceof Graph)) {\n",
+        "113": "      return false;\n",
+        "114": "    }\n",
+        "115": "    Graph<?> other = (Graph<?>) obj;\n",
+        "116": "\n",
+        "117": "    return isDirected() == other.isDirected()\n",
+        "118": "        && nodes().equals(other.nodes())\n",
+        "119": "        && edges().equals(other.edges());\n",
+        "120": "  }\n",
+        "121": "\n",
+        "122": "  @Override\n",
+        "123": "  public final int hashCode() {\n",
+        "124": "    return edges().hashCode();\n",
+        "125": "  }\n",
+        "126": "\n"
+    },
+    "removed": {}
+}

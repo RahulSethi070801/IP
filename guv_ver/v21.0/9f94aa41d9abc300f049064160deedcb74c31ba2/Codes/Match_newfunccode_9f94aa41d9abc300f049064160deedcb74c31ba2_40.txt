@@ -1,0 +1,22 @@
+@Override
+public boolean matches(char c) {
+    if (c == 0) {
+        return containsZero;
+    }
+    if (!checkFilter(c)) {
+        return false;
+    }
+    int mask = table.length - 1;
+    int startingIndex = smear(c) & mask;
+    int index = startingIndex;
+    do {
+        if (table[index] == 0) {
+            return false;
+        } else if (table[index] == c) {
+            return true;
+        } else {
+            index = (index + 1) & mask;
+        }
+    } while (index != startingIndex);
+    return false;
+}

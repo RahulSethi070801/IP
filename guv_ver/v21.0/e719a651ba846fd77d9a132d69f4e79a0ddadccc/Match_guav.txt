@@ -1,0 +1,930 @@
+public static List<String> readLines(URL url, Charset charset) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static List<String> readLines(URL url, Charset charset) throws IOException
+public long size() throws IOException
+
+int readInt()
+public static String toString(File file, Charset charset) throws IOException
+
+int readInt()
+public long size() throws IOException
+
+byte readByte()
+public static String toString(File file, Charset charset) throws IOException
+
+byte readByte()
+public long size() throws IOException
+
+void readFully(byte[] b, int off, int len)
+public static String toString(File file, Charset charset) throws IOException
+
+void readFully(byte[] b, int off, int len)
+public long size() throws IOException
+
+void writeChar(int v)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeChar(int v)
+public long size() throws IOException
+
+String readUTF()
+public static String toString(File file, Charset charset) throws IOException
+
+String readUTF()
+public long size() throws IOException
+
+static byte[] toByteArray(InputStream in, int expectedSize) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+static byte[] toByteArray(InputStream in, int expectedSize) throws IOException
+public long size() throws IOException
+
+public void write(byte[] b, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(byte[] b, int off, int len) throws IOException
+public long size() throws IOException
+
+public static void move(File from, File to) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void move(File from, File to) throws IOException
+public long size() throws IOException
+
+public static void flush(Flushable flushable, boolean swallowIOException) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void flush(Flushable flushable, boolean swallowIOException) throws IOException
+public long size() throws IOException
+
+public static URL getResource(Class<?> contextClass, String resourceName)
+public static String toString(File file, Charset charset) throws IOException
+
+public static URL getResource(Class<?> contextClass, String resourceName)
+public long size() throws IOException
+
+public static String simplifyPath(String pathname)
+public static String toString(File file, Charset charset) throws IOException
+
+public static String simplifyPath(String pathname)
+public long size() throws IOException
+
+public static T readLines(File file, Charset charset, LineProcessor<T> callback) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static T readLines(File file, Charset charset, LineProcessor<T> callback) throws IOException
+public long size() throws IOException
+
+public void write(byte[] b)
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(byte[] b)
+public long size() throws IOException
+
+public void writeBytes(String s) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeBytes(String s) throws IOException
+public long size() throws IOException
+
+public void write(int b) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(int b) throws IOException
+public long size() throws IOException
+
+float readFloat()
+public static String toString(File file, Charset charset) throws IOException
+
+float readFloat()
+public long size() throws IOException
+
+public BaseEncoding withSeparator(String separator, int afterEveryChars)
+public static String toString(File file, Charset charset) throws IOException
+
+public BaseEncoding withSeparator(String separator, int afterEveryChars)
+public long size() throws IOException
+
+public int available() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public int available() throws IOException
+public long size() throws IOException
+
+void write(int b)
+public static String toString(File file, Charset charset) throws IOException
+
+void write(int b)
+public long size() throws IOException
+
+public void write(@Nullable String str, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(@Nullable String str, int off, int len) throws IOException
+public long size() throws IOException
+
+public OutputStream encodingStream(final Writer out)
+public static String toString(File file, Charset charset) throws IOException
+
+public OutputStream encodingStream(final Writer out)
+public long size() throws IOException
+
+public Writer append(@Nullable CharSequence charSeq, int start, int end) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public Writer append(@Nullable CharSequence charSeq, int start, int end) throws IOException
+public long size() throws IOException
+
+public static List<String> readLines(File file, Charset charset) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static List<String> readLines(File file, Charset charset) throws IOException
+public long size() throws IOException
+
+public char readChar()
+public static String toString(File file, Charset charset) throws IOException
+
+public char readChar()
+public long size() throws IOException
+
+public static URL getResource(String resourceName)
+public static String toString(File file, Charset charset) throws IOException
+
+public static URL getResource(String resourceName)
+public long size() throws IOException
+
+public void write(int c) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(int c) throws IOException
+public long size() throws IOException
+
+public void writeChar(int v)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeChar(int v)
+public long size() throws IOException
+
+public long readLong()
+public static String toString(File file, Charset charset) throws IOException
+
+public long readLong()
+public long size() throws IOException
+
+int decodeTo(byte[] target, CharSequence chars) throws DecodingException
+public static String toString(File file, Charset charset) throws IOException
+
+int decodeTo(byte[] target, CharSequence chars) throws DecodingException
+public long size() throws IOException
+
+public static ByteArrayDataInput newDataInput(ByteArrayInputStream byteArrayInputStream)
+public static String toString(File file, Charset charset) throws IOException
+
+public static ByteArrayDataInput newDataInput(ByteArrayInputStream byteArrayInputStream)
+public long size() throws IOException
+
+public boolean readBoolean()
+public static String toString(File file, Charset charset) throws IOException
+
+public boolean readBoolean()
+public long size() throws IOException
+
+static byte[] readFile(InputStream in, long expectedSize) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+static byte[] readFile(InputStream in, long expectedSize) throws IOException
+public long size() throws IOException
+
+public int readInt()
+public static String toString(File file, Charset charset) throws IOException
+
+public int readInt()
+public long size() throws IOException
+
+public void writeDouble(double v)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeDouble(double v)
+public long size() throws IOException
+
+public static T readLines(URL url, Charset charset, LineProcessor<T> callback) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static T readLines(URL url, Charset charset, LineProcessor<T> callback) throws IOException
+public long size() throws IOException
+
+public void writeChars(String s) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeChars(String s) throws IOException
+public long size() throws IOException
+
+public String readFirstLine() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public String readFirstLine() throws IOException
+public long size() throws IOException
+
+public synchronized void write(byte[] b) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public synchronized void write(byte[] b) throws IOException
+public long size() throws IOException
+
+public void readFully(byte[] b)
+public static String toString(File file, Charset charset) throws IOException
+
+public void readFully(byte[] b)
+public long size() throws IOException
+
+public void writeFloat(float v) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeFloat(float v) throws IOException
+public long size() throws IOException
+
+public void writeDouble(double v) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeDouble(double v) throws IOException
+public long size() throws IOException
+
+public void writeUTF(String str) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeUTF(String str) throws IOException
+public long size() throws IOException
+
+public long skip(long n) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public long skip(long n) throws IOException
+public long size() throws IOException
+
+public int readUnsignedByte()
+public static String toString(File file, Charset charset) throws IOException
+
+public int readUnsignedByte()
+public long size() throws IOException
+
+public static void skipFully(InputStream in, long n) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void skipFully(InputStream in, long n) throws IOException
+public long size() throws IOException
+
+void writeBytes(String s)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeBytes(String s)
+public long size() throws IOException
+
+void writeBoolean(boolean v)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeBoolean(boolean v)
+public long size() throws IOException
+
+short readShort()
+public static String toString(File file, Charset charset) throws IOException
+
+short readShort()
+public long size() throws IOException
+
+public static BufferedWriter newWriter(File file, Charset charset) throws FileNotFoundException
+public static String toString(File file, Charset charset) throws IOException
+
+public static BufferedWriter newWriter(File file, Charset charset) throws FileNotFoundException
+public long size() throws IOException
+
+public static void copy(File from, File to) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void copy(File from, File to) throws IOException
+public long size() throws IOException
+
+public synchronized void close() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public synchronized void close() throws IOException
+public long size() throws IOException
+
+public RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X
+public static String toString(File file, Charset charset) throws IOException
+
+public RuntimeException rethrow(Throwable e, Class<X> declaredType) throws IOException, X
+public long size() throws IOException
+
+public void write(char[] cbuf, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(char[] cbuf, int off, int len) throws IOException
+public long size() throws IOException
+
+public String toString()
+public static String toString(File file, Charset charset) throws IOException
+
+public String toString()
+public long size() throws IOException
+
+public static String readFirstLine(File file, Charset charset) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static String readFirstLine(File file, Charset charset) throws IOException
+public long size() throws IOException
+
+public void writeUTF(String s)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeUTF(String s)
+public long size() throws IOException
+
+public static File createTempDir()
+public static String toString(File file, Charset charset) throws IOException
+
+public static File createTempDir()
+public long size() throws IOException
+
+int readUnsignedShort()
+public static String toString(File file, Charset charset) throws IOException
+
+int readUnsignedShort()
+public long size() throws IOException
+
+public void close()
+public static String toString(File file, Charset charset) throws IOException
+
+public void close()
+public long size() throws IOException
+
+public int read(byte[] b, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public int read(byte[] b, int off, int len) throws IOException
+public long size() throws IOException
+
+public static int read(InputStream in, byte[] b, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static int read(InputStream in, byte[] b, int off, int len) throws IOException
+public long size() throws IOException
+
+public static HashCode hash(File file, HashFunction hashFunction) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static HashCode hash(File file, HashFunction hashFunction) throws IOException
+public long size() throws IOException
+
+public void writeChars(String s)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeChars(String s)
+public long size() throws IOException
+
+boolean readBoolean()
+public static String toString(File file, Charset charset) throws IOException
+
+boolean readBoolean()
+public long size() throws IOException
+
+public static T readBytes(File file, ByteProcessor<T> processor) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static T readBytes(File file, ByteProcessor<T> processor) throws IOException
+public long size() throws IOException
+
+public static void readFully(InputStream in, byte[] b, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void readFully(InputStream in, byte[] b, int off, int len) throws IOException
+public long size() throws IOException
+
+public String readUTF()
+public static String toString(File file, Charset charset) throws IOException
+
+public String readUTF()
+public long size() throws IOException
+
+public double readDouble()
+public static String toString(File file, Charset charset) throws IOException
+
+public double readDouble()
+public long size() throws IOException
+
+char readChar()
+public static String toString(File file, Charset charset) throws IOException
+
+char readChar()
+public long size() throws IOException
+
+public boolean accept(@Nullable File dir, String fileName)
+public static String toString(File file, Charset charset) throws IOException
+
+public boolean accept(@Nullable File dir, String fileName)
+public long size() throws IOException
+
+public void writeInt(int v) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeInt(int v) throws IOException
+public long size() throws IOException
+
+public static void append(CharSequence from, File to, Charset charset) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void append(CharSequence from, File to, Charset charset) throws IOException
+public long size() throws IOException
+
+public void readFully(byte[] b, int off, int len)
+public static String toString(File file, Charset charset) throws IOException
+
+public void readFully(byte[] b, int off, int len)
+public long size() throws IOException
+
+int maxEncodedSize(int bytes)
+public static String toString(File file, Charset charset) throws IOException
+
+int maxEncodedSize(int bytes)
+public long size() throws IOException
+
+public void flush()
+public static String toString(File file, Charset charset) throws IOException
+
+public void flush()
+public long size() throws IOException
+
+public static void copy(File from, Charset charset, Appendable to) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void copy(File from, Charset charset, Appendable to) throws IOException
+public long size() throws IOException
+
+public void writeLong(long v)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeLong(long v)
+public long size() throws IOException
+
+public static BufferedReader newReader(File file, Charset charset) throws FileNotFoundException
+public static String toString(File file, Charset charset) throws IOException
+
+public static BufferedReader newReader(File file, Charset charset) throws FileNotFoundException
+public long size() throws IOException
+
+public Writer append(@Nullable CharSequence charSeq) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public Writer append(@Nullable CharSequence charSeq) throws IOException
+public long size() throws IOException
+
+public int skipBytes(int n)
+public static String toString(File file, Charset charset) throws IOException
+
+public int skipBytes(int n)
+public long size() throws IOException
+
+public static void close(@Nullable Closeable closeable, boolean swallowIOException) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void close(@Nullable Closeable closeable, boolean swallowIOException) throws IOException
+public long size() throws IOException
+
+public int read(@Nullable byte[] b, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public int read(@Nullable byte[] b, int off, int len) throws IOException
+public long size() throws IOException
+
+public static T readBytes(InputStream input, ByteProcessor<T> processor) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static T readBytes(InputStream input, ByteProcessor<T> processor) throws IOException
+public long size() throws IOException
+
+private static void write(CharSequence from, File to, Charset charset, boolean append) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+private static void write(CharSequence from, File to, Charset charset, boolean append) throws IOException
+public long size() throws IOException
+
+public Writer append(char c) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public Writer append(char c) throws IOException
+public long size() throws IOException
+
+public synchronized void mark(int readLimit)
+public static String toString(File file, Charset charset) throws IOException
+
+public synchronized void mark(int readLimit)
+public long size() throws IOException
+
+public static void write(CharSequence from, File to, Charset charset) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void write(CharSequence from, File to, Charset charset) throws IOException
+public long size() throws IOException
+
+public synchronized void write(byte[] b, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public synchronized void write(byte[] b, int off, int len) throws IOException
+public long size() throws IOException
+
+public synchronized void flush() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public synchronized void flush() throws IOException
+public long size() throws IOException
+
+int readUnsignedByte()
+public static String toString(File file, Charset charset) throws IOException
+
+int readUnsignedByte()
+public long size() throws IOException
+
+public synchronized void write(int b) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public synchronized void write(int b) throws IOException
+public long size() throws IOException
+
+public int readInt() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public int readInt() throws IOException
+public long size() throws IOException
+
+public void write(@Nullable String str) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(@Nullable String str) throws IOException
+public long size() throws IOException
+
+public static long copy(ReadableByteChannel from, WritableByteChannel to) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static long copy(ReadableByteChannel from, WritableByteChannel to) throws IOException
+public long size() throws IOException
+
+void encodeChunkTo(Appendable target, byte[] bytes, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+void encodeChunkTo(Appendable target, byte[] bytes, int off, int len) throws IOException
+public long size() throws IOException
+
+public void write(int c)
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(int c)
+public long size() throws IOException
+
+public static ByteArrayDataInput newDataInput(byte[] bytes, int start)
+public static String toString(File file, Charset charset) throws IOException
+
+public static ByteArrayDataInput newDataInput(byte[] bytes, int start)
+public long size() throws IOException
+
+public void writeInt(int v)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeInt(int v)
+public long size() throws IOException
+
+public void close() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void close() throws IOException
+public long size() throws IOException
+
+public void write(byte[] b, int off, int len)
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(byte[] b, int off, int len)
+public long size() throws IOException
+
+private synchronized InputStream openInputStream() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+private synchronized InputStream openInputStream() throws IOException
+public long size() throws IOException
+
+public void writeShort(int v)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeShort(int v)
+public long size() throws IOException
+
+public void writeBoolean(boolean v)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeBoolean(boolean v)
+public long size() throws IOException
+
+public short readShort()
+public static String toString(File file, Charset charset) throws IOException
+
+public short readShort()
+public long size() throws IOException
+
+public static MappedByteBuffer map(File file, MapMode mode, long size) throws FileNotFoundException, IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static MappedByteBuffer map(File file, MapMode mode, long size) throws FileNotFoundException, IOException
+public long size() throws IOException
+
+String readLine()
+public static String toString(File file, Charset charset) throws IOException
+
+String readLine()
+public long size() throws IOException
+
+public static MappedByteBuffer map(File file, MapMode mode) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static MappedByteBuffer map(File file, MapMode mode) throws IOException
+public long size() throws IOException
+
+double readDouble()
+public static String toString(File file, Charset charset) throws IOException
+
+double readDouble()
+public long size() throws IOException
+
+void writeByte(int v)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeByte(int v)
+public long size() throws IOException
+
+public void write(int b)
+public static String toString(File file, Charset charset) throws IOException
+
+public void write(int b)
+public long size() throws IOException
+
+void writeChars(String s)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeChars(String s)
+public long size() throws IOException
+
+void writeInt(int v)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeInt(int v)
+public long size() throws IOException
+
+void write(byte[] b, int off, int len)
+public static String toString(File file, Charset charset) throws IOException
+
+void write(byte[] b, int off, int len)
+public long size() throws IOException
+
+public int read() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public int read() throws IOException
+public long size() throws IOException
+
+public synchronized void mark(int readlimit)
+public static String toString(File file, Charset charset) throws IOException
+
+public synchronized void mark(int readlimit)
+public long size() throws IOException
+
+protected abstract void handleLine(String line, String end) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+protected abstract void handleLine(String line, String end) throws IOException
+public long size() throws IOException
+
+public void writeChar(int v) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeChar(int v) throws IOException
+public long size() throws IOException
+
+public void writeShort(int v) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeShort(int v) throws IOException
+public long size() throws IOException
+
+synchronized File getFile()
+public static String toString(File file, Charset charset) throws IOException
+
+synchronized File getFile()
+public long size() throws IOException
+
+public byte[] toByteArray()
+public static String toString(File file, Charset charset) throws IOException
+
+public byte[] toByteArray()
+public long size() throws IOException
+
+public BaseEncoding withPadChar(char padChar)
+public static String toString(File file, Charset charset) throws IOException
+
+public BaseEncoding withPadChar(char padChar)
+public long size() throws IOException
+
+public void writeFloat(float v)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeFloat(float v)
+public long size() throws IOException
+
+public int read(@Nullable char[] cbuf, int off, int len) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public int read(@Nullable char[] cbuf, int off, int len) throws IOException
+public long size() throws IOException
+
+public boolean markSupported()
+public static String toString(File file, Charset charset) throws IOException
+
+public boolean markSupported()
+public long size() throws IOException
+
+public void writeBoolean(boolean v) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeBoolean(boolean v) throws IOException
+public long size() throws IOException
+
+void writeUTF(String s)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeUTF(String s)
+public long size() throws IOException
+
+public static long copy(InputStream from, OutputStream to) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static long copy(InputStream from, OutputStream to) throws IOException
+public long size() throws IOException
+
+public static void touch(File file) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static void touch(File file) throws IOException
+public long size() throws IOException
+
+public int readUnsignedShort()
+public static String toString(File file, Charset charset) throws IOException
+
+public int readUnsignedShort()
+public long size() throws IOException
+
+public void writeByte(int v)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeByte(int v)
+public long size() throws IOException
+
+void writeFloat(float v)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeFloat(float v)
+public long size() throws IOException
+
+long readLong()
+public static String toString(File file, Charset charset) throws IOException
+
+long readLong()
+public long size() throws IOException
+
+public void flush() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void flush() throws IOException
+public long size() throws IOException
+
+public static CharSink asCharSink(File file, Charset charset, FileWriteMode... modes)
+public static String toString(File file, Charset charset) throws IOException
+
+public static CharSink asCharSink(File file, Charset charset, FileWriteMode... modes)
+public long size() throws IOException
+
+void writeShort(int v)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeShort(int v)
+public long size() throws IOException
+
+public float readFloat()
+public static String toString(File file, Charset charset) throws IOException
+
+public float readFloat()
+public long size() throws IOException
+
+public boolean ready() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public boolean ready() throws IOException
+public long size() throws IOException
+
+public static T readLines(Readable readable, LineProcessor<T> processor) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public static T readLines(Readable readable, LineProcessor<T> processor) throws IOException
+public long size() throws IOException
+
+private boolean finishLine(boolean sawNewline) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+private boolean finishLine(boolean sawNewline) throws IOException
+public long size() throws IOException
+
+public static ByteArrayDataOutput newDataOutput(ByteArrayOutputStream byteArrayOutputSteam)
+public static String toString(File file, Charset charset) throws IOException
+
+public static ByteArrayDataOutput newDataOutput(ByteArrayOutputStream byteArrayOutputSteam)
+public long size() throws IOException
+
+public void writeByte(int v) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeByte(int v) throws IOException
+public long size() throws IOException
+
+void readFully(byte[] b)
+public static String toString(File file, Charset charset) throws IOException
+
+void readFully(byte[] b)
+public long size() throws IOException
+
+int skipBytes(int n)
+public static String toString(File file, Charset charset) throws IOException
+
+int skipBytes(int n)
+public long size() throws IOException
+
+public String readLine()
+public static String toString(File file, Charset charset) throws IOException
+
+public String readLine()
+public long size() throws IOException
+
+public void suppress(Closeable closeable, Throwable thrown, Throwable suppressed)
+public static String toString(File file, Charset charset) throws IOException
+
+public void suppress(Closeable closeable, Throwable thrown, Throwable suppressed)
+public long size() throws IOException
+
+public void writeLong(long v) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeLong(long v) throws IOException
+public long size() throws IOException
+
+void writeLong(long v)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeLong(long v)
+public long size() throws IOException
+
+public byte readByte()
+public static String toString(File file, Charset charset) throws IOException
+
+public byte readByte()
+public long size() throws IOException
+
+private static MappedByteBuffer map(RandomAccessFile raf, MapMode mode, long size) throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+private static MappedByteBuffer map(RandomAccessFile raf, MapMode mode, long size) throws IOException
+public long size() throws IOException
+
+public synchronized void reset() throws IOException
+public static String toString(File file, Charset charset) throws IOException
+
+public synchronized void reset() throws IOException
+public long size() throws IOException
+
+void write(byte[] b)
+public static String toString(File file, Charset charset) throws IOException
+
+void write(byte[] b)
+public long size() throws IOException
+
+void writeDouble(double v)
+public static String toString(File file, Charset charset) throws IOException
+
+void writeDouble(double v)
+public long size() throws IOException
+
+int decode(char ch) throws DecodingException
+public static String toString(File file, Charset charset) throws IOException
+
+int decode(char ch) throws DecodingException
+public long size() throws IOException
+
+public void writeBytes(String s)
+public static String toString(File file, Charset charset) throws IOException
+
+public void writeBytes(String s)
+public long size() throws IOException
+

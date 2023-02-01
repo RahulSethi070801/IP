@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "25": " * Options for use with recursive delete methods ({@link MoreFiles#deleteRecursively} and {@link\n",
+        "26": " * MoreFiles#deleteDirectoryContents}).\n",
+        "41": "   * insecure recursive delete to delete files and directories that are <i>outside</i> the directory\n",
+        "42": "   * being deleted. This can happen if, after checking that a file is a directory (and not a\n",
+        "43": "   * symbolic link), that directory is deleted and replaced by a symbolic link to an outside\n"
+    },
+    "removed": {
+        "25": " * Options for use with recursive delete methods ({@link MoreFiles#deleteRecursively} and\n",
+        "26": " * {@link MoreFiles#deleteDirectoryContents}).\n",
+        "41": "   * insecure recursive delete to delete files and directories that are <i>outside</i> the\n",
+        "42": "   * directory being deleted. This can happen if, after checking that a file is a directory (and\n",
+        "43": "   * not a symbolic link), that directory is deleted and replaced by a symbolic link to an outside\n"
+    }
+}

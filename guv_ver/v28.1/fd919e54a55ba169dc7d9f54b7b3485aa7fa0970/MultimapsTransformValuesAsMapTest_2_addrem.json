@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "30": "public class MultimapsTransformValuesAsMapTest extends AbstractMultimapAsMapImplementsMapTest {\n",
+        "36": "  @Override\n",
+        "37": "  protected Map<String, Collection<Integer>> makeEmptyMap() {\n",
+        "39": "            ArrayListMultimap.<String, Integer>create(), Functions.<Integer>identity())\n",
+        "40": "        .asMap();\n",
+        "43": "  @Override\n",
+        "44": "  protected Map<String, Collection<Integer>> makePopulatedMap() {\n",
+        "47": "    return Multimaps.transformValues(delegate, Functions.<Integer>identity()).asMap();\n"
+    },
+    "removed": {
+        "30": "public class MultimapsTransformValuesAsMapTest\n",
+        "31": "    extends AbstractMultimapAsMapImplementsMapTest {\n",
+        "37": "  @Override protected Map<String, Collection<Integer>> makeEmptyMap() {\n",
+        "39": "        ArrayListMultimap.<String, Integer> create(),\n",
+        "40": "        Functions.<Integer> identity()).asMap();\n",
+        "43": "  @Override protected Map<String, Collection<Integer>> makePopulatedMap() {\n",
+        "46": "    return Multimaps\n",
+        "47": "        .transformValues(delegate, Functions.<Integer> identity()).asMap();\n"
+    }
+}

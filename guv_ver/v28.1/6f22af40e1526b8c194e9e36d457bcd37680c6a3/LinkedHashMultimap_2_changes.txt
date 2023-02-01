@@ -1,0 +1,4 @@
+LinkedHashMultimap_2
+Insertions: [45, 158, 167, 168, 170, 176, 268, 427, 440, 481]
+Deletions: [45, 158, 167, 168, 170, 176, 268, 427, 440, 481]
+guava/src/com/google/common/collect/LinkedHashMultimap.java

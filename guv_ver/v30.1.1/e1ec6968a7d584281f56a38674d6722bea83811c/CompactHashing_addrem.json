@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "101": "  /**\n",
+        "102": "   * Returns {@code table[index]}, where {@code table} is actually a {@code byte[]}, {@code\n",
+        "103": "   * short[]}, or {@code int[]}. When it is a {@code byte[]} or {@code short[]}, the returned value\n",
+        "104": "   * is unsigned, so the range of possible returned values is 0\u2013255 or 0\u201365535, respectively.\n",
+        "105": "   */\n",
+        "116": "  /**\n",
+        "117": "   * Sets {@code table[index]} to {@code entry}, where {@code table} is actually a {@code byte[]},\n",
+        "118": "   * {@code short[]}, or {@code int[]}. The value of {@code entry} should fit in the size of the\n",
+        "119": "   * assigned array element, when seen as an unsigned value. So if {@code table} is a {@code byte[]}\n",
+        "120": "   * then we should have {@code 0 \u2264 entry \u2264 255}, and if {@code table} is a {@code short[]} then we\n",
+        "121": "   * should have {@code 0 \u2264 entry \u2264 65535}. It is the caller's responsibility to ensure this.\n",
+        "122": "   */\n"
+    },
+    "removed": {}
+}

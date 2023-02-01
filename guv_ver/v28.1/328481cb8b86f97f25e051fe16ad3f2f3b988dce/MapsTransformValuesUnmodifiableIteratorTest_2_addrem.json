@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "26": "import java.util.Map.Entry;\n",
+        "277": "    Set<Entry<String, String>> entries = map.entrySet();\n",
+        "278": "    Entry<String, String> firstEntry = entries.iterator().next();\n",
+        "282": "    Iterator<Entry<String, String>> entryIterator = entries.iterator();\n",
+        "333": "    Set<Entry<String, Boolean>> entries = map.entrySet();\n"
+    },
+    "removed": {
+        "276": "    Set<Map.Entry<String, String>> entries = map.entrySet();\n",
+        "277": "    Map.Entry<String, String> firstEntry = entries.iterator().next();\n",
+        "281": "    Iterator<Map.Entry<String, String>> entryIterator = entries.iterator();\n",
+        "332": "    Set<Map.Entry<String, Boolean>> entries = map.entrySet();\n"
+    }
+}

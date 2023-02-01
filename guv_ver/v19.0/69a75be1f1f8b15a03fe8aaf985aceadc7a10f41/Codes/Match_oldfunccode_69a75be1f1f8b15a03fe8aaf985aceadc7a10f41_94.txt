@@ -1,0 +1,22 @@
+@Override
+public boolean cancel(boolean mayInterruptIfRunning) {
+    Object localValue = value;
+    if (localValue == null | localValue instanceof AbstractFuture.SetFuture) {
+        Throwable cause = GENERATE_CANCELLATION_CAUSES ? new CancellationException("Future.cancel() was called.") : null;
+        Object valueToSet = new Cancellation(mayInterruptIfRunning, cause);
+        do {
+            if (ATOMIC_HELPER.casValue(this, localValue, valueToSet)) {
+                if (mayInterruptIfRunning) {
+                    interruptTask();
+                }
+                complete();
+                if (localValue instanceof AbstractFuture.SetFuture) {
+                    ((AbstractFuture<?>.SetFuture) localValue).future.cancel(mayInterruptIfRunning);
+                }
+                return true;
+            }
+            localValue = value;
+        } while (localValue instanceof AbstractFuture.SetFuture);
+    }
+    return false;
+}

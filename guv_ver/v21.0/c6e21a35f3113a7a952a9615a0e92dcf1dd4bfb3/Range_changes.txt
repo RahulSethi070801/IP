@@ -1,0 +1,4 @@
+Range
+Insertions: [652]
+Deletions: [652]
+guava/src/com/google/common/collect/Range.java

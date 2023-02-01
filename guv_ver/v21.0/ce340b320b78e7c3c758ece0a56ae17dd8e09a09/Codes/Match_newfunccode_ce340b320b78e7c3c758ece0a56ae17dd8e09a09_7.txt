@@ -1,0 +1,3 @@
+public static final <S extends Comparable<S>> ElementOrder<S> natural() {
+    return new ElementOrder<S>(Type.SORTED, Ordering.<S>natural());
+}

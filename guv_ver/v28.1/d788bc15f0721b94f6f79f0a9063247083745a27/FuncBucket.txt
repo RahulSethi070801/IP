@@ -1,0 +1,60 @@
+com.google.common.graph.AbstractBaseGraph
+apply
+public EndpointPair<N> apply(N predecessor)
+N
+EndpointPair
+com.google.common.graph.AbstractBaseGraph$Undirected
+Undirected
+private Undirected(BaseGraph<N> graph, N node)
+BaseGraph,N
+constructor
+com.google.common.graph.AbstractBaseGraph$IncidentEdgeSet
+of
+public static IncidentEdgeSet<N> of(BaseGraph<N> graph, N node)
+BaseGraph,N
+IncidentEdgeSet
+com.google.common.graph.Graph
+incidentEdges
+Set<EndpointPair<N>> incidentEdges(N node)
+N
+Set
+com.google.common.graph.AbstractBaseGraph$IncidentEdgeSet
+IncidentEdgeSet
+private IncidentEdgeSet(BaseGraph<N> graph, N node)
+BaseGraph,N
+constructor
+com.google.common.graph.AbstractBaseGraph
+edges
+public Set<EndpointPair<N>> edges()
+empty
+Set
+com.google.common.graph.AbstractBaseGraph$Directed
+contains
+public boolean contains(@NullableDecl Object obj)
+Object
+boolean
+com.google.common.graph.AbstractBaseGraph
+remove
+public boolean remove(Object o)
+Object
+boolean
+com.google.common.graph.AbstractBaseGraph$Directed
+Directed
+private Directed(BaseGraph<N> graph, N node)
+BaseGraph,N
+constructor
+com.google.common.graph.AbstractBaseGraph$Directed
+iterator
+public UnmodifiableIterator<EndpointPair<N>> iterator()
+empty
+UnmodifiableIterator
+com.google.common.graph.AbstractBaseGraph$Directed
+size
+public int size()
+empty
+int
+com.google.common.graph.AbstractBaseGraph
+incidentEdges
+public Set<EndpointPair<N>> incidentEdges(N node)
+N
+Set

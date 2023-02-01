@@ -1,0 +1,6 @@
+
+   * Initiates service {@linkplain Service#stopAsync shutdown} if necessary on all the services
+   * being managed. 
+   *    
+   * @return this
+   

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "88": "    Map<String, Integer> map = ImmutableSortedMap.of(\"one\", 1, \"two\", 2, \"three\", 3);\n",
+        "91": "    assertEquals(\n",
+        "92": "        Lists.newArrayList(map.values()),\n"
+    },
+    "removed": {
+        "88": "    Map<String, Integer> map =\n",
+        "89": "        ImmutableSortedMap.of(\"one\", 1, \"two\", 2, \"three\", 3);\n",
+        "92": "    assertEquals(Lists.newArrayList(map.values()),\n"
+    }
+}

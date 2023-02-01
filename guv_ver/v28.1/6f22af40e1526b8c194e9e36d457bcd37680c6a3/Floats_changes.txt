@@ -1,0 +1,4 @@
+Floats
+Insertions: [36, 589, 652]
+Deletions: [36, 37, 590, 653, 654]
+android/guava/src/com/google/common/primitives/Floats.java

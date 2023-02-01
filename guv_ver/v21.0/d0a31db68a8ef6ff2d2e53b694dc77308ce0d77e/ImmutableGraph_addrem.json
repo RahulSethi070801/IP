@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "27": " * A {@link Graph} whose elements and structural relationships will never change. Instances of\n",
+        "28": " * this class may be obtained with {@link #copyOf(Graph)}.\n",
+        "38": "  /**\n",
+        "39": "   * To ensure the immutability contract is maintained, there must be no public constructors.\n",
+        "40": "   */\n"
+    },
+    "removed": {
+        "27": " * A {@link Graph} whose relationships and edge values are constant. Instances of this class may be\n",
+        "28": " * obtained with {@link #copyOf(Graph)}.\n",
+        "45": "  @SuppressWarnings(\"unchecked\")\n"
+    }
+}

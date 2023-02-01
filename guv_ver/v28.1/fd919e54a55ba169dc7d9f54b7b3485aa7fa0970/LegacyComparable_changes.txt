@@ -1,0 +1,4 @@
+LegacyComparable
+Insertions: [24, 25, 26, 36, 37, 52, 53, 61, 62]
+Deletions: [24, 25, 26, 27, 37, 38, 39, 40, 55, 63]
+android/guava-tests/test/com/google/common/collect/LegacyComparable.java

@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean addEdge(E edge, Iterable<N> nodes);

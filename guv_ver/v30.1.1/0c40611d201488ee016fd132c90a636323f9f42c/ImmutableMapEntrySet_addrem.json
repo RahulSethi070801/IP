@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "23": "import javax.annotation.CheckForNull;\n",
+        "24": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "33": "@ElementTypesAreNonnullByDefault\n",
+        "55": "    int copyIntoArray(@Nullable Object[] dst, int offset) {\n",
+        "80": "  public boolean contains(@CheckForNull Object object) {\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "53": "    int copyIntoArray(Object[] dst, int offset) {\n",
+        "78": "  public boolean contains(@NullableDecl Object object) {\n"
+    }
+}

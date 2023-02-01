@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "28": " *\n",
+        "30": " *   <li>size: The length of the byte array to hash.\n",
+        "31": " *   <li>hashFunctionEnum: The {@link HashFunction} to use for hashing.\n",
+        "48": "  @BeforeExperiment\n",
+        "49": "  void setUp() {\n",
+        "54": "  @Benchmark\n",
+        "55": "  int hasher(int reps) {\n",
+        "64": "  @Benchmark\n",
+        "65": "  int hashFunction(int reps) {\n",
+        "74": "  @Benchmark\n",
+        "75": "  int hashFunctionWithOffset(int reps) {\n"
+    },
+    "removed": {
+        "29": " * <li>size: The length of the byte array to hash.\n",
+        "30": " * <li>hashFunctionEnum: The {@link HashFunction} to use for hashing.\n",
+        "47": "  @BeforeExperiment void setUp() {\n",
+        "52": "  @Benchmark int hasher(int reps) {\n",
+        "61": "  @Benchmark int hashFunction(int reps) {\n",
+        "70": "  @Benchmark int hashFunctionWithOffset(int reps) {\n"
+    }
+}

@@ -1,0 +1,3 @@
+final boolean casBase(long cmp, long val) {
+    return UNSAFE.compareAndSwapLong(this, baseOffset, cmp, val);
+}

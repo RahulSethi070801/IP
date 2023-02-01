@@ -1,0 +1,4 @@
+ImmutableList_3
+Insertions: [22, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732]
+Deletions: [742]
+guava/src/com/google/common/collect/ImmutableList.java

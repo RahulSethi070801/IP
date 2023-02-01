@@ -1,0 +1,5 @@
+@Override
+public void writeShort(int v) throws IOException {
+    out.write(0xFF & v);
+    out.write(0xFF & (v >> 8));
+}

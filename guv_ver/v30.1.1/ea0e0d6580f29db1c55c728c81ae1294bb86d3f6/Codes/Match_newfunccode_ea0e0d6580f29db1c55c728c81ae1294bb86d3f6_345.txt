@@ -1,0 +1,4 @@
+@CheckForNull
+T getLowerEndpoint() {
+    return lowerEndpoint;
+}

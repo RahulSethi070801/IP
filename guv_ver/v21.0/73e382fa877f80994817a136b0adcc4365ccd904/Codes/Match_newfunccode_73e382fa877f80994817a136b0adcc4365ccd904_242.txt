@@ -1,0 +1,1 @@
+abstract Spliterator<Table.Cell<R, C, V>> cellSpliterator();

@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "37": "import java.util.function.BiFunction;\n",
+        "183": "  @Override\n",
+        "184": "  public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function) {\n",
+        "185": "    this.delegate.replaceAll(function);\n",
+        "186": "    inverse.delegate.clear();\n",
+        "187": "    Entry<K, V> broken = null;\n",
+        "188": "    Iterator<Entry<K, V>> itr = this.delegate.entrySet().iterator();\n",
+        "189": "    while (itr.hasNext()) {\n",
+        "190": "      Entry<K, V> entry = itr.next();\n",
+        "191": "      K k = entry.getKey();\n",
+        "192": "      V v = entry.getValue();\n",
+        "193": "      K conflict = inverse.delegate.putIfAbsent(v, k);\n",
+        "194": "      if (conflict != null) {\n",
+        "195": "        broken = entry;\n",
+        "196": "        // We're definitely going to throw, but we'll try to keep the BiMap in an internally\n",
+        "197": "        // consistent state by removing the bad entry.\n",
+        "198": "        itr.remove();\n",
+        "199": "      }\n",
+        "200": "    }\n",
+        "201": "    if (broken != null) {\n",
+        "202": "      throw new IllegalArgumentException(\"value already present: \" + broken.getValue());\n",
+        "203": "    }\n",
+        "204": "  }\n",
+        "205": "\n"
+    },
+    "removed": {}
+}

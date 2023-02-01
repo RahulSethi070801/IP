@@ -1,0 +1,5 @@
+private static void checkAllowsInsecure(Path path, RecursiveDeleteOption[] options) throws InsecureRecursiveDeleteException {
+    if (!Arrays.asList(options).contains(RecursiveDeleteOption.ALLOW_INSECURE)) {
+        throw new InsecureRecursiveDeleteException(path.toString());
+    }
+}

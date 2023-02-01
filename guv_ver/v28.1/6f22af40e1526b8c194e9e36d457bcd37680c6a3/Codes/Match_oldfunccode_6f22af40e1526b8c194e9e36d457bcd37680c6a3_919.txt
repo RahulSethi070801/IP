@@ -1,0 +1,1 @@
+V2 transformEntry(@Nullable K key, @Nullable V1 value);

@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "22": "import com.google.common.annotations.Beta;\n",
+        "32": "import java.util.stream.Collector;\n",
+        "48": "  @Beta\n",
+        "49": "  public static <E> Collector<E, ?, ImmutableList<E>> toImmutableList() {\n",
+        "50": "    return CollectCollectors.toImmutableList();\n",
+        "51": "  }\n",
+        "52": "\n",
+        "337": "    @CanIgnoreReturnValue\n",
+        "338": "    Builder<E> combine(Builder<E> builder) {\n",
+        "339": "      checkNotNull(builder);\n",
+        "340": "      contents.addAll(builder.contents);\n",
+        "341": "      return this;\n",
+        "342": "    }\n",
+        "343": "\n"
+    },
+    "removed": {
+        "22": "import com.google.common.collect.Lists;\n"
+    }
+}

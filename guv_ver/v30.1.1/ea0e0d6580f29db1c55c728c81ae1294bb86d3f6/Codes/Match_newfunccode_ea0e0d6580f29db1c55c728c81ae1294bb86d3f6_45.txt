@@ -1,0 +1,5 @@
+@Override
+@SuppressWarnings("nullness")
+public <T extends @Nullable Object> T[] toArray(T[] array) {
+    return standardToArray(array);
+}

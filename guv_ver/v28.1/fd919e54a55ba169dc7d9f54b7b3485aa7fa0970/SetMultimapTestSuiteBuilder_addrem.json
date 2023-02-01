@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "37": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests a {@code SetMultimap}\n",
+        "38": " * implementation.\n"
+    },
+    "removed": {
+        "37": " * Creates, based on your criteria, a JUnit test suite that exhaustively tests\n",
+        "38": " * a {@code SetMultimap} implementation.\n"
+    }
+}

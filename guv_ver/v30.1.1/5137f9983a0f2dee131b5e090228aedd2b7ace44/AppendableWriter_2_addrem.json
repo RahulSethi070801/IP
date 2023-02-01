@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "24": "import javax.annotation.CheckForNull;\n",
+        "35": "@ElementTypesAreNonnullByDefault\n",
+        "110": "  public Writer append(@CheckForNull CharSequence charSeq) throws IOException {\n",
+        "117": "  public Writer append(@CheckForNull CharSequence charSeq, int start, int end) throws IOException {\n"
+    },
+    "removed": {
+        "24": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "109": "  public Writer append(@Nullable CharSequence charSeq) throws IOException {\n",
+        "116": "  public Writer append(@Nullable CharSequence charSeq, int start, int end) throws IOException {\n"
+    }
+}

@@ -1,0 +1,6 @@
+public static <T> Iterator<T> concat(Iterator<? extends T>... inputs) {
+    for (Iterator<? extends T> input : checkNotNull(inputs)) {
+        checkNotNull(input);
+    }
+    return concat(new ConsumingQueueIterator<Iterator<? extends T>>(inputs));
+}

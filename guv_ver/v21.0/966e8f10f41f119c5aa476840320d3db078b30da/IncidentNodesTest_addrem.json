@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "30": " *\n",
+        "31": " * TODO(b/24415223): Consider SetTestSuiteBuilder once this supports > 2 nodes (i.e. hypergraphs).\n",
+        "71": "\n",
+        "72": "  @Test\n",
+        "73": "  public void testSet_basic() {\n",
+        "74": "    IncidentNodes<String> incidentNodes = IncidentNodes.of(\"source\", \"target\");\n",
+        "75": "    assertThat(incidentNodes).containsExactly(\"source\", \"target\").inOrder();\n",
+        "76": "    new EqualsTester().addEqualityGroup(incidentNodes, ImmutableSet.of(\"source\", \"target\"))\n",
+        "77": "        .testEquals();\n",
+        "78": "  }\n",
+        "79": "\n",
+        "80": "  @Test\n",
+        "81": "  public void testSet_selfLoop() {\n",
+        "82": "    // Allocate new strings to ensure that equals() equality is used instead of reference equality.\n",
+        "83": "    IncidentNodes<String> incidentNodes = IncidentNodes.of(new String(\"node\"), new String(\"node\"));\n",
+        "84": "    assertThat(incidentNodes).containsExactly(\"node\").inOrder();\n",
+        "85": "    new EqualsTester().addEqualityGroup(incidentNodes, ImmutableSet.of(\"node\")).testEquals();\n",
+        "86": "  }\n"
+    },
+    "removed": {}
+}

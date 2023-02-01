@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "48": "  /** Creates an empty {@code TreeRangeSet} instance. */\n",
+        "53": "  /** Returns a {@code TreeRangeSet} initialized with the ranges in the specified range set. */\n"
+    },
+    "removed": {
+        "48": "  /**\n",
+        "49": "   * Creates an empty {@code TreeRangeSet} instance.\n",
+        "50": "   */\n",
+        "55": "  /**\n",
+        "56": "   * Returns a {@code TreeRangeSet} initialized with the ranges in the specified range set.\n",
+        "57": "   */\n"
+    }
+}

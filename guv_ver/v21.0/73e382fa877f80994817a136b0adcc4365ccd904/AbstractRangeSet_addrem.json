@@ -1,0 +1,29 @@
+{
+    "addition": {},
+    "removed": {
+        "62": "  @Override\n",
+        "63": "  public boolean enclosesAll(Iterable<Range<C>> ranges) {\n",
+        "64": "    for (Range<C> range : ranges) {\n",
+        "65": "      if (!encloses(range)) {\n",
+        "66": "        return false;\n",
+        "67": "      }\n",
+        "68": "    }\n",
+        "69": "    return true;\n",
+        "70": "  }\n",
+        "71": "\n",
+        "77": "  @Override\n",
+        "78": "  public void addAll(Iterable<Range<C>> ranges) {\n",
+        "79": "    for (Range<C> range : ranges) {\n",
+        "80": "      add(range);\n",
+        "81": "    }\n",
+        "82": "  }\n",
+        "83": "\n",
+        "89": "  @Override\n",
+        "90": "  public void removeAll(Iterable<Range<C>> ranges) {\n",
+        "91": "    for (Range<C> range : ranges) {\n",
+        "92": "      remove(range);\n",
+        "93": "    }\n",
+        "94": "  }\n",
+        "95": "\n"
+    }
+}

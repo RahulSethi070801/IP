@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "39": " * Basic implementation of {@code Multiset<E>} backed by an instance of {@code Map<E, Count>}.\n",
+        "41": " * <p>For serialization to work, the subclass must specify explicit {@code readObject} and {@code\n",
+        "42": " * writeObject} methods.\n",
+        "74": "   * <p>Invoking {@link Multiset.Entry#getCount} on an entry in the returned set always returns the\n",
+        "75": "   * current count of that element in the multiset, as opposed to the count at the time the entry\n",
+        "76": "   * was retrieved.\n",
+        "128": "  @Override\n",
+        "129": "  public void forEachEntry(ObjIntConsumer<? super E> action) {\n",
+        "217": "   * @throws IllegalArgumentException if the call would result in more than {@link\n",
+        "218": "   *     Integer#MAX_VALUE} occurrences of {@code element} in this multiset.\n"
+    },
+    "removed": {
+        "39": " * Basic implementation of {@code Multiset<E>} backed by an instance of {@code\n",
+        "40": " * Map<E, Count>}.\n",
+        "42": " * <p>For serialization to work, the subclass must specify explicit {@code\n",
+        "43": " * readObject} and {@code writeObject} methods.\n",
+        "75": "   * <p>Invoking {@link Multiset.Entry#getCount} on an entry in the returned\n",
+        "76": "   * set always returns the current count of that element in the multiset, as\n",
+        "77": "   * opposed to the count at the time the entry was retrieved.\n",
+        "129": "  @Override public void forEachEntry(ObjIntConsumer<? super E> action) {\n",
+        "217": "   * @throws IllegalArgumentException if the call would result in more than\n",
+        "218": "   *     {@link Integer#MAX_VALUE} occurrences of {@code element} in this\n",
+        "219": "   *     multiset.\n"
+    }
+}

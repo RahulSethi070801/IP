@@ -1,0 +1,4 @@
+@Override
+public BaseEncoding withPadChar(char padChar) {
+    return delegate.withPadChar(padChar).withSeparator(separator, afterEveryChars);
+}

@@ -1,0 +1,20 @@
+ToOptionalState combine(ToOptionalState other) {
+    if (element == null) {
+        return other;
+    } else if (other.element == null) {
+        return this;
+    } else {
+        if (extras == null) {
+            extras = new ArrayList<>();
+        }
+        extras.add(other.element);
+        if (other.extras != null) {
+            this.extras.addAll(other.extras);
+        }
+        if (extras.size() > MAX_EXTRAS) {
+            extras.subList(MAX_EXTRAS, extras.size()).clear();
+            throw multiples(true);
+        }
+        return this;
+    }
+}

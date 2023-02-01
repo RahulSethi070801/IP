@@ -1,0 +1,18 @@
+{
+    "addition": {},
+    "removed": {
+        "19": "import static com.google.common.truth.Truth.assertThat;\n",
+        "20": "\n",
+        "23": "import junit.framework.AssertionFailedError;\n",
+        "24": "\n",
+        "60": "\n",
+        "61": "  @Override\n",
+        "62": "  public void testNulls() throws Exception {\n",
+        "63": "    try {\n",
+        "64": "      super.testNulls();\n",
+        "65": "    } catch (AssertionFailedError e) {\n",
+        "66": "      assertThat(e.getCause().getMessage()).contains(AbstractGraphTest.ERROR_ELEMENT_NOT_IN_GRAPH);\n",
+        "67": "    }\n",
+        "68": "  }\n"
+    }
+}

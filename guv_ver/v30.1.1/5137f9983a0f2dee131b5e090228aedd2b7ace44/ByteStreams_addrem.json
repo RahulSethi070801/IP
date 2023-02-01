@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "44": "import javax.annotation.CheckForNull;\n",
+        "45": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "55": "@ElementTypesAreNonnullByDefault\n",
+        "444": "    @CheckForNull\n",
+        "876": "  @ParametricNullness\n",
+        "877": "  public static <T extends @Nullable Object> T readBytes(\n",
+        "878": "      InputStream input, ByteProcessor<T> processor) throws IOException {\n"
+    },
+    "removed": {
+        "872": "  public static <T> T readBytes(InputStream input, ByteProcessor<T> processor) throws IOException {\n"
+    }
+}

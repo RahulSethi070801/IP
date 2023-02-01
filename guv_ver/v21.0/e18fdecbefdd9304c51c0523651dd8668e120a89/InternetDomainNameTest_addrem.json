@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "70": "      \"foo-.com\",\n",
+        "84": "      \"foo_.com\",\n"
+    },
+    "removed": {
+        "83": "      \"foo-.com\",\n"
+    }
+}

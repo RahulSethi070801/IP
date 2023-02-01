@@ -1,0 +1,5 @@
+com.google.common.math.Quantiles$ScaleAndIndexes
+ScaleAndIndexes
+private ScaleAndIndexes(int scale, int[] indexes)
+int,int[]
+constructor

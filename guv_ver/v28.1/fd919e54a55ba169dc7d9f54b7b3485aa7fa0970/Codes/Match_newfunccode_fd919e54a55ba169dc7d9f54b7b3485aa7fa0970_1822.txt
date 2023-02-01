@@ -1,0 +1,14 @@
+private WildcardCapturer forTypeVariable(final TypeVariable<?> typeParam) {
+    return new WildcardCapturer(id) {
+
+        @Override
+        TypeVariable<?> captureAsTypeVariable(Type[] upperBounds) {
+            Set<Type> combined = new LinkedHashSet<>(asList(upperBounds));
+            combined.addAll(asList(typeParam.getBounds()));
+            if (combined.size() > 1) {
+                combined.remove(Object.class);
+            }
+            return super.captureAsTypeVariable(combined.toArray(new Type[0]));
+        }
+    };
+}

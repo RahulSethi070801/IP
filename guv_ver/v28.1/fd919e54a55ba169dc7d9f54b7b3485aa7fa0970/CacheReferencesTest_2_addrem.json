@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "37": "  private static final CacheLoader<Key, String> KEY_TO_STRING_LOADER =\n",
+        "39": "        @Override\n",
+        "40": "        public String load(Key key) {\n",
+        "53": "    return Iterables.transform(\n",
+        "54": "        factory.buildAllPermutations(),\n",
+        "56": "          @Override\n",
+        "57": "          public LoadingCache<Key, String> apply(CacheBuilder<Object, Object> builder) {\n",
+        "99": "      assertEquals(\n",
+        "100": "          ImmutableSet.of(immutableEntry(key1, value1), immutableEntry(key2, value2)),\n",
+        "125": "  private void assertCleanup(\n",
+        "126": "      LoadingCache<Integer, String> cache,\n",
+        "145": "      } catch (InterruptedException e) {\n",
+        "146": "        /* ignore */\n",
+        "147": "      }\n",
+        "151": "      } catch (OutOfMemoryError e) {\n",
+        "152": "      }\n",
+        "170": "    @Override\n",
+        "171": "    public synchronized String toString() {\n"
+    },
+    "removed": {
+        "37": "  private static final CacheLoader<Key,String> KEY_TO_STRING_LOADER =\n",
+        "39": "        @Override public String load(Key key) {\n",
+        "52": "    return Iterables.transform(factory.buildAllPermutations(),\n",
+        "54": "          @Override public LoadingCache<Key, String> apply(CacheBuilder<Object, Object> builder) {\n",
+        "96": "      assertEquals(ImmutableSet.of(immutableEntry(key1, value1), immutableEntry(key2, value2)),\n",
+        "121": "  private void assertCleanup(LoadingCache<Integer, String> cache,\n",
+        "140": "      } catch (InterruptedException e) { /* ignore */}\n",
+        "144": "      } catch (OutOfMemoryError e) {}\n",
+        "162": "    @Override public synchronized String toString() {\n"
+    }
+}

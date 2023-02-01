@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "25": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "49": "  @CanIgnoreReturnValue\n",
+        "57": "  @CanIgnoreReturnValue\n",
+        "76": "  @CanIgnoreReturnValue\n",
+        "226": "      Exception unused = newWithCause(exceptionClass, new Exception());\n"
+    },
+    "removed": {
+        "222": "      newWithCause(exceptionClass, new Exception());\n"
+    }
+}

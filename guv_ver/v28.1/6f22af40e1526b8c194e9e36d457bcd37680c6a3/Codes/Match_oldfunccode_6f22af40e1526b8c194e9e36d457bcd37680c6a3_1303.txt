@@ -1,0 +1,3 @@
+private static boolean isSuccessor(@Nullable Object value) {
+    return (value != PRED) && (value != null);
+}

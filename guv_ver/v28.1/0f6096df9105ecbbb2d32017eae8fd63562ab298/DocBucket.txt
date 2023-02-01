@@ -1,0 +1,5 @@
+com.google.common.graph.Network
+edgeConnecting
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+N,N
+Optional

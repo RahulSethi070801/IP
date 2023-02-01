@@ -1,0 +1,10 @@
+
+   * Returns a fluent iterable containing {@code elements} in the specified order.
+   *
+   * <p>The returned iterable is an unmodifiable view of the input array.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@link java.util.stream.Stream#of(Object[])
+   * Stream.of(T...)}.
+   *
+   * @since 20.0 (since 18.0 as an overload of {@code of})
+   

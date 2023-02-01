@@ -1,0 +1,3 @@
+@Override
+void collectOneValue(boolean allMustSucceed, int index, @NullableDecl Object returnValue) {
+}

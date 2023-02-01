@@ -1,0 +1,7 @@
+
+   * A sensible default implementation of {@link #indexOf}, in terms of {@link #listIterator()}. If
+   * you override {@link #listIterator()}, you may wish to override {@link #indexOf} to forward to
+   * this implementation.
+   *
+   * @since 7.0
+   

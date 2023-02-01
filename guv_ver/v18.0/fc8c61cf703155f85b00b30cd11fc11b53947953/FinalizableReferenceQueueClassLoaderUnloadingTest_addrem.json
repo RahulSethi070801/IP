@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "110": "    Class<?> sepFwrC = sepLoader.loadClass(MyFinalizableWeakReference.class.getName());\n",
+        "111": "    Constructor<?> sepFwrCons = sepFwrC.getConstructor(Object.class, sepFrqC);\n",
+        "117": "    AtomicReference<WeakReference<?>> sepStopwatchRef = new AtomicReference<WeakReference<?>>(\n",
+        "118": "        (WeakReference<?>) sepFwrCons.newInstance(sepStopwatchA.get(), sepFrqA.get()));\n",
+        "224": "    Callable<?> sepFrqUser = (Callable<?>) sepFrqUserC.newInstance();\n",
+        "225": "    WeakReference<?> finalizableWeakReference = (WeakReference<?>) sepFrqUser.call();\n"
+    },
+    "removed": {
+        "110": "    @SuppressWarnings(\"unchecked\")\n",
+        "111": "    Class<? extends WeakReference<?>> sepFwrC = (Class<? extends WeakReference<?>>)\n",
+        "112": "        sepLoader.loadClass(MyFinalizableWeakReference.class.getName());\n",
+        "113": "    Constructor<? extends WeakReference<?>> sepFwrCons =\n",
+        "114": "        sepFwrC.getConstructor(Object.class, sepFrqC);\n",
+        "120": "    AtomicReference<WeakReference<?>> sepStopwatchRef =\n",
+        "121": "        new AtomicReference<WeakReference<?>>(\n",
+        "122": "            sepFwrCons.newInstance(sepStopwatchA.get(), sepFrqA.get()));\n",
+        "228": "    @SuppressWarnings(\"unchecked\")\n",
+        "229": "    Callable<WeakReference<Object>> sepFrqUser =\n",
+        "230": "        (Callable<WeakReference<Object>>) sepFrqUserC.newInstance();\n",
+        "231": "    WeakReference<Object> finalizableWeakReference = sepFrqUser.call();\n"
+    }
+}

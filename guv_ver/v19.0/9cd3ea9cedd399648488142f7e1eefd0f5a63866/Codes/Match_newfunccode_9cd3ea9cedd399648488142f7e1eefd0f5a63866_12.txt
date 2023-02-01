@@ -1,0 +1,4 @@
+@CheckReturnValue
+public static Joiner on(char separator) {
+    return new Joiner(String.valueOf(separator));
+}

@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public static <T> T readLines(URL url, Charset charset, LineProcessor<T> callback) throws IOException {
+    return asCharSource(url, charset).readLines(callback);
+}

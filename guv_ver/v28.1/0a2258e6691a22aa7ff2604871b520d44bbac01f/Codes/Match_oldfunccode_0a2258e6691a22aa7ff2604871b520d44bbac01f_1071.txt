@@ -1,0 +1,3 @@
+boolean matchesValue(@NullableDecl Object v, int smearedVHash) {
+    return smearedValueHash == smearedVHash && Objects.equal(getValue(), v);
+}

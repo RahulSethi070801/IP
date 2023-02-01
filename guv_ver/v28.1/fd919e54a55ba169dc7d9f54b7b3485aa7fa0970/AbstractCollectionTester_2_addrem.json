@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "52": "  /** @return an array of the proper size with {@code null} inserted into the middle element. */\n",
+        "65": "   * Equivalent to {@link #expectMissing(Object[]) expectMissing}{@code (null)} except that the call\n",
+        "66": "   * to {@code contains(null)} is permitted to throw a {@code NullPointerException}.\n"
+    },
+    "removed": {
+        "26": " *\n",
+        "53": "  /**\n",
+        "54": "   * @return an array of the proper size with {@code null} inserted into the\n",
+        "55": "   * middle element.\n",
+        "56": "   */\n",
+        "69": "   * Equivalent to {@link #expectMissing(Object[]) expectMissing}{@code (null)}\n",
+        "70": "   * except that the call to {@code contains(null)} is permitted to throw a\n",
+        "71": "   * {@code NullPointerException}.\n"
+    }
+}

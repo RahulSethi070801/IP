@@ -1,0 +1,6 @@
+@CanIgnoreReturnValue
+@GwtIncompatible
+@Override
+public MapMaker weakValues() {
+    return setValueStrength(Strength.WEAK);
+}

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "4264": "    for (Entry<K, V> entry : result.entrySet()) {\n"
+    },
+    "removed": {
+        "4264": "    for (Map.Entry<K, V> entry : result.entrySet()) {\n"
+    }
+}

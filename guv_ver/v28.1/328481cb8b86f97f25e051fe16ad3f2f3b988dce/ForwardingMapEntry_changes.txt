@@ -1,0 +1,4 @@
+ForwardingMapEntry
+Insertions: [60]
+Deletions: [60]
+android/guava/src/com/google/common/collect/ForwardingMapEntry.java

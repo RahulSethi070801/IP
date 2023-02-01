@@ -1,0 +1,6 @@
+public static LinkedHashMap<K, V> newLinkedHashMapWithExpectedSize(int expectedSize)
+public static HashMap<K, V> newHashMapWithExpectedSize(int expectedSize)
+
+public static LinkedHashMap<K, V> newLinkedHashMapWithExpectedSize(int expectedSize)
+public static HashMap<K, V> newHashMapWithExpectedSize(int expectedSize)
+

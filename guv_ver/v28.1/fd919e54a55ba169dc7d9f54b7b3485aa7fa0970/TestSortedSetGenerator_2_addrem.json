@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "33": "   * Returns an element less than the {@link #samples()} and less than {@link\n",
+        "34": "   * #belowSamplesGreater()}.\n",
+        "39": "   * Returns an element less than the {@link #samples()} but greater than {@link\n",
+        "40": "   * #belowSamplesLesser()}.\n",
+        "45": "   * Returns an element greater than the {@link #samples()} but less than {@link\n",
+        "46": "   * #aboveSamplesGreater()}.\n",
+        "51": "   * Returns an element greater than the {@link #samples()} and greater than {@link\n",
+        "52": "   * #aboveSamplesLesser()}.\n"
+    },
+    "removed": {
+        "32": "   * Returns an element less than the {@link #samples()} and less than\n",
+        "33": "   * {@link #belowSamplesGreater()}.\n",
+        "38": "   * Returns an element less than the {@link #samples()} but greater than\n",
+        "39": "   * {@link #belowSamplesLesser()}.\n",
+        "44": "   * Returns an element greater than the {@link #samples()} but less than\n",
+        "45": "   * {@link #aboveSamplesGreater()}.\n",
+        "50": "   * Returns an element greater than the {@link #samples()} and greater than\n",
+        "51": "   * {@link #aboveSamplesLesser()}.\n"
+    }
+}

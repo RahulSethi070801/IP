@@ -1,0 +1,7 @@
+public static ImmutableList<Path> listFiles(Path dir) throws IOException {
+    try (DirectoryStream<Path> stream = Files.newDirectoryStream(dir)) {
+        return ImmutableList.copyOf(stream);
+    } catch (DirectoryIteratorException e) {
+        throw e.getCause();
+    }
+}

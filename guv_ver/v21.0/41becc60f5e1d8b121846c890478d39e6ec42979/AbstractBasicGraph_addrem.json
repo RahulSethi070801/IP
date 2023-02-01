@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "35": "    extends AbstractGraph<N, Presence> implements BasicGraph<N> {\n"
+    },
+    "removed": {
+        "35": "    extends AbstractValueGraph<N, Presence> implements BasicGraph<N> {\n"
+    }
+}

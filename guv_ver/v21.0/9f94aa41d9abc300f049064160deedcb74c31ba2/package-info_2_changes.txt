@@ -1,0 +1,4 @@
+package-info_2
+Insertions: [4, 5, 9, 10, 11, 12, 18, 19, 38, 39, 42]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 20, 21, 40, 41, 42, 43, 46, 47]
+guava/src/com/google/common/base/package-info.java

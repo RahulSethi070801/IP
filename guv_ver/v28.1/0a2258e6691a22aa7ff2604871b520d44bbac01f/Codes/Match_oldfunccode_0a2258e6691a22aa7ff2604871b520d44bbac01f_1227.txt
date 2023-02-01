@@ -1,0 +1,3 @@
+private static <V> ImmutableSet<V> emptySet(@NullableDecl Comparator<? super V> valueComparator) {
+    return (valueComparator == null) ? ImmutableSet.<V>of() : ImmutableSortedSet.<V>emptySet(valueComparator);
+}

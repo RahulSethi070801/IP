@@ -1,0 +1,8 @@
+public void waitFor(Guard guard) throws InterruptedException {
+    if (!((guard.monitor == this) & lock.isHeldByCurrentThread())) {
+        throw new IllegalMonitorStateException();
+    }
+    if (!guard.isSatisfied()) {
+        await(guard, true);
+    }
+}

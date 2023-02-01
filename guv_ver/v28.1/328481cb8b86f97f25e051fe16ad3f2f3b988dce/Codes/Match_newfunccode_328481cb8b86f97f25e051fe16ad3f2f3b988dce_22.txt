@@ -1,0 +1,7 @@
+public char[][] toArray() {
+    char[][] result = new char[max + 1][];
+    for (Entry<Character, String> entry : map.entrySet()) {
+        result[entry.getKey()] = entry.getValue().toCharArray();
+    }
+    return result;
+}

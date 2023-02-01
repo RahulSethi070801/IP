@@ -1,0 +1,6 @@
+public boolean isRegistrySuffix()
+public boolean isPublicSuffix()
+
+public boolean hasPublicSuffix()
+public boolean isUnderPublicSuffix()
+

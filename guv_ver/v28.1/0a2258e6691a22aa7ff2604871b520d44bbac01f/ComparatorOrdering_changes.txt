@@ -1,0 +1,4 @@
+ComparatorOrdering
+Insertions: [24, 41]
+Deletions: [24, 41]
+guava/src/com/google/common/collect/ComparatorOrdering.java

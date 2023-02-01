@@ -1,0 +1,6 @@
+abstract boolean isDirected()
+public abstract int hashCode()
+
+public boolean equals(Object obj)
+final N nodeB()
+

@@ -1,0 +1,10 @@
+
+   * Overwrites a file with the contents of a byte array.
+   *
+   * <p><b>{@link java.nio.file.Path} equivalent:</b> {@link
+   * java.nio.file.Files#write(java.nio.file.Path, byte[], java.nio.file.OpenOption...)}.
+   *
+   * @param from the bytes to write
+   * @param to the destination file
+   * @throws IOException if an I/O error occurs
+   

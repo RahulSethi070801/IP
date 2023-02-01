@@ -1,0 +1,1 @@
+E copy(S segment, E entry, @NullableDecl E newNext);

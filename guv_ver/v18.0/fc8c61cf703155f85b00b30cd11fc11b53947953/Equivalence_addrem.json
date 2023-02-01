@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "195": "      if (obj instanceof Wrapper) {\n",
+        "196": "        Wrapper<?> that = (Wrapper<?>) obj; // note: not necessarily a Wrapper<T>\n",
+        "197": "\n",
+        "198": "        if (this.equivalence.equals(that.equivalence)) {\n",
+        "199": "          /*\n",
+        "200": "           * We'll accept that as sufficient \"proof\" that either equivalence should be able to\n",
+        "201": "           * handle either reference, so it's safe to circumvent compile-time type checking.\n",
+        "202": "           */\n",
+        "203": "          @SuppressWarnings(\"unchecked\")\n",
+        "204": "          Equivalence<Object> equivalence = (Equivalence<Object>) this.equivalence;\n",
+        "205": "          return equivalence.equivalent(this.reference, that.reference);\n",
+        "206": "        }\n",
+        "207": "      }\n",
+        "208": "      return false;\n"
+    },
+    "removed": {
+        "194": "      } else if (obj instanceof Wrapper) {\n",
+        "195": "        Wrapper<?> that = (Wrapper<?>) obj;\n",
+        "196": "        /*\n",
+        "197": "         * We cast to Equivalence<Object> here because we can't check the type of the reference held\n",
+        "198": "         * by the other wrapper.  But, by checking that the Equivalences are equal, we know that\n",
+        "199": "         * whatever type it is, it is assignable to the type handled by this wrapper's equivalence.\n",
+        "200": "         */\n",
+        "201": "        @SuppressWarnings(\"unchecked\")\n",
+        "202": "        Equivalence<Object> equivalence = (Equivalence<Object>) this.equivalence;\n",
+        "203": "        return equivalence.equals(that.equivalence)\n",
+        "204": "            && equivalence.equivalent(this.reference, that.reference);\n",
+        "205": "      } else {\n",
+        "206": "        return false;\n"
+    }
+}

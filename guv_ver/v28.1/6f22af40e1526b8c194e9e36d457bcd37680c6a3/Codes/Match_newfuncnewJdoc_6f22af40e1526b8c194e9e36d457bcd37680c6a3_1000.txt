@@ -1,0 +1,6 @@
+
+   * Returns the number of elements in the specified iterator that equal the specified object. The
+   * iterator will be left exhausted: its {@code hasNext()} method will return {@code false}.
+   *
+   * @see Collections#frequency
+   

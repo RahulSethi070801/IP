@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public final <A extends Appendable> A appendTo(A appendable, @NullableDecl Object first, @NullableDecl Object second, Object... rest) throws IOException {
+    return appendTo(appendable, iterable(first, second, rest));
+}

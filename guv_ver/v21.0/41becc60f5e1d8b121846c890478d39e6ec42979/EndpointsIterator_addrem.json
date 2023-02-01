@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "28": " * A class to facilitate the set returned by {@link Graph#edges()}.\n",
+        "34": "  private final Graph<N, ?> graph;\n",
+        "40": "  static <N> EndpointsIterator<N> of(Graph<N, ?> graph) {\n",
+        "44": "  EndpointsIterator(Graph<N, ?> graph) {\n",
+        "68": "    Directed(Graph<N, ?> graph){\n",
+        "112": "    Undirected(Graph<N, ?> graph) {\n"
+    },
+    "removed": {
+        "28": " * A class to facilitate the set returned by {@link ValueGraph#edges()}.\n",
+        "34": "  private final ValueGraph<N, ?> graph;\n",
+        "40": "  static <N> EndpointsIterator<N> of(ValueGraph<N, ?> graph) {\n",
+        "44": "  EndpointsIterator(ValueGraph<N, ?> graph) {\n",
+        "68": "    Directed(ValueGraph<N, ?> graph){\n",
+        "112": "    Undirected(ValueGraph<N, ?> graph) {\n"
+    }
+}

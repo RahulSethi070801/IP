@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "32": "    BiMap<Integer, String> bimap =\n",
+        "33": "        new AbstractBiMap<Integer, String>(\n",
+        "34": "            new IdentityHashMap<Integer, String>(), new IdentityHashMap<String, Integer>()) {};\n",
+        "49": "    BiMap<Integer, String> bimap =\n",
+        "50": "        new AbstractBiMap<Integer, String>(\n",
+        "51": "            new IdentityHashMap<Integer, String>(), new IdentityHashMap<String, Integer>()) {};\n"
+    },
+    "removed": {
+        "32": "    BiMap<Integer, String> bimap = new AbstractBiMap<Integer, String>(\n",
+        "33": "        new IdentityHashMap<Integer, String>(),\n",
+        "34": "        new IdentityHashMap<String, Integer>()) {};\n",
+        "49": "    BiMap<Integer, String> bimap = new AbstractBiMap<Integer, String>(\n",
+        "50": "        new IdentityHashMap<Integer, String>(),\n",
+        "51": "        new IdentityHashMap<String, Integer>()) {};\n"
+    }
+}

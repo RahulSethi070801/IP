@@ -1,0 +1,4 @@
+Closer
+Insertions: [31, 124]
+Deletions: [31, 124]
+guava/src/com/google/common/io/Closer.java

@@ -1,0 +1,6 @@
+static <K, V> SortedSetMultimap<K, V> sortedSetMultimap(SortedSetMultimap<K, V> multimap, @NullableDecl Object mutex) {
+    if (multimap instanceof SynchronizedSortedSetMultimap) {
+        return multimap;
+    }
+    return new SynchronizedSortedSetMultimap<>(multimap, mutex);
+}

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "50": "  protected AbstractSequentialIterator(@NullableDecl T firstOrNull) {\n"
+    },
+    "removed": {
+        "21": "import javax.annotation.Nullable;\n",
+        "50": "  protected AbstractSequentialIterator(@Nullable T firstOrNull) {\n"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "46": "FIELD java.util.AbstractMap.values com.google.common.collect.TreeRangeMap.SubRangeMap.SubRangeMapAsMap.values.$\n"
+    },
+    "removed": {
+        "46": "FIELD java.util.AbstractMap.valuesCollection com.google.common.collect.TreeRangeMap.SubRangeMap.SubRangeMapAsMap.values.$\n"
+    }
+}

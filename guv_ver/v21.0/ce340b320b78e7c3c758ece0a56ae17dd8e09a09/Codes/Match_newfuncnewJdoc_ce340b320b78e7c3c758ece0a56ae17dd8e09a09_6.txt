@@ -1,0 +1,4 @@
+
+   * Returns an instance which specifies that the ordering of the elements is guaranteed to be
+   * determined by {@code comparator}.
+   

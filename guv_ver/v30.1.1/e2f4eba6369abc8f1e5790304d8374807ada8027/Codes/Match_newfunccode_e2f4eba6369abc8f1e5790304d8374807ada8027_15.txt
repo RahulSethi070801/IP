@@ -1,0 +1,6 @@
+public static Collector<Number, StatsAccumulator, Stats> toStats() {
+    return Collector.of(StatsAccumulator::new, (a, x) -> a.add(x.doubleValue()), (l, r) -> {
+        l.addAll(r);
+        return l;
+    }, StatsAccumulator::snapshot, Collector.Characteristics.UNORDERED);
+}

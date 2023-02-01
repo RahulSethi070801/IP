@@ -1,0 +1,6 @@
+void init(int expectedSize)
+CompactHashMap(int expectedSize)
+
+void init(int expectedSize)
+CompactHashMap(int expectedSize)
+

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "29": " * An implementation of {@link ImmutableTable} holding an arbitrary number of cells.\n"
+    },
+    "removed": {
+        "29": " * An implementation of {@link ImmutableTable} holding an arbitrary number of\n",
+        "30": " * cells.\n"
+    }
+}

@@ -1,0 +1,6 @@
+private static boolean canTraverseWithoutReusingEdge(Graph<?> graph, Object nextNode, @Nullable Object previousNode) {
+    if (graph.isDirected() || !Objects.equal(previousNode, nextNode)) {
+        return true;
+    }
+    return false;
+}

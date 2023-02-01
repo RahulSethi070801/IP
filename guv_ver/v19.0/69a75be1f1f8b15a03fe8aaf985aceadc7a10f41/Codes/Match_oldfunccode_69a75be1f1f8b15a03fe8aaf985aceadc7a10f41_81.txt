@@ -1,0 +1,4 @@
+@Override
+void putThread(Waiter waiter, Thread thread) {
+    WAITER_THREAD_UPDATER.lazySet(waiter, thread);
+}

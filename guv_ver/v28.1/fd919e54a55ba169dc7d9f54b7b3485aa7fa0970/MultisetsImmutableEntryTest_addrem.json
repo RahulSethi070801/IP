@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "38": "    return HashMultiset.create(Collections.nCopies(count, element)).entrySet().iterator().next();\n",
+        "81": "    } catch (IllegalArgumentException expected) {\n",
+        "82": "    }\n"
+    },
+    "removed": {
+        "38": "    return HashMultiset.create(Collections.nCopies(count, element))\n",
+        "39": "        .entrySet().iterator().next();\n",
+        "82": "    } catch (IllegalArgumentException expected) {}\n"
+    }
+}

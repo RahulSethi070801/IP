@@ -1,0 +1,6 @@
+
+   * Reserves the given number of permits from this {@code RateLimiter} for future use, returning
+   * the number of microseconds until the reservation can be consumed.
+   *
+   * @return time in microseconds to wait until the resource can be acquired, never negative
+   

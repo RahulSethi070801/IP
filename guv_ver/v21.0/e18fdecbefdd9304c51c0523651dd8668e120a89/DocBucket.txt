@@ -1,0 +1,5 @@
+com.google.common.net.InternetDomainName
+from
+public static InternetDomainName from(String domain)
+String
+InternetDomainName

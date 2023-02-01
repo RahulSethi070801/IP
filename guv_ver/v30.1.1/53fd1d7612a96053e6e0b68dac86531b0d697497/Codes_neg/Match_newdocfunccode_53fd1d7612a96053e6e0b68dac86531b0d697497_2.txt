@@ -1,0 +1,31 @@
+public static Inet4Address getCoercedIPv4Address(InetAddress ip) {
+    if (ip instanceof Inet4Address) {
+        return (Inet4Address) ip;
+    }
+    byte[] bytes = ip.getAddress();
+    boolean leadingBytesOfZero = true;
+    for (int i = 0; i < 15; ++i) {
+        if (bytes[i] != 0) {
+            leadingBytesOfZero = false;
+            break;
+        }
+    }
+    if (leadingBytesOfZero && (bytes[15] == 1)) {
+        return LOOPBACK4;
+    } else if (leadingBytesOfZero && (bytes[15] == 0)) {
+        return ANY4;
+    }
+    Inet6Address ip6 = (Inet6Address) ip;
+    long addressAsLong = 0;
+    if (hasEmbeddedIPv4ClientAddress(ip6)) {
+        addressAsLong = getEmbeddedIPv4ClientAddress(ip6).hashCode();
+    } else {
+        addressAsLong = ByteBuffer.wrap(ip6.getAddress(), 0, 8).getLong();
+    }
+    int coercedHash = Hashing.murmur3_32().hashLong(addressAsLong).asInt();
+    coercedHash |= 0xe0000000;
+    if (coercedHash == 0xffffffff) {
+        coercedHash = 0xfffffffe;
+    }
+    return getInet4Address(Ints.toByteArray(coercedHash));
+}

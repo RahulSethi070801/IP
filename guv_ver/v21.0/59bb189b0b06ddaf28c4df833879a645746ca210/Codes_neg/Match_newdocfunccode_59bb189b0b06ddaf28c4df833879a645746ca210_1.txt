@@ -1,0 +1,7 @@
+@CanIgnoreReturnValue
+public Builder<K, V> putAll(RangeMap<K, ? extends V> rangeMap) {
+    for (Entry<Range<K>, ? extends V> entry : rangeMap.asMapOfRanges().entrySet()) {
+        put(entry.getKey(), entry.getValue());
+    }
+    return this;
+}

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "30": " * error. If your needs are more complex than {@code SettableFuture} supports, use {@link\n",
+        "31": " * AbstractFuture}, which offers an extensible version of the API.\n"
+    },
+    "removed": {
+        "30": " * error. If your needs are more complex than {@code SettableFuture} supports, use\n",
+        "31": " * {@link AbstractFuture}, which offers an extensible version of the API.\n"
+    }
+}

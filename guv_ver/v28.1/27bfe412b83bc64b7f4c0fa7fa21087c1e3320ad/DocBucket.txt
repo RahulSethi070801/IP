@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.AbstractService
+doStop
+protected abstract void doStop()
+empty
+void
+com.google.common.util.concurrent.Service
+terminated
+public void terminated(State from)
+State
+void

@@ -1,0 +1,3 @@
+public static HashFunction sha384() {
+    return Sha384Holder.SHA_384;
+}

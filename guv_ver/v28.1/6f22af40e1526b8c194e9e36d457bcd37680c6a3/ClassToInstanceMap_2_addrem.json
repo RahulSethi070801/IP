@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "61": "  <T extends B> T putInstance(Class<T> type, @NullableDecl T value);\n"
+    },
+    "removed": {
+        "22": "import javax.annotation.Nullable;\n",
+        "61": "  <T extends B> T putInstance(Class<T> type, @Nullable T value);\n"
+    }
+}

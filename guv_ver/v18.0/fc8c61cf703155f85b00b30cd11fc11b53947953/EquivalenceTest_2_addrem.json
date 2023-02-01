@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "37": "  @SuppressWarnings(\"unchecked\") // varargs\n"
+    },
+    "removed": {
+        "37": "\n",
+        "38": "  @SuppressWarnings(\"unchecked\") // Iterable<String>...\n"
+    }
+}

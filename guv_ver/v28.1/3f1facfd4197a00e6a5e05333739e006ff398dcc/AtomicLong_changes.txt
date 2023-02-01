@@ -1,0 +1,4 @@
+AtomicLong
+Insertions: [20, 21, 33, 89, 90]
+Deletions: [20, 21, 33, 34, 90]
+guava-gwt/src-super/java/util/super/java/util/concurrent/atomic/AtomicLong.java

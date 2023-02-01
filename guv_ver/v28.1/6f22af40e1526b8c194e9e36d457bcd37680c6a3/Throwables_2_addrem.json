@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "35": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "102": "      @NullableDecl Throwable throwable, Class<X> declaredType) throws X {\n",
+        "157": "  public static void propagateIfPossible(@NullableDecl Throwable throwable) {\n",
+        "183": "      @NullableDecl Throwable throwable, Class<X> declaredType) throws X {\n",
+        "201": "      @NullableDecl Throwable throwable, Class<X1> declaredType1, Class<X2> declaredType2)\n",
+        "451": "  @NullableDecl\n",
+        "459": "  @NullableDecl\n",
+        "467": "  @NullableDecl\n",
+        "475": "  @NullableDecl\n",
+        "501": "  @NullableDecl\n",
+        "516": "  @NullableDecl\n",
+        "531": "  @NullableDecl\n"
+    },
+    "removed": {
+        "35": "import javax.annotation.Nullable;\n",
+        "102": "      @Nullable Throwable throwable, Class<X> declaredType) throws X {\n",
+        "157": "  public static void propagateIfPossible(@Nullable Throwable throwable) {\n",
+        "183": "      @Nullable Throwable throwable, Class<X> declaredType) throws X {\n",
+        "201": "      @Nullable Throwable throwable, Class<X1> declaredType1, Class<X2> declaredType2)\n",
+        "451": "  @Nullable\n",
+        "459": "  @Nullable\n",
+        "467": "  @Nullable\n",
+        "475": "  @Nullable\n",
+        "501": "  @Nullable\n",
+        "516": "  @Nullable\n",
+        "531": "  @Nullable\n"
+    }
+}

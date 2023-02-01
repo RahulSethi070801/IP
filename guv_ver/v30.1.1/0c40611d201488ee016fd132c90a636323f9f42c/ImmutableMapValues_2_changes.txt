@@ -1,0 +1,4 @@
+ImmutableMapValues_2
+Insertions: [27, 36, 72]
+Deletions: [27, 71]
+guava/src/com/google/common/collect/ImmutableMapValues.java

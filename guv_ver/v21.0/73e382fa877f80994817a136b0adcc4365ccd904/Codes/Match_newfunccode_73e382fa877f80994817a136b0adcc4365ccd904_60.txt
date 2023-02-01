@@ -1,0 +1,25 @@
+@Override
+List<Entry<K, V>> createEntries() {
+    @WeakOuter
+    class EntriesImpl extends AbstractSequentialList<Entry<K, V>> {
+
+        @Override
+        public int size() {
+            return size;
+        }
+
+        @Override
+        public ListIterator<Entry<K, V>> listIterator(int index) {
+            return new NodeIterator(index);
+        }
+
+        @Override
+        public void forEach(Consumer<? super Entry<K, V>> action) {
+            checkNotNull(action);
+            for (Node<K, V> node = head; node != null; node = node.next) {
+                action.accept(node);
+            }
+        }
+    }
+    return new EntriesImpl();
+}

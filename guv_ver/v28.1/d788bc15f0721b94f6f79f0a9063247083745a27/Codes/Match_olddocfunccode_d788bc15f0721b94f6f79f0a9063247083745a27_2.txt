@@ -1,0 +1,1 @@
+int degree(N node);

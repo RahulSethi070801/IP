@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "47": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "370": "    void accept(@Nullable T object);\n"
+    },
+    "removed": {
+        "47": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "370": "    void accept(@NullableDecl T object);\n"
+    }
+}

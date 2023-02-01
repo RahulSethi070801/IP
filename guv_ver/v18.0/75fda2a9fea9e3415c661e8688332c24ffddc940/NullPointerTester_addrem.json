@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "23": "import com.google.common.base.Converter;\n",
+        "400": "    if (type.getRawType() == Converter.class) {\n",
+        "401": "      TypeToken<?> convertFromType = type.resolveType(\n",
+        "402": "          Converter.class.getTypeParameters()[0]);\n",
+        "403": "      TypeToken<?> convertToType = type.resolveType(\n",
+        "404": "          Converter.class.getTypeParameters()[1]);\n",
+        "405": "      @SuppressWarnings(\"unchecked\") // returns default for both F and T\n",
+        "406": "      T defaultConverter = (T) defaultConverter(convertFromType, convertToType);\n",
+        "407": "      return defaultConverter;\n",
+        "408": "    }\n",
+        "415": "  private <F, T> Converter<F, T> defaultConverter(\n",
+        "416": "      final TypeToken<F> convertFromType, final TypeToken<T> convertToType) {\n",
+        "417": "    return new Converter<F, T>() {\n",
+        "418": "      @Override protected T doForward(F a) {\n",
+        "419": "        return doConvert(convertToType, a);\n",
+        "420": "      }\n",
+        "421": "      @Override protected F doBackward(T b) {\n",
+        "422": "        return doConvert(convertFromType, b);\n",
+        "423": "      }\n",
+        "424": "\n",
+        "425": "      private /*static*/ <S> S doConvert(TypeToken<S> type, Object in) {\n",
+        "426": "        // TODO(kevinb): remove null boilerplate (convert() will do it\n",
+        "427": "        // automatically)\n",
+        "428": "        return in == null ? null : checkNotNull(getDefaultValue(type));\n",
+        "429": "      }\n",
+        "430": "    };\n",
+        "431": "  }\n",
+        "432": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,5 @@
+@Deprecated
+@Override
+public final boolean test(@NullableDecl T t, @NullableDecl T u) {
+    return equivalent(t, u);
+}

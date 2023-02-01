@@ -1,0 +1,10 @@
+
+   * This method is called by {@link #start} to initiate service startup. The invocation of this
+   * method should cause a call to {@link #notifyStarted()}, either during this method's run, or
+   * after it has returned. If startup fails, the invocation should cause a call to
+   * {@link #notifyFailed(Throwable)} instead.
+   *
+   * <p>This method should return promptly; prefer to do work on a different thread where it is
+   * convenient. It is invoked exactly once on service startup, even when {@link #start} is called
+   * multiple times.
+   

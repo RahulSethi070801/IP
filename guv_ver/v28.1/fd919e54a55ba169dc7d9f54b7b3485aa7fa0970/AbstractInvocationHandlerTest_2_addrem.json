@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "51": "\n",
+        "52": "  interface B {}\n",
+        "68": "        .addEqualityGroup(newProxyWithEqualsForInterfaces(Runnable.class, List.class))\n",
+        "106": "  private static Object newProxyWithEqualsForInterfaces(Class<?>... interfaces) {\n",
+        "107": "    return Proxy.newProxyInstance(\n",
+        "108": "        AbstractInvocationHandlerTest.class.getClassLoader(),\n",
+        "109": "        interfaces,\n",
+        "110": "        new DelegatingInvocationHandlerWithEquals(\"a string\"));\n",
+        "121": "    @Override\n",
+        "122": "    protected Object handleInvocation(Object proxy, Method method, Object[] args) throws Throwable {\n",
+        "126": "    @Override\n",
+        "127": "    public String toString() {\n",
+        "138": "    @Override\n",
+        "139": "    public boolean equals(Object obj) {\n",
+        "148": "    @Override\n",
+        "149": "    public int hashCode() {\n",
+        "153": "    @Override\n",
+        "154": "    public String toString() {\n"
+    },
+    "removed": {
+        "51": "  interface B{}\n",
+        "67": "        .addEqualityGroup(\n",
+        "68": "            newProxyWithEqualsForInterfaces(Runnable.class, List.class))\n",
+        "106": "  private static Object newProxyWithEqualsForInterfaces(\n",
+        "107": "      Class<?>... interfaces) {\n",
+        "108": "    return Proxy.newProxyInstance(AbstractInvocationHandlerTest.class.getClassLoader(),\n",
+        "109": "        interfaces, new DelegatingInvocationHandlerWithEquals(\"a string\"));\n",
+        "120": "    @Override protected Object handleInvocation(Object proxy, Method method, Object[] args)\n",
+        "121": "        throws Throwable {\n",
+        "125": "    @Override public String toString() {\n",
+        "136": "    @Override public boolean equals(Object obj) {\n",
+        "145": "    @Override public int hashCode() {\n",
+        "149": "    @Override public String toString() {\n"
+    }
+}

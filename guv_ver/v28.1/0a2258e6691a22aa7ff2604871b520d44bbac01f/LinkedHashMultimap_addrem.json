@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "43": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "156": "    @Nullable ValueEntry<K, V> nextInValueBucket;\n",
+        "158": "    @Nullable ValueSetLink<K, V> predecessorInValueSet;\n",
+        "159": "    @Nullable ValueSetLink<K, V> successorInValueSet;\n",
+        "161": "    @Nullable ValueEntry<K, V> predecessorInMultimap;\n",
+        "162": "    @Nullable ValueEntry<K, V> successorInMultimap;\n",
+        "165": "        @Nullable K key,\n",
+        "166": "        @Nullable V value,\n",
+        "168": "        @Nullable ValueEntry<K, V> nextInValueBucket) {\n",
+        "174": "    boolean matchesValue(@Nullable Object v, int smearedVHash) {\n",
+        "266": "  public Set<V> replaceValues(@Nullable K key, Iterable<? extends V> values) {\n",
+        "371": "        @Nullable ValueEntry<K, V> toRemove;\n",
+        "425": "    public boolean contains(@Nullable Object o) {\n",
+        "438": "    public boolean add(@Nullable V value) {\n",
+        "479": "    public boolean remove(@Nullable Object o) {\n",
+        "522": "      @Nullable ValueEntry<K, V> toRemove;\n"
+    },
+    "removed": {
+        "43": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "156": "    @NullableDecl ValueEntry<K, V> nextInValueBucket;\n",
+        "158": "    @NullableDecl ValueSetLink<K, V> predecessorInValueSet;\n",
+        "159": "    @NullableDecl ValueSetLink<K, V> successorInValueSet;\n",
+        "161": "    @NullableDecl ValueEntry<K, V> predecessorInMultimap;\n",
+        "162": "    @NullableDecl ValueEntry<K, V> successorInMultimap;\n",
+        "165": "        @NullableDecl K key,\n",
+        "166": "        @NullableDecl V value,\n",
+        "168": "        @NullableDecl ValueEntry<K, V> nextInValueBucket) {\n",
+        "174": "    boolean matchesValue(@NullableDecl Object v, int smearedVHash) {\n",
+        "266": "  public Set<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {\n",
+        "371": "        @NullableDecl ValueEntry<K, V> toRemove;\n",
+        "425": "    public boolean contains(@NullableDecl Object o) {\n",
+        "438": "    public boolean add(@NullableDecl V value) {\n",
+        "479": "    public boolean remove(@NullableDecl Object o) {\n",
+        "522": "      @NullableDecl ValueEntry<K, V> toRemove;\n"
+    }
+}

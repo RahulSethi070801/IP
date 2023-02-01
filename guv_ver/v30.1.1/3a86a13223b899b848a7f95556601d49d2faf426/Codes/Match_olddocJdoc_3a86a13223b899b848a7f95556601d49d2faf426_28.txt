@@ -1,0 +1,4 @@
+
+   * Compares two comparable objects as specified by {@link Comparable#compareTo}, <i>if</i> the
+   * result of this comparison chain has not already been determined.
+   

@@ -1,0 +1,4 @@
+ByteSink
+Insertions: [35, 37, 38, 39, 40, 41, 42, 51, 112, 113]
+Deletions: [36, 37, 38, 39, 40, 41, 50, 51, 52, 113, 114]
+android/guava/src/com/google/common/io/ByteSink.java

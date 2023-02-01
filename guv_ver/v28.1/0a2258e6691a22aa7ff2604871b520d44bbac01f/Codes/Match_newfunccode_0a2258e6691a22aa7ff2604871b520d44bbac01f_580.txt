@@ -1,0 +1,10 @@
+@Nullable
+protected String pendingToString() {
+    Object localValue = value;
+    if (localValue instanceof SetFuture) {
+        return "setFuture=[" + userObjectToString(((SetFuture) localValue).future) + "]";
+    } else if (this instanceof ScheduledFuture) {
+        return "remaining delay=[" + ((ScheduledFuture) this).getDelay(TimeUnit.MILLISECONDS) + " ms]";
+    }
+    return null;
+}

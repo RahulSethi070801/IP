@@ -1,0 +1,15 @@
+com.google.common.util.concurrent.AbstractFuture
+cancel
+public boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean
+com.google.common.util.concurrent.AbstractFuture
+getFutureValue
+private static Object getFutureValue(ListenableFuture<?> future)
+ListenableFuture
+Object
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.AbstractFuture$SetFuture
+run
+public void run()
+empty
+void

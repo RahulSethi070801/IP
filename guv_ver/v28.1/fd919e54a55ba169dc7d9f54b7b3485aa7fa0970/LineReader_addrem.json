@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "30": " * A class for reading lines of text. Provides the same functionality as {@link\n",
+        "31": " * java.io.BufferedReader#readLine()} but for all {@link Readable} objects, not just instances of\n",
+        "32": " * {@link Reader}.\n",
+        "54": "  /** Creates a new instance that will read lines from the given {@code Readable} object. */\n",
+        "61": "   * Reads a line of text. A line is considered to be terminated by any one of a line feed ({@code\n",
+        "62": "   * '\\n'}), a carriage return ({@code '\\r'}), or a carriage return followed immediately by a\n",
+        "63": "   * linefeed ({@code \"\\r\\n\"}).\n",
+        "75": "      int read = (reader != null) ? reader.read(buf, 0, buf.length) : readable.read(cbuf);\n"
+    },
+    "removed": {
+        "30": " * A class for reading lines of text. Provides the same functionality as\n",
+        "31": " * {@link java.io.BufferedReader#readLine()} but for all {@link Readable} objects, not just\n",
+        "32": " * instances of {@link Reader}.\n",
+        "54": "  /**\n",
+        "55": "   * Creates a new instance that will read lines from the given {@code Readable} object.\n",
+        "56": "   */\n",
+        "63": "   * Reads a line of text. A line is considered to be terminated by any one of a line feed\n",
+        "64": "   * ({@code '\\n'}), a carriage return ({@code '\\r'}), or a carriage return followed immediately by\n",
+        "65": "   * a linefeed ({@code \"\\r\\n\"}).\n",
+        "77": "      int read = (reader != null)\n",
+        "78": "          ? reader.read(buf, 0, buf.length)\n",
+        "79": "          : readable.read(cbuf);\n"
+    }
+}

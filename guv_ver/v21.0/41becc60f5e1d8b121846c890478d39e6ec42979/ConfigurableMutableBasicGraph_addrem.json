@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "33": "  private final MutableGraph<N, Presence> backingGraph;\n",
+        "39": "    this.backingGraph = new ConfigurableMutableGraph<N, Presence>(builder);\n"
+    },
+    "removed": {
+        "33": "  private final MutableValueGraph<N, Presence> backingGraph;\n",
+        "39": "    this.backingGraph = new ConfigurableMutableValueGraph<N, Presence>(builder);\n"
+    }
+}

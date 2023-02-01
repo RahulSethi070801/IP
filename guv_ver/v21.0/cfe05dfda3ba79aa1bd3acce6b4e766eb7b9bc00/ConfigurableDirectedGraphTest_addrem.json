@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "26": " * Tests for a directed {@link ConfigurableMutableGraph} allowing self-loops.\n",
+        "32": "  public MutableGraph<Integer> createGraph() {\n",
+        "33": "    return GraphBuilder.directed().allowsSelfLoops(true).build();\n"
+    },
+    "removed": {
+        "26": " * Tests for a directed {@link ConfigurableMutableBasicGraph} allowing self-loops.\n",
+        "32": "  public MutableBasicGraph<Integer> createGraph() {\n",
+        "33": "    return BasicGraphBuilder.directed().allowsSelfLoops(true).build();\n"
+    }
+}

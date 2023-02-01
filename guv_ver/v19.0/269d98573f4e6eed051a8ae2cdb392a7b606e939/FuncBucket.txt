@@ -1,0 +1,60 @@
+com.google.common.reflect.TypeToken
+supertypeBound
+private static Type supertypeBound(WildcardType type)
+WildcardType
+Type
+com.google.common.reflect.TypeToken
+isAssignableToAny
+private static boolean isAssignableToAny(Type from, Type[] toTypes)
+Type,Type[]
+boolean
+com.google.common.reflect.TypeToken
+isAssignableToWildcardType
+private static boolean isAssignableToWildcardType(Type from, WildcardType to)
+Type,WildcardType
+boolean
+com.google.common.reflect.TypeToken
+isAssignableBySubtypeBound
+private static boolean isAssignableBySubtypeBound(Type from, WildcardType to)
+Type,WildcardType
+boolean
+com.google.common.reflect.TypeToken
+matchTypeArgument
+private static boolean matchTypeArgument(Type from, Type to)
+Type,Type
+boolean
+com.google.common.reflect.TypeToken
+subtypeBound
+private static Type subtypeBound(Type type)
+Type
+Type
+com.google.common.reflect.TypeToken
+subtypeBound
+private static Type subtypeBound(WildcardType type)
+WildcardType
+Type
+com.google.common.reflect.TypeToken
+areAssignableTo
+private static boolean areAssignableTo(Type[] fromTypes, Type to)
+Type[],Type
+boolean
+com.google.common.reflect.TypeToken
+isAssignableToClass
+private static boolean isAssignableToClass(Type from, Class<?> to)
+Type,Class
+boolean
+com.google.common.reflect.TypeToken
+supertypeBound
+private static Type supertypeBound(Type type)
+Type
+Type
+com.google.common.reflect.TypeToken
+isAssignable
+private static boolean isAssignable(Type from, Type to)
+Type,Type
+boolean
+com.google.common.reflect.TypeToken
+isAssignableToAll
+private static boolean isAssignableToAll(Type from, Type[] toTypes)
+Type,Type[]
+boolean

@@ -1,0 +1,110 @@
+com.google.common.graph.Graphs
+endpointsInternal
+static Set<Endpoints<N>> endpointsInternal(final Graph<N> graph)
+Graph
+Set
+com.google.common.graph.Graphs
+endpointsString
+private static String endpointsString(final Graph<N> graph)
+Graph
+String
+com.google.common.graph.AbstractGraph
+apply
+public Set<N> apply(N node)
+N
+Set
+com.google.common.graph.AbstractGraph
+endpointsString
+private String endpointsString()
+empty
+String
+com.google.common.graph.Graphs
+nodeToOutEdges
+private static Map<N, Set<E>> nodeToOutEdges(final Network<N, E> graph)
+Network
+Map
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Network<?, ?> graph1, @Nullable Network<?, ?> graph2)
+Network,Network
+boolean
+com.google.common.graph.Graphs
+toString
+public static String toString(Graph<?> graph)
+Graph
+String
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Network<?, ?> graph)
+Network
+int
+com.google.common.graph.Graphs
+getPropertiesString
+private static String getPropertiesString(Graph<?> graph)
+Graph
+String
+com.google.common.graph.AbstractGraph
+toString
+public String toString()
+empty
+String
+com.google.common.graph.AbstractGraph
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.AbstractGraph
+getPropertiesString
+private String getPropertiesString()
+empty
+String
+com.google.common.graph.Graphs
+endpointsInternal
+private static Set<Endpoints<N>> endpointsInternal(final Graph<N> graph)
+Graph
+Set
+com.google.common.graph.AbstractGraph
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Graph<?> graph)
+Graph
+int
+com.google.common.graph.Graphs
+getPropertiesString
+private static String getPropertiesString(Network<?, ?> graph)
+Network
+String
+com.google.common.graph.Graphs
+toString
+public static String toString(Network<?, ?> graph)
+Network
+String
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Graph<?> graph1, @Nullable Graph<?> graph2)
+Graph,Graph
+boolean
+com.google.common.graph.AbstractGraph
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.AbstractNetwork
+edgeToEndpointsString
+private Function<Object, String> edgeToEndpointsString()
+empty
+Function
+com.google.common.graph.Graphs
+nodeToSuccessorNodes
+private static Map<N, Set<N>> nodeToSuccessorNodes(final Graph<N> graph)
+Graph
+Map
+com.google.common.graph.Graphs
+edgeToEndpointsString
+private static Function<Object, String> edgeToEndpointsString(final Network<?, ?> graph)
+Network
+Function

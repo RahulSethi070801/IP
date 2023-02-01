@@ -1,0 +1,10 @@
+com.google.common.graph.ImmutableBasicGraph
+copyOf
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+BasicGraph
+ImmutableBasicGraph
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N, V> copyOf(Graph<N, V> graph)
+Graph
+ImmutableGraph

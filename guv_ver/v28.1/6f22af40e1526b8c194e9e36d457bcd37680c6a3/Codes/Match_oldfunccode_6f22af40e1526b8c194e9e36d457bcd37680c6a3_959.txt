@@ -1,0 +1,7 @@
+protected V getIfCached(@Nullable Object key) {
+    Entry<K, V> entry = entrySetCache;
+    if (entry != null && entry.getKey() == key) {
+        return entry.getValue();
+    }
+    return null;
+}

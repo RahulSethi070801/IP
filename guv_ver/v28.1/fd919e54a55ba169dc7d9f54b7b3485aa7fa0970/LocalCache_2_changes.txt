@@ -1,0 +1,4 @@
+LocalCache_2
+Insertions: [72, 73, 74, 75, 76, 77, 78, 79, 295, 354, 355, 416, 417, 419, 420, 461, 462, 490, 491, 492, 534, 586, 610, 662, 663]
+Deletions: [72, 73, 74, 75, 76, 77, 78, 294, 353, 354, 415, 416, 418, 419, 460, 461, 489, 490, 491, 492, 534, 586, 587, 588, 612, 613, 614, 666, 667]
+guava-gwt/src-super/com/google/common/cache/super/com/google/common/cache/LocalCache.java

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "26": "import javax.annotation.CheckForNull;\n",
+        "34": "@ElementTypesAreNonnullByDefault\n",
+        "56": "  @CheckForNull\n",
+        "163": "  public boolean equals(@CheckForNull Object obj) {\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "161": "  public boolean equals(@NullableDecl Object obj) {\n"
+    }
+}

@@ -1,0 +1,5 @@
+
+   * Reads the contents of this source as a string.
+   *
+   * @throws IOException if an I/O error occurs in the process of reading from this source
+   

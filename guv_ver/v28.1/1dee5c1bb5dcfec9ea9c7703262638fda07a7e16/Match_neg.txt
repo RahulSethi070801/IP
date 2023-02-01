@@ -1,0 +1,6 @@
+public Iterable<Path> successors(Path path)
+public static Traverser<File> fileTraverser()
+
+private static Iterable<Path> fileTreeChildren(Path dir)
+public static Traverser<File> fileTraverser()
+

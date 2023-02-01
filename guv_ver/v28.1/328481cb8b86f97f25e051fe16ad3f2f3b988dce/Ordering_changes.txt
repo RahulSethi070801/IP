@@ -1,0 +1,4 @@
+Ordering
+Insertions: [33, 449]
+Deletions: [33, 449]
+android/guava/src/com/google/common/collect/Ordering.java

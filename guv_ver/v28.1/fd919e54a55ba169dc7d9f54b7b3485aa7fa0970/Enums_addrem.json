@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "42": "   * Returns the {@link Field} in which {@code enumValue} is defined. For example, to get the {@code\n",
+        "43": "   * Description} annotation on the {@code GOLF} constant of enum {@code Sport}, use {@code\n",
+        "44": "   * Enums.getField(Sport.GOLF).getAnnotation(Description.class)}.\n",
+        "61": "   * user input or falling back to a default enum constant. For example, {@code\n",
+        "62": "   * Enums.getIfPresent(Country.class, countryInput).or(Country.DEFAULT);}\n",
+        "100": "   * Returns a converter that converts between strings and {@code enum} values of type {@code\n",
+        "101": "   * enumClass} using {@link Enum#valueOf(Class, String)} and {@link Enum#name()}. The converter\n",
+        "102": "   * will throw an {@code IllegalArgumentException} if the argument is not the name of any enum\n",
+        "103": "   * constant in the specified enum.\n"
+    },
+    "removed": {
+        "34": " *\n",
+        "43": "   * Returns the {@link Field} in which {@code enumValue} is defined. For example, to get the\n",
+        "44": "   * {@code Description} annotation on the {@code GOLF} constant of enum {@code Sport}, use\n",
+        "45": "   * {@code Enums.getField(Sport.GOLF).getAnnotation(Description.class)}.\n",
+        "62": "   * user input or falling back to a default enum constant. For example,\n",
+        "63": "   * {@code Enums.getIfPresent(Country.class, countryInput).or(Country.DEFAULT);}\n",
+        "101": "   * Returns a converter that converts between strings and {@code enum} values of type\n",
+        "102": "   * {@code enumClass} using {@link Enum#valueOf(Class, String)} and {@link Enum#name()}. The\n",
+        "103": "   * converter will throw an {@code IllegalArgumentException} if the argument is not the name of any\n",
+        "104": "   * enum constant in the specified enum.\n"
+    }
+}

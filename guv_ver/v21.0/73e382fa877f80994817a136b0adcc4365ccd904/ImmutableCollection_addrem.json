@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "26": "import java.util.Spliterator;\n",
+        "37": "  static final int SPLITERATOR_CHARACTERISTICS =\n",
+        "38": "      Spliterator.IMMUTABLE | Spliterator.NONNULL | Spliterator.ORDERED;\n"
+    },
+    "removed": {}
+}

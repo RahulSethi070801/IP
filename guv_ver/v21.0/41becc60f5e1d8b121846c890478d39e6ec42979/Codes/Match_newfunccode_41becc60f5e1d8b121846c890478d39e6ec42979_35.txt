@@ -1,0 +1,14 @@
+public static <N, V> MutableGraph<N, V> inducedSubgraph(Graph<N, V> graph, Iterable<? extends N> nodes) {
+    MutableGraph<N, V> subgraph = GraphBuilder.from(graph).build();
+    for (N node : nodes) {
+        subgraph.addNode(node);
+    }
+    for (N node : subgraph.nodes()) {
+        for (N successorNode : graph.successors(node)) {
+            if (subgraph.nodes().contains(successorNode)) {
+                subgraph.putEdgeValue(node, successorNode, graph.edgeValue(node, successorNode));
+            }
+        }
+    }
+    return subgraph;
+}

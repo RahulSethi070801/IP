@@ -1,0 +1,8 @@
+@Override
+public char readChar() {
+    try {
+        return input.readChar();
+    } catch (IOException e) {
+        throw new IllegalStateException(e);
+    }
+}

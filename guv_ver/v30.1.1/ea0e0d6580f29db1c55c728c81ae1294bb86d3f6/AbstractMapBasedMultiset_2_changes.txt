@@ -1,0 +1,4 @@
+AbstractMapBasedMultiset_2
+Insertions: [21, 24, 38, 50, 51, 52, 92, 100, 109, 121, 134, 155, 202, 216, 224, 225, 226, 227, 228, 234, 235, 236, 237, 238, 251, 266, 288, 316, 337]
+Deletions: [47, 87, 103, 115, 148, 195, 216, 222, 235, 250, 272, 300, 321]
+guava/src/com/google/common/collect/AbstractMapBasedMultiset.java

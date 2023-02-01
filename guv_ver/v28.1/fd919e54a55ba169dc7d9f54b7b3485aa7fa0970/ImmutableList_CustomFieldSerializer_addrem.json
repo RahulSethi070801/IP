@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "20": " * Even though {@link ImmutableList} cannot be instantiated, we still need a custom field serializer\n",
+        "21": " * to unify the type signature of {@code ImmutableList[]} on server and client side.\n"
+    },
+    "removed": {
+        "20": " * Even though {@link ImmutableList} cannot be instantiated, we still need\n",
+        "21": " * a custom field serializer to unify the type signature of\n",
+        "22": " * {@code ImmutableList[]} on server and client side.\n"
+    }
+}

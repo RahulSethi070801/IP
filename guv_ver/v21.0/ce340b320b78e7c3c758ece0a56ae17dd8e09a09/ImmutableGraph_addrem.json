@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "66": "    // ImmutableMap.Builder maintains the order of the elements as inserted, so the map will\n",
+        "67": "    // have whatever ordering the graph's edges do, so ImmutableSortedMap is unnecessary even if the\n",
+        "68": "    // input edges are sorted.\n"
+    },
+    "removed": {}
+}

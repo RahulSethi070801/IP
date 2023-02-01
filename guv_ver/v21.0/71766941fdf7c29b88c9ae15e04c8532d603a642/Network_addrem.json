@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "352": "  // Network identity\n"
+    },
+    "removed": {
+        "352": "  // Element-level queries\n",
+        "355": "  /**\n",
+        "356": "   * Returns the number of edges incident in this graph to {@code node}.  If this node has more than\n",
+        "357": "   * {@code Integer.MAX_VALUE} incident edges in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "358": "   *\n",
+        "359": "   * <p>Note that self-loops only count once towards a node's degree.\n",
+        "360": "   *\n",
+        "361": "   * <p>Equivalent to {@code incidentEdges(node).size()}.\n",
+        "362": "   *\n",
+        "363": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "364": "   */\n",
+        "365": "  int degree(Object node);\n",
+        "366": "\n",
+        "367": "  /**\n",
+        "368": "   * Returns the number of incoming edges in this graph of {@code node}.  If this node has more than\n",
+        "369": "   * {@code Integer.MAX_VALUE} incoming edges in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "370": "   *\n",
+        "371": "   * <p>Equivalent to {@code inEdges(node).size()}.\n",
+        "372": "   *\n",
+        "373": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "374": "   */\n",
+        "375": "  int inDegree(Object node);\n",
+        "376": "\n",
+        "377": "  /**\n",
+        "378": "   * Returns the number of outgoing edges in this graph of {@code node}.  If this node has more than\n",
+        "379": "   * {@code Integer.MAX_VALUE} outgoing edges in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "380": "   *\n",
+        "381": "   * <p>Equivalent to {@code outEdges(node).size()}.\n",
+        "382": "   *\n",
+        "383": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "384": "   */\n",
+        "385": "  int outDegree(Object node);\n",
+        "386": "\n"
+    }
+}

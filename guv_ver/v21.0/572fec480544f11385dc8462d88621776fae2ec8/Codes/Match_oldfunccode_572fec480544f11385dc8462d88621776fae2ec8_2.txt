@@ -1,0 +1,19 @@
+public <E extends T> List<E> leastOf(Iterator<E> elements, int k) {
+    checkNotNull(elements);
+    checkNonnegative(k, "k");
+    if (k == 0 || !elements.hasNext()) {
+        return ImmutableList.of();
+    } else if (k >= Integer.MAX_VALUE / 2) {
+        ArrayList<E> list = Lists.newArrayList(elements);
+        Collections.sort(list, this);
+        if (list.size() > k) {
+            list.subList(k, list.size()).clear();
+        }
+        list.trimToSize();
+        return Collections.unmodifiableList(list);
+    } else {
+        TopKSelector<E> selector = TopKSelector.least(k, this);
+        selector.offerAll(elements);
+        return selector.topK();
+    }
+}

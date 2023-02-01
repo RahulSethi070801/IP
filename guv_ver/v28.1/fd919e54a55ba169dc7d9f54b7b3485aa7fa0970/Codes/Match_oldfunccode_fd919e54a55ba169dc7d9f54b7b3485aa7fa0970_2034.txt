@@ -1,0 +1,10 @@
+private boolean foundAndRemovedExactReference(Iterable<E> elements, E target) {
+    for (Iterator<E> it = elements.iterator(); it.hasNext(); ) {
+        E element = it.next();
+        if (element == target) {
+            it.remove();
+            return true;
+        }
+    }
+    return false;
+}

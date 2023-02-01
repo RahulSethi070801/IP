@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "49": " * <li>{@code nodeA} and {@code nodeB} are mutually <b>adjacent</b> (or <b>connected</b>) in\n",
+        "52": " *       graph.addEdge(nodeA, nodeB);  // after this returns, nodeA and nodeB are adjacent\n",
+        "56": " *   <li>{@code nodeA} is a <b>predecessor</b> of {code nodeB} in {@code graph}\n",
+        "57": " *   <li>{@code nodeB} is a <b>successor</b> of {@code nodeA} in {@code graph}\n",
+        "58": " *   <li>{@code nodeA} has an (implicit) outgoing edge to {@code nodeB} in {@code graph}\n",
+        "59": " *   <li>{@code nodeB} has an (implicit) incoming edge from {@code nodeA} in {@code graph}\n",
+        "63": " *   <li>{@code nodeA} and {@code nodeB} are mutually predecessors and successors\n",
+        "65": " *   <li>{@code nodeA} has an (implicit) edge in {@code graph} that is both outgoing to\n",
+        "66": " *       to {@code nodeB} and incoming from {@code nodeB}, and vice versa.\n",
+        "75": " *   <li>They must be unique in a graph: nodes {@code nodeA} and {@code nodeB} are considered\n",
+        "76": " *       different if and only if {@code nodeA.equals(nodeB) == false}.\n"
+    },
+    "removed": {
+        "49": " * <li>{@code node1} and {@code node2} are mutually <b>adjacent</b> (or <b>connected</b>) in\n",
+        "52": " *       graph.addEdge(node1, node2);  // after this returns, node1 and node2 are adjacent\n",
+        "56": " *   <li>{@code node1} is a <b>predecessor</b> of {code node2} in {@code graph}\n",
+        "57": " *   <li>{@code node2} is a <b>successor</b> of {@code node1} in {@code graph}\n",
+        "58": " *   <li>{@code node1} has an (implicit) outgoing edge to {@code node2} in {@code graph}\n",
+        "59": " *   <li>{@code node2} has an (implicit) incoming edge from {@code node1} in {@code graph}\n",
+        "63": " *   <li>{@code node1} and {@code node2} are mutually predecessors and successors\n",
+        "65": " *   <li>{@code node1} has an (implicit) edge in {@code graph} that is both outgoing to\n",
+        "66": " *       to {@code node2} and incoming from {@code node2}, and vice versa.\n",
+        "75": " *   <li>They must be unique in a graph: nodes {@code node1} and {@code node2} are considered\n",
+        "76": " *       different if and only if {@code node1.equals(node2) == false}.\n"
+    }
+}

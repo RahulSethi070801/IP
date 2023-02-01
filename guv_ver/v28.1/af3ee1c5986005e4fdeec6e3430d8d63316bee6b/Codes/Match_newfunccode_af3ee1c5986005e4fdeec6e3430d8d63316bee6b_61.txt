@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean putEdge(EndpointPair<N> endpoints);

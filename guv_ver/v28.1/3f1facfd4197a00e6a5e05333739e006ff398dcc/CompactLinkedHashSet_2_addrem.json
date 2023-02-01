@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "54": "  /** Creates an empty {@code CompactLinkedHashSet} instance. */\n",
+        "60": "   * Creates a <i>mutable</i> {@code CompactLinkedHashSet} instance containing the elements of the\n",
+        "61": "   * given collection in the order returned by the collection's iterator.\n",
+        "73": "   * Creates a {@code CompactLinkedHashSet} instance containing the given elements in unspecified\n",
+        "74": "   * order.\n",
+        "86": "   * Creates a {@code CompactLinkedHashSet} instance, with a high enough \"initial capacity\" that it\n",
+        "87": "   * <i>should</i> hold {@code expectedSize} elements without rebuilding internal data structures.\n",
+        "91": "   *     expectedSize} elements without resizing\n",
+        "221": "  @Override\n",
+        "222": "  public Spliterator<E> spliterator() {\n",
+        "226": "  @Override\n",
+        "227": "  public void forEach(Consumer<? super E> action) {\n"
+    },
+    "removed": {
+        "54": "  /**\n",
+        "55": "   * Creates an empty {@code CompactLinkedHashSet} instance.\n",
+        "56": "   */\n",
+        "62": "   * Creates a <i>mutable</i> {@code CompactLinkedHashSet} instance containing the elements\n",
+        "63": "   * of the given collection in the order returned by the collection's iterator.\n",
+        "75": "   * Creates a {@code CompactLinkedHashSet} instance containing the given elements in\n",
+        "76": "   * unspecified order.\n",
+        "88": "   * Creates a {@code CompactLinkedHashSet} instance, with a high enough \"initial capacity\"\n",
+        "89": "   * that it <i>should</i> hold {@code expectedSize} elements without rebuilding internal\n",
+        "90": "   * data structures.\n",
+        "94": "   *         expectedSize} elements without resizing\n",
+        "224": "  @Override public Spliterator<E> spliterator() {\n",
+        "228": "  @Override public void forEach(Consumer<? super E> action) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+ForwardingTable_2
+Insertions: [26, 27]
+Deletions: [26, 27, 28]
+guava/src/com/google/common/collect/ForwardingTable.java

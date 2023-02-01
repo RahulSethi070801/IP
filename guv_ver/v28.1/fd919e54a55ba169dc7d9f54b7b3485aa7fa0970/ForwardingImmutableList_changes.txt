@@ -1,0 +1,4 @@
+ForwardingImmutableList
+Insertions: [24, 30, 50, 51, 57, 58, 62, 63, 67, 68, 72, 73, 77, 78, 86, 87, 91, 92, 96, 97]
+Deletions: [24, 25, 31, 32, 52, 58, 62, 66, 70, 74, 82, 86, 90]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ForwardingImmutableList.java

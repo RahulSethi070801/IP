@@ -1,0 +1,8 @@
+
+   * Uses a hash table to map keys to value collections.
+   *
+   * <p>The collections returned by {@link Multimap#keySet()}, {@link Multimap#keys()}, and {@link
+   * Multimap#asMap()} will iterate through the keys in the order that they were first added to the
+   * multimap, save that if all values associated with a key are removed and then the key is added
+   * back into the multimap, that key will come last in the key iteration order.
+   

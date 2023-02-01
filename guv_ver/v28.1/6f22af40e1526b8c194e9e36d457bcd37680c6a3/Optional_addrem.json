@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "113": "  public static <T> Optional<T> fromNullable(@NullableDecl T nullableReference) {\n",
+        "207": "  @NullableDecl\n",
+        "254": "  public abstract boolean equals(@NullableDecl Object object);\n"
+    },
+    "removed": {
+        "24": "import javax.annotation.Nullable;\n",
+        "113": "  public static <T> Optional<T> fromNullable(@Nullable T nullableReference) {\n",
+        "207": "  @Nullable\n",
+        "254": "  public abstract boolean equals(@Nullable Object object);\n"
+    }
+}

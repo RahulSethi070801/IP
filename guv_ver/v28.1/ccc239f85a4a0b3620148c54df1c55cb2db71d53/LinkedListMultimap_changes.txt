@@ -1,0 +1,4 @@
+LinkedListMultimap
+Insertions: [193, 197, 833]
+Deletions: [193, 197, 833]
+android/guava/src/com/google/common/collect/LinkedListMultimap.java

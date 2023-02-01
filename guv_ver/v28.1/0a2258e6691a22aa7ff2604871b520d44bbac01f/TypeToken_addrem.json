@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "50": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "292": "  @Nullable\n",
+        "311": "  @Nullable\n",
+        "564": "  @Nullable\n",
+        "823": "  public boolean equals(@Nullable Object o) {\n",
+        "1136": "  @Nullable\n",
+        "1313": "          @Nullable\n",
+        "1332": "          @Nullable\n",
+        "1415": "    @Nullable\n"
+    },
+    "removed": {
+        "50": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "292": "  @NullableDecl\n",
+        "311": "  @NullableDecl\n",
+        "564": "  @NullableDecl\n",
+        "823": "  public boolean equals(@NullableDecl Object o) {\n",
+        "1136": "  @NullableDecl\n",
+        "1313": "          @NullableDecl\n",
+        "1332": "          @NullableDecl\n",
+        "1415": "    @NullableDecl\n"
+    }
+}

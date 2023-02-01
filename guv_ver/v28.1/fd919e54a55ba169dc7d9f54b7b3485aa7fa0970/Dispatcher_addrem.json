@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "69": "  /** Dispatches the given {@code event} to the given {@code subscribers}. */\n",
+        "72": "  /** Implementation of a {@link #perThreadDispatchQueue()} dispatcher. */\n",
+        "77": "    /** Per-thread queue of events to dispatch. */\n",
+        "86": "    /** Per-thread dispatch state, used to avoid reentrant event dispatching. */\n",
+        "129": "  /** Implementation of a {@link #legacyAsync()} dispatcher. */\n",
+        "150": "    /** Global event queue. */\n",
+        "178": "  /** Implementation of {@link #immediate()}. */\n"
+    },
+    "removed": {
+        "69": "  /**\n",
+        "70": "   * Dispatches the given {@code event} to the given {@code subscribers}.\n",
+        "71": "   */\n",
+        "74": "  /**\n",
+        "75": "   * Implementation of a {@link #perThreadDispatchQueue()} dispatcher.\n",
+        "76": "   */\n",
+        "81": "    /**\n",
+        "82": "     * Per-thread queue of events to dispatch.\n",
+        "83": "     */\n",
+        "92": "    /**\n",
+        "93": "     * Per-thread dispatch state, used to avoid reentrant event dispatching.\n",
+        "94": "     */\n",
+        "137": "  /**\n",
+        "138": "   * Implementation of a {@link #legacyAsync()} dispatcher.\n",
+        "139": "   */\n",
+        "160": "    /**\n",
+        "161": "     * Global event queue.\n",
+        "162": "     */\n",
+        "190": "  /**\n",
+        "191": "   * Implementation of {@link #immediate()}.\n",
+        "192": "   */\n"
+    }
+}

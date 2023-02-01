@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "220": "            for (Entry<Range<Integer>, Integer> entry : rangeMap.asMapOfRanges().entrySet()) {\n"
+    },
+    "removed": {
+        "22": "import java.util.Map;\n",
+        "221": "            for (Map.Entry<Range<Integer>, Integer> entry : rangeMap.asMapOfRanges().entrySet()) {\n"
+    }
+}

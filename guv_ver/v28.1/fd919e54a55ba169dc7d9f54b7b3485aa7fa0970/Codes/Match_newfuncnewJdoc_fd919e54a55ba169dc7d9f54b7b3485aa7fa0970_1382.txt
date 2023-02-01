@@ -1,0 +1,4 @@
+
+   * Throws an exception indicating that one or more files couldn't be deleted. The thrown exception
+   * contains all the exceptions in the given collection as suppressed exceptions.
+   

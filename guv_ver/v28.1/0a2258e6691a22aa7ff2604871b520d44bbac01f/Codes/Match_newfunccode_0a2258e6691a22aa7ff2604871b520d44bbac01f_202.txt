@@ -1,0 +1,4 @@
+@Nullable
+public String value() {
+    return System.getProperty(key);
+}

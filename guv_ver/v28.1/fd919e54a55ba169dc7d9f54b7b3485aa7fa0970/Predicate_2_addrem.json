@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "22": " * Legacy version of {@link java.util.function.Predicate}. Determines a true or false value for a\n",
+        "26": " * be used as a {@code Predicate} directly. To use a {@code java.util.function.Predicate} where a\n",
+        "37": " * <p>See the Guava User Guide article on <a\n",
+        "38": " * href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code Predicate}</a>.\n",
+        "52": "   *   <li>Its execution does not cause any observable side effects.\n",
+        "53": "   *   <li>The computation is <i>consistent with equals</i>; that is, {@link Objects#equal\n",
+        "54": "   *       Objects.equal}{@code (a, b)} implies that {@code predicate.apply(a) ==\n",
+        "55": "   *       predicate.apply(b))}.\n"
+    },
+    "removed": {
+        "22": " * Legacy version of {@link java.util.function.Predicate}.  Determines a true or false value for a\n",
+        "26": " * be used as a {@code Predicate} directly.  To use a {@code java.util.function.Predicate} where a\n",
+        "37": " * <p>See the Guava User Guide article on\n",
+        "38": " * <a href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code\n",
+        "39": " * Predicate}</a>.\n",
+        "53": "   * <li>Its execution does not cause any observable side effects.\n",
+        "54": "   * <li>The computation is <i>consistent with equals</i>; that is, {@link Objects#equal\n",
+        "55": "   *     Objects.equal}{@code (a, b)} implies that {@code predicate.apply(a) ==\n",
+        "56": "   *     predicate.apply(b))}.\n"
+    }
+}

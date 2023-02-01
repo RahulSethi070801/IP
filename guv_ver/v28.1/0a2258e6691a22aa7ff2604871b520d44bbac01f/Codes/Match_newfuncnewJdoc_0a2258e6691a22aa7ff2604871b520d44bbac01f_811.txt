@@ -1,0 +1,7 @@
+
+   * A sensible, albeit inefficient, definition of {@link #containsKey} in terms of the {@code
+   * iterator} method of {@link #entrySet}. If you override {@link #entrySet}, you may wish to
+   * override {@link #containsKey} to forward to this implementation.
+   *
+   * @since 7.0
+   

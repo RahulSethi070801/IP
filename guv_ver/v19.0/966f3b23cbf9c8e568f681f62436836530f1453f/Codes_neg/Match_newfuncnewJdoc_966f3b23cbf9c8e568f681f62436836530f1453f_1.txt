@@ -1,0 +1,4 @@
+
+   * Returns the Method that can be used to return the size of a stack, or null if that method
+   * cannot be found (it is only to be found in fairly recent JDKs).
+   

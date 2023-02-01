@@ -1,0 +1,11 @@
+
+   * TODO(cpovirk): Is there any way for us to support TypeParameter instances for type parameters
+   * that have nullable bounds? Unfortunately, if we change the parameter to TypeParameter<? extends
+   * @Nullable X>, then users might pass a TypeParameter<Y>, where Y is a subtype of X, while still
+   * passing a TypeToken<X>. This would be invalid. Maybe we could accept a TypeParameter<@PolyNull
+   * X> if we support such a thing? It would be weird or misleading for users to be able to pass
+   * `new TypeParameter<@Nullable T>() {}` and have it act as a plain `TypeParameter<T>`, but
+   * hopefully no one would do that, anyway. See also the comment on TypeParameter itself.
+   *
+   * TODO(cpovirk): Elaborate on this / merge with other comment?
+   

@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.MoreExecutors
+sequentialExecutor
+public static Executor sequentialExecutor(Executor delegate)
+Executor
+Executor
+com.google.common.util.concurrent.MoreExecutors
+newSequentialExecutor
+public static Executor newSequentialExecutor(Executor delegate)
+Executor
+Executor

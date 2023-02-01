@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public Entry<Range, Object> getEntry(Comparable key) {
+    return null;
+}

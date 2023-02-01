@@ -1,0 +1,3 @@
+public static <T> Supplier<T> ofInstance(@NullableDecl T instance) {
+    return new SupplierOfInstance<T>(instance);
+}

@@ -1,0 +1,4 @@
+LexicographicalOrdering_CustomFieldSerializer
+Insertions: [24]
+Deletions: [24, 25]
+guava-gwt/src/com/google/common/collect/LexicographicalOrdering_CustomFieldSerializer.java

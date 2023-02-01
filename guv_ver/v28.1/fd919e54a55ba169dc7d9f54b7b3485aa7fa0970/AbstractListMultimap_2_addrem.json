@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "27": " * Basic implementation of the {@link ListMultimap} interface. It's a wrapper around {@link\n",
+        "28": " * AbstractMapBasedMultimap} that converts the returned collections into {@code Lists}. The {@link\n",
+        "29": " * #createCollection} method must return a {@code List}.\n",
+        "40": "   * @param map place to store the mapping from each key to its corresponding values\n",
+        "59": "   * <p>Because the values for a given key may have duplicates and follow the insertion ordering,\n",
+        "60": "   * this method returns a {@link List}, instead of the {@link Collection} specified in the {@link\n",
+        "61": "   * Multimap} interface.\n",
+        "71": "   * <p>Because the values for a given key may have duplicates and follow the insertion ordering,\n",
+        "72": "   * this method returns a {@link List}, instead of the {@link Collection} specified in the {@link\n",
+        "73": "   * Multimap} interface.\n",
+        "84": "   * <p>Because the values for a given key may have duplicates and follow the insertion ordering,\n",
+        "85": "   * this method returns a {@link List}, instead of the {@link Collection} specified in the {@link\n",
+        "86": "   * Multimap} interface.\n",
+        "110": "   * <p>Though the method signature doesn't say so explicitly, the returned map has {@link List}\n",
+        "111": "   * values.\n",
+        "121": "   * <p>Two {@code ListMultimap} instances are equal if, for each key, they contain the same values\n",
+        "122": "   * in the same order. If the value orderings disagree, the multimaps will not be considered equal.\n"
+    },
+    "removed": {
+        "27": " * Basic implementation of the {@link ListMultimap} interface. It's a wrapper\n",
+        "28": " * around {@link AbstractMapBasedMultimap} that converts the returned collections into\n",
+        "29": " * {@code Lists}. The {@link #createCollection} method must return a {@code\n",
+        "30": " * List}.\n",
+        "41": "   * @param map place to store the mapping from each key to its corresponding\n",
+        "42": "   *     values\n",
+        "61": "   * <p>Because the values for a given key may have duplicates and follow the\n",
+        "62": "   * insertion ordering, this method returns a {@link List}, instead of the\n",
+        "63": "   * {@link Collection} specified in the {@link Multimap} interface.\n",
+        "73": "   * <p>Because the values for a given key may have duplicates and follow the\n",
+        "74": "   * insertion ordering, this method returns a {@link List}, instead of the\n",
+        "75": "   * {@link Collection} specified in the {@link Multimap} interface.\n",
+        "86": "   * <p>Because the values for a given key may have duplicates and follow the\n",
+        "87": "   * insertion ordering, this method returns a {@link List}, instead of the\n",
+        "88": "   * {@link Collection} specified in the {@link Multimap} interface.\n",
+        "112": "   * <p>Though the method signature doesn't say so explicitly, the returned map\n",
+        "113": "   * has {@link List} values.\n",
+        "123": "   * <p>Two {@code ListMultimap} instances are equal if, for each key, they\n",
+        "124": "   * contain the same values in the same order. If the value orderings disagree,\n",
+        "125": "   * the multimaps will not be considered equal.\n"
+    }
+}

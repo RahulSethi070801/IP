@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "375": "    subsets: for (Set<Range<Integer>> subset : Sets.powerSet(ranges)) {\n",
+        "393": "          ImmutableRangeSet<Integer> unused = builder.add(range).build();\n",
+        "398": "          continue subsets;\n"
+    },
+    "removed": {
+        "375": "    for (Set<Range<Integer>> subset : Sets.powerSet(ranges)) {\n",
+        "393": "          builder.add(range);\n"
+    }
+}

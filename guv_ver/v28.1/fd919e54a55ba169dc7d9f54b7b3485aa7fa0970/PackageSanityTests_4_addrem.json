@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "44": "    public void handle(@Nullable Object anything) {}\n"
+    },
+    "removed": {
+        "44": "    public void handle(@Nullable Object anything) {\n",
+        "45": "    }\n"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "addition": {},
+    "removed": {
+        "104": "  /**\n",
+        "105": "   * {@inheritDoc}\n",
+        "106": "   *\n",
+        "107": "   * <p>The order of iteration for this set is determined by the {@code ElementOrder<N>} provided\n",
+        "108": "   * to the {@code GraphBuilder} that was used to create this instance.\n",
+        "109": "   * By default, that order is the order in which the nodes were added to the graph.\n",
+        "110": "   */\n",
+        "116": "  /**\n",
+        "117": "   * {@inheritDoc}\n",
+        "118": "   *\n",
+        "119": "   * <p>The order of iteration for this set is determined by the {@code ElementOrder<E>} provided\n",
+        "120": "   * to the {@code GraphBuilder} that was used to create this instance.\n",
+        "121": "   * By default, that order is the order in which the edges were added to the graph.\n",
+        "122": "   */\n"
+    }
+}

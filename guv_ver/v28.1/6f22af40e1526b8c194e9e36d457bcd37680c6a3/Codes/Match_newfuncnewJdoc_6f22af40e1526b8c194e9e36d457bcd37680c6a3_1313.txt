@@ -1,0 +1,5 @@
+
+   * Returns the value the specified type is mapped to, or {@code null} if no entry for this type is
+   * present. This will only return a value that was bound to this specific type, not a value that
+   * may have been bound to a subtype.
+   

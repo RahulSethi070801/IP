@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "37": "  void assertModelAgrees(\n",
+        "38": "      List<Integer> list,\n",
+        "39": "      Integer key,\n",
+        "40": "      int answer,\n",
+        "41": "      KeyPresentBehavior presentBehavior,\n",
+        "42": "      KeyAbsentBehavior absentBehavior) {\n",
+        "101": "          assertModelAgrees(\n",
+        "102": "              LIST_WITHOUT_DUPS,\n",
+        "103": "              key,\n",
+        "105": "              presentBehavior,\n",
+        "106": "              absentBehavior);\n",
+        "116": "          assertModelAgrees(\n",
+        "117": "              LIST_WITH_DUPS,\n",
+        "118": "              key,\n",
+        "120": "              presentBehavior,\n",
+        "121": "              absentBehavior);\n"
+    },
+    "removed": {
+        "37": "  void assertModelAgrees(List<Integer> list, Integer key, int answer,\n",
+        "38": "      KeyPresentBehavior presentBehavior, KeyAbsentBehavior absentBehavior) {\n",
+        "97": "          assertModelAgrees(LIST_WITHOUT_DUPS, key,\n",
+        "99": "              presentBehavior, absentBehavior);\n",
+        "109": "          assertModelAgrees(LIST_WITH_DUPS, key,\n",
+        "111": "              presentBehavior, absentBehavior);\n"
+    }
+}

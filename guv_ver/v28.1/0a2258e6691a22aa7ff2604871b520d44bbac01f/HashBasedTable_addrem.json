@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "27": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "109": "  public boolean contains(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "114": "  public boolean containsColumn(@Nullable Object columnKey) {\n",
+        "119": "  public boolean containsRow(@Nullable Object rowKey) {\n",
+        "124": "  public boolean containsValue(@Nullable Object value) {\n",
+        "129": "  public V get(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "134": "  public boolean equals(@Nullable Object obj) {\n",
+        "140": "  public V remove(@Nullable Object rowKey, @Nullable Object columnKey) {\n"
+    },
+    "removed": {
+        "27": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "109": "  public boolean contains(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "114": "  public boolean containsColumn(@NullableDecl Object columnKey) {\n",
+        "119": "  public boolean containsRow(@NullableDecl Object rowKey) {\n",
+        "124": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "129": "  public V get(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "134": "  public boolean equals(@NullableDecl Object obj) {\n",
+        "140": "  public V remove(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n"
+    }
+}

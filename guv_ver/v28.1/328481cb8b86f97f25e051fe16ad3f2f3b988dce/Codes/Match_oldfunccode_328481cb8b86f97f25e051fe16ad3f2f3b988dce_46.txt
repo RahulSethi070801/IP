@@ -1,0 +1,11 @@
+final TypeTable where(Map<TypeVariableKey, ? extends Type> mappings) {
+    ImmutableMap.Builder<TypeVariableKey, Type> builder = ImmutableMap.builder();
+    builder.putAll(map);
+    for (Map.Entry<TypeVariableKey, ? extends Type> mapping : mappings.entrySet()) {
+        TypeVariableKey variable = mapping.getKey();
+        Type type = mapping.getValue();
+        checkArgument(!variable.equalsType(type), "Type variable %s bound to itself", variable);
+        builder.put(variable, type);
+    }
+    return new TypeTable(builder.build());
+}

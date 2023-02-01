@@ -1,0 +1,4 @@
+@NullableDecl
+public static <T> T getLast(Iterator<? extends T> iterator, @NullableDecl T defaultValue) {
+    return iterator.hasNext() ? getLast(iterator) : defaultValue;
+}

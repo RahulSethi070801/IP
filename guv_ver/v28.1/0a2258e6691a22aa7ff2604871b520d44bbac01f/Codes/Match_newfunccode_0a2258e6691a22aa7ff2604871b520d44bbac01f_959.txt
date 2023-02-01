@@ -1,0 +1,4 @@
+@SuppressWarnings("unchecked")
+public static <E> TreeMultiset<E> create(@Nullable Comparator<? super E> comparator) {
+    return (comparator == null) ? new TreeMultiset<E>((Comparator) Ordering.natural()) : new TreeMultiset<E>(comparator);
+}

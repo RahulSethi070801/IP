@@ -1,0 +1,7 @@
+private static <E> Set<E> typePreservingSet(Set<E> set, @Nullable Object mutex) {
+    if (set instanceof SortedSet) {
+        return sortedSet((SortedSet<E>) set, mutex);
+    } else {
+        return set(set, mutex);
+    }
+}

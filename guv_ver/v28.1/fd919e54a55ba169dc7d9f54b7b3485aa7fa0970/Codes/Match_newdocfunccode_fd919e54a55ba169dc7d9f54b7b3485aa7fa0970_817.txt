@@ -1,0 +1,5 @@
+@Beta
+@SuppressWarnings("unchecked")
+public static <K, V> Map<K, Set<V>> asMap(SetMultimap<K, V> multimap) {
+    return (Map<K, Set<V>>) (Map<K, ?>) multimap.asMap();
+}

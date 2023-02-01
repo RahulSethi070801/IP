@@ -1,0 +1,6 @@
+@Override
+public void replaceAll(UnaryOperator<E> operator) {
+    synchronized (mutex) {
+        delegate().replaceAll(operator);
+    }
+}

@@ -1,0 +1,3 @@
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+public static MutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph)
+

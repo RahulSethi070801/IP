@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean removeNode(Object node);

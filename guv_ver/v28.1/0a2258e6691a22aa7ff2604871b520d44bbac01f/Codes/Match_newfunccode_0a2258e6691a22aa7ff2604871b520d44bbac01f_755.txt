@@ -1,0 +1,5 @@
+@GwtIncompatible
+@Override
+public int lastIndexOf(@Nullable Object target) {
+    return indexOf(target);
+}

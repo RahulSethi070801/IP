@@ -1,0 +1,6 @@
+@SuppressWarnings("unchecked")
+@Override
+public V2 get(Object key) {
+    V1 value = fromMap.get(key);
+    return (value != null || fromMap.containsKey(key)) ? transformer.transformEntry((K) key, value) : null;
+}

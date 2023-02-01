@@ -1,0 +1,5 @@
+
+   * Writes all the given bytes to this sink.
+   *
+   * @throws IOException if an I/O occurs in the process of writing to this sink
+   

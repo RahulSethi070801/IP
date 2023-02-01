@@ -1,0 +1,5 @@
+@NullableDecl
+@Override
+public <T extends B> T getInstance(TypeToken<T> type) {
+    return trustedGet(type.rejectTypeVariables());
+}

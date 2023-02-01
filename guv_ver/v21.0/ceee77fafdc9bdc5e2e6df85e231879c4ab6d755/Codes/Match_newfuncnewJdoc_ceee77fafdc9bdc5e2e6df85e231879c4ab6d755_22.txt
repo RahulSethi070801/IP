@@ -1,0 +1,5 @@
+
+   * Performs a traversal of the nodes reachable from {@code node}. If we ever reach a node we've
+   * already visited (following only outgoing edges and without reusing edges), we know there's a
+   * cycle in the graph.
+   

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "44": "  @Nullable private T nextOrNull;\n",
+        "50": "  protected AbstractSequentialIterator(@Nullable T firstOrNull) {\n"
+    },
+    "removed": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "44": "  @NullableDecl private T nextOrNull;\n",
+        "50": "  protected AbstractSequentialIterator(@NullableDecl T firstOrNull) {\n"
+    }
+}

@@ -1,0 +1,24 @@
+@Override
+public void run() {
+    if (isCancelled()) {
+        return;
+    }
+    if (delegate instanceof AbstractFuture) {
+        AbstractFuture<? extends V> other = (AbstractFuture<? extends V>) delegate;
+        value = other.value;
+        throwable = other.throwable;
+        mayInterruptIfRunning = other.mayInterruptIfRunning;
+        state = other.state;
+        notifyAndClearListeners();
+        return;
+    }
+    try {
+        forceSet(getDone(delegate));
+    } catch (ExecutionException exception) {
+        forceSetException(exception.getCause());
+    } catch (CancellationException cancellation) {
+        cancel(false);
+    } catch (Throwable t) {
+        forceSetException(t);
+    }
+}

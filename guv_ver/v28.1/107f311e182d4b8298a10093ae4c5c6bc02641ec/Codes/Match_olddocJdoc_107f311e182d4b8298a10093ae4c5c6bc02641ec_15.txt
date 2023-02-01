@@ -1,0 +1,36 @@
+
+   * Returns a new {@code Future} whose result is derived from the result of the given {@code
+   * Future}. If {@code input} fails, the returned {@code Future} fails with the same exception (and
+   * the function is not invoked). Example usage:
+   *
+   * <pre>   {@code
+   *   ListenableFuture<QueryResult> queryFuture = ...;
+   *   Function<QueryResult, List<Row>> rowsFunction =
+   *       new Function<QueryResult, List<Row>>() {
+   *         public List<Row> apply(QueryResult queryResult) {
+   *           return queryResult.getRows();
+   *         }
+   *       };
+   *   ListenableFuture<List<Row>> rowsFuture =
+   *       transform(queryFuture, rowsFunction, executor);}</pre>
+   *
+   * <p>When selecting an executor, note that {@code directExecutor} is dangerous in some cases. See
+   * the discussion in the {@link ListenableFuture#addListener ListenableFuture.addListener}
+   * documentation. The documentation's warnings about "lightweight listeners" refer here to the
+   * work done during {@code Function.apply}.
+   *
+   * <p>The returned {@code Future} attempts to keep its cancellation state in sync with that of the
+   * input future. That is, if the returned {@code Future} is cancelled, it will attempt to cancel
+   * the input, and if the input is cancelled, the returned {@code Future} will receive a callback
+   * in which it will attempt to cancel itself.
+   *
+   * <p>An example use of this method is to convert a serializable object returned from an RPC into
+   * a POJO.
+   *
+   * @param input The future to transform
+   * @param function A Function to transform the results of the provided future to the results of
+   *     the returned future.
+   * @param executor Executor to run the function in.
+   * @return A future that holds result of the transformation.
+   * @since 9.0 (in 2.0 as {@code compose})
+   

@@ -1,0 +1,5 @@
+public static URL getResource(Class<?> contextClass, String resourceName) {
+    URL url = contextClass.getResource(resourceName);
+    checkArgument(url != null, "resource %s relative to %s not found.", resourceName, contextClass.getName());
+    return url;
+}

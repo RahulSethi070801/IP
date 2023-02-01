@@ -1,0 +1,16 @@
+@Override
+public List<V> get(@Nullable final K key) {
+    return new AbstractSequentialList<V>() {
+
+        @Override
+        public int size() {
+            KeyList<K, V> keyList = keyToKeyList.get(key);
+            return (keyList == null) ? 0 : keyList.count;
+        }
+
+        @Override
+        public ListIterator<V> listIterator(int index) {
+            return new ValueForKeyIterator(key, index);
+        }
+    };
+}

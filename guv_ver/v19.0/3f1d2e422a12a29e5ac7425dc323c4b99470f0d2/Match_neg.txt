@@ -1,0 +1,6 @@
+public static void skipFully(InputStream in, long n) throws IOException
+public ByteSource slice(long offset, long length)
+
+static long skipUpTo(InputStream in, final long n) throws IOException
+public ByteSource slice(long offset, long length)
+

@@ -1,0 +1,13 @@
+static int indexOfImpl(List<?> list, @NullableDecl Object element) {
+    if (list instanceof RandomAccess) {
+        return indexOfRandomAccess(list, element);
+    } else {
+        ListIterator<?> listIterator = list.listIterator();
+        while (listIterator.hasNext()) {
+            if (Objects.equal(element, listIterator.next())) {
+                return listIterator.previousIndex();
+            }
+        }
+        return -1;
+    }
+}

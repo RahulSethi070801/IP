@@ -1,0 +1,4 @@
+ImmutableBiMap
+Insertions: [133, 134, 135, 136, 137, 138, 139, 140, 233, 234, 235, 256, 257, 258, 263, 264, 281, 282, 311, 312]
+Deletions: [225, 250, 267, 296, 297]
+android/guava/src/com/google/common/collect/ImmutableBiMap.java

@@ -1,0 +1,4 @@
+ConfigurableGraph
+Insertions: [32, 56, 68, 80]
+Deletions: [32, 56, 68, 80]
+guava/src/com/google/common/graph/ConfigurableGraph.java

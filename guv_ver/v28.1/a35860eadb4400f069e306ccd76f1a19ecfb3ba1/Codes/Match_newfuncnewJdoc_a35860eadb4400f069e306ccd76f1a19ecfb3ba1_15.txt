@@ -1,0 +1,5 @@
+
+   * Remove {@code edge} from the set of incoming edges. Returns the former predecessor node.
+   *
+   * <p>In the undirected case, returns {@code null} if {@code isSelfLoop} is true.
+   

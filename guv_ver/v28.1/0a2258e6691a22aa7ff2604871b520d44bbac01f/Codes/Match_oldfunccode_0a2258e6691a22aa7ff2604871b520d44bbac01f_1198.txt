@@ -1,0 +1,9 @@
+@NullableDecl
+private static Collection<IOException> concat(@NullableDecl Collection<IOException> exceptions, @NullableDecl Collection<IOException> other) {
+    if (exceptions == null) {
+        return other;
+    } else if (other != null) {
+        exceptions.addAll(other);
+    }
+    return exceptions;
+}

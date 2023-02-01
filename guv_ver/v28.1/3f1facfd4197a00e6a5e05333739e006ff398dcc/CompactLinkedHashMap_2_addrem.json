@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "56": "  /** Creates an empty {@code CompactLinkedHashMap} instance. */\n",
+        "62": "   * Creates a {@code CompactLinkedHashMap} instance, with a high enough \"initial capacity\" that it\n",
+        "63": "   * <i>should</i> hold {@code expectedSize} elements without growth.\n",
+        "67": "   *     expectedSize} elements without resizing\n",
+        "87": "  /** Pointer to the first node in the linked list, or {@code ENDPOINT} if there are no entries. */\n",
+        "90": "  /** Pointer to the last node in the linked list, or {@code ENDPOINT} if there are no entries. */\n"
+    },
+    "removed": {
+        "56": "  /**\n",
+        "57": "   * Creates an empty {@code CompactLinkedHashMap} instance.\n",
+        "58": "   */\n",
+        "64": "   * Creates a {@code CompactLinkedHashMap} instance, with a high enough \"initial capacity\"\n",
+        "65": "   * that it <i>should</i> hold {@code expectedSize} elements without growth.\n",
+        "69": "   *         expectedSize} elements without resizing\n",
+        "89": "  /**\n",
+        "90": "   * Pointer to the first node in the linked list, or {@code ENDPOINT} if there are no entries.\n",
+        "91": "   */\n",
+        "94": "  /**\n",
+        "95": "   * Pointer to the last node in the linked list, or {@code ENDPOINT} if there are no entries.\n",
+        "96": "   */\n"
+    }
+}

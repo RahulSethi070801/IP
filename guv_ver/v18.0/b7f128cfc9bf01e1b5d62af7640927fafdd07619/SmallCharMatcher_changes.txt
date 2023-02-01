@@ -1,0 +1,4 @@
+SmallCharMatcher
+Insertions: []
+Deletions: [90, 143]
+guava/src/com/google/common/base/SmallCharMatcher.java

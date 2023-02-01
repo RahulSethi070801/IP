@@ -1,0 +1,3 @@
+public final double sampleStandardDeviation() {
+    return Math.sqrt(sampleVariance());
+}

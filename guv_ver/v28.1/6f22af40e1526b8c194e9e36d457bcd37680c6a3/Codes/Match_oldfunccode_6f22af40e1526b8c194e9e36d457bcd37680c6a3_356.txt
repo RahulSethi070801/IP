@@ -1,0 +1,25 @@
+@Override
+public Collection<V> remove(@Nullable Object key) {
+    Collection<V> collection = unfiltered.asMap().get(key);
+    if (collection == null) {
+        return null;
+    }
+    @SuppressWarnings("unchecked")
+    K k = (K) key;
+    List<V> result = Lists.newArrayList();
+    Iterator<V> itr = collection.iterator();
+    while (itr.hasNext()) {
+        V v = itr.next();
+        if (satisfies(k, v)) {
+            itr.remove();
+            result.add(v);
+        }
+    }
+    if (result.isEmpty()) {
+        return null;
+    } else if (unfiltered instanceof SetMultimap) {
+        return Collections.unmodifiableSet(Sets.newLinkedHashSet(result));
+    } else {
+        return Collections.unmodifiableList(result);
+    }
+}

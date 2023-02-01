@@ -1,0 +1,4 @@
+SingletonImmutableBiMap
+Insertions: [47]
+Deletions: [47, 48]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/SingletonImmutableBiMap.java

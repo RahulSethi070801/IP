@@ -1,0 +1,9 @@
+
+   * Returns an {@code ImmutableMultiset} containing all of the elements from this fluent iterable.
+   *
+   * <p><b>{@code Stream} equivalent:</b> pass {@link ImmutableMultiset#toImmutableMultiset} to
+   * {@code
+   * stream.collect()}.
+   *
+   * @since 19.0
+   

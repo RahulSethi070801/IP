@@ -1,0 +1,4 @@
+CacheManualTest
+Insertions: [23]
+Deletions: [23, 24, 25]
+android/guava-tests/test/com/google/common/cache/CacheManualTest.java

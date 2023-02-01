@@ -1,0 +1,9 @@
+
+   * Returns an immutable cell with the specified row key, column key, and value.
+   *
+   * <p>The returned cell is serializable.
+   *
+   * @param rowKey the row key to be associated with the returned cell
+   * @param columnKey the column key to be associated with the returned cell
+   * @param value the value to be associated with the returned cell
+   

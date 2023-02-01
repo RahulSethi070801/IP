@@ -1,0 +1,4 @@
+HashCode
+Insertions: [27, 372]
+Deletions: [27, 372]
+guava/src/com/google/common/hash/HashCode.java

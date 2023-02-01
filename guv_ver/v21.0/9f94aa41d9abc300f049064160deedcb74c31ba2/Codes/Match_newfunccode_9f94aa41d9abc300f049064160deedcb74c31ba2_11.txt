@@ -1,0 +1,17 @@
+@GuardedBy("this")
+@Nullable
+ReferenceEntry<K, V> removeEntryFromChain(ReferenceEntry<K, V> first, ReferenceEntry<K, V> entry) {
+    int newCount = count;
+    ReferenceEntry<K, V> newFirst = entry.getNext();
+    for (ReferenceEntry<K, V> e = first; e != entry; e = e.getNext()) {
+        ReferenceEntry<K, V> next = copyEntry(e, newFirst);
+        if (next != null) {
+            newFirst = next;
+        } else {
+            removeCollectedEntry(e);
+            newCount--;
+        }
+    }
+    this.count = newCount;
+    return newFirst;
+}

@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "57": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "614": "  @Nullable\n",
+        "643": "  @Nullable\n",
+        "662": "  @Nullable\n",
+        "689": "  @Nullable\n",
+        "709": "  @Nullable\n",
+        "756": "      @Nullable Collection<IOException> exceptions, IOException e) {\n",
+        "769": "  @Nullable\n",
+        "771": "      @Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other) {\n"
+    },
+    "removed": {
+        "57": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "614": "  @NullableDecl\n",
+        "643": "  @NullableDecl\n",
+        "662": "  @NullableDecl\n",
+        "689": "  @NullableDecl\n",
+        "709": "  @NullableDecl\n",
+        "756": "      @NullableDecl Collection<IOException> exceptions, IOException e) {\n",
+        "769": "  @NullableDecl\n",
+        "771": "      @NullableDecl Collection<IOException> exceptions,\n",
+        "772": "      @NullableDecl Collection<IOException> other) {\n"
+    }
+}

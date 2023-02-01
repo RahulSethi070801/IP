@@ -1,0 +1,5 @@
+public final void scan(ClassLoader classloader) throws IOException {
+    for (Map.Entry<File, ClassLoader> entry : getClassPathEntries(classloader).entrySet()) {
+        scan(entry.getKey(), entry.getValue());
+    }
+}

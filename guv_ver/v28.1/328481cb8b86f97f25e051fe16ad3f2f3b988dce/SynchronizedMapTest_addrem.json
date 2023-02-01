@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "28": "import java.util.Map.Entry;\n",
+        "197": "    Set<Entry<String, Integer>> entrySet = map.entrySet();\n"
+    },
+    "removed": {
+        "196": "    Set<Map.Entry<String, Integer>> entrySet = map.entrySet();\n"
+    }
+}

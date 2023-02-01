@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "27": "/** Benchmark for {@code BaseEncoding} performance. */\n",
+        "46": "  @Param EncodingOption encoding;\n",
+        "64": "  @Benchmark\n",
+        "65": "  public int encode(int reps) {\n",
+        "73": "  @Benchmark\n",
+        "74": "  public int decode(int reps) {\n",
+        "82": "  @Benchmark\n",
+        "83": "  public int encodingStream(int reps) throws IOException {\n",
+        "95": "  @Benchmark\n",
+        "96": "  public int decodingStream(int reps) throws IOException {\n"
+    },
+    "removed": {
+        "27": "/**\n",
+        "28": " * Benchmark for {@code BaseEncoding} performance.\n",
+        "29": " */\n",
+        "48": "  @Param\n",
+        "49": "  EncodingOption encoding;\n",
+        "67": "  @Benchmark public int encode(int reps) {\n",
+        "75": "  @Benchmark public int decode(int reps) {\n",
+        "83": "  @Benchmark public int encodingStream(int reps) throws IOException {\n",
+        "95": "  @Benchmark public int decodingStream(int reps) throws IOException {\n"
+    }
+}

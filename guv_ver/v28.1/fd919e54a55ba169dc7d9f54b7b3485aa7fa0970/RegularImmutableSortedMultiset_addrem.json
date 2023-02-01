@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "40": "  @VisibleForTesting final transient RegularImmutableSortedSet<E> elementSet;\n"
+    },
+    "removed": {
+        "40": "  @VisibleForTesting\n",
+        "41": "  final transient RegularImmutableSortedSet<E> elementSet;\n"
+    }
+}

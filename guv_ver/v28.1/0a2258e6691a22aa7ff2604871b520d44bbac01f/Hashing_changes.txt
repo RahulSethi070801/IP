@@ -1,0 +1,4 @@
+Hashing
+Insertions: [21, 53]
+Deletions: [21, 53]
+guava/src/com/google/common/collect/Hashing.java

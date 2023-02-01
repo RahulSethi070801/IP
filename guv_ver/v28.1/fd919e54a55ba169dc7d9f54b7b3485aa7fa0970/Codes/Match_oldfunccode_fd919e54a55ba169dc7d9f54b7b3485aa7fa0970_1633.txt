@@ -1,0 +1,7 @@
+static long getSignificand(double d) {
+    checkArgument(isFinite(d), "not a normal value");
+    int exponent = getExponent(d);
+    long bits = doubleToRawLongBits(d);
+    bits &= SIGNIFICAND_MASK;
+    return (exponent == MIN_EXPONENT - 1) ? bits << 1 : bits | IMPLICIT_BIT;
+}

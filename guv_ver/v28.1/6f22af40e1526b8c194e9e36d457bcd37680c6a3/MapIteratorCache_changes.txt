@@ -1,0 +1,4 @@
+MapIteratorCache
+Insertions: [28, 50, 57, 63, 73, 78, 82, 113, 121]
+Deletions: [28, 50, 57, 63, 73, 78, 82, 113, 121]
+android/guava/src/com/google/common/graph/MapIteratorCache.java

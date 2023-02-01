@@ -1,0 +1,4 @@
+ImmutableBiMap
+Insertions: [92]
+Deletions: [92]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableBiMap.java

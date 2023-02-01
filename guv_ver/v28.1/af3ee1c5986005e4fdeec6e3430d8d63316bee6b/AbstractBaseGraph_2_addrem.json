@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "22": "import static com.google.common.graph.GraphConstants.ENDPOINTS_MISMATCH;\n",
+        "93": "        return isOrderingCompatible(endpointPair)\n",
+        "135": "  @Override\n",
+        "136": "  public boolean hasEdgeConnecting(EndpointPair<N> endpoints) {\n",
+        "137": "    checkNotNull(endpoints);\n",
+        "138": "    if (!isOrderingCompatible(endpoints)) {\n",
+        "139": "      return false;\n",
+        "140": "    }\n",
+        "141": "    N nodeU = endpoints.nodeU();\n",
+        "142": "    N nodeV = endpoints.nodeV();\n",
+        "143": "    return nodes().contains(nodeU) && successors(nodeU).contains(nodeV);\n",
+        "144": "  }\n",
+        "145": "\n",
+        "146": "  /**\n",
+        "147": "   * Throws {@code IllegalArgumentException} if the ordering of {@code endpoints} is not compatible\n",
+        "148": "   * with the directionality of this graph.\n",
+        "149": "   */\n",
+        "150": "  protected final void validateEndpoints(EndpointPair<?> endpoints) {\n",
+        "151": "    checkNotNull(endpoints);\n",
+        "152": "    checkArgument(isOrderingCompatible(endpoints), ENDPOINTS_MISMATCH);\n",
+        "153": "  }\n",
+        "154": "\n",
+        "155": "  protected final boolean isOrderingCompatible(EndpointPair<?> endpoints) {\n",
+        "156": "    return endpoints.isOrdered() || !this.isDirected();\n",
+        "157": "  }\n",
+        "158": "\n"
+    },
+    "removed": {
+        "92": "        return isDirected() == endpointPair.isOrdered()\n"
+    }
+}

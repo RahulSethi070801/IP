@@ -1,0 +1,4 @@
+Suppliers
+Insertions: [258]
+Deletions: [258, 259, 260]
+android/guava/src/com/google/common/base/Suppliers.java

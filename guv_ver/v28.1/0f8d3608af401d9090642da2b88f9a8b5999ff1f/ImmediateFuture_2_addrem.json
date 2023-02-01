@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "31": "abstract class ImmediateFuture<V> implements ListenableFuture<V> {\n"
+    },
+    "removed": {
+        "31": "abstract class ImmediateFuture<V> extends FluentFuture<V> {\n"
+    }
+}

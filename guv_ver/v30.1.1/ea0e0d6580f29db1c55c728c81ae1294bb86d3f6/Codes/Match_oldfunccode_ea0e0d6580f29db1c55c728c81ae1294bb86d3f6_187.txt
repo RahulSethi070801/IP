@@ -1,0 +1,13 @@
+@GwtIncompatible
+private void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException {
+    stream.defaultReadObject();
+    @SuppressWarnings("unchecked")
+    Comparator<? super E> comparator = (Comparator<? super E>) stream.readObject();
+    Serialization.getFieldSetter(AbstractSortedMultiset.class, "comparator").set(this, comparator);
+    Serialization.getFieldSetter(TreeMultiset.class, "range").set(this, GeneralRange.all(comparator));
+    Serialization.getFieldSetter(TreeMultiset.class, "rootReference").set(this, new Reference<AvlNode<E>>());
+    AvlNode<E> header = new AvlNode<E>(null, 1);
+    Serialization.getFieldSetter(TreeMultiset.class, "header").set(this, header);
+    successor(header, header);
+    Serialization.populateMultiset(this, stream);
+}

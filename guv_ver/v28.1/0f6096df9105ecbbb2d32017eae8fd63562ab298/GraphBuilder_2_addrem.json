@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "74": "    return new GraphBuilder<N>(graph.isDirected())\n"
+    },
+    "removed": {
+        "74": "    return new GraphBuilder<Object>(graph.isDirected())\n"
+    }
+}

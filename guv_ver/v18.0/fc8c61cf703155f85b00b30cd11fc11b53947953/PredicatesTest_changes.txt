@@ -1,0 +1,4 @@
+PredicatesTest
+Insertions: [162, 167, 176, 181, 200, 212, 220, 232, 241, 253, 288, 293, 302, 308, 330, 342, 350, 362, 378, 390, 539]
+Deletions: [162, 167, 176, 181, 200, 212, 220, 232, 241, 253, 288, 293, 302, 308, 330, 342, 350, 362, 378, 390, 539]
+guava-gwt/test-super/com/google/common/base/super/com/google/common/base/PredicatesTest.java

@@ -1,0 +1,4 @@
+TestsForListsInJavaUtil
+Insertions: [19, 20, 25, 96, 100, 101, 102]
+Deletions: [93, 97]
+guava-testlib/src/com/google/common/collect/testing/TestsForListsInJavaUtil.java

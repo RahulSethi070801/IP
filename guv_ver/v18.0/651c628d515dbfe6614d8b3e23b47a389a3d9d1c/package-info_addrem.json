@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "179": " * <li>{@link com.google.common.collect.RangeMap}\n",
+        "219": " * <li>{@link com.google.common.collect.ForwardingSortedMultiset}\n"
+    },
+    "removed": {
+        "180": " * <li>{@link com.google.common.collect.DiscreteDomains}\n"
+    }
+}

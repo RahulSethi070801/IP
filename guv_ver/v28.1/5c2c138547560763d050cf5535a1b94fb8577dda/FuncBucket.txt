@@ -1,0 +1,40 @@
+com.google.common.base.CharMatcher
+javaLetterOrDigit
+public static CharMatcher javaLetterOrDigit()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+javaLowerCase
+public static CharMatcher javaLowerCase()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+javaDigit
+public static CharMatcher javaDigit()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+javaUpperCase
+public static CharMatcher javaUpperCase()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+singleWidth
+public static CharMatcher singleWidth()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+invisible
+public static CharMatcher invisible()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+javaLetter
+public static CharMatcher javaLetter()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+digit
+public static CharMatcher digit()
+empty
+CharMatcher

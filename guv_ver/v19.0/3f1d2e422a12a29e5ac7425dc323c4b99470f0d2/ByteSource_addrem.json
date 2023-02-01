@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "108": "   * starting at the given {@code offset}. If {@code offset} is greater than the size of this\n",
+        "109": "   * source, the returned source will be empty. If {@code offset + length} is greater than the size\n",
+        "110": "   * of this source, the returned source will contain the slice starting at {@code offset} and\n",
+        "111": "   * ending at the end of this source.\n",
+        "498": "        long skipped;\n",
+        "500": "          skipped = ByteStreams.skipUpTo(in, offset);\n",
+        "510": "\n",
+        "511": "        if (skipped < offset) {\n",
+        "512": "          // offset was beyond EOF\n",
+        "513": "          in.close();\n",
+        "514": "          return new ByteArrayInputStream(new byte[0]);\n",
+        "515": "        }\n"
+    },
+    "removed": {
+        "108": "   * starting at the given {@code offset}.\n",
+        "496": "          ByteStreams.skipFully(in, offset);\n"
+    }
+}

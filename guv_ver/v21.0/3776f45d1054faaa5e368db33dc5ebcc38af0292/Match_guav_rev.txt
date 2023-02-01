@@ -1,0 +1,36 @@
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public int size()
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static Endpoints<N> of(Network<?, ?> network, N nodeA, N nodeB)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+

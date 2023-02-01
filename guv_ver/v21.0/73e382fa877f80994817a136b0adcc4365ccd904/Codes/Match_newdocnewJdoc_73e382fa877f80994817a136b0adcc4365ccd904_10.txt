@@ -1,0 +1,7 @@
+
+   * Returns a fluent iterable that wraps {@code iterable}, or {@code iterable} itself if it is
+   * already a {@code FluentIterable}.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@link Collection#stream} if {@code iterable} is a
+   * {@link Collection}; {@link Streams#stream(Iterable)} otherwise.
+   

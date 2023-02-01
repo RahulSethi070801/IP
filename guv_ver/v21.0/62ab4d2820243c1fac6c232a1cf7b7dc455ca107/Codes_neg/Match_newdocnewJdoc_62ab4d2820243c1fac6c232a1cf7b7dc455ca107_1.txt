@@ -1,0 +1,5 @@
+
+   * The hashcode of the {@link Endpoints} of a directed edge is equal to
+   * {@code Objects.hashCode(source(), target())}. The hashcode of the {@link Endpoints}
+   * of an undirected edge is equal to {@code nodeA().hashCode() ^ nodeB().hashCode()}.
+   

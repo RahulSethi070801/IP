@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "54": "  @Benchmark\n",
+        "55": "  int pow(int reps) {\n",
+        "64": "  @Benchmark\n",
+        "65": "  int mod(int reps) {\n",
+        "74": "  @Benchmark\n",
+        "75": "  int gCD(int reps) {\n",
+        "84": "  @Benchmark\n",
+        "85": "  int factorial(int reps) {\n",
+        "94": "  @Benchmark\n",
+        "95": "  int binomial(int reps) {\n",
+        "104": "  @Benchmark\n",
+        "105": "  int isPrime(int reps) {\n"
+    },
+    "removed": {
+        "54": "  @Benchmark int pow(int reps) {\n",
+        "63": "  @Benchmark int mod(int reps) {\n",
+        "72": "  @Benchmark int gCD(int reps) {\n",
+        "81": "  @Benchmark int factorial(int reps) {\n",
+        "90": "  @Benchmark int binomial(int reps) {\n",
+        "99": "  @Benchmark int isPrime(int reps) {\n"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "37": " * <p>An evicting queue must be configured with a maximum size. Each time an element is added to a\n",
+        "38": " * full queue, the queue automatically removes its head element. This is different from conventional\n",
+        "39": " * bounded queues, which either block or reject new elements when full.\n",
+        "71": "   * Returns the number of additional elements that this queue can accept without evicting; zero if\n",
+        "72": "   * the queue is currently full.\n"
+    },
+    "removed": {
+        "37": " * <p>An evicting queue must be configured with a maximum size. Each time an element is added\n",
+        "38": " * to a full queue, the queue automatically removes its head element. This is different from\n",
+        "39": " * conventional bounded queues, which either block or reject new elements when full.\n",
+        "71": "   * Returns the number of additional elements that this queue can accept without evicting;\n",
+        "72": "   * zero if the queue is currently full.\n"
+    }
+}

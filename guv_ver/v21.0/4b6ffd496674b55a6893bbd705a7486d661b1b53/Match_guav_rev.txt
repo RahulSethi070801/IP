@@ -1,0 +1,45 @@
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b)
+public static Iterator<T> concat(final Iterator<? extends Iterator<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b)
+public static Iterator<T> concat(Iterator<? extends Iterator<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b)
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c)
+public static Iterator<T> concat(final Iterator<? extends Iterator<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c)
+public static Iterator<T> concat(Iterator<? extends Iterator<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c)
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T>... inputs)
+public static Iterator<T> concat(final Iterator<? extends Iterator<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T>... inputs)
+public static Iterator<T> concat(Iterator<? extends Iterator<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T>... inputs)
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+
+public static SetView<E> union(final Set<? extends E> set1, final Set<? extends E> set2)
+public static Iterator<T> concat(final Iterator<? extends Iterator<? extends T>> inputs)
+
+public static SetView<E> union(final Set<? extends E> set1, final Set<? extends E> set2)
+public static Iterator<T> concat(Iterator<? extends Iterator<? extends T>> inputs)
+
+public static SetView<E> union(final Set<? extends E> set1, final Set<? extends E> set2)
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c, Iterator<? extends T> d)
+public static Iterator<T> concat(final Iterator<? extends Iterator<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c, Iterator<? extends T> d)
+public static Iterator<T> concat(Iterator<? extends Iterator<? extends T>> inputs)
+
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c, Iterator<? extends T> d)
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+

@@ -1,0 +1,40 @@
+com.google.common.hash.Hashing
+crc32
+public static HashFunction crc32()
+empty
+HashFunction
+com.google.common.hash.Hashing
+adler32
+public static HashFunction adler32()
+empty
+HashFunction
+com.google.common.hash.Hashing
+sha384
+public static HashFunction sha384()
+empty
+HashFunction
+com.google.common.hash.Hashing
+farmHashFingerprint64
+public static HashFunction farmHashFingerprint64()
+empty
+HashFunction
+com.google.common.hash.Hashing
+sha256
+public static HashFunction sha256()
+empty
+HashFunction
+com.google.common.hash.Hashing
+sha512
+public static HashFunction sha512()
+empty
+HashFunction
+com.google.common.hash.Hashing
+crc32c
+public static HashFunction crc32c()
+empty
+HashFunction
+com.google.common.hash.Hashing
+goodFastHash
+public static HashFunction goodFastHash(int minimumBits)
+int
+HashFunction

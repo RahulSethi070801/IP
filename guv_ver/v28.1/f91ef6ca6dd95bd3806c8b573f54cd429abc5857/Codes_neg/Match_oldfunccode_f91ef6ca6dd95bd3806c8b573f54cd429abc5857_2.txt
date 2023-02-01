@@ -1,0 +1,16 @@
+@Override
+protected T computeNext() {
+    while (!stack.isEmpty()) {
+        T node = stack.getLast();
+        if (hasExpandedLeft.get(stack.size() - 1)) {
+            stack.removeLast();
+            hasExpandedLeft.clear(stack.size());
+            pushIfPresent(stack, rightChild(node));
+            return node;
+        } else {
+            hasExpandedLeft.set(stack.size() - 1);
+            pushIfPresent(stack, leftChild(node));
+        }
+    }
+    return endOfData();
+}

@@ -1,0 +1,4 @@
+
+   * Adds {@code elem} as a candidate for the top {@code k} elements. This operation takes amortized
+   * O(1) time.
+   

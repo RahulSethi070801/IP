@@ -1,0 +1,215 @@
+com.google.common.base.JdkPattern$JdkMatcher
+find
+boolean find()
+empty
+boolean
+com.google.common.primitives.Doubles
+fpPattern
+private static Pattern fpPattern()
+empty
+Pattern
+com.google.common.base.CommonMatcher
+start
+public abstract int start()
+empty
+int
+com.google.common.base.CommonMatcher
+end
+abstract int end()
+empty
+int
+com.google.common.base.JdkPattern
+pattern
+public String pattern()
+empty
+String
+com.google.common.base.JdkPattern
+flags
+int flags()
+empty
+int
+com.google.common.primitives.Doubles
+fpPattern
+private static java.util.regex.Pattern fpPattern()
+empty
+java.util.regex.Pattern
+com.google.common.base.JdkPattern
+matcher
+public CommonMatcher matcher(CharSequence t)
+CharSequence
+CommonMatcher
+com.google.common.base.CommonMatcher
+end
+public abstract int end()
+empty
+int
+com.google.common.base.JdkPattern$JdkMatcher
+replaceAll
+public String replaceAll(String replacement)
+String
+String
+com.google.common.base.CommonMatcher
+replaceAll
+abstract String replaceAll(String replacement)
+String
+String
+com.google.common.base.JdkPattern
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.base.JdkPattern$JdkMatcher
+replaceAll
+String replaceAll(String replacement)
+String
+String
+com.google.common.base.JdkPattern$JdkMatcher
+find
+public boolean find()
+empty
+boolean
+com.google.common.base.CommonPattern
+equals
+public abstract boolean equals(Object o)
+Object
+boolean
+com.google.common.base.CommonPattern
+flags
+abstract int flags()
+empty
+int
+com.google.common.base.CommonMatcher
+replaceAll
+public abstract String replaceAll(String replacement)
+String
+String
+com.google.common.base.CommonMatcher
+start
+abstract int start()
+empty
+int
+com.google.common.base.CommonMatcher
+find
+public abstract boolean find()
+empty
+boolean
+com.google.common.base.CommonPattern
+matcher
+abstract CommonMatcher matcher(CharSequence t)
+CharSequence
+CommonMatcher
+com.google.common.base.CommonPattern
+pattern
+abstract String pattern()
+empty
+String
+com.google.common.base.JdkPattern$JdkMatcher
+start
+int start()
+empty
+int
+com.google.common.base.CommonPattern
+flags
+public abstract int flags()
+empty
+int
+com.google.common.base.JdkPattern$JdkMatcher
+start
+public int start()
+empty
+int
+com.google.common.base.CommonPattern
+pattern
+public abstract String pattern()
+empty
+String
+com.google.common.base.JdkPattern$JdkMatcher
+find
+boolean find(int index)
+int
+boolean
+com.google.common.base.CommonMatcher
+matches
+abstract boolean matches()
+empty
+boolean
+com.google.common.base.JdkPattern
+equals
+public boolean equals(Object o)
+Object
+boolean
+com.google.common.base.JdkPattern$JdkMatcher
+matches
+public boolean matches()
+empty
+boolean
+com.google.common.base.JdkPattern
+flags
+public int flags()
+empty
+int
+com.google.common.base.CommonMatcher
+find
+abstract boolean find()
+empty
+boolean
+com.google.common.base.JdkPattern$JdkMatcher
+end
+int end()
+empty
+int
+com.google.common.base.JdkPattern
+pattern
+String pattern()
+empty
+String
+com.google.common.base.CommonMatcher
+find
+public abstract boolean find(int index)
+int
+boolean
+com.google.common.base.CommonPattern
+compile
+static CommonPattern compile(String pattern)
+String
+CommonPattern
+com.google.common.base.JdkPattern$JdkMatcher
+find
+public boolean find(int index)
+int
+boolean
+com.google.common.base.CommonMatcher
+matches
+public abstract boolean matches()
+empty
+boolean
+com.google.common.base.CommonPattern
+hashCode
+public abstract int hashCode()
+empty
+int
+com.google.common.base.CommonMatcher
+find
+abstract boolean find(int index)
+int
+boolean
+com.google.common.base.CommonPattern
+matcher
+public abstract CommonMatcher matcher(CharSequence t)
+CharSequence
+CommonMatcher
+com.google.common.base.JdkPattern
+matcher
+CommonMatcher matcher(CharSequence t)
+CharSequence
+CommonMatcher
+com.google.common.base.JdkPattern$JdkMatcher
+end
+public int end()
+empty
+int
+com.google.common.base.JdkPattern$JdkMatcher
+matches
+boolean matches()
+empty
+boolean

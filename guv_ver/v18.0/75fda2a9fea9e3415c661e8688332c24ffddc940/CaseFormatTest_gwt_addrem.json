@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "21": "public void testConverterToBackward() throws Exception {\n",
+        "22": "  com.google.common.base.CaseFormatTest testCase = new com.google.common.base.CaseFormatTest();\n",
+        "23": "  testCase.testConverterToBackward();\n",
+        "24": "}\n",
+        "25": "\n",
+        "26": "public void testConverterToForward() throws Exception {\n",
+        "27": "  com.google.common.base.CaseFormatTest testCase = new com.google.common.base.CaseFormatTest();\n",
+        "28": "  testCase.testConverterToForward();\n",
+        "29": "}\n",
+        "30": "\n",
+        "31": "public void testConverter_nullConversions() throws Exception {\n",
+        "32": "  com.google.common.base.CaseFormatTest testCase = new com.google.common.base.CaseFormatTest();\n",
+        "33": "  testCase.testConverter_nullConversions();\n",
+        "34": "}\n"
+    },
+    "removed": {}
+}

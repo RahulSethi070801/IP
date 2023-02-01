@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "1287": "   * @param template a string containing 0 or more {@code %s} placeholders. null is treated as\n",
+        "1288": "   *     \"null\".\n",
+        "1293": "  static String format(@Nullable String template, @Nullable Object... args) {\n",
+        "1296": "    args = args == null ? new Object[]{\"(Object[])null\"} : args;\n",
+        "1297": "\n"
+    },
+    "removed": {
+        "151": "   * @throws NullPointerException if the check fails and either {@code errorMessageTemplate} or\n",
+        "152": "   *     {@code errorMessageArgs} is null (don't let this happen)\n",
+        "476": "   * @throws NullPointerException if the check fails and either {@code errorMessageTemplate} or\n",
+        "477": "   *     {@code errorMessageArgs} is null (don't let this happen)\n",
+        "829": "      // If either of these parameters is null, the right thing happens anyway\n",
+        "1292": "   * @param template a non-null string containing 0 or more {@code %s} placeholders.\n",
+        "1297": "  static String format(String template, @Nullable Object... args) {\n"
+    }
+}

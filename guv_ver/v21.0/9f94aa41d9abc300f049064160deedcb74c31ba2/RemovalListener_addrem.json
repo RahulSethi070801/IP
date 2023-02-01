@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "22": " * due to eviction resulting from timed expiration, exceeding a maximum size, or garbage collection.\n",
+        "28": " * @param <K> the most general type of keys this listener can listen for; for example {@code Object}\n",
+        "29": " *     if any key is acceptable\n",
+        "30": " * @param <V> the most general type of values this listener can listen for; for example\n",
+        "31": " *     {@code Object} if any key is acceptable\n",
+        "40": "   * <p>This does not always signify that the key is now absent from the cache, as it may have\n",
+        "41": "   * already been re-added.\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "24": " * due to eviction resulting from timed expiration, exceeding a maximum size, or garbage\n",
+        "25": " * collection.\n",
+        "31": " * @param <K> the most general type of keys this listener can listen for; for\n",
+        "32": " *     example {@code Object} if any key is acceptable\n",
+        "33": " * @param <V> the most general type of values this listener can listen for; for\n",
+        "34": " *     example {@code Object} if any key is acceptable\n",
+        "43": "   * <p>This does not always signify that the key is now absent from the cache,\n",
+        "44": "   * as it may have already been re-added.\n"
+    }
+}

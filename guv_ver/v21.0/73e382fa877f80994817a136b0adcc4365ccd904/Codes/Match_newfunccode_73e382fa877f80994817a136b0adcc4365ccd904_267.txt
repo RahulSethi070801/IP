@@ -1,0 +1,4 @@
+@Override
+public boolean removeAll(final Collection<?> collection) {
+    return removeIf(collection::contains);
+}

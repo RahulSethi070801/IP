@@ -1,0 +1,40 @@
+com.google.common.graph.GraphBuilder
+GraphBuilder
+private GraphBuilder(boolean directed)
+boolean
+constructor
+com.google.common.graph.NetworkBuilder
+directed
+public static NetworkBuilder<Object, Object> directed()
+empty
+NetworkBuilder
+com.google.common.graph.NetworkBuilder
+NetworkBuilder
+private NetworkBuilder(boolean directed)
+boolean
+constructor
+com.google.common.graph.GraphBuilder
+nodeOrder
+public GraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+ElementOrder
+GraphBuilder
+com.google.common.graph.BasicGraphBuilder
+BasicGraphBuilder
+private BasicGraphBuilder(boolean directed)
+boolean
+constructor
+com.google.common.graph.NetworkBuilder
+allowsSelfLoops
+public NetworkBuilder<N, E> allowsSelfLoops(boolean allowsSelfLoops)
+boolean
+NetworkBuilder
+com.google.common.graph.NetworkBuilder
+undirected
+public static NetworkBuilder<Object, Object> undirected()
+empty
+NetworkBuilder
+com.google.common.graph.NetworkBuilder
+allowsParallelEdges
+public NetworkBuilder<N, E> allowsParallelEdges(boolean allowsParallelEdges)
+boolean
+NetworkBuilder

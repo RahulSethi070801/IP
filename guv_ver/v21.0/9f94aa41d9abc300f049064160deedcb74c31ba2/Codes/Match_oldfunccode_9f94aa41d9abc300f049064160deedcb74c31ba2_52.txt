@@ -1,0 +1,5 @@
+@Override
+protected void parseInteger(CacheBuilderSpec spec, int value) {
+    checkArgument(spec.initialCapacity == null, "initial capacity was already set to ", spec.initialCapacity);
+    spec.initialCapacity = value;
+}

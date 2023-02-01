@@ -1,0 +1,25 @@
+@CheckForNull
+private AvlNode<E> deleteMe() {
+    int oldElemCount = this.elemCount;
+    this.elemCount = 0;
+    successor(pred(), succ());
+    if (left == null) {
+        return right;
+    } else if (right == null) {
+        return left;
+    } else if (left.height >= right.height) {
+        AvlNode<E> newTop = pred();
+        newTop.left = left.removeMax(newTop);
+        newTop.right = right;
+        newTop.distinctElements = distinctElements - 1;
+        newTop.totalCount = totalCount - oldElemCount;
+        return newTop.rebalance();
+    } else {
+        AvlNode<E> newTop = succ();
+        newTop.right = right.removeMin(newTop);
+        newTop.left = left;
+        newTop.distinctElements = distinctElements - 1;
+        newTop.totalCount = totalCount - oldElemCount;
+        return newTop.rebalance();
+    }
+}

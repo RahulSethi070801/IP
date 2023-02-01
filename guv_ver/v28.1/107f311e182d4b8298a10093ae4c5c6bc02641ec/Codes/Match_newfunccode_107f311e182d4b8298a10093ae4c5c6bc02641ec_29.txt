@@ -1,0 +1,4 @@
+@Override
+public boolean isCancelled() {
+    return delegate.isCancelled();
+}

@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #equals(Object)} in terms of {@link #size} and {@link
+   * #iterator}. If you override either of those methods, you may wish to override {@link
+   * #equals(Object)} to forward to this implementation.
+   *
+   * @since 7.0
+   

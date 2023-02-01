@@ -1,0 +1,4 @@
+LongMathBenchmark_2
+Insertions: [52, 56, 57, 66, 67, 76, 77, 86, 87, 96, 97, 106, 107]
+Deletions: [52, 53, 57, 66, 75, 84, 93, 102]
+guava-tests/benchmark/com/google/common/math/LongMathBenchmark.java

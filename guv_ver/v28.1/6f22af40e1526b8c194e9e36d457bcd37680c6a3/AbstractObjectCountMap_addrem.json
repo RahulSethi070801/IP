@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "32": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "67": "  abstract int put(@NullableDecl K key, int value);\n",
+        "77": "  abstract int get(@NullableDecl Object key);\n",
+        "91": "  abstract int remove(@NullableDecl Object key);\n",
+        "104": "  abstract boolean containsKey(@NullableDecl Object key);\n",
+        "130": "  abstract int indexOf(@NullableDecl Object key);\n",
+        "249": "    public boolean contains(@NullableDecl Object o) {\n",
+        "259": "    public boolean remove(@NullableDecl Object o) {\n",
+        "278": "    @NullableDecl final K key;\n"
+    },
+    "removed": {
+        "32": "import javax.annotation.Nullable;\n",
+        "67": "  abstract int put(@Nullable K key, int value);\n",
+        "77": "  abstract int get(@Nullable Object key);\n",
+        "91": "  abstract int remove(@Nullable Object key);\n",
+        "104": "  abstract boolean containsKey(@Nullable Object key);\n",
+        "130": "  abstract int indexOf(@Nullable Object key);\n",
+        "249": "    public boolean contains(@Nullable Object o) {\n",
+        "259": "    public boolean remove(@Nullable Object o) {\n",
+        "278": "    @Nullable final K key;\n"
+    }
+}

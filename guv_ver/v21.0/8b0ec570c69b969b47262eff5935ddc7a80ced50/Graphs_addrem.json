@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "412": "   * Returns a {@link Predicate} that returns {@code true} if the input edge is a self-loop in\n",
+        "414": "   * element. The predicate's {@code apply} method will throw an {@link IllegalArgumentException} if\n",
+        "417": "  public static <E> Predicate<E> selfLoopPredicate(final Graph<?, E> graph) {\n",
+        "422": "        return (graph.incidentNodes(edge).size() == 1);\n"
+    },
+    "removed": {
+        "21": "import static com.google.common.base.Preconditions.checkState;\n",
+        "413": "   * Returns a {@link Predicate} that returns {@code true} if the input edge is not a self-loop in\n",
+        "415": "   * element. The predicate's {@code apply} method will throw a {@link IllegalStateException} if\n",
+        "418": "  public static <E> Predicate<E> noSelfLoopPredicate(final Graph<?, E> graph) {\n",
+        "423": "        checkState(graph.edges().contains(edge), \"Graph does not contain edge %s\", edge);\n",
+        "424": "        return graph.incidentNodes(edge).size() != 1;\n"
+    }
+}

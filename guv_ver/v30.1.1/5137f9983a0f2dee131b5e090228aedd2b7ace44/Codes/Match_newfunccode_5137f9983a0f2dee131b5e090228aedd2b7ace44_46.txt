@@ -1,0 +1,9 @@
+@Override
+@CheckForNull
+public String readLine() {
+    try {
+        return input.readLine();
+    } catch (IOException e) {
+        throw new IllegalStateException(e);
+    }
+}

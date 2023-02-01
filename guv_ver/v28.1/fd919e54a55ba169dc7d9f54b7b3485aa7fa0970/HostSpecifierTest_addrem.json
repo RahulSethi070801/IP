@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "28": " * {@link TestCase} for {@link HostSpecifier}. This is a relatively cursory test, as HostSpecifier\n",
+        "29": " * is a thin wrapper around {@link InetAddresses} and {@link InternetDomainName}; the unit tests for\n",
+        "30": " * those classes explore numerous corner cases. The intent here is to confirm that everything is\n",
+        "31": " * wired up properly.\n",
+        "76": "        .addEqualityGroup(spec(\"2001:db8::1\"), spec(\"2001:db8::1\"), spec(\"[2001:db8::1]\"))\n",
+        "95": "    HostSpecifier.fromValid(spec); // Throws exception if not working correctly\n"
+    },
+    "removed": {
+        "28": " * {@link TestCase} for {@link HostSpecifier}.  This is a relatively\n",
+        "29": " * cursory test, as HostSpecifier is a thin wrapper around\n",
+        "30": " * {@link InetAddresses} and {@link InternetDomainName}; the unit tests for\n",
+        "31": " * those classes explore numerous corner cases.  The intent here is to\n",
+        "32": " * confirm that everything is wired up properly.\n",
+        "77": "        .addEqualityGroup(\n",
+        "78": "            spec(\"2001:db8::1\"), spec(\"2001:db8::1\"), spec(\"[2001:db8::1]\"))\n",
+        "97": "    HostSpecifier.fromValid(spec);  // Throws exception if not working correctly\n"
+    }
+}

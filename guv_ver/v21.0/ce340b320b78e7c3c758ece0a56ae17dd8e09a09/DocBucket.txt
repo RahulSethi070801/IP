@@ -1,0 +1,30 @@
+com.google.common.graph.Network
+edges
+Set<E> edges()
+empty
+Set
+com.google.common.graph.Network
+hashCode
+int hashCode()
+empty
+int
+com.google.common.graph.AbstractConfigurableNetwork
+nodes
+public Set<N> nodes()
+empty
+Set
+com.google.common.graph.Graph
+nodes
+Set<N> nodes()
+empty
+Set
+com.google.common.graph.Network
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.AbstractConfigurableNetwork
+edges
+public Set<E> edges()
+empty
+Set

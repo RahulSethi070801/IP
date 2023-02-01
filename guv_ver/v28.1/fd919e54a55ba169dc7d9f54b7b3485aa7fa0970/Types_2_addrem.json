@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "99": "  /** Returns a type where {@code rawType} is parameterized by {@code arguments}. */\n",
+        "168": "   *\n",
+        "170": "   *   <li>For array type {@code Foo[]}, {@code \"com.mypackage.Foo[]\"} are returned.\n",
+        "171": "   *   <li>For any class, {@code theClass.getName()} are returned.\n",
+        "172": "   *   <li>For all other types, {@code type.toString()} are returned.\n",
+        "352": "   * on its instance of {@code TypeVariableImpl}. Otherwise it throws {@link\n",
+        "353": "   * UnsupportedOperationException}; this should only apply to {@code getAnnotatedBounds()}. This\n",
+        "354": "   * does mean that users on Java 8 who obtain an instance of {@code TypeVariable} from {@link\n",
+        "355": "   * TypeResolver#resolveType} will not be able to call {@code getAnnotatedBounds()} on it, but that\n",
+        "356": "   * should hopefully be rare.\n",
+        "676": "        !NativeTypeVariableEquals.class.getTypeParameters()[0].equals(\n",
+        "677": "            newArtificialTypeVariable(NativeTypeVariableEquals.class, \"X\"));\n"
+    },
+    "removed": {
+        "99": "  /**\n",
+        "100": "   * Returns a type where {@code rawType} is parameterized by {@code arguments}.\n",
+        "101": "   */\n",
+        "171": "   * <li>For array type {@code Foo[]}, {@code \"com.mypackage.Foo[]\"} are returned.\n",
+        "172": "   * <li>For any class, {@code theClass.getName()} are returned.\n",
+        "173": "   * <li>For all other types, {@code type.toString()} are returned.\n",
+        "353": "   * on its instance of {@code TypeVariableImpl}. Otherwise it throws\n",
+        "354": "   * {@link UnsupportedOperationException}; this should only apply to {@code getAnnotatedBounds()}.\n",
+        "355": "   * This does mean that users on Java 8 who obtain an instance of {@code TypeVariable} from\n",
+        "356": "   * {@link TypeResolver#resolveType} will not be able to call {@code getAnnotatedBounds()} on it,\n",
+        "357": "   * but that should hopefully be rare.\n",
+        "677": "        !NativeTypeVariableEquals.class.getTypeParameters()[0]\n",
+        "678": "            .equals(newArtificialTypeVariable(NativeTypeVariableEquals.class, \"X\"));\n"
+    }
+}

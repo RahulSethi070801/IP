@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "32": "    extends FluentFuture.TrustedFuture<V> implements Runnable {\n"
+    },
+    "removed": {
+        "32": "    extends AbstractFuture.TrustedFuture<V> implements Runnable {\n"
+    }
+}

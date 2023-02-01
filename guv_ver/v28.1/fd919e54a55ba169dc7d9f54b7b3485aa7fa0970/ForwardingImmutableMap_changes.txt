@@ -1,0 +1,4 @@
+ForwardingImmutableMap
+Insertions: [72, 73, 76, 77, 80, 81, 82, 83, 92, 93, 94, 106, 107, 111, 112, 116, 117, 121, 122, 126, 127, 131, 132]
+Deletions: [72, 75, 78, 79, 80, 89, 101, 105, 109, 113, 117, 121]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ForwardingImmutableMap.java

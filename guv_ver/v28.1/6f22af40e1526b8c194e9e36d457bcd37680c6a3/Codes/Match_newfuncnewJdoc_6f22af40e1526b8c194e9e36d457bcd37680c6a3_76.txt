@@ -1,0 +1,8 @@
+
+   * Ensures the truth of an expression involving the state of the calling instance, but not
+   * involving any parameters to the calling method.
+   *
+   * <p>See {@link #checkState(boolean, String, Object...)} for details.
+   *
+   * @since 20.0 (varargs overload since 2.0)
+   

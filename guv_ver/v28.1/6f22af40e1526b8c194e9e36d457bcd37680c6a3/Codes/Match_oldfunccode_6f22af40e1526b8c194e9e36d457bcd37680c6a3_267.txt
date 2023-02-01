@@ -1,0 +1,4 @@
+@Override
+public V get(@Nullable Object rowKey, @Nullable Object columnKey) {
+    return (rowKey == null || columnKey == null) ? null : super.get(rowKey, columnKey);
+}

@@ -1,0 +1,8 @@
+
+     * Returns a {@link Scheduler} that schedules the task using the 
+     * {@link ScheduledExecutorService#scheduleAtFixedRate} method.
+     * 
+     * @param initialDelay the time to delay first execution
+     * @param period the period between successive executions of the task
+     * @param unit the time unit of the initialDelay and period parameters
+     

@@ -1,0 +1,12 @@
+@GwtIncompatible
+public static <T> Iterable<T> filter(final Iterable<?> unfiltered, final Class<T> desiredType) {
+    checkNotNull(unfiltered);
+    checkNotNull(desiredType);
+    return new FluentIterable<T>() {
+
+        @Override
+        public Iterator<T> iterator() {
+            return Iterators.filter(unfiltered.iterator(), desiredType);
+        }
+    };
+}

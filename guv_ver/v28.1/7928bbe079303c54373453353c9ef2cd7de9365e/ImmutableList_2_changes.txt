@@ -1,0 +1,4 @@
+ImmutableList_2
+Insertions: [299, 300, 301, 302]
+Deletions: []
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableList.java

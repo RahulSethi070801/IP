@@ -1,0 +1,4 @@
+@Deprecated
+public static <E> ImmutableSortedMultiset.Builder<E> builder() {
+    throw new UnsupportedOperationException();
+}

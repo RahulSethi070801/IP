@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "50": "  public Set<V> get(@Nullable K key) {\n",
+        "56": "  public Set<V> removeAll(@Nullable Object key) {\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "50": "  public Set<V> get(@NullableDecl K key) {\n",
+        "56": "  public Set<V> removeAll(@NullableDecl Object key) {\n"
+    }
+}

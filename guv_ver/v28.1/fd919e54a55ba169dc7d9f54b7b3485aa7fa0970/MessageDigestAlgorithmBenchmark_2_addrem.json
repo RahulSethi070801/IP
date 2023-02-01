@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "33": " *   <li>size: The length of the byte array to hash.\n",
+        "34": " *   <li>algorithm: the algorithm to hash with (e.g. MD5, SHA1, etc.).\n",
+        "35": " *   <li>hashMethod: how to hash the data (using the Hashing API or the MessageDigest API).\n",
+        "41": "  @Param({\"10\", \"1000\", \"100000\", \"1000000\"})\n",
+        "42": "  int size;\n",
+        "43": "\n",
+        "49": "      @Override\n",
+        "50": "      public byte[] hash(Algorithm algorithm, byte[] input) {\n",
+        "57": "      @Override\n",
+        "58": "      public byte[] hash(Algorithm algorithm, byte[] input) {\n",
+        "63": "      @Override\n",
+        "64": "      public byte[] hash(Algorithm algorithm, byte[] input) {\n",
+        "67": "    };\n",
+        "68": "    ;\n",
+        "69": "\n",
+        "106": "  @BeforeExperiment\n",
+        "107": "  void setUp() {\n",
+        "112": "  @Benchmark\n",
+        "113": "  byte hashing(int reps) {\n"
+    },
+    "removed": {
+        "33": " * <li>size: The length of the byte array to hash.\n",
+        "34": " * <li>algorithm: the algorithm to hash with (e.g. MD5, SHA1, etc.).\n",
+        "35": " * <li>hashMethod: how to hash the data (using the Hashing API or the MessageDigest API).\n",
+        "41": "  @Param({\"10\", \"1000\", \"100000\", \"1000000\"}) int size;\n",
+        "47": "      @Override public byte[] hash(Algorithm algorithm, byte[] input) {\n",
+        "54": "      @Override public byte[] hash(Algorithm algorithm, byte[] input) {\n",
+        "59": "      @Override public byte[] hash(Algorithm algorithm, byte[] input) {\n",
+        "62": "    };;\n",
+        "96": "  @BeforeExperiment void setUp() {\n",
+        "101": "  @Benchmark byte hashing(int reps) {\n"
+    }
+}

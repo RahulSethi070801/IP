@@ -1,0 +1,5 @@
+
+   * Reads the full contents of this byte source as a byte array.
+   *
+   * @throws IOException if an I/O error occurs in the process of reading from this source
+   

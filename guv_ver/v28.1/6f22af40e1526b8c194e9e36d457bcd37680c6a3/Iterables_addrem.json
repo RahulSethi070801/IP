@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "39": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "121": "  public static boolean contains(Iterable<?> iterable, @NullableDecl Object element) {\n",
+        "240": "  @NullableDecl\n",
+        "304": "  @NullableDecl\n",
+        "305": "  public static <T> T getOnlyElement(Iterable<? extends T> iterable, @NullableDecl T defaultValue) {\n",
+        "372": "  public static int frequency(Iterable<?> iterable, @NullableDecl Object element) {\n",
+        "661": "  @NullableDecl\n",
+        "663": "      Iterable<? extends T> iterable,\n",
+        "664": "      Predicate<? super T> predicate,\n",
+        "665": "      @NullableDecl T defaultValue) {\n",
+        "756": "  @NullableDecl\n",
+        "757": "  public static <T> T get(\n",
+        "758": "      Iterable<? extends T> iterable, int position, @NullableDecl T defaultValue) {\n",
+        "788": "  @NullableDecl\n",
+        "789": "  public static <T> T getFirst(Iterable<? extends T> iterable, @NullableDecl T defaultValue) {\n",
+        "826": "  @NullableDecl\n",
+        "827": "  public static <T> T getLast(Iterable<? extends T> iterable, @NullableDecl T defaultValue) {\n"
+    },
+    "removed": {
+        "39": "import javax.annotation.Nullable;\n",
+        "121": "  public static boolean contains(Iterable<?> iterable, @Nullable Object element) {\n",
+        "240": "  @Nullable\n",
+        "304": "  @Nullable\n",
+        "305": "  public static <T> T getOnlyElement(Iterable<? extends T> iterable, @Nullable T defaultValue) {\n",
+        "372": "  public static int frequency(Iterable<?> iterable, @Nullable Object element) {\n",
+        "661": "  @Nullable\n",
+        "663": "      Iterable<? extends T> iterable, Predicate<? super T> predicate, @Nullable T defaultValue) {\n",
+        "754": "  @Nullable\n",
+        "755": "  public static <T> T get(Iterable<? extends T> iterable, int position, @Nullable T defaultValue) {\n",
+        "785": "  @Nullable\n",
+        "786": "  public static <T> T getFirst(Iterable<? extends T> iterable, @Nullable T defaultValue) {\n",
+        "823": "  @Nullable\n",
+        "824": "  public static <T> T getLast(Iterable<? extends T> iterable, @Nullable T defaultValue) {\n"
+    }
+}

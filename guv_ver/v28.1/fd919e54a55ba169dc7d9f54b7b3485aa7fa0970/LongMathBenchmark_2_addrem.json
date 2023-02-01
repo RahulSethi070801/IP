@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "52": "      binomialArguments[i][0] = RANDOM_SOURCE.nextInt(MathBenchmarking.biggestBinomials[k] - k) + k;\n",
+        "56": "  @Benchmark\n",
+        "57": "  int pow(int reps) {\n",
+        "66": "  @Benchmark\n",
+        "67": "  int mod(int reps) {\n",
+        "76": "  @Benchmark\n",
+        "77": "  int gCD(int reps) {\n",
+        "86": "  @Benchmark\n",
+        "87": "  int factorial(int reps) {\n",
+        "96": "  @Benchmark\n",
+        "97": "  int binomial(int reps) {\n",
+        "106": "  @Benchmark\n",
+        "107": "  int isPrime(int reps) {\n"
+    },
+    "removed": {
+        "52": "      binomialArguments[i][0] =\n",
+        "53": "          RANDOM_SOURCE.nextInt(MathBenchmarking.biggestBinomials[k] - k) + k;\n",
+        "57": "  @Benchmark int pow(int reps) {\n",
+        "66": "  @Benchmark int mod(int reps) {\n",
+        "75": "  @Benchmark int gCD(int reps) {\n",
+        "84": "  @Benchmark int factorial(int reps) {\n",
+        "93": "  @Benchmark int binomial(int reps) {\n",
+        "102": "  @Benchmark int isPrime(int reps) {\n"
+    }
+}

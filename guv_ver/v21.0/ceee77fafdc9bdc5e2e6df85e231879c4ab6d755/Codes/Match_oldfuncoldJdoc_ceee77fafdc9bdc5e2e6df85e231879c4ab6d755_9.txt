@@ -1,0 +1,11 @@
+
+   * Returns the set of nodes that are reachable from {@code node}. Node B is defined as reachable
+   * from node A if there exists a path (a sequence of adjacent outgoing edges) starting at node A
+   * and ending at node B. Note that a node is always reachable from itself via a zero-length path.
+   *
+   * <p>This is a "snapshot" based on the current topology of {@code graph}, rather than a live
+   * view of the set of nodes reachable from {@code node}. In other words, the returned {@link Set}
+   * will not be updated after modifications to {@code graph}.
+   *
+   * @throws IllegalArgumentException if {@code node} is not present in {@code graph}
+   

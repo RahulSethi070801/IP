@@ -1,0 +1,14 @@
+@SuppressWarnings("unchecked")
+public static <K extends Comparable<?>, V> ImmutableRangeMap<K, V> copyOf(RangeMap<K, ? extends V> rangeMap) {
+    if (rangeMap instanceof ImmutableRangeMap) {
+        return (ImmutableRangeMap<K, V>) rangeMap;
+    }
+    Map<Range<K>, ? extends V> map = rangeMap.asMapOfRanges();
+    ImmutableList.Builder<Range<K>> rangesBuilder = new ImmutableList.Builder<Range<K>>(map.size());
+    ImmutableList.Builder<V> valuesBuilder = new ImmutableList.Builder<V>(map.size());
+    for (Entry<Range<K>, ? extends V> entry : map.entrySet()) {
+        rangesBuilder.add(entry.getKey());
+        valuesBuilder.add(entry.getValue());
+    }
+    return new ImmutableRangeMap<K, V>(rangesBuilder.build(), valuesBuilder.build());
+}

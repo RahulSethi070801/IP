@@ -1,0 +1,4 @@
+ImmutableCollection_2
+Insertions: [32, 33, 34, 158, 159, 160, 161, 162, 163, 164, 174, 175, 176, 177, 178, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 502, 503, 504, 505, 506, 507, 508, 509, 510]
+Deletions: []
+guava/src/com/google/common/collect/ImmutableCollection.java

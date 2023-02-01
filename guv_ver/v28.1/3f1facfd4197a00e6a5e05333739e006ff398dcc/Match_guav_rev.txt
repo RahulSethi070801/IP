@@ -1,0 +1,12 @@
+private static Type canonicalizeTypeArg(TypeVariable<?> declaration, Type typeArg)
+public static void checkState(boolean expression, @Nullable String errorMessageTemplate, @Nullable Object@Nullable ... errorMessageArgs)
+
+private static Type canonicalizeTypeArg(TypeVariable<?> declaration, Type typeArg)
+public static T checkNotNull(T reference, @Nullable String errorMessageTemplate, Object@Nullable ... errorMessageArgs)
+
+private static Type canonicalizeTypeArg(TypeVariable<?> declaration, Type typeArg)
+public static String lenientFormat(@Nullable String template, @Nullable Object@Nullable ... args)
+
+private static Type canonicalizeTypeArg(TypeVariable<?> declaration, Type typeArg)
+public static T checkNotNull(T reference, @Nullable String errorMessageTemplate, Object@Nullable ... errorMessageArgs)
+

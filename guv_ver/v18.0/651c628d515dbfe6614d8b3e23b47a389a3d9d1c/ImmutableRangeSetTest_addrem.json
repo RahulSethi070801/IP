@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "78": "      return builder.build().asSet(DiscreteDomain.integers());\n",
+        "119": "        .named(\"ImmutableRangeSet.asSet[DiscreteDomain.integers[]]\")\n",
+        "131": "        .named(\"ImmutableRangeSet.asSet[DiscreteDomain.bigIntegers[]]\")\n",
+        "392": "    ImmutableSortedSet<Integer> asSet = rangeSet.asSet(DiscreteDomain.integers());\n",
+        "408": "    ImmutableSortedSet<Integer> asSet = rangeSet.asSet(DiscreteDomain.integers());\n",
+        "425": "    ImmutableSortedSet<Integer> asSet = rangeSet.asSet(DiscreteDomain.integers());\n",
+        "442": "    ImmutableSortedSet<Integer> asSet = rangeSet.asSet(DiscreteDomain.integers());\n"
+    },
+    "removed": {
+        "78": "      return builder.build().asSet(DiscreteDomains.integers());\n",
+        "119": "        .named(\"ImmutableRangeSet.asSet[DiscreteDomains.integers[]]\")\n",
+        "131": "        .named(\"ImmutableRangeSet.asSet[DiscreteDomains.bigIntegers[]]\")\n",
+        "392": "    ImmutableSortedSet<Integer> asSet = rangeSet.asSet(DiscreteDomains.integers());\n",
+        "408": "    ImmutableSortedSet<Integer> asSet = rangeSet.asSet(DiscreteDomains.integers());\n",
+        "425": "    ImmutableSortedSet<Integer> asSet = rangeSet.asSet(DiscreteDomains.integers());\n",
+        "442": "    ImmutableSortedSet<Integer> asSet = rangeSet.asSet(DiscreteDomains.integers());\n"
+    }
+}

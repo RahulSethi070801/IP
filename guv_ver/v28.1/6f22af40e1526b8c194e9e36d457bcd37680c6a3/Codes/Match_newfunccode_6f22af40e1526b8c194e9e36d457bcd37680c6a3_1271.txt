@@ -1,0 +1,3 @@
+public final Predicate<T> equivalentTo(@NullableDecl T target) {
+    return new EquivalentToPredicate<T>(this, target);
+}

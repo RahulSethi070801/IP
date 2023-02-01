@@ -1,0 +1,5 @@
+@SuppressWarnings("unchecked")
+@Override
+public L getAt(int index) {
+    return (L) array[index];
+}

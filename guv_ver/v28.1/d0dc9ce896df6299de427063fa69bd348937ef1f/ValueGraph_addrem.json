@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "242": "   * Returns {@code true} iff {@code object} is a {@link ValueGraph} that has the same elements and\n",
+        "243": "   * the same structural relationships as those in this graph.\n",
+        "245": "   * <p>Thus, two value graphs A and B are equal if <b>all</b> of the following are true:\n",
+        "246": "   *\n",
+        "247": "   * <ul>\n",
+        "248": "   * <li>A and B have equal {@link #isDirected() directedness}.\n",
+        "249": "   * <li>A and B have equal {@link #nodes() node sets}.\n",
+        "250": "   * <li>A and B have equal {@link #edges() edge sets}.\n",
+        "251": "   * <li>Every edge in A and B are associated with equal {@link #edgeValue(Object, Object) values}.\n",
+        "252": "   * </ul>\n",
+        "253": "   *\n",
+        "254": "   * <p>Graph properties besides {@link #isDirected() directedness} do <b>not</b> affect equality.\n",
+        "255": "   * For example, two graphs may be considered equal even if one allows self-loops and the other\n",
+        "256": "   * doesn't. Additionally, the order in which nodes or edges are added to the graph, and the order\n",
+        "257": "   * in which they are iterated over, are irrelevant.\n",
+        "258": "   *\n",
+        "259": "   * <p>A reference implementation of this is provided by {@link AbstractValueGraph#equals(Object)}.\n",
+        "265": "   * Returns the hash code for this graph. The hash code of a graph is defined as the hash code of a\n",
+        "266": "   * map from each of its {@link #edges() edges} to the associated {@link #edgeValue(Object, Object)\n",
+        "267": "   * edge value}.\n",
+        "268": "   *\n",
+        "269": "   * <p>A reference implementation of this is provided by {@link AbstractValueGraph#hashCode()}.\n"
+    },
+    "removed": {
+        "242": "   * For the default {@link ValueGraph} implementations, returns true if {@code this == object}\n",
+        "243": "   * (reference equality). External implementations are free to define this method as they see fit,\n",
+        "244": "   * as long as they satisfy the {@link Object#equals(Object)} contract.\n",
+        "246": "   * <p>To compare two {@link ValueGraph}s based on their contents rather than their references, see\n",
+        "247": "   * {@link Graphs#equivalent(ValueGraph, ValueGraph)}.\n",
+        "253": "   * For the default {@link ValueGraph} implementations, returns {@code\n",
+        "254": "   * System.identityHashCode(this)}. External implementations are free to define this method as they\n",
+        "255": "   * see fit, as long as they satisfy the {@link Object#hashCode()} contract.\n"
+    }
+}

@@ -1,0 +1,8 @@
+
+   * Appends the contents of this source to the given {@link Appendable} (such as a {@link Writer}).
+   * Does not close {@code appendable} if it is {@code Closeable}.
+   *
+   * @return the number of characters copied
+   * @throws IOException if an I/O error occurs while reading from this source or writing to
+   *     {@code appendable}
+   

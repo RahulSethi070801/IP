@@ -1,0 +1,6 @@
+public void checkAndSet(@NullableDecl T expected, T newValue) {
+    if (value != expected) {
+        throw new ConcurrentModificationException();
+    }
+    value = newValue;
+}

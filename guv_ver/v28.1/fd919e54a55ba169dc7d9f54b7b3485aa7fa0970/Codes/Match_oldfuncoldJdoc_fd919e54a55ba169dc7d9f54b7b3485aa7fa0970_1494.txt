@@ -1,0 +1,8 @@
+
+   * Creates an {@link AsyncCallable} from a {@link Callable}.
+   *
+   * <p>The {@link AsyncCallable} returns the {@link ListenableFuture} resulting from
+   * {@link ListeningExecutorService#submit(Callable)}.
+   *
+   * @since 20.0
+   

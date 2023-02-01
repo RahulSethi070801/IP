@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "20": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "29": "  @Nullable private transient CacheEntry<K, V> cacheEntry1;\n",
+        "30": "  @Nullable private transient CacheEntry<K, V> cacheEntry2;\n",
+        "38": "  public V get(@Nullable Object key) {\n",
+        "54": "  protected V getIfCached(@Nullable Object key) {\n"
+    },
+    "removed": {
+        "20": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "29": "  @NullableDecl private transient CacheEntry<K, V> cacheEntry1;\n",
+        "30": "  @NullableDecl private transient CacheEntry<K, V> cacheEntry2;\n",
+        "38": "  public V get(@NullableDecl Object key) {\n",
+        "54": "  protected V getIfCached(@NullableDecl Object key) {\n"
+    }
+}

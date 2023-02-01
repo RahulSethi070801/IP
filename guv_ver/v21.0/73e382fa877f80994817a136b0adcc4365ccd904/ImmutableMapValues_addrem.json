@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "20": "\n",
+        "26": "import java.util.Spliterator;\n",
+        "27": "import java.util.function.Consumer;\n",
+        "66": "  @Override public Spliterator<V> spliterator() {\n",
+        "67": "    return CollectSpliterators.map(map.entrySet().spliterator(), Entry::getValue);\n",
+        "68": "  }\n",
+        "69": "\n",
+        "96": "  @GwtIncompatible // serialization\n",
+        "97": "  @Override\n",
+        "98": "  public void forEach(Consumer<? super V> action) {\n",
+        "99": "    checkNotNull(action);\n",
+        "100": "    map.forEach((k, v) -> action.accept(v));\n",
+        "101": "  }\n",
+        "102": "\n"
+    },
+    "removed": {}
+}

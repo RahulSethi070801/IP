@@ -1,0 +1,6 @@
+{
+    "addition": {
+        "157": "      assertThat(graph.edgesConnecting(node1, node2)).contains(edge);\n"
+    },
+    "removed": {}
+}

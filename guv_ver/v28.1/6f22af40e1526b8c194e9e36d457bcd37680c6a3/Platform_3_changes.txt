@@ -1,0 +1,4 @@
+Platform_3
+Insertions: [24, 55]
+Deletions: [22, 55]
+guava-gwt/src-super/com/google/common/base/super/com/google/common/base/Platform.java

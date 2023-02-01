@@ -1,0 +1,5 @@
+@Override
+@Nullable
+ImmutableMapEntry<K, V> getNextInValueBucket() {
+    return nextInValueBucket;
+}

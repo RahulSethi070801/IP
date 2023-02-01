@@ -1,0 +1,3 @@
+public final <K> ImmutableMap<K, E> uniqueIndex(Function<? super E, K> keyFunction) {
+    return Maps.uniqueIndex(getDelegate(), keyFunction);
+}

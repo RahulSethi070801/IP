@@ -1,0 +1,7 @@
+
+   * Creates a new, empty {@code HashMultiset} with the specified expected number of distinct
+   * elements.
+   *
+   * @param distinctElements the expected number of distinct elements
+   * @throws IllegalArgumentException if {@code distinctElements} is negative
+   

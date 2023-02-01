@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "30": " * {@link #equals(Object)} and {@link #hashCode()} results across different network implementations.\n",
+        "119": "   * Returns a string representation of this network.\n"
+    },
+    "removed": {
+        "30": " * {@link #equals(Object)} and {@link #hashCode()} results across different graph implementations.\n",
+        "80": "  @Override\n",
+        "81": "  public int degree(Object node) {\n",
+        "82": "    return incidentEdges(node).size();\n",
+        "83": "  }\n",
+        "84": "\n",
+        "85": "  @Override\n",
+        "86": "  public int inDegree(Object node) {\n",
+        "87": "    return inEdges(node).size();\n",
+        "88": "  }\n",
+        "89": "\n",
+        "90": "  @Override\n",
+        "91": "  public int outDegree(Object node) {\n",
+        "92": "    return outEdges(node).size();\n",
+        "93": "  }\n",
+        "94": "\n",
+        "134": "   * Returns a string representation of this graph.\n"
+    }
+}

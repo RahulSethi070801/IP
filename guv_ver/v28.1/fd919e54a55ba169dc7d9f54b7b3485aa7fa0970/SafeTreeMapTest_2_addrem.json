@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "106": "    Map<String, Integer> map = ImmutableSortedMap.of(\"one\", 1, \"two\", 2, \"three\", 3);\n",
+        "109": "    assertEquals(\n",
+        "110": "        Lists.newArrayList(map.values()),\n",
+        "120": "    @Override\n",
+        "121": "    protected SortedMap<String, Integer> makePopulatedMap() {\n",
+        "129": "    @Override\n",
+        "130": "    protected SortedMap<String, Integer> makeEmptyMap() throws UnsupportedOperationException {\n",
+        "135": "    @Override\n",
+        "136": "    protected String getKeyNotInPopulatedMap() {\n",
+        "140": "    @Override\n",
+        "141": "    protected Integer getValueNotInPopulatedMap() {\n"
+    },
+    "removed": {
+        "106": "    Map<String, Integer> map =\n",
+        "107": "        ImmutableSortedMap.of(\"one\", 1, \"two\", 2, \"three\", 3);\n",
+        "110": "    assertEquals(Lists.newArrayList(map.values()),\n",
+        "120": "    @Override protected SortedMap<String, Integer> makePopulatedMap() {\n",
+        "128": "    @Override protected SortedMap<String, Integer> makeEmptyMap()\n",
+        "129": "        throws UnsupportedOperationException {\n",
+        "134": "    @Override protected String getKeyNotInPopulatedMap() {\n",
+        "138": "    @Override protected Integer getValueNotInPopulatedMap() {\n"
+    }
+}

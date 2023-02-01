@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "40": "  /** Closes the current reader and opens the next one, if any. */\n"
+    },
+    "removed": {
+        "40": "  /**\n",
+        "41": "   * Closes the current reader and opens the next one, if any.\n",
+        "42": "   */\n"
+    }
+}

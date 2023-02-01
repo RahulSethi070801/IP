@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "28": " * Implementation of {@link ImmutableMap} backed by a non-empty {@link java.util.EnumMap}.\n"
+    },
+    "removed": {
+        "27": " * Implementation of {@link ImmutableMap} backed by a non-empty {@link\n",
+        "28": " * java.util.EnumMap}.\n"
+    }
+}

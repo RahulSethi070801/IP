@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "19": "import static com.google.common.graph.Graphs.getPropertiesString;\n",
+        "28": " * Tests for an undirected {@link ConfigurableGraph} allowing parallel edges.\n",
+        "31": "public class ConfigurableUndirectedMultigraphTest extends ConfigurableUndirectedGraphTest {\n",
+        "33": "  public Graph<Integer, String> createGraph() {\n",
+        "34": "    return GraphBuilder.undirected().allowsParallelEdges(true).build();\n",
+        "42": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12, E12_A, E21);\n",
+        "43": "    assertThat(graph.edgesConnecting(N2, N1)).containsExactly(E12, E12_A, E21);\n",
+        "50": "    assertThat(graph.edgesConnecting(N1, N1)).containsExactly(E11, E11_A);\n",
+        "59": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12, E12_A, E21);\n",
+        "67": "    assertThat(graph.edgesConnecting(N1, N1)).containsExactly(E11, E11_A);\n",
+        "76": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12, E21);\n",
+        "84": "    assertTrue(graph.removeEdge(E11_A));\n",
+        "85": "    assertThat(graph.edgesConnecting(N1, N1)).containsExactly(E11);\n",
+        "86": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "87": "    assertTrue(graph.removeEdge(E11));\n",
+        "88": "    assertThat(graph.edgesConnecting(N1, N1)).isEmpty();\n",
+        "89": "    assertThat(graph.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "99": "        \"%s, nodes: %s, edges: {%s=[%s, %s], %s=[%s, %s], %s=[%s], %s=[%s]}\",\n",
+        "100": "        getPropertiesString(graph),\n"
+    },
+    "removed": {
+        "27": " * Tests for {@link IncidenceSetUndirectedGraph} allowing parallel edges.\n",
+        "30": "public class IncidenceSetUndirectedMultigraphTest extends IncidenceSetUndirectedGraphTest {\n",
+        "32": "  public UndirectedGraph<Integer, String> createGraph() {\n",
+        "33": "    return Graphs.createUndirected(Graphs.MULTIGRAPH);\n",
+        "41": "    assertThat(undirectedGraph.edgesConnecting(N1, N2)).containsExactly(E12, E12_A, E21);\n",
+        "42": "    assertThat(undirectedGraph.edgesConnecting(N2, N1)).containsExactly(E12, E12_A, E21);\n",
+        "49": "    assertThat(undirectedGraph.edgesConnecting(N1, N1)).containsExactly(E11, E11_A);\n",
+        "58": "    assertThat(undirectedGraph.edgesConnecting(N1, N2)).containsExactly(E12, E12_A, E21);\n",
+        "66": "    assertThat(undirectedGraph.edgesConnecting(N1, N1)).containsExactly(E11, E11_A);\n",
+        "75": "    assertThat(undirectedGraph.edgesConnecting(N1, N2)).containsExactly(E12, E21);\n",
+        "83": "    assertTrue(undirectedGraph.removeEdge(E11_A));\n",
+        "84": "    assertThat(undirectedGraph.edgesConnecting(N1, N1)).containsExactly(E11);\n",
+        "85": "    assertThat(undirectedGraph.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "86": "    assertTrue(undirectedGraph.removeEdge(E11));\n",
+        "87": "    assertThat(undirectedGraph.edgesConnecting(N1, N1)).isEmpty();\n",
+        "88": "    assertThat(undirectedGraph.edgesConnecting(N1, N2)).containsExactly(E12);\n",
+        "98": "        \"config: %s, nodes: %s, edges: {%s=[%s, %s], %s=[%s, %s], %s=[%s], %s=[%s]}\",\n",
+        "99": "        graph.config(),\n"
+    }
+}

@@ -1,0 +1,4 @@
+CharSourceTest_2
+Insertions: [29, 292]
+Deletions: [291]
+guava-tests/test/com/google/common/io/CharSourceTest.java

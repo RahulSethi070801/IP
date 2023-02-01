@@ -1,0 +1,2 @@
+@NullableDecl
+abstract V getValue(int index);

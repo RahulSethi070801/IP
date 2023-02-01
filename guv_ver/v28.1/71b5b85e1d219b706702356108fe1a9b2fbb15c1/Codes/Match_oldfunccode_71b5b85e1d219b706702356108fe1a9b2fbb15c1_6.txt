@@ -1,0 +1,11 @@
+@Override
+protected void afterDone() {
+    super.afterDone();
+    if (wasInterrupted()) {
+        TrustedFutureInterruptibleTask localTask = task;
+        if (localTask != null) {
+            localTask.interruptTask();
+        }
+    }
+    this.task = null;
+}

@@ -1,0 +1,5 @@
+@Override
+public Builder<K, V> put(Map.Entry<? extends K, ? extends V> entry) {
+    super.put(entry);
+    return this;
+}

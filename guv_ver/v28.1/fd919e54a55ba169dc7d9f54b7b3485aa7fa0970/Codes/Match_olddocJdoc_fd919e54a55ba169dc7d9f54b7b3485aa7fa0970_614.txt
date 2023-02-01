@@ -1,0 +1,12 @@
+
+   * Opens a new buffered {@link InputStream} for reading from this source. The returned stream is
+   * not required to be a {@link BufferedInputStream} in order to allow implementations to simply
+   * delegate to {@link #openStream()} when the stream returned by that method does not benefit from
+   * additional buffering (for example, a {@code ByteArrayInputStream}). This method returns a
+   * new, independent stream each time it is called.
+   *
+   * <p>The caller is responsible for ensuring that the returned stream is closed.
+   *
+   * @throws IOException if an I/O error occurs while opening the stream
+   * @since 15.0 (in 14.0 with return type {@link BufferedInputStream})
+   

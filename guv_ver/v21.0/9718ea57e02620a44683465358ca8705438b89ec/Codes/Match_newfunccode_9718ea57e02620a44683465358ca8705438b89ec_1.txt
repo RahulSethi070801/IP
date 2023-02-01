@@ -1,0 +1,5 @@
+@Override
+public String toString() {
+    String propertiesString = String.format("isDirected: %s, allowsParallelEdges: %s, allowsSelfLoops: %s", isDirected(), allowsParallelEdges(), allowsSelfLoops());
+    return String.format(GRAPH_STRING_FORMAT, propertiesString, nodes(), edgeEndpointsMap());
+}

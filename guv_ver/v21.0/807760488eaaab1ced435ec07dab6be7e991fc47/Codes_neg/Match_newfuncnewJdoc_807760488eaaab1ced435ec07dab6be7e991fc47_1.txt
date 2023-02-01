@@ -1,0 +1,3 @@
+
+   * Returns an empty mutable {@link Graph} with the properties of this {@link GraphBuilder}.
+   

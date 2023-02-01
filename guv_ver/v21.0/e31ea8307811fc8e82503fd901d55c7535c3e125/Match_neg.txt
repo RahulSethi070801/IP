@@ -1,0 +1,6 @@
+MapMaker expireAfterAccess(long duration, TimeUnit unit)
+MapMaker maximumSize(int size)
+
+abstract GenericMapMaker<K0, V0> expireAfterAccess(long duration, TimeUnit unit)
+MapMaker maximumSize(int size)
+

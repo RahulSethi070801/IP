@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "25": "/** @author David Beaumont */\n",
+        "39": "          @Override\n",
+        "40": "          protected char[] escapeUnsafe(char c) {\n",
+        "53": "          @Override\n",
+        "54": "          protected char[] escapeUnsafe(char c) {\n",
+        "67": "\n",
+        "68": "          @Override\n",
+        "69": "          protected char[] escapeUnsafe(char c) {\n",
+        "74": "    assertEquals(\n",
+        "75": "        \"Everything outside the printable ASCII range is deleted.\",\n",
+        "76": "        deletingEscaper.escape(\n",
+        "77": "            \"\\tEverything\\0 outside the\\uD800\\uDC00 \"\n",
+        "78": "                + \"printable ASCII \\uFFFFrange is \\u007Fdeleted.\\n\"));\n",
+        "84": "          private final char[] unknown = new char[] {'?'};\n",
+        "85": "\n",
+        "86": "          @Override\n",
+        "87": "          protected char[] escapeUnsafe(char c) {\n",
+        "95": "    assertEquals(\n",
+        "96": "        \"<tab>Fish <and>? Chips?<newline>\", replacingEscaper.escape(\"\\tFish &\\0 Chips\\r\\n\"));\n"
+    },
+    "removed": {
+        "25": "/**\n",
+        "26": " * @author David Beaumont\n",
+        "27": " */\n",
+        "41": "          @Override protected char[] escapeUnsafe(char c) {\n",
+        "54": "          @Override protected char[] escapeUnsafe(char c) {\n",
+        "67": "          @Override protected char[] escapeUnsafe(char c) {\n",
+        "72": "    assertEquals(\"Everything outside the printable ASCII range is deleted.\",\n",
+        "73": "        deletingEscaper.escape(\"\\tEverything\\0 outside the\\uD800\\uDC00 \" +\n",
+        "74": "            \"printable ASCII \\uFFFFrange is \\u007Fdeleted.\\n\"));\n",
+        "80": "          private final char[] unknown = new char[] { '?' };\n",
+        "81": "          @Override protected char[] escapeUnsafe(char c) {\n",
+        "89": "    assertEquals(\"<tab>Fish <and>? Chips?<newline>\",\n",
+        "90": "        replacingEscaper.escape(\"\\tFish &\\0 Chips\\r\\n\"));\n"
+    }
+}

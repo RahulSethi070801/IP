@@ -1,0 +1,15 @@
+com.google.common.io.ByteSource$SlicedByteSource
+sliceStream
+private InputStream sliceStream(InputStream in) throws IOException
+InputStream
+InputStream
+com.google.common.io.ByteStreams
+skipUpTo
+static long skipUpTo(InputStream in, final long n) throws IOException
+InputStream,long
+long
+com.google.common.io.ByteStreams
+skipFully
+public static void skipFully(InputStream in, long n) throws IOException
+InputStream,long
+void

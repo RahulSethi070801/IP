@@ -1,0 +1,9 @@
+static <E> Iterator<E> elementIterator(Iterator<Entry<E>> entryIterator) {
+    return new TransformedIterator<Entry<E>, E>(entryIterator) {
+
+        @Override
+        E transform(Entry<E> entry) {
+            return entry.getElement();
+        }
+    };
+}

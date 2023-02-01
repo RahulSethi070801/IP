@@ -1,0 +1,4 @@
+ImmutableSortedMap
+Insertions: [35, 567]
+Deletions: [35, 567]
+android/guava/src/com/google/common/collect/ImmutableSortedMap.java

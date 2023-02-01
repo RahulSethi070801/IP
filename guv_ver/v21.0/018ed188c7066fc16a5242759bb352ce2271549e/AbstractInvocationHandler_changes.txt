@@ -1,0 +1,4 @@
+AbstractInvocationHandler
+Insertions: [4, 5, 9, 10, 11, 12, 30, 49, 52, 53, 55, 56, 61, 62, 102, 103, 104, 108, 111, 112, 120, 121, 130, 131]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 32, 33, 52, 55, 57, 58, 63, 103, 109, 117, 126]
+guava/src/com/google/common/reflect/AbstractInvocationHandler.java

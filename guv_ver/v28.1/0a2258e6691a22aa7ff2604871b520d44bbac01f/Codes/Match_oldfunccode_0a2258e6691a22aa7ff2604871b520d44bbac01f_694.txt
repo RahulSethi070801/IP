@@ -1,0 +1,6 @@
+@CanIgnoreReturnValue
+@Override
+public final boolean add(@NullableDecl E element) {
+    add(element, 1);
+    return true;
+}

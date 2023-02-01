@@ -1,0 +1,4 @@
+GwtFluentFutureCatchingSpecialization_2
+Insertions: [25]
+Deletions: [25]
+guava-gwt/src-super/com/google/common/util/concurrent/super/com/google/common/util/concurrent/GwtFluentFutureCatchingSpecialization.java

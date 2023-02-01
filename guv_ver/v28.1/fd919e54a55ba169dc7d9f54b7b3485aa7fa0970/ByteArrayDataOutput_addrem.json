@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "77": "  /** Returns the contents that have been written to this instance, as a byte array. */\n"
+    },
+    "removed": {
+        "77": "  /**\n",
+        "78": "   * Returns the contents that have been written to this instance, as a byte array.\n",
+        "79": "   */\n"
+    }
+}

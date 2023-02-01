@@ -1,0 +1,4 @@
+Subscribe
+Insertions: [27, 34]
+Deletions: [27, 28, 35]
+guava/src/com/google/common/eventbus/Subscribe.java

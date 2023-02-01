@@ -1,0 +1,8 @@
+
+   * Construct a fluent iterable from another fluent iterable. This is obviously never necessary,
+   * but is intended to help call out cases where one migration from {@code Iterable} to {@code
+   * FluentIterable} has obviated the need to explicitly convert to a {@code FluentIterable}.
+   *
+   * @deprecated instances of {@code FluentIterable} don't need to be converted to {@code
+   *     FluentIterable}
+   

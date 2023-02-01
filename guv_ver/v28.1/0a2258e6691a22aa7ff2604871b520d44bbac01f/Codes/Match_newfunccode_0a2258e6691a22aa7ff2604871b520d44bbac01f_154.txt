@@ -1,0 +1,1 @@
+ListenableFuture<O> apply(@Nullable I input) throws Exception;

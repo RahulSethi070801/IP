@@ -1,0 +1,10 @@
+
+   * Returns a fresh {@link MapMakerInternalMap} with {@link MapMaker.Dummy} values but otherwise as
+   * specified by the given {@code builder}. The returned {@link MapMakerInternalMap} will be
+   * optimized to saved memory. Since {@link MapMaker.Dummy} is a singleton, we don't need to store
+   * any values at all. Because of this optimization, {@code build.getValueStrength()} must
+   * be {@link Strength#STRONG}.
+   *
+   * <p>This method is intended to only be used by the internal implementation of {@link Interners},
+   * since a map of dummy values is the exact use case there.
+   

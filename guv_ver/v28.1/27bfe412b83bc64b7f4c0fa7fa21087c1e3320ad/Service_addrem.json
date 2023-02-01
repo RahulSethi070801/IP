@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "272": "     * @param from The previous state that is being transitioned from. Failure can occur in any\n",
+        "273": "     *     state with the exception of {@linkplain State#FAILED FAILED} and {@linkplain\n",
+        "274": "     *     State#TERMINATED TERMINATED}.\n"
+    },
+    "removed": {
+        "272": "     * @param from The previous state that is being transitioned from. The only valid values for\n",
+        "273": "     *     this are {@linkplain State#NEW NEW}, {@linkplain State#RUNNING RUNNING} or {@linkplain\n",
+        "274": "     *     State#STOPPING STOPPING}.\n"
+    }
+}

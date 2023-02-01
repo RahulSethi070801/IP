@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "22": "import javax.annotation.CheckForNull;\n",
+        "36": "@ElementTypesAreNonnullByDefault\n",
+        "41": "   *\n",
+        "42": "   * <p>The returned array has all its elements set to their initial null values. However, we don't\n",
+        "43": "   * declare it as {@code @Nullable ImmutableMapEntry[]} because our checker doesn't require newly\n",
+        "44": "   * created arrays to have a {@code @Nullable} element type even when they're created directly with\n",
+        "45": "   * {@code new ImmutableMapEntry[...]}, so it seems silly to insist on that only here.\n",
+        "62": "  @CheckForNull\n",
+        "67": "  @CheckForNull\n",
+        "81": "    /*\n",
+        "82": "     * Yes, we sometimes set nextInKeyBucket to null, even for this \"non-terminal\" entry. We don't\n",
+        "83": "     * do that with a plain NonTerminalImmutableMapEntry, but we do do it with the BiMap-specific\n",
+        "84": "     * subclass below. That's because the Entry might be non-terminal in the key bucket but terminal\n",
+        "85": "     * in the value bucket (or vice versa).\n",
+        "86": "     */\n",
+        "87": "    @CheckForNull private final transient ImmutableMapEntry<K, V> nextInKeyBucket;\n",
+        "88": "\n",
+        "89": "    NonTerminalImmutableMapEntry(\n",
+        "90": "        K key, V value, @CheckForNull ImmutableMapEntry<K, V> nextInKeyBucket) {\n",
+        "96": "    @CheckForNull\n",
+        "97": "    final ImmutableMapEntry<K, V> getNextInKeyBucket() {\n",
+        "109": "    @CheckForNull private final transient ImmutableMapEntry<K, V> nextInValueBucket;\n",
+        "114": "        @CheckForNull ImmutableMapEntry<K, V> nextInKeyBucket,\n",
+        "115": "        @CheckForNull ImmutableMapEntry<K, V> nextInValueBucket) {\n",
+        "121": "    @CheckForNull\n"
+    },
+    "removed": {
+        "22": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "56": "  @Nullable\n",
+        "61": "  @Nullable\n",
+        "75": "    private final transient ImmutableMapEntry<K, V> nextInKeyBucket;\n",
+        "76": "\n",
+        "77": "    NonTerminalImmutableMapEntry(K key, V value, ImmutableMapEntry<K, V> nextInKeyBucket) {\n",
+        "83": "    final @Nullable ImmutableMapEntry<K, V> getNextInKeyBucket() {\n",
+        "95": "    private final transient ImmutableMapEntry<K, V> nextInValueBucket;\n",
+        "100": "        ImmutableMapEntry<K, V> nextInKeyBucket,\n",
+        "101": "        ImmutableMapEntry<K, V> nextInValueBucket) {\n",
+        "107": "    @Nullable\n"
+    }
+}

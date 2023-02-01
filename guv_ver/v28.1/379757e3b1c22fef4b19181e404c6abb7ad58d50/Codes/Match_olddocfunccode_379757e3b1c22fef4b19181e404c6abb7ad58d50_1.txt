@@ -1,0 +1,3 @@
+public static HashFunction sha256() {
+    return Sha256Holder.SHA_256;
+}

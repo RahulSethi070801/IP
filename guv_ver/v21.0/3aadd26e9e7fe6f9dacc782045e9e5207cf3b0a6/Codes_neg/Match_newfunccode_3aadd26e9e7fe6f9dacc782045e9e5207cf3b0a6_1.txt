@@ -1,0 +1,15 @@
+public static boolean equal(Path path1, Path path2) throws IOException {
+    checkNotNull(path1);
+    checkNotNull(path2);
+    if (Files.isSameFile(path1, path2)) {
+        return true;
+    }
+    ByteSource source1 = asByteSource(path1);
+    ByteSource source2 = asByteSource(path2);
+    long len1 = source1.sizeIfKnown().or(0L);
+    long len2 = source2.sizeIfKnown().or(0L);
+    if (len1 != 0 && len2 != 0 && len1 != len2) {
+        return false;
+    }
+    return source1.contentEquals(source2);
+}

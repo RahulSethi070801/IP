@@ -1,0 +1,6 @@
+public static void touch(File file) throws IOException {
+    checkNotNull(file);
+    if (!file.createNewFile() && !file.setLastModified(System.currentTimeMillis())) {
+        throw new IOException("Unable to update modification time of " + file);
+    }
+}

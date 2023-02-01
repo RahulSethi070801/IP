@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "19": "import static com.google.common.collect.testing.Helpers.mapEntry;\n",
+        "27": "import com.google.common.base.Equivalence;\n",
+        "33": "import com.google.common.testing.CollectorTester;\n",
+        "40": "import java.util.function.BiPredicate;\n",
+        "41": "import java.util.stream.Collector;\n",
+        "414": "  public void testToImmutableSetMultimap() {\n",
+        "415": "    Collector<Entry<String, Integer>, ?, ImmutableSetMultimap<String, Integer>> collector =\n",
+        "416": "        ImmutableSetMultimap.toImmutableSetMultimap(Entry::getKey, Entry::getValue);\n",
+        "417": "    BiPredicate<ImmutableSetMultimap<?, ?>, ImmutableSetMultimap<?, ?>> equivalence =\n",
+        "418": "        Equivalence.equals()\n",
+        "419": "            .onResultOf(\n",
+        "420": "                (ImmutableSetMultimap<?, ?> mm)\n",
+        "421": "                    -> ImmutableListMultimap.copyOf(mm).asMap().entrySet().asList())\n",
+        "422": "            .and(Equivalence.equals());\n",
+        "423": "    CollectorTester.of(collector, equivalence)\n",
+        "424": "        .expectCollects(ImmutableSetMultimap.of())\n",
+        "425": "        .expectCollects(\n",
+        "426": "            ImmutableSetMultimap.of(\"a\", 1, \"b\", 2, \"a\", 3, \"c\", 4),\n",
+        "427": "            mapEntry(\"a\", 1),\n",
+        "428": "            mapEntry(\"b\", 2),\n",
+        "429": "            mapEntry(\"a\", 3),\n",
+        "430": "            mapEntry(\"c\", 4));\n",
+        "431": "  }\n",
+        "432": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "134": "   * <p>Anything after a {@code %} in an IPv6 address is ignored (assumed to be a Scope ID).\n",
+        "135": "   *\n",
+        "163": "  /** Returns {@code null} if unable to parse into a {@code byte[]}. */\n",
+        "169": "    int percentIndex = -1;\n",
+        "179": "      } else if (c == '%') {\n",
+        "180": "        percentIndex = i;\n",
+        "181": "        break; // everything after a '%' is ignored (it's a Scope ID): http://superuser.com/a/99753\n",
+        "195": "      if (percentIndex != -1) {\n",
+        "196": "        ipString = ipString.substring(0, percentIndex);\n",
+        "197": "      }\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,3 @@
+public ReentrantReadWriteLock newReentrantReadWriteLock(E rank, boolean fair) {
+    return policy == Policies.DISABLED ? new ReentrantReadWriteLock(fair) : new CycleDetectingReentrantReadWriteLock(lockGraphNodes.get(rank), fair);
+}

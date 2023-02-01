@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "79": "  /** Construct a new sparse array builder. */\n",
+        "84": "  /** Add a new mapping from an index to an object to the escaping. */\n",
+        "94": "  /** Add multiple mappings at once for a particular index. */\n"
+    },
+    "removed": {
+        "79": "  /**\n",
+        "80": "   * Construct a new sparse array builder.\n",
+        "81": "   */\n",
+        "86": "  /**\n",
+        "87": "   * Add a new mapping from an index to an object to the escaping.\n",
+        "88": "   */\n",
+        "98": "  /**\n",
+        "99": "   * Add multiple mappings at once for a particular index.\n",
+        "100": "   */\n"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "27": " * <p>As this interface extends {@link java.util.function.Supplier}, an instance of this type can be\n",
+        "28": " * used as a {@code java.util.function.Supplier} directly. To use a {@code\n",
+        "29": " * java.util.function.Supplier} in a context where a {@code com.google.common.base.Supplier} is\n",
+        "30": " * needed, use {@code supplier::get}.\n",
+        "32": " * <p>See the Guava User Guide article on <a\n",
+        "33": " * href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code Function}</a>.\n"
+    },
+    "removed": {
+        "27": " * <p>As this interface extends {@link java.util.function.Supplier}, an instance of this type\n",
+        "28": " * can be used as a {@code java.util.function.Supplier} directly.  To use a\n",
+        "29": " * {@code java.util.function.Supplier} in a context where a\n",
+        "30": " * {@code com.google.common.base.Supplier} is needed, use {@code supplier::get}.\n",
+        "32": " * <p>See the Guava User Guide article on\n",
+        "33": " * <a href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code\n",
+        "34": " * Function}</a>.\n"
+    }
+}

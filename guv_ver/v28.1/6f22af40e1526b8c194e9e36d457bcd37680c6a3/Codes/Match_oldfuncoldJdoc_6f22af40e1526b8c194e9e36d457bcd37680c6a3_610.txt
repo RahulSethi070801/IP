@@ -1,0 +1,4 @@
+
+   * Returns the JavaLangAccess class that is present in all Sun JDKs. It is not whitelisted for
+   * AppEngine, and not present in non-Sun JDKs.
+   

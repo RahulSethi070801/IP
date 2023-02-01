@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+K checkKey(@NullableDecl K key) {
+    return key;
+}

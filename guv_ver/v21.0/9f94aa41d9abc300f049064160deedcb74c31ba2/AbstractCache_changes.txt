@@ -1,0 +1,4 @@
+AbstractCache
+Insertions: [4, 5, 9, 10, 11, 12, 136, 137, 151, 152, 153, 154, 155, 156, 164, 165, 174, 175, 185, 186]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 138, 139, 153, 154, 155, 156, 157, 158, 166, 167, 176, 177, 187, 188]
+guava/src/com/google/common/cache/AbstractCache.java

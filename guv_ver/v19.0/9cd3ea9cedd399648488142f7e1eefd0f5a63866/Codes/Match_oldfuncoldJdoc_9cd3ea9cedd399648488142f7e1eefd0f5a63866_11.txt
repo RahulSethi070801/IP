@@ -1,0 +1,8 @@
+
+   * Creates an instance of {@link ToStringHelper} in the same manner as {@link
+   * #toStringHelper(Object)}, but using {@code className} instead of using an instance's {@link
+   * Object#getClass()}.
+   *
+   * @param className the name of the instance type
+   * @since 18.0 (since 7.0 as {@code Objects.toStringHelper()}).
+   

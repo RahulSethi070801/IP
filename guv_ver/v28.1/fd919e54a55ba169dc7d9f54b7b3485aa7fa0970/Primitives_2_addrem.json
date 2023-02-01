@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "72": "   * Returns an immutable set of all nine primitive types (including {@code void}). Note that a\n",
+        "73": "   * simpler way to test whether a {@code Class} instance is a member of this set is to call {@link\n",
+        "74": "   * Class#isPrimitive}.\n",
+        "92": "   * Returns {@code true} if {@code type} is one of the nine primitive-wrapper types, such as {@link\n",
+        "93": "   * Integer}.\n"
+    },
+    "removed": {
+        "72": "   * Returns an immutable set of all nine primitive types (including {@code\n",
+        "73": "   * void}). Note that a simpler way to test whether a {@code Class} instance is a member of this\n",
+        "74": "   * set is to call {@link Class#isPrimitive}.\n",
+        "92": "   * Returns {@code true} if {@code type} is one of the nine primitive-wrapper types, such as\n",
+        "93": "   * {@link Integer}.\n"
+    }
+}

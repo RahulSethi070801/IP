@@ -1,0 +1,3 @@
+public static <N> Endpoints<N> of(Graph<?, ?> graph, N nodeA, N nodeB) {
+    return graph.isDirected() ? ofDirected(nodeA, nodeB) : ofUndirected(nodeA, nodeB);
+}

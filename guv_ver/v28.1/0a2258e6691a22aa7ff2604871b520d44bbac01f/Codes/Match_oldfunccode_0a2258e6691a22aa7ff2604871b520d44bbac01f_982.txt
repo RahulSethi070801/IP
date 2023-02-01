@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public List<V> removeAll(@NullableDecl Object key) {
+    return delegate().removeAll(key);
+}

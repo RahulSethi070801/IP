@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "31": " * primitives. The strategies are all implemented as subtypes of AtomicHelper and the strategy is\n",
+        "32": " * selected in the static initializer of AbstractFuture. This is convenient and performant but\n",
+        "33": " * introduces some testing difficulties. This test exercises the two fallback strategies in abstract\n",
+        "34": " * future.\n",
+        "35": " *\n",
+        "37": " *   <li>SafeAtomicHelper: uses AtomicReferenceFieldsUpdaters to implement synchronization\n",
+        "38": " *   <li>SynchronizedHelper: uses {@code synchronized} blocks for synchronization\n",
+        "41": " * To force selection of our fallback strategies we load {@link AbstractFuture} (and all of {@code\n",
+        "42": " * com.google.common.util.concurrent} in degenerate class loaders which make certain platform\n",
+        "43": " * classes unavailable. Then we construct a test suite so we can run the normal AbstractFutureTest\n"
+    },
+    "removed": {
+        "31": " * primitives.  The strategies are all implemented as subtypes of AtomicHelper and the strategy is\n",
+        "32": " * selected in the static initializer of AbstractFuture.  This is convenient and performant but\n",
+        "33": " * introduces some testing difficulties.   This test exercises the two fallback strategies in\n",
+        "34": " * abstract future.\n",
+        "36": " *     <li>SafeAtomicHelper: uses AtomicReferenceFieldsUpdaters to implement synchronization\n",
+        "37": " *     <li>SynchronizedHelper: uses {@code synchronized} blocks for synchronization\n",
+        "40": " * To force selection of our fallback strategies we load {@link AbstractFuture} (and all of\n",
+        "41": " * {@code com.google.common.util.concurrent} in degenerate class loaders which make certain platform\n",
+        "42": " * classes unavailable.  Then we construct a test suite so we can run the normal AbstractFutureTest\n"
+    }
+}

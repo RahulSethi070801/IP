@@ -1,0 +1,10 @@
+
+   * Acquires permits from this {@link RateLimiter} if it can be acquired immediately without delay.
+   *
+   * <p>
+   * This method is equivalent to {@code tryAcquire(permits, 0, anyUnit)}.
+   *
+   * @param permits the number of permits to acquire
+   * @return {@code true} if the permits were acquired, {@code false} otherwise
+   * @since 14.0
+   

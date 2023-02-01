@@ -1,0 +1,5 @@
+@DoNotCall("Use toImmutableSortedMultiset.")
+@Deprecated
+public static <E> Collector<E, ?, ImmutableMultiset<E>> toImmutableMultiset() {
+    throw new UnsupportedOperationException();
+}

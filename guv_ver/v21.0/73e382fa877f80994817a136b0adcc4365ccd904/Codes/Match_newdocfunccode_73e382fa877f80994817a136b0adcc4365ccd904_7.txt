@@ -1,0 +1,3 @@
+public final ImmutableMultiset<E> toMultiset() {
+    return ImmutableMultiset.copyOf(getDelegate());
+}

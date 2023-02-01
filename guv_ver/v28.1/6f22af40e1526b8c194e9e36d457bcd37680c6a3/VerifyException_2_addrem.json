@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "18": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "33": "  public VerifyException(@NullableDecl String message) {\n",
+        "43": "  public VerifyException(@NullableDecl Throwable cause) {\n",
+        "53": "  public VerifyException(@NullableDecl String message, @NullableDecl Throwable cause) {\n"
+    },
+    "removed": {
+        "18": "import javax.annotation.Nullable;\n",
+        "33": "  public VerifyException(@Nullable String message) {\n",
+        "43": "  public VerifyException(@Nullable Throwable cause) {\n",
+        "53": "  public VerifyException(@Nullable String message, @Nullable Throwable cause) {\n"
+    }
+}

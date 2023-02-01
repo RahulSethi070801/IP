@@ -1,0 +1,4 @@
+@NullableDecl
+public static <T> T getOnlyElement(Iterable<? extends T> iterable, @NullableDecl T defaultValue) {
+    return Iterators.getOnlyElement(iterable.iterator(), defaultValue);
+}

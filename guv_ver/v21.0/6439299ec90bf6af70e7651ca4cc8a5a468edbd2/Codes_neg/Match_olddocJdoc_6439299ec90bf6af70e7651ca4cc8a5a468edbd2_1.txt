@@ -1,0 +1,5 @@
+
+   * If this {@link Endpoints} is directed, returns the node which is the source of the origin edge.
+   *
+   * @throws UnsupportedOperationException if this Endpoints is not directed
+   

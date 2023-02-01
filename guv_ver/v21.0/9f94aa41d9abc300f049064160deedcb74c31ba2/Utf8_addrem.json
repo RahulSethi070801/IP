@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "43": "   * Returns the number of bytes in the UTF-8-encoded form of {@code sequence}. For a string, this\n",
+        "44": "   * method is equivalent to {@code string.getBytes(UTF_8).length}, but is more efficient in both\n",
+        "45": "   * time and space.\n"
+    },
+    "removed": {
+        "43": "   * Returns the number of bytes in the UTF-8-encoded form of {@code sequence}. For a string,\n",
+        "44": "   * this method is equivalent to {@code string.getBytes(UTF_8).length}, but is more efficient in\n",
+        "45": "   * both time and space.\n"
+    }
+}

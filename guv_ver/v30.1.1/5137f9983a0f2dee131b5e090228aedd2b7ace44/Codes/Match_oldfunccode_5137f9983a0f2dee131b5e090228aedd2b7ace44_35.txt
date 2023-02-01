@@ -1,0 +1,5 @@
+@Beta
+@Deprecated
+public static String readFirstLine(File file, Charset charset) throws IOException {
+    return asCharSource(file, charset).readFirstLine();
+}

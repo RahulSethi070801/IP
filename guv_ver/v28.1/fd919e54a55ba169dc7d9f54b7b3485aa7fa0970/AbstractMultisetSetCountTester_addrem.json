@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "41": " * Common superclass for {@link MultisetSetCountUnconditionallyTester} and {@link\n",
+        "42": " * MultisetSetCountConditionallyTester}. It is used by those testers to test calls to the\n",
+        "43": " * unconditional {@code setCount()} method and calls to the conditional {@code setCount()} method\n",
+        "44": " * when the expected present count is correct.\n",
+        "76": "  /** Call the {@code setCount()} method under test, and check its return value. */\n",
+        "80": "   * Call the {@code setCount()} method under test, but do not check its return value. Callers\n",
+        "81": "   * should use this method over {@link #setCountCheckReturnValue(Object, int)} when they expect\n",
+        "82": "   * {@code setCount()} to throw an exception, as checking the return value could produce an\n",
+        "83": "   * incorrect error message like \"setCount() should return the original count\" instead of the\n",
+        "84": "   * message passed to a later invocation of {@code fail()}, like \"setCount should throw\n",
+        "383": "   * Returns {@link Method} instances for the {@code setCount()} tests that assume multisets support\n",
+        "384": "   * duplicates so that the test of {@code Multisets.forSet()} can suppress them.\n"
+    },
+    "removed": {
+        "41": " * Common superclass for {@link MultisetSetCountUnconditionallyTester} and\n",
+        "42": " * {@link MultisetSetCountConditionallyTester}. It is used by those testers to\n",
+        "43": " * test calls to the unconditional {@code setCount()} method and calls to the\n",
+        "44": " * conditional {@code setCount()} method when the expected present count is\n",
+        "45": " * correct.\n",
+        "77": "  /**\n",
+        "78": "   * Call the {@code setCount()} method under test, and check its return value.\n",
+        "79": "   */\n",
+        "83": "   * Call the {@code setCount()} method under test, but do not check its return\n",
+        "84": "   * value. Callers should use this method over\n",
+        "85": "   * {@link #setCountCheckReturnValue(Object, int)} when they expect\n",
+        "86": "   * {@code setCount()} to throw an exception, as checking the return value\n",
+        "87": "   * could produce an incorrect error message like\n",
+        "88": "   * \"setCount() should return the original count\" instead of the message passed\n",
+        "89": "   * to a later invocation of {@code fail()}, like \"setCount should throw\n",
+        "388": "   * Returns {@link Method} instances for the {@code setCount()} tests that\n",
+        "389": "   * assume multisets support duplicates so that the test of {@code\n",
+        "390": "   * Multisets.forSet()} can suppress them.\n"
+    }
+}

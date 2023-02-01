@@ -1,0 +1,4 @@
+public static <N, E> NetworkBuilder<N, E> from(Network<N, E> graph) {
+    checkNotNull(graph);
+    return new NetworkBuilder<Object, Object>(graph.isDirected()).allowsParallelEdges(graph.allowsParallelEdges()).allowsSelfLoops(graph.allowsSelfLoops()).orderNodes(graph.nodeOrder()).orderEdges(graph.edgeOrder()).cast();
+}

@@ -1,0 +1,4 @@
+LittleEndianDataInputStream_2
+Insertions: [31, 32, 34, 35, 54]
+Deletions: [31, 32, 34, 35, 54, 55, 56]
+guava/src/com/google/common/io/LittleEndianDataInputStream.java

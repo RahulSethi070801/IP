@@ -1,0 +1,7 @@
+
+   * Determines whether a character is a digit according to {@linkplain Character#isDigit(char)
+   * Java's definition}. If you only care to match ASCII digits, you can use {@code inRange('0',
+   * '9')}.
+   *
+   * @since 19.0 (since 1.0 as constant {@code JAVA_DIGIT})
+   

@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "72": " * A manager for monitoring and controlling a set of {@linkplain Service services}. This class\n",
+        "73": " * provides methods for {@linkplain #startAsync() starting}, {@linkplain #stopAsync() stopping} and\n",
+        "75": " * Additionally, users can monitor state transitions with the {@linkplain Listener listener}\n",
+        "76": " * mechanism.\n",
+        "83": " * <p>Here is a simple example of how to use a {@code ServiceManager} to start a server.\n",
+        "129": "   * that need to listen to more fine-grained events (such as when each particular {@linkplain\n",
+        "130": "   * Service service} starts, or terminates), should attach {@linkplain Service.Listener service\n",
+        "177": "   * @throws IllegalArgumentException if not all services are {@linkplain State#NEW new} or if there\n",
+        "178": "   * are any duplicate services.\n",
+        "322": "   * services will either be {@linkplain Service.State#TERMINATED terminated} or {@linkplain\n",
+        "323": "   * Service.State#FAILED failed}.\n",
+        "331": "   * this method returns all services will either be {@linkplain Service.State#TERMINATED\n",
+        "332": "   * terminated} or {@linkplain Service.State#FAILED failed}.\n"
+    },
+    "removed": {
+        "72": " * A manager for monitoring and controlling a set of {@link Service services}. This class provides\n",
+        "73": " * methods for {@linkplain #startAsync() starting}, {@linkplain #stopAsync() stopping} and\n",
+        "75": " * Additionally, users can monitor state transitions with the {@link Listener listener} mechanism.\n",
+        "82": " * <p>Here is a simple example of how to use a {@link ServiceManager} to start a server.\n",
+        "128": "   * that need to listen to more fine-grained events (such as when each particular\n",
+        "129": "   * {@link Service service} starts, or terminates), should attach {@link Service.Listener service\n",
+        "176": "   * @throws IllegalArgumentException if not all services are {@link State#NEW new} or if there are\n",
+        "177": "   *     any duplicate services.\n",
+        "321": "   * services will either be {@link Service.State#TERMINATED terminated} or \n",
+        "322": "   * {@link Service.State#FAILED failed}\n",
+        "330": "   * this method returns all services will either be {@link Service.State#TERMINATED terminated} or \n",
+        "331": "   * {@link Service.State#FAILED failed}\n"
+    }
+}

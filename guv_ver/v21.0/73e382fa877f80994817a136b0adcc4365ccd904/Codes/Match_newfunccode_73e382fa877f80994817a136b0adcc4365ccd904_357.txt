@@ -1,0 +1,23 @@
+public final FluentIterable<T> preOrderTraversal(final T root) {
+    checkNotNull(root);
+    return new FluentIterable<T>() {
+
+        @Override
+        public UnmodifiableIterator<T> iterator() {
+            return preOrderIterator(root);
+        }
+
+        @Override
+        public void forEach(Consumer<? super T> action) {
+            checkNotNull(action);
+            new Consumer<T>() {
+
+                @Override
+                public void accept(T t) {
+                    action.accept(t);
+                    children(t).forEach(this);
+                }
+            }.accept(root);
+        }
+    };
+}

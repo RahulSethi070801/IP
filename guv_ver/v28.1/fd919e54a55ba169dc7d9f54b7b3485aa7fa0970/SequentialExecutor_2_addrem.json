@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "80": "   * Starts a worker. This should only be called if:\n",
+        "127": "     * <p>If the Thread in use is interrupted before or during execution of the tasks in {@link\n",
+        "128": "     * #queue}, the Executor will complete its tasks, and then restore the interruption. This means\n",
+        "129": "     * that once the Thread returns to the Executor that this Executor composes, the interruption\n",
+        "130": "     * will still be present. If the composed Executor is an ExecutorService, it can respond to\n",
+        "131": "     * shutdown() by returning tasks queued on that Thread after {@link #worker} drains the queue.\n"
+    },
+    "removed": {
+        "80": "   * Starts a worker.  This should only be called if:\n",
+        "127": "     * <p>If the Thread in use is interrupted before or during execution of the tasks in\n",
+        "128": "     * {@link #queue}, the Executor will complete its tasks, and then restore the interruption.\n",
+        "129": "     * This means that once the Thread returns to the Executor that this Executor composes, the\n",
+        "130": "     * interruption will still be present. If the composed Executor is an ExecutorService, it can\n",
+        "131": "     * respond to shutdown() by returning tasks queued on that Thread after {@link #worker} drains\n",
+        "132": "     * the queue.\n"
+    }
+}

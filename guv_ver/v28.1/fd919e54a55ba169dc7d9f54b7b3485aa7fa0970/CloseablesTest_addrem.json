@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "33": " * <p>Checks proper closing behavior, and ensures that IOExceptions on Closeable.close() are not\n",
+        "34": " * propagated out from the {@link Closeables#close} method if {@code swallowException} is true.\n",
+        "66": "    TestInputStream in =\n",
+        "67": "        new TestInputStream(new ByteArrayInputStream(new byte[1]), TestOption.CLOSE_THROWS);\n",
+        "97": "          .when(mockCloseable)\n",
+        "98": "          .close();\n",
+        "109": "  private void doClose(Closeable closeable, boolean swallowException, boolean expectThrown)\n",
+        "110": "      throws IOException {\n"
+    },
+    "removed": {
+        "33": " * <p>Checks proper closing behavior, and ensures that\n",
+        "34": " * IOExceptions on Closeable.close() are not\n",
+        "35": " * propagated out from the {@link Closeables#close} method if {@code\n",
+        "36": " * swallowException} is true.\n",
+        "68": "    TestInputStream in = new TestInputStream(\n",
+        "69": "        new ByteArrayInputStream(new byte[1]), TestOption.CLOSE_THROWS);\n",
+        "99": "          .when(mockCloseable).close();\n",
+        "110": "  private void doClose(Closeable closeable, boolean swallowException,\n",
+        "111": "      boolean expectThrown) throws IOException {\n"
+    }
+}

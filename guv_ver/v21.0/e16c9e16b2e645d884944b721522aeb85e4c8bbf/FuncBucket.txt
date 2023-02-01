@@ -1,0 +1,30 @@
+com.google.common.graph.NetworkBuilder
+from
+public static NetworkBuilder<N, E> from(Network<N, E> network)
+Network
+NetworkBuilder
+com.google.common.graph.NetworkBuilder
+expectedNodeCount
+public NetworkBuilder<N, E> expectedNodeCount(int expectedNodeCount)
+int
+NetworkBuilder
+com.google.common.graph.NetworkBuilder
+expectedEdgeCount
+public NetworkBuilder<N, E> expectedEdgeCount(int expectedEdgeCount)
+int
+NetworkBuilder
+com.google.common.graph.BasicGraphBuilder
+expectedNodeCount
+public BasicGraphBuilder<N> expectedNodeCount(int expectedNodeCount)
+int
+BasicGraphBuilder
+com.google.common.graph.GraphBuilder
+expectedNodeCount
+public GraphBuilder<N, V> expectedNodeCount(int expectedNodeCount)
+int
+GraphBuilder
+com.google.common.graph.NetworkBuilder
+from
+public static NetworkBuilder<N, E> from(Network<N, E> graph)
+Network
+NetworkBuilder

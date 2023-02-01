@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "220": "        if (edgesConnecting.size() <= 1) {\n",
+        "221": "          assertThat(network.edgeConnecting(node, otherNode).asSet()).isEqualTo(edgesConnecting);\n",
+        "222": "        } else {\n",
+        "223": "          try {\n",
+        "224": "            network.edgeConnecting(node, otherNode);\n",
+        "225": "            fail();\n",
+        "226": "          } catch (IllegalArgumentException expected) {}\n",
+        "227": "        }\n",
+        "228": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,7 @@
+
+   * Writes a {@code String} as specified by
+   * {@link DataOutputStream#writeChars(String)}, except each character is
+   * written using little-endian byte order.
+   *
+   * @throws IOException if an I/O error occurs
+   

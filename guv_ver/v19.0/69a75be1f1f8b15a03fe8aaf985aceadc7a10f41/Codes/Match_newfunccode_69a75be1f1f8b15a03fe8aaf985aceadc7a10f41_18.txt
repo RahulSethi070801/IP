@@ -1,0 +1,22 @@
+private void handleOneInputDone(int index, Future<? extends InputT> future) {
+    checkState(allMustSucceed || !isDone() || isCancelled(), "Future was done before all dependencies completed");
+    try {
+        checkState(future.isDone(), "Tried to set value from future which is not done");
+        if (allMustSucceed) {
+            if (future.isCancelled()) {
+                AggregateFuture.super.cancel(false);
+            } else {
+                InputT result = getUninterruptibly(future);
+                if (collectsValues) {
+                    collectOneValue(allMustSucceed, index, result);
+                }
+            }
+        } else if (collectsValues && !future.isCancelled()) {
+            collectOneValue(allMustSucceed, index, getUninterruptibly(future));
+        }
+    } catch (ExecutionException e) {
+        handleException(e.getCause());
+    } catch (Throwable t) {
+        handleException(t);
+    }
+}

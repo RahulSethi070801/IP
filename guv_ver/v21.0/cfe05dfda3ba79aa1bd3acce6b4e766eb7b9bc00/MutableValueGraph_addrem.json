@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "2": " * Copyright (C) 2016 The Guava Authors\n",
+        "23": " * A subinterface of {@link ValueGraph} which adds mutation methods. When mutation is not required,\n",
+        "24": " * users should prefer the {@link ValueGraph} interface.\n",
+        "28": " * @param <V> Value parameter type\n",
+        "32": "public interface MutableValueGraph<N, V> extends ValueGraph<N, V> {\n",
+        "45": "   * Adds an edge connecting {@code nodeU} to {@code nodeV} if one is not already present; associate\n",
+        "46": "   * that edge with {@code value}. In an undirected graph, the edge will also connect {@code nodeV}\n",
+        "47": "   * to {@code nodeU}.\n",
+        "49": "   * <p>Values do not have to be unique. However, values must be non-null.\n",
+        "50": "   *\n",
+        "51": "   * <p>Behavior if {@code nodeU} and {@code nodeV} are not already present in this graph is\n",
+        "53": "   * adding} {@code nodeU} and {@code nodeV} to the graph (this is the behavior of the default\n",
+        "56": "   * @return the value previously associated with the edge connecting {@code nodeU} to {@code\n",
+        "57": "   *     nodeV}, or null if there was no such edge.\n",
+        "62": "  V putEdgeValue(N nodeU, N nodeV, V value);\n",
+        "73": "   * Removes the edge connecting {@code nodeU} to {@code nodeV}, if it is present.\n",
+        "75": "   * @return the value previously associated with the edge connecting {@code nodeU} to {@code\n",
+        "76": "   *     nodeV}, or null if there was no such edge.\n",
+        "79": "  V removeEdge(Object nodeU, Object nodeV);\n"
+    },
+    "removed": {
+        "2": " * Copyright (C) 2014 The Guava Authors\n",
+        "23": " * A subinterface of {@link BasicGraph} which adds mutation methods. When mutation is not required,\n",
+        "24": " * users should prefer the {@link BasicGraph} interface.\n",
+        "27": " * @author Joshua O'Madadhain\n",
+        "32": "public interface MutableBasicGraph<N> extends BasicGraph<N> {\n",
+        "45": "   * Adds an edge connecting {@code nodeA} to {@code nodeB} if one is not already present. In an\n",
+        "46": "   * undirected graph, the edge will also connect {@code nodeB} to {@code nodeA}.\n",
+        "48": "   * <p>Behavior if {@code nodeA} and {@code nodeB} are not already present in this graph is\n",
+        "50": "   * adding} {@code nodeA} and {@code nodeB} to the graph (this is the behavior of the default\n",
+        "53": "   * @return {@code true} iff the graph was modified as a result of this call\n",
+        "58": "  boolean putEdge(N nodeA, N nodeB);\n",
+        "69": "   * Removes the edge connecting {@code nodeA} to {@code nodeB}, if it is present.\n",
+        "71": "   * @return {@code true} iff the graph was modified as a result of this call\n",
+        "74": "  boolean removeEdge(Object nodeA, Object nodeB);\n"
+    }
+}

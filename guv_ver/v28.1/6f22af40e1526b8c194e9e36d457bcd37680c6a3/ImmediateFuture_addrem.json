@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "27": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "76": "    @NullableDecl private final V value;\n",
+        "78": "    ImmediateSuccessfulFuture(@NullableDecl V value) {\n",
+        "98": "    @NullableDecl private final V value;\n",
+        "100": "    ImmediateSuccessfulCheckedFuture(@NullableDecl V value) {\n"
+    },
+    "removed": {
+        "27": "import javax.annotation.Nullable;\n",
+        "76": "    @Nullable private final V value;\n",
+        "78": "    ImmediateSuccessfulFuture(@Nullable V value) {\n",
+        "98": "    @Nullable private final V value;\n",
+        "100": "    ImmediateSuccessfulCheckedFuture(@Nullable V value) {\n"
+    }
+}

@@ -1,0 +1,8 @@
+@Override
+public boolean readBoolean() {
+    try {
+        return input.readBoolean();
+    } catch (IOException e) {
+        throw new IllegalStateException(e);
+    }
+}

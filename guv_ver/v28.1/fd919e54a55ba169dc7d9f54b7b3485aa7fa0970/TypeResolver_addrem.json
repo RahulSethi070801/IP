@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "76": "   * String.class}, then {@code new TypeResolver().where(formal, actual)} will {@linkplain\n",
+        "77": "   * #resolveType resolve} {@code ParameterizedType List<T>} to {@code List<String>}, and resolve\n",
+        "78": "   * {@code Map<T, Something>} to {@code Map<String, Something>} etc. Similarly, {@code formal} and\n",
+        "79": "   * {@code actual} can be {@code Map<K, V>} and {@code Map<String, Integer>} respectively, or they\n",
+        "80": "   * can be {@code E[]} and {@code String[]} respectively, or even any arbitrary combination\n",
+        "81": "   * thereof.\n",
+        "453": "            rawType,\n",
+        "454": "            typeArgs);\n",
+        "470": "      String name =\n",
+        "471": "          \"capture#\" + id.incrementAndGet() + \"-of ? extends \" + Joiner.on('&').join(upperBounds);\n",
+        "477": "        @Override\n",
+        "478": "        TypeVariable<?> captureAsTypeVariable(Type[] upperBounds) {\n"
+    },
+    "removed": {
+        "76": "   * String.class}, then {@code new TypeResolver().where(formal, actual)} will\n",
+        "77": "   * {@linkplain #resolveType resolve} {@code ParameterizedType List<T>} to {@code List<String>},\n",
+        "78": "   * and resolve {@code Map<T, Something>} to {@code Map<String, Something>} etc. Similarly,\n",
+        "79": "   * {@code formal} and {@code actual} can be {@code Map<K, V>} and {@code Map<String, Integer>}\n",
+        "80": "   * respectively, or they can be {@code E[]} and {@code String[]} respectively, or even any\n",
+        "81": "   * arbitrary combination thereof.\n",
+        "453": "            rawType, typeArgs);\n",
+        "469": "          String name =\n",
+        "470": "              \"capture#\"\n",
+        "471": "                  + id.incrementAndGet()\n",
+        "472": "                  + \"-of ? extends \"\n",
+        "473": "                  + Joiner.on('&').join(upperBounds);\n",
+        "479": "        @Override TypeVariable<?> captureAsTypeVariable(Type[] upperBounds) {\n"
+    }
+}

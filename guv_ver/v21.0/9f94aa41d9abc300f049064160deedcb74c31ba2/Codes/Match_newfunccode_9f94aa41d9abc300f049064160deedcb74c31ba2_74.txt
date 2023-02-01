@@ -1,0 +1,4 @@
+public double loadExceptionRate() {
+    long totalLoadCount = loadSuccessCount + loadExceptionCount;
+    return (totalLoadCount == 0) ? 0.0 : (double) loadExceptionCount / totalLoadCount;
+}

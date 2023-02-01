@@ -1,0 +1,315 @@
+com.google.common.collect.FluentIterable
+concat
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+Iterable...
+FluentIterable
+com.google.common.collect.EvictingQueue
+remove
+public boolean remove(@SuppressWarnings("nullness") Object object)
+Object
+boolean
+com.google.common.collect.ComparisonChain$InactiveComparisonChain
+compare
+public ComparisonChain compare(@Nullable Comparable left, @Nullable Comparable right)
+Comparable,Comparable
+ComparisonChain
+com.google.common.collect.FluentIterable
+from
+public static FluentIterable<E> from(final Iterable<E> iterable)
+Iterable
+FluentIterable
+com.google.common.collect.FluentIterable
+toArray
+public final E[] toArray(Class<E> type)
+Class
+E[]
+com.google.common.collect.MinMaxPriorityQueue
+poll
+public E poll()
+empty
+E
+com.google.common.collect.MapDifference
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.Iterators
+paddedPartition
+public static UnmodifiableIterator<List<T>> paddedPartition(Iterator<T> iterator, int size)
+Iterator,int
+UnmodifiableIterator
+com.google.common.collect.MapDifference$ValueDifference
+equals
+boolean equals(@CheckForNull Object other)
+Object
+boolean
+com.google.common.collect.ComparisonChain
+compare
+public ComparisonChain compare(Comparable<?> left, Comparable<?> right)
+Comparable,Comparable
+ComparisonChain
+com.google.common.collect.FluentIterable
+of
+public static FluentIterable<E> of()
+empty
+FluentIterable
+com.google.common.collect.MinMaxPriorityQueue
+peek
+public E peek()
+empty
+E
+com.google.common.collect.Interners$InternerFunction
+equals
+public boolean equals(Object other)
+Object
+boolean
+com.google.common.collect.FluentIterable
+from
+public static FluentIterable<E> from(FluentIterable<E> iterable)
+FluentIterable
+FluentIterable
+com.google.common.collect.FluentIterable
+contains
+public final boolean contains(@Nullable Object target)
+Object
+boolean
+com.google.common.collect.ComparisonChain$InactiveComparisonChain
+compare
+public ComparisonChain compare(@Nullable T left, @Nullable T right, @Nullable Comparator<T> comparator)
+T,T,Comparator
+ComparisonChain
+com.google.common.collect.FluentIterable
+from
+public static FluentIterable<E> from(E[] elements)
+E[]
+FluentIterable
+com.google.common.collect.EvictingQueue
+contains
+public boolean contains(@SuppressWarnings("nullness") Object object)
+Object
+boolean
+com.google.common.collect.MinMaxPriorityQueue
+elementData
+E elementData(int index)
+int
+E
+com.google.common.collect.TreeTraverser$PostOrderIterator
+computeNext
+protected T computeNext()
+empty
+T
+com.google.common.collect.ComparisonChain
+compare
+public abstract ComparisonChain compare(@ParametricNullness T left, @ParametricNullness T right, Comparator<T> comparator)
+T,T,Comparator
+ComparisonChain
+com.google.common.collect.ComputationException
+ComputationException
+public ComputationException(@Nullable Throwable cause)
+Throwable
+constructor
+com.google.common.collect.FluentIterable
+concat
+public static FluentIterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+Iterable
+FluentIterable
+com.google.common.collect.Interners$InternerImpl
+intern
+public E intern(E sample)
+E
+E
+com.google.common.collect.FluentIterable
+transform
+public final FluentIterable<T> transform(Function<? super E, T> function)
+Function
+FluentIterable
+com.google.common.collect.Iterables
+paddedPartition
+public static Iterable<List<@Nullable T>> paddedPartition(final Iterable<T> iterable, final int size)
+Iterable,int
+Iterable
+com.google.common.collect.MapDifference$ValueDifference
+rightValue
+V rightValue()
+empty
+V
+com.google.common.collect.MinMaxPriorityQueue
+peekLast
+public E peekLast()
+empty
+E
+com.google.common.collect.MapDifference$ValueDifference
+equals
+boolean equals(@Nullable Object other)
+Object
+boolean
+com.google.common.collect.MinMaxPriorityQueue
+removeAt
+MoveDesc<E> removeAt(int index)
+int
+MoveDesc
+com.google.common.collect.Interners$InternerFunction
+equals
+public boolean equals(@CheckForNull Object other)
+Object
+boolean
+com.google.common.collect.Iterables
+paddedPartition
+public static Iterable<List<T>> paddedPartition(final Iterable<T> iterable, final int size)
+Iterable,int
+Iterable
+com.google.common.collect.ComputationException
+ComputationException
+public ComputationException(@CheckForNull Throwable cause)
+Throwable
+constructor
+com.google.common.collect.MinMaxPriorityQueue
+pollLast
+public E pollLast()
+empty
+E
+com.google.common.collect.ComparisonChain
+compare
+public ComparisonChain compare(Comparable left, Comparable right)
+Comparable,Comparable
+ComparisonChain
+com.google.common.collect.Iterables
+iterator
+public Iterator<List<T>> iterator()
+empty
+Iterator
+com.google.common.collect.FluentIterable
+get
+public final E get(int position)
+int
+E
+com.google.common.collect.FluentIterable
+concat
+public static FluentIterable<T> concat(Iterable<? extends T> a, Iterable<? extends T> b, Iterable<? extends T> c, Iterable<? extends T> d)
+Iterable,Iterable,Iterable,Iterable
+FluentIterable
+com.google.common.collect.FluentIterable
+concat
+public static FluentIterable<T> concat(Iterable<? extends T> a, Iterable<? extends T> b)
+Iterable,Iterable
+FluentIterable
+com.google.common.collect.FluentIterable
+transformAndConcat
+public FluentIterable<T> transformAndConcat(Function<? super E, ? extends Iterable<? extends T>> function)
+Function
+FluentIterable
+com.google.common.collect.EvictingQueue
+remove
+public boolean remove(Object object)
+Object
+boolean
+com.google.common.collect.Iterators
+paddedPartition
+public static UnmodifiableIterator<List<@Nullable T>> paddedPartition(Iterator<T> iterator, int size)
+Iterator,int
+UnmodifiableIterator
+com.google.common.collect.FluentIterable
+FluentIterable
+FluentIterable(Iterable<E> iterable)
+Iterable
+constructor
+com.google.common.collect.MinMaxPriorityQueue
+peekFirst
+public E peekFirst()
+empty
+E
+com.google.common.collect.ComparisonChain
+compare
+public ComparisonChain compare(@Nullable T left, @Nullable T right, Comparator<T> comparator)
+T,T,Comparator
+ComparisonChain
+com.google.common.collect.Iterators
+partitionImpl
+private static UnmodifiableIterator<List<@Nullable T>> partitionImpl(final Iterator<T> iterator, final int size, final boolean pad)
+Iterator,int,boolean
+UnmodifiableIterator
+com.google.common.collect.MinMaxPriorityQueue
+pollFirst
+public E pollFirst()
+empty
+E
+com.google.common.collect.MapDifference$ValueDifference
+leftValue
+V leftValue()
+empty
+V
+com.google.common.collect.MinMaxPriorityQueue$QueueIterator
+remove
+public void remove()
+empty
+void
+com.google.common.collect.FluentIterable
+contains
+public final boolean contains(@CheckForNull Object target)
+Object
+boolean
+com.google.common.collect.MinMaxPriorityQueue
+fillHole
+private MoveDesc<E> fillHole(int index, E toTrickle)
+int,E
+MoveDesc
+com.google.common.collect.MapDifference
+equals
+boolean equals(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.FluentIterable
+of
+public static FluentIterable<E> of(@Nullable E element, E... elements)
+E,E...
+FluentIterable
+com.google.common.collect.Iterators
+next
+public List<@Nullable T> next()
+empty
+List
+com.google.common.collect.ComparisonChain
+compare
+public abstract ComparisonChain compare(@Nullable T left, @Nullable T right, Comparator<T> comparator)
+T,T,Comparator
+ComparisonChain
+com.google.common.collect.FluentIterable
+of
+public static FluentIterable<E> of(@ParametricNullness E element, E... elements)
+E,E...
+FluentIterable
+com.google.common.reflect.Parameter
+getDeclaredAnnotationsByType
+public A[] getDeclaredAnnotationsByType(Class<A> annotationType)
+Class
+A[]
+com.google.common.collect.FluentIterable
+concat
+public static FluentIterable<T> concat(Iterable<? extends T> a, Iterable<? extends T> b, Iterable<? extends T> c)
+Iterable,Iterable,Iterable
+FluentIterable
+com.google.common.collect.FluentIterable
+concatNoDefensiveCopy
+private static FluentIterable<T> concatNoDefensiveCopy(final Iterable<? extends T>... inputs)
+Iterable...
+FluentIterable
+com.google.common.collect.Iterators
+partitionImpl
+private static UnmodifiableIterator<List<T>> partitionImpl(final Iterator<T> iterator, final int size, final boolean pad)
+Iterator,int,boolean
+UnmodifiableIterator
+com.google.common.collect.MinMaxPriorityQueue$Heap
+tryCrossOverAndBubbleUp
+MoveDesc<E> tryCrossOverAndBubbleUp(int removeIndex, int vacated, E toTrickle)
+int,int,E
+MoveDesc
+com.google.common.collect.ComparisonChain
+compare
+public ComparisonChain compare(@ParametricNullness T left, @ParametricNullness T right, Comparator<T> comparator)
+T,T,Comparator
+ComparisonChain
+com.google.common.collect.EvictingQueue
+contains
+public boolean contains(Object object)
+Object
+boolean

@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public V forcePut(@Nullable K key, @Nullable V value) {
+    return putInBothMaps(key, value, true);
+}

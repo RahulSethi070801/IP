@@ -1,0 +1,4 @@
+@Override
+protected boolean standardContains(@CheckForNull Object object) {
+    return count(object) > 0;
+}

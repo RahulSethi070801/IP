@@ -1,0 +1,4 @@
+Ticker
+Insertions: [4, 5, 9, 10, 11, 12, 29, 30, 41]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 31, 32, 33, 44, 45]
+guava/src/com/google/common/base/Ticker.java

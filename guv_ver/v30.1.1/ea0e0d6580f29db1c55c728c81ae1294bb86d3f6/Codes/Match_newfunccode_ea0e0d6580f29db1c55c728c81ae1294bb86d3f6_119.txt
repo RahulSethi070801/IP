@@ -1,0 +1,3 @@
+public static <E extends @Nullable Object> HashMultiset<E> create() {
+    return create(ObjectCountHashMap.DEFAULT_SIZE);
+}

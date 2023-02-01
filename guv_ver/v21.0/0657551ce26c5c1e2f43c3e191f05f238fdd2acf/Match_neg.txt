@@ -1,0 +1,6 @@
+RegularLinearTransformation(double slope, double yIntercept)
+public static LinearTransformation forNaN()
+
+public double transformX(double x)
+public static LinearTransformation vertical(double x)
+

@@ -1,0 +1,4 @@
+@Override
+public Iterable<Path> successors(Path path) {
+    return fileTreeChildren(path);
+}

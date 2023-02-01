@@ -1,0 +1,5 @@
+@Deprecated
+@GwtIncompatible("reflection")
+public static <V, X extends Exception> V get(Future<V> future, Class<X> exceptionClass) throws X {
+    return getChecked(future, exceptionClass);
+}

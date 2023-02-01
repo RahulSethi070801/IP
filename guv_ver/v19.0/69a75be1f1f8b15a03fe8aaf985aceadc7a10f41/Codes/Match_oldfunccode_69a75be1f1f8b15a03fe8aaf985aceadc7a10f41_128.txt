@@ -1,0 +1,26 @@
+private void removeWaiter(Waiter node) {
+    node.thread = null;
+    restart: while (true) {
+        Waiter pred = null;
+        Waiter curr = waiters;
+        if (curr == Waiter.TOMBSTONE) {
+            return;
+        }
+        Waiter succ;
+        while (curr != null) {
+            succ = curr.next;
+            if (curr.thread != null) {
+                pred = curr;
+            } else if (pred != null) {
+                pred.next = succ;
+                if (pred.thread == null) {
+                    continue restart;
+                }
+            } else if (!ATOMIC_HELPER.casWaiters(this, curr, succ)) {
+                continue restart;
+            }
+            curr = succ;
+        }
+        break;
+    }
+}

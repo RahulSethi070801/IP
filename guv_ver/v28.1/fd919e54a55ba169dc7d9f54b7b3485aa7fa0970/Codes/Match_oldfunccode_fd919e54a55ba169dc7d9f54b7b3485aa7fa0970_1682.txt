@@ -1,0 +1,29 @@
+public static void startFinalizer(Class<?> finalizableReferenceClass, ReferenceQueue<Object> queue, PhantomReference<Object> frqReference) {
+    if (!finalizableReferenceClass.getName().equals(FINALIZABLE_REFERENCE)) {
+        throw new IllegalArgumentException("Expected " + FINALIZABLE_REFERENCE + ".");
+    }
+    Finalizer finalizer = new Finalizer(finalizableReferenceClass, queue, frqReference);
+    String threadName = Finalizer.class.getName();
+    Thread thread = null;
+    if (bigThreadConstructor != null) {
+        try {
+            boolean inheritThreadLocals = false;
+            long defaultStackSize = 0;
+            thread = bigThreadConstructor.newInstance((ThreadGroup) null, finalizer, threadName, defaultStackSize, inheritThreadLocals);
+        } catch (Throwable t) {
+            logger.log(Level.INFO, "Failed to create a thread without inherited thread-local values", t);
+        }
+    }
+    if (thread == null) {
+        thread = new Thread((ThreadGroup) null, finalizer, threadName);
+    }
+    thread.setDaemon(true);
+    try {
+        if (inheritableThreadLocals != null) {
+            inheritableThreadLocals.set(thread, null);
+        }
+    } catch (Throwable t) {
+        logger.log(Level.INFO, "Failed to clear thread local values inherited by reference finalizer thread.", t);
+    }
+    thread.start();
+}

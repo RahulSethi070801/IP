@@ -1,0 +1,13 @@
+@Beta
+protected V standardRemove(@NullableDecl Object key) {
+    Iterator<Entry<K, V>> entryIterator = entrySet().iterator();
+    while (entryIterator.hasNext()) {
+        Entry<K, V> entry = entryIterator.next();
+        if (Objects.equal(entry.getKey(), key)) {
+            V value = entry.getValue();
+            entryIterator.remove();
+            return value;
+        }
+    }
+    return null;
+}

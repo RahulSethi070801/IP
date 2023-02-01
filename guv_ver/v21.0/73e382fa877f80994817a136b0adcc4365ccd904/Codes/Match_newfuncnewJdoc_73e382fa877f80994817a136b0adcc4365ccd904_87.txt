@@ -1,0 +1,4 @@
+
+   * Returns a {@code Spliterator} over the elements of {@code fromSpliterator} mapped by {@code
+   * function}.
+   

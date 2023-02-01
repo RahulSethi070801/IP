@@ -1,0 +1,4 @@
+
+     * Returns an iterator over the lines in the string. If the string ends in a newline, a final
+     * empty string is not included, to match the behavior of BufferedReader/LineReader.readLine().
+     

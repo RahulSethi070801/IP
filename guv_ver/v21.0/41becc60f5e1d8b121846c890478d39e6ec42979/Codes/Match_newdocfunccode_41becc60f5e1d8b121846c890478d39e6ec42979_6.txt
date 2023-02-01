@@ -1,0 +1,24 @@
+@Override
+public Set<Endpoints<N>> edges() {
+    return new AbstractSet<Endpoints<N>>() {
+
+        @Override
+        public Iterator<Endpoints<N>> iterator() {
+            return EndpointsIterator.of(AbstractGraph.this);
+        }
+
+        @Override
+        public int size() {
+            return Ints.saturatedCast(edgeCount());
+        }
+
+        @Override
+        public boolean contains(Object obj) {
+            if (!(obj instanceof Endpoints)) {
+                return false;
+            }
+            Endpoints<?> endpoints = (Endpoints<?>) obj;
+            return isDirected() == endpoints.isDirected() && nodes().contains(endpoints.nodeA()) && successors(endpoints.nodeA()).contains(endpoints.nodeB());
+        }
+    };
+}

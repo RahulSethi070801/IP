@@ -1,0 +1,4 @@
+
+   * Returns {@code element} cast to {@code E}, if it actually is a nonnull E. Otherwise, throws
+   * either a NullPointerException or a ClassCastException as appropriate.
+   

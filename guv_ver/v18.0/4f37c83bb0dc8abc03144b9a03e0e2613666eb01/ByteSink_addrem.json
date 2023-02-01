@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "79": "   *     {@link #openStream} instead. This method is scheduled for removal in Guava 18.0.\n"
+    },
+    "removed": {
+        "79": "   *     {@link #openStream} instead.\n"
+    }
+}

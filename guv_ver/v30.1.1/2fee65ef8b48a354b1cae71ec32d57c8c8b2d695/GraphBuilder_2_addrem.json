@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "101": "   * <p>Note that the returned builder will always have {@link #incidentEdgeOrder} set to {@link\n",
+        "102": "   * ElementOrder#stable()}, regardless of the value that was set in this builder.\n",
+        "103": "   *\n",
+        "174": "  GraphBuilder<N> copy() {\n",
+        "175": "    GraphBuilder<N> newBuilder = new GraphBuilder<>(directed);\n",
+        "176": "    newBuilder.allowsSelfLoops = allowsSelfLoops;\n",
+        "177": "    newBuilder.nodeOrder = nodeOrder;\n",
+        "178": "    newBuilder.expectedNodeCount = expectedNodeCount;\n",
+        "179": "    newBuilder.incidentEdgeOrder = incidentEdgeOrder;\n",
+        "180": "    return newBuilder;\n",
+        "181": "  }\n",
+        "182": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,4 @@
+public static ByteArrayDataInput newDataInput(byte[] bytes, int start) {
+    checkPositionIndex(start, bytes.length);
+    return newDataInput(new ByteArrayInputStream(bytes, start, bytes.length - start));
+}

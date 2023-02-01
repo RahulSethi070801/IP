@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "119": "  @Override\n",
+        "120": "  @CanIgnoreReturnValue\n",
+        "121": "  public boolean addEdge(EndpointPair<N> endpoints, E edge) {\n",
+        "122": "    validateEndpoints(endpoints);\n",
+        "123": "    return addEdge(endpoints.nodeU(), endpoints.nodeV(), edge);\n",
+        "124": "  }\n",
+        "125": "\n"
+    },
+    "removed": {}
+}

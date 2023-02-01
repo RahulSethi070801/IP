@@ -1,0 +1,11 @@
+public void add(Runnable runnable, Executor executor) {
+    Preconditions.checkNotNull(runnable, "Runnable was null.");
+    Preconditions.checkNotNull(executor, "Executor was null.");
+    synchronized (this) {
+        if (!executed) {
+            runnables = new RunnableExecutorPair(runnable, executor, runnables);
+            return;
+        }
+    }
+    executeListener(runnable, executor);
+}

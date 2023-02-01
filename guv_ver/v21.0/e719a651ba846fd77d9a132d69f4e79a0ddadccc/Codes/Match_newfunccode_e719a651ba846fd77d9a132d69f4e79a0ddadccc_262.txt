@@ -1,0 +1,11 @@
+@Override
+public void suppress(Closeable closeable, Throwable thrown, Throwable suppressed) {
+    if (thrown == suppressed) {
+        return;
+    }
+    try {
+        addSuppressed.invoke(thrown, suppressed);
+    } catch (Throwable e) {
+        LoggingSuppressor.INSTANCE.suppress(closeable, thrown, suppressed);
+    }
+}

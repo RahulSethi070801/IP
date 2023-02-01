@@ -1,0 +1,7 @@
+
+   * Convert this builder into an array of char[]s where the maximum index is the value of the
+   * highest character that has been seen. The array will be sparse in the sense that any unseen
+   * index will default to null.
+   *
+   * @return a "sparse" array that holds the replacement mappings.
+   

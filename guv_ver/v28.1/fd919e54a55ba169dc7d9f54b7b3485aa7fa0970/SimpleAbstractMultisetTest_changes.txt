@@ -1,0 +1,4 @@
+SimpleAbstractMultisetTest
+Insertions: [69, 70, 71, 72, 73, 74, 75, 76, 89, 90, 94, 97, 98]
+Deletions: [69, 70, 71, 72, 73, 74, 75, 88, 92, 93, 96]
+android/guava-tests/test/com/google/common/collect/SimpleAbstractMultisetTest.java

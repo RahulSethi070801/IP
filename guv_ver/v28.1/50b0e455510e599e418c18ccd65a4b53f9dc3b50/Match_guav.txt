@@ -1,0 +1,24 @@
+public Iterable<N> breadthFirst(final N startNode)
+public abstract Iterable<N> breadthFirst(N startNode)
+
+private void checkThatNodeIsInGraph(N startNode)
+public abstract Iterable<N> breadthFirst(N startNode)
+
+private void checkThatNodeIsInTree(N startNode)
+public abstract Iterable<N> breadthFirst(N startNode)
+
+public Iterable<N> depthFirstPreOrder(final N startNode)
+public abstract Iterable<N> depthFirstPreOrder(N startNode)
+
+public Iterable<N> depthFirstPreOrder(final N startNode)
+public abstract Iterable<N> breadthFirst(N startNode)
+
+public Iterable<N> depthFirstPostOrder(final N startNode)
+public abstract Iterable<N> depthFirstPreOrder(N startNode)
+
+public Iterable<N> depthFirstPostOrder(final N startNode)
+public abstract Iterable<N> depthFirstPostOrder(N startNode)
+
+public Iterable<N> depthFirstPostOrder(final N startNode)
+public abstract Iterable<N> breadthFirst(N startNode)
+

@@ -1,0 +1,30 @@
+com.google.common.graph.Graph
+hashCode
+int hashCode()
+empty
+int
+com.google.common.graph.BasicGraphBuilder
+nodeOrder
+public BasicGraphBuilder<N1> nodeOrder(ElementOrder<N1> nodeOrder)
+ElementOrder
+BasicGraphBuilder
+com.google.common.graph.AbstractGraph
+edges
+public Set<Endpoints<N>> edges()
+empty
+Set
+com.google.common.graph.Graph
+successors
+Set<N> successors(Object node)
+Object
+Set
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableBasicGraph<N> inducedSubgraph(BasicGraph<N> graph, Iterable<? extends N> nodes)
+BasicGraph,Iterable
+MutableBasicGraph
+com.google.common.graph.Graph
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean

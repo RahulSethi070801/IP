@@ -1,0 +1,4 @@
+@Override
+public Set<N> successors(Object node) {
+    return delegate().successors(node);
+}

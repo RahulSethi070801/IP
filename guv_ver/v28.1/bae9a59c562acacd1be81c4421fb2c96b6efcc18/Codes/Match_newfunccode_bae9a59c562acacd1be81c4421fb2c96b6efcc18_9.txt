@@ -1,0 +1,10 @@
+public static <K, V> ImmutableMap<K, V> copyOf(Map<? extends K, ? extends V> map) {
+    if ((map instanceof ImmutableMap) && !(map instanceof SortedMap)) {
+        @SuppressWarnings("unchecked")
+        ImmutableMap<K, V> kvMap = (ImmutableMap<K, V>) map;
+        if (!kvMap.isPartialView()) {
+            return kvMap;
+        }
+    }
+    return copyOf(map.entrySet());
+}

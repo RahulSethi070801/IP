@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "32": "final class Absent<T> extends Optional<T> {\n",
+        "33": "  static final Absent<Object> INSTANCE = new Absent<Object>();\n",
+        "34": "\n",
+        "35": "  @SuppressWarnings(\"unchecked\") // implementation is \"fully variant\"\n",
+        "36": "  static <T> Optional<T> withType() {\n",
+        "37": "    return (Optional<T>) INSTANCE;\n",
+        "38": "  }\n",
+        "46": "  @Override public T get() {\n",
+        "50": "  @Override public T or(T defaultValue) {\n",
+        "55": "  @Override public Optional<T> or(Optional<? extends T> secondChoice) {\n",
+        "56": "    return (Optional<T>) checkNotNull(secondChoice);\n",
+        "59": "  @Override public T or(Supplier<? extends T> supplier) {\n",
+        "64": "  @Override @Nullable public T orNull() {\n",
+        "68": "  @Override public Set<T> asSet() {\n",
+        "72": "  @Override public <V> Optional<V> transform(Function<? super T, V> function) {\n"
+    },
+    "removed": {
+        "32": "final class Absent extends Optional<Object> {\n",
+        "33": "  static final Absent INSTANCE = new Absent();\n",
+        "41": "  @Override public Object get() {\n",
+        "45": "  @Override public Object or(Object defaultValue) {\n",
+        "50": "  @Override public Optional<Object> or(Optional<?> secondChoice) {\n",
+        "51": "    return (Optional) checkNotNull(secondChoice);\n",
+        "54": "  @Override public Object or(Supplier<?> supplier) {\n",
+        "59": "  @Override @Nullable public Object orNull() {\n",
+        "63": "  @Override public Set<Object> asSet() {\n",
+        "67": "  @Override public <V> Optional<V> transform(Function<Object, V> function) {\n"
+    }
+}

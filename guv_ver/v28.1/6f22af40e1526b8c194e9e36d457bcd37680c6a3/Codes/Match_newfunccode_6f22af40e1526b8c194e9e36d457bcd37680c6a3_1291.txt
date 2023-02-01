@@ -1,0 +1,6 @@
+@Override
+public Map<R, V> column(@NullableDecl C columnKey) {
+    synchronized (mutex) {
+        return map(delegate().column(columnKey), mutex);
+    }
+}

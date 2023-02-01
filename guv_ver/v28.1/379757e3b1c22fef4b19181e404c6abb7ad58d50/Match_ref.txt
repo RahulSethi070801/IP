@@ -1,0 +1,12 @@
+public static HashFunction md5()
+public static HashFunction sha256()
+
+public static HashFunction md5()
+public static HashFunction goodFastHash(int minimumBits)
+
+public static HashFunction sha1()
+public static HashFunction sha256()
+
+public static HashFunction sha1()
+public static HashFunction goodFastHash(int minimumBits)
+

@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "17": "import static java.util.Objects.requireNonNull;\n",
+        "31": "import javax.annotation.CheckForNull;\n",
+        "55": "@ElementTypesAreNonnullByDefault\n",
+        "60": "  @CheckForNull private final File parentDirectory;\n",
+        "66": "  @CheckForNull\n",
+        "70": "  @CheckForNull\n",
+        "71": "  private File file;\n",
+        "86": "  @CheckForNull\n",
+        "114": "      int fileThreshold, boolean resetOnFinalize, @CheckForNull File parentDirectory) {\n",
+        "162": "      // requireNonNull is safe because we always have either `file` or `memory`.\n",
+        "163": "      requireNonNull(memory);\n",
+        "227": "    if (memory != null && (memory.getCount() + len > fileThreshold)) {\n"
+    },
+    "removed": {
+        "30": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "58": "  @Nullable private final File parentDirectory;\n",
+        "67": "  private @Nullable File file;\n",
+        "109": "      int fileThreshold, boolean resetOnFinalize, @Nullable File parentDirectory) {\n",
+        "220": "    if (file == null && (memory.getCount() + len > fileThreshold)) {\n"
+    }
+}

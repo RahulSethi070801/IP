@@ -1,0 +1,3 @@
+public static LinearTransformation forNaN()
+public abstract double transform(double x)
+

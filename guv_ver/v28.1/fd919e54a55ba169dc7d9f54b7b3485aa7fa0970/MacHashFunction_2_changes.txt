@@ -1,0 +1,4 @@
+MacHashFunction_2
+Insertions: [89]
+Deletions: [89, 90, 91]
+guava/src/com/google/common/hash/MacHashFunction.java

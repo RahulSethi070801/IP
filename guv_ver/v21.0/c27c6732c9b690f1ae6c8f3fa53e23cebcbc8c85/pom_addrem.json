@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "52": "        <version>2.5.0</version>\n"
+    },
+    "removed": {
+        "52": "        <version>2.3.7</version>\n"
+    }
+}

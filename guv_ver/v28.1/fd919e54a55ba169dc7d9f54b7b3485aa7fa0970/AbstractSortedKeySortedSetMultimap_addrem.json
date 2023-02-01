@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "27": " * <p>This superclass allows {@code TreeMultimap} to override methods to return navigable set and\n",
+        "28": " * map types in non-GWT only, while GWT code will inherit the SortedMap/SortedSet overrides.\n"
+    },
+    "removed": {
+        "27": " * <p>This superclass allows {@code TreeMultimap} to override methods to return\n",
+        "28": " * navigable set and map types in non-GWT only, while GWT code will inherit the\n",
+        "29": " * SortedMap/SortedSet overrides.\n"
+    }
+}

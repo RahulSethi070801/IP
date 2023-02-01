@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "146": "  @Param MeanAlgorithm meanAlgorithm;\n",
+        "147": "  @Param VarianceAlgorithm varianceAlgorithm;\n",
+        "162": "  @Benchmark\n",
+        "163": "  int meanAndVariance(int reps) {\n"
+    },
+    "removed": {
+        "146": "  @Param\n",
+        "147": "  MeanAlgorithm meanAlgorithm;\n",
+        "148": "  @Param\n",
+        "149": "  VarianceAlgorithm varianceAlgorithm;\n",
+        "164": "  @Benchmark int meanAndVariance(int reps) {\n"
+    }
+}

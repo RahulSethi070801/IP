@@ -1,0 +1,4 @@
+ArrayListMultimap
+Insertions: [158, 160]
+Deletions: [151, 159, 161]
+guava/src/com/google/common/collect/ArrayListMultimap.java

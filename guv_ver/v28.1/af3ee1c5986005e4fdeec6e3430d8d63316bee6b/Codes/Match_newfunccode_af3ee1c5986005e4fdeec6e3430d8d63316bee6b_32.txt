@@ -1,0 +1,1 @@
+Set<E> edgesConnecting(EndpointPair<N> endpoints);

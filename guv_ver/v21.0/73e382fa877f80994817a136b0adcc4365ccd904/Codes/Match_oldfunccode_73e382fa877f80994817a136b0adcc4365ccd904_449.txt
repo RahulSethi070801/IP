@@ -1,0 +1,14 @@
+static <B> Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry) {
+    return new ForwardingMapEntry<Class<? extends B>, B>() {
+
+        @Override
+        protected Entry<Class<? extends B>, B> delegate() {
+            return entry;
+        }
+
+        @Override
+        public B setValue(B value) {
+            return super.setValue(cast(getKey(), value));
+        }
+    };
+}

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "119": " * entries may be counted by {@link Cache#size}, but will never be visible to read or write\n"
+    },
+    "removed": {
+        "119": " * entries may be counted in {@link Cache#size}, but will never be visible to read or write\n"
+    }
+}

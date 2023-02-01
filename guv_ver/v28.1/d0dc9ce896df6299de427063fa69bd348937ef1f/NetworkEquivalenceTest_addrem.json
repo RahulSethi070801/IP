@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "89": "    assertThat(network).isNotEqualTo(g2);\n",
+        "100": "    assertThat(network).isNotEqualTo(g2);\n",
+        "111": "    assertThat(network).isNotEqualTo(g2);\n",
+        "122": "    assertThat(network).isNotEqualTo(g2);\n",
+        "136": "    assertThat(network).isNotEqualTo(g2);\n",
+        "152": "    assertThat(network).isEqualTo(g2);\n",
+        "172": "    assertThat(g1).isEqualTo(g2);\n",
+        "184": "        assertThat(network).isEqualTo(g2);\n",
+        "187": "        assertThat(network).isNotEqualTo(g2);\n"
+    },
+    "removed": {
+        "89": "    assertThat(Graphs.equivalent(network, g2)).isFalse();\n",
+        "100": "    assertThat(Graphs.equivalent(network, g2)).isFalse();\n",
+        "111": "    assertThat(Graphs.equivalent(network, g2)).isFalse();\n",
+        "122": "    assertThat(Graphs.equivalent(network, g2)).isFalse();\n",
+        "136": "    assertThat(Graphs.equivalent(network, g2)).isFalse();\n",
+        "152": "    assertThat(Graphs.equivalent(network, g2)).isTrue();\n",
+        "172": "    assertThat(Graphs.equivalent(g1, g2)).isTrue();\n",
+        "184": "        assertThat(Graphs.equivalent(network, g2)).isTrue();\n",
+        "187": "        assertThat(Graphs.equivalent(network, g2)).isFalse();\n"
+    }
+}

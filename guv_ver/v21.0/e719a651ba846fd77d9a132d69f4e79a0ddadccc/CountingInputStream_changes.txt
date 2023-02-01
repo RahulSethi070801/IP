@@ -1,0 +1,4 @@
+CountingInputStream
+Insertions: [4, 5, 9, 10, 11, 12, 53, 54, 62, 63, 71, 72, 78, 79, 85, 86]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 55, 63, 71, 77, 83]
+guava/src/com/google/common/io/CountingInputStream.java

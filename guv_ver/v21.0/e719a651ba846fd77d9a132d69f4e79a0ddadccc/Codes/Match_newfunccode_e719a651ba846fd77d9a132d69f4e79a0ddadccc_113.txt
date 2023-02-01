@@ -1,0 +1,16 @@
+public static int read(InputStream in, byte[] b, int off, int len) throws IOException {
+    checkNotNull(in);
+    checkNotNull(b);
+    if (len < 0) {
+        throw new IndexOutOfBoundsException("len is negative");
+    }
+    int total = 0;
+    while (total < len) {
+        int result = in.read(b, off + total, len - total);
+        if (result == -1) {
+            break;
+        }
+        total += result;
+    }
+    return total;
+}

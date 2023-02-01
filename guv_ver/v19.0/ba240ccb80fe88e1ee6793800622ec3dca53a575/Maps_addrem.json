@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "165": "   * for OpenJDK 1.7. It also can't be guaranteed that the method isn't\n",
+        "168": "   * @param expectedSize the number of entries you expect to add to the\n",
+        "171": "   *         expectedSize} entries without resizing\n",
+        "230": "  /**\n",
+        "231": "   * Creates a {@code LinkedHashMap} instance, with a high enough\n",
+        "232": "   * \"initial capacity\" that it <i>should</i> hold {@code expectedSize}\n",
+        "233": "   * elements without growth. This behavior cannot be broadly guaranteed, but\n",
+        "234": "   * it is observed to be true for OpenJDK 1.7. It also can't be guaranteed\n",
+        "235": "   * that the method isn't inadvertently <i>oversizing</i> the returned map.\n",
+        "236": "   *\n",
+        "237": "   * @param expectedSize the number of entries you expect to add to the\n",
+        "238": "   *        returned map\n",
+        "239": "   * @return a new, empty {@code LinkedHashMap} with enough capacity to hold\n",
+        "240": "   *         {@code expectedSize} entries without resizing\n",
+        "241": "   * @throws IllegalArgumentException if {@code expectedSize} is negative\n",
+        "242": "   * @since 19.0\n",
+        "243": "   */\n",
+        "244": "  public static <K, V> LinkedHashMap<K, V> newLinkedHashMapWithExpectedSize(\n",
+        "245": "      int expectedSize) {\n",
+        "246": "    return new LinkedHashMap<K, V>(capacity(expectedSize));\n",
+        "247": "  }\n",
+        "248": "\n"
+    },
+    "removed": {
+        "165": "   * for OpenJDK 1.6. It also can't be guaranteed that the method isn't\n",
+        "168": "   * @param expectedSize the number of elements you expect to add to the\n",
+        "171": "   *         expectedSize} elements without resizing\n"
+    }
+}

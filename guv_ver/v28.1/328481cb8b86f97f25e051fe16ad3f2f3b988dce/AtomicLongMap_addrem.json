@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "28": "import java.util.Map.Entry;\n",
+        "237": "    for (Entry<? extends K, ? extends Long> entry : m.entrySet()) {\n",
+        "282": "    Iterator<Entry<K, AtomicLong>> entryIterator = map.entrySet().iterator();\n",
+        "284": "      Entry<K, AtomicLong> entry = entryIterator.next();\n"
+    },
+    "removed": {
+        "236": "    for (Map.Entry<? extends K, ? extends Long> entry : m.entrySet()) {\n",
+        "281": "    Iterator<Map.Entry<K, AtomicLong>> entryIterator = map.entrySet().iterator();\n",
+        "283": "      Map.Entry<K, AtomicLong> entry = entryIterator.next();\n"
+    }
+}

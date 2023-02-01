@@ -1,0 +1,14 @@
+{
+    "addition": {},
+    "removed": {
+        "36": "@SuppressWarnings(\"serial\") // this warning is silly for exceptions in tests\n",
+        "458": "    /*\n",
+        "459": "     * Subclasses of Sample will define methods with these signatures that throw\n",
+        "460": "     * these exceptions, so we must declare them in the throws clause here.\n",
+        "461": "     * Eclipse doesn't think being thrown from a subclass's non-public,\n",
+        "462": "     * non-protected method with the same signature counts as being \"used.\"\n",
+        "463": "     */\n",
+        "464": "    @SuppressWarnings(\"unused\")\n",
+        "466": "    @SuppressWarnings(\"unused\")\n"
+    }
+}

@@ -1,0 +1,19 @@
+private Entry<E> wrapEntry(final AvlNode<E> baseEntry) {
+    return new Multisets.AbstractEntry<E>() {
+
+        @Override
+        public E getElement() {
+            return baseEntry.getElement();
+        }
+
+        @Override
+        public int getCount() {
+            int result = baseEntry.getCount();
+            if (result == 0) {
+                return count(getElement());
+            } else {
+                return result;
+            }
+        }
+    };
+}

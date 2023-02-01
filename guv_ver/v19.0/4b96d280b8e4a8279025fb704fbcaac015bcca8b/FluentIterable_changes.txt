@@ -1,0 +1,4 @@
+FluentIterable
+Insertions: [402, 403, 404, 405, 406, 407, 408]
+Deletions: [402, 403, 404, 405]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/FluentIterable.java

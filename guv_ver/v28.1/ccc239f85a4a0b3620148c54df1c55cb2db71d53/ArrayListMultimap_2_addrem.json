@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "108": "    this(12, DEFAULT_VALUES_PER_KEY);\n",
+        "112": "    super(Platform.<K, Collection<V>>newHashMapWithExpectedSize(expectedKeys));\n"
+    },
+    "removed": {
+        "108": "    super(new HashMap<K, Collection<V>>());\n",
+        "109": "    expectedValuesPerKey = DEFAULT_VALUES_PER_KEY;\n",
+        "113": "    super(Maps.<K, Collection<V>>newHashMapWithExpectedSize(expectedKeys));\n"
+    }
+}

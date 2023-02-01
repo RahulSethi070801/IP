@@ -1,0 +1,6 @@
+@Override
+public Writer append(@CheckForNull CharSequence charSeq) throws IOException {
+    checkNotClosed();
+    target.append(charSeq);
+    return this;
+}

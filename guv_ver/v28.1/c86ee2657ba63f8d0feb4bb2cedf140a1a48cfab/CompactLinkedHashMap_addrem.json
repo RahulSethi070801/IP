@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "55": "   * <i>should</i> hold {@code expectedSize} elements without rebuilding internal data structures.\n",
+        "92": "    this(expectedSize, false);\n",
+        "95": "  CompactLinkedHashMap(int expectedSize, boolean accessOrder) {\n",
+        "96": "    super(expectedSize);\n",
+        "101": "  void init(int expectedSize) {\n",
+        "102": "    super.init(expectedSize);\n",
+        "103": "    this.firstEntry = ENDPOINT;\n",
+        "104": "    this.lastEntry = ENDPOINT;\n",
+        "111": "    this.links = new long[expectedSize];\n",
+        "170": "    super.moveLastEntry(dstIndex);\n",
+        "171": "\n"
+    },
+    "removed": {
+        "54": "   * <i>should</i> hold {@code expectedSize} elements without growth.\n",
+        "91": "    this(expectedSize, DEFAULT_LOAD_FACTOR, false);\n",
+        "94": "  CompactLinkedHashMap(int expectedSize, float loadFactor, boolean accessOrder) {\n",
+        "95": "    super(expectedSize, loadFactor);\n",
+        "100": "  void init(int expectedSize, float loadFactor) {\n",
+        "101": "    super.init(expectedSize, loadFactor);\n",
+        "102": "    firstEntry = ENDPOINT;\n",
+        "103": "    lastEntry = ENDPOINT;\n",
+        "110": "    links = new long[expectedSize];\n",
+        "174": "    super.moveLastEntry(dstIndex);\n"
+    }
+}

@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+final ImmutableMapEntry<K, V> getNextInKeyBucket() {
+    return nextInKeyBucket;
+}

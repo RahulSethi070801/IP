@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "38": " * Generates a test suite covering the {@link Queue} implementations in the {@link java.util}\n",
+        "39": " * package. Can be subclassed to specify tests that should be suppressed.\n"
+    },
+    "removed": {
+        "38": " * Generates a test suite covering the {@link Queue} implementations in the\n",
+        "39": " * {@link java.util} package. Can be subclassed to specify tests that should\n",
+        "40": " * be suppressed.\n"
+    }
+}

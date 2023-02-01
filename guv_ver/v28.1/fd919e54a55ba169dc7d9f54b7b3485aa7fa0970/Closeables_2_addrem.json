@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "49": "   * <p>Example:\n",
+        "51": "   * <pre>{@code\n",
+        "52": "   * public void useStreamNicely() throws IOException {\n",
+        "53": "   *   SomeStream stream = new SomeStream(\"foo\");\n",
+        "54": "   *   boolean threw = true;\n",
+        "55": "   *   try {\n",
+        "56": "   *     // ... code which does something with the stream ...\n",
+        "57": "   *     threw = false;\n",
+        "58": "   *   } finally {\n",
+        "59": "   *     // If an exception occurs, rethrow it only if threw==false:\n",
+        "60": "   *     Closeables.close(stream, threw);\n",
+        "61": "   *   }\n",
+        "62": "   * }\n",
+        "63": "   * }</pre>\n",
+        "69": "   * @throws IOException if {@code swallowIOException} is false and {@code close} throws an {@code\n",
+        "70": "   *     IOException}.\n"
+    },
+    "removed": {
+        "49": "   * <p>Example: <pre>   {@code\n",
+        "51": "   *   public void useStreamNicely() throws IOException {\n",
+        "52": "   *     SomeStream stream = new SomeStream(\"foo\");\n",
+        "53": "   *     boolean threw = true;\n",
+        "54": "   *     try {\n",
+        "55": "   *       // ... code which does something with the stream ...\n",
+        "56": "   *       threw = false;\n",
+        "57": "   *     } finally {\n",
+        "58": "   *       // If an exception occurs, rethrow it only if threw==false:\n",
+        "59": "   *       Closeables.close(stream, threw);\n",
+        "60": "   *     }\n",
+        "61": "   *   }}</pre>\n",
+        "67": "   * @throws IOException if {@code swallowIOException} is false and {@code close} throws an\n",
+        "68": "   *     {@code IOException}.\n"
+    }
+}

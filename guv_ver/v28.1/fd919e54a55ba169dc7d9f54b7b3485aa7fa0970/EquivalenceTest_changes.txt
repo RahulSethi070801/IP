@@ -1,0 +1,4 @@
+EquivalenceTest
+Insertions: [56, 57, 62, 63, 71, 72, 98, 99]
+Deletions: [56, 61, 62, 70, 71, 72, 73, 74, 75, 101]
+android/guava-tests/test/com/google/common/base/EquivalenceTest.java

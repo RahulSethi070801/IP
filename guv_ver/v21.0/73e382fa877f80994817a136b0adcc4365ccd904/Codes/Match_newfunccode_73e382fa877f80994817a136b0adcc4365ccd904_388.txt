@@ -1,0 +1,4 @@
+public static OptionalDouble findLast(DoubleStream stream) {
+    java.util.Optional<Double> boxedLast = findLast(stream.boxed());
+    return boxedLast.isPresent() ? OptionalDouble.of(boxedLast.get()) : OptionalDouble.empty();
+}

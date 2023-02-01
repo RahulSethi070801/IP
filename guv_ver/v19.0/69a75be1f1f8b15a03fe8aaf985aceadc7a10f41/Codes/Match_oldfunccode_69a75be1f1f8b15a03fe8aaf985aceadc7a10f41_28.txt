@@ -1,0 +1,20 @@
+protected final void notifyStarted() {
+    monitor.enter();
+    try {
+        if (snapshot.state != STARTING) {
+            IllegalStateException failure = new IllegalStateException("Cannot notifyStarted() when the service is " + snapshot.state);
+            notifyFailed(failure);
+            throw failure;
+        }
+        if (snapshot.shutdownWhenStartupFinishes) {
+            snapshot = new StateSnapshot(STOPPING);
+            doStop();
+        } else {
+            snapshot = new StateSnapshot(RUNNING);
+            running();
+        }
+    } finally {
+        monitor.leave();
+        executeListeners();
+    }
+}

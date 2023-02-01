@@ -1,0 +1,125 @@
+com.google.common.collect.FluentIterable
+anyMatch
+public final boolean anyMatch(Predicate<? super E> predicate)
+Predicate
+boolean
+com.google.common.collect.FluentIterable
+toSet
+public final ImmutableSet<E> toSet()
+empty
+ImmutableSet
+com.google.common.collect.FluentIterable
+firstMatch
+public final Optional<E> firstMatch(Predicate<? super E> predicate)
+Predicate
+Optional
+com.google.common.collect.FluentIterable
+from
+public static FluentIterable<E> from(final Iterable<E> iterable)
+Iterable
+FluentIterable
+com.google.common.collect.FluentIterable
+size
+public final int size()
+empty
+int
+com.google.common.collect.FluentIterable
+toSortedList
+public final ImmutableList<E> toSortedList(Comparator<? super E> comparator)
+Comparator
+ImmutableList
+com.google.common.collect.FluentIterable
+cycle
+public final FluentIterable<E> cycle()
+empty
+FluentIterable
+com.google.common.collect.FluentIterable
+isEmpty
+public final boolean isEmpty()
+empty
+boolean
+com.google.common.collect.FluentIterable
+toString
+public String toString()
+empty
+String
+com.google.common.collect.FluentIterable
+transformAndConcat
+public FluentIterable<T> transformAndConcat(Function<? super E, ? extends Iterable<? extends T>> function)
+Function
+FluentIterable
+com.google.common.collect.FluentIterable
+last
+public final Optional<E> last()
+empty
+Optional
+com.google.common.collect.FluentIterable
+filter
+public final FluentIterable<T> filter(Class<T> type)
+Class
+FluentIterable
+com.google.common.collect.FluentIterable
+toList
+public final ImmutableList<E> toList()
+empty
+ImmutableList
+com.google.common.collect.FluentIterable
+of
+public static FluentIterable<E> of(E[] elements)
+E[]
+FluentIterable
+com.google.common.collect.FluentIterable
+append
+public final FluentIterable<E> append(Iterable<? extends E> other)
+Iterable
+FluentIterable
+com.google.common.collect.FluentIterable
+toSortedSet
+public final ImmutableSortedSet<E> toSortedSet(Comparator<? super E> comparator)
+Comparator
+ImmutableSortedSet
+com.google.common.collect.FluentIterable
+toMultiset
+public final ImmutableMultiset<E> toMultiset()
+empty
+ImmutableMultiset
+com.google.common.collect.FluentIterable
+allMatch
+public final boolean allMatch(Predicate<? super E> predicate)
+Predicate
+boolean
+com.google.common.collect.FluentIterable
+filter
+public final FluentIterable<E> filter(Predicate<? super E> predicate)
+Predicate
+FluentIterable
+com.google.common.collect.FluentIterable
+first
+public final Optional<E> first()
+empty
+Optional
+com.google.common.collect.FluentIterable
+append
+public final FluentIterable<E> append(E... elements)
+E...
+FluentIterable
+com.google.common.collect.FluentIterable
+transform
+public final FluentIterable<T> transform(Function<? super E, T> function)
+Function
+FluentIterable
+com.google.common.collect.FluentIterable
+skip
+public final FluentIterable<E> skip(int numberToSkip)
+int
+FluentIterable
+com.google.common.collect.FluentIterable
+uniqueIndex
+public final ImmutableMap<K, E> uniqueIndex(Function<? super E, K> keyFunction)
+Function
+ImmutableMap
+com.google.common.collect.FluentIterable
+toMap
+public final ImmutableMap<E, V> toMap(Function<? super E, V> valueFunction)
+Function
+ImmutableMap

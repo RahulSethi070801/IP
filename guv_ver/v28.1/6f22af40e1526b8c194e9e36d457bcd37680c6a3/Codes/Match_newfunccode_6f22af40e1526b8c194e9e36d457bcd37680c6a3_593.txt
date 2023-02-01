@@ -1,0 +1,3 @@
+public static <E, K extends Comparable> int binarySearch(List<E> list, Function<? super E, K> keyFunction, @NullableDecl K key, KeyPresentBehavior presentBehavior, KeyAbsentBehavior absentBehavior) {
+    return binarySearch(list, keyFunction, key, Ordering.natural(), presentBehavior, absentBehavior);
+}

@@ -1,0 +1,4 @@
+TypesTest
+Insertions: [37, 49, 51, 97, 99, 103, 108, 117, 130, 132, 138, 146]
+Deletions: [48, 50, 96, 98, 102, 107, 116, 129, 131, 137, 145]
+android/guava-tests/test/com/google/common/reflect/TypesTest.java

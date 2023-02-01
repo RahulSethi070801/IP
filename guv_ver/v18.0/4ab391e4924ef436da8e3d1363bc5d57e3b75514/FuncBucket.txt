@@ -1,0 +1,30 @@
+com.google.common.base.Converter$FunctionBasedConverter
+toString
+public String toString()
+empty
+String
+com.google.common.base.Converter$FunctionBasedConverter
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.base.Converter$FunctionBasedConverter
+doForward
+protected B doForward(A a)
+A
+B
+com.google.common.base.Converter$FunctionBasedConverter
+FunctionBasedConverter
+private FunctionBasedConverter(Function<? super A, ? extends B> forwardFunction, Function<? super B, ? extends A> backwardFunction)
+Function,Function
+constructor
+com.google.common.base.Converter$FunctionBasedConverter
+doBackward
+protected A doBackward(B b)
+B
+A
+com.google.common.base.Converter$FunctionBasedConverter
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean

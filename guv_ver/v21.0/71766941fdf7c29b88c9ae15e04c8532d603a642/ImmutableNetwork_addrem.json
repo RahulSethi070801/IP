@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "90": "      int selfLoopCount = graph.edgesConnecting(node, node).size();\n"
+    },
+    "removed": {
+        "25": "import com.google.common.math.IntMath;\n",
+        "91": "      int selfLoopCount = graph.allowsSelfLoops()\n",
+        "92": "          // Self-loops count once as incident edges, but twice as (incoming+outgoing) edges.\n",
+        "93": "          ? IntMath.saturatedAdd(inEdgeMap.size() - graph.degree(node), outEdgeMap.size()) : 0;\n"
+    }
+}

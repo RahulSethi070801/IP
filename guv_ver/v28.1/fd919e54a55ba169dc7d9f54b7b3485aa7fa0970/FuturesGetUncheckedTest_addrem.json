@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "37": "/** Unit tests for {@link Futures#getUnchecked(Future)}. */\n"
+    },
+    "removed": {
+        "37": "/**\n",
+        "38": " * Unit tests for {@link Futures#getUnchecked(Future)}.\n",
+        "39": " */\n"
+    }
+}

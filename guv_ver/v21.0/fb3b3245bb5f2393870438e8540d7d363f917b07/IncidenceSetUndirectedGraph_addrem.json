@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "89": " * <li>{@code removeEdge}: O(1), unless this graph is a multigraph (supports parallel edges);\n",
+        "90": " *     in that case this method is O(min(d_edgeNode1, d_edgeNode2)).\n",
+        "107": "  private final Map<E, IncidentNodes<N>> edgeToIncidentNodes;\n",
+        "141": "    return checkedIncidentNodes(edge);\n",
+        "251": "    IncidentNodes<N> incidentNodes = IncidentNodes.of(node1, node2);\n",
+        "254": "    IncidentNodes<N> previousIncidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "298": "    IncidentNodes<N> incidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "302": "    N node1 = incidentNodes.node1();\n",
+        "303": "    N node2 = incidentNodes.node2();\n",
+        "340": "\n",
+        "341": "  private IncidentNodes<N> checkedIncidentNodes(Object edge) {\n",
+        "342": "    checkNotNull(edge, \"edge\");\n",
+        "343": "    IncidentNodes<N> incidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "344": "    checkArgument(incidentNodes != null, EDGE_NOT_IN_GRAPH, edge);\n",
+        "345": "    return incidentNodes;\n",
+        "346": "  }\n"
+    },
+    "removed": {
+        "30": "import com.google.common.collect.Iterables;\n",
+        "90": " * <li>{@code removeEdge}: O(1), unless this graph is a multigraph (supports parallel edges),\n",
+        "91": " *     then this method is O(min(d_edgeNode1, d_edgeNode2)).\n",
+        "108": "  private final Map<E, UndirectedIncidentNodes<N>> edgeToIncidentNodes;\n",
+        "142": "    checkNotNull(edge, \"edge\");\n",
+        "143": "    UndirectedIncidentNodes<N> incidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "144": "    checkArgument(incidentNodes != null, EDGE_NOT_IN_GRAPH, edge);\n",
+        "145": "    return incidentNodes;\n",
+        "255": "    UndirectedIncidentNodes<N> incidentNodes = UndirectedIncidentNodes.of(node1, node2);\n",
+        "258": "    UndirectedIncidentNodes<N> previousIncidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "302": "    UndirectedIncidentNodes<N> incidentNodes = edgeToIncidentNodes.get(edge);\n",
+        "306": "    N node1 = Iterables.get(incidentNodes, 0);\n",
+        "307": "    N node2 = Iterables.get(incidentNodes, 1, node1);\n"
+    }
+}

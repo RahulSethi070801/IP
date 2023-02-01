@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "38": "  @Override\n",
+        "39": "  public void setUp() throws Exception {\n",
+        "47": "    forward =\n",
+        "48": "        new ForwardingLoadingCache<String, Boolean>() {\n",
+        "49": "          @Override\n",
+        "50": "          protected LoadingCache<String, Boolean> delegate() {\n",
+        "51": "            return mock;\n",
+        "52": "          }\n",
+        "53": "        };\n",
+        "111": "  /** Make sure that all methods are forwarded. */\n"
+    },
+    "removed": {
+        "38": "  @Override public void setUp() throws Exception {\n",
+        "46": "    forward = new ForwardingLoadingCache<String, Boolean>() {\n",
+        "47": "      @Override protected LoadingCache<String, Boolean> delegate() {\n",
+        "48": "        return mock;\n",
+        "49": "      }\n",
+        "50": "    };\n",
+        "108": "  /**\n",
+        "109": "   * Make sure that all methods are forwarded.\n",
+        "110": "   */\n"
+    }
+}

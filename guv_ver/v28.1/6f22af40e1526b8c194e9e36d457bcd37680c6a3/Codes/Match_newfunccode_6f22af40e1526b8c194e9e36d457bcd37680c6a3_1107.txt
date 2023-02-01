@@ -1,0 +1,3 @@
+public static <T> Optional<T> fromNullable(@NullableDecl T nullableReference) {
+    return (nullableReference == null) ? Optional.<T>absent() : new Present<T>(nullableReference);
+}

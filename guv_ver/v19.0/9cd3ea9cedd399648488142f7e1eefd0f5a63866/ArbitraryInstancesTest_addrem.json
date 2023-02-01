@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "225": "    assertNotNull(ArbitraryInstances.get(Joiner.class).join(ImmutableList.of(\"a\")));\n",
+        "226": "    assertNotNull(ArbitraryInstances.get(Splitter.class).split(\"a,b\"));\n"
+    },
+    "removed": {
+        "225": "    ArbitraryInstances.get(Joiner.class).join(ImmutableList.of(\"a\"));\n",
+        "226": "    ArbitraryInstances.get(Splitter.class).split(\"a,b\");\n"
+    }
+}

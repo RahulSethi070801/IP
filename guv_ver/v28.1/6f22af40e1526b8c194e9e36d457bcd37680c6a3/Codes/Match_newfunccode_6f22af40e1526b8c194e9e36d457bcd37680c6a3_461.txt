@@ -1,0 +1,9 @@
+@CanIgnoreReturnValue
+public V erase(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {
+    Integer rowIndex = rowKeyToIndex.get(rowKey);
+    Integer columnIndex = columnKeyToIndex.get(columnKey);
+    if (rowIndex == null || columnIndex == null) {
+        return null;
+    }
+    return set(rowIndex, columnIndex, null);
+}

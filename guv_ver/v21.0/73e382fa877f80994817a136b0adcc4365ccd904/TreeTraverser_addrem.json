@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "28": "import java.util.function.Consumer;\n",
+        "110": "\n",
+        "111": "      @Override\n",
+        "112": "      public void forEach(Consumer<? super T> action) {\n",
+        "113": "        checkNotNull(action);\n",
+        "114": "        new Consumer<T>() {\n",
+        "115": "          @Override\n",
+        "116": "          public void accept(T t) {\n",
+        "117": "            action.accept(t);\n",
+        "118": "            children(t).forEach(this);\n",
+        "119": "          }\n",
+        "120": "        }.accept(root);\n",
+        "121": "      }\n",
+        "172": "\n",
+        "173": "      @Override\n",
+        "174": "      public void forEach(Consumer<? super T> action) {\n",
+        "175": "        checkNotNull(action);\n",
+        "176": "        new Consumer<T>() {\n",
+        "177": "          @Override\n",
+        "178": "          public void accept(T t) {\n",
+        "179": "            children(t).forEach(this);\n",
+        "180": "            action.accept(t);\n",
+        "181": "          }\n",
+        "182": "        }.accept(root);\n",
+        "183": "      }\n"
+    },
+    "removed": {}
+}

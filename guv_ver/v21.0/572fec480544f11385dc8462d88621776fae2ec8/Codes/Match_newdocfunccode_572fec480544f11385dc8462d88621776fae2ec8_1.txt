@@ -1,0 +1,5 @@
+@GwtCompatible(serializable = true)
+@SuppressWarnings("unchecked")
+public static <C extends Comparable> Ordering<C> natural() {
+    return (Ordering<C>) NaturalOrdering.INSTANCE;
+}

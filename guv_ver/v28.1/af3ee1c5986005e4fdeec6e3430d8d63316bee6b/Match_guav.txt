@@ -1,0 +1,366 @@
+public boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public boolean removeEdge(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public boolean removeEdge(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+protected final boolean isOrderingCompatible(EndpointPair<?> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+protected final boolean isOrderingCompatible(EndpointPair<?> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+boolean addEdge(EndpointPair<N> endpoints, E edge)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+boolean addEdge(EndpointPair<N> endpoints, E edge)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public V putEdgeValue(EndpointPair<N> endpoints, V value)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public V putEdgeValue(EndpointPair<N> endpoints, V value)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public boolean hasEdgeConnecting(N nodeU, N nodeV)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public boolean hasEdgeConnecting(N nodeU, N nodeV)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+V removeEdge(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+V removeEdge(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public V removeEdge(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public V removeEdge(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public Optional<V> edgeValue(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public Optional<V> edgeValue(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Optional<V> edgeValue(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+E edgeConnectingOrNull(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+E edgeConnectingOrNull(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+E edgeConnectingOrNull(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+Optional<V> edgeValue(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+Optional<V> edgeValue(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+Optional<V> edgeValue(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+boolean removeEdge(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+boolean removeEdge(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+boolean removeEdge(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+V putEdgeValue(EndpointPair<N> endpoints, V value)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+V putEdgeValue(EndpointPair<N> endpoints, V value)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+V putEdgeValue(EndpointPair<N> endpoints, V value)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+Set<E> edgesConnecting(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+Set<E> edgesConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+Set<E> edgesConnecting(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public E edgeConnectingOrNull(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public E edgeConnectingOrNull(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public E edgeConnectingOrNull(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public E edgeConnectingOrNull(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public boolean addEdge(EndpointPair<N> endpoints, E edge)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public boolean addEdge(EndpointPair<N> endpoints, E edge)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public boolean addEdge(EndpointPair<N> endpoints, E edge)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public boolean addEdge(EndpointPair<N> endpoints, E edge)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+Optional<E> edgeConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+static EndpointPair<N> transpose(EndpointPair<N> endpoints)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+static EndpointPair<N> transpose(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+static EndpointPair<N> transpose(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+static EndpointPair<N> transpose(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+static EndpointPair<N> transpose(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+boolean putEdge(EndpointPair<N> endpoints)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+boolean putEdge(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+boolean putEdge(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+boolean putEdge(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+boolean putEdge(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+protected final V edgeValueOrDefault_internal(N nodeU, N nodeV, V defaultValue)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+protected final V edgeValueOrDefault_internal(N nodeU, N nodeV, V defaultValue)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+protected final V edgeValueOrDefault_internal(N nodeU, N nodeV, V defaultValue)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+protected final V edgeValueOrDefault_internal(N nodeU, N nodeV, V defaultValue)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+protected final V edgeValueOrDefault_internal(N nodeU, N nodeV, V defaultValue)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public E edgeConnectingOrNull(N nodeU, N nodeV)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public E edgeConnectingOrNull(N nodeU, N nodeV)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public E edgeConnectingOrNull(N nodeU, N nodeV)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public E edgeConnectingOrNull(N nodeU, N nodeV)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public E edgeConnectingOrNull(N nodeU, N nodeV)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public boolean putEdge(EndpointPair<N> endpoints)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public boolean putEdge(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public boolean putEdge(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public boolean putEdge(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public boolean putEdge(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+protected final boolean hasEdgeConnecting_internal(N nodeU, N nodeV)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+protected final boolean hasEdgeConnecting_internal(N nodeU, N nodeV)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+protected final boolean hasEdgeConnecting_internal(N nodeU, N nodeV)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+protected final boolean hasEdgeConnecting_internal(N nodeU, N nodeV)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+protected final boolean hasEdgeConnecting_internal(N nodeU, N nodeV)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Graph<N> asGraph()
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public Graph<N> asGraph()
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public Graph<N> asGraph()
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Graph<N> asGraph()
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public Graph<N> asGraph()
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+boolean hasEdgeConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+protected final void validateEndpoints(EndpointPair<?> endpoints)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+protected final void validateEndpoints(EndpointPair<?> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+protected final void validateEndpoints(EndpointPair<?> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+protected final void validateEndpoints(EndpointPair<?> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+protected final void validateEndpoints(EndpointPair<?> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Set<E> edgesConnecting(EndpointPair<N> endpoints)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public Set<E> edgesConnecting(EndpointPair<N> endpoints)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public Set<E> edgesConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Set<E> edgesConnecting(EndpointPair<N> endpoints)
+Set<E> edgesConnecting(N nodeU, N nodeV)
+
+public Set<E> edgesConnecting(EndpointPair<N> endpoints)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public Set<E> edgesConnecting(EndpointPair<N> endpoints)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(N nodeU, N nodeV)
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(N nodeU, N nodeV)
+Optional<V> edgeValue(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(N nodeU, N nodeV)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(N nodeU, N nodeV)
+Set<E> edgesConnecting(N nodeU, N nodeV)
+
+public Optional<E> edgeConnecting(N nodeU, N nodeV)
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+
+public Optional<E> edgeConnecting(N nodeU, N nodeV)
+E edgeConnectingOrNull(N nodeU, N nodeV)
+

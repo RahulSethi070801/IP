@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "480": "      assertThat(expected.getMessage()).contains(\"@Nullable\");\n"
+    },
+    "removed": {
+        "480": "      assertThat(expected.getMessage()).contains(\"@NullableDecl\");\n"
+    }
+}

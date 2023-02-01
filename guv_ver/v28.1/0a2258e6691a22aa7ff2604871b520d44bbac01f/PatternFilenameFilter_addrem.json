@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "24": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "59": "  public boolean accept(@Nullable File dir, String fileName) {\n"
+    },
+    "removed": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "59": "  public boolean accept(@NullableDecl File dir, String fileName) {\n"
+    }
+}

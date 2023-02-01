@@ -1,0 +1,3 @@
+static <N> EndpointsIterator<N> of(Graph<N, ?> graph) {
+    return graph.isDirected() ? new Directed<N>(graph) : new Undirected<N>(graph);
+}

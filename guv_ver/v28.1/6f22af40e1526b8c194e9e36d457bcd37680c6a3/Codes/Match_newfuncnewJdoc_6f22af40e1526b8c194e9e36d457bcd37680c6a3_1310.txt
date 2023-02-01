@@ -1,0 +1,5 @@
+
+   * Concatenates the contents of the two given collections of exceptions. If either collection is
+   * null, the other collection is returned. Otherwise, the elements of {@code other} are added to
+   * {@code exceptions} and {@code exceptions} is returned.
+   

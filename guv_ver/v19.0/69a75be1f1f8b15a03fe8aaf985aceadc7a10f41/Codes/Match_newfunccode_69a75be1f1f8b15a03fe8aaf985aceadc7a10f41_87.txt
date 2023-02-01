@@ -1,0 +1,5 @@
+@Override
+public <T> T callWithTimeout(Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean amInterruptible) throws Exception {
+    checkNotNull(timeoutUnit);
+    return callable.call();
+}

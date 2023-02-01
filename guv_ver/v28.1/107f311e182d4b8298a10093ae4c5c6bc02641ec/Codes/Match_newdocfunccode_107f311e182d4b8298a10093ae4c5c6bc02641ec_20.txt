@@ -1,0 +1,4 @@
+@Deprecated
+public static <I, O> ListenableFuture<O> transform(ListenableFuture<I> input, Function<? super I, ? extends O> function) {
+    return AbstractTransformFuture.create(input, function);
+}

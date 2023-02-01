@@ -1,0 +1,13 @@
+@GwtIncompatible
+private void writeObject(ObjectOutputStream stream) throws IOException {
+    stream.defaultWriteObject();
+    stream.writeInt(keySet().size());
+    for (K key : keySet()) {
+        stream.writeObject(key);
+    }
+    stream.writeInt(size());
+    for (Map.Entry<K, V> entry : entries()) {
+        stream.writeObject(entry.getKey());
+        stream.writeObject(entry.getValue());
+    }
+}

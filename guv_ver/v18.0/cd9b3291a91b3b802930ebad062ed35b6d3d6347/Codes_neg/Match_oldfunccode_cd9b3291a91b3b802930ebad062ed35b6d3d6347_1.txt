@@ -1,0 +1,3 @@
+public static <C extends Comparable<?>> Range<C> atMost(C endpoint) {
+    return Range.atMost(endpoint);
+}

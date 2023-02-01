@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "62": "    assertFalse(\n",
+        "63": "        TypeToken.of(new Mall<Outdoor>().new Shop<Electronics>() {}.getClass())\n",
+        "64": "            .isSubtypeOf(superclass));\n",
+        "70": "    assertFalse(\n",
+        "71": "        TypeToken.of(new Mall<Outdoor>().new Shop<Electronics>() {}.getClass())\n",
+        "72": "            .isSubtypeOf(superclass));\n",
+        "120": "        bothOwnerTypeAndInnerTypeAreSubtypes_supertypeWithWildcard(\n",
+        "121": "            Outlet<Outdoor>.Retailer<Electronics> retailer) {\n",
+        "127": "        bothOwnerTypeAndInnerTypeAreSubtypes_withWildcards(\n",
+        "128": "            Outlet<Outdoor>.Retailer<Electronics> retailer) {\n",
+        "164": "        Mall<Outdoor>.Shop<Grocery> shop) {\n",
+        "181": "    public ConsumerFacing<Grocery> nestedClassIsNotSupertype(Mall<Indoor>.Shop<Grocery> shop) {\n",
+        "285": "        implicitTypeBoundIsSubtypeOfPartialExplicitTypeBound(UseSerializableIterable<?> obj) {\n",
+        "297": "        implicitTypeBoundIsNotSubtypeOfDifferentTypeBound(UseSerializableIterable<?> obj) {\n",
+        "303": "        partialExplicitTypeBoundIsNotSubtypeOfDifferentTypeBound(\n",
+        "304": "            UseSerializableIterable<? extends Serializable> obj) {\n",
+        "330": "  private interface UseIterable<T extends Iterable<?>> {}\n",
+        "332": "  private interface UseSerializableIterable<T extends Serializable & Iterable<?>> {}\n"
+    },
+    "removed": {
+        "62": "    assertFalse(TypeToken.of(new Mall<Outdoor>().new Shop<Electronics>() {}.getClass())\n",
+        "63": "        .isSubtypeOf(superclass));\n",
+        "69": "    assertFalse(TypeToken.of(new Mall<Outdoor>().new Shop<Electronics>() {}.getClass())\n",
+        "70": "        .isSubtypeOf(superclass));\n",
+        "118": "    bothOwnerTypeAndInnerTypeAreSubtypes_supertypeWithWildcard(\n",
+        "119": "        Outlet<Outdoor>.Retailer<Electronics> retailer) {\n",
+        "125": "    bothOwnerTypeAndInnerTypeAreSubtypes_withWildcards(\n",
+        "126": "        Outlet<Outdoor>.Retailer<Electronics> retailer) {\n",
+        "162": "       Mall<Outdoor>.Shop<Grocery> shop) {\n",
+        "179": "    public ConsumerFacing<Grocery> nestedClassIsNotSupertype(\n",
+        "180": "        Mall<Indoor>.Shop<Grocery> shop) {\n",
+        "284": "    implicitTypeBoundIsSubtypeOfPartialExplicitTypeBound(UseSerializableIterable<?> obj) {\n",
+        "296": "    implicitTypeBoundIsNotSubtypeOfDifferentTypeBound(UseSerializableIterable<?> obj) {\n",
+        "302": "    partialExplicitTypeBoundIsNotSubtypeOfDifferentTypeBound(\n",
+        "303": "        UseSerializableIterable<? extends Serializable> obj) {\n",
+        "324": "  private static interface UseIterable<T extends Iterable<?>> {}\n",
+        "326": "  private static interface UseSerializableIterable<T extends Serializable&Iterable<?>> {}\n"
+    }
+}

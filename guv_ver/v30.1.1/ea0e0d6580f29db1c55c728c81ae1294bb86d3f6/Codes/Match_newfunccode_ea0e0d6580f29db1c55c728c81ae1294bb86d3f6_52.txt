@@ -1,0 +1,19 @@
+private AvlNode<E> rebalance() {
+    switch(balanceFactor()) {
+        case -2:
+            requireNonNull(right);
+            if (right.balanceFactor() > 0) {
+                right = right.rotateRight();
+            }
+            return rotateLeft();
+        case 2:
+            requireNonNull(left);
+            if (left.balanceFactor() < 0) {
+                left = left.rotateLeft();
+            }
+            return rotateRight();
+        default:
+            recomputeHeight();
+            return this;
+    }
+}

@@ -1,0 +1,6 @@
+
+   * Writes an {@code int} as specified by {@link DataOutputStream#writeInt(int)}, except using
+   * little-endian byte order.
+   *
+   * @throws IOException if an I/O error occurs
+   

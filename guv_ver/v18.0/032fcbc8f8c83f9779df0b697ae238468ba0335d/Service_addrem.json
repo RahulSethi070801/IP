@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "325": "     * {@linkplain State#STARTING STARTING}. This occurs when {@link Service#startAsync} is called\n",
+        "326": "     * the first time.\n",
+        "339": "     * {@linkplain State#RUNNING RUNNING}.  This occurs when {@link Service#stopAsync} is called.\n"
+    },
+    "removed": {
+        "21": "import java.util.concurrent.ExecutionException;\n",
+        "322": "     * {@linkplain State#STARTING STARTING}. This occurs when {@link Service#start} or\n",
+        "323": "     * {@link Service#startAndWait} is called the first time.\n",
+        "336": "     * {@linkplain State#RUNNING RUNNING}.  This occurs when {@link Service#stop} is called.\n"
+    }
+}

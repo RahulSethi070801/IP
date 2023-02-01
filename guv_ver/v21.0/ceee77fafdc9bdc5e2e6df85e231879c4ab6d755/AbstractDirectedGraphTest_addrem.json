@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "26": " * Abstract base class for testing implementations of {@link BasicGraph} interface.\n",
+        "28": " * <p>This class is responsible for testing that a directed implementation of {@link BasicGraph}\n"
+    },
+    "removed": {
+        "26": " * Abstract base class for testing implementations of {@link Graph} interface.\n",
+        "28": " * <p>This class is responsible for testing that a directed implementation of {@link Graph}\n"
+    }
+}

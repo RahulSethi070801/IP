@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "318": "      value = {SUPPORTS_ADD, ALLOWS_NULL_VALUES},\n",
+        "319": "      absent = RESTRICTS_ELEMENTS)\n"
+    },
+    "removed": {
+        "318": "    value = {SUPPORTS_ADD, ALLOWS_NULL_VALUES},\n",
+        "319": "    absent = RESTRICTS_ELEMENTS\n",
+        "320": "  )\n"
+    }
+}

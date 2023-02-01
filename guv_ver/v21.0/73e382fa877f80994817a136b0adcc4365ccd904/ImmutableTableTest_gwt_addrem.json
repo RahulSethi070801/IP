@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "261": "public void testToImmutableTable() throws Exception {\n",
+        "262": "  com.google.common.collect.ImmutableTableTest testCase = new com.google.common.collect.ImmutableTableTest();\n",
+        "263": "  testCase.setUp();\n",
+        "264": "  testCase.testToImmutableTable();\n",
+        "265": "}\n",
+        "266": "\n"
+    },
+    "removed": {}
+}

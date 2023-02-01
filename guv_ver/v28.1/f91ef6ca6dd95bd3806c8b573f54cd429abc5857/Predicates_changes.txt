@@ -1,0 +1,4 @@
+Predicates
+Insertions: [193, 196]
+Deletions: [193]
+android/guava/src/com/google/common/base/Predicates.java

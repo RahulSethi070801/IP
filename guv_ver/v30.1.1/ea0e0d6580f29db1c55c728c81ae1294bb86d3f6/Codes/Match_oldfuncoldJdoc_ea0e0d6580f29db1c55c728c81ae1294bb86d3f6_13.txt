@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #remove(Object)} in terms of {@link #remove(Object, int)}. If
+   * you override {@link #remove(Object, int)}, you may wish to override {@link #remove(Object)} to
+   * forward to this implementation.
+   *
+   * @since 7.0
+   

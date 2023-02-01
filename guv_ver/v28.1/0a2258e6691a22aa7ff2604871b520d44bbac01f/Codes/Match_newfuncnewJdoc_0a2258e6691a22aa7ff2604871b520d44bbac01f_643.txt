@@ -1,0 +1,4 @@
+
+   * Delegates to {@link Collection#remove}. Returns {@code false} if the {@code remove} method
+   * throws a {@code ClassCastException} or {@code NullPointerException}.
+   

@@ -1,0 +1,1 @@
+ TODO(user): move parts into a default method on ListenableFuture?

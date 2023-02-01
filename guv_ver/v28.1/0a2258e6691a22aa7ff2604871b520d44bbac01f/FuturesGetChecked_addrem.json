@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "38": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "229": "      @Nullable X instance = newFromConstructor(constructor, cause);\n",
+        "260": "  @Nullable\n"
+    },
+    "removed": {
+        "38": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "229": "      @NullableDecl X instance = newFromConstructor(constructor, cause);\n",
+        "260": "  @NullableDecl\n"
+    }
+}

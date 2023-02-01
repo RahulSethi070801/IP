@@ -1,0 +1,10 @@
+@Override
+public N next() {
+    N current = queue.remove();
+    for (N neighbor : graph.successors(current)) {
+        if (visited.add(neighbor)) {
+            queue.add(neighbor);
+        }
+    }
+    return current;
+}

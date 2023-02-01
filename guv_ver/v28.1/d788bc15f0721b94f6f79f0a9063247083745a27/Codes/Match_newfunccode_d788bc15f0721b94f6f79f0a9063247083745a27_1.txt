@@ -1,0 +1,4 @@
+@Override
+public int size() {
+    return graph.inDegree(node) + graph.outDegree(node) - (graph.successors(node).contains(node) ? 1 : 0);
+}

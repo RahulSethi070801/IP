@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "126": "  @NullableDecl\n",
+        "127": "  public V edgeValueOrDefault(N nodeU, N nodeV, @NullableDecl V defaultValue) {\n",
+        "149": "  protected final boolean containsNode(@NullableDecl N node) {\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "126": "  @Nullable\n",
+        "127": "  public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {\n",
+        "149": "  protected final boolean containsNode(@Nullable N node) {\n"
+    }
+}

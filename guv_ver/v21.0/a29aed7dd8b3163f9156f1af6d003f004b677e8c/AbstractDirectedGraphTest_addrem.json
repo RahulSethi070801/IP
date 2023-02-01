@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "48": "  @Test\n",
+        "49": "  public void inDegree_oneEdge() {\n",
+        "50": "    addEdge(N1, N2);\n",
+        "51": "    assertThat(graph.inDegree(N2)).isEqualTo(1);\n",
+        "52": "    // Edge direction handled correctly\n",
+        "53": "    assertThat(graph.inDegree(N1)).isEqualTo(0);\n",
+        "54": "  }\n",
+        "55": "\n",
+        "56": "  @Test\n",
+        "57": "  public void outDegree_oneEdge() {\n",
+        "58": "    addEdge(N1, N2);\n",
+        "59": "    assertThat(graph.outDegree(N1)).isEqualTo(1);\n",
+        "60": "    // Edge direction handled correctly\n",
+        "61": "    assertThat(graph.outDegree(N2)).isEqualTo(0);\n",
+        "62": "  }\n",
+        "63": "\n",
+        "72": "    assertThat(addEdge(N1, N2)).isTrue();\n",
+        "78": "    assertThat(addEdge(N1, N2)).isFalse();\n",
+        "85": "    assertThat(graph.removeEdge(N1, N2)).isTrue();\n",
+        "90": "    assertThat(graph.removeEdge(N2, N1)).isTrue();\n"
+    },
+    "removed": {
+        "20": "import static org.junit.Assert.assertFalse;\n",
+        "21": "import static org.junit.Assert.assertTrue;\n",
+        "58": "    assertTrue(addEdge(N1, N2));\n",
+        "64": "    assertFalse(addEdge(N1, N2));\n",
+        "67": "  @Test\n",
+        "72": "    assertTrue(graph.removeEdge(N1, N2));\n",
+        "77": "    assertTrue(graph.removeEdge(N2, N1));\n"
+    }
+}

@@ -1,0 +1,7 @@
+@Override
+public N removeInEdge(E edge, boolean isSelfLoop) {
+    if (!isSelfLoop) {
+        return removeOutEdge(edge);
+    }
+    return null;
+}

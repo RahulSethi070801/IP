@@ -1,0 +1,4 @@
+@Override
+public E ceiling(E e) {
+    return getElementOrNull(multiset().tailMultiset(e, CLOSED).firstEntry());
+}

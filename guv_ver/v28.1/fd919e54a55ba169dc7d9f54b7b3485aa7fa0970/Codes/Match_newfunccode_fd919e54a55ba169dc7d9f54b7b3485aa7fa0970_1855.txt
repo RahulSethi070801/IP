@@ -1,0 +1,4 @@
+@Override
+public BaseEncoding lowerCase() {
+    return delegate.lowerCase().withSeparator(separator, afterEveryChars);
+}

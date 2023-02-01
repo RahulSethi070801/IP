@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "39": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "149": "      @NullableDecl R rowKey, @NullableDecl C columnKey, @NullableDecl V value) {\n",
+        "158": "    ImmutableCell(@NullableDecl R rowKey, @NullableDecl C columnKey, @NullableDecl V value) {\n",
+        "257": "    public boolean contains(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "262": "    public boolean containsColumn(@NullableDecl Object columnKey) {\n",
+        "267": "    public boolean containsRow(@NullableDecl Object rowKey) {\n",
+        "272": "    public boolean containsValue(@NullableDecl Object value) {\n",
+        "277": "    public V get(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "292": "    public V remove(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "577": "    public Map<R, V> column(@NullableDecl C columnKey) {\n",
+        "593": "    public V put(@NullableDecl R rowKey, @NullableDecl C columnKey, @NullableDecl V value) {\n",
+        "603": "    public V remove(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "608": "    public Map<C, V> row(@NullableDecl R rowKey) {\n",
+        "726": "  static boolean equalsImpl(Table<?, ?, ?> table, @NullableDecl Object obj) {\n"
+    },
+    "removed": {
+        "39": "import javax.annotation.Nullable;\n",
+        "149": "      @Nullable R rowKey, @Nullable C columnKey, @Nullable V value) {\n",
+        "158": "    ImmutableCell(@Nullable R rowKey, @Nullable C columnKey, @Nullable V value) {\n",
+        "257": "    public boolean contains(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "262": "    public boolean containsColumn(@Nullable Object columnKey) {\n",
+        "267": "    public boolean containsRow(@Nullable Object rowKey) {\n",
+        "272": "    public boolean containsValue(@Nullable Object value) {\n",
+        "277": "    public V get(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "292": "    public V remove(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "577": "    public Map<R, V> column(@Nullable C columnKey) {\n",
+        "593": "    public V put(@Nullable R rowKey, @Nullable C columnKey, @Nullable V value) {\n",
+        "603": "    public V remove(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "608": "    public Map<C, V> row(@Nullable R rowKey) {\n",
+        "726": "  static boolean equalsImpl(Table<?, ?, ?> table, @Nullable Object obj) {\n"
+    }
+}

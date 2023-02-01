@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "49": "   * implementation-dependent. Suggested behaviors include (a) silently {@link #addNode(N)\n"
+    },
+    "removed": {
+        "49": "   * implementation-dependent. Suggested behaviors include (a) silently {@link #addNode(Object)\n"
+    }
+}

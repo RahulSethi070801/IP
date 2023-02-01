@@ -1,0 +1,4 @@
+GwtCompatible
+Insertions: [24, 25, 26, 27, 62, 71, 72, 81, 82]
+Deletions: [24, 25, 26, 27, 62, 71, 80]
+guava/src/com/google/common/annotations/GwtCompatible.java

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "32": "    // Properties not covered by equals()\n",
+        "36": "    assertThat(graphA).isEqualTo(graphB);\n",
+        "40": "    // Properties not covered by equals()\n",
+        "44": "    assertThat(graphA).isEqualTo(graphB);\n",
+        "48": "    // Properties not covered by equals()\n",
+        "54": "    assertThat(networkA).isEqualTo(networkB);\n"
+    },
+    "removed": {
+        "32": "    // Properties not covered by Graphs.equivalent()\n",
+        "36": "    assertThat(Graphs.equivalent(graphA, graphB)).isTrue();\n",
+        "40": "    // Properties not covered by Graphs.equivalent()\n",
+        "44": "    assertThat(Graphs.equivalent(graphA, graphB)).isTrue();\n",
+        "48": "    // Properties not covered by Graphs.equivalent()\n",
+        "54": "    assertThat(Graphs.equivalent(networkA, networkB)).isTrue();\n"
+    }
+}

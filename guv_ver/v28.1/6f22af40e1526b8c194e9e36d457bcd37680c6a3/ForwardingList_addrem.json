@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "117": "  public boolean equals(@NullableDecl Object object) {\n",
+        "156": "  protected int standardIndexOf(@NullableDecl Object element) {\n",
+        "167": "  protected int standardLastIndexOf(@NullableDecl Object element) {\n",
+        "225": "  protected boolean standardEquals(@NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "117": "  public boolean equals(@Nullable Object object) {\n",
+        "156": "  protected int standardIndexOf(@Nullable Object element) {\n",
+        "167": "  protected int standardLastIndexOf(@Nullable Object element) {\n",
+        "225": "  protected boolean standardEquals(@Nullable Object object) {\n"
+    }
+}

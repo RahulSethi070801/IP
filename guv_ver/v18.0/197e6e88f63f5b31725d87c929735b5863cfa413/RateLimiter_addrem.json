@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "230": "   *        how many permits become available per second\n",
+        "231": "   * @throws IllegalArgumentException if {@code permitsPerSecond} is negative or zero\n",
+        "280": "   *        how many permits become available per second\n",
+        "284": "   * @throws IllegalArgumentException if {@code permitsPerSecond} is negative or zero or\n",
+        "285": "   *     {@code warmupPeriod} is negative\n",
+        "288": "    checkArgument(warmupPeriod >= 0, \"warmupPeriod must not be negative: %s\", warmupPeriod);\n",
+        "342": "   * @param permitsPerSecond the new stable rate of this {@code RateLimiter}\n",
+        "343": "   * @throws IllegalArgumentException if {@code permitsPerSecond} is negative or zero\n",
+        "389": "   * @throws IllegalArgumentException if the requested number of permits is negative or zero\n",
+        "431": "   * @param timeout the maximum time to wait for the permit. Negative values are treated as zero.\n",
+        "434": "   * @throws IllegalArgumentException if the requested number of permits is negative or zero\n",
+        "448": "   * @throws IllegalArgumentException if the requested number of permits is negative or zero\n",
+        "476": "   * @param timeout the maximum time to wait for the permits. Negative values are treated as zero.\n",
+        "479": "   * @throws IllegalArgumentException if the requested number of permits is negative or zero\n"
+    },
+    "removed": {
+        "230": "   *        how many permits become available per second. Must be positive\n",
+        "279": "   *        how many permits become available per second. Must be positive\n",
+        "296": "  @VisibleForTesting\n",
+        "297": "  static RateLimiter createWithCapacity(\n",
+        "298": "      SleepingStopwatch stopwatch, double permitsPerSecond, long maxBurstBuildup, TimeUnit unit) {\n",
+        "299": "    double maxBurstSeconds = unit.toNanos(maxBurstBuildup) / 1E+9;\n",
+        "300": "    SmoothBursty rateLimiter = new SmoothBursty(stopwatch, maxBurstSeconds);\n",
+        "301": "    rateLimiter.setRate(permitsPerSecond);\n",
+        "302": "    return rateLimiter;\n",
+        "303": "  }\n",
+        "304": "\n",
+        "347": "   * @param permitsPerSecond the new stable rate of this {@code RateLimiter}. Must be positive\n",
+        "434": "   * @param timeout the maximum time to wait for the permit\n",
+        "477": "   * @param timeout the maximum time to wait for the permits\n"
+    }
+}

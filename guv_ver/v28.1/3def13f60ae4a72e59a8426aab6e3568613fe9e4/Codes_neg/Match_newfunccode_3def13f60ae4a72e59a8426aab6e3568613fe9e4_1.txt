@@ -1,0 +1,1 @@
+Optional<E> edgeConnecting(@CompatibleWith("N") Object nodeU, @CompatibleWith("N") Object nodeV);

@@ -1,0 +1,5 @@
+@Override
+public final Service startAsync() {
+    delegate.startAsync();
+    return this;
+}

@@ -1,0 +1,4 @@
+@CheckForNull
+public E peekFirst() {
+    return peek();
+}

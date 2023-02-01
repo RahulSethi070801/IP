@@ -1,0 +1,4 @@
+static <E> Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator) {
+    checkNotNull(comparator);
+    return Collector.of(() -> new ImmutableSortedSet.Builder<E>(comparator), ImmutableSortedSet.Builder::add, ImmutableSortedSet.Builder::combine, ImmutableSortedSet.Builder::build);
+}

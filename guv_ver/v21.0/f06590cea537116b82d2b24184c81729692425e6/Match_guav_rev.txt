@@ -1,0 +1,12 @@
+public static String toUriString(InetAddress ip)
+public static String toAddrString(InetAddress ip)
+
+public static InternetDomainName from(String domain)
+public static String toAddrString(InetAddress ip)
+
+public static boolean isValid(String name)
+public static String toAddrString(InetAddress ip)
+
+public static Escaper urlFragmentEscaper()
+public static String toAddrString(InetAddress ip)
+

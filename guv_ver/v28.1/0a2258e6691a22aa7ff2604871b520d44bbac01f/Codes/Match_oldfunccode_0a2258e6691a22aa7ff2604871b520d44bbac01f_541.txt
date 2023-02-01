@@ -1,0 +1,3 @@
+public static <V> AtomicReference<V> newReference(@NullableDecl V initialValue) {
+    return new AtomicReference<V>(initialValue);
+}

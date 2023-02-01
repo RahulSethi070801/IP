@@ -1,0 +1,20 @@
+@CanIgnoreReturnValue
+@Override
+public int setCount(@Nullable E element, int count) {
+    checkNonnegative(count, "count");
+    if (!range.contains(element)) {
+        checkArgument(count == 0);
+        return 0;
+    }
+    AvlNode<E> root = rootReference.get();
+    if (root == null) {
+        if (count > 0) {
+            add(element, count);
+        }
+        return 0;
+    }
+    int[] result = new int[1];
+    AvlNode<E> newRoot = root.setCount(comparator(), element, count, result);
+    rootReference.checkAndSet(root, newRoot);
+    return result[0];
+}

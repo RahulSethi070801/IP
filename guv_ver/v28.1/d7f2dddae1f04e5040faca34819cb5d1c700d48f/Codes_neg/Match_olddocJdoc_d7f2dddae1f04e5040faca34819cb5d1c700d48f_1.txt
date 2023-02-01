@@ -1,0 +1,15 @@
+
+   * Determines whether a given bloom filter is compatible with this bloom filter. For two bloom
+   * filters to be compatible, they must:
+   *
+   * <ul>
+   * <li>not be the same instance
+   * <li>have the same number of hash functions
+   * <li>have the same bit size
+   * <li>have the same strategy
+   * <li>have equal funnels
+   * <ul>
+   *
+   * @param that The bloom filter to check for compatibility.
+   * @since 15.0
+   

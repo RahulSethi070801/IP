@@ -1,0 +1,5 @@
+@Override
+public boolean removeIf(Predicate<? super T> filter) {
+    checkNotNull(filter);
+    return fromList.removeIf(element -> filter.test(function.apply(element)));
+}

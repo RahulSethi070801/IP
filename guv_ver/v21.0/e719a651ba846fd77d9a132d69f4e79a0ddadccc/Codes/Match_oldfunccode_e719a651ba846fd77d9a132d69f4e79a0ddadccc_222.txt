@@ -1,0 +1,4 @@
+@Override
+public void writeBoolean(boolean v) throws IOException {
+    ((DataOutputStream) out).writeBoolean(v);
+}

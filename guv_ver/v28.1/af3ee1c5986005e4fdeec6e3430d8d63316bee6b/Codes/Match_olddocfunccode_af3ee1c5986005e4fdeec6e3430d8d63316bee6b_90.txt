@@ -1,0 +1,2 @@
+@Nullable
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue);

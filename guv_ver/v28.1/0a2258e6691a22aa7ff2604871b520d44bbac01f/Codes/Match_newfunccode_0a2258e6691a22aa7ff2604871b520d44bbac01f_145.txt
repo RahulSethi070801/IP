@@ -1,0 +1,12 @@
+@Nullable
+public static <T> T find(Iterator<? extends T> iterator, Predicate<? super T> predicate, @Nullable T defaultValue) {
+    checkNotNull(iterator);
+    checkNotNull(predicate);
+    while (iterator.hasNext()) {
+        T t = iterator.next();
+        if (predicate.apply(t)) {
+            return t;
+        }
+    }
+    return defaultValue;
+}

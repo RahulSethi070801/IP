@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "30": "import java.util.Map.Entry;\n",
+        "41": "    for (Entry<K, V> entry : getSampleElements()) {\n",
+        "50": "    for (Entry<K, V> entry : getOrderedElements()) {\n"
+    },
+    "removed": {
+        "30": "import java.util.Map;\n",
+        "41": "    for (Map.Entry<K, V> entry : getSampleElements()) {\n",
+        "50": "    for (Map.Entry<K, V> entry : getOrderedElements()) {\n"
+    }
+}

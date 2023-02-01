@@ -1,0 +1,3 @@
+public static boolean isNullOrEmpty(@Nullable String string) {
+    return Platform.stringIsNullOrEmpty(string);
+}

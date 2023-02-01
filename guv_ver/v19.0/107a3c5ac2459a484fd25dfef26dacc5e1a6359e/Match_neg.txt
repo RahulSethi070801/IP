@@ -1,0 +1,6 @@
+public static V getChecked(Future<V> future, Class<X> exceptionClass) throws X
+public static V getUninterruptibly(Future<V> future) throws ExecutionException
+
+public static V getChecked(Future<V> future, Class<X> exceptionClass) throws X
+public static V getUninterruptibly(Future<V> future, long timeout, TimeUnit unit) throws ExecutionException, TimeoutException
+

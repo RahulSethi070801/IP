@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "50": "   * For example, a lexicographical natural ordering over integers considers {@code [] < [1] < [1,\n",
+        "51": "   * 1] < [1, 2] < [2]}.\n",
+        "53": "   * <p>Note that {@code Collections.reverseOrder(lexicographical(comparator))} is not equivalent to\n",
+        "54": "   * {@code lexicographical(Collections.reverseOrder(comparator))} (consider how each would order\n",
+        "55": "   * {@code [1]} and {@code [1, 1]}).\n",
+        "66": "   * equal to the element that preceded it, according to the specified comparator. Note that this is\n",
+        "67": "   * always true when the iterable has fewer than two elements.\n"
+    },
+    "removed": {
+        "50": "   * For example, a lexicographical natural ordering over integers considers {@code\n",
+        "51": "   * [] < [1] < [1, 1] < [1, 2] < [2]}.\n",
+        "53": "   * <p>Note that {@code Collections.reverseOrder(lexicographical(comparator))} is not\n",
+        "54": "   * equivalent to {@code lexicographical(Collections.reverseOrder(comparator))} (consider how each\n",
+        "55": "   * would order {@code [1]} and {@code [1, 1]}).\n",
+        "66": "   * equal to the element that preceded it, according to the specified comparator. Note that this\n",
+        "67": "   * is always true when the iterable has fewer than two elements.\n"
+    }
+}

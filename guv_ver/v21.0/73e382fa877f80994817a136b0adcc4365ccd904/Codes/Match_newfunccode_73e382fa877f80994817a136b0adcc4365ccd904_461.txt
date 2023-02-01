@@ -1,0 +1,4 @@
+@Override
+public OutputStream openStream() throws IOException {
+    return Files.newOutputStream(path, options);
+}

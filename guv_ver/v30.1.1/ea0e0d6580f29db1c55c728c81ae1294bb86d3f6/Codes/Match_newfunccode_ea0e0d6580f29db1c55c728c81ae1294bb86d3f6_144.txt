@@ -1,0 +1,5 @@
+@Override
+@ParametricNullness
+public final E getElement() {
+    return element;
+}

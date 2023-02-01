@@ -1,0 +1,3 @@
+@CanIgnoreReturnValue
+@Override
+String readLine();

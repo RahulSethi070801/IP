@@ -1,0 +1,4 @@
+@Beta
+public static <E extends @Nullable Object> FluentIterable<E> from(E[] elements) {
+    return from(Arrays.asList(elements));
+}

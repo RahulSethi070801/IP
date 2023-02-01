@@ -1,0 +1,4 @@
+ByteArrayDataOutput_2
+Insertions: [77]
+Deletions: [77, 78, 79]
+guava/src/com/google/common/io/ByteArrayDataOutput.java

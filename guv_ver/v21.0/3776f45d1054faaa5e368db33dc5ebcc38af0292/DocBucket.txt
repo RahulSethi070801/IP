@@ -1,0 +1,5 @@
+com.google.common.graph.Graph
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean

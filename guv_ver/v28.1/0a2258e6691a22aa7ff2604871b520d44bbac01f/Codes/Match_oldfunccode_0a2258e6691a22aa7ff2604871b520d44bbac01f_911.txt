@@ -1,0 +1,4 @@
+@Override
+void setResult(@NullableDecl O result) {
+    set(result);
+}

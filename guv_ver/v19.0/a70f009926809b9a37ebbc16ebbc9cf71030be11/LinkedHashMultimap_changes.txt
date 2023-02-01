@@ -1,0 +1,4 @@
+LinkedHashMultimap
+Insertions: [558, 560]
+Deletions: [541, 559, 561, 562]
+guava/src/com/google/common/collect/LinkedHashMultimap.java

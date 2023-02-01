@@ -1,0 +1,3 @@
+public void enterInterruptibly() throws InterruptedException {
+    lock.lockInterruptibly();
+}

@@ -1,0 +1,4 @@
+RegularImmutableMap_2
+Insertions: [23, 32, 43, 71, 84, 89, 90, 91, 92, 93, 94, 95, 96, 98, 101, 102, 107, 137, 138, 150, 160, 161, 165, 166, 167, 168, 169, 234]
+Deletions: [68, 81, 86, 87, 88, 89, 90, 91, 93, 96, 101, 131, 143, 153, 157, 158, 223]
+guava/src/com/google/common/collect/RegularImmutableMap.java

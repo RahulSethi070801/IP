@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "31": " *   <li>does not allow self-loops\n",
+        "32": " *   <li>orders {@link Graph#nodes()} in the order in which the elements were added\n"
+    },
+    "removed": {
+        "31": " * <li>does not allow self-loops\n",
+        "32": " * <li>orders {@link Graph#nodes()} in the order in which the elements were added\n"
+    }
+}

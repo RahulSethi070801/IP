@@ -1,0 +1,10 @@
+@Override
+public V getOrDefault(@NullableDecl Object key, @NullableDecl V defaultValue) {
+    if (Collections2.safeContains(backingSet(), key)) {
+        @SuppressWarnings("unchecked")
+        K k = (K) key;
+        return function.apply(k);
+    } else {
+        return defaultValue;
+    }
+}

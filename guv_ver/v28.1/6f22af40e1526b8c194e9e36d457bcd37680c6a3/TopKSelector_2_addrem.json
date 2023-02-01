@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "128": "  public void offer(@NullableDecl T elem) {\n"
+    },
+    "removed": {
+        "31": "import javax.annotation.Nullable;\n",
+        "128": "  public void offer(@Nullable T elem) {\n"
+    }
+}

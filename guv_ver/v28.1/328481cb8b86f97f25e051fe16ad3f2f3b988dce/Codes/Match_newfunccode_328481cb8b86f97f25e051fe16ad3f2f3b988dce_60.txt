@@ -1,0 +1,9 @@
+@Override
+public Set<Entry<K, Collection<V>>> entrySet() {
+    synchronized (mutex) {
+        if (asMapEntrySet == null) {
+            asMapEntrySet = new SynchronizedAsMapEntries<>(delegate().entrySet(), mutex);
+        }
+        return asMapEntrySet;
+    }
+}

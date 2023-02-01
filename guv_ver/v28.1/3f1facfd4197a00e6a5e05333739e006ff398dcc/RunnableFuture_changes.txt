@@ -1,0 +1,4 @@
+RunnableFuture
+Insertions: [19, 20]
+Deletions: [19, 20, 21, 22, 23]
+guava-gwt/src-super/java/util/super/java/util/concurrent/RunnableFuture.java

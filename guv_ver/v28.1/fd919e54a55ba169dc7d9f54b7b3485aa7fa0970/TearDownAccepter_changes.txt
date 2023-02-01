@@ -1,0 +1,4 @@
+TearDownAccepter
+Insertions: [36]
+Deletions: [36, 37]
+android/guava-testlib/src/com/google/common/testing/TearDownAccepter.java

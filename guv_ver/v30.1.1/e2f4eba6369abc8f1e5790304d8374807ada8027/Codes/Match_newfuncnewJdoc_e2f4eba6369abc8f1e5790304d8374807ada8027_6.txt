@@ -1,0 +1,10 @@
+
+   * Returns statistics over a dataset containing the given values. The stream will be completely
+   * consumed by this method.
+   *
+   * <p>If you have a {@code Stream<Double>} rather than a {@code DoubleStream}, you should collect
+   * the values using {@link #toStats()} instead.
+   *
+   * @param values a series of values
+   * @since NEXT
+   

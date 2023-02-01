@@ -1,0 +1,3 @@
+public void removeAllZeros() {
+    map.values().removeIf(x -> x == 0);
+}

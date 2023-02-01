@@ -1,0 +1,14 @@
+
+   * Flush a {@link Flushable}, with control over whether an
+   * {@code IOException} may be thrown.
+   *
+   * <p>If {@code swallowIOException} is true, then we don't rethrow
+   * {@code IOException}, but merely log it.
+   *
+   * @param flushable the {@code Flushable} object to be flushed.
+   * @param swallowIOException if true, don't propagate IO exceptions
+   *     thrown by the {@code flush} method
+   * @throws IOException if {@code swallowIOException} is false and
+   *     {@link Flushable#flush} throws an {@code IOException}.
+   * @see Closeables#close
+   

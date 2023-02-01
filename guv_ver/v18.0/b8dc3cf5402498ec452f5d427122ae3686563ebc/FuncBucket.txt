@@ -1,0 +1,15 @@
+com.google.common.util.concurrent.RateLimiter
+createBursty
+static RateLimiter createBursty(SleepingTicker ticker, double permitsPerSecond, long maxBurstBuildup, TimeUnit unit)
+SleepingTicker,double,long,TimeUnit
+RateLimiter
+com.google.common.util.concurrent.RateLimiter
+createWithCapacity
+static RateLimiter createWithCapacity(SleepingTicker ticker, double permitsPerSecond, long maxBurstBuildup, TimeUnit unit)
+SleepingTicker,double,long,TimeUnit
+RateLimiter
+com.google.common.util.concurrent.RateLimiter
+createBursty
+static RateLimiter createBursty(double permitsPerSecond, long maxBurstBuildup, TimeUnit unit)
+double,long,TimeUnit
+RateLimiter

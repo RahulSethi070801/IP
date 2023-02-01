@@ -1,0 +1,13 @@
+@Nullable
+public static <T> T get(Iterable<? extends T> iterable, int position, @Nullable T defaultValue) {
+    checkNotNull(iterable);
+    Iterators.checkNonnegative(position);
+    if (iterable instanceof List) {
+        List<? extends T> list = Lists.cast(iterable);
+        return (position < list.size()) ? list.get(position) : defaultValue;
+    } else {
+        Iterator<? extends T> iterator = iterable.iterator();
+        Iterators.advance(iterator, position);
+        return Iterators.getNext(iterator, defaultValue);
+    }
+}

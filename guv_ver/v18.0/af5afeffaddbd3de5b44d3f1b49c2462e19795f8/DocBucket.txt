@@ -1,0 +1,5 @@
+com.google.common.primitives.Longs
+tryParse
+public static Long tryParse(String string)
+String
+Long

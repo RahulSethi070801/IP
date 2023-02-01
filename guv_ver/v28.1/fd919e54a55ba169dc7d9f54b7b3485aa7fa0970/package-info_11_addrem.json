@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "21": " * <p>See the Guava User Guide article on <a\n",
+        "22": " * href=\"https://github.com/google/guava/wiki/MathExplained\">math utilities</a>.\n"
+    },
+    "removed": {
+        "21": " * <p>See the Guava User Guide article on\n",
+        "22": " * <a href=\"https://github.com/google/guava/wiki/MathExplained\">math utilities</a>.\n"
+    }
+}

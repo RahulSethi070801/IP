@@ -1,0 +1,8 @@
+
+   * Returns the subgraph of {@code network} induced by {@code nodes}. This subgraph is a new graph
+   * that contains all of the nodes in {@code nodes}, and all of the {@link Network#edges() edges}
+   * from {@code network} for which the {@link Network#incidentNodes(Object) incident nodes} are
+   * both contained by {@code nodes}.
+   *
+   * @throws IllegalArgumentException if any element in {@code nodes} is not a node in the graph
+   

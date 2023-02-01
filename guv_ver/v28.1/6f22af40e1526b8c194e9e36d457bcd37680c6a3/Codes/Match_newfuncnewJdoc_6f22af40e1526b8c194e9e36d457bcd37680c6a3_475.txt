@@ -1,0 +1,10 @@
+
+   * Stores a key-value pair in this multimap.
+   *
+   * <p>Some multimap implementations allow duplicate key-value pairs, in which case {@code put}
+   * always adds a new key-value pair and increases the multimap size by 1. Other implementations
+   * prohibit duplicates, and storing a key-value pair that's already in the multimap has no effect.
+   *
+   * @return {@code true} if the method increased the size of the multimap, or {@code false} if the
+   *     multimap already contained the key-value pair and doesn't allow duplicates
+   

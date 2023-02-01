@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "21": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "107": "  @CanIgnoreReturnValue\n",
+        "108": "  <T> T callWithTimeout(\n",
+        "109": "      Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean interruptible)\n",
+        "110": "      throws Exception;\n"
+    },
+    "removed": {
+        "106": "  <T> T callWithTimeout(Callable<T> callable, long timeoutDuration,\n",
+        "107": "      TimeUnit timeoutUnit, boolean interruptible) throws Exception;\n"
+    }
+}

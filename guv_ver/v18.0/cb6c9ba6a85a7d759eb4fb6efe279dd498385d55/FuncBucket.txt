@@ -1,0 +1,65 @@
+com.google.common.util.concurrent.RateLimiter$SmoothRateLimiter
+queryEarliestAvailable
+final long queryEarliestAvailable(long nowMicros)
+long
+long
+com.google.common.util.concurrent.RateLimiter
+reserve
+long reserve()
+empty
+long
+com.google.common.util.concurrent.RateLimiter
+reserveNextTicket
+abstract long reserveNextTicket(int requiredPermits, long nowMicros)
+int,long
+long
+com.google.common.util.concurrent.RateLimiter$SmoothRateLimiter
+earliestAvailable
+final long earliestAvailable(long nowMicros)
+long
+long
+com.google.common.util.concurrent.RateLimiter
+canAcquire
+private boolean canAcquire(long nowMicros, long timeoutMicros)
+long,long
+boolean
+com.google.common.util.concurrent.RateLimiter
+queryEarliestAvailable
+abstract long queryEarliestAvailable(long nowMicros)
+long
+long
+com.google.common.util.concurrent.RateLimiter
+earliestAvailable
+abstract long earliestAvailable(long nowMicros)
+long
+long
+com.google.common.util.concurrent.RateLimiter
+reserveAndGetWaitLength
+final long reserveAndGetWaitLength(int permits, long nowMicros)
+int,long
+long
+com.google.common.util.concurrent.RateLimiter
+tryAcquire
+public boolean tryAcquire(int permits, long timeout, TimeUnit unit)
+int,long,TimeUnit
+boolean
+com.google.common.util.concurrent.RateLimiter
+reserveEarliestAvailable
+abstract long reserveEarliestAvailable(int permits, long nowMicros)
+int,long
+long
+com.google.common.util.concurrent.RateLimiter
+reserve
+final long reserve(int permits)
+int
+long
+com.google.common.util.concurrent.RateLimiter$SmoothRateLimiter
+reserveEarliestAvailable
+final long reserveEarliestAvailable(int requiredPermits, long nowMicros)
+int,long
+long
+com.google.common.util.concurrent.RateLimiter$SmoothRateLimiter
+reserveNextTicket
+long reserveNextTicket(int requiredPermits, long nowMicros)
+int,long
+long

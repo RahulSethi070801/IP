@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "33": "  @Nullable private Reader current;\n",
+        "49": "  public int read(char @Nullable [] cbuf, int off, int len) throws IOException {\n"
+    },
+    "removed": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "33": "  @NullableDecl private Reader current;\n",
+        "49": "  public int read(@NullableDecl char[] cbuf, int off, int len) throws IOException {\n"
+    }
+}

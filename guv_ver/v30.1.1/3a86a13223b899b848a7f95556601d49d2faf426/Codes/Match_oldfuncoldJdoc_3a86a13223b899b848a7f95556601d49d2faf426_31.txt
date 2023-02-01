@@ -1,0 +1,15 @@
+
+   * Divides an iterable into unmodifiable sublists of the given size, padding the final iterable
+   * with null values if necessary. For example, partitioning an iterable containing {@code [a, b,
+   * c, d, e]} with a partition size of 3 yields {@code [[a, b, c], [d, e, null]]} -- an outer
+   * iterable containing two inner lists of three elements each, all in the original order.
+   *
+   * <p>Iterators returned by the returned iterable do not support the {@link Iterator#remove()}
+   * method.
+   *
+   * @param iterable the iterable to return a partitioned view of
+   * @param size the desired size of each partition
+   * @return an iterable of unmodifiable lists containing the elements of {@code iterable} divided
+   *     into partitions (the final iterable may have trailing null elements)
+   * @throws IllegalArgumentException if {@code size} is nonpositive
+   

@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "31": " * Implementation of {@code Table} whose iteration ordering across row keys is sorted by their\n",
+        "32": " * natural ordering or by a supplied comparator. Note that iterations across the columns keys for a\n",
+        "33": " * single row key may or may not be ordered, depending on the implementation. When rows and columns\n",
+        "34": " * are both sorted, it's easier to use the {@link TreeBasedTable} subclass.\n",
+        "36": " * <p>The {@link #rowKeySet} method returns a {@link SortedSet} and the {@link #rowMap} method\n",
+        "37": " * returns a {@link SortedMap}, instead of the {@link Set} and {@link Map} specified by the {@link\n",
+        "38": " * Table} interface.\n",
+        "42": " * <p>See the {@link StandardTable} superclass for more information about the behavior of this\n",
+        "43": " * class.\n",
+        "68": "   * <p>This method returns a {@link SortedSet}, instead of the {@code Set} specified in the {@link\n",
+        "69": "   * Table} interface.\n",
+        "79": "   * <p>This method returns a {@link SortedMap}, instead of the {@code Map} specified in the {@link\n",
+        "80": "   * Table} interface.\n"
+    },
+    "removed": {
+        "31": " * Implementation of {@code Table} whose iteration ordering across row keys is\n",
+        "32": " * sorted by their natural ordering or by a supplied comparator. Note that\n",
+        "33": " * iterations across the columns keys for a single row key may or may not be\n",
+        "34": " * ordered, depending on the implementation. When rows and columns are both\n",
+        "35": " * sorted, it's easier to use the {@link TreeBasedTable} subclass.\n",
+        "37": " * <p>The {@link #rowKeySet} method returns a {@link SortedSet} and the {@link\n",
+        "38": " * #rowMap} method returns a {@link SortedMap}, instead of the {@link Set} and\n",
+        "39": " * {@link Map} specified by the {@link Table} interface.\n",
+        "43": " * <p>See the {@link StandardTable} superclass for more information about the\n",
+        "44": " * behavior of this class.\n",
+        "69": "   * <p>This method returns a {@link SortedSet}, instead of the {@code Set}\n",
+        "70": "   * specified in the {@link Table} interface.\n",
+        "80": "   * <p>This method returns a {@link SortedMap}, instead of the {@code Map}\n",
+        "81": "   * specified in the {@link Table} interface.\n"
+    }
+}

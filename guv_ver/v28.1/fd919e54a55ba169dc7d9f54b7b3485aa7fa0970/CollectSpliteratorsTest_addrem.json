@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "27": "/** Tests for {@code CollectSpliterators}. */\n",
+        "32": "            () ->\n",
+        "33": "                CollectSpliterators.map(\n",
+        "40": "            () ->\n",
+        "41": "                CollectSpliterators.flatMap(\n",
+        "57": "    assertThat(multiset).containsExactly(\"a\", \"a\", \"a\", \"b\", \"c\", \"c\").inOrder();\n"
+    },
+    "removed": {
+        "27": "/**\n",
+        "28": " * Tests for {@code CollectSpliterators}.\n",
+        "29": " */\n",
+        "34": "            ()\n",
+        "35": "                -> CollectSpliterators.map(\n",
+        "42": "            ()\n",
+        "43": "                -> CollectSpliterators.flatMap(\n",
+        "59": "    assertThat(multiset).containsExactly(\n",
+        "60": "        \"a\",\n",
+        "61": "        \"a\",\n",
+        "62": "        \"a\",\n",
+        "63": "        \"b\",\n",
+        "64": "        \"c\",\n",
+        "65": "        \"c\").inOrder();\n"
+    }
+}

@@ -1,0 +1,6 @@
+
+   * If a value is present in {@code optional}, returns a stream containing only that element,
+   * otherwise returns an empty stream.
+   *
+   * <p><b>Java 9 users:</b> use {@code optional.stream()} instead.
+   

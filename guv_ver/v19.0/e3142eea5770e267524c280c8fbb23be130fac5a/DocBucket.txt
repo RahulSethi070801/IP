@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.SettableFuture
+create
+public static SettableFuture<V> create()
+empty
+SettableFuture

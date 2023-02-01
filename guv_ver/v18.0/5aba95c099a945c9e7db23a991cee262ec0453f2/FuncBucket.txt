@@ -1,0 +1,5 @@
+com.google.common.hash.Hashing
+Hashing
+private Hashing()
+empty
+constructor

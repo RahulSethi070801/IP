@@ -1,0 +1,7 @@
+
+   * Creates a {@code Striped<Lock>} with lazily initialized, weakly referenced locks, with the
+   * specified fairness. Every lock is reentrant.
+   *
+   * @param stripes the minimum number of stripes (locks) required
+   * @return a new {@code Striped<Lock>}
+   

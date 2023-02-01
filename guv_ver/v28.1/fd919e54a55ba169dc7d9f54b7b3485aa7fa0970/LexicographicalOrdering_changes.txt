@@ -1,0 +1,4 @@
+LexicographicalOrdering
+Insertions: [25]
+Deletions: [25, 26, 27, 28]
+android/guava/src/com/google/common/collect/LexicographicalOrdering.java

@@ -1,0 +1,54 @@
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+Optional<E> edgeConnecting(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+Set<E> edgesConnecting(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+Set<E> edgesConnecting(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+boolean addEdge(N nodeU, N nodeV, E edge)
+public boolean contains(@Nullable Object obj)
+
+boolean addEdge(N nodeU, N nodeV, E edge)
+public boolean contains(@Nullable Object obj)
+
+Optional<V> edgeValue(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+Optional<V> edgeValue(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+V putEdgeValue(N nodeU, N nodeV, V value)
+public boolean contains(@Nullable Object obj)
+
+V putEdgeValue(N nodeU, N nodeV, V value)
+public boolean contains(@Nullable Object obj)
+
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+public boolean contains(@Nullable Object obj)
+
+V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue)
+public boolean contains(@Nullable Object obj)
+
+boolean hasEdgeConnecting(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+boolean hasEdgeConnecting(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+boolean putEdge(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+boolean putEdge(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+E edgeConnectingOrNull(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+
+E edgeConnectingOrNull(N nodeU, N nodeV)
+public boolean contains(@Nullable Object obj)
+

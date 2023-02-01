@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "71": "  /** Puts a short into this sink. */\n",
+        "74": "  /** Puts an int into this sink. */\n",
+        "77": "  /** Puts a long into this sink. */\n",
+        "80": "  /** Puts a float into this sink. */\n",
+        "83": "  /** Puts a double into this sink. */\n",
+        "86": "  /** Puts a boolean into this sink. */\n",
+        "89": "  /** Puts a character into this sink. */\n"
+    },
+    "removed": {
+        "71": "  /**\n",
+        "72": "   * Puts a short into this sink.\n",
+        "73": "   */\n",
+        "76": "  /**\n",
+        "77": "   * Puts an int into this sink.\n",
+        "78": "   */\n",
+        "81": "  /**\n",
+        "82": "   * Puts a long into this sink.\n",
+        "83": "   */\n",
+        "86": "  /**\n",
+        "87": "   * Puts a float into this sink.\n",
+        "88": "   */\n",
+        "91": "  /**\n",
+        "92": "   * Puts a double into this sink.\n",
+        "93": "   */\n",
+        "96": "  /**\n",
+        "97": "   * Puts a boolean into this sink.\n",
+        "98": "   */\n",
+        "101": "  /**\n",
+        "102": "   * Puts a character into this sink.\n",
+        "103": "   */\n"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "28": "import java.util.Map;\n",
+        "159": "    return edgeEndpointsMap().hashCode();\n",
+        "170": "    return String.format(GRAPH_STRING_FORMAT,\n",
+        "171": "        propertiesString,\n",
+        "172": "        nodes(),\n",
+        "173": "        edgeEndpointsMap());\n",
+        "174": "  }\n",
+        "175": "\n",
+        "176": "  private Map<E, Endpoints<N>> edgeEndpointsMap() {\n",
+        "183": "    return Maps.asMap(edges(), edgeToEndpointsFn);\n"
+    },
+    "removed": {
+        "158": "    Function<N, Set<E>> nodeToOutEdges = new Function<N, Set<E>>() {\n",
+        "159": "      @Override\n",
+        "160": "      public Set<E> apply(N node) {\n",
+        "161": "        return outEdges(node);\n",
+        "162": "      }\n",
+        "163": "    };\n",
+        "164": "    return Maps.asMap(nodes(), nodeToOutEdges).hashCode();\n",
+        "181": "    return String.format(GRAPH_STRING_FORMAT,\n",
+        "182": "        propertiesString,\n",
+        "183": "        nodes(),\n",
+        "184": "        Maps.asMap(edges(), edgeToEndpointsFn));\n"
+    }
+}

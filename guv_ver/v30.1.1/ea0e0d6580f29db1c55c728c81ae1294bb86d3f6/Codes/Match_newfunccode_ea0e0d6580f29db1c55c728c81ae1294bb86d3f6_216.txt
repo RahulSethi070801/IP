@@ -1,0 +1,2 @@
+@ParametricNullness
+E getElement();

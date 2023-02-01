@@ -1,0 +1,17 @@
+@Override
+public E intern(E sample) {
+    while (true) {
+        InternalEntry<E, Dummy, ?> entry = map.getEntry(sample);
+        if (entry != null) {
+            E canonical = entry.getKey();
+            if (canonical != null) {
+                return canonical;
+            }
+        }
+        Dummy sneaky = map.putIfAbsent(sample, Dummy.VALUE);
+        if (sneaky == null) {
+            return sample;
+        } else {
+        }
+    }
+}

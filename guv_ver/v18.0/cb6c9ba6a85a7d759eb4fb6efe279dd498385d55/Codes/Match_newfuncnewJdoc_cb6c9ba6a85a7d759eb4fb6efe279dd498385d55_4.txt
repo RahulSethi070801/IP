@@ -1,0 +1,5 @@
+
+   * Reserves next ticket and returns the wait time that the caller must wait for.
+   *
+   * @return the required wait time, never negative
+   

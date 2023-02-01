@@ -1,0 +1,4 @@
+@Override
+public int degree(Object node) {
+    return adjacentNodes(node).size();
+}

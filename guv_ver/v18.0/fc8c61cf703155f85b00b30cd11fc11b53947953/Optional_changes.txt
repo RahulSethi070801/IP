@@ -1,0 +1,4 @@
+Optional
+Insertions: [78]
+Deletions: [77, 79]
+guava/src/com/google/common/base/Optional.java

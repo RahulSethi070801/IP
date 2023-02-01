@@ -1,0 +1,20 @@
+{
+    "addition": {},
+    "removed": {
+        "36": "public void testPut_sizeIsZero__MaximumSizeTest() throws Exception {\n",
+        "37": "  com.google.common.collect.MapMakerTest.MaximumSizeTest testCase = new com.google.common.collect.MapMakerTest.MaximumSizeTest();\n",
+        "38": "  testCase.testPut_sizeIsZero();\n",
+        "39": "}\n",
+        "40": "\n",
+        "41": "public void testSizeBasedEviction__MaximumSizeTest() throws Exception {\n",
+        "42": "  com.google.common.collect.MapMakerTest.MaximumSizeTest testCase = new com.google.common.collect.MapMakerTest.MaximumSizeTest();\n",
+        "43": "  testCase.testSizeBasedEviction();\n",
+        "44": "}\n",
+        "45": "\n",
+        "56": "public void testMaximumSize_setTwice__MakerTest() throws Exception {\n",
+        "57": "  com.google.common.collect.MapMakerTest.MakerTest testCase = new com.google.common.collect.MapMakerTest.MakerTest();\n",
+        "58": "  testCase.testMaximumSize_setTwice();\n",
+        "59": "}\n",
+        "60": "\n"
+    }
+}

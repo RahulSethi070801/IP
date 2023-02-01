@@ -1,0 +1,6 @@
+
+     * Refreshes the value associated with {@code key}, unless another thread is already doing so.
+     * Returns the newly refreshed value associated with {@code key} if it was refreshed inline, or
+     * {@code null} if another thread is performing the refresh or if an error occurs during
+     * refresh.
+     

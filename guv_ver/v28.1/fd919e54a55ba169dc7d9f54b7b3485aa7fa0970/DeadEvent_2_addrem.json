@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "70": "    return MoreObjects.toStringHelper(this).add(\"source\", source).add(\"event\", event).toString();\n"
+    },
+    "removed": {
+        "70": "    return MoreObjects.toStringHelper(this)\n",
+        "71": "      .add(\"source\", source)\n",
+        "72": "      .add(\"event\", event)\n",
+        "73": "      .toString();\n"
+    }
+}

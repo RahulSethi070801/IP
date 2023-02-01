@@ -1,0 +1,11 @@
+@Override
+public Collection<V> get(@NullableDecl Object key) {
+    Collection<V> result = unfiltered.asMap().get(key);
+    if (result == null) {
+        return null;
+    }
+    @SuppressWarnings("unchecked")
+    K k = (K) key;
+    result = filterCollection(result, new ValuePredicate(k));
+    return result.isEmpty() ? null : result;
+}

@@ -1,0 +1,9 @@
+@Override
+public boolean enclosesAll(Iterable<Range<C>> ranges) {
+    for (Range<C> range : ranges) {
+        if (!encloses(range)) {
+            return false;
+        }
+    }
+    return true;
+}

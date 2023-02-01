@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "493": "  private static <V> ImmutableSet.Builder<V> valuesBuilder(\n",
+        "494": "      @Nullable Comparator<? super V> valueComparator) {\n",
+        "495": "    return (valueComparator == null)\n",
+        "496": "        ? new ImmutableSet.Builder<V>()\n",
+        "497": "        : new ImmutableSortedSet.Builder<V>(valueComparator);\n",
+        "498": "  }\n",
+        "499": "\n"
+    },
+    "removed": {}
+}

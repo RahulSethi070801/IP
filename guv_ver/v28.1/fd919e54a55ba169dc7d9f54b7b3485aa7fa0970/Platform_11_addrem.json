@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "27": "  /** Serializes and deserializes the specified object (a no-op under GWT). */\n"
+    },
+    "removed": {
+        "27": "  /**\n",
+        "28": "   * Serializes and deserializes the specified object (a no-op under GWT).\n",
+        "29": "   */\n"
+    }
+}

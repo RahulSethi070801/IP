@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "61": "   * @throws IllegalArgumentException if {@code k < 0} or {@code k > Integer.MAX_VALUE / 2}\n",
+        "71": "   * @throws IllegalArgumentException if {@code k < 0} or {@code k > Integer.MAX_VALUE / 2}\n",
+        "82": "   * @throws IllegalArgumentException if {@code k < 0} or {@code k > Integer.MAX_VALUE / 2}\n",
+        "92": "   * @throws IllegalArgumentException if {@code k < 0} or {@code k > Integer.MAX_VALUE / 2}\n",
+        "118": "    checkArgument(k >= 0, \"k (%s) must be >= 0\", k);\n",
+        "119": "    checkArgument(k <= Integer.MAX_VALUE / 2, \"k (%s) must be <= Integer.MAX_VALUE / 2\", k);\n",
+        "120": "    this.buffer = (T[]) new Object[IntMath.checkedMultiply(k, 2)];\n"
+    },
+    "removed": {
+        "61": "   * @throws IllegalArgumentException if {@code k < 0}\n",
+        "71": "   * @throws IllegalArgumentException if {@code k < 0}\n",
+        "82": "   * @throws IllegalArgumentException if {@code k < 0}\n",
+        "92": "   * @throws IllegalArgumentException if {@code k < 0}\n",
+        "118": "    checkArgument(k >= 0, \"k must be nonnegative, was %s\", k);\n",
+        "119": "    this.buffer = (T[]) new Object[k * 2];\n"
+    }
+}

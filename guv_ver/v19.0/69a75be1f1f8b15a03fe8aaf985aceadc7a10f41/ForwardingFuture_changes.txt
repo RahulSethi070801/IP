@@ -1,0 +1,4 @@
+ForwardingFuture
+Insertions: [4, 5, 9, 10, 11, 12, 26, 27, 35, 39, 40, 68, 70, 71, 75]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 28, 29, 30, 38, 39, 40, 44, 72, 73, 74, 75, 77, 78, 82, 83]
+guava/src/com/google/common/util/concurrent/ForwardingFuture.java

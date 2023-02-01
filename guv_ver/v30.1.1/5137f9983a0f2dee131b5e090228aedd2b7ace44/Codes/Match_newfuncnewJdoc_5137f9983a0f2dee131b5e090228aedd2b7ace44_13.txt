@@ -1,0 +1,5 @@
+
+   * Returns a path to the parent directory of the given path. If the path actually has a parent
+   * path, this is simple. Otherwise, we need to do some trickier things. Returns null if the path
+   * is a root or is the empty path.
+   

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "64": "  public int count(@Nullable Object element) {\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "64": "  public int count(@NullableDecl Object element) {\n"
+    }
+}

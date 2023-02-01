@@ -1,0 +1,5 @@
+
+   * Hashes the contents of this byte source using the given hash function.
+   *
+   * @throws IOException if an I/O error occurs while reading from this source
+   

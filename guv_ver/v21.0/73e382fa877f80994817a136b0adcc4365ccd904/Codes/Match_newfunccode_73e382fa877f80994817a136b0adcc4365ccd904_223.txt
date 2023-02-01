@@ -1,0 +1,5 @@
+@Deprecated
+@Override
+public final void replaceAll(UnaryOperator<E> operator) {
+    throw new UnsupportedOperationException();
+}

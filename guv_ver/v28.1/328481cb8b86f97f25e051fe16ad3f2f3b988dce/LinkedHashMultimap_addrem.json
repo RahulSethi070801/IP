@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "38": "import java.util.Map.Entry;\n",
+        "292": "  public Set<Entry<K, V>> entries() {\n",
+        "520": "  Iterator<Entry<K, V>> entryIterator() {\n",
+        "521": "    return new Iterator<Entry<K, V>>() {\n",
+        "531": "      public Entry<K, V> next() {\n",
+        "573": "    for (Entry<K, V> entry : entries()) {\n"
+    },
+    "removed": {
+        "291": "  public Set<Map.Entry<K, V>> entries() {\n",
+        "519": "  Iterator<Map.Entry<K, V>> entryIterator() {\n",
+        "520": "    return new Iterator<Map.Entry<K, V>>() {\n",
+        "530": "      public Map.Entry<K, V> next() {\n",
+        "572": "    for (Map.Entry<K, V> entry : entries()) {\n"
+    }
+}

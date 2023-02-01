@@ -1,0 +1,3 @@
+private static boolean isDirectory(SecureDirectoryStream<Path> dir, Path name, LinkOption... options) throws IOException {
+    return dir.getFileAttributeView(name, BasicFileAttributeView.class, options).readAttributes().isDirectory();
+}

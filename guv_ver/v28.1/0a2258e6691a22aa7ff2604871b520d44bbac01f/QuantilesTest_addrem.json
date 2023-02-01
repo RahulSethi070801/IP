@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "43": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "93": "        public boolean compare(@Nullable Double actual, @Nullable Double expected) {\n"
+    },
+    "removed": {
+        "43": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "93": "        public boolean compare(@NullableDecl Double actual, @NullableDecl Double expected) {\n"
+    }
+}

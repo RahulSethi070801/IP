@@ -1,0 +1,5 @@
+
+   * Returns {@code true} if the table contains a mapping with the specified value.
+   *
+   * @param value value to search for
+   

@@ -1,0 +1,6 @@
+private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundException {
+    s.defaultReadObject();
+    busy = 0;
+    cells = null;
+    base = s.readLong();
+}

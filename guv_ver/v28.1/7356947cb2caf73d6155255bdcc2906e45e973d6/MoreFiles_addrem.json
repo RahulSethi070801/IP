@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "59": " * <p>Many methods provided by Guava's {@code Files} class for {@link java.io.File} instances are\n",
+        "60": " * now available via the JDK's {@link java.nio.file.Files} class for {@code Path} - check the JDK's\n",
+        "61": " * class if a sibling method from {@code Files} appears to be missing from this class.\n",
+        "62": " *\n",
+        "680": "  private static Path getParentPath(Path path) {\n"
+    },
+    "removed": {
+        "676": "  private static Path getParentPath(Path path) throws IOException {\n"
+    }
+}

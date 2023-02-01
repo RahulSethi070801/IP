@@ -1,0 +1,5 @@
+
+   * {@inheritDoc}
+   *
+   * <p>Equivalent to {@code incidentEdges(node).size()}.
+   

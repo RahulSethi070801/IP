@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public long getAndAdd(K key, long delta) {
+    return getAndAccumulate(key, delta, Long::sum);
+}

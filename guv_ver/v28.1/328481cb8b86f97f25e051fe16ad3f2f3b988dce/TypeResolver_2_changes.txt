@@ -1,0 +1,4 @@
+TypeResolver_2
+Insertions: [35, 262]
+Deletions: [261]
+guava/src/com/google/common/reflect/TypeResolver.java

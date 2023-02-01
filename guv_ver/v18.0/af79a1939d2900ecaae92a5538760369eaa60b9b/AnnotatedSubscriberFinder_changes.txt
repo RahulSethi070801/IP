@@ -1,0 +1,4 @@
+AnnotatedSubscriberFinder
+Insertions: [40, 41, 46, 53, 69, 70, 75, 76, 83, 123, 137, 139, 142, 143, 144, 147, 148, 150, 152, 161, 162]
+Deletions: [40, 41, 46, 53, 69, 70, 75, 76, 83, 123, 137, 139, 142, 143, 144, 147, 148, 150, 152, 161, 162]
+guava/src/com/google/common/eventbus/AnnotatedSubscriberFinder.java

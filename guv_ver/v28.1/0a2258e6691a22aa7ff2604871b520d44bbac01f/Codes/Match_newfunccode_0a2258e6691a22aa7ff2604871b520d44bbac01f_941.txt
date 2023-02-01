@@ -1,0 +1,5 @@
+@Override
+@Nullable
+public V getIfPresent(Object key) {
+    return localCache.getIfPresent(key);
+}

@@ -1,0 +1,4 @@
+HashCode
+Insertions: [40, 134, 382, 383]
+Deletions: [40, 41, 42, 136, 137, 138, 139, 140, 141, 389, 390]
+android/guava/src/com/google/common/hash/HashCode.java

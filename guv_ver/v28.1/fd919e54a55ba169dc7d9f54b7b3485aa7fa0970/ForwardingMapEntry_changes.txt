@@ -1,0 +1,4 @@
+ForwardingMapEntry
+Insertions: [27, 28, 31, 32, 33, 34, 35, 37, 38, 39, 40, 42, 43, 85, 86, 87, 101, 102, 103, 114, 115, 116]
+Deletions: [27, 28, 29, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 45, 46, 88, 89, 90, 91, 105, 106, 107, 118, 119, 120, 121]
+android/guava/src/com/google/common/collect/ForwardingMapEntry.java

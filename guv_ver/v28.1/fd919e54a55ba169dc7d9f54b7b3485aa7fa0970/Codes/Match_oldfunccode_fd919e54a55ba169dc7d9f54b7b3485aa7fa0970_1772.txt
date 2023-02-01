@@ -1,0 +1,9 @@
+@Override
+public final TypeVariable<?>[] getTypeParameters() {
+    TypeVariable<?>[] declaredByClass = getDeclaringClass().getTypeParameters();
+    TypeVariable<?>[] declaredByConstructor = constructor.getTypeParameters();
+    TypeVariable<?>[] result = new TypeVariable<?>[declaredByClass.length + declaredByConstructor.length];
+    System.arraycopy(declaredByClass, 0, result, 0, declaredByClass.length);
+    System.arraycopy(declaredByConstructor, 0, result, declaredByClass.length, declaredByConstructor.length);
+    return result;
+}

@@ -1,0 +1,6 @@
+static BigInteger checkPositive(@NullableDecl String role, BigInteger x) {
+    if (x.signum() <= 0) {
+        throw new IllegalArgumentException(role + " (" + x + ") must be > 0");
+    }
+    return x;
+}

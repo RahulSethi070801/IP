@@ -1,0 +1,6 @@
+private ScaleAndIndexes(int scale, int[] indexes)
+public ScaleAndIndexes indexes(int... indexes)
+
+private ScaleAndIndexes(int scale, int[] indexes)
+public ScaleAndIndexes indexes(Collection<Integer> indexes)
+

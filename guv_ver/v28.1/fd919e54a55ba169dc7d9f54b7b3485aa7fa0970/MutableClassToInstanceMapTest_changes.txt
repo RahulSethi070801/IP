@@ -1,0 +1,4 @@
+MutableClassToInstanceMapTest
+Insertions: [73, 74, 81, 82, 83]
+Deletions: [73, 80, 81, 82, 83, 84, 86]
+android/guava-tests/test/com/google/common/collect/MutableClassToInstanceMapTest.java

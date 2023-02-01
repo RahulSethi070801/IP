@@ -1,0 +1,4 @@
+@Override
+public SortedMultiset<E> headMultiset(@ParametricNullness E toElement, BoundType boundType) {
+    return forwardMultiset().tailMultiset(toElement, boundType).descendingMultiset();
+}

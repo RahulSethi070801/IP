@@ -1,0 +1,5 @@
+com.google.common.collect.RangeMap
+subRangeMap
+RangeMap<K, V> subRangeMap(Range<K> range)
+Range
+RangeMap

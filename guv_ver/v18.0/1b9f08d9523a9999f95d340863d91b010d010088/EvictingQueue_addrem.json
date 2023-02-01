@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "50": "    checkArgument(maxSize >= 0, \"maxSize (%s) must >= 0\", maxSize);\n",
+        "57": "   *\n",
+        "58": "   * <p>When {@code maxSize} is zero, elements will be evicted immediately after being added to the\n",
+        "59": "   * queue.\n",
+        "87": "    if (maxSize == 0) {\n",
+        "88": "      return true;\n",
+        "89": "    }\n"
+    },
+    "removed": {
+        "50": "    checkArgument(maxSize > 0, \"maxSize (%s) must be positive\", maxSize);\n"
+    }
+}

@@ -1,0 +1,11 @@
+public static <T> Iterable<T> filter(final Iterable<T> unfiltered, final Predicate<? super T> retainIfTrue) {
+    checkNotNull(unfiltered);
+    checkNotNull(retainIfTrue);
+    return new FluentIterable<T>() {
+
+        @Override
+        public Iterator<T> iterator() {
+            return Iterators.filter(unfiltered.iterator(), retainIfTrue);
+        }
+    };
+}

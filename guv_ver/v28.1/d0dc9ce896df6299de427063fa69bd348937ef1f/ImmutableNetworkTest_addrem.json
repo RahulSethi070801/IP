@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "37": "    assertThat(immutableNetwork).isEqualTo(mutableNetwork);\n",
+        "40": "    assertThat(immutableNetwork).isNotEqualTo(mutableNetwork);\n"
+    },
+    "removed": {
+        "37": "    assertThat(Graphs.equivalent(immutableNetwork, mutableNetwork)).isTrue();\n",
+        "40": "    assertThat(Graphs.equivalent(immutableNetwork, mutableNetwork)).isFalse();\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public boolean add(@ParametricNullness E element) {
+    throw new UnsupportedOperationException();
+}

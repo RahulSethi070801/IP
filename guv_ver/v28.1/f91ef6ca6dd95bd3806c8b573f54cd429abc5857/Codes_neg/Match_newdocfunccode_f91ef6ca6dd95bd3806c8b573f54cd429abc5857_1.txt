@@ -1,0 +1,5 @@
+@Deprecated
+@GwtIncompatible
+public static <V, X extends Exception> CheckedFuture<V, X> immediateCheckedFuture(@NullableDecl V value) {
+    return new ImmediateSuccessfulCheckedFuture<>(value);
+}

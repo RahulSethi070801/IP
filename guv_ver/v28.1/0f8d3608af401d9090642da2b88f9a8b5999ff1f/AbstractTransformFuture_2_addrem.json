@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "31": "abstract class AbstractTransformFuture<I, O, F, T> extends FluentFuture.TrustedFuture<O>\n"
+    },
+    "removed": {
+        "31": "abstract class AbstractTransformFuture<I, O, F, T> extends AbstractFuture.TrustedFuture<O>\n"
+    }
+}

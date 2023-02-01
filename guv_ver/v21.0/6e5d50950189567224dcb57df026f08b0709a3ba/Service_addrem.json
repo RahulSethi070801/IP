@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "21": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "68": "  @CanIgnoreReturnValue\n",
+        "91": "  @CanIgnoreReturnValue\n"
+    },
+    "removed": {}
+}

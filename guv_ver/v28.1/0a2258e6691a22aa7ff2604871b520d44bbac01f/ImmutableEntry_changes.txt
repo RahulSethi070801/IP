@@ -1,0 +1,4 @@
+ImmutableEntry
+Insertions: [21, 26, 27, 29, 34, 40]
+Deletions: [21, 26, 27, 29, 34, 40]
+guava/src/com/google/common/collect/ImmutableEntry.java

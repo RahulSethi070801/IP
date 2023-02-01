@@ -1,0 +1,6 @@
+public static MutableGraph<N> copyOf(Graph<N> graph)
+public static boolean equal(@Nullable Graph<?> graph1, @Nullable Graph<?> graph2)
+
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+public static boolean equal(@Nullable Graph<?> graph1, @Nullable Graph<?> graph2)
+

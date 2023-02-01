@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "51": "            boolean.class,\n",
+        "52": "            byte.class,\n",
+        "53": "            char.class,\n",
+        "54": "            double.class,\n",
+        "55": "            float.class,\n",
+        "56": "            int.class,\n",
+        "57": "            long.class,\n",
+        "58": "            short.class,\n",
+        "59": "            void.class),\n",
+        "73": "            Boolean.class,\n",
+        "74": "            Byte.class,\n",
+        "75": "            Character.class,\n",
+        "76": "            Double.class,\n",
+        "77": "            Float.class,\n",
+        "78": "            Integer.class,\n",
+        "79": "            Long.class,\n",
+        "80": "            Short.class,\n",
+        "81": "            Void.class),\n"
+    },
+    "removed": {
+        "51": "            boolean.class, byte.class, char.class, double.class,\n",
+        "52": "            float.class, int.class, long.class, short.class, void.class),\n",
+        "66": "            Boolean.class, Byte.class, Character.class, Double.class,\n",
+        "67": "            Float.class, Integer.class, Long.class, Short.class, Void.class),\n"
+    }
+}

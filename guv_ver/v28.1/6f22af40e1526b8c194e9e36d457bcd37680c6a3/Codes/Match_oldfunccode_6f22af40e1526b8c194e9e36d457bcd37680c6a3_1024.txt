@@ -1,0 +1,3 @@
+protected final boolean containsEdge(@Nullable E edge) {
+    return edgeToReferenceNode.containsKey(edge);
+}

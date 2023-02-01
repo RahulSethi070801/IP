@@ -1,0 +1,6 @@
+
+   * Returns a serializable converter object that converts between strings and
+   * doubles using {@link Double#valueOf} and {@link Double#toString()}.
+   *
+   * @since 16.0
+   

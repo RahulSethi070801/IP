@@ -1,0 +1,11 @@
+@NullableDecl
+ReferenceEntry<K, V> getLiveEntry(Object key, int hash, long now) {
+    ReferenceEntry<K, V> e = getEntry(key, hash);
+    if (e == null) {
+        return null;
+    } else if (map.isExpired(e, now)) {
+        tryExpireEntries(now);
+        return null;
+    }
+    return e;
+}

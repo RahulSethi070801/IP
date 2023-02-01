@@ -1,0 +1,6 @@
+private Builder(UndirectedGraph<N, E> graph)
+boolean equals(@Nullable Object object)
+
+public Graph<N1, E1> build()
+boolean addEdge(E edge, N node1, N node2)
+

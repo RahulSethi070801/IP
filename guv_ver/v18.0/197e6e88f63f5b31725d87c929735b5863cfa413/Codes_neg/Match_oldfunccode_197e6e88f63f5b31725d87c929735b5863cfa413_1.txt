@@ -1,0 +1,7 @@
+@VisibleForTesting
+static RateLimiter createWithCapacity(SleepingStopwatch stopwatch, double permitsPerSecond, long maxBurstBuildup, TimeUnit unit) {
+    double maxBurstSeconds = unit.toNanos(maxBurstBuildup) / 1E+9;
+    SmoothBursty rateLimiter = new SmoothBursty(stopwatch, maxBurstSeconds);
+    rateLimiter.setRate(permitsPerSecond);
+    return rateLimiter;
+}

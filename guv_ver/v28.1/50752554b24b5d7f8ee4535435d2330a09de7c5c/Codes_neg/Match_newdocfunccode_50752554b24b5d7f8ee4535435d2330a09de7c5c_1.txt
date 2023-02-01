@@ -1,0 +1,11 @@
+public void resume() {
+    synchronized (queue) {
+        Preconditions.checkState(suspensions > 0);
+        suspensions--;
+        if (isWorkerRunning || suspensions > 0 || queue.isEmpty()) {
+            return;
+        }
+        isWorkerRunning = true;
+    }
+    startQueueWorker();
+}

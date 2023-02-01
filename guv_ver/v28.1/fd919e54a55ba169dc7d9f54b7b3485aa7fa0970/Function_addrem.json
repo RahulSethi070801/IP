@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "27": " * <p>See the Guava User Guide article on <a\n",
+        "28": " * href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code Function}</a>.\n",
+        "53": "   *   <li>Its execution does not cause any observable side effects.\n",
+        "54": "   *   <li>The computation is <i>consistent with equals</i>; that is, {@link Objects#equal\n",
+        "55": "   *       Objects.equal}{@code (a, b)} implies that {@code Objects.equal(function.apply(a),\n",
+        "56": "   *       function.apply(b))}.\n"
+    },
+    "removed": {
+        "27": " * <p>See the Guava User Guide article on\n",
+        "28": " * <a href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code\n",
+        "29": " * Function}</a>.\n",
+        "54": "   * <li>Its execution does not cause any observable side effects.\n",
+        "55": "   * <li>The computation is <i>consistent with equals</i>; that is, {@link Objects#equal\n",
+        "56": "   *     Objects.equal}{@code (a, b)} implies that {@code Objects.equal(function.apply(a),\n",
+        "57": "   *     function.apply(b))}.\n"
+    }
+}

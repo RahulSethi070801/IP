@@ -1,0 +1,3 @@
+public static <K, V> HashMap<K, V> newHashMapWithExpectedSize(int expectedSize) {
+    return new HashMap<K, V>(capacity(expectedSize));
+}

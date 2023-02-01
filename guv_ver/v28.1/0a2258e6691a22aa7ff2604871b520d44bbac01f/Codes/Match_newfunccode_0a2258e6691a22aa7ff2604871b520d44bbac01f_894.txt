@@ -1,0 +1,4 @@
+@Override
+public K forcePut(@Nullable V value, @Nullable K key) {
+    return putInverse(value, key, true);
+}

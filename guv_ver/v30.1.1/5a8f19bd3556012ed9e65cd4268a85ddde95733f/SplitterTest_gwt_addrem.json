@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "31": "public void testCharacterSimpleSplitToStream() throws Exception {\n",
+        "32": "  com.google.common.base.SplitterTest testCase = new com.google.common.base.SplitterTest();\n",
+        "33": "  testCase.testCharacterSimpleSplitToStream();\n",
+        "34": "}\n",
+        "35": "\n"
+    },
+    "removed": {}
+}

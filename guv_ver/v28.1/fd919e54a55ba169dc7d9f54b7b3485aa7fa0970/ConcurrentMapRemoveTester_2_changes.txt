@@ -1,0 +1,4 @@
+ConcurrentMapRemoveTester_2
+Insertions: [31, 32]
+Deletions: [31, 32]
+guava-testlib/src/com/google/common/collect/testing/testers/ConcurrentMapRemoveTester.java

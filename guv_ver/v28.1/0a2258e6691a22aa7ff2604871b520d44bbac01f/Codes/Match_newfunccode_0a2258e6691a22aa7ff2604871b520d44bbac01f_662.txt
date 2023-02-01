@@ -1,0 +1,10 @@
+static <K, V1, V2> Function<V1, V2> asValueToValueFunction(final EntryTransformer<? super K, V1, V2> transformer, final K key) {
+    checkNotNull(transformer);
+    return new Function<V1, V2>() {
+
+        @Override
+        public V2 apply(@Nullable V1 v1) {
+            return transformer.transformEntry(key, v1);
+        }
+    };
+}

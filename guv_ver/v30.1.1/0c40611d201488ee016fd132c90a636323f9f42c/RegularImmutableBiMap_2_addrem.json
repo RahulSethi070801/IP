@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "24": "import static java.util.Objects.requireNonNull;\n",
+        "63": "  static <K, V> ImmutableBiMap<K, V> fromEntryArray(int n, @Nullable Entry<K, V>[] entryArray) {\n",
+        "69": "    /*\n",
+        "70": "     * The cast is safe: n==entryArray.length means that we have filled the whole array with Entry\n",
+        "71": "     * instances, in which case it is safe to cast it from an array of nullable entries to an array\n",
+        "72": "     * of non-null entries.\n",
+        "73": "     */\n",
+        "74": "    @SuppressWarnings(\"nullness\")\n",
+        "75": "    Entry<K, V>[] entries =\n",
+        "76": "        (n == entryArray.length) ? (Entry<K, V>[]) entryArray : createEntryArray(n);\n",
+        "80": "      // requireNonNull is safe because the first `n` elements have been filled in.\n",
+        "81": "      Entry<K, V> entry = requireNonNull(entryArray[i]);\n"
+    },
+    "removed": {
+        "62": "  static <K, V> ImmutableBiMap<K, V> fromEntryArray(int n, Entry<K, V>[] entryArray) {\n",
+        "68": "    Entry<K, V>[] entries;\n",
+        "69": "    if (n == entryArray.length) {\n",
+        "70": "      entries = entryArray;\n",
+        "71": "    } else {\n",
+        "72": "      entries = createEntryArray(n);\n",
+        "73": "    }\n",
+        "77": "      Entry<K, V> entry = entryArray[i];\n"
+    }
+}

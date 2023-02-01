@@ -1,0 +1,20 @@
+com.google.common.graph.Graphs
+containsEndpoints
+private static boolean containsEndpoints(Graph<?> graph, Endpoints<?> endpoints)
+Graph,Endpoints
+boolean
+com.google.common.graph.Endpoints$Directed
+equals
+public boolean equals(Object obj)
+Object
+boolean
+com.google.common.graph.Endpoints
+isDirected
+abstract boolean isDirected()
+empty
+boolean
+com.google.common.graph.Endpoints$Directed
+isDirected
+boolean isDirected()
+empty
+boolean

@@ -1,0 +1,33 @@
+final Type capture(Type type) {
+    checkNotNull(type);
+    if (type instanceof Class) {
+        return type;
+    }
+    if (type instanceof TypeVariable) {
+        return type;
+    }
+    if (type instanceof GenericArrayType) {
+        GenericArrayType arrayType = (GenericArrayType) type;
+        return Types.newArrayType(notForTypeVariable().capture(arrayType.getGenericComponentType()));
+    }
+    if (type instanceof ParameterizedType) {
+        ParameterizedType parameterizedType = (ParameterizedType) type;
+        Class<?> rawType = (Class<?>) parameterizedType.getRawType();
+        TypeVariable<?>[] typeVars = rawType.getTypeParameters();
+        Type[] typeArgs = parameterizedType.getActualTypeArguments();
+        for (int i = 0; i < typeArgs.length; i++) {
+            typeArgs[i] = forTypeVariable(typeVars[i]).capture(typeArgs[i]);
+        }
+        return Types.newParameterizedTypeWithOwner(notForTypeVariable().captureNullable(parameterizedType.getOwnerType()), rawType, typeArgs);
+    }
+    if (type instanceof WildcardType) {
+        WildcardType wildcardType = (WildcardType) type;
+        Type[] lowerBounds = wildcardType.getLowerBounds();
+        if (lowerBounds.length == 0) {
+            return captureAsTypeVariable(wildcardType.getUpperBounds());
+        } else {
+            return type;
+        }
+    }
+    throw new AssertionError("must have been one of the known types");
+}

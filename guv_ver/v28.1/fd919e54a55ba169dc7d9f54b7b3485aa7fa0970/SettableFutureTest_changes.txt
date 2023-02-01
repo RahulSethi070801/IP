@@ -1,0 +1,4 @@
+SettableFutureTest
+Insertions: [48, 49, 131, 132, 133, 158, 159, 160, 177, 178, 179, 192, 193, 194, 207, 208, 209]
+Deletions: [48, 130, 154, 171, 184, 197]
+android/guava-tests/test/com/google/common/util/concurrent/SettableFutureTest.java

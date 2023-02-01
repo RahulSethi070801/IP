@@ -1,0 +1,5 @@
+com.google.common.collect.super.com.google.common.collect.TreeTraverser
+using
+public static TreeTraverser<T> using(final Function<T, ? extends Iterable<T>> nodeToChildrenFunction)
+Function
+TreeTraverser

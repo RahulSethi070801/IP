@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "144": "    for (Entry<? extends K, ? extends V> entry : m.entrySet()) {\n",
+        "152": "      for (Entry<K, Timestamped<V>> entry : cachingHashMap.entrySet()) {\n",
+        "486": "    protected boolean removeEldestEntry(Entry<K, Timestamped<V>> ignored) {\n"
+    },
+    "removed": {
+        "144": "    for (Map.Entry<? extends K, ? extends V> entry : m.entrySet()) {\n",
+        "152": "      for (Map.Entry<K, Timestamped<V>> entry : cachingHashMap.entrySet()) {\n",
+        "486": "    protected boolean removeEldestEntry(Map.Entry<K, Timestamped<V>> ignored) {\n"
+    }
+}

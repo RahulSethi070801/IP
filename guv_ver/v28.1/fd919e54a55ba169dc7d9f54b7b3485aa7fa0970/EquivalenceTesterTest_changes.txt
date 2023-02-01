@@ -1,0 +1,4 @@
+EquivalenceTesterTest
+Insertions: [40, 41, 52, 53, 86, 87, 107, 108, 109, 110, 137, 138, 139, 140, 161, 162, 163, 164, 187, 201, 206, 207, 218, 243, 244, 248, 249]
+Deletions: [40, 51, 84, 104, 105, 106, 133, 134, 135, 156, 157, 158, 181, 195, 200, 211, 212, 237, 241]
+android/guava-testlib/test/com/google/common/testing/EquivalenceTesterTest.java

@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "108": "      Map<E, N> incidentEdgeMap = Maps.asMap(graph.incidentEdges(node), otherNodeFn(graph, node));\n",
+        "133": "  private static <N, E> Function<E, N> otherNodeFn(final Network<N, E> graph, final N node) {\n",
+        "137": "        return graph.incidentNodes(edge).otherNode(node);\n"
+    },
+    "removed": {
+        "108": "      Map<E, N> incidentEdgeMap =\n",
+        "109": "          Maps.asMap(graph.incidentEdges(node), oppositeNodeFn(graph, node));\n",
+        "134": "  private static <N, E> Function<E, N> oppositeNodeFn(final Network<N, E> graph, final N node) {\n",
+        "138": "        return Graphs.oppositeNode(graph, edge, node);\n"
+    }
+}

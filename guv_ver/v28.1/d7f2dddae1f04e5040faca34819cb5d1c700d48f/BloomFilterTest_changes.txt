@@ -1,0 +1,4 @@
+BloomFilterTest
+Insertions: [56, 57, 58, 59, 60, 61, 62, 63, 74, 116, 158, 287, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340]
+Deletions: [276]
+guava-tests/test/com/google/common/hash/BloomFilterTest.java

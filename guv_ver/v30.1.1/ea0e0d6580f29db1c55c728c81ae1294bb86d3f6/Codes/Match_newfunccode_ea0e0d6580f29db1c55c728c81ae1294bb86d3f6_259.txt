@@ -1,0 +1,1 @@
+int count(@CompatibleWith("E") @CheckForNull Object element);

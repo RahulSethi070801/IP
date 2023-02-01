@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "34": "        .testForwarding(\n",
+        "35": "            ListMultimap.class,\n",
+        "36": "            new Function<ListMultimap, ListMultimap>() {\n",
+        "37": "              @Override\n",
+        "38": "              public ListMultimap apply(ListMultimap delegate) {\n",
+        "39": "                return wrap(delegate);\n",
+        "40": "              }\n",
+        "41": "            });\n",
+        "55": "      @Override\n",
+        "56": "      protected ListMultimap<K, V> delegate() {\n"
+    },
+    "removed": {
+        "34": "        .testForwarding(ListMultimap.class, new Function<ListMultimap, ListMultimap>() {\n",
+        "35": "          @Override public ListMultimap apply(ListMultimap delegate) {\n",
+        "36": "            return wrap(delegate);\n",
+        "37": "          }\n",
+        "38": "        });\n",
+        "52": "      @Override protected ListMultimap<K, V> delegate() {\n"
+    }
+}

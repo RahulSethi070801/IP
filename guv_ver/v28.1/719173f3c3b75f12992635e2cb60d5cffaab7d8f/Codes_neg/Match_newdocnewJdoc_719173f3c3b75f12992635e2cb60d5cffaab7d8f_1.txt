@@ -1,0 +1,13 @@
+
+   * Returns the current elapsed time shown on this stopwatch, expressed in the desired time unit,
+   * with any fraction rounded down.
+   *
+   * <p><b>Note:</b> the overhead of measurement can be more than a microsecond, so it is generally
+   * not useful to specify {@link TimeUnit#NANOSECONDS} precision here.
+   *
+   * <p>It is generally not a good idea to use an ambiguous, unitless {@code long} to represent
+   * elapsed time. Therefore, we recommend using {@link #elapsed()} instead, which returns a
+   * strongly-typed {@link Duration} instance.
+   *
+   * @since 14.0 (since 10.0 as {@code elapsedTime()})
+   

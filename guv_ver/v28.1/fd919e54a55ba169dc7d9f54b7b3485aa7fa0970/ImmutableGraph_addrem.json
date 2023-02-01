@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "58": "        : new ImmutableGraph<N>(\n",
+        "59": "            new ConfigurableValueGraph<N, Presence>(\n",
+        "60": "                GraphBuilder.from(graph), getNodeConnections(graph), graph.edges().size()));\n"
+    },
+    "removed": {
+        "58": "        : new ImmutableGraph<N>(new ConfigurableValueGraph<N, Presence>(\n",
+        "59": "            GraphBuilder.from(graph), getNodeConnections(graph), graph.edges().size()));\n"
+    }
+}

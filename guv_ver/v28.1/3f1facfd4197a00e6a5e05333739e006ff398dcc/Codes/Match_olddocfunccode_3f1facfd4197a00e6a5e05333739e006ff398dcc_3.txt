@@ -1,0 +1,3 @@
+private static Type canonicalizeTypeArg(TypeVariable<?> declaration, Type typeArg) {
+    return typeArg instanceof WildcardType ? canonicalizeWildcardType(declaration, ((WildcardType) typeArg)) : canonicalizeWildcardsInType(typeArg);
+}

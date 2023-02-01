@@ -1,0 +1,4 @@
+MessageDigestHashFunction_2
+Insertions: [117]
+Deletions: [117, 118, 119]
+guava/src/com/google/common/hash/MessageDigestHashFunction.java

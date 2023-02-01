@@ -1,0 +1,3 @@
+public static ToStringHelper toStringHelper(Object self) {
+    return new ToStringHelper(self.getClass().getSimpleName());
+}

@@ -1,0 +1,25 @@
+com.google.common.net.InternetDomainName
+topPrivateDomain
+public InternetDomainName topPrivateDomain()
+empty
+InternetDomainName
+com.google.common.net.InternetDomainName
+from
+public static InternetDomainName from(String domain)
+String
+InternetDomainName
+com.google.common.net.InternetDomainName
+isUnderPublicSuffix
+public boolean isUnderPublicSuffix()
+empty
+boolean
+com.google.common.net.InternetDomainName
+isTopPrivateDomain
+public boolean isTopPrivateDomain()
+empty
+boolean
+com.google.common.net.InternetDomainName
+isPublicSuffix
+public boolean isPublicSuffix()
+empty
+boolean

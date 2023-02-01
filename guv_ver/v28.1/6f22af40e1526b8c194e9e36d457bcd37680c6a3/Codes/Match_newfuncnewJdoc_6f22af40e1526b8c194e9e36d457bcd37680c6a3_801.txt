@@ -1,0 +1,3 @@
+
+     * Unsafely returns the value of the given entry if it's still live, or {@code null} otherwise.
+     

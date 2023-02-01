@@ -1,0 +1,15 @@
+@NullableDecl
+V refresh(K key, int hash, CacheLoader<? super K, V> loader, boolean checkTime) {
+    final LoadingValueReference<K, V> loadingValueReference = insertLoadingValueReference(key, hash, checkTime);
+    if (loadingValueReference == null) {
+        return null;
+    }
+    ListenableFuture<V> result = loadAsync(key, hash, loadingValueReference, loader);
+    if (result.isDone()) {
+        try {
+            return Uninterruptibles.getUninterruptibly(result);
+        } catch (Throwable t) {
+        }
+    }
+    return null;
+}

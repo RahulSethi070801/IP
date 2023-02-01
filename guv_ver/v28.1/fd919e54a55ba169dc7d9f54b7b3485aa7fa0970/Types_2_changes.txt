@@ -1,0 +1,4 @@
+Types_2
+Insertions: [99, 168, 170, 171, 172, 352, 353, 354, 355, 356, 676, 677]
+Deletions: [99, 100, 101, 171, 172, 173, 353, 354, 355, 356, 357, 677, 678]
+guava/src/com/google/common/reflect/Types.java

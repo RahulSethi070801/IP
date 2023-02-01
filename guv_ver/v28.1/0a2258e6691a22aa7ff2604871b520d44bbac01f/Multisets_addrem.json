@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "44": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "244": "  public static <E> Multiset.Entry<E> immutableEntry(@Nullable E e, int n) {\n",
+        "249": "    @Nullable private final E element;\n",
+        "252": "    ImmutableEntry(@Nullable E element, int count) {\n",
+        "259": "    @Nullable\n",
+        "355": "    public int count(@Nullable Object element) {\n",
+        "366": "    public int add(@Nullable E element, int occurrences) {\n",
+        "373": "    public int remove(@Nullable Object element, int occurrences) {\n",
+        "415": "      public boolean contains(@Nullable Object element) {\n",
+        "544": "      public boolean contains(@Nullable Object element) {\n",
+        "621": "      public int count(@Nullable Object element) {\n",
+        "831": "    public boolean equals(@Nullable Object object) {\n",
+        "865": "  static boolean equalsImpl(Multiset<?> multiset, @Nullable Object object) {\n",
+        "1012": "    public boolean contains(@Nullable Object o) {\n"
+    },
+    "removed": {
+        "44": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "244": "  public static <E> Multiset.Entry<E> immutableEntry(@NullableDecl E e, int n) {\n",
+        "249": "    @NullableDecl private final E element;\n",
+        "252": "    ImmutableEntry(@NullableDecl E element, int count) {\n",
+        "259": "    @NullableDecl\n",
+        "355": "    public int count(@NullableDecl Object element) {\n",
+        "366": "    public int add(@NullableDecl E element, int occurrences) {\n",
+        "373": "    public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "415": "      public boolean contains(@NullableDecl Object element) {\n",
+        "544": "      public boolean contains(@NullableDecl Object element) {\n",
+        "621": "      public int count(@NullableDecl Object element) {\n",
+        "831": "    public boolean equals(@NullableDecl Object object) {\n",
+        "865": "  static boolean equalsImpl(Multiset<?> multiset, @NullableDecl Object object) {\n",
+        "1012": "    public boolean contains(@NullableDecl Object o) {\n"
+    }
+}

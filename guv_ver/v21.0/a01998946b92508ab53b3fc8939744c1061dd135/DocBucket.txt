@@ -1,0 +1,10 @@
+com.google.common.graph.Network
+hashCode
+int hashCode()
+empty
+int
+com.google.common.graph.Network
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean

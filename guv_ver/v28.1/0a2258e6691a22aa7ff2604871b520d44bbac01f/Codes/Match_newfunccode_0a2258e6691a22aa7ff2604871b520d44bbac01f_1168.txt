@@ -1,0 +1,6 @@
+static <K, V> BiMap<K, V> biMap(BiMap<K, V> bimap, @Nullable Object mutex) {
+    if (bimap instanceof SynchronizedBiMap || bimap instanceof ImmutableBiMap) {
+        return bimap;
+    }
+    return new SynchronizedBiMap<>(bimap, mutex, null);
+}

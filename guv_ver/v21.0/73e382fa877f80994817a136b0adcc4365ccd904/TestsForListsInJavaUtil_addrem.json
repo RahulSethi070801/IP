@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "19": "import static com.google.common.collect.testing.testers.CollectionSpliteratorTester.getSpliteratorNotImmutableCollectionAllowsAddMethod;\n",
+        "20": "import static com.google.common.collect.testing.testers.CollectionSpliteratorTester.getSpliteratorNotImmutableCollectionAllowsRemoveMethod;\n",
+        "25": "import static java.util.Arrays.asList;\n",
+        "96": "    return asList(\n",
+        "100": "        getListIteratorFullyModifiableMethod(),\n",
+        "101": "        getSpliteratorNotImmutableCollectionAllowsAddMethod(),\n",
+        "102": "        getSpliteratorNotImmutableCollectionAllowsRemoveMethod());\n"
+    },
+    "removed": {
+        "93": "    return Arrays.asList(\n",
+        "97": "        getListIteratorFullyModifiableMethod());\n"
+    }
+}

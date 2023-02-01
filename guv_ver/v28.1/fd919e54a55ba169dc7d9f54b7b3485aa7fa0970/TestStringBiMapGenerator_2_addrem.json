@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "27": " * Implementation helper for {@link TestBiMapGenerator} for use with bimaps of strings.\n"
+    },
+    "removed": {
+        "27": " * Implementation helper for {@link TestBiMapGenerator} for use with bimaps of\n",
+        "28": " * strings.\n"
+    }
+}

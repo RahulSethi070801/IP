@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "83": " * Tests for {@link Stats}. This tests instances created by both {@link Stats#of} and {@link\n",
+        "84": " * StatsAccumulator#snapshot}.\n",
+        "479": "        .addEqualityGroup(\n",
+        "480": "            Stats.of(1.0, 1.0, 5.0, 5.0),\n",
+        "488": "        .addEqualityGroup(\n",
+        "489": "            new Stats(5, -5.5, 55.5, -5.55, 5.55), new Stats(5, -5.5, 55.5, -5.55, 5.55))\n",
+        "583": "    try {\n",
+        "592": "    byte[] tooLongByteArray =\n",
+        "593": "        ByteBuffer.allocate(buffer.length + 2)\n",
+        "594": "            .order(ByteOrder.LITTLE_ENDIAN)\n",
+        "595": "            .put(buffer)\n",
+        "596": "            .putChar('.')\n",
+        "597": "            .array();\n",
+        "607": "    byte[] tooShortByteArray =\n",
+        "608": "        ByteBuffer.allocate(buffer.length - 1)\n",
+        "609": "            .order(ByteOrder.LITTLE_ENDIAN)\n",
+        "610": "            .put(buffer, 0, Stats.BYTES - 1)\n",
+        "611": "            .array();\n"
+    },
+    "removed": {
+        "83": " * Tests for {@link Stats}. This tests instances created by both {@link Stats#of} and\n",
+        "84": " * {@link StatsAccumulator#snapshot}.\n",
+        "479": "        .addEqualityGroup(Stats.of(1.0, 1.0, 5.0, 5.0),\n",
+        "487": "        .addEqualityGroup(new Stats(5, -5.5, 55.5, -5.55, 5.55),\n",
+        "488": "            new Stats(5, -5.5, 55.5, -5.55, 5.55))\n",
+        "582": "   try {\n",
+        "591": "    byte[] tooLongByteArray = ByteBuffer.allocate(buffer.length + 2).order(ByteOrder.LITTLE_ENDIAN)\n",
+        "592": "        .put(buffer).putChar('.').array();\n",
+        "602": "    byte[] tooShortByteArray = ByteBuffer.allocate(buffer.length - 1).order(ByteOrder.LITTLE_ENDIAN)\n",
+        "603": "        .put(buffer, 0, Stats.BYTES - 1).array();\n"
+    }
+}

@@ -1,0 +1,843 @@
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public int size()
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+
+public static ValueGraphBuilder<Object, Object> directed()
+static EndpointsIterator<N> of(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> directed()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+int hashCode()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+int hashCode()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+int hashCode()
+public int size()
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+int hashCode()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+int hashCode()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+int hashCode()
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+
+int hashCode()
+static EndpointsIterator<N> of(Graph<N> graph)
+
+int hashCode()
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+
+int hashCode()
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+int hashCode()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+int hashCode()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+int hashCode()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public int size()
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+
+boolean equals(@Nullable Object object)
+static EndpointsIterator<N> of(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+
+boolean equals(@Nullable Object object)
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public Set<E> edges()
+public int size()
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public Set<E> edges()
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+
+public Set<E> edges()
+static EndpointsIterator<N> of(Graph<N> graph)
+
+public Set<E> edges()
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+
+public Set<E> edges()
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public Set<E> edges()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public Set<E> edges()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public Set<E> edges()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public int size()
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+static EndpointsIterator<N> of(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static ValueGraphBuilder<Object, Object> undirected()
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public int size()
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+static EndpointsIterator<N> of(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public int size()
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+static EndpointsIterator<N> of(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+private BasicGraphBuilder<N1> cast()
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public int size()
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+static EndpointsIterator<N> of(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+static EndpointsIterator<N> of(ValueGraph<N, ?> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static Endpoints<N> of(Graph<?> graph, N nodeA, N nodeB)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableBasicGraph<N> copyOf(ImmutableBasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static MutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+

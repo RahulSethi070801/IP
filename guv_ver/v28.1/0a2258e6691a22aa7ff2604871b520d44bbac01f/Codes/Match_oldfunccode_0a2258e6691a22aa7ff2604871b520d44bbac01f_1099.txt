@@ -1,0 +1,57 @@
+@NullableDecl
+V put(K key, int hash, V value, boolean onlyIfAbsent) {
+    lock();
+    try {
+        long now = map.ticker.read();
+        preWriteCleanup(now);
+        int newCount = this.count + 1;
+        if (newCount > this.threshold) {
+            expand();
+            newCount = this.count + 1;
+        }
+        AtomicReferenceArray<ReferenceEntry<K, V>> table = this.table;
+        int index = hash & (table.length() - 1);
+        ReferenceEntry<K, V> first = table.get(index);
+        for (ReferenceEntry<K, V> e = first; e != null; e = e.getNext()) {
+            K entryKey = e.getKey();
+            if (e.getHash() == hash && entryKey != null && map.keyEquivalence.equivalent(key, entryKey)) {
+                ValueReference<K, V> valueReference = e.getValueReference();
+                V entryValue = valueReference.get();
+                if (entryValue == null) {
+                    ++modCount;
+                    if (valueReference.isActive()) {
+                        enqueueNotification(key, hash, entryValue, valueReference.getWeight(), RemovalCause.COLLECTED);
+                        setValue(e, key, value, now);
+                        newCount = this.count;
+                    } else {
+                        setValue(e, key, value, now);
+                        newCount = this.count + 1;
+                    }
+                    this.count = newCount;
+                    evictEntries(e);
+                    return null;
+                } else if (onlyIfAbsent) {
+                    recordLockedRead(e, now);
+                    return entryValue;
+                } else {
+                    ++modCount;
+                    enqueueNotification(key, hash, entryValue, valueReference.getWeight(), RemovalCause.REPLACED);
+                    setValue(e, key, value, now);
+                    evictEntries(e);
+                    return entryValue;
+                }
+            }
+        }
+        ++modCount;
+        ReferenceEntry<K, V> newEntry = newEntry(key, hash, first);
+        setValue(newEntry, key, value, now);
+        table.set(index, newEntry);
+        newCount = this.count + 1;
+        this.count = newCount;
+        evictEntries(newEntry);
+        return null;
+    } finally {
+        unlock();
+        postWriteCleanup();
+    }
+}

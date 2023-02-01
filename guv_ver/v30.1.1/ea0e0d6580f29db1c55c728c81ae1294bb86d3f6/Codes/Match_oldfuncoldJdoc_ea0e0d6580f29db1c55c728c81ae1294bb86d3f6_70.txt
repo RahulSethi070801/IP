@@ -1,0 +1,16 @@
+
+   * Conditionally sets the count of an element to a new value, as described in {@link
+   * #setCount(Object, int)}, provided that the element has the expected current count. If the
+   * current count is not {@code oldCount}, no change is made.
+   *
+   * @param element the element to conditionally set the count of; may be null only if explicitly
+   *     allowed by the implementation
+   * @param oldCount the expected present count of the element in this multiset
+   * @param newCount the desired count of the element in this multiset
+   * @return {@code true} if the condition for modification was met. This implies that the multiset
+   *     was indeed modified, unless {@code oldCount == newCount}.
+   * @throws IllegalArgumentException if {@code oldCount} or {@code newCount} is negative
+   * @throws NullPointerException if {@code element} is null and the implementation does not permit
+   *     null elements. Note that if {@code oldCount} and {@code newCount} are both zero, the
+   *     implementor may optionally return {@code true} instead.
+   

@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "747": "\n",
+        "748": "  public void testScale_indexes_indexes_computeInPlace_empty() {\n",
+        "749": "    int[] emptyIndexes = {};\n",
+        "750": "    try {\n",
+        "751": "      Quantiles.ScaleAndIndexes unused = Quantiles.scale(10).indexes(emptyIndexes);\n",
+        "752": "      fail(\"Expected IllegalArgumentException\");\n",
+        "753": "    } catch (IllegalArgumentException expected) {\n",
+        "754": "    }\n",
+        "755": "  }\n"
+    },
+    "removed": {}
+}

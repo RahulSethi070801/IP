@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "19": "import static com.google.common.util.concurrent.Futures.getDone;\n",
+        "226": "            InputT result = getDone(future);\n",
+        "232": "          collectOneValue(allMustSucceed, index, getDone(future));\n"
+    },
+    "removed": {
+        "20": "import static com.google.common.util.concurrent.Uninterruptibles.getUninterruptibly;\n",
+        "226": "            InputT result = getUninterruptibly(future);\n",
+        "232": "          collectOneValue(allMustSucceed, index, getUninterruptibly(future));\n"
+    }
+}

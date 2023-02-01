@@ -1,0 +1,2 @@
+@Nullable
+abstract V getValue(int keyIndex);

@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "52": "  @VisibleForTesting final transient Entry<K, V>[] entries;\n",
+        "181": "  @LazyInit @RetainedWith private transient ImmutableBiMap<V, K> inverse;\n"
+    },
+    "removed": {
+        "52": "  @VisibleForTesting\n",
+        "53": "  final transient Entry<K, V>[] entries;\n",
+        "182": "  @LazyInit\n",
+        "183": "  @RetainedWith\n",
+        "184": "  private transient ImmutableBiMap<V, K> inverse;\n"
+    }
+}

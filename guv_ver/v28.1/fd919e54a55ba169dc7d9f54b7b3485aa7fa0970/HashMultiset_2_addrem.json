@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "36": "  /** Creates a new, empty {@code HashMultiset} using the default initial capacity. */\n",
+        "42": "   * Creates a new, empty {@code HashMultiset} with the specified expected number of distinct\n",
+        "43": "   * elements.\n",
+        "55": "   * <p>This implementation is highly efficient when {@code elements} is itself a {@link Multiset}.\n",
+        "74": "   * @serialData the number of distinct elements, the first element, its count, the second element,\n",
+        "75": "   *     its count, and so on\n"
+    },
+    "removed": {
+        "36": "  /**\n",
+        "37": "   * Creates a new, empty {@code HashMultiset} using the default initial\n",
+        "38": "   * capacity.\n",
+        "39": "   */\n",
+        "45": "   * Creates a new, empty {@code HashMultiset} with the specified expected\n",
+        "46": "   * number of distinct elements.\n",
+        "58": "   * <p>This implementation is highly efficient when {@code elements} is itself\n",
+        "59": "   * a {@link Multiset}.\n",
+        "78": "   * @serialData the number of distinct elements, the first element, its count,\n",
+        "79": "   *     the second element, its count, and so on\n"
+    }
+}

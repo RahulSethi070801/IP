@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "60": "   *   <li>UNORDERED: no order is guaranteed.\n",
+        "61": "   *   <li>INSERTION: insertion ordering is guaranteed.\n",
+        "62": "   *   <li>SORTED: ordering according to a supplied comparator is guaranteed.\n"
+    },
+    "removed": {
+        "60": "   * <li>UNORDERED: no order is guaranteed.\n",
+        "61": "   * <li>INSERTION: insertion ordering is guaranteed.\n",
+        "62": "   * <li>SORTED: ordering according to a supplied comparator is guaranteed.\n"
+    }
+}

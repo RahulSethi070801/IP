@@ -1,0 +1,3 @@
+public static <T> Stream<T> stream(Iterable<T> iterable) {
+    return (iterable instanceof Collection) ? ((Collection<T>) iterable).stream() : StreamSupport.stream(iterable.spliterator(), false);
+}

@@ -1,0 +1,24 @@
+public long addAndGet(K key, long delta) {
+    outer: while (true) {
+        AtomicLong atomic = map.get(key);
+        if (atomic == null) {
+            atomic = map.putIfAbsent(key, new AtomicLong(delta));
+            if (atomic == null) {
+                return delta;
+            }
+        }
+        while (true) {
+            long oldValue = atomic.get();
+            if (oldValue == 0L) {
+                if (map.replace(key, atomic, new AtomicLong(delta))) {
+                    return delta;
+                }
+                continue outer;
+            }
+            long newValue = oldValue + delta;
+            if (atomic.compareAndSet(oldValue, newValue)) {
+                return newValue;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "62": "  public void testFromStringNonAsciiDigits() {\n",
+        "63": "    // Same as testFromStringUnusedDefaultPort but with Gujarati digits for port numbers.\n",
+        "64": "    checkFromStringCase(\"gmail.com:\u0aee1\", 77, null, -1, false);\n",
+        "65": "    checkFromStringCase(\"192.0.2.2:\u0aee\u0ae9\", 77, null, -1, false);\n",
+        "66": "    checkFromStringCase(\"[2001::2]:\u0aee\u0aeb\", 77, null, -1, false);\n",
+        "67": "  }\n",
+        "68": "\n"
+    },
+    "removed": {}
+}

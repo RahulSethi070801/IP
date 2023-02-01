@@ -1,0 +1,4 @@
+AbstractListTester
+Insertions: [43, 44, 45, 46, 65, 66]
+Deletions: [43, 44, 45, 46, 65, 66, 67]
+android/guava-testlib/src/com/google/common/collect/testing/testers/AbstractListTester.java

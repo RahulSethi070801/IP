@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "46": "  /** @return an array of the proper size with {@code null} as the key of the middle element. */\n",
+        "55": "  /** @return an array of the proper size with {@code null} as the value of the middle element. */\n",
+        "65": "   * @return an array of the proper size with {@code null} as the key and value of the middle\n",
+        "66": "   *     element.\n"
+    },
+    "removed": {
+        "46": "  /**\n",
+        "47": "   * @return an array of the proper size with {@code null} as the key of the\n",
+        "48": "   * middle element.\n",
+        "49": "   */\n",
+        "58": "  /**\n",
+        "59": "   * @return an array of the proper size with {@code null} as the value of the\n",
+        "60": "   * middle element.\n",
+        "61": "   */\n",
+        "71": "   * @return an array of the proper size with {@code null} as the key and value of the\n",
+        "72": "   * middle element.\n"
+    }
+}

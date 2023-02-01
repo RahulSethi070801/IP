@@ -1,0 +1,4 @@
+Absent_2
+Insertions: [22, 64, 81]
+Deletions: [22, 64, 81]
+guava/src/com/google/common/base/Absent.java

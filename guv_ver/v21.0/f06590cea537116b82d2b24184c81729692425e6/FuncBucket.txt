@@ -1,0 +1,115 @@
+com.google.common.net.MediaType
+apply
+public String apply(String value)
+String
+String
+com.google.common.net.PercentEscaper
+PercentEscaper
+public PercentEscaper(String safeChars, boolean plusForSpace)
+String,boolean
+constructor
+com.google.common.net.InetAddresses
+get6to4IPv4Address
+public static Inet4Address get6to4IPv4Address(Inet6Address ip)
+Inet6Address
+Inet4Address
+com.google.common.net.InetAddresses
+isCompatIPv4Address
+public static boolean isCompatIPv4Address(Inet6Address ip)
+Inet6Address
+boolean
+com.google.common.net.InetAddresses$TeredoInfo
+TeredoInfo
+public TeredoInfo(@Nullable Inet4Address server, @Nullable Inet4Address client, int port, int flags)
+Inet4Address,Inet4Address,int,int
+constructor
+com.google.common.net.MediaType
+computeToString
+private String computeToString()
+empty
+String
+com.google.common.net.InetAddresses
+isTeredoAddress
+public static boolean isTeredoAddress(Inet6Address ip)
+Inet6Address
+boolean
+com.google.common.net.InetAddresses
+getTeredoInfo
+public static TeredoInfo getTeredoInfo(Inet6Address ip)
+Inet6Address
+TeredoInfo
+com.google.common.net.InetAddresses
+getIsatapIPv4Address
+public static Inet4Address getIsatapIPv4Address(Inet6Address ip)
+Inet6Address
+Inet4Address
+com.google.common.net.InternetDomainName
+InternetDomainName
+InternetDomainName(String name)
+String
+constructor
+com.google.common.net.InetAddresses
+getCompatIPv4Address
+public static Inet4Address getCompatIPv4Address(Inet6Address ip)
+Inet6Address
+Inet4Address
+com.google.common.net.InetAddresses
+toAddrString
+public static String toAddrString(InetAddress ip)
+InetAddress
+String
+com.google.common.net.HostAndPort
+getHostAndPortFromBracketedHost
+private static String[] getHostAndPortFromBracketedHost(String hostPortString)
+String
+String[]
+com.google.common.net.PercentEscaper
+escape
+protected char[] escape(int cp)
+int
+char[]
+com.google.common.net.MediaType
+toString
+public String toString()
+empty
+String
+com.google.common.net.MediaType
+create
+private static MediaType create(String type, String subtype, Multimap<String, String> parameters)
+String,String,Multimap
+MediaType
+com.google.common.net.MediaType
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.net.MediaType
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.net.InetAddresses
+isIsatapAddress
+public static boolean isIsatapAddress(Inet6Address ip)
+Inet6Address
+boolean
+com.google.common.net.HostSpecifier
+from
+public static HostSpecifier from(String specifier) throws ParseException
+String
+HostSpecifier
+com.google.common.net.MediaType
+MediaType
+private MediaType(String type, String subtype, ImmutableListMultimap<String, String> parameters)
+String,String,ImmutableListMultimap
+constructor
+com.google.common.net.MediaType
+parametersAsMap
+private Map<String, ImmutableMultiset<String>> parametersAsMap()
+empty
+Map
+com.google.common.net.InetAddresses
+getInet4Address
+private static Inet4Address getInet4Address(byte[] bytes)
+byte[]
+Inet4Address

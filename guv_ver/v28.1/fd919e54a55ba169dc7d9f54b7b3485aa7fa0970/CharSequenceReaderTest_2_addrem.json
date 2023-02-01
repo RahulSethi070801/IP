@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "38": "    assertReadsCorrectly(\n",
+        "39": "        \"\"\n",
+        "40": "            + \"abcdefghijklmnopqrstuvwxyz\\n\"\n",
+        "41": "            + \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\\r\"\n",
+        "42": "            + \"0123456789\\r\\n\"\n",
+        "43": "            + \"!@#$%^&*()-=_+\\t[]{};':\\\",./<>?\\\\| \");\n"
+    },
+    "removed": {
+        "38": "    assertReadsCorrectly(\"\"\n",
+        "39": "        + \"abcdefghijklmnopqrstuvwxyz\\n\"\n",
+        "40": "        + \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\\r\"\n",
+        "41": "        + \"0123456789\\r\\n\"\n",
+        "42": "        + \"!@#$%^&*()-=_+\\t[]{};':\\\",./<>?\\\\| \");\n"
+    }
+}

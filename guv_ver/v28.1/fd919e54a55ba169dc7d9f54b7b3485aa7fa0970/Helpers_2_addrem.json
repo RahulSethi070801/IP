@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "342": "   * Returns a collection that simulates concurrent modification by having its size method return\n",
+        "343": "   * incorrect values. This is useful for testing methods that must treat the return value from\n",
+        "344": "   * size() as a hint only.\n",
+        "346": "   * @param delta the difference between the true size of the collection and the values returned by\n",
+        "347": "   *     the size method\n",
+        "362": "   * Returns a \"nefarious\" map entry with the specified key and value, meaning an entry that is\n",
+        "363": "   * suitable for testing that map entries cannot be modified via a nefarious implementation of\n",
+        "364": "   * equals. This is used for testing unmodifiable collections of map entries; for example, it\n",
+        "365": "   * should not be possible to access the raw (modifiable) map entry via a nefarious equals method.\n"
+    },
+    "removed": {
+        "342": "   * Returns a collection that simulates concurrent modification by\n",
+        "343": "   * having its size method return incorrect values.  This is useful\n",
+        "344": "   * for testing methods that must treat the return value from size()\n",
+        "345": "   * as a hint only.\n",
+        "347": "   * @param delta the difference between the true size of the\n",
+        "348": "   * collection and the values returned by the size method\n",
+        "363": "   * Returns a \"nefarious\" map entry with the specified key and value,\n",
+        "364": "   * meaning an entry that is suitable for testing that map entries cannot be\n",
+        "365": "   * modified via a nefarious implementation of equals. This is used for testing\n",
+        "366": "   * unmodifiable collections of map entries; for example, it should not be\n",
+        "367": "   * possible to access the raw (modifiable) map entry via a nefarious equals\n",
+        "368": "   * method.\n"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "48": "        Endpoints<Integer> endpoints = graph.incidentNodes(inEdge);\n",
+        "49": "        assertThat(endpoints.source()).isEqualTo(oppositeNode);\n",
+        "50": "        assertThat(endpoints.target()).isEqualTo(node);\n",
+        "55": "        Endpoints<Integer> endpoints = graph.incidentNodes(outEdge);\n",
+        "56": "        assertThat(endpoints.source()).isEqualTo(node);\n",
+        "57": "        assertThat(endpoints.target()).isEqualTo(oppositeNode);\n",
+        "135": "    assertEquals(N1, graph.incidentNodes(E12).source());\n",
+        "141": "      graph.incidentNodes(EDGE_NOT_IN_GRAPH).source();\n",
+        "151": "    assertEquals(N2, graph.incidentNodes(E12).target());\n",
+        "157": "      graph.incidentNodes(EDGE_NOT_IN_GRAPH).target();\n"
+    },
+    "removed": {
+        "48": "        assertThat(graph.source(inEdge)).isEqualTo(oppositeNode);\n",
+        "49": "        assertThat(graph.target(inEdge)).isEqualTo(node);\n",
+        "54": "        assertThat(graph.source(outEdge)).isEqualTo(node);\n",
+        "55": "        assertThat(graph.target(outEdge)).isEqualTo(oppositeNode);\n",
+        "133": "    assertEquals(N1, graph.source(E12));\n",
+        "139": "      graph.source(EDGE_NOT_IN_GRAPH);\n",
+        "149": "    assertEquals(N2, graph.target(E12));\n",
+        "155": "      graph.target(EDGE_NOT_IN_GRAPH);\n"
+    }
+}

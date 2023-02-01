@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "400": "    Set<Entry<Integer, Character>> entrySet = row.entrySet();\n",
+        "417": "    Set<Entry<Integer, Character>> entrySet = row.tailMap(15).entrySet();\n"
+    },
+    "removed": {
+        "400": "    Set<Map.Entry<Integer, Character>> entrySet = row.entrySet();\n",
+        "417": "    Set<Map.Entry<Integer, Character>> entrySet = row.tailMap(15).entrySet();\n"
+    }
+}

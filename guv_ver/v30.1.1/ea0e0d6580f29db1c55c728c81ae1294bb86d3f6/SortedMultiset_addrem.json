@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "25": "import javax.annotation.CheckForNull;\n",
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "47": "// TODO(cpovirk): // TODO(cpovirk): @ElementTypesAreNonnullByDefault\n",
+        "48": "public interface SortedMultiset<E extends @Nullable Object>\n",
+        "49": "    extends SortedMultisetBridge<E>, SortedIterable<E> {\n",
+        "61": "  // TODO(cpovirk): @CheckForNull\n",
+        "68": "  // TODO(cpovirk): @CheckForNull\n",
+        "75": "  @CheckForNull\n",
+        "82": "  @CheckForNull\n",
+        "126": "  SortedMultiset<E> headMultiset(@ParametricNullness E upperBound, BoundType boundType);\n",
+        "141": "      @ParametricNullness E lowerBound,\n",
+        "142": "      BoundType lowerBoundType,\n",
+        "143": "      @ParametricNullness E upperBound,\n",
+        "144": "      BoundType upperBoundType);\n",
+        "155": "  SortedMultiset<E> tailMultiset(@ParametricNullness E lowerBound, BoundType boundType);\n"
+    },
+    "removed": {
+        "45": "public interface SortedMultiset<E> extends SortedMultisetBridge<E>, SortedIterable<E> {\n",
+        "118": "  SortedMultiset<E> headMultiset(E upperBound, BoundType boundType);\n",
+        "133": "      E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType);\n",
+        "144": "  SortedMultiset<E> tailMultiset(E lowerBound, BoundType boundType);\n"
+    }
+}

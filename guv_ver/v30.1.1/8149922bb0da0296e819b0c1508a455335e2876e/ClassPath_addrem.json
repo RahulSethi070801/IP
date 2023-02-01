@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "54": "import javax.annotation.CheckForNull;\n",
+        "75": "@ElementTypesAreNonnullByDefault\n",
+        "269": "    public boolean equals(@CheckForNull Object obj) {\n",
+        "301": "     * <p>Behaves similarly to {@code class.getPackage().}{@link Package#getName() getName()} but\n",
+        "302": "     * does not require the class (or package) to be loaded.\n",
+        "303": "     *\n",
+        "304": "     * <p>But note that this method may behave differently for a class in the default package: For\n",
+        "305": "     * such classes, this method always returns an empty string. But under some version of Java,\n",
+        "306": "     * {@code class.getPackage().getName()} produces a {@code NullPointerException} because {@code\n",
+        "307": "     * class.getPackage()} returns {@code null}.\n",
+        "316": "     * <p>Behaves similarly to {@link Class#getSimpleName()} but does not require the class to be\n",
+        "318": "     *\n",
+        "319": "     * <p>But note that this class uses heuristics to identify the simple name. See a related\n",
+        "320": "     * discussion in <a href=\"https://github.com/google/guava/issues/3349\">issue 3349</a>.\n",
+        "543": "    public boolean equals(@CheckForNull Object obj) {\n",
+        "571": "      File jarFile, @CheckForNull Manifest manifest) {\n"
+    },
+    "removed": {
+        "54": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "268": "    public boolean equals(Object obj) {\n",
+        "300": "     * <p>Behaves identically to {@link Package#getName()} but does not require the class (or\n",
+        "301": "     * package) to be loaded.\n",
+        "310": "     * <p>Behaves identically to {@link Class#getSimpleName()} but does not require the class to be\n",
+        "534": "    public boolean equals(Object obj) {\n",
+        "562": "      File jarFile, @NullableDecl Manifest manifest) {\n"
+    }
+}

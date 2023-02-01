@@ -1,0 +1,10 @@
+private static <N, E> Map<E, EndpointPair<N>> edgeIncidentNodesMap(final Network<N, E> network) {
+    Function<E, EndpointPair<N>> edgeToIncidentNodesFn = new Function<E, EndpointPair<N>>() {
+
+        @Override
+        public EndpointPair<N> apply(E edge) {
+            return network.incidentNodes(edge);
+        }
+    };
+    return Maps.asMap(network.edges(), edgeToIncidentNodesFn);
+}

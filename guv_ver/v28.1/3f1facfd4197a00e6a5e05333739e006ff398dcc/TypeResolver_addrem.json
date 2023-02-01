@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "70": "   * <p>For example, when resolving {@code List<T>} in the context of {@code ArrayList<?>}, {@code\n",
+        "71": "   * <T>} is covariantly resolved to {@code <?>} such that return type of {@code List::get} is\n",
+        "72": "   * {@code <?>}.\n",
+        "81": "   * <p>For example, when resolving {@code List<T>} in the context of {@code ArrayList<?>}, {@code\n",
+        "82": "   * <T>} cannot be invariantly resolved to {@code <?>} because otherwise the parameter type of\n",
+        "83": "   * {@code List::set} will be {@code <?>} and it'll falsely say any object can be passed into\n",
+        "86": "   * <p>Instead, {@code <?>} will be resolved to a capture in the form of a type variable {@code\n",
+        "87": "   * <capture-of-? extends Object>}, effectively preventing {@code set} from accepting any type.\n"
+    },
+    "removed": {
+        "69": "   * <p>For example, when resolving {@code List<T>} in the context of {@code ArrayList<?>},\n",
+        "70": "   * {@code <T>} is covariantly resolved to {@code <?>} such that return type of {@code List::get}\n",
+        "71": "   * is {@code <?>}.\n",
+        "81": "   * <p>For example, when resolving {@code List<T>} in the context of {@code ArrayList<?>},\n",
+        "82": "   * {@code <T>} cannot be invariantly resolved to {@code <?>} because otherwise the parameter type\n",
+        "83": "   * of {@code List::set} will be {@code <?>} and it'll falsely say any object can be passed into\n",
+        "86": "   * <p>Instead, {@code <?>} will be resolved to a capture in the form of a type variable\n",
+        "87": "   * {@code <capture-of-? extends Object>}, effectively preventing {@code set} from accepting any\n",
+        "88": "   * type.\n"
+    }
+}

@@ -1,0 +1,3 @@
+public final double populationStandardDeviation() {
+    return Math.sqrt(populationVariance());
+}

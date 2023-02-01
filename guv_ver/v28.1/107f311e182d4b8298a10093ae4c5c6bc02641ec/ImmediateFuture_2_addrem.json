@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "29": "/** Implementations of {@code Futures.immediate*}. */\n",
+        "31": "abstract class ImmediateFuture<V> extends FluentFuture<V> {\n"
+    },
+    "removed": {
+        "29": "/**\n",
+        "30": " * Implementations of {@code Futures.immediate*}.\n",
+        "31": " */\n",
+        "33": "abstract class ImmediateFuture<V> implements ListenableFuture<V> {\n"
+    }
+}

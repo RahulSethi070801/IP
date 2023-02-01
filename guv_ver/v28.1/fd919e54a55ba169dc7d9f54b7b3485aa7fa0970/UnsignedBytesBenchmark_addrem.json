@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "41": "  // @Param({\"4\", \"8\", \"64\", \"1024\", \"1048576\", \"1048577\", \"6710884\", \"6710883\"})\n",
+        "42": "  @Param({\"4\", \"8\", \"64\", \"1024\"})\n",
+        "58": "    unsafeImpl = UnsignedBytes.LexicographicalComparatorHolder.UnsafeComparator.INSTANCE;\n",
+        "61": "  @Benchmark\n",
+        "62": "  void longEqualJava(int reps) {\n",
+        "70": "  @Benchmark\n",
+        "71": "  void longEqualUnsafe(int reps) {\n",
+        "79": "  @Benchmark\n",
+        "80": "  void diffLastJava(int reps) {\n",
+        "88": "  @Benchmark\n",
+        "89": "  void diffLastUnsafe(int reps) {\n"
+    },
+    "removed": {
+        "41": "  //@Param({\"4\", \"8\", \"64\", \"1024\", \"1048576\", \"1048577\", \"6710884\", \"6710883\"})\n",
+        "42": "  @Param({\"4\", \"8\", \"64\", \"1024\" })\n",
+        "58": "    unsafeImpl =\n",
+        "59": "        UnsignedBytes.LexicographicalComparatorHolder.UnsafeComparator.INSTANCE;\n",
+        "62": "  @Benchmark void longEqualJava(int reps) {\n",
+        "70": "  @Benchmark void longEqualUnsafe(int reps) {\n",
+        "78": "  @Benchmark void diffLastJava(int reps) {\n",
+        "86": "  @Benchmark void diffLastUnsafe(int reps) {\n"
+    }
+}

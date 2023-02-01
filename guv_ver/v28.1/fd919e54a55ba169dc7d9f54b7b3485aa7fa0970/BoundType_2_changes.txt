@@ -1,0 +1,4 @@
+BoundType_2
+Insertions: [28, 38]
+Deletions: [28, 29, 30, 40, 41, 42]
+guava/src/com/google/common/collect/BoundType.java

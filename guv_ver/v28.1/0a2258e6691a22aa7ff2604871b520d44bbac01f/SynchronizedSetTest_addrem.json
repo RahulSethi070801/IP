@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "30": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "83": "    public boolean equals(@Nullable Object o) {\n",
+        "95": "    public boolean add(@Nullable E o) {\n",
+        "113": "    public boolean contains(@Nullable Object o) {\n",
+        "133": "    public boolean remove(@Nullable Object o) {\n"
+    },
+    "removed": {
+        "30": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "83": "    public boolean equals(@NullableDecl Object o) {\n",
+        "95": "    public boolean add(@NullableDecl E o) {\n",
+        "113": "    public boolean contains(@NullableDecl Object o) {\n",
+        "133": "    public boolean remove(@NullableDecl Object o) {\n"
+    }
+}

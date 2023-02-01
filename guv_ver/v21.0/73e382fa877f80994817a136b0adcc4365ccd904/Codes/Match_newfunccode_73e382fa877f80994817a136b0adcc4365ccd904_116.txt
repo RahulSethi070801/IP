@@ -1,0 +1,4 @@
+public static OptionalInt findLast(IntStream stream) {
+    java.util.Optional<Integer> boxedLast = findLast(stream.boxed());
+    return boxedLast.isPresent() ? OptionalInt.of(boxedLast.get()) : OptionalInt.empty();
+}

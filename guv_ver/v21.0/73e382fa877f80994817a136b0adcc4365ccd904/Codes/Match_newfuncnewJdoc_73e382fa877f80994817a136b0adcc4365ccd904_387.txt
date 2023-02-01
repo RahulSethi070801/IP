@@ -1,0 +1,12 @@
+
+   * Returns the last element of the specified stream, or {@link OptionalDouble#empty} if the stream
+   * is empty.
+   *
+   * <p>Equivalent to {@code stream.reduce((a, b) -> b)}, but may perform significantly better. This
+   * method's runtime will be between O(log n) and O(n), performing better on <a
+   * href="http://gee.cs.oswego.edu/dl/html/StreamParallelGuidance.html">efficiently splittable</a>
+   * streams.
+   *
+   * @see DoubleStream#findFirst()
+   * @throws NullPointerException if the last element of the stream is null
+   

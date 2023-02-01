@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "49": "import java.util.Map.Entry;\n",
+        "353": "      for (Entry<File, ClassLoader> entry : getClassPathEntries(classloader).entrySet()) {\n",
+        "511": "      for (Entry<ClassLoader, String> entry : resources.entries()) {\n"
+    },
+    "removed": {
+        "49": "import java.util.Map;\n",
+        "353": "      for (Map.Entry<File, ClassLoader> entry : getClassPathEntries(classloader).entrySet()) {\n",
+        "511": "      for (Map.Entry<ClassLoader, String> entry : resources.entries()) {\n"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "23": " * A subtype of {@link BasicGraph} which permits mutations.\n",
+        "24": " * Users should generally use the {@link BasicGraph} interface where possible.\n",
+        "32": "public interface MutableBasicGraph<N> extends BasicGraph<N> {\n"
+    },
+    "removed": {
+        "23": " * A subtype of {@link Graph} which permits mutations.\n",
+        "24": " * Users should generally use the {@link Graph} interface where possible.\n",
+        "32": "public interface MutableGraph<N> extends Graph<N> {\n"
+    }
+}

@@ -1,0 +1,12 @@
+@Override
+public String toString() {
+    String propertiesString = String.format("isDirected: %s, allowsParallelEdges: %s, allowsSelfLoops: %s", isDirected(), allowsParallelEdges(), allowsSelfLoops());
+    Function<Object, String> edgeToEndpointsString = new Function<Object, String>() {
+
+        @Override
+        public String apply(Object edge) {
+            return incidentNodes(edge).toString();
+        }
+    };
+    return String.format(GRAPH_STRING_FORMAT, propertiesString, nodes(), Maps.asMap(edges(), edgeToEndpointsString));
+}

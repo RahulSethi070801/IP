@@ -1,0 +1,4 @@
+@Nullable
+private static <K, V> Entry<K, V> unmodifiableOrNull(@Nullable Entry<K, ? extends V> entry) {
+    return (entry == null) ? null : Maps.unmodifiableEntry(entry);
+}

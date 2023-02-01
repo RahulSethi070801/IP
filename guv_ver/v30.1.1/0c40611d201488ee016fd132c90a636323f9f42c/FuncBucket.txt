@@ -1,0 +1,370 @@
+com.google.common.collect.ImmutableBiMap$Builder
+buildJdkBacked
+ImmutableBiMap<K, V> buildJdkBacked()
+empty
+ImmutableBiMap
+com.google.common.collect.ImmutableEntry
+ImmutableEntry
+ImmutableEntry(@Nullable K key, @Nullable V value)
+K,V
+constructor
+com.google.common.collect.RegularImmutableBiMap
+fromEntryArray
+static ImmutableBiMap<K, V> fromEntryArray(int n, @Nullable Entry<K, V>[] entryArray)
+int,Entry[]
+ImmutableBiMap
+com.google.common.collect.ImmutableMapEntrySet$RegularEntrySet
+copyIntoArray
+int copyIntoArray(Object[] dst, int offset)
+Object[],int
+int
+com.google.common.collect.ImmutableMapEntry
+getNextInValueBucket
+ImmutableMapEntry<K, V> getNextInValueBucket()
+empty
+ImmutableMapEntry
+com.google.common.collect.JdkBackedImmutableMap
+create
+static ImmutableMap<K, V> create(int n, Entry<K, V>[] entryArray)
+int,Entry[]
+ImmutableMap
+com.google.common.collect.ImmutableMap
+containsKey
+public boolean containsKey(@CheckForNull Object key)
+Object
+boolean
+com.google.common.collect.ImmutableMap$SerializedForm
+SerializedForm
+SerializedForm(ImmutableMap<K, V> map)
+ImmutableMap
+constructor
+com.google.common.collect.ImmutableClassToInstanceMap
+getInstance
+public T getInstance(Class<T> type)
+Class
+T
+com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableMapEntry
+getNextInKeyBucket
+final ImmutableMapEntry<K, V> getNextInKeyBucket()
+empty
+ImmutableMapEntry
+com.google.common.collect.ImmutableMapEntry
+getNextInKeyBucket
+ImmutableMapEntry<K, V> getNextInKeyBucket()
+empty
+ImmutableMapEntry
+com.google.common.collect.RegularImmutableMap
+fromEntryArray
+static ImmutableMap<K, V> fromEntryArray(int n, @Nullable Entry<K, V>[] entryArray)
+int,Entry[]
+ImmutableMap
+com.google.common.collect.ImmutableMap
+toImmutableMap
+public static Collector<T, ?, ImmutableMap<K, V>> toImmutableMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction, BinaryOperator<V> mergeFunction)
+Function,Function,BinaryOperator
+Collector
+com.google.common.collect.RegularImmutableMap$KeySet
+contains
+public boolean contains(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.ImmutableMap
+equals
+public boolean equals(@CheckForNull Object object)
+Object
+boolean
+com.google.common.collect.ImmutableMapEntrySet$RegularEntrySet
+copyIntoArray
+int copyIntoArray(@Nullable Object[] dst, int offset)
+Object[],int
+int
+com.google.common.collect.ImmutableMap
+putIfAbsent
+public final V putIfAbsent(K key, V value)
+K,V
+V
+com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableBiMapEntry
+NonTerminalImmutableBiMapEntry
+NonTerminalImmutableBiMapEntry(K key, V value, @CheckForNull ImmutableMapEntry<K, V> nextInKeyBucket, @CheckForNull ImmutableMapEntry<K, V> nextInValueBucket)
+K,V,ImmutableMapEntry,ImmutableMapEntry
+constructor
+com.google.common.collect.ImmutableEnumMap
+get
+public V get(Object key)
+Object
+V
+com.google.common.collect.RegularImmutableMap
+RegularImmutableMap
+private RegularImmutableMap(Entry<K, V>[] entries, ImmutableMapEntry<K, V>[] table, int mask)
+Entry[],ImmutableMapEntry[],int
+constructor
+com.google.common.collect.ImmutableMap
+remove
+public final V remove(Object o)
+Object
+V
+com.google.common.collect.ImmutableMapValues
+contains
+public boolean contains(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.JdkBackedImmutableMap
+create
+static ImmutableMap<K, V> create(int n, @Nullable Entry<K, V>[] entryArray)
+int,Entry[]
+ImmutableMap
+com.google.common.collect.ImmutableClassToInstanceMap
+putInstance
+public T putInstance(Class<T> type, T value)
+Class,T
+T
+com.google.common.collect.ImmutableSortedMap
+fromEntries
+private static ImmutableSortedMap<K, V> fromEntries(final Comparator<? super K> comparator, boolean sameComparator, @Nullable Entry<K, V>[] entryArray, int size)
+Comparator,boolean,Entry[],int
+ImmutableSortedMap
+com.google.common.collect.JdkBackedImmutableBiMap
+create
+static ImmutableBiMap<K, V> create(int n, Entry<K, V>[] entryArray)
+int,Entry[]
+ImmutableBiMap
+com.google.common.collect.ImmutableSortedMap
+compare
+public int compare(Entry<K, V> e1, Entry<K, V> e2)
+Entry,Entry
+int
+com.google.common.collect.ImmutableMap
+containsKey
+public boolean containsKey(@Nullable Object key)
+Object
+boolean
+com.google.common.collect.ImmutableEntry
+setValue
+public final V setValue(@ParametricNullness V value)
+V
+V
+com.google.common.collect.JdkBackedImmutableBiMap
+create
+static ImmutableBiMap<K, V> create(int n, @Nullable Entry<K, V>[] entryArray)
+int,Entry[]
+ImmutableBiMap
+com.google.common.collect.ImmutableMap
+toImmutableMap
+public static Collector<T, ?, ImmutableMap<K, V>> toImmutableMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+Function,Function
+Collector
+com.google.common.collect.RegularImmutableMap
+fromEntryArray
+static ImmutableMap<K, V> fromEntryArray(int n, Entry<K, V>[] entryArray)
+int,Entry[]
+ImmutableMap
+com.google.common.collect.ImmutableMap
+put
+public final V put(K k, V v)
+K,V
+V
+com.google.common.collect.ImmutableMap
+remove
+public final V remove(@CheckForNull Object o)
+Object
+V
+com.google.common.collect.ImmutableEnumMap
+equals
+public boolean equals(Object object)
+Object
+boolean
+com.google.common.collect.ImmutableEntry
+getValue
+public final V getValue()
+empty
+V
+com.google.common.collect.RegularImmutableBiMap
+fromEntryArray
+static ImmutableBiMap<K, V> fromEntryArray(int n, Entry<K, V>[] entryArray)
+int,Entry[]
+ImmutableBiMap
+com.google.common.collect.RegularImmutableMap
+get
+public V get(@CheckForNull Object key)
+Object
+V
+com.google.common.collect.RegularImmutableMap
+checkNoConflictInKeyBucket
+static int checkNoConflictInKeyBucket(Object key, Entry<?, ?> entry, @CheckForNull ImmutableMapEntry<?, ?> keyBucketHead)
+Object,Entry,ImmutableMapEntry
+int
+com.google.common.collect.ImmutableMap
+compute
+public final V compute(K key, BiFunction<? super K, ? super @Nullable V, ? extends V> remappingFunction)
+K,BiFunction
+V
+com.google.common.collect.ImmutableSortedMap$Builder
+build
+public ImmutableSortedMap<K, V> build()
+empty
+ImmutableSortedMap
+com.google.common.collect.RegularImmutableMap
+RegularImmutableMap
+private RegularImmutableMap(Entry<K, V>[] entries, @CheckForNull @Nullable ImmutableMapEntry<K, V>[] table, int mask)
+Entry[],ImmutableMapEntry[],int
+constructor
+com.google.common.collect.ImmutableMap
+remove
+public final boolean remove(Object key, Object value)
+Object,Object
+boolean
+com.google.common.collect.ImmutableMap
+remove
+public final boolean remove(@CheckForNull Object key, @CheckForNull Object value)
+Object,Object
+boolean
+com.google.common.collect.ImmutableMap$Builder
+buildJdkBacked
+ImmutableMap<K, V> buildJdkBacked()
+empty
+ImmutableMap
+com.google.common.collect.ImmutableMap
+containsValue
+public boolean containsValue(@CheckForNull Object value)
+Object
+boolean
+com.google.common.collect.ImmutableMap
+getOrDefault
+public final V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+Object,V
+V
+com.google.common.collect.ImmutableEntry
+ImmutableEntry
+ImmutableEntry(@ParametricNullness K key, @ParametricNullness V value)
+K,V
+constructor
+com.google.common.collect.ImmutableEntry
+setValue
+public final V setValue(V value)
+V
+V
+com.google.common.collect.ImmutableMap$Builder
+build
+public ImmutableMap<K, V> build()
+empty
+ImmutableMap
+com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets
+get
+public ImmutableSet<V> get(@Nullable Object key)
+Object
+ImmutableSet
+com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableBiMapEntry
+NonTerminalImmutableBiMapEntry
+NonTerminalImmutableBiMapEntry(K key, V value, ImmutableMapEntry<K, V> nextInKeyBucket, ImmutableMapEntry<K, V> nextInValueBucket)
+K,V,ImmutableMapEntry,ImmutableMapEntry
+constructor
+com.google.common.collect.ImmutableMap
+replace
+public final V replace(K key, V value)
+K,V
+V
+com.google.common.collect.ImmutableMap$MapViewOfValuesAsSingletonSets
+get
+public ImmutableSet<V> get(@CheckForNull Object key)
+Object
+ImmutableSet
+com.google.common.collect.ImmutableSortedMap
+fromEntries
+private static ImmutableSortedMap<K, V> fromEntries(final Comparator<? super K> comparator, boolean sameComparator, Entry<K, V>[] entryArray, int size)
+Comparator,boolean,Entry[],int
+ImmutableSortedMap
+com.google.common.collect.ImmutableSortedMap
+compare
+public int compare(@CheckForNull Entry<K, V> e1, @CheckForNull Entry<K, V> e2)
+Entry,Entry
+int
+com.google.common.collect.RegularImmutableMap
+get
+public V get(@Nullable Object key)
+Object
+V
+com.google.common.collect.ImmutableEntry
+getKey
+public final K getKey()
+empty
+K
+com.google.common.collect.ImmutableMap
+compute
+public final V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+K,BiFunction
+V
+com.google.common.collect.ImmutableMap
+copyOfEnumMap
+private static ImmutableMap<K, V> copyOfEnumMap(EnumMap<K, ? extends V> original)
+EnumMap
+ImmutableMap
+com.google.common.collect.ImmutableMap
+containsValue
+public boolean containsValue(@Nullable Object value)
+Object
+boolean
+com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableMapEntry
+NonTerminalImmutableMapEntry
+NonTerminalImmutableMapEntry(K key, V value, @CheckForNull ImmutableMapEntry<K, V> nextInKeyBucket)
+K,V,ImmutableMapEntry
+constructor
+com.google.common.collect.RegularImmutableMap
+get
+static V get(@CheckForNull Object key, @CheckForNull @Nullable ImmutableMapEntry<?, V>[] keyTable, int mask)
+Object,ImmutableMapEntry[],int
+V
+com.google.common.collect.ImmutableMap
+getOrDefault
+public final V getOrDefault(@CheckForNull Object key, @CheckForNull V defaultValue)
+Object,V
+V
+com.google.common.collect.ImmutableBiMap$Builder
+build
+public ImmutableBiMap<K, V> build()
+empty
+ImmutableBiMap
+com.google.common.collect.ImmutableMap
+get
+public abstract V get(@Nullable Object key)
+Object
+V
+com.google.common.collect.RegularImmutableMap
+get
+static V get(@Nullable Object key, ImmutableMapEntry<?, V> @Nullable [] keyTable, int mask)
+Object,[],int
+V
+com.google.common.collect.ImmutableMap
+get
+public abstract V get(@CheckForNull Object key)
+Object
+V
+com.google.common.collect.ImmutableMapEntry$NonTerminalImmutableMapEntry
+NonTerminalImmutableMapEntry
+NonTerminalImmutableMapEntry(K key, V value, ImmutableMapEntry<K, V> nextInKeyBucket)
+K,V,ImmutableMapEntry
+constructor
+com.google.common.collect.ImmutableMap
+copyOf
+public static ImmutableMap<K, V> copyOf(Iterable<? extends Entry<? extends K, ? extends V>> entries)
+Iterable
+ImmutableMap
+com.google.common.collect.RegularImmutableMap
+checkNoConflictInKeyBucket
+static int checkNoConflictInKeyBucket(Object key, Entry<?, ?> entry, @Nullable ImmutableMapEntry<?, ?> keyBucketHead)
+Object,Entry,ImmutableMapEntry
+int
+com.google.common.collect.ImmutableMap
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.collect.RegularImmutableMap$KeySet
+contains
+public boolean contains(Object object)
+Object
+boolean
+com.google.common.collect.ImmutableMap$Builder
+Builder
+Builder(int initialCapacity)
+int
+constructor

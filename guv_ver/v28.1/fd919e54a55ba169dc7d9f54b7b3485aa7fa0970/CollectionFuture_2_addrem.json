@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "29": "/** Aggregate future that collects (stores) results of each future. */\n"
+    },
+    "removed": {
+        "29": "/**\n",
+        "30": " * Aggregate future that collects (stores) results of each future.\n",
+        "31": " */\n"
+    }
+}

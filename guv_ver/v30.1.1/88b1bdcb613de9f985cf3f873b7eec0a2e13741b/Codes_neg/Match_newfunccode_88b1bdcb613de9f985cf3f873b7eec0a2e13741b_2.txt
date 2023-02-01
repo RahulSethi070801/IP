@@ -1,0 +1,5 @@
+@Override
+public void merge(Range<Comparable<?>> range, @CheckForNull Object value, BiFunction<? super Object, ? super Object, ? extends Object> remappingFunction) {
+    checkNotNull(range);
+    throw new IllegalArgumentException("Cannot merge range " + range + " into an empty subRangeMap");
+}

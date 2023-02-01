@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "25": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "57": "  @CanIgnoreReturnValue\n",
+        "203": "        // TODO(cpovirk): Think about whether we could/should use Verify to check this.\n",
+        "204": "        boolean unused = addCausalChain(seen, trustedGetException());\n"
+    },
+    "removed": {
+        "201": "        addCausalChain(seen, trustedGetException());\n"
+    }
+}

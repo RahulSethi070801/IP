@@ -1,0 +1,4 @@
+Function
+Insertions: [19, 62, 64, 78]
+Deletions: [19, 62, 64, 78]
+android/guava/src/com/google/common/base/Function.java

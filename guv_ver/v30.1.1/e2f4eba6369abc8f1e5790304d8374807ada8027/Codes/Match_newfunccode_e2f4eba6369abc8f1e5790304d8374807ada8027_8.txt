@@ -1,0 +1,3 @@
+public static Stats of(LongStream values) {
+    return values.collect(StatsAccumulator::new, StatsAccumulator::add, StatsAccumulator::addAll).snapshot();
+}

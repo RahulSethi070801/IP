@@ -1,0 +1,4 @@
+TypeResolver_2
+Insertions: [76, 77, 78, 79, 80, 81, 453, 454, 470, 471, 477, 478]
+Deletions: [76, 77, 78, 79, 80, 81, 453, 469, 470, 471, 472, 473, 479]
+guava/src/com/google/common/reflect/TypeResolver.java

@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "24": "import static com.google.common.graph.Graphs.checkNonNegative;\n",
+        "32": " * Configurable implementation of {@link ValueGraph} that supports the options supplied by\n",
+        "56": "class ConfigurableValueGraph<N, V> extends AbstractValueGraph<N, V> {\n",
+        "63": "  protected long edgeCount; // must be updated when edges are added or removed\n",
+        "64": "\n",
+        "68": "  ConfigurableValueGraph(AbstractGraphBuilder<? super N> builder) {\n",
+        "72": "            builder.expectedNodeCount.or(DEFAULT_NODE_COUNT)),\n",
+        "73": "        0L /* edgeCount */);\n",
+        "80": "  ConfigurableValueGraph(AbstractGraphBuilder<? super N> builder,\n",
+        "81": "      Map<N, GraphConnections<N, V>> nodeConnections, long edgeCount) {\n",
+        "89": "    this.edgeCount = checkNonNegative(edgeCount);\n",
+        "128": "  public V edgeValue(Object nodeU, Object nodeV) {\n",
+        "129": "    V value = edgeValueOrDefault(nodeU, nodeV, null);\n",
+        "130": "    checkArgument(value != null, EDGE_CONNECTING_NOT_IN_GRAPH, nodeU, nodeV);\n",
+        "135": "  public V edgeValueOrDefault(Object nodeU, Object nodeV, @Nullable V defaultValue) {\n",
+        "136": "    V value = checkedConnections(nodeU).value(nodeV);\n",
+        "138": "      checkArgument(containsNode(nodeV), NODE_NOT_IN_GRAPH, nodeV);\n",
+        "144": "  @Override\n",
+        "145": "  protected long edgeCount() {\n",
+        "146": "    return edgeCount;\n",
+        "147": "  }\n",
+        "148": "\n"
+    },
+    "removed": {
+        "31": " * Configurable implementation of {@link Graph} that supports the options supplied by\n",
+        "55": "class ConfigurableGraph<N, V> extends AbstractGraph<N, V> {\n",
+        "65": "  ConfigurableGraph(AbstractGraphBuilder<? super N> builder) {\n",
+        "69": "            builder.expectedNodeCount.or(DEFAULT_NODE_COUNT)));\n",
+        "76": "  ConfigurableGraph(AbstractGraphBuilder<? super N> builder,\n",
+        "77": "      Map<N, GraphConnections<N, V>> nodeConnections) {\n",
+        "123": "  public V edgeValue(Object nodeA, Object nodeB) {\n",
+        "124": "    V value = edgeValueOrDefault(nodeA, nodeB, null);\n",
+        "125": "    checkArgument(value != null, EDGE_CONNECTING_NOT_IN_GRAPH, nodeA, nodeB);\n",
+        "130": "  public V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue) {\n",
+        "131": "    V value = checkedConnections(nodeA).value(nodeB);\n",
+        "133": "      checkArgument(containsNode(nodeB), NODE_NOT_IN_GRAPH, nodeB);\n"
+    }
+}

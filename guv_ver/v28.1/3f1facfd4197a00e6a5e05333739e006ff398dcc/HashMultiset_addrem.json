@@ -1,0 +1,18 @@
+{
+    "addition": {},
+    "removed": {
+        "19": "import static com.google.common.base.Preconditions.checkArgument;\n",
+        "20": "import static com.google.common.collect.CollectPreconditions.checkNonnegative;\n",
+        "21": "\n",
+        "24": "import com.google.common.primitives.Ints;\n",
+        "25": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "26": "import java.io.IOException;\n",
+        "27": "import java.io.ObjectInputStream;\n",
+        "28": "import java.io.ObjectOutputStream;\n",
+        "29": "import java.io.Serializable;\n",
+        "30": "import java.util.ConcurrentModificationException;\n",
+        "31": "import java.util.Iterator;\n",
+        "32": "import java.util.NoSuchElementException;\n",
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n"
+    }
+}

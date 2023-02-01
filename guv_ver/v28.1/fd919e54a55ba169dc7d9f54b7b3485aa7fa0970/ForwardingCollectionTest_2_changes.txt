@@ -1,0 +1,4 @@
+ForwardingCollectionTest_2
+Insertions: [41, 48, 49, 53, 54, 58, 59, 63, 64, 68, 69, 73, 74, 78, 79, 83, 84, 88, 89, 93, 94, 98, 99, 141, 142, 143, 144, 145, 146, 147, 148, 153, 154]
+Deletions: [41, 42, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 131, 132, 133, 134, 135, 140]
+guava-tests/test/com/google/common/collect/ForwardingCollectionTest.java

@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "28": " * A generic JUnit test which tests {@code indexOf()} operations on a list. Can't be invoked\n",
+        "29": " * directly; please see {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n"
+    },
+    "removed": {
+        "28": " * A generic JUnit test which tests {@code indexOf()} operations on a list.\n",
+        "29": " * Can't be invoked directly; please see\n",
+        "30": " * {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n"
+    }
+}

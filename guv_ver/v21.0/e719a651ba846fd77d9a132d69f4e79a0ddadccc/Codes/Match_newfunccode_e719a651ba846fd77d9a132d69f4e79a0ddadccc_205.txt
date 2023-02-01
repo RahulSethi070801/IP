@@ -1,0 +1,1 @@
+protected abstract void handleLine(String line, String end) throws IOException;

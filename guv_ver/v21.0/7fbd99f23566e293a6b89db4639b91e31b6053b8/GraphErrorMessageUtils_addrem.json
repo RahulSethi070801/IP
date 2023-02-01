@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "34": "      \"Cannot add self-loop edge on node %s, as self-loops are not allowed.\";\n",
+        "36": "      \"Cannot call source()/target() on undirected endpoints.\";\n",
+        "37": "  static final String ENDPOINTS_GRAPH_DIRECTEDNESS =\n",
+        "38": "      \"The endpoints' directedness (isDirected = %s) does not match the graph's directedness \"\n",
+        "39": "          + \"(isDirected = %s). A graph cannot have both directed and undirected edges.\";\n"
+    },
+    "removed": {
+        "34": "      \"Can't add self-loop edge on node %s, as self-loops are not allowed.\";\n",
+        "36": "      \"Cannot call source()/target() on an undirected graph. \"\n",
+        "37": "          + \"Consider using incidentNodes() (if you don't know either incident node) \"\n",
+        "38": "          + \"or Graphs.oppositeNode() (if you know one of the incident nodes).\";\n"
+    }
+}

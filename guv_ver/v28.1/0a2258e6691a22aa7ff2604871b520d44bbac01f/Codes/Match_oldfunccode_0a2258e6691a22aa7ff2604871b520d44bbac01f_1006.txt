@@ -1,0 +1,11 @@
+@Override
+@NullableDecl
+public <A extends Annotation> A getAnnotation(Class<A> annotationType) {
+    checkNotNull(annotationType);
+    for (Annotation annotation : annotations) {
+        if (annotationType.isInstance(annotation)) {
+            return annotationType.cast(annotation);
+        }
+    }
+    return null;
+}

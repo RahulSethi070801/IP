@@ -1,0 +1,4 @@
+
+   * Returns the value associated with {@code key}, or zero if there is no value associated with
+   * {@code key}.
+   

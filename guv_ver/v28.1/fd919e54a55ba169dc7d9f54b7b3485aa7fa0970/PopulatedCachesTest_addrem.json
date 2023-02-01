@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "297": "  /** Most of the tests in this class run against every one of these caches. */\n",
+        "301": "    return Iterables.transform(\n",
+        "302": "        factory.buildAllPermutations(),\n",
+        "304": "          @Override\n",
+        "305": "          public LoadingCache<Object, Object> apply(CacheBuilder<Object, Object> builder) {\n",
+        "324": "        .withExpireAfterWrites(\n",
+        "325": "            ImmutableSet.of(\n",
+        "326": "                // DurationSpec.of(500, MILLISECONDS),\n",
+        "327": "                DurationSpec.of(1, SECONDS), DurationSpec.of(1, DAYS)))\n",
+        "328": "        .withExpireAfterAccesses(\n",
+        "329": "            ImmutableSet.of(\n",
+        "330": "                // DurationSpec.of(500, MILLISECONDS),\n",
+        "331": "                DurationSpec.of(1, SECONDS), DurationSpec.of(1, DAYS)))\n",
+        "332": "        .withRefreshes(\n",
+        "333": "            ImmutableSet.of(\n",
+        "334": "                // DurationSpec.of(500, MILLISECONDS),\n",
+        "335": "                DurationSpec.of(1, SECONDS), DurationSpec.of(1, DAYS)));\n"
+    },
+    "removed": {
+        "297": "  /**\n",
+        "298": "   * Most of the tests in this class run against every one of these caches.\n",
+        "299": "   */\n",
+        "303": "    return Iterables.transform(factory.buildAllPermutations(),\n",
+        "305": "          @Override public LoadingCache<Object, Object> apply(\n",
+        "306": "              CacheBuilder<Object, Object> builder) {\n",
+        "325": "        .withExpireAfterWrites(ImmutableSet.of(\n",
+        "326": "            // DurationSpec.of(500, MILLISECONDS),\n",
+        "327": "            DurationSpec.of(1, SECONDS),\n",
+        "328": "            DurationSpec.of(1, DAYS)))\n",
+        "329": "        .withExpireAfterAccesses(ImmutableSet.of(\n",
+        "330": "            // DurationSpec.of(500, MILLISECONDS),\n",
+        "331": "            DurationSpec.of(1, SECONDS),\n",
+        "332": "            DurationSpec.of(1, DAYS)))\n",
+        "333": "        .withRefreshes(ImmutableSet.of(\n",
+        "334": "            // DurationSpec.of(500, MILLISECONDS),\n",
+        "335": "            DurationSpec.of(1, SECONDS),\n",
+        "336": "            DurationSpec.of(1, DAYS)));\n"
+    }
+}

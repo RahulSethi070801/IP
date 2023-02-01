@@ -1,0 +1,13 @@
+@Beta
+@Nullable
+@CheckForNull
+@GwtIncompatible
+public static Float tryParse(String string) {
+    if (Doubles.FLOATING_POINT_PATTERN.matcher(string).matches()) {
+        try {
+            return Float.parseFloat(string);
+        } catch (NumberFormatException e) {
+        }
+    }
+    return null;
+}

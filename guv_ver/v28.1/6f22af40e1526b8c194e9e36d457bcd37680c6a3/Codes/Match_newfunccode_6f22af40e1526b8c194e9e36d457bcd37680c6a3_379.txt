@@ -1,0 +1,19 @@
+public void offer(@NullableDecl T elem) {
+    if (k == 0) {
+        return;
+    } else if (bufferSize == 0) {
+        buffer[0] = elem;
+        threshold = elem;
+        bufferSize = 1;
+    } else if (bufferSize < k) {
+        buffer[bufferSize++] = elem;
+        if (comparator.compare(elem, threshold) > 0) {
+            threshold = elem;
+        }
+    } else if (comparator.compare(elem, threshold) < 0) {
+        buffer[bufferSize++] = elem;
+        if (bufferSize == 2 * k) {
+            trim();
+        }
+    }
+}

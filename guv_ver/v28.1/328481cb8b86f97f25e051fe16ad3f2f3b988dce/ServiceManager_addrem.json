@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "629": "                    public Long apply(Entry<Service, Long> input) {\n"
+    },
+    "removed": {
+        "629": "                    public Long apply(Map.Entry<Service, Long> input) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public boolean apply(@NullableDecl T input) {
+    return equivalence.equivalent(input, target);
+}

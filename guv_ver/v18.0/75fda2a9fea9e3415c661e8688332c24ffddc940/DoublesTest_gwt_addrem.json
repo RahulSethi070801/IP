@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "121": "public void testStringConverter_convert() throws Exception {\n",
+        "122": "  com.google.common.primitives.DoublesTest testCase = new com.google.common.primitives.DoublesTest();\n",
+        "123": "  testCase.testStringConverter_convert();\n",
+        "124": "}\n",
+        "125": "\n",
+        "126": "public void testStringConverter_convertError() throws Exception {\n",
+        "127": "  com.google.common.primitives.DoublesTest testCase = new com.google.common.primitives.DoublesTest();\n",
+        "128": "  testCase.testStringConverter_convertError();\n",
+        "129": "}\n",
+        "130": "\n",
+        "131": "public void testStringConverter_nullConversions() throws Exception {\n",
+        "132": "  com.google.common.primitives.DoublesTest testCase = new com.google.common.primitives.DoublesTest();\n",
+        "133": "  testCase.testStringConverter_nullConversions();\n",
+        "134": "}\n",
+        "135": "\n"
+    },
+    "removed": {}
+}

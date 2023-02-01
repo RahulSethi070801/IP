@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "46": " * {@link Scheduler}. When this service is asked to stop via {@link #stopAsync} it will cancel the\n",
+        "47": " * periodic task (but not interrupt it) and wait for it to stop before running the\n",
+        "48": " * {@link #shutDown} method.\n"
+    },
+    "removed": {
+        "46": " * {@link Scheduler}. When this service is asked to stop via {@link #stop} or {@link #stopAndWait}, \n",
+        "47": " * it will cancel the periodic task (but not interrupt it) and wait for it to stop before running \n",
+        "48": " * the {@link #shutDown} method.  \n"
+    }
+}

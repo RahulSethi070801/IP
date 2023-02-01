@@ -1,0 +1,4 @@
+ScheduledFuture
+Insertions: [18]
+Deletions: [18, 19]
+guava-gwt/src-super/java/util/super/java/util/concurrent/ScheduledFuture.java

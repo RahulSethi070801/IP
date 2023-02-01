@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "127": "      int initialCapacity, @NullableDecl Comparator<? super E> comparator) {\n",
+        "306": "  public boolean remove(@NullableDecl Object o) {\n",
+        "325": "  public boolean contains(@NullableDecl Object o) {\n"
+    },
+    "removed": {
+        "33": "import javax.annotation.Nullable;\n",
+        "127": "      int initialCapacity, @Nullable Comparator<? super E> comparator) {\n",
+        "306": "  public boolean remove(@Nullable Object o) {\n",
+        "325": "  public boolean contains(@Nullable Object o) {\n"
+    }
+}

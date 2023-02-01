@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "27": "import java.util.Map.Entry;\n",
+        "215": "      if (object instanceof Entry) {\n",
+        "216": "        Entry<?, ?> entry = (Entry<?, ?>) object;\n"
+    },
+    "removed": {
+        "27": "import java.util.Map;\n",
+        "215": "      if (object instanceof Map.Entry) {\n",
+        "216": "        Map.Entry<?, ?> entry = (Map.Entry<?, ?>) object;\n"
+    }
+}

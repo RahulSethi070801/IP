@@ -1,0 +1,19 @@
+@Override
+@Beta
+protected boolean standardRemove(@Nullable Object object) {
+    try {
+        @SuppressWarnings("unchecked")
+        SortedSet<Object> self = (SortedSet<Object>) this;
+        Iterator<Object> iterator = self.tailSet(object).iterator();
+        if (iterator.hasNext()) {
+            Object ceiling = iterator.next();
+            if (unsafeCompare(ceiling, object) == 0) {
+                iterator.remove();
+                return true;
+            }
+        }
+    } catch (ClassCastException | NullPointerException e) {
+        return false;
+    }
+    return false;
+}

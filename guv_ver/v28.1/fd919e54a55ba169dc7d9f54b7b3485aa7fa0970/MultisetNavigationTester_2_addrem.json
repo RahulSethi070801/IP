@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "54": "  /** Used to avoid http://bugs.sun.com/view_bug.do?bug_id=6558557 */\n",
+        "79": "  /** Resets the contents of sortedMultiset to have entries a, c, for the navigation tests. */\n"
+    },
+    "removed": {
+        "54": "  /**\n",
+        "55": "   * Used to avoid http://bugs.sun.com/view_bug.do?bug_id=6558557\n",
+        "56": "   */\n",
+        "81": "  /**\n",
+        "82": "   * Resets the contents of sortedMultiset to have entries a, c, for the navigation tests.\n",
+        "83": "   */\n"
+    }
+}

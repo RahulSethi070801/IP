@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "53": "    public SampleElements<Entry<K, V>> samples() {\n",
+        "63": "    public Entry<K, V>[] createArray(int length) {\n",
+        "68": "    public Iterable<Entry<K, V>> order(List<Entry<K, V>> insertionOrder) {\n",
+        "100": "    public SampleElements<Entry<V, K>> samples() {\n",
+        "110": "    private Entry<V, K> reverse(Entry<K, V> entry) {\n",
+        "126": "    public Entry<V, K>[] createArray(int length) {\n",
+        "154": "    private final OneSizeTestContainerGenerator<BiMap<K, V>, Entry<K, V>> mapGenerator;\n",
+        "160": "      final SampleElements<Entry<K, V>> mapSamples = this.mapGenerator.samples();\n",
+        "181": "      Collection<Entry<K, V>> originalEntries = mapGenerator.getSampleElements(elements.length);\n",
+        "184": "      Collection<Entry<K, V>> entries = new ArrayList<>(elements.length);\n",
+        "186": "      for (Entry<K, V> entry : originalEntries) {\n"
+    },
+    "removed": {
+        "53": "    public SampleElements<Map.Entry<K, V>> samples() {\n",
+        "63": "    public Map.Entry<K, V>[] createArray(int length) {\n",
+        "68": "    public Iterable<Map.Entry<K, V>> order(List<Map.Entry<K, V>> insertionOrder) {\n",
+        "100": "    public SampleElements<Map.Entry<V, K>> samples() {\n",
+        "110": "    private Map.Entry<V, K> reverse(Map.Entry<K, V> entry) {\n",
+        "126": "    public Map.Entry<V, K>[] createArray(int length) {\n",
+        "154": "    private final OneSizeTestContainerGenerator<BiMap<K, V>, Map.Entry<K, V>> mapGenerator;\n",
+        "160": "      final SampleElements<Map.Entry<K, V>> mapSamples = this.mapGenerator.samples();\n",
+        "181": "      Collection<Map.Entry<K, V>> originalEntries = mapGenerator.getSampleElements(elements.length);\n",
+        "184": "      Collection<Map.Entry<K, V>> entries = new ArrayList<>(elements.length);\n",
+        "186": "      for (Map.Entry<K, V> entry : originalEntries) {\n"
+    }
+}

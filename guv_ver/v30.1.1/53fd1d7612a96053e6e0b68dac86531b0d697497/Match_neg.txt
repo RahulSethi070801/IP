@@ -1,0 +1,6 @@
+public static HostAndPort fromString(String hostPortString)
+public static boolean isInetAddress(String ipString)
+
+public static HostAndPort fromString(String hostPortString)
+public static Inet4Address getCoercedIPv4Address(InetAddress ip)
+

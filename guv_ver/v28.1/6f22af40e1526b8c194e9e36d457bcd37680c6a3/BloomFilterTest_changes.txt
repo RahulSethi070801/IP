@@ -1,0 +1,4 @@
+BloomFilterTest
+Insertions: [40, 409]
+Deletions: [39, 409]
+android/guava-tests/test/com/google/common/hash/BloomFilterTest.java

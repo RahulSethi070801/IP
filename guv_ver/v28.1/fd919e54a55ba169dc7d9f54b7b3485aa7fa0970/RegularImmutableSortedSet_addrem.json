@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "33": " * An immutable sorted set with one or more elements. TODO(jlevy): Consider separate class for a\n",
+        "34": " * single-element sorted set.\n",
+        "45": "  @VisibleForTesting final transient ImmutableList<E> elements;\n"
+    },
+    "removed": {
+        "34": " * An immutable sorted set with one or more elements. TODO(jlevy): Consider\n",
+        "35": " * separate class for a single-element sorted set.\n",
+        "46": "  @VisibleForTesting\n",
+        "47": "  final transient ImmutableList<E> elements;\n"
+    }
+}

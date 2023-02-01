@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "323": "   * Additionally, this method only accepts ASCII digits, and returns\n",
+        "324": "   * {@code null} if non-ASCII digits are present in the string.\n"
+    },
+    "removed": {}
+}

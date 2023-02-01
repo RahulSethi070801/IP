@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "29": " * A generalized interval on any ordering, for internal use. Supports {@code null}. Unlike {@link\n",
+        "30": " * Range}, this allows the use of an arbitrary comparator. This is designed for use in the\n",
+        "39": "  /** Converts a Range to a GeneralRange. */\n",
+        "56": "  /** Returns the whole range relative to the specified comparator. */\n",
+        "249": "  /** Returns the same range relative to the reversed comparator. */\n"
+    },
+    "removed": {
+        "29": " * A generalized interval on any ordering, for internal use. Supports {@code null}. Unlike\n",
+        "30": " * {@link Range}, this allows the use of an arbitrary comparator. This is designed for use in the\n",
+        "39": "  /**\n",
+        "40": "   * Converts a Range to a GeneralRange.\n",
+        "41": "   */\n",
+        "58": "  /**\n",
+        "59": "   * Returns the whole range relative to the specified comparator.\n",
+        "60": "   */\n",
+        "253": "  /**\n",
+        "254": "   * Returns the same range relative to the reversed comparator.\n",
+        "255": "   */\n"
+    }
+}

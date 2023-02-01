@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "33": "   * Returns {@code true} if {@code elements} is a sorted collection using an ordering equivalent to\n",
+        "34": "   * {@code comparator}.\n"
+    },
+    "removed": {
+        "33": "   * Returns {@code true} if {@code elements} is a sorted collection using an ordering equivalent\n",
+        "34": "   * to {@code comparator}.\n"
+    }
+}

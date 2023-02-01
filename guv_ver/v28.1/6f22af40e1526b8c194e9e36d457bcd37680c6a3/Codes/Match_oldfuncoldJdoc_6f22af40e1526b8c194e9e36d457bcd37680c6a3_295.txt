@@ -1,0 +1,5 @@
+
+   * Returns {@code true} if the table contains a mapping with the specified column.
+   *
+   * @param columnKey key of column to search for
+   

@@ -1,0 +1,6 @@
+
+   * Uses a {@link HashMap} to map keys to value collections, initialized to expect the specified
+   * number of keys.
+   *
+   * @throws IllegalArgumentException if {@code expectedKeys < 0}
+   

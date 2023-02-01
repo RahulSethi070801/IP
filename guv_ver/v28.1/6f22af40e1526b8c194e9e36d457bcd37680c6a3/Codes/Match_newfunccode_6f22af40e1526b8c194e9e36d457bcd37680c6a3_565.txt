@@ -1,0 +1,7 @@
+@CanIgnoreReturnValue
+public <C extends Closeable> C register(@NullableDecl C closeable) {
+    if (closeable != null) {
+        stack.addFirst(closeable);
+    }
+    return closeable;
+}

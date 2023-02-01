@@ -1,0 +1,3 @@
+public <T> FluentIterable<T> transformAndConcat(Function<? super E, ? extends Iterable<? extends T>> function) {
+    return FluentIterable.concat(transform(function));
+}

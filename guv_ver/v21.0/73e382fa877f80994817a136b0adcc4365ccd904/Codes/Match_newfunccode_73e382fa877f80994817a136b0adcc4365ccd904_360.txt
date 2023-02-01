@@ -1,0 +1,5 @@
+@Override
+public void forEach(BiConsumer<? super K, ? super V2> action) {
+    checkNotNull(action);
+    fromMap.forEach((k, v1) -> action.accept(k, transformer.transformEntry(k, v1)));
+}

@@ -1,0 +1,6 @@
+private boolean canAcquire(long nowMicros, long timeoutMicros)
+static RateLimiter create(SleepingStopwatch stopwatch, double permitsPerSecond)
+
+private final boolean canAcquire(long nowMicros, long timeoutMicros)
+static RateLimiter create(SleepingStopwatch stopwatch, double permitsPerSecond)
+

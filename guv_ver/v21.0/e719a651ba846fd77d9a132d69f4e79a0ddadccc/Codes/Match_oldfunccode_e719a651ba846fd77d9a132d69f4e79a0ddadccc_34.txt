@@ -1,0 +1,5 @@
+@Override
+public BaseEncoding withSeparator(String separator, int afterEveryChars) {
+    checkArgument(padding().or(alphabet).matchesNoneOf(separator), "Separator (%s) cannot contain alphabet or padding characters", separator);
+    return new SeparatedBaseEncoding(this, separator, afterEveryChars);
+}

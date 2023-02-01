@@ -1,0 +1,4 @@
+Equivalence
+Insertions: [26, 40]
+Deletions: []
+guava/src/com/google/common/base/Equivalence.java

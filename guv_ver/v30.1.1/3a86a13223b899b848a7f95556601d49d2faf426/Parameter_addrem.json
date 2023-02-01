@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "25": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "106": "    @Nullable\n",
+        "107": "    A[] result = FluentIterable.from(annotations).filter(annotationType).toArray(annotationType);\n",
+        "108": "    @SuppressWarnings(\"nullness\") // safe because the input list contains no nulls\n",
+        "109": "    A[] cast = (A[]) result;\n",
+        "110": "    return cast;\n"
+    },
+    "removed": {
+        "105": "    return FluentIterable.from(annotations).filter(annotationType).toArray(annotationType);\n"
+    }
+}

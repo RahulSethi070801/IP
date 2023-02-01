@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "231": "  // Graph identity\n"
+    },
+    "removed": {
+        "231": "  // Element-level queries\n",
+        "234": "  /**\n",
+        "235": "   * Returns the number of edges incident in this graph to {@code node}.  If this node has more than\n",
+        "236": "   * {@code Integer.MAX_VALUE} incident edges in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "237": "   *\n",
+        "238": "   * <p>Note that self-loops only count once towards a node's degree.\n",
+        "239": "   *\n",
+        "240": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "241": "   */\n",
+        "242": "  int degree(Object node);\n",
+        "243": "\n",
+        "244": "  /**\n",
+        "245": "   * Returns the number of incoming edges in this graph of {@code node}.  If this node has more than\n",
+        "246": "   * {@code Integer.MAX_VALUE} incoming edges in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "247": "   *\n",
+        "248": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "249": "   */\n",
+        "250": "  int inDegree(Object node);\n",
+        "251": "\n",
+        "252": "  /**\n",
+        "253": "   * Returns the number of outgoing edges in this graph of {@code node}.  If this node has more than\n",
+        "254": "   * {@code Integer.MAX_VALUE} outgoing edges in this graph, returns {@code Integer.MAX_VALUE}.\n",
+        "255": "   *\n",
+        "256": "   * @throws IllegalArgumentException if {@code node} is not an element of this graph\n",
+        "257": "   */\n",
+        "258": "  int outDegree(Object node);\n",
+        "259": "\n"
+    }
+}

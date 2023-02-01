@@ -1,0 +1,2 @@
+@Nullable
+V edgeValueOrDefault(EndpointPair<N> endpoints, @Nullable V defaultValue);

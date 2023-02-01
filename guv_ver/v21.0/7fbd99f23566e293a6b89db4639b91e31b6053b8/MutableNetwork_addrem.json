@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "46": "   * Adds {@code edge} to this graph, connecting {@code nodeA} to {@code nodeB}\n",
+        "51": "   * <p>If {@code edge} already connects {@code nodeA} to {@code nodeB} in this graph\n",
+        "55": "   * <p>Behavior if {@code nodeA} and {@code nodeB} are not already elements of the graph is\n",
+        "56": "   * unspecified. Suggested behaviors include (a) silently adding {@code nodeA} and {@code nodeB}\n",
+        "61": "   *     {@code nodeA} and {@code nodeB}, or if the graph is not a multigraph and {@code nodeA} is\n",
+        "62": "   *     already connected to {@code nodeB}\n",
+        "66": "  boolean addEdge(E edge, N nodeA, N nodeB);\n"
+    },
+    "removed": {
+        "46": "   * Adds {@code edge} to this graph, connecting {@code node1} to {@code node2}\n",
+        "51": "   * <p>If {@code edge} already connects {@code node1} to {@code node2} in this graph\n",
+        "55": "   * <p>Behavior if {@code node1} and {@code node2} are not already elements of the graph is\n",
+        "56": "   * unspecified. Suggested behaviors include (a) silently adding {@code node1} and {@code node2}\n",
+        "61": "   *     {@code node1} and {@code node2}, or if the graph is not a multigraph and {@code node1} is\n",
+        "62": "   *     already connected to {@code node2}\n",
+        "66": "  boolean addEdge(E edge, N node1, N node2);\n"
+    }
+}

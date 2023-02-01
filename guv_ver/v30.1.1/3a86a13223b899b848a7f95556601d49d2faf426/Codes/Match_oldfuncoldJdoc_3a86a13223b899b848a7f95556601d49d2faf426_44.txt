@@ -1,0 +1,1 @@
+ Returns the value from the left map (possibly null). 

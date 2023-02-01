@@ -1,0 +1,4 @@
+@Nullable
+Comparator<? super V> valueComparator() {
+    return emptySet instanceof ImmutableSortedSet ? ((ImmutableSortedSet<V>) emptySet).comparator() : null;
+}

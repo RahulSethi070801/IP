@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #containsValue} in terms of the {@code iterator} method of
+   * {@link #entrySet}. If you override {@link #entrySet}, you may wish to override {@link
+   * #containsValue} to forward to this implementation.
+   *
+   * @since 7.0
+   

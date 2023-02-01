@@ -1,0 +1,4 @@
+JdkPattern
+Insertions: [22]
+Deletions: [22, 23, 24]
+android/guava/src/com/google/common/base/JdkPattern.java

@@ -1,0 +1,10 @@
+public ImmutableRangeMap<K, V> build() {
+    Map<Range<K>, V> map = rangeMap.asMapOfRanges();
+    ImmutableList.Builder<Range<K>> rangesBuilder = new ImmutableList.Builder<Range<K>>(map.size());
+    ImmutableList.Builder<V> valuesBuilder = new ImmutableList.Builder<V>(map.size());
+    for (Entry<Range<K>, V> entry : map.entrySet()) {
+        rangesBuilder.add(entry.getKey());
+        valuesBuilder.add(entry.getValue());
+    }
+    return new ImmutableRangeMap<K, V>(rangesBuilder.build(), valuesBuilder.build());
+}

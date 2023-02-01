@@ -1,0 +1,50 @@
+com.google.common.graph.Graphs
+copyNodes
+public static void copyNodes(Graph<N> src, MutableNetwork<N, ?> dest)
+Graph,MutableNetwork
+void
+com.google.common.graph.Graphs
+copyEdgesInternal
+private static void copyEdgesInternal(Network<N, E> src, MutableNetwork<N, E> dest, Predicate<? super E> edgePredicate)
+Network,MutableNetwork,Predicate
+void
+com.google.common.graph.Graphs
+copyOf
+public static MutableGraph<N> copyOf(Graph<N> graph)
+Graph
+MutableGraph
+com.google.common.graph.Graphs
+copyOf
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+Network
+MutableNetwork
+com.google.common.graph.Graphs
+copyNodes
+public static void copyNodes(Graph<N> src, MutableGraph<N> dest)
+Graph,MutableGraph
+void
+com.google.common.graph.Graphs
+copyNodesInternal
+private static void copyNodesInternal(Graph<N> src, MutableGraph<N> dest, Predicate<? super N> nodePredicate)
+Graph,MutableGraph,Predicate
+void
+com.google.common.graph.Graphs
+copyOfInternal
+private static MutableGraph<N> copyOfInternal(Graph<N> graph, GraphBuilder<N> copyBuilder, Predicate<? super N> nodePredicate)
+Graph,GraphBuilder,Predicate
+MutableGraph
+com.google.common.graph.Graphs
+copyOfInternal
+private static MutableNetwork<N, E> copyOfInternal(Network<N, E> graph, NetworkBuilder<N, E> copyBuilder, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+Network,NetworkBuilder,Predicate,Predicate
+MutableNetwork
+com.google.common.graph.Graphs
+copyEdges
+public static void copyEdges(Network<N, E> src, MutableNetwork<N, E> dest)
+Network,MutableNetwork
+void
+com.google.common.graph.Graphs
+copyNodesInternal
+private static void copyNodesInternal(Graph<N> src, MutableNetwork<N, ?> dest, Predicate<? super N> nodePredicate)
+Graph,MutableNetwork,Predicate
+void

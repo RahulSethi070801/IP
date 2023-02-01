@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "22": "import javax.annotation.CheckForNull;\n",
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "33": "@ElementTypesAreNonnullByDefault\n",
+        "34": "public interface MapDifference<K extends @Nullable Object, V extends @Nullable Object> {\n",
+        "72": "  boolean equals(@CheckForNull Object object);\n",
+        "92": "  interface ValueDifference<V extends @Nullable Object> {\n",
+        "94": "    @ParametricNullness\n",
+        "98": "    @ParametricNullness\n",
+        "106": "    boolean equals(@CheckForNull Object other);\n"
+    },
+    "removed": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "32": "public interface MapDifference<K, V> {\n",
+        "70": "  boolean equals(@NullableDecl Object object);\n",
+        "90": "  interface ValueDifference<V> {\n",
+        "102": "    boolean equals(@NullableDecl Object other);\n"
+    }
+}

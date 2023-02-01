@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "22": " * Legacy version of {@link java.util.function.Predicate}.  Determines a true or false value for a\n",
+        "23": " * given input.\n",
+        "25": " * <p>As this interface extends {@code java.util.function.Predicate}, an instance of this type may\n",
+        "26": " * be used as a {@code Predicate} directly.  To use a {@code java.util.function.Predicate} where a\n",
+        "27": " * {@code com.google.common.base.Predicate} is expected, use the method reference {@code\n",
+        "28": " * predicate::test}.\n",
+        "35": " * <p>The {@link Predicates} class provides common predicates and related utilities.\n",
+        "36": " *\n",
+        "37": " * <p>See the Guava User Guide article on\n",
+        "38": " * <a href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code\n",
+        "39": " * Predicate}</a>.\n",
+        "44": "@FunctionalInterface\n",
+        "46": "public interface Predicate<T> extends java.util.function.Predicate<T> {\n",
+        "77": "\n",
+        "78": "  @Override\n",
+        "79": "  default boolean test(@Nullable T input) {\n",
+        "80": "    return apply(input);\n",
+        "81": "  }\n"
+    },
+    "removed": {
+        "23": " * Determines a true or false value for a given input; a pre-Java-8 version of {@code\n",
+        "24": " * java.util.function.Predicate}.\n",
+        "25": " *\n",
+        "26": " * <p>The {@link Predicates} class provides common predicates and related utilities.\n",
+        "27": " *\n",
+        "28": " * <p>See the Guava User Guide article on\n",
+        "29": " * <a href=\"https://github.com/google/guava/wiki/FunctionalExplained\">the use of {@code\n",
+        "30": " * Predicate}</a>.\n",
+        "32": " * <h3>For Java 8+ users</h3>\n",
+        "39": " * <p>To use a reference of this type (say, named {@code guavaPredicate}) in a context where {@code\n",
+        "40": " * java.util.function.Predicate} is expected, use the method reference {@code\n",
+        "41": " * guavaPredicate::apply}. For the other direction, use {@code javaUtilPredicate::test}. A future\n",
+        "42": " * version of this interface will be made to <i>extend</i> {@code java.util.function.Predicate}, so\n",
+        "43": " * that conversion will be necessary in only one direction. At that time, this interface will be\n",
+        "44": " * officially discouraged.\n",
+        "50": "public interface Predicate<T> {\n"
+    }
+}

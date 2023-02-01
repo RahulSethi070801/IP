@@ -1,0 +1,4 @@
+CompactHashMap
+Insertions: [47, 239, 240, 259, 287, 348, 362, 368, 376, 377, 381, 382, 393, 557, 634, 644, 667, 723]
+Deletions: [47, 239, 240, 259, 287, 348, 362, 368, 376, 377, 381, 382, 393, 557, 634, 644, 667, 723]
+guava/src/com/google/common/collect/CompactHashMap.java

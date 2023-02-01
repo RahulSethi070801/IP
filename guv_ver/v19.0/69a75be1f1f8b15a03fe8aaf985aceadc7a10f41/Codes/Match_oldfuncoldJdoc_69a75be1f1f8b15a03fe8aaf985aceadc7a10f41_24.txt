@@ -1,0 +1,9 @@
+
+   * Wraps the given callable such that for the duration of {@link Callable#call} the thread that is
+   * running will have the given name.
+   *
+   *
+   * @param callable The callable to wrap
+   * @param nameSupplier The supplier of thread names, {@link Supplier#get get} will be called once
+   *     for each invocation of the wrapped callable.
+   

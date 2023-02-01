@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "237": "   * Returns true if there is an edge that directly connects {@code nodeU} to {@code nodeV}. This is\n",
+        "248": "   * Returns true if there is an edge that directly connects {@code endpoints} (in the order, if\n",
+        "249": "   * any, specified by {@code endpoints}). This is equivalent to {@code\n",
+        "250": "   * edges().contains(endpoints)}.\n",
+        "251": "   *\n",
+        "252": "   * <p>Unlike the other {@code EndpointPair}-accepting methods, this method does not throw if the\n",
+        "253": "   * endpoints are unordered and the graph is directed; it simply returns {@code false}. This is for\n",
+        "254": "   * consistency with the behavior of {@link Collection#contains(Object)} (which does not generally\n",
+        "255": "   * throw if the object cannot be present in the collection), and the desire to have this method's\n",
+        "256": "   * behavior be compatible with {@code edges().contains(endpoints)}.\n",
+        "257": "   *\n",
+        "258": "   * @since NEXT\n",
+        "259": "   */\n",
+        "260": "  @Override\n",
+        "261": "  boolean hasEdgeConnecting(EndpointPair<N> endpoints);\n",
+        "262": "\n",
+        "263": "  /**\n",
+        "264": "   * Returns the value of the edge that connects {@code nodeU} to {@code nodeV}, if one is present;\n",
+        "276": "  /**\n",
+        "277": "   * Returns the value of the edge that connects {@code endpoints} (in the order, if any, specified\n",
+        "278": "   * by {@code endpoints}), if one is present; otherwise, returns {@code defaultValue}.\n",
+        "279": "   *\n",
+        "280": "   * <p>If this graph is directed, the endpoints must be ordered.\n",
+        "281": "   *\n",
+        "282": "   * @throws IllegalArgumentException if either endpoint is not an element of this graph\n",
+        "283": "   * @throws IllegalArgumentException if the endpoints are unordered and the graph is directed\n",
+        "284": "   * @since NEXT\n",
+        "285": "   */\n",
+        "286": "  @NullableDecl\n",
+        "287": "  V edgeValueOrDefault(EndpointPair<N> endpoints, @NullableDecl V defaultValue);\n",
+        "288": "\n"
+    },
+    "removed": {
+        "237": "   * Returns true if there is an edge directly connecting {@code nodeU} to {@code nodeV}. This is\n",
+        "248": "   * Returns the value of the edge connecting {@code nodeU} to {@code nodeV}, if one is present;\n"
+    }
+}

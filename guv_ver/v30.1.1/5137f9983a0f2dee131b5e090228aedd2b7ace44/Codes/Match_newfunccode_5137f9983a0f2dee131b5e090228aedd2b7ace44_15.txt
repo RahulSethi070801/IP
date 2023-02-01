@@ -1,0 +1,9 @@
+@CanIgnoreReturnValue
+@ParametricNullness
+@SuppressWarnings("nullness")
+public <C extends @Nullable Closeable> C register(@CheckForNull C closeable) {
+    if (closeable != null) {
+        stack.addFirst(closeable);
+    }
+    return closeable;
+}

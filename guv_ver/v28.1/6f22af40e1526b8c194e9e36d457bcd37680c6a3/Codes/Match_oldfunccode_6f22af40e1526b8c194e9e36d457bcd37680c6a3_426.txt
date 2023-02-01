@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public SortedSet<V> replaceValues(@Nullable K key, Iterable<? extends V> values) {
+    return (SortedSet<V>) super.replaceValues(key, values);
+}

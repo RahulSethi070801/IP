@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "32": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "173": "  public int put(@NullableDecl K key, int value) {\n",
+        "218": "  void insertEntry(int entryIndex, @NullableDecl K key, int value, int hash) {\n",
+        "280": "  int indexOf(@NullableDecl Object key) {\n",
+        "294": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "299": "  public int get(@NullableDecl Object key) {\n",
+        "306": "  public int remove(@NullableDecl Object key) {\n",
+        "316": "  private int remove(@NullableDecl Object key, int hash) {\n"
+    },
+    "removed": {
+        "32": "import javax.annotation.Nullable;\n",
+        "173": "  public int put(@Nullable K key, int value) {\n",
+        "218": "  void insertEntry(int entryIndex, @Nullable K key, int value, int hash) {\n",
+        "280": "  int indexOf(@Nullable Object key) {\n",
+        "294": "  public boolean containsKey(@Nullable Object key) {\n",
+        "299": "  public int get(@Nullable Object key) {\n",
+        "306": "  public int remove(@Nullable Object key) {\n",
+        "316": "  private int remove(@Nullable Object key, int hash) {\n"
+    }
+}

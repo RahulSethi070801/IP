@@ -1,0 +1,4 @@
+@Override
+public E lower(E e) {
+    return getElementOrNull(multiset().headMultiset(e, OPEN).lastEntry());
+}

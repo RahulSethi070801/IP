@@ -1,0 +1,5 @@
+
+   * Enters this monitor. Blocks indefinitely, but may be interrupted.
+   *
+   * @throws InterruptedException if interrupted while waiting
+   

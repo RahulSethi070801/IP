@@ -1,0 +1,9 @@
+
+   * Not supported. <b>You are attempting to create a multiset that may contain a non-{@code
+   * Comparable} element.</b> Proper calls will resolve to the version in {@code
+   * ImmutableSortedMultiset}, not this dummy version.
+   *
+   * @throws UnsupportedOperationException always
+   * @deprecated <b>Pass a parameter of type {@code Comparable} to use {@link
+   *     ImmutableSortedMultiset#of(Comparable)}.</b>
+   

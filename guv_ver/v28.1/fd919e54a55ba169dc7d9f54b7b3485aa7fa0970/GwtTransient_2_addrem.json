@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "28": " * Private replacement for {@link com.google.gwt.user.client.rpc.GwtTransient} to work around\n",
+        "29": " * build-system quirks. This annotation should be used <b>only</b> in {@code\n",
+        "30": " * com.google.common.collect}.\n"
+    },
+    "removed": {
+        "28": " * Private replacement for {@link com.google.gwt.user.client.rpc.GwtTransient}\n",
+        "29": " * to work around build-system quirks. This annotation should be used\n",
+        "30": " * <b>only</b> in {@code com.google.common.collect}.\n"
+    }
+}

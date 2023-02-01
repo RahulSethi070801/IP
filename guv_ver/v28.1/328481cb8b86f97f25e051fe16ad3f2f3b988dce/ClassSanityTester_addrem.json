@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "50": "import java.util.Map.Entry;\n",
+        "630": "    for (Entry<Class<?>, Collection<Object>> entry : distinctValues.asMap().entrySet()) {\n"
+    },
+    "removed": {
+        "50": "import java.util.Map;\n",
+        "630": "    for (Map.Entry<Class<?>, Collection<Object>> entry : distinctValues.asMap().entrySet()) {\n"
+    }
+}

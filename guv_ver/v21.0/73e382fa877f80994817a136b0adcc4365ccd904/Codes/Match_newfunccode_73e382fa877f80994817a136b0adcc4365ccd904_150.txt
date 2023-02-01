@@ -1,0 +1,4 @@
+@Override
+Spliterator<Entry<K, V2>> entrySpliterator() {
+    return CollectSpliterators.map(fromMap.entrySet().spliterator(), Maps.<K, V1, V2>asEntryToEntryFunction(transformer));
+}

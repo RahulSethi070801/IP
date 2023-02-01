@@ -1,0 +1,3 @@
+
+   * Wraps the {@code setValue} implementation of an {@code Entry} to enforce the class constraint.
+   

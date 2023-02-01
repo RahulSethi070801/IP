@@ -1,0 +1,4 @@
+FakeTicker
+Insertions: [29, 30, 32, 33, 68, 69]
+Deletions: [29, 30, 32, 33, 68]
+android/guava-testlib/src/com/google/common/testing/FakeTicker.java

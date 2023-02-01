@@ -1,0 +1,4 @@
+MinimalSet_2
+Insertions: [27, 28, 29]
+Deletions: [27, 28, 29]
+guava-testlib/src/com/google/common/collect/testing/MinimalSet.java

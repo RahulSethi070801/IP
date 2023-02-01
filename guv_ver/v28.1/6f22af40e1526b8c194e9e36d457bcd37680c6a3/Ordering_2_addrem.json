@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "38": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "527": "  // Override to add @NullableDecl\n",
+        "530": "  public abstract int compare(@NullableDecl T left, @NullableDecl T right);\n",
+        "595": "  public <E extends T> E min(@NullableDecl E a, @NullableDecl E b) {\n",
+        "614": "  public <E extends T> E min(@NullableDecl E a, @NullableDecl E b, @NullableDecl E c, E... rest) {\n",
+        "687": "  public <E extends T> E max(@NullableDecl E a, @NullableDecl E b) {\n",
+        "706": "  public <E extends T> E max(@NullableDecl E a, @NullableDecl E b, @NullableDecl E c, E... rest) {\n",
+        "934": "  public int binarySearch(List<? extends T> sortedList, @NullableDecl T key) {\n"
+    },
+    "removed": {
+        "38": "import javax.annotation.Nullable;\n",
+        "527": "  // Override to add @Nullable\n",
+        "530": "  public abstract int compare(@Nullable T left, @Nullable T right);\n",
+        "595": "  public <E extends T> E min(@Nullable E a, @Nullable E b) {\n",
+        "614": "  public <E extends T> E min(@Nullable E a, @Nullable E b, @Nullable E c, E... rest) {\n",
+        "687": "  public <E extends T> E max(@Nullable E a, @Nullable E b) {\n",
+        "706": "  public <E extends T> E max(@Nullable E a, @Nullable E b, @Nullable E c, E... rest) {\n",
+        "934": "  public int binarySearch(List<? extends T> sortedList, @Nullable T key) {\n"
+    }
+}

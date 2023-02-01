@@ -1,0 +1,50 @@
+com.google.common.math.Stats
+of
+public static Stats of(DoubleStream values)
+DoubleStream
+Stats
+com.google.common.math.StatsAccumulator
+addAll
+public void addAll(Stats values)
+Stats
+void
+com.google.common.math.Stats
+of
+public static Stats of(LongStream values)
+LongStream
+Stats
+com.google.common.math.Stats
+of
+public static Stats of(IntStream values)
+IntStream
+Stats
+com.google.common.math.StatsAccumulator
+merge
+private void merge(long otherCount, double otherMean, double otherSumOfSquaresOfDeltas, double otherMin, double otherMax)
+long,double,double,double,double
+void
+com.google.common.math.StatsAccumulator
+addAll
+public void addAll(DoubleStream values)
+DoubleStream
+void
+com.google.common.math.StatsAccumulator
+addAll
+public void addAll(IntStream values)
+IntStream
+void
+com.google.common.math.StatsAccumulator
+addAll
+public void addAll(LongStream values)
+LongStream
+void
+com.google.common.math.StatsAccumulator
+addAll
+public void addAll(StatsAccumulator values)
+StatsAccumulator
+void
+com.google.common.math.Stats
+toStats
+public static Collector<Number, StatsAccumulator, Stats> toStats()
+empty
+Collector

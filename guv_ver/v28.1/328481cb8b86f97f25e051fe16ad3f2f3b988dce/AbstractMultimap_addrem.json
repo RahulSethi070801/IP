@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "93": "    for (Entry<? extends K, ? extends V> entry : multimap.entries()) {\n"
+    },
+    "removed": {
+        "93": "    for (Map.Entry<? extends K, ? extends V> entry : multimap.entries()) {\n"
+    }
+}

@@ -1,0 +1,6 @@
+private Platform()
+public static ListenableFuture<O> transform(ListenableFuture<I> input, final Function<? super I, ? extends O> function)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<Throwable> exceptionType, Function<? super Throwable, ? extends V> fallback, Executor executor)
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+

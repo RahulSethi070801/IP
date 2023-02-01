@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "126": "    assertCancelled(future, /* expectWasCancelled= */ false);\n",
+        "132": "    assertCancelled(future, /* expectWasCancelled= */ false);\n"
+    },
+    "removed": {
+        "32": "import com.google.common.util.concurrent.AbstractFuture.TrustedFuture;\n",
+        "124": "  @GwtIncompatible // All GWT Futures behaves like TrustedFuture.\n",
+        "128": "    /*\n",
+        "129": "     * Interruption of the delegate propagates to us only if the delegate was a TrustedFuture.\n",
+        "130": "     * TODO(cpovirk): Consider whether to stop copying this information from TrustedFuture so that\n",
+        "131": "     * we're consistent.\n",
+        "132": "     */\n",
+        "133": "    assertCancelled(future, delegate instanceof TrustedFuture);\n",
+        "136": "  @GwtIncompatible // All GWT Futures behaves like TrustedFuture.\n",
+        "140": "    // See previous method doc.\n",
+        "141": "    assertCancelled(future, delegate instanceof TrustedFuture);\n"
+    }
+}

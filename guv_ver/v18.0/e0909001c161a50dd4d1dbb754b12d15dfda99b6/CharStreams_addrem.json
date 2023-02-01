@@ -1,0 +1,6 @@
+{
+    "addition": {
+        "363": "  @SuppressWarnings(\"unchecked\") // suppress \"possible heap pollution\" warning in JDK7\n"
+    },
+    "removed": {}
+}

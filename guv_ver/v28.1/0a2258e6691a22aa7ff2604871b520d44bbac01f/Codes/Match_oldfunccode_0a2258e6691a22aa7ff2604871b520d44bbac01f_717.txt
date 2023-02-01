@@ -1,0 +1,2 @@
+@NullableDecl
+V value(N node);

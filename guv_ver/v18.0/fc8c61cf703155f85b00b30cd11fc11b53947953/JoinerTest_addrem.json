@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "297": "  @SuppressWarnings(\"ReturnValueIgnored\") // testing for exception\n"
+    },
+    "removed": {
+        "297": "  @SuppressWarnings(\"ReturnValueIgnored\")\n"
+    }
+}

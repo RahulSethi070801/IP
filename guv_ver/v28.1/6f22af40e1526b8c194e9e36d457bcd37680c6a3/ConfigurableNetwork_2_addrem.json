@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "30": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "195": "  protected final boolean containsNode(@NullableDecl N node) {\n",
+        "199": "  protected final boolean containsEdge(@NullableDecl E edge) {\n"
+    },
+    "removed": {
+        "30": "import javax.annotation.Nullable;\n",
+        "195": "  protected final boolean containsNode(@Nullable N node) {\n",
+        "199": "  protected final boolean containsEdge(@Nullable E edge) {\n"
+    }
+}

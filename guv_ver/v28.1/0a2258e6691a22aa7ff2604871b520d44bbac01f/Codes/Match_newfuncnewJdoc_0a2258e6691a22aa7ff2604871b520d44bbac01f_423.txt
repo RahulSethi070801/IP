@@ -1,0 +1,19 @@
+
+   * Propagates {@code throwable} exactly as-is, if and only if it is an instance of {@code
+   * declaredType}. Example usage:
+   *
+   * <pre>
+   * try {
+   *   someMethodThatCouldThrowAnything();
+   * } catch (IKnowWhatToDoWithThisException e) {
+   *   handle(e);
+   * } catch (Throwable t) {
+   *   Throwables.propagateIfInstanceOf(t, IOException.class);
+   *   Throwables.propagateIfInstanceOf(t, SQLException.class);
+   *   throw Throwables.propagate(t);
+   * }
+   * </pre>
+   *
+   * @deprecated Use {@link #throwIfInstanceOf}, which has the same behavior but rejects {@code
+   *     null}.
+   

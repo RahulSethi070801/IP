@@ -1,0 +1,21 @@
+@Beta
+@GwtIncompatible("TODO")
+@CheckReturnValue
+public static <T> ImmutableList<ListenableFuture<T>> inCompletionOrder(Iterable<? extends ListenableFuture<? extends T>> futures) {
+    final ConcurrentLinkedQueue<SettableFuture<T>> delegates = Queues.newConcurrentLinkedQueue();
+    ImmutableList.Builder<ListenableFuture<T>> listBuilder = ImmutableList.builder();
+    SerializingExecutor executor = new SerializingExecutor(directExecutor());
+    for (final ListenableFuture<? extends T> future : futures) {
+        SettableFuture<T> delegate = SettableFuture.create();
+        delegates.add(delegate);
+        future.addListener(new Runnable() {
+
+            @Override
+            public void run() {
+                delegates.remove().setFuture(future);
+            }
+        }, executor);
+        listBuilder.add(delegate);
+    }
+    return listBuilder.build();
+}

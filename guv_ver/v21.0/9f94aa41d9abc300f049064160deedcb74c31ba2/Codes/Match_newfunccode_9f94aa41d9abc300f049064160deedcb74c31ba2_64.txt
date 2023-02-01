@@ -1,0 +1,11 @@
+@Override
+public void clear() {
+    ReferenceEntry<K, V> e = head.getNextInWriteQueue();
+    while (e != head) {
+        ReferenceEntry<K, V> next = e.getNextInWriteQueue();
+        nullifyWriteOrder(e);
+        e = next;
+    }
+    head.setNextInWriteQueue(head);
+    head.setPreviousInWriteQueue(head);
+}

@@ -1,0 +1,160 @@
+com.google.common.collect.MapMakerInternalMap$Helper
+newSegment
+public StrongKeyDummyValueSegment<K> newSegment(MapMakerInternalMap<K, Dummy, StrongKeyDummyValueEntry<K>, StrongKeyDummyValueSegment<K>> map, int initialCapacity, int maxSegmentSize)
+MapMakerInternalMap,int,int
+StrongKeyDummyValueSegment
+com.google.common.collect.MapMakerInternalMap
+createWithDummyValues
+static MapMakerInternalMap<K, Dummy, ? extends InternalEntry<K, Dummy, ?>, ?> createWithDummyValues(MapMaker builder)
+MapMaker
+MapMakerInternalMap
+com.google.common.collect.MapMakerInternalMap$StrongKeyDummyValueEntry
+setValue
+void setValue(Dummy value)
+Dummy
+void
+com.google.common.collect.MapMakerInternalMap$Helper
+newSegment
+public WeakKeyDummyValueSegment<K> newSegment(MapMakerInternalMap<K, Dummy, WeakKeyDummyValueEntry<K>, WeakKeyDummyValueSegment<K>> map, int initialCapacity, int maxSegmentSize)
+MapMakerInternalMap,int,int
+WeakKeyDummyValueSegment
+com.google.common.collect.MapMakerInternalMap$Helper
+copy
+public WeakKeyDummyValueEntry<K> copy(WeakKeyDummyValueSegment<K> segment, WeakKeyDummyValueEntry<K> entry, @Nullable WeakKeyDummyValueEntry<K> newNext)
+WeakKeyDummyValueSegment,WeakKeyDummyValueEntry,WeakKeyDummyValueEntry
+WeakKeyDummyValueEntry
+com.google.common.collect.MapMakerInternalMap$StrongKeyDummyValueSegment
+StrongKeyDummyValueSegment
+StrongKeyDummyValueSegment(MapMakerInternalMap<K, Dummy, StrongKeyDummyValueEntry<K>, StrongKeyDummyValueSegment<K>> map, int initialCapacity, int maxSegmentSize)
+MapMakerInternalMap,int,int
+constructor
+com.google.common.collect.MapMakerInternalMap$WeakKeyStrongValueSegment
+getKeyReferenceQueueForTesting
+ReferenceQueue<K> getKeyReferenceQueueForTesting()
+empty
+ReferenceQueue
+com.google.common.collect.Interners$InternerBuilder
+build
+public Interner<E> build()
+empty
+Interner
+com.google.common.collect.MapMakerInternalMap$StrongKeyDummyValueEntry
+copy
+StrongKeyDummyValueEntry<K> copy(StrongKeyDummyValueEntry<K> newNext)
+StrongKeyDummyValueEntry
+StrongKeyDummyValueEntry
+com.google.common.collect.MapMakerInternalMap$WeakKeyDummyValueSegment
+castForTesting
+public WeakKeyDummyValueEntry<K> castForTesting(InternalEntry<K, Dummy, ?> entry)
+InternalEntry
+WeakKeyDummyValueEntry
+com.google.common.collect.MapMaker
+makeCustomMap
+MapMakerInternalMap<K, V, ?, ?> makeCustomMap()
+empty
+MapMakerInternalMap
+com.google.common.collect.MapMakerInternalMap$StrongKeyDummyValueEntry
+StrongKeyDummyValueEntry
+StrongKeyDummyValueEntry(K key, int hash, @Nullable StrongKeyDummyValueEntry<K> next)
+K,int,StrongKeyDummyValueEntry
+constructor
+com.google.common.collect.Interners$StrongInterner
+StrongInterner
+private StrongInterner(MapMaker mapMaker)
+MapMaker
+constructor
+com.google.common.collect.MapMakerInternalMap$WeakKeyStrongValueSegment
+maybeClearReferenceQueues
+void maybeClearReferenceQueues()
+empty
+void
+com.google.common.collect.MapMakerInternalMap$Helper
+setValue
+public void setValue(WeakKeyDummyValueSegment<K> segment, WeakKeyDummyValueEntry<K> entry, Dummy value)
+WeakKeyDummyValueSegment,WeakKeyDummyValueEntry,Dummy
+void
+com.google.common.collect.MapMakerInternalMap$WeakKeyDummyValueSegment
+WeakKeyDummyValueSegment
+WeakKeyDummyValueSegment(MapMakerInternalMap<K, Dummy, WeakKeyDummyValueEntry<K>, WeakKeyDummyValueSegment<K>> map, int initialCapacity, int maxSegmentSize)
+MapMakerInternalMap,int,int
+constructor
+com.google.common.collect.MapMakerInternalMap$WeakKeyDummyValueEntry
+WeakKeyDummyValueEntry
+WeakKeyDummyValueEntry(ReferenceQueue<K> queue, K key, int hash, @Nullable WeakKeyDummyValueEntry<K> next)
+ReferenceQueue,K,int,WeakKeyDummyValueEntry
+constructor
+com.google.common.collect.MapMakerInternalMap$StrongKeyDummyValueSegment
+self
+StrongKeyDummyValueSegment<K> self()
+empty
+StrongKeyDummyValueSegment
+com.google.common.collect.MapMakerInternalMap$WeakKeyDummyValueEntry
+copy
+WeakKeyDummyValueEntry<K> copy(ReferenceQueue<K> queueForKeys, WeakKeyDummyValueEntry<K> newNext)
+ReferenceQueue,WeakKeyDummyValueEntry
+WeakKeyDummyValueEntry
+com.google.common.collect.MapMakerInternalMap$Helper
+keyStrength
+public Strength keyStrength()
+empty
+Strength
+com.google.common.collect.MapMakerInternalMap$Helper
+copy
+public StrongKeyDummyValueEntry<K> copy(StrongKeyDummyValueSegment<K> segment, StrongKeyDummyValueEntry<K> entry, @Nullable StrongKeyDummyValueEntry<K> newNext)
+StrongKeyDummyValueSegment,StrongKeyDummyValueEntry,StrongKeyDummyValueEntry
+StrongKeyDummyValueEntry
+com.google.common.collect.MapMakerInternalMap$Helper
+newEntry
+public WeakKeyDummyValueEntry<K> newEntry(WeakKeyDummyValueSegment<K> segment, K key, int hash, @Nullable WeakKeyDummyValueEntry<K> next)
+WeakKeyDummyValueSegment,K,int,WeakKeyDummyValueEntry
+WeakKeyDummyValueEntry
+com.google.common.collect.MapMakerInternalMap$Helper
+instance
+static Helper<K> instance()
+empty
+Helper
+com.google.common.collect.MapMakerInternalMap$Helper
+setValue
+public void setValue(StrongKeyDummyValueSegment<K> segment, StrongKeyDummyValueEntry<K> entry, Dummy value)
+StrongKeyDummyValueSegment,StrongKeyDummyValueEntry,Dummy
+void
+com.google.common.collect.MapMakerInternalMap$WeakKeyDummyValueSegment
+self
+WeakKeyDummyValueSegment<K> self()
+empty
+WeakKeyDummyValueSegment
+com.google.common.collect.Interners$StrongInterner
+intern
+public E intern(E sample)
+E
+E
+com.google.common.collect.MapMakerInternalMap$Helper
+newEntry
+public StrongKeyDummyValueEntry<K> newEntry(StrongKeyDummyValueSegment<K> segment, K key, int hash, @Nullable StrongKeyDummyValueEntry<K> next)
+StrongKeyDummyValueSegment,K,int,StrongKeyDummyValueEntry
+StrongKeyDummyValueEntry
+com.google.common.collect.MapMakerInternalMap$WeakKeyStrongValueSegment
+maybeDrainReferenceQueues
+void maybeDrainReferenceQueues()
+empty
+void
+com.google.common.collect.Interners$WeakInterner
+WeakInterner
+private WeakInterner(MapMaker mapMaker)
+MapMaker
+constructor
+com.google.common.collect.Interners$InternerImpl
+InternerImpl
+private InternerImpl(MapMaker mapMaker)
+MapMaker
+constructor
+com.google.common.collect.MapMakerInternalMap$StrongKeyDummyValueSegment
+castForTesting
+public StrongKeyDummyValueEntry<K> castForTesting(InternalEntry<K, Dummy, ?> entry)
+InternalEntry
+StrongKeyDummyValueEntry
+com.google.common.collect.MapMakerInternalMap$StrongKeyDummyValueEntry
+getValue
+public Dummy getValue()
+empty
+Dummy

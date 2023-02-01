@@ -1,0 +1,4 @@
+FakeTickerTest_2
+Insertions: [89, 90, 109, 110, 133, 134, 146]
+Deletions: [89, 108, 131, 143, 144, 145]
+guava-testlib/test/com/google/common/testing/FakeTickerTest.java

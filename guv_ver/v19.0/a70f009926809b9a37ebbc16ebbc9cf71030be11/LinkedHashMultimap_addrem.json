@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "558": "    valueSetCapacity = DEFAULT_VALUE_SET_CAPACITY;\n",
+        "560": "    Map<K, Collection<V>> map = new LinkedHashMap<K, Collection<V>>();\n"
+    },
+    "removed": {
+        "541": "    stream.writeInt(valueSetCapacity);\n",
+        "559": "    valueSetCapacity = stream.readInt();\n",
+        "561": "    Map<K, Collection<V>> map =\n",
+        "562": "        new LinkedHashMap<K, Collection<V>>(Maps.capacity(distinctKeys));\n"
+    }
+}

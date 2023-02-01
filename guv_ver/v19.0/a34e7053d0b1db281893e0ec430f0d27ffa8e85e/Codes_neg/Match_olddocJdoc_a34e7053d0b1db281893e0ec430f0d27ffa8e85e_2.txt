@@ -1,0 +1,1 @@
+ TODO(cpovirk): @ForOverride if https://github.com/google/error-prone/issues/342 permits

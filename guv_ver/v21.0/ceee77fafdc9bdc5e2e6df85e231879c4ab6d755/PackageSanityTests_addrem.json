@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "33": "      BasicGraphBuilder.directed().expectedNodeCount(10);\n",
+        "37": "  private static final ImmutableBasicGraph<String> IMMUTABLE_GRAPH_A = graphWithNode(\"A\");\n",
+        "38": "  private static final ImmutableBasicGraph<String> IMMUTABLE_GRAPH_B = graphWithNode(\"B\");\n",
+        "50": "    setDistinctValues(BasicGraph.class, IMMUTABLE_GRAPH_A, IMMUTABLE_GRAPH_B);\n",
+        "65": "  private static <N> ImmutableBasicGraph<N> graphWithNode(N node) {\n",
+        "66": "    MutableBasicGraph<N> graph = BasicGraphBuilder.directed().build();\n",
+        "68": "    return ImmutableBasicGraph.copyOf(graph);\n"
+    },
+    "removed": {
+        "33": "      GraphBuilder.directed().expectedNodeCount(10);\n",
+        "37": "  private static final ImmutableGraph<String> IMMUTABLE_GRAPH_A = graphWithNode(\"A\");\n",
+        "38": "  private static final ImmutableGraph<String> IMMUTABLE_GRAPH_B = graphWithNode(\"B\");\n",
+        "50": "    setDistinctValues(Graph.class, IMMUTABLE_GRAPH_A, IMMUTABLE_GRAPH_B);\n",
+        "65": "  private static <N> ImmutableGraph<N> graphWithNode(N node) {\n",
+        "66": "    MutableGraph<N> graph = GraphBuilder.directed().build();\n",
+        "68": "    return ImmutableGraph.copyOf(graph);\n"
+    }
+}

@@ -1,0 +1,10 @@
+public void executeFirst(Runnable task) {
+    synchronized (queue) {
+        queue.addFirst(task);
+        if (isWorkerRunning || suspensions > 0) {
+            return;
+        }
+        isWorkerRunning = true;
+    }
+    startQueueWorker();
+}

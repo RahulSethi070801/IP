@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "34": "  ImmutableList<MutableGraph<Integer>> graphsToTest;\n",
+        "35": "  Graph<Integer> directedGraph;\n",
+        "36": "  Graph<Integer> undirectedGraph;\n",
+        "44": "    MutableGraph<Integer> mutableDirectedGraph =\n",
+        "45": "        GraphBuilder.directed().allowsSelfLoops(true).build();\n",
+        "46": "    MutableGraph<Integer> mutableUndirectedGraph =\n",
+        "47": "        GraphBuilder.undirected().allowsSelfLoops(true).build();\n",
+        "69": "    for (MutableGraph<Integer> graph : graphsToTest) {\n",
+        "79": "    for (MutableGraph<Integer> graph : graphsToTest) {\n",
+        "88": "    for (MutableGraph<Integer> graph : graphsToTest) {\n",
+        "97": "    for (MutableGraph<Integer> graph : graphsToTest) {\n",
+        "107": "    for (MutableGraph<Integer> graph : graphsToTest) {\n",
+        "117": "    for (MutableGraph<Integer> graph : graphsToTest) {\n",
+        "128": "    for (MutableGraph<Integer> graph : graphsToTest) {\n",
+        "139": "    for (MutableGraph<Integer> graph : graphsToTest) {\n",
+        "150": "    for (MutableGraph<Integer> graph : graphsToTest) {\n"
+    },
+    "removed": {
+        "34": "  ImmutableList<MutableBasicGraph<Integer>> graphsToTest;\n",
+        "35": "  BasicGraph<Integer> directedGraph;\n",
+        "36": "  BasicGraph<Integer> undirectedGraph;\n",
+        "44": "    MutableBasicGraph<Integer> mutableDirectedGraph =\n",
+        "45": "        BasicGraphBuilder.directed().allowsSelfLoops(true).build();\n",
+        "46": "    MutableBasicGraph<Integer> mutableUndirectedGraph =\n",
+        "47": "        BasicGraphBuilder.undirected().allowsSelfLoops(true).build();\n",
+        "69": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n",
+        "79": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n",
+        "88": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n",
+        "97": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n",
+        "107": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n",
+        "117": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n",
+        "128": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n",
+        "139": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n",
+        "150": "    for (MutableBasicGraph<Integer> graph : graphsToTest) {\n"
+    }
+}

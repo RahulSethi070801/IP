@@ -1,0 +1,10 @@
+com.google.common.collect.super.com.google.common.collect.Lists
+cartesianProduct
+static List<List<B>> cartesianProduct(List<? extends B>... lists)
+List...
+List
+com.google.common.collect.super.com.google.common.collect.Lists
+cartesianProduct
+static List<List<B>> cartesianProduct(List<? extends List<? extends B>> lists)
+List
+List

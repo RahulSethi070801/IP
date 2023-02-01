@@ -1,0 +1,9 @@
+
+   * {@inheritDoc}
+   *
+   * <p>If the multimap is modified while an iteration over the list is in progress (except through
+   * the iterator's own {@code add}, {@code set} or {@code remove} operations) the results of the
+   * iteration are undefined.
+   *
+   * <p>The returned list is not serializable and does not have random access.
+   

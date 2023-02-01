@@ -1,0 +1,7 @@
+public static void closeQuietly(@NullableDecl InputStream inputStream) {
+    try {
+        close(inputStream, true);
+    } catch (IOException impossible) {
+        throw new AssertionError(impossible);
+    }
+}

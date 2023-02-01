@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "97": "  @Override\n",
+        "98": "  public boolean hasEdgeConnecting(EndpointPair<N> endpoints) {\n",
+        "99": "    return delegate().hasEdgeConnecting(endpoints);\n",
+        "100": "  }\n",
+        "101": "\n",
+        "107": "\n",
+        "108": "  @Override\n",
+        "109": "  @NullableDecl\n",
+        "110": "  public V edgeValueOrDefault(EndpointPair<N> endpoints, @NullableDecl V defaultValue) {\n",
+        "111": "    return delegate().edgeValueOrDefault(endpoints, defaultValue);\n",
+        "112": "  }\n"
+    },
+    "removed": {}
+}

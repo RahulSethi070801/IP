@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "21": "import java.util.function.Consumer;\n",
+        "59": "  @GwtIncompatible // not present in emulated superclass\n",
+        "60": "  @Override\n",
+        "61": "  public void forEach(Consumer<? super E> action) {\n",
+        "62": "    delegateList.forEach(action);\n",
+        "63": "  }\n",
+        "64": "\n"
+    },
+    "removed": {}
+}

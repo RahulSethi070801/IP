@@ -1,0 +1,4 @@
+ByteProcessor_2
+Insertions: [22, 36, 37, 51]
+Deletions: [35]
+guava/src/com/google/common/io/ByteProcessor.java

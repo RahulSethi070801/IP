@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "36": "import java.util.Spliterator;\n",
+        "253": "\n",
+        "254": "    @SuppressWarnings(\"unchecked\")\n",
+        "255": "    @Override\n",
+        "256": "    Spliterator<Cell<C, R, V>> cellSpliterator() {\n",
+        "257": "      return CollectSpliterators.map(original.cellSet().spliterator(), (Function) TRANSPOSE_CELL);\n",
+        "258": "    }\n",
+        "416": "    @Override\n",
+        "417": "    Spliterator<Cell<R, C, V2>> cellSpliterator() {\n",
+        "418": "      return CollectSpliterators.map(fromTable.cellSet().spliterator(), cellFunction());\n",
+        "419": "    }\n",
+        "420": "\n"
+    },
+    "removed": {}
+}

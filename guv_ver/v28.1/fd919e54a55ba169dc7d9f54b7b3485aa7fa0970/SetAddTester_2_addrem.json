@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "31": " * A generic JUnit test which tests add operations on a set. Can't be invoked directly; please see\n",
+        "55": "   * Returns the {@link Method} instance for {@link #testAdd_supportedNullPresent()} so that tests\n",
+        "56": "   * can suppress it. See {@link CollectionAddTester#getAddNullSupportedMethod()} for details.\n"
+    },
+    "removed": {
+        "31": " * A generic JUnit test which tests add operations on a set. Can't be\n",
+        "32": " * invoked directly; please see\n",
+        "56": "   * Returns the {@link Method} instance for\n",
+        "57": "   * {@link #testAdd_supportedNullPresent()} so that tests can suppress it. See\n",
+        "58": "   * {@link CollectionAddTester#getAddNullSupportedMethod()} for details.\n"
+    }
+}

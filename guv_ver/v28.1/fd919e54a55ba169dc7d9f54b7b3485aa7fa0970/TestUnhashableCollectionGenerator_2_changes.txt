@@ -1,0 +1,4 @@
+TestUnhashableCollectionGenerator_2
+Insertions: [48, 49]
+Deletions: [48, 49]
+guava-testlib/src/com/google/common/collect/testing/TestUnhashableCollectionGenerator.java

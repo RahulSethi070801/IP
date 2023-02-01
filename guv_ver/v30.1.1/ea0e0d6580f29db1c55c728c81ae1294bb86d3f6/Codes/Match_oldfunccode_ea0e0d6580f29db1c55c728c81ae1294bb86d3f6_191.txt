@@ -1,0 +1,4 @@
+@Override
+public E pollFirst() {
+    return getElementOrNull(multiset().pollFirstEntry());
+}

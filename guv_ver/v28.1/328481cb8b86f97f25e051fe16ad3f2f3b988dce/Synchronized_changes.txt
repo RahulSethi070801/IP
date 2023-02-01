@@ -1,0 +1,4 @@
+Synchronized
+Insertions: [521, 647, 748, 781, 866, 867, 872, 874, 877, 880, 965, 999, 1207, 1223]
+Deletions: [521, 647, 748, 781, 866, 867, 872, 874, 877, 880, 965, 999, 1207, 1223]
+android/guava/src/com/google/common/collect/Synchronized.java

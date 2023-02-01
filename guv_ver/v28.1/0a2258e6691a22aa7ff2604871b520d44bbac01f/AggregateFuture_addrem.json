@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "47": "  @Nullable private RunningState runningState;\n",
+        "281": "    abstract void collectOneValue(boolean allMustSucceed, int index, @Nullable InputT returnValue);\n"
+    },
+    "removed": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "47": "  @NullableDecl private RunningState runningState;\n",
+        "281": "    abstract void collectOneValue(\n",
+        "282": "        boolean allMustSucceed, int index, @NullableDecl InputT returnValue);\n"
+    }
+}

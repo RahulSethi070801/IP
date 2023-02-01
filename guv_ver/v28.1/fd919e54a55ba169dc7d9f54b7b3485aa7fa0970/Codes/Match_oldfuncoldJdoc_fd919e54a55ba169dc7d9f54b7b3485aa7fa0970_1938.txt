@@ -1,0 +1,9 @@
+
+   * Reads a line of text. A line is considered to be terminated by any one of a line feed
+   * ({@code '\n'}), a carriage return ({@code '\r'}), or a carriage return followed immediately by
+   * a linefeed ({@code "\r\n"}).
+   *
+   * @return a {@code String} containing the contents of the line, not including any
+   *     line-termination characters, or {@code null} if the end of the stream has been reached.
+   * @throws IOException if an I/O error occurs
+   

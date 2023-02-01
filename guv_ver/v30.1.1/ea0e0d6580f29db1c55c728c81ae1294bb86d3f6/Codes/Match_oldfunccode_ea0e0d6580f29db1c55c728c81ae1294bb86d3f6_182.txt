@@ -1,0 +1,4 @@
+@Override
+public Entry<E> lastEntry() {
+    return delegate().lastEntry();
+}

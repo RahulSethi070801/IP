@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "44": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "173": "    @Nullable volatile Thread thread;\n",
+        "174": "    @Nullable volatile Waiter next;\n",
+        "251": "    @Nullable Listener next;\n",
+        "296": "    @Nullable final Throwable cause;\n",
+        "298": "    Cancellation(boolean wasInterrupted, @Nullable Throwable cause) {\n",
+        "344": "  @Nullable private volatile Object value;\n",
+        "347": "  @Nullable private volatile Listener listeners;\n",
+        "350": "  @Nullable private volatile Waiter waiters;\n",
+        "686": "  protected boolean set(@Nullable V value) {\n",
+        "903": "  final void maybePropagateCancellationTo(@Nullable Future<?> related) {\n",
+        "981": "  @Nullable\n",
+        "1236": "      @Nullable String message, @Nullable Throwable cause) {\n"
+    },
+    "removed": {
+        "44": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "173": "    @NullableDecl volatile Thread thread;\n",
+        "174": "    @NullableDecl volatile Waiter next;\n",
+        "251": "    @NullableDecl Listener next;\n",
+        "296": "    @NullableDecl final Throwable cause;\n",
+        "298": "    Cancellation(boolean wasInterrupted, @NullableDecl Throwable cause) {\n",
+        "344": "  @NullableDecl private volatile Object value;\n",
+        "347": "  @NullableDecl private volatile Listener listeners;\n",
+        "350": "  @NullableDecl private volatile Waiter waiters;\n",
+        "686": "  protected boolean set(@NullableDecl V value) {\n",
+        "903": "  final void maybePropagateCancellationTo(@NullableDecl Future<?> related) {\n",
+        "981": "  @NullableDecl\n",
+        "1236": "      @NullableDecl String message, @NullableDecl Throwable cause) {\n"
+    }
+}

@@ -1,0 +1,3 @@
+static <T extends @Nullable Object> GeneralRange<T> downTo(Comparator<? super T> comparator, @ParametricNullness T endpoint, BoundType boundType) {
+    return new GeneralRange<T>(comparator, true, endpoint, boundType, false, null, OPEN);
+}

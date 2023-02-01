@@ -1,0 +1,4 @@
+CheckedFuture
+Insertions: [82]
+Deletions: [82]
+android/guava/src/com/google/common/util/concurrent/CheckedFuture.java

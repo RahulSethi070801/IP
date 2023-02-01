@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.AbstractScheduledService
+cancel
+public boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean

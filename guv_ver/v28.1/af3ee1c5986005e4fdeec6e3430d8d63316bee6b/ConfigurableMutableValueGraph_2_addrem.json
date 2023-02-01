@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "101": "  @Override\n",
+        "102": "  @CanIgnoreReturnValue\n",
+        "103": "  public V putEdgeValue(EndpointPair<N> endpoints, V value) {\n",
+        "104": "    validateEndpoints(endpoints);\n",
+        "105": "    return putEdgeValue(endpoints.nodeU(), endpoints.nodeV(), value);\n",
+        "106": "  }\n",
+        "107": "\n",
+        "161": "  @Override\n",
+        "162": "  @CanIgnoreReturnValue\n",
+        "163": "  public V removeEdge(EndpointPair<N> endpoints) {\n",
+        "164": "    validateEndpoints(endpoints);\n",
+        "165": "    return removeEdge(endpoints.nodeU(), endpoints.nodeV());\n",
+        "166": "  }\n",
+        "167": "\n"
+    },
+    "removed": {}
+}

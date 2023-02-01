@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "26": "/** Tests for {@link Murmur3_32HashFunction}. */\n",
+        "50": "    assertHash(\n",
+        "51": "        -528633700, murmur3_32().hashUnencodedChars(\"The quick brown fox jumps over the lazy dog\"));\n",
+        "90": "    HashFn hf =\n",
+        "91": "        new HashFn() {\n",
+        "92": "          @Override\n",
+        "93": "          public byte[] hash(byte[] input, int seed) {\n",
+        "94": "            return murmur3_32(seed).hashBytes(input).asBytes();\n",
+        "95": "          }\n",
+        "96": "        };\n",
+        "103": "    HashFn hf =\n",
+        "104": "        new HashFn() {\n",
+        "105": "          @Override\n",
+        "106": "          public byte[] hash(byte[] input, int seed) {\n",
+        "107": "            Hasher hasher = murmur3_32(seed).newHasher();\n",
+        "108": "            Funnels.byteArrayFunnel().funnel(input, hasher);\n",
+        "109": "            return hasher.hash().asBytes();\n",
+        "110": "          }\n",
+        "111": "        };\n"
+    },
+    "removed": {
+        "26": "/**\n",
+        "27": " * Tests for {@link Murmur3_32HashFunction}.\n",
+        "28": " */\n",
+        "52": "    assertHash(-528633700,\n",
+        "53": "        murmur3_32().hashUnencodedChars(\"The quick brown fox jumps over the lazy dog\"));\n",
+        "92": "    HashFn hf = new HashFn() {\n",
+        "93": "      @Override public byte[] hash(byte[] input, int seed) {\n",
+        "94": "        return murmur3_32(seed).hashBytes(input).asBytes();\n",
+        "95": "      }\n",
+        "96": "    };\n",
+        "103": "    HashFn hf = new HashFn() {\n",
+        "104": "      @Override public byte[] hash(byte[] input, int seed) {\n",
+        "105": "        Hasher hasher = murmur3_32(seed).newHasher();\n",
+        "106": "        Funnels.byteArrayFunnel().funnel(input, hasher);\n",
+        "107": "        return hasher.hash().asBytes();\n",
+        "108": "      }\n",
+        "109": "    };\n"
+    }
+}

@@ -1,0 +1,4 @@
+Invokable
+Insertions: [33, 34, 59, 98, 99, 101, 102, 179, 180, 202, 203, 257]
+Deletions: [33, 96, 97, 99, 176, 198, 252]
+android/guava/src/com/google/common/reflect/Invokable.java

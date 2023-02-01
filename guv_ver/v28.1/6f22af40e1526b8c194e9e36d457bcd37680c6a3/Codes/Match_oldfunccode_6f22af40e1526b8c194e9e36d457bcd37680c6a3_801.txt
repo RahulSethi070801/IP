@@ -1,0 +1,4 @@
+@Nullable
+V getLiveValueForTesting(InternalEntry<K, V, ?> entry) {
+    return getLiveValue(castForTesting(entry));
+}

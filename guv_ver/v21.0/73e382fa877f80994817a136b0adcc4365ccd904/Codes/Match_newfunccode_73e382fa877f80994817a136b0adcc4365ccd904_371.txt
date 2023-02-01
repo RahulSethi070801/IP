@@ -1,0 +1,8 @@
+@Override
+Spliterator<Entry<C, V>> entrySpliterator() {
+    Map<C, V> map = backingRowMap();
+    if (map == null) {
+        return Spliterators.emptySpliterator();
+    }
+    return CollectSpliterators.map(map.entrySet().spliterator(), this::wrapEntry);
+}

@@ -1,0 +1,4 @@
+@Override
+public Spliterator<K> spliterator() {
+    return map().keySet().spliterator();
+}

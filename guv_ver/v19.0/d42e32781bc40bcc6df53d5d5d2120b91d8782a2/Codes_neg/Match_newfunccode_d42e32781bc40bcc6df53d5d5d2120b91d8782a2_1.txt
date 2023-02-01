@@ -1,0 +1,4 @@
+@SuppressWarnings({ "unchecked" })
+public static <E> ImmutableSet<E> of() {
+    return (ImmutableSet<E>) EmptyImmutableSet.INSTANCE;
+}

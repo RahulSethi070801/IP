@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "26": " * Workaround for <a href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6312706\">EnumMap\n",
+        "27": " * bug</a>. If you want to pass an {@code EnumMap}, with the intention of using its {@code\n",
+        "28": " * entrySet()} method, you should wrap the {@code EnumMap} in this class instead.\n",
+        "44": "   * Wraps the given map into a {@code WellBehavedEntriesMap}, which intercepts its {@code\n",
+        "45": "   * entrySet()} method by taking the {@code Set<K> keySet()} and transforming it to {@code\n",
+        "46": "   * Set<Entry<K, V>>}. All other invocations are delegated as-is.\n"
+    },
+    "removed": {
+        "26": " * Workaround for\n",
+        "27": " * <a href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6312706\">\n",
+        "28": " * EnumMap bug</a>. If you want to pass an {@code EnumMap}, with the\n",
+        "29": " * intention of using its {@code entrySet()} method, you should\n",
+        "30": " * wrap the {@code EnumMap} in this class instead.\n",
+        "46": "   * Wraps the given map into a {@code WellBehavedEntriesMap}, which\n",
+        "47": "   * intercepts its {@code entrySet()} method by taking the\n",
+        "48": "   * {@code Set<K> keySet()} and transforming it to\n",
+        "49": "   * {@code Set<Entry<K, V>>}. All other invocations are delegated as-is.\n"
+    }
+}

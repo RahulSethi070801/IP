@@ -1,0 +1,11 @@
+public static void flush(Flushable flushable, boolean swallowIOException) throws IOException {
+    try {
+        flushable.flush();
+    } catch (IOException e) {
+        if (swallowIOException) {
+            logger.log(Level.WARNING, "IOException thrown while flushing Flushable.", e);
+        } else {
+            throw e;
+        }
+    }
+}

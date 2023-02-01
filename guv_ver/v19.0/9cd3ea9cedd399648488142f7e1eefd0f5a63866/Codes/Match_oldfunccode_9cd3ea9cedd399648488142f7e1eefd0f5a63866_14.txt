@@ -1,0 +1,3 @@
+public final String join(Object[] parts) {
+    return join(Arrays.asList(parts));
+}

@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "131": "      fail(\n",
+        "132": "          \"Expected IllegalArgumentException from mapping(x1, y1).and(x2, y2) with\"\n",
+        "133": "              + \" (x1 == x2) && (y1 == y2)\");\n"
+    },
+    "removed": {
+        "131": "      fail(\"Expected IllegalArgumentException from mapping(x1, y1).and(x2, y2) with\" +\n",
+        "132": "          \" (x1 == x2) && (y1 == y2)\");\n"
+    }
+}

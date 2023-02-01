@@ -1,0 +1,4 @@
+CountingOutputStream
+Insertions: [31]
+Deletions: []
+android/guava/src/com/google/common/io/CountingOutputStream.java

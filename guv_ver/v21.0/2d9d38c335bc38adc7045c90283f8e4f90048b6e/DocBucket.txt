@@ -1,0 +1,5 @@
+com.google.common.base.Converter
+from
+public static Converter<A, B> from(Function<? super A, ? extends B> forwardFunction, Function<? super B, ? extends A> backwardFunction)
+Function,Function
+Converter

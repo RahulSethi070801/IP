@@ -1,0 +1,4 @@
+Callables_2
+Insertions: [4, 5, 9, 10, 11, 12, 38, 40, 42, 43, 59, 60, 64, 65, 94, 95]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 40, 41, 43, 45, 61, 62, 66, 95]
+guava/src/com/google/common/util/concurrent/Callables.java

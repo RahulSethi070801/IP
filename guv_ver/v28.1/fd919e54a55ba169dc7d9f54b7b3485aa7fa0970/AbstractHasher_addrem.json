@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "23": " * An abstract implementation of {@link Hasher}, which only requires subtypes to implement {@link\n",
+        "24": " * #putByte}. Subtypes may provide more efficient implementations, however.\n"
+    },
+    "removed": {
+        "23": " * An abstract implementation of {@link Hasher}, which only requires subtypes to implement\n",
+        "24": " * {@link #putByte}.  Subtypes may provide more efficient implementations, however.\n"
+    }
+}

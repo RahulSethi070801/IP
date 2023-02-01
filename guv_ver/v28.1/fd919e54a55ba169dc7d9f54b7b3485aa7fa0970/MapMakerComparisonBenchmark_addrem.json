@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "45": "  @Benchmark\n",
+        "46": "  void concurrentHashMap(int rep) {\n",
+        "52": "  @Benchmark\n",
+        "53": "  void cacheBuilder_stats(int rep) {\n",
+        "59": "  @Benchmark\n",
+        "60": "  void cacheBuilder(int rep) {\n"
+    },
+    "removed": {
+        "45": "  @Benchmark void concurrentHashMap(int rep) {\n",
+        "51": "  @Benchmark void cacheBuilder_stats(int rep) {\n",
+        "57": "  @Benchmark void cacheBuilder(int rep) {\n"
+    }
+}

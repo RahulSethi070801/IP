@@ -1,0 +1,1 @@
+ unsafe, but worst case is a CCE is thrown, which callers will be expecting

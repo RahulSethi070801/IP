@@ -1,0 +1,10 @@
+
+   * Returns the index of the last matching BMP character in a character sequence,
+   * or {@code -1} if no matching character is present.
+   *
+   * <p>The default implementation iterates over the sequence in reverse order calling
+   * {@link #matches} for each character.
+   *
+   * @param sequence the character sequence to examine from the end
+   * @return an index, or {@code -1} if no character matches
+   

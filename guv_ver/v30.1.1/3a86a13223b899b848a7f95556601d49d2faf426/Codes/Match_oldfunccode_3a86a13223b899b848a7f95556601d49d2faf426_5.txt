@@ -1,0 +1,4 @@
+@GwtIncompatible
+public final E[] toArray(Class<E> type) {
+    return Iterables.toArray(getDelegate(), type);
+}

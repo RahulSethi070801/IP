@@ -1,0 +1,3 @@
+static boolean containsValueImpl(Map<?, ?> map, @Nullable Object value) {
+    return Iterators.contains(valueIterator(map.entrySet().iterator()), value);
+}

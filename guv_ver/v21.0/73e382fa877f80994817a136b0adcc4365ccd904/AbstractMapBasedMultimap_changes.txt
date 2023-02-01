@@ -1,0 +1,4 @@
+AbstractMapBasedMultimap
+Insertions: [25, 26, 46, 47, 973, 974, 975, 976, 977, 1213, 1214, 1215, 1216, 1217, 1218, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, 1278, 1388, 1389, 1390, 1391, 1392]
+Deletions: []
+guava/src/com/google/common/collect/AbstractMapBasedMultimap.java

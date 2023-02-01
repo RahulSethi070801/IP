@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "37": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "551": "    public boolean equals(@NullableDecl Object other) {\n",
+        "569": "    @NullableDecl final Character paddingChar;\n",
+        "571": "    StandardBaseEncoding(String name, String alphabetChars, @NullableDecl Character paddingChar) {\n",
+        "575": "    StandardBaseEncoding(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "835": "    BaseEncoding newInstance(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "854": "    public boolean equals(@NullableDecl Object other) {\n",
+        "911": "    BaseEncoding newInstance(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "917": "    Base64Encoding(String name, String alphabetChars, @NullableDecl Character paddingChar) {\n",
+        "921": "    private Base64Encoding(Alphabet alphabet, @NullableDecl Character paddingChar) {\n",
+        "968": "    BaseEncoding newInstance(Alphabet alphabet, @NullableDecl Character paddingChar) {\n"
+    },
+    "removed": {
+        "37": "import javax.annotation.Nullable;\n",
+        "551": "    public boolean equals(@Nullable Object other) {\n",
+        "569": "    @Nullable final Character paddingChar;\n",
+        "571": "    StandardBaseEncoding(String name, String alphabetChars, @Nullable Character paddingChar) {\n",
+        "575": "    StandardBaseEncoding(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "835": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "854": "    public boolean equals(@Nullable Object other) {\n",
+        "911": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "917": "    Base64Encoding(String name, String alphabetChars, @Nullable Character paddingChar) {\n",
+        "921": "    private Base64Encoding(Alphabet alphabet, @Nullable Character paddingChar) {\n",
+        "968": "    BaseEncoding newInstance(Alphabet alphabet, @Nullable Character paddingChar) {\n"
+    }
+}

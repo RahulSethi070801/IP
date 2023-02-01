@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "56": "  @NullableDecl ListenableFuture<? extends I> inputFuture;\n",
+        "57": "  @NullableDecl F function;\n",
+        "164": "  @NullableDecl\n",
+        "165": "  abstract T doTransform(F function, @NullableDecl I result) throws Exception;\n",
+        "169": "  abstract void setResult(@NullableDecl T result);\n",
+        "202": "        AsyncFunction<? super I, ? extends O> function, @NullableDecl I input) throws Exception {\n",
+        "229": "    @NullableDecl\n",
+        "230": "    O doTransform(Function<? super I, ? extends O> function, @NullableDecl I input) {\n",
+        "236": "    void setResult(@NullableDecl O result) {\n"
+    },
+    "removed": {
+        "28": "import javax.annotation.Nullable;\n",
+        "56": "  @Nullable ListenableFuture<? extends I> inputFuture;\n",
+        "57": "  @Nullable F function;\n",
+        "164": "  @Nullable\n",
+        "165": "  abstract T doTransform(F function, @Nullable I result) throws Exception;\n",
+        "169": "  abstract void setResult(@Nullable T result);\n",
+        "202": "        AsyncFunction<? super I, ? extends O> function, @Nullable I input) throws Exception {\n",
+        "229": "    @Nullable\n",
+        "230": "    O doTransform(Function<? super I, ? extends O> function, @Nullable I input) {\n",
+        "236": "    void setResult(@Nullable O result) {\n"
+    }
+}

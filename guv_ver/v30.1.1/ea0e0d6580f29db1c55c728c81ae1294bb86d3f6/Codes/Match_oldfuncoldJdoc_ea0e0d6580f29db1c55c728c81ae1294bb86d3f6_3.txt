@@ -1,0 +1,7 @@
+
+   * A sensible, albeit inefficient, definition of {@link #count} in terms of {@link #entrySet}. If
+   * you override {@link #entrySet}, you may wish to override {@link #count} to forward to this
+   * implementation.
+   *
+   * @since 7.0
+   

@@ -1,0 +1,4 @@
+Callables
+Insertions: [24, 37]
+Deletions: [24, 37]
+guava/src/com/google/common/util/concurrent/Callables.java

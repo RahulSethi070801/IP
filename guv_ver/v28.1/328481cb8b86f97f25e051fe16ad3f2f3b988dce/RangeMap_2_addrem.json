@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "23": "import java.util.Map.Entry;\n",
+        "55": "  Entry<Range<K>, V> getEntry(K key);\n"
+    },
+    "removed": {
+        "54": "  Map.Entry<Range<K>, V> getEntry(K key);\n"
+    }
+}

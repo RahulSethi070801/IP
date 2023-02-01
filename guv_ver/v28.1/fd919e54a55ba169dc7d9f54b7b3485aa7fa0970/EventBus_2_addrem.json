@@ -1,0 +1,41 @@
+{
+    "addition": {
+        "41": " *\n",
+        "43": " *   <li>Expose a public method, known as the <i>event subscriber</i>, which accepts a single\n",
+        "44": " *       argument of the type of event desired;\n",
+        "45": " *   <li>Mark it with a {@link Subscribe} annotation;\n",
+        "46": " *   <li>Pass itself to an EventBus instance's {@link #register(Object)} method.\n",
+        "72": " * simultaneously, unless the method explicitly allows it by bearing the {@link\n",
+        "73": " * AllowConcurrentEvents} annotation. If this annotation is not present, subscriber methods need not\n",
+        "74": " * worry about being reentrant, unless also called from outside the EventBus.\n",
+        "89": " * <p>See the Guava User Guide article on <a\n",
+        "90": " * href=\"https://github.com/google/guava/wiki/EventBusExplained\">{@code EventBus}</a>.\n",
+        "107": "  /** Creates a new EventBus named \"default\". */\n",
+        "160": "  /** Returns the default executor this event bus uses for dispatching events to subscribers. */\n",
+        "165": "  /** Handles the given exception thrown by a subscriber with the given context. */\n",
+        "224": "  /** Simple logging handler for subscriber exceptions. */\n"
+    },
+    "removed": {
+        "42": " * <li>Expose a public method, known as the <i>event subscriber</i>, which accepts a single argument\n",
+        "43": " *     of the type of event desired;\n",
+        "44": " * <li>Mark it with a {@link Subscribe} annotation;\n",
+        "45": " * <li>Pass itself to an EventBus instance's {@link #register(Object)} method.\n",
+        "71": " * simultaneously, unless the method explicitly allows it by bearing the\n",
+        "72": " * {@link AllowConcurrentEvents} annotation. If this annotation is not present, subscriber methods\n",
+        "73": " * need not worry about being reentrant, unless also called from outside the EventBus.\n",
+        "88": " * <p>See the Guava User Guide article on\n",
+        "89": " * <a href=\"https://github.com/google/guava/wiki/EventBusExplained\">{@code EventBus}</a>.\n",
+        "106": "  /**\n",
+        "107": "   * Creates a new EventBus named \"default\".\n",
+        "108": "   */\n",
+        "161": "  /**\n",
+        "162": "   * Returns the default executor this event bus uses for dispatching events to subscribers.\n",
+        "163": "   */\n",
+        "168": "  /**\n",
+        "169": "   * Handles the given exception thrown by a subscriber with the given context.\n",
+        "170": "   */\n",
+        "229": "  /**\n",
+        "230": "   * Simple logging handler for subscriber exceptions.\n",
+        "231": "   */\n"
+    }
+}

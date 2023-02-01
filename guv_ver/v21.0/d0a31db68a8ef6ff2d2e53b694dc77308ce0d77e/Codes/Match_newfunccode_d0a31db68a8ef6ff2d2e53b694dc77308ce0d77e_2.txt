@@ -1,0 +1,3 @@
+public static <N, V> ImmutableGraph<N, V> copyOf(Graph<N, V> graph) {
+    return (graph instanceof ImmutableGraph) ? (ImmutableGraph<N, V>) graph : new ImmutableGraph<N, V>(graph);
+}

@@ -1,0 +1,14 @@
+private static <T> Iterator<Iterator<? extends T>> getComponentIterators(Iterator<? extends Iterator<? extends T>> iterators) {
+    return new MultitransformedIterator<Iterator<? extends T>, Iterator<? extends T>>(iterators) {
+
+        @Override
+        Iterator<? extends Iterator<? extends T>> transform(Iterator<? extends T> iterator) {
+            if (iterator instanceof ConcatenatedIterator) {
+                ConcatenatedIterator<? extends T> concatIterator = (ConcatenatedIterator<? extends T>) iterator;
+                return getComponentIterators(concatIterator.backingIterator);
+            } else {
+                return Iterators.singletonIterator(iterator);
+            }
+        }
+    };
+}

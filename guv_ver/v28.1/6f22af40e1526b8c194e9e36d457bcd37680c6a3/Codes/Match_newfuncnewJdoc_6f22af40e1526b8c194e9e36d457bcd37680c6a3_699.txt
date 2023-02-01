@@ -1,0 +1,10 @@
+
+   * Returns the first element in {@code iterable} that satisfies the given predicate, or {@code
+   * defaultValue} if none found. Note that this can usually be handled more naturally using {@code
+   * tryFind(iterable, predicate).or(defaultValue)}.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code
+   * stream.filter(predicate).findFirst().orElse(defaultValue)}
+   *
+   * @since 7.0
+   

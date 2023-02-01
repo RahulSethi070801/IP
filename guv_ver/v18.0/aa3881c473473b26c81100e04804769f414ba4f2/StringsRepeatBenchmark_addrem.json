@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "64": "  private static String mikeRepeat(String string, int count) {\n",
+        "87": "  private static String oldRepeat(String string, int count) {\n",
+        "99": "  private static String martinRepeat(String string, int count) {\n"
+    },
+    "removed": {
+        "64": "  private static final String mikeRepeat(String string, int count) {\n",
+        "87": "  private static final String oldRepeat(String string, int count) {\n",
+        "99": "  private static final String martinRepeat(String string, int count) {\n"
+    }
+}

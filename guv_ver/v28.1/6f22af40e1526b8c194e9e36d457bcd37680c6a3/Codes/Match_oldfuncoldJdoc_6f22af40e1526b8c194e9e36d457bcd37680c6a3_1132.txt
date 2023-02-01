@@ -1,0 +1,8 @@
+
+   * Returns a new array that appends {@code element} to {@code array}.
+   *
+   * @param array the array of elements to prepend
+   * @param element the element to append to the end
+   * @return an array whose size is one larger than {@code array}, with the same contents as {@code
+   *     array}, plus {@code element} occupying the last position.
+   

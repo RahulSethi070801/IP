@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "57": "    } catch (IllegalArgumentException expected) {\n",
+        "58": "    }\n",
+        "63": "    } catch (IllegalArgumentException expected) {\n",
+        "64": "    }\n",
+        "72": "    } catch (UnsupportedOperationException expected) {\n",
+        "73": "    }\n",
+        "359": "        testEncoding(\n",
+        "360": "            encoding.withSeparator(separator, sepLength),\n",
+        "361": "            decoded,\n",
+        "427": "        testStreamingEncoding(\n",
+        "428": "            encoding.withSeparator(separator, sepLength),\n",
+        "429": "            decoded,\n"
+    },
+    "removed": {
+        "57": "    } catch (IllegalArgumentException expected) {}\n",
+        "62": "    } catch (IllegalArgumentException expected) {}\n",
+        "70": "    } catch (UnsupportedOperationException expected) {}\n",
+        "356": "        testEncoding(encoding.withSeparator(separator, sepLength), decoded,\n",
+        "422": "        testStreamingEncoding(encoding.withSeparator(separator, sepLength), decoded,\n"
+    }
+}

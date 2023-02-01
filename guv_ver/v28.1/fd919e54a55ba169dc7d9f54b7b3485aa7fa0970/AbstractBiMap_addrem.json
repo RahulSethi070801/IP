@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "40": " * A general-purpose bimap implementation using any two backing {@code Map} instances.\n",
+        "42": " * <p>Note that this class contains {@code equals()} calls that keep it from supporting {@code\n",
+        "43": " * IdentityHashMap} backing maps.\n",
+        "53": "  @RetainedWith transient AbstractBiMap<V, K> inverse;\n",
+        "71": "  /** Returns its input, or throws an exception if this is not a valid key. */\n",
+        "77": "  /** Returns its input, or throws an exception if this is not a valid value. */\n",
+        "84": "   * Specifies the delegate maps going in each direction. Called by the constructor and by\n",
+        "85": "   * subclasses during deserialization.\n",
+        "434": "    /** @serialData the forward bimap */\n"
+    },
+    "removed": {
+        "40": " * A general-purpose bimap implementation using any two backing {@code Map}\n",
+        "41": " * instances.\n",
+        "43": " * <p>Note that this class contains {@code equals()} calls that keep it from\n",
+        "44": " * supporting {@code IdentityHashMap} backing maps.\n",
+        "54": "  @RetainedWith\n",
+        "55": "  transient AbstractBiMap<V, K> inverse;\n",
+        "73": "  /**\n",
+        "74": "   * Returns its input, or throws an exception if this is not a valid key.\n",
+        "75": "   */\n",
+        "81": "  /**\n",
+        "82": "   * Returns its input, or throws an exception if this is not a valid value.\n",
+        "83": "   */\n",
+        "90": "   * Specifies the delegate maps going in each direction. Called by the\n",
+        "91": "   * constructor and by subclasses during deserialization.\n",
+        "440": "    /**\n",
+        "441": "     * @serialData the forward bimap\n",
+        "442": "     */\n"
+    }
+}

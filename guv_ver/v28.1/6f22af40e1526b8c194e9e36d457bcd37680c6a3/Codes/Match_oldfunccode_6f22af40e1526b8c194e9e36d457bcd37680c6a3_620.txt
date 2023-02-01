@@ -1,0 +1,8 @@
+@CanIgnoreReturnValue
+protected boolean set(@Nullable V value) {
+    boolean result = sync.set(value);
+    if (result) {
+        executionList.execute();
+    }
+    return result;
+}

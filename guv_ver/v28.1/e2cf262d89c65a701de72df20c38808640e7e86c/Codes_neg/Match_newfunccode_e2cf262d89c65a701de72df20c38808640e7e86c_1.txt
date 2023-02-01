@@ -1,0 +1,9 @@
+@GuardedBy("lock")
+private boolean isSatisfied(Guard guard) {
+    try {
+        return guard.isSatisfied();
+    } catch (Throwable throwable) {
+        signalAllWaiters();
+        throw throwable;
+    }
+}

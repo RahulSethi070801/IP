@@ -1,0 +1,4 @@
+InterruptibleTask
+Insertions: [20, 101]
+Deletions: [20, 101]
+guava/src/com/google/common/util/concurrent/InterruptibleTask.java

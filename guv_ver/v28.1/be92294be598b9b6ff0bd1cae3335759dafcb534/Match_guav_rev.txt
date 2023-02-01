@@ -1,0 +1,15 @@
+private void resizeMeMaybe(int newSize)
+public boolean contains(@Nullable Object object)
+
+private void resizeMeMaybe(int newSize)
+public V put(@Nullable K key, @Nullable V value)
+
+private void resizeMeMaybe(int newSize)
+public V put(@Nullable K key, @Nullable V value)
+
+private void resizeMeMaybe(int newSize)
+public boolean contains(@Nullable Object object)
+
+private void resizeMeMaybe(int newSize)
+void resizeEntries(int newCapacity)
+

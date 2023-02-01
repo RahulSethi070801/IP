@@ -1,0 +1,5 @@
+com.google.common.collect.Streams
+zip
+public static Stream<R> zip(Stream<A> streamA, Stream<B> streamB, BiFunction<? super A, ? super B, R> function)
+Stream,Stream,BiFunction
+Stream

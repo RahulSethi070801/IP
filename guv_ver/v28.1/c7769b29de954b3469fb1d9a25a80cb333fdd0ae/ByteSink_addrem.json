@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "64": "   * Opens a new {@link OutputStream} for writing to this sink. This method returns a new,\n",
+        "69": "   * @throws IOException if an I/O error occurs while opening the stream\n",
+        "77": "   * additional buffering (for example, a {@code ByteArrayOutputStream}). This method returns a new,\n",
+        "78": "   * independent stream each time it is called.\n",
+        "82": "   * @throws IOException if an I/O error occurs while opening the stream\n",
+        "95": "   * @throws IOException if an I/O occurs while writing to this sink\n",
+        "117": "   * @throws IOException if an I/O occurs while reading from {@code input} or writing to this sink\n"
+    },
+    "removed": {
+        "64": "   * Opens a new {@link OutputStream} for writing to this sink. This method should return a new,\n",
+        "69": "   * @throws IOException if an I/O error occurs in the process of opening the stream\n",
+        "77": "   * additional buffering (for example, a {@code ByteArrayOutputStream}). This method should return\n",
+        "78": "   * a new, independent stream each time it is called.\n",
+        "82": "   * @throws IOException if an I/O error occurs in the process of opening the stream\n",
+        "95": "   * @throws IOException if an I/O occurs in the process of writing to this sink\n",
+        "117": "   * @throws IOException if an I/O occurs in the process of reading from {@code input} or writing to\n",
+        "118": "   *     this sink\n"
+    }
+}

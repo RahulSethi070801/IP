@@ -1,0 +1,3 @@
+
+   * Always returns {@code false}.
+   

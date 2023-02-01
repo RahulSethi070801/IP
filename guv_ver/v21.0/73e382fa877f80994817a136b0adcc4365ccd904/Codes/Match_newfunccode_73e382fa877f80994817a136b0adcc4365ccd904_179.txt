@@ -1,0 +1,4 @@
+@Override
+public Spliterator<T> spliterator() {
+    return CollectSpliterators.map(fromCollection.spliterator(), function);
+}

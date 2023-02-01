@@ -1,0 +1,4 @@
+MessageDigestAlgorithmBenchmark
+Insertions: [33, 34, 35, 41, 42, 43, 49, 50, 57, 58, 63, 64, 67, 68, 69, 106, 107, 112, 113]
+Deletions: [33, 34, 35, 41, 47, 54, 59, 62, 96, 101]
+android/guava-tests/benchmark/com/google/common/hash/MessageDigestAlgorithmBenchmark.java

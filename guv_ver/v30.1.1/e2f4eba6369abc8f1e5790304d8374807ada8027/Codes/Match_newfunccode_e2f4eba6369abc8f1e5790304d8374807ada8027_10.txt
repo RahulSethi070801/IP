@@ -1,0 +1,21 @@
+private void merge(long otherCount, double otherMean, double otherSumOfSquaresOfDeltas, double otherMin, double otherMax) {
+    if (count == 0) {
+        count = otherCount;
+        mean = otherMean;
+        sumOfSquaresOfDeltas = otherSumOfSquaresOfDeltas;
+        min = otherMin;
+        max = otherMax;
+    } else {
+        count += otherCount;
+        if (isFinite(mean) && isFinite(otherMean)) {
+            double delta = otherMean - mean;
+            mean += delta * otherCount / count;
+            sumOfSquaresOfDeltas += otherSumOfSquaresOfDeltas + delta * (otherMean - mean) * otherCount;
+        } else {
+            mean = calculateNewMeanNonFinite(mean, otherMean);
+            sumOfSquaresOfDeltas = NaN;
+        }
+        min = Math.min(min, otherMin);
+        max = Math.max(max, otherMax);
+    }
+}

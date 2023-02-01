@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "18": "import static com.google.common.util.concurrent.Futures.getDone;\n",
+        "108": "      sourceResult = getDone(localInputFuture);\n"
+    },
+    "removed": {
+        "21": "import static com.google.common.util.concurrent.Uninterruptibles.getUninterruptibly;\n",
+        "108": "      sourceResult = getUninterruptibly(localInputFuture);\n"
+    }
+}

@@ -1,0 +1,4 @@
+CommonPattern
+Insertions: [26, 28, 30, 32, 36, 37, 38]
+Deletions: [26, 28, 30, 32, 36, 37, 38, 39, 40]
+android/guava/src/com/google/common/base/CommonPattern.java

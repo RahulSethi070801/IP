@@ -1,0 +1,45 @@
+com.google.common.graph.AbstractGraph
+equals
+public final boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.graph.AbstractGraph
+outDegree
+public int outDegree(Object node)
+Object
+int
+com.google.common.graph.Network
+degree
+int degree(Object node)
+Object
+int
+com.google.common.graph.AbstractGraph
+inDegree
+public int inDegree(Object node)
+Object
+int
+com.google.common.graph.AbstractGraph
+degree
+private static int degree(Graph<?, ?> graph, Object node)
+Graph,Object
+int
+com.google.common.graph.Network
+inDegree
+int inDegree(Object node)
+Object
+int
+com.google.common.graph.AbstractGraph
+edgeCount
+protected long edgeCount()
+empty
+long
+com.google.common.graph.AbstractGraph
+degree
+public int degree(Object node)
+Object
+int
+com.google.common.graph.Network
+outDegree
+int outDegree(Object node)
+Object
+int

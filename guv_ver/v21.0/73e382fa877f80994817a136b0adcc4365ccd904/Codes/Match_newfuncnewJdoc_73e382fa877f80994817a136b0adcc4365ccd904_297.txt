@@ -1,0 +1,5 @@
+
+   * Returns the sum of all values in this map.
+   *
+   * <p>This method is not atomic: the sum may or may not include other concurrent operations.
+   

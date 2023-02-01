@@ -1,0 +1,4 @@
+AbstractFuture
+Insertions: [19, 734]
+Deletions: [733]
+guava/src/com/google/common/util/concurrent/AbstractFuture.java

@@ -1,0 +1,14 @@
+public static void move(File from, File to) throws IOException {
+    checkNotNull(from);
+    checkNotNull(to);
+    checkArgument(!from.equals(to), "Source %s and destination %s must be different", from, to);
+    if (!from.renameTo(to)) {
+        copy(from, to);
+        if (!from.delete()) {
+            if (!to.delete()) {
+                throw new IOException("Unable to delete " + to);
+            }
+            throw new IOException("Unable to delete " + from);
+        }
+    }
+}

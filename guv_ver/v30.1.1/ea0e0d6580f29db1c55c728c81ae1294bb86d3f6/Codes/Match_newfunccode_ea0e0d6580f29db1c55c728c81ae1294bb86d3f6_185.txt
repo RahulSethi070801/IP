@@ -1,0 +1,4 @@
+private static <T extends @Nullable Object> void successor(AvlNode<T> a, AvlNode<T> b) {
+    a.succ = b;
+    b.pred = a;
+}

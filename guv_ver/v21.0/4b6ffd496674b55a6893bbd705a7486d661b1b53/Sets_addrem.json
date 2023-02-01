@@ -1,0 +1,10 @@
+{
+    "addition": {},
+    "removed": {
+        "591": "   *\n",
+        "592": "   * <p>Further, note that the current implementation is not suitable for nested\n",
+        "593": "   * {@code union} views, i.e. the following should be avoided when in a loop:\n",
+        "594": "   * {@code union = Sets.union(union, anotherSet);}, since iterating over the resulting\n",
+        "595": "   * set has a cubic complexity to the depth of the nesting.\n"
+    }
+}

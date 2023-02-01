@@ -1,0 +1,6 @@
+private static boolean matchesWildcardPublicSuffix(String domain)
+public InternetDomainName topPrivateDomain()
+
+private static boolean matchesWildcardSuffixType(Optional<PublicSuffixType> desiredType, String domain)
+public boolean isUnderPublicSuffix()
+

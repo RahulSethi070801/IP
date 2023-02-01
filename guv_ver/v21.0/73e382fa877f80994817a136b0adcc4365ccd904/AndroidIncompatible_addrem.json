@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "26": "import com.google.common.annotations.GwtIncompatible;\n",
+        "31": " * Signifies that the annotated element should not be included for use on Android.\n",
+        "35": "@GwtIncompatible // nothing that uses it is GwtCompatible\n"
+    },
+    "removed": {
+        "26": "import com.google.common.annotations.GwtCompatible;\n",
+        "31": " * Signifies that a test should not be run under Android. This annotation is respected only by our\n",
+        "32": " * Google-internal Android suite generators. Note that those generators also suppress any test\n",
+        "33": " * annotated with MediumTest or LargeTest.\n",
+        "34": " *\n",
+        "35": " * <p>For more discussion, see {@linkplain com.google.common.base.AndroidIncompatible the\n",
+        "36": " * documentation on another copy of this annotation}.\n",
+        "40": "@GwtCompatible\n"
+    }
+}

@@ -1,0 +1,10 @@
+
+   * Returns an immutable map for which the elements of this {@code FluentIterable} are the keys in
+   * the same order, mapped to values by the given function. If this iterable contains duplicate
+   * elements, the returned map will contain each distinct element once in the order it first
+   * appears.
+   *
+   * @throws NullPointerException if any element of this iterable is {@code null}, or if {@code
+   *     valueFunction} produces {@code null} for any key
+   * @since 14.0
+   

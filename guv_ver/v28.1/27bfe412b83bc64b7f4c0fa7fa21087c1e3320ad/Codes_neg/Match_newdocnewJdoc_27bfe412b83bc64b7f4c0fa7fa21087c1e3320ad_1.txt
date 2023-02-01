@@ -1,0 +1,10 @@
+
+     * Called when the service transitions to the {@linkplain State#TERMINATED TERMINATED} state.
+     * The {@linkplain State#TERMINATED TERMINATED} state is a terminal state in the transition
+     * diagram. Therefore, if this method is called, no other methods will be called on the {@link
+     * Listener}.
+     *
+     * @param from The previous state that is being transitioned from. Failure can occur in any
+     *     state with the exception of {@linkplain State#FAILED FAILED} and {@linkplain
+     *     State#TERMINATED TERMINATED}.
+     

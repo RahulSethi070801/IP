@@ -1,0 +1,6 @@
+
+   * Returns a view of {@code unfiltered} containing all elements that satisfy the input predicate
+   * {@code retainIfTrue}. The returned iterable's iterator does not support {@code remove()}.
+   *
+   * <p><b>{@code Stream} equivalent:</b> {@code stream.filter()}.
+   

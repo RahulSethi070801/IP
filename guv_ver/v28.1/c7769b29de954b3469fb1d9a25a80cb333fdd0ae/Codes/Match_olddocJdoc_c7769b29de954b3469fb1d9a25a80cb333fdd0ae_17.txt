@@ -1,0 +1,10 @@
+
+   * Reads all the lines of this source as a list of strings. The returned list will be empty if
+   * this source is empty.
+   *
+   * <p>Like {@link BufferedReader}, this method breaks lines on any of {@code \n}, {@code \r} or
+   * {@code \r\n}, does not include the line separator in the returned lines and does not consider
+   * there to be an extra empty line at the end if the content is terminated with a line separator.
+   *
+   * @throws IOException if an I/O error occurs in the process of reading from this source
+   

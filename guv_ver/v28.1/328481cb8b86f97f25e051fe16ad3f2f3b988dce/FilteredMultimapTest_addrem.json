@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "33": "  private static final Predicate<Entry<String, Integer>> ENTRY_PREDICATE\n",
+        "34": "      = new Predicate<Entry<String, Integer>>() {\n"
+    },
+    "removed": {
+        "22": "import java.util.Map;\n",
+        "34": "  private static final Predicate<Map.Entry<String, Integer>> ENTRY_PREDICATE\n",
+        "35": "      = new Predicate<Map.Entry<String, Integer>>() {\n"
+    }
+}

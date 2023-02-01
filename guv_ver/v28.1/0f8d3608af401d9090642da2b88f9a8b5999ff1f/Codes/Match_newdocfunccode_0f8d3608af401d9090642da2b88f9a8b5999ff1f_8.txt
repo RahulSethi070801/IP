@@ -1,0 +1,24 @@
+@Override
+public String toString() {
+    StringBuilder builder = new StringBuilder().append(super.toString()).append("[status=");
+    if (isCancelled()) {
+        builder.append("CANCELLED");
+    } else if (isDone()) {
+        addDoneString(builder);
+    } else {
+        String pendingDescription;
+        try {
+            pendingDescription = pendingToString();
+        } catch (RuntimeException e) {
+            pendingDescription = "Exception thrown from implementation: " + e.getClass();
+        }
+        if (pendingDescription != null && !pendingDescription.isEmpty()) {
+            builder.append("PENDING, info=[").append(pendingDescription).append("]");
+        } else if (isDone()) {
+            addDoneString(builder);
+        } else {
+            builder.append("PENDING");
+        }
+    }
+    return builder.append("]").toString();
+}

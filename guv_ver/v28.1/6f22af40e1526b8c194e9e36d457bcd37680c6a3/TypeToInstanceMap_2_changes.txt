@@ -1,0 +1,4 @@
+TypeToInstanceMap_2
+Insertions: [20, 52, 65, 67, 74, 84, 86]
+Deletions: [20, 52, 65, 67, 74, 84, 86]
+guava/src/com/google/common/reflect/TypeToInstanceMap.java

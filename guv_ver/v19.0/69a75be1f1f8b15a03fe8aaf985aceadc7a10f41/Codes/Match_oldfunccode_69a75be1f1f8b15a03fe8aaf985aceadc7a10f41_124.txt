@@ -1,0 +1,4 @@
+@Override
+boolean casListeners(AbstractFuture future, Listener curr, Listener next) {
+    return LISTENERS_UPDATER.compareAndSet(future, curr, next);
+}

@@ -1,0 +1,5 @@
+
+   * A collector that takes a stream containing exactly one element and returns that element. The
+   * returned collector throws an {@code IllegalArgumentException} if the stream consists of two or
+   * more elements, and a {@code NoSuchElementException} if the stream is empty.
+   

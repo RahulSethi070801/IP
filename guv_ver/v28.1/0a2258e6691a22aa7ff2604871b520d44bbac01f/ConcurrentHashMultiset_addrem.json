@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "44": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "140": "  public int count(@Nullable Object element) {\n",
+        "264": "   * parameter must be misleadingly annotated as @Nullable. I suspect that\n",
+        "265": "   * we'll want to remove @Nullable, add an eager checkNotNull, and loosen up\n",
+        "270": "  public int remove(@Nullable Object element, int occurrences) {\n",
+        "311": "  public boolean removeExactly(@Nullable Object element, int occurrences) {\n",
+        "457": "      public boolean contains(@Nullable Object object) {\n",
+        "525": "      @Nullable private Entry<E> last;\n"
+    },
+    "removed": {
+        "44": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "140": "  public int count(@NullableDecl Object element) {\n",
+        "264": "   * parameter must be misleadingly annotated as @NullableDecl. I suspect that\n",
+        "265": "   * we'll want to remove @NullableDecl, add an eager checkNotNull, and loosen up\n",
+        "270": "  public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "311": "  public boolean removeExactly(@NullableDecl Object element, int occurrences) {\n",
+        "457": "      public boolean contains(@NullableDecl Object object) {\n",
+        "525": "      @NullableDecl private Entry<E> last;\n"
+    }
+}

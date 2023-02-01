@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "34": "        .testForwarding(\n",
+        "35": "            Deque.class,\n",
+        "36": "            new Function<Deque, Deque>() {\n",
+        "37": "              @Override\n",
+        "38": "              public Deque apply(Deque delegate) {\n",
+        "39": "                return wrap(delegate);\n",
+        "40": "              }\n",
+        "41": "            });\n",
+        "46": "      @Override\n",
+        "47": "      protected Deque<T> delegate() {\n"
+    },
+    "removed": {
+        "34": "        .testForwarding(Deque.class, new Function<Deque, Deque>() {\n",
+        "35": "          @Override public Deque apply(Deque delegate) {\n",
+        "36": "            return wrap(delegate);\n",
+        "37": "          }\n",
+        "38": "        });\n",
+        "43": "      @Override protected Deque<T> delegate() {\n"
+    }
+}

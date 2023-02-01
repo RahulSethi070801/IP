@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "34": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "109": "    public int count(@Nullable Object element) {\n",
+        "119": "    public int add(@Nullable E element, int occurrences) {\n"
+    },
+    "removed": {
+        "34": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "109": "    public int count(@NullableDecl Object element) {\n",
+        "119": "    public int add(@NullableDecl E element, int occurrences) {\n"
+    }
+}

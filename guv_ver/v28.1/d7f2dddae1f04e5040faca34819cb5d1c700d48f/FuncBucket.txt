@@ -1,0 +1,5 @@
+com.google.common.hash.BloomFilter
+approximateCount
+public long approximateCount()
+empty
+long

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "35": "  /** Returns a {@link Runnable} instance that does nothing when run. */\n"
+    },
+    "removed": {
+        "35": "  /**\n",
+        "36": "   * Returns a {@link Runnable} instance that does nothing when run.\n",
+        "37": "   */\n"
+    }
+}

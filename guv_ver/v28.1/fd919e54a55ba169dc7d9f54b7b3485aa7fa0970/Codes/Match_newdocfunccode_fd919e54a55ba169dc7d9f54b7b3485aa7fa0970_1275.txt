@@ -1,0 +1,3 @@
+public static Escaper urlFragmentEscaper() {
+    return URL_FRAGMENT_ESCAPER;
+}

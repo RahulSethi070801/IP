@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "33": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "474": "        @Nullable final N node;\n",
+        "477": "        NodeAndSuccessors(@Nullable N node, Iterable<? extends N> successors) {\n",
+        "647": "        @Nullable final N node;\n",
+        "650": "        NodeAndChildren(@Nullable N node, Iterable<? extends N> children) {\n"
+    },
+    "removed": {
+        "33": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "474": "        @NullableDecl final N node;\n",
+        "477": "        NodeAndSuccessors(@NullableDecl N node, Iterable<? extends N> successors) {\n",
+        "647": "        @NullableDecl final N node;\n",
+        "650": "        NodeAndChildren(@NullableDecl N node, Iterable<? extends N> children) {\n"
+    }
+}

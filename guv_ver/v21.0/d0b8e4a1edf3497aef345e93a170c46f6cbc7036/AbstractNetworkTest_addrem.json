@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "281": "        Set<E> edgesConnecting = network.edgesConnecting(node, successor);\n",
+        "283": "        assertThat(edgesConnecting).isNotEmpty();\n",
+        "284": "        assertThat(edgesConnecting).isEqualTo(asGraph.edgeValue(node, successor));\n"
+    },
+    "removed": {
+        "234": "          assertThat(edgesConnecting).isEqualTo(asGraph.edgeValue(node, otherNode));\n",
+        "283": "        assertThat(network.edgesConnecting(node, successor)).isNotEmpty();\n"
+    }
+}

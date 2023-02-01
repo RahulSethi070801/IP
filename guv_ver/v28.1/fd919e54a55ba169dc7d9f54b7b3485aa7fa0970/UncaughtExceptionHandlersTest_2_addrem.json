@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "25": "/** @author Gregory Kick */\n",
+        "31": "  @Override\n",
+        "32": "  protected void setUp() {\n"
+    },
+    "removed": {
+        "25": "/**\n",
+        "26": " * @author Gregory Kick\n",
+        "27": " */\n",
+        "33": "  @Override protected void setUp() {\n"
+    }
+}

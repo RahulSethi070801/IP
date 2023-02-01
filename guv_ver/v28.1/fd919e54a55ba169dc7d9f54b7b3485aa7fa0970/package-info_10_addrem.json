@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "20": " * ByteSource}, {@link com.google.common.io.CharSource CharSource}, {@link\n",
+        "21": " * com.google.common.io.ByteSink ByteSink} and {@link com.google.common.io.CharSink CharSink}. They\n",
+        "22": " * are factories for I/O streams that provide many convenience methods that handle both opening and\n",
+        "23": " * closing streams for you.\n"
+    },
+    "removed": {
+        "20": " * ByteSource}, {@link com.google.common.io.CharSource CharSource},\n",
+        "21": " * {@link com.google.common.io.ByteSink ByteSink} and\n",
+        "22": " * {@link com.google.common.io.CharSink CharSink}. They are factories for I/O streams that provide\n",
+        "23": " * many convenience methods that handle both opening and closing streams for you.\n"
+    }
+}

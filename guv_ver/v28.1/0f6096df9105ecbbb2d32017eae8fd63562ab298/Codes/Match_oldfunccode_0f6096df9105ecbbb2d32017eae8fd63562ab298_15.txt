@@ -1,0 +1,10 @@
+@Override
+public V edgeValue(N nodeU, N nodeV) {
+    V value = edgeValueOrDefault(nodeU, nodeV, null);
+    if (value == null) {
+        checkArgument(nodes().contains(nodeU), NODE_NOT_IN_GRAPH, nodeU);
+        checkArgument(nodes().contains(nodeV), NODE_NOT_IN_GRAPH, nodeV);
+        throw new IllegalArgumentException("Edge connecting " + nodeU + " to " + nodeV + " is not present in this graph.");
+    }
+    return value;
+}

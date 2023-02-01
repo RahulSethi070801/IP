@@ -1,0 +1,32 @@
+@Override
+public V get() throws InterruptedException, ExecutionException {
+    if (Thread.interrupted()) {
+        throw new InterruptedException();
+    }
+    Object localValue = value;
+    if (localValue != null & !(localValue instanceof AbstractFuture.SetFuture)) {
+        return getDoneValue(localValue);
+    }
+    Waiter oldHead = waiters;
+    if (oldHead != Waiter.TOMBSTONE) {
+        Waiter node = new Waiter();
+        do {
+            node.setNext(oldHead);
+            if (ATOMIC_HELPER.casWaiters(this, oldHead, node)) {
+                while (true) {
+                    LockSupport.park(this);
+                    if (Thread.interrupted()) {
+                        removeWaiter(node);
+                        throw new InterruptedException();
+                    }
+                    localValue = value;
+                    if (localValue != null & !(localValue instanceof AbstractFuture.SetFuture)) {
+                        return getDoneValue(localValue);
+                    }
+                }
+            }
+            oldHead = waiters;
+        } while (oldHead != Waiter.TOMBSTONE);
+    }
+    return getDoneValue(value);
+}

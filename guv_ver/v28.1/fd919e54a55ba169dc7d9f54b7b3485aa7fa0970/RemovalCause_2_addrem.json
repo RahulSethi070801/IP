@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "31": "   * The entry was manually removed by the user. This can result from the user invoking {@link\n",
+        "32": "   * Cache#invalidate}, {@link Cache#invalidateAll(Iterable)}, {@link Cache#invalidateAll()}, {@link\n",
+        "33": "   * Map#remove}, {@link ConcurrentMap#remove}, or {@link Iterator#remove}.\n",
+        "45": "   * {@link Map#putAll}, {@link ConcurrentMap#replace(Object, Object)}, or {@link\n",
+        "46": "   * ConcurrentMap#replace(Object, Object, Object)}.\n",
+        "57": "   * occur when using {@link CacheBuilder#weakKeys}, {@link CacheBuilder#weakValues}, or {@link\n",
+        "58": "   * CacheBuilder#softValues}.\n",
+        "68": "   * The entry's expiration timestamp has passed. This can occur when using {@link\n",
+        "69": "   * CacheBuilder#expireAfterWrite} or {@link CacheBuilder#expireAfterAccess}.\n",
+        "79": "   * The entry was evicted due to size constraints. This can occur when using {@link\n",
+        "80": "   * CacheBuilder#maximumSize} or {@link CacheBuilder#maximumWeight}.\n"
+    },
+    "removed": {
+        "31": "   * The entry was manually removed by the user. This can result from the user invoking\n",
+        "32": "   * {@link Cache#invalidate}, {@link Cache#invalidateAll(Iterable)}, {@link Cache#invalidateAll()},\n",
+        "33": "   * {@link Map#remove}, {@link ConcurrentMap#remove}, or {@link Iterator#remove}.\n",
+        "45": "   * {@link Map#putAll}, {@link ConcurrentMap#replace(Object, Object)}, or\n",
+        "46": "   * {@link ConcurrentMap#replace(Object, Object, Object)}.\n",
+        "57": "   * occur when using {@link CacheBuilder#weakKeys}, {@link CacheBuilder#weakValues}, or\n",
+        "58": "   * {@link CacheBuilder#softValues}.\n",
+        "68": "   * The entry's expiration timestamp has passed. This can occur when using\n",
+        "69": "   * {@link CacheBuilder#expireAfterWrite} or {@link CacheBuilder#expireAfterAccess}.\n",
+        "79": "   * The entry was evicted due to size constraints. This can occur when using\n",
+        "80": "   * {@link CacheBuilder#maximumSize} or {@link CacheBuilder#maximumWeight}.\n"
+    }
+}

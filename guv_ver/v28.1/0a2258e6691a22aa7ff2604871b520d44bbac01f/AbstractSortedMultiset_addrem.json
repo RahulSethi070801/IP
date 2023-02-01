@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "101": "      @Nullable E fromElement,\n",
+        "103": "      @Nullable E toElement,\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "101": "      @NullableDecl E fromElement,\n",
+        "103": "      @NullableDecl E toElement,\n"
+    }
+}

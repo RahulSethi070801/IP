@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "58": "  static boolean stringIsNullOrEmpty(@NullableDecl String string) {\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "58": "  static boolean stringIsNullOrEmpty(@Nullable String string) {\n"
+    }
+}

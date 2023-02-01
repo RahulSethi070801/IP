@@ -1,0 +1,4 @@
+ArrayListMultimap
+Insertions: [34, 35, 37, 38, 40, 41, 42, 44, 45, 47, 48, 50, 51, 52, 55, 56, 128, 151, 152]
+Deletions: [34, 35, 36, 38, 39, 40, 42, 43, 44, 45, 47, 48, 50, 51, 53, 54, 55, 56, 59, 60, 132, 133, 156, 157, 158]
+android/guava/src/com/google/common/collect/ArrayListMultimap.java

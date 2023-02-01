@@ -1,0 +1,3 @@
+private static boolean isAssignableFromAny(Type[] fromTypes, Type to)
+private static boolean isAssignable(Type from, Type to)
+

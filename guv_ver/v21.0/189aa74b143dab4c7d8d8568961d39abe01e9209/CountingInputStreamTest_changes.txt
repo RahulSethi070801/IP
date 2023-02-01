@@ -1,0 +1,4 @@
+CountingInputStreamTest
+Insertions: [77]
+Deletions: []
+guava-tests/test/com/google/common/io/CountingInputStreamTest.java

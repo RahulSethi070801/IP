@@ -1,0 +1,3 @@
+Spliterator<Entry<K, V>> entrySpliterator() {
+    return Spliterators.spliterator(entryIterator(), size(), Spliterator.DISTINCT | Spliterator.NONNULL | Spliterator.IMMUTABLE | Spliterator.ORDERED);
+}

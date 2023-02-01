@@ -1,0 +1,3 @@
+public static <T> Predicate<T> equalTo(@Nullable T target) {
+    return (target == null) ? Predicates.<T>isNull() : new IsEqualToPredicate<T>(target);
+}

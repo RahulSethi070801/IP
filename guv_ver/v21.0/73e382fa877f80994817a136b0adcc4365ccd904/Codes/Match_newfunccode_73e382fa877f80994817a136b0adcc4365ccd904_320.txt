@@ -1,0 +1,16 @@
+boolean removeIf(BiPredicate<? super K, ? super V> filter) {
+    checkNotNull(filter);
+    boolean changed = false;
+    for (K key : keySet()) {
+        while (true) {
+            V value = get(key);
+            if (value == null || !filter.test(key, value)) {
+                break;
+            } else if (LocalCache.this.remove(key, value)) {
+                changed = true;
+                break;
+            }
+        }
+    }
+    return changed;
+}

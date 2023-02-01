@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "36": "  @VisibleForTesting final transient @Nullable Object[] alternatingKeysAndValues;\n",
+        "52": "  RegularImmutableBiMap(@Nullable Object[] alternatingKeysAndValues, int size) {\n",
+        "67": "      @CheckForNull Object valueHashTable,\n",
+        "68": "      @Nullable Object[] alternatingKeysAndValues,\n",
+        "92": "    Object result =\n",
+        "94": "    /*\n",
+        "95": "     * We can't simply cast the result of `RegularImmutableMap.get` to V because of a bug in our\n",
+        "96": "     * nullness checker (resulting from https://github.com/jspecify/checker-framework/issues/8).\n",
+        "97": "     */\n",
+        "98": "    if (result == null) {\n",
+        "99": "      return null;\n",
+        "100": "    } else {\n",
+        "101": "      return (V) result;\n",
+        "102": "    }\n"
+    },
+    "removed": {
+        "35": "  @VisibleForTesting final transient Object[] alternatingKeysAndValues;\n",
+        "51": "  RegularImmutableBiMap(Object[] alternatingKeysAndValues, int size) {\n",
+        "66": "      Object valueHashTable,\n",
+        "67": "      Object[] alternatingKeysAndValues,\n",
+        "91": "    return (V)\n"
+    }
+}

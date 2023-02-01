@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "38": " *\n",
+        "64": "  public static <T, A, R> CollectorTester<T, A, R> of(\n",
+        "65": "      Collector<T, A, R> collector, BiPredicate<? super R, ? super R> equivalence) {\n",
+        "79": "   * Different orderings for combining the elements of an input array, which must all produce the\n",
+        "80": "   * same result.\n",
+        "83": "    /** Get one accumulator and accumulate the elements into it sequentially. */\n",
+        "94": "    /** Get one accumulator for each element and merge the accumulators left-to-right. */\n",
+        "107": "    /** Get one accumulator for each element and merge the accumulators right-to-left. */\n",
+        "139": "   * Verifies that the specified expected result is always produced by collecting the specified\n",
+        "140": "   * inputs, regardless of how the elements are divided.\n"
+    },
+    "removed": {
+        "63": "  public static <T, A, R> CollectorTester<T, A, R> of(Collector<T, A, R> collector,\n",
+        "64": "      BiPredicate<? super R, ? super R> equivalence) {\n",
+        "78": "   * Different orderings for combining the elements of an input array, which must\n",
+        "79": "   * all produce the same result.\n",
+        "82": "    /**\n",
+        "83": "     * Get one accumulator and accumulate the elements into it sequentially.\n",
+        "84": "     */\n",
+        "95": "    /**\n",
+        "96": "     * Get one accumulator for each element and merge the accumulators\n",
+        "97": "     * left-to-right.\n",
+        "98": "     */\n",
+        "111": "    /**\n",
+        "112": "     * Get one accumulator for each element and merge the accumulators\n",
+        "113": "     * right-to-left.\n",
+        "114": "     */\n",
+        "146": "   * Verifies that the specified expected result is always produced by collecting the\n",
+        "147": "   * specified inputs, regardless of how the elements are divided.\n"
+    }
+}

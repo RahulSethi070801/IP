@@ -1,0 +1,4 @@
+@Override
+public boolean matchesAllOf(CharSequence sequence) {
+    return original.matchesNoneOf(sequence);
+}

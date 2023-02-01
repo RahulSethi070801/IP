@@ -1,0 +1,4 @@
+
+   * Generates a decorated collection that remains consistent with the values in the multimap for
+   * the provided key. Changes to the multimap may alter the returned collection, and vice versa.
+   

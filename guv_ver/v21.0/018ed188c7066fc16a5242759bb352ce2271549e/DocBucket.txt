@@ -1,0 +1,20 @@
+com.google.common.reflect.TypeToken
+isSubtypeOf
+public final boolean isSubtypeOf(Type supertype)
+Type
+boolean
+com.google.common.reflect.TypeToken
+isSupertypeOf
+public final boolean isSupertypeOf(Type type)
+Type
+boolean
+com.google.common.reflect.TypeToken
+isSubtypeOf
+public final boolean isSubtypeOf(TypeToken<?> type)
+TypeToken
+boolean
+com.google.common.reflect.TypeToken
+isSupertypeOf
+public final boolean isSupertypeOf(TypeToken<?> type)
+TypeToken
+boolean

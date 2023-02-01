@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "28": "import com.google.common.annotations.GwtIncompatible;\n",
+        "30": "import com.google.j2objc.annotations.J2ObjCIncompatible;\n",
+        "31": "import java.time.Duration;\n",
+        "53": " * Duration duration = stopwatch.elapsed();\n",
+        "82": "@GwtCompatible(emulated = true)\n",
+        "191": "   * <p><b>Note:</b> the overhead of measurement can be more than a microsecond, so it is generally\n",
+        "192": "   * not useful to specify {@link TimeUnit#NANOSECONDS} precision here.\n",
+        "193": "   *\n",
+        "194": "   * <p>It is generally not a good idea to use an ambiguous, unitless {@code long} to represent\n",
+        "195": "   * elapsed time. Therefore, we recommend using {@link #elapsed()} instead, which returns a\n",
+        "196": "   * strongly-typed {@link Duration} instance.\n",
+        "204": "  /**\n",
+        "205": "   * Returns the current elapsed time shown on this stopwatch as a {@link Duration}. Unlike {@link\n",
+        "206": "   * #elapsed(TimeUnit)}, this method does not lose any precision due to rounding.\n",
+        "207": "   *\n",
+        "208": "   * @since 22.0\n",
+        "209": "   */\n",
+        "210": "  @GwtIncompatible\n",
+        "211": "  @J2ObjCIncompatible\n",
+        "212": "  public Duration elapsed() {\n",
+        "213": "    return Duration.ofNanos(elapsedNanos());\n",
+        "214": "  }\n",
+        "215": "\n"
+    },
+    "removed": {
+        "50": " * long millis = stopwatch.elapsed(MILLISECONDS);\n",
+        "79": "@GwtCompatible\n",
+        "188": "   * <p>Note that the overhead of measurement can be more than a microsecond, so it is generally not\n",
+        "189": "   * useful to specify {@link TimeUnit#NANOSECONDS} precision here.\n"
+    }
+}

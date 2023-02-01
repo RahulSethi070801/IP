@@ -1,0 +1,20 @@
+@GwtIncompatible("TODO")
+public static <V> V getUninterruptibly(Future<V> future, long timeout, TimeUnit unit) throws ExecutionException, TimeoutException {
+    boolean interrupted = false;
+    try {
+        long remainingNanos = unit.toNanos(timeout);
+        long end = System.nanoTime() + remainingNanos;
+        while (true) {
+            try {
+                return future.get(remainingNanos, NANOSECONDS);
+            } catch (InterruptedException e) {
+                interrupted = true;
+                remainingNanos = end - System.nanoTime();
+            }
+        }
+    } finally {
+        if (interrupted) {
+            Thread.currentThread().interrupt();
+        }
+    }
+}

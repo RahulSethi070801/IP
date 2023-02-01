@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public Entry<K, V> lastEntry() {
+    return Iterators.getNext(descendingEntryIterator(), null);
+}

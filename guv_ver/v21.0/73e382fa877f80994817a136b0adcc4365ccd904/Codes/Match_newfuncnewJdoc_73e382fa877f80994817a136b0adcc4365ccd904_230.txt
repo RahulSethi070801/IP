@@ -1,0 +1,9 @@
+
+   * Not supported. Use {@link ImmutableSortedMultiset#toImmutableSortedMultiset} instead.
+   * This method exists only to hide {@link ImmutableMultiset#toImmutableMultiset} from
+   * consumers of {@code ImmutableSortedMultiset}.
+   *
+   * @throws UnsupportedOperationException always
+   * @deprecated Use {@link ImmutableSortedMultiset#toImmutableSortedMultiset}.
+   * @since 21.0
+   

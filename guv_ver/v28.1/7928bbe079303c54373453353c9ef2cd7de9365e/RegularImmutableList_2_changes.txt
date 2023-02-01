@@ -1,0 +1,4 @@
+RegularImmutableList_2
+Insertions: [20, 35, 36]
+Deletions: [34]
+guava/src/com/google/common/collect/RegularImmutableList.java

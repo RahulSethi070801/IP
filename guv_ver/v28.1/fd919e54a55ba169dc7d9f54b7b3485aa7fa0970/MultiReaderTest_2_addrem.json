@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "26": "/** @author ricebin */\n",
+        "33": "    CharSource reader =\n",
+        "34": "        new CharSource() {\n",
+        "35": "          @Override\n",
+        "36": "          public Reader openStream() throws IOException {\n",
+        "37": "            if (counter[0]++ != 0) {\n",
+        "38": "              throw new IllegalStateException(\"More than one source open\");\n",
+        "39": "            }\n",
+        "40": "            return new FilterReader(source.openStream()) {\n",
+        "41": "              @Override\n",
+        "42": "              public void close() throws IOException {\n",
+        "43": "                super.close();\n",
+        "44": "                counter[0]--;\n",
+        "45": "              }\n",
+        "46": "            };\n",
+        "87": "    Reader joinedReader = CharSource.concat(newCharSource(begin), newCharSource(end)).openStream();\n"
+    },
+    "removed": {
+        "26": "/**\n",
+        "27": " * @author ricebin\n",
+        "28": " */\n",
+        "35": "    CharSource reader = new CharSource() {\n",
+        "36": "      @Override\n",
+        "37": "      public Reader openStream() throws IOException {\n",
+        "38": "        if (counter[0]++ != 0) {\n",
+        "39": "          throw new IllegalStateException(\"More than one source open\");\n",
+        "40": "        }\n",
+        "41": "        return new FilterReader(source.openStream()) {\n",
+        "42": "          @Override public void close() throws IOException {\n",
+        "43": "            super.close();\n",
+        "44": "            counter[0]--;\n",
+        "47": "      }\n",
+        "48": "    };\n",
+        "87": "    Reader joinedReader =\n",
+        "88": "        CharSource.concat(newCharSource(begin), newCharSource(end)).openStream();\n"
+    }
+}

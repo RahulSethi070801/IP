@@ -1,0 +1,4 @@
+@Override
+public Set<V> get() {
+    return Sets.newHashSetWithExpectedSize(expectedValuesPerKey);
+}

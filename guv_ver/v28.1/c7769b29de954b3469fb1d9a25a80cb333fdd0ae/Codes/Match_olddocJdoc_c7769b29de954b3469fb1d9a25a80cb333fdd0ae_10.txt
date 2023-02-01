@@ -1,0 +1,7 @@
+
+   * Copies the contents of this source to the given sink.
+   *
+   * @return the number of characters copied
+   * @throws IOException if an I/O error occurs in the process of reading from this source or
+   *     writing to {@code sink}
+   

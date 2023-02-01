@@ -1,0 +1,4 @@
+AbstractMapEntry
+Insertions: [22, 45]
+Deletions: [22, 45]
+android/guava/src/com/google/common/collect/AbstractMapEntry.java

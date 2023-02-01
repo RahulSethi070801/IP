@@ -1,0 +1,33 @@
+@Override
+ImmutableSet<Entry<K, V>> createEntrySet() {
+    @WeakOuter
+    class EntrySet extends ImmutableMapEntrySet<K, V> {
+
+        @Override
+        public UnmodifiableIterator<Entry<K, V>> iterator() {
+            return asList().iterator();
+        }
+
+        @Override
+        ImmutableList<Entry<K, V>> createAsList() {
+            return new ImmutableAsList<Entry<K, V>>() {
+
+                @Override
+                public Entry<K, V> get(int index) {
+                    return Maps.immutableEntry(keySet.asList().get(index), valueList.get(index));
+                }
+
+                @Override
+                ImmutableCollection<Entry<K, V>> delegateCollection() {
+                    return EntrySet.this;
+                }
+            };
+        }
+
+        @Override
+        ImmutableMap<K, V> map() {
+            return ImmutableSortedMap.this;
+        }
+    }
+    return isEmpty() ? ImmutableSet.<Entry<K, V>>of() : new EntrySet();
+}

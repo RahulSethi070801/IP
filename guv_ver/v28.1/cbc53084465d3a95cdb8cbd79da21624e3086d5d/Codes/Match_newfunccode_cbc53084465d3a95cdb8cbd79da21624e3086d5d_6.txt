@@ -1,0 +1,5 @@
+@Override
+public Iterable<N> depthFirstPostOrder(final N startNode) {
+    checkNotNull(startNode);
+    return depthFirstPostOrder(ImmutableSet.of(startNode));
+}

@@ -1,0 +1,4 @@
+TypeCapture
+Insertions: [27]
+Deletions: []
+android/guava/src/com/google/common/reflect/TypeCapture.java

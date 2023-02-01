@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "22": "import com.google.common.annotations.Beta;\n",
+        "92": "   *     instead. This method is scheduled for removal in Guava 18.0.\n",
+        "280": "  /**\n",
+        "281": "   * Reads the contents of this byte source using the given {@code processor} to process bytes as\n",
+        "282": "   * they are read. Stops when all bytes have been read or the consumer returns {@code false}.\n",
+        "283": "   * Returns the result produced by the processor.\n",
+        "284": "   *\n",
+        "285": "   * @throws IOException if an I/O error occurs in the process of reading from this source or if\n",
+        "286": "   *     {@code processor} throws an {@code IOException}\n",
+        "287": "   * @since 16.0\n",
+        "288": "   */\n",
+        "289": "  @Beta\n",
+        "290": "  public <T> T read(ByteProcessor<T> processor) throws IOException {\n",
+        "291": "    checkNotNull(processor);\n",
+        "292": "\n",
+        "293": "    Closer closer = Closer.create();\n",
+        "294": "    try {\n",
+        "295": "      InputStream in = closer.register(openStream());\n",
+        "296": "      return ByteStreams.readBytes(in, processor);\n",
+        "297": "    } catch (Throwable e) {\n",
+        "298": "      throw closer.rethrow(e);\n",
+        "299": "    } finally {\n",
+        "300": "      closer.close();\n",
+        "301": "    }\n",
+        "302": "  }\n",
+        "303": "\n",
+        "543": "    @Override\n",
+        "544": "    public <T> T read(ByteProcessor<T> processor) throws IOException {\n",
+        "545": "      processor.processBytes(bytes, 0, bytes.length);\n",
+        "546": "      return processor.getResult();\n",
+        "547": "    }\n",
+        "548": "\n"
+    },
+    "removed": {
+        "91": "   *     instead.\n"
+    }
+}

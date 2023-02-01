@@ -1,0 +1,8 @@
+
+   * Returns a new thread factory using the options supplied during the building
+   * process. After building, it is still possible to change the options used to
+   * build the ThreadFactory and/or build again. State is not shared amongst
+   * built instances.
+   *
+   * @return the fully constructed {@link ThreadFactory}
+   

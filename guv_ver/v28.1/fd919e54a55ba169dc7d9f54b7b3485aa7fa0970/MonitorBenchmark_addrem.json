@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "32": "  @Param({\"10\", \"100\", \"1000\"})\n",
+        "33": "  int capacity;\n",
+        "34": "\n",
+        "35": "  @Param({\"Array\", \"Priority\"})\n",
+        "36": "  String queueType;\n",
+        "37": "\n",
+        "58": "  @Benchmark\n",
+        "59": "  void addsAndRemoves(int reps) {\n"
+    },
+    "removed": {
+        "32": "  @Param({\"10\", \"100\", \"1000\"}) int capacity;\n",
+        "33": "  @Param({\"Array\", \"Priority\"}) String queueType;\n",
+        "54": "  @Benchmark void addsAndRemoves(int reps) {\n"
+    }
+}

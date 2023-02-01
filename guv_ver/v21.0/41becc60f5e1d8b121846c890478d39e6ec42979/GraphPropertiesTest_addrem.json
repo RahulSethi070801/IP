@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "29": " * Tests for {@link Graphs#hasCycle(Graph)} and {@link Graphs#hasCycle(Network)}.\n"
+    },
+    "removed": {
+        "29": " * Tests for {@link Graphs#hasCycle(ValueGraph)} and {@link Graphs#hasCycle(Network)}.\n"
+    }
+}

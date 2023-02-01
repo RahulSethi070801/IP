@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "25": "/** Unit test for {@link com.google.common.base.Verify}. */\n",
+        "95": "  private static final Object IGNORE_ME =\n",
+        "96": "      new Object() {\n",
+        "97": "        @Override\n",
+        "98": "        public String toString() {\n",
+        "99": "          throw new AssertionFailedError();\n",
+        "100": "        }\n",
+        "101": "      };\n"
+    },
+    "removed": {
+        "25": "/**\n",
+        "26": " * Unit test for {@link com.google.common.base.Verify}.\n",
+        "27": " */\n",
+        "97": "  private static final Object IGNORE_ME = new Object() {\n",
+        "98": "    @Override public String toString() {\n",
+        "99": "      throw new AssertionFailedError();\n",
+        "100": "    }\n",
+        "101": "  };\n"
+    }
+}

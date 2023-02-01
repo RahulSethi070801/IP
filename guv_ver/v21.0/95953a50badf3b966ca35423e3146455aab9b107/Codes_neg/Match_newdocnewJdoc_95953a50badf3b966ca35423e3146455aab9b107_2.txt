@@ -1,0 +1,4 @@
+
+   * TODO(cpovirk): Consider making cancel() final (under GWT only, since we can't change the
+   * server) by migrating our overrides to use afterDone().
+   

@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "31": " * <pre>{@code\n",
+        "32": " * new TypeVisitor() {\n",
+        "33": " *   protected void visitParameterizedType(ParameterizedType t) {\n",
+        "34": " *     visit(t.getOwnerType());\n",
+        "35": " *     visit(t.getActualTypeArguments());\n",
+        "36": " *   }\n",
+        "37": " *   protected void visitGenericArrayType(GenericArrayType t) {\n",
+        "38": " *     visit(t.getGenericComponentType());\n",
+        "39": " *   }\n",
+        "40": " *   protected void visitTypeVariable(TypeVariable<?> t) {\n",
+        "41": " *     throw new IllegalArgumentException(\"Cannot contain type variable.\");\n",
+        "42": " *   }\n",
+        "43": " *   protected void visitWildcardType(WildcardType t) {\n",
+        "44": " *     throw new IllegalArgumentException(\"Cannot contain wildcard type.\");\n",
+        "45": " *   }\n",
+        "46": " * }.visit(type);\n",
+        "47": " * }</pre>\n",
+        "61": "   * Visits the given types. Null types are ignored. This allows subclasses to call {@code\n",
+        "62": "   * visit(parameterizedType.getOwnerType())} safely without having to check nulls.\n"
+    },
+    "removed": {
+        "31": " * <pre>   {@code\n",
+        "32": " *   new TypeVisitor() {\n",
+        "33": " *     protected void visitParameterizedType(ParameterizedType t) {\n",
+        "34": " *       visit(t.getOwnerType());\n",
+        "35": " *       visit(t.getActualTypeArguments());\n",
+        "36": " *     }\n",
+        "37": " *     protected void visitGenericArrayType(GenericArrayType t) {\n",
+        "38": " *       visit(t.getGenericComponentType());\n",
+        "39": " *     }\n",
+        "40": " *     protected void visitTypeVariable(TypeVariable<?> t) {\n",
+        "41": " *       throw new IllegalArgumentException(\"Cannot contain type variable.\");\n",
+        "42": " *     }\n",
+        "43": " *     protected void visitWildcardType(WildcardType t) {\n",
+        "44": " *       throw new IllegalArgumentException(\"Cannot contain wildcard type.\");\n",
+        "45": " *     }\n",
+        "46": " *   }.visit(type);}</pre>\n",
+        "60": "   * Visits the given types. Null types are ignored. This allows subclasses to call\n",
+        "61": "   * {@code visit(parameterizedType.getOwnerType())} safely without having to check nulls.\n"
+    }
+}

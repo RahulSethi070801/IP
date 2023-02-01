@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "59": "  @Test\n",
+        "60": "  public void degree_selfLoop() {\n",
+        "61": "    addEdge(N1, N1);\n",
+        "62": "    assertThat(graph.degree(N1)).isEqualTo(2);\n",
+        "63": "    addEdge(N1, N2);\n",
+        "64": "    assertThat(graph.degree(N1)).isEqualTo(3);\n",
+        "65": "  }\n",
+        "66": "\n",
+        "67": "  @Test\n",
+        "68": "  public void inDegree_selfLoop() {\n",
+        "69": "    addEdge(N1, N1);\n",
+        "70": "    assertThat(graph.inDegree(N1)).isEqualTo(2);\n",
+        "71": "    addEdge(N1, N2);\n",
+        "72": "    assertThat(graph.inDegree(N1)).isEqualTo(3);\n",
+        "73": "  }\n",
+        "74": "\n",
+        "75": "  @Test\n",
+        "76": "  public void outDegree_selfLoop() {\n",
+        "77": "    addEdge(N1, N1);\n",
+        "78": "    assertThat(graph.outDegree(N1)).isEqualTo(2);\n",
+        "79": "    addEdge(N2, N1);\n",
+        "80": "    assertThat(graph.outDegree(N1)).isEqualTo(3);\n",
+        "81": "  }\n",
+        "82": "\n",
+        "86": "    assertThat(addEdge(N1, N1)).isTrue();\n",
+        "93": "    assertThat(addEdge(N1, N1)).isFalse();\n",
+        "100": "    assertThat(graph.removeNode(N1)).isTrue();\n",
+        "107": "    assertThat(graph.removeEdge(N1, N1)).isTrue();\n"
+    },
+    "removed": {
+        "20": "import static org.junit.Assert.assertFalse;\n",
+        "21": "import static org.junit.Assert.assertTrue;\n",
+        "64": "    assertTrue(addEdge(N1, N1));\n",
+        "71": "    assertFalse(addEdge(N1, N1));\n",
+        "78": "    assertTrue(graph.removeNode(N1));\n",
+        "85": "    assertTrue(graph.removeEdge(N1, N1));\n"
+    }
+}

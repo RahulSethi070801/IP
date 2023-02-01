@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "28": "import java.util.Map.Entry;\n",
+        "131": "  private V putIfAbsent(Entry<K, V> entry) {\n"
+    },
+    "removed": {
+        "28": "import java.util.Map;\n",
+        "131": "  private V putIfAbsent(Map.Entry<K, V> entry) {\n"
+    }
+}

@@ -1,0 +1,2 @@
+@ForOverride
+abstract void setResult(@NullableDecl T result);

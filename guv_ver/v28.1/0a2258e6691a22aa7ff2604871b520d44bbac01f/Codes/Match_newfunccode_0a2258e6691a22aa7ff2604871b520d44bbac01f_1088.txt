@@ -1,0 +1,3 @@
+@Nullable
+@CanIgnoreReturnValue
+<T extends B> T putInstance(TypeToken<T> type, @Nullable T value);

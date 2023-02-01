@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "26": " * An implementation-specific parameter class suitable for initializing {@link\n",
+        "27": " * ArrayBasedCharEscaper} or {@link ArrayBasedUnicodeEscaper} instances. This class should be used\n",
+        "28": " * when more than one escaper is created using the same character replacement mapping to allow the\n",
+        "29": " * underlying (implementation specific) data structures to be shared.\n"
+    },
+    "removed": {
+        "26": " * An implementation-specific parameter class suitable for initializing\n",
+        "27": " * {@link ArrayBasedCharEscaper} or {@link ArrayBasedUnicodeEscaper} instances. This class should be\n",
+        "28": " * used when more than one escaper is created using the same character replacement mapping to allow\n",
+        "29": " * the underlying (implementation specific) data structures to be shared.\n"
+    }
+}

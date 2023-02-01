@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public K put(@NullableDecl V value, @NullableDecl K key) {
+    return putInverse(value, key, false);
+}

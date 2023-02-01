@@ -1,0 +1,13 @@
+@Nullable
+private static byte[] textToNumericFormatV4(String ipString) {
+    byte[] bytes = new byte[IPV4_PART_COUNT];
+    int i = 0;
+    try {
+        for (String octet : IPV4_SPLITTER.split(ipString)) {
+            bytes[i++] = parseOctet(octet);
+        }
+    } catch (NumberFormatException ex) {
+        return null;
+    }
+    return i == IPV4_PART_COUNT ? bytes : null;
+}

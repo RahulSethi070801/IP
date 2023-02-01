@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "171": "public interface BasicGraph<N> extends Graph<N, BasicGraph.Presence> {\n"
+    },
+    "removed": {
+        "171": "public interface BasicGraph<N> extends ValueGraph<N, BasicGraph.Presence> {\n"
+    }
+}

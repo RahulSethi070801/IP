@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "29": " * Thread that finalizes referents. All references should implement {@code\n",
+        "30": " * com.google.common.base.FinalizableReference}.\n",
+        "85": "        thread =\n",
+        "86": "            bigThreadConstructor.newInstance(\n",
+        "87": "                (ThreadGroup) null, finalizer, threadName, defaultStackSize, inheritThreadLocals);\n",
+        "90": "            Level.INFO, \"Failed to create a thread without inherited thread-local values\", t);\n",
+        "140": "  /** Loops continuously, pulling references off the queue and cleaning them up. */\n"
+    },
+    "removed": {
+        "29": " * Thread that finalizes referents. All references should implement\n",
+        "30": " * {@code com.google.common.base.FinalizableReference}.\n",
+        "85": "        thread = bigThreadConstructor.newInstance(\n",
+        "86": "            (ThreadGroup) null, finalizer, threadName, defaultStackSize, inheritThreadLocals);\n",
+        "89": "            Level.INFO,\n",
+        "90": "            \"Failed to create a thread without inherited thread-local values\",\n",
+        "91": "            t);\n",
+        "140": "  /**\n",
+        "141": "   * Loops continuously, pulling references off the queue and cleaning them up.\n",
+        "142": "   */\n"
+    }
+}

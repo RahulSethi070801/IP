@@ -1,0 +1,6 @@
+static RateLimiter createWithCapacity(SleepingTicker ticker, double permitsPerSecond, long maxBurstBuildup, TimeUnit unit)
+public static RateLimiter create(double permitsPerSecond)
+
+static RateLimiter createBursty(double permitsPerSecond, long maxBurstBuildup, TimeUnit unit)
+public static RateLimiter create(double permitsPerSecond)
+

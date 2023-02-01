@@ -1,0 +1,6 @@
+
+   * {@inheritDoc}
+   *
+   * <p>This implementation returns {@code true} if {@code object} is a multiset of the same size
+   * and if, for each element, the two multisets have the same count.
+   

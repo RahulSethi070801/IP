@@ -1,0 +1,1 @@
+Builder<N, E> addEdge(E e, N n1, N n2);

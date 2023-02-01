@@ -1,0 +1,4 @@
+@Override
+Spliterator<V> valuesSpliterator() {
+    return CollectSpliterators.indexed(size(), Spliterator.ORDERED, this::getValue);
+}

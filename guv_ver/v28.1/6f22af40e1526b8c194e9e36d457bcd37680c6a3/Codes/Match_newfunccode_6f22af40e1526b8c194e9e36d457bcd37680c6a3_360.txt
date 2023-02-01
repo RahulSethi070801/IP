@@ -1,0 +1,6 @@
+@Override
+@NullableDecl
+@CanIgnoreReturnValue
+public K forcePut(@NullableDecl V value, @NullableDecl K key) {
+    return forward.putInverse(value, key, true);
+}

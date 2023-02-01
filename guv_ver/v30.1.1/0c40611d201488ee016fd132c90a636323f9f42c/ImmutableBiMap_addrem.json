@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "21": "import static java.util.Objects.requireNonNull;\n",
+        "281": "          // requireNonNull is safe because the first `size` elements have been filled in.\n",
+        "282": "          Entry<K, V> onlyEntry = requireNonNull(entries[0]);\n",
+        "283": "          return of(onlyEntry.getKey(), onlyEntry.getValue());\n",
+        "317": "          // requireNonNull is safe because the first `size` elements have been filled in.\n",
+        "318": "          Entry<K, V> onlyEntry = requireNonNull(entries[0]);\n",
+        "319": "          return of(onlyEntry.getKey(), onlyEntry.getValue());\n"
+    },
+    "removed": {
+        "280": "          return of(entries[0].getKey(), entries[0].getValue());\n",
+        "314": "          return of(entries[0].getKey(), entries[0].getValue());\n"
+    }
+}

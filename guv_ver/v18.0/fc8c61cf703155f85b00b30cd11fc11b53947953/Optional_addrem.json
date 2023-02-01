@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "78": "    return Absent.withType();\n"
+    },
+    "removed": {
+        "77": "  @SuppressWarnings(\"unchecked\")\n",
+        "79": "    return (Optional<T>) Absent.INSTANCE;\n"
+    }
+}

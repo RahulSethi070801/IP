@@ -1,0 +1,4 @@
+RegularImmutableList_2
+Insertions: [37, 38]
+Deletions: [37]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/RegularImmutableList.java

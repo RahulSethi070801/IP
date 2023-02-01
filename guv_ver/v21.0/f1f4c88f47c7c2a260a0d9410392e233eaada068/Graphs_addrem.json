@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "57": "  // Graph query methods\n",
+        "124": "        N otherNode = graph.incidentNodes(edge).otherNode(node);\n",
+        "125": "        if (subgraph.nodes().contains(otherNode)) {\n",
+        "126": "          subgraph.addEdge(edge, node, otherNode);\n"
+    },
+    "removed": {
+        "57": "  // Graph properties (methods that act solely on a Graph/Network)\n",
+        "73": "  // Node-based properties\n",
+        "74": "\n",
+        "75": "  /**\n",
+        "76": "   * Returns the node at the other end of {@code edge} from {@code node}.\n",
+        "77": "   *\n",
+        "78": "   * @throws IllegalArgumentException if {@code edge} is not incident to {@code node}\n",
+        "79": "   */\n",
+        "80": "  public static <N> N oppositeNode(Network<N, ?> graph, Object edge, Object node) {\n",
+        "81": "    checkNotNull(node, \"node\");\n",
+        "82": "    Endpoints<N> endpoints = graph.incidentNodes(edge);\n",
+        "83": "    if (node.equals(endpoints.nodeA())) {\n",
+        "84": "      return endpoints.nodeB();\n",
+        "85": "    } else {\n",
+        "86": "      checkArgument(node.equals(endpoints.nodeB()),\n",
+        "87": "          \"Edge %s is not incident to node %s\", edge, node);\n",
+        "88": "      return endpoints.nodeA();\n",
+        "89": "    }\n",
+        "90": "  }\n",
+        "91": "\n",
+        "92": "  // Edge-based properties\n",
+        "93": "\n",
+        "145": "        N oppositeNode = Graphs.oppositeNode(graph, edge, node);\n",
+        "146": "        if (subgraph.nodes().contains(oppositeNode)) {\n",
+        "147": "          subgraph.addEdge(edge, node, oppositeNode);\n"
+    }
+}

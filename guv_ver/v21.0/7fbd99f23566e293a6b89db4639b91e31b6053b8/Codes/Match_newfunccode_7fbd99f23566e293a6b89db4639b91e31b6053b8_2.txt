@@ -1,0 +1,12 @@
+public static <N> MutableGraph<N> copyOf(Graph<N> graph, Predicate<? super N> nodePredicate) {
+    checkNotNull(graph, "graph");
+    checkNotNull(nodePredicate, "nodePredicate");
+    MutableGraph<N> copy = GraphBuilder.from(graph).expectedNodeCount(graph.nodes().size()).build();
+    for (N node : Sets.filter(graph.nodes(), nodePredicate)) {
+        copy.addNode(node);
+        for (N successor : Sets.filter(graph.successors(node), nodePredicate)) {
+            copy.addEdge(node, successor);
+        }
+    }
+    return copy;
+}

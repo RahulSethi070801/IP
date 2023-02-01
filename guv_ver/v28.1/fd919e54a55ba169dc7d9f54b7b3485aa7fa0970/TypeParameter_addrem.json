@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "27": " * <pre>{@code\n",
+        "28": " * static <T> TypeToken<List<T>> listOf(Class<T> elementType) {\n",
+        "29": " *   return new TypeToken<List<T>>() {}\n",
+        "30": " *       .where(new TypeParameter<T>() {}, elementType);\n",
+        "31": " * }\n",
+        "32": " * }</pre>\n"
+    },
+    "removed": {
+        "27": " * <pre>   {@code\n",
+        "28": " *   static <T> TypeToken<List<T>> listOf(Class<T> elementType) {\n",
+        "29": " *     return new TypeToken<List<T>>() {}\n",
+        "30": " *         .where(new TypeParameter<T>() {}, elementType);\n",
+        "31": " *   }}</pre>\n"
+    }
+}

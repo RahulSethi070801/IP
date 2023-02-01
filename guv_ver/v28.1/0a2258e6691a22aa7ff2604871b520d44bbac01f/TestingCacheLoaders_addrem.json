@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "60": "  static <K, V> ConstantLoader<K, V> constantLoader(@Nullable V constant) {\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "60": "  static <K, V> ConstantLoader<K, V> constantLoader(@NullableDecl V constant) {\n"
+    }
+}

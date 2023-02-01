@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "22": "import java.util.Map.Entry;\n",
+        "41": "  public SampleElements<Entry<K, V>> samples() {\n",
+        "46": "  public Set<Entry<K, V>> create(Object... elements) {\n",
+        "47": "    Entry<K, V>[] entries = createArray(elements.length);\n",
+        "52": "  public abstract Set<Entry<K, V>> createFromEntries(Entry<K, V>[] entries);\n",
+        "56": "  public Entry<K, V>[] createArray(int length) {\n",
+        "57": "    return new Entry[length];\n",
+        "62": "  public List<Entry<K, V>> order(List<Entry<K, V>> insertionOrder) {\n"
+    },
+    "removed": {
+        "40": "  public SampleElements<Map.Entry<K, V>> samples() {\n",
+        "45": "  public Set<Map.Entry<K, V>> create(Object... elements) {\n",
+        "46": "    Map.Entry<K, V>[] entries = createArray(elements.length);\n",
+        "51": "  public abstract Set<Map.Entry<K, V>> createFromEntries(Map.Entry<K, V>[] entries);\n",
+        "55": "  public Map.Entry<K, V>[] createArray(int length) {\n",
+        "56": "    return new Map.Entry[length];\n",
+        "61": "  public List<Map.Entry<K, V>> order(List<Map.Entry<K, V>> insertionOrder) {\n"
+    }
+}

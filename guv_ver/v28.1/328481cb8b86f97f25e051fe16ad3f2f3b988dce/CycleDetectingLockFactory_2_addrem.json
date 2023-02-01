@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "37": "import java.util.Map.Entry;\n",
+        "698": "      for (Entry<LockGraphNode, ExampleStackTrace> entry : allowedPriorLocks.entrySet()) {\n"
+    },
+    "removed": {
+        "697": "      for (Map.Entry<LockGraphNode, ExampleStackTrace> entry : allowedPriorLocks.entrySet()) {\n"
+    }
+}

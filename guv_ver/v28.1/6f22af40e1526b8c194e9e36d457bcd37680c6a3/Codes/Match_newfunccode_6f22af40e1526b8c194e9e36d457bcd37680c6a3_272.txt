@@ -1,0 +1,3 @@
+static <E> Queue<E> queue(Queue<E> queue, @NullableDecl Object mutex) {
+    return (queue instanceof SynchronizedQueue) ? queue : new SynchronizedQueue<E>(queue, mutex);
+}

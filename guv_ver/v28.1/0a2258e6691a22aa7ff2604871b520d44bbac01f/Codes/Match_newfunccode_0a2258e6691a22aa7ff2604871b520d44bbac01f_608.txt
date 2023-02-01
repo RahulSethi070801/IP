@@ -1,0 +1,12 @@
+private int indexOf(@Nullable Object key) {
+    int hash = smearedHash(key);
+    int next = table[hash & hashTableMask()];
+    while (next != UNSET) {
+        long entry = entries[next];
+        if (getHash(entry) == hash && Objects.equal(key, keys[next])) {
+            return next;
+        }
+        next = getNext(entry);
+    }
+    return -1;
+}

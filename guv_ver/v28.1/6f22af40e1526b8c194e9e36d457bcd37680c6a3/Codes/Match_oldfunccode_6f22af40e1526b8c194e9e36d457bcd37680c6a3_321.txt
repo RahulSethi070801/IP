@@ -1,0 +1,4 @@
+@Override
+public Boolean apply(@Nullable T t) {
+    return predicate.apply(t);
+}

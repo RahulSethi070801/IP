@@ -1,0 +1,7 @@
+
+   * Copies the contents of this byte source to the given {@code ByteSink}.
+   *
+   * @return the number of bytes copied
+   * @throws IOException if an I/O error occurs while reading from this source or writing to
+   *     {@code sink}
+   

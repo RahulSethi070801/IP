@@ -1,0 +1,4 @@
+TrieParser
+Insertions: [4, 5, 9, 10, 11, 12, 33, 34, 41, 42, 43, 51, 52, 67]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 35, 36, 43, 44, 45, 46, 54, 55, 70]
+guava/src/com/google/thirdparty/publicsuffix/TrieParser.java

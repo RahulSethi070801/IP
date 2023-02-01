@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "259": "   * Returns {@code true} iff {@code object} is a graph that has the same structural relationships\n",
+        "264": "   * <li>A and B have the same {@link #isDirected() directedness}.\n",
+        "265": "   * <li>A and B have the same node set.\n",
+        "266": "   * <li>A and B have the same adjacency relationships, i.e., for each node, the sets of successor\n",
+        "267": "   *     and predecessor nodes are the same in both graphs.\n",
+        "275": "   * <p>Note: {@link Network} instances can only be equal to other {@link Network} instances.\n",
+        "276": "   * In particular, {@link Graph}s that are not also {@link Network}s cannot be equal to\n",
+        "277": "   * {@link Network}s.\n",
+        "278": "   *\n",
+        "286": "   * of a map from each of the graph's nodes to its successor nodes.\n"
+    },
+    "removed": {
+        "259": "   * Returns {@code true} iff {@code object} is a graph that has the same node relationships\n",
+        "264": "   * <li>A and B have the same node set\n",
+        "265": "   * <li>A and B have the same adjacency relationships, e.g., for each {@code node} the sets of\n",
+        "266": "   *     successor and predecessor nodes are the same in both graphs.\n",
+        "267": "   *     <br>This implies that every edge in A and B connects the same nodes in the same\n",
+        "268": "   *     direction (if any).\n",
+        "283": "   * of a map from each of the graph's nodes to their adjacent nodes.\n",
+        "286": "   *\n",
+        "287": "   * <p>Note that by this definition, two graphs that are equal in every aspect except edge\n",
+        "288": "   * direction will have the same hash code (but can still be differentiated by\n",
+        "289": "   * {@link #equals(Object)}.\n"
+    }
+}

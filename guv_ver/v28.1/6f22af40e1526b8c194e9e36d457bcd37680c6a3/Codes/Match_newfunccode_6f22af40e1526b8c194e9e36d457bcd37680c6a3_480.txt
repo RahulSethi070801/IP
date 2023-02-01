@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+@Override
+@NullableDecl
+V put(@NullableDecl K key, @NullableDecl V value);

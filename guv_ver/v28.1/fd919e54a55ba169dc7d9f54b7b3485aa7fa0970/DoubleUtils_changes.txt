@@ -1,0 +1,4 @@
+DoubleUtils
+Insertions: [59, 67, 131, 141]
+Deletions: [59, 60, 61, 69, 70, 71, 135, 136, 137, 147, 148]
+android/guava/src/com/google/common/math/DoubleUtils.java

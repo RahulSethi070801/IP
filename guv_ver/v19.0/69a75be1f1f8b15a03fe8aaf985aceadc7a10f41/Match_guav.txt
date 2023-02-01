@@ -1,0 +1,771 @@
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+void addListener(Runnable listener, Executor executor)
+
+private void handleOneInputDone(int index, Future<? extends InputT> future)
+void addListener(Runnable listener, Executor executor)
+
+private void checkCurrentState(State expected)
+void addListener(Runnable listener, Executor executor)
+
+public long addAndGet(K key, long delta)
+void addListener(Runnable listener, Executor executor)
+
+protected final RunnableFuture<T> newTaskFor(Runnable runnable, T value)
+void addListener(Runnable listener, Executor executor)
+
+public void put(E e) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+protected final void doStop()
+void addListener(Runnable listener, Executor executor)
+
+static Callable<T> threadRenaming(final Callable<T> callable, final Supplier<String> nameSupplier)
+void addListener(Runnable listener, Executor executor)
+
+long putIfAbsent(K key, long newValue)
+void addListener(Runnable listener, Executor executor)
+
+public boolean enterWhen(Guard guard, long time, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public V get() throws InterruptedException, ExecutionException
+void addListener(Runnable listener, Executor executor)
+
+protected final void notifyStarted()
+void addListener(Runnable listener, Executor executor)
+
+public final Service stopAsync()
+void addListener(Runnable listener, Executor executor)
+
+public T invokeAny(Collection<? extends Callable<T>> tasks, long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final boolean cancel(boolean mayInterruptIfRunning)
+void addListener(Runnable listener, Executor executor)
+
+private Map<K, Long> createAsMap()
+void addListener(Runnable listener, Executor executor)
+
+public static V getChecked(Future<V> future, Class<X> exceptionClass, long timeout, TimeUnit unit) throws X
+void addListener(Runnable listener, Executor executor)
+
+public T newProxy(T target, Class<T> interfaceType, long timeoutDuration, TimeUnit timeoutUnit)
+void addListener(Runnable listener, Executor executor)
+
+final void done()
+void addListener(Runnable listener, Executor executor)
+
+public E take() throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+protected final RunnableFuture<T> newTaskFor(Callable<T> callable)
+void addListener(Runnable listener, Executor executor)
+
+private void endWaitingFor(Guard guard)
+void addListener(Runnable listener, Executor executor)
+
+Throwable failureCause()
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> withTimeout(ListenableFuture<V> delegate, long time, TimeUnit unit, ScheduledExecutorService scheduledExecutor)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> withTimeout(ListenableFuture<V> delegate, long time, TimeUnit unit, ScheduledExecutorService scheduledExecutor)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> listenInPoolThread(Future<V> future, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> listenInPoolThread(Future<V> future, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public static CheckedFuture<V, X> immediateCheckedFuture(@Nullable V value)
+void addListener(Runnable listener, Executor executor)
+
+public static CheckedFuture<V, X> immediateCheckedFuture(@Nullable V value)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback)
+void addListener(Runnable listener, Executor executor)
+
+public long remove(K key)
+void addListener(Runnable listener, Executor executor)
+
+public long remove(K key)
+void addListener(Runnable listener, Executor executor)
+
+public final void addListener(Runnable listener, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public final void addListener(Runnable listener, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public long put(K key, long newValue)
+void addListener(Runnable listener, Executor executor)
+
+public long put(K key, long newValue)
+void addListener(Runnable listener, Executor executor)
+
+public boolean enter(long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public boolean enter(long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+ListenableScheduledFuture<V> schedule(Callable<V> callable, long delay, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+ListenableScheduledFuture<V> schedule(Callable<V> callable, long delay, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public int drainTo(Collection<? super E> c)
+void addListener(Runnable listener, Executor executor)
+
+public int drainTo(Collection<? super E> c)
+void addListener(Runnable listener, Executor executor)
+
+protected abstract Future<V> delegate()
+void addListener(Runnable listener, Executor executor)
+
+protected abstract Future<V> delegate()
+void addListener(Runnable listener, Executor executor)
+
+static Map<E, LockGraphNode> createNodes(Class<E> clazz)
+void addListener(Runnable listener, Executor executor)
+
+static Map<E, LockGraphNode> createNodes(Class<E> clazz)
+void addListener(Runnable listener, Executor executor)
+
+public String toString()
+void addListener(Runnable listener, Executor executor)
+
+public String toString()
+void addListener(Runnable listener, Executor executor)
+
+static Runnable threadRenaming(final Runnable task, final Supplier<String> nameSupplier)
+void addListener(Runnable listener, Executor executor)
+
+static Runnable threadRenaming(final Runnable task, final Supplier<String> nameSupplier)
+void addListener(Runnable listener, Executor executor)
+
+protected Executor executor()
+void addListener(Runnable listener, Executor executor)
+
+protected Executor executor()
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantLock newReentrantLock(String lockName, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantLock newReentrantLock(String lockName, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public static V get(Future<V> future, Class<X> exceptionClass) throws X
+void addListener(Runnable listener, Executor executor)
+
+public static V get(Future<V> future, Class<X> exceptionClass) throws X
+void addListener(Runnable listener, Executor executor)
+
+public int drainTo(Collection<? super E> c, int maxElements)
+void addListener(Runnable listener, Executor executor)
+
+public int drainTo(Collection<? super E> c, int maxElements)
+void addListener(Runnable listener, Executor executor)
+
+public static V getChecked(Future<V> future, Class<X> exceptionClass) throws X
+void addListener(Runnable listener, Executor executor)
+
+public static V getChecked(Future<V> future, Class<X> exceptionClass) throws X
+void addListener(Runnable listener, Executor executor)
+
+private static void executeListener(Runnable runnable, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+private static void executeListener(Runnable runnable, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+abstract Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+void addListener(Runnable listener, Executor executor)
+
+abstract Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+void addListener(Runnable listener, Executor executor)
+
+public final V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitRunning()
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitRunning()
+void addListener(Runnable listener, Executor executor)
+
+public boolean tryLock(long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public boolean tryLock(long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public final State state()
+void addListener(Runnable listener, Executor executor)
+
+public final State state()
+void addListener(Runnable listener, Executor executor)
+
+private ExampleStackTrace findPathTo(LockGraphNode node, Set<LockGraphNode> seen)
+void addListener(Runnable listener, Executor executor)
+
+private ExampleStackTrace findPathTo(LockGraphNode node, Set<LockGraphNode> seen)
+void addListener(Runnable listener, Executor executor)
+
+public ListenableFuture<T> submit(Runnable task, @Nullable T result)
+void addListener(Runnable listener, Executor executor)
+
+public ListenableFuture<T> submit(Runnable task, @Nullable T result)
+void addListener(Runnable listener, Executor executor)
+
+private static Map<? extends Enum, LockGraphNode> getOrCreateNodes(Class<? extends Enum> clazz)
+void addListener(Runnable listener, Executor executor)
+
+private static Map<? extends Enum, LockGraphNode> getOrCreateNodes(Class<? extends Enum> clazz)
+void addListener(Runnable listener, Executor executor)
+
+public static CheckedFuture<V, X> immediateFailedCheckedFuture(X exception)
+void addListener(Runnable listener, Executor executor)
+
+public static CheckedFuture<V, X> immediateFailedCheckedFuture(X exception)
+void addListener(Runnable listener, Executor executor)
+
+public List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public static Scheduler newFixedRateSchedule(final long initialDelay, final long period, final TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public static Scheduler newFixedRateSchedule(final long initialDelay, final long period, final TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public final boolean isRunning()
+void addListener(Runnable listener, Executor executor)
+
+public final boolean isRunning()
+void addListener(Runnable listener, Executor executor)
+
+private void init()
+void addListener(Runnable listener, Executor executor)
+
+private void init()
+void addListener(Runnable listener, Executor executor)
+
+public final void addListener(Listener listener, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public final void addListener(Listener listener, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public final void addListener(Listener listener, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+protected final void notifyStopped()
+void addListener(Runnable listener, Executor executor)
+
+protected final void notifyStopped()
+void addListener(Runnable listener, Executor executor)
+
+protected final void notifyStopped()
+void addListener(Runnable listener, Executor executor)
+
+public final V get() throws InterruptedException, ExecutionException
+void addListener(Runnable listener, Executor executor)
+
+public final V get() throws InterruptedException, ExecutionException
+void addListener(Runnable listener, Executor executor)
+
+public final V get() throws InterruptedException, ExecutionException
+void addListener(Runnable listener, Executor executor)
+
+public boolean enterWhenUninterruptibly(Guard guard, long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public boolean enterWhenUninterruptibly(Guard guard, long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public boolean enterWhenUninterruptibly(Guard guard, long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+void putNext(Waiter waiter, Waiter next)
+void addListener(Runnable listener, Executor executor)
+
+void putNext(Waiter waiter, Waiter next)
+void addListener(Runnable listener, Executor executor)
+
+void putNext(Waiter waiter, Waiter next)
+void addListener(Runnable listener, Executor executor)
+
+public final Throwable failureCause()
+void addListener(Runnable listener, Executor executor)
+
+public final Throwable failureCause()
+void addListener(Runnable listener, Executor executor)
+
+public final Throwable failureCause()
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+void addListener(Runnable listener, Executor executor)
+
+void putThread(Waiter waiter, Thread thread)
+void addListener(Runnable listener, Executor executor)
+
+void putThread(Waiter waiter, Thread thread)
+void addListener(Runnable listener, Executor executor)
+
+void putThread(Waiter waiter, Thread thread)
+void addListener(Runnable listener, Executor executor)
+
+public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+protected boolean setFuture(ListenableFuture<? extends V> future)
+void addListener(Runnable listener, Executor executor)
+
+protected boolean setFuture(ListenableFuture<? extends V> future)
+void addListener(Runnable listener, Executor executor)
+
+protected boolean setFuture(ListenableFuture<? extends V> future)
+void addListener(Runnable listener, Executor executor)
+
+public static ImmutableList<ListenableFuture<T>> inCompletionOrder(Iterable<? extends ListenableFuture<? extends T>> futures)
+void addListener(Runnable listener, Executor executor)
+
+public static ImmutableList<ListenableFuture<T>> inCompletionOrder(Iterable<? extends ListenableFuture<? extends T>> futures)
+void addListener(Runnable listener, Executor executor)
+
+public static ImmutableList<ListenableFuture<T>> inCompletionOrder(Iterable<? extends ListenableFuture<? extends T>> futures)
+void addListener(Runnable listener, Executor executor)
+
+public ListenableFuture<?> submit(Runnable task)
+void addListener(Runnable listener, Executor executor)
+
+public ListenableFuture<?> submit(Runnable task)
+void addListener(Runnable listener, Executor executor)
+
+public ListenableFuture<?> submit(Runnable task)
+void addListener(Runnable listener, Executor executor)
+
+private static long toSafeNanos(long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+private static long toSafeNanos(long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+private static long toSafeNanos(long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public T callWithTimeout(Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean amInterruptible) throws Exception
+void addListener(Runnable listener, Executor executor)
+
+public T callWithTimeout(Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean amInterruptible) throws Exception
+void addListener(Runnable listener, Executor executor)
+
+public T callWithTimeout(Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean amInterruptible) throws Exception
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitTerminated()
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitTerminated()
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitTerminated()
+void addListener(Runnable listener, Executor executor)
+
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+private void terminated(final State from)
+void addListener(Runnable listener, Executor executor)
+
+private void terminated(final State from)
+void addListener(Runnable listener, Executor executor)
+
+private void terminated(final State from)
+void addListener(Runnable listener, Executor executor)
+
+protected void interruptTask()
+void addListener(Runnable listener, Executor executor)
+
+protected void interruptTask()
+void addListener(Runnable listener, Executor executor)
+
+protected void interruptTask()
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFutureTask<V> create(Runnable runnable, @Nullable V result)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFutureTask<V> create(Runnable runnable, @Nullable V result)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFutureTask<V> create(Runnable runnable, @Nullable V result)
+void addListener(Runnable listener, Executor executor)
+
+protected abstract BlockingQueue<E> delegate()
+void addListener(Runnable listener, Executor executor)
+
+protected abstract BlockingQueue<E> delegate()
+void addListener(Runnable listener, Executor executor)
+
+protected abstract BlockingQueue<E> delegate()
+void addListener(Runnable listener, Executor executor)
+
+public boolean cancel(boolean mayInterruptIfRunning)
+void addListener(Runnable listener, Executor executor)
+
+public boolean cancel(boolean mayInterruptIfRunning)
+void addListener(Runnable listener, Executor executor)
+
+public boolean cancel(boolean mayInterruptIfRunning)
+void addListener(Runnable listener, Executor executor)
+
+final void collectOneValue(boolean allMustSucceed, int index, @Nullable V returnValue)
+void addListener(Runnable listener, Executor executor)
+
+final void collectOneValue(boolean allMustSucceed, int index, @Nullable V returnValue)
+void addListener(Runnable listener, Executor executor)
+
+final void collectOneValue(boolean allMustSucceed, int index, @Nullable V returnValue)
+void addListener(Runnable listener, Executor executor)
+
+final Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+void addListener(Runnable listener, Executor executor)
+
+final Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+void addListener(Runnable listener, Executor executor)
+
+final Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+void addListener(Runnable listener, Executor executor)
+
+public boolean waitForUninterruptibly(Guard guard, long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public boolean waitForUninterruptibly(Guard guard, long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public boolean waitForUninterruptibly(Guard guard, long time, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+boolean casWaiters(AbstractFuture future, Waiter curr, Waiter next)
+void addListener(Runnable listener, Executor executor)
+
+boolean casWaiters(AbstractFuture future, Waiter curr, Waiter next)
+void addListener(Runnable listener, Executor executor)
+
+boolean casWaiters(AbstractFuture future, Waiter curr, Waiter next)
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitTerminated(long timeout, TimeUnit unit) throws TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitTerminated(long timeout, TimeUnit unit) throws TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitTerminated(long timeout, TimeUnit unit) throws TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final void run()
+void addListener(Runnable listener, Executor executor)
+
+public final void run()
+void addListener(Runnable listener, Executor executor)
+
+public final void run()
+void addListener(Runnable listener, Executor executor)
+
+boolean casValue(AbstractFuture future, Object expected, Object v)
+void addListener(Runnable listener, Executor executor)
+
+boolean casValue(AbstractFuture future, Object expected, Object v)
+void addListener(Runnable listener, Executor executor)
+
+boolean casValue(AbstractFuture future, Object expected, Object v)
+void addListener(Runnable listener, Executor executor)
+
+public int remainingCapacity()
+void addListener(Runnable listener, Executor executor)
+
+public int remainingCapacity()
+void addListener(Runnable listener, Executor executor)
+
+public int remainingCapacity()
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantReadWriteLock newReentrantReadWriteLock(E rank, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantReadWriteLock newReentrantReadWriteLock(E rank, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantReadWriteLock newReentrantReadWriteLock(E rank, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public final Service startAsync()
+void addListener(Runnable listener, Executor executor)
+
+public final Service startAsync()
+void addListener(Runnable listener, Executor executor)
+
+public final Service startAsync()
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantReadWriteLock newReentrantReadWriteLock(String lockName, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantReadWriteLock newReentrantReadWriteLock(String lockName, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantReadWriteLock newReentrantReadWriteLock(String lockName, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+void checkAcquiredLocks(Policy policy, List<LockGraphNode> acquiredLocks)
+void addListener(Runnable listener, Executor executor)
+
+void checkAcquiredLocks(Policy policy, List<LockGraphNode> acquiredLocks)
+void addListener(Runnable listener, Executor executor)
+
+void checkAcquiredLocks(Policy policy, List<LockGraphNode> acquiredLocks)
+void addListener(Runnable listener, Executor executor)
+
+public static Future<O> lazyTransform(final Future<I> input, final Function<? super I, ? extends O> function)
+void addListener(Runnable listener, Executor executor)
+
+public static Future<O> lazyTransform(final Future<I> input, final Function<? super I, ? extends O> function)
+void addListener(Runnable listener, Executor executor)
+
+public static Future<O> lazyTransform(final Future<I> input, final Function<? super I, ? extends O> function)
+void addListener(Runnable listener, Executor executor)
+
+protected final void doStart()
+void addListener(Runnable listener, Executor executor)
+
+protected final void doStart()
+void addListener(Runnable listener, Executor executor)
+
+protected final void doStart()
+void addListener(Runnable listener, Executor executor)
+
+void checkAcquiredLock(Policy policy, LockGraphNode acquiredLock)
+void addListener(Runnable listener, Executor executor)
+
+void checkAcquiredLock(Policy policy, LockGraphNode acquiredLock)
+void addListener(Runnable listener, Executor executor)
+
+void checkAcquiredLock(Policy policy, LockGraphNode acquiredLock)
+void addListener(Runnable listener, Executor executor)
+
+public boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public static V get(Future<V> future, long timeout, TimeUnit unit, Class<X> exceptionClass) throws X
+void addListener(Runnable listener, Executor executor)
+
+public static V get(Future<V> future, long timeout, TimeUnit unit, Class<X> exceptionClass) throws X
+void addListener(Runnable listener, Executor executor)
+
+public static V get(Future<V> future, long timeout, TimeUnit unit, Class<X> exceptionClass) throws X
+void addListener(Runnable listener, Executor executor)
+
+public static WithExplicitOrdering<E> newInstanceWithExplicitOrdering(Class<E> enumClass, Policy policy)
+void addListener(Runnable listener, Executor executor)
+
+public static WithExplicitOrdering<E> newInstanceWithExplicitOrdering(Class<E> enumClass, Policy policy)
+void addListener(Runnable listener, Executor executor)
+
+public static WithExplicitOrdering<E> newInstanceWithExplicitOrdering(Class<E> enumClass, Policy policy)
+void addListener(Runnable listener, Executor executor)
+
+public ListenableFuture<T> submit(Callable<T> task)
+void addListener(Runnable listener, Executor executor)
+
+public ListenableFuture<T> submit(Callable<T> task)
+void addListener(Runnable listener, Executor executor)
+
+public ListenableFuture<T> submit(Callable<T> task)
+void addListener(Runnable listener, Executor executor)
+
+void execute()
+void addListener(Runnable listener, Executor executor)
+
+void execute()
+void addListener(Runnable listener, Executor executor)
+
+void execute()
+void addListener(Runnable listener, Executor executor)
+
+ListenableScheduledFuture<?> schedule(Runnable command, long delay, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+ListenableScheduledFuture<?> schedule(Runnable command, long delay, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+ListenableScheduledFuture<?> schedule(Runnable command, long delay, TimeUnit unit)
+void addListener(Runnable listener, Executor executor)
+
+public E poll(long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public E poll(long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public E poll(long timeout, TimeUnit unit) throws InterruptedException
+void addListener(Runnable listener, Executor executor)
+
+public boolean isSatisfied()
+void addListener(Runnable listener, Executor executor)
+
+public boolean isSatisfied()
+void addListener(Runnable listener, Executor executor)
+
+public boolean isSatisfied()
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitRunning(long timeout, TimeUnit unit) throws TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitRunning(long timeout, TimeUnit unit) throws TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final void awaitRunning(long timeout, TimeUnit unit) throws TimeoutException
+void addListener(Runnable listener, Executor executor)
+
+public final boolean isDone()
+void addListener(Runnable listener, Executor executor)
+
+public final boolean isDone()
+void addListener(Runnable listener, Executor executor)
+
+public final boolean isDone()
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> listenInPoolThread(Future<V> future)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> listenInPoolThread(Future<V> future)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> listenInPoolThread(Future<V> future)
+void addListener(Runnable listener, Executor executor)
+
+protected ScheduledExecutorService executor()
+void addListener(Runnable listener, Executor executor)
+
+protected ScheduledExecutorService executor()
+void addListener(Runnable listener, Executor executor)
+
+protected ScheduledExecutorService executor()
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> nonCancellationPropagating(ListenableFuture<V> future)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> nonCancellationPropagating(ListenableFuture<V> future)
+void addListener(Runnable listener, Executor executor)
+
+public static ListenableFuture<V> nonCancellationPropagating(ListenableFuture<V> future)
+void addListener(Runnable listener, Executor executor)
+
+protected final void interruptTask()
+void addListener(Runnable listener, Executor executor)
+
+protected final void interruptTask()
+void addListener(Runnable listener, Executor executor)
+
+protected final void interruptTask()
+void addListener(Runnable listener, Executor executor)
+
+boolean casListeners(AbstractFuture future, Listener curr, Listener next)
+void addListener(Runnable listener, Executor executor)
+
+boolean casListeners(AbstractFuture future, Listener curr, Listener next)
+void addListener(Runnable listener, Executor executor)
+
+boolean casListeners(AbstractFuture future, Listener curr, Listener next)
+void addListener(Runnable listener, Executor executor)
+
+public final boolean isCancelled()
+void addListener(Runnable listener, Executor executor)
+
+public final boolean isCancelled()
+void addListener(Runnable listener, Executor executor)
+
+public final boolean isCancelled()
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantLock newReentrantLock(E rank, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantLock newReentrantLock(E rank, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public ReentrantLock newReentrantLock(E rank, boolean fair)
+void addListener(Runnable listener, Executor executor)
+
+public long getAndAdd(K key, long delta)
+void addListener(Runnable listener, Executor executor)
+
+public long getAndAdd(K key, long delta)
+void addListener(Runnable listener, Executor executor)
+
+public long getAndAdd(K key, long delta)
+void addListener(Runnable listener, Executor executor)
+
+private void removeWaiter(Waiter node)
+void addListener(Runnable listener, Executor executor)
+
+private void removeWaiter(Waiter node)
+void addListener(Runnable listener, Executor executor)
+
+private void removeWaiter(Waiter node)
+void addListener(Runnable listener, Executor executor)
+

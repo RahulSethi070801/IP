@@ -1,0 +1,4 @@
+Invokable
+Insertions: [34, 100, 180, 206, 270]
+Deletions: [34, 100, 180, 206, 270]
+guava/src/com/google/common/reflect/Invokable.java

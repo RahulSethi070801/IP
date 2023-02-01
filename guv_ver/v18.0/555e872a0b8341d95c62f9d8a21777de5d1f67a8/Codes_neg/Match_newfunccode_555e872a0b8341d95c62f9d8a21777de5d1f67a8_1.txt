@@ -1,0 +1,4 @@
+@Override
+Type usedInGenericType(Type type) {
+    return JAVA7.usedInGenericType(type);
+}

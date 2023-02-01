@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "40": "   * the given {@code cause} for the removal. The {@code key} and/or {@code value} may be {@code\n",
+        "41": "   * null} if they were already garbage collected.\n",
+        "55": "  /** Returns the cause for which the entry was removed. */\n"
+    },
+    "removed": {
+        "40": "   * the given {@code cause} for the removal. The {@code key} and/or {@code value} may be\n",
+        "41": "   * {@code null} if they were already garbage collected.\n",
+        "55": "  /**\n",
+        "56": "   * Returns the cause for which the entry was removed.\n",
+        "57": "   */\n"
+    }
+}

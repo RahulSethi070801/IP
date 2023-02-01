@@ -1,0 +1,3 @@
+
+     * Returns a freshly created entry, typed at the {@code E} type, for the given {@code segment}.
+     

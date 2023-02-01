@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "32": " * A generic JUnit test which tests {@code set()} operations on a list. Can't be invoked directly;\n",
+        "33": " * please see {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n",
+        "135": "   * Returns the {@link java.lang.reflect.Method} instance for {@link #testSet_null()} so that tests\n",
+        "136": "   * of {@link java.util.Collections#checkedCollection(java.util.Collection, Class)} can suppress it\n",
+        "137": "   * with {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "138": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6409434\">Sun bug 6409434</a> is fixed.\n",
+        "139": "   * It's unclear whether nulls were to be permitted or forbidden, but presumably the eventual fix\n",
+        "140": "   * will be to permit them, as it seems more likely that code would depend on that behavior than on\n",
+        "141": "   * the other. Thus, we say the bug is in set(), which fails to support null.\n"
+    },
+    "removed": {
+        "32": " * A generic JUnit test which tests {@code set()} operations on a list. Can't be\n",
+        "33": " * invoked directly; please see\n",
+        "34": " * {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n",
+        "136": "   * Returns the {@link java.lang.reflect.Method} instance for\n",
+        "137": "   * {@link #testSet_null()} so that tests of {@link\n",
+        "138": "   * java.util.Collections#checkedCollection(java.util.Collection, Class)} can\n",
+        "139": "   * suppress it with {@code FeatureSpecificTestSuiteBuilder.suppressing()}\n",
+        "140": "   * until <a\n",
+        "141": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6409434\">Sun bug\n",
+        "142": "   * 6409434</a> is fixed. It's unclear whether nulls were to be permitted or\n",
+        "143": "   * forbidden, but presumably the eventual fix will be to permit them, as it\n",
+        "144": "   * seems more likely that code would depend on that behavior than on the\n",
+        "145": "   * other. Thus, we say the bug is in set(), which fails to support null.\n"
+    }
+}

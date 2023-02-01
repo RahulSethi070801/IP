@@ -1,0 +1,4 @@
+ByteSource
+Insertions: [43, 77, 319, 623, 624]
+Deletions: [317, 621]
+android/guava/src/com/google/common/io/ByteSource.java

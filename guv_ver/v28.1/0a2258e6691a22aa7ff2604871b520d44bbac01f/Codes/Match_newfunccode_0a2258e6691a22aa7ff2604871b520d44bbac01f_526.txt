@@ -1,0 +1,5 @@
+@Nullable
+@Override
+public <T extends B> T getInstance(Class<T> type) {
+    return trustedGet(TypeToken.of(type));
+}

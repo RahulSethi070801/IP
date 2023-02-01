@@ -1,0 +1,8 @@
+
+   * Reads an integer as specified by {@link DataInputStream#readInt()}, except using little-endian
+   * byte order.
+   *
+   * @return the next four bytes of the input stream, interpreted as an {@code int} in little-endian
+   *     byte order
+   * @throws IOException if an I/O error occurs
+   

@@ -1,0 +1,9 @@
+@Override
+@NullableDecl
+public Range<C> rangeContaining(C value) {
+    if (!restriction.contains(value)) {
+        return null;
+    }
+    Range<C> result = TreeRangeSet.this.rangeContaining(value);
+    return (result == null) ? null : result.intersection(restriction);
+}

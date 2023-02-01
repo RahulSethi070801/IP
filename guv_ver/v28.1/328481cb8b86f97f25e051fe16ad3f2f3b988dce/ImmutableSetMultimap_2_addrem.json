@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "368": "        List<Entry<K, Collection<V>>> entries =\n",
+        "372": "        for (Entry<K, Collection<V>> entry : entries) {\n"
+    },
+    "removed": {
+        "38": "import java.util.Map;\n",
+        "369": "        List<Map.Entry<K, Collection<V>>> entries =\n",
+        "373": "        for (Map.Entry<K, Collection<V>> entry : entries) {\n"
+    }
+}

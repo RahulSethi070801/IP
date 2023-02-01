@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "271": "    assertThat(transpose.edgeValueOrNull(N1, N2)).isNull();\n",
+        "274": "    assertThat(transpose.edgeValueOrNull(N1, N2)).isEqualTo(E21);\n"
+    },
+    "removed": {
+        "271": "    assertThat(transpose.edgeValueOrDefault(N1, N2, null)).isNull();\n",
+        "274": "    assertThat(transpose.edgeValueOrDefault(N1, N2, null)).isEqualTo(E21);\n"
+    }
+}

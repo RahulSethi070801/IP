@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "248": "   * <p>When selecting an executor, note that {@code directExecutor} is dangerous in some cases. See\n",
+        "249": "   * the discussion in the {@link ListenableFuture#addListener ListenableFuture.addListener}\n",
+        "250": "   * documentation.\n",
+        "275": "   * @deprecated Use {@linkplain #addListener(Listener, Executor) the overload that accepts an\n",
+        "276": "   *     executor}. For equivalent behavior, pass {@link MoreExecutors#directExecutor}. However,\n",
+        "277": "   *     consider whether another executor would be more appropriate, as discussed in the docs for\n",
+        "278": "   *     {@link ListenableFuture#addListener ListenableFuture.addListener}. This method is scheduled\n",
+        "279": "   *     for deletion in October 2020.\n",
+        "281": "  @Beta // currently redundant, but ensures we keep this @Beta when we gradate the class!\n",
+        "282": "  @Deprecated\n"
+    },
+    "removed": {
+        "248": "   * <p>For fast, lightweight listeners that would be safe to execute in any thread, consider\n",
+        "249": "   * calling {@link #addListener(Listener)}.\n"
+    }
+}

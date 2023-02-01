@@ -1,0 +1,10 @@
+@Override
+@CanIgnoreReturnValue
+public boolean removeEdge(Object edge) {
+    checkNotNull(edge, "edge");
+    if (!edges().contains(edge)) {
+        return false;
+    }
+    removeEdgeAndUpdateConnections(edge, Graphs.parallelEdges(this, edge).isEmpty());
+    return true;
+}

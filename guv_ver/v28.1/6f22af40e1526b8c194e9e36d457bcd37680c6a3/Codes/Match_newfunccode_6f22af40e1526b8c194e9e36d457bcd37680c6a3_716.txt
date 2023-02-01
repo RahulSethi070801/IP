@@ -1,0 +1,4 @@
+@Override
+public E lower(E e) {
+    return forward.higher(e);
+}

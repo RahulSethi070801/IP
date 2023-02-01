@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "22": " * A type which will never be used as the element type of any collection in our tests, and so can be\n",
+        "23": " * used to test how a Collection behaves when given input of the wrong type.\n"
+    },
+    "removed": {
+        "22": " * A type which will never be used as the element type of any collection in our\n",
+        "23": " * tests, and so can be used to test how a Collection behaves when given input\n",
+        "24": " * of the wrong type.\n"
+    }
+}

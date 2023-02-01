@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "28": "import com.google.common.io.ByteSource.AsCharSource;\n",
+        "55": "import java.util.stream.Stream;\n",
+        "165": "    @Override\n",
+        "166": "    public CharSource asCharSource(Charset charset) {\n",
+        "167": "      if (options.length == 0) {\n",
+        "168": "        // If no OpenOptions were passed, delegate to Files.lines, which could have performance\n",
+        "169": "        // advantages. (If OpenOptions were passed we can't, because Files.lines doesn't have an\n",
+        "170": "        // overload taking OpenOptions, meaning we can't guarantee the same behavior w.r.t. things\n",
+        "171": "        // like following/not following symlinks.\n",
+        "172": "        return new AsCharSource(charset) {\n",
+        "173": "          @SuppressWarnings(\"FilesLinesLeak\") // the user needs to close it in this case\n",
+        "174": "          @Override\n",
+        "175": "          public Stream<String> lines() throws IOException {\n",
+        "176": "            return Files.lines(path, charset);\n",
+        "177": "          }\n",
+        "178": "        };\n",
+        "179": "      }\n",
+        "180": "\n",
+        "181": "      return super.asCharSource(charset);\n",
+        "182": "    }\n",
+        "183": "\n"
+    },
+    "removed": {}
+}

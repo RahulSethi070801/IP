@@ -1,0 +1,4 @@
+ImmutableMap_2
+Insertions: [49, 685, 690, 696, 704, 814, 819, 869]
+Deletions: [49, 685, 690, 696, 704, 814, 819, 869]
+guava/src/com/google/common/collect/ImmutableMap.java

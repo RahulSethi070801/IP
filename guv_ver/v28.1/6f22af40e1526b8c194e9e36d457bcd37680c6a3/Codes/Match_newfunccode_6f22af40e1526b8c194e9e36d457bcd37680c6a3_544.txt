@@ -1,0 +1,1 @@
+abstract void afterRanInterruptibly(@NullableDecl T result, @NullableDecl Throwable error);

@@ -1,0 +1,20 @@
+
+   * Removes, from an iterable, every element that satisfies the provided
+   * predicate.
+   *
+   * <p>Removals may or may not happen immediately as each element is tested
+   * against the predicate.  The behavior of this method is not specified if
+   * {@code predicate} is dependent on {@code removeFrom}.
+   *
+   * <p><b>Java 8 users:</b> if {@code removeFrom} is a {@link Collection},
+   * use {@code removeFrom.removeIf(predicate)} instead.
+   *
+   * @param removeFrom the iterable to (potentially) remove elements from
+   * @param predicate a predicate that determines whether an element should
+   *     be removed
+   * @return {@code true} if any elements were removed from the iterable
+   *
+   * @throws UnsupportedOperationException if the iterable does not support
+   *     {@code remove()}.
+   * @since 2.0
+   

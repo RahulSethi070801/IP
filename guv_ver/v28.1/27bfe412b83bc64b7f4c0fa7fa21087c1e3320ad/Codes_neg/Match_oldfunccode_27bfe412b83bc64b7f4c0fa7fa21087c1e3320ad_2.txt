@@ -1,0 +1,18 @@
+private void enqueueTerminatedEvent(final State from) {
+    switch(from) {
+        case NEW:
+            listeners.enqueue(TERMINATED_FROM_NEW_EVENT);
+            break;
+        case RUNNING:
+            listeners.enqueue(TERMINATED_FROM_RUNNING_EVENT);
+            break;
+        case STOPPING:
+            listeners.enqueue(TERMINATED_FROM_STOPPING_EVENT);
+            break;
+        case STARTING:
+        case TERMINATED:
+        case FAILED:
+        default:
+            throw new AssertionError();
+    }
+}

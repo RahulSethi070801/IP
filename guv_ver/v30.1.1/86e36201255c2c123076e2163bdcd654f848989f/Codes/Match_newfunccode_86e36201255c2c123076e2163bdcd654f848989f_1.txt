@@ -1,0 +1,5 @@
+@Beta
+@Deprecated
+public void addListener(Listener listener) {
+    state.addListener(listener, directExecutor());
+}

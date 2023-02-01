@@ -1,0 +1,11 @@
+
+   * Continue execution of tasks after a call to {@link #suspend()}. More accurately, decreases the
+   * suspension counter, as has been incremented by calls to {@link #suspend}, and resumes execution
+   * if the suspension counter is zero.
+   *
+   * <p>If this method throws, e.g. a {@code RejectedExecutionException} from the delegate executor,
+   * execution of tasks will stop until a call to this method or to {@link #execute(Runnable)} is
+   * made.
+   *
+   * @throws java.lang.IllegalStateException if this executor is not suspended.
+   

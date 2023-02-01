@@ -1,0 +1,5 @@
+
+   * Enters this monitor when the guard is satisfied. Blocks indefinitely, but may be interrupted.
+   *
+   * @throws InterruptedException if interrupted while waiting
+   

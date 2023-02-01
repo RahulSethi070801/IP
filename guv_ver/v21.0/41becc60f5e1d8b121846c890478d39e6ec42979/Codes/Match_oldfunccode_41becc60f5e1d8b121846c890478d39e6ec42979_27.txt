@@ -1,0 +1,26 @@
+public static <N> BasicGraph<N> transitiveClosure(ValueGraph<N, ?> graph) {
+    MutableBasicGraph<N> transitiveClosure = BasicGraphBuilder.from(graph).allowsSelfLoops(true).build();
+    if (graph.isDirected()) {
+        for (N node : graph.nodes()) {
+            for (N reachableNode : reachableNodes(graph, node)) {
+                transitiveClosure.putEdge(node, reachableNode);
+            }
+        }
+    } else {
+        Set<N> visitedNodes = new HashSet<N>();
+        for (N node : graph.nodes()) {
+            if (!visitedNodes.contains(node)) {
+                ImmutableList<N> reachableNodes = ImmutableList.copyOf(reachableNodes(graph, node));
+                visitedNodes.addAll(reachableNodes);
+                for (int a = 0; a < reachableNodes.size(); ++a) {
+                    N nodeA = reachableNodes.get(a);
+                    for (int b = a; b < reachableNodes.size(); ++b) {
+                        N nodeB = reachableNodes.get(b);
+                        transitiveClosure.putEdge(nodeA, nodeB);
+                    }
+                }
+            }
+        }
+    }
+    return transitiveClosure;
+}

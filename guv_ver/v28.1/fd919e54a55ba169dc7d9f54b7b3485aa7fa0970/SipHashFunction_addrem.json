@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "85": "      return (c == other.c) && (d == other.d) && (k0 == other.k0) && (k1 == other.k1);\n"
+    },
+    "removed": {
+        "85": "      return (c == other.c)\n",
+        "86": "          && (d == other.d)\n",
+        "87": "          && (k0 == other.k0)\n",
+        "88": "          && (k1 == other.k1);\n"
+    }
+}

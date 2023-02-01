@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "85": "    if (!isSelfLoop) {\n",
+        "86": "      return removeOutEdge(edge);\n",
+        "88": "    return null;\n",
+        "93": "    N node = checkNotNull(super.removeOutEdge(edge));\n",
+        "94": "    Multiset<N> adjacentNodes = getReference(adjacentNodesReference);\n",
+        "95": "    if (adjacentNodes != null) {\n",
+        "96": "      checkState(adjacentNodes.remove(node));\n",
+        "102": "  public void addInEdge(E edge, N node, boolean isSelfLoop) {\n",
+        "103": "    if (!isSelfLoop) {\n",
+        "104": "      addOutEdge(edge, node);\n",
+        "109": "  public void addOutEdge(E edge, N node) {\n",
+        "110": "    super.addOutEdge(edge, node);\n",
+        "111": "    Multiset<N> adjacentNodes = getReference(adjacentNodesReference);\n",
+        "112": "    if (adjacentNodes != null) {\n",
+        "113": "      checkState(adjacentNodes.add(node));\n"
+    },
+    "removed": {
+        "84": "    if (isSelfLoop) {\n",
+        "85": "      return null;\n",
+        "87": "    return removeOutEdge(edge);\n",
+        "92": "    N node = super.removeOutEdge(edge);\n",
+        "93": "    if (node != null) {\n",
+        "94": "      Multiset<N> adjacentNodes = getReference(adjacentNodesReference);\n",
+        "95": "      if (adjacentNodes != null) {\n",
+        "96": "        checkState(adjacentNodes.remove(node));\n",
+        "97": "      }\n",
+        "103": "  public boolean addInEdge(E edge, N node, boolean isSelfLoop) {\n",
+        "104": "    if (isSelfLoop) {\n",
+        "105": "      return false;\n",
+        "107": "    return addOutEdge(edge, node);\n",
+        "111": "  public boolean addOutEdge(E edge, N node) {\n",
+        "112": "    if (super.addOutEdge(edge, node)) {\n",
+        "113": "      Multiset<N> adjacentNodes = getReference(adjacentNodesReference);\n",
+        "114": "      if (adjacentNodes != null) {\n",
+        "115": "        checkState(adjacentNodes.add(node));\n",
+        "116": "      }\n",
+        "117": "      return true;\n",
+        "119": "    return false;\n"
+    }
+}

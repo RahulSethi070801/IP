@@ -1,0 +1,6 @@
+
+   * Waits for the guard to be satisfied. Waits at most the given time. May be called only by a
+   * thread currently occupying this monitor.
+   *
+   * @return whether the guard is now satisfied
+   

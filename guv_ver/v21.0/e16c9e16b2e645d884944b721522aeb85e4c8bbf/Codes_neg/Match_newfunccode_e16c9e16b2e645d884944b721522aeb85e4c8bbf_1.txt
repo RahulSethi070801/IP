@@ -1,0 +1,5 @@
+public NetworkBuilder<N, E> expectedNodeCount(int expectedNodeCount) {
+    checkArgument(expectedNodeCount >= 0, "The expected number of nodes can't be negative: %s", expectedNodeCount);
+    this.expectedNodeCount = Optional.of(expectedNodeCount);
+    return this;
+}

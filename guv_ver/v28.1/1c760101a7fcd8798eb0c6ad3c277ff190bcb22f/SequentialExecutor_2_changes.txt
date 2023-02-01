@@ -1,0 +1,4 @@
+SequentialExecutor_2
+Insertions: [54]
+Deletions: [54]
+guava/src/com/google/common/util/concurrent/SequentialExecutor.java

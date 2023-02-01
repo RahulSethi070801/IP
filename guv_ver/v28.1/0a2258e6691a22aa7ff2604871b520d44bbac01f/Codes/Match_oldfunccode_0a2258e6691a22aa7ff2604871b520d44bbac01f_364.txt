@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public Entry<K, V> pollFirstEntry() {
+    return Iterators.pollNext(entryIterator());
+}

@@ -1,0 +1,4 @@
+public <K1 extends K, V1 extends V> LoadingCache<K1, V1> build(CacheLoader<? super K1, V1> loader) {
+    checkWeightWithWeigher();
+    return new LocalCache.LocalLoadingCache<K1, V1>(this, loader);
+}

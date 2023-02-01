@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "27": " * <p>Registering a DeadEvent subscriber is useful for debugging or logging, as\n",
+        "28": " * it can detect misconfigurations in a system's event distribution.\n",
+        "63": "   * to any registered subscriber.\n"
+    },
+    "removed": {
+        "27": " * <p>Subscribing a DeadEvent handler is useful for debugging or logging, as it\n",
+        "28": " * can detect misconfigurations in a system's event distribution.\n",
+        "63": "   * to any registered handler.\n"
+    }
+}

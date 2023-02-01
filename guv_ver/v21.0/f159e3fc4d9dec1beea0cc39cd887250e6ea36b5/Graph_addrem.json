@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "30": " * including {@link Network}.\n"
+    },
+    "removed": {
+        "30": " * including {@link Network} and {@link Hypergraph}.\n",
+        "38": " * <li>hyperedges (edges which are incident to arbitrary sets of nodes)\n"
+    }
+}

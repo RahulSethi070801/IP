@@ -1,0 +1,15 @@
+com.google.common.cache.CacheStats
+loadCount
+public long loadCount()
+empty
+long
+com.google.common.cache.LocalCache
+isLoading
+boolean isLoading()
+empty
+boolean
+com.google.common.cache.CacheBuilder
+removalListener
+public CacheBuilder<K1, V1> removalListener(RemovalListener<? super K1, ? super V1> listener)
+RemovalListener
+CacheBuilder

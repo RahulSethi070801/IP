@@ -1,0 +1,11 @@
+@Override
+@NullableDecl
+public V get(K key) {
+    int index = SortedLists.binarySearch(ranges, Range.<K>lowerBoundFn(), Cut.belowValue(key), KeyPresentBehavior.ANY_PRESENT, KeyAbsentBehavior.NEXT_LOWER);
+    if (index == -1) {
+        return null;
+    } else {
+        Range<K> range = ranges.get(index);
+        return range.contains(key) ? values.get(index) : null;
+    }
+}

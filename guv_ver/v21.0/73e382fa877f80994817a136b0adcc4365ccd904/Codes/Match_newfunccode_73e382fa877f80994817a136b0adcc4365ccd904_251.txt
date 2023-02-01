@@ -1,0 +1,50 @@
+static <T> Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function, Comparator<? super T> comparator) {
+    if (comparator != null) {
+        checkArgument((extraCharacteristics & (Spliterator.SORTED)) != 0);
+    }
+    class WithCharacteristics implements Spliterator<T> {
+
+        private final Spliterator<T> delegate;
+
+        WithCharacteristics(Spliterator<T> delegate) {
+            this.delegate = delegate;
+        }
+
+        @Override
+        public boolean tryAdvance(Consumer<? super T> action) {
+            return delegate.tryAdvance(action);
+        }
+
+        @Override
+        public void forEachRemaining(Consumer<? super T> action) {
+            delegate.forEachRemaining(action);
+        }
+
+        @Override
+        @Nullable
+        public Spliterator<T> trySplit() {
+            Spliterator<T> split = delegate.trySplit();
+            return (split == null) ? null : new WithCharacteristics(split);
+        }
+
+        @Override
+        public long estimateSize() {
+            return delegate.estimateSize();
+        }
+
+        @Override
+        public int characteristics() {
+            return delegate.characteristics() | extraCharacteristics;
+        }
+
+        @Override
+        public Comparator<? super T> getComparator() {
+            if (hasCharacteristics(Spliterator.SORTED)) {
+                return comparator;
+            } else {
+                throw new IllegalStateException();
+            }
+        }
+    }
+    return new WithCharacteristics(IntStream.range(0, size).mapToObj(function).spliterator());
+}

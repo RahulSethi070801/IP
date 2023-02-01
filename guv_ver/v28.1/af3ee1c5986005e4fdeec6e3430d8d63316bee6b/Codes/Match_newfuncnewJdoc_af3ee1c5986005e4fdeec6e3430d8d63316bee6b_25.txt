@@ -1,0 +1,10 @@
+
+   * Returns the value of the edge that connects {@code endpoints} (in the order, if any, specified
+   * by {@code endpoints}), if one is present; otherwise, returns {@code Optional.empty()}.
+   *
+   * <p>If this graph is directed, the endpoints must be ordered.
+   *
+   * @throws IllegalArgumentException if either endpoint is not an element of this graph
+   * @throws IllegalArgumentException if the endpoints are unordered and the graph is directed
+   * @since NEXT
+   

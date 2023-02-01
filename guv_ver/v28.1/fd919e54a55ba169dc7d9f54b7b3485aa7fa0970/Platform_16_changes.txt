@@ -1,0 +1,4 @@
+Platform_16
+Insertions: [20]
+Deletions: [20, 21, 22]
+guava/src/com/google/common/util/concurrent/Platform.java

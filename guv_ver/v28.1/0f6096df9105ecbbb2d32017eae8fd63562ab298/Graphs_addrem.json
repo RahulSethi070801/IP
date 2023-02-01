@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "29": "import java.util.Collection;\n",
+        "391": "    @Nullable\n",
+        "392": "    public V edgeValueOrNull(N nodeU, N nodeV) {\n",
+        "393": "      return graph.edgeValueOrNull(nodeV, nodeU); // transpose\n",
+        "524": "    MutableGraph<N> subgraph = (nodes instanceof Collection)\n",
+        "525": "        ? GraphBuilder.from(graph).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "526": "        : GraphBuilder.from(graph).build();\n",
+        "550": "    MutableValueGraph<N, V> subgraph = (nodes instanceof Collection)\n",
+        "551": "        ? ValueGraphBuilder.from(graph).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "552": "        : ValueGraphBuilder.from(graph).build();\n",
+        "559": "          subgraph.putEdgeValue(node, successorNode, graph.edgeValueOrNull(node, successorNode));\n",
+        "577": "    MutableNetwork<N, E> subgraph = (nodes instanceof Collection)\n",
+        "578": "        ? NetworkBuilder.from(network).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "579": "        : NetworkBuilder.from(network).build();\n",
+        "614": "      copy.putEdgeValue(\n",
+        "615": "          edge.nodeU(), edge.nodeV(), graph.edgeValueOrNull(edge.nodeU(), edge.nodeV()));\n"
+    },
+    "removed": {
+        "390": "    public V edgeValue(N nodeU, N nodeV) {\n",
+        "391": "      return graph.edgeValue(nodeV, nodeU); // transpose\n",
+        "392": "    }\n",
+        "393": "\n",
+        "394": "    @Override\n",
+        "395": "    public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {\n",
+        "396": "      return graph.edgeValueOrDefault(nodeV, nodeU, defaultValue); // transpose\n",
+        "527": "    MutableGraph<N> subgraph = GraphBuilder.from(graph).build();\n",
+        "551": "    MutableValueGraph<N, V> subgraph = ValueGraphBuilder.from(graph).build();\n",
+        "558": "          subgraph.putEdgeValue(node, successorNode, graph.edgeValue(node, successorNode));\n",
+        "576": "    MutableNetwork<N, E> subgraph = NetworkBuilder.from(network).build();\n",
+        "611": "      copy.putEdgeValue(edge.nodeU(), edge.nodeV(), graph.edgeValue(edge.nodeU(), edge.nodeV()));\n"
+    }
+}

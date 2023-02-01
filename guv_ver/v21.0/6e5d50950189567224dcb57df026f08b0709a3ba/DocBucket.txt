@@ -1,0 +1,15 @@
+com.google.common.util.concurrent.AbstractCheckedFuture
+mapException
+protected abstract X mapException(Exception e)
+Exception
+X
+com.google.common.util.concurrent.AbstractScheduledService
+scheduler
+protected abstract Scheduler scheduler()
+empty
+Scheduler
+com.google.common.util.concurrent.AbstractScheduledService
+getNextSchedule
+protected abstract Schedule getNextSchedule() throws Exception
+empty
+Schedule

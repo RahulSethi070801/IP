@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "121": "  /**\n",
+        "122": "   * Returns the equivalent {@code com.google.common.base.Optional} value to the given {@code\n",
+        "123": "   * java.util.Optional}, or {@code null} if the argument is null.\n",
+        "124": "   */\n",
+        "125": "  @Nullable\n",
+        "126": "  public static <T> Optional<T> fromJavaUtil(@Nullable java.util.Optional<T> javaUtilOptional) {\n",
+        "127": "    return (javaUtilOptional == null) ? null : fromNullable(javaUtilOptional.orElse(null));\n",
+        "128": "  }\n",
+        "129": "\n",
+        "130": "  /**\n",
+        "131": "   * Returns the equivalent {@code java.util.Optional} value to the given {@code\n",
+        "132": "   * com.google.common.base.Optional}, or {@code null} if the argument is null.\n",
+        "133": "   */\n",
+        "134": "  @Nullable\n",
+        "135": "  public static <T> java.util.Optional<T> toJavaUtil(@Nullable Optional<T> googleOptional) {\n",
+        "136": "    return (googleOptional == null)\n",
+        "137": "        ? null\n",
+        "138": "        : java.util.Optional.ofNullable(googleOptional.orNull());\n",
+        "139": "  }\n",
+        "140": "\n"
+    },
+    "removed": {}
+}

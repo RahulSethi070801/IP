@@ -1,0 +1,1296 @@
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(Object edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+public boolean removeEdge(E edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+V value(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(Object node)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public N adjacentNode(E edge)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(Object node)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+public EndpointPair<N> incidentNodes(E edge)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+public V value(Object node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+void removePredecessor(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+V value(N node)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeInEdge(E edge, boolean isSelfLoop)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public N removeOutEdge(Object edge)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V value(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+
+public V removeSuccessor(N node)
+boolean equals(@Nullable Object object)
+

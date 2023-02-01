@@ -1,0 +1,9 @@
+
+   * Returns the equivalent {@code java.util.Optional} value to this optional.
+   *
+   * <p>Unfortunately, the method reference {@code Optional::toJavaUtil} will not work, because it
+   * could refer to either the static or instance version of this method. Write out the lambda
+   * expression {@code o -> o.toJavaUtil()} instead.
+   *
+   * @since 21.0
+   

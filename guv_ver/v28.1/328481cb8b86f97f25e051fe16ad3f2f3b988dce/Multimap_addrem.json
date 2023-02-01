@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "25": "import java.util.Map.Entry;\n",
+        "343": "   * multimap, as {@link Entry} instances.\n",
+        "349": "  Collection<Entry<K, V>> entries();\n",
+        "361": "   * Entry#setValue setValue}.\n"
+    },
+    "removed": {
+        "342": "   * multimap, as {@link Map.Entry} instances.\n",
+        "348": "  Collection<Map.Entry<K, V>> entries();\n",
+        "360": "   * Map.Entry#setValue setValue}.\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public E edgeConnectingOrNull(EndpointPair<N> endpoints) {
+    return delegate().edgeConnectingOrNull(endpoints);
+}

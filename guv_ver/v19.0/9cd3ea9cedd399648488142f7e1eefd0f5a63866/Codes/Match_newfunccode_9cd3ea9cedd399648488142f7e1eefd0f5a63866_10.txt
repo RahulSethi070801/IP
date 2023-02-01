@@ -1,0 +1,4 @@
+@CheckReturnValue
+public String join(Map<?, ?> map) {
+    return join(map.entrySet());
+}

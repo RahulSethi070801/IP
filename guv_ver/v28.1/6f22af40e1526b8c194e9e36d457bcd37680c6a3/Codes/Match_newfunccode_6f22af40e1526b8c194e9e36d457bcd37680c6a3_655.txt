@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public final E getElement() {
+    return element;
+}

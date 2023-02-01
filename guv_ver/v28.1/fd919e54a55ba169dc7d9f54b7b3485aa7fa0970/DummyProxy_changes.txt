@@ -1,0 +1,4 @@
+DummyProxy
+Insertions: [50, 51, 52, 53, 54, 70, 71, 83, 84, 88, 89, 102, 103]
+Deletions: [50, 51, 52, 53, 69, 70, 82, 86, 99]
+android/guava-testlib/src/com/google/common/testing/DummyProxy.java

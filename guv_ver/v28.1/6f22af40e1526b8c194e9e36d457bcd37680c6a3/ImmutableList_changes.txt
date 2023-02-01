@@ -1,0 +1,4 @@
+ImmutableList
+Insertions: [40, 385, 390, 395, 562, 567, 573, 602]
+Deletions: [40, 385, 390, 395, 562, 567, 573, 602]
+android/guava/src/com/google/common/collect/ImmutableList.java

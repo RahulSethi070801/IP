@@ -1,0 +1,6 @@
+
+     * Returns the multiset element corresponding to this entry. Multiple calls to this method
+     * always return the same instance.
+     *
+     * @return the element corresponding to this entry
+     

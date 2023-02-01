@@ -1,0 +1,36 @@
+@Override
+public Set<Entry<Class<? extends B>, B>> entrySet() {
+    return new ForwardingSet<Entry<Class<? extends B>, B>>() {
+
+        @Override
+        protected Set<Entry<Class<? extends B>, B>> delegate() {
+            return MutableClassToInstanceMap.this.delegate().entrySet();
+        }
+
+        @Override
+        public Spliterator<Entry<Class<? extends B>, B>> spliterator() {
+            return CollectSpliterators.map(delegate().spliterator(), MutableClassToInstanceMap::checkedEntry);
+        }
+
+        @Override
+        public Iterator<Entry<Class<? extends B>, B>> iterator() {
+            return new TransformedIterator<Entry<Class<? extends B>, B>, Entry<Class<? extends B>, B>>(delegate().iterator()) {
+
+                @Override
+                Entry<Class<? extends B>, B> transform(Entry<Class<? extends B>, B> from) {
+                    return checkedEntry(from);
+                }
+            };
+        }
+
+        @Override
+        public Object[] toArray() {
+            return standardToArray();
+        }
+
+        @Override
+        public <T> T[] toArray(T[] array) {
+            return standardToArray(array);
+        }
+    };
+}

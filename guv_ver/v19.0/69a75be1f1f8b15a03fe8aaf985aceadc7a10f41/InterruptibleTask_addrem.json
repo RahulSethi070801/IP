@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "28": "  // These two fields are used to interrupt running tasks.  The thread executing the task publishes\n",
+        "29": "  // itself to the 'runner' field and the thread interrupting sets 'doneInterrupting' when it has\n",
+        "30": "  // finished interrupting.\n",
+        "34": "  @Override\n",
+        "35": "  public final void run() {\n",
+        "37": "      return; // someone else has run or is running.\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "30": "  // These two fields are used to interrupt running tasks.  The thread executing the task\n",
+        "31": "  // publishes itself to the 'runner' field and the thread interrupting sets 'doneInterrupting'\n",
+        "32": "  // when it has finished interrupting.\n",
+        "36": "  @Override public final void run() {\n",
+        "38": "      return;  // someone else has run or is running.\n"
+    }
+}

@@ -1,0 +1,4 @@
+ChainBenchmark
+Insertions: [31, 32, 53, 54]
+Deletions: [31, 52]
+android/guava-tests/benchmark/com/google/common/cache/ChainBenchmark.java

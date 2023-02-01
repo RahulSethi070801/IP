@@ -1,0 +1,10 @@
+@Override
+String convert(CaseFormat format, String s) {
+    if (format == LOWER_HYPHEN) {
+        return Ascii.toLowerCase(s.replace('_', '-'));
+    }
+    if (format == LOWER_UNDERSCORE) {
+        return Ascii.toLowerCase(s);
+    }
+    return super.convert(format, s);
+}

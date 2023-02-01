@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #containsKey} in terms of the {@code firstKey()} method of
+   * {@link #tailMap}. If you override {@link #tailMap}, you may wish to override {@link
+   * #containsKey} to forward to this implementation.
+   *
+   * @since 7.0
+   

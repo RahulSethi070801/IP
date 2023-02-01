@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "42": "import javax.annotation.CheckForNull;\n",
+        "85": "@ElementTypesAreNonnullByDefault\n",
+        "312": "  @CheckForNull\n",
+        "313": "  public String readFirstLine() throws IOException {\n",
+        "369": "  @ParametricNullness\n",
+        "370": "  public <T extends @Nullable Object> T readLines(LineProcessor<T> processor) throws IOException {\n",
+        "601": "    @CheckForNull\n",
+        "613": "    @ParametricNullness\n",
+        "614": "    public <T extends @Nullable Object> T readLines(LineProcessor<T> processor) throws IOException {\n"
+    },
+    "removed": {
+        "310": "  public @Nullable String readFirstLine() throws IOException {\n",
+        "366": "  public <T> T readLines(LineProcessor<T> processor) throws IOException {\n",
+        "608": "    public <T> T readLines(LineProcessor<T> processor) throws IOException {\n"
+    }
+}

@@ -1,0 +1,6 @@
+static <K, V> boolean removeEntryImpl(Collection<Entry<K, V>> c, Object o) {
+    if (!(o instanceof Entry)) {
+        return false;
+    }
+    return c.remove(unmodifiableEntry((Entry<?, ?>) o));
+}

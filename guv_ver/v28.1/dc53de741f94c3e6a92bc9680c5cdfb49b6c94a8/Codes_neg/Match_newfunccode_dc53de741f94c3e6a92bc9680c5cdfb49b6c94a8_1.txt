@@ -1,0 +1,4 @@
+@Override
+public int flags() {
+    return pattern.flags();
+}

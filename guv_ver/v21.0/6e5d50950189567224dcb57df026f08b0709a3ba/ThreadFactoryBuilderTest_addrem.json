@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "167": "    ThreadFactory unused;\n",
+        "168": "    unused = builder.build();  // this is allowed\n",
+        "169": "    unused = builder.build();  // this is *also* allowed\n"
+    },
+    "removed": {
+        "167": "    builder.build();  // this is allowed\n",
+        "168": "    builder.build();  // this is *also* allowed\n"
+    }
+}

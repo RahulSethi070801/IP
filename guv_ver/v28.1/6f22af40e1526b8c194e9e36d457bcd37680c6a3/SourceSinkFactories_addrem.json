@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "40": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "308": "    private FileByteSinkFactory(@NullableDecl byte[] initialBytes) {\n",
+        "378": "    private FileCharSinkFactory(@NullableDecl String initialString) {\n"
+    },
+    "removed": {
+        "40": "import javax.annotation.Nullable;\n",
+        "308": "    private FileByteSinkFactory(@Nullable byte[] initialBytes) {\n",
+        "378": "    private FileCharSinkFactory(@Nullable String initialString) {\n"
+    }
+}

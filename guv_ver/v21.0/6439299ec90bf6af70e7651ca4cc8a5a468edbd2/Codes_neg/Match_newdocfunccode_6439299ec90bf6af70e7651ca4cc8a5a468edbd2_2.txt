@@ -1,0 +1,3 @@
+final N nodeB() {
+    return nodeB;
+}

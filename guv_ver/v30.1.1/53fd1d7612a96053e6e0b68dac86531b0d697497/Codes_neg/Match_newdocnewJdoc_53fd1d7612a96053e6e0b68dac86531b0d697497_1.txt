@@ -1,0 +1,12 @@
+
+   * Returns {@code true} if the supplied string is a valid IP string literal, {@code false}
+   * otherwise.
+   *
+   * <p>This method accepts non-ASCII digits, for example {@code "１９２.１６８.０.１"} (those are fullwidth
+   * characters). That is consistent with {@link InetAddress}, but not with various RFCs. If you
+   * want to accept ASCII digits only, you can use something like {@code
+   * CharMatcher.ascii().matchesAllOf(ipString)}.
+   *
+   * @param ipString {@code String} to evaluated as an IP string literal
+   * @return {@code true} if the argument is a valid IP string literal
+   

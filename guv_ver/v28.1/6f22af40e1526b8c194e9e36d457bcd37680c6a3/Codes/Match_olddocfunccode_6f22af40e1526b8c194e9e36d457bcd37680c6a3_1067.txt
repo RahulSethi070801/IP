@@ -1,0 +1,3 @@
+public final E get(int position) {
+    return Iterables.get(getDelegate(), position);
+}

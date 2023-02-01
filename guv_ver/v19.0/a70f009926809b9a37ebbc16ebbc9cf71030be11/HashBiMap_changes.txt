@@ -1,0 +1,4 @@
+HashBiMap
+Insertions: [650]
+Deletions: [651]
+guava/src/com/google/common/collect/HashBiMap.java

@@ -1,0 +1,4 @@
+Lists
+Insertions: [410, 411, 412, 472, 473, 474]
+Deletions: [410, 470]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/Lists.java

@@ -1,0 +1,4 @@
+SortedListsTest_2
+Insertions: [37, 38, 39, 40, 41, 42, 101, 102, 103, 105, 106, 116, 117, 118, 120, 121]
+Deletions: [37, 38, 97, 99, 109, 111]
+guava-tests/test/com/google/common/collect/SortedListsTest.java

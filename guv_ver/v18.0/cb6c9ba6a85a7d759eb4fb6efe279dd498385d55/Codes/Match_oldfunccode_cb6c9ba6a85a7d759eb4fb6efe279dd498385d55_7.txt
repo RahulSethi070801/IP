@@ -1,0 +1,6 @@
+final long reserve(int permits) {
+    checkPermits(permits);
+    synchronized (mutex()) {
+        return reserveNextTicket(permits, stopwatch.readMicros());
+    }
+}

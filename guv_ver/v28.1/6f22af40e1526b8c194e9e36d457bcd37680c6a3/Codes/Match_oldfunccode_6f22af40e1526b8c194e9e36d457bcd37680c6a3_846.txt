@@ -1,0 +1,19 @@
+@Nullable
+private static Collection<IOException> deleteRecursivelySecure(SecureDirectoryStream<Path> dir, Path path) {
+    Collection<IOException> exceptions = null;
+    try {
+        if (isDirectory(dir, path, NOFOLLOW_LINKS)) {
+            try (SecureDirectoryStream<Path> childDir = dir.newDirectoryStream(path, NOFOLLOW_LINKS)) {
+                exceptions = deleteDirectoryContentsSecure(childDir);
+            }
+            if (exceptions == null) {
+                dir.deleteDirectory(path);
+            }
+        } else {
+            dir.deleteFile(path);
+        }
+        return exceptions;
+    } catch (IOException e) {
+        return addException(exceptions, e);
+    }
+}

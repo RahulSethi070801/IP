@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "19": "import static java.util.Objects.requireNonNull;\n",
+        "53": "@ElementTypesAreNonnullByDefault\n",
+        "79": "    boolean empty;\n",
+        "80": "    if (effectiveRange.isEmpty()) {\n",
+        "81": "      empty = true;\n",
+        "82": "    } else {\n",
+        "83": "      /*\n",
+        "84": "       * requireNonNull is safe because the effectiveRange operations above would have thrown or\n",
+        "85": "       * effectiveRange.isEmpty() would have returned true.\n",
+        "86": "       */\n",
+        "87": "      C afterLower = requireNonNull(range.lowerBound.leastValueAbove(domain));\n",
+        "88": "      C beforeUpper = requireNonNull(range.upperBound.greatestValueBelow(domain));\n",
+        "89": "      // Per class spec, we are allowed to throw CCE if necessary\n",
+        "90": "      empty = Range.compareOrThrow(afterLower, beforeUpper) > 0;\n",
+        "91": "    }\n"
+    },
+    "removed": {
+        "77": "    // Per class spec, we are allowed to throw CCE if necessary\n",
+        "78": "    boolean empty =\n",
+        "79": "        effectiveRange.isEmpty()\n",
+        "80": "            || Range.compareOrThrow(\n",
+        "81": "                    range.lowerBound.leastValueAbove(domain),\n",
+        "82": "                    range.upperBound.greatestValueBelow(domain))\n",
+        "83": "                > 0;\n"
+    }
+}

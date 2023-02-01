@@ -1,0 +1,4 @@
+CacheStats
+Insertions: [23, 252]
+Deletions: [23, 252]
+android/guava/src/com/google/common/cache/CacheStats.java

@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public boolean set(@Nullable V value) {
+    return super.set(value);
+}

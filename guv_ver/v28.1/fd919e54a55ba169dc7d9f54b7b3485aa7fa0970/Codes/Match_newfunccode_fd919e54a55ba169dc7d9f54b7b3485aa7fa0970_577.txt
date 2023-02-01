@@ -1,0 +1,4 @@
+@Override
+public Builder<K, V> putAll(Map<? extends K, ? extends V> map) {
+    return putAll(map.entrySet());
+}

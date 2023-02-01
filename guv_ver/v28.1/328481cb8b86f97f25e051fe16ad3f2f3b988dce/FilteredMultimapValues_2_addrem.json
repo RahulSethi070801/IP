@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "64": "      Entry<K, V> entry = unfilteredItr.next();\n"
+    },
+    "removed": {
+        "27": "import java.util.Map;\n",
+        "65": "      Map.Entry<K, V> entry = unfilteredItr.next();\n"
+    }
+}

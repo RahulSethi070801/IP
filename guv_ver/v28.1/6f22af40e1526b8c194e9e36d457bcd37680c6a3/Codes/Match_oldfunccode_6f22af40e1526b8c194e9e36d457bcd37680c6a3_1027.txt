@@ -1,0 +1,11 @@
+@Override
+public final boolean equals(@Nullable Object obj) {
+    if (obj == this) {
+        return true;
+    }
+    if (!(obj instanceof ValueGraph)) {
+        return false;
+    }
+    ValueGraph<?, ?> other = (ValueGraph<?, ?>) obj;
+    return isDirected() == other.isDirected() && nodes().equals(other.nodes()) && edgeValueMap(this).equals(edgeValueMap(other));
+}

@@ -1,0 +1,4 @@
+FunctionalEquivalence
+Insertions: [4, 5, 9, 10, 11]
+Deletions: [4, 5, 6, 10, 11, 12, 13]
+guava/src/com/google/common/base/FunctionalEquivalence.java

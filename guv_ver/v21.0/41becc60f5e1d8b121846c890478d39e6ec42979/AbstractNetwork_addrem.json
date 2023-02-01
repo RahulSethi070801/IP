@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "45": "  public Graph<N, Set<E>> asGraph() {\n",
+        "46": "    return new AbstractGraph<N, Set<E>>() {\n"
+    },
+    "removed": {
+        "45": "  public ValueGraph<N, Set<E>> asGraph() {\n",
+        "46": "    return new AbstractValueGraph<N, Set<E>>() {\n"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "22": "import javax.annotation.CheckForNull;\n",
+        "43": "// TODO(cpovirk): after adding @Nullable below\n",
+        "44": "@ElementTypesAreNonnullByDefault\n",
+        "65": "  @CheckForNull\n",
+        "66": "  public final Object invoke(Object proxy, Method method, @CheckForNull @Nullable Object[] args)\n",
+        "101": "  @CheckForNull\n",
+        "102": "  protected abstract Object handleInvocation(\n",
+        "103": "      Object proxy, Method method, /* TODO(cpovirk): @Nullable */ Object[] args) throws Throwable;\n",
+        "117": "  public boolean equals(@CheckForNull Object obj) {\n"
+    },
+    "removed": {
+        "62": "  public final Object invoke(Object proxy, Method method, Object @Nullable [] args)\n",
+        "97": "  protected abstract Object handleInvocation(Object proxy, Method method, Object[] args)\n",
+        "98": "      throws Throwable;\n",
+        "112": "  public boolean equals(Object obj) {\n"
+    }
+}

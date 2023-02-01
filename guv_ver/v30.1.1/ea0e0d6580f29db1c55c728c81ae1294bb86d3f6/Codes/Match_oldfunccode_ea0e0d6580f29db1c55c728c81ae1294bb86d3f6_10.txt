@@ -1,0 +1,8 @@
+protected Entry<E> standardLastEntry() {
+    Iterator<Entry<E>> entryIterator = descendingMultiset().entrySet().iterator();
+    if (!entryIterator.hasNext()) {
+        return null;
+    }
+    Entry<E> entry = entryIterator.next();
+    return Multisets.immutableEntry(entry.getElement(), entry.getCount());
+}

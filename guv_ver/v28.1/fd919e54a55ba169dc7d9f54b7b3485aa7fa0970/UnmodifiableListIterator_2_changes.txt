@@ -1,0 +1,4 @@
+UnmodifiableListIterator_2
+Insertions: [23]
+Deletions: [23, 24]
+guava/src/com/google/common/collect/UnmodifiableListIterator.java

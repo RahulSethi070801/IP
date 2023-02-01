@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "68": "    Iterable<String> iterable = MinimalIterable.from(Collections.<String>emptySet());\n",
+        "84": "    Iterable<String> iterable = MinimalIterable.from(Collections.singleton(\"a\"));\n"
+    },
+    "removed": {
+        "68": "    Iterable<String> iterable\n",
+        "69": "        = MinimalIterable.from(Collections.<String>emptySet());\n",
+        "85": "    Iterable<String> iterable\n",
+        "86": "        = MinimalIterable.from(Collections.singleton(\"a\"));\n"
+    }
+}

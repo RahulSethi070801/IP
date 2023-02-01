@@ -1,0 +1,4 @@
+@Nullable
+static <V> V valueOrNull(@Nullable Entry<?, V> entry) {
+    return (entry == null) ? null : entry.getValue();
+}

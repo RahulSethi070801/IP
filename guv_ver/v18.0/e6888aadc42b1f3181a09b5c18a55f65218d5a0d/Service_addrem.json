@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "154": "   * <p>{@code addListener} guarantees execution ordering across calls to a given listener but not\n",
+        "155": "   * across calls to multiple listeners. Specifically, a given listener will have its callbacks\n",
+        "156": "   * invoked in the same order as the underlying service enters those states. Additionally, at most\n",
+        "157": "   * one of the listener's callbacks will execute at once. However, multiple listeners' callbacks\n",
+        "158": "   * may execute concurrently, and listeners may execute in an order different from the one in which\n",
+        "159": "   * they were registered.\n",
+        "161": "   * <p>RuntimeExceptions thrown by a listener will be caught and logged. Any exception thrown \n",
+        "162": "   * during {@code Executor.execute} (e.g., a {@code RejectedExecutionException}) will be caught and\n"
+    },
+    "removed": {
+        "154": "   * <p>There is no guaranteed ordering of execution of listeners, but any listener added through \n",
+        "155": "   * this method is guaranteed to be called whenever there is a state change.\n",
+        "157": "   * <p>Exceptions thrown by a listener will be propagated up to the executor. Any exception thrown \n",
+        "158": "   * during {@code Executor.execute} (e.g., a {@code RejectedExecutionException} or an exception \n",
+        "159": "   * thrown by {@linkplain MoreExecutors#sameThreadExecutor inline execution}) will be caught and\n"
+    }
+}

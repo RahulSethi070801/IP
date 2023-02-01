@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public int setCount(@NullableDecl E element, int count) {
+    return setCountImpl(this, element, count);
+}

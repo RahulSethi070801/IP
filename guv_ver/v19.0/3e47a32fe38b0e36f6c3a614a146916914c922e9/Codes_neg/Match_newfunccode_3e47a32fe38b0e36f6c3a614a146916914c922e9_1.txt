@@ -1,0 +1,3 @@
+public static <V> ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<Throwable> exceptionType, Function<? super Throwable, ? extends V> fallback, Executor executor) {
+    return catchingAsync(input, exceptionType, asAsyncFunction(fallback), executor);
+}

@@ -1,0 +1,3 @@
+public static ByteSource asByteSource(Path path, OpenOption... options) {
+    return new PathByteSource(path, options);
+}

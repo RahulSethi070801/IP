@@ -1,0 +1,48 @@
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b)
+
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c)
+
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+public static Iterator<T> concat(Iterator<? extends T>... inputs)
+
+public static Iterable<T> concat(final Iterable<? extends Iterable<? extends T>> inputs)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c, Iterator<? extends T> d)
+
+Iterator<? extends T> transform(Iterator<? extends T> iterator)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b)
+
+Iterator<? extends T> transform(Iterator<? extends T> iterator)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c)
+
+Iterator<? extends T> transform(Iterator<? extends T> iterator)
+public static Iterator<T> concat(Iterator<? extends T>... inputs)
+
+Iterator<? extends T> transform(Iterator<? extends T> iterator)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c, Iterator<? extends T> d)
+
+private static Iterator<Iterator<? extends T>> getComponentIterators(Iterator<? extends Iterator<? extends T>> iterators)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b)
+
+private static Iterator<Iterator<? extends T>> getComponentIterators(Iterator<? extends Iterator<? extends T>> iterators)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c)
+
+private static Iterator<Iterator<? extends T>> getComponentIterators(Iterator<? extends Iterator<? extends T>> iterators)
+public static Iterator<T> concat(Iterator<? extends T>... inputs)
+
+private static Iterator<Iterator<? extends T>> getComponentIterators(Iterator<? extends Iterator<? extends T>> iterators)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c, Iterator<? extends T> d)
+
+abstract Iterator<? extends T> transform(F from)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b)
+
+abstract Iterator<? extends T> transform(F from)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c)
+
+abstract Iterator<? extends T> transform(F from)
+public static Iterator<T> concat(Iterator<? extends T>... inputs)
+
+abstract Iterator<? extends T> transform(F from)
+public static Iterator<T> concat(Iterator<? extends T> a, Iterator<? extends T> b, Iterator<? extends T> c, Iterator<? extends T> d)
+

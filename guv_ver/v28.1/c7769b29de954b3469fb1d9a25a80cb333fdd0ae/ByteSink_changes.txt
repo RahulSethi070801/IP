@@ -1,0 +1,4 @@
+ByteSink
+Insertions: [64, 69, 77, 78, 82, 95, 117]
+Deletions: [64, 69, 77, 78, 82, 95, 117, 118]
+guava/src/com/google/common/io/ByteSink.java

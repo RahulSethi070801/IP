@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "204": "        Object unused = striped.getAt(Integer.MAX_VALUE - i);\n"
+    },
+    "removed": {
+        "204": "        striped.getAt(Integer.MAX_VALUE - i);\n"
+    }
+}

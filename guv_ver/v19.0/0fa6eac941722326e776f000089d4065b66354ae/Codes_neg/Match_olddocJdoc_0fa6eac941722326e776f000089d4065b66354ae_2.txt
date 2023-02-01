@@ -1,0 +1,4 @@
+
+   * Returns a string representation of this fluent iterable, with the format
+   * {@code [e1, e2, ..., en]}.
+   

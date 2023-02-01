@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "18": "import com.google.common.collect.Table.Cell;\n",
+        "27": "import java.util.Spliterator;\n",
+        "124": "  abstract Spliterator<Table.Cell<R, C, V>> cellSpliterator();\n",
+        "125": "\n",
+        "162": "    @Override\n",
+        "163": "    public Spliterator<Cell<R, C, V>> spliterator() {\n",
+        "164": "      return cellSpliterator();\n",
+        "165": "    }\n",
+        "166": "\n",
+        "194": "  Spliterator<V> valuesSpliterator() {\n",
+        "195": "    return CollectSpliterators.map(cellSpliterator(), Table.Cell::getValue);\n",
+        "196": "  }\n",
+        "197": "\n"
+    },
+    "removed": {}
+}

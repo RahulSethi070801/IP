@@ -1,0 +1,3 @@
+public static DiscreteDomain<Long> longs() {
+    return DiscreteDomain.longs();
+}

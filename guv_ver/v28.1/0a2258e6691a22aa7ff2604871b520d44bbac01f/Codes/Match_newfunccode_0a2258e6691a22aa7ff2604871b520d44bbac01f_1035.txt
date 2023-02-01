@@ -1,0 +1,6 @@
+private Type captureNullable(@Nullable Type type) {
+    if (type == null) {
+        return null;
+    }
+    return capture(type);
+}

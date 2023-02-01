@@ -1,0 +1,3 @@
+public static <E> Multiset.Entry<E> immutableEntry(@NullableDecl E e, int n) {
+    return new ImmutableEntry<E>(e, n);
+}

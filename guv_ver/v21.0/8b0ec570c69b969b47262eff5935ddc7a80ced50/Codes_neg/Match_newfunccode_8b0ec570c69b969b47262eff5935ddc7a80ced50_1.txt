@@ -1,0 +1,25 @@
+@Override
+@CanIgnoreReturnValue
+public boolean addEdge(E edge, N node1, N node2) {
+    checkNotNull(edge, "edge");
+    checkNotNull(node1, "node1");
+    checkNotNull(node2, "node2");
+    DirectedIncidentNodes<N> endpoints = DirectedIncidentNodes.of(node1, node2);
+    checkArgument(config.isSelfLoopsAllowed() || !endpoints.isSelfLoop(), SELF_LOOPS_NOT_ALLOWED, node1);
+    DirectedIncidentNodes<N> previousEndpoints = edgeToIncidentNodes.get(edge);
+    if (previousEndpoints != null) {
+        checkArgument(previousEndpoints.equals(endpoints), REUSING_EDGE, edge, previousEndpoints, endpoints);
+        return false;
+    } else if (!config.isMultigraph() && nodes().contains(node1) && nodes().contains(node2)) {
+        E edgeConnecting = Iterables.getOnlyElement(edgesConnecting(node1, node2), null);
+        checkArgument(edgeConnecting == null, ADDING_PARALLEL_EDGE, node1, node2, edgeConnecting);
+    }
+    addNode(node1);
+    NodeConnections<N, E> connectionsN1 = nodeConnections.get(node1);
+    connectionsN1.addSuccessor(node2, edge);
+    addNode(node2);
+    NodeConnections<N, E> connectionsN2 = nodeConnections.get(node2);
+    connectionsN2.addPredecessor(node1, edge);
+    edgeToIncidentNodes.put(edge, endpoints);
+    return true;
+}

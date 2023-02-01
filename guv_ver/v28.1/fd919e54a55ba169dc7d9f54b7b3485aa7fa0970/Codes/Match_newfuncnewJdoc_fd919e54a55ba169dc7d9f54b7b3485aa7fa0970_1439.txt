@@ -1,0 +1,1 @@
+ Returns the {@link #sum} as a {@code double} after a widening primitive conversion. 

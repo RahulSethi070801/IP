@@ -1,0 +1,4 @@
+@GwtIncompatible("reflection")
+public static <V, X extends Exception> V getChecked(Future<V> future, Class<X> exceptionClass, long timeout, TimeUnit unit) throws X {
+    return FuturesGetChecked.getChecked(future, exceptionClass, timeout, unit);
+}

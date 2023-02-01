@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "23": " * the garbage collector reclaims the referent. This is a simpler alternative to using a {@link\n",
+        "24": " * ReferenceQueue}.\n"
+    },
+    "removed": {
+        "23": " * the garbage collector reclaims the referent. This is a simpler alternative to using a\n",
+        "24": " * {@link ReferenceQueue}.\n"
+    }
+}

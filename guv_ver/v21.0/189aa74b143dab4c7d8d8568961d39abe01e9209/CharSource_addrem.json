@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "27": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "184": "   * @return the number of characters copied\n",
+        "188": "  @CanIgnoreReturnValue\n",
+        "206": "   * @return the number of characters copied\n",
+        "210": "  @CanIgnoreReturnValue\n",
+        "307": "  @CanIgnoreReturnValue // some processors won't return a useful result\n"
+    },
+    "removed": {}
+}

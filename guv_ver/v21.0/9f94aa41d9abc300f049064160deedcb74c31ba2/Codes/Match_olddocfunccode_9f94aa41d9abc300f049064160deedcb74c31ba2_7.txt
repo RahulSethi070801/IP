@@ -1,0 +1,3 @@
+public int indexIn(CharSequence sequence) {
+    return indexIn(sequence, 0);
+}

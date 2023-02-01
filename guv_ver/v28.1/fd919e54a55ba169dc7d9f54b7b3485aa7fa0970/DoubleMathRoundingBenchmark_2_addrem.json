@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "51": "  @Benchmark\n",
+        "52": "  int roundToInt(int reps) {\n",
+        "61": "  @Benchmark\n",
+        "62": "  long roundToLong(int reps) {\n",
+        "71": "  @Benchmark\n",
+        "72": "  int roundToBigInteger(int reps) {\n",
+        "81": "  @Benchmark\n",
+        "82": "  int log2Round(int reps) {\n"
+    },
+    "removed": {
+        "51": "  @Benchmark int roundToInt(int reps) {\n",
+        "60": "  @Benchmark long roundToLong(int reps) {\n",
+        "69": "  @Benchmark int roundToBigInteger(int reps) {\n",
+        "78": "  @Benchmark int log2Round(int reps) {\n"
+    }
+}

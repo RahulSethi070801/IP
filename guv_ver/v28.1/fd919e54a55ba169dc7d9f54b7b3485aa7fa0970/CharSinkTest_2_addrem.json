@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "114": "      assertTrue(\n",
+        "115": "          \"stream not closed when copying from source with option: \" + option,\n"
+    },
+    "removed": {
+        "114": "      assertTrue(\"stream not closed when copying from source with option: \" + option,\n"
+    }
+}

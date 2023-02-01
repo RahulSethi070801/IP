@@ -1,0 +1,7 @@
+@SuppressWarnings("unchecked")
+@Override
+@NullableDecl
+public V2 getOrDefault(@NullableDecl Object key, @NullableDecl V2 defaultValue) {
+    V1 value = fromMap.get(key);
+    return (value != null || fromMap.containsKey(key)) ? transformer.transformEntry((K) key, value) : defaultValue;
+}

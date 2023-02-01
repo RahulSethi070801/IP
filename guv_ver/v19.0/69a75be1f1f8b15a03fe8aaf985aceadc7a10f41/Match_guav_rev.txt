@@ -1,0 +1,114 @@
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public String toString()
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public static ListenableFutureTask<V> create(Runnable runnable, @Nullable V result)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public void addListener(Runnable listener, Executor exec)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public final void addListener(Runnable listener, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public final void addListener(Listener listener, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public void addListener(Runnable listener, Executor exec)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public final void addListener(Runnable listener, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public final void addListener(Listener listener, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public void addListener(Runnable listener, Executor exec)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public final void addListener(Runnable listener, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public final void addListener(Listener listener, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public void addListener(Runnable listener, Executor exec)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public final void addListener(Runnable listener, Executor executor)
+
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X
+public final void addListener(Listener listener, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public String toString()
+
+void addListener(Runnable listener, Executor executor)
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+
+void addListener(Runnable listener, Executor executor)
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public static ListenableFutureTask<V> create(Runnable runnable, @Nullable V result)
+
+void addListener(Runnable listener, Executor executor)
+public void addListener(Runnable listener, Executor exec)
+
+void addListener(Runnable listener, Executor executor)
+public final void addListener(Runnable listener, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public final void addListener(Listener listener, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public void addListener(Runnable listener, Executor exec)
+
+void addListener(Runnable listener, Executor executor)
+public final void addListener(Runnable listener, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public final void addListener(Listener listener, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public void addListener(Runnable listener, Executor exec)
+
+void addListener(Runnable listener, Executor executor)
+public final void addListener(Runnable listener, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public final void addListener(Listener listener, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+
+void addListener(Runnable listener, Executor executor)
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+
+void addListener(Runnable listener, Executor executor)
+public void addListener(Runnable listener, Executor exec)
+
+void addListener(Runnable listener, Executor executor)
+public final void addListener(Runnable listener, Executor executor)
+
+void addListener(Runnable listener, Executor executor)
+public final void addListener(Listener listener, Executor executor)
+

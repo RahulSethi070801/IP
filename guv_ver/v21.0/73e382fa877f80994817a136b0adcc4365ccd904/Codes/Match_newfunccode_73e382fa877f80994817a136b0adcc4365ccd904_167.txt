@@ -1,0 +1,16 @@
+public static <T> Iterable<T> limit(final Iterable<T> iterable, final int limitSize) {
+    checkNotNull(iterable);
+    checkArgument(limitSize >= 0, "limit is negative");
+    return new FluentIterable<T>() {
+
+        @Override
+        public Iterator<T> iterator() {
+            return Iterators.limit(iterable.iterator(), limitSize);
+        }
+
+        @Override
+        public Spliterator<T> spliterator() {
+            return Streams.stream(iterable).limit(limitSize).spliterator();
+        }
+    };
+}

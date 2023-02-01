@@ -1,0 +1,11 @@
+public static <T extends @Nullable Object> Iterable<List<@Nullable T>> paddedPartition(final Iterable<T> iterable, final int size) {
+    checkNotNull(iterable);
+    checkArgument(size > 0);
+    return new FluentIterable<List<@Nullable T>>() {
+
+        @Override
+        public Iterator<List<@Nullable T>> iterator() {
+            return Iterators.paddedPartition(iterable.iterator(), size);
+        }
+    };
+}

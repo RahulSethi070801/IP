@@ -1,0 +1,42 @@
+{
+    "addition": {
+        "190": "    Map<String, Integer> map =\n",
+        "191": "        ImmutableMap.<String, Integer>builder().put(\"abc\", 1).put(\"def\", 2).put(\"ghi\", 3).build();\n",
+        "198": "    final String expected =\n",
+        "199": "        \"TestClass{\"\n",
+        "200": "            + \"field1=This is string., field2=[abc, def, ghi], field3={abc=1, def=2, ghi=3}}\";\n",
+        "207": "    Map<String, Integer> map =\n",
+        "208": "        ImmutableMap.<String, Integer>builder().put(\"abc\", 1).put(\"def\", 2).put(\"ghi\", 3).build();\n",
+        "215": "    final String expectedRegex =\n",
+        "216": "        \".*\\\\{\"\n",
+        "217": "            + \"field1\\\\=This is string\\\\., \"\n",
+        "218": "            + \"field2\\\\=\\\\[abc, def, ghi\\\\], \"\n",
+        "219": "            + \"field3=\\\\{abc\\\\=1, def\\\\=2, ghi\\\\=3\\\\}\\\\}\";\n",
+        "423": "    assertEquals(\"TestClass{field1=Hello, field2=Googley, field3=World}\", toTest);\n",
+        "426": "  /** Test class for testing formatting of inner classes. */\n"
+    },
+    "removed": {
+        "190": "    Map<String, Integer> map = ImmutableMap.<String, Integer>builder()\n",
+        "191": "        .put(\"abc\", 1)\n",
+        "192": "        .put(\"def\", 2)\n",
+        "193": "        .put(\"ghi\", 3)\n",
+        "194": "        .build();\n",
+        "201": "    final String expected = \"TestClass{\"\n",
+        "202": "        + \"field1=This is string., field2=[abc, def, ghi], field3={abc=1, def=2, ghi=3}}\";\n",
+        "209": "    Map<String, Integer> map = ImmutableMap.<String, Integer>builder()\n",
+        "210": "        .put(\"abc\", 1)\n",
+        "211": "        .put(\"def\", 2)\n",
+        "212": "        .put(\"ghi\", 3)\n",
+        "213": "        .build();\n",
+        "220": "    final String expectedRegex = \".*\\\\{\"\n",
+        "221": "        + \"field1\\\\=This is string\\\\., \"\n",
+        "222": "        + \"field2\\\\=\\\\[abc, def, ghi\\\\], \"\n",
+        "223": "        + \"field3=\\\\{abc\\\\=1, def\\\\=2, ghi\\\\=3\\\\}\\\\}\";\n",
+        "427": "    assertEquals(\"TestClass{field1=Hello, field2=Googley, field3=World}\",\n",
+        "428": "        toTest);\n",
+        "431": "  /**\n",
+        "432": "   * Test class for testing formatting of inner classes.\n",
+        "433": "   */\n",
+        "435": "\n"
+    }
+}

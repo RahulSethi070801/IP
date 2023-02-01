@@ -1,0 +1,9 @@
+
+   * Returns an unmodifiable {@code Iterable} over the nodes reachable from any of the {@code
+   * startNodes}, in the order of a breadth-first traversal. This is equivalent to a breadth-first
+   * traversal of a graph with an additional root node whose successors are the listed {@code
+   * startNodes}.
+   *
+   * @throws IllegalArgumentException if any of {@code startNodes} is not an element of the graph
+   * @see #breadthFirst(Object)
+   

@@ -1,0 +1,8 @@
+
+   * Helper method for {@link #validateSyntax(List)}. Validates that one part of
+   * a domain name is valid.
+   *
+   * @param part The domain name part to be validated
+   * @param isFinalPart Is this the final (rightmost) domain part?
+   * @return Whether the part is valid
+   

@@ -1,0 +1,19 @@
+@Override
+public Range<C> get(@NullableDecl Object key) {
+    if (key instanceof Cut) {
+        try {
+            @SuppressWarnings("unchecked")
+            Cut<C> cut = (Cut<C>) key;
+            if (!upperBoundWindow.contains(cut)) {
+                return null;
+            }
+            Entry<Cut<C>, Range<C>> candidate = rangesByLowerBound.lowerEntry(cut);
+            if (candidate != null && candidate.getValue().upperBound.equals(cut)) {
+                return candidate.getValue();
+            }
+        } catch (ClassCastException e) {
+            return null;
+        }
+    }
+    return null;
+}

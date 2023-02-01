@@ -1,0 +1,4 @@
+@Override
+public void suppress(Closeable closeable, Throwable thrown, Throwable suppressed) {
+    Closeables.logger.log(Level.WARNING, "Suppressing exception thrown when closing " + closeable, suppressed);
+}

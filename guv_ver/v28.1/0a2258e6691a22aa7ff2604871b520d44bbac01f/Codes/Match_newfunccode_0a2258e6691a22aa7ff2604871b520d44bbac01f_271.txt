@@ -1,0 +1,4 @@
+@Nullable
+public static <T> Optional<T> fromJavaUtil(java.util.@Nullable Optional<T> javaUtilOptional) {
+    return (javaUtilOptional == null) ? null : fromNullable(javaUtilOptional.orElse(null));
+}

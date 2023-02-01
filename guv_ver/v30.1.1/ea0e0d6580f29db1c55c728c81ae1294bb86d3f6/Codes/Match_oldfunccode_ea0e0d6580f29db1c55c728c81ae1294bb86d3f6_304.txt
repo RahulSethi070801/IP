@@ -1,0 +1,10 @@
+private AvlNode<E> removeMin(AvlNode<E> node) {
+    if (left == null) {
+        return right;
+    } else {
+        left = left.removeMin(node);
+        distinctElements--;
+        totalCount -= node.elemCount;
+        return rebalance();
+    }
+}

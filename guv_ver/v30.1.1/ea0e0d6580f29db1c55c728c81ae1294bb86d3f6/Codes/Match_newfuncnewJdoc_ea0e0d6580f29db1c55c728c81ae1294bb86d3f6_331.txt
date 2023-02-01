@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #pollLastEntry()} in terms of {@code
+   * descendingMultiset().entrySet().iterator()}.
+   *
+   * <p>If you override {@link #descendingMultiset()} or {@link #entrySet()}, you may wish to
+   * override {@link #pollLastEntry()} to forward to this implementation.
+   

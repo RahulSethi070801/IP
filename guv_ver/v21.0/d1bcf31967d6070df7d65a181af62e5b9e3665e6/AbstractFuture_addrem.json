@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "19": "import static com.google.common.util.concurrent.Futures.getDone;\n",
+        "734": "        V v = getDone(future);\n"
+    },
+    "removed": {
+        "733": "        V v = Uninterruptibles.getUninterruptibly(future);\n"
+    }
+}

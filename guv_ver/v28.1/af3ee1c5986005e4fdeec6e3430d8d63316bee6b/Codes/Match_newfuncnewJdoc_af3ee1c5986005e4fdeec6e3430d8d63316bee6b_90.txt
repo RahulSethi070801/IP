@@ -1,0 +1,4 @@
+
+   * Throws {@code IllegalArgumentException} if the ordering of {@code endpoints} is not compatible
+   * with the directionality of this graph.
+   

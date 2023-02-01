@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "116": "public void testStringConverter_convertError() throws Exception {\n",
+        "117": "  com.google.common.primitives.FloatsTest testCase = new com.google.common.primitives.FloatsTest();\n",
+        "118": "  testCase.testStringConverter_convertError();\n",
+        "119": "}\n",
+        "120": "\n",
+        "121": "public void testStringConverter_nullConversions() throws Exception {\n",
+        "122": "  com.google.common.primitives.FloatsTest testCase = new com.google.common.primitives.FloatsTest();\n",
+        "123": "  testCase.testStringConverter_nullConversions();\n",
+        "124": "}\n",
+        "125": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,12 @@
+@Override
+public Iterable<N> depthFirstPostOrder(final N startNode) {
+    checkNotNull(startNode);
+    checkThatNodeIsInGraph(startNode);
+    return new Iterable<N>() {
+
+        @Override
+        public Iterator<N> iterator() {
+            return new DepthFirstIterator(startNode, Order.POSTORDER);
+        }
+    };
+}

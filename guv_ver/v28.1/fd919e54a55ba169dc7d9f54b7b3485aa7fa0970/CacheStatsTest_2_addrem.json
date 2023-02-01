@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "48": "    assertEquals(11.0 / 24, stats.hitRate());\n",
+        "50": "    assertEquals(13.0 / 24, stats.missRate());\n",
+        "53": "    assertEquals(19.0 / 36, stats.loadExceptionRate());\n",
+        "56": "    assertEquals(23.0 / (17 + 19), stats.averageLoadPenalty());\n",
+        "67": "    assertEquals(42.0 / 76, diff.hitRate());\n",
+        "69": "    assertEquals(34.0 / 76, diff.missRate());\n",
+        "72": "    assertEquals(22.0 / 48, diff.loadExceptionRate());\n",
+        "75": "    assertEquals(14.0 / (26 + 22), diff.averageLoadPenalty());\n",
+        "88": "    assertEquals(64.0 / 124, sum.hitRate());\n",
+        "90": "    assertEquals(60.0 / 124, sum.missRate());\n",
+        "93": "    assertEquals(52.0 / 108, sum.loadExceptionRate());\n",
+        "96": "    assertEquals(48.0 / (56 + 52), sum.averageLoadPenalty());\n"
+    },
+    "removed": {
+        "48": "    assertEquals(11.0/24, stats.hitRate());\n",
+        "50": "    assertEquals(13.0/24, stats.missRate());\n",
+        "53": "    assertEquals(19.0/36, stats.loadExceptionRate());\n",
+        "56": "    assertEquals(23.0/(17 + 19), stats.averageLoadPenalty());\n",
+        "67": "    assertEquals(42.0/76, diff.hitRate());\n",
+        "69": "    assertEquals(34.0/76, diff.missRate());\n",
+        "72": "    assertEquals(22.0/48, diff.loadExceptionRate());\n",
+        "75": "    assertEquals(14.0/(26 + 22), diff.averageLoadPenalty());\n",
+        "88": "    assertEquals(64.0/124, sum.hitRate());\n",
+        "90": "    assertEquals(60.0/124, sum.missRate());\n",
+        "93": "    assertEquals(52.0/108, sum.loadExceptionRate());\n",
+        "96": "    assertEquals(48.0/(56 + 52), sum.averageLoadPenalty());\n"
+    }
+}

@@ -1,0 +1,24 @@
+public static boolean equal(@Nullable Network<?, ?> graph1, @Nullable Network<?, ?> graph2) {
+    if (graph1 == graph2) {
+        return true;
+    }
+    if (graph1 == null || graph2 == null) {
+        return false;
+    }
+    if (graph1.edges().size() != graph2.edges().size()) {
+        return false;
+    }
+    if (!graph1.nodes().equals(graph2.nodes())) {
+        return false;
+    }
+    for (Object node : graph1.nodes()) {
+        if (!graph1.inEdges(node).equals(graph2.inEdges(node))) {
+            return false;
+        }
+        boolean bothUndirected = !graph1.isDirected() && !graph2.isDirected();
+        if (!bothUndirected && !graph1.outEdges(node).equals(graph2.outEdges(node))) {
+            return false;
+        }
+    }
+    return true;
+}

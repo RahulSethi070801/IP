@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.AbstractFuture
+setFuture
+protected boolean setFuture(ListenableFuture<? extends V> future)
+ListenableFuture
+boolean

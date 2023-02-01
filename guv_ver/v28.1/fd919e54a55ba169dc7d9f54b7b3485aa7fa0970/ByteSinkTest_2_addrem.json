@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "88": "      } catch (IOException expected) {\n",
+        "89": "      }\n",
+        "92": "      assertTrue(\n",
+        "93": "          \"stream not closed when copying from source with option: \" + option,\n",
+        "111": "      TestInputStream in = new TestInputStream(new ByteArrayInputStream(new byte[10]), READ_THROWS);\n"
+    },
+    "removed": {
+        "88": "      } catch (IOException expected) {}\n",
+        "91": "      assertTrue(\"stream not closed when copying from source with option: \" + option,\n",
+        "109": "      TestInputStream in = new TestInputStream(\n",
+        "110": "          new ByteArrayInputStream(new byte[10]), READ_THROWS);\n"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "24": " * {@code ObjectCountLinkedHashMap} is a subclass of {@code ObjectCountHashMap} with insertion\n",
+        "31": "@ElementTypesAreNonnullByDefault\n",
+        "32": "class ObjectCountLinkedHashMap<K extends @Nullable Object> extends ObjectCountHashMap<K> {\n",
+        "34": "  static <K extends @Nullable Object> ObjectCountLinkedHashMap<K> create() {\n",
+        "47": "  static <K extends @Nullable Object> ObjectCountLinkedHashMap<K> createWithExpectedSize(\n",
+        "48": "      int expectedSize) {\n",
+        "54": "  /*\n",
+        "55": "   * The links field is not initialized directly in the constructor, but it's initialized by init(),\n",
+        "56": "   * which the superconstructor calls.\n",
+        "57": "   */\n",
+        "58": "\n",
+        "152": "  void insertEntry(int entryIndex, @ParametricNullness K key, int value, int hash) {\n"
+    },
+    "removed": {
+        "23": " * ObjectCountLinkedHashMap is an implementation of {@code AbstractObjectCountMap} with insertion\n",
+        "30": "class ObjectCountLinkedHashMap<K> extends ObjectCountHashMap<K> {\n",
+        "32": "  public static <K> ObjectCountLinkedHashMap<K> create() {\n",
+        "45": "  public static <K> ObjectCountLinkedHashMap<K> createWithExpectedSize(int expectedSize) {\n",
+        "144": "  void insertEntry(int entryIndex, K key, int value, int hash) {\n"
+    }
+}

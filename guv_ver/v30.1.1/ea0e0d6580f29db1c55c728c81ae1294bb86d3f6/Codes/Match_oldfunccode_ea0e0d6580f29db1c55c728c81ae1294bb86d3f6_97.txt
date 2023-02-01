@@ -1,0 +1,3 @@
+protected SortedMultiset<E> standardSubMultiset(E lowerBound, BoundType lowerBoundType, E upperBound, BoundType upperBoundType) {
+    return tailMultiset(lowerBound, lowerBoundType).headMultiset(upperBound, upperBoundType);
+}

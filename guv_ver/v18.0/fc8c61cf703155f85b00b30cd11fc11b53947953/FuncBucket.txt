@@ -1,0 +1,145 @@
+com.google.common.base.Absent
+asSet
+public Set<Object> asSet()
+empty
+Set
+com.google.common.base.Absent
+or
+public Optional<T> or(Optional<? extends T> secondChoice)
+Optional
+Optional
+com.google.common.base.Absent_CustomFieldSerializer
+instantiate
+public static Absent instantiate(SerializationStreamReader reader)
+SerializationStreamReader
+Absent
+com.google.common.base.Optional
+absent
+public static Optional<T> absent()
+empty
+Optional
+com.google.common.base.Absent
+asSet
+public Set<T> asSet()
+empty
+Set
+com.google.common.base.Absent
+transform
+public Optional<V> transform(Function<Object, V> function)
+Function
+Optional
+com.google.common.base.Absent
+or
+public Object or(Supplier<?> supplier)
+Supplier
+Object
+com.google.common.base.Absent
+or
+public T or(T defaultValue)
+T
+T
+com.google.common.base.Absent
+transform
+public Optional<V> transform(Function<? super T, V> function)
+Function
+Optional
+com.google.common.base.FinalizableReferenceQueue
+FinalizableReferenceQueue
+public FinalizableReferenceQueue()
+empty
+constructor
+com.google.common.base.Absent_CustomFieldSerializer
+instantiate
+public static Absent<?> instantiate(SerializationStreamReader reader)
+SerializationStreamReader
+Absent
+com.google.common.base.Equivalence$Wrapper
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.base.Absent
+orNull
+public Object orNull()
+empty
+Object
+com.google.common.base.Suppliers
+apply
+public Object apply(Supplier<?> input)
+Supplier
+Object
+com.google.common.base.Predicates
+asList
+private static List<Predicate<? super T>> asList(Predicate<? super T> first, Predicate<? super T> second)
+Predicate,Predicate
+List
+com.google.common.base.Absent
+or
+public Object or(Object defaultValue)
+Object
+Object
+com.google.common.base.Absent
+or
+public T or(Supplier<? extends T> supplier)
+Supplier
+T
+com.google.common.base.Absent_CustomFieldSerializer
+deserialize
+public static void deserialize(SerializationStreamReader reader, Absent instance)
+SerializationStreamReader,Absent
+void
+com.google.common.base.Suppliers
+supplierFunction
+public static Function<Supplier<T>, T> supplierFunction()
+empty
+Function
+com.google.common.base.Absent_CustomFieldSerializer
+serialize
+public static void serialize(SerializationStreamWriter writer, Absent instance)
+SerializationStreamWriter,Absent
+void
+com.google.common.base.Suppliers
+apply
+public Object apply(Supplier<Object> input)
+Supplier
+Object
+com.google.common.base.Absent_CustomFieldSerializer
+serialize
+public static void serialize(SerializationStreamWriter writer, Absent<?> instance)
+SerializationStreamWriter,Absent
+void
+com.google.common.base.Absent_CustomFieldSerializer
+deserialize
+public static void deserialize(SerializationStreamReader reader, Absent<?> instance)
+SerializationStreamReader,Absent
+void
+com.google.common.base.Absent
+get
+public T get()
+empty
+T
+com.google.common.base.Defaults
+defaultValue
+public static T defaultValue(Class<T> type)
+Class
+T
+com.google.common.base.Absent
+orNull
+public T orNull()
+empty
+T
+com.google.common.base.Absent
+or
+public Optional<Object> or(Optional<?> secondChoice)
+Optional
+Optional
+com.google.common.base.Absent
+withType
+static Optional<T> withType()
+empty
+Optional
+com.google.common.base.Absent
+get
+public Object get()
+empty
+Object

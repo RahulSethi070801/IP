@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+V doFallback(Function<? super X, ? extends V> fallback, X cause) throws Exception {
+    return fallback.apply(cause);
+}

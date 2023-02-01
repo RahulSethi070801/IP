@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "27": "import java.util.Map.Entry;\n",
+        "39": "    for (Entry<K, V> entry : getSampleEntries()) {\n",
+        "51": "    Entry<K, V> entryWithNull = entry(null, v3());\n",
+        "58": "    Entry<K, V> entryWithNull = entry(k3(), null);\n",
+        "62": "  private void runEntryWithNullTest(Entry<K, V> entryWithNull) {\n",
+        "63": "    Collection<Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "68": "    for (Entry<K, V> entry : entries) {\n",
+        "80": "  private static int hash(Entry<?, ?> e) {\n"
+    },
+    "removed": {
+        "27": "import java.util.Map;\n",
+        "39": "    for (Map.Entry<K, V> entry : getSampleEntries()) {\n",
+        "51": "    Map.Entry<K, V> entryWithNull = entry(null, v3());\n",
+        "58": "    Map.Entry<K, V> entryWithNull = entry(k3(), null);\n",
+        "62": "  private void runEntryWithNullTest(Map.Entry<K, V> entryWithNull) {\n",
+        "63": "    Collection<Map.Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "68": "    for (Map.Entry<K, V> entry : entries) {\n",
+        "80": "  private static int hash(Map.Entry<?, ?> e) {\n"
+    }
+}

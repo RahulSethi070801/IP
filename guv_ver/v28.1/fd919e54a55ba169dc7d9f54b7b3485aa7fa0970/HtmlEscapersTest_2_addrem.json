@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "57": "    s =\n",
+        "58": "        \"!@#$%^*()_+=-/?\\\\|]}[{,.;:\"\n",
+        "59": "            + \"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n",
+        "60": "            + \"1234567890\";\n"
+    },
+    "removed": {
+        "57": "    s = \"!@#$%^*()_+=-/?\\\\|]}[{,.;:\"\n",
+        "58": "        + \"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n",
+        "59": "        + \"1234567890\";\n"
+    }
+}

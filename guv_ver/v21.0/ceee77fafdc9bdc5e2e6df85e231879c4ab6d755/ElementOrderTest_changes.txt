@@ -1,0 +1,4 @@
+ElementOrderTest
+Insertions: [39, 49, 63, 75, 88, 200, 220, 238]
+Deletions: [39, 49, 63, 75, 88, 200, 220, 238]
+guava-tests/test/com/google/common/graph/ElementOrderTest.java

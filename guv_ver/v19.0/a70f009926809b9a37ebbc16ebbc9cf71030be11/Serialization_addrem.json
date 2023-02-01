@@ -1,0 +1,8 @@
+{
+    "addition": {},
+    "removed": {
+        "45": "   *\n",
+        "46": "   * <p>The returned count may be used to construct an empty collection of the\n",
+        "47": "   * appropriate capacity before calling any of the {@code populate} methods.\n"
+    }
+}

@@ -1,0 +1,6 @@
+private TopKSelector(Comparator<? super T> comparator, int k)
+public static TopKSelector<T> greatest(int k)
+
+private TopKSelector(Comparator<? super T> comparator, int k)
+public static TopKSelector<T> least(int k, Comparator<? super T> comparator)
+

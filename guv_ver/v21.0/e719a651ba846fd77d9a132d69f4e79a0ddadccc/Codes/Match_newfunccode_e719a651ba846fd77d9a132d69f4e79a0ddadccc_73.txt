@@ -1,0 +1,4 @@
+@Override
+public void writeFloat(float v) throws IOException {
+    writeInt(Float.floatToIntBits(v));
+}

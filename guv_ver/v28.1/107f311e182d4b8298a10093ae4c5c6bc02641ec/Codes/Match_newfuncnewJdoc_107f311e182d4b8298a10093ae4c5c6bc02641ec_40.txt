@@ -1,0 +1,32 @@
+
+   * Returns a new {@code Future} whose result is derived from the result of this {@code Future}. If
+   * this input {@code Future} fails, the returned {@code Future} fails with the same exception (and
+   * the function is not invoked). Example usage:
+   *
+   * <pre>{@code
+   * ListenableFuture<List<Row>> rowsFuture =
+   *     queryFuture.transform(QueryResult::getRows, executor);
+   * }</pre>
+   *
+   * <p>When selecting an executor, note that {@code directExecutor} is dangerous in some cases. See
+   * the discussion in the {@link #addListener} documentation. All its warnings about heavyweight
+   * listeners are also applicable to heavyweight functions passed to this method.
+   *
+   * <p>The returned {@code Future} attempts to keep its cancellation state in sync with that of the
+   * input future. That is, if the returned {@code Future} is cancelled, it will attempt to cancel
+   * the input, and if the input is cancelled, the returned {@code Future} will receive a callback
+   * in which it will attempt to cancel itself.
+   *
+   * <p>An example use of this method is to convert a serializable object returned from an RPC into
+   * a POJO.
+   *
+   * <p>This method is similar to {@link java.util.concurrent.CompletableFuture#thenApply} and
+   * {@link java.util.concurrent.CompletableFuture#thenApplyAsync}. It can also serve some of the
+   * use cases of {@link java.util.concurrent.CompletableFuture#handle} and {@link
+   * java.util.concurrent.CompletableFuture#handleAsync} when used along with {@link #catching}.
+   *
+   * @param function A Function to transform the results of this future to the results of the
+   *     returned future.
+   * @param executor Executor to run the function in.
+   * @return A future that holds result of the transformation.
+   

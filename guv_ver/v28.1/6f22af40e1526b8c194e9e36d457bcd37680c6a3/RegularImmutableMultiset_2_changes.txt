@@ -1,0 +1,4 @@
+RegularImmutableMultiset_2
+Insertions: [26, 115, 152]
+Deletions: [26, 115, 152]
+guava/src/com/google/common/collect/RegularImmutableMultiset.java

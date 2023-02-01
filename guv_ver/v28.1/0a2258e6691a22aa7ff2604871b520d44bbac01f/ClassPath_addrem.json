@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "57": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "417": "    static ImmutableSet<File> getClassPathFromManifest(File jarFile, @Nullable Manifest manifest) {\n"
+    },
+    "removed": {
+        "57": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "417": "    static ImmutableSet<File> getClassPathFromManifest(\n",
+        "418": "        File jarFile, @NullableDecl Manifest manifest) {\n"
+    }
+}

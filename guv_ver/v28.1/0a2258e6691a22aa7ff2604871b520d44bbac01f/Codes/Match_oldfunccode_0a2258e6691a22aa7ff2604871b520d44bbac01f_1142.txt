@@ -1,0 +1,30 @@
+@Override
+Iterator<C> createColumnKeyIterator() {
+    final Comparator<? super C> comparator = columnComparator();
+    final Iterator<C> merged = Iterators.mergeSorted(Iterables.transform(backingMap.values(), new Function<Map<C, V>, Iterator<C>>() {
+
+        @Override
+        public Iterator<C> apply(Map<C, V> input) {
+            return input.keySet().iterator();
+        }
+    }), comparator);
+    return new AbstractIterator<C>() {
+
+        @NullableDecl
+        C lastValue;
+
+        @Override
+        protected C computeNext() {
+            while (merged.hasNext()) {
+                C next = merged.next();
+                boolean duplicate = lastValue != null && comparator.compare(next, lastValue) == 0;
+                if (!duplicate) {
+                    lastValue = next;
+                    return lastValue;
+                }
+            }
+            lastValue = null;
+            return endOfData();
+        }
+    };
+}

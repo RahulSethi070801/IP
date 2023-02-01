@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "36": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "129": "      public boolean contains(@NullableDecl Object obj) {\n",
+        "161": "      public boolean contains(@NullableDecl Object obj) {\n",
+        "244": "  private static boolean isPredecessor(@NullableDecl Object value) {\n",
+        "248": "  private static boolean isSuccessor(@NullableDecl Object value) {\n"
+    },
+    "removed": {
+        "36": "import javax.annotation.Nullable;\n",
+        "129": "      public boolean contains(@Nullable Object obj) {\n",
+        "161": "      public boolean contains(@Nullable Object obj) {\n",
+        "244": "  private static boolean isPredecessor(@Nullable Object value) {\n",
+        "248": "  private static boolean isSuccessor(@Nullable Object value) {\n"
+    }
+}

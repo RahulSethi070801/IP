@@ -1,0 +1,4 @@
+AbstractInvocationHandler
+Insertions: [22, 23, 43, 44, 65, 66, 101, 102, 103, 117]
+Deletions: [22, 62, 97, 98, 112]
+android/guava/src/com/google/common/reflect/AbstractInvocationHandler.java

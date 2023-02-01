@@ -1,0 +1,4 @@
+ForwardingImmutableCollection
+Insertions: [20, 43]
+Deletions: [20, 43]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ForwardingImmutableCollection.java

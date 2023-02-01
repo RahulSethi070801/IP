@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public V put(K key, @NullableDecl V value) {
+    return super.put(key, value);
+}

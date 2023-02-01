@@ -1,0 +1,4 @@
+@GwtIncompatible
+static <K, V> NavigableMap<K, V> navigableMap(NavigableMap<K, V> navigableMap, @NullableDecl Object mutex) {
+    return new SynchronizedNavigableMap<>(navigableMap, mutex);
+}

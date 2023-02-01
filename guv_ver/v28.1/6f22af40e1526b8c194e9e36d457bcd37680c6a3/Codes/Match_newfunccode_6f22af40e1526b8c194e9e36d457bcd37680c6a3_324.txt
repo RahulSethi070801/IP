@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+public Builder setUnsafeReplacement(@NullableDecl String unsafeReplacement) {
+    this.unsafeReplacement = unsafeReplacement;
+    return this;
+}

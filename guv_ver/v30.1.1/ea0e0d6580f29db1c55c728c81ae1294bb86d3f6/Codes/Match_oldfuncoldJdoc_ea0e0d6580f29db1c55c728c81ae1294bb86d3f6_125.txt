@@ -1,0 +1,6 @@
+
+   * A sensible definition of {@link #pollFirstEntry()} in terms of {@code entrySet().iterator()}.
+   *
+   * <p>If you override {@link #entrySet()}, you may wish to override {@link #pollFirstEntry()} to
+   * forward to this implementation.
+   

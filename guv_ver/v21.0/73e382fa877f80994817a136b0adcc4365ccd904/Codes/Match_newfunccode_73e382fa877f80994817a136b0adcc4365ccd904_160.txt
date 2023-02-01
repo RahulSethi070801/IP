@@ -1,0 +1,11 @@
+@CanIgnoreReturnValue
+public long getAndUpdate(K key, LongUnaryOperator updaterFunction) {
+    checkNotNull(updaterFunction);
+    AtomicLong holder = new AtomicLong();
+    map.compute(key, (k, value) -> {
+        long oldValue = (value == null) ? 0L : value.longValue();
+        holder.set(oldValue);
+        return updaterFunction.applyAsLong(oldValue);
+    });
+    return holder.get();
+}

@@ -1,0 +1,4 @@
+MockFutureListener_2
+Insertions: [30, 54, 55, 56, 57, 58, 72, 73, 74]
+Deletions: [30, 31, 55, 56, 57, 58, 72, 73, 74]
+guava-testlib/src/com/google/common/util/concurrent/testing/MockFutureListener.java

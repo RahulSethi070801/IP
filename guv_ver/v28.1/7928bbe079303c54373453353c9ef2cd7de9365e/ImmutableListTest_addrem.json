@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "745": "    @GwtIncompatible\n",
+        "746": "    public void testBuilderExactlySizedReusesArray() {\n",
+        "747": "      ImmutableList.Builder<Integer> builder = ImmutableList.builderWithExpectedSize(10);\n",
+        "748": "      Object[] builderArray = builder.contents;\n",
+        "749": "      for (int i = 0; i < 10; i++) {\n",
+        "750": "        builder.add(i);\n",
+        "751": "      }\n",
+        "752": "      Object[] builderArrayAfterAdds = builder.contents;\n",
+        "753": "      RegularImmutableList<Integer> list = (RegularImmutableList<Integer>) builder.build();\n",
+        "754": "      Object[] listInternalArray = list.array;\n",
+        "755": "      assertSame(builderArray, builderArrayAfterAdds);\n",
+        "756": "      assertSame(builderArray, listInternalArray);\n",
+        "757": "    }\n",
+        "758": "\n"
+    },
+    "removed": {}
+}

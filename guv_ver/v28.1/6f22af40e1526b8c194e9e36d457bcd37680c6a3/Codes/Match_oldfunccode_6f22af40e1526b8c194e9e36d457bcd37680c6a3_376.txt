@@ -1,0 +1,3 @@
+private static <V> ImmutableSet.Builder<V> valuesBuilder(@Nullable Comparator<? super V> valueComparator) {
+    return (valueComparator == null) ? new ImmutableSet.Builder<V>() : new ImmutableSortedSet.Builder<V>(valueComparator);
+}

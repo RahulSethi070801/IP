@@ -1,0 +1,6 @@
+@Override
+public void addAll(Iterable<Range<C>> ranges) {
+    for (Range<C> range : ranges) {
+        add(range);
+    }
+}

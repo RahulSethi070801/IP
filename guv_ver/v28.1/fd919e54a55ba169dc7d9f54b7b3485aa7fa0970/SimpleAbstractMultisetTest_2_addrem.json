@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "69": "    Multiset<String> multiset =\n",
+        "70": "        new NoRemoveMultiset<String>() {\n",
+        "71": "          @Override\n",
+        "72": "          public int add(String element, int occurrences) {\n",
+        "73": "            addCalls.incrementAndGet();\n",
+        "74": "            return super.add(element, occurrences);\n",
+        "75": "          }\n",
+        "76": "        };\n",
+        "89": "    } catch (UnsupportedOperationException expected) {\n",
+        "90": "    }\n",
+        "94": "  private static class NoRemoveMultiset<E> extends AbstractMultiset<E> implements Serializable {\n",
+        "97": "    @Override\n",
+        "98": "    public int add(@Nullable E element, int occurrences) {\n"
+    },
+    "removed": {
+        "69": "    Multiset<String> multiset = new NoRemoveMultiset<String>() {\n",
+        "70": "      @Override\n",
+        "71": "      public int add(String element, int occurrences) {\n",
+        "72": "        addCalls.incrementAndGet();\n",
+        "73": "        return super.add(element, occurrences);\n",
+        "74": "      }\n",
+        "75": "    };\n",
+        "88": "    } catch (UnsupportedOperationException expected) {}\n",
+        "92": "  private static class NoRemoveMultiset<E> extends AbstractMultiset<E>\n",
+        "93": "      implements Serializable {\n",
+        "96": "    @Override public int add(@Nullable E element, int occurrences) {\n"
+    }
+}

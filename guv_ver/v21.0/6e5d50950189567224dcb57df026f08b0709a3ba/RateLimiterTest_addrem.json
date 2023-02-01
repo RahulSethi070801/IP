@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "170": "    RateLimiter unused;\n",
+        "171": "    unused = RateLimiter.create(1.0, 1, NANOSECONDS);\n",
+        "172": "    unused = RateLimiter.create(1.0, 0, NANOSECONDS);\n"
+    },
+    "removed": {
+        "170": "    RateLimiter.create(1.0, 1, NANOSECONDS);\n",
+        "171": "    RateLimiter.create(1.0, 0, NANOSECONDS);\n"
+    }
+}

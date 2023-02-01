@@ -1,0 +1,6 @@
+private static <K extends Comparable, V> Range<K> coalesce(Range<K> range, V value, @NullableDecl Entry<Cut<K>, RangeMapEntry<K, V>> entry) {
+    if (entry != null && entry.getValue().getKey().isConnected(range) && entry.getValue().getValue().equals(value)) {
+        return range.span(entry.getValue().getKey());
+    }
+    return range;
+}

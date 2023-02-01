@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public V2 get(@NullableDecl Object key) {
+    return getOrDefault(key, null);
+}

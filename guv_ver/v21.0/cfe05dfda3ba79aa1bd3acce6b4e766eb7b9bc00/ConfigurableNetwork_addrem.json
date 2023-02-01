@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "68": "  // We could make this a Map<E, EndpointPair<N>>. It would make incidentNodes(edge) slightly\n",
+        "69": "  // faster, but also make Networks consume 5 to 20+% (increasing with average degree) more memory.\n",
+        "145": "  public EndpointPair<N> incidentNodes(Object edge) {\n",
+        "146": "    N nodeU = checkedReferenceNode(edge);\n",
+        "147": "    N nodeV = nodeConnections.get(nodeU).oppositeNode(edge);\n",
+        "148": "    return EndpointPair.of(this, nodeU, nodeV);\n",
+        "157": "  public Set<E> edgesConnecting(Object nodeU, Object nodeV) {\n",
+        "158": "    NetworkConnections<N, E> connectionsU = checkedConnections(nodeU);\n",
+        "159": "    if (!allowsSelfLoops && nodeU.equals(nodeV)) {\n",
+        "162": "    checkArgument(containsNode(nodeV), NODE_NOT_IN_GRAPH, nodeV);\n",
+        "163": "    return connectionsU.edgesConnecting(nodeV);\n"
+    },
+    "removed": {
+        "68": "  // We could make this a Map<E, Endpoints<N>>. It would make incidentNodes(edge) slightly faster,\n",
+        "69": "  // but it would also make Networks consume 5 to 20+% (increasing with average degree) more memory.\n",
+        "145": "  public Endpoints<N> incidentNodes(Object edge) {\n",
+        "146": "    N nodeA = checkedReferenceNode(edge);\n",
+        "147": "    N nodeB = nodeConnections.get(nodeA).oppositeNode(edge);\n",
+        "148": "    return Endpoints.of(this, nodeA, nodeB);\n",
+        "157": "  public Set<E> edgesConnecting(Object nodeA, Object nodeB) {\n",
+        "158": "    NetworkConnections<N, E> connectionsA = checkedConnections(nodeA);\n",
+        "159": "    if (!allowsSelfLoops && nodeA.equals(nodeB)) {\n",
+        "162": "    checkArgument(containsNode(nodeB), NODE_NOT_IN_GRAPH, nodeB);\n",
+        "163": "    return connectionsA.edgesConnecting(nodeB);\n"
+    }
+}

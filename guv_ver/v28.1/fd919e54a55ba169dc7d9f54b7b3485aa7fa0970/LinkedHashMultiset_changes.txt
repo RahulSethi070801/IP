@@ -1,0 +1,4 @@
+LinkedHashMultiset
+Insertions: [26, 27, 28, 29, 30, 33, 34, 44, 50, 51, 63, 82, 83]
+Deletions: [26, 27, 28, 29, 30, 31, 34, 35, 45, 46, 47, 48, 54, 55, 67, 68, 87, 88]
+android/guava/src/com/google/common/collect/LinkedHashMultiset.java

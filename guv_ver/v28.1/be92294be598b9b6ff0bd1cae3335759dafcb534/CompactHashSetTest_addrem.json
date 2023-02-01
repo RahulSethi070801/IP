@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "19": "import static com.google.common.truth.Truth.assertThat;\n",
+        "20": "\n",
+        "88": "  public void testAllocArraysDefault() {\n",
+        "89": "    CompactHashSet<Integer> set = CompactHashSet.create();\n",
+        "90": "    assertThat(set.needsAllocArrays()).isTrue();\n",
+        "91": "    assertThat(set.elements).isNull();\n",
+        "92": "\n",
+        "93": "    set.add(1);\n",
+        "94": "    assertThat(set.needsAllocArrays()).isFalse();\n",
+        "95": "    assertThat(set.elements).hasLength(CompactHashSet.DEFAULT_SIZE);\n",
+        "96": "  }\n",
+        "97": "\n",
+        "98": "  public void testAllocArraysExpectedSize() {\n",
+        "99": "    for (int i = 0; i <= CompactHashSet.DEFAULT_SIZE; i++) {\n",
+        "100": "      CompactHashSet<Integer> set = CompactHashSet.createWithExpectedSize(i);\n",
+        "101": "      assertThat(set.needsAllocArrays()).isTrue();\n",
+        "102": "      assertThat(set.elements).isNull();\n",
+        "103": "\n",
+        "104": "      set.add(1);\n",
+        "105": "      assertThat(set.needsAllocArrays()).isFalse();\n",
+        "106": "      int expectedSize = Math.max(1, i);\n",
+        "107": "      assertThat(set.elements).hasLength(expectedSize);\n",
+        "108": "    }\n"
+    },
+    "removed": {
+        "86": "  public void testDummyMethod() {\n",
+        "87": "    // Just make sure the test runner doesn't complain about no test methods.\n"
+    }
+}

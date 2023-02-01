@@ -1,0 +1,5 @@
+@Deprecated
+@Override
+public final void sort(Comparator<? super E> c) {
+    throw new UnsupportedOperationException();
+}

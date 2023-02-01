@@ -1,0 +1,4 @@
+UndirectedNodeConnections
+Insertions: [32]
+Deletions: [32]
+guava/src/com/google/common/graph/UndirectedNodeConnections.java

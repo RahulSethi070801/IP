@@ -1,0 +1,4 @@
+ImmutableCollection_2
+Insertions: [63, 64, 65, 66]
+Deletions: [63, 64, 65]
+guava/src/com/google/common/collect/ImmutableCollection.java

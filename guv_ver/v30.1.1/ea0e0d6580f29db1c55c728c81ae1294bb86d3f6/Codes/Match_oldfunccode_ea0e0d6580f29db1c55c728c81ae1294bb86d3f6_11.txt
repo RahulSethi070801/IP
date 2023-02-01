@@ -1,0 +1,5 @@
+@Override
+public int add(@Nullable E element, int occurrences) {
+    checkArgument(predicate.apply(element), "Element %s does not match predicate %s", element, predicate);
+    return unfiltered.add(element, occurrences);
+}

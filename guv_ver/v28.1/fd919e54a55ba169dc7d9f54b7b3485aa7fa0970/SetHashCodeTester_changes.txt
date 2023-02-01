@@ -1,0 +1,4 @@
+SetHashCodeTester
+Insertions: [66, 67]
+Deletions: [66, 67, 68]
+android/guava-testlib/src/com/google/common/collect/testing/testers/SetHashCodeTester.java

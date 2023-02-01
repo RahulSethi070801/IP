@@ -1,0 +1,7 @@
+public static boolean removeOccurrences(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove) {
+    if (occurrencesToRemove instanceof Multiset) {
+        return removeOccurrencesImpl(multisetToModify, (Multiset<?>) occurrencesToRemove);
+    } else {
+        return removeOccurrencesImpl(multisetToModify, occurrencesToRemove);
+    }
+}

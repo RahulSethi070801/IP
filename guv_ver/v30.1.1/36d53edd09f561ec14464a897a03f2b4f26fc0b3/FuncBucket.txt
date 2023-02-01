@@ -1,0 +1,5 @@
+com.google.common.base.Splitter
+splitToStream
+public Stream<String> splitToStream(CharSequence sequence)
+CharSequence
+Stream

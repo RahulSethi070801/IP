@@ -1,0 +1,4 @@
+@Override
+public N adjacentNode(E edge) {
+    return checkNotNull(incidentEdgeMap.get(edge));
+}

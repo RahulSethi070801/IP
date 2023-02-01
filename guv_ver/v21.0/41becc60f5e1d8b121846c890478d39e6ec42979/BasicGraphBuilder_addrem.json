@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "69": "   * <p>The \"queryable\" properties are those that are exposed through the {@link Graph} interface,\n",
+        "70": "   * such as {@link Graph#isDirected()}. Other properties, such as {@link #expectedNodeCount(int)},\n",
+        "71": "   * are not set in the new builder.\n",
+        "73": "  public static <N> BasicGraphBuilder<N> from(Graph<N, ?> graph) {\n",
+        "103": "   * Specifies the order of iteration for the elements of {@link Graph#nodes()}.\n"
+    },
+    "removed": {
+        "69": "   * <p>The \"queryable\" properties are those that are exposed through the {@link ValueGraph}\n",
+        "70": "   * interface, such as {@link ValueGraph#isDirected()}. Other properties, such as\n",
+        "71": "   * {@link #expectedNodeCount(int)}, are not set in the new builder.\n",
+        "73": "  public static <N> BasicGraphBuilder<N> from(ValueGraph<N, ?> graph) {\n",
+        "103": "   * Specifies the order of iteration for the elements of {@link ValueGraph#nodes()}.\n"
+    }
+}

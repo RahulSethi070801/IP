@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "40": " * MutableNetwork<String, Integer> flightNetwork =\n",
+        "42": " * flightNetwork.addEdge(\"LAX\", \"ATL\", 3025);\n",
+        "43": " * flightNetwork.addEdge(\"LAX\", \"ATL\", 1598);\n",
+        "44": " * flightNetwork.addEdge(\"ATL\", \"LAX\", 2450);\n"
+    },
+    "removed": {
+        "40": " * MutableNetwork<Integer, String> network =\n",
+        "42": " * network.addEdge(1, 2, \"1->2\");\n",
+        "43": " * network.addEdge(1, 2, \"1->2 other\");\n"
+    }
+}

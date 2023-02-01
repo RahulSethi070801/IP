@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+Builder<K, V> combine(ImmutableMap.Builder<K, V> builder) {
+    super.combine(builder);
+    return this;
+}

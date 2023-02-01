@@ -1,0 +1,6 @@
+
+   * Returns {@link ListMultimap#asMap multimap.asMap()}, with its type corrected from {@code Map<K,
+   * Collection<V>>} to {@code Map<K, List<V>>}.
+   *
+   * @since 15.0
+   

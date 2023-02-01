@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "28": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "323": "    @Nullable\n",
+        "324": "    Guard next;\n"
+    },
+    "removed": {
+        "28": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "323": "    @NullableDecl Guard next;\n"
+    }
+}

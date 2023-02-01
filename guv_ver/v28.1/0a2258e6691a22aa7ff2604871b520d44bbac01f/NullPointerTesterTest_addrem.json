@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "88": "    public static void staticOneArgJsr305NullableCorrectlyDoesNotThrowNPE(@NullableDecl String s) {\n",
+        "500": "    public void twoNullableArgs(@NullableDecl String s, @NullableDecl Integer i) {}\n"
+    },
+    "removed": {
+        "88": "    public static void staticOneArgJsr305NullableCorrectlyDoesNotThrowNPE(\n",
+        "89": "        @javax.annotation.Nullable String s) {\n",
+        "501": "    public void twoNullableArgs(@NullableDecl String s, @javax.annotation.Nullable Integer i) {}\n"
+    }
+}

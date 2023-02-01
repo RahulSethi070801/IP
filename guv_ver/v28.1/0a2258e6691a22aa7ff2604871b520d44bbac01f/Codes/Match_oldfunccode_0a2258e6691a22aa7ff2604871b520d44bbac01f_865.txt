@@ -1,0 +1,5 @@
+@Override
+public void write(@NullableDecl String str) throws IOException {
+    checkNotClosed();
+    target.append(str);
+}

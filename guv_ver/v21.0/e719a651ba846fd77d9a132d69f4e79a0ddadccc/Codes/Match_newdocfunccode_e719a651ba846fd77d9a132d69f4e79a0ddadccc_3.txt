@@ -1,0 +1,4 @@
+@Override
+public boolean isEmpty() throws IOException {
+    return length == 0 || super.isEmpty();
+}

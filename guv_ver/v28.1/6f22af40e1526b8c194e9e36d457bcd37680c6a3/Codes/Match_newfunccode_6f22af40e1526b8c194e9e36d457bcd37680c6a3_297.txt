@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public V put(@NullableDecl K key, @NullableDecl V value) {
+    return putInBothMaps(key, value, false);
+}

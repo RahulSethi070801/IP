@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "249": "        double length =\n",
+        "250": "            permitsToTime(availablePermitsAboveThreshold)\n",
+        "251": "                + permitsToTime(availablePermitsAboveThreshold - permitsAboveThresholdToTake);\n",
+        "311": "  /** The currently stored permits. */\n",
+        "314": "  /** The maximum number of stored permits. */\n",
+        "382": "  /** Updates {@code storedPermits} and {@code nextFreeTicketMicros} based on the current time. */\n"
+    },
+    "removed": {
+        "195": "   *\n",
+        "203": "   *\n",
+        "250": "        double length = permitsToTime(availablePermitsAboveThreshold)\n",
+        "251": "            + permitsToTime(availablePermitsAboveThreshold - permitsAboveThresholdToTake);\n",
+        "311": "  /**\n",
+        "312": "   * The currently stored permits.\n",
+        "313": "   */\n",
+        "316": "  /**\n",
+        "317": "   * The maximum number of stored permits.\n",
+        "318": "   */\n",
+        "386": "  /**\n",
+        "387": "   * Updates {@code storedPermits} and {@code nextFreeTicketMicros} based on the current time.\n",
+        "388": "   */\n"
+    }
+}

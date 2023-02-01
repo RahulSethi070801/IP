@@ -1,0 +1,9 @@
+@Override
+public Set<Entry<K, V>> entrySet() {
+    synchronized (mutex) {
+        if (entrySet == null) {
+            entrySet = set(delegate().entrySet(), mutex);
+        }
+        return entrySet;
+    }
+}

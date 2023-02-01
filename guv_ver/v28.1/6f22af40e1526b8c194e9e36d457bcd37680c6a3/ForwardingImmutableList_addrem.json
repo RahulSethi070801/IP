@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "34": "  public int indexOf(@NullableDecl Object object) {\n",
+        "38": "  public int lastIndexOf(@NullableDecl Object object) {\n",
+        "73": "  public boolean contains(@NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "21": "import javax.annotation.Nullable;\n",
+        "34": "  public int indexOf(@Nullable Object object) {\n",
+        "38": "  public int lastIndexOf(@Nullable Object object) {\n",
+        "73": "  public boolean contains(@Nullable Object object) {\n"
+    }
+}

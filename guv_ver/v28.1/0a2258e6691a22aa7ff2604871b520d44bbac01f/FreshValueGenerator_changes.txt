@@ -1,0 +1,4 @@
+FreshValueGenerator
+Insertions: [125, 182, 191, 306]
+Deletions: [125, 182, 191, 306]
+guava-testlib/src/com/google/common/testing/FreshValueGenerator.java

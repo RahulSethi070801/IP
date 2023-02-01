@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "39": " * Generates a test suite covering the {@link Queue} implementations in the {@link java.util}\n",
+        "40": " * package. Can be subclassed to specify tests that should be suppressed.\n",
+        "107": "            new TestStringQueueGenerator() {\n",
+        "108": "              @Override\n",
+        "109": "              public Queue<String> create(String[] elements) {\n",
+        "110": "                Queue<String> queue = new LinkedList<>(MinimalCollection.of(elements));\n",
+        "111": "                return Collections.checkedQueue(queue, String.class);\n",
+        "112": "              }\n",
+        "113": "            })\n"
+    },
+    "removed": {
+        "39": " * Generates a test suite covering the {@link Queue} implementations in the\n",
+        "40": " * {@link java.util} package. Can be subclassed to specify tests that should\n",
+        "41": " * be suppressed.\n",
+        "108": "        new TestStringQueueGenerator() {\n",
+        "109": "          @Override\n",
+        "110": "          public Queue<String> create(String[] elements) {\n",
+        "111": "            Queue<String> queue = new LinkedList<>(MinimalCollection.of(elements));\n",
+        "112": "            return Collections.checkedQueue(queue, String.class);\n",
+        "113": "          }\n",
+        "114": "        })\n"
+    }
+}

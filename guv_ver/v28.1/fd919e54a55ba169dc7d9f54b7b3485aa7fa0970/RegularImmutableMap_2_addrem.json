@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "47": "  @VisibleForTesting final transient Entry<K, V>[] entries;\n",
+        "58": "   * Creates a RegularImmutableMap from the first n entries in entryArray. This implementation may\n",
+        "59": "   * replace the entries in entryArray with its own entry objects (though they will have the same\n",
+        "60": "   * key/value contents), and may take ownership of entryArray.\n",
+        "114": "   * Closed addressing tends to perform well even with high load factors. Being conservative here\n",
+        "115": "   * ensures that the table is still likely to be relatively sparse (hence it misses fast) while\n",
+        "116": "   * saving space.\n"
+    },
+    "removed": {
+        "47": "  @VisibleForTesting\n",
+        "48": "  final transient Entry<K, V>[] entries;\n",
+        "59": "   * Creates a RegularImmutableMap from the first n entries in entryArray.  This implementation\n",
+        "60": "   * may replace the entries in entryArray with its own entry objects (though they will have the\n",
+        "61": "   * same key/value contents), and may take ownership of entryArray.\n",
+        "115": "   * Closed addressing tends to perform well even with high load factors.\n",
+        "116": "   * Being conservative here ensures that the table is still likely to be\n",
+        "117": "   * relatively sparse (hence it misses fast) while saving space.\n"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "113": "  @Nullable private T threshold;\n",
+        "128": "  public void offer(@Nullable T elem) {\n"
+    },
+    "removed": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "113": "  @NullableDecl private T threshold;\n",
+        "128": "  public void offer(@NullableDecl T elem) {\n"
+    }
+}

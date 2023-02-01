@@ -1,0 +1,4 @@
+ImmutableMap_2
+Insertions: [40, 282, 287, 367, 372, 421]
+Deletions: [40, 282, 287, 367, 372, 421]
+guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/ImmutableMap.java

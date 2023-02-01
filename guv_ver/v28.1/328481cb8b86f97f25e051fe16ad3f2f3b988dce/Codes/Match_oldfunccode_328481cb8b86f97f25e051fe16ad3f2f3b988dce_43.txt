@@ -1,0 +1,2 @@
+@Nullable
+Map.Entry<Range<K>, V> getEntry(K key);

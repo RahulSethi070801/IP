@@ -1,0 +1,30 @@
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public static CompactLinkedHashSet<E> create()
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public static CompactHashSet<E> create()
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public static CompactLinkedHashSet<E> create()
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public static CompactHashSet<E> create()
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public V put(@Nullable K key, @Nullable V value)
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public static CompactLinkedHashSet<E> create()
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public static CompactHashSet<E> create()
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public static CompactLinkedHashSet<E> create()
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public static CompactHashSet<E> create()
+
+public static CompactLinkedHashMap<K, V> createWithExpectedSize(int expectedSize)
+public V put(@Nullable K key, @Nullable V value)
+

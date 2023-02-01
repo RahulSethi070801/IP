@@ -1,0 +1,3 @@
+public final ImmutableList<E> toList() {
+    return ImmutableList.copyOf(getDelegate());
+}

@@ -1,0 +1,4 @@
+
+   * Returns a predicate that evaluates to {@code true} if the object being tested {@code equals()}
+   * the given target or both are null.
+   

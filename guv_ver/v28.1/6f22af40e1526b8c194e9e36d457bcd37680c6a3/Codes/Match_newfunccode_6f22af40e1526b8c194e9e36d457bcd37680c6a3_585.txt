@@ -1,0 +1,8 @@
+@CanIgnoreReturnValue
+public V set(int rowIndex, int columnIndex, @NullableDecl V value) {
+    checkElementIndex(rowIndex, rowList.size());
+    checkElementIndex(columnIndex, columnList.size());
+    V oldValue = array[rowIndex][columnIndex];
+    array[rowIndex][columnIndex] = value;
+    return oldValue;
+}

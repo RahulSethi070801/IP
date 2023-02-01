@@ -1,0 +1,6 @@
+private static int doParseTrieToBuilder(List<CharSequence> stack, CharSequence encoded, ImmutableMap.Builder<String, PublicSuffixType> builder)
+public static Escaper xmlContentEscaper()
+
+static ImmutableMap<String, PublicSuffixType> parseTrie(CharSequence encoded)
+public static Escaper xmlContentEscaper()
+

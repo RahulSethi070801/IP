@@ -1,0 +1,4 @@
+CacheStats_2
+Insertions: [155, 156]
+Deletions: [155, 156]
+guava/src/com/google/common/cache/CacheStats.java

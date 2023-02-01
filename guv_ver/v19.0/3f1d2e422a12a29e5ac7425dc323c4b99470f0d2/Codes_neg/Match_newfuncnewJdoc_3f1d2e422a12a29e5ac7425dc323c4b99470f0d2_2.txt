@@ -1,0 +1,6 @@
+
+   * Discards up to {@code n} bytes of data from the input stream. This method
+   * will block until either the full amount has been skipped or until the end
+   * of the stream is reached, whichever happens first. Returns the total number
+   * of bytes skipped.
+   

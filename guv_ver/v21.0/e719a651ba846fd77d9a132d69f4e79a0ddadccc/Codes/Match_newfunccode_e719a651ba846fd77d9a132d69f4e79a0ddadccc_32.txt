@@ -1,0 +1,2 @@
+@Override
+float readFloat();

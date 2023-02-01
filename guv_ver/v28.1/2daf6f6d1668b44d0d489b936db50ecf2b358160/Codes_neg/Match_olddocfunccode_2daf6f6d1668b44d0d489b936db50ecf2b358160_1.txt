@@ -1,0 +1,3 @@
+public static <T> BloomFilter<T> create(Funnel<? super T> funnel, long expectedInsertions) {
+    return create(funnel, expectedInsertions, 0.03);
+}

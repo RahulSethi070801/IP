@@ -1,0 +1,4 @@
+TypeTokenSubtypeTest
+Insertions: [62, 63, 64, 70, 71, 72, 120, 121, 127, 128, 164, 181, 285, 297, 303, 304, 330, 332]
+Deletions: [62, 63, 69, 70, 118, 119, 125, 126, 162, 179, 180, 284, 296, 302, 303, 324, 326]
+android/guava-tests/test/com/google/common/reflect/TypeTokenSubtypeTest.java

@@ -1,0 +1,15 @@
+@Beta
+@CanIgnoreReturnValue
+@ParametricNullness
+public <T extends @Nullable Object> T readLines(LineProcessor<T> processor) throws IOException {
+    checkNotNull(processor);
+    Closer closer = Closer.create();
+    try {
+        Reader reader = closer.register(openStream());
+        return CharStreams.readLines(reader, processor);
+    } catch (Throwable e) {
+        throw closer.rethrow(e);
+    } finally {
+        closer.close();
+    }
+}

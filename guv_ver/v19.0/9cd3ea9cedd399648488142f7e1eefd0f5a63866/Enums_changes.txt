@@ -1,0 +1,4 @@
+Enums
+Insertions: [26, 36]
+Deletions: []
+guava-gwt/src-super/com/google/common/base/super/com/google/common/base/Enums.java

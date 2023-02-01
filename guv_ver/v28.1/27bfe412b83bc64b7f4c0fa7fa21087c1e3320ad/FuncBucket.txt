@@ -1,0 +1,25 @@
+com.google.common.util.concurrent.AbstractService
+doCancelStart
+protected void doCancelStart()
+empty
+void
+com.google.common.util.concurrent.AbstractService
+notifyStopped
+protected final void notifyStopped()
+empty
+void
+com.google.common.util.concurrent.AbstractService
+stopAsync
+public final Service stopAsync()
+empty
+Service
+com.google.common.util.concurrent.AbstractService
+enqueueTerminatedEvent
+private void enqueueTerminatedEvent(final State from)
+State
+void
+com.google.common.util.concurrent.AbstractService
+notifyFailed
+protected final void notifyFailed(Throwable cause)
+Throwable
+void

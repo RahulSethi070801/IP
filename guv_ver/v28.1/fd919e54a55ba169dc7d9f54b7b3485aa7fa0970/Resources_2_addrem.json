@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "59": "  /** A byte source that reads from a URL using {@link URL#openStream()}. */\n",
+        "133": "   * <p>This method returns a mutable {@code List}. For an {@code ImmutableList}, use {@code\n",
+        "134": "   * Resources.asCharSource(url, charset).readLines()}.\n"
+    },
+    "removed": {
+        "59": "  /**\n",
+        "60": "   * A byte source that reads from a URL using {@link URL#openStream()}.\n",
+        "61": "   */\n",
+        "135": "   * <p>This method returns a mutable {@code List}. For an {@code ImmutableList}, use\n",
+        "136": "   * {@code Resources.asCharSource(url, charset).readLines()}.\n"
+    }
+}

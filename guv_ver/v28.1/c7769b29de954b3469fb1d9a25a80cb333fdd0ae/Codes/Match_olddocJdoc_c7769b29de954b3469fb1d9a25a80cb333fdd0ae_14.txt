@@ -1,0 +1,9 @@
+
+   * Reads the contents of this byte source using the given {@code processor} to process bytes as
+   * they are read. Stops when all bytes have been read or the consumer returns {@code false}.
+   * Returns the result produced by the processor.
+   *
+   * @throws IOException if an I/O error occurs in the process of reading from this source or if
+   *     {@code processor} throws an {@code IOException}
+   * @since 16.0
+   

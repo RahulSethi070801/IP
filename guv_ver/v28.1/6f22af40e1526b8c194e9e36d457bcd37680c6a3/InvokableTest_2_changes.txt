@@ -1,0 +1,4 @@
+InvokableTest_2
+Insertions: [33, 346, 509]
+Deletions: [32, 346, 509]
+guava-tests/test/com/google/common/reflect/InvokableTest.java

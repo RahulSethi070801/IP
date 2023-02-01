@@ -1,0 +1,6 @@
+public static TreeTraverser<T> using(final Function<T, ? extends Iterable<T>> nodeToChildrenFunction)
+public static Converter<A, B> from(Function<? super A, ? extends B> forwardFunction, Function<? super B, ? extends A> backwardFunction)
+
+public static TreeTraverser<T> using(final Function<T, ? extends Iterable<T>> nodeToChildrenFunction)
+public static Converter<A, B> from(Function<? super A, ? extends B> forwardFunction, Function<? super B, ? extends A> backwardFunction)
+

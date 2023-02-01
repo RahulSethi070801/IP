@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "31": " * A generic JUnit test which tests creation (typically through a constructor or static factory\n",
+        "32": " * method) of a set. Can't be invoked directly; please see {@link\n",
+        "33": " * com.google.common.collect.testing.SetTestSuiteBuilder}.\n"
+    },
+    "removed": {
+        "31": " * A generic JUnit test which tests creation (typically through a constructor or\n",
+        "32": " * static factory method) of a set. Can't be invoked directly; please see\n",
+        "33": " * {@link com.google.common.collect.testing.SetTestSuiteBuilder}.\n"
+    }
+}

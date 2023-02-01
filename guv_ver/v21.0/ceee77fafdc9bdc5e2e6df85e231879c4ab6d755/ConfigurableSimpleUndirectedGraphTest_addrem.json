@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "29": " * Tests for an undirected {@link ConfigurableMutableBasicGraph}, creating a simple undirected\n",
+        "30": " * graph (parallel and self-loop edges are not allowed).\n",
+        "36": "  public MutableBasicGraph<Integer> createGraph() {\n",
+        "37": "    return BasicGraphBuilder.undirected().allowsSelfLoops(false).build();\n"
+    },
+    "removed": {
+        "29": " * Tests for an undirected {@link ConfigurableMutableGraph}, creating a simple undirected graph\n",
+        "30": " * (parallel and self-loop edges are not allowed).\n",
+        "36": "  public MutableGraph<Integer> createGraph() {\n",
+        "37": "    return GraphBuilder.undirected().allowsSelfLoops(false).build();\n"
+    }
+}

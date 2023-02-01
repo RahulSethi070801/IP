@@ -1,0 +1,4 @@
+
+     * Indicates whether an object equals this entry, following the behavior specified in {@link
+     * Multiset.Entry#equals}.
+     

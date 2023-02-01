@@ -1,0 +1,5 @@
+@GwtIncompatible
+public static <X extends Throwable> void propagateIfPossible(@Nullable Throwable throwable, Class<X> declaredType) throws X {
+    propagateIfInstanceOf(throwable, declaredType);
+    propagateIfPossible(throwable);
+}

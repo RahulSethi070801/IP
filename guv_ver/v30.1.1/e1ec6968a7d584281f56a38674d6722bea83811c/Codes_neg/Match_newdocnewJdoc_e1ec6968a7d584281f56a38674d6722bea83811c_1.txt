@@ -1,0 +1,5 @@
+
+   * Returns {@code table[index]}, where {@code table} is actually a {@code byte[]}, {@code
+   * short[]}, or {@code int[]}. When it is a {@code byte[]} or {@code short[]}, the returned value
+   * is unsigned, so the range of possible returned values is 0–255 or 0–65535, respectively.
+   

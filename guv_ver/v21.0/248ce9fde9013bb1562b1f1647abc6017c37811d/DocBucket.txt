@@ -1,0 +1,15 @@
+com.google.common.graph.AbstractImmutableGraph
+addEdge
+Builder<N, E> addEdge(E e, N n1, N n2)
+E,N,N
+Builder
+com.google.common.graph.Graph
+edgesConnecting
+Set<E> edgesConnecting(Object node1, Object node2)
+Object,Object
+Set
+com.google.common.graph.ImmutableUndirectedGraph
+addGraph
+public Builder<N, E> addGraph(UndirectedGraph<N, E> graph)
+UndirectedGraph
+Builder

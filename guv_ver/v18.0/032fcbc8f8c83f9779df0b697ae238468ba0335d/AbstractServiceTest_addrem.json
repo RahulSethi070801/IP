@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "328": "   * #notifyStopped} after calling {@link #startAsync} and {@link #stopAsync}.\n"
+    },
+    "removed": {
+        "328": "   * #notifyStopped} after calling {@link #start} and {@link #stop}.\n"
+    }
+}

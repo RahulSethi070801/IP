@@ -1,0 +1,20 @@
+com.google.common.collect.ArrayTable
+create
+public static ArrayTable<R, C, V> create(Iterable<? extends R> rowKeys, Iterable<? extends C> columnKeys)
+Iterable,Iterable
+ArrayTable
+com.google.common.collect.ArrayTable
+create
+public static ArrayTable<R, C, V> create(Table<R, C, V> table)
+Table
+ArrayTable
+com.google.common.collect.ArrayTable
+at
+public V at(int rowIndex, int columnIndex)
+int,int
+V
+com.google.common.collect.ArrayTable
+set
+public V set(int rowIndex, int columnIndex, @Nullable V value)
+int,int,V
+V

@@ -1,0 +1,12 @@
+
+   * Returns an array containing all of the elements from this fluent iterable in iteration order.
+   *
+   * <p><b>{@code Stream} equivalent:</b> if an object array is acceptable, use {@code
+   * stream.toArray()}; if {@code type} is a class literal such as {@code MyType.class}, use {@code
+   * stream.toArray(MyType[]::new)}. Otherwise use {@code stream.toArray( len -> (E[])
+   * Array.newInstance(type, len))}.
+   *
+   * @param type the type of the elements
+   * @return a newly-allocated array into which all the elements of this fluent iterable have been
+   *     copied
+   

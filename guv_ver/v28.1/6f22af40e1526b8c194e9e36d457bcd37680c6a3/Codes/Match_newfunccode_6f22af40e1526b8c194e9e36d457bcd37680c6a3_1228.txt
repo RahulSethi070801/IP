@@ -1,0 +1,5 @@
+boolean apply(@NullableDecl Object key, @NullableDecl V value) {
+    @SuppressWarnings("unchecked")
+    K k = (K) key;
+    return predicate.apply(Maps.immutableEntry(k, value));
+}

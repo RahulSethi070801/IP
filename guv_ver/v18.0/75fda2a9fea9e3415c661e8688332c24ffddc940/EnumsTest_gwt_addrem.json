@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "36": "public void testStringConverter_convert() throws Exception {\n",
+        "37": "  com.google.common.base.EnumsTest testCase = new com.google.common.base.EnumsTest();\n",
+        "38": "  testCase.testStringConverter_convert();\n",
+        "39": "}\n",
+        "40": "\n",
+        "41": "public void testStringConverter_convertError() throws Exception {\n",
+        "42": "  com.google.common.base.EnumsTest testCase = new com.google.common.base.EnumsTest();\n",
+        "43": "  testCase.testStringConverter_convertError();\n",
+        "44": "}\n",
+        "45": "\n",
+        "46": "public void testStringConverter_nullConversions() throws Exception {\n",
+        "47": "  com.google.common.base.EnumsTest testCase = new com.google.common.base.EnumsTest();\n",
+        "48": "  testCase.testStringConverter_nullConversions();\n",
+        "49": "}\n",
+        "50": "\n",
+        "51": "public void testStringConverter_reverse() throws Exception {\n",
+        "52": "  com.google.common.base.EnumsTest testCase = new com.google.common.base.EnumsTest();\n",
+        "53": "  testCase.testStringConverter_reverse();\n",
+        "54": "}\n",
+        "55": "\n"
+    },
+    "removed": {}
+}

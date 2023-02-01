@@ -1,0 +1,2 @@
+@Override
+void writeChars(String s);

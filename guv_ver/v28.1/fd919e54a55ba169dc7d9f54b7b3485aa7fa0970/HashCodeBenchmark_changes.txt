@@ -1,0 +1,4 @@
+HashCodeBenchmark
+Insertions: [30, 32, 33, 34, 38, 39, 40, 64, 65, 77, 78, 90, 91, 103, 104, 109, 110, 121, 122, 141, 142]
+Deletions: [31, 32, 33, 37, 38, 39, 63, 75, 87, 99, 104, 115, 134]
+android/guava-tests/benchmark/com/google/common/hash/HashCodeBenchmark.java

@@ -1,0 +1,4 @@
+HashStringBenchmark
+Insertions: [25]
+Deletions: [25, 26, 27]
+android/guava-tests/benchmark/com/google/common/hash/HashStringBenchmark.java

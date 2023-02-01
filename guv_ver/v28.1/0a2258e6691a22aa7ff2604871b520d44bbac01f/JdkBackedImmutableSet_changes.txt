@@ -1,0 +1,4 @@
+JdkBackedImmutableSet
+Insertions: [19, 44]
+Deletions: [19, 44]
+guava/src/com/google/common/collect/JdkBackedImmutableSet.java

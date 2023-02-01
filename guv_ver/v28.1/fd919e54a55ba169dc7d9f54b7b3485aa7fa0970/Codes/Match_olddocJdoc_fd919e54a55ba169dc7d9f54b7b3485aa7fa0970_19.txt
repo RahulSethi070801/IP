@@ -1,0 +1,12 @@
+
+   * Evaluates whether the argument is a 6to4 address.
+   *
+   * <p>6to4 addresses begin with the {@code "2002::/16"} prefix. The next 32 bits are the IPv4
+   * address of the host to which IPv6-in-IPv4 tunneled packets should be routed.
+   *
+   * <p>For more on 6to4 addresses see section 2 of
+   * <a target="_parent" href="http://tools.ietf.org/html/rfc3056#section-2">RFC 3056</a>.
+   *
+   * @param ip {@link Inet6Address} to be examined for 6to4 address format
+   * @return {@code true} if the argument is a 6to4 address
+   

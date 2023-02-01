@@ -1,0 +1,4 @@
+@Override
+public boolean hasEdgeConnecting(N nodeU, N nodeV) {
+    return hasEdgeConnecting_internal(checkNotNull(nodeU), checkNotNull(nodeV));
+}

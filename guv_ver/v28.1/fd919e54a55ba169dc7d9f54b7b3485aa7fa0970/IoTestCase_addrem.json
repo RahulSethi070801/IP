@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "42": "  static final String I18N =\n",
+        "43": "      \"\\u00CE\\u00F1\\u0163\\u00E9\\u0072\\u00F1\\u00E5\\u0163\\u00EE\\u00F6\"\n",
+        "44": "          + \"\\u00F1\\u00E5\\u013C\\u00EE\\u017E\\u00E5\\u0163\\u00EE\\u00F6\\u00F1\";\n",
+        "46": "  static final String ASCII =\n",
+        "47": "      \" !\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n",
+        "48": "          + \"[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\";\n",
+        "94": "  /** Returns the file with the given name under the testdata directory. */\n",
+        "142": "  /** Returns a byte array of length size that has values 0 .. size - 1. */\n",
+        "147": "  /** Returns a byte array of length size that has values offset .. offset + size - 1. */\n"
+    },
+    "removed": {
+        "42": "  static final String I18N\n",
+        "43": "      = \"\\u00CE\\u00F1\\u0163\\u00E9\\u0072\\u00F1\\u00E5\\u0163\\u00EE\\u00F6\"\n",
+        "44": "      + \"\\u00F1\\u00E5\\u013C\\u00EE\\u017E\\u00E5\\u0163\\u00EE\\u00F6\\u00F1\";\n",
+        "46": "  static final String ASCII\n",
+        "47": "      = \" !\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n",
+        "48": "      + \"[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\";\n",
+        "94": "  /**\n",
+        "95": "   * Returns the file with the given name under the testdata directory.\n",
+        "96": "   */\n",
+        "144": "  /**\n",
+        "145": "   * Returns a byte array of length size that has values 0 .. size - 1.\n",
+        "146": "   */\n",
+        "151": "  /**\n",
+        "152": "   * Returns a byte array of length size that has values offset .. offset + size - 1.\n",
+        "153": "   */\n"
+    }
+}

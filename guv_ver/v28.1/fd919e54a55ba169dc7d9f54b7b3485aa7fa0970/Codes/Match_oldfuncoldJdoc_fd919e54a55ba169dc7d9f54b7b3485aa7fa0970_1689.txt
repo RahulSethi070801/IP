@@ -1,0 +1,7 @@
+
+     * Resets variables maintaining the sum to zero.  This method may
+     * be a useful alternative to creating a new adder, but is only
+     * effective if there are no concurrent updates.  Because this
+     * method is intrinsically racy, it should only be used when it is
+     * known that no threads are concurrently updating.
+     

@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean put(@NullableDecl K key, @NullableDecl V value);

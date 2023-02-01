@@ -1,0 +1,9 @@
+
+   * Reads all characters from a file into a {@link String}, using the given character set.
+   *
+   * @param file the file to read from
+   * @param charset the charset used to decode the input stream; see {@link StandardCharsets} for
+   *     helpful predefined constants
+   * @return a string containing all the characters from the file
+   * @throws IOException if an I/O error occurs
+   

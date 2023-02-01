@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "20": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "47": "  public boolean set(@NullableDecl V value) {\n"
+    },
+    "removed": {
+        "20": "import javax.annotation.Nullable;\n",
+        "47": "  public boolean set(@Nullable V value) {\n"
+    }
+}

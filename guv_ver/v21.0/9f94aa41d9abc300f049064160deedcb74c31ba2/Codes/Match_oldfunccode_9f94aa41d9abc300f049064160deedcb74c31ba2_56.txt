@@ -1,0 +1,63 @@
+V lockedGetOrLoad(K key, int hash, CacheLoader<? super K, V> loader) throws ExecutionException {
+    ReferenceEntry<K, V> e;
+    ValueReference<K, V> valueReference = null;
+    LoadingValueReference<K, V> loadingValueReference = null;
+    boolean createNewEntry = true;
+    lock();
+    try {
+        long now = map.ticker.read();
+        preWriteCleanup(now);
+        int newCount = this.count - 1;
+        AtomicReferenceArray<ReferenceEntry<K, V>> table = this.table;
+        int index = hash & (table.length() - 1);
+        ReferenceEntry<K, V> first = table.get(index);
+        for (e = first; e != null; e = e.getNext()) {
+            K entryKey = e.getKey();
+            if (e.getHash() == hash && entryKey != null && map.keyEquivalence.equivalent(key, entryKey)) {
+                valueReference = e.getValueReference();
+                if (valueReference.isLoading()) {
+                    createNewEntry = false;
+                } else {
+                    V value = valueReference.get();
+                    if (value == null) {
+                        enqueueNotification(entryKey, hash, value, valueReference.getWeight(), RemovalCause.COLLECTED);
+                    } else if (map.isExpired(e, now)) {
+                        enqueueNotification(entryKey, hash, value, valueReference.getWeight(), RemovalCause.EXPIRED);
+                    } else {
+                        recordLockedRead(e, now);
+                        statsCounter.recordHits(1);
+                        return value;
+                    }
+                    writeQueue.remove(e);
+                    accessQueue.remove(e);
+                    this.count = newCount;
+                }
+                break;
+            }
+        }
+        if (createNewEntry) {
+            loadingValueReference = new LoadingValueReference<K, V>();
+            if (e == null) {
+                e = newEntry(key, hash, first);
+                e.setValueReference(loadingValueReference);
+                table.set(index, e);
+            } else {
+                e.setValueReference(loadingValueReference);
+            }
+        }
+    } finally {
+        unlock();
+        postWriteCleanup();
+    }
+    if (createNewEntry) {
+        try {
+            synchronized (e) {
+                return loadSync(key, hash, loadingValueReference, loader);
+            }
+        } finally {
+            statsCounter.recordMisses(1);
+        }
+    } else {
+        return waitForLoadingValue(e, key, valueReference);
+    }
+}

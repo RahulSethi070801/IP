@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "86": "public void testRemoveEmptyOccurrencesIterable() throws Exception {\n",
+        "88": "  testCase.testRemoveEmptyOccurrencesIterable();\n",
+        "91": "public void testRemoveEmptyOccurrencesMultiset() throws Exception {\n",
+        "93": "  testCase.testRemoveEmptyOccurrencesMultiset();\n",
+        "96": "public void testRemoveOccurrencesIterableEmpty() throws Exception {\n",
+        "98": "  testCase.testRemoveOccurrencesIterableEmpty();\n",
+        "99": "}\n",
+        "100": "\n",
+        "101": "public void testRemoveOccurrencesMultiset() throws Exception {\n",
+        "102": "  com.google.common.collect.MultisetsTest testCase = new com.google.common.collect.MultisetsTest();\n",
+        "103": "  testCase.testRemoveOccurrencesMultiset();\n",
+        "104": "}\n",
+        "105": "\n",
+        "106": "public void testRemoveOccurrencesMultisetEmpty() throws Exception {\n",
+        "107": "  com.google.common.collect.MultisetsTest testCase = new com.google.common.collect.MultisetsTest();\n",
+        "108": "  testCase.testRemoveOccurrencesMultisetEmpty();\n",
+        "109": "}\n",
+        "110": "\n",
+        "111": "public void testRemoveOccurrencesMultisetIterable() throws Exception {\n",
+        "112": "  com.google.common.collect.MultisetsTest testCase = new com.google.common.collect.MultisetsTest();\n",
+        "113": "  testCase.testRemoveOccurrencesMultisetIterable();\n"
+    },
+    "removed": {
+        "86": "public void testRemoveEmptyOccurrences() throws Exception {\n",
+        "88": "  testCase.testRemoveEmptyOccurrences();\n",
+        "91": "public void testRemoveOccurrences() throws Exception {\n",
+        "93": "  testCase.testRemoveOccurrences();\n",
+        "96": "public void testRemoveOccurrencesEmpty() throws Exception {\n",
+        "98": "  testCase.testRemoveOccurrencesEmpty();\n"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "25": " * \"Overrides\" the {@link ImmutableMap} static methods that lack {@link ImmutableBiMap} equivalents\n",
+        "26": " * with deprecated, exception-throwing versions. See {@link ImmutableSortedSetFauxverideShim} for\n",
+        "27": " * details.\n"
+    },
+    "removed": {
+        "25": " * \"Overrides\" the {@link ImmutableMap} static methods that lack\n",
+        "26": " * {@link ImmutableBiMap} equivalents with deprecated, exception-throwing\n",
+        "27": " * versions. See {@link ImmutableSortedSetFauxverideShim} for details.\n"
+    }
+}

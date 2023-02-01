@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "34": "        .testForwarding(\n",
+        "35": "            SetMultimap.class,\n",
+        "36": "            new Function<SetMultimap, SetMultimap>() {\n",
+        "37": "              @Override\n",
+        "38": "              public SetMultimap apply(SetMultimap delegate) {\n",
+        "39": "                return wrap(delegate);\n",
+        "40": "              }\n",
+        "41": "            });\n",
+        "55": "      @Override\n",
+        "56": "      protected SetMultimap<K, V> delegate() {\n"
+    },
+    "removed": {
+        "34": "        .testForwarding(SetMultimap.class, new Function<SetMultimap, SetMultimap>() {\n",
+        "35": "          @Override public SetMultimap apply(SetMultimap delegate) {\n",
+        "36": "            return wrap(delegate);\n",
+        "37": "          }\n",
+        "38": "        });\n",
+        "52": "      @Override protected SetMultimap<K, V> delegate() {\n"
+    }
+}

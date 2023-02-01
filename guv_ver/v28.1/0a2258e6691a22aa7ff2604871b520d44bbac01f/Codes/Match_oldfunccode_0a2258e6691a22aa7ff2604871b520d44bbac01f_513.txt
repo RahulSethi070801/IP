@@ -1,0 +1,4 @@
+@Override
+public Map<C, V> row(@NullableDecl R rowKey) {
+    return Collections.unmodifiableMap(super.row(rowKey));
+}

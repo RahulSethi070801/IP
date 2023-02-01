@@ -1,0 +1,3 @@
+public <N1 extends N, E1 extends E> Graph<N1, E1> build() {
+    return new ConfigurableGraph<N1, E1>(this);
+}

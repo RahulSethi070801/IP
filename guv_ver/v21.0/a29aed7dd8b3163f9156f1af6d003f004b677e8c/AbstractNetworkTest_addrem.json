@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "218": "      if (network.isDirected()) {\n",
+        "219": "        assertThat(network.degree(node)).isEqualTo(\n",
+        "220": "            network.inEdges(node).size() + network.outEdges(node).size());\n",
+        "221": "        assertThat(network.inDegree(node)).isEqualTo(network.inEdges(node).size());\n",
+        "222": "        assertThat(network.outDegree(node)).isEqualTo(network.outEdges(node).size());\n",
+        "223": "      } else {\n",
+        "224": "        assertThat(network.degree(node)).isEqualTo(\n",
+        "225": "            network.incidentEdges(node).size() + network.edgesConnecting(node, node).size());\n",
+        "226": "        assertThat(network.inDegree(node)).isEqualTo(network.degree(node));\n",
+        "227": "        assertThat(network.outDegree(node)).isEqualTo(network.degree(node));\n",
+        "228": "      }\n",
+        "229": "\n"
+    },
+    "removed": {}
+}

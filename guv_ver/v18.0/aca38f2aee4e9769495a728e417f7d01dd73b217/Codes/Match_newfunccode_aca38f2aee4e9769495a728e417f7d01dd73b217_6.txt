@@ -1,0 +1,4 @@
+private void writeObject(ObjectOutputStream s) throws IOException {
+    s.defaultWriteObject();
+    s.writeLong(sum());
+}

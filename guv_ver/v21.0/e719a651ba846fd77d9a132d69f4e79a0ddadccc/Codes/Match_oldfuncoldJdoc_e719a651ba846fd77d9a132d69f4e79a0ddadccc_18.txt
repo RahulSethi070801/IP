@@ -1,0 +1,6 @@
+
+   * Reads all bytes from an input stream into a byte array. The given
+   * expected size is used to create an initial byte array, but if the actual
+   * number of bytes read from the stream differs, the correct result will be
+   * returned anyway.
+   

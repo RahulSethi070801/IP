@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "53": "  @Nullable\n",
+        "71": "  private ElementOrder(Type type, @Nullable Comparator<T> comparator) {\n",
+        "120": "  public boolean equals(@Nullable Object obj) {\n"
+    },
+    "removed": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "53": "  @NullableDecl\n",
+        "71": "  private ElementOrder(Type type, @NullableDecl Comparator<T> comparator) {\n",
+        "120": "  public boolean equals(@NullableDecl Object obj) {\n"
+    }
+}

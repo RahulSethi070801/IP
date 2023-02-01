@@ -1,0 +1,3 @@
+public static <T> Collector<T, ?, BloomFilter<T>> toBloomFilter(Funnel<? super T> funnel, long expectedInsertions) {
+    return toBloomFilter(funnel, expectedInsertions, 0.03);
+}

@@ -1,0 +1,15 @@
+private static <X extends Exception> X newWithCause(Class<X> exceptionClass, Throwable cause) {
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+    List<Constructor<X>> constructors = (List) Arrays.asList(exceptionClass.getConstructors());
+    for (Constructor<X> constructor : preferringStrings(constructors)) {
+        @NullableDecl
+        X instance = newFromConstructor(constructor, cause);
+        if (instance != null) {
+            if (instance.getCause() == null) {
+                instance.initCause(cause);
+            }
+            return instance;
+        }
+    }
+    throw new IllegalArgumentException("No appropriate constructor for exception of type " + exceptionClass + " in response to chained exception", cause);
+}

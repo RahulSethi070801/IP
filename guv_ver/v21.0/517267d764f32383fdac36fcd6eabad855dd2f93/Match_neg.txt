@@ -1,0 +1,6 @@
+MapMaker maximumSize(int size)
+public MapMaker weakValues()
+
+MapMaker maximumSize(int size)
+public MapMaker weakValues()
+

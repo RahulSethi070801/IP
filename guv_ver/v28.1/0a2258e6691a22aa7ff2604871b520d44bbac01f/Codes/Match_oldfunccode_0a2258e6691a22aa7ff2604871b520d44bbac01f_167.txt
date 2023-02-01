@@ -1,0 +1,44 @@
+AvlNode<E> remove(Comparator<? super E> comparator, @NullableDecl E e, int count, int[] result) {
+    int cmp = comparator.compare(e, elem);
+    if (cmp < 0) {
+        AvlNode<E> initLeft = left;
+        if (initLeft == null) {
+            result[0] = 0;
+            return this;
+        }
+        left = initLeft.remove(comparator, e, count, result);
+        if (result[0] > 0) {
+            if (count >= result[0]) {
+                this.distinctElements--;
+                this.totalCount -= result[0];
+            } else {
+                this.totalCount -= count;
+            }
+        }
+        return (result[0] == 0) ? this : rebalance();
+    } else if (cmp > 0) {
+        AvlNode<E> initRight = right;
+        if (initRight == null) {
+            result[0] = 0;
+            return this;
+        }
+        right = initRight.remove(comparator, e, count, result);
+        if (result[0] > 0) {
+            if (count >= result[0]) {
+                this.distinctElements--;
+                this.totalCount -= result[0];
+            } else {
+                this.totalCount -= count;
+            }
+        }
+        return rebalance();
+    }
+    result[0] = elemCount;
+    if (count >= elemCount) {
+        return deleteMe();
+    } else {
+        this.elemCount -= count;
+        this.totalCount -= count;
+        return this;
+    }
+}

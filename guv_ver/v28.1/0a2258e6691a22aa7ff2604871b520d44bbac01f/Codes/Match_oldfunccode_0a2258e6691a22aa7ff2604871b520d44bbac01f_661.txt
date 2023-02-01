@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public E floor(E e) {
+    return Iterators.find(unfiltered().headSet(e, true).descendingIterator(), predicate, null);
+}

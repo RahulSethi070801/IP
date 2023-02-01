@@ -1,0 +1,5 @@
+private static <T> void acceptIfPresent(Consumer<? super T> action, Optional<T> node) {
+    if (node.isPresent()) {
+        action.accept(node.get());
+    }
+}

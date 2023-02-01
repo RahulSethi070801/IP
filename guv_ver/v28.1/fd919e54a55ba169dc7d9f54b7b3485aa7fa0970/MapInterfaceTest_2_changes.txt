@@ -1,0 +1,4 @@
+MapInterfaceTest_2
+Insertions: [66, 67, 75, 76, 81, 84, 85, 90, 93, 94, 99, 100, 117, 134, 163, 164, 260, 261, 850, 902]
+Deletions: [66, 67, 75, 76, 81, 82, 85, 86, 91, 92, 95, 96, 101, 102, 119, 120, 121, 138, 139, 168, 169, 170, 266, 267, 268, 857, 909]
+guava-testlib/src/com/google/common/collect/testing/MapInterfaceTest.java

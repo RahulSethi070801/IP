@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "54": "    assertEquals(\"(4..8)\", range.toString());\n",
+        "81": "    assertEquals(\"[5..7]\", range.toString());\n",
+        "103": "    assertEquals(\"(4..7]\", range.toString());\n",
+        "117": "    assertEquals(\"[5..8)\", range.toString());\n",
+        "150": "    assertEquals(\"[4..4]\", range.toString());\n",
+        "166": "    assertEquals(\"[4..4)\", range.toString());\n",
+        "182": "    assertEquals(\"(4..4]\", range.toString());\n",
+        "196": "    assertEquals(\"(-\\u221e..5)\", range.toString());\n",
+        "210": "    assertEquals(\"(5..+\\u221e)\", range.toString());\n",
+        "224": "    assertEquals(\"[6..+\\u221e)\", range.toString());\n",
+        "238": "    assertEquals(\"(-\\u221e..4]\", range.toString());\n",
+        "249": "    assertEquals(\"(-\\u221e..+\\u221e)\", range.toString());\n"
+    },
+    "removed": {
+        "54": "    assertEquals(\"(4\\u20258)\", range.toString());\n",
+        "81": "    assertEquals(\"[5\\u20257]\", range.toString());\n",
+        "103": "    assertEquals(\"(4\\u20257]\", range.toString());\n",
+        "117": "    assertEquals(\"[5\\u20258)\", range.toString());\n",
+        "150": "    assertEquals(\"[4\\u20254]\", range.toString());\n",
+        "166": "    assertEquals(\"[4\\u20254)\", range.toString());\n",
+        "182": "    assertEquals(\"(4\\u20254]\", range.toString());\n",
+        "196": "    assertEquals(\"(-\\u221e\\u20255)\", range.toString());\n",
+        "210": "    assertEquals(\"(5\\u2025+\\u221e)\", range.toString());\n",
+        "224": "    assertEquals(\"[6\\u2025+\\u221e)\", range.toString());\n",
+        "238": "    assertEquals(\"(-\\u221e\\u20254]\", range.toString());\n",
+        "249": "    assertEquals(\"(-\\u221e\\u2025+\\u221e)\", range.toString());\n"
+    }
+}

@@ -1,0 +1,11 @@
+public static <F, T> Iterable<T> transform(final Iterable<F> fromIterable, final Function<? super F, ? extends T> function) {
+    checkNotNull(fromIterable);
+    checkNotNull(function);
+    return new FluentIterable<T>() {
+
+        @Override
+        public Iterator<T> iterator() {
+            return Iterators.transform(fromIterable.iterator(), function);
+        }
+    };
+}

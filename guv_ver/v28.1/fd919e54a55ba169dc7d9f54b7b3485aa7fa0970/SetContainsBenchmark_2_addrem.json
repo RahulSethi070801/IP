@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "27": " * A microbenchmark that tests the performance of contains() on various Set implementations.\n",
+        "55": "  @BeforeExperiment\n",
+        "56": "  void setUp() {\n",
+        "58": "        new CollectionBenchmarkSampleData(isUserTypeFast, random, hitRate, size);\n",
+        "60": "    this.setToTest = (Set<Element>) impl.create(sampleData.getValuesInSet());\n",
+        "64": "  @Benchmark\n",
+        "65": "  boolean contains(int reps) {\n"
+    },
+    "removed": {
+        "27": " * A microbenchmark that tests the performance of contains() on various Set\n",
+        "28": " * implementations.\n",
+        "56": "  @BeforeExperiment void setUp() {\n",
+        "58": "        new CollectionBenchmarkSampleData(\n",
+        "59": "            isUserTypeFast, random, hitRate, size);\n",
+        "61": "    this.setToTest = (Set<Element>)impl.create(sampleData.getValuesInSet());\n",
+        "65": "  @Benchmark boolean contains(int reps) {\n"
+    }
+}

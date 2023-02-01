@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "41": "/** Tester for {@code Spliterator} implementations. */\n",
+        "44": "  /** Return type from \"contains the following elements\" assertions. */\n",
+        "54": "   * Different ways of decomposing a Spliterator, all of which must produce the same elements (up to\n",
+        "55": "   * ordering, if Spliterator.ORDERED is not present).\n",
+        "82": "        spliterator.forEachRemaining(\n",
+        "83": "            e -> {\n",
+        "84": "              consumer.accept(e);\n",
+        "85": "              counter[0]++;\n",
+        "86": "            });\n",
+        "116": "              spliterator.estimateSize(), originalSize));\n",
+        "123": "                trySplit.estimateSize(), originalSize));\n"
+    },
+    "removed": {
+        "41": "/**\n",
+        "42": " * Tester for {@code Spliterator} implementations.\n",
+        "43": " */\n",
+        "46": "  /**\n",
+        "47": "   * Return type from \"contains the following elements\" assertions.\n",
+        "48": "   */\n",
+        "58": "   * Different ways of decomposing a Spliterator, all of which must produce the same\n",
+        "59": "   * elements (up to ordering, if Spliterator.ORDERED is not present).\n",
+        "86": "        spliterator.forEachRemaining(e -> {\n",
+        "87": "          consumer.accept(e);\n",
+        "88": "          counter[0]++;\n",
+        "89": "        });\n",
+        "119": "              spliterator.estimateSize(),\n",
+        "120": "              originalSize));\n",
+        "127": "                trySplit.estimateSize(),\n",
+        "128": "                originalSize));\n"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "20": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "52": "  @NullableDecl\n",
+        "65": "  @NullableDecl\n",
+        "67": "  <T extends B> T putInstance(Class<T> type, @NullableDecl T value);\n",
+        "74": "  @NullableDecl\n",
+        "84": "  @NullableDecl\n",
+        "86": "  <T extends B> T putInstance(TypeToken<T> type, @NullableDecl T value);\n"
+    },
+    "removed": {
+        "20": "import javax.annotation.Nullable;\n",
+        "52": "  @Nullable\n",
+        "65": "  @Nullable\n",
+        "67": "  <T extends B> T putInstance(Class<T> type, @Nullable T value);\n",
+        "74": "  @Nullable\n",
+        "84": "  @Nullable\n",
+        "86": "  <T extends B> T putInstance(TypeToken<T> type, @Nullable T value);\n"
+    }
+}

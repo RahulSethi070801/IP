@@ -1,0 +1,5 @@
+public static <E extends @Nullable Object> HashMultiset<E> create(Iterable<? extends E> elements) {
+    HashMultiset<E> multiset = create(Multisets.inferDistinctElements(elements));
+    Iterables.addAll(multiset, elements);
+    return multiset;
+}

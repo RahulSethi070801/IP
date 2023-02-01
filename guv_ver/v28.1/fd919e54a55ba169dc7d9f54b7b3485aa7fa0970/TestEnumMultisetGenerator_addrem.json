@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "28": " * An abstract {@code TestMultisetGenerator} for generating multisets containing enum values.\n",
+        "56": "  /** Sorts the enums according to their natural ordering. */\n"
+    },
+    "removed": {
+        "28": " * An abstract {@code TestMultisetGenerator} for generating multisets containing\n",
+        "29": " * enum values.\n",
+        "57": "  /**\n",
+        "58": "   * Sorts the enums according to their natural ordering.\n",
+        "59": "   */\n"
+    }
+}

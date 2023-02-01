@@ -1,0 +1,1 @@
+ Removes all nodes for the specified key. 

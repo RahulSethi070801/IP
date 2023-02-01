@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "39": " * A generic JUnit test which tests addAll operations on a collection. Can't be invoked directly;\n",
+        "40": " * please see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "165": "   * Returns the {@link Method} instance for {@link #testAddAll_nullUnsupported()} so that tests can\n",
+        "166": "   * suppress it with {@code FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "167": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5045147\">Sun bug 5045147</a> is fixed.\n",
+        "175": "   * Returns the {@link Method} instance for {@link #testAddAll_unsupportedNonePresent()} so that\n",
+        "176": "   * tests can suppress it with {@code FeatureSpecificTestSuiteBuilder.suppressing()} while we\n",
+        "177": "   * figure out what to do with <a href=\"http://goo.gl/qJBruX\">{@code ConcurrentHashMap} support for\n",
+        "178": "   * {@code entrySet().add()}</a>.\n",
+        "186": "   * Returns the {@link Method} instance for {@link #testAddAll_unsupportedSomePresent()} so that\n",
+        "187": "   * tests can suppress it with {@code FeatureSpecificTestSuiteBuilder.suppressing()} while we\n",
+        "188": "   * figure out what to do with <a href=\"http://goo.gl/qJBruX\">{@code ConcurrentHashMap} support for\n",
+        "189": "   * {@code entrySet().add()}</a>.\n"
+    },
+    "removed": {
+        "39": " * A generic JUnit test which tests addAll operations on a collection. Can't be\n",
+        "40": " * invoked directly; please see\n",
+        "41": " * {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n",
+        "166": "   * Returns the {@link Method} instance for {@link\n",
+        "167": "   * #testAddAll_nullUnsupported()} so that tests can suppress it with {@code\n",
+        "168": "   * FeatureSpecificTestSuiteBuilder.suppressing()} until <a\n",
+        "169": "   * href=\"http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=5045147\">Sun\n",
+        "170": "   * bug 5045147</a> is fixed.\n",
+        "178": "   * Returns the {@link Method} instance for {@link\n",
+        "179": "   * #testAddAll_unsupportedNonePresent()} so that tests can suppress it with\n",
+        "180": "   * {@code FeatureSpecificTestSuiteBuilder.suppressing()} while we figure out\n",
+        "181": "   * what to do with <a href=\"http://goo.gl/qJBruX\">{@code ConcurrentHashMap}\n",
+        "182": "   * support for {@code entrySet().add()}</a>.\n",
+        "190": "   * Returns the {@link Method} instance for {@link\n",
+        "191": "   * #testAddAll_unsupportedSomePresent()} so that tests can suppress it with\n",
+        "192": "   * {@code FeatureSpecificTestSuiteBuilder.suppressing()} while we figure out\n",
+        "193": "   * what to do with <a href=\"http://goo.gl/qJBruX\">{@code ConcurrentHashMap}\n",
+        "194": "   * support for {@code entrySet().add()}</a>.\n"
+    }
+}

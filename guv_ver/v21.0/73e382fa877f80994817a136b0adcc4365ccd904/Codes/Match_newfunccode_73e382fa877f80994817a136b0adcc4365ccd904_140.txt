@@ -1,0 +1,4 @@
+@SuppressWarnings("unchecked")
+public static <T> Collector<T, ?, Optional<T>> toOptional() {
+    return (Collector) TO_OPTIONAL;
+}

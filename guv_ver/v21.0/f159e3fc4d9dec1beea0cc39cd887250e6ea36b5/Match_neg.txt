@@ -1,0 +1,6 @@
+boolean addEdge(E edge, Iterable<N> nodes)
+Set<E> adjacentEdges(Object edge)
+
+boolean addEdge(E edge, N... nodes)
+boolean removeNode(Object node)
+

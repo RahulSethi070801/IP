@@ -1,0 +1,25 @@
+com.google.common.util.concurrent.Monitor
+enterWhen
+public void enterWhen(Guard guard) throws InterruptedException
+Guard
+void
+com.google.common.util.concurrent.Monitor
+enterIfInterruptibly
+public boolean enterIfInterruptibly(Guard guard) throws InterruptedException
+Guard
+boolean
+com.google.common.util.concurrent.Monitor
+waitFor
+public void waitFor(Guard guard) throws InterruptedException
+Guard
+void
+com.google.common.util.concurrent.Monitor
+enterInterruptibly
+public boolean enterInterruptibly(long time, TimeUnit unit) throws InterruptedException
+long,TimeUnit
+boolean
+com.google.common.util.concurrent.Monitor
+enterInterruptibly
+public void enterInterruptibly() throws InterruptedException
+empty
+void

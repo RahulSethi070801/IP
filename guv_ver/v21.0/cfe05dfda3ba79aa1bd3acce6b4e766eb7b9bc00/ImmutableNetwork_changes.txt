@@ -1,0 +1,4 @@
+ImmutableNetwork
+Insertions: [43, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 94]
+Deletions: [43, 45, 84]
+guava/src/com/google/common/graph/ImmutableNetwork.java

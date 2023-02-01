@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "160": "    ValueGraph<Integer, Set<String>> asGraph = network.asGraph();\n",
+        "218": "          assertThat(edgesConnecting).isEqualTo(asGraph.edgeValue(node, otherNode));\n"
+    },
+    "removed": {
+        "160": "    Graph<Integer> asGraph = network.asGraph();\n"
+    }
+}

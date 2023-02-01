@@ -1,0 +1,4 @@
+ForwardingValueGraph
+Insertions: [97, 98, 99, 100, 101, 107, 108, 109, 110, 111, 112]
+Deletions: []
+android/guava/src/com/google/common/graph/ForwardingValueGraph.java

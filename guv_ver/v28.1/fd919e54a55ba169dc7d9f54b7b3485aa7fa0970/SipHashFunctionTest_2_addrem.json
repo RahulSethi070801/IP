@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "38": "  private static final long[] EXPECTED =\n",
+        "39": "      new long[] {\n",
+        "104": "      };\n",
+        "119": "    byte[] message =\n",
+        "120": "        new byte[] {\n",
+        "121": "          0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e\n",
+        "122": "        };\n",
+        "131": "    assertSip(new byte[] {}, 0x726fdb47dd0e0e31L);\n",
+        "132": "    assertSip(new byte[] {0x61}, 0x2ba3e8e9a71148caL);\n",
+        "149": "    byte[] col1 = new byte[] {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, (byte) 0x80};\n",
+        "150": "    byte[] col2 = new byte[] {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, (byte) 0x81};\n",
+        "151": "    byte[] col3 = new byte[] {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, (byte) 0xff};\n",
+        "153": "    ImmutableSet<HashCode> hashCodes =\n",
+        "154": "        ImmutableSet.of(\n",
+        "155": "            SIP_WITH_KEY.hashBytes(col1),\n",
+        "156": "            SIP_WITH_KEY.hashBytes(col2),\n",
+        "157": "            SIP_WITH_KEY.hashBytes(col3));\n"
+    },
+    "removed": {
+        "38": "  private static final long[] EXPECTED = new long[] {\n",
+        "103": "  };\n",
+        "118": "    byte[] message = new byte[] {\n",
+        "119": "        0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e };\n",
+        "128": "    assertSip(new byte[] { }, 0x726fdb47dd0e0e31L);\n",
+        "129": "    assertSip(new byte[] { 0x61 }, 0x2ba3e8e9a71148caL);\n",
+        "146": "    byte[] col1 = new byte[] { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, (byte) 0x80 };\n",
+        "147": "    byte[] col2 = new byte[] { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, (byte) 0x81 };\n",
+        "148": "    byte[] col3 = new byte[] { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, (byte) 0xff };\n",
+        "150": "    ImmutableSet<HashCode> hashCodes = ImmutableSet.of(\n",
+        "151": "        SIP_WITH_KEY.hashBytes(col1),\n",
+        "152": "        SIP_WITH_KEY.hashBytes(col2),\n",
+        "153": "        SIP_WITH_KEY.hashBytes(col3));\n"
+    }
+}

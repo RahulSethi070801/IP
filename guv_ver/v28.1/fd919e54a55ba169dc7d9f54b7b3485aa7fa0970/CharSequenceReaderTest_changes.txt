@@ -1,0 +1,4 @@
+CharSequenceReaderTest
+Insertions: [38, 39, 40, 41, 42, 43]
+Deletions: [38, 39, 40, 41, 42]
+android/guava-tests/test/com/google/common/io/CharSequenceReaderTest.java

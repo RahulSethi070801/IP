@@ -1,0 +1,4 @@
+FinalizableWeakReference_2
+Insertions: [23, 24]
+Deletions: [23, 24]
+guava/src/com/google/common/base/FinalizableWeakReference.java

@@ -1,0 +1,37 @@
+static <E> ImmutableMultiset<E> create(Collection<? extends Entry<? extends E>> entries) {
+    int distinct = entries.size();
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+    ImmutableEntry<E>[] entryArray = new ImmutableEntry[distinct];
+    if (distinct == 0) {
+        return new RegularImmutableMultiset<>(entryArray, EMPTY_ARRAY, 0, 0, ImmutableSet.of());
+    }
+    int tableSize = Hashing.closedTableSize(distinct, MAX_LOAD_FACTOR);
+    int mask = tableSize - 1;
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+    @Nullable
+    ImmutableEntry<E>[] hashTable = new @Nullable ImmutableEntry[tableSize];
+    int index = 0;
+    int hashCode = 0;
+    long size = 0;
+    for (Entry<? extends E> entryWithWildcard : entries) {
+        @SuppressWarnings("unchecked")
+        Entry<E> entry = (Entry<E>) entryWithWildcard;
+        E element = checkNotNull(entry.getElement());
+        int count = entry.getCount();
+        int hash = element.hashCode();
+        int bucket = Hashing.smear(hash) & mask;
+        ImmutableEntry<E> bucketHead = hashTable[bucket];
+        ImmutableEntry<E> newEntry;
+        if (bucketHead == null) {
+            boolean canReuseEntry = entry instanceof ImmutableEntry && !(entry instanceof NonTerminalEntry);
+            newEntry = canReuseEntry ? (ImmutableEntry<E>) entry : new ImmutableEntry<E>(element, count);
+        } else {
+            newEntry = new NonTerminalEntry<E>(element, count, bucketHead);
+        }
+        hashCode += hash ^ count;
+        entryArray[index++] = newEntry;
+        hashTable[bucket] = newEntry;
+        size += count;
+    }
+    return hashFloodingDetected(hashTable) ? JdkBackedImmutableMultiset.create(ImmutableList.asImmutableList(entryArray)) : new RegularImmutableMultiset<E>(entryArray, hashTable, Ints.saturatedCast(size), hashCode, null);
+}

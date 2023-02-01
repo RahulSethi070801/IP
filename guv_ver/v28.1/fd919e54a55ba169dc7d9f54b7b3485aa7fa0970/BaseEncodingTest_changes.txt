@@ -1,0 +1,4 @@
+BaseEncodingTest
+Insertions: [57, 58, 63, 64, 72, 73, 359, 360, 361, 427, 428, 429]
+Deletions: [57, 62, 70, 356, 422]
+android/guava-tests/test/com/google/common/io/BaseEncodingTest.java

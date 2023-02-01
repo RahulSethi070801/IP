@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "24": " * GWT emulated version of {@link ImmutableList}. TODO(cpovirk): more doc\n",
+        "30": "  ForwardingImmutableList() {}\n",
+        "50": "  @Override\n",
+        "51": "  public Object[] toArray() {\n",
+        "57": "  @Override\n",
+        "58": "  public boolean equals(Object obj) {\n",
+        "62": "  @Override\n",
+        "63": "  public int hashCode() {\n",
+        "67": "  @Override\n",
+        "68": "  public UnmodifiableIterator<E> iterator() {\n",
+        "72": "  @Override\n",
+        "73": "  public boolean contains(@Nullable Object object) {\n",
+        "77": "  @Override\n",
+        "78": "  public boolean containsAll(Collection<?> targets) {\n",
+        "86": "  @Override\n",
+        "87": "  public boolean isEmpty() {\n",
+        "91": "  @Override\n",
+        "92": "  public <T> T[] toArray(T[] other) {\n",
+        "96": "  @Override\n",
+        "97": "  public String toString() {\n"
+    },
+    "removed": {
+        "24": " * GWT emulated version of {@link ImmutableList}.\n",
+        "25": " * TODO(cpovirk): more doc\n",
+        "31": "  ForwardingImmutableList() {\n",
+        "32": "  }\n",
+        "52": "  @Override public Object[] toArray() {\n",
+        "58": "  @Override public boolean equals(Object obj) {\n",
+        "62": "  @Override public int hashCode() {\n",
+        "66": "  @Override public UnmodifiableIterator<E> iterator() {\n",
+        "70": "  @Override public boolean contains(@Nullable Object object) {\n",
+        "74": "  @Override public boolean containsAll(Collection<?> targets) {\n",
+        "82": "  @Override public boolean isEmpty() {\n",
+        "86": "  @Override public <T> T[] toArray(T[] other) {\n",
+        "90": "  @Override public String toString() {\n"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "26": " * A generic JUnit test which tests {@code isEmpty()} operations on a collection. Can't be invoked\n",
+        "27": " * directly; please see {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n"
+    },
+    "removed": {
+        "26": " * A generic JUnit test which tests {@code isEmpty()} operations on a\n",
+        "27": " * collection. Can't be invoked directly; please see\n",
+        "28": " * {@link com.google.common.collect.testing.CollectionTestSuiteBuilder}.\n"
+    }
+}

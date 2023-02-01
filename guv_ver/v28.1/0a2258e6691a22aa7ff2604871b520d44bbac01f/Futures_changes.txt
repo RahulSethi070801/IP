@@ -1,0 +1,4 @@
+Futures
+Insertions: [47, 162, 192]
+Deletions: [47, 162, 192]
+guava/src/com/google/common/util/concurrent/Futures.java

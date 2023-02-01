@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "37": " * make common reflective operation easier to deal with, such as {@link #isPublic}, {@link\n",
+        "38": " * #getParameters} etc.\n",
+        "44": " * <pre>{@code\n",
+        "45": " * Method getMethod = List.class.getMethod(\"get\", int.class);\n",
+        "46": " * Invokable<List<String>, ?> invokable = new TypeToken<List<String>>() {}.method(getMethod);\n",
+        "47": " * assertEquals(TypeToken.of(String.class), invokable.getReturnType()); // Not Object.class!\n",
+        "48": " * assertEquals(new TypeToken<List<String>>() {}, invokable.getOwnerType());\n",
+        "49": " * }</pre>\n",
+        "113": "   * of a non-static inner class, unlike {@link Constructor#getParameterTypes}, the hidden {@code\n",
+        "114": "   * this} parameter of the enclosing class is excluded from the returned parameters.\n",
+        "141": "   *\n",
+        "142": "   * <pre>{@code\n",
+        "143": "   * Method factoryMethod = Person.class.getMethod(\"create\");\n",
+        "144": "   * Invokable<?, Person> factory = Invokable.of(getNameMethod).returning(Person.class);\n",
+        "145": "   * }</pre>\n",
+        "303": "     * <p>{@code [<E>]} will be returned for ArrayList's constructor. When both the class and the\n",
+        "317": "          declaredByConstructor, 0, result, declaredByClass.length, declaredByConstructor.length);\n"
+    },
+    "removed": {
+        "37": " * make common reflective operation easier to deal with, such as {@link #isPublic},\n",
+        "38": " * {@link #getParameters} etc.\n",
+        "44": " * <pre>   {@code\n",
+        "45": " *   Method getMethod = List.class.getMethod(\"get\", int.class);\n",
+        "46": " *   Invokable<List<String>, ?> invokable = new TypeToken<List<String>>() {}.method(getMethod);\n",
+        "47": " *   assertEquals(TypeToken.of(String.class), invokable.getReturnType()); // Not Object.class!\n",
+        "48": " *   assertEquals(new TypeToken<List<String>>() {}, invokable.getOwnerType());}</pre>\n",
+        "112": "   * of a non-static inner class, unlike {@link Constructor#getParameterTypes}, the hidden\n",
+        "113": "   * {@code this} parameter of the enclosing class is excluded from the returned parameters.\n",
+        "140": "   * <pre>   {@code\n",
+        "141": "   *   Method factoryMethod = Person.class.getMethod(\"create\");\n",
+        "142": "   *   Invokable<?, Person> factory = Invokable.of(getNameMethod).returning(Person.class);}</pre>\n",
+        "300": "     * {@code [<E>]} will be returned for ArrayList's constructor. When both the class and the\n",
+        "314": "          declaredByConstructor, 0,\n",
+        "315": "          result, declaredByClass.length,\n",
+        "316": "          declaredByConstructor.length);\n"
+    }
+}

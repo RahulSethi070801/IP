@@ -1,0 +1,6 @@
+Set<N> predecessors(Object node)
+int degree(Object node)
+
+Set<N> predecessors(Object node)
+boolean isDirected()
+

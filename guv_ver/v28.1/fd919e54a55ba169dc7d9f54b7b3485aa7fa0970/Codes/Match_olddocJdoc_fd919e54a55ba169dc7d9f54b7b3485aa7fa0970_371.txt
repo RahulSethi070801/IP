@@ -1,0 +1,15 @@
+
+   * Returns the index of the first matching BMP character in a character sequence, starting from a
+   * given position, or {@code -1} if no character matches after that position.
+   *
+   * <p>The default implementation iterates over the sequence in forward order, beginning at {@code
+   * start}, calling {@link #matches} for each character.
+   *
+   * @param sequence the character sequence to examine
+   * @param start the first index to examine; must be nonnegative and no greater than {@code
+   *        sequence.length()}
+   * @return the index of the first matching character, guaranteed to be no less than {@code start},
+   *     or {@code -1} if no character matches
+   * @throws IndexOutOfBoundsException if start is negative or greater than {@code
+   *         sequence.length()}
+   

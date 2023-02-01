@@ -1,0 +1,4 @@
+CharSinkTester_2
+Insertions: [25, 42]
+Deletions: [25, 42]
+guava-tests/test/com/google/common/io/CharSinkTester.java

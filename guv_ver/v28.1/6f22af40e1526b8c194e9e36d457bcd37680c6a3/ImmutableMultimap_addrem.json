@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "37": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "457": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "462": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "594": "    public boolean contains(@NullableDecl Object object) {\n",
+        "599": "    public int count(@NullableDecl Object element) {\n",
+        "658": "    public boolean contains(@NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "37": "import javax.annotation.Nullable;\n",
+        "457": "  public boolean containsKey(@Nullable Object key) {\n",
+        "462": "  public boolean containsValue(@Nullable Object value) {\n",
+        "594": "    public boolean contains(@Nullable Object object) {\n",
+        "599": "    public int count(@Nullable Object element) {\n",
+        "658": "    public boolean contains(@Nullable Object object) {\n"
+    }
+}

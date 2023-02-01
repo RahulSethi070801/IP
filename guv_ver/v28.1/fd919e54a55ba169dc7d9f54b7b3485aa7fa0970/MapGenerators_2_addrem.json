@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "44": " * Generators of different types of map and related collections, such as keys, entries and values.\n"
+    },
+    "removed": {
+        "44": " * Generators of different types of map and related collections, such as\n",
+        "45": " * keys, entries and values.\n"
+    }
+}

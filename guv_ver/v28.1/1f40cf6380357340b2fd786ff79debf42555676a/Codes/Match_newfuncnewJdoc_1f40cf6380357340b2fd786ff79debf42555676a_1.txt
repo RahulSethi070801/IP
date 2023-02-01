@@ -1,0 +1,4 @@
+
+   * Returns {@code true} if {@code rowKeyList().size == 0} or {@code
+   * columnKeyList().size() == 0}.
+   

@@ -1,0 +1,18 @@
+static <R, C, V> RegularImmutableTable<R, C, V> forCells(List<Cell<R, C, V>> cells, @Nullable final Comparator<? super R> rowComparator, @Nullable final Comparator<? super C> columnComparator) {
+    checkNotNull(cells);
+    if (rowComparator != null || columnComparator != null) {
+        Comparator<Cell<R, C, V>> comparator = new Comparator<Cell<R, C, V>>() {
+
+            @Override
+            public int compare(Cell<R, C, V> cell1, Cell<R, C, V> cell2) {
+                int rowCompare = (rowComparator == null) ? 0 : rowComparator.compare(cell1.getRowKey(), cell2.getRowKey());
+                if (rowCompare != 0) {
+                    return rowCompare;
+                }
+                return (columnComparator == null) ? 0 : columnComparator.compare(cell1.getColumnKey(), cell2.getColumnKey());
+            }
+        };
+        cells.sort(comparator);
+    }
+    return forCellsInternal(cells, rowComparator, columnComparator);
+}

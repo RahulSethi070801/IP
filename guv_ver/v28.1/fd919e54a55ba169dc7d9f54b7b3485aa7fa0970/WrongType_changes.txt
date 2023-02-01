@@ -1,0 +1,4 @@
+WrongType
+Insertions: [22, 23]
+Deletions: [22, 23, 24]
+android/guava-testlib/src/com/google/common/collect/testing/WrongType.java

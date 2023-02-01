@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "189": "     * @throws IllegalArgumentException if {@code indexes} is empty\n",
+        "202": "     * @throws IllegalArgumentException if {@code indexes} is empty\n",
+        "323": "      checkArgument(indexes.length > 0, \"Indexes must be a non empty array\");\n"
+    },
+    "removed": {}
+}

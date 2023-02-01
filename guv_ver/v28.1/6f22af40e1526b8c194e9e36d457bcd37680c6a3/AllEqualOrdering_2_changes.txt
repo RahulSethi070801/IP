@@ -1,0 +1,4 @@
+AllEqualOrdering_2
+Insertions: [22, 34]
+Deletions: [22, 34]
+guava/src/com/google/common/collect/AllEqualOrdering.java

@@ -1,0 +1,3 @@
+public final boolean contains(@NullableDecl Object target) {
+    return Iterables.contains(getDelegate(), target);
+}

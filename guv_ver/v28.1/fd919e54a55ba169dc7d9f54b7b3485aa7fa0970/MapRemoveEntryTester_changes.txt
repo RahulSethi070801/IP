@@ -1,0 +1,4 @@
+MapRemoveEntryTester
+Insertions: [31, 32, 89, 90]
+Deletions: [31, 32, 89]
+guava-testlib/src/com/google/common/collect/testing/testers/MapRemoveEntryTester.java

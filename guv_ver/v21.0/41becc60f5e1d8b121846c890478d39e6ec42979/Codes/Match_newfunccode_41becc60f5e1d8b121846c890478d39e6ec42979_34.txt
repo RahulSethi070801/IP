@@ -1,0 +1,4 @@
+@SuppressWarnings("unchecked")
+private <N1 extends N, V1 extends V> GraphBuilder<N1, V1> cast() {
+    return (GraphBuilder<N1, V1>) this;
+}

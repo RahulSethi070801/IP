@@ -1,0 +1,6 @@
+private FunctionBasedConverter(Function<? super A, ? extends B> forwardFunction, Function<? super B, ? extends A> backwardFunction)
+protected abstract B doForward(A a)
+
+private FunctionBasedConverter(Function<? super A, ? extends B> forwardFunction, Function<? super B, ? extends A> backwardFunction)
+protected abstract A doBackward(B b)
+

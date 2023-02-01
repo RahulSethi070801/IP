@@ -1,0 +1,6 @@
+@CanIgnoreReturnValue
+@Deprecated
+@Override
+public final V putIfAbsent(K key, V value) {
+    throw new UnsupportedOperationException();
+}

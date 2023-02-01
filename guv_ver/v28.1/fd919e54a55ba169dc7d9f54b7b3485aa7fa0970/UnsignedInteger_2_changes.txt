@@ -1,0 +1,4 @@
+UnsignedInteger_2
+Insertions: [34, 35, 83, 84, 183, 207, 214, 215, 237, 245, 246]
+Deletions: [34, 35, 83, 84, 183, 184, 185, 209, 210, 211, 218, 219, 241, 242, 243, 251, 252]
+guava/src/com/google/common/primitives/UnsignedInteger.java

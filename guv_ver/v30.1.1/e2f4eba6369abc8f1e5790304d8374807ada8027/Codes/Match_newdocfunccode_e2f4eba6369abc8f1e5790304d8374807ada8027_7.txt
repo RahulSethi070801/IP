@@ -1,0 +1,5 @@
+public static Stats of(Iterator<? extends Number> values) {
+    StatsAccumulator accumulator = new StatsAccumulator();
+    accumulator.addAll(values);
+    return accumulator.snapshot();
+}

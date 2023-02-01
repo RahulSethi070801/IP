@@ -1,0 +1,6 @@
+{
+    "addition": {
+        "40": "    assertThat(collection).doesNotContain(new Object());\n"
+    },
+    "removed": {}
+}

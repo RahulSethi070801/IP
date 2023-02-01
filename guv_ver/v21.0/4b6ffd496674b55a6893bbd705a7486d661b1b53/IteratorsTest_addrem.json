@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "820": "  public void testConcatNested_appendToEnd() {\n",
+        "821": "    final int nestingDepth = 128;\n",
+        "822": "    Iterator<Integer> iterator = iterateOver();\n",
+        "823": "    for (int i = 0; i < nestingDepth; i++) {\n",
+        "824": "      iterator = Iterators.concat(iterator, iterateOver(1));\n",
+        "825": "    }\n",
+        "826": "    assertEquals(nestingDepth, Iterators.size(iterator));\n",
+        "827": "  }\n",
+        "828": "\n",
+        "829": "  public void testConcatNested_appendToBeginning() {\n",
+        "830": "    final int nestingDepth = 128;\n",
+        "831": "    Iterator<Integer> iterator = iterateOver();\n",
+        "832": "    for (int i = 0; i < nestingDepth; i++) {\n",
+        "833": "      iterator = Iterators.concat(iterateOver(1), iterator);\n",
+        "834": "    }\n",
+        "835": "    assertEquals(nestingDepth, Iterators.size(iterator));\n",
+        "836": "  }\n",
+        "837": "\n"
+    },
+    "removed": {}
+}

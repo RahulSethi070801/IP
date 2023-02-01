@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "21": "import static com.google.common.base.Preconditions.checkState;\n",
+        "44": "import javax.annotation.CheckForNull;\n",
+        "60": "@ElementTypesAreNonnullByDefault\n",
+        "142": "  public int count(@CheckForNull Object element) {\n",
+        "173": "  /*\n",
+        "174": "   * Our checker says \"found: T[]; required: T[].\" That sounds bogus. I discuss a possible reason\n",
+        "175": "   * for this error in https://github.com/jspecify/checker-framework/issues/10.\n",
+        "176": "   */\n",
+        "177": "  @SuppressWarnings(\"nullness\")\n",
+        "178": "  public <T extends @Nullable Object> T[] toArray(T[] array) {\n",
+        "277": "  public int remove(@CheckForNull Object element, int occurrences) {\n",
+        "318": "  public boolean removeExactly(@CheckForNull Object element, int occurrences) {\n",
+        "464": "      public boolean contains(@CheckForNull Object object) {\n",
+        "474": "      public boolean remove(@CheckForNull Object object) {\n",
+        "532": "      @CheckForNull private Entry<E> last;\n",
+        "547": "        checkState(last != null, \"no calls to next() since the last call to remove()\");\n",
+        "582": "    /*\n",
+        "583": "     * Our checker says \"found: T[]; required: T[].\" That sounds bogus. I discuss a possible reason\n",
+        "584": "     * for this error in https://github.com/jspecify/checker-framework/issues/10.\n",
+        "585": "     */\n",
+        "586": "    @SuppressWarnings(\"nullness\")\n",
+        "587": "    public <T extends @Nullable Object> T[] toArray(T[] array) {\n"
+    },
+    "removed": {
+        "22": "import static com.google.common.collect.CollectPreconditions.checkRemove;\n",
+        "140": "  public int count(@Nullable Object element) {\n",
+        "171": "  public <T> T[] toArray(T[] array) {\n",
+        "270": "  public int remove(@Nullable Object element, int occurrences) {\n",
+        "311": "  public boolean removeExactly(@Nullable Object element, int occurrences) {\n",
+        "457": "      public boolean contains(@Nullable Object object) {\n",
+        "467": "      public boolean remove(Object object) {\n",
+        "525": "      private @Nullable Entry<E> last;\n",
+        "540": "        checkRemove(last != null);\n",
+        "575": "    public <T> T[] toArray(T[] array) {\n"
+    }
+}

@@ -1,0 +1,9 @@
+
+     * Checks the acquisition-ordering between {@code this}, which is about to
+     * be acquired, and the specified {@code acquiredLock}.
+     * <p>
+     * When this method returns, the {@code acquiredLock} should be in either
+     * the {@code preAcquireLocks} map, for the case in which it is safe to
+     * acquire {@code this} after the {@code acquiredLock}, or in the
+     * {@code disallowedPriorLocks} map, in which case it is not safe.
+     

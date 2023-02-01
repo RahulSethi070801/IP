@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "226": "        && doubleToLongBits(sumOfProductsOfDeltas) == doubleToLongBits(other.sumOfProductsOfDeltas);\n"
+    },
+    "removed": {
+        "226": "        && doubleToLongBits(sumOfProductsOfDeltas)\n",
+        "227": "            == doubleToLongBits(other.sumOfProductsOfDeltas);\n"
+    }
+}

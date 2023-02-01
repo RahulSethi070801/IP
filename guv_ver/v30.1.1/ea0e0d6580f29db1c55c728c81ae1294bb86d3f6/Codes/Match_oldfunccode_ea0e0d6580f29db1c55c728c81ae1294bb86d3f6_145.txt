@@ -1,0 +1,4 @@
+@Deprecated
+public static <E> ImmutableSortedMultiset<E> copyOf(E[] elements) {
+    throw new UnsupportedOperationException();
+}

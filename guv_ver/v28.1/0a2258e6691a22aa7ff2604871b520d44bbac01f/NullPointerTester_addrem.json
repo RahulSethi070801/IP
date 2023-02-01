@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "55": " * parameter that isn't annotated with an annotation with the simple name {@code Nullable}, {@lcode\n",
+        "56": " * CheckForNull}, {@link NullableType}, or {@link NullableDecl}.\n"
+    },
+    "removed": {
+        "55": " * parameter that isn't annotated with {@link javax.annotation.Nullable}, {@link\n",
+        "56": " * javax.annotation.CheckForNull}, or {@link\n",
+        "57": " * org.checkerframework.checker.nullness.compatqual.NullableDecl}.\n"
+    }
+}

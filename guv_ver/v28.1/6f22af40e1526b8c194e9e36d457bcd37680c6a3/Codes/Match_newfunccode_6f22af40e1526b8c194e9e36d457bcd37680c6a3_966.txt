@@ -1,0 +1,3 @@
+static <T> GeneralRange<T> range(Comparator<? super T> comparator, @NullableDecl T lower, BoundType lowerType, @NullableDecl T upper, BoundType upperType) {
+    return new GeneralRange<T>(comparator, true, lower, lowerType, true, upper, upperType);
+}

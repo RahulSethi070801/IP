@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "31": "@ElementTypesAreNonnullByDefault\n",
+        "32": "public final class HashMultiset<E extends @Nullable Object> extends AbstractMapBasedMultiset<E> {\n",
+        "35": "  public static <E extends @Nullable Object> HashMultiset<E> create() {\n",
+        "46": "  public static <E extends @Nullable Object> HashMultiset<E> create(int distinctElements) {\n",
+        "57": "  public static <E extends @Nullable Object> HashMultiset<E> create(\n",
+        "58": "      Iterable<? extends E> elements) {\n",
+        "69": "  ObjectCountHashMap<E> newBackingMap(int distinctElements) {\n",
+        "70": "    return new ObjectCountHashMap<>(distinctElements);\n"
+    },
+    "removed": {
+        "30": "public class HashMultiset<E> extends AbstractMapBasedMultiset<E> {\n",
+        "33": "  public static <E> HashMultiset<E> create() {\n",
+        "44": "  public static <E> HashMultiset<E> create(int distinctElements) {\n",
+        "55": "  public static <E> HashMultiset<E> create(Iterable<? extends E> elements) {\n",
+        "66": "  void init(int distinctElements) {\n",
+        "67": "    backingMap = new ObjectCountHashMap<>(distinctElements);\n"
+    }
+}

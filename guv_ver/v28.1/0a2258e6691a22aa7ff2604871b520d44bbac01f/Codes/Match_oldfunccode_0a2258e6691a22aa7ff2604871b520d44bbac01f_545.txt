@@ -1,0 +1,3 @@
+private static <E> Collection<E> collection(Collection<E> collection, @NullableDecl Object mutex) {
+    return new SynchronizedCollection<E>(collection, mutex);
+}

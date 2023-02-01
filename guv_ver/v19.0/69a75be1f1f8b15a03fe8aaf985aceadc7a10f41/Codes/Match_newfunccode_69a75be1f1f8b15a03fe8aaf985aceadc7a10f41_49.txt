@@ -1,0 +1,4 @@
+@Override
+public int drainTo(Collection<? super E> c) {
+    return delegate().drainTo(c);
+}

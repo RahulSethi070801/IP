@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "34": "        .testForwarding(\n",
+        "35": "            Table.class,\n",
+        "36": "            new Function<Table, Table>() {\n",
+        "37": "              @Override\n",
+        "38": "              public Table apply(Table delegate) {\n",
+        "39": "                return wrap(delegate);\n",
+        "40": "              }\n",
+        "41": "            });\n",
+        "55": "      @Override\n",
+        "56": "      protected Table<R, C, V> delegate() {\n"
+    },
+    "removed": {
+        "34": "        .testForwarding(Table.class, new Function<Table, Table>() {\n",
+        "35": "          @Override public Table apply(Table delegate) {\n",
+        "36": "            return wrap(delegate);\n",
+        "37": "          }\n",
+        "38": "        });\n",
+        "52": "      @Override protected Table<R, C, V> delegate() {\n"
+    }
+}

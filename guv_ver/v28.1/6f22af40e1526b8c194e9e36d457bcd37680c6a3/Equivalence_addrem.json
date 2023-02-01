@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "62": "  public final boolean equivalent(@NullableDecl T a, @NullableDecl T b) {\n",
+        "98": "  public final int hash(@NullableDecl T t) {\n",
+        "151": "  public final <S extends T> Wrapper<S> wrap(@NullableDecl S reference) {\n",
+        "177": "    @NullableDecl private final T reference;\n",
+        "179": "    private Wrapper(Equivalence<? super T> equivalence, @NullableDecl T reference) {\n",
+        "185": "    @NullableDecl\n",
+        "196": "    public boolean equals(@NullableDecl Object obj) {\n",
+        "258": "  public final Predicate<T> equivalentTo(@NullableDecl T target) {\n",
+        "265": "    @NullableDecl private final T target;\n",
+        "267": "    EquivalentToPredicate(Equivalence<T> equivalence, @NullableDecl T target) {\n",
+        "273": "    public boolean apply(@NullableDecl T input) {\n",
+        "278": "    public boolean equals(@NullableDecl Object obj) {\n"
+    },
+    "removed": {
+        "22": "import javax.annotation.Nullable;\n",
+        "62": "  public final boolean equivalent(@Nullable T a, @Nullable T b) {\n",
+        "98": "  public final int hash(@Nullable T t) {\n",
+        "151": "  public final <S extends T> Wrapper<S> wrap(@Nullable S reference) {\n",
+        "177": "    @Nullable private final T reference;\n",
+        "179": "    private Wrapper(Equivalence<? super T> equivalence, @Nullable T reference) {\n",
+        "185": "    @Nullable\n",
+        "196": "    public boolean equals(@Nullable Object obj) {\n",
+        "258": "  public final Predicate<T> equivalentTo(@Nullable T target) {\n",
+        "265": "    @Nullable private final T target;\n",
+        "267": "    EquivalentToPredicate(Equivalence<T> equivalence, @Nullable T target) {\n",
+        "273": "    public boolean apply(@Nullable T input) {\n",
+        "278": "    public boolean equals(@Nullable Object obj) {\n"
+    }
+}

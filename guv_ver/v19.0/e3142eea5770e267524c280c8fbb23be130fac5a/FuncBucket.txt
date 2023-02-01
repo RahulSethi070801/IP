@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.SettableFuture
+SettableFuture
+private SettableFuture()
+empty
+constructor

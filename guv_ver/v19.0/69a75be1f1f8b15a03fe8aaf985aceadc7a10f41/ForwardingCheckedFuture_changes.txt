@@ -1,0 +1,4 @@
+ForwardingCheckedFuture
+Insertions: [4, 5, 9, 10, 11, 12, 24, 25, 31, 55, 56, 61, 62]
+Deletions: [4, 5, 6, 10, 11, 12, 13, 14, 26, 27, 28, 34, 35, 59, 60, 65, 66]
+guava/src/com/google/common/util/concurrent/ForwardingCheckedFuture.java

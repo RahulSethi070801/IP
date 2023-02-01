@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+@Override
+@CheckForNull
+String readLine();

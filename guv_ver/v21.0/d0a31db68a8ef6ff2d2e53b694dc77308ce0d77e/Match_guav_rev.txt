@@ -1,0 +1,30 @@
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N, V> copyOf(Graph<N, V> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N, V> copyOf(Graph<N, V> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N, V> copyOf(Graph<N, V> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N, V> copyOf(Graph<N, V> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph)
+
+boolean equals(@Nullable Object object)
+public static ImmutableGraph<N, V> copyOf(Graph<N, V> graph)
+

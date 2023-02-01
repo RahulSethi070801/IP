@@ -1,0 +1,4 @@
+@Override
+public void writeByte(int v) throws IOException {
+    ((DataOutputStream) out).writeByte(v);
+}

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "30": "/** Aggregate future that computes its value by calling a callable. */\n"
+    },
+    "removed": {
+        "30": "/**\n",
+        "31": " * Aggregate future that computes its value by calling a callable.\n",
+        "32": " */\n"
+    }
+}

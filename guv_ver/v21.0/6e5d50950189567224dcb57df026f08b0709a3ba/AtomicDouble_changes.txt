@@ -1,0 +1,4 @@
+AtomicDouble
+Insertions: [21, 168, 187]
+Deletions: []
+guava/src/com/google/common/util/concurrent/AtomicDouble.java

@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "47": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "60": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "74": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "85": "    Endpoints<Integer> incidentNodes = graph.incidentNodes(E12);\n",
+        "88": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "100": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "114": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "129": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "144": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "158": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "172": "      fail(ERROR_MODIFIABLE_COLLECTION);\n",
+        "186": "      fail(ERROR_MODIFIABLE_COLLECTION);\n"
+    },
+    "removed": {
+        "47": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "60": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "74": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "85": "    Set<Integer> incidentNodes = graph.incidentNodes(E12);\n",
+        "88": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "100": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "114": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "129": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "144": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "158": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "172": "      fail(ERROR_MODIFIABLE_SET);\n",
+        "186": "      fail(ERROR_MODIFIABLE_SET);\n"
+    }
+}

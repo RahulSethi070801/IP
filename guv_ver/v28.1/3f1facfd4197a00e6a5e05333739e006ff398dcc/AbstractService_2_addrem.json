@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "233": "   * <p>When this method is called {@link #state()} will return {@link State#STOPPING}, which is the\n",
+        "234": "   * external state observable by the caller of {@link #stopAsync}.\n"
+    },
+    "removed": {
+        "233": "   * <p>When this method is called {@link #state()} will return {@link State#STOPPING}, which\n",
+        "234": "   * is the external state observable by the caller of {@link #stopAsync}.\n"
+    }
+}

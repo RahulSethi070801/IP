@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "36": "public class ImmutableValueGraph<N, V> extends ConfigurableValueGraph<N, V> {\n",
+        "38": "  ImmutableValueGraph(ValueGraph<N, V> graph) {\n",
+        "39": "    super(ValueGraphBuilder.from(graph), getNodeConnections(graph), graph.edges().size());\n"
+    },
+    "removed": {
+        "36": "public final class ImmutableValueGraph<N, V> extends ConfigurableValueGraph<N, V> {\n",
+        "38": "  private ImmutableValueGraph(ValueGraph<N, V> graph) {\n",
+        "39": "    super(GraphBuilder.from(graph), getNodeConnections(graph), graph.edges().size());\n"
+    }
+}

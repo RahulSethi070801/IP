@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "20": "import com.google.common.base.Optional;\n",
+        "280": "   * will contain at most one edge (equivalent to {@code edgeConnecting(nodeU, nodeV).asSet()}).\n",
+        "287": "  /**\n",
+        "288": "   * Returns the single edge directly connecting {@code nodeU} to {@code nodeV}, if one is present.\n",
+        "289": "   *\n",
+        "290": "   * <p>In an undirected network, this is equal to {@code edgeConnecting(nodeV, nodeU)}.\n",
+        "291": "   *\n",
+        "292": "   * @throws IllegalArgumentException if there are multiple parallel edges connecting {@code nodeU}\n",
+        "293": "   *     to {@code nodeV}\n",
+        "294": "   * @throws IllegalArgumentException if {@code nodeU} or {@code nodeV} is not an element of this\n",
+        "295": "   *     network\n",
+        "296": "   */\n",
+        "297": "  Optional<E> edgeConnecting(@CompatibleWith(\"N\") Object nodeU, @CompatibleWith(\"N\") Object nodeV);\n",
+        "298": "\n"
+    },
+    "removed": {
+        "279": "   * will contain at most one edge.\n"
+    }
+}

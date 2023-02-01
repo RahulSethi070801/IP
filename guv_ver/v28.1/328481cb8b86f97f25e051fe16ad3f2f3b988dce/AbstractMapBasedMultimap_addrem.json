@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "941": "      final Iterator<Entry<K, Collection<V>>> entryIterator = map().entrySet().iterator();\n",
+        "943": "        Entry<K, Collection<V>> entry;\n",
+        "1142": "    final Iterator<Entry<K, Collection<V>>> keyIterator;\n",
+        "1164": "        Entry<K, Collection<V>> mapEntry = keyIterator.next();\n",
+        "1220": "  public Collection<Entry<K, V>> entries() {\n",
+        "1233": "  Iterator<Entry<K, V>> entryIterator() {\n",
+        "1234": "    return new Itr<Entry<K, V>>() {\n",
+        "1349": "      public Iterator<Entry<K, Collection<V>>> iterator() {\n",
+        "1365": "        Entry<?, ?> entry = (Entry<?, ?>) o;\n",
+        "1372": "    class AsMapIterator implements Iterator<Entry<K, Collection<V>>> {\n",
+        "1373": "      final Iterator<Entry<K, Collection<V>>> delegateIterator = submap.entrySet().iterator();\n",
+        "1382": "      public Entry<K, Collection<V>> next() {\n",
+        "1383": "        Entry<K, Collection<V>> entry = delegateIterator.next();\n",
+        "1530": "    Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator) {\n"
+    },
+    "removed": {
+        "941": "      final Iterator<Map.Entry<K, Collection<V>>> entryIterator = map().entrySet().iterator();\n",
+        "943": "        Map.Entry<K, Collection<V>> entry;\n",
+        "1142": "    final Iterator<Map.Entry<K, Collection<V>>> keyIterator;\n",
+        "1164": "        Map.Entry<K, Collection<V>> mapEntry = keyIterator.next();\n",
+        "1220": "  public Collection<Map.Entry<K, V>> entries() {\n",
+        "1233": "  Iterator<Map.Entry<K, V>> entryIterator() {\n",
+        "1234": "    return new Itr<Map.Entry<K, V>>() {\n",
+        "1349": "      public Iterator<Map.Entry<K, Collection<V>>> iterator() {\n",
+        "1365": "        Map.Entry<?, ?> entry = (Map.Entry<?, ?>) o;\n",
+        "1372": "    class AsMapIterator implements Iterator<Map.Entry<K, Collection<V>>> {\n",
+        "1373": "      final Iterator<Map.Entry<K, Collection<V>>> delegateIterator = submap.entrySet().iterator();\n",
+        "1382": "      public Map.Entry<K, Collection<V>> next() {\n",
+        "1383": "        Map.Entry<K, Collection<V>> entry = delegateIterator.next();\n",
+        "1530": "    Map.Entry<K, Collection<V>> pollAsMapEntry(Iterator<Entry<K, Collection<V>>> entryIterator) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+HashBasedTableTest
+Insertions: [34, 35, 76, 77, 82, 83, 87, 88]
+Deletions: [34, 35, 76, 81, 85, 86]
+android/guava-tests/test/com/google/common/collect/HashBasedTableTest.java

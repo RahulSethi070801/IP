@@ -1,0 +1,5 @@
+@Override
+@CanIgnoreReturnValue
+public boolean remove(@SuppressWarnings("nullness") Object object) {
+    return delegate().remove(checkNotNull(object));
+}

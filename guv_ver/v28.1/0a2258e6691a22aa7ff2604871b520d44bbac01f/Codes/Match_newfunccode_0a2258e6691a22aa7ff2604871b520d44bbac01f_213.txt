@@ -1,0 +1,6 @@
+@Override
+ListenableFuture<? extends O> doTransform(AsyncFunction<? super I, ? extends O> function, @Nullable I input) throws Exception {
+    ListenableFuture<? extends O> outputFuture = function.apply(input);
+    checkNotNull(outputFuture, "AsyncFunction.apply returned null instead of a Future. " + "Did you mean to return immediateFuture(null)?");
+    return outputFuture;
+}

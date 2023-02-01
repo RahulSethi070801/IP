@@ -1,0 +1,6 @@
+@Override
+public Stream<E> parallelStream() {
+    synchronized (mutex) {
+        return delegate().parallelStream();
+    }
+}

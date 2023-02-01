@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "138": "    N nodeV = nodeConnections.get(nodeU).adjacentNode(edge);\n"
+    },
+    "removed": {
+        "138": "    N nodeV = nodeConnections.get(nodeU).oppositeNode(edge);\n"
+    }
+}

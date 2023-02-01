@@ -1,0 +1,3 @@
+public ReentrantLock newReentrantLock(String lockName, boolean fair) {
+    return policy == Policies.DISABLED ? new ReentrantLock(fair) : new CycleDetectingReentrantLock(new LockGraphNode(lockName), fair);
+}

@@ -1,0 +1,10 @@
+@Override
+public V get(@Nullable Object key) {
+    if (Collections2.safeContains(backingSet(), key)) {
+        @SuppressWarnings("unchecked")
+        K k = (K) key;
+        return function.apply(k);
+    } else {
+        return null;
+    }
+}

@@ -1,0 +1,4 @@
+Synchronized_2
+Insertions: [578, 704, 812, 845, 930, 931, 936, 938, 941, 944, 1029, 1063, 1350, 1366]
+Deletions: [578, 704, 812, 845, 930, 931, 936, 938, 941, 944, 1029, 1063, 1350, 1366]
+guava/src/com/google/common/collect/Synchronized.java

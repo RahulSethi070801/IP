@@ -1,0 +1,4 @@
+CollectionBenchmarkSampleData
+Insertions: [45, 103, 112, 113, 114, 115, 117, 118, 119, 122, 127, 128, 129, 138, 139, 140, 143, 144, 145, 148, 149, 150]
+Deletions: [45, 46, 47, 48, 106, 107, 108, 116, 117, 118, 120, 127, 136, 139, 142]
+android/guava-tests/test/com/google/common/collect/CollectionBenchmarkSampleData.java

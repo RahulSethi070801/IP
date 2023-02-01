@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "62": "  @LazyInit private transient Reference<Multiset<N>> predecessorsReference;\n",
+        "78": "  @LazyInit private transient Reference<Multiset<N>> successorsReference;\n"
+    },
+    "removed": {
+        "62": "  @LazyInit\n",
+        "63": "  private transient Reference<Multiset<N>> predecessorsReference;\n",
+        "79": "  @LazyInit\n",
+        "80": "  private transient Reference<Multiset<N>> successorsReference;\n"
+    }
+}

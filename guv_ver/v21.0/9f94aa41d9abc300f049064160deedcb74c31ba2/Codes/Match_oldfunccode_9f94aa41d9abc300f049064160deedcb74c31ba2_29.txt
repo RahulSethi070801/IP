@@ -1,0 +1,4 @@
+@Override
+public void setPreviousInAccessQueue(ReferenceEntry<K, V> previous) {
+    this.previousAccess = previous;
+}

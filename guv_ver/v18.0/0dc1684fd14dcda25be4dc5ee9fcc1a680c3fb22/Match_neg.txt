@@ -1,0 +1,6 @@
+public A[] getAnnotationsByType(Class<A> annotationType)
+public Annotation[] getDeclaredAnnotations()
+
+public String apply(Type from)
+public Annotation[] getDeclaredAnnotations()
+

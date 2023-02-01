@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "313": "    @NullableDecl\n",
+        "314": "    Guard next;\n"
+    },
+    "removed": {
+        "313": "    @NullableDecl Guard next;\n"
+    }
+}

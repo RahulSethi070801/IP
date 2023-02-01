@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "61": "  private final ElementOrder<? super N> nodeOrder;\n",
+        "69": "    this(builder, AbstractConfigurableGraph.<N>getNodeMapforBuilder(builder));\n",
+        "70": "  }\n",
+        "71": "\n",
+        "72": "  private static <S> Map<S, NodeAdjacencies<S>> getNodeMapforBuilder(\n",
+        "73": "      GraphBuilder<? super S> builder) {\n",
+        "74": "    int expectedNodeSize = builder.expectedNodeCount.or(DEFAULT_MAP_SIZE);\n",
+        "75": "    switch (builder.nodeOrder.type()) {\n",
+        "76": "        case UNORDERED:\n",
+        "77": "          return Maps.newHashMapWithExpectedSize(expectedNodeSize);\n",
+        "78": "        case INSERTION:\n",
+        "79": "          return Maps.newLinkedHashMapWithExpectedSize(expectedNodeSize);\n",
+        "80": "        case SORTED:\n",
+        "81": "          return Maps.newTreeMap(builder.nodeOrder.comparator());\n",
+        "82": "        default:\n",
+        "83": "          throw new IllegalArgumentException(\"Unrecognized node ElementOrder type\");\n",
+        "84": "    }\n",
+        "95": "    this.nodeOrder = builder.nodeOrder;\n",
+        "99": "  /**\n",
+        "100": "   * {@inheritDoc}\n",
+        "101": "   * <p>The order of iteration for this set is determined by the {@code ElementOrder<N>} provided\n",
+        "102": "   * to the {@code GraphBuilder} that was used to create this instance.\n",
+        "103": "   * By default, that order is the order in which the nodes were added to the graph.\n",
+        "104": "   */\n",
+        "120": "  @Override\n",
+        "121": "  public ElementOrder<? super N> nodeOrder() {\n",
+        "122": "    return nodeOrder;\n",
+        "123": "  }\n",
+        "124": "\n"
+    },
+    "removed": {
+        "55": "// TODO(b/24620028): Enable this class to support sorted nodes/edges.\n",
+        "69": "    this(\n",
+        "70": "        builder,\n",
+        "71": "        Maps.<N, NodeAdjacencies<N>>newLinkedHashMapWithExpectedSize(\n",
+        "72": "            builder.expectedNodeCount.or(DEFAULT_MAP_SIZE)));\n"
+    }
+}

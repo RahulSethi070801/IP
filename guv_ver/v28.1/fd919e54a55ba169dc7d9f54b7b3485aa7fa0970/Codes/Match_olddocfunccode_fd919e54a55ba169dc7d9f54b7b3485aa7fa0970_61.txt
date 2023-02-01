@@ -1,0 +1,3 @@
+public final boolean isSubtypeOf(TypeToken<?> type) {
+    return isSubtypeOf(type.getType());
+}

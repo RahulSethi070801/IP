@@ -1,0 +1,1 @@
+ Returns its input, or throws an exception if this is not a valid key. 

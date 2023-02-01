@@ -1,0 +1,255 @@
+com.google.common.reflect.AbstractInvocationHandler
+handleInvocation
+protected abstract Object handleInvocation(Object proxy, Method method, Object[] args) throws Throwable
+Object,Method,Object[]
+Object
+com.google.common.reflect.TypeParameter
+equals
+public final boolean equals(@Nullable Object o)
+Object
+boolean
+com.google.common.reflect.ClassPath
+getClassPathFromManifest
+static ImmutableSet<File> getClassPathFromManifest(File jarFile, @Nullable Manifest manifest)
+File,Manifest
+ImmutableSet
+com.google.common.reflect.TypeToken
+getComponentType
+public final TypeToken<?> getComponentType()
+empty
+TypeToken
+com.google.common.reflect.AbstractInvocationHandler
+invoke
+public final Object invoke(Object proxy, Method method, Object @Nullable [] args) throws Throwable
+Object,Method,[]
+Object
+com.google.common.reflect.Types$ParameterizedTypeImpl
+ParameterizedTypeImpl
+ParameterizedTypeImpl(@CheckForNull Type ownerType, Class<?> rawType, Type[] typeArguments)
+Type,Class,Type[]
+constructor
+com.google.common.reflect.ClassPath
+getClassPathFromManifest
+static ImmutableSet<File> getClassPathFromManifest(File jarFile, @CheckForNull Manifest manifest)
+File,Manifest
+ImmutableSet
+com.google.common.reflect.Types
+subtypeOfComponentType
+private static Type subtypeOfComponentType(Type[] bounds)
+Type[]
+Type
+com.google.common.reflect.Invokable$MethodInvokable
+invokeInternal
+final Object invokeInternal(@Nullable Object receiver, Object[] args) throws InvocationTargetException, IllegalAccessException
+Object,Object[]
+Object
+com.google.common.reflect.Invokable
+invokeInternal
+abstract Object invokeInternal(@CheckForNull Object receiver, @Nullable Object[] args) throws InvocationTargetException, IllegalAccessException
+Object,Object[]
+Object
+com.google.common.reflect.Parameter
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.reflect.TypeToken
+getArraySubtype
+private TypeToken<? extends T> getArraySubtype(Class<?> subclass)
+Class
+TypeToken
+com.google.common.reflect.AbstractInvocationHandler
+equals
+public boolean equals(Object obj)
+Object
+boolean
+com.google.common.reflect.TypeToken
+boundAsSuperclass
+private TypeToken<? super T> boundAsSuperclass(Type bound)
+Type
+TypeToken
+com.google.common.reflect.TypeVisitor
+visit
+public final void visit(Type... types)
+Type...
+void
+com.google.common.reflect.Invokable
+invoke
+public final R invoke(@CheckForNull T receiver, @Nullable Object... args) throws InvocationTargetException, IllegalAccessException
+T,Object...
+R
+com.google.common.reflect.TypeParameter
+equals
+public final boolean equals(@CheckForNull Object o)
+Object
+boolean
+com.google.common.reflect.Types$TypeVariableInvocationHandler
+invoke
+public Object invoke(Object proxy, Method method, Object[] args) throws Throwable
+Object,Method,Object[]
+Object
+com.google.common.reflect.Types$ParameterizedTypeImpl
+equals
+public boolean equals(Object other)
+Object
+boolean
+com.google.common.reflect.Types
+newParameterizedTypeWithOwner
+static ParameterizedType newParameterizedTypeWithOwner(@Nullable Type ownerType, Class<?> rawType, Type... arguments)
+Type,Class,Type...
+ParameterizedType
+com.google.common.reflect.TypeToken
+equals
+public boolean equals(@CheckForNull Object o)
+Object
+boolean
+com.google.common.reflect.Invokable$MethodInvokable
+invokeInternal
+final Object invokeInternal(@CheckForNull Object receiver, @Nullable Object[] args) throws InvocationTargetException, IllegalAccessException
+Object,Object[]
+Object
+com.google.common.reflect.Types
+detectJvmBehavior
+private static ClassOwnership detectJvmBehavior()
+empty
+ClassOwnership
+com.google.common.reflect.Types
+getComponentType
+static Type getComponentType(Type type)
+Type
+Type
+com.google.common.reflect.Element
+getAnnotation
+public final A getAnnotation(Class<A> annotationClass)
+Class
+A
+com.google.common.reflect.Parameter
+getDeclaredAnnotation
+public A getDeclaredAnnotation(Class<A> annotationType)
+Class
+A
+com.google.common.reflect.TypeToken
+getSuperclass
+Class<?> getSuperclass(Class<?> type)
+Class
+Class
+com.google.common.reflect.AbstractInvocationHandler
+equals
+public boolean equals(@CheckForNull Object obj)
+Object
+boolean
+com.google.common.reflect.Invokable
+invokeInternal
+abstract Object invokeInternal(@Nullable Object receiver, Object[] args) throws InvocationTargetException, IllegalAccessException
+Object,Object[]
+Object
+com.google.common.reflect.Types$ParameterizedTypeImpl
+equals
+public boolean equals(@CheckForNull Object other)
+Object
+boolean
+com.google.common.reflect.Parameter
+getAnnotation
+public A getAnnotation(Class<A> annotationType)
+Class
+A
+com.google.common.reflect.AbstractInvocationHandler
+invoke
+public final Object invoke(Object proxy, Method method, @CheckForNull @Nullable Object[] args) throws Throwable
+Object,Method,Object[]
+Object
+com.google.common.reflect.Types$TypeVariableInvocationHandler
+invoke
+public Object invoke(Object proxy, Method method, @CheckForNull @Nullable Object[] args) throws Throwable
+Object,Method,Object[]
+Object
+com.google.common.reflect.TypeVisitor
+visit
+public final void visit(@Nullable Type... types)
+Type...
+void
+com.google.common.reflect.Types$ParameterizedTypeImpl
+getOwnerType
+public Type getOwnerType()
+empty
+Type
+com.google.common.reflect.TypeToken
+getGenericSuperclass
+final TypeToken<? super T> getGenericSuperclass()
+empty
+TypeToken
+com.google.common.reflect.TypeResolver$WildcardCapturer
+captureNullable
+private Type captureNullable(@CheckForNull Type type)
+Type
+Type
+com.google.common.reflect.Types
+newParameterizedTypeWithOwner
+static ParameterizedType newParameterizedTypeWithOwner(@CheckForNull Type ownerType, Class<?> rawType, Type... arguments)
+Type,Class,Type...
+ParameterizedType
+com.google.common.reflect.Types
+getOwnerType
+Class<?> getOwnerType(Class<?> rawType)
+Class
+Class
+com.google.common.reflect.TypeToken
+getSuperclass
+TypeToken<?> getSuperclass(TypeToken<?> type)
+TypeToken
+TypeToken
+com.google.common.reflect.TypeToken
+getArraySupertype
+private TypeToken<? super T> getArraySupertype(Class<? super T> supertype)
+Class
+TypeToken
+com.google.common.reflect.TypeToken
+compare
+public int compare(K left, K right)
+K,K
+int
+com.google.common.reflect.TypeResolver$TypeVariableKey
+forLookup
+static TypeVariableKey forLookup(Type t)
+Type
+TypeVariableKey
+com.google.common.reflect.TypeToken$TypeCollector
+getSuperclass
+abstract K getSuperclass(K type)
+K
+K
+com.google.common.reflect.Types$ParameterizedTypeImpl
+ParameterizedTypeImpl
+ParameterizedTypeImpl(@Nullable Type ownerType, Class<?> rawType, Type[] typeArguments)
+Type,Class,Type[]
+constructor
+com.google.common.reflect.Invokable
+invoke
+public final R invoke(@Nullable T receiver, Object... args) throws InvocationTargetException, IllegalAccessException
+T,Object...
+R
+com.google.common.reflect.TypeToken$ForwardingTypeCollector
+getSuperclass
+K getSuperclass(K type)
+K
+K
+com.google.common.reflect.TypeResolver$WildcardCapturer
+captureNullable
+private Type captureNullable(@Nullable Type type)
+Type
+Type
+com.google.common.reflect.TypeToken
+getOwnerTypeIfPresent
+private Type getOwnerTypeIfPresent()
+empty
+Type
+com.google.common.reflect.Types
+getOwnerType
+abstract Class<?> getOwnerType(Class<?> rawType)
+Class
+Class
+com.google.common.reflect.TypeToken
+equals
+public boolean equals(@Nullable Object o)
+Object
+boolean

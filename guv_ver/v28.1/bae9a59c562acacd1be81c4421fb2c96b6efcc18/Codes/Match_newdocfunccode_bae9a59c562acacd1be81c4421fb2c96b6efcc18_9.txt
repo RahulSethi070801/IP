@@ -1,0 +1,9 @@
+@Override
+public ImmutableBiMap<K, V> build() {
+    if (size == 0) {
+        return of();
+    }
+    sortEntries();
+    entriesUsed = true;
+    return new RegularImmutableBiMap<K, V>(alternatingKeysAndValues, size);
+}

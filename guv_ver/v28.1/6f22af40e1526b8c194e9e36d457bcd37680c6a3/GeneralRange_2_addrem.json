@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "41": "    @NullableDecl T lowerEndpoint = range.hasLowerBound() ? range.lowerEndpoint() : null;\n",
+        "44": "    @NullableDecl T upperEndpoint = range.hasUpperBound() ? range.upperEndpoint() : null;\n",
+        "66": "      Comparator<? super T> comparator, @NullableDecl T endpoint, BoundType boundType) {\n",
+        "75": "      Comparator<? super T> comparator, @NullableDecl T endpoint, BoundType boundType) {\n",
+        "85": "      @NullableDecl T lower,\n",
+        "87": "      @NullableDecl T upper,\n",
+        "94": "  @NullableDecl private final T lowerEndpoint;\n",
+        "97": "  @NullableDecl private final T upperEndpoint;\n",
+        "103": "      @NullableDecl T lowerEndpoint,\n",
+        "106": "      @NullableDecl T upperEndpoint,\n",
+        "150": "  boolean tooLow(@NullableDecl T t) {\n",
+        "159": "  boolean tooHigh(@NullableDecl T t) {\n",
+        "168": "  boolean contains(@NullableDecl T t) {\n",
+        "180": "    @NullableDecl T lowEnd = getLowerEndpoint();\n",
+        "195": "    @NullableDecl T upEnd = getUpperEndpoint();\n",
+        "223": "  public boolean equals(@NullableDecl Object obj) {\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "41": "    @Nullable T lowerEndpoint = range.hasLowerBound() ? range.lowerEndpoint() : null;\n",
+        "44": "    @Nullable T upperEndpoint = range.hasUpperBound() ? range.upperEndpoint() : null;\n",
+        "66": "      Comparator<? super T> comparator, @Nullable T endpoint, BoundType boundType) {\n",
+        "75": "      Comparator<? super T> comparator, @Nullable T endpoint, BoundType boundType) {\n",
+        "85": "      @Nullable T lower,\n",
+        "87": "      @Nullable T upper,\n",
+        "94": "  @Nullable private final T lowerEndpoint;\n",
+        "97": "  @Nullable private final T upperEndpoint;\n",
+        "103": "      @Nullable T lowerEndpoint,\n",
+        "106": "      @Nullable T upperEndpoint,\n",
+        "150": "  boolean tooLow(@Nullable T t) {\n",
+        "159": "  boolean tooHigh(@Nullable T t) {\n",
+        "168": "  boolean contains(@Nullable T t) {\n",
+        "180": "    @Nullable T lowEnd = getLowerEndpoint();\n",
+        "195": "    @Nullable T upEnd = getUpperEndpoint();\n",
+        "223": "  public boolean equals(@Nullable Object obj) {\n"
+    }
+}

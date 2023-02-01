@@ -1,0 +1,5 @@
+@Override
+@Nullable
+public V edgeValueOrDefault(N nodeU, N nodeV, @Nullable V defaultValue) {
+    return delegate().edgeValueOrDefault(nodeU, nodeV, defaultValue);
+}

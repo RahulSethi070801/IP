@@ -1,0 +1,4 @@
+ImmutableAsList_2
+Insertions: [26, 27, 59]
+Deletions: [26, 27, 59, 60, 61]
+guava/src/com/google/common/collect/ImmutableAsList.java

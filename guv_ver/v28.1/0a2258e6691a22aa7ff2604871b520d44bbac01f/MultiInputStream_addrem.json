@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "36": "  @Nullable private InputStream in;\n",
+        "93": "  public int read(byte @Nullable [] b, int off, int len) throws IOException {\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "36": "  @NullableDecl private InputStream in;\n",
+        "93": "  public int read(@NullableDecl byte[] b, int off, int len) throws IOException {\n"
+    }
+}

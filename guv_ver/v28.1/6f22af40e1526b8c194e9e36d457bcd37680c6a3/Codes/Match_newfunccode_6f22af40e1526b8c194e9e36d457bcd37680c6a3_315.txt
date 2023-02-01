@@ -1,0 +1,8 @@
+@NullableDecl
+A correctedDoBackward(@NullableDecl B b) {
+    if (handleNullAutomatically) {
+        return b == null ? null : checkNotNull(doBackward(b));
+    } else {
+        return doBackward(b);
+    }
+}

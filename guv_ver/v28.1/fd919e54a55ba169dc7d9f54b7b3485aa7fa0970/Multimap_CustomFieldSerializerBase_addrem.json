@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "27": " * This class contains static utility methods for writing {@code Multimap} GWT field serializers.\n",
+        "28": " * Serializers should delegate to {@link #serialize(SerializationStreamWriter, Multimap)} and to\n",
+        "29": " * either {@link #instantiate(SerializationStreamReader, ImmutableMultimap.Builder)} or {@link\n",
+        "30": " * #populate(SerializationStreamReader, Multimap)}.\n"
+    },
+    "removed": {
+        "27": " * This class contains static utility methods for writing {@code Multimap} GWT\n",
+        "28": " * field serializers. Serializers should delegate to\n",
+        "29": " * {@link #serialize(SerializationStreamWriter, Multimap)} and to either\n",
+        "30": " * {@link #instantiate(SerializationStreamReader, ImmutableMultimap.Builder)} or\n",
+        "31": " * {@link #populate(SerializationStreamReader, Multimap)}.\n"
+    }
+}

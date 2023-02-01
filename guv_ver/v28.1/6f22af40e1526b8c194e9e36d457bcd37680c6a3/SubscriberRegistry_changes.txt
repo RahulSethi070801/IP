@@ -1,0 +1,4 @@
+SubscriberRegistry
+Insertions: [47, 245]
+Deletions: [47, 245]
+android/guava/src/com/google/common/eventbus/SubscriberRegistry.java

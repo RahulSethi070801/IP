@@ -1,0 +1,4 @@
+ForwardingCollection
+Insertions: [24, 136, 168]
+Deletions: [24, 136, 168]
+guava/src/com/google/common/collect/ForwardingCollection.java

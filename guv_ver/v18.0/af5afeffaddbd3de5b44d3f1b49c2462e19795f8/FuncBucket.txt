@@ -1,0 +1,15 @@
+com.google.common.primitives.Ints
+tryParse
+static Integer tryParse(String string, int radix)
+String,int
+Integer
+com.google.common.primitives.super.com.google.common.primitives.Ints
+digit
+private static int digit(char c)
+char
+int
+com.google.common.primitives.Ints
+tryParse
+public static Integer tryParse(String string)
+String
+Integer

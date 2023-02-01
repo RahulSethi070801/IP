@@ -1,0 +1,1 @@
+abstract void doTransform(F function, I result) throws Exception;

@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #contains} in terms of the {@code first()} method of {@link
+   * #tailSet}. If you override {@link #tailSet}, you may wish to override {@link #contains} to
+   * forward to this implementation.
+   *
+   * @since 7.0
+   

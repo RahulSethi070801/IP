@@ -1,0 +1,4 @@
+ImmutableMapEntry
+Insertions: [22, 56, 61, 83, 108]
+Deletions: [22, 56, 61, 83, 108]
+guava/src/com/google/common/collect/ImmutableMapEntry.java

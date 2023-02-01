@@ -1,0 +1,3 @@
+private static <E> SortedSet<E> sortedSet(SortedSet<E> set, @NullableDecl Object mutex) {
+    return new SynchronizedSortedSet<E>(set, mutex);
+}

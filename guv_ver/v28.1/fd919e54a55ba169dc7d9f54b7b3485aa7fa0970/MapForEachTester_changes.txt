@@ -1,0 +1,4 @@
+MapForEachTester
+Insertions: [37]
+Deletions: [37, 38]
+guava-testlib/src/com/google/common/collect/testing/testers/MapForEachTester.java

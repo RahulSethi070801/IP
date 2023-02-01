@@ -1,0 +1,10 @@
+@Override
+public T next() {
+    if (!valueIterator.hasNext()) {
+        Entry<K, Collection<V>> mapEntry = keyIterator.next();
+        key = mapEntry.getKey();
+        collection = mapEntry.getValue();
+        valueIterator = collection.iterator();
+    }
+    return output(key, valueIterator.next());
+}

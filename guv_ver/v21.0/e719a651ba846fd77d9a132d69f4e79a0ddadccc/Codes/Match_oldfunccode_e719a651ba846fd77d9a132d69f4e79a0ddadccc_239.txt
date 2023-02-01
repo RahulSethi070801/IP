@@ -1,0 +1,7 @@
+@Override
+public void flush() throws IOException {
+    checkNotClosed();
+    if (target instanceof Flushable) {
+        ((Flushable) target).flush();
+    }
+}

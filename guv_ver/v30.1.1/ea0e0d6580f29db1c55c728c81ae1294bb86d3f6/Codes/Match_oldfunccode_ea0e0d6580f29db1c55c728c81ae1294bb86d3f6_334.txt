@@ -1,0 +1,3 @@
+public static <T, E> Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction) {
+    return CollectCollectors.toImmutableMultiset(elementFunction, countFunction);
+}

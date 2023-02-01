@@ -1,0 +1,9 @@
+
+   * Process the bytes of the given input stream using the given processor.
+   *
+   * @param input the input stream to process
+   * @param processor the object to which to pass the bytes of the stream
+   * @return the result of the byte processor
+   * @throws IOException if an I/O error occurs
+   * @since 14.0
+   

@@ -1,0 +1,7 @@
+
+   * {@inheritDoc}
+   *
+   * <p>If {@code edge} is not a self-loop, the iteration order will be
+   * {@code [source(edge), target(edge)]}.
+   *
+   

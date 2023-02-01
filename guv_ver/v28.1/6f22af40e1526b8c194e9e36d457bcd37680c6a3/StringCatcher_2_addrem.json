@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "36": "  public void hereHaveAString(@NullableDecl String string) {\n",
+        "40": "  public void methodWithoutAnnotation(@NullableDecl String string) {\n"
+    },
+    "removed": {
+        "21": "import javax.annotation.Nullable;\n",
+        "36": "  public void hereHaveAString(@Nullable String string) {\n",
+        "40": "  public void methodWithoutAnnotation(@Nullable String string) {\n"
+    }
+}

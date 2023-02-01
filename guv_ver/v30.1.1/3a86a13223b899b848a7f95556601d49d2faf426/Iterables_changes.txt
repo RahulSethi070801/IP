@@ -1,0 +1,4 @@
+Iterables
+Insertions: [588, 592, 594]
+Deletions: [588, 592, 594]
+android/guava/src/com/google/common/collect/Iterables.java

@@ -1,0 +1,8 @@
+private boolean isActuallyE(@CheckForNull Object o) {
+    if (o instanceof Enum) {
+        Enum<?> e = (Enum<?>) o;
+        int index = e.ordinal();
+        return index < enumConstants.length && enumConstants[index] == e;
+    }
+    return false;
+}

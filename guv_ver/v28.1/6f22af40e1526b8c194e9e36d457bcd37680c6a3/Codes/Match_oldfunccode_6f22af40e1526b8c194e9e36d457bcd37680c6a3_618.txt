@@ -1,0 +1,4 @@
+@Override
+public V get(@Nullable Object key) {
+    return get(key, table, mask);
+}

@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "35": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "128": "      Object value, Entry<?, ?> entry, @Nullable ImmutableMapEntry<?, ?> valueBucketHead) {\n",
+        "138": "  @Nullable\n",
+        "139": "  public V get(@Nullable Object key) {\n",
+        "213": "    public K get(@Nullable Object value) {\n"
+    },
+    "removed": {
+        "35": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "128": "      Object value, Entry<?, ?> entry, @NullableDecl ImmutableMapEntry<?, ?> valueBucketHead) {\n",
+        "138": "  @NullableDecl\n",
+        "139": "  public V get(@NullableDecl Object key) {\n",
+        "213": "    public K get(@NullableDecl Object value) {\n"
+    }
+}

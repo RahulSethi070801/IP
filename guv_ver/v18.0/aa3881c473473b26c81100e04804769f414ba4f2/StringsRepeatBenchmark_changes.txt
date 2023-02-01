@@ -1,0 +1,4 @@
+StringsRepeatBenchmark
+Insertions: [64, 87, 99]
+Deletions: [64, 87, 99]
+guava-tests/benchmark/com/google/common/base/StringsRepeatBenchmark.java

@@ -1,0 +1,11 @@
+public final boolean isDone()
+public String toString()
+
+public final V get()
+public String toString()
+
+public final boolean isCancelled()
+public String toString()
+
+public final boolean cancel(boolean mayInterruptIfRunning)
+public String toString()

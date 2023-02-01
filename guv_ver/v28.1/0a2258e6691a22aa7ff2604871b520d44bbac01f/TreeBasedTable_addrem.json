@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "34": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "172": "    @Nullable final C lowerBound;\n",
+        "173": "    @Nullable final C upperBound;\n",
+        "179": "    TreeRow(R rowKey, @Nullable C lowerBound, @Nullable C upperBound) {\n",
+        "204": "    boolean rangeContains(@Nullable Object o) {\n",
+        "246": "    @Nullable transient SortedMap<C, V> wholeRow;\n",
+        "330": "      @Nullable C lastValue;\n"
+    },
+    "removed": {
+        "34": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "172": "    @NullableDecl final C lowerBound;\n",
+        "173": "    @NullableDecl final C upperBound;\n",
+        "179": "    TreeRow(R rowKey, @NullableDecl C lowerBound, @NullableDecl C upperBound) {\n",
+        "204": "    boolean rangeContains(@NullableDecl Object o) {\n",
+        "246": "    @NullableDecl transient SortedMap<C, V> wholeRow;\n",
+        "330": "      @NullableDecl C lastValue;\n"
+    }
+}

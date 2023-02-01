@@ -1,0 +1,6 @@
+@Override
+@CanIgnoreReturnValue
+public V removeEdge(EndpointPair<N> endpoints) {
+    validateEndpoints(endpoints);
+    return removeEdge(endpoints.nodeU(), endpoints.nodeV());
+}

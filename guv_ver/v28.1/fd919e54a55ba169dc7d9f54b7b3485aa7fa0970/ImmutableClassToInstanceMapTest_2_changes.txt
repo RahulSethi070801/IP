@@ -1,0 +1,4 @@
+ImmutableClassToInstanceMapTest_2
+Insertions: [78, 79, 96, 117, 124, 125, 140, 141, 153, 154]
+Deletions: [78, 95, 96, 117, 118, 125, 126, 141, 142, 154, 155]
+guava-tests/test/com/google/common/collect/ImmutableClassToInstanceMapTest.java

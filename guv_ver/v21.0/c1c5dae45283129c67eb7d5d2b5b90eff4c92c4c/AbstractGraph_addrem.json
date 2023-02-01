@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "29": "public abstract class AbstractGraph<N> implements Graph<N> {\n",
+        "33": "    // only works for non-multigraphs; multigraphs not yet supported\n",
+        "34": "    return adjacentNodes(node).size();\n",
+        "39": "    // only works for non-multigraphs; multigraphs not yet supported\n",
+        "40": "    return predecessors(node).size();\n",
+        "45": "    // only works for non-multigraphs; multigraphs not yet supported\n",
+        "46": "    return successors(node).size();\n",
+        "54": "    return Graphs.equal(this, (Graph<?>) object);\n"
+    },
+    "removed": {
+        "28": " * @param <E> Edge parameter type\n",
+        "30": "public abstract class AbstractGraph<N, E> implements Graph<N, E> {\n",
+        "34": "    return incidentEdges(node).size();\n",
+        "39": "    return inEdges(node).size();\n",
+        "44": "    return outEdges(node).size();\n",
+        "52": "    return Graphs.equal(this, (Graph<?, ?>) object);\n"
+    }
+}

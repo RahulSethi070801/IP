@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "290": "    @SuppressWarnings(\"unchecked\") // implementation is \"fully variant\"\n",
+        "291": "    SupplierFunction<T> sf = (SupplierFunction<T>) SupplierFunctionImpl.INSTANCE;\n",
+        "292": "    return sf;\n",
+        "295": "  private interface SupplierFunction<T> extends Function<Supplier<T>, T> {}\n",
+        "296": "\n",
+        "297": "  private enum SupplierFunctionImpl implements SupplierFunction<Object> {\n",
+        "300": "    // Note: This makes T a \"pass-through type\"\n",
+        "301": "    @Override public Object apply(Supplier<Object> input) {\n"
+    },
+    "removed": {
+        "289": "  //SupplierFunction works for any T.\n",
+        "290": "  @SuppressWarnings({\"unchecked\", \"rawtypes\"})\n",
+        "292": "    return (Function) SupplierFunction.INSTANCE;\n",
+        "295": "  private enum SupplierFunction implements Function<Supplier<?>, Object> {\n",
+        "298": "    @Override public Object apply(Supplier<?> input) {\n"
+    }
+}

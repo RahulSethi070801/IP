@@ -1,0 +1,3 @@
+
+     * Removes an entry whose key has been garbage collected.
+     

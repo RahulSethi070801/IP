@@ -1,0 +1,4 @@
+
+   * Returns a {@code char} matcher that matches any BMP character present in the given character
+   * sequence. Returns a bogus matcher if the sequence contains supplementary characters.
+   

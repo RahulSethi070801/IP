@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "31": "public class MultimapsFilterEntriesAsMapTest extends AbstractMultimapAsMapImplementsMapTest {\n",
+        "32": "  private static final Predicate<Entry<String, Integer>> PREDICATE =\n",
+        "33": "      new Predicate<Entry<String, Integer>>() {\n",
+        "34": "        @Override\n",
+        "35": "        public boolean apply(Entry<String, Integer> entry) {\n",
+        "52": "  @Override\n",
+        "53": "  protected Map<String, Collection<Integer>> makeEmptyMap() {\n",
+        "58": "  @Override\n",
+        "59": "  protected Map<String, Collection<Integer>> makePopulatedMap() {\n"
+    },
+    "removed": {
+        "31": "public class MultimapsFilterEntriesAsMapTest\n",
+        "32": "    extends AbstractMultimapAsMapImplementsMapTest {\n",
+        "33": "  private static final Predicate<Entry<String, Integer>> PREDICATE\n",
+        "34": "      = new Predicate<Entry<String, Integer>>() {\n",
+        "35": "        @Override public boolean apply(Entry<String, Integer> entry) {\n",
+        "52": "  @Override protected Map<String, Collection<Integer>> makeEmptyMap() {\n",
+        "57": "  @Override protected Map<String, Collection<Integer>> makePopulatedMap() {\n"
+    }
+}

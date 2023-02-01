@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "41": "  static final String MULTIPLE_EDGES_CONNECTING =\n",
+        "42": "      \"Cannot call edgeConnecting() when parallel edges exist between %s and %s. Consider calling \"\n",
+        "43": "          + \"edgesConnecting() instead.\";\n"
+    },
+    "removed": {}
+}

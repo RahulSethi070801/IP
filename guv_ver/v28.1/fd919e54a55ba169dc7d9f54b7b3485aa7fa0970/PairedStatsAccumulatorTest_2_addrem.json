@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "476": "        horizontalValuesAccumulator.leastSquaresFit(), horizontalValuesAccumulator.yStats().mean());\n",
+        "481": "        verticalValuesAccumulator.leastSquaresFit(), verticalValuesAccumulator.xStats().mean());\n"
+    },
+    "removed": {
+        "476": "        horizontalValuesAccumulator.leastSquaresFit(),\n",
+        "477": "        horizontalValuesAccumulator.yStats().mean());\n",
+        "482": "        verticalValuesAccumulator.leastSquaresFit(),\n",
+        "483": "        verticalValuesAccumulator.xStats().mean());\n"
+    }
+}

@@ -1,0 +1,37 @@
+
+   * Registers separate success and failure callbacks to be run when this {@code Future}'s
+   * computation is {@linkplain java.util.concurrent.Future#isDone() complete} or, if the
+   * computation is already complete, immediately.
+   *
+   * <p>The callback is run on {@code executor}. There is no guaranteed ordering of execution of
+   * callbacks, but any callback added through this method is guaranteed to be called once the
+   * computation is complete.
+   *
+   * <p>Example:
+   *
+   * <pre>{@code
+   * future.addCallback(
+   *     new FutureCallback<QueryResult>() {
+   *       public void onSuccess(QueryResult result) {
+   *         storeInCache(result);
+   *       }
+   *       public void onFailure(Throwable t) {
+   *         reportError(t);
+   *       }
+   *     }, executor);
+   * }</pre>
+   *
+   * <p>When selecting an executor, note that {@code directExecutor} is dangerous in some cases. See
+   * the discussion in the {@link #addListener} documentation. All its warnings about heavyweight
+   * listeners are also applicable to heavyweight callbacks passed to this method.
+   *
+   * <p>For a more general interface to attach a completion listener, see {@link #addListener}.
+   *
+   * <p>This method is similar to {@link java.util.concurrent.CompletableFuture#whenComplete} and
+   * {@link java.util.concurrent.CompletableFuture#whenCompleteAsync}. It also serves the use case
+   * of {@link java.util.concurrent.CompletableFuture#thenAccept} and {@link
+   * java.util.concurrent.CompletableFuture#thenAcceptAsync}.
+   *
+   * @param callback The callback to invoke when this {@code Future} is completed.
+   * @param executor The executor to run {@code callback} when the future completes.
+   

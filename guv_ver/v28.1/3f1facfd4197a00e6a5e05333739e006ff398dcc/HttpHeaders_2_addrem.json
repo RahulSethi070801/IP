@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "377": "  @Beta public static final String X_DOWNLOAD_OPTIONS = \"X-Download-Options\";\n"
+    },
+    "removed": {
+        "377": "  @Beta\n",
+        "378": "  public static final String X_DOWNLOAD_OPTIONS = \"X-Download-Options\";\n"
+    }
+}

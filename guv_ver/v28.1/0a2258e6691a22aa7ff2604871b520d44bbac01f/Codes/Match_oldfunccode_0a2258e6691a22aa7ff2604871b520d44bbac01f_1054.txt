@@ -1,0 +1,4 @@
+@NullableDecl
+private static <T> T getReference(@NullableDecl Reference<T> reference) {
+    return (reference == null) ? null : reference.get();
+}

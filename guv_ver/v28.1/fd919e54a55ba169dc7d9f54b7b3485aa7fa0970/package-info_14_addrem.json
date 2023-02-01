@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "21": " * <p>Commonly used utilities include {@link com.google.common.util.concurrent.Futures}, {@link\n",
+        "22": " * com.google.common.util.concurrent.MoreExecutors}, and {@link\n",
+        "23": " * com.google.common.util.concurrent.ThreadFactoryBuilder}.\n"
+    },
+    "removed": {
+        "21": " * <p>Commonly used utilities include {@link com.google.common.util.concurrent.Futures},\n",
+        "22": " * {@link com.google.common.util.concurrent.MoreExecutors}, and\n",
+        "23": " * {@link com.google.common.util.concurrent.ThreadFactoryBuilder}.\n"
+    }
+}

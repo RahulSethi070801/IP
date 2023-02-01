@@ -1,0 +1,7 @@
+{
+    "addition": {
+        "21": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "71": "  @CanIgnoreReturnValue // to skip a line\n"
+    },
+    "removed": {}
+}

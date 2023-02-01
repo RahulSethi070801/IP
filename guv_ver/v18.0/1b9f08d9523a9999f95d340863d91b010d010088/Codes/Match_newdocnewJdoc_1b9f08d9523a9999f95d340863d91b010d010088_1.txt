@@ -1,0 +1,6 @@
+
+   * Creates and returns a new evicting queue that will hold up to {@code maxSize} elements.
+   *
+   * <p>When {@code maxSize} is zero, elements will be evicted immediately after being added to the
+   * queue.
+   

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "28": " * Implementation of {@link ImmutableSet} backed by a non-empty {@link java.util.EnumSet}.\n",
+        "120": "  @LazyInit private transient int hashCode;\n"
+    },
+    "removed": {
+        "28": " * Implementation of {@link ImmutableSet} backed by a non-empty {@link\n",
+        "29": " * java.util.EnumSet}.\n",
+        "121": "  @LazyInit\n",
+        "122": "  private transient int hashCode;\n"
+    }
+}

@@ -1,0 +1,28 @@
+Iterator<Entry<K, V>> entrySetIterator() {
+    final Iterator<Entry<K, V>> iterator = delegate.entrySet().iterator();
+    return new Iterator<Entry<K, V>>() {
+
+        @Nullable
+        Entry<K, V> entry;
+
+        @Override
+        public boolean hasNext() {
+            return iterator.hasNext();
+        }
+
+        @Override
+        public Entry<K, V> next() {
+            entry = iterator.next();
+            return new BiMapEntry(entry);
+        }
+
+        @Override
+        public void remove() {
+            checkRemove(entry != null);
+            V value = entry.getValue();
+            iterator.remove();
+            removeFromInverseMap(value);
+            entry = null;
+        }
+    };
+}

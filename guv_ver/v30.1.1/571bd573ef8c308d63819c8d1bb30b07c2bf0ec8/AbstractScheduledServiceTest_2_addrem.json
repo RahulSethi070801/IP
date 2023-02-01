@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "24": "import com.google.common.util.concurrent.AbstractScheduledService.Cancellable;\n",
+        "32": "import java.util.concurrent.Delayed;\n",
+        "393": "      Cancellable unused =\n",
+        "401": "                  return new ThrowingScheduledFuture<>();\n",
+        "410": "      Cancellable unused =\n",
+        "418": "                  return new ThrowingScheduledFuture<>();\n",
+        "425": "    private static final class ThrowingScheduledFuture<V> extends ForwardingFuture<V>\n",
+        "426": "        implements ScheduledFuture<V> {\n",
+        "427": "      @Override\n",
+        "428": "      protected Future<V> delegate() {\n",
+        "429": "        throw new UnsupportedOperationException(\"test should not care about this\");\n",
+        "430": "      }\n",
+        "431": "\n",
+        "432": "      @Override\n",
+        "433": "      public long getDelay(TimeUnit unit) {\n",
+        "434": "        throw new UnsupportedOperationException(\"test should not care about this\");\n",
+        "435": "      }\n",
+        "436": "\n",
+        "437": "      @Override\n",
+        "438": "      public int compareTo(Delayed other) {\n",
+        "439": "        throw new UnsupportedOperationException(\"test should not care about this\");\n",
+        "440": "      }\n",
+        "441": "    }\n",
+        "442": "\n",
+        "520": "      Cancellable future = scheduler.schedule(null, Executors.newScheduledThreadPool(10), task);\n"
+    },
+    "removed": {
+        "391": "      Future<?> unused =\n",
+        "399": "                  return null;\n",
+        "408": "      Future<?> unused =\n",
+        "416": "                  return null;\n",
+        "500": "      Future<?> future = scheduler.schedule(null, Executors.newScheduledThreadPool(10), task);\n"
+    }
+}

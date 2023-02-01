@@ -1,0 +1,5 @@
+com.google.common.io.Files
+fileTraverser
+public static Traverser<File> fileTraverser()
+empty
+Traverser

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "31": " * An implementation of {@link DataInput} that uses little-endian byte ordering for reading {@code\n",
+        "32": " * short}, {@code int}, {@code float}, {@code double}, and {@code long} values.\n",
+        "34": " * <p><b>Note:</b> This class intentionally violates the specification of its supertype {@code\n",
+        "35": " * DataInput}, which explicitly requires big-endian byte order.\n",
+        "54": "  /** This method will throw an {@link UnsupportedOperationException}. */\n"
+    },
+    "removed": {
+        "31": " * An implementation of {@link DataInput} that uses little-endian byte ordering for reading\n",
+        "32": " * {@code short}, {@code int}, {@code float}, {@code double}, and {@code long} values.\n",
+        "34": " * <p><b>Note:</b> This class intentionally violates the specification of its supertype\n",
+        "35": " * {@code DataInput}, which explicitly requires big-endian byte order.\n",
+        "54": "  /**\n",
+        "55": "   * This method will throw an {@link UnsupportedOperationException}.\n",
+        "56": "   */\n"
+    }
+}

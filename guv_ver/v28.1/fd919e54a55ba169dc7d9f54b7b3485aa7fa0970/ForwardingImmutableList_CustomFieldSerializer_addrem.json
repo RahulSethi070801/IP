@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "20": " * Even though {@link ForwardingImmutableList} cannot be instantiated, we still need a custom field\n",
+        "21": " * serializer. TODO(cpovirk): why?\n"
+    },
+    "removed": {
+        "20": " * Even though {@link ForwardingImmutableList} cannot be instantiated, we still\n",
+        "21": " * need a custom field serializer. TODO(cpovirk): why?\n"
+    }
+}

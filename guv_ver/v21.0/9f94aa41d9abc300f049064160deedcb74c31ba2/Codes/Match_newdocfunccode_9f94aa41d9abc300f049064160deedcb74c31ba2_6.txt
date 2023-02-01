@@ -1,0 +1,4 @@
+@Override
+public boolean matchesNoneOf(CharSequence sequence) {
+    return sequence.length() == 0;
+}

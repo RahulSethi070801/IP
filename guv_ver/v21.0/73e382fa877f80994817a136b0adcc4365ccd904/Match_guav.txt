@@ -1,0 +1,2961 @@
+public void replaceAll(UnaryOperator<E> operator)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void replaceAll(UnaryOperator<E> operator)
+public static FluentIterable<E> of()
+
+public void replaceAll(UnaryOperator<E> operator)
+public static FluentIterable<E> of()
+
+public void replaceAll(UnaryOperator<E> operator)
+public static FluentIterable<E> of()
+
+public final Stream<E> stream()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final Stream<E> stream()
+public static FluentIterable<E> of()
+
+public final Stream<E> stream()
+public static FluentIterable<E> of()
+
+public final Stream<E> stream()
+public static FluentIterable<E> of()
+
+public static Iterable<T> skip(final Iterable<T> iterable, final int numberToSkip)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Iterable<T> skip(final Iterable<T> iterable, final int numberToSkip)
+public static FluentIterable<E> of()
+
+public static Iterable<T> skip(final Iterable<T> iterable, final int numberToSkip)
+public static FluentIterable<E> of()
+
+public static Iterable<T> skip(final Iterable<T> iterable, final int numberToSkip)
+public static FluentIterable<E> of()
+
+boolean test(@Nullable T input)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+boolean test(@Nullable T input)
+public static FluentIterable<E> of()
+
+boolean test(@Nullable T input)
+public static FluentIterable<E> of()
+
+boolean test(@Nullable T input)
+public static FluentIterable<E> of()
+
+public long addAndGet(K key, long delta)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long addAndGet(K key, long delta)
+public static FluentIterable<E> of()
+
+public long addAndGet(K key, long delta)
+public static FluentIterable<E> of()
+
+public long addAndGet(K key, long delta)
+public static FluentIterable<E> of()
+
+public Spliterator<E> spliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Spliterator<E> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<E> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<E> spliterator()
+public static FluentIterable<E> of()
+
+private static void throwDeleteFailed(Path path, Collection<IOException> exceptions) throws FileSystemException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static void throwDeleteFailed(Path path, Collection<IOException> exceptions) throws FileSystemException
+public static FluentIterable<E> of()
+
+private static void throwDeleteFailed(Path path, Collection<IOException> exceptions) throws FileSystemException
+public static FluentIterable<E> of()
+
+private static void throwDeleteFailed(Path path, Collection<IOException> exceptions) throws FileSystemException
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super V, ? super K> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(BiConsumer<? super V, ? super K> action)
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super V, ? super K> action)
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super V, ? super K> action)
+public static FluentIterable<E> of()
+
+boolean enclosesAll(Iterable<Range<C>> other)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+boolean enclosesAll(Iterable<Range<C>> other)
+public static FluentIterable<E> of()
+
+boolean enclosesAll(Iterable<Range<C>> other)
+public static FluentIterable<E> of()
+
+boolean enclosesAll(Iterable<Range<C>> other)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableTable<R, C, V>> toImmutableTable(Function<? super T, ? extends R> rowFunction, Function<? super T, ? extends C> columnFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<T, ?, ImmutableTable<R, C, V>> toImmutableTable(Function<? super T, ? extends R> rowFunction, Function<? super T, ? extends C> columnFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableTable<R, C, V>> toImmutableTable(Function<? super T, ? extends R> rowFunction, Function<? super T, ? extends C> columnFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableTable<R, C, V>> toImmutableTable(Function<? super T, ? extends R> rowFunction, Function<? super T, ? extends C> columnFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+void forEachEntry(Consumer<? super Entry<K, V>> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+void forEachEntry(Consumer<? super Entry<K, V>> action)
+public static FluentIterable<E> of()
+
+void forEachEntry(Consumer<? super Entry<K, V>> action)
+public static FluentIterable<E> of()
+
+void forEachEntry(Consumer<? super Entry<K, V>> action)
+public static FluentIterable<E> of()
+
+static Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function)
+public static FluentIterable<E> of()
+
+static Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function)
+public static FluentIterable<E> of()
+
+static Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function)
+public static FluentIterable<E> of()
+
+long storedPermitsToWaitTime(double storedPermits, double permitsToTake)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+long storedPermitsToWaitTime(double storedPermits, double permitsToTake)
+public static FluentIterable<E> of()
+
+long storedPermitsToWaitTime(double storedPermits, double permitsToTake)
+public static FluentIterable<E> of()
+
+long storedPermitsToWaitTime(double storedPermits, double permitsToTake)
+public static FluentIterable<E> of()
+
+void forEach(BiConsumer<? super K, ? super V> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+void forEach(BiConsumer<? super K, ? super V> action)
+public static FluentIterable<E> of()
+
+void forEach(BiConsumer<? super K, ? super V> action)
+public static FluentIterable<E> of()
+
+void forEach(BiConsumer<? super K, ? super V> action)
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, T> onlyElement()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<T, ?, T> onlyElement()
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, T> onlyElement()
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, T> onlyElement()
+public static FluentIterable<E> of()
+
+boolean remove(K key, long value)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+boolean remove(K key, long value)
+public static FluentIterable<E> of()
+
+boolean remove(K key, long value)
+public static FluentIterable<E> of()
+
+boolean remove(K key, long value)
+public static FluentIterable<E> of()
+
+private Map<K, Long> createAsMap()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private Map<K, Long> createAsMap()
+public static FluentIterable<E> of()
+
+private Map<K, Long> createAsMap()
+public static FluentIterable<E> of()
+
+private Map<K, Long> createAsMap()
+public static FluentIterable<E> of()
+
+private static Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+public static FluentIterable<E> of()
+
+private static Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+public static FluentIterable<E> of()
+
+private static Collector<T, ?, ImmutableMultiset<E>> toImmutableMultiset(Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super K> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(Consumer<? super K> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super K> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super K> action)
+public static FluentIterable<E> of()
+
+List<Entry<K, V>> createEntries()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+List<Entry<K, V>> createEntries()
+public static FluentIterable<E> of()
+
+List<Entry<K, V>> createEntries()
+public static FluentIterable<E> of()
+
+List<Entry<K, V>> createEntries()
+public static FluentIterable<E> of()
+
+T apply(@Nullable F input)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+T apply(@Nullable F input)
+public static FluentIterable<E> of()
+
+T apply(@Nullable F input)
+public static FluentIterable<E> of()
+
+T apply(@Nullable F input)
+public static FluentIterable<E> of()
+
+public static IntStream concat(IntStream... streams)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static IntStream concat(IntStream... streams)
+public static FluentIterable<E> of()
+
+public static IntStream concat(IntStream... streams)
+public static FluentIterable<E> of()
+
+public static IntStream concat(IntStream... streams)
+public static FluentIterable<E> of()
+
+public V2 get(@Nullable Object key)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V2 get(@Nullable Object key)
+public static FluentIterable<E> of()
+
+public V2 get(@Nullable Object key)
+public static FluentIterable<E> of()
+
+public V2 get(@Nullable Object key)
+public static FluentIterable<E> of()
+
+public void removeAll(Iterable<Range<C>> ranges)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void removeAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public void removeAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public void removeAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public static Iterable<T> transform(final Iterable<F> fromIterable, final Function<? super F, ? extends T> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Iterable<T> transform(final Iterable<F> fromIterable, final Function<? super F, ? extends T> function)
+public static FluentIterable<E> of()
+
+public static Iterable<T> transform(final Iterable<F> fromIterable, final Function<? super F, ? extends T> function)
+public static FluentIterable<E> of()
+
+public static Iterable<T> transform(final Iterable<F> fromIterable, final Function<? super F, ? extends T> function)
+public static FluentIterable<E> of()
+
+public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public long remove(K key)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long remove(K key)
+public static FluentIterable<E> of()
+
+public long remove(K key)
+public static FluentIterable<E> of()
+
+public long remove(K key)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableBiMap<K, V>> toImmutableBiMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Collector<T, ?, ImmutableBiMap<K, V>> toImmutableBiMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableBiMap<K, V>> toImmutableBiMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableBiMap<K, V>> toImmutableBiMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public long put(K key, long newValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long put(K key, long newValue)
+public static FluentIterable<E> of()
+
+public long put(K key, long newValue)
+public static FluentIterable<E> of()
+
+public long put(K key, long newValue)
+public static FluentIterable<E> of()
+
+public K put(@Nullable V value, @Nullable K key)
+public static FluentIterable<E> of()
+
+public K put(@Nullable V value, @Nullable K key)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public K put(@Nullable V value, @Nullable K key)
+public static FluentIterable<E> of()
+
+public K put(@Nullable V value, @Nullable K key)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction, BinaryOperator<V> mergeFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction, BinaryOperator<V> mergeFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction, BinaryOperator<V> mergeFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction, BinaryOperator<V> mergeFunction)
+public static FluentIterable<E> of()
+
+public static TreeTraverser<Path> directoryTreeTraverser()
+public static FluentIterable<E> of()
+
+public static TreeTraverser<Path> directoryTreeTraverser()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static TreeTraverser<Path> directoryTreeTraverser()
+public static FluentIterable<E> of()
+
+public static TreeTraverser<Path> directoryTreeTraverser()
+public static FluentIterable<E> of()
+
+private static void checkAllowsInsecure(Path path, RecursiveDeleteOption[] options) throws InsecureRecursiveDeleteException
+public static FluentIterable<E> of()
+
+private static void checkAllowsInsecure(Path path, RecursiveDeleteOption[] options) throws InsecureRecursiveDeleteException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static void checkAllowsInsecure(Path path, RecursiveDeleteOption[] options) throws InsecureRecursiveDeleteException
+public static FluentIterable<E> of()
+
+private static void checkAllowsInsecure(Path path, RecursiveDeleteOption[] options) throws InsecureRecursiveDeleteException
+public static FluentIterable<E> of()
+
+public Spliterator<K> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<K> spliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Spliterator<K> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<K> spliterator()
+public static FluentIterable<E> of()
+
+static Spliterator<T> map(Spliterator<F> fromSpliterator, Function<? super F, ? extends T> function)
+public static FluentIterable<E> of()
+
+static Spliterator<T> map(Spliterator<F> fromSpliterator, Function<? super F, ? extends T> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Spliterator<T> map(Spliterator<F> fromSpliterator, Function<? super F, ? extends T> function)
+public static FluentIterable<E> of()
+
+static Spliterator<T> map(Spliterator<F> fromSpliterator, Function<? super F, ? extends T> function)
+public static FluentIterable<E> of()
+
+public static void createParentDirectories(Path path, FileAttribute<?>... attrs) throws IOException
+public static FluentIterable<E> of()
+
+public static void createParentDirectories(Path path, FileAttribute<?>... attrs) throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static void createParentDirectories(Path path, FileAttribute<?>... attrs) throws IOException
+public static FluentIterable<E> of()
+
+public static void createParentDirectories(Path path, FileAttribute<?>... attrs) throws IOException
+public static FluentIterable<E> of()
+
+public String toString()
+public static FluentIterable<E> of()
+
+public String toString()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public String toString()
+public static FluentIterable<E> of()
+
+public String toString()
+public static FluentIterable<E> of()
+
+void removeAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+void removeAll(Iterable<Range<C>> ranges)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+void removeAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+void removeAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public static AtomicLongMap<K> create()
+public static FluentIterable<E> of()
+
+public static AtomicLongMap<K> create()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static AtomicLongMap<K> create()
+public static FluentIterable<E> of()
+
+public static AtomicLongMap<K> create()
+public static FluentIterable<E> of()
+
+public final V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+public static FluentIterable<E> of()
+
+public final V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+public static FluentIterable<E> of()
+
+public final V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+public static FluentIterable<E> of()
+
+public long size() throws IOException
+public static FluentIterable<E> of()
+
+public long size() throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long size() throws IOException
+public static FluentIterable<E> of()
+
+public long size() throws IOException
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSetMultimap<K, V>> toImmutableSetMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSetMultimap<K, V>> toImmutableSetMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<T, ?, ImmutableSetMultimap<K, V>> toImmutableSetMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableSetMultimap<K, V>> toImmutableSetMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public V computeIfAbsent(K key, Function<? super K, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V computeIfAbsent(K key, Function<? super K, ? extends V> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V computeIfAbsent(K key, Function<? super K, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V computeIfAbsent(K key, Function<? super K, ? extends V> function)
+public static FluentIterable<E> of()
+
+void forEachEntry(ObjIntConsumer<? super E> action)
+public static FluentIterable<E> of()
+
+void forEachEntry(ObjIntConsumer<? super E> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+void forEachEntry(ObjIntConsumer<? super E> action)
+public static FluentIterable<E> of()
+
+void forEachEntry(ObjIntConsumer<? super E> action)
+public static FluentIterable<E> of()
+
+private static Path getParentPath(Path path) throws IOException
+public static FluentIterable<E> of()
+
+private static Path getParentPath(Path path) throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Path getParentPath(Path path) throws IOException
+public static FluentIterable<E> of()
+
+private static Path getParentPath(Path path) throws IOException
+public static FluentIterable<E> of()
+
+Object getElement()
+public static FluentIterable<E> of()
+
+Object getElement()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Object getElement()
+public static FluentIterable<E> of()
+
+Object getElement()
+public static FluentIterable<E> of()
+
+private static Collector<T, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator, Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+public static FluentIterable<E> of()
+
+private static Collector<T, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator, Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Collector<T, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator, Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+public static FluentIterable<E> of()
+
+private static Collector<T, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator, Function<? super T, ? extends E> elementFunction, ToIntFunction<? super T> countFunction)
+public static FluentIterable<E> of()
+
+public final V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public final V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public final V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public static OptionalInt findLast(IntStream stream)
+public static FluentIterable<E> of()
+
+public static OptionalInt findLast(IntStream stream)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static OptionalInt findLast(IntStream stream)
+public static FluentIterable<E> of()
+
+public static OptionalInt findLast(IntStream stream)
+public static FluentIterable<E> of()
+
+public static SetView<E> intersection(final Set<E> set1, final Set<?> set2)
+public static FluentIterable<E> of()
+
+public static SetView<E> intersection(final Set<E> set1, final Set<?> set2)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static SetView<E> intersection(final Set<E> set1, final Set<?> set2)
+public static FluentIterable<E> of()
+
+public static SetView<E> intersection(final Set<E> set1, final Set<?> set2)
+public static FluentIterable<E> of()
+
+public byte[] read() throws IOException
+public static FluentIterable<E> of()
+
+public byte[] read() throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public byte[] read() throws IOException
+public static FluentIterable<E> of()
+
+public byte[] read() throws IOException
+public static FluentIterable<E> of()
+
+public Spliterator<Cell<R, C, V>> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<Cell<R, C, V>> spliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Spliterator<Cell<R, C, V>> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<Cell<R, C, V>> spliterator()
+public static FluentIterable<E> of()
+
+public InputStream openStream() throws IOException
+public static FluentIterable<E> of()
+
+public InputStream openStream() throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public InputStream openStream() throws IOException
+public static FluentIterable<E> of()
+
+public InputStream openStream() throws IOException
+public static FluentIterable<E> of()
+
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+public static FluentIterable<E> of()
+
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+public static FluentIterable<E> of()
+
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader)
+public static FluentIterable<E> of()
+
+public void replaceAll(BiFunction<? super V, ? super K, ? extends K> function)
+public static FluentIterable<E> of()
+
+public void replaceAll(BiFunction<? super V, ? super K, ? extends K> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void replaceAll(BiFunction<? super V, ? super K, ? extends K> function)
+public static FluentIterable<E> of()
+
+public void replaceAll(BiFunction<? super V, ? super K, ? extends K> function)
+public static FluentIterable<E> of()
+
+private static PatternCompiler loadPatternCompiler()
+public static FluentIterable<E> of()
+
+private static PatternCompiler loadPatternCompiler()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static PatternCompiler loadPatternCompiler()
+public static FluentIterable<E> of()
+
+private static PatternCompiler loadPatternCompiler()
+public static FluentIterable<E> of()
+
+public Stream<E> parallelStream()
+public static FluentIterable<E> of()
+
+public Stream<E> parallelStream()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Stream<E> parallelStream()
+public static FluentIterable<E> of()
+
+public Stream<E> parallelStream()
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+public static LongStream stream(OptionalLong optional)
+public static FluentIterable<E> of()
+
+public static LongStream stream(OptionalLong optional)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static LongStream stream(OptionalLong optional)
+public static FluentIterable<E> of()
+
+public static LongStream stream(OptionalLong optional)
+public static FluentIterable<E> of()
+
+public boolean retainAll(final Collection<?> collection)
+public static FluentIterable<E> of()
+
+public boolean retainAll(final Collection<?> collection)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean retainAll(final Collection<?> collection)
+public static FluentIterable<E> of()
+
+public boolean retainAll(final Collection<?> collection)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, Optional<T>> toOptional()
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, Optional<T>> toOptional()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<T, ?, Optional<T>> toOptional()
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, Optional<T>> toOptional()
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteRecursivelySecure(SecureDirectoryStream<Path> dir, Path path)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteRecursivelySecure(SecureDirectoryStream<Path> dir, Path path)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Collection<IOException> deleteRecursivelySecure(SecureDirectoryStream<Path> dir, Path path)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteRecursivelySecure(SecureDirectoryStream<Path> dir, Path path)
+public static FluentIterable<E> of()
+
+public static ByteSink asByteSink(Path path, OpenOption... options)
+public static FluentIterable<E> of()
+
+public static ByteSink asByteSink(Path path, OpenOption... options)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static ByteSink asByteSink(Path path, OpenOption... options)
+public static FluentIterable<E> of()
+
+public static ByteSink asByteSink(Path path, OpenOption... options)
+public static FluentIterable<E> of()
+
+public V replace(K key, V value)
+public static FluentIterable<E> of()
+
+public V replace(K key, V value)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V replace(K key, V value)
+public static FluentIterable<E> of()
+
+public V replace(K key, V value)
+public static FluentIterable<E> of()
+
+public static DoubleStream stream(OptionalDouble optional)
+public static FluentIterable<E> of()
+
+public static DoubleStream stream(OptionalDouble optional)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static DoubleStream stream(OptionalDouble optional)
+public static FluentIterable<E> of()
+
+public static DoubleStream stream(OptionalDouble optional)
+public static FluentIterable<E> of()
+
+Spliterator<Entry<K, V2>> entrySpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Entry<K, V2>> entrySpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<Entry<K, V2>> entrySpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Entry<K, V2>> entrySpliterator()
+public static FluentIterable<E> of()
+
+static Spliterator<T> flatMap(Spliterator<F> fromSpliterator, Function<? super F, Spliterator<T>> function, int topCharacteristics, long topSize)
+public static FluentIterable<E> of()
+
+static Spliterator<T> flatMap(Spliterator<F> fromSpliterator, Function<? super F, Spliterator<T>> function, int topCharacteristics, long topSize)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Spliterator<T> flatMap(Spliterator<F> fromSpliterator, Function<? super F, Spliterator<T>> function, int topCharacteristics, long topSize)
+public static FluentIterable<E> of()
+
+static Spliterator<T> flatMap(Spliterator<F> fromSpliterator, Function<? super F, Spliterator<T>> function, int topCharacteristics, long topSize)
+public static FluentIterable<E> of()
+
+public static java.util.Optional<T> toJavaUtil(@Nullable Optional<T> googleOptional)
+public static FluentIterable<E> of()
+
+public static java.util.Optional<T> toJavaUtil(@Nullable Optional<T> googleOptional)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static java.util.Optional<T> toJavaUtil(@Nullable Optional<T> googleOptional)
+public static FluentIterable<E> of()
+
+public static java.util.Optional<T> toJavaUtil(@Nullable Optional<T> googleOptional)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super T> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super T> filter)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean removeIf(Predicate<? super T> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super T> filter)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteDirectoryContentsSecure(SecureDirectoryStream<Path> dir)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteDirectoryContentsSecure(SecureDirectoryStream<Path> dir)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Collection<IOException> deleteDirectoryContentsSecure(SecureDirectoryStream<Path> dir)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteDirectoryContentsSecure(SecureDirectoryStream<Path> dir)
+public static FluentIterable<E> of()
+
+public long getAndUpdate(K key, LongUnaryOperator updaterFunction)
+public static FluentIterable<E> of()
+
+public long getAndUpdate(K key, LongUnaryOperator updaterFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long getAndUpdate(K key, LongUnaryOperator updaterFunction)
+public static FluentIterable<E> of()
+
+public long getAndUpdate(K key, LongUnaryOperator updaterFunction)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteRecursivelyInsecure(Path path)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteRecursivelyInsecure(Path path)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Collection<IOException> deleteRecursivelyInsecure(Path path)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteRecursivelyInsecure(Path path)
+public static FluentIterable<E> of()
+
+public final boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public final boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public final boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> postOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> postOrderTraversal(final T root)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final FluentIterable<T> postOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> postOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+public static Iterable<T> limit(final Iterable<T> iterable, final int limitSize)
+public static FluentIterable<E> of()
+
+public static Iterable<T> limit(final Iterable<T> iterable, final int limitSize)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Iterable<T> limit(final Iterable<T> iterable, final int limitSize)
+public static FluentIterable<E> of()
+
+public static Iterable<T> limit(final Iterable<T> iterable, final int limitSize)
+public static FluentIterable<E> of()
+
+public static Stream<T> concat(Stream<? extends T>... streams)
+public static FluentIterable<E> of()
+
+public static Stream<T> concat(Stream<? extends T>... streams)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Stream<T> concat(Stream<? extends T>... streams)
+public static FluentIterable<E> of()
+
+public static Stream<T> concat(Stream<? extends T>... streams)
+public static FluentIterable<E> of()
+
+public long accumulateAndGet(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<E> of()
+
+public long accumulateAndGet(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long accumulateAndGet(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<E> of()
+
+public long accumulateAndGet(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<E> of()
+
+public static CharSink asCharSink(Path path, Charset charset, OpenOption... options)
+public static FluentIterable<E> of()
+
+public static CharSink asCharSink(Path path, Charset charset, OpenOption... options)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static CharSink asCharSink(Path path, Charset charset, OpenOption... options)
+public static FluentIterable<E> of()
+
+public static CharSink asCharSink(Path path, Charset charset, OpenOption... options)
+public static FluentIterable<E> of()
+
+public final Iterable<T> children(final T root)
+public static FluentIterable<E> of()
+
+public final Iterable<T> children(final T root)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final Iterable<T> children(final T root)
+public static FluentIterable<E> of()
+
+public final Iterable<T> children(final T root)
+public static FluentIterable<E> of()
+
+private static boolean followLinks(OpenOption[] options)
+public static FluentIterable<E> of()
+
+private static boolean followLinks(OpenOption[] options)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static boolean followLinks(OpenOption[] options)
+public static FluentIterable<E> of()
+
+private static boolean followLinks(OpenOption[] options)
+public static FluentIterable<E> of()
+
+public static Predicate<Path> isRegularFile(LinkOption... options)
+public static FluentIterable<E> of()
+
+public static Predicate<Path> isRegularFile(LinkOption... options)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Predicate<Path> isRegularFile(LinkOption... options)
+public static FluentIterable<E> of()
+
+public static Predicate<Path> isRegularFile(LinkOption... options)
+public static FluentIterable<E> of()
+
+public Spliterator<T> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<T> spliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Spliterator<T> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<T> spliterator()
+public static FluentIterable<E> of()
+
+public static Optional<T> fromJavaUtil(@Nullable java.util.Optional<T> javaUtilOptional)
+public static FluentIterable<E> of()
+
+public static Optional<T> fromJavaUtil(@Nullable java.util.Optional<T> javaUtilOptional)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Optional<T> fromJavaUtil(@Nullable java.util.Optional<T> javaUtilOptional)
+public static FluentIterable<E> of()
+
+public static Optional<T> fromJavaUtil(@Nullable java.util.Optional<T> javaUtilOptional)
+public static FluentIterable<E> of()
+
+public static CharSource asCharSource(Path path, Charset charset, OpenOption... options)
+public static FluentIterable<E> of()
+
+public static CharSource asCharSource(Path path, Charset charset, OpenOption... options)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static CharSource asCharSource(Path path, Charset charset, OpenOption... options)
+public static FluentIterable<E> of()
+
+public static CharSource asCharSource(Path path, Charset charset, OpenOption... options)
+public static FluentIterable<E> of()
+
+Spliterator<Cell<C, R, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Cell<C, R, V>> cellSpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<Cell<C, R, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Cell<C, R, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableSet<E>> toImmutableSet()
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableSet<E>> toImmutableSet()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Collector<E, ?, ImmutableSet<E>> toImmutableSet()
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableSet<E>> toImmutableSet()
+public static FluentIterable<E> of()
+
+IllegalArgumentException multiples(boolean overflow)
+public static FluentIterable<E> of()
+
+IllegalArgumentException multiples(boolean overflow)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+IllegalArgumentException multiples(boolean overflow)
+public static FluentIterable<E> of()
+
+IllegalArgumentException multiples(boolean overflow)
+public static FluentIterable<E> of()
+
+public V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+V compute(K key, int hash, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+V compute(K key, int hash, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+V compute(K key, int hash, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+V compute(K key, int hash, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public static void deleteRecursively(Path path, RecursiveDeleteOption... options) throws IOException
+public static FluentIterable<E> of()
+
+public static void deleteRecursively(Path path, RecursiveDeleteOption... options) throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static void deleteRecursively(Path path, RecursiveDeleteOption... options) throws IOException
+public static FluentIterable<E> of()
+
+public static void deleteRecursively(Path path, RecursiveDeleteOption... options) throws IOException
+public static FluentIterable<E> of()
+
+public boolean enclosesAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public boolean enclosesAll(Iterable<Range<C>> ranges)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean enclosesAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public boolean enclosesAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public Iterable<Path> children(Path dir)
+public static FluentIterable<E> of()
+
+public Iterable<Path> children(Path dir)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Iterable<Path> children(Path dir)
+public static FluentIterable<E> of()
+
+public Iterable<Path> children(Path dir)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteDirectoryContentsInsecure(DirectoryStream<Path> dir)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteDirectoryContentsInsecure(DirectoryStream<Path> dir)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Collection<IOException> deleteDirectoryContentsInsecure(DirectoryStream<Path> dir)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> deleteDirectoryContentsInsecure(DirectoryStream<Path> dir)
+public static FluentIterable<E> of()
+
+R apply(T from, long index)
+public static FluentIterable<E> of()
+
+R apply(T from, long index)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+R apply(T from, long index)
+public static FluentIterable<E> of()
+
+R apply(T from, long index)
+public static FluentIterable<E> of()
+
+public void addAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public void addAll(Iterable<Range<C>> ranges)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void addAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public void addAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public V get(@Nullable Object key)
+public static FluentIterable<E> of()
+
+public V get(@Nullable Object key)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V get(@Nullable Object key)
+public static FluentIterable<E> of()
+
+public V get(@Nullable Object key)
+public static FluentIterable<E> of()
+
+public boolean replace(K key, V oldValue, V newValue)
+public static FluentIterable<E> of()
+
+public boolean replace(K key, V oldValue, V newValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean replace(K key, V oldValue, V newValue)
+public static FluentIterable<E> of()
+
+public boolean replace(K key, V oldValue, V newValue)
+public static FluentIterable<E> of()
+
+public final boolean retainAll(Collection<?> elementsToKeep)
+public static FluentIterable<E> of()
+
+public final boolean retainAll(Collection<?> elementsToKeep)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final boolean retainAll(Collection<?> elementsToKeep)
+public static FluentIterable<E> of()
+
+public final boolean retainAll(Collection<?> elementsToKeep)
+public static FluentIterable<E> of()
+
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+public static FluentIterable<E> of()
+
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+public static FluentIterable<E> of()
+
+public static SetView<E> difference(final Set<E> set1, final Set<?> set2)
+public static FluentIterable<E> of()
+
+Spliterator<Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> concat(@Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other)
+public static FluentIterable<E> of()
+
+void add(Object o)
+public static FluentIterable<E> of()
+
+void add(Object o)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+void add(Object o)
+public static FluentIterable<E> of()
+
+void add(Object o)
+public static FluentIterable<E> of()
+
+public long updateAndGet(K key, LongUnaryOperator updaterFunction)
+public static FluentIterable<E> of()
+
+public long updateAndGet(K key, LongUnaryOperator updaterFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long updateAndGet(K key, LongUnaryOperator updaterFunction)
+public static FluentIterable<E> of()
+
+public long updateAndGet(K key, LongUnaryOperator updaterFunction)
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableSortedSet<E>> toImmutableSortedSet(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+public final void replaceAll(UnaryOperator<E> operator)
+public static FluentIterable<E> of()
+
+public final void replaceAll(UnaryOperator<E> operator)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final void replaceAll(UnaryOperator<E> operator)
+public static FluentIterable<E> of()
+
+public final void replaceAll(UnaryOperator<E> operator)
+public static FluentIterable<E> of()
+
+TopKSelector<T> combine(TopKSelector<T> other)
+public static FluentIterable<E> of()
+
+TopKSelector<T> combine(TopKSelector<T> other)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+TopKSelector<T> combine(TopKSelector<T> other)
+public static FluentIterable<E> of()
+
+TopKSelector<T> combine(TopKSelector<T> other)
+public static FluentIterable<E> of()
+
+public static Iterable<T> filter(final Iterable<T> unfiltered, final Predicate<? super T> retainIfTrue)
+public static FluentIterable<E> of()
+
+public static Iterable<T> filter(final Iterable<T> unfiltered, final Predicate<? super T> retainIfTrue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Iterable<T> filter(final Iterable<T> unfiltered, final Predicate<? super T> retainIfTrue)
+public static FluentIterable<E> of()
+
+public static Iterable<T> filter(final Iterable<T> unfiltered, final Predicate<? super T> retainIfTrue)
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableMultiset<E>> toImmutableMultiset()
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableMultiset<E>> toImmutableMultiset()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<E, ?, ImmutableMultiset<E>> toImmutableMultiset()
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableMultiset<E>> toImmutableMultiset()
+public static FluentIterable<E> of()
+
+public static boolean removeIf(Iterable<T> removeFrom, Predicate<? super T> predicate)
+public static FluentIterable<E> of()
+
+public static boolean removeIf(Iterable<T> removeFrom, Predicate<? super T> predicate)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static boolean removeIf(Iterable<T> removeFrom, Predicate<? super T> predicate)
+public static FluentIterable<E> of()
+
+public static boolean removeIf(Iterable<T> removeFrom, Predicate<? super T> predicate)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> other)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> other)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> other)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> other)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super E> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super E> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(Consumer<? super E> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super E> action)
+public static FluentIterable<E> of()
+
+public Spliterator<V> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<V> spliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Spliterator<V> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<V> spliterator()
+public static FluentIterable<E> of()
+
+public static OptionalLong findLast(LongStream stream)
+public static FluentIterable<E> of()
+
+public static OptionalLong findLast(LongStream stream)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static OptionalLong findLast(LongStream stream)
+public static FluentIterable<E> of()
+
+public static OptionalLong findLast(LongStream stream)
+public static FluentIterable<E> of()
+
+abstract Spliterator<Table.Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+abstract Spliterator<Table.Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+abstract Spliterator<Table.Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+abstract Spliterator<Table.Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+Builder<E> combine(ArrayBasedBuilder<E> builder)
+public static FluentIterable<E> of()
+
+Builder<E> combine(ArrayBasedBuilder<E> builder)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Builder<E> combine(ArrayBasedBuilder<E> builder)
+public static FluentIterable<E> of()
+
+Builder<E> combine(ArrayBasedBuilder<E> builder)
+public static FluentIterable<E> of()
+
+static Spliterator<E> spliteratorImpl(Multiset<E> multiset)
+public static FluentIterable<E> of()
+
+static Spliterator<E> spliteratorImpl(Multiset<E> multiset)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Spliterator<E> spliteratorImpl(Multiset<E> multiset)
+public static FluentIterable<E> of()
+
+static Spliterator<E> spliteratorImpl(Multiset<E> multiset)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(java.util.Optional<T> optional)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(java.util.Optional<T> optional)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Stream<T> stream(java.util.Optional<T> optional)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(java.util.Optional<T> optional)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableMap<K, V>> toImmutableMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableMap<K, V>> toImmutableMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Collector<T, ?, ImmutableMap<K, V>> toImmutableMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableMap<K, V>> toImmutableMap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+static Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function, Comparator<? super T> comparator)
+public static FluentIterable<E> of()
+
+static Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function, Comparator<? super T> comparator)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function, Comparator<? super T> comparator)
+public static FluentIterable<E> of()
+
+static Spliterator<T> indexed(int size, int extraCharacteristics, IntFunction<T> function, Comparator<? super T> comparator)
+public static FluentIterable<E> of()
+
+long putIfAbsent(K key, long newValue)
+public static FluentIterable<E> of()
+
+long putIfAbsent(K key, long newValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+long putIfAbsent(K key, long newValue)
+public static FluentIterable<E> of()
+
+long putIfAbsent(K key, long newValue)
+public static FluentIterable<E> of()
+
+Spliterator<Entry<K, V>> entrySpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Entry<K, V>> entrySpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<Entry<K, V>> entrySpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Entry<K, V>> entrySpliterator()
+public static FluentIterable<E> of()
+
+public static void deleteDirectoryContents(Path path, RecursiveDeleteOption... options) throws IOException
+public static FluentIterable<E> of()
+
+public static void deleteDirectoryContents(Path path, RecursiveDeleteOption... options) throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static void deleteDirectoryContents(Path path, RecursiveDeleteOption... options) throws IOException
+public static FluentIterable<E> of()
+
+public static void deleteDirectoryContents(Path path, RecursiveDeleteOption... options) throws IOException
+public static FluentIterable<E> of()
+
+public final boolean test(@Nullable T t, @Nullable T u)
+public static FluentIterable<E> of()
+
+public final boolean test(@Nullable T t, @Nullable T u)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final boolean test(@Nullable T t, @Nullable T u)
+public static FluentIterable<E> of()
+
+public final boolean test(@Nullable T t, @Nullable T u)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super V> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super V> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(Consumer<? super V> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super V> action)
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> inOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> inOrderTraversal(final T root)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final FluentIterable<T> inOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> inOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+private static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<E> of()
+
+private static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<E> of()
+
+private static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<E> of()
+
+public boolean removeAll(final Collection<?> collection)
+public static FluentIterable<E> of()
+
+public boolean removeAll(final Collection<?> collection)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean removeAll(final Collection<?> collection)
+public static FluentIterable<E> of()
+
+public boolean removeAll(final Collection<?> collection)
+public static FluentIterable<E> of()
+
+public static IntStream stream(OptionalInt optional)
+public static FluentIterable<E> of()
+
+public static IntStream stream(OptionalInt optional)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static IntStream stream(OptionalInt optional)
+public static FluentIterable<E> of()
+
+public static IntStream stream(OptionalInt optional)
+public static FluentIterable<E> of()
+
+public V putIfAbsent(K key, V value)
+public static FluentIterable<E> of()
+
+public V putIfAbsent(K key, V value)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V putIfAbsent(K key, V value)
+public static FluentIterable<E> of()
+
+public V putIfAbsent(K key, V value)
+public static FluentIterable<E> of()
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public Set<Entry<Class<? extends B>, B>> entrySet()
+public static FluentIterable<E> of()
+
+public Set<Entry<Class<? extends B>, B>> entrySet()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Set<Entry<Class<? extends B>, B>> entrySet()
+public static FluentIterable<E> of()
+
+public Set<Entry<Class<? extends B>, B>> entrySet()
+public static FluentIterable<E> of()
+
+public final V putIfAbsent(K key, V value)
+public static FluentIterable<E> of()
+
+public final V putIfAbsent(K key, V value)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final V putIfAbsent(K key, V value)
+public static FluentIterable<E> of()
+
+public final V putIfAbsent(K key, V value)
+public static FluentIterable<E> of()
+
+Spliterator<E> spliterator()
+public static FluentIterable<E> of()
+
+Spliterator<E> spliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<E> spliterator()
+public static FluentIterable<E> of()
+
+Spliterator<E> spliterator()
+public static FluentIterable<E> of()
+
+public V getOrDefault(Object key, V defaultValue)
+public static FluentIterable<E> of()
+
+public V getOrDefault(Object key, V defaultValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V getOrDefault(Object key, V defaultValue)
+public static FluentIterable<E> of()
+
+public V getOrDefault(Object key, V defaultValue)
+public static FluentIterable<E> of()
+
+public List<E> leastOf(Iterator<E> iterator, int k)
+public static FluentIterable<E> of()
+
+public List<E> leastOf(Iterator<E> iterator, int k)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public List<E> leastOf(Iterator<E> iterator, int k)
+public static FluentIterable<E> of()
+
+public List<E> leastOf(Iterator<E> iterator, int k)
+public static FluentIterable<E> of()
+
+public final boolean replace(K key, V oldValue, V newValue)
+public static FluentIterable<E> of()
+
+public final boolean replace(K key, V oldValue, V newValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final boolean replace(K key, V oldValue, V newValue)
+public static FluentIterable<E> of()
+
+public final boolean replace(K key, V oldValue, V newValue)
+public static FluentIterable<E> of()
+
+public void putAll(Map<? extends K, ? extends Long> m)
+public static FluentIterable<E> of()
+
+public void putAll(Map<? extends K, ? extends Long> m)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void putAll(Map<? extends K, ? extends Long> m)
+public static FluentIterable<E> of()
+
+public void putAll(Map<? extends K, ? extends Long> m)
+public static FluentIterable<E> of()
+
+void addAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+void addAll(Iterable<Range<C>> ranges)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+void addAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+void addAll(Iterable<Range<C>> ranges)
+public static FluentIterable<E> of()
+
+public static String getFileExtension(Path path)
+public static FluentIterable<E> of()
+
+public static String getFileExtension(Path path)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static String getFileExtension(Path path)
+public static FluentIterable<E> of()
+
+public static String getFileExtension(Path path)
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<E, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+public static Collector<E, ?, ImmutableSortedMultiset<E>> toImmutableSortedMultiset(Comparator<? super E> comparator)
+public static FluentIterable<E> of()
+
+public V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+public static FluentIterable<E> of()
+
+public V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+public static FluentIterable<E> of()
+
+public V getOrDefault(@Nullable Object key, @Nullable V defaultValue)
+public static FluentIterable<E> of()
+
+public long sum()
+public static FluentIterable<E> of()
+
+public long sum()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long sum()
+public static FluentIterable<E> of()
+
+public long sum()
+public static FluentIterable<E> of()
+
+public V2 getOrDefault(@Nullable Object key, @Nullable V2 defaultValue)
+public static FluentIterable<E> of()
+
+public V2 getOrDefault(@Nullable Object key, @Nullable V2 defaultValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V2 getOrDefault(@Nullable Object key, @Nullable V2 defaultValue)
+public static FluentIterable<E> of()
+
+public V2 getOrDefault(@Nullable Object key, @Nullable V2 defaultValue)
+public static FluentIterable<E> of()
+
+public static Iterable<T> filter(final Iterable<?> unfiltered, final Class<T> desiredType)
+public static FluentIterable<E> of()
+
+public static Iterable<T> filter(final Iterable<?> unfiltered, final Class<T> desiredType)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Iterable<T> filter(final Iterable<?> unfiltered, final Class<T> desiredType)
+public static FluentIterable<E> of()
+
+public static Iterable<T> filter(final Iterable<?> unfiltered, final Class<T> desiredType)
+public static FluentIterable<E> of()
+
+public static String getNameWithoutExtension(Path path)
+public static FluentIterable<E> of()
+
+public static String getNameWithoutExtension(Path path)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static String getNameWithoutExtension(Path path)
+public static FluentIterable<E> of()
+
+public static String getNameWithoutExtension(Path path)
+public static FluentIterable<E> of()
+
+public long get(K key)
+public static FluentIterable<E> of()
+
+public long get(K key)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long get(K key)
+public static FluentIterable<E> of()
+
+public long get(K key)
+public static FluentIterable<E> of()
+
+public static SetView<E> union(final Set<? extends E> set1, final Set<? extends E> set2)
+public static FluentIterable<E> of()
+
+public static SetView<E> union(final Set<? extends E> set1, final Set<? extends E> set2)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static SetView<E> union(final Set<? extends E> set1, final Set<? extends E> set2)
+public static FluentIterable<E> of()
+
+public static SetView<E> union(final Set<? extends E> set1, final Set<? extends E> set2)
+public static FluentIterable<E> of()
+
+public static Stream<R> zip(Stream<A> streamA, Stream<B> streamB, BiFunction<? super A, ? super B, R> function)
+public static FluentIterable<E> of()
+
+public static Stream<R> zip(Stream<A> streamA, Stream<B> streamB, BiFunction<? super A, ? super B, R> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Stream<R> zip(Stream<A> streamA, Stream<B> streamB, BiFunction<? super A, ? super B, R> function)
+public static FluentIterable<E> of()
+
+public static Stream<R> zip(Stream<A> streamA, Stream<B> streamB, BiFunction<? super A, ? super B, R> function)
+public static FluentIterable<E> of()
+
+final Spliterator<Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+final Spliterator<Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+final Spliterator<Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+final Spliterator<Cell<R, C, V>> cellSpliterator()
+public static FluentIterable<E> of()
+
+public final boolean remove(Object key, Object value)
+public static FluentIterable<E> of()
+
+public final boolean remove(Object key, Object value)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final boolean remove(Object key, Object value)
+public static FluentIterable<E> of()
+
+public final boolean remove(Object key, Object value)
+public static FluentIterable<E> of()
+
+public static ByteSource asByteSource(Path path, OpenOption... options)
+public static FluentIterable<E> of()
+
+public static ByteSource asByteSource(Path path, OpenOption... options)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static ByteSource asByteSource(Path path, OpenOption... options)
+public static FluentIterable<E> of()
+
+public static ByteSource asByteSource(Path path, OpenOption... options)
+public static FluentIterable<E> of()
+
+public boolean removeIf(java.util.function.Predicate<? super T> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(java.util.function.Predicate<? super T> filter)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean removeIf(java.util.function.Predicate<? super T> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(java.util.function.Predicate<? super T> filter)
+public static FluentIterable<E> of()
+
+boolean removeIf(BiPredicate<? super K, ? super V> filter)
+public static FluentIterable<E> of()
+
+boolean removeIf(BiPredicate<? super K, ? super V> filter)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+boolean removeIf(BiPredicate<? super K, ? super V> filter)
+public static FluentIterable<E> of()
+
+boolean removeIf(BiPredicate<? super K, ? super V> filter)
+public static FluentIterable<E> of()
+
+public V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public static FluentIterable<E> of()
+
+public V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public static FluentIterable<E> of()
+
+public V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public static FluentIterable<E> of()
+
+public static void touch(Path path) throws IOException
+public static FluentIterable<E> of()
+
+public static void touch(Path path) throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static void touch(Path path) throws IOException
+public static FluentIterable<E> of()
+
+public static void touch(Path path) throws IOException
+public static FluentIterable<E> of()
+
+Optional<Object> getOptional()
+public static FluentIterable<E> of()
+
+Optional<Object> getOptional()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Optional<Object> getOptional()
+public static FluentIterable<E> of()
+
+Optional<Object> getOptional()
+public static FluentIterable<E> of()
+
+public V merge(K key, V newValue, BiFunction<? super V, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V merge(K key, V newValue, BiFunction<? super V, ? super V, ? extends V> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V merge(K key, V newValue, BiFunction<? super V, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V merge(K key, V newValue, BiFunction<? super V, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super K, ? super V> action)
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super K, ? super V> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(BiConsumer<? super K, ? super V> action)
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super K, ? super V> action)
+public static FluentIterable<E> of()
+
+public final void sort(Comparator<? super E> c)
+public static FluentIterable<E> of()
+
+public final void sort(Comparator<? super E> c)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final void sort(Comparator<? super E> c)
+public static FluentIterable<E> of()
+
+public final void sort(Comparator<? super E> c)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super K> consumer)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super K> consumer)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(Consumer<? super K> consumer)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super K> consumer)
+public static FluentIterable<E> of()
+
+public void sort(Comparator<? super E> c)
+public static FluentIterable<E> of()
+
+public void sort(Comparator<? super E> c)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void sort(Comparator<? super E> c)
+public static FluentIterable<E> of()
+
+public void sort(Comparator<? super E> c)
+public static FluentIterable<E> of()
+
+public static DoubleStream concat(DoubleStream... streams)
+public static FluentIterable<E> of()
+
+public static DoubleStream concat(DoubleStream... streams)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static DoubleStream concat(DoubleStream... streams)
+public static FluentIterable<E> of()
+
+public static DoubleStream concat(DoubleStream... streams)
+public static FluentIterable<E> of()
+
+public final void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public final void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public final void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Iterator<T> iterator)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Iterator<T> iterator)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Stream<T> stream(Iterator<T> iterator)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Iterator<T> iterator)
+public static FluentIterable<E> of()
+
+public ImmutableMultimap<K, V> build()
+public static FluentIterable<E> of()
+
+public ImmutableMultimap<K, V> build()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public ImmutableMultimap<K, V> build()
+public static FluentIterable<E> of()
+
+public ImmutableMultimap<K, V> build()
+public static FluentIterable<E> of()
+
+boolean replace(K key, long expectedOldValue, long newValue)
+public static FluentIterable<E> of()
+
+boolean replace(K key, long expectedOldValue, long newValue)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+boolean replace(K key, long expectedOldValue, long newValue)
+public static FluentIterable<E> of()
+
+boolean replace(K key, long expectedOldValue, long newValue)
+public static FluentIterable<E> of()
+
+public V2 get(Object key)
+public static FluentIterable<E> of()
+
+public V2 get(Object key)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V2 get(Object key)
+public static FluentIterable<E> of()
+
+public V2 get(Object key)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super T> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super T> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(Consumer<? super T> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super T> action)
+public static FluentIterable<E> of()
+
+public static ImmutableList<Path> listFiles(Path dir) throws IOException
+public static FluentIterable<E> of()
+
+public static ImmutableList<Path> listFiles(Path dir) throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static ImmutableList<Path> listFiles(Path dir) throws IOException
+public static FluentIterable<E> of()
+
+public static ImmutableList<Path> listFiles(Path dir) throws IOException
+public static FluentIterable<E> of()
+
+public Guard newGuard(final BooleanSupplier isSatisfied)
+public static FluentIterable<E> of()
+
+public Guard newGuard(final BooleanSupplier isSatisfied)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Guard newGuard(final BooleanSupplier isSatisfied)
+public static FluentIterable<E> of()
+
+public Guard newGuard(final BooleanSupplier isSatisfied)
+public static FluentIterable<E> of()
+
+public boolean removeIf(java.util.function.Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(java.util.function.Predicate<? super E> filter)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean removeIf(java.util.function.Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(java.util.function.Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+Iterator<Entry<V, K>> entryIterator()
+public static FluentIterable<E> of()
+
+Iterator<Entry<V, K>> entryIterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Iterator<Entry<V, K>> entryIterator()
+public static FluentIterable<E> of()
+
+Iterator<Entry<V, K>> entryIterator()
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> preOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> preOrderTraversal(final T root)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final FluentIterable<T> preOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+public final FluentIterable<T> preOrderTraversal(final T root)
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super K, ? super V2> action)
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super K, ? super V2> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(BiConsumer<? super K, ? super V2> action)
+public static FluentIterable<E> of()
+
+public void forEach(BiConsumer<? super K, ? super V2> action)
+public static FluentIterable<E> of()
+
+public static java.util.Optional<T> findLast(Stream<T> stream)
+public static FluentIterable<E> of()
+
+public static java.util.Optional<T> findLast(Stream<T> stream)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static java.util.Optional<T> findLast(Stream<T> stream)
+public static FluentIterable<E> of()
+
+public static java.util.Optional<T> findLast(Stream<T> stream)
+public static FluentIterable<E> of()
+
+static RegularImmutableTable<R, C, V> forCells(List<Cell<R, C, V>> cells, @Nullable final Comparator<? super R> rowComparator, @Nullable final Comparator<? super C> columnComparator)
+public static FluentIterable<E> of()
+
+static RegularImmutableTable<R, C, V> forCells(List<Cell<R, C, V>> cells, @Nullable final Comparator<? super R> rowComparator, @Nullable final Comparator<? super C> columnComparator)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static RegularImmutableTable<R, C, V> forCells(List<Cell<R, C, V>> cells, @Nullable final Comparator<? super R> rowComparator, @Nullable final Comparator<? super C> columnComparator)
+public static FluentIterable<E> of()
+
+static RegularImmutableTable<R, C, V> forCells(List<Cell<R, C, V>> cells, @Nullable final Comparator<? super R> rowComparator, @Nullable final Comparator<? super C> columnComparator)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super Entry<K, V>> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super Entry<K, V>> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(Consumer<? super Entry<K, V>> action)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super Entry<K, V>> action)
+public static FluentIterable<E> of()
+
+Builder<R, C, V> combine(Builder<R, C, V> other)
+public static FluentIterable<E> of()
+
+Builder<R, C, V> combine(Builder<R, C, V> other)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Builder<R, C, V> combine(Builder<R, C, V> other)
+public static FluentIterable<E> of()
+
+Builder<R, C, V> combine(Builder<R, C, V> other)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> addException(@Nullable Collection<IOException> exceptions, IOException e)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> addException(@Nullable Collection<IOException> exceptions, IOException e)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static Collection<IOException> addException(@Nullable Collection<IOException> exceptions, IOException e)
+public static FluentIterable<E> of()
+
+private static Collection<IOException> addException(@Nullable Collection<IOException> exceptions, IOException e)
+public static FluentIterable<E> of()
+
+Spliterator<Entry<C, V>> entrySpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Entry<C, V>> entrySpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<Entry<C, V>> entrySpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Entry<C, V>> entrySpliterator()
+public static FluentIterable<E> of()
+
+void forEach(Consumer<? super E> action)
+public static FluentIterable<E> of()
+
+void forEach(Consumer<? super E> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+void forEach(Consumer<? super E> action)
+public static FluentIterable<E> of()
+
+void forEach(Consumer<? super E> action)
+public static FluentIterable<E> of()
+
+ToOptionalState combine(ToOptionalState other)
+public static FluentIterable<E> of()
+
+ToOptionalState combine(ToOptionalState other)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+ToOptionalState combine(ToOptionalState other)
+public static FluentIterable<E> of()
+
+ToOptionalState combine(ToOptionalState other)
+public static FluentIterable<E> of()
+
+static Spliterator<T> filter(Spliterator<T> fromSpliterator, Predicate<? super T> predicate)
+public static FluentIterable<E> of()
+
+static Spliterator<T> filter(Spliterator<T> fromSpliterator, Predicate<? super T> predicate)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Spliterator<T> filter(Spliterator<T> fromSpliterator, Predicate<? super T> predicate)
+public static FluentIterable<E> of()
+
+static Spliterator<T> filter(Spliterator<T> fromSpliterator, Predicate<? super T> predicate)
+public static FluentIterable<E> of()
+
+public static Iterable<T> cycle(final Iterable<T> iterable)
+public static FluentIterable<E> of()
+
+public static Iterable<T> cycle(final Iterable<T> iterable)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Iterable<T> cycle(final Iterable<T> iterable)
+public static FluentIterable<E> of()
+
+public static Iterable<T> cycle(final Iterable<T> iterable)
+public static FluentIterable<E> of()
+
+public boolean remove(Object key, Object value)
+public static FluentIterable<E> of()
+
+public boolean remove(Object key, Object value)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean remove(Object key, Object value)
+public static FluentIterable<E> of()
+
+public boolean remove(Object key, Object value)
+public static FluentIterable<E> of()
+
+Spliterator<V> valuesSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<V> valuesSpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<V> valuesSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<V> valuesSpliterator()
+public static FluentIterable<E> of()
+
+public static Stream<R> mapWithIndex(Stream<T> stream, FunctionWithIndex<? super T, ? extends R> function)
+public static FluentIterable<E> of()
+
+public static Stream<R> mapWithIndex(Stream<T> stream, FunctionWithIndex<? super T, ? extends R> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Stream<R> mapWithIndex(Stream<T> stream, FunctionWithIndex<? super T, ? extends R> function)
+public static FluentIterable<E> of()
+
+public static Stream<R> mapWithIndex(Stream<T> stream, FunctionWithIndex<? super T, ? extends R> function)
+public static FluentIterable<E> of()
+
+public static OptionalDouble findLast(DoubleStream stream)
+public static FluentIterable<E> of()
+
+public static OptionalDouble findLast(DoubleStream stream)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static OptionalDouble findLast(DoubleStream stream)
+public static FluentIterable<E> of()
+
+public static OptionalDouble findLast(DoubleStream stream)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+static Collector<T, ?, ImmutableSortedMap<K, V>> toImmutableSortedMap(Comparator<? super K> comparator, Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+Spliterator<V> valueSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<V> valueSpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<V> valueSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<V> valueSpliterator()
+public final int size()
+
+Spliterator<V> valueSpliterator()
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public static FluentIterable<E> of()
+
+static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public final int size()
+
+static Collector<E, ?, ImmutableList<E>> toImmutableList()
+public static FluentIterable<E> of()
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public final int size()
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+ArrayBasedBuilder<E> combine(ArrayBasedBuilder<E> builder)
+public static FluentIterable<E> of()
+
+ArrayBasedBuilder<E> combine(ArrayBasedBuilder<E> builder)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+ArrayBasedBuilder<E> combine(ArrayBasedBuilder<E> builder)
+public static FluentIterable<E> of()
+
+ArrayBasedBuilder<E> combine(ArrayBasedBuilder<E> builder)
+public final int size()
+
+ArrayBasedBuilder<E> combine(ArrayBasedBuilder<E> builder)
+public static FluentIterable<E> of()
+
+public final V remove(Object o)
+public static FluentIterable<E> of()
+
+public final V remove(Object o)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final V remove(Object o)
+public static FluentIterable<E> of()
+
+public final V remove(Object o)
+public final int size()
+
+public final V remove(Object o)
+public static FluentIterable<E> of()
+
+public final V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public final V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public final V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public final int size()
+
+public final V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableListMultimap<K, V>> toImmutableListMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableListMultimap<K, V>> toImmutableListMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Collector<T, ?, ImmutableListMultimap<K, V>> toImmutableListMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Collector<T, ?, ImmutableListMultimap<K, V>> toImmutableListMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public final int size()
+
+public static Collector<T, ?, ImmutableListMultimap<K, V>> toImmutableListMultimap(Function<? super T, ? extends K> keyFunction, Function<? super T, ? extends V> valueFunction)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Iterable<T> iterable)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Iterable<T> iterable)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Stream<T> stream(Iterable<T> iterable)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Iterable<T> iterable)
+public final int size()
+
+public static Stream<T> stream(Iterable<T> iterable)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super E> consumer)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super E> consumer)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEach(Consumer<? super E> consumer)
+public static FluentIterable<E> of()
+
+public void forEach(Consumer<? super E> consumer)
+public final int size()
+
+public void forEach(Consumer<? super E> consumer)
+public static FluentIterable<E> of()
+
+private BasicFileAttributes readAttributes() throws IOException
+public static FluentIterable<E> of()
+
+private BasicFileAttributes readAttributes() throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private BasicFileAttributes readAttributes() throws IOException
+public static FluentIterable<E> of()
+
+private BasicFileAttributes readAttributes() throws IOException
+public final int size()
+
+private BasicFileAttributes readAttributes() throws IOException
+public static FluentIterable<E> of()
+
+private static void acceptIfPresent(Consumer<? super T> action, Optional<T> node)
+public static FluentIterable<E> of()
+
+private static void acceptIfPresent(Consumer<? super T> action, Optional<T> node)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static void acceptIfPresent(Consumer<? super T> action, Optional<T> node)
+public static FluentIterable<E> of()
+
+private static void acceptIfPresent(Consumer<? super T> action, Optional<T> node)
+public final int size()
+
+private static void acceptIfPresent(Consumer<? super T> action, Optional<T> node)
+public static FluentIterable<E> of()
+
+public static Predicate<Path> isDirectory(LinkOption... options)
+public static FluentIterable<E> of()
+
+public static Predicate<Path> isDirectory(LinkOption... options)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Predicate<Path> isDirectory(LinkOption... options)
+public static FluentIterable<E> of()
+
+public static Predicate<Path> isDirectory(LinkOption... options)
+public final int size()
+
+public static Predicate<Path> isDirectory(LinkOption... options)
+public static FluentIterable<E> of()
+
+public final V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public static FluentIterable<E> of()
+
+public final V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public static FluentIterable<E> of()
+
+public final V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public final int size()
+
+public final V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)
+public static FluentIterable<E> of()
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public final int size()
+
+public V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super V> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super V> filter)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean removeIf(Predicate<? super V> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super V> filter)
+public final int size()
+
+public boolean removeIf(Predicate<? super V> filter)
+public static FluentIterable<E> of()
+
+Spliterator<Cell<R, C, V2>> cellSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Cell<R, C, V2>> cellSpliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Spliterator<Cell<R, C, V2>> cellSpliterator()
+public static FluentIterable<E> of()
+
+Spliterator<Cell<R, C, V2>> cellSpliterator()
+public final int size()
+
+Spliterator<Cell<R, C, V2>> cellSpliterator()
+public static FluentIterable<E> of()
+
+public void forEachEntry(ObjIntConsumer<? super E> action)
+public static FluentIterable<E> of()
+
+public void forEachEntry(ObjIntConsumer<? super E> action)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void forEachEntry(ObjIntConsumer<? super E> action)
+public static FluentIterable<E> of()
+
+public void forEachEntry(ObjIntConsumer<? super E> action)
+public final int size()
+
+public void forEachEntry(ObjIntConsumer<? super E> action)
+public static FluentIterable<E> of()
+
+ImmutableSet<Entry<K, V>> createEntrySet()
+public static FluentIterable<E> of()
+
+ImmutableSet<Entry<K, V>> createEntrySet()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+ImmutableSet<Entry<K, V>> createEntrySet()
+public static FluentIterable<E> of()
+
+ImmutableSet<Entry<K, V>> createEntrySet()
+public static FluentIterable<E> of()
+
+ImmutableSet<Entry<K, V>> createEntrySet()
+public final int size()
+
+ImmutableSet<Entry<K, V>> createEntrySet()
+public static FluentIterable<E> of()
+
+public long getAndAccumulate(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<E> of()
+
+public long getAndAccumulate(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long getAndAccumulate(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<E> of()
+
+public long getAndAccumulate(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<E> of()
+
+public long getAndAccumulate(K key, long x, LongBinaryOperator accumulatorFunction)
+public final int size()
+
+public long getAndAccumulate(K key, long x, LongBinaryOperator accumulatorFunction)
+public static FluentIterable<E> of()
+
+static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<E> of()
+
+static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<E> of()
+
+static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<E> of()
+
+static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public final int size()
+
+static Entry<Class<? extends B>, B> checkedEntry(final Entry<Class<? extends B>, B> entry)
+public static FluentIterable<E> of()
+
+private static boolean isDirectory(SecureDirectoryStream<Path> dir, Path name, LinkOption... options) throws IOException
+public static FluentIterable<E> of()
+
+private static boolean isDirectory(SecureDirectoryStream<Path> dir, Path name, LinkOption... options) throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+private static boolean isDirectory(SecureDirectoryStream<Path> dir, Path name, LinkOption... options) throws IOException
+public static FluentIterable<E> of()
+
+private static boolean isDirectory(SecureDirectoryStream<Path> dir, Path name, LinkOption... options) throws IOException
+public static FluentIterable<E> of()
+
+private static boolean isDirectory(SecureDirectoryStream<Path> dir, Path name, LinkOption... options) throws IOException
+public final int size()
+
+private static boolean isDirectory(SecureDirectoryStream<Path> dir, Path name, LinkOption... options) throws IOException
+public static FluentIterable<E> of()
+
+public static NavigableMap<K, V2> transformEntries(NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<E> of()
+
+public static NavigableMap<K, V2> transformEntries(NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static NavigableMap<K, V2> transformEntries(NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<E> of()
+
+public static NavigableMap<K, V2> transformEntries(NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<E> of()
+
+public static NavigableMap<K, V2> transformEntries(NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public final int size()
+
+public static NavigableMap<K, V2> transformEntries(NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<E> of()
+
+public boolean isSatisfied()
+public static FluentIterable<E> of()
+
+public boolean isSatisfied()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean isSatisfied()
+public static FluentIterable<E> of()
+
+public boolean isSatisfied()
+public static FluentIterable<E> of()
+
+public boolean isSatisfied()
+public final int size()
+
+public boolean isSatisfied()
+public static FluentIterable<E> of()
+
+public final V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public final V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public final V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public final V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public final int size()
+
+public final V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)
+public static FluentIterable<E> of()
+
+public OutputStream openStream() throws IOException
+public static FluentIterable<E> of()
+
+public OutputStream openStream() throws IOException
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public OutputStream openStream() throws IOException
+public static FluentIterable<E> of()
+
+public OutputStream openStream() throws IOException
+public static FluentIterable<E> of()
+
+public OutputStream openStream() throws IOException
+public final int size()
+
+public OutputStream openStream() throws IOException
+public static FluentIterable<E> of()
+
+public static NavigableMap<K, V2> transformEntries(final NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<E> of()
+
+public static NavigableMap<K, V2> transformEntries(final NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static NavigableMap<K, V2> transformEntries(final NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<E> of()
+
+public static NavigableMap<K, V2> transformEntries(final NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<E> of()
+
+public static NavigableMap<K, V2> transformEntries(final NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public final int size()
+
+public static NavigableMap<K, V2> transformEntries(final NavigableMap<K, V1> fromMap, EntryTransformer<? super K, ? super V1, V2> transformer)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Collection<T> collection)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Collection<T> collection)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Stream<T> stream(Collection<T> collection)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Collection<T> collection)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(Collection<T> collection)
+public final int size()
+
+public static Stream<T> stream(Collection<T> collection)
+public static FluentIterable<E> of()
+
+public final V replace(K key, V value)
+public static FluentIterable<E> of()
+
+public final V replace(K key, V value)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public final V replace(K key, V value)
+public static FluentIterable<E> of()
+
+public final V replace(K key, V value)
+public static FluentIterable<E> of()
+
+public final V replace(K key, V value)
+public final int size()
+
+public final V replace(K key, V value)
+public static FluentIterable<E> of()
+
+public void removeAllZeros()
+public static FluentIterable<E> of()
+
+public void removeAllZeros()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public void removeAllZeros()
+public static FluentIterable<E> of()
+
+public void removeAllZeros()
+public static FluentIterable<E> of()
+
+public void removeAllZeros()
+public final int size()
+
+public void removeAllZeros()
+public static FluentIterable<E> of()
+
+public Spliterator<Entry<K, V>> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<Entry<K, V>> spliterator()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Spliterator<Entry<K, V>> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<Entry<K, V>> spliterator()
+public static FluentIterable<E> of()
+
+public Spliterator<Entry<K, V>> spliterator()
+public final int size()
+
+public Spliterator<Entry<K, V>> spliterator()
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super Entry<K, V>> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super Entry<K, V>> filter)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean removeIf(Predicate<? super Entry<K, V>> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super Entry<K, V>> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super Entry<K, V>> filter)
+public final int size()
+
+public boolean removeIf(Predicate<? super Entry<K, V>> filter)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMultimap.Builder<K, V> other)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMultimap.Builder<K, V> other)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Builder<K, V> combine(ImmutableMultimap.Builder<K, V> other)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMultimap.Builder<K, V> other)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMultimap.Builder<K, V> other)
+public final int size()
+
+Builder<K, V> combine(ImmutableMultimap.Builder<K, V> other)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> builder)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> builder)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> builder)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> builder)
+public static FluentIterable<E> of()
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> builder)
+public final int size()
+
+Builder<K, V> combine(ImmutableMap.Builder<K, V> builder)
+public static FluentIterable<E> of()
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public final int size()
+
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> function)
+public static FluentIterable<E> of()
+
+public Optional<Long> sizeIfKnown()
+public static FluentIterable<E> of()
+
+public Optional<Long> sizeIfKnown()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Optional<Long> sizeIfKnown()
+public static FluentIterable<E> of()
+
+public Optional<Long> sizeIfKnown()
+public static FluentIterable<E> of()
+
+public Optional<Long> sizeIfKnown()
+public final int size()
+
+public Optional<Long> sizeIfKnown()
+public static FluentIterable<E> of()
+
+public static LongStream concat(LongStream... streams)
+public static FluentIterable<E> of()
+
+public static LongStream concat(LongStream... streams)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static LongStream concat(LongStream... streams)
+public static FluentIterable<E> of()
+
+public static LongStream concat(LongStream... streams)
+public static FluentIterable<E> of()
+
+public static LongStream concat(LongStream... streams)
+public final int size()
+
+public static LongStream concat(LongStream... streams)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(com.google.common.base.Optional<T> optional)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(com.google.common.base.Optional<T> optional)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public static Stream<T> stream(com.google.common.base.Optional<T> optional)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(com.google.common.base.Optional<T> optional)
+public static FluentIterable<E> of()
+
+public static Stream<T> stream(com.google.common.base.Optional<T> optional)
+public final int size()
+
+public static Stream<T> stream(com.google.common.base.Optional<T> optional)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public boolean removeIf(Predicate<? super E> filter)
+public final int size()
+
+public boolean removeIf(Predicate<? super E> filter)
+public static FluentIterable<E> of()
+
+public long getAndAdd(K key, long delta)
+public static FluentIterable<E> of()
+
+public long getAndAdd(K key, long delta)
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public long getAndAdd(K key, long delta)
+public static FluentIterable<E> of()
+
+public long getAndAdd(K key, long delta)
+public static FluentIterable<E> of()
+
+public long getAndAdd(K key, long delta)
+public final int size()
+
+public long getAndAdd(K key, long delta)
+public static FluentIterable<E> of()
+
+public Set<Entry<K, V>> entrySet()
+public static FluentIterable<E> of()
+
+public Set<Entry<K, V>> entrySet()
+public static FluentIterable<T> concat(Iterable<? extends T>... inputs)
+
+public Set<Entry<K, V>> entrySet()
+public static FluentIterable<E> of()
+
+public Set<Entry<K, V>> entrySet()
+public static FluentIterable<E> of()
+
+public Set<Entry<K, V>> entrySet()
+public final int size()
+
+public Set<Entry<K, V>> entrySet()
+public static FluentIterable<E> of()
+

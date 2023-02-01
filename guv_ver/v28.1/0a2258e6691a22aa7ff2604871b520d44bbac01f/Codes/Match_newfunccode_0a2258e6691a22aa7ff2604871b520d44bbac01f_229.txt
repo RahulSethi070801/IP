@@ -1,0 +1,17 @@
+private static int indexOfRandomAccess(List<?> list, @Nullable Object element) {
+    int size = list.size();
+    if (element == null) {
+        for (int i = 0; i < size; i++) {
+            if (list.get(i) == null) {
+                return i;
+            }
+        }
+    } else {
+        for (int i = 0; i < size; i++) {
+            if (element.equals(list.get(i))) {
+                return i;
+            }
+        }
+    }
+    return -1;
+}

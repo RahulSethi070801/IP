@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "34": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "141": "  Collection<V> createCollection(@Nullable K key) {\n",
+        "166": "  public NavigableSet<V> get(@Nullable K key) {\n"
+    },
+    "removed": {
+        "34": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "141": "  Collection<V> createCollection(@NullableDecl K key) {\n",
+        "166": "  public NavigableSet<V> get(@NullableDecl K key) {\n"
+    }
+}

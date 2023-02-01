@@ -1,0 +1,5 @@
+@Override
+public void forEach(Consumer<? super T> action) {
+    checkNotNull(action);
+    fromCollection.forEach((F f) -> action.accept(function.apply(f)));
+}

@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "78": "            @NullableDecl T left, @NullableDecl T right, Comparator<T> comparator) {\n",
+        "134": "    public ComparisonChain compare(@NullableDecl Comparable left, @NullableDecl Comparable right) {\n",
+        "140": "        @NullableDecl T left, @NullableDecl T right, @NullableDecl Comparator<T> comparator) {\n",
+        "191": "      @NullableDecl T left, @NullableDecl T right, Comparator<T> comparator);\n"
+    },
+    "removed": {
+        "24": "import javax.annotation.Nullable;\n",
+        "78": "            @Nullable T left, @Nullable T right, Comparator<T> comparator) {\n",
+        "134": "    public ComparisonChain compare(@Nullable Comparable left, @Nullable Comparable right) {\n",
+        "140": "        @Nullable T left, @Nullable T right, @Nullable Comparator<T> comparator) {\n",
+        "191": "      @Nullable T left, @Nullable T right, Comparator<T> comparator);\n"
+    }
+}

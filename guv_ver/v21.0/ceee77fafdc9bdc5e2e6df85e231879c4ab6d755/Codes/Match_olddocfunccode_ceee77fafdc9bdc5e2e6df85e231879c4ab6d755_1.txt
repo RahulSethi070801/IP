@@ -1,0 +1,4 @@
+@Override
+public Set<E> edges() {
+    return edgeToReferenceNode.unmodifiableKeySet();
+}

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "43": "  public static boolean isCyclic(Graph<?> graph) {\n",
+        "66": "      Graph<?> graph, Map<Object, NodeVisitState> nodeToVisitState, Object node) {\n",
+        "98": "  public static <N> ImmutableSet<N> roots(Graph<N> graph) {\n"
+    },
+    "removed": {
+        "43": "  public static boolean isCyclic(Graph<?, ?> graph) {\n",
+        "66": "      Graph<?, ?> graph, Map<Object, NodeVisitState> nodeToVisitState, Object node) {\n",
+        "98": "  public static <N> ImmutableSet<N> roots(Graph<N, ?> graph) {\n"
+    }
+}

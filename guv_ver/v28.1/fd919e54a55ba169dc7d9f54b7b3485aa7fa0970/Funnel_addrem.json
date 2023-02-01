@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "28": " *\n",
+        "29": " * <pre>{@code\n",
+        "30": " * public enum PersonFunnel implements Funnel<Person> {\n",
+        "31": " *   INSTANCE;\n",
+        "32": " *   public void funnel(Person person, PrimitiveSink into) {\n",
+        "33": " *     into.putUnencodedChars(person.getFirstName())\n",
+        "34": " *         .putUnencodedChars(person.getLastName())\n",
+        "35": " *         .putInt(person.getAge());\n",
+        "36": " *   }\n",
+        "37": " * }\n",
+        "38": " * }</pre>\n"
+    },
+    "removed": {
+        "28": " * <pre>   {@code\n",
+        "29": " *   public enum PersonFunnel implements Funnel<Person> {\n",
+        "30": " *     INSTANCE;\n",
+        "31": " *     public void funnel(Person person, PrimitiveSink into) {\n",
+        "32": " *       into.putUnencodedChars(person.getFirstName())\n",
+        "33": " *           .putUnencodedChars(person.getLastName())\n",
+        "34": " *           .putInt(person.getAge());\n",
+        "35": " *     }\n",
+        "36": " *   }}</pre>\n"
+    }
+}

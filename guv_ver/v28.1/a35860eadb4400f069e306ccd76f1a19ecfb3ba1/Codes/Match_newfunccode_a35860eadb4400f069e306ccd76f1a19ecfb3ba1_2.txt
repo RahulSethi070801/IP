@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+N removeOutEdge(E edge);

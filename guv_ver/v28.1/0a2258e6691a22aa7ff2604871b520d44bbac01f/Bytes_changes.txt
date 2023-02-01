@@ -1,0 +1,4 @@
+Bytes
+Insertions: [30, 322]
+Deletions: [30, 322]
+guava/src/com/google/common/primitives/Bytes.java

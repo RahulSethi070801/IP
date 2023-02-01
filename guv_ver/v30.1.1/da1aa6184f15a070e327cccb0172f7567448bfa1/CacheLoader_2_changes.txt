@@ -1,0 +1,4 @@
+CacheLoader_2
+Insertions: [29, 156, 197, 199, 200, 201, 202, 203, 204, 205]
+Deletions: [155, 196, 198]
+guava/src/com/google/common/cache/CacheLoader.java

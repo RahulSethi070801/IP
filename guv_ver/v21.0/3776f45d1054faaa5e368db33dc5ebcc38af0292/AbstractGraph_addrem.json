@@ -1,0 +1,10 @@
+{
+    "addition": {},
+    "removed": {
+        "65": "    // Needed to enforce a symmetric equality relationship.\n",
+        "66": "    if (other instanceof Network) {\n",
+        "67": "      return false;\n",
+        "68": "    }\n",
+        "69": "\n"
+    }
+}

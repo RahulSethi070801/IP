@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "25": "@ElementTypesAreNonnullByDefault\n",
+        "26": "class ImmutableEntry<K extends @Nullable Object, V extends @Nullable Object>\n",
+        "27": "    extends AbstractMapEntry<K, V> implements Serializable {\n",
+        "28": "  @ParametricNullness final K key;\n",
+        "29": "  @ParametricNullness final V value;\n",
+        "31": "  ImmutableEntry(@ParametricNullness K key, @ParametricNullness V value) {\n",
+        "37": "  @ParametricNullness\n",
+        "38": "  public final K getKey() {\n",
+        "43": "  @ParametricNullness\n",
+        "44": "  public final V getValue() {\n",
+        "49": "  @ParametricNullness\n",
+        "50": "  public final V setValue(@ParametricNullness V value) {\n"
+    },
+    "removed": {
+        "25": "class ImmutableEntry<K, V> extends AbstractMapEntry<K, V> implements Serializable {\n",
+        "26": "  final @Nullable K key;\n",
+        "27": "  final @Nullable V value;\n",
+        "29": "  ImmutableEntry(@Nullable K key, @Nullable V value) {\n",
+        "35": "  public final @Nullable K getKey() {\n",
+        "40": "  public final @Nullable V getValue() {\n",
+        "45": "  public final V setValue(V value) {\n"
+    }
+}

@@ -1,0 +1,12 @@
+public static CharMatcher anyOf(final CharSequence sequence) {
+    switch(sequence.length()) {
+        case 0:
+            return none();
+        case 1:
+            return is(sequence.charAt(0));
+        case 2:
+            return isEither(sequence.charAt(0), sequence.charAt(1));
+        default:
+            return new AnyOf(sequence);
+    }
+}

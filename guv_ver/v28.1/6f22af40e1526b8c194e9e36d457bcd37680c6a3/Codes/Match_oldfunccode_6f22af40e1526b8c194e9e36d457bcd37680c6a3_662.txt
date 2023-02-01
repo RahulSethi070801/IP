@@ -1,0 +1,3 @@
+static boolean containsKeyImpl(Map<?, ?> map, @Nullable Object key) {
+    return Iterators.contains(keyIterator(map.entrySet().iterator()), key);
+}

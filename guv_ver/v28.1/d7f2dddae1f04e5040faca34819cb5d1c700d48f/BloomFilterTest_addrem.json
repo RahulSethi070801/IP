@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "56": "  /**\n",
+        "57": "   * Asserts that {@link BloomFilter#approximateCount} is within 1 percent of the expected value.\n",
+        "58": "   */\n",
+        "59": "  private static void assertApproximateCountGuess(BloomFilter<?> bf, int sizeGuess) {\n",
+        "60": "    assertThat(bf.approximateCount()).isAtLeast((long) (sizeGuess * 0.99));\n",
+        "61": "    assertThat(bf.approximateCount()).isAtMost((long) (sizeGuess * 1.01));\n",
+        "62": "  }\n",
+        "63": "\n",
+        "74": "    assertApproximateCountGuess(bf, numInsertions);\n",
+        "116": "    assertApproximateCountGuess(bf, numInsertions);\n",
+        "158": "    assertApproximateCountGuess(bf, numInsertions);\n",
+        "287": "  private static void checkSanity(BloomFilter<Object> bf) {\n",
+        "331": "  public void testApproximateCount() {\n",
+        "332": "    int numInsertions = 1000;\n",
+        "333": "    BloomFilter<Integer> bf = BloomFilter.create(Funnels.integerFunnel(), numInsertions);\n",
+        "334": "    bf.put(-1);\n",
+        "335": "    for (int i = 0; i < numInsertions; i++) {\n",
+        "336": "      bf.put(i);\n",
+        "337": "    }\n",
+        "338": "    assertApproximateCountGuess(bf, numInsertions);\n",
+        "339": "  }\n",
+        "340": "\n"
+    },
+    "removed": {
+        "276": "  private void checkSanity(BloomFilter<Object> bf) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+HashTestUtils_2
+Insertions: [622]
+Deletions: [622]
+guava-tests/test/com/google/common/hash/HashTestUtils.java

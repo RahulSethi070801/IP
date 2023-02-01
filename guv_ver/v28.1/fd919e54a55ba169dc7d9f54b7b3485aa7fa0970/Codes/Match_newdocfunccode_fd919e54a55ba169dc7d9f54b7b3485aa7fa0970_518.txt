@@ -1,0 +1,3 @@
+public static HashFunction murmur3_128() {
+    return Murmur3_128HashFunction.MURMUR3_128;
+}

@@ -1,0 +1,11 @@
+
+   * Returns true if there is an edge that directly connects {@code endpoints} (in the order, if
+   * any, specified by {@code endpoints}).
+   *
+   * <p>Unlike the other {@code EndpointPair}-accepting methods, this method does not throw if the
+   * endpoints are unordered and the graph is directed; it simply returns {@code false}. This is for
+   * consistency with {@link Graph#hasEdgeConnecting(EndpointPair)} and {@link
+   * ValueGraph#hasEdgeConnecting(EndpointPair)}.
+   *
+   * @since NEXT
+   

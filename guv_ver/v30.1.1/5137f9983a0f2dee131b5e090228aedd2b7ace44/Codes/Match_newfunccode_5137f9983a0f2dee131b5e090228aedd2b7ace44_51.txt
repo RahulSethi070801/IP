@@ -1,0 +1,9 @@
+@CheckForNull
+private static Collection<IOException> concat(@CheckForNull Collection<IOException> exceptions, @CheckForNull Collection<IOException> other) {
+    if (exceptions == null) {
+        return other;
+    } else if (other != null) {
+        exceptions.addAll(other);
+    }
+    return exceptions;
+}

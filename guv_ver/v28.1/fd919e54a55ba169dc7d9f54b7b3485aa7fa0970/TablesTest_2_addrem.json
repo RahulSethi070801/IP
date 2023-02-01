@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "122": "    Cell<String, Integer, Character> entry = Tables.immutableCell(\"foo\", 1, 'a');\n",
+        "127": "    Cell<String, Integer, Character> entry = Tables.immutableCell(\"foo\", 1, 'a');\n",
+        "130": "    Cell<String, Integer, Character> nullEntry = Tables.immutableCell(null, null, null);\n",
+        "135": "    Cell<String, Integer, Character> entry = Tables.immutableCell(\"foo\", 1, 'a');\n",
+        "147": "    Cell<String, Integer, Character> entry = Tables.immutableCell(null, null, null);\n"
+    },
+    "removed": {
+        "122": "    Cell<String, Integer, Character> entry\n",
+        "123": "        = Tables.immutableCell(\"foo\", 1, 'a');\n",
+        "128": "    Cell<String, Integer, Character> entry\n",
+        "129": "        = Tables.immutableCell(\"foo\", 1, 'a');\n",
+        "132": "    Cell<String, Integer, Character> nullEntry\n",
+        "133": "        = Tables.immutableCell(null, null, null);\n",
+        "138": "    Cell<String, Integer, Character> entry\n",
+        "139": "        = Tables.immutableCell(\"foo\", 1, 'a');\n",
+        "151": "    Cell<String, Integer, Character> entry\n",
+        "152": "        = Tables.immutableCell(null, null, null);\n"
+    }
+}

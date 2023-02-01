@@ -1,0 +1,4 @@
+Enums_2
+Insertions: [42, 43, 44, 61, 62, 100, 101, 102, 103]
+Deletions: [34, 43, 44, 45, 62, 63, 101, 102, 103, 104]
+guava/src/com/google/common/base/Enums.java

@@ -1,0 +1,9 @@
+@Beta
+protected int standardCount(@CheckForNull Object object) {
+    for (Entry<?> entry : this.entrySet()) {
+        if (Objects.equal(entry.getElement(), object)) {
+            return entry.getCount();
+        }
+    }
+    return 0;
+}

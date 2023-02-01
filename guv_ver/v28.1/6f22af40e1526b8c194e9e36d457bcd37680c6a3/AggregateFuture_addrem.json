@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "281": "    abstract void collectOneValue(\n",
+        "282": "        boolean allMustSucceed, int index, @NullableDecl InputT returnValue);\n"
+    },
+    "removed": {
+        "31": "import javax.annotation.Nullable;\n",
+        "281": "    abstract void collectOneValue(boolean allMustSucceed, int index, @Nullable InputT returnValue);\n"
+    }
+}

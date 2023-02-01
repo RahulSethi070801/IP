@@ -1,0 +1,4 @@
+@NullableDecl
+ImmutableMapEntry<K, V> getNextInKeyBucket() {
+    return null;
+}

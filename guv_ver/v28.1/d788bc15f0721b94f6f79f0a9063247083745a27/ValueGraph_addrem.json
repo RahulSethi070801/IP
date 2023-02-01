@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "160": "  /** {@inheritDoc} */\n",
+        "161": "  @Override\n",
+        "162": "  Set<EndpointPair<N>> incidentEdges(N node);\n",
+        "163": "\n"
+    },
+    "removed": {}
+}

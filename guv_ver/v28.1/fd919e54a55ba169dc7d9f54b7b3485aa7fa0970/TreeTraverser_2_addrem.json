@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "100": "  /** Returns the children of the specified node. Must not contain null. */\n"
+    },
+    "removed": {
+        "100": "  /**\n",
+        "101": "   * Returns the children of the specified node.  Must not contain null.\n",
+        "102": "   */\n"
+    }
+}

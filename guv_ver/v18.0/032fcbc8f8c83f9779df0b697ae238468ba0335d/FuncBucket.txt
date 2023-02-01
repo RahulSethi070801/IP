@@ -1,0 +1,15 @@
+com.google.common.util.concurrent.AbstractService
+stopAsync
+public final Service stopAsync()
+empty
+Service
+com.google.common.util.concurrent.AbstractService
+awaitTerminated
+public final void awaitTerminated(long timeout, TimeUnit unit) throws TimeoutException
+long,TimeUnit
+void
+com.google.common.util.concurrent.AbstractService
+stop
+public final ListenableFuture<State> stop()
+empty
+ListenableFuture

@@ -1,0 +1,4 @@
+SubscriberRegistryTest_2
+Insertions: [155, 161, 167, 185, 189]
+Deletions: [155, 156, 162, 163, 169, 170, 188, 189, 193, 194]
+guava-tests/test/com/google/common/eventbus/SubscriberRegistryTest.java

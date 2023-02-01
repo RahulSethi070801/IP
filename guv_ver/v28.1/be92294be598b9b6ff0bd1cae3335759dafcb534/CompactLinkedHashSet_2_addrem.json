@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "130": "    firstEntry = ENDPOINT;\n",
+        "131": "    lastEntry = ENDPOINT;\n",
+        "132": "  }\n",
+        "133": "\n",
+        "134": "  @Override\n",
+        "135": "  void allocArrays() {\n",
+        "136": "    super.allocArrays();\n",
+        "137": "    int expectedSize = elements.length; // allocated size may be different than initial capacity\n",
+        "182": "    if (needsAllocArrays()) {\n",
+        "183": "      return;\n",
+        "184": "    }\n",
+        "187": "    Arrays.fill(predecessor, 0, size(), UNSET);\n",
+        "188": "    Arrays.fill(successor, 0, size(), UNSET);\n",
+        "189": "    super.clear();\n"
+    },
+    "removed": {
+        "135": "    firstEntry = ENDPOINT;\n",
+        "136": "    lastEntry = ENDPOINT;\n",
+        "176": "    super.clear();\n",
+        "179": "    Arrays.fill(predecessor, UNSET);\n",
+        "180": "    Arrays.fill(successor, UNSET);\n"
+    }
+}

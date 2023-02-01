@@ -1,0 +1,5 @@
+@GwtIncompatible
+@Nullable
+private static Method getGetMethod() {
+    return getJlaMethod("getStackTraceElement", Throwable.class, int.class);
+}

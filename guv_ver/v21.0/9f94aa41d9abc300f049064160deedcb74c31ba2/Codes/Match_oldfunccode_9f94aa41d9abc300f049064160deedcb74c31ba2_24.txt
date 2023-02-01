@@ -1,0 +1,6 @@
+public CacheBuilder<K, V> expireAfterAccess(long duration, TimeUnit unit) {
+    checkState(expireAfterAccessNanos == UNSET_INT, "expireAfterAccess was already set to %s ns", expireAfterAccessNanos);
+    checkArgument(duration >= 0, "duration cannot be negative: %s %s", duration, unit);
+    this.expireAfterAccessNanos = unit.toNanos(duration);
+    return this;
+}

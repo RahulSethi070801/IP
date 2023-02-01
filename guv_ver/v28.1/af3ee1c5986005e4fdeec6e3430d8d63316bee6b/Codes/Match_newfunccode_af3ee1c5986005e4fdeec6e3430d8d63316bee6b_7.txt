@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean addEdge(EndpointPair<N> endpoints, E edge);

@@ -1,0 +1,6 @@
+public NetworkBuilder<N, E> expectedNodeCount(int expectedNodeCount)
+public GraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+
+public GraphBuilder<N, V> expectedNodeCount(int expectedNodeCount)
+private NetworkBuilder(boolean directed)
+

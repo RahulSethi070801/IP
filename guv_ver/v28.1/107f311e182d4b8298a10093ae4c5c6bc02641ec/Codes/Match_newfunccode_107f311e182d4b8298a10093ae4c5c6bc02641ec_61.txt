@@ -1,0 +1,3 @@
+public final void addCallback(FutureCallback<? super V> callback, Executor executor) {
+    Futures.addCallback(this, callback, executor);
+}

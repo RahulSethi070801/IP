@@ -1,0 +1,4 @@
+AsyncFunction
+Insertions: [29]
+Deletions: []
+guava/src/com/google/common/util/concurrent/AsyncFunction.java

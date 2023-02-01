@@ -1,0 +1,7 @@
+
+   * Copies all bytes from a file to an output stream.
+   *
+   * @param from the source file
+   * @param to the output stream
+   * @throws IOException if an I/O error occurs
+   

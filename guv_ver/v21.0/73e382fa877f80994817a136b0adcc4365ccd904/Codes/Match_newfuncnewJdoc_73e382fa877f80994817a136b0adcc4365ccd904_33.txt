@@ -1,0 +1,10 @@
+
+   * Returns {@code true} if for each range in {@code other} there exists a member range in this
+   * range set which {@linkplain Range#encloses encloses} it. Returns {@code true} if {@code other}
+   * is empty.
+   *
+   * <p>This is equivalent to checking if this range set {@link #encloses} each range in {@code
+   * other}.
+   *
+   * @since 21.0
+   

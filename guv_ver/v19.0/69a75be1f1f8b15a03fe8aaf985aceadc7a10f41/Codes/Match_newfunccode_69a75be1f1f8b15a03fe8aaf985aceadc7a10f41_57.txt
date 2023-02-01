@@ -1,0 +1,4 @@
+@Override
+public int drainTo(Collection<? super E> c, int maxElements) {
+    return delegate().drainTo(c, maxElements);
+}

@@ -1,0 +1,4 @@
+public static <N> ValueGraphBuilder<N, Object> from(ValueGraph<N, ?> graph) {
+    checkNotNull(graph);
+    return new ValueGraphBuilder<N, Object>(graph.isDirected()).allowsSelfLoops(graph.allowsSelfLoops()).nodeOrder(graph.nodeOrder());
+}

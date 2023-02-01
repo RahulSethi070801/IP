@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public V getValue() {
+    return value;
+}

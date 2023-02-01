@@ -1,0 +1,5 @@
+com.google.common.io.Resources
+getResource
+public static URL getResource(String resourceName)
+String
+URL

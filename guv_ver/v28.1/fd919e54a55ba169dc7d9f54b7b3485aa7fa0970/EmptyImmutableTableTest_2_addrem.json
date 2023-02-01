@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "32": "  @Override\n",
+        "33": "  Iterable<ImmutableTable<Character, Integer, String>> getTestInstances() {\n"
+    },
+    "removed": {
+        "32": "  @Override Iterable<ImmutableTable<Character, Integer, String>> getTestInstances() {\n"
+    }
+}

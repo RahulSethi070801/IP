@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "29": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "59": "  public boolean contains(@NullableDecl Object element) {\n",
+        "69": "  public int count(@NullableDecl Object element) {\n",
+        "81": "  public boolean add(@NullableDecl E element) {\n",
+        "88": "  public int add(@NullableDecl E element, int occurrences) {\n",
+        "94": "  public boolean remove(@NullableDecl Object element) {\n",
+        "100": "  public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "106": "  public int setCount(@NullableDecl E element, int count) {\n",
+        "112": "  public boolean setCount(@NullableDecl E element, int oldCount, int newCount) {\n",
+        "222": "  public boolean equals(@NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "29": "import javax.annotation.Nullable;\n",
+        "59": "  public boolean contains(@Nullable Object element) {\n",
+        "69": "  public int count(@Nullable Object element) {\n",
+        "81": "  public boolean add(@Nullable E element) {\n",
+        "88": "  public int add(@Nullable E element, int occurrences) {\n",
+        "94": "  public boolean remove(@Nullable Object element) {\n",
+        "100": "  public int remove(@Nullable Object element, int occurrences) {\n",
+        "106": "  public int setCount(@Nullable E element, int count) {\n",
+        "112": "  public boolean setCount(@Nullable E element, int oldCount, int newCount) {\n",
+        "222": "  public boolean equals(@Nullable Object object) {\n"
+    }
+}

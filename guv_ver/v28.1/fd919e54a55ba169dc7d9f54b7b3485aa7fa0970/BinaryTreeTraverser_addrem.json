@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "58": "  /** Returns the children of this node, in left-to-right order. */\n"
+    },
+    "removed": {
+        "58": "  /**\n",
+        "59": "   * Returns the children of this node, in left-to-right order.\n",
+        "60": "   */\n"
+    }
+}

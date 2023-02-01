@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "24": "import com.google.common.base.Optional;\n",
+        "497": "\n",
+        "498": "    @Override\n",
+        "499": "    public Optional<E> edgeConnecting(Object nodeU, Object nodeV) {\n",
+        "500": "      return network.edgeConnecting(nodeV, nodeU); // transpose\n",
+        "501": "    }\n"
+    },
+    "removed": {}
+}

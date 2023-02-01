@@ -1,0 +1,4 @@
+MapMakerSingleThreadBenchmark
+Insertions: []
+Deletions: [61]
+guava-tests/benchmark/com/google/common/collect/MapMakerSingleThreadBenchmark.java

@@ -1,0 +1,4 @@
+@Beta
+public String join(Iterator<? extends Entry<?, ?>> entries) {
+    return appendTo(new StringBuilder(), entries).toString();
+}

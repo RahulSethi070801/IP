@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "42": "import com.google.common.testing.CollectorTester;\n",
+        "457": "    public void testToImmutableList() {\n",
+        "458": "      CollectorTester.of(ImmutableList.<String>toImmutableList())\n",
+        "459": "          .expectCollects(ImmutableList.of(\"a\", \"b\", \"c\", \"d\"), \"a\", \"b\", \"c\", \"d\");\n",
+        "460": "    }\n"
+    },
+    "removed": {}
+}

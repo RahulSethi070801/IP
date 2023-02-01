@@ -1,0 +1,3 @@
+public long elapsed(TimeUnit desiredUnit) {
+    return desiredUnit.convert(elapsedNanos(), NANOSECONDS);
+}

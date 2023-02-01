@@ -1,0 +1,14 @@
+
+   * Returns the least of the specified values according to this ordering. If there are multiple
+   * least values, the first of those is returned.
+   *
+   * <p><b>Java 8 users:</b> Use {@code Collections.min(Arrays.asList(a, b, c...), thisComparator)}
+   * instead (but note that it does not guarantee which tied minimum element is returned).
+   *
+   * @param a value to compare, returned if less than or equal to the rest.
+   * @param b value to compare
+   * @param c value to compare
+   * @param rest values to compare
+   * @throws ClassCastException if the parameters are not <i>mutually comparable</i> under this
+   *     ordering.
+   

@@ -1,0 +1,8 @@
+private BiEntry<K, V> seekByValue(@Nullable Object value, int valueHash) {
+    for (BiEntry<K, V> entry = hashTableVToK[valueHash & mask]; entry != null; entry = entry.nextInVToKBucket) {
+        if (valueHash == entry.valueHash && Objects.equal(value, entry.value)) {
+            return entry;
+        }
+    }
+    return null;
+}

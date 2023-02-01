@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "29": " * Wraps a single-argument subscriber method on a specific object.\n",
+        "34": " * <p>Two EventSubscribers are equivalent when they refer to the same method on the\n",
+        "35": " * same object (not class).   This property is used to ensure that no subscriber\n",
+        "40": "class EventSubscriber {\n",
+        "42": "  /** Object sporting the subscriber method. */\n",
+        "44": "  /** Subscriber method. */\n",
+        "48": "   * Creates a new EventSubscriber to wrap {@code method} on @{code target}.\n",
+        "51": "   * @param method  subscriber method.\n",
+        "53": "  EventSubscriber(Object target, Method method) {\n",
+        "55": "        \"EventSubscriber target cannot be null.\");\n",
+        "56": "    Preconditions.checkNotNull(method, \"EventSubscriber method cannot be null.\");\n",
+        "64": "   * Invokes the wrapped subscriber method to handle {@code event}.\n",
+        "98": "    if (obj instanceof EventSubscriber) {\n",
+        "99": "      EventSubscriber that = (EventSubscriber) obj;\n",
+        "108": "  public Object getSubscriber() {\n",
+        "112": "  public Method getMethod() {\n"
+    },
+    "removed": {
+        "29": " * Wraps a single-argument 'handler' method on a specific object.\n",
+        "34": " * <p>Two EventHandlers are equivalent when they refer to the same method on the\n",
+        "35": " * same object (not class).   This property is used to ensure that no handler\n",
+        "40": "class EventHandler {\n",
+        "42": "  /** Object sporting the handler method. */\n",
+        "44": "  /** Handler method. */\n",
+        "48": "   * Creates a new EventHandler to wrap {@code method} on @{code target}.\n",
+        "51": "   * @param method  handler method.\n",
+        "53": "  EventHandler(Object target, Method method) {\n",
+        "55": "        \"EventHandler target cannot be null.\");\n",
+        "56": "    Preconditions.checkNotNull(method, \"EventHandler method cannot be null.\");\n",
+        "64": "   * Invokes the wrapped handler method to handle {@code event}.\n",
+        "98": "    if (obj instanceof EventHandler) {\n",
+        "99": "      EventHandler that = (EventHandler) obj;\n",
+        "108": "  Object getSubscriber() {\n",
+        "112": "  Method getMethod() {\n"
+    }
+}

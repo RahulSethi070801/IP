@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "173": "    @ExampleAnnotation\n",
+        "174": "    FOO,\n"
+    },
+    "removed": {
+        "173": "    @ExampleAnnotation FOO,\n"
+    }
+}

@@ -1,0 +1,15 @@
+static <K, V> MapMakerInternalMap<K, V, ? extends InternalEntry<K, V, ?>, ?> create(MapMaker builder) {
+    if (builder.getKeyStrength() == Strength.STRONG && builder.getValueStrength() == Strength.STRONG) {
+        return new MapMakerInternalMap<K, V, StrongKeyStrongValueEntry<K, V>, StrongKeyStrongValueSegment<K, V>>(builder, StrongKeyStrongValueEntry.Helper.<K, V>instance());
+    }
+    if (builder.getKeyStrength() == Strength.STRONG && builder.getValueStrength() == Strength.WEAK) {
+        return new MapMakerInternalMap<K, V, StrongKeyWeakValueEntry<K, V>, StrongKeyWeakValueSegment<K, V>>(builder, StrongKeyWeakValueEntry.Helper.<K, V>instance());
+    }
+    if (builder.getKeyStrength() == Strength.WEAK && builder.getValueStrength() == Strength.STRONG) {
+        return new MapMakerInternalMap<K, V, WeakKeyStrongValueEntry<K, V>, WeakKeyStrongValueSegment<K, V>>(builder, WeakKeyStrongValueEntry.Helper.<K, V>instance());
+    }
+    if (builder.getKeyStrength() == Strength.WEAK && builder.getValueStrength() == Strength.WEAK) {
+        return new MapMakerInternalMap<K, V, WeakKeyWeakValueEntry<K, V>, WeakKeyWeakValueSegment<K, V>>(builder, WeakKeyWeakValueEntry.Helper.<K, V>instance());
+    }
+    throw new AssertionError();
+}

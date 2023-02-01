@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "17": "import com.google.common.annotations.Beta;\n",
+        "21": " * <b>Do not use this class directly. For access to public-suffix information,\n",
+        "22": " * use {@link com.google.common.net.InternetDomainName}.</b>\n",
+        "23": " *\n",
+        "24": " * <p>Specifies the type of a top-level domain definition.\n",
+        "25": " *\n",
+        "26": " * @since NEXT\n",
+        "28": "@Beta\n",
+        "30": "public enum PublicSuffixType {\n",
+        "32": "  /** Public suffix that is provided by a private company, e.g. \"blogspot.com\" */\n",
+        "34": "  /** Public suffix that is backed by an ICANN-style domain name registry */\n",
+        "35": "  REGISTRY('!', '?');\n",
+        "67": "    return isPrivate ? PRIVATE : REGISTRY;\n"
+    },
+    "removed": {
+        "20": " * Specifies the type of a top-level domain definition.\n",
+        "23": "enum PublicSuffixType {\n",
+        "25": "  /** private definition of a top-level domain */\n",
+        "27": "  /** ICANN definition of a top-level domain */\n",
+        "28": "  ICANN('!', '?');\n",
+        "60": "    return isPrivate ? PRIVATE : ICANN;\n"
+    }
+}

@@ -1,0 +1,4 @@
+CompactLinkedHashMap
+Insertions: [104, 105, 106, 107, 108, 109, 173, 180, 182, 183, 184, 199, 200, 201, 204, 205]
+Deletions: [188]
+android/guava/src/com/google/common/collect/CompactLinkedHashMap.java

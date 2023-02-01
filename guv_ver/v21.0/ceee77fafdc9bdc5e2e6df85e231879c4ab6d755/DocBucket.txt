@@ -1,0 +1,40 @@
+com.google.common.graph.ValueGraphBuilder
+directed
+public static ValueGraphBuilder<Object, Object> directed()
+empty
+ValueGraphBuilder
+com.google.common.graph.ValueGraph
+hashCode
+int hashCode()
+empty
+int
+com.google.common.graph.ValueGraph
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.ConfigurableNetwork
+edges
+public Set<E> edges()
+empty
+Set
+com.google.common.graph.ValueGraphBuilder
+undirected
+public static ValueGraphBuilder<Object, Object> undirected()
+empty
+ValueGraphBuilder
+com.google.common.graph.Graphs
+inducedSubgraph
+public static MutableValueGraph<N, V> inducedSubgraph(ValueGraph<N, V> graph, Iterable<? extends N> nodes)
+ValueGraph,Iterable
+MutableValueGraph
+com.google.common.graph.ValueGraph
+edgeValueOrDefault
+V edgeValueOrDefault(Object nodeA, Object nodeB, @Nullable V defaultValue)
+Object,Object,V
+V
+com.google.common.graph.ValueGraphBuilder
+nodeOrder
+public ValueGraphBuilder<N1, V> nodeOrder(ElementOrder<N1> nodeOrder)
+ElementOrder
+ValueGraphBuilder

@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "41": "public void testEntriesSpliterator() throws Exception {\n",
+        "42": "  com.google.common.collect.LinkedHashMultimapTest testCase = new com.google.common.collect.LinkedHashMultimapTest();\n",
+        "43": "  testCase.testEntriesSpliterator();\n",
+        "44": "}\n",
+        "45": "\n",
+        "46": "public void testKeysSpliterator() throws Exception {\n",
+        "47": "  com.google.common.collect.LinkedHashMultimapTest testCase = new com.google.common.collect.LinkedHashMultimapTest();\n",
+        "48": "  testCase.testKeysSpliterator();\n",
+        "49": "}\n",
+        "50": "\n",
+        "95": "\n",
+        "96": "public void testValuesSpliterator() throws Exception {\n",
+        "97": "  com.google.common.collect.LinkedHashMultimapTest testCase = new com.google.common.collect.LinkedHashMultimapTest();\n",
+        "98": "  testCase.testValuesSpliterator();\n",
+        "99": "}\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,10 @@
+public int count(Comparator<? super E> comparator, E e) {
+    int cmp = comparator.compare(e, elem);
+    if (cmp < 0) {
+        return (left == null) ? 0 : left.count(comparator, e);
+    } else if (cmp > 0) {
+        return (right == null) ? 0 : right.count(comparator, e);
+    } else {
+        return elemCount;
+    }
+}

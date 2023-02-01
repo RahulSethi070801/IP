@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "37": "    assertThat(findClassesToTest(ImmutableList.of(EmptyTest.class))).isEmpty();\n",
+        "38": "    assertThat(findClassesToTest(ImmutableList.of(EmptyTests.class))).isEmpty();\n",
+        "39": "    assertThat(findClassesToTest(ImmutableList.of(EmptyTestCase.class))).isEmpty();\n",
+        "40": "    assertThat(findClassesToTest(ImmutableList.of(EmptyTestSuite.class))).isEmpty();\n",
+        "51": "    assertThat(findClassesToTest(ImmutableList.of(Foo.class))).isEmpty();\n",
+        "57": "    assertThat(findClassesToTest(ImmutableList.of(PublicFoo.class))).isEmpty();\n",
+        "78": "    assertThat(findClassesToTest(classes, \"testPublic\")).isEmpty();\n",
+        "79": "    assertThat(findClassesToTest(classes, \"testNotThere\", \"testPublic\")).isEmpty();\n"
+    },
+    "removed": {
+        "37": "    assertThat(findClassesToTest(ImmutableList.of(EmptyTest.class)))\n",
+        "38": "        .isEmpty();\n",
+        "39": "    assertThat(findClassesToTest(ImmutableList.of(EmptyTests.class)))\n",
+        "40": "        .isEmpty();\n",
+        "41": "    assertThat(findClassesToTest(ImmutableList.of(EmptyTestCase.class)))\n",
+        "42": "        .isEmpty();\n",
+        "43": "    assertThat(findClassesToTest(ImmutableList.of(EmptyTestSuite.class)))\n",
+        "44": "        .isEmpty();\n",
+        "55": "    assertThat(findClassesToTest(ImmutableList.of(Foo.class)))\n",
+        "56": "        .isEmpty();\n",
+        "62": "    assertThat(findClassesToTest(ImmutableList.of(PublicFoo.class)))\n",
+        "63": "        .isEmpty();\n",
+        "84": "    assertThat(findClassesToTest(classes, \"testPublic\"))\n",
+        "85": "        .isEmpty();\n",
+        "86": "    assertThat(findClassesToTest(classes, \"testNotThere\", \"testPublic\"))\n",
+        "87": "        .isEmpty();\n"
+    }
+}

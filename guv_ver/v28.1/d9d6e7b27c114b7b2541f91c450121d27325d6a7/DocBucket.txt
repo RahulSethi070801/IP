@@ -1,0 +1,5 @@
+com.google.common.hash.Murmur3_32HashFunction
+hashUnencodedChars
+public HashCode hashUnencodedChars(CharSequence input)
+CharSequence
+HashCode

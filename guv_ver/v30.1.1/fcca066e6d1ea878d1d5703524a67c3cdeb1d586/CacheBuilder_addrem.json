@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "100": " * <p>These features are all optional; caches can be created using all or none of them. By default,\n",
+        "234": "  /*\n",
+        "235": "   * We avoid using a method reference here for now: Inside Google, CacheBuilder is used from the\n",
+        "236": "   * implementation of a custom ClassLoader that is sometimes used as a system classloader. That's a\n",
+        "237": "   * problem because method-reference linking tries to look up the system classloader, and it fails\n",
+        "238": "   * because there isn't one yet.\n",
+        "239": "   *\n",
+        "240": "   * I would have guessed that a lambda would produce the same problem, but maybe it's safe because\n",
+        "241": "   * the lambda implementation is generated as a method in the _same class_ as the usage?\n",
+        "242": "   */\n",
+        "243": "  static final Supplier<StatsCounter> CACHE_STATS_COUNTER = () -> new SimpleStatsCounter();\n",
+        "831": "   * same instance, but only the returned reference has the correct generic type information to\n",
+        "832": "   * ensure type safety. For best results, use the standard method-chaining idiom illustrated in the\n",
+        "833": "   * class documentation above, configuring a builder and building your cache in a single statement.\n",
+        "834": "   * Failure to heed this advice can result in a {@link ClassCastException} being thrown by a cache\n",
+        "835": "   * operation at some <i>undefined</i> point in the future.\n"
+    },
+    "removed": {
+        "100": " * <p>These features are all optional; caches can be created using all or none of them. By default\n",
+        "234": "  static final Supplier<StatsCounter> CACHE_STATS_COUNTER =\n",
+        "235": "      new Supplier<StatsCounter>() {\n",
+        "236": "        @Override\n",
+        "237": "        public StatsCounter get() {\n",
+        "238": "          return new SimpleStatsCounter();\n",
+        "239": "        }\n",
+        "240": "      };\n",
+        "828": "   * same instance, but only the returned reference has the correct generic type information so as\n",
+        "829": "   * to ensure type safety. For best results, use the standard method-chaining idiom illustrated in\n",
+        "830": "   * the class documentation above, configuring a builder and building your cache in a single\n",
+        "831": "   * statement. Failure to heed this advice can result in a {@link ClassCastException} being thrown\n",
+        "832": "   * by a cache operation at some <i>undefined</i> point in the future.\n"
+    }
+}

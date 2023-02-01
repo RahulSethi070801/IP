@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "51": "   * Ensures that all interface methods of {@code forwarderClass} are forwarded to the {@link\n",
+        "52": "   * ForwardingObject#delegate}. {@code forwarderClass} is assumed to only implement one interface.\n",
+        "56": "    Class<? super T> interfaceType =\n",
+        "57": "        (Class<? super T>) Iterables.getOnlyElement(Arrays.asList(forwarderClass.getInterfaces()));\n"
+    },
+    "removed": {
+        "50": "   * Ensures that all interface methods of {@code forwarderClass} are forwarded to the\n",
+        "51": "   * {@link ForwardingObject#delegate}. {@code forwarderClass} is assumed to only implement one\n",
+        "52": "   * interface.\n",
+        "56": "    Class<? super T> interfaceType = (Class<? super T>)\n",
+        "57": "        Iterables.getOnlyElement(Arrays.asList(forwarderClass.getInterfaces()));\n"
+    }
+}

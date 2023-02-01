@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "25": " * Test {@link Multimap#asMap()} for a {@link Multimaps#forMap} multimap with {@link\n",
+        "26": " * MapInterfaceTest}.\n",
+        "31": "public class ForMapMultimapAsMapImplementsMapTest extends AbstractMultimapAsMapImplementsMapTest {\n",
+        "37": "  @Override\n",
+        "38": "  protected Map<String, Collection<Integer>> makeEmptyMap() {\n",
+        "43": "  @Override\n",
+        "44": "  protected Map<String, Collection<Integer>> makePopulatedMap() {\n",
+        "52": "  @Override\n",
+        "53": "  public void testEntrySetRemoveAllNullFromEmpty() {\n",
+        "61": "  @Override\n",
+        "62": "  public void testEntrySetRetainAllNullFromEmpty() {\n",
+        "70": "  @Override\n",
+        "71": "  public void testKeySetRemoveAllNullFromEmpty() {\n",
+        "79": "  @Override\n",
+        "80": "  public void testKeySetRetainAllNullFromEmpty() {\n",
+        "88": "  @Override\n",
+        "89": "  public void testValuesRemoveAllNullFromEmpty() {\n",
+        "97": "  @Override\n",
+        "98": "  public void testValuesRetainAllNullFromEmpty() {\n"
+    },
+    "removed": {
+        "25": " * Test {@link Multimap#asMap()} for a {@link Multimaps#forMap} multimap with\n",
+        "26": " * {@link MapInterfaceTest}.\n",
+        "31": "public class ForMapMultimapAsMapImplementsMapTest\n",
+        "32": "    extends AbstractMultimapAsMapImplementsMapTest {\n",
+        "38": "  @Override protected Map<String, Collection<Integer>> makeEmptyMap() {\n",
+        "43": "  @Override protected Map<String, Collection<Integer>> makePopulatedMap() {\n",
+        "51": "  @Override public void testEntrySetRemoveAllNullFromEmpty() {\n",
+        "59": "  @Override public void testEntrySetRetainAllNullFromEmpty() {\n",
+        "67": "  @Override public void testKeySetRemoveAllNullFromEmpty() {\n",
+        "75": "  @Override public void testKeySetRetainAllNullFromEmpty() {\n",
+        "83": "  @Override public void testValuesRemoveAllNullFromEmpty() {\n",
+        "91": "  @Override public void testValuesRetainAllNullFromEmpty() {\n"
+    }
+}

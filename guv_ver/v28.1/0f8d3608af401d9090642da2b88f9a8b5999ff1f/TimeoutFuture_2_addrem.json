@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "37": "final class TimeoutFuture<V> extends FluentFuture.TrustedFuture<V> {\n"
+    },
+    "removed": {
+        "37": "final class TimeoutFuture<V> extends AbstractFuture.TrustedFuture<V> {\n"
+    }
+}

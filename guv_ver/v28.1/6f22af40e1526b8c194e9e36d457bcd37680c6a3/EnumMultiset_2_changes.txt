@@ -1,0 +1,4 @@
+EnumMultiset_2
+Insertions: [34, 97, 111, 129, 161]
+Deletions: [34, 97, 111, 129, 161]
+guava/src/com/google/common/collect/EnumMultiset.java

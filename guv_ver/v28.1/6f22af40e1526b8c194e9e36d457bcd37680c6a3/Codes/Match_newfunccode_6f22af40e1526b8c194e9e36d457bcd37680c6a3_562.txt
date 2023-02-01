@@ -1,0 +1,8 @@
+static ParameterizedType newParameterizedTypeWithOwner(@NullableDecl Type ownerType, Class<?> rawType, Type... arguments) {
+    if (ownerType == null) {
+        return newParameterizedType(rawType, arguments);
+    }
+    checkNotNull(arguments);
+    checkArgument(rawType.getEnclosingClass() != null, "Owner type for unenclosed %s", rawType);
+    return new ParameterizedTypeImpl(ownerType, rawType, arguments);
+}

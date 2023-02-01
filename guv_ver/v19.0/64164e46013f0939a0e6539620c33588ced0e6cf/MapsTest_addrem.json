@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "97": "    } catch (IllegalArgumentException expected) {\n",
+        "790": "      assertThat(expected.getMessage()).contains(\"Multimaps.index\");\n"
+    },
+    "removed": {
+        "97": "    } catch (IllegalArgumentException ex) {\n"
+    }
+}

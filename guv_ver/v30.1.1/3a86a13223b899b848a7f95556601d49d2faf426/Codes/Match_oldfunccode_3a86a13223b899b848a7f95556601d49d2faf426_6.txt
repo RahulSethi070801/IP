@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+@Override
+public E poll() {
+    return isEmpty() ? null : removeAndGet(0);
+}

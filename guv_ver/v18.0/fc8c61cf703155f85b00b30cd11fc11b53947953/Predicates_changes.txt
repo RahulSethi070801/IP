@@ -1,0 +1,4 @@
+Predicates
+Insertions: [234, 439]
+Deletions: [234, 437]
+guava-gwt/src-super/com/google/common/base/super/com/google/common/base/Predicates.java

@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "54": "  public static <T> T firstNonNull(@NullableDecl T first, @NullableDecl T second) {\n",
+        "170": "    public ToStringHelper add(String name, @NullableDecl Object value) {\n",
+        "241": "    public ToStringHelper addValue(@NullableDecl Object value) {\n",
+        "366": "    private ToStringHelper addHolder(@NullableDecl Object value) {\n",
+        "372": "    private ToStringHelper addHolder(String name, @NullableDecl Object value) {\n",
+        "380": "      @NullableDecl String name;\n",
+        "381": "      @NullableDecl Object value;\n",
+        "382": "      @NullableDecl ValueHolder next;\n"
+    },
+    "removed": {
+        "22": "import javax.annotation.Nullable;\n",
+        "54": "  public static <T> T firstNonNull(@Nullable T first, @Nullable T second) {\n",
+        "170": "    public ToStringHelper add(String name, @Nullable Object value) {\n",
+        "241": "    public ToStringHelper addValue(@Nullable Object value) {\n",
+        "366": "    private ToStringHelper addHolder(@Nullable Object value) {\n",
+        "372": "    private ToStringHelper addHolder(String name, @Nullable Object value) {\n",
+        "380": "      @Nullable String name;\n",
+        "381": "      @Nullable Object value;\n",
+        "382": "      @Nullable ValueHolder next;\n"
+    }
+}

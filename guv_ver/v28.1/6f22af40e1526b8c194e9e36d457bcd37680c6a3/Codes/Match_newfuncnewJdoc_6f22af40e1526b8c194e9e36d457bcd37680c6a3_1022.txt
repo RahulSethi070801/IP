@@ -1,0 +1,6 @@
+
+     * Adds an unnamed value to the formatted output.
+     *
+     * <p>It is strongly encouraged to use {@link #add(String, Object)} instead and give value a
+     * readable name.
+     

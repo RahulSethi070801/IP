@@ -1,0 +1,4 @@
+
+   * Returns the empty immutable set. Preferred over {@link Collections#emptySet} for code
+   * consistency, and because the return type conveys the immutability guarantee.
+   

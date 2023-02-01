@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "124": " *   private V value;\n",
+        "170": " *   private final Monitor monitor = new Monitor();\n",
+        "171": " *   private final Monitor.Guard valuePresent = monitor.newGuard(() -> value != null);\n",
+        "172": " *   private final Monitor.Guard valueAbsent = monitor.newGuard(() -> value == null);\n",
+        "363": "   * Creates a new {@linkplain Guard guard} for this monitor.\n",
+        "365": "   * @param isSatisfied the new guard's boolean condition (see {@link Guard#isSatisfied\n",
+        "366": "   *     isSatisfied()})\n",
+        "1028": "      throw throwable;\n"
+    },
+    "removed": {
+        "21": "import com.google.common.base.Throwables;\n",
+        "128": " *   private V value;\n",
+        "170": " *   private final Monitor monitor = new Monitor();\n",
+        "171": " *   private final Monitor.Guard valuePresent = new Monitor.Guard(monitor) {\n",
+        "172": " *     public boolean isSatisfied() {\n",
+        "173": " *       return value != null;\n",
+        "174": " *     }\n",
+        "175": " *   };\n",
+        "176": " *   private final Monitor.Guard valueAbsent = new Monitor.Guard(monitor) {\n",
+        "177": " *     public boolean isSatisfied() {\n",
+        "178": " *       return value == null;\n",
+        "179": " *     }\n",
+        "180": " *   };\n",
+        "372": "   * Creates a new {@link Guard} for {@code this} monitor. @Param isSatisfied The guards boolean\n",
+        "373": "   * condition. See {@link Guard#isSatisfied}.\n",
+        "1036": "      throw Throwables.propagate(throwable);\n"
+    }
+}

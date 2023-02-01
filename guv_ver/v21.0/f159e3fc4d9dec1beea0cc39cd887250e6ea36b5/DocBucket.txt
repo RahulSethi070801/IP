@@ -1,0 +1,10 @@
+com.google.common.graph.Network
+adjacentEdges
+Set<E> adjacentEdges(Object edge)
+Object
+Set
+com.google.common.graph.MutableGraph
+removeNode
+boolean removeNode(Object node)
+Object
+boolean

@@ -1,0 +1,4 @@
+CharSource_2
+Insertions: [42, 85, 312, 313, 369, 370, 601, 613, 614]
+Deletions: [310, 366, 608]
+guava/src/com/google/common/io/CharSource.java

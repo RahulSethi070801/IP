@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "76": "     * @see Graph#addEdge(E, N, N)\n"
+    },
+    "removed": {
+        "76": "     * @see Graph#addEdge\n"
+    }
+}

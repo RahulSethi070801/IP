@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "34": "    outer.add(\"foo\"); // necessary because we try to remove elements later on\n",
+        "174": "    create().toArray(new String[] {\"foo\"});\n"
+    },
+    "removed": {
+        "34": "    outer.add(\"foo\");  // necessary because we try to remove elements later on\n",
+        "174": "    create().toArray(new String[] { \"foo\" });\n"
+    }
+}

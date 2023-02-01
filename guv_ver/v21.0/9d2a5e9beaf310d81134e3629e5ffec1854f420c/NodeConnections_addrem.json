@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "57": "   * Remove {@code edge} from the set of incoming edges. Returns the former predecessor node,\n",
+        "58": "   * or null if the edge did not exist.\n",
+        "61": "  N removeInEdge(Object edge, boolean isSelfLoop);\n",
+        "64": "   * Remove {@code edge} from the set of outgoing edges. Returns the former successor node,\n",
+        "65": "   * or null if the edge did not exist.\n",
+        "72": "   * Returns false if the edge already existed.\n",
+        "75": "  boolean addInEdge(E edge, N node, boolean isSelfLoop);\n",
+        "79": "   * Returns false if the edge already existed.\n"
+    },
+    "removed": {
+        "57": "   * Remove {@code edge} from the set of incoming edges. Returns the former predecessor node.\n",
+        "60": "  N removeInEdge(Object edge);\n",
+        "63": "   * Remove {@code edge} from the set of outgoing edges. Returns the former successor node.\n",
+        "70": "   * Returns true if the edge did not already exist.\n",
+        "73": "  boolean addInEdge(E edge, N node);\n",
+        "77": "   * Returns true if the edge did not already exist.\n"
+    }
+}

@@ -1,0 +1,8 @@
+@Override
+public void writeByte(int v) {
+    try {
+        output.writeByte(v);
+    } catch (IOException impossible) {
+        throw new AssertionError(impossible);
+    }
+}

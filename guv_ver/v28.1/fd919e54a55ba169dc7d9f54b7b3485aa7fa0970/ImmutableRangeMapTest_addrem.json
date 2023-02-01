@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "198": "          assertEquals(\n",
+        "199": "              ImmutableList.copyOf(asMap.entrySet()).reverse(),\n",
+        "216": "                ImmutableRangeMap.<Integer, Integer>builder().put(range1, 1).put(range2, 2).build();\n",
+        "245": "            .build();\n"
+    },
+    "removed": {
+        "197": "          assertEquals(ImmutableList.copyOf(asMap.entrySet()).reverse(),\n",
+        "214": "                ImmutableRangeMap.<Integer, Integer>builder()\n",
+        "215": "                  .put(range1, 1).put(range2, 2).build();\n",
+        "244": "        .build();\n"
+    }
+}

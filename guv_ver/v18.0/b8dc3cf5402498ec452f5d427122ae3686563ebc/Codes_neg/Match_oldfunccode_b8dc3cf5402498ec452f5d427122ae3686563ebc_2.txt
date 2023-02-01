@@ -1,0 +1,3 @@
+static RateLimiter createBursty(double permitsPerSecond, long maxBurstBuildup, TimeUnit unit) {
+    return createBursty(SleepingTicker.SYSTEM_TICKER, permitsPerSecond, maxBurstBuildup, unit);
+}

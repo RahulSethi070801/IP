@@ -1,0 +1,3 @@
+public static <V> FluentFuture<V> from(ListenableFuture<V> future) {
+    return future instanceof FluentFuture ? (FluentFuture<V>) future : new ForwardingFluentFuture<V>(future);
+}

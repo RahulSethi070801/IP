@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "40": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "100": "  static boolean safeContains(Collection<?> collection, @Nullable Object object) {\n",
+        "113": "  static boolean safeRemove(Collection<?> collection, @Nullable Object object) {\n",
+        "156": "    public boolean contains(@Nullable Object element) {\n",
+        "497": "    public boolean contains(@Nullable Object obj) {\n",
+        "512": "    @Nullable List<E> nextPermutation;\n",
+        "608": "    public boolean contains(@Nullable Object obj) {\n"
+    },
+    "removed": {
+        "40": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "100": "  static boolean safeContains(Collection<?> collection, @NullableDecl Object object) {\n",
+        "113": "  static boolean safeRemove(Collection<?> collection, @NullableDecl Object object) {\n",
+        "156": "    public boolean contains(@NullableDecl Object element) {\n",
+        "497": "    public boolean contains(@NullableDecl Object obj) {\n",
+        "512": "    @NullableDecl List<E> nextPermutation;\n",
+        "608": "    public boolean contains(@NullableDecl Object obj) {\n"
+    }
+}

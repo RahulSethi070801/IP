@@ -1,0 +1,4 @@
+@CheckReturnValue
+public final String join(Iterable<?> parts) {
+    return join(parts.iterator());
+}

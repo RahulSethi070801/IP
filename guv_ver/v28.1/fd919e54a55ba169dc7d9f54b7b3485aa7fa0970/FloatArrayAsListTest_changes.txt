@@ -1,0 +1,4 @@
+FloatArrayAsListTest
+Insertions: [46, 55, 61, 67, 68, 69, 70, 71, 72, 81, 82, 88, 89, 97, 98, 106, 107, 122, 139, 140]
+Deletions: [46, 55, 56, 57, 60, 63, 65, 66, 72, 73, 74, 75, 76, 85, 91, 99, 107, 122, 123, 140, 141]
+android/guava-tests/test/com/google/common/primitives/FloatArrayAsListTest.java

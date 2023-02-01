@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "20": "import static java.util.Objects.requireNonNull;\n",
+        "26": "import javax.annotation.CheckForNull;\n",
+        "36": "@ElementTypesAreNonnullByDefault\n",
+        "39": "  @CheckForNull private CharSequence seq;\n",
+        "59": "    requireNonNull(seq); // safe as long as we call this only after checkOpen\n",
+        "63": "  /*\n",
+        "64": "   * To avoid the need to call requireNonNull so much, we could consider more clever approaches,\n",
+        "65": "   * such as:\n",
+        "66": "   *\n",
+        "67": "   * - Make checkOpen return the non-null `seq`. Then callers can assign that to a local variable or\n",
+        "68": "   *   even back to `this.seq`. However, that may suggest that we're defending against concurrent\n",
+        "69": "   *   mutation, which is not an actual risk because we use `synchronized`.\n",
+        "70": "   * - Make `remaining` require a non-null `seq` argument. But this is a bit weird because the\n",
+        "71": "   *   method, while it would avoid the instance field `seq` would still access the instance field\n",
+        "72": "   *   `pos`.\n",
+        "73": "   */\n",
+        "74": "\n",
+        "79": "    requireNonNull(seq); // safe because of checkOpen\n",
+        "93": "    requireNonNull(seq); // safe because of checkOpen\n",
+        "101": "    requireNonNull(seq); // safe because of checkOpen\n"
+    },
+    "removed": {
+        "36": "  private CharSequence seq;\n"
+    }
+}

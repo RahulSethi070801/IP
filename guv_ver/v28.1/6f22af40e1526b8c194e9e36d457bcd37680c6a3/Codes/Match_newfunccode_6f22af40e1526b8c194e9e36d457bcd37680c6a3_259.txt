@@ -1,0 +1,9 @@
+static <T extends Comparable> GeneralRange<T> from(Range<T> range) {
+    @NullableDecl
+    T lowerEndpoint = range.hasLowerBound() ? range.lowerEndpoint() : null;
+    BoundType lowerBoundType = range.hasLowerBound() ? range.lowerBoundType() : OPEN;
+    @NullableDecl
+    T upperEndpoint = range.hasUpperBound() ? range.upperEndpoint() : null;
+    BoundType upperBoundType = range.hasUpperBound() ? range.upperBoundType() : OPEN;
+    return new GeneralRange<T>(Ordering.natural(), range.hasLowerBound(), lowerEndpoint, lowerBoundType, range.hasUpperBound(), upperEndpoint, upperBoundType);
+}

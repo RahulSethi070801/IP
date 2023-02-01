@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "274": "   * generally edges are not considered to be self-adjacent.\n"
+    },
+    "removed": {
+        "37": " * <li>hyperedges (edges which are incident to arbitrary sets of nodes)\n",
+        "275": "   * generally for non-hypergraphs, edges are not considered to be self-adjacent.\n"
+    }
+}

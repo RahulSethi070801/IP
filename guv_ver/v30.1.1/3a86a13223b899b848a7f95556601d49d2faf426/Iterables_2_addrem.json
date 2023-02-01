@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "555": "  public static <T extends @Nullable Object> Iterable<List<@Nullable T>> paddedPartition(\n",
+        "559": "    return new FluentIterable<List<@Nullable T>>() {\n",
+        "561": "      public Iterator<List<@Nullable T>> iterator() {\n"
+    },
+    "removed": {
+        "555": "  public static <T extends @Nullable Object> Iterable<List<T>> paddedPartition(\n",
+        "559": "    return new FluentIterable<List<T>>() {\n",
+        "561": "      public Iterator<List<T>> iterator() {\n"
+    }
+}

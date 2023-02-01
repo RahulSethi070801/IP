@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "60": "    } catch (NoSuchElementException expected) {\n",
+        "61": "    }\n",
+        "68": "    } catch (NoSuchElementException expected) {\n",
+        "69": "    }\n"
+    },
+    "removed": {
+        "60": "    } catch (NoSuchElementException expected) {}\n",
+        "67": "    } catch (NoSuchElementException expected) {}\n"
+    }
+}

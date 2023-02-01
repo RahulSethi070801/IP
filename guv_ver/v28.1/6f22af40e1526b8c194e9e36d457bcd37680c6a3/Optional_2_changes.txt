@@ -1,0 +1,4 @@
+Optional_2
+Insertions: [24, 113, 123, 124, 141, 142, 236, 296]
+Deletions: [24, 113, 123, 124, 141, 142, 236, 296]
+guava/src/com/google/common/base/Optional.java

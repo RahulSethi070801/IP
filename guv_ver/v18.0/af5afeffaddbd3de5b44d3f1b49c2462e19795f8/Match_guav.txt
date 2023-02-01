@@ -1,0 +1,3 @@
+public static Integer tryParse(String string)
+public static Long tryParse(String string)
+

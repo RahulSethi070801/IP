@@ -1,0 +1,4 @@
+Funnels_2
+Insertions: [22, 103, 186]
+Deletions: [22, 103, 186]
+guava/src/com/google/common/hash/Funnels.java

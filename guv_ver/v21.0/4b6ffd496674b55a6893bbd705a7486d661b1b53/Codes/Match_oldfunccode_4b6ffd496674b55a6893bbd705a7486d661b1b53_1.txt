@@ -1,0 +1,34 @@
+public static <T> Iterator<T> concat(final Iterator<? extends Iterator<? extends T>> inputs) {
+    checkNotNull(inputs);
+    return new Iterator<T>() {
+
+        Iterator<? extends T> current = emptyIterator();
+
+        Iterator<? extends T> removeFrom;
+
+        @Override
+        public boolean hasNext() {
+            boolean currentHasNext;
+            while (!(currentHasNext = checkNotNull(current).hasNext()) && inputs.hasNext()) {
+                current = inputs.next();
+            }
+            return currentHasNext;
+        }
+
+        @Override
+        public T next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            removeFrom = current;
+            return current.next();
+        }
+
+        @Override
+        public void remove() {
+            checkRemove(removeFrom != null);
+            removeFrom.remove();
+            removeFrom = null;
+        }
+    };
+}

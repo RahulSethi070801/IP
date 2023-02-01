@@ -1,0 +1,130 @@
+com.google.common.graph.AbstractDirectedNetworkConnections
+oppositeNode
+public N oppositeNode(Object edge)
+Object
+N
+com.google.common.graph.AbstractDirectedNetworkConnections
+removeOutEdge
+public N removeOutEdge(E edge)
+E
+N
+com.google.common.graph.NetworkConnections
+removeOutEdge
+N removeOutEdge(E edge)
+E
+N
+com.google.common.graph.UndirectedGraphConnections
+removePredecessor
+public void removePredecessor(N node)
+N
+void
+com.google.common.graph.NetworkConnections
+oppositeNode
+N oppositeNode(Object edge)
+Object
+N
+com.google.common.graph.NetworkConnections
+adjacentNode
+N adjacentNode(E edge)
+E
+N
+com.google.common.graph.AbstractDirectedNetworkConnections
+removeInEdge
+public N removeInEdge(Object edge, boolean isSelfLoop)
+Object,boolean
+N
+com.google.common.graph.GraphConnections
+removeSuccessor
+V removeSuccessor(Object node)
+Object
+V
+com.google.common.graph.UndirectedGraphConnections
+removePredecessor
+public void removePredecessor(Object node)
+Object
+void
+com.google.common.graph.NetworkConnections
+removeInEdge
+N removeInEdge(Object edge, boolean isSelfLoop)
+Object,boolean
+N
+com.google.common.graph.ConfigurableMutableNetwork
+removeEdge
+public boolean removeEdge(E edge)
+E
+boolean
+com.google.common.graph.NetworkConnections
+removeOutEdge
+N removeOutEdge(Object edge)
+Object
+N
+com.google.common.graph.GraphConnections
+value
+V value(Object node)
+Object
+V
+com.google.common.graph.GraphConnections
+removePredecessor
+void removePredecessor(Object node)
+Object
+void
+com.google.common.graph.AbstractDirectedNetworkConnections
+adjacentNode
+public N adjacentNode(E edge)
+E
+N
+com.google.common.graph.UndirectedGraphConnections
+removeSuccessor
+public V removeSuccessor(Object node)
+Object
+V
+com.google.common.graph.NetworkConnections
+removeInEdge
+N removeInEdge(E edge, boolean isSelfLoop)
+E,boolean
+N
+com.google.common.graph.ConfigurableNetwork
+incidentNodes
+public EndpointPair<N> incidentNodes(E edge)
+E
+EndpointPair
+com.google.common.graph.GraphConnections
+removeSuccessor
+V removeSuccessor(N node)
+N
+V
+com.google.common.graph.UndirectedGraphConnections
+value
+public V value(Object node)
+Object
+V
+com.google.common.graph.GraphConnections
+removePredecessor
+void removePredecessor(N node)
+N
+void
+com.google.common.graph.GraphConnections
+value
+V value(N node)
+N
+V
+com.google.common.graph.AbstractDirectedNetworkConnections
+removeInEdge
+public N removeInEdge(E edge, boolean isSelfLoop)
+E,boolean
+N
+com.google.common.graph.AbstractDirectedNetworkConnections
+removeOutEdge
+public N removeOutEdge(Object edge)
+Object
+N
+com.google.common.graph.UndirectedGraphConnections
+value
+public V value(N node)
+N
+V
+com.google.common.graph.UndirectedGraphConnections
+removeSuccessor
+public V removeSuccessor(N node)
+N
+V

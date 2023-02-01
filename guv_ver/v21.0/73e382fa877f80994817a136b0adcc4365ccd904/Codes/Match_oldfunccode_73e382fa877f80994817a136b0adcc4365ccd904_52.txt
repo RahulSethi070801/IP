@@ -1,0 +1,15 @@
+boolean remove(K key, long value) {
+    AtomicLong atomic = map.get(key);
+    if (atomic == null) {
+        return false;
+    }
+    long oldValue = atomic.get();
+    if (oldValue != value) {
+        return false;
+    }
+    if (oldValue == 0L || atomic.compareAndSet(oldValue, 0L)) {
+        map.remove(key, atomic);
+        return true;
+    }
+    return false;
+}

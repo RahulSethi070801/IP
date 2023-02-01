@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "51": "   * Returns the node that is adjacent to the origin node along {@code edge}.\n",
+        "55": "  N adjacentNode(E edge);\n",
+        "63": "  N removeInEdge(E edge, boolean isSelfLoop);\n",
+        "67": "  N removeOutEdge(E edge);\n"
+    },
+    "removed": {
+        "51": "   * Returns the node that is opposite the origin node along {@code edge}.\n",
+        "55": "  N oppositeNode(Object edge);\n",
+        "63": "  N removeInEdge(Object edge, boolean isSelfLoop);\n",
+        "67": "  N removeOutEdge(Object edge);\n"
+    }
+}

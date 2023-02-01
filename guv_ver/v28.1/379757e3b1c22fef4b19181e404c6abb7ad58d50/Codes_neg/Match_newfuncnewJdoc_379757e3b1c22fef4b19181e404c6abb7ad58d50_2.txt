@@ -1,0 +1,12 @@
+
+   * Returns a hash function implementing the MD5 hash algorithm (128 hash bits).
+   *
+   * @deprecated If you must interoperate with a system that requires MD5, then use this method,
+   *     despite its deprecation. But if you can choose your hash function, avoid MD5, which is
+   *     neither fast nor secure. As of January 2017, we suggest:
+   *     <ul>
+   *       <li>For security:
+   *           {@link Hashing#sha256} or a higher-level API.
+   *       <li>For speed: {@link Hashing#goodFastHash}, though see its docs for caveats.
+   *     </ul>
+   

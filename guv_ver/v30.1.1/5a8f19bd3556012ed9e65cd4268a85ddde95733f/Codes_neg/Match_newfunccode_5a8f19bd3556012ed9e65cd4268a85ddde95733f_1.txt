@@ -1,0 +1,4 @@
+@Beta
+public Stream<String> splitToStream(CharSequence sequence) {
+    return StreamSupport.stream(split(sequence).spliterator(), false);
+}

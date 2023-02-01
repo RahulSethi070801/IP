@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public <E extends T> E min(@Nullable E a, @Nullable E b) {
+    return (compare(a, b) <= 0) ? a : b;
+}

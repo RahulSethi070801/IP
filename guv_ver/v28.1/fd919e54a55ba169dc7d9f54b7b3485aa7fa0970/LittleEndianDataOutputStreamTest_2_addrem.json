@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "41": "    out.write(new byte[] {-100, 100});\n"
+    },
+    "removed": {
+        "41": "    out.write(new byte[] { -100, 100 });\n"
+    }
+}

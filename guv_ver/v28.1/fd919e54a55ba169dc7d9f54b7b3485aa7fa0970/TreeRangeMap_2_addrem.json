@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "43": " * An implementation of {@code RangeMap} based on a {@code TreeMap}, supporting all optional\n",
+        "44": " * operations.\n",
+        "46": " * <p>Like all {@code RangeMap} implementations, this supports neither null keys nor null values.\n"
+    },
+    "removed": {
+        "43": " * An implementation of {@code RangeMap} based on a {@code TreeMap}, supporting\n",
+        "44": " * all optional operations.\n",
+        "46": " * <p>Like all {@code RangeMap} implementations, this supports neither null\n",
+        "47": " * keys nor null values.\n"
+    }
+}

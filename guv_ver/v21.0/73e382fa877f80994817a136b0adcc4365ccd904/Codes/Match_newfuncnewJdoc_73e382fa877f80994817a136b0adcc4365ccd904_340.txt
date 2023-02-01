@@ -1,0 +1,4 @@
+
+   * Returns a sequential {@link Stream} of the remaining contents of {@code iterator}. Do not use
+   * {@code iterator} directly after passing it to this method.
+   

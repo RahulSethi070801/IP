@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "21": "import java.util.function.BiPredicate;\n",
+        "42": "public abstract class Equivalence<T> implements BiPredicate<T, T> {\n",
+        "76": "  /**\n",
+        "77": "   * @deprecated Provided only to satisfy the {@link BiPredicate} interface; use\n",
+        "78": "   *     {@link #equivalent} instead.\n",
+        "79": "   * @since 21.0\n",
+        "80": "   */\n",
+        "81": "  @Deprecated\n",
+        "82": "  @Override\n",
+        "83": "  public final boolean test(@Nullable T t, @Nullable T u) {\n",
+        "84": "    return equivalent(t, u);\n",
+        "85": "  }\n",
+        "86": "\n"
+    },
+    "removed": {
+        "41": "public abstract class Equivalence<T> {\n"
+    }
+}

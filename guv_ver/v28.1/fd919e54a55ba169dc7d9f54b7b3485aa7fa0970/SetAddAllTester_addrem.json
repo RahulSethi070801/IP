@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "28": " * A generic JUnit test which tests addAll operations on a set. Can't be invoked directly; please\n",
+        "29": " * see {@link com.google.common.collect.testing.SetTestSuiteBuilder}.\n"
+    },
+    "removed": {
+        "28": " * A generic JUnit test which tests addAll operations on a set. Can't be\n",
+        "29": " * invoked directly; please see\n",
+        "30": " * {@link com.google.common.collect.testing.SetTestSuiteBuilder}.\n"
+    }
+}

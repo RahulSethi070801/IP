@@ -1,0 +1,5 @@
+
+     * Returns true if a new value is currently loading, regardless of whether or not there is an
+     * existing value. It is assumed that the return value of this method is constant for any given
+     * ValueReference instance.
+     

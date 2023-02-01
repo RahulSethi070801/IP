@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "26": "import java.util.function.BooleanSupplier;\n",
+        "363": "  /**\n",
+        "364": "   * Creates a new {@link Guard} for {@code this} monitor.\n",
+        "365": "   *\n",
+        "366": "   * @Param isSatisfied The guards boolean condition.  See {@link Guard#isSatisfied}.\n",
+        "367": "   */\n",
+        "368": "  public Guard newGuard(final BooleanSupplier isSatisfied) {\n",
+        "369": "    checkNotNull(isSatisfied, \"isSatisfied\");\n",
+        "370": "    return new Guard(this) {\n",
+        "371": "      @Override\n",
+        "372": "      public boolean isSatisfied() {\n",
+        "373": "        return isSatisfied.getAsBoolean();\n",
+        "374": "      }\n",
+        "375": "    };\n",
+        "376": "  }\n",
+        "377": "\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,4 @@
+Converter
+Insertions: [409, 410, 411, 412]
+Deletions: [409, 410, 411, 412]
+guava/src/com/google/common/base/Converter.java

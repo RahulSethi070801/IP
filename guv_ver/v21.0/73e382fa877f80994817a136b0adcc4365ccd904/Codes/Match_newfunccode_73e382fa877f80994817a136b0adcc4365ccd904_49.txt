@@ -1,0 +1,4 @@
+@SuppressWarnings("unchecked")
+public static <T> Collector<T, ?, T> onlyElement() {
+    return (Collector) ONLY_ELEMENT;
+}

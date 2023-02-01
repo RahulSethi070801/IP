@@ -1,0 +1,4 @@
+ImmutableBasicGraph
+Insertions: [25, 26, 35, 37, 38, 39]
+Deletions: [25, 26, 35, 36, 45]
+guava/src/com/google/common/graph/ImmutableBasicGraph.java

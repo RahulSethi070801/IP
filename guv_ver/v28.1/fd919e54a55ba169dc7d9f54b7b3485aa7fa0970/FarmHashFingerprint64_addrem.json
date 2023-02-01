@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "33": " *   <li>comparisons (signed values can be negative)\n",
+        "34": " *   <li>division (avoided here)\n",
+        "35": " *   <li>shifting (right shift must be unsigned)\n"
+    },
+    "removed": {
+        "33": " * <li>comparisons (signed values can be negative)\n",
+        "34": " * <li>division (avoided here)\n",
+        "35": " * <li>shifting (right shift must be unsigned)\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public <A extends Annotation> A[] getDeclaredAnnotationsByType(Class<A> annotationType) {
+    return FluentIterable.from(annotations).filter(annotationType).toArray(annotationType);
+}

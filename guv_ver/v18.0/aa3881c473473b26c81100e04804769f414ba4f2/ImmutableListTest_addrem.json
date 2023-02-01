@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "539": "    static ListFrobber add(final int element) {\n",
+        "548": "    static ListFrobber remove() {\n",
+        "557": "    static ListFrobber nop() {\n"
+    },
+    "removed": {
+        "539": "    static final ListFrobber add(final int element) {\n",
+        "548": "    static final ListFrobber remove() {\n",
+        "557": "    static final ListFrobber nop() {\n"
+    }
+}

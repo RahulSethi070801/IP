@@ -1,0 +1,3 @@
+static String nullToEmpty(@NullableDecl String string) {
+    return (string == null) ? "" : string;
+}

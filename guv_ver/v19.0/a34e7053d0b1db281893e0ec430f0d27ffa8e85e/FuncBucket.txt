@@ -1,0 +1,35 @@
+com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+casListeners
+boolean casListeners(AbstractFuture future, Listener curr, Listener next)
+AbstractFuture,Listener,Listener
+boolean
+com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+casValue
+boolean casValue(AbstractFuture future, Object expected, Object v)
+AbstractFuture,Object,Object
+boolean
+com.google.common.util.concurrent.AbstractFuture
+tryCreateUnsafeAtomicHelper
+abstract AtomicHelper tryCreateUnsafeAtomicHelper()
+empty
+AtomicHelper
+com.google.common.util.concurrent.AbstractFuture
+tryCreateUnsafeAtomicHelper
+AtomicHelper tryCreateUnsafeAtomicHelper()
+empty
+AtomicHelper
+com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+putNext
+void putNext(Waiter waiter, Waiter next)
+Waiter,Waiter
+void
+com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+casWaiters
+boolean casWaiters(AbstractFuture future, Waiter curr, Waiter next)
+AbstractFuture,Waiter,Waiter
+boolean
+com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+putThread
+void putThread(Waiter waiter, Thread thread)
+Waiter,Thread
+void

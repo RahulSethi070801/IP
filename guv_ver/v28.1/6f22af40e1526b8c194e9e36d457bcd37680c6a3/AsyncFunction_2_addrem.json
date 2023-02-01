@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "19": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "38": "  ListenableFuture<O> apply(@NullableDecl I input) throws Exception;\n"
+    },
+    "removed": {
+        "19": "import javax.annotation.Nullable;\n",
+        "38": "  ListenableFuture<O> apply(@Nullable I input) throws Exception;\n"
+    }
+}

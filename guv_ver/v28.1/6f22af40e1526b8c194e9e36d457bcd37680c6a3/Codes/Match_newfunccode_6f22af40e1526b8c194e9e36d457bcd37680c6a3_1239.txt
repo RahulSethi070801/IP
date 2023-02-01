@@ -1,0 +1,5 @@
+@Override
+@NullableDecl
+public Object get(Comparable key) {
+    return null;
+}

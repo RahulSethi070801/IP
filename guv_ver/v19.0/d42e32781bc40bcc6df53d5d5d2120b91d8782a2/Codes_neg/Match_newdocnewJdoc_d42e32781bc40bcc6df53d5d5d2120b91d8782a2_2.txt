@@ -1,0 +1,5 @@
+
+   * Returns an immutable set containing {@code element}. Preferred over {@link
+   * Collections#singleton} for code consistency, {@code null} rejection, and because the return
+   * type conveys the immutability guarantee.
+   

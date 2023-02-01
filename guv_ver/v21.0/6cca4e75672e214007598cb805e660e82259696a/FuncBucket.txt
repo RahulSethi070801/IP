@@ -1,0 +1,10 @@
+com.google.thirdparty.publicsuffix.TrieParser
+doParseTrieToBuilder
+private static int doParseTrieToBuilder(List<CharSequence> stack, CharSequence encoded, ImmutableMap.Builder<String, PublicSuffixType> builder)
+List,CharSequence,ImmutableMap.Builder
+int
+com.google.thirdparty.publicsuffix.TrieParser
+parseTrie
+static ImmutableMap<String, PublicSuffixType> parseTrie(CharSequence encoded)
+CharSequence
+ImmutableMap

@@ -1,0 +1,7 @@
+
+   * A sensible definition of {@link #lastEntry()} in terms of {@code
+   * descendingMultiset().entrySet().iterator()}.
+   *
+   * <p>If you override {@link #descendingMultiset} or {@link #entrySet()}, you may wish to override
+   * {@link #firstEntry()} to forward to this implementation.
+   

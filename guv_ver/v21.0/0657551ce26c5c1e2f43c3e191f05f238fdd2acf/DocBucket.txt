@@ -1,0 +1,15 @@
+com.google.common.math.LinearTransformation
+vertical
+public static LinearTransformation vertical(double x)
+double
+LinearTransformation
+com.google.common.math.LinearTransformation
+horizontal
+public static LinearTransformation horizontal(double y)
+double
+LinearTransformation
+com.google.common.math.LinearTransformation
+forNaN
+public static LinearTransformation forNaN()
+empty
+LinearTransformation

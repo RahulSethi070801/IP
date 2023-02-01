@@ -1,0 +1,1 @@
+ TODO(kak): Maybe implement #hashBytes instead?

@@ -1,0 +1,11 @@
+{
+    "addition": {},
+    "removed": {
+        "26": "import java.util.concurrent.TimeUnit;\n",
+        "92": "  /**\n",
+        "93": "   * See {@link MapMaker#expireAfterWrite}.\n",
+        "94": "   */\n",
+        "95": "  abstract GenericMapMaker<K0, V0> expireAfterWrite(long duration, TimeUnit unit);\n",
+        "96": "\n"
+    }
+}

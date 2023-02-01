@@ -1,0 +1,18 @@
+@CheckReturnValue
+@Override
+public String toString() {
+    boolean omitNullValuesSnapshot = omitNullValues;
+    String nextSeparator = "";
+    StringBuilder builder = new StringBuilder(32).append(className).append('{');
+    for (ValueHolder valueHolder = holderHead.next; valueHolder != null; valueHolder = valueHolder.next) {
+        if (!omitNullValuesSnapshot || valueHolder.value != null) {
+            builder.append(nextSeparator);
+            nextSeparator = ", ";
+            if (valueHolder.name != null) {
+                builder.append(valueHolder.name).append('=');
+            }
+            builder.append(valueHolder.value);
+        }
+    }
+    return builder.append('}').toString();
+}

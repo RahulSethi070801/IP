@@ -1,0 +1,4 @@
+@Override
+public int indexOf(@Nullable Object object) {
+    return (object == null) ? -1 : Lists.indexOfImpl(this, object);
+}

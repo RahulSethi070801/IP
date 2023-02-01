@@ -1,0 +1,8 @@
+private void writeObject(java.io.ObjectOutputStream s) throws java.io.IOException {
+    monitor.enter();
+    try {
+        s.defaultWriteObject();
+    } finally {
+        monitor.leave();
+    }
+}

@@ -1,0 +1,4 @@
+StringCatcher_2
+Insertions: [22, 36, 40]
+Deletions: [21, 36, 40]
+guava-tests/test/com/google/common/eventbus/StringCatcher.java

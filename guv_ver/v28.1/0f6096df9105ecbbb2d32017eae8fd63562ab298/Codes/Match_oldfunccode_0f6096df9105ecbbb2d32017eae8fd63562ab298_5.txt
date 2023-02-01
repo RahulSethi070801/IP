@@ -1,0 +1,16 @@
+@GwtIncompatible
+public static <N, E> MutableNetwork<N, E> inducedSubgraph(Network<N, E> network, Iterable<? extends N> nodes) {
+    MutableNetwork<N, E> subgraph = NetworkBuilder.from(network).build();
+    for (N node : nodes) {
+        subgraph.addNode(node);
+    }
+    for (N node : subgraph.nodes()) {
+        for (E edge : network.outEdges(node)) {
+            N successorNode = network.incidentNodes(edge).adjacentNode(node);
+            if (subgraph.nodes().contains(successorNode)) {
+                subgraph.addEdge(node, successorNode, edge);
+            }
+        }
+    }
+    return subgraph;
+}

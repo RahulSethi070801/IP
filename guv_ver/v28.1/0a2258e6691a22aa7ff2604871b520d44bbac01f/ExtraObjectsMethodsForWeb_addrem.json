@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "17": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "21": "  public static boolean equal(@Nullable String a, @Nullable String b) {\n"
+    },
+    "removed": {
+        "17": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "21": "  public static boolean equal(@NullableDecl String a, @NullableDecl String b) {\n"
+    }
+}

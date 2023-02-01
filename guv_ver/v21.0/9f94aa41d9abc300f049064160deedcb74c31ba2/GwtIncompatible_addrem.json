@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "27": " * <p>This annotation behaves identically to <a href=\n",
+        "28": " * \"http://www.gwtproject.org/javadoc/latest/com/google/gwt/core/shared/GwtIncompatible.html\">the\n",
+        "43": "   * <p>As of Guava 20.0, this value is optional. We encourage authors who wish to describe why an\n",
+        "44": "   * API is {@code @GwtIncompatible} to instead leave an implementation comment.\n"
+    },
+    "removed": {
+        "27": " * <p>This annotation behaves identically to <a\n",
+        "28": " * href=\"http://www.gwtproject.org/javadoc/latest/com/google/gwt/core/shared/GwtIncompatible.html\">the\n",
+        "43": "   * <p>As of Guava 20.0, this value is optional. We encourage authors who wish to describe why\n",
+        "44": "   * an API is {@code @GwtIncompatible} to instead leave an implementation comment.\n"
+    }
+}

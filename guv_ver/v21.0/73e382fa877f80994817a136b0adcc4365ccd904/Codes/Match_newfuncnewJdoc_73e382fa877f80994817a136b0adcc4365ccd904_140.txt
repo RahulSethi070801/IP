@@ -1,0 +1,6 @@
+
+   * A collector that converts a stream of zero or one elements to an {@code Optional}. The returned
+   * collector throws an {@code IllegalArgumentException} if the stream consists of two or more
+   * elements, and a {@code NullPointerException} if the stream consists of exactly one element,
+   * which is null.
+   

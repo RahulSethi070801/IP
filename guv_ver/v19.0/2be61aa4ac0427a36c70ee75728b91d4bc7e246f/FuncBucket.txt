@@ -1,0 +1,10 @@
+com.google.common.util.concurrent.AbstractCatchingFuture
+doFallback
+abstract void doFallback(F fallback, X throwable) throws Exception
+F,X
+void
+com.google.common.util.concurrent.AbstractTransformFuture
+doTransform
+abstract void doTransform(F function, I result) throws Exception
+F,I
+void

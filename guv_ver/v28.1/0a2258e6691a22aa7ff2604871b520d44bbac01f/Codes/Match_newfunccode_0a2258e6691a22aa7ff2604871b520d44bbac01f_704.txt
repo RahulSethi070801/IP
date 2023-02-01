@@ -1,0 +1,12 @@
+@Override
+public K remove(@Nullable Object value) {
+    BiEntry<K, V> entry = seekByValue(value, smearedHash(value));
+    if (entry == null) {
+        return null;
+    } else {
+        delete(entry);
+        entry.prevInKeyInsertionOrder = null;
+        entry.nextInKeyInsertionOrder = null;
+        return entry.key;
+    }
+}

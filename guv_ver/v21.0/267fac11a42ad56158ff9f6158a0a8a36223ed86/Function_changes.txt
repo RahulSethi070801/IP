@@ -1,0 +1,4 @@
+Function
+Insertions: [64, 68, 69, 71, 72, 73, 74, 75, 76]
+Deletions: [64, 68, 70, 71, 72, 73, 74, 75]
+guava/src/com/google/common/base/Function.java

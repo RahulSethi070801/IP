@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "52": "  @NullableDecl\n",
+        "53": "  private RunnableExecutorPair runnables;\n"
+    },
+    "removed": {
+        "52": "  @NullableDecl private RunnableExecutorPair runnables;\n"
+    }
+}

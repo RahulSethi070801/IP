@@ -1,0 +1,4 @@
+@Override
+public void add(int index, @NullableDecl T element) {
+    forwardList.add(reversePosition(index), element);
+}

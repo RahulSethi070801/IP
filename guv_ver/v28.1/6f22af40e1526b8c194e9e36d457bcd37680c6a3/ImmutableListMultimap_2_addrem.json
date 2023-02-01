@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "39": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "389": "  public ImmutableList<V> get(@NullableDecl K key) {\n"
+    },
+    "removed": {
+        "39": "import javax.annotation.Nullable;\n",
+        "389": "  public ImmutableList<V> get(@Nullable K key) {\n"
+    }
+}

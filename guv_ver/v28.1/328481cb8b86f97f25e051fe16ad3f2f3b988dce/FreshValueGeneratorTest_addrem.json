@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "96": "import java.util.Map.Entry;\n",
+        "134": "        List.class, Entry.class,\n"
+    },
+    "removed": {
+        "133": "        List.class, Map.Entry.class,\n"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "56": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "1740": "    public boolean contains(@Nullable Object element) {\n",
+        "1750": "    public int count(@Nullable Object element) {\n",
+        "1756": "    public int remove(@Nullable Object element, int occurrences) {\n",
+        "1807": "    public boolean contains(@Nullable Object o) {\n",
+        "1816": "    public boolean remove(@Nullable Object o) {\n",
+        "2197": "  static boolean equalsImpl(Multimap<?, ?> multimap, @Nullable Object object) {\n"
+    },
+    "removed": {
+        "56": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "1740": "    public boolean contains(@NullableDecl Object element) {\n",
+        "1750": "    public int count(@NullableDecl Object element) {\n",
+        "1756": "    public int remove(@NullableDecl Object element, int occurrences) {\n",
+        "1807": "    public boolean contains(@NullableDecl Object o) {\n",
+        "1816": "    public boolean remove(@NullableDecl Object o) {\n",
+        "2197": "  static boolean equalsImpl(Multimap<?, ?> multimap, @NullableDecl Object object) {\n"
+    }
+}

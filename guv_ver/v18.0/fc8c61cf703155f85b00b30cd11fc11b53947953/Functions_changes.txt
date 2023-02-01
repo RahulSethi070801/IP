@@ -1,0 +1,4 @@
+Functions
+Insertions: [77]
+Deletions: []
+guava/src/com/google/common/base/Functions.java

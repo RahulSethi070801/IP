@@ -1,0 +1,8 @@
+@CanIgnoreReturnValue
+@Override
+public Collection<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {
+    checkNotNull(values);
+    Collection<V> result = removeAll(key);
+    putAll(key, values);
+    return result;
+}

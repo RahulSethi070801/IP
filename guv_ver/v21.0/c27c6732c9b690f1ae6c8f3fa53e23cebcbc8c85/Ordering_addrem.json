@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "727": "   * <p><b>Java 8 users:</b> Continue to use this method for now. After the next release of Guava,\n",
+        "728": "   * use {@code Streams.stream(iterable).collect(Comparators.least(k, thisComparator))} instead.\n",
+        "801": "   * <p><b>Java 8 users:</b> Continue to use this method for now. After the next release of Guava,\n",
+        "802": "   * use {@code Streams.stream(iterable).collect(Comparators.greatest(k, thisComparator))} instead.\n"
+    },
+    "removed": {
+        "727": "   * <p><b>Java 8 users:</b> Use {@code Streams.stream(iterable).collect(Comparators.least(k,\n",
+        "728": "   * thisComparator))} instead.\n",
+        "801": "   * <p><b>Java 8 users:</b> Use {@code Streams.stream(iterable).collect(Comparators.greatest(k,\n",
+        "802": "   * thisComparator))} instead.\n"
+    }
+}

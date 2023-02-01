@@ -1,0 +1,5 @@
+@Override
+@CheckForNull
+public Entry<E> firstEntry() {
+    return delegate().firstEntry();
+}

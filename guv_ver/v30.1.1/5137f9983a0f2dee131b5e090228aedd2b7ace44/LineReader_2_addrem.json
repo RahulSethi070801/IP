@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "28": "import javax.annotation.CheckForNull;\n",
+        "40": "@ElementTypesAreNonnullByDefault\n",
+        "43": "  @CheckForNull private final Reader reader;\n",
+        "72": "  @SuppressWarnings(\"nullness\") // TODO(cpovirk): Remove with change to @CheckForNull.\n",
+        "73": "  // TODO(cpovirk): @CheckForNull\n"
+    },
+    "removed": {
+        "28": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "42": "  private final @Nullable Reader reader;\n"
+    }
+}

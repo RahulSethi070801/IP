@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "30": "  /** Returns a new no-op {@code RemovalListener}. */\n",
+        "35": "  /** Type-inferring factory method for creating a {@link QueuingRemovalListener}. */\n",
+        "41": "  /** Type-inferring factory method for creating a {@link CountingRemovalListener}. */\n",
+        "46": "  /** {@link RemovalListener} that adds all {@link RemovalNotification} objects to a queue. */\n",
+        "88": "  /** No-op {@link RemovalListener}. */\n"
+    },
+    "removed": {
+        "30": "  /**\n",
+        "31": "   * Returns a new no-op {@code RemovalListener}.\n",
+        "32": "   */\n",
+        "37": "  /**\n",
+        "38": "   * Type-inferring factory method for creating a {@link QueuingRemovalListener}.\n",
+        "39": "   */\n",
+        "45": "  /**\n",
+        "46": "   * Type-inferring factory method for creating a {@link CountingRemovalListener}.\n",
+        "47": "   */\n",
+        "52": "  /**\n",
+        "53": "   * {@link RemovalListener} that adds all {@link RemovalNotification} objects to a queue.\n",
+        "54": "   */\n",
+        "96": "  /**\n",
+        "97": "   * No-op {@link RemovalListener}.\n",
+        "98": "   */\n"
+    }
+}

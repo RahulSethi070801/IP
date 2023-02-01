@@ -1,0 +1,4 @@
+SourceSinkFactories_2
+Insertions: [141, 161, 206, 207, 243, 259, 275, 291, 435, 599]
+Deletions: [141, 142, 162, 163, 208, 209, 245, 246, 262, 263, 279, 280, 296, 297, 441, 442, 443, 607, 608, 609]
+guava-tests/test/com/google/common/io/SourceSinkFactories.java

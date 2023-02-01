@@ -1,0 +1,9 @@
+V scheduleRefresh(ReferenceEntry<K, V> entry, K key, int hash, V oldValue, long now, CacheLoader<? super K, V> loader) {
+    if (map.refreshes() && (now - entry.getWriteTime() > map.refreshNanos) && !entry.getValueReference().isLoading()) {
+        V newValue = refresh(key, hash, loader, true);
+        if (newValue != null) {
+            return newValue;
+        }
+    }
+    return oldValue;
+}

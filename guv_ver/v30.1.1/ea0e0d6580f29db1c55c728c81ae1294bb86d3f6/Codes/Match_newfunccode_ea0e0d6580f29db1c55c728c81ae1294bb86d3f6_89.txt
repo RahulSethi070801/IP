@@ -1,0 +1,4 @@
+@Override
+public SortedSet<E> headSet(@ParametricNullness E toElement) {
+    return multiset().headMultiset(toElement, OPEN).elementSet();
+}

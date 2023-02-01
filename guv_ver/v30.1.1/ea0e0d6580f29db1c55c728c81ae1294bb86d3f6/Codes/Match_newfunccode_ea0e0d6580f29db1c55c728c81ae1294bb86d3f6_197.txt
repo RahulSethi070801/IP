@@ -1,0 +1,5 @@
+@Override
+@ParametricNullness
+public E first() {
+    return getElementOrThrow(multiset().firstEntry());
+}

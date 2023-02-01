@@ -1,0 +1,4 @@
+@Override
+boolean casValue(AbstractFuture future, Object expected, Object v) {
+    return VALUE_UPDATER.compareAndSet(future, expected, v);
+}

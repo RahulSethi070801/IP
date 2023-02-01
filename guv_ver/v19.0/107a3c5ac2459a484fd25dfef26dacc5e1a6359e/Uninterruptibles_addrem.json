@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "131": "   * with other exceptions, see {@link Futures#getChecked(Future, Class)\n",
+        "132": "   * Futures.getChecked}.\n",
+        "161": "   * with other exceptions, see {@link Futures#getChecked(Future, Class)\n",
+        "162": "   * Futures.getChecked}.\n"
+    },
+    "removed": {
+        "131": "   * with other exceptions, see {@link Futures#get(Future, Class) Futures.get}\n",
+        "132": "   * or {@link Futures#makeChecked}.\n",
+        "161": "   * with other exceptions, see {@link Futures#get(Future, Class) Futures.get}\n",
+        "162": "   * or {@link Futures#makeChecked}.\n"
+    }
+}

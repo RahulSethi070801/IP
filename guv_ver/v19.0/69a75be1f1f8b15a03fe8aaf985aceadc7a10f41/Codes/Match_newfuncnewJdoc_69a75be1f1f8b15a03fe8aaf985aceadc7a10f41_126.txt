@@ -1,0 +1,9 @@
+
+     * Creates a {@link ReentrantLock} with the given fairness policy and rank.
+     * The values returned by {@link Enum#getDeclaringClass()} and
+     * {@link Enum#name()} are used to describe the lock in warning or
+     * exception output.
+     *
+     * @throws IllegalStateException If the factory has already created a
+     *    {@code Lock} with the specified rank.
+     

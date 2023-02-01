@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "39": "public class ImmutableNetwork<N, E> extends ConfigurableNetwork<N, E> {\n"
+    },
+    "removed": {
+        "39": "public final class ImmutableNetwork<N, E> extends ConfigurableNetwork<N, E> {\n"
+    }
+}

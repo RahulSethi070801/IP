@@ -1,0 +1,26 @@
+private static boolean isAssignable(Type from, Type to) {
+    if (to.equals(from)) {
+        return true;
+    }
+    if (to instanceof WildcardType) {
+        return isAssignableToWildcardType(from, (WildcardType) to);
+    }
+    if (from instanceof TypeVariable) {
+        return isAssignableFromAny(((TypeVariable<?>) from).getBounds(), to);
+    }
+    if (from instanceof WildcardType) {
+        return isAssignableFromAny(((WildcardType) from).getUpperBounds(), to);
+    }
+    if (from instanceof GenericArrayType) {
+        return isAssignableFromGenericArrayType((GenericArrayType) from, to);
+    }
+    if (to instanceof Class) {
+        return isAssignableToClass(from, (Class<?>) to);
+    } else if (to instanceof ParameterizedType) {
+        return isAssignableToParameterizedType(from, (ParameterizedType) to);
+    } else if (to instanceof GenericArrayType) {
+        return isAssignableToGenericArrayType(from, (GenericArrayType) to);
+    } else {
+        return false;
+    }
+}

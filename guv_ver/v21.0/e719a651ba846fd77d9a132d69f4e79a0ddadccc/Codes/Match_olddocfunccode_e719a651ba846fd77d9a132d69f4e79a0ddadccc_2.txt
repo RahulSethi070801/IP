@@ -1,0 +1,4 @@
+@CheckReturnValue
+public static BaseEncoding base16() {
+    return BASE16;
+}

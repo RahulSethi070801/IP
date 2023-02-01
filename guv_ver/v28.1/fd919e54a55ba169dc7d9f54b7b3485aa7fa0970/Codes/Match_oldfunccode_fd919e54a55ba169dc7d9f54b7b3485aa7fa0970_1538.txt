@@ -1,0 +1,15 @@
+private static PatternCompiler loadPatternCompiler() {
+    ServiceLoader<PatternCompiler> loader = ServiceLoader.load(PatternCompiler.class);
+    try {
+        for (Iterator<PatternCompiler> it = loader.iterator(); it.hasNext(); ) {
+            try {
+                return it.next();
+            } catch (ServiceConfigurationError e) {
+                logPatternCompilerError(e);
+            }
+        }
+    } catch (ServiceConfigurationError e) {
+        logPatternCompilerError(e);
+    }
+    return new JdkPatternCompiler();
+}

@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "64": "  /** Returns an empty immutable range map. */\n",
+        "70": "  /** Returns an immutable range map mapping a single range to a single value. */\n",
+        "91": "  /** Returns a new builder for an immutable range map. */\n",
+        "122": "    /** Copies all associations from the specified range map into this builder. */\n",
+        "378": "   * This class is used to serialize ImmutableRangeMap instances. Serializes the {@link\n",
+        "379": "   * #asMapOfRanges()} form.\n"
+    },
+    "removed": {
+        "64": "  /**\n",
+        "65": "   * Returns an empty immutable range map.\n",
+        "66": "   */\n",
+        "72": "  /**\n",
+        "73": "   * Returns an immutable range map mapping a single range to a single value.\n",
+        "74": "   */\n",
+        "95": "  /**\n",
+        "96": "   * Returns a new builder for an immutable range map.\n",
+        "97": "   */\n",
+        "128": "    /**\n",
+        "129": "     * Copies all associations from the specified range map into this builder.\n",
+        "130": "     */\n",
+        "386": "   * This class is used to serialize ImmutableRangeMap instances.\n",
+        "387": "   * Serializes the {@link #asMapOfRanges()} form.\n"
+    }
+}

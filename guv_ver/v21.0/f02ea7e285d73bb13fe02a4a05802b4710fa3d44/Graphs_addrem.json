@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "273": "    if (graphA.isDirected() != graphB.isDirected()\n",
+        "274": "        || !graphA.nodes().equals(graphB.nodes())\n",
+        "275": "        || !graphA.edges().equals(graphB.edges())) {\n",
+        "276": "      return false;\n",
+        "277": "    }\n",
+        "278": "\n",
+        "279": "    for (EndpointPair<?> edge : graphA.edges()) {\n",
+        "280": "      if (!graphA\n",
+        "281": "          .edgeValue(edge.nodeU(), edge.nodeV())\n",
+        "282": "          .equals(graphB.edgeValue(edge.nodeU(), edge.nodeV()))) {\n",
+        "283": "        return false;\n",
+        "284": "      }\n",
+        "285": "    }\n",
+        "286": "\n",
+        "287": "    return true;\n",
+        "478": "    @Override\n",
+        "479": "    public V edgeValueOrDefault(Object nodeU, Object nodeV, @Nullable V defaultValue) {\n",
+        "480": "      return graph.edgeValueOrDefault(nodeV, nodeU, defaultValue); // transpose\n",
+        "481": "    }\n"
+    },
+    "removed": {
+        "273": "    return graphA.isDirected() == graphB.isDirected()\n",
+        "274": "        && graphA.nodes().equals(graphB.nodes())\n",
+        "275": "        && graphA.edgeValues().equals(graphB.edgeValues());\n",
+        "466": "    // Defer to AbstractValueGraph for edgeValues() implementation based on edgeValue().\n"
+    }
+}

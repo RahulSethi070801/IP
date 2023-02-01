@@ -1,0 +1,12 @@
+@Beta
+@MustBeClosed
+public Stream<String> lines() throws IOException {
+    BufferedReader reader = openBufferedStream();
+    return reader.lines().onClose(() -> {
+        try {
+            reader.close();
+        } catch (IOException e) {
+            throw new UncheckedIOException(e);
+        }
+    });
+}

@@ -1,0 +1,3 @@
+public static Escaper urlPathSegmentEscaper() {
+    return URL_PATH_SEGMENT_ESCAPER;
+}

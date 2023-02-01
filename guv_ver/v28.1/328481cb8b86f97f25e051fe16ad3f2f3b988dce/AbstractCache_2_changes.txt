@@ -1,0 +1,4 @@
+AbstractCache_2
+Insertions: [21, 92]
+Deletions: [91]
+guava/src/com/google/common/cache/AbstractCache.java

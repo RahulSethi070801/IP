@@ -1,0 +1,31 @@
+{
+    "addition": {
+        "122": "   * Invokes {@code future.}{@link Future#get() get()} uninterruptibly.\n",
+        "124": "   * <p>Similar methods:\n",
+        "125": "   *\n",
+        "126": "   * <ul>\n",
+        "127": "   * <li>To retrieve a result from a {@code Future} that is already done, use\n",
+        "128": "   *     {@link Futures#getDone Futures.getDone}.\n",
+        "129": "   * <li>To treat {@link InterruptedException} uniformly with other exceptions, use\n",
+        "130": "   *     {@link Futures#getChecked(Future, Class) Futures.getChecked}.\n",
+        "131": "   * <li>To get uninterruptibility and remove checked exceptions, use {@link Futures#getUnchecked}.\n",
+        "132": "   * </ul>\n",
+        "158": "   * <p>Similar methods:\n",
+        "159": "   *\n",
+        "160": "   * <ul>\n",
+        "161": "   * <li>To retrieve a result from a {@code Future} that is already done, use\n",
+        "162": "   *     {@link Futures#getDone Futures.getDone}.\n",
+        "163": "   * <li>To treat {@link InterruptedException} uniformly with other exceptions, use\n",
+        "164": "   *     {@link Futures#getChecked(Future, Class, long, TimeUnit) Futures.getChecked}.\n",
+        "165": "   * <li>To get uninterruptibility and remove checked exceptions, use {@link Futures#getUnchecked}.\n",
+        "166": "   * </ul>\n"
+    },
+    "removed": {
+        "122": "   * Invokes {@code future.}{@link Future#get() get()} uninterruptibly. To get uninterruptibility\n",
+        "123": "   * and remove checked exceptions, see {@link Futures#getUnchecked}.\n",
+        "125": "   * <p>If instead, you wish to treat {@link InterruptedException} uniformly with other exceptions,\n",
+        "126": "   * see {@link Futures#getChecked(Future, Class) Futures.getChecked}.\n",
+        "152": "   * <p>If instead, you wish to treat {@link InterruptedException} uniformly with other exceptions,\n",
+        "153": "   * see {@link Futures#getChecked(Future, Class) Futures.getChecked}.\n"
+    }
+}

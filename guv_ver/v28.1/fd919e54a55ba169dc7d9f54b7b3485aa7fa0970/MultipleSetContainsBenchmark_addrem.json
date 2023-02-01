@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "25": "/** A benchmark that tries invoking {@code Set.contains} on many different sets. */\n",
+        "45": "  @BeforeExperiment\n",
+        "46": "  void setUp() {\n",
+        "70": "  @Benchmark\n",
+        "71": "  public boolean contains(int reps) {\n"
+    },
+    "removed": {
+        "25": "/**\n",
+        "26": " * A benchmark that tries invoking {@code Set.contains} on many different sets.\n",
+        "27": " */\n",
+        "47": "  @BeforeExperiment void setUp() {\n",
+        "71": "  @Benchmark public boolean contains(int reps) {\n"
+    }
+}

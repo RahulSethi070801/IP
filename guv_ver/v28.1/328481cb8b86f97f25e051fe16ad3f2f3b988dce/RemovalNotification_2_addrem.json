@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "27": " * <p>Like other {@code Entry} instances associated with {@code CacheBuilder}, this class holds\n"
+    },
+    "removed": {
+        "27": " * <p>Like other {@code Map.Entry} instances associated with {@code CacheBuilder}, this class holds\n"
+    }
+}

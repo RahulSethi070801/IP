@@ -1,0 +1,10 @@
+
+   * Returns a string containing all non-matching characters of a character sequence, in order. For
+   * example:
+   *
+   * <pre>{@code
+   * CharMatcher.is('a').removeFrom("bazaar")
+   * }</pre>
+   *
+   * ... returns {@code "bzr"}.
+   

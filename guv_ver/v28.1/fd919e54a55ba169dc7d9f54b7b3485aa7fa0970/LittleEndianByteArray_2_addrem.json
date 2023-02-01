@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "112": "   * <p>This abstraction allows us to use single-instruction load and put when available, or fall\n",
+        "113": "   * back on the slower approach of using Longs.fromBytes(byte...).\n",
+        "205": "  /** Fallback implementation for when Unsafe is not available in our current environment. */\n"
+    },
+    "removed": {
+        "112": "   * This abstraction allows us to use single-instruction load and put when available, or fall back\n",
+        "113": "   * on the slower approach of using Longs.fromBytes(byte...).\n",
+        "205": "  /**\n",
+        "206": "   * Fallback implementation for when Unsafe is not available in our current environment.\n",
+        "207": "   */\n"
+    }
+}

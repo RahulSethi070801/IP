@@ -1,0 +1,4 @@
+MutableBasicGraph
+Insertions: [23, 24, 32]
+Deletions: [23, 24, 32]
+guava/src/com/google/common/graph/MutableBasicGraph.java

@@ -1,0 +1,6 @@
+@Override
+public boolean replace(K key, V oldValue, V newValue) {
+    synchronized (mutex) {
+        return delegate().replace(key, oldValue, newValue);
+    }
+}

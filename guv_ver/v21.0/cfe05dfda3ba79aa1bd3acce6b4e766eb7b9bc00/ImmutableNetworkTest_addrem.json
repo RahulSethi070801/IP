@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "37": "    assertThat(immutableNetwork.asGraph()).isInstanceOf(ImmutableGraph.class);\n",
+        "39": "    assertThat(Graphs.equivalent(immutableNetwork, mutableNetwork)).isTrue();\n",
+        "42": "    assertThat(Graphs.equivalent(immutableNetwork, mutableNetwork)).isFalse();\n"
+    },
+    "removed": {
+        "38": "    assertThat(immutableNetwork).isEqualTo(mutableNetwork);\n",
+        "41": "    assertThat(immutableNetwork).isNotEqualTo(mutableNetwork);\n"
+    }
+}

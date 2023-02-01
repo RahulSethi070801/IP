@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "45": "      ListenableFutureTask.create(\n",
+        "46": "          new Callable<Integer>() {\n",
+        "47": "            @Override\n",
+        "48": "            public Integer call() throws Exception {\n",
+        "49": "              runLatch.countDown();\n",
+        "50": "              taskLatch.await();\n",
+        "51": "              if (throwException) {\n",
+        "52": "                throw new IllegalStateException(\"Fail\");\n",
+        "53": "              }\n",
+        "54": "              return 25;\n",
+        "55": "            }\n",
+        "56": "          });\n",
+        "64": "    task.addListener(\n",
+        "65": "        new Runnable() {\n",
+        "66": "          @Override\n",
+        "67": "          public void run() {\n",
+        "68": "            listenerLatch.countDown();\n",
+        "69": "          }\n",
+        "70": "        },\n",
+        "71": "        directExecutor());\n"
+    },
+    "removed": {
+        "45": "      ListenableFutureTask.create(new Callable<Integer>() {\n",
+        "46": "    @Override\n",
+        "47": "    public Integer call() throws Exception {\n",
+        "48": "      runLatch.countDown();\n",
+        "49": "      taskLatch.await();\n",
+        "50": "      if (throwException) {\n",
+        "51": "        throw new IllegalStateException(\"Fail\");\n",
+        "52": "      }\n",
+        "53": "      return 25;\n",
+        "54": "    }\n",
+        "55": "  });\n",
+        "63": "    task.addListener(new Runnable() {\n",
+        "64": "      @Override\n",
+        "65": "      public void run() {\n",
+        "66": "        listenerLatch.countDown();\n",
+        "67": "      }\n",
+        "68": "    }, directExecutor());\n"
+    }
+}

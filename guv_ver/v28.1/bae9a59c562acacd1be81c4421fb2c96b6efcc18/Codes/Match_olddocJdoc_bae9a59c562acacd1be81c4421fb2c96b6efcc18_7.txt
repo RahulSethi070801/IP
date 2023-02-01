@@ -1,0 +1,8 @@
+
+   * Returns an immutable bimap containing the given entries.
+   *
+   * @throws IllegalArgumentException if two keys have the same value or two
+   *         values have the same key
+   * @throws NullPointerException if any key, value, or entry is null
+   * @since 19.0
+   

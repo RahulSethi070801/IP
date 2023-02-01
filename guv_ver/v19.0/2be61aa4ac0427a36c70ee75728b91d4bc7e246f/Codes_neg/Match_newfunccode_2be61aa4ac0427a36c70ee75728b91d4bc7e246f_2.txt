@@ -1,0 +1,2 @@
+@ForOverride
+abstract void doFallback(F fallback, X throwable) throws Exception;

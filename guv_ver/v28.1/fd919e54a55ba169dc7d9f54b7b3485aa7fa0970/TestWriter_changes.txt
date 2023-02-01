@@ -1,0 +1,4 @@
+TestWriter
+Insertions: [26]
+Deletions: [26, 27, 28]
+android/guava-tests/test/com/google/common/io/TestWriter.java

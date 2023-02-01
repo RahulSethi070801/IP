@@ -1,0 +1,3 @@
+public final <T> FluentIterable<T> transform(Function<? super E, T> function) {
+    return from(Iterables.transform(getDelegate(), function));
+}

@@ -1,0 +1,4 @@
+@Override
+ImmutableSortedSet<K> createKeySet() {
+    return ImmutableSortedSet.copyOf(comparator, sortedDelegate.keySet());
+}

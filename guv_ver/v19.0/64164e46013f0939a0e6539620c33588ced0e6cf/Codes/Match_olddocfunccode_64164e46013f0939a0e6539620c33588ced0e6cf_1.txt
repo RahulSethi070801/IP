@@ -1,0 +1,3 @@
+public static <K, V> ImmutableMap<K, V> uniqueIndex(Iterable<V> values, Function<? super V, K> keyFunction) {
+    return uniqueIndex(values.iterator(), keyFunction);
+}

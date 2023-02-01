@@ -1,0 +1,6 @@
+public void run()
+protected boolean setFuture(ListenableFuture<? extends V> future)
+
+public void run()
+protected boolean setFuture(ListenableFuture<? extends V> future)
+

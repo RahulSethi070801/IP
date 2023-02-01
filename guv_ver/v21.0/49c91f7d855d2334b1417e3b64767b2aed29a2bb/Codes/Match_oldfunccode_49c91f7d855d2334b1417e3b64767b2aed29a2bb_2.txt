@@ -1,0 +1,3 @@
+public static <N, E> MutableNetwork<N, E> copyOf(Network<N, E> graph) {
+    return copyOfInternal(graph, NetworkBuilder.from(graph).expectedNodeCount(graph.nodes().size()).expectedEdgeCount(graph.edges().size()), Predicates.alwaysTrue(), Predicates.alwaysTrue());
+}

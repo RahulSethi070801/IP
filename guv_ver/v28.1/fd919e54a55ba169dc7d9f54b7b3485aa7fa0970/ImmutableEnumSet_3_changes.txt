@@ -1,0 +1,4 @@
+ImmutableEnumSet_3
+Insertions: [28, 120]
+Deletions: [28, 29, 121, 122]
+guava/src/com/google/common/collect/ImmutableEnumSet.java

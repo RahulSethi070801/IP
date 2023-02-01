@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "24": " * The presence of this annotation on a type indicates that the type may be used with the\n",
+        "25": " * <a href=\"http://code.google.com/webtoolkit/\">Google Web Toolkit</a> (GWT). When applied to a\n",
+        "26": " * method, the return type of the method is GWT compatible. It's useful to indicate that an instance\n",
+        "27": " * created by factory methods has a GWT serializable type. In the following example,\n",
+        "62": "@Target({ElementType.TYPE, ElementType.METHOD})\n",
+        "71": "   * @see <a href=\n",
+        "72": "   *     \"http://code.google.com/webtoolkit/doc/latest/DevGuideServerCommunication.html#DevGuideSerializableTypes\">\n",
+        "81": "   * @see <a href=\n",
+        "82": "   *     \"http://code.google.com/webtoolkit/doc/latest/DevGuideOrganizingProjects.html#DevGuideModules\">\n"
+    },
+    "removed": {
+        "24": " * The presence of this annotation on a type indicates that the type may be used with the <a\n",
+        "25": " * href=\"http://code.google.com/webtoolkit/\">Google Web Toolkit</a> (GWT). When applied to a method,\n",
+        "26": " * the return type of the method is GWT compatible. It's useful to indicate that an instance created\n",
+        "27": " * by factory methods has a GWT serializable type. In the following example,\n",
+        "62": "@Target({ ElementType.TYPE, ElementType.METHOD })\n",
+        "71": "   * @see <a href=\"http://code.google.com/webtoolkit/doc/latest/DevGuideServerCommunication.html#DevGuideSerializableTypes\">\n",
+        "80": "   * @see <a href=\"http://code.google.com/webtoolkit/doc/latest/DevGuideOrganizingProjects.html#DevGuideModules\">\n"
+    }
+}

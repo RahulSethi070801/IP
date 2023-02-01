@@ -1,0 +1,9 @@
+
+   * Wraps the given runnable such that for the duration of {@link Runnable#run} the thread that is
+   * running with have the given name.
+   *
+   *
+   * @param task The Runnable to wrap
+   * @param nameSupplier The supplier of thread names, {@link Supplier#get get} will be called once
+   *     for each invocation of the wrapped callable.
+   

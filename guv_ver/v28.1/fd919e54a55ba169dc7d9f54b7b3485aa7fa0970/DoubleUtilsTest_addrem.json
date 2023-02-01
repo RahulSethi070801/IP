@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "55": "            b, b.doubleValue(), DoubleUtils.bigToDouble(b));\n"
+    },
+    "removed": {
+        "55": "            b,\n",
+        "56": "            b.doubleValue(),\n",
+        "57": "            DoubleUtils.bigToDouble(b));\n"
+    }
+}

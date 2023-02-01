@@ -1,0 +1,4 @@
+Parameter
+Insertions: [80, 86, 93, 101]
+Deletions: [80, 81, 82, 88, 89, 90, 97, 98, 99, 107, 108, 109]
+android/guava/src/com/google/common/reflect/Parameter.java

@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "35": "    Iterator<String> iterator =\n",
+        "36": "        new UnmodifiableIterator<String>() {\n",
+        "37": "          int i;\n",
+        "38": "\n",
+        "39": "          @Override\n",
+        "40": "          public boolean hasNext() {\n",
+        "41": "            return i < array.length;\n",
+        "42": "          }\n",
+        "43": "\n",
+        "44": "          @Override\n",
+        "45": "          public String next() {\n",
+        "46": "            if (!hasNext()) {\n",
+        "47": "              throw new NoSuchElementException();\n",
+        "48": "            }\n",
+        "49": "            return array[i++];\n",
+        "50": "          }\n",
+        "51": "        };\n",
+        "58": "    } catch (UnsupportedOperationException expected) {\n",
+        "59": "    }\n"
+    },
+    "removed": {
+        "35": "    Iterator<String> iterator = new UnmodifiableIterator<String>() {\n",
+        "36": "      int i;\n",
+        "37": "      @Override\n",
+        "38": "      public boolean hasNext() {\n",
+        "39": "        return i < array.length;\n",
+        "40": "      }\n",
+        "41": "      @Override\n",
+        "42": "      public String next() {\n",
+        "43": "        if (!hasNext()) {\n",
+        "44": "          throw new NoSuchElementException();\n",
+        "45": "        }\n",
+        "46": "        return array[i++];\n",
+        "47": "      }\n",
+        "48": "    };\n",
+        "55": "    } catch (UnsupportedOperationException expected) {}\n"
+    }
+}

@@ -1,0 +1,4 @@
+
+   * Returns the range containing this key and its associated value, if such a range is present
+   * in the range map, or {@code null} otherwise.
+   

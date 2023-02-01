@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "26": "  public abstract CommonMatcher matcher(CharSequence t);\n",
+        "28": "  public abstract String pattern();\n",
+        "30": "  public abstract int flags();\n",
+        "32": "  // Re-declare this as abstract to force subclasses to override.\n",
+        "36": "  static CommonPattern compile(String pattern) {\n",
+        "37": "    return Platform.compilePattern(pattern);\n",
+        "38": "  }\n"
+    },
+    "removed": {
+        "26": "  abstract CommonMatcher matcher(CharSequence t);\n",
+        "28": "  abstract String pattern();\n",
+        "30": "  abstract int flags();\n",
+        "32": "  // Re-declare these as abstract to force subclasses to override.\n",
+        "36": "  @Override\n",
+        "37": "  public abstract int hashCode();\n",
+        "38": "\n",
+        "39": "  @Override\n",
+        "40": "  public abstract boolean equals(Object o);\n"
+    }
+}

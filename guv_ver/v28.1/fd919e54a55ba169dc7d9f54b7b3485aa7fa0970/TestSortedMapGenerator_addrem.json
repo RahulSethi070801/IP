@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "34": "   * Returns an entry with a key less than the keys of the {@link #samples()} and less than the key\n",
+        "35": "   * of {@link #belowSamplesGreater()}.\n",
+        "40": "   * Returns an entry with a key less than the keys of the {@link #samples()} but greater than the\n",
+        "41": "   * key of {@link #belowSamplesLesser()}.\n",
+        "46": "   * Returns an entry with a key greater than the keys of the {@link #samples()} but less than the\n",
+        "47": "   * key of {@link #aboveSamplesGreater()}.\n",
+        "52": "   * Returns an entry with a key greater than the keys of the {@link #samples()} and greater than\n",
+        "53": "   * the key of {@link #aboveSamplesLesser()}.\n"
+    },
+    "removed": {
+        "34": "   * Returns an entry with a key less than the keys of the {@link #samples()}\n",
+        "35": "   * and less than the key of {@link #belowSamplesGreater()}.\n",
+        "40": "   * Returns an entry with a key less than the keys of the {@link #samples()}\n",
+        "41": "   * but greater than the key of {@link #belowSamplesLesser()}.\n",
+        "46": "   * Returns an entry with a key greater than the keys of the {@link #samples()}\n",
+        "47": "   * but less than the key of {@link #aboveSamplesGreater()}.\n",
+        "52": "   * Returns an entry with a key greater than the keys of the {@link #samples()}\n",
+        "53": "   * and greater than the key of {@link #aboveSamplesLesser()}.\n"
+    }
+}

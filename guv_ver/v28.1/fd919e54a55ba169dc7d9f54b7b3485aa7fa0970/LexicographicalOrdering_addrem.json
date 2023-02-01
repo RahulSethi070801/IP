@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "25": "/** An ordering which sorts iterables by comparing corresponding elements pairwise. */\n"
+    },
+    "removed": {
+        "25": "/**\n",
+        "26": " * An ordering which sorts iterables by comparing corresponding elements\n",
+        "27": " * pairwise.\n",
+        "28": " */\n"
+    }
+}

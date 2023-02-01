@@ -1,0 +1,3 @@
+protected int standardSetCount(@ParametricNullness E element, int count) {
+    return Multisets.setCountImpl(this, element, count);
+}

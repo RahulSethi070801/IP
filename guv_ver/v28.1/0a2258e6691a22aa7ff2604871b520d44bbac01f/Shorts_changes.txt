@@ -1,0 +1,4 @@
+Shorts
+Insertions: [34, 591, 597, 609, 640]
+Deletions: [34, 591, 597, 609, 640]
+guava/src/com/google/common/primitives/Shorts.java

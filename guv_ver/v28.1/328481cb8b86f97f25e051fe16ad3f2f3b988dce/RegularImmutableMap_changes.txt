@@ -1,0 +1,4 @@
+RegularImmutableMap
+Insertions: [27, 215, 216]
+Deletions: [27, 215, 216]
+android/guava/src/com/google/common/collect/RegularImmutableMap.java

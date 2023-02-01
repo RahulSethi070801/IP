@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "34": "    return Maps.transformValues(Maps.<String, String>newTreeMap(), Functions.<String>identity());\n"
+    },
+    "removed": {
+        "34": "    return Maps.transformValues(Maps.<String, String>newTreeMap(),\n",
+        "35": "        Functions.<String>identity());\n"
+    }
+}

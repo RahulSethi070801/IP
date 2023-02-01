@@ -1,0 +1,8 @@
+
+     * Subclasses should invoke this method to set the result of the computation to {@code value}.
+     * This will set the state of the future to {@link OldAbstractFuture.Sync#COMPLETED} and invoke
+     * the listeners if the state was successfully changed.
+     *
+     * @param value the value that was the result of the task.
+     * @return true if the state was successfully changed.
+     

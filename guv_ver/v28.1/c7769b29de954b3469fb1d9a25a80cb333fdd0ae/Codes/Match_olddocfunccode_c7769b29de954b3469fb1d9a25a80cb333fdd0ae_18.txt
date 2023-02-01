@@ -1,0 +1,5 @@
+public HashCode hash(HashFunction hashFunction) throws IOException {
+    Hasher hasher = hashFunction.newHasher();
+    copyTo(Funnels.asOutputStream(hasher));
+    return hasher.hash();
+}

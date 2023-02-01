@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "38": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "192": "    @NullableDecl\n",
+        "195": "    @NullableDecl\n",
+        "246": "    public boolean containsKey(@NullableDecl Object key) {\n",
+        "251": "    public V get(@NullableDecl Object key) {\n",
+        "330": "  public V set(int rowIndex, int columnIndex, @NullableDecl V value) {\n",
+        "382": "  public boolean contains(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "391": "  public boolean containsColumn(@NullableDecl Object columnKey) {\n",
+        "400": "  public boolean containsRow(@NullableDecl Object rowKey) {\n",
+        "405": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "417": "  public V get(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "439": "  public V put(R rowKey, C columnKey, @NullableDecl V value) {\n",
+        "496": "  public V erase(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n"
+    },
+    "removed": {
+        "38": "import javax.annotation.Nullable;\n",
+        "192": "    @Nullable\n",
+        "195": "    @Nullable\n",
+        "246": "    public boolean containsKey(@Nullable Object key) {\n",
+        "251": "    public V get(@Nullable Object key) {\n",
+        "330": "  public V set(int rowIndex, int columnIndex, @Nullable V value) {\n",
+        "382": "  public boolean contains(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "391": "  public boolean containsColumn(@Nullable Object columnKey) {\n",
+        "400": "  public boolean containsRow(@Nullable Object rowKey) {\n",
+        "405": "  public boolean containsValue(@Nullable Object value) {\n",
+        "417": "  public V get(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "439": "  public V put(R rowKey, C columnKey, @Nullable V value) {\n",
+        "496": "  public V erase(@Nullable Object rowKey, @Nullable Object columnKey) {\n"
+    }
+}

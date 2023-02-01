@@ -1,0 +1,4 @@
+@Beta
+public static <K, V> ImmutableMap<K, V> toMap(Iterable<K> keys, Function<? super K, V> valueFunction) {
+    return toMap(keys.iterator(), valueFunction);
+}

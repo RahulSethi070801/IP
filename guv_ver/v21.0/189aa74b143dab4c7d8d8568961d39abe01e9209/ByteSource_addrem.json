@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "31": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "245": "   * @return the number of bytes copied\n",
+        "249": "  @CanIgnoreReturnValue\n",
+        "267": "   * @return the number of bytes copied\n",
+        "271": "  @CanIgnoreReturnValue\n",
+        "314": "  @CanIgnoreReturnValue // some processors won't return a useful result\n",
+        "607": "    @SuppressWarnings(\"CheckReturnValue\") // it doesn't matter what processBytes returns here\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,9 @@
+
+   * Reads all bytes from a file into a byte array.
+   *
+   * @param file the file to read from
+   * @return a byte array containing all the bytes from file
+   * @throws IllegalArgumentException if the file is bigger than the largest possible byte array
+   *     (2^31 - 1)
+   * @throws IOException if an I/O error occurs
+   

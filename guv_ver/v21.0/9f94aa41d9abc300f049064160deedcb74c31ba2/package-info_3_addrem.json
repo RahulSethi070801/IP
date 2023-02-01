@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n",
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "9": " * Unless required by applicable law or agreed to in writing, software distributed under the License\n",
+        "10": " * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n",
+        "19": " * In-memory caches can be configured and created using {@link\n",
+        "20": " * com.google.common.cache.CacheBuilder}, with cache entries being loaded by {@link\n",
+        "21": " * com.google.common.cache.CacheLoader}. Statistics about cache performance are exposed using {@link\n",
+        "22": " * com.google.common.cache.CacheStats}.\n",
+        "24": " * <p>See the Guava User Guide article on\n",
+        "25": " * <a href=\"https://github.com/google/guava/wiki/CachesExplained\">caches</a>.\n",
+        "27": " * <p>This package is a part of the open-source <a href=\"http://github.com/google/guava\">Guava</a>\n",
+        "28": " * library.\n"
+    },
+    "removed": {
+        "4": " * Licensed under the Apache License, Version 2.0 (the \"License\");\n",
+        "5": " * you may not use this file except in compliance with the License.\n",
+        "6": " * You may obtain a copy of the License at\n",
+        "10": " * Unless required by applicable law or agreed to in writing, software\n",
+        "11": " * distributed under the License is distributed on an \"AS IS\" BASIS,\n",
+        "12": " * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n",
+        "13": " * See the License for the specific language governing permissions and\n",
+        "14": " * limitations under the License.\n",
+        "21": " * In-memory caches can be configured and created using\n",
+        "22": " * {@link com.google.common.cache.CacheBuilder}, with cache entries being loaded by\n",
+        "23": " * {@link com.google.common.cache.CacheLoader}. Statistics about cache performance are exposed using\n",
+        "24": " * {@link com.google.common.cache.CacheStats}.\n",
+        "26": " * <p>See the Guava User Guide article on <a href=\n",
+        "27": " * \"https://github.com/google/guava/wiki/CachesExplained\">caches</a>.\n",
+        "29": " * <p>This package is a part of the open-source\n",
+        "30": " * <a href=\"http://github.com/google/guava\">Guava</a> library.\n"
+    }
+}

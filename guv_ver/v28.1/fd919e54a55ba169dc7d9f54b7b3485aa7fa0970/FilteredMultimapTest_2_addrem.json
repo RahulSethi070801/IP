@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "33": "  private static final Predicate<Entry<String, Integer>> ENTRY_PREDICATE =\n",
+        "34": "      new Predicate<Entry<String, Integer>>() {\n",
+        "35": "        @Override\n",
+        "36": "        public boolean apply(Entry<String, Integer> entry) {\n",
+        "39": "      };\n",
+        "48": "  private static final Predicate<String> KEY_PREDICATE =\n",
+        "49": "      new Predicate<String>() {\n",
+        "50": "        @Override\n",
+        "51": "        public boolean apply(String key) {\n",
+        "54": "      };\n",
+        "65": "  private static final Predicate<Integer> VALUE_PREDICATE =\n",
+        "66": "      new Predicate<Integer>() {\n",
+        "67": "        @Override\n",
+        "68": "        public boolean apply(Integer value) {\n",
+        "71": "      };\n"
+    },
+    "removed": {
+        "33": "  private static final Predicate<Entry<String, Integer>> ENTRY_PREDICATE\n",
+        "34": "      = new Predicate<Entry<String, Integer>>() {\n",
+        "35": "        @Override public boolean apply(Entry<String, Integer> entry) {\n",
+        "38": "  };\n",
+        "47": "  private static final Predicate<String> KEY_PREDICATE\n",
+        "48": "      = new Predicate<String>() {\n",
+        "49": "        @Override public boolean apply(String key) {\n",
+        "52": "  };\n",
+        "63": "  private static final Predicate<Integer> VALUE_PREDICATE\n",
+        "64": "      = new Predicate<Integer>() {\n",
+        "65": "        @Override public boolean apply(Integer value) {\n",
+        "68": "  };\n"
+    }
+}

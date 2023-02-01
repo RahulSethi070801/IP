@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "49": "  private static final InvocationHandler X_RETURNER =\n",
+        "50": "      new InvocationHandler() {\n",
+        "51": "        @Override\n",
+        "52": "        public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {\n",
+        "53": "          return \"x\";\n",
+        "54": "        }\n",
+        "55": "      };\n",
+        "58": "\n",
+        "84": "        A.class, // Already initialized (above)\n",
+        "85": "        B.class, C.class);\n"
+    },
+    "removed": {
+        "49": "  private static final InvocationHandler X_RETURNER = new InvocationHandler() {\n",
+        "50": "    @Override\n",
+        "51": "    public Object invoke(Object proxy, Method method, Object[] args)\n",
+        "52": "        throws Throwable {\n",
+        "53": "      return \"x\";\n",
+        "54": "    }\n",
+        "55": "  };\n",
+        "81": "        A.class,  // Already initialized (above)\n",
+        "82": "        B.class,\n",
+        "83": "        C.class);\n"
+    }
+}

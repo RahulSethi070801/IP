@@ -1,0 +1,4 @@
+@Deprecated
+public static <E> ImmutableSortedMultiset<E> of(E element) {
+    throw new UnsupportedOperationException();
+}

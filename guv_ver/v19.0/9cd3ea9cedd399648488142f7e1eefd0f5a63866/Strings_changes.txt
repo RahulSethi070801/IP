@@ -1,0 +1,4 @@
+Strings
+Insertions: [37]
+Deletions: [47]
+guava/src/com/google/common/base/Strings.java

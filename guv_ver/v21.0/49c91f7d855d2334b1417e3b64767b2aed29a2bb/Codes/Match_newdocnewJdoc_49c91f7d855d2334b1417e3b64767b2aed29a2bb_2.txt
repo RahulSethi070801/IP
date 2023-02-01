@@ -1,0 +1,9 @@
+
+   * Returns true iff {@code graph1} and {@code graph2} have the same node connections.
+   *
+   * <p>Note: {@link Network} instances can only be equal to other {@link Network} instances.
+   * In particular, {@link Graph}s that are not also {@link Network}s cannot be equal
+   * to {@link Network}s.
+   *
+   * @see Graph#equals(Object)
+   

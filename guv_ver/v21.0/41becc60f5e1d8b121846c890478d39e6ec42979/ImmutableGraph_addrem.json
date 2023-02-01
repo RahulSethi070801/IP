@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "27": " * A {@link Graph} whose relationships and edge values are constant. Instances of this class may be\n",
+        "28": " * obtained with {@link #copyOf(Graph)}.\n",
+        "36": "public class ImmutableGraph<N, V> extends ConfigurableGraph<N, V> {\n",
+        "38": "  ImmutableGraph(Graph<N, V> graph) {\n",
+        "39": "    super(GraphBuilder.from(graph), getNodeConnections(graph), graph.edges().size());\n",
+        "46": "  public static <N, V> ImmutableGraph<N, V> copyOf(Graph<N, V> graph) {\n",
+        "47": "    return (graph instanceof ImmutableGraph)\n",
+        "48": "        ? (ImmutableGraph<N, V>) graph\n",
+        "49": "        : new ImmutableGraph<N, V>(graph);\n",
+        "58": "  public static <N, V> ImmutableGraph<N, V> copyOf(ImmutableGraph<N, V> graph) {\n",
+        "63": "      Graph<N, V> graph) {\n",
+        "74": "  private static <N, V> GraphConnections<N, V> connectionsOf(final Graph<N, V> graph,\n"
+    },
+    "removed": {
+        "27": " * A {@link ValueGraph} whose relationships and edge values are constant. Instances of this class\n",
+        "28": " * may be obtained with {@link #copyOf(ValueGraph)}.\n",
+        "36": "public class ImmutableValueGraph<N, V> extends ConfigurableValueGraph<N, V> {\n",
+        "38": "  ImmutableValueGraph(ValueGraph<N, V> graph) {\n",
+        "39": "    super(ValueGraphBuilder.from(graph), getNodeConnections(graph), graph.edges().size());\n",
+        "46": "  public static <N, V> ImmutableValueGraph<N, V> copyOf(ValueGraph<N, V> graph) {\n",
+        "47": "    return (graph instanceof ImmutableValueGraph)\n",
+        "48": "        ? (ImmutableValueGraph<N, V>) graph\n",
+        "49": "        : new ImmutableValueGraph<N, V>(graph);\n",
+        "58": "  public static <N, V> ImmutableValueGraph<N, V> copyOf(ImmutableValueGraph<N, V> graph) {\n",
+        "63": "      ValueGraph<N, V> graph) {\n",
+        "74": "  private static <N, V> GraphConnections<N, V> connectionsOf(final ValueGraph<N, V> graph,\n"
+    }
+}

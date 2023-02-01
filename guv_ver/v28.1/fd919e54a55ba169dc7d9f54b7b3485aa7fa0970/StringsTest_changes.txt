@@ -1,0 +1,4 @@
+StringsTest
+Insertions: [151, 154, 155, 157, 159, 161, 162, 164, 180, 183, 184, 186, 188, 190, 191, 193]
+Deletions: [151, 152, 155, 156, 158, 159, 161, 162, 164, 165, 167, 168, 184, 185, 188, 189, 191, 192, 194, 195, 197, 198, 200, 201]
+android/guava-tests/test/com/google/common/base/StringsTest.java

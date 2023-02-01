@@ -1,0 +1,4 @@
+EndpointsIterator
+Insertions: [28, 34, 40, 44, 68, 112]
+Deletions: [28, 34, 40, 44, 68, 112]
+guava/src/com/google/common/graph/EndpointsIterator.java

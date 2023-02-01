@@ -1,0 +1,5 @@
+@Override
+@SuppressWarnings("nullness")
+public boolean accept(@CheckForNull File dir, String fileName) {
+    return pattern.matcher(fileName).matches();
+}

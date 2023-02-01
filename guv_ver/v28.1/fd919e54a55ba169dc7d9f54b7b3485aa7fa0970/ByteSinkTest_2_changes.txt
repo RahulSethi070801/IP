@@ -1,0 +1,4 @@
+ByteSinkTest_2
+Insertions: [88, 89, 92, 93, 111]
+Deletions: [88, 91, 109, 110]
+guava-tests/test/com/google/common/io/ByteSinkTest.java

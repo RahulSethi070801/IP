@@ -1,0 +1,32 @@
+@Override
+@CanIgnoreReturnValue
+public boolean addEdge(E edge, N nodeA, N nodeB) {
+    checkNotNull(edge, "edge");
+    checkNotNull(nodeA, "nodeA");
+    checkNotNull(nodeB, "nodeB");
+    if (containsEdge(edge)) {
+        Endpoints<N> existingEndpoints = incidentNodes(edge);
+        Endpoints<N> newEndpoints = Endpoints.of(nodeA, nodeB, isDirected());
+        checkArgument(existingEndpoints.equals(newEndpoints), REUSING_EDGE, edge, existingEndpoints, newEndpoints);
+        return false;
+    }
+    NodeConnections<N, E> connectionsA = nodeConnections.get(nodeA);
+    if (!allowsParallelEdges()) {
+        checkArgument(!(connectionsA != null && connectionsA.successors().contains(nodeB)), PARALLEL_EDGES_NOT_ALLOWED, nodeA, nodeB);
+    }
+    boolean isSelfLoop = nodeA.equals(nodeB);
+    if (!allowsSelfLoops()) {
+        checkArgument(!isSelfLoop, SELF_LOOPS_NOT_ALLOWED, nodeA);
+    }
+    if (connectionsA == null) {
+        connectionsA = addNodeInternal(nodeA);
+    }
+    connectionsA.addOutEdge(edge, nodeB);
+    NodeConnections<N, E> connectionsB = nodeConnections.get(nodeB);
+    if (connectionsB == null) {
+        connectionsB = addNodeInternal(nodeB);
+    }
+    connectionsB.addInEdge(edge, nodeA, isSelfLoop);
+    edgeToReferenceNode.put(edge, nodeA);
+    return true;
+}

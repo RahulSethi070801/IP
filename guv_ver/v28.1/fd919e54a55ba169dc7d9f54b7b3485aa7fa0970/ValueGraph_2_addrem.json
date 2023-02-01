@@ -1,0 +1,22 @@
+{
+    "addition": {
+        "60": " * create an instance of one of the built-in implementations of {@code ValueGraph}, use the {@link\n",
+        "61": " * ValueGraphBuilder} class:\n",
+        "64": " * MutableValueGraph<Integer, Double> graph = ValueGraphBuilder.directed().build();\n",
+        "77": " * ImmutableValueGraph<Integer, Double> immutableGraph = ImmutableValueGraph.copyOf(graph);\n",
+        "213": "   *   <li>A and B have equal {@link #isDirected() directedness}.\n",
+        "214": "   *   <li>A and B have equal {@link #nodes() node sets}.\n",
+        "215": "   *   <li>A and B have equal {@link #edges() edge sets}.\n",
+        "216": "   *   <li>The {@link #edgeValue(Object, Object) value} of a given edge is the same in both A and B.\n"
+    },
+    "removed": {
+        "60": " * create an instance of one of the built-in implementations of {@code ValueGraph}, use the\n",
+        "61": " * {@link ValueGraphBuilder} class:\n",
+        "64": " *   MutableValueGraph<Integer, Double> graph = ValueGraphBuilder.directed().build();\n",
+        "77": " *   ImmutableValueGraph<Integer, Double> immutableGraph = ImmutableValueGraph.copyOf(graph);\n",
+        "213": "   * <li>A and B have equal {@link #isDirected() directedness}.\n",
+        "214": "   * <li>A and B have equal {@link #nodes() node sets}.\n",
+        "215": "   * <li>A and B have equal {@link #edges() edge sets}.\n",
+        "216": "   * <li>The {@link #edgeValue(Object, Object) value} of a given edge is the same in both A and B.\n"
+    }
+}

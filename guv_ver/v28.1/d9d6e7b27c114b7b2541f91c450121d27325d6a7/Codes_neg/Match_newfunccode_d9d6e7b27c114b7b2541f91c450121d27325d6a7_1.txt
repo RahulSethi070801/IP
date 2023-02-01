@@ -1,0 +1,13 @@
+@Override
+public Hasher putBytes(ByteBuffer buffer) {
+    ByteOrder bo = buffer.order();
+    buffer.order(ByteOrder.LITTLE_ENDIAN);
+    while (buffer.remaining() >= 4) {
+        putInt(buffer.getInt());
+    }
+    while (buffer.hasRemaining()) {
+        putByte(buffer.get());
+    }
+    buffer.order(bo);
+    return this;
+}

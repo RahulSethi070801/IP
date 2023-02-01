@@ -1,0 +1,7 @@
+
+   * Removes a single key-value pair with the key {@code key} and the value {@code value} from this
+   * multimap, if such exists. If multiple key-value pairs in the multimap fit this description,
+   * which one is removed is unspecified.
+   *
+   * @return {@code true} if the multimap changed
+   

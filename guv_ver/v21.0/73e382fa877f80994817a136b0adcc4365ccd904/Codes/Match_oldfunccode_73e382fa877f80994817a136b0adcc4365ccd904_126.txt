@@ -1,0 +1,28 @@
+public ListenableFuture<V> loadFuture(K key, CacheLoader<? super K, V> loader) {
+    try {
+        stopwatch.start();
+        V previousValue = oldValue.get();
+        if (previousValue == null) {
+            V newValue = loader.load(key);
+            return set(newValue) ? futureValue : Futures.immediateFuture(newValue);
+        }
+        ListenableFuture<V> newValue = loader.reload(key, previousValue);
+        if (newValue == null) {
+            return Futures.immediateFuture(null);
+        }
+        return Futures.transform(newValue, new Function<V, V>() {
+
+            @Override
+            public V apply(V newValue) {
+                LoadingValueReference.this.set(newValue);
+                return newValue;
+            }
+        });
+    } catch (Throwable t) {
+        ListenableFuture<V> result = setException(t) ? futureValue : fullyFailedFuture(t);
+        if (t instanceof InterruptedException) {
+            Thread.currentThread().interrupt();
+        }
+        return result;
+    }
+}

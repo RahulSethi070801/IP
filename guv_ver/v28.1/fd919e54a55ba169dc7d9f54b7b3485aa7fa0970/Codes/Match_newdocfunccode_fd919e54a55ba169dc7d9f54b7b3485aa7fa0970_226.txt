@@ -1,0 +1,5 @@
+@Override
+public boolean matchesNoneOf(CharSequence sequence) {
+    checkNotNull(sequence);
+    return true;
+}

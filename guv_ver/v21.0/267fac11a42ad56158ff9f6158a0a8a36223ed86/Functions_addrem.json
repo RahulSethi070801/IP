@@ -1,0 +1,35 @@
+{
+    "addition": {
+        "27": " * Static utility methods pertaining to {@code com.google.common.base.Function} instances; see that\n",
+        "28": " * class for information about migrating to {@code java.util.function}.\n",
+        "45": "   * A function equivalent to the method reference {@code Object::toString}, for users not yet using\n",
+        "46": "   * Java 8. The function simply invokes {@code toString} on its argument and returns the result. It\n",
+        "47": "   * throws a {@link NullPointerException} on null input.\n",
+        "114": "   *\n",
+        "115": "   * <p><b>Java 8 users:</b> if you are okay with {@code null} being returned for an unrecognized\n",
+        "116": "   * key (instead of an exception being thrown), you can use the method reference {@code map::get}\n",
+        "117": "   * instead.\n",
+        "164": "   * <p><b>Java 8 users:</b> you can just write the lambda expression {@code k ->\n",
+        "165": "   * map.getWithDefault(k, defaultValue)} instead.\n",
+        "166": "   *\n",
+        "218": "   * <p><b>Java 8 users:</b> use {@code g.compose(f)} or (probably clearer) {@code f.andThen(g)}\n",
+        "219": "   * instead.\n",
+        "220": "   *\n",
+        "272": "   *\n",
+        "273": "   * <p><b>Java 8 users:</b> use the method reference {@code predicate::test} instead.\n",
+        "315": "   * Returns a function that ignores its input and always returns {@code value}.\n",
+        "316": "   *\n",
+        "317": "   * <p><b>Java 8 users:</b> use the lambda expression {@code o -> value} instead.\n",
+        "361": "   * Returns a function that ignores its input and returns the result of {@code supplier.get()}.\n",
+        "362": "   *\n",
+        "363": "   * <p><b>Java 8 users:</b> use the lambda expression {@code o -> supplier.get()} instead.\n"
+    },
+    "removed": {
+        "27": " * Static utility methods pertaining to {@code Function} instances.\n",
+        "44": "   * Returns a function that calls {@code toString()} on its argument. The function does not accept\n",
+        "45": "   * nulls; it will throw a {@link NullPointerException} when applied to {@code null}.\n",
+        "301": "   * Creates a function that returns {@code value} for any input.\n",
+        "345": "   * Returns a function that always returns the result of invoking {@link Supplier#get} on {@code\n",
+        "346": "   * supplier}, regardless of its input.\n"
+    }
+}

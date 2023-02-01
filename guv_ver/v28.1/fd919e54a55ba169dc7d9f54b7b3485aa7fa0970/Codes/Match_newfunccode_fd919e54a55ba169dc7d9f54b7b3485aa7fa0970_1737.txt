@@ -1,0 +1,13 @@
+@SuppressWarnings("unchecked")
+@CanIgnoreReturnValue
+@Override
+Builder<E> combine(ArrayBasedBuilder<E> builder) {
+    if (hashTable != null && builder instanceof Builder) {
+        for (int i = 0; i < builder.size; i++) {
+            addDeduping((E) builder.contents[i]);
+        }
+    } else {
+        super.combine(builder);
+    }
+    return this;
+}

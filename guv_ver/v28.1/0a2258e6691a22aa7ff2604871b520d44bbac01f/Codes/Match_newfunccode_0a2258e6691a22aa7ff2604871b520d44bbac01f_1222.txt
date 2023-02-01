@@ -1,0 +1,21 @@
+@Nullable
+private AvlNode<E> lastNode() {
+    AvlNode<E> root = rootReference.get();
+    if (root == null) {
+        return null;
+    }
+    AvlNode<E> node;
+    if (range.hasUpperBound()) {
+        E endpoint = range.getUpperEndpoint();
+        node = rootReference.get().floor(comparator(), endpoint);
+        if (node == null) {
+            return null;
+        }
+        if (range.getUpperBoundType() == BoundType.OPEN && comparator().compare(endpoint, node.getElement()) == 0) {
+            node = node.pred;
+        }
+    } else {
+        node = header.pred;
+    }
+    return (node == header || !range.contains(node.getElement())) ? null : node;
+}

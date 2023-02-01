@@ -1,0 +1,4 @@
+ForwardingCache
+Insertions: [29, 30, 44, 51, 57, 63, 69, 80]
+Deletions: [29, 30, 44, 45, 46, 53, 54, 55, 61, 62, 63, 69, 70, 71, 77, 78, 79, 90, 91, 92]
+android/guava/src/com/google/common/cache/ForwardingCache.java

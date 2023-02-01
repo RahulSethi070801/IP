@@ -1,0 +1,21 @@
+private static NetworkConnections<N, E> connectionsOf(Network<N, E> graph, N node)
+public String toString()
+
+public int outDegree(Object node)
+public String toString()
+
+int degree(Object node)
+public String toString()
+
+public int inDegree(Object node)
+public String toString()
+
+int inDegree(Object node)
+public String toString()
+
+public int degree(Object node)
+public String toString()
+
+int outDegree(Object node)
+public String toString()
+

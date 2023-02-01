@@ -1,0 +1,15 @@
+
+   * Returns the string representation of an {@link InetAddress}.
+   *
+   * <p>For IPv4 addresses, this is identical to {@link InetAddress#getHostAddress()}, but for IPv6
+   * addresses, the output follows <a href="http://tools.ietf.org/html/rfc5952">RFC 5952</a> section
+   * 4. The main difference is that this method uses "::" for zero compression, while Java's version
+   * uses the uncompressed form.
+   *
+   * <p>This method uses hexadecimal for all IPv6 addresses, including IPv4-mapped IPv6 addresses
+   * such as "::c000:201". The output does not include a Scope ID.
+   *
+   * @param ip {@link InetAddress} to be converted to an address string
+   * @return {@code String} containing the text-formatted IP address
+   * @since 10.0
+   

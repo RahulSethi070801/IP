@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.RateLimiter
+acquire
+public double acquire()
+empty
+double

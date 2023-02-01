@@ -1,0 +1,3 @@
+
+   * Returns the intersection of the two ranges, or an empty range if their intersection is empty.
+   

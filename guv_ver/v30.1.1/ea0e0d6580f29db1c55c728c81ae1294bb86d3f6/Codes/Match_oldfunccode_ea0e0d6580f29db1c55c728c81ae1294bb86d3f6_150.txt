@@ -1,0 +1,18 @@
+private static <E> boolean retainOccurrencesImpl(Multiset<E> multisetToModify, Multiset<?> occurrencesToRetain) {
+    checkNotNull(multisetToModify);
+    checkNotNull(occurrencesToRetain);
+    Iterator<Entry<E>> entryIterator = multisetToModify.entrySet().iterator();
+    boolean changed = false;
+    while (entryIterator.hasNext()) {
+        Entry<E> entry = entryIterator.next();
+        int retainCount = occurrencesToRetain.count(entry.getElement());
+        if (retainCount == 0) {
+            entryIterator.remove();
+            changed = true;
+        } else if (retainCount < entry.getCount()) {
+            multisetToModify.setCount(entry.getElement(), retainCount);
+            changed = true;
+        }
+    }
+    return changed;
+}

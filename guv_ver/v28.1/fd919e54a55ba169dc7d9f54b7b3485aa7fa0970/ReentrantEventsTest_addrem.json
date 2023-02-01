@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "24": " * Validate that {@link EventBus} behaves carefully when listeners publish their own events.\n",
+        "41": "    assertEquals(\n",
+        "42": "        \"ReentrantEventHater expected 2 events\",\n",
+        "43": "        Lists.<Object>newArrayList(FIRST, SECOND),\n",
+        "44": "        hater.eventsReceived);\n",
+        "78": "    assertEquals(\n",
+        "79": "        \"EventRecorder expected events in order\",\n",
+        "80": "        Lists.<Object>newArrayList(FIRST, SECOND),\n",
+        "81": "        recorder.eventsReceived);\n",
+        "85": "    @Subscribe\n",
+        "86": "    public void listenForStrings(String event) {\n",
+        "93": "\n",
+        "94": "    @Subscribe\n",
+        "95": "    public void listenForEverything(Object event) {\n"
+    },
+    "removed": {
+        "24": " * Validate that {@link EventBus} behaves carefully when listeners publish\n",
+        "25": " * their own events.\n",
+        "42": "    assertEquals(\"ReentrantEventHater expected 2 events\",\n",
+        "43": "        Lists.<Object>newArrayList(FIRST, SECOND), hater.eventsReceived);\n",
+        "77": "    assertEquals(\"EventRecorder expected events in order\",\n",
+        "78": "        Lists.<Object>newArrayList(FIRST, SECOND), recorder.eventsReceived);\n",
+        "82": "    @Subscribe public void listenForStrings(String event) {\n",
+        "89": "    @Subscribe public void listenForEverything(Object event) {\n"
+    }
+}

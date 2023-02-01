@@ -1,0 +1,26 @@
+
+   * Returns an unmodifiable <b>view</b> of the intersection of two sets. The
+   * returned set contains all elements that are contained by both backing sets.
+   * The iteration order of the returned set matches that of {@code set1}.
+   *
+   * <p>Results are undefined if {@code set1} and {@code set2} are sets based
+   * on different equivalence relations (as {@code HashSet}, {@code TreeSet},
+   * and the keySet of an {@code IdentityHashMap} all are).
+   *
+   * <p><b>Note:</b> The returned view performs slightly better when {@code
+   * set1} is the smaller of the two sets. If you have reason to believe one of
+   * your sets will generally be smaller than the other, pass it first.
+   * Unfortunately, since this method sets the generic type of the returned set
+   * based on the type of the first set passed, this could in rare cases force
+   * you to make a cast, for example: <pre>   {@code
+   *
+   *   Set<Object> aFewBadObjects = ...
+   *   Set<String> manyBadStrings = ...
+   *
+   *   // impossible for a non-String to be in the intersection
+   *   SuppressWarnings("unchecked")
+   *   Set<String> badStrings = (Set) Sets.intersection(
+   *       aFewBadObjects, manyBadStrings);}</pre>
+   *
+   * <p>This is unfortunate, but should come up only very rarely.
+   

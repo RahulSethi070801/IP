@@ -1,0 +1,4 @@
+ClassPath_2
+Insertions: [158, 159, 411, 412, 413, 414, 493, 494, 495, 586, 587, 588]
+Deletions: [158, 159, 411, 412, 413, 414, 493, 494, 495, 586, 587, 588]
+guava/src/com/google/common/reflect/ClassPath.java

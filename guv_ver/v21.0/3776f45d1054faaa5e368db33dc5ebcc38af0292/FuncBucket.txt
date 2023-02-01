@@ -1,0 +1,165 @@
+com.google.common.graph.Network
+degree
+int degree(Object node)
+Object
+int
+com.google.common.graph.Network
+inDegree
+int inDegree(Object node)
+Object
+int
+com.google.common.graph.Network
+successors
+Set<N> successors(Object node)
+Object
+Set
+com.google.common.graph.Network
+edgeOrder
+ElementOrder<? super E> edgeOrder()
+empty
+ElementOrder
+com.google.common.graph.Network
+nodeOrder
+ElementOrder<? super N> nodeOrder()
+empty
+ElementOrder
+com.google.common.graph.Graphs
+size
+public int size()
+empty
+int
+com.google.common.graph.Endpoints
+of
+public static Endpoints<N> of(Network<?, ?> network, N nodeA, N nodeB)
+Network,N,N
+Endpoints
+com.google.common.graph.AbstractNetwork
+predecessors
+public Set<N> predecessors(Object node)
+Object
+Set
+com.google.common.graph.AbstractNetwork
+successors
+public Set<N> successors(Object node)
+Object
+Set
+com.google.common.graph.AbstractGraph
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+Graph
+ImmutableGraph
+com.google.common.graph.Network
+allowsSelfLoops
+boolean allowsSelfLoops()
+empty
+boolean
+com.google.common.graph.Graphs
+contains
+public boolean contains(Object obj)
+Object
+boolean
+com.google.common.graph.Graphs
+castToNetwork
+private static Network<N, ?> castToNetwork(Graph<N> graph)
+Graph
+Network
+com.google.common.graph.Network
+outEdges
+Set<E> outEdges(Object node)
+Object
+Set
+com.google.common.graph.Network
+outDegree
+int outDegree(Object node)
+Object
+int
+com.google.common.graph.Network
+adjacentNodes
+Set<N> adjacentNodes(Object node)
+Object
+Set
+com.google.common.graph.AbstractNetwork
+nodeOrder
+public ElementOrder<? super N> nodeOrder()
+empty
+ElementOrder
+com.google.common.graph.Graphs
+endpointsInternal
+static Set<Endpoints<N>> endpointsInternal(final Graph<N> graph)
+Graph
+Set
+com.google.common.graph.Network
+predecessors
+Set<N> predecessors(Object node)
+Object
+Set
+com.google.common.graph.Graphs
+copyOf
+public static MutableGraph<N> copyOf(Graph<N> graph)
+Graph
+MutableGraph
+com.google.common.graph.AbstractNetwork
+isDirected
+public boolean isDirected()
+empty
+boolean
+com.google.common.graph.AbstractNetwork
+adjacentNodes
+public Set<N> adjacentNodes(Object node)
+Object
+Set
+com.google.common.graph.AbstractNetwork
+allowsSelfLoops
+public boolean allowsSelfLoops()
+empty
+boolean
+com.google.common.graph.Network
+isDirected
+boolean isDirected()
+empty
+boolean
+com.google.common.graph.GraphProperties
+isCyclic
+public static boolean isCyclic(Network<?, ?> network)
+Network
+boolean
+com.google.common.graph.Graphs
+allowsParallelEdges
+private static boolean allowsParallelEdges(Graph<?> graph)
+Graph
+boolean
+com.google.common.graph.Network
+nodes
+Set<N> nodes()
+empty
+Set
+com.google.common.graph.AbstractNetwork
+asGraph
+public Graph<N> asGraph()
+empty
+Graph
+com.google.common.graph.Network
+allowsParallelEdges
+boolean allowsParallelEdges()
+empty
+boolean
+com.google.common.graph.Network
+asGraph
+Graph<N> asGraph()
+empty
+Graph
+com.google.common.graph.Graphs
+endpointsSimpleNetwork
+private static Set<Endpoints<N>> endpointsSimpleNetwork(final Network<N, ?> graph)
+Network
+Set
+com.google.common.graph.Network
+inEdges
+Set<E> inEdges(Object node)
+Object
+Set

@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "47": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "197": "    @CanIgnoreReturnValue\n",
+        "299": "      ListenableFuture<Object> unused = Futures.transform(root, identity());\n",
+        "540": "      ListenableFuture<Object> unused = Futures.transformAsync(root, asyncIdentity());\n",
+        "2628": "  @CanIgnoreReturnValue\n",
+        "3487": "    @CanIgnoreReturnValue\n",
+        "3493": "    @CanIgnoreReturnValue\n"
+    },
+    "removed": {
+        "196": "\n",
+        "298": "      Futures.transform(root, identity());\n",
+        "539": "      Futures.transformAsync(root, asyncIdentity());\n",
+        "3485": "\n"
+    }
+}

@@ -1,0 +1,4 @@
+LoadingCacheSingleThreadBenchmark_2
+Insertions: [33, 34, 35, 36, 37, 38, 39, 40, 44, 45, 56, 57, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 84, 85, 106, 107]
+Deletions: [33, 34, 35, 39, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 75, 96]
+guava-tests/benchmark/com/google/common/cache/LoadingCacheSingleThreadBenchmark.java

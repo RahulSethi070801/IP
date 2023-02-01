@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "26": " * @deprecated For {@code OutputSupplier<? extends OutputStream>}, use\n",
+        "27": " *     {@link ByteSink} instead. For {@code OutputSupplier<? extends Writer>},\n",
+        "28": " *     use {@link CharSink}. Implementations of {@code OutputSupplier} that\n",
+        "29": " *     don't fall into one of those categories do not benefit from any of the\n",
+        "30": " *     methods in {@code common.io} and should use a different interface. This\n",
+        "31": " *     interface is scheduled for removal in June 2015.\n",
+        "33": "@Deprecated\n"
+    },
+    "removed": {}
+}

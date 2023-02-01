@@ -1,0 +1,7 @@
+
+   * If there is an edge connecting {@code nodeU} to {@code nodeV}, returns the non-null value
+   * associated with that edge; otherwise, returns {@code defaultValue}.
+   *
+   * <p>In an undirected graph, this is equal to {@code edgeValueOrDefault(nodeV, nodeU,
+   * defaultValue)}.
+   

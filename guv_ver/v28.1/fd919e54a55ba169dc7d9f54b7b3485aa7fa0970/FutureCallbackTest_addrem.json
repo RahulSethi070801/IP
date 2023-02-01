@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "138": "    FutureCallback<Object> callback =\n",
+        "139": "        new FutureCallback<Object>() {\n",
+        "140": "          @Override\n",
+        "141": "          public void onSuccess(Object result) {}\n",
+        "143": "          @Override\n",
+        "144": "          public void onFailure(Throwable t) {}\n",
+        "145": "        };\n"
+    },
+    "removed": {
+        "138": "    FutureCallback<Object> callback = new FutureCallback<Object>() {\n",
+        "139": "      @Override\n",
+        "140": "      public void onSuccess(Object result) {}\n",
+        "142": "      @Override\n",
+        "143": "      public void onFailure(Throwable t) {}\n",
+        "144": "    };\n"
+    }
+}

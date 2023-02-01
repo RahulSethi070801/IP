@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "38": " * following three expressions all generate colliding hash codes:\n",
+        "40": " * <pre>{@code\n",
+        "41": " * newHasher().putByte(b1).putByte(b2).putByte(b3).hash()\n",
+        "42": " * newHasher().putByte(b1).putBytes(new byte[] { b2, b3 }).hash()\n",
+        "43": " * newHasher().putBytes(new byte[] { b1, b2, b3 }).hash()\n",
+        "44": " * }</pre>\n",
+        "48": " * is not equivalent to the concatenation of their encoded form. Therefore, {@link\n",
+        "49": " * #putString(CharSequence, Charset)} should only be used consistently with <i>complete</i>\n",
+        "79": "  /** Equivalent to {@code putInt(Float.floatToRawIntBits(f))}. */\n",
+        "83": "  /** Equivalent to {@code putLong(Double.doubleToRawLongBits(d))}. */\n",
+        "87": "  /** Equivalent to {@code putByte(b ? (byte) 1 : (byte) 0)}. */\n",
+        "121": "  /** A simple convenience for {@code funnel.funnel(object, this)}. */\n",
+        "133": "   * @deprecated This returns {@link Object#hashCode()}; you almost certainly mean to call {@code\n",
+        "134": "   *     hash().asInt()}.\n"
+    },
+    "removed": {
+        "38": " * following three expressions all generate colliding hash codes: <pre>   {@code\n",
+        "40": " *   newHasher().putByte(b1).putByte(b2).putByte(b3).hash()\n",
+        "41": " *   newHasher().putByte(b1).putBytes(new byte[] { b2, b3 }).hash()\n",
+        "42": " *   newHasher().putBytes(new byte[] { b1, b2, b3 }).hash()}</pre>\n",
+        "46": " * is not equivalent to the concatenation of their encoded form. Therefore,\n",
+        "47": " * {@link #putString(CharSequence, Charset)} should only be used consistently with <i>complete</i>\n",
+        "77": "  /**\n",
+        "78": "   * Equivalent to {@code putInt(Float.floatToRawIntBits(f))}.\n",
+        "79": "   */\n",
+        "83": "  /**\n",
+        "84": "   * Equivalent to {@code putLong(Double.doubleToRawLongBits(d))}.\n",
+        "85": "   */\n",
+        "89": "  /**\n",
+        "90": "   * Equivalent to {@code putByte(b ? (byte) 1 : (byte) 0)}.\n",
+        "91": "   */\n",
+        "125": "  /**\n",
+        "126": "   * A simple convenience for {@code funnel.funnel(object, this)}.\n",
+        "127": "   */\n",
+        "139": "   * @deprecated This returns {@link Object#hashCode()}; you almost certainly mean to call\n",
+        "140": "   *     {@code hash().asInt()}.\n"
+    }
+}

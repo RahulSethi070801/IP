@@ -1,0 +1,19 @@
+{
+    "addition": {
+        "31": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "82": "      @NullableDecl ImmutableMapEntry<K, V> existing = table[tableIndex];\n",
+        "107": "      Object key, Entry<?, ?> entry, @NullableDecl ImmutableMapEntry<?, ?> keyBucketHead) {\n",
+        "121": "  public V get(@NullableDecl Object key) {\n",
+        "125": "  @NullableDecl\n",
+        "126": "  static <V> V get(\n",
+        "127": "      @NullableDecl Object key, @NullableDecl ImmutableMapEntry<?, V>[] keyTable, int mask) {\n"
+    },
+    "removed": {
+        "31": "import javax.annotation.Nullable;\n",
+        "82": "      @Nullable ImmutableMapEntry<K, V> existing = table[tableIndex];\n",
+        "107": "      Object key, Entry<?, ?> entry, @Nullable ImmutableMapEntry<?, ?> keyBucketHead) {\n",
+        "121": "  public V get(@Nullable Object key) {\n",
+        "125": "  @Nullable\n",
+        "126": "  static <V> V get(@Nullable Object key, @Nullable ImmutableMapEntry<?, V>[] keyTable, int mask) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public boolean apply(@NullableDecl A a) {
+    return p.apply(f.apply(a));
+}

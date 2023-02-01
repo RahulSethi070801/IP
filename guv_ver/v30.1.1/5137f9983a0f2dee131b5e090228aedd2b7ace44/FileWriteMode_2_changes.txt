@@ -1,0 +1,4 @@
+FileWriteMode_2
+Insertions: [26]
+Deletions: []
+guava/src/com/google/common/io/FileWriteMode.java

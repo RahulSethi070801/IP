@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "34": " * <p>See the Guava User Guide article on <a\n",
+        "35": " * href=\"https://github.com/google/guava/wiki/PrimitivesExplained#unsigned-support\">unsigned\n",
+        "83": "   * Returns a {@code UnsignedInteger} representing the same value as the specified {@link\n",
+        "84": "   * BigInteger}. This is the inverse operation of {@link #bigIntegerValue()}.\n",
+        "183": "  /** Returns the value of this {@code UnsignedInteger} as a {@code long}. */\n",
+        "207": "  /** Returns the value of this {@code UnsignedInteger} as a {@link BigInteger}. */\n",
+        "214": "   * equal, a negative number if {@code this < other}, and a positive number if {@code this >\n",
+        "215": "   * other}.\n",
+        "237": "  /** Returns a string representation of the {@code UnsignedInteger} value, in base 10. */\n",
+        "245": "   * {@code radix < Character.MIN_RADIX} or {@code radix > Character.MAX_RADIX}, the radix {@code\n",
+        "246": "   * 10} is used.\n"
+    },
+    "removed": {
+        "34": " * <p>See the Guava User Guide article on\n",
+        "35": " * <a href=\"https://github.com/google/guava/wiki/PrimitivesExplained#unsigned-support\">unsigned\n",
+        "83": "   * Returns a {@code UnsignedInteger} representing the same value as the specified\n",
+        "84": "   * {@link BigInteger}. This is the inverse operation of {@link #bigIntegerValue()}.\n",
+        "183": "  /**\n",
+        "184": "   * Returns the value of this {@code UnsignedInteger} as a {@code long}.\n",
+        "185": "   */\n",
+        "209": "  /**\n",
+        "210": "   * Returns the value of this {@code UnsignedInteger} as a {@link BigInteger}.\n",
+        "211": "   */\n",
+        "218": "   * equal, a negative number if {@code this < other}, and a positive number if\n",
+        "219": "   * {@code this > other}.\n",
+        "241": "  /**\n",
+        "242": "   * Returns a string representation of the {@code UnsignedInteger} value, in base 10.\n",
+        "243": "   */\n",
+        "251": "   * {@code radix < Character.MIN_RADIX} or {@code radix > Character.MAX_RADIX}, the radix\n",
+        "252": "   * {@code 10} is used.\n"
+    }
+}

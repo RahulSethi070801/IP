@@ -1,0 +1,10 @@
+private AvlNode<E> removeMax(AvlNode<E> node) {
+    if (right == null) {
+        return left;
+    } else {
+        right = right.removeMax(node);
+        distinctElements--;
+        totalCount -= node.elemCount;
+        return rebalance();
+    }
+}

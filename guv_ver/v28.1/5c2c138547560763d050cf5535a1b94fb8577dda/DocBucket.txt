@@ -1,0 +1,115 @@
+com.google.common.base.CharMatcher
+javaIsoControl
+public static CharMatcher javaIsoControl()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+trimFrom
+public String trimFrom(CharSequence sequence)
+CharSequence
+String
+com.google.common.base.CharMatcher
+replaceFrom
+public String replaceFrom(CharSequence sequence, CharSequence replacement)
+CharSequence,CharSequence
+String
+com.google.common.base.CharMatcher
+showCharacter
+private static String showCharacter(char c)
+char
+String
+com.google.common.base.CharMatcher
+whitespace
+public static CharMatcher whitespace()
+empty
+CharMatcher
+com.google.common.base.CharMatcher
+indexIn
+public int indexIn(CharSequence sequence, int start)
+CharSequence,int
+int
+com.google.common.base.CharMatcher
+inRange
+public static CharMatcher inRange(final char startInclusive, final char endInclusive)
+char,char
+CharMatcher
+com.google.common.base.CharMatcher
+collapseFrom
+public String collapseFrom(CharSequence sequence, char replacement)
+CharSequence,char
+String
+com.google.common.base.CharMatcher
+retainFrom
+public String retainFrom(CharSequence sequence)
+CharSequence
+String
+com.google.common.base.CharMatcher
+replaceFrom
+public String replaceFrom(CharSequence sequence, char replacement)
+CharSequence,char
+String
+com.google.common.base.CharMatcher
+is
+public static CharMatcher is(final char match)
+char
+CharMatcher
+com.google.common.base.CharMatcher
+matchesAllOf
+public boolean matchesAllOf(CharSequence sequence)
+CharSequence
+boolean
+com.google.common.base.CharMatcher
+noneOf
+public static CharMatcher noneOf(CharSequence sequence)
+CharSequence
+CharMatcher
+com.google.common.base.CharMatcher
+indexIn
+public int indexIn(CharSequence sequence)
+CharSequence
+int
+com.google.common.base.CharMatcher
+lastIndexIn
+public int lastIndexIn(CharSequence sequence)
+CharSequence
+int
+com.google.common.base.CharMatcher
+countIn
+public int countIn(CharSequence sequence)
+CharSequence
+int
+com.google.common.base.CharMatcher
+isNot
+public static CharMatcher isNot(final char match)
+char
+CharMatcher
+com.google.common.base.CharMatcher
+trimTrailingFrom
+public String trimTrailingFrom(CharSequence sequence)
+CharSequence
+String
+com.google.common.base.CharMatcher
+matchesAnyOf
+public boolean matchesAnyOf(CharSequence sequence)
+CharSequence
+boolean
+com.google.common.base.CharMatcher
+matchesNoneOf
+public boolean matchesNoneOf(CharSequence sequence)
+CharSequence
+boolean
+com.google.common.base.CharMatcher
+trimAndCollapseFrom
+public String trimAndCollapseFrom(CharSequence sequence, char replacement)
+CharSequence,char
+String
+com.google.common.base.CharMatcher
+anyOf
+public static CharMatcher anyOf(final CharSequence sequence)
+CharSequence
+CharMatcher
+com.google.common.base.CharMatcher
+trimLeadingFrom
+public String trimLeadingFrom(CharSequence sequence)
+CharSequence
+String

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "82": "    for (Entry<K, V> entry : entries) {\n"
+    },
+    "removed": {
+        "82": "    for (Map.Entry<K, V> entry : entries) {\n"
+    }
+}

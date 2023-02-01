@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "110": "    N previousNode = inEdgeMap.remove(edge);\n",
+        "111": "    return checkNotNull(previousNode);\n",
+        "117": "    N previousNode = outEdgeMap.remove(edge);\n",
+        "118": "    return checkNotNull(previousNode);\n",
+        "122": "  public void addInEdge(E edge, N node, boolean isSelfLoop) {\n",
+        "130": "    checkState(previousNode == null);\n",
+        "134": "  public void addOutEdge(E edge, N node) {\n",
+        "138": "    checkState(previousNode == null);\n"
+    },
+    "removed": {
+        "110": "    return inEdgeMap.remove(edge);\n",
+        "116": "    return outEdgeMap.remove(edge);\n",
+        "120": "  public boolean addInEdge(E edge, N node, boolean isSelfLoop) {\n",
+        "128": "    if (previousNode != null) {\n",
+        "129": "      checkState(node.equals(previousNode));\n",
+        "130": "      return false;\n",
+        "131": "    }\n",
+        "132": "    return true;\n",
+        "136": "  public boolean addOutEdge(E edge, N node) {\n",
+        "140": "    if (previousNode != null) {\n",
+        "141": "      checkState(node.equals(previousNode));\n",
+        "142": "      return false;\n",
+        "143": "    }\n",
+        "144": "    return true;\n"
+    }
+}

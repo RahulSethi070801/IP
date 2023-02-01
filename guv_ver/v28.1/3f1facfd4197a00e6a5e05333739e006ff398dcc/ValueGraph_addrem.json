@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "266": "   * any, specified by {@code endpoints}), if one is present; otherwise, returns {@code\n",
+        "267": "   * Optional.empty()}.\n"
+    },
+    "removed": {
+        "266": "   * any, specified by {@code endpoints}), if one is present;\n",
+        "267": "   * otherwise, returns {@code Optional.empty()}.\n"
+    }
+}

@@ -1,0 +1,16 @@
+private static boolean validatePart(String part, boolean isFinalPart) {
+    if (part.length() < 1 || part.length() > MAX_DOMAIN_PART_LENGTH) {
+        return false;
+    }
+    String asciiChars = CharMatcher.ASCII.retainFrom(part);
+    if (!PART_CHAR_MATCHER.matchesAllOf(asciiChars)) {
+        return false;
+    }
+    if (DASH_OR_UNDERSCORE_MATCHER.matches(part.charAt(0)) || UNDERSCORE_MATCHER.matches(part.charAt(part.length() - 1))) {
+        return false;
+    }
+    if (isFinalPart && CharMatcher.DIGIT.matches(part.charAt(0))) {
+        return false;
+    }
+    return true;
+}

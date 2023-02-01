@@ -1,0 +1,4 @@
+@Override
+public boolean putEdge(N nodeA, N nodeB) {
+    return backingGraph.putEdgeValue(nodeA, nodeB, DUMMY_EDGE_VALUE) == null;
+}

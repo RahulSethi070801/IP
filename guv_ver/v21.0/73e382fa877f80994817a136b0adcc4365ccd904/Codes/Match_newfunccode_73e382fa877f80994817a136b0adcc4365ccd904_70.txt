@@ -1,0 +1,5 @@
+@Override
+public void replaceAll(BiFunction<? super K, ? super V, ? extends V> function) {
+    assertTrue(Thread.holdsLock(mutex));
+    delegate.replaceAll(function);
+}

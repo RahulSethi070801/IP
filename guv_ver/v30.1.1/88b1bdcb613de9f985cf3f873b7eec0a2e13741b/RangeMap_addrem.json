@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "26": "import javax.annotation.CheckForNull;\n",
+        "41": "@ElementTypesAreNonnullByDefault\n",
+        "43": "  /*\n",
+        "44": "   * TODO(cpovirk): These docs sometimes say \"map\" and sometimes say \"range map.\" Pick one, or at\n",
+        "45": "   * least decide on a policy for when to use which.\n",
+        "46": "   */\n",
+        "47": "\n",
+        "54": "  @CheckForNull\n",
+        "61": "  @CheckForNull\n",
+        "155": "  // TODO(cpovirk): Consider documenting that IAE on the various methods that can throw it.\n",
+        "163": "  boolean equals(@CheckForNull Object o);\n"
+    },
+    "removed": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "48": "  @NullableDecl\n",
+        "55": "  @NullableDecl\n",
+        "156": "  boolean equals(@NullableDecl Object o);\n"
+    }
+}

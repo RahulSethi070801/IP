@@ -1,0 +1,3 @@
+public final String join(Iterator<?> parts) {
+    return appendTo(new StringBuilder(), parts).toString();
+}

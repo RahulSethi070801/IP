@@ -1,0 +1,8 @@
+
+   * Returns a function that ignores its input and always returns {@code value}.
+   *
+   * <p><b>Java 8 users:</b> use the lambda expression {@code o -> value} instead.
+   *
+   * @param value the constant value for the function to return
+   * @return a function that always returns {@code value}
+   

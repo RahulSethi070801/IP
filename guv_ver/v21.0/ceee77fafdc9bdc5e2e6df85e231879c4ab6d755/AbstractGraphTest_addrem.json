@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "33": " * Abstract base class for testing implementations of {@link BasicGraph} interface. Graph\n",
+        "43": " * <li>Test cases related to the specific implementation of the {@link BasicGraph} interface.\n",
+        "50": "  MutableBasicGraph<Integer> graph;\n",
+        "74": "  public abstract MutableBasicGraph<Integer> createGraph();\n",
+        "125": "  static <N> void validateGraph(ValueGraph<N, ?> graph) {\n",
+        "126": "    if (graph instanceof BasicGraph) {\n",
+        "127": "      @SuppressWarnings(\"unchecked\")\n",
+        "128": "      BasicGraph<N> basicGraph = (BasicGraph<N>) graph;\n",
+        "130": "          basicGraph,\n",
+        "131": "          Graphs.copyOf(basicGraph),\n",
+        "132": "          ImmutableBasicGraph.copyOf(basicGraph)).testEquals();\n"
+    },
+    "removed": {
+        "33": " * Abstract base class for testing implementations of {@link Graph} interface. Graph\n",
+        "43": " * <li>Test cases related to the specific implementation of the {@link Graph} interface.\n",
+        "50": "  MutableGraph<Integer> graph;\n",
+        "74": "  public abstract MutableGraph<Integer> createGraph();\n",
+        "125": "  static <N> void validateGraph(Graph<N> graph) {\n",
+        "126": "    if (!(graph instanceof ValueGraph)) {\n",
+        "128": "          graph,\n",
+        "129": "          Graphs.copyOf(graph),\n",
+        "130": "          ImmutableGraph.copyOf(graph)).testEquals();\n"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "49": "  @Benchmark\n",
+        "50": "  int arraysSortNoComparator(int reps) {\n",
+        "60": "  @Benchmark\n",
+        "61": "  int arraysSortOrderingNatural(int reps) {\n",
+        "71": "  private static final Comparator<Integer> NATURAL_INTEGER =\n",
+        "72": "      new Comparator<Integer>() {\n",
+        "73": "        @Override\n",
+        "74": "        public int compare(Integer o1, Integer o2) {\n",
+        "75": "          return o1.compareTo(o2);\n",
+        "76": "        }\n",
+        "77": "      };\n",
+        "79": "  @Benchmark\n",
+        "80": "  int arraysSortOrderingFromNatural(int reps) {\n"
+    },
+    "removed": {
+        "49": "  @Benchmark int arraysSortNoComparator(int reps) {\n",
+        "59": "  @Benchmark int arraysSortOrderingNatural(int reps) {\n",
+        "69": "  private static final Comparator<Integer> NATURAL_INTEGER = new Comparator<Integer>() {\n",
+        "70": "    @Override\n",
+        "71": "    public int compare(Integer o1, Integer o2) {\n",
+        "72": "      return o1.compareTo(o2);\n",
+        "73": "    }\n",
+        "74": "  };\n",
+        "76": "  @Benchmark int arraysSortOrderingFromNatural(int reps) {\n"
+    }
+}

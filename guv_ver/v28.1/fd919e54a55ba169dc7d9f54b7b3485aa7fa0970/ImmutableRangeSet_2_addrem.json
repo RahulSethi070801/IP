@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "71": "  /** Returns an empty immutable range set. */\n",
+        "77": "  /** Returns an immutable range set containing the single range {@link Range#all()}. */\n",
+        "98": "  /** Returns an immutable copy of the specified {@code RangeSet}. */\n",
+        "302": "  @LazyInit private transient ImmutableRangeSet<C> complement;\n",
+        "417": "   * Returns a list containing the nonempty intersections of {@code range} with the ranges in this\n",
+        "418": "   * range set.\n",
+        "480": "  /** Returns a view of the intersection of this range set with the given range. */\n",
+        "504": "   * such a set can be performed efficiently, but others (such as {@link Set#hashCode} or {@link\n",
+        "505": "   * Collections#frequency}) can cause major performance problems.\n",
+        "511": "   *     neither has an upper bound\n",
+        "707": "  /** Returns a new builder for an immutable range set. */\n"
+    },
+    "removed": {
+        "70": "  /**\n",
+        "71": "   * Returns an empty immutable range set.\n",
+        "72": "   */\n",
+        "78": "  /**\n",
+        "79": "   * Returns an immutable range set containing the single range {@link Range#all()}.\n",
+        "80": "   */\n",
+        "101": "  /**\n",
+        "102": "   * Returns an immutable copy of the specified {@code RangeSet}.\n",
+        "103": "   */\n",
+        "307": "  @LazyInit\n",
+        "308": "  private transient ImmutableRangeSet<C> complement;\n",
+        "423": "   * Returns a list containing the nonempty intersections of {@code range}\n",
+        "424": "   * with the ranges in this range set.\n",
+        "486": "  /**\n",
+        "487": "   * Returns a view of the intersection of this range set with the given range.\n",
+        "488": "   */\n",
+        "512": "   * such a set can be performed efficiently, but others (such as {@link Set#hashCode} or\n",
+        "513": "   * {@link Collections#frequency}) can cause major performance problems.\n",
+        "519": "   *         neither has an upper bound\n",
+        "715": "  /**\n",
+        "716": "   * Returns a new builder for an immutable range set.\n",
+        "717": "   */\n"
+    }
+}

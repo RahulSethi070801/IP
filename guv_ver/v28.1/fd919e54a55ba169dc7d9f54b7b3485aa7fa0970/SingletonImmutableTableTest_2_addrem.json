@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "67": "    assertEquals(ImmutableMap.of('a', ImmutableMap.of(1, \"blah\")), testTable.rowMap());\n",
+        "131": "  @Override\n",
+        "132": "  Iterable<ImmutableTable<Character, Integer, String>> getTestInstances() {\n"
+    },
+    "removed": {
+        "67": "    assertEquals(ImmutableMap.of('a', ImmutableMap.of(1, \"blah\")),\n",
+        "68": "        testTable.rowMap());\n",
+        "132": "  @Override Iterable<ImmutableTable<Character, Integer, String>> getTestInstances() {\n"
+    }
+}

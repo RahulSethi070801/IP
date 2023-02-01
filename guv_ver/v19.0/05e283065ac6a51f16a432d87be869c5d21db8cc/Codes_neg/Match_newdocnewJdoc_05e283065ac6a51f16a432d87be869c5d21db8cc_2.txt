@@ -1,0 +1,63 @@
+
+   * Returns a {@code Future} whose result is taken from the given primary
+   * {@code input} or, if the primary input fails, from the {@code Future}
+   * provided by the {@code fallback}. {@link FutureFallback#create} is not
+   * invoked until the primary input has failed, so if the primary input
+   * succeeds, it is never invoked. If, during the invocation of {@code
+   * fallback}, an exception is thrown, this exception is used as the result of
+   * the output {@code Future}.
+   *
+   * <p>Below is an example of a fallback that returns a default value if an
+   * exception occurs:
+   *
+   * <pre>   {@code
+   *   ListenableFuture<Integer> fetchCounterFuture = ...;
+   *
+   *   // Falling back to a zero counter in case an exception happens when
+   *   // processing the RPC to fetch counters.
+   *   ListenableFuture<Integer> faultTolerantFuture = Futures.withFallback(
+   *       fetchCounterFuture, new FutureFallback<Integer>() {
+   *         public ListenableFuture<Integer> create(Throwable t) {
+   *           // Returning "0" as the default for the counter when the
+   *           // exception happens.
+   *           return immediateFuture(0);
+   *         }
+   *       }, directExecutor());}</pre>
+   *
+   * <p>The fallback can also choose to propagate the original exception when
+   * desired:
+   *
+   * <pre>   {@code
+   *   ListenableFuture<Integer> fetchCounterFuture = ...;
+   *
+   *   // Falling back to a zero counter only in case the exception was a
+   *   // TimeoutException.
+   *   ListenableFuture<Integer> faultTolerantFuture = Futures.withFallback(
+   *       fetchCounterFuture, new FutureFallback<Integer>() {
+   *         public ListenableFuture<Integer> create(Throwable t) {
+   *           if (t instanceof TimeoutException) {
+   *             return immediateFuture(0);
+   *           }
+   *           return immediateFailedFuture(t);
+   *         }
+   *       }, directExecutor());}</pre>
+   *
+   * <p>When selecting an executor, note that {@code directExecutor} is
+   * dangerous in some cases. See the discussion in the {@link
+   * ListenableFuture#addListener ListenableFuture.addListener} documentation.
+   * The documentation's warnings about "lightweight listeners" refer here to
+   * the work done during {@code FutureFallback.create}, not to any work done to
+   * complete the returned {@code Future}.
+   *
+   * @param input the primary input {@code Future}
+   * @param fallback the {@link FutureFallback} implementation to be called if
+   *     {@code input} fails
+   * @param executor the executor that runs {@code fallback} if {@code input}
+   *     fails
+   * @since 14.0
+   * @deprecated Use {@link #catchingAsync(ListenableFuture, Class,
+   *     AsyncFunction, Executor) catchingAsync(input, Throwable.class,
+   *     fallbackImplementedAsAnAsyncFunction, executor)}, usually replacing
+   *     {@code Throwable.class} with the specific type you want to handle. This method
+   *     will be removed in Guava release 20.0.
+   

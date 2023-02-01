@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "24": " * A list iterator which forwards all its method calls to another list iterator. Subclasses should\n",
+        "25": " * override one or more methods to modify the behavior of the backing iterator as desired per the <a\n"
+    },
+    "removed": {
+        "24": " * A list iterator which forwards all its method calls to another list\n",
+        "25": " * iterator. Subclasses should override one or more methods to modify the\n",
+        "26": " * behavior of the backing iterator as desired per the <a\n"
+    }
+}

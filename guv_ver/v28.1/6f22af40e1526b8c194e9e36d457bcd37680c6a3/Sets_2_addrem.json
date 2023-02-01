@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "54": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "1068": "    public boolean equals(@NullableDecl Object object) {\n",
+        "1210": "    @NullableDecl\n",
+        "1216": "    @NullableDecl\n",
+        "1432": "    public boolean equals(@NullableDecl Object object) {\n",
+        "1532": "    public boolean contains(@NullableDecl Object o) {\n",
+        "1568": "    public boolean contains(@NullableDecl Object obj) {\n",
+        "1577": "    public boolean equals(@NullableDecl Object obj) {\n",
+        "1637": "      public boolean contains(@NullableDecl Object o) {\n",
+        "1682": "              public boolean contains(@NullableDecl Object o) {\n",
+        "1737": "  static boolean equalsImpl(Set<?> s, @NullableDecl Object object) {\n"
+    },
+    "removed": {
+        "54": "import javax.annotation.Nullable;\n",
+        "1068": "    public boolean equals(@Nullable Object object) {\n",
+        "1210": "    @Nullable\n",
+        "1216": "    @Nullable\n",
+        "1432": "    public boolean equals(@Nullable Object object) {\n",
+        "1532": "    public boolean contains(@Nullable Object o) {\n",
+        "1568": "    public boolean contains(@Nullable Object obj) {\n",
+        "1577": "    public boolean equals(@Nullable Object obj) {\n",
+        "1637": "      public boolean contains(@Nullable Object o) {\n",
+        "1682": "              public boolean contains(@Nullable Object o) {\n",
+        "1737": "  static boolean equalsImpl(Set<?> s, @Nullable Object object) {\n"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "addition": {},
+    "removed": {
+        "40": "  @Override\n",
+        "41": "  public int degree(Object node) {\n",
+        "42": "    return adjacentNodes(node).size();\n",
+        "43": "  }\n",
+        "44": "\n",
+        "45": "  @Override\n",
+        "46": "  public int inDegree(Object node) {\n",
+        "47": "    return predecessors(node).size();\n",
+        "48": "  }\n",
+        "49": "\n",
+        "50": "  @Override\n",
+        "51": "  public int outDegree(Object node) {\n",
+        "52": "    return successors(node).size();\n",
+        "53": "  }\n",
+        "54": "\n"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "35": "  @Benchmark\n",
+        "36": "  int builderAdd(int reps) {\n",
+        "49": "  @Benchmark\n",
+        "50": "  int preSizedBuilderAdd(int reps) {\n",
+        "63": "  @Benchmark\n",
+        "64": "  int copyArrayList(int reps) {\n",
+        "77": "  @Benchmark\n",
+        "78": "  int copyPreSizedArrayList(int reps) {\n"
+    },
+    "removed": {
+        "35": "  @Benchmark int builderAdd(int reps) {\n",
+        "48": "  @Benchmark int preSizedBuilderAdd(int reps) {\n",
+        "61": "  @Benchmark int copyArrayList(int reps) {\n",
+        "74": "  @Benchmark int copyPreSizedArrayList(int reps) {\n"
+    }
+}

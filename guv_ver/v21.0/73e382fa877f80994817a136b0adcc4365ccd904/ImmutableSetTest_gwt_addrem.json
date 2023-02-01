@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "241": "public void testToImmutableSet() throws Exception {\n",
+        "242": "  com.google.common.collect.ImmutableSetTest testCase = new com.google.common.collect.ImmutableSetTest();\n",
+        "243": "  testCase.testToImmutableSet();\n",
+        "244": "}\n",
+        "245": "\n",
+        "246": "public void testToImmutableSet_duplicates() throws Exception {\n",
+        "247": "  com.google.common.collect.ImmutableSetTest testCase = new com.google.common.collect.ImmutableSetTest();\n",
+        "248": "  testCase.testToImmutableSet_duplicates();\n",
+        "249": "}\n",
+        "250": "\n"
+    },
+    "removed": {}
+}

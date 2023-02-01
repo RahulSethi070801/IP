@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "40": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "368": "      @Nullable Comparator<? super V> valueComparator) {\n",
+        "404": "  public ImmutableList<V> get(@Nullable K key) {\n"
+    },
+    "removed": {
+        "40": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "368": "      @NullableDecl Comparator<? super V> valueComparator) {\n",
+        "404": "  public ImmutableList<V> get(@NullableDecl K key) {\n"
+    }
+}

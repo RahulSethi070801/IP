@@ -1,0 +1,5 @@
+com.google.common.util.concurrent.TrustedListenableFutureTask
+create
+static TrustedListenableFutureTask<V> create(Callable<V> callable)
+Callable
+TrustedListenableFutureTask

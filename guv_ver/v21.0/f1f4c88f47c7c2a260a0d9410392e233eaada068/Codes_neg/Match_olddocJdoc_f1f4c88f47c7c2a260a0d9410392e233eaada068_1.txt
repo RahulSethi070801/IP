@@ -1,0 +1,4 @@
+
+   * If this {@link Endpoints} is directed, returns the node which is the source.
+   * Otherwise, returns an arbitrary (but consistent) endpoint of the edge.
+   

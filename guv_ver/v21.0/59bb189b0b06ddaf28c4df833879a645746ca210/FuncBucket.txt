@@ -1,0 +1,25 @@
+com.google.common.collect.ImmutableRangeSet$Builder
+build
+public ImmutableRangeSet<C> build()
+empty
+ImmutableRangeSet
+com.google.common.collect.ImmutableRangeMap$Builder
+put
+public Builder<K, V> put(Range<K> range, V value)
+Range,V
+Builder
+com.google.common.collect.ImmutableRangeSet$Builder
+add
+public Builder<C> add(Range<C> range)
+Range
+Builder
+com.google.common.collect.ImmutableRangeMap$Builder
+build
+public ImmutableRangeMap<K, V> build()
+empty
+ImmutableRangeMap
+com.google.common.collect.ImmutableRangeMap$Builder
+Builder
+public Builder()
+empty
+constructor

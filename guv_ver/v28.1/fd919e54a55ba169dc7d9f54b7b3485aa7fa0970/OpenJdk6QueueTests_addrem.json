@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "29": " * Tests the {@link Queue} implementations of {@link java.util}, suppressing tests that trip known\n",
+        "30": " * OpenJDK 6 bugs.\n",
+        "39": "  private static final List<Method> PQ_SUPPRESS =\n",
+        "40": "      Arrays.asList(getCreateWithNullUnsupportedMethod());\n",
+        "42": "  @Override\n",
+        "43": "  protected Collection<Method> suppressForPriorityBlockingQueue() {\n",
+        "47": "  @Override\n",
+        "48": "  protected Collection<Method> suppressForPriorityQueue() {\n"
+    },
+    "removed": {
+        "29": " * Tests the {@link Queue} implementations of {@link java.util}, suppressing\n",
+        "30": " * tests that trip known OpenJDK 6 bugs.\n",
+        "39": "  private static final List<Method> PQ_SUPPRESS = Arrays.asList(\n",
+        "40": "      getCreateWithNullUnsupportedMethod());\n",
+        "42": "  @Override protected Collection<Method> suppressForPriorityBlockingQueue() {\n",
+        "46": "  @Override protected Collection<Method> suppressForPriorityQueue() {\n"
+    }
+}

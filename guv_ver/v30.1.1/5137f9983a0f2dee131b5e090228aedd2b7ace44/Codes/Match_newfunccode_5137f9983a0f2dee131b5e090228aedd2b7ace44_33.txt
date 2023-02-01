@@ -1,0 +1,6 @@
+@Override
+@CheckForNull
+public String readFirstLine() {
+    Iterator<String> lines = linesIterator();
+    return lines.hasNext() ? lines.next() : null;
+}

@@ -1,0 +1,28 @@
+@VisibleForTesting
+@CanIgnoreReturnValue
+MoveDesc<E> removeAt(int index) {
+    checkPositionIndex(index, size);
+    modCount++;
+    size--;
+    if (size == index) {
+        queue[size] = null;
+        return null;
+    }
+    E actualLastElement = elementData(size);
+    int lastElementAt = heapForIndex(size).swapWithConceptuallyLastElement(actualLastElement);
+    if (lastElementAt == index) {
+        queue[size] = null;
+        return null;
+    }
+    E toTrickle = elementData(size);
+    queue[size] = null;
+    MoveDesc<E> changes = fillHole(index, toTrickle);
+    if (lastElementAt < index) {
+        if (changes == null) {
+            return new MoveDesc<E>(actualLastElement, toTrickle);
+        } else {
+            return new MoveDesc<E>(actualLastElement, changes.replaced);
+        }
+    }
+    return changes;
+}

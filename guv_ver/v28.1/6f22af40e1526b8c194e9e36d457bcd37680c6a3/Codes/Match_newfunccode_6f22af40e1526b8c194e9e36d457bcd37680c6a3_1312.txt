@@ -1,0 +1,5 @@
+static void checkNoConflictInKeyBucket(Object key, Entry<?, ?> entry, @NullableDecl ImmutableMapEntry<?, ?> keyBucketHead) {
+    for (; keyBucketHead != null; keyBucketHead = keyBucketHead.getNextInKeyBucket()) {
+        checkNoConflict(!key.equals(keyBucketHead.getKey()), "key", entry, keyBucketHead);
+    }
+}

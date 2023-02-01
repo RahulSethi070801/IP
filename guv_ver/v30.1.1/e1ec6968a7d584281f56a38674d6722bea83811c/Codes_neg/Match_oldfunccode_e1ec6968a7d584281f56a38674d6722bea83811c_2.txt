@@ -1,0 +1,26 @@
+@CanIgnoreReturnValue
+private int resizeTable(int mask, int newCapacity, int targetHash, int targetEntryIndex) {
+    Object newTable = CompactHashing.createTable(newCapacity);
+    int newMask = newCapacity - 1;
+    if (targetEntryIndex != UNSET) {
+        CompactHashing.tableSet(newTable, targetHash & newMask, targetEntryIndex + 1);
+    }
+    Object table = requireTable();
+    int[] entries = requireEntries();
+    for (int tableIndex = 0; tableIndex <= mask; tableIndex++) {
+        int next = CompactHashing.tableGet(table, tableIndex);
+        while (next != UNSET) {
+            int entryIndex = next - 1;
+            int entry = entries[entryIndex];
+            int hash = CompactHashing.getHashPrefix(entry, mask) | tableIndex;
+            int newTableIndex = hash & newMask;
+            int newNext = CompactHashing.tableGet(newTable, newTableIndex);
+            CompactHashing.tableSet(newTable, newTableIndex, next);
+            entries[entryIndex] = CompactHashing.maskCombine(hash, newNext, newMask);
+            next = CompactHashing.getNext(entry, mask);
+        }
+    }
+    this.table = newTable;
+    setHashTableMask(newMask);
+    return newMask;
+}

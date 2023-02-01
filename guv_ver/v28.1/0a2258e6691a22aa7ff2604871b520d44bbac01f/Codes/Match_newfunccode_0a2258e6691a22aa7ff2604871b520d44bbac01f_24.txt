@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+public V put(@Nullable K key, @Nullable V value) {
+    clearCache();
+    return backingMap.put(key, value);
+}

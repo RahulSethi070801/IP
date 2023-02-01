@@ -1,0 +1,5 @@
+private ToStringHelper addHolder(@NullableDecl Object value) {
+    ValueHolder valueHolder = addHolder();
+    valueHolder.value = value;
+    return this;
+}

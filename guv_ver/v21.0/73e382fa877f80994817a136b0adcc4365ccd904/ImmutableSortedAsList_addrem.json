@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "20": "import java.util.Spliterator;\n",
+        "86": "\n",
+        "87": "  @Override\n",
+        "88": "  public Spliterator<E> spliterator() {\n",
+        "89": "    return CollectSpliterators.indexed(\n",
+        "90": "        size(), \n",
+        "91": "        ImmutableList.SPLITERATOR_CHARACTERISTICS | Spliterator.SORTED | Spliterator.DISTINCT,\n",
+        "92": "        delegateList()::get,\n",
+        "93": "        comparator());\n",
+        "94": "  }\n"
+    },
+    "removed": {}
+}

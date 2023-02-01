@@ -1,0 +1,5 @@
+
+   * Returns unit.toNanos(time), additionally ensuring the returned value is not at risk of
+   * overflowing or underflowing, by bounding the value between 0 and (Long.MAX_VALUE / 4) * 3.
+   * Actually waiting for more than 219 years is not supported!
+   

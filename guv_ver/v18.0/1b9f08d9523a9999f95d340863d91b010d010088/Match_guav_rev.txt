@@ -1,0 +1,3 @@
+public static EvictingQueue<E> create(int maxSize)
+private EvictingQueue(int maxSize)
+

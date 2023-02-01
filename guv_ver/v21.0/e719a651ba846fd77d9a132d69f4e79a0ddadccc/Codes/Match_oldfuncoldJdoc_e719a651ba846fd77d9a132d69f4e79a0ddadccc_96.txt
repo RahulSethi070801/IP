@@ -1,0 +1,14 @@
+
+   * Stores the given throwable and rethrows it. It will be rethrown as is if it is an
+   * {@code IOException}, {@code RuntimeException}, {@code Error} or a checked exception of the
+   * given type. Otherwise, it will be rethrown wrapped in a {@code RuntimeException}. <b>Note:</b>
+   * Be sure to declare all of the checked exception types your try block can throw when calling an
+   * overload of this method so as to avoid losing the original exception type.
+   *
+   * <p>This method always throws, and as such should be called as
+   * {@code throw closer.rethrow(e, ...);} to ensure the compiler knows that it will throw.
+   *
+   * @return this method does not return; it always throws
+   * @throws IOException when the given throwable is an IOException
+   * @throws X when the given throwable is of the declared type X
+   

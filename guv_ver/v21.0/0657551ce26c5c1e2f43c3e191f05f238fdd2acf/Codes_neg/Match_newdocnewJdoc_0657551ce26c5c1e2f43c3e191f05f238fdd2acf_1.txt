@@ -1,0 +1,4 @@
+
+   * Builds an instance representing a vertical transformation with a constant value of {@code x}.
+   * (The inverse of this will be a horizontal transformation.)
+   

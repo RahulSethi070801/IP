@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "19": "/** Emulation of CancellationException. */\n"
+    },
+    "removed": {
+        "19": "/**\n",
+        "20": " * Emulation of CancellationException.\n",
+        "21": " */\n"
+    }
+}

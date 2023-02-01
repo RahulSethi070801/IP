@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "30": " * implementation for the {@link #get(Object)} and {@link #getIfPresent} methods. {@link\n",
+        "31": " * #getUnchecked}, {@link #get(Object, Callable)}, and {@link #getAll} are implemented in terms of\n",
+        "32": " * {@code get}; {@link #getAllPresent} is implemented in terms of {@code getIfPresent}; {@link\n",
+        "33": " * #putAll} is implemented in terms of {@link #put}, {@link #invalidateAll(Iterable)} is implemented\n",
+        "34": " * in terms of {@link #invalidate}. The method {@link #cleanUp} is a no-op. All other methods throw\n",
+        "35": " * an {@link UnsupportedOperationException}.\n"
+    },
+    "removed": {
+        "30": " * implementation for the {@link #get(Object)} and {@link #getIfPresent} methods.\n",
+        "31": " * {@link #getUnchecked}, {@link #get(Object, Callable)}, and {@link #getAll} are implemented in\n",
+        "32": " * terms of {@code get}; {@link #getAllPresent} is implemented in terms of {@code getIfPresent};\n",
+        "33": " * {@link #putAll} is implemented in terms of {@link #put}, {@link #invalidateAll(Iterable)} is\n",
+        "34": " * implemented in terms of {@link #invalidate}. The method {@link #cleanUp} is a no-op. All other\n",
+        "35": " * methods throw an {@link UnsupportedOperationException}.\n"
+    }
+}

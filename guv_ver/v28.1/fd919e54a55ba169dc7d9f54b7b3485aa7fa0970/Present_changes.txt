@@ -1,0 +1,4 @@
+Present
+Insertions: [24]
+Deletions: [24, 25, 26]
+android/guava/src/com/google/common/base/Present.java

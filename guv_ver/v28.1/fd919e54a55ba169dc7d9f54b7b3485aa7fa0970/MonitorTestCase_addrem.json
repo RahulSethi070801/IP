@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "40": "    @Override\n",
+        "41": "    public boolean isSatisfied() {\n",
+        "60": "  @Override\n",
+        "61": "  protected final void setUp() throws Exception {\n",
+        "68": "  @Override\n",
+        "69": "  protected final void tearDown() {\n",
+        "223": "    monitor.enter(); // Inhibit IllegalMonitorStateException\n"
+    },
+    "removed": {
+        "40": "    @Override public boolean isSatisfied() {\n",
+        "59": "  @Override protected final void setUp() throws Exception {\n",
+        "66": "  @Override protected final void tearDown() {\n",
+        "220": "    monitor.enter();  // Inhibit IllegalMonitorStateException\n"
+    }
+}

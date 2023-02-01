@@ -1,0 +1,3 @@
+public static <B> List<List<B>> cartesianProduct(List<? extends B>... lists) {
+    return cartesianProduct(Arrays.asList(lists));
+}

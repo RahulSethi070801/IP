@@ -1,0 +1,14 @@
+public static String toAddrString(InetAddress ip) {
+    Preconditions.checkNotNull(ip);
+    if (ip instanceof Inet4Address) {
+        return ip.getHostAddress();
+    }
+    Preconditions.checkArgument(ip instanceof Inet6Address);
+    byte[] bytes = ip.getAddress();
+    int[] hextets = new int[IPV6_PART_COUNT];
+    for (int i = 0; i < hextets.length; i++) {
+        hextets[i] = Ints.fromBytes((byte) 0, (byte) 0, bytes[2 * i], bytes[2 * i + 1]);
+    }
+    compressLongestRunOfZeroes(hextets);
+    return hextetsToIPv6String(hextets);
+}

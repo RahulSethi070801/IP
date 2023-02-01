@@ -1,0 +1,3 @@
+public static BaseEncoding base64Url() {
+    return BASE64_URL;
+}

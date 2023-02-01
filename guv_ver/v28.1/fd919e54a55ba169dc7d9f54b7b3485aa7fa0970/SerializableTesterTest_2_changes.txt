@@ -1,0 +1,4 @@
+SerializableTesterTest_2
+Insertions: [37, 64, 76, 80, 89, 94, 109]
+Deletions: [37, 38, 65, 66, 78, 79, 83, 84, 93, 94, 99, 100, 115, 116]
+guava-testlib/test/com/google/common/testing/SerializableTesterTest.java

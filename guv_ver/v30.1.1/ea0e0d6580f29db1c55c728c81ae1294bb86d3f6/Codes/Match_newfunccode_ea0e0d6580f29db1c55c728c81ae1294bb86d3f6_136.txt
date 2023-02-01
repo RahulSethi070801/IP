@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+int setCount(@ParametricNullness E element, int count);

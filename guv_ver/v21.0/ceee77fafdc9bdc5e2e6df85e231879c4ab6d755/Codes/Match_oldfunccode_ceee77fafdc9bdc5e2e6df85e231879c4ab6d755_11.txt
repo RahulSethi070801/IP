@@ -1,0 +1,4 @@
+@Override
+public Set<N> adjacentNodes(Object node) {
+    return delegate().adjacentNodes(node);
+}

@@ -1,0 +1,34 @@
+{
+    "addition": {
+        "25": " * Abstract implementation of {@link InvocationHandler} that handles {@link Object#equals}, {@link\n",
+        "26": " * Object#hashCode} and {@link Object#toString}. For example:\n",
+        "27": " *\n",
+        "28": " * <pre>\n",
+        "50": "   *   <li>{@code proxy.hashCode()} delegates to {@link AbstractInvocationHandler#hashCode}\n",
+        "51": "   *   <li>{@code proxy.toString()} delegates to {@link AbstractInvocationHandler#toString}\n",
+        "52": "   *   <li>{@code proxy.equals(argument)} returns true if:\n",
+        "53": "   *       <ul>\n",
+        "54": "   *         <li>{@code proxy} and {@code argument} are of the same type\n",
+        "55": "   *         <li>and {@link AbstractInvocationHandler#equals} returns true for the {@link\n",
+        "56": "   *             InvocationHandler} of {@code argument}\n",
+        "57": "   *       </ul>\n",
+        "58": "   *   <li>other method calls are dispatched to {@link #handleInvocation}.\n",
+        "105": "   *   <li>{@code proxy} and {@code argument} are of the same type\n",
+        "106": "   *   <li>and this method returns true for the {@link InvocationHandler} of {@code argument}\n"
+    },
+    "removed": {
+        "25": " * Abstract implementation of {@link InvocationHandler} that handles {@link Object#equals},\n",
+        "26": " * {@link Object#hashCode} and {@link Object#toString}. For example: <pre>\n",
+        "48": "   * <li>{@code proxy.hashCode()} delegates to {@link AbstractInvocationHandler#hashCode}\n",
+        "49": "   * <li>{@code proxy.toString()} delegates to {@link AbstractInvocationHandler#toString}\n",
+        "50": "   * <li>{@code proxy.equals(argument)} returns true if:\n",
+        "51": "   *   <ul>\n",
+        "52": "   *   <li>{@code proxy} and {@code argument} are of the same type\n",
+        "53": "   *   <li>and {@link AbstractInvocationHandler#equals} returns true for the\n",
+        "54": "   *       {@link InvocationHandler} of {@code argument}\n",
+        "55": "   *   </ul>\n",
+        "56": "   * <li>other method calls are dispatched to {@link #handleInvocation}.\n",
+        "103": "   * <li>{@code proxy} and {@code argument} are of the same type\n",
+        "104": "   * <li>and this method returns true for the {@link InvocationHandler} of {@code argument}\n"
+    }
+}

@@ -1,0 +1,3 @@
+public static CharMatcher javaDigit() {
+    return JavaDigit.INSTANCE;
+}

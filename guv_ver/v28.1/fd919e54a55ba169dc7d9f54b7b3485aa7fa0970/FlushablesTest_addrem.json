@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "30": " * <p>Checks proper flushing behavior, and ensures that IOExceptions on Flushable.flush() are not\n",
+        "31": " * propagated out from the {@link Flushables#flush} method if {@code swallowException} is true.\n",
+        "62": "  public void testFlushQuietly_flushableWithEatenException() throws IOException {\n",
+        "74": "      doThrow(\n",
+        "75": "              new IOException(\n",
+        "76": "                  \"This should only appear in the \" + \"logs. It should not be rethrown.\"))\n",
+        "77": "          .when(mockFlushable)\n",
+        "78": "          .flush();\n",
+        "85": "  private void doFlush(Flushable flushable, boolean swallowException, boolean expectThrown)\n",
+        "86": "      throws IOException {\n"
+    },
+    "removed": {
+        "30": " * <p>Checks proper flushing behavior, and ensures that\n",
+        "31": " * IOExceptions on Flushable.flush() are not\n",
+        "32": " * propagated out from the {@link Flushables#flush} method if {@code\n",
+        "33": " * swallowException} is true.\n",
+        "64": "  public void testFlushQuietly_flushableWithEatenException()\n",
+        "65": "      throws IOException {\n",
+        "77": "      doThrow(new IOException(\"This should only appear in the \"\n",
+        "78": "          + \"logs. It should not be rethrown.\")).when(mockFlushable).flush();\n",
+        "85": "  private void doFlush(Flushable flushable, boolean swallowException,\n",
+        "86": "      boolean expectThrown) throws IOException {\n"
+    }
+}

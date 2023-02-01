@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "409": "   * Returns a converter based on separate forward and backward functions. This is useful if the\n",
+        "410": "   * function instances already exist, or so that you can supply lambda expressions. If those\n",
+        "411": "   * circumstances don't apply, you probably don't need to use this; subclass {@code Converter} and\n",
+        "412": "   * implement its {@link #doForward} and {@link #doBackward} methods directly.\n"
+    },
+    "removed": {
+        "409": "   * Returns a converter based on <i>existing</i> forward and backward functions. Note that it is\n",
+        "410": "   * unnecessary to create <i>new</i> classes implementing {@code Function} just to pass them in\n",
+        "411": "   * here. Instead, simply subclass {@code Converter} and implement its {@link #doForward} and\n",
+        "412": "   * {@link #doBackward} methods directly.\n"
+    }
+}

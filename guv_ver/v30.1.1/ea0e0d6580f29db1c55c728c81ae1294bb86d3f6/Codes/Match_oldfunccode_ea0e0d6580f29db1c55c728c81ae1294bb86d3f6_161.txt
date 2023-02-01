@@ -1,0 +1,3 @@
+protected boolean standardSetCount(E element, int oldCount, int newCount) {
+    return Multisets.setCountImpl(this, element, oldCount, newCount);
+}

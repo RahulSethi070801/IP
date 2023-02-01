@@ -1,0 +1,4 @@
+TestingRemovalListeners_2
+Insertions: [30, 35, 41, 46, 88]
+Deletions: [30, 31, 32, 37, 38, 39, 45, 46, 47, 52, 53, 54, 96, 97, 98]
+guava-tests/test/com/google/common/cache/TestingRemovalListeners.java

@@ -1,0 +1,8 @@
+protected long edgeCount() {
+    long degreeSum = 0L;
+    for (N node : nodes()) {
+        degreeSum += degree(node);
+    }
+    checkState((degreeSum & 1) == 0);
+    return degreeSum >>> 1;
+}

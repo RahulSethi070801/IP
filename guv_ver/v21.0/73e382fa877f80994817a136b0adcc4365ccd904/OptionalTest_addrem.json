@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "39": "  public void testToJavaUtil() {\n",
+        "40": "    assertNull(Optional.toJavaUtil(null));\n",
+        "41": "    assertEquals(java.util.Optional.empty(), Optional.toJavaUtil(Optional.absent()));\n",
+        "42": "    assertEquals(java.util.Optional.of(\"abc\"), Optional.toJavaUtil(Optional.of(\"abc\")));\n",
+        "43": "  }\n",
+        "44": "\n",
+        "45": "  public void testFromJavaUtil() {\n",
+        "46": "    assertNull(Optional.fromJavaUtil(null));\n",
+        "47": "    assertEquals(Optional.absent(), Optional.fromJavaUtil(java.util.Optional.empty()));\n",
+        "48": "    assertEquals(Optional.of(\"abc\"), Optional.fromJavaUtil(java.util.Optional.of(\"abc\")));\n",
+        "49": "  }\n",
+        "50": "\n"
+    },
+    "removed": {}
+}

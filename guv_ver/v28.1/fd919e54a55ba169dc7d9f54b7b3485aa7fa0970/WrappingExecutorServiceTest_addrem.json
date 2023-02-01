@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "185": "    @Override\n",
+        "186": "    protected Runnable wrapTask(Runnable command) {\n",
+        "299": "    private static <T> void assertTaskWrapped(Collection<? extends Callable<T>> tasks) {\n"
+    },
+    "removed": {
+        "185": "    @Override protected Runnable wrapTask(Runnable command) {\n",
+        "298": "    private static <T> void assertTaskWrapped(\n",
+        "299": "        Collection<? extends Callable<T>> tasks) {\n"
+    }
+}

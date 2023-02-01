@@ -1,0 +1,4 @@
+V loadSync(K key, int hash, LoadingValueReference<K, V> loadingValueReference, CacheLoader<? super K, V> loader) throws ExecutionException {
+    ListenableFuture<V> loadingFuture = loadingValueReference.loadFuture(key, loader);
+    return getAndRecordStats(key, hash, loadingValueReference, loadingFuture);
+}

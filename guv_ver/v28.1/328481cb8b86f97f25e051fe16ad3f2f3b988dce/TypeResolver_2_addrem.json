@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "35": "import java.util.Map.Entry;\n",
+        "262": "      for (Entry<TypeVariableKey, ? extends Type> mapping : mappings.entrySet()) {\n"
+    },
+    "removed": {
+        "261": "      for (Map.Entry<TypeVariableKey, ? extends Type> mapping : mappings.entrySet()) {\n"
+    }
+}

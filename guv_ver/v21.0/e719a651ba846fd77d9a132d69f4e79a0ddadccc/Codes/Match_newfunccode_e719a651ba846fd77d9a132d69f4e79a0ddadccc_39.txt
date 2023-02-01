@@ -1,0 +1,47 @@
+@GwtIncompatible
+@Override
+public OutputStream encodingStream(final Writer out) {
+    checkNotNull(out);
+    return new OutputStream() {
+
+        int bitBuffer = 0;
+
+        int bitBufferLength = 0;
+
+        int writtenChars = 0;
+
+        @Override
+        public void write(int b) throws IOException {
+            bitBuffer <<= 8;
+            bitBuffer |= b & 0xFF;
+            bitBufferLength += 8;
+            while (bitBufferLength >= alphabet.bitsPerChar) {
+                int charIndex = (bitBuffer >> (bitBufferLength - alphabet.bitsPerChar)) & alphabet.mask;
+                out.write(alphabet.encode(charIndex));
+                writtenChars++;
+                bitBufferLength -= alphabet.bitsPerChar;
+            }
+        }
+
+        @Override
+        public void flush() throws IOException {
+            out.flush();
+        }
+
+        @Override
+        public void close() throws IOException {
+            if (bitBufferLength > 0) {
+                int charIndex = (bitBuffer << (alphabet.bitsPerChar - bitBufferLength)) & alphabet.mask;
+                out.write(alphabet.encode(charIndex));
+                writtenChars++;
+                if (paddingChar != null) {
+                    while (writtenChars % alphabet.charsPerChunk != 0) {
+                        out.write(paddingChar.charValue());
+                        writtenChars++;
+                    }
+                }
+            }
+            out.close();
+        }
+    };
+}

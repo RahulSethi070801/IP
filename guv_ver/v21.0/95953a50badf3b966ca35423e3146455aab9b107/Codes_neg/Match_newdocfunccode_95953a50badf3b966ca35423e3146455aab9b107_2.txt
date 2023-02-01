@@ -1,0 +1,13 @@
+@Override
+public boolean cancel(boolean mayInterruptIfRunning) {
+    if (!state.permitsPublicUserToTransitionTo(State.CANCELLED)) {
+        return false;
+    }
+    this.mayInterruptIfRunning = mayInterruptIfRunning;
+    state = State.CANCELLED;
+    notifyAndClearListeners();
+    if (delegate != null) {
+        delegate.cancel(mayInterruptIfRunning);
+    }
+    return true;
+}

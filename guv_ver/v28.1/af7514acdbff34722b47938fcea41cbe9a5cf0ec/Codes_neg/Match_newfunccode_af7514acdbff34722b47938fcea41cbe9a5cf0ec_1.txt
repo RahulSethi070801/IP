@@ -1,0 +1,10 @@
+private static Iterable<Path> fileTreeChildren(Path dir) {
+    if (Files.isDirectory(dir, NOFOLLOW_LINKS)) {
+        try {
+            return listFiles(dir);
+        } catch (IOException e) {
+            throw new DirectoryIteratorException(e);
+        }
+    }
+    return ImmutableList.of();
+}

@@ -1,0 +1,36 @@
+{
+    "addition": {
+        "30": "import java.util.List;\n",
+        "80": "  public void testRemoveOccurrencesIterableEmpty() {\n",
+        "81": "    Multiset<String> multiset = HashMultiset.create();\n",
+        "82": "    Iterable<String> toRemove = Arrays.asList(\"a\", \"b\", \"a\");\n",
+        "83": "    assertFalse(Multisets.removeOccurrences(multiset, toRemove));\n",
+        "84": "    assertTrue(multiset.isEmpty());\n",
+        "85": "  }\n",
+        "86": "\n",
+        "87": "  public void testRemoveOccurrencesMultisetEmpty() {\n",
+        "219": "  public void testRemoveEmptyOccurrencesMultiset() {\n",
+        "227": "  public void testRemoveOccurrencesMultiset() {\n",
+        "236": "  public void testRemoveEmptyOccurrencesIterable() {\n",
+        "237": "    Multiset<String> multiset =\n",
+        "238": "        TreeMultiset.create(Arrays.asList(\"a\", \"b\", \"a\"));\n",
+        "239": "    Iterable<String> toRemove = ImmutableList.of();\n",
+        "240": "    assertFalse(Multisets.removeOccurrences(multiset, toRemove));\n",
+        "241": "    ASSERT.that(multiset).has().exactly(\"a\", \"a\", \"b\").inOrder();\n",
+        "242": "  }\n",
+        "243": "\n",
+        "244": "  public void testRemoveOccurrencesMultisetIterable() {\n",
+        "245": "    Multiset<String> multiset =\n",
+        "246": "        TreeMultiset.create(Arrays.asList(\"a\", \"b\", \"a\", \"c\"));\n",
+        "247": "    List<String> toRemove = Arrays.asList(\"a\", \"b\", \"b\");\n",
+        "248": "    assertTrue(Multisets.removeOccurrences(multiset, toRemove));\n",
+        "249": "    ASSERT.that(multiset).has().exactly(\"a\", \"c\").inOrder();\n",
+        "250": "  }\n",
+        "251": "\n"
+    },
+    "removed": {
+        "79": "  public void testRemoveOccurrencesEmpty() {\n",
+        "211": "  public void testRemoveEmptyOccurrences() {\n",
+        "219": "  public void testRemoveOccurrences() {\n"
+    }
+}

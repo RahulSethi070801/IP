@@ -1,0 +1,760 @@
+com.google.common.util.concurrent.Futures$NonCancellationPropagatingFuture
+NonCancellationPropagatingFuture
+NonCancellationPropagatingFuture(final ListenableFuture<V> delegate)
+ListenableFuture
+constructor
+com.google.common.util.concurrent.AbstractFuture
+get
+public V get(long timeout, TimeUnit unit) throws InterruptedException, TimeoutException, ExecutionException
+long,TimeUnit
+V
+com.google.common.util.concurrent.CycleDetectingLockFactory
+initialValue
+protected ArrayList<LockGraphNode> initialValue()
+empty
+ArrayList
+com.google.common.util.concurrent.CycleDetectingLockFactory$CycleDetectingReentrantWriteLock
+CycleDetectingReentrantWriteLock
+CycleDetectingReentrantWriteLock(CycleDetectingReentrantReadWriteLock readWriteLock)
+CycleDetectingReentrantReadWriteLock
+constructor
+com.google.common.util.concurrent.JdkFutureAdapters$ListenableFutureAdapter
+addListener
+public void addListener(Runnable listener, Executor exec)
+Runnable,Executor
+void
+com.google.common.util.concurrent.AbstractScheduledService$Scheduler
+newFixedDelaySchedule
+public static Scheduler newFixedDelaySchedule(final long initialDelay, final long delay, final TimeUnit unit)
+long,long,TimeUnit
+Scheduler
+com.google.common.util.concurrent.Futures
+catchingAsync
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback)
+ListenableFuture,Class,AsyncFunction
+ListenableFuture
+com.google.common.util.concurrent.AggregateFuture$RunningState
+handleOneInputDone
+private void handleOneInputDone(int index, Future<? extends InputT> future)
+int,Future
+void
+com.google.common.util.concurrent.AbstractService
+checkCurrentState
+private void checkCurrentState(State expected)
+State
+void
+com.google.common.util.concurrent.AbstractService
+call
+void call(Listener listener)
+Listener
+void
+com.google.common.util.concurrent.AtomicLongMap
+addAndGet
+public long addAndGet(K key, long delta)
+K,long
+long
+com.google.common.util.concurrent.AbstractListeningExecutorService
+newTaskFor
+protected final RunnableFuture<T> newTaskFor(Runnable runnable, T value)
+Runnable,T
+RunnableFuture
+com.google.common.util.concurrent.ForwardingBlockingQueue
+put
+public void put(E e) throws InterruptedException
+E
+void
+com.google.common.util.concurrent.AbstractScheduledService$ServiceDelegate
+doStop
+protected final void doStop()
+empty
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+allAsList
+public static ListenableFuture<List<V>> allAsList(ListenableFuture<? extends V>... futures)
+ListenableFuture...
+ListenableFuture
+com.google.common.util.concurrent.CycleDetectingLockFactory$PotentialDeadlockException
+PotentialDeadlockException
+private PotentialDeadlockException(LockGraphNode node1, LockGraphNode node2, ExampleStackTrace conflictingStackTrace)
+LockGraphNode,LockGraphNode,ExampleStackTrace
+constructor
+com.google.common.util.concurrent.Callables
+threadRenaming
+static Callable<T> threadRenaming(final Callable<T> callable, final Supplier<String> nameSupplier)
+Callable,Supplier
+Callable
+com.google.common.util.concurrent.AbstractScheduledService$ReschedulableCallable
+ReschedulableCallable
+ReschedulableCallable(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+AbstractService,ScheduledExecutorService,Runnable
+constructor
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+withFallback
+public static ListenableFuture<V> withFallback(ListenableFuture<? extends V> input, FutureFallback<? extends V> fallback)
+ListenableFuture,FutureFallback
+ListenableFuture
+com.google.common.util.concurrent.AtomicLongMap
+putIfAbsent
+long putIfAbsent(K key, long newValue)
+K,long
+long
+com.google.common.util.concurrent.AbstractFuture
+run
+public sun.misc.Unsafe run() throws Exception
+empty
+sun.misc.Unsafe
+com.google.common.util.concurrent.Monitor
+enterWhen
+public boolean enterWhen(Guard guard, long time, TimeUnit unit) throws InterruptedException
+Guard,long,TimeUnit
+boolean
+com.google.common.util.concurrent.AbstractFuture
+get
+public V get() throws InterruptedException, ExecutionException
+empty
+V
+com.google.common.util.concurrent.AbstractService
+notifyStarted
+protected final void notifyStarted()
+empty
+void
+com.google.common.util.concurrent.AbstractScheduledService
+stopAsync
+public final Service stopAsync()
+empty
+Service
+com.google.common.util.concurrent.ForwardingExecutorService
+invokeAny
+public T invokeAny(Collection<? extends Callable<T>> tasks, long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+Collection,long,TimeUnit
+T
+com.google.common.util.concurrent.AggregateFuture
+cancel
+public final boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean
+com.google.common.util.concurrent.JdkFutureAdapters
+run
+public void run()
+empty
+void
+com.google.common.util.concurrent.AtomicLongMap
+createAsMap
+private Map<K, Long> createAsMap()
+empty
+Map
+com.google.common.util.concurrent.Futures
+getChecked
+public static V getChecked(Future<V> future, Class<X> exceptionClass, long timeout, TimeUnit unit) throws X
+Future,Class,long,TimeUnit
+V
+com.google.common.util.concurrent.FakeTimeLimiter
+newProxy
+public T newProxy(T target, Class<T> interfaceType, long timeoutDuration, TimeUnit timeoutUnit)
+T,Class,long,TimeUnit
+T
+com.google.common.util.concurrent.AggregateFuture
+done
+final void done()
+empty
+void
+com.google.common.util.concurrent.ForwardingBlockingQueue
+take
+public E take() throws InterruptedException
+empty
+E
+com.google.common.util.concurrent.AbstractListeningExecutorService
+newTaskFor
+protected final RunnableFuture<T> newTaskFor(Callable<T> callable)
+Callable
+RunnableFuture
+com.google.common.util.concurrent.Monitor
+endWaitingFor
+private void endWaitingFor(Guard guard)
+Guard
+void
+com.google.common.util.concurrent.AbstractService$StateSnapshot
+failureCause
+Throwable failureCause()
+empty
+Throwable
+com.google.common.util.concurrent.Futures
+withTimeout
+public static ListenableFuture<V> withTimeout(ListenableFuture<V> delegate, long time, TimeUnit unit, ScheduledExecutorService scheduledExecutor)
+ListenableFuture,long,TimeUnit,ScheduledExecutorService
+ListenableFuture
+com.google.common.util.concurrent.JdkFutureAdapters
+listenInPoolThread
+public static ListenableFuture<V> listenInPoolThread(Future<V> future, Executor executor)
+Future,Executor
+ListenableFuture
+com.google.common.util.concurrent.Futures
+immediateCheckedFuture
+public static CheckedFuture<V, X> immediateCheckedFuture(@Nullable V value)
+V
+CheckedFuture
+com.google.common.util.concurrent.Futures
+catching
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback)
+ListenableFuture,Class,Function
+ListenableFuture
+com.google.common.util.concurrent.CycleDetectingLockFactory
+handlePotentialDeadlock
+public void handlePotentialDeadlock(PotentialDeadlockException e)
+PotentialDeadlockException
+void
+com.google.common.util.concurrent.AtomicLongMap
+remove
+public long remove(K key)
+K
+long
+com.google.common.util.concurrent.AbstractFuture$TrustedFuture
+addListener
+public final void addListener(Runnable listener, Executor executor)
+Runnable,Executor
+void
+com.google.common.util.concurrent.AtomicLongMap
+put
+public long put(K key, long newValue)
+K,long
+long
+com.google.common.util.concurrent.Monitor
+enter
+public boolean enter(long time, TimeUnit unit)
+long,TimeUnit
+boolean
+com.google.common.util.concurrent.ListeningScheduledExecutorService
+schedule
+ListenableScheduledFuture<V> schedule(Callable<V> callable, long delay, TimeUnit unit)
+Callable,long,TimeUnit
+ListenableScheduledFuture
+com.google.common.util.concurrent.ForwardingBlockingQueue
+drainTo
+public int drainTo(Collection<? super E> c)
+Collection
+int
+com.google.common.util.concurrent.CycleDetectingLockFactory$CycleDetectingReentrantReadWriteLock
+CycleDetectingReentrantReadWriteLock
+private CycleDetectingReentrantReadWriteLock(LockGraphNode lockGraphNode, boolean fair)
+LockGraphNode,boolean
+constructor
+com.google.common.util.concurrent.ForwardingFuture
+delegate
+protected abstract Future<V> delegate()
+empty
+Future
+com.google.common.util.concurrent.CycleDetectingLockFactory
+createNodes
+static Map<E, LockGraphNode> createNodes(Class<E> clazz)
+Class
+Map
+com.google.common.util.concurrent.AbstractScheduledService$ServiceDelegate
+toString
+public String toString()
+empty
+String
+com.google.common.util.concurrent.Callables
+threadRenaming
+static Runnable threadRenaming(final Runnable task, final Supplier<String> nameSupplier)
+Runnable,Supplier
+Runnable
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+asAsyncFunction
+static AsyncFunction<Throwable, V> asAsyncFunction(final FutureFallback<V> fallback)
+FutureFallback
+AsyncFunction
+com.google.common.util.concurrent.AbstractIdleService
+executor
+protected Executor executor()
+empty
+Executor
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Callables
+call
+public T call()
+empty
+T
+com.google.common.util.concurrent.CycleDetectingLockFactory$CycleDetectingReentrantLock
+CycleDetectingReentrantLock
+private CycleDetectingReentrantLock(LockGraphNode lockGraphNode, boolean fair)
+LockGraphNode,boolean
+constructor
+com.google.common.util.concurrent.CycleDetectingLockFactory
+newReentrantLock
+public ReentrantLock newReentrantLock(String lockName, boolean fair)
+String,boolean
+ReentrantLock
+com.google.common.util.concurrent.Futures
+get
+public static V get(Future<V> future, Class<X> exceptionClass) throws X
+Future,Class
+V
+com.google.common.util.concurrent.ForwardingBlockingQueue
+drainTo
+public int drainTo(Collection<? super E> c, int maxElements)
+Collection,int
+int
+com.google.common.util.concurrent.Futures
+getChecked
+public static V getChecked(Future<V> future, Class<X> exceptionClass) throws X
+Future,Class
+V
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+transform
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function)
+ListenableFuture,AsyncFunction
+ListenableFuture
+com.google.common.util.concurrent.ExecutionList
+executeListener
+private static void executeListener(Runnable runnable, Executor executor)
+Runnable,Executor
+void
+com.google.common.util.concurrent.AbstractScheduledService$Scheduler
+schedule
+abstract Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+AbstractService,ScheduledExecutorService,Runnable
+Future
+com.google.common.util.concurrent.AbstractFuture$TrustedFuture
+get
+public final V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+long,TimeUnit
+V
+com.google.common.util.concurrent.AbstractScheduledService
+awaitRunning
+public final void awaitRunning()
+empty
+void
+com.google.common.util.concurrent.AbstractFuture
+fillInStackTrace
+public synchronized Throwable fillInStackTrace()
+empty
+Throwable
+com.google.common.util.concurrent.CycleDetectingLockFactory$CycleDetectingReentrantLock
+tryLock
+public boolean tryLock(long timeout, TimeUnit unit) throws InterruptedException
+long,TimeUnit
+boolean
+com.google.common.util.concurrent.AbstractScheduledService
+state
+public final State state()
+empty
+State
+com.google.common.util.concurrent.CycleDetectingLockFactory$LockGraphNode
+findPathTo
+private ExampleStackTrace findPathTo(LockGraphNode node, Set<LockGraphNode> seen)
+LockGraphNode,Set
+ExampleStackTrace
+com.google.common.util.concurrent.AggregateFuture$RunningState
+RunningState
+RunningState(ImmutableCollection<? extends ListenableFuture<? extends InputT>> futures, boolean allMustSucceed, boolean collectsValues)
+ImmutableCollection,boolean,boolean
+constructor
+com.google.common.util.concurrent.AbstractListeningExecutorService
+submit
+public ListenableFuture<T> submit(Runnable task, @Nullable T result)
+Runnable,T
+ListenableFuture
+com.google.common.util.concurrent.CycleDetectingLockFactory
+getOrCreateNodes
+private static Map<? extends Enum, LockGraphNode> getOrCreateNodes(Class<? extends Enum> clazz)
+Class
+Map
+com.google.common.util.concurrent.CycleDetectingLockFactory$WithExplicitOrdering
+WithExplicitOrdering
+WithExplicitOrdering(Policy policy, Map<E, LockGraphNode> lockGraphNodes)
+Policy,Map
+constructor
+com.google.common.util.concurrent.Futures
+immediateFailedCheckedFuture
+public static CheckedFuture<V, X> immediateFailedCheckedFuture(X exception)
+X
+CheckedFuture
+com.google.common.util.concurrent.ForwardingExecutorService
+invokeAll
+public List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks) throws InterruptedException
+Collection
+List
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+transformAsync
+public static ListenableFuture<O> transformAsync(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+ListenableFuture,AsyncFunction,Executor
+ListenableFuture
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+apply
+public ListenableFuture<Object> apply(ListenableFuture<Object> input)
+ListenableFuture
+ListenableFuture
+com.google.common.util.concurrent.AbstractScheduledService$Scheduler
+newFixedRateSchedule
+public static Scheduler newFixedRateSchedule(final long initialDelay, final long period, final TimeUnit unit)
+long,long,TimeUnit
+Scheduler
+com.google.common.util.concurrent.AbstractScheduledService
+isRunning
+public final boolean isRunning()
+empty
+boolean
+com.google.common.util.concurrent.AggregateFuture$RunningState
+init
+private void init()
+empty
+void
+com.google.common.util.concurrent.AbstractScheduledService
+addListener
+public final void addListener(Listener listener, Executor executor)
+Listener,Executor
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+withFallback
+public static ListenableFuture<V> withFallback(ListenableFuture<? extends V> input, FutureFallback<? extends V> fallback, Executor executor)
+ListenableFuture,FutureFallback,Executor
+ListenableFuture
+com.google.common.util.concurrent.AbstractService
+notifyStopped
+protected final void notifyStopped()
+empty
+void
+com.google.common.util.concurrent.AbstractFuture$TrustedFuture
+get
+public final V get() throws InterruptedException, ExecutionException
+empty
+V
+com.google.common.util.concurrent.CycleDetectingLockFactory$CycleDetectingReentrantReadLock
+CycleDetectingReentrantReadLock
+CycleDetectingReentrantReadLock(CycleDetectingReentrantReadWriteLock readWriteLock)
+CycleDetectingReentrantReadWriteLock
+constructor
+com.google.common.util.concurrent.Monitor
+enterWhenUninterruptibly
+public boolean enterWhenUninterruptibly(Guard guard, long time, TimeUnit unit)
+Guard,long,TimeUnit
+boolean
+com.google.common.util.concurrent.Futures
+catchingAsync
+public static ListenableFuture<V> catchingAsync(ListenableFuture<? extends V> input, Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+ListenableFuture,Class,AsyncFunction,Executor
+ListenableFuture
+com.google.common.util.concurrent.AbstractFuture$SafeAtomicHelper
+putNext
+void putNext(Waiter waiter, Waiter next)
+Waiter,Waiter
+void
+com.google.common.util.concurrent.AbstractScheduledService
+failureCause
+public final Throwable failureCause()
+empty
+Throwable
+com.google.common.util.concurrent.Futures$MappingCheckedFuture
+MappingCheckedFuture
+MappingCheckedFuture(ListenableFuture<V> delegate, Function<? super Exception, X> mapper)
+ListenableFuture,Function
+constructor
+com.google.common.util.concurrent.Futures
+catching
+public static ListenableFuture<V> catching(ListenableFuture<? extends V> input, Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+ListenableFuture,Class,Function,Executor
+ListenableFuture
+com.google.common.util.concurrent.AbstractFuture$SafeAtomicHelper
+putThread
+void putThread(Waiter waiter, Thread thread)
+Waiter,Thread
+void
+com.google.common.util.concurrent.ForwardingBlockingQueue
+offer
+public boolean offer(E e, long timeout, TimeUnit unit) throws InterruptedException
+E,long,TimeUnit
+boolean
+com.google.common.util.concurrent.AbstractFuture
+setFuture
+protected boolean setFuture(ListenableFuture<? extends V> future)
+ListenableFuture
+boolean
+com.google.common.util.concurrent.Futures
+inCompletionOrder
+public static ImmutableList<ListenableFuture<T>> inCompletionOrder(Iterable<? extends ListenableFuture<? extends T>> futures)
+Iterable
+ImmutableList
+com.google.common.util.concurrent.AbstractListeningExecutorService
+submit
+public ListenableFuture<?> submit(Runnable task)
+Runnable
+ListenableFuture
+com.google.common.util.concurrent.Monitor
+toSafeNanos
+private static long toSafeNanos(long time, TimeUnit unit)
+long,TimeUnit
+long
+com.google.common.util.concurrent.FakeTimeLimiter
+callWithTimeout
+public T callWithTimeout(Callable<T> callable, long timeoutDuration, TimeUnit timeoutUnit, boolean amInterruptible) throws Exception
+Callable,long,TimeUnit,boolean
+T
+com.google.common.util.concurrent.CycleDetectingLockFactory$ExampleStackTrace
+ExampleStackTrace
+ExampleStackTrace(LockGraphNode node1, LockGraphNode node2)
+LockGraphNode,LockGraphNode
+constructor
+com.google.common.util.concurrent.AbstractScheduledService
+awaitTerminated
+public final void awaitTerminated()
+empty
+void
+com.google.common.util.concurrent.Monitor
+await
+private void await(Guard guard, boolean signalBeforeWaiting) throws InterruptedException
+Guard,boolean
+void
+com.google.common.util.concurrent.AbstractService
+terminated
+private void terminated(final State from)
+State
+void
+com.google.common.util.concurrent.AbstractFuture
+interruptTask
+protected void interruptTask()
+empty
+void
+com.google.common.util.concurrent.ListenableFutureTask
+create
+public static ListenableFutureTask<V> create(Runnable runnable, @Nullable V result)
+Runnable,V
+ListenableFutureTask
+com.google.common.util.concurrent.ForwardingBlockingQueue
+delegate
+protected abstract BlockingQueue<E> delegate()
+empty
+BlockingQueue
+com.google.common.util.concurrent.AbstractFuture
+cancel
+public boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean
+com.google.common.util.concurrent.CollectionFuture$CollectionFutureRunningState
+collectOneValue
+final void collectOneValue(boolean allMustSucceed, int index, @Nullable V returnValue)
+boolean,int,V
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+addCallback
+public static void addCallback(ListenableFuture<V> future, FutureCallback<? super V> callback)
+ListenableFuture,FutureCallback
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+immediateFailedFuture
+public static ListenableFuture<V> immediateFailedFuture(Throwable throwable)
+Throwable
+ListenableFuture
+com.google.common.util.concurrent.AbstractScheduledService$CustomScheduler
+schedule
+final Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+AbstractService,ScheduledExecutorService,Runnable
+Future
+com.google.common.util.concurrent.Monitor
+waitForUninterruptibly
+public boolean waitForUninterruptibly(Guard guard, long time, TimeUnit unit)
+Guard,long,TimeUnit
+boolean
+com.google.common.util.concurrent.AbstractFuture$SafeAtomicHelper
+casWaiters
+boolean casWaiters(AbstractFuture future, Waiter curr, Waiter next)
+AbstractFuture,Waiter,Waiter
+boolean
+com.google.common.util.concurrent.AbstractScheduledService
+awaitTerminated
+public final void awaitTerminated(long timeout, TimeUnit unit) throws TimeoutException
+long,TimeUnit
+void
+com.google.common.util.concurrent.AbstractScheduledService
+schedule
+public Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable task)
+AbstractService,ScheduledExecutorService,Runnable
+Future
+com.google.common.util.concurrent.InterruptibleTask
+run
+public final void run()
+empty
+void
+com.google.common.util.concurrent.AbstractIdleService
+execute
+public void execute(Runnable command)
+Runnable
+void
+com.google.common.util.concurrent.AbstractFuture$SafeAtomicHelper
+casValue
+boolean casValue(AbstractFuture future, Object expected, Object v)
+AbstractFuture,Object,Object
+boolean
+com.google.common.util.concurrent.ForwardingBlockingQueue
+remainingCapacity
+public int remainingCapacity()
+empty
+int
+com.google.common.util.concurrent.CycleDetectingLockFactory$WithExplicitOrdering
+newReentrantReadWriteLock
+public ReentrantReadWriteLock newReentrantReadWriteLock(E rank, boolean fair)
+E,boolean
+ReentrantReadWriteLock
+com.google.common.util.concurrent.AbstractScheduledService
+startAsync
+public final Service startAsync()
+empty
+Service
+com.google.common.util.concurrent.CycleDetectingLockFactory
+newReentrantReadWriteLock
+public ReentrantReadWriteLock newReentrantReadWriteLock(String lockName, boolean fair)
+String,boolean
+ReentrantReadWriteLock
+com.google.common.util.concurrent.AbstractScheduledService
+get
+public String get()
+empty
+String
+com.google.common.util.concurrent.AbstractService$StateSnapshot
+StateSnapshot
+StateSnapshot(State internalState, boolean shutdownWhenStartupFinishes, @Nullable Throwable failure)
+State,boolean,Throwable
+constructor
+com.google.common.util.concurrent.CycleDetectingLockFactory$LockGraphNode
+checkAcquiredLocks
+void checkAcquiredLocks(Policy policy, List<LockGraphNode> acquiredLocks)
+Policy,List
+void
+com.google.common.util.concurrent.Futures
+lazyTransform
+public static Future<O> lazyTransform(final Future<I> input, final Function<? super I, ? extends O> function)
+Future,Function
+Future
+com.google.common.util.concurrent.AbstractScheduledService$ServiceDelegate
+doStart
+protected final void doStart()
+empty
+void
+com.google.common.util.concurrent.CycleDetectingLockFactory$LockGraphNode
+checkAcquiredLock
+void checkAcquiredLock(Policy policy, LockGraphNode acquiredLock)
+Policy,LockGraphNode
+void
+com.google.common.util.concurrent.ForwardingExecutorService
+awaitTermination
+public boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException
+long,TimeUnit
+boolean
+com.google.common.util.concurrent.Futures
+get
+public static V get(Future<V> future, long timeout, TimeUnit unit, Class<X> exceptionClass) throws X
+Future,long,TimeUnit,Class
+V
+com.google.common.util.concurrent.AbstractScheduledService
+terminated
+public void terminated(State from)
+State
+void
+com.google.common.util.concurrent.CycleDetectingLockFactory
+newInstanceWithExplicitOrdering
+public static WithExplicitOrdering<E> newInstanceWithExplicitOrdering(Class<E> enumClass, Policy policy)
+Class,Policy
+WithExplicitOrdering
+com.google.common.util.concurrent.AbstractListeningExecutorService
+submit
+public ListenableFuture<T> submit(Callable<T> task)
+Callable
+ListenableFuture
+com.google.common.util.concurrent.ListenerCallQueue
+execute
+void execute()
+empty
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+transform
+public static ListenableFuture<O> transform(ListenableFuture<I> input, AsyncFunction<? super I, ? extends O> function, Executor executor)
+ListenableFuture,AsyncFunction,Executor
+ListenableFuture
+com.google.common.util.concurrent.ListeningScheduledExecutorService
+schedule
+ListenableScheduledFuture<?> schedule(Runnable command, long delay, TimeUnit unit)
+Runnable,long,TimeUnit
+ListenableScheduledFuture
+com.google.common.util.concurrent.ForwardingBlockingQueue
+poll
+public E poll(long timeout, TimeUnit unit) throws InterruptedException
+long,TimeUnit
+E
+com.google.common.util.concurrent.AbstractService$IsStartableGuard
+isSatisfied
+public boolean isSatisfied()
+empty
+boolean
+com.google.common.util.concurrent.AbstractScheduledService
+awaitRunning
+public final void awaitRunning(long timeout, TimeUnit unit) throws TimeoutException
+long,TimeUnit
+void
+com.google.common.util.concurrent.AbstractFuture$TrustedFuture
+isDone
+public final boolean isDone()
+empty
+boolean
+com.google.common.util.concurrent.JdkFutureAdapters
+listenInPoolThread
+public static ListenableFuture<V> listenInPoolThread(Future<V> future)
+Future
+ListenableFuture
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Callables
+returning
+public static Callable<T> returning(@Nullable final T value)
+T
+Callable
+com.google.common.util.concurrent.AbstractScheduledService
+executor
+protected ScheduledExecutorService executor()
+empty
+ScheduledExecutorService
+com.google.common.util.concurrent.Futures
+nonCancellationPropagating
+public static ListenableFuture<V> nonCancellationPropagating(ListenableFuture<V> future)
+ListenableFuture
+ListenableFuture
+com.google.common.util.concurrent.CollectionFuture$CollectionFutureRunningState
+CollectionFutureRunningState
+CollectionFutureRunningState(ImmutableCollection<? extends ListenableFuture<? extends V>> futures, boolean allMustSucceed)
+ImmutableCollection,boolean
+constructor
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.Futures
+addCallback
+public static void addCallback(final ListenableFuture<V> future, final FutureCallback<? super V> callback, Executor executor)
+ListenableFuture,FutureCallback,Executor
+void
+com.google.common.util.concurrent.AggregateFuture
+interruptTask
+protected final void interruptTask()
+empty
+void
+com.google.common.util.concurrent.AbstractFuture$SafeAtomicHelper
+casListeners
+boolean casListeners(AbstractFuture future, Listener curr, Listener next)
+AbstractFuture,Listener,Listener
+boolean
+com.google.common.util.concurrent.AbstractFuture$TrustedFuture
+isCancelled
+public final boolean isCancelled()
+empty
+boolean
+com.google.common.util.concurrent.CycleDetectingLockFactory$WithExplicitOrdering
+newReentrantLock
+public ReentrantLock newReentrantLock(E rank, boolean fair)
+E,boolean
+ReentrantLock
+com.google.common.util.concurrent.AtomicLongMap
+getAndAdd
+public long getAndAdd(K key, long delta)
+K,long
+long
+com.google.common.util.concurrent.AbstractFuture
+removeWaiter
+private void removeWaiter(Waiter node)
+Waiter
+void
+com.google.common.util.concurrent.AbstractExecutionThreadService
+doStop
+protected void doStop()
+empty
+void

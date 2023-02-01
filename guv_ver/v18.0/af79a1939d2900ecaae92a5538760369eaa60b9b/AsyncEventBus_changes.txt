@@ -1,0 +1,4 @@
+AsyncEventBus
+Insertions: [38, 39, 85, 86, 97, 98, 102, 107, 110, 112, 117]
+Deletions: [38, 39, 85, 86, 97, 98, 102, 107, 110, 112, 117]
+guava/src/com/google/common/eventbus/AsyncEventBus.java

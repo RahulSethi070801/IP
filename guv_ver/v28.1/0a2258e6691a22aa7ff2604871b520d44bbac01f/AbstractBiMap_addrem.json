@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "39": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "75": "  K checkKey(@Nullable K key) {\n",
+        "81": "  V checkValue(@Nullable V value) {\n",
+        "110": "  public boolean containsValue(@Nullable Object value) {\n",
+        "118": "  public V put(@Nullable K key, @Nullable V value) {\n",
+        "124": "  public V forcePut(@Nullable K key, @Nullable V value) {\n",
+        "128": "  private V putInBothMaps(@Nullable K key, @Nullable V value, boolean force) {\n",
+        "154": "  public V remove(@Nullable Object key) {\n",
+        "341": "      @Nullable Entry<K, V> entry;\n"
+    },
+    "removed": {
+        "39": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "75": "  K checkKey(@NullableDecl K key) {\n",
+        "81": "  V checkValue(@NullableDecl V value) {\n",
+        "110": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "118": "  public V put(@NullableDecl K key, @NullableDecl V value) {\n",
+        "124": "  public V forcePut(@NullableDecl K key, @NullableDecl V value) {\n",
+        "128": "  private V putInBothMaps(@NullableDecl K key, @NullableDecl V value, boolean force) {\n",
+        "154": "  public V remove(@NullableDecl Object key) {\n",
+        "341": "      @NullableDecl Entry<K, V> entry;\n"
+    }
+}

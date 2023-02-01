@@ -1,0 +1,45 @@
+@CanIgnoreReturnValue
+private Node<K, V> addNode(@NullableDecl K key, @NullableDecl V value, @NullableDecl Node<K, V> nextSibling) {
+    Node<K, V> node = new Node<>(key, value);
+    if (head == null) {
+        head = tail = node;
+        keyToKeyList.put(key, new KeyList<K, V>(node));
+        modCount++;
+    } else if (nextSibling == null) {
+        tail.next = node;
+        node.previous = tail;
+        tail = node;
+        KeyList<K, V> keyList = keyToKeyList.get(key);
+        if (keyList == null) {
+            keyToKeyList.put(key, keyList = new KeyList<>(node));
+            modCount++;
+        } else {
+            keyList.count++;
+            Node<K, V> keyTail = keyList.tail;
+            keyTail.nextSibling = node;
+            node.previousSibling = keyTail;
+            keyList.tail = node;
+        }
+    } else {
+        KeyList<K, V> keyList = keyToKeyList.get(key);
+        keyList.count++;
+        node.previous = nextSibling.previous;
+        node.previousSibling = nextSibling.previousSibling;
+        node.next = nextSibling;
+        node.nextSibling = nextSibling;
+        if (nextSibling.previousSibling == null) {
+            keyToKeyList.get(key).head = node;
+        } else {
+            nextSibling.previousSibling.nextSibling = node;
+        }
+        if (nextSibling.previous == null) {
+            head = node;
+        } else {
+            nextSibling.previous.next = node;
+        }
+        nextSibling.previous = node;
+        nextSibling.previousSibling = node;
+    }
+    size++;
+    return node;
+}

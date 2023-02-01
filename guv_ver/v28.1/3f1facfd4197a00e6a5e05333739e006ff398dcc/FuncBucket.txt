@@ -1,0 +1,105 @@
+com.google.common.collect.CompactLinkedHashSet
+forEach
+public void forEach(Consumer<? super E> action)
+Consumer
+void
+com.google.common.primitives.ImmutableLongArray
+of
+public static ImmutableLongArray of(long first, long... rest)
+long,long...
+ImmutableLongArray
+com.google.common.collect.CompactLinkedHashSet
+spliterator
+public Spliterator<E> spliterator()
+empty
+Spliterator
+com.google.common.math.PairedStats
+equals
+public boolean equals(@Nullable Object obj)
+Object
+boolean
+com.google.common.collect.ImmutableList
+of
+public static ImmutableList<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E e7, E e8, E e9, E e10, E e11, E e12, E... others)
+E,E,E,E,E,E,E,E,E,E,E,E,E...
+ImmutableList
+com.google.common.io.ByteStreams
+toByteArray
+static byte[] toByteArray(InputStream in, long expectedSize) throws IOException
+InputStream,long
+byte[]
+com.google.common.net.InetAddresses
+textToNumericFormatV6
+private static byte @Nullable [] textToNumericFormatV6(String ipString)
+String
+byte @Nullable []
+com.google.common.collect.ImmutableSet
+of
+public static ImmutableSet<E> of(E e1, E e2, E e3, E e4, E e5, E e6, E... others)
+E,E,E,E,E,E,E...
+ImmutableSet
+com.google.common.reflect.TypeToken
+is
+private boolean is(Type formalType, TypeVariable<?> declaration)
+Type,TypeVariable
+boolean
+com.google.common.base.Preconditions
+checkState
+public static void checkState(boolean expression, @Nullable String errorMessageTemplate, @Nullable Object@Nullable ... errorMessageArgs)
+boolean,String,...
+void
+com.google.common.base.Preconditions
+checkNotNull
+public static T checkNotNull(T reference, @Nullable String errorMessageTemplate, Object@Nullable ... errorMessageArgs)
+T,String,...
+T
+com.google.common.primitives.ImmutableIntArray
+of
+public static ImmutableIntArray of(int first, int... rest)
+int,int...
+ImmutableIntArray
+com.google.common.io.ByteStreams
+toByteArrayInternal
+private static byte[] toByteArrayInternal(InputStream in, Deque<byte[]> bufs, int totalLen) throws IOException
+InputStream,Deque,int
+byte[]
+com.google.common.base.Verify
+verify
+public static void verify(boolean expression, @Nullable String errorMessageTemplate, @Nullable Object@Nullable ... errorMessageArgs)
+boolean,String,...
+void
+com.google.common.base.Strings
+lenientFormat
+public static String lenientFormat(@Nullable String template, @Nullable Object@Nullable ... args)
+String,...
+String
+com.google.common.cache.LocalCache$LoadingValueReference
+compute
+public V compute(K key, BiFunction<? super K, ? super V, ? extends V> function)
+K,BiFunction
+V
+com.google.common.base.Objects
+hashCode
+public static int hashCode(Object@Nullable ... objects)
+...
+int
+com.google.common.base.Preconditions
+checkArgument
+public static void checkArgument(boolean expression, @Nullable String errorMessageTemplate, Object@Nullable ... errorMessageArgs)
+boolean,String,...
+void
+com.google.common.util.concurrent.Striped
+lock
+public static Striped<Lock> lock(int stripes)
+int
+Striped
+com.google.common.primitives.ImmutableDoubleArray
+of
+public static ImmutableDoubleArray of(double first, double... rest)
+double,double...
+ImmutableDoubleArray
+com.google.common.base.Verify
+verifyNotNull
+public static T verifyNotNull(@Nullable T reference, @Nullable String errorMessageTemplate, @Nullable Object@Nullable ... errorMessageArgs)
+T,String,...
+T

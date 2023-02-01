@@ -1,0 +1,4 @@
+Equivalence
+Insertions: [23, 58, 75, 108, 161, 187, 189, 195, 206, 268, 275, 277, 283, 288]
+Deletions: [23, 58, 75, 108, 161, 187, 189, 195, 206, 268, 275, 277, 283, 288]
+guava/src/com/google/common/base/Equivalence.java

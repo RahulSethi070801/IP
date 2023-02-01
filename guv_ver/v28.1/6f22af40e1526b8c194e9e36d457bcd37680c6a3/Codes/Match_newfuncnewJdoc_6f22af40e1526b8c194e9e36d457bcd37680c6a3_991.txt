@@ -1,0 +1,5 @@
+
+     * Creates a copy of this reference for the given entry.
+     *
+     * <p>{@code value} may be null only for a loading reference.
+     

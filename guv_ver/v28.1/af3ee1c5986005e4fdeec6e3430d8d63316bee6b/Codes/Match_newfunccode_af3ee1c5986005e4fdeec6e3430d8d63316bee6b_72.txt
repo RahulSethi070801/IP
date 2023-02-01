@@ -1,0 +1,5 @@
+@Override
+public boolean putEdge(EndpointPair<N> endpoints) {
+    validateEndpoints(endpoints);
+    return putEdge(endpoints.nodeU(), endpoints.nodeV());
+}

@@ -1,0 +1,8 @@
+private BiEntry<K, V> seekByKey(@NullableDecl Object key, int keyHash) {
+    for (BiEntry<K, V> entry = hashTableKToV[keyHash & mask]; entry != null; entry = entry.nextInKToVBucket) {
+        if (keyHash == entry.keyHash && Objects.equal(key, entry.key)) {
+            return entry;
+        }
+    }
+    return null;
+}

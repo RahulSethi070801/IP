@@ -1,0 +1,17 @@
+static <K, V> ImmutableSetMultimap<K, V> fromMapEntries(Collection<? extends Map.Entry<? extends K, ? extends Collection<? extends V>>> mapEntries, @NullableDecl Comparator<? super V> valueComparator) {
+    if (mapEntries.isEmpty()) {
+        return of();
+    }
+    ImmutableMap.Builder<K, ImmutableSet<V>> builder = new ImmutableMap.Builder<>(mapEntries.size());
+    int size = 0;
+    for (Entry<? extends K, ? extends Collection<? extends V>> entry : mapEntries) {
+        K key = entry.getKey();
+        Collection<? extends V> values = entry.getValue();
+        ImmutableSet<V> set = valueSet(valueComparator, values);
+        if (!set.isEmpty()) {
+            builder.put(key, set);
+            size += set.size();
+        }
+    }
+    return new ImmutableSetMultimap<>(builder.build(), size, valueComparator);
+}

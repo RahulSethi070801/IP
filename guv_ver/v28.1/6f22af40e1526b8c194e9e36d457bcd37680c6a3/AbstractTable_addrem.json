@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "26": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "37": "  public boolean containsRow(@NullableDecl Object rowKey) {\n",
+        "42": "  public boolean containsColumn(@NullableDecl Object columnKey) {\n",
+        "57": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "67": "  public boolean contains(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "73": "  public V get(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "90": "  public V remove(@NullableDecl Object rowKey, @NullableDecl Object columnKey) {\n",
+        "137": "    public boolean remove(@NullableDecl Object o) {\n",
+        "209": "  public boolean equals(@NullableDecl Object obj) {\n"
+    },
+    "removed": {
+        "26": "import javax.annotation.Nullable;\n",
+        "37": "  public boolean containsRow(@Nullable Object rowKey) {\n",
+        "42": "  public boolean containsColumn(@Nullable Object columnKey) {\n",
+        "57": "  public boolean containsValue(@Nullable Object value) {\n",
+        "67": "  public boolean contains(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "73": "  public V get(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "90": "  public V remove(@Nullable Object rowKey, @Nullable Object columnKey) {\n",
+        "137": "    public boolean remove(@Nullable Object o) {\n",
+        "209": "  public boolean equals(@Nullable Object obj) {\n"
+    }
+}

@@ -1,0 +1,4 @@
+Executors
+Insertions: [13, 46]
+Deletions: [13, 14, 15, 48, 49]
+guava-gwt/src-super/java/util/super/java/util/concurrent/Executors.java

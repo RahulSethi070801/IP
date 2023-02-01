@@ -1,0 +1,7 @@
+@Override
+public void writeInt(int v) throws IOException {
+    out.write(0xFF & v);
+    out.write(0xFF & (v >> 8));
+    out.write(0xFF & (v >> 16));
+    out.write(0xFF & (v >> 24));
+}

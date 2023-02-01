@@ -1,0 +1,4 @@
+@Override
+public synchronized void close() throws IOException {
+    out.close();
+}

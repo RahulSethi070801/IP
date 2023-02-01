@@ -1,0 +1,11 @@
+@GuardedBy("this")
+void enqueueNotification(@Nullable K key, int hash, @Nullable V value, int weight, RemovalCause cause) {
+    totalWeight -= weight;
+    if (cause.wasEvicted()) {
+        statsCounter.recordEviction();
+    }
+    if (map.removalNotificationQueue != DISCARDING_QUEUE) {
+        RemovalNotification<K, V> notification = RemovalNotification.create(key, value, cause);
+        map.removalNotificationQueue.offer(notification);
+    }
+}

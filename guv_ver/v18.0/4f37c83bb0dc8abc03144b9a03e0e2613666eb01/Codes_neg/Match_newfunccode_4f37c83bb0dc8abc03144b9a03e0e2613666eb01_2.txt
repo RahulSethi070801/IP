@@ -1,0 +1,4 @@
+@Deprecated
+public static <R extends Readable & Closeable> String toString(InputSupplier<R> supplier) throws IOException {
+    return asCharSource(supplier).read();
+}

@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "30": "  abstract Iterable<ImmutableTable<Character, Integer, String>> getTestInstances();\n"
+    },
+    "removed": {
+        "30": "  abstract Iterable<ImmutableTable<Character, Integer, String>>\n",
+        "31": "      getTestInstances();\n"
+    }
+}

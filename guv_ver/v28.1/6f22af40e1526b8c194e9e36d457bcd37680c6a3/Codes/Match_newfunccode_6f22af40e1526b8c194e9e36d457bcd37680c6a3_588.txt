@@ -1,0 +1,4 @@
+@Override
+public ComparisonChain compare(@NullableDecl Comparable left, @NullableDecl Comparable right) {
+    return this;
+}

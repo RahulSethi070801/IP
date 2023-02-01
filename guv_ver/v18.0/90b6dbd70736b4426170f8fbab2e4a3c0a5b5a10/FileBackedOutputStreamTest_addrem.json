@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "81": "    ByteSource source = out.asByteSource();\n",
+        "88": "      assertTrue(ByteSource.wrap(data).slice(0, chunk1).contentEquals(source));\n",
+        "102": "    // Check that source returns the right data\n",
+        "103": "    assertTrue(Arrays.equals(data, source.read()));\n",
+        "130": "    ByteSource source = out.asByteSource();\n",
+        "133": "    assertTrue(Arrays.equals(data, source.read()));\n",
+        "144": "    assertTrue(Arrays.equals(data, source.read()));\n",
+        "151": "    ByteSource source = out.asByteSource();\n",
+        "154": "    assertTrue(Arrays.equals(data, source.read()));\n",
+        "157": "    assertTrue(Arrays.equals(new byte[0], source.read()));\n",
+        "160": "    assertTrue(Arrays.equals(data, source.read()));\n"
+    },
+    "removed": {
+        "23": "import java.io.InputStream;\n",
+        "82": "    InputSupplier<InputStream> supplier = out.getSupplier();\n",
+        "89": "      assertTrue(ByteStreams.equal(\n",
+        "90": "          ByteStreams.newInputStreamSupplier(data, 0, chunk1), supplier));\n",
+        "104": "    // Check that supplier returns the right data\n",
+        "105": "    assertTrue(Arrays.equals(data, ByteStreams.toByteArray(supplier)));\n",
+        "132": "    InputSupplier<InputStream> supplier = out.getSupplier();\n",
+        "135": "    assertTrue(Arrays.equals(data, ByteStreams.toByteArray(supplier)));\n",
+        "146": "    assertTrue(Arrays.equals(data, ByteStreams.toByteArray(supplier)));\n",
+        "153": "    InputSupplier<InputStream> supplier = out.getSupplier();\n",
+        "156": "    assertTrue(Arrays.equals(data, ByteStreams.toByteArray(supplier)));\n",
+        "159": "    assertTrue(Arrays.equals(new byte[0], ByteStreams.toByteArray(supplier)));\n",
+        "162": "    assertTrue(Arrays.equals(data, ByteStreams.toByteArray(supplier)));\n"
+    }
+}

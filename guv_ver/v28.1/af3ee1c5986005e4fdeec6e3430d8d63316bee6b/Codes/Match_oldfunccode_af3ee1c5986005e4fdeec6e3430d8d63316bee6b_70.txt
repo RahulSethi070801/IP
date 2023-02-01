@@ -1,0 +1,5 @@
+@Override
+@Nullable
+public E edgeConnectingOrNull(N nodeU, N nodeV) {
+    return edgeConnecting(nodeU, nodeV).orElse(null);
+}

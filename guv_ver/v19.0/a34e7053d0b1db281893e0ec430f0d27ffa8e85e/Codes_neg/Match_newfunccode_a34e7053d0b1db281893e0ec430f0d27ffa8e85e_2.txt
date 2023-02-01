@@ -1,0 +1,4 @@
+@Override
+AtomicHelper tryCreateUnsafeAtomicHelper() {
+    return new UnsafeAtomicHelper();
+}

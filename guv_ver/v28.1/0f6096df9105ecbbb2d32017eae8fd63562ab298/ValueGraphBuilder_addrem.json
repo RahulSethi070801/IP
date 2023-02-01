@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "75": "  public static <N, V> ValueGraphBuilder<N, V> from(ValueGraph<N, V> graph) {\n",
+        "76": "    return new ValueGraphBuilder<N, V>(graph.isDirected())\n"
+    },
+    "removed": {
+        "75": "  public static <N> ValueGraphBuilder<N, Object> from(ValueGraph<N, ?> graph) {\n",
+        "76": "    return new ValueGraphBuilder<N, Object>(graph.isDirected())\n"
+    }
+}

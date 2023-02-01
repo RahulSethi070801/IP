@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "20": "\n",
+        "27": "import java.util.function.BiConsumer;\n",
+        "348": "  /**\n",
+        "349": "   * Performs the given action for all key-value pairs contained in this multimap. If an ordering is\n",
+        "350": "   * specified by the {@code Multimap} implementation, actions will be performed in the order of\n",
+        "351": "   * iteration of {@link #entries()}. Exceptions thrown by the action are relayed to the caller.\n",
+        "352": "   *\n",
+        "353": "   * <p>To loop over all keys and their associated value collections, write\n",
+        "354": "   * {@code Multimaps.asMap(multimap).forEach((key, valueCollection) -> action())}.\n",
+        "355": "   *\n",
+        "356": "   * @since 21.0\n",
+        "357": "   */\n",
+        "358": "  default void forEach(BiConsumer<? super K, ? super V> action) {\n",
+        "359": "    checkNotNull(action);\n",
+        "360": "    entries().forEach(entry -> action.accept(entry.getKey(), entry.getValue()));\n",
+        "361": "  }\n",
+        "362": "\n"
+    },
+    "removed": {}
+}

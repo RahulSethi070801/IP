@@ -1,0 +1,80 @@
+com.google.common.util.concurrent.AbstractScheduledService$ReschedulableCallable
+reschedule
+public void reschedule()
+empty
+void
+com.google.common.util.concurrent.AbstractScheduledService$ReschedulableCallable
+initializeOrUpdateCancellationDelegate
+private Cancellable initializeOrUpdateCancellationDelegate(Schedule schedule)
+Schedule
+Cancellable
+com.google.common.util.concurrent.AbstractScheduledService$CustomScheduler
+schedule
+final Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+AbstractService,ScheduledExecutorService,Runnable
+Future
+com.google.common.util.concurrent.AbstractScheduledService$FutureAsCancellable
+FutureAsCancellable
+FutureAsCancellable(Future<V> delegate)
+Future
+constructor
+com.google.common.util.concurrent.AbstractScheduledService$Scheduler
+newFixedRateSchedule
+public static Scheduler newFixedRateSchedule(final long initialDelay, final long period, final TimeUnit unit)
+long,long,TimeUnit
+Scheduler
+com.google.common.util.concurrent.AbstractScheduledService$ReschedulableCallable
+reschedule
+public Cancellable reschedule()
+empty
+Cancellable
+com.google.common.util.concurrent.AbstractScheduledService
+schedule
+public Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable task)
+AbstractService,ScheduledExecutorService,Runnable
+Future
+com.google.common.util.concurrent.AbstractScheduledService$Scheduler
+schedule
+abstract Cancellable schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+AbstractService,ScheduledExecutorService,Runnable
+Cancellable
+com.google.common.util.concurrent.AbstractScheduledService$SupplantableFuture
+SupplantableFuture
+SupplantableFuture(ReentrantLock lock, Future<Void> currentFuture)
+ReentrantLock,Future
+constructor
+com.google.common.util.concurrent.AbstractScheduledService
+schedule
+public Cancellable schedule(AbstractService service, ScheduledExecutorService executor, Runnable task)
+AbstractService,ScheduledExecutorService,Runnable
+Cancellable
+com.google.common.util.concurrent.AbstractScheduledService$Cancellable
+cancel
+boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean
+com.google.common.util.concurrent.AbstractScheduledService$Cancellable
+isCancelled
+boolean isCancelled()
+empty
+boolean
+com.google.common.util.concurrent.AbstractScheduledService$ReschedulableCallable
+submitToExecutor
+private ScheduledFuture<Void> submitToExecutor(Schedule schedule)
+Schedule
+ScheduledFuture
+com.google.common.util.concurrent.AbstractScheduledService$CustomScheduler
+schedule
+final Cancellable schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+AbstractService,ScheduledExecutorService,Runnable
+Cancellable
+com.google.common.util.concurrent.AbstractScheduledService$Scheduler
+schedule
+abstract Future<?> schedule(AbstractService service, ScheduledExecutorService executor, Runnable runnable)
+AbstractService,ScheduledExecutorService,Runnable
+Future
+com.google.common.util.concurrent.AbstractScheduledService$ReschedulableCallable
+delegate
+protected Future<Void> delegate()
+empty
+Future

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "66": "public abstract class AbstractFuture<V> implements ListenableFuture<V> {\n",
+        "74": "   * Tag interface marking trusted subclasses. This enables some optimizations. The implementation\n",
+        "75": "   * of this interface must also be an AbstractFuture and must not override or expose for overriding\n",
+        "76": "   * any of the public methods of ListenableFuture.\n",
+        "77": "   */\n",
+        "968": "  // TODO(user): move parts into a default method on ListenableFuture?\n"
+    },
+    "removed": {
+        "66": "public abstract class AbstractFuture<V> extends FluentFuture<V> {\n",
+        "74": "   * Tag interface marking trusted subclasses. This enables some optimizations.\n",
+        "75": "   * The implementation of this interface must also be an AbstractureFuture and\n",
+        "76": "   * must not override or expose for overriding all the public methods of ListenableFuture.\n",
+        "77": "   * */\n",
+        "968": "  // TODO(user) move this up into FluentFuture, or parts as a default method on ListenableFuture?\n"
+    }
+}

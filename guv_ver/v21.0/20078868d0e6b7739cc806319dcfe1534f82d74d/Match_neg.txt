@@ -1,0 +1,6 @@
+public long outDegree(Object node)
+boolean equals(@Nullable Object object)
+
+AbstractImmutableGraph(GraphConfig config)
+boolean equals(@Nullable Object object)
+

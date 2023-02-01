@@ -1,0 +1,14 @@
+@CanIgnoreReturnValue
+@Override
+public V checkedGet(long timeout, TimeUnit unit) throws TimeoutException, X {
+    try {
+        return get(timeout, unit);
+    } catch (InterruptedException e) {
+        Thread.currentThread().interrupt();
+        throw mapException(e);
+    } catch (CancellationException e) {
+        throw mapException(e);
+    } catch (ExecutionException e) {
+        throw mapException(e);
+    }
+}

@@ -1,0 +1,4 @@
+TypeToken
+Insertions: [47, 294, 313, 564, 823, 1060, 1221, 1240, 1323]
+Deletions: [47, 294, 313, 564, 823, 1060, 1221, 1240, 1323]
+android/guava/src/com/google/common/reflect/TypeToken.java

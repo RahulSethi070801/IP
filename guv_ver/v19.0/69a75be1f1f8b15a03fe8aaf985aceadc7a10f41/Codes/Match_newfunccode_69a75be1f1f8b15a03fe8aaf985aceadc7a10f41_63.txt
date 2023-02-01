@@ -1,0 +1,9 @@
+@Override
+public boolean tryLock(long timeout, TimeUnit unit) throws InterruptedException {
+    aboutToAcquire(this);
+    try {
+        return super.tryLock(timeout, unit);
+    } finally {
+        lockStateChanged(this);
+    }
+}

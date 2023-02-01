@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "24": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "71": "  public void write(@Nullable String str) throws IOException {\n",
+        "77": "  public void write(@Nullable String str, int off, int len) throws IOException {\n",
+        "107": "  public Writer append(@Nullable CharSequence charSeq) throws IOException {\n",
+        "114": "  public Writer append(@Nullable CharSequence charSeq, int start, int end) throws IOException {\n"
+    },
+    "removed": {
+        "24": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "71": "  public void write(@NullableDecl String str) throws IOException {\n",
+        "77": "  public void write(@NullableDecl String str, int off, int len) throws IOException {\n",
+        "107": "  public Writer append(@NullableDecl CharSequence charSeq) throws IOException {\n",
+        "114": "  public Writer append(@NullableDecl CharSequence charSeq, int start, int end) throws IOException {\n"
+    }
+}

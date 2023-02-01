@@ -1,0 +1,31 @@
+@Override
+Set<E> createElementSet() {
+    final Set<E> delegate = countMap.keySet();
+    return new ForwardingSet<E>() {
+
+        @Override
+        protected Set<E> delegate() {
+            return delegate;
+        }
+
+        @Override
+        public boolean contains(@NullableDecl Object object) {
+            return object != null && Collections2.safeContains(delegate, object);
+        }
+
+        @Override
+        public boolean containsAll(Collection<?> collection) {
+            return standardContainsAll(collection);
+        }
+
+        @Override
+        public boolean remove(Object object) {
+            return object != null && Collections2.safeRemove(delegate, object);
+        }
+
+        @Override
+        public boolean removeAll(Collection<?> c) {
+            return standardRemoveAll(c);
+        }
+    };
+}

@@ -1,0 +1,3 @@
+public boolean tryAcquire(int permits) {
+    return tryAcquire(permits, 0, MICROSECONDS);
+}

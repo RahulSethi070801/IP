@@ -1,0 +1,4 @@
+RegularImmutableList
+Insertions: [34, 35]
+Deletions: [34]
+android/guava/src/com/google/common/collect/RegularImmutableList.java

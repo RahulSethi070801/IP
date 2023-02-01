@@ -1,0 +1,5 @@
+
+     * Returns Finalizer.class or null if this loader shouldn't or can't load it.
+     *
+     * @throws SecurityException if we don't have the appropriate privileges
+     

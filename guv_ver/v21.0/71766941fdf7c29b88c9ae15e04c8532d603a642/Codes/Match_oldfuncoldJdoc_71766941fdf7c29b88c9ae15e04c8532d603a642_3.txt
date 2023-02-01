@@ -1,0 +1,10 @@
+
+   * Returns the number of edges incident in this graph to {@code node}.  If this node has more than
+   * {@code Integer.MAX_VALUE} incident edges in this graph, returns {@code Integer.MAX_VALUE}.
+   *
+   * <p>Note that self-loops only count once towards a node's degree.
+   *
+   * <p>Equivalent to {@code incidentEdges(node).size()}.
+   *
+   * @throws IllegalArgumentException if {@code node} is not an element of this graph
+   

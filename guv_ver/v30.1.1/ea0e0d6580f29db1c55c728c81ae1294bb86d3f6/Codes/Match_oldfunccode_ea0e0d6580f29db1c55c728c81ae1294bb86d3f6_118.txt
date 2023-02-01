@@ -1,0 +1,8 @@
+private AvlNode<E> addRightChild(E e, int count) {
+    right = new AvlNode<E>(e, count);
+    successor(this, right, succ);
+    height = Math.max(2, height);
+    distinctElements++;
+    totalCount += count;
+    return this;
+}

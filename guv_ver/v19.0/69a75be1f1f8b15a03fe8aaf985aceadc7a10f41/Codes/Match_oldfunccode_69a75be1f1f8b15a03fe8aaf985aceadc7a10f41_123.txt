@@ -1,0 +1,8 @@
+@GwtIncompatible("Interruption not supported")
+@Override
+protected final void interruptTask() {
+    RunningState localRunningState = runningState;
+    if (localRunningState != null) {
+        localRunningState.interruptTask();
+    }
+}

@@ -1,0 +1,7 @@
+
+   * A sensible default implementation of {@link #lastIndexOf}, in terms of {@link
+   * #listIterator(int)}. If you override {@link #listIterator(int)}, you may wish to override
+   * {@link #lastIndexOf} to forward to this implementation.
+   *
+   * @since 7.0
+   

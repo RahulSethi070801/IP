@@ -1,0 +1,6 @@
+public L getAt(int index)
+public static Striped<Lock> lock(int stripes)
+
+public L getAt(int index)
+public static Striped<Lock> lazyWeakLock(int stripes)
+

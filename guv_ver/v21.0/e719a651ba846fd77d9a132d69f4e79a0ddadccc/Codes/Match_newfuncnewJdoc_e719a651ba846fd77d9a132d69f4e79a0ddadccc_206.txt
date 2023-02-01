@@ -1,0 +1,6 @@
+
+   * Writes a char as specified by {@link DataOutputStream#writeChar(int)}, except using
+   * little-endian byte order.
+   *
+   * @throws IOException if an I/O error occurs
+   

@@ -1,0 +1,3 @@
+public boolean enterInterruptibly(long time, TimeUnit unit) throws InterruptedException {
+    return lock.tryLock(time, unit);
+}

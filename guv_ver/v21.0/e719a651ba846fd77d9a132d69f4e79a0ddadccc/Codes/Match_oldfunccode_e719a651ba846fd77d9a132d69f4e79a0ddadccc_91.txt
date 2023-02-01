@@ -1,0 +1,5 @@
+public static BufferedWriter newWriter(File file, Charset charset) throws FileNotFoundException {
+    checkNotNull(file);
+    checkNotNull(charset);
+    return new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), charset));
+}

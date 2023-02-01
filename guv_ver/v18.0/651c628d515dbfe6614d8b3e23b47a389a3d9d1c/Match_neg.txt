@@ -1,0 +1,6 @@
+private DiscreteDomains()
+public String name()
+
+public static DiscreteDomain<Long> longs()
+public String name()
+

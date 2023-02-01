@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "31": "  @Param({\"0\", \"1\", \"16\", \"256\", \"4096\", \"65536\"})\n",
+        "32": "  int size;\n",
+        "40": "  @BeforeExperiment\n",
+        "41": "  void setUp() {\n",
+        "61": "    // TODO(kevinb): convert to assert once benchmark tests enable asserts by default\n",
+        "65": "  @Benchmark\n",
+        "66": "  int hashMultiset(int reps) {\n",
+        "76": "  @Benchmark\n",
+        "77": "  int linkedHashMultiset(int reps) {\n",
+        "87": "  @Benchmark\n",
+        "88": "  int treeMultiset(int reps) {\n"
+    },
+    "removed": {
+        "31": "  @Param({\"0\", \"1\", \"16\", \"256\", \"4096\", \"65536\"}) int size;\n",
+        "39": "  @BeforeExperiment void setUp() {\n",
+        "59": "    //TODO(kevinb): convert to assert once benchmark tests enable asserts by default\n",
+        "63": "  @Benchmark int hashMultiset(int reps) {\n",
+        "73": "  @Benchmark int linkedHashMultiset(int reps) {\n",
+        "83": "  @Benchmark int treeMultiset(int reps) {\n"
+    }
+}

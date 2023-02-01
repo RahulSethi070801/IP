@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "24": "import java.util.Spliterator;\n",
+        "25": "import java.util.function.BiConsumer;\n",
+        "61": "  @Override\n",
+        "62": "  Spliterator<K> keySpliterator() {\n",
+        "63": "    return delegate.keySet().spliterator();\n",
+        "64": "  }\n",
+        "65": "\n",
+        "97": "  @Override\n",
+        "98": "  Spliterator<Entry<K, V>> entrySpliterator() {\n",
+        "99": "    return CollectSpliterators.map(delegate.entrySet().spliterator(), Maps::unmodifiableEntry);\n",
+        "100": "  }\n",
+        "101": "  \n",
+        "102": "  @Override public void forEach(BiConsumer<? super K, ? super V> action) {\n",
+        "103": "    delegate.forEach(action);\n",
+        "104": "  }\n",
+        "105": "\n"
+    },
+    "removed": {}
+}

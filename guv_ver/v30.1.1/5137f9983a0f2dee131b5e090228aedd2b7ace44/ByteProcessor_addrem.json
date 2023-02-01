@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "22": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "36": "@ElementTypesAreNonnullByDefault\n",
+        "37": "public interface ByteProcessor<T extends @Nullable Object> {\n",
+        "51": "  @ParametricNullness\n"
+    },
+    "removed": {
+        "35": "public interface ByteProcessor<T> {\n"
+    }
+}

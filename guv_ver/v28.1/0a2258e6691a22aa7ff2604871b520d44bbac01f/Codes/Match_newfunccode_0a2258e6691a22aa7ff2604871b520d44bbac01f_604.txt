@@ -1,0 +1,3 @@
+static <V> ValueDifference<V> create(@Nullable V left, @Nullable V right) {
+    return new ValueDifferenceImpl<V>(left, right);
+}

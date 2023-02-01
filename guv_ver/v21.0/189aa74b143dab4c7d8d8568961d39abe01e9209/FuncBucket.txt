@@ -1,0 +1,155 @@
+com.google.common.io.BaseEncoding
+withSeparator
+public abstract BaseEncoding withSeparator(String separator, int n)
+String,int
+BaseEncoding
+com.google.common.io.BaseEncoding
+encodingSink
+public final ByteSink encodingSink(final CharSink encodedSink)
+CharSink
+ByteSink
+com.google.common.io.BaseEncoding
+encode
+public final String encode(byte[] bytes, int off, int len)
+byte[],int,int
+String
+com.google.common.io.BaseEncoding
+canDecode
+public abstract boolean canDecode(CharSequence chars)
+CharSequence
+boolean
+com.google.common.io.CharStreams
+copy
+public static long copy(Readable from, Appendable to) throws IOException
+Readable,Appendable
+long
+com.google.common.io.ByteSource
+copyTo
+public long copyTo(OutputStream output) throws IOException
+OutputStream
+long
+com.google.common.io.ByteSink
+writeFrom
+public long writeFrom(InputStream input) throws IOException
+InputStream
+long
+com.google.common.io.BaseEncoding
+base32
+public static BaseEncoding base32()
+empty
+BaseEncoding
+com.google.common.io.ByteStreams
+copy
+public static long copy(ReadableByteChannel from, WritableByteChannel to) throws IOException
+ReadableByteChannel,WritableByteChannel
+long
+com.google.common.io.CharSource
+copyTo
+public long copyTo(CharSink sink) throws IOException
+CharSink
+long
+com.google.common.io.BaseEncoding
+base64Url
+public static BaseEncoding base64Url()
+empty
+BaseEncoding
+com.google.common.io.ByteStreams
+copy
+public static long copy(InputStream from, OutputStream to) throws IOException
+InputStream,OutputStream
+long
+com.google.common.io.BaseEncoding
+base32Hex
+public static BaseEncoding base32Hex()
+empty
+BaseEncoding
+com.google.common.io.BaseEncoding
+upperCase
+public abstract BaseEncoding upperCase()
+empty
+BaseEncoding
+com.google.common.io.BaseEncoding
+decodingSource
+public final ByteSource decodingSource(final CharSource encodedSource)
+CharSource
+ByteSource
+com.google.common.io.ByteStreams
+read
+public static int read(InputStream in, byte[] b, int off, int len) throws IOException
+InputStream,byte[],int,int
+int
+com.google.common.io.CharSource
+copyTo
+public long copyTo(Appendable appendable) throws IOException
+Appendable
+long
+com.google.common.io.BaseEncoding
+encode
+public String encode(byte[] bytes)
+byte[]
+String
+com.google.common.io.BaseEncoding
+decodeChecked
+final byte[] decodeChecked(CharSequence chars) throws DecodingException
+CharSequence
+byte[]
+com.google.common.io.CharSink
+writeFrom
+public long writeFrom(Readable readable) throws IOException
+Readable
+long
+com.google.common.io.ByteSource
+copyTo
+public long copyTo(ByteSink sink) throws IOException
+ByteSink
+long
+com.google.common.io.BaseEncoding
+base16
+public static BaseEncoding base16()
+empty
+BaseEncoding
+com.google.common.io.LineBuffer
+finishLine
+private boolean finishLine(boolean sawNewline) throws IOException
+boolean
+boolean
+com.google.common.io.BaseEncoding
+withPadChar
+public abstract BaseEncoding withPadChar(char padChar)
+char
+BaseEncoding
+com.google.common.io.BaseEncoding
+lowerCase
+public abstract BaseEncoding lowerCase()
+empty
+BaseEncoding
+com.google.common.io.BaseEncoding
+base64
+public static BaseEncoding base64()
+empty
+BaseEncoding
+com.google.common.io.BaseEncoding
+omitPadding
+public abstract BaseEncoding omitPadding()
+empty
+BaseEncoding
+com.google.common.io.Closer
+register
+public C register(@Nullable C closeable)
+C
+C
+com.google.common.io.BaseEncoding
+decode
+public final byte[] decode(CharSequence chars)
+CharSequence
+byte[]
+com.google.common.io.BaseEncoding
+decodingStream
+public abstract InputStream decodingStream(Reader reader)
+Reader
+InputStream
+com.google.common.io.BaseEncoding
+encodingStream
+public abstract OutputStream encodingStream(Writer writer)
+Writer
+OutputStream

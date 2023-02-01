@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "19": "import static com.google.common.collect.ImmutableList.toImmutableList;\n",
+        "25": "import com.google.common.io.SourceSinkFactory.ByteSourceFactory;\n",
+        "26": "import com.google.common.io.SourceSinkFactory.CharSourceFactory;\n",
+        "34": "import java.util.stream.Stream;\n",
+        "127": "  public void testLines() throws IOException {\n",
+        "128": "    try (Stream<String> lines = source.lines()) {\n",
+        "129": "      assertExpectedLines(lines.collect(toImmutableList()));\n",
+        "130": "    }\n",
+        "131": "  }\n",
+        "132": "\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.io.SourceSinkFactory.ByteSourceFactory;\n",
+        "20": "import static com.google.common.io.SourceSinkFactory.CharSourceFactory;\n"
+    }
+}

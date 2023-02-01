@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "33": "  @Override\n",
+        "34": "  protected ListenableFuture<String> buildChainingFuture(ListenableFuture<Integer> inputFuture) {\n",
+        "38": "  @Override\n",
+        "39": "  protected String getSuccessfulResult() {\n",
+        "43": "  private class ComposeFunction implements Function<Integer, String> {\n"
+    },
+    "removed": {
+        "33": "  @Override protected ListenableFuture<String> buildChainingFuture(\n",
+        "34": "      ListenableFuture<Integer> inputFuture) {\n",
+        "38": "  @Override protected String getSuccessfulResult() {\n",
+        "42": "  private class ComposeFunction\n",
+        "43": "      implements Function<Integer, String> {\n"
+    }
+}

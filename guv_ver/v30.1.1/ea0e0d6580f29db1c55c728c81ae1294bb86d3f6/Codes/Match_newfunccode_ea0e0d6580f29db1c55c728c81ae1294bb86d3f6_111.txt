@@ -1,0 +1,3 @@
+public static <E extends @Nullable Object> Multiset.Entry<E> immutableEntry(@ParametricNullness E e, int n) {
+    return new ImmutableEntry<E>(e, n);
+}

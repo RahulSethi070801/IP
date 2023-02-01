@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "28": "import com.google.common.io.Closer.LoggingSuppressor;\n",
+        "262": "    if (Closer.create().suppressor instanceof LoggingSuppressor) {\n"
+    },
+    "removed": {
+        "261": "    if (!Closer.SuppressingSuppressor.isAvailable()) {\n"
+    }
+}

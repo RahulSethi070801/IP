@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "5": " * in compliance with the License. You may obtain a copy of the License at\n",
+        "11": " * or implied. See the License for the specific language governing permissions and limitations under\n",
+        "12": " * the License.\n"
+    },
+    "removed": {
+        "5": " * in compliance with the License.  You may obtain a copy of the License at\n",
+        "11": " * or implied.  See the License for the specific language governing permissions and limitations\n",
+        "12": " * under the License.\n"
+    }
+}

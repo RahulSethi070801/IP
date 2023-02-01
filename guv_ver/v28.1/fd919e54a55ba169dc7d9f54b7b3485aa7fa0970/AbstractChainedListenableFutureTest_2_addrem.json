@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "25": " * Unit tests for any listenable future that chains other listenable futures. Unit tests need only\n",
+        "26": " * override buildChainingFuture and getSuccessfulResult, but they can add custom tests as needed.\n",
+        "53": "    } catch (TimeoutException expected) {\n",
+        "54": "    }\n",
+        "83": "   * Override to return a chaining listenableFuture that returns the result of getSuccessfulResult()\n",
+        "84": "   * when inputFuture returns VALID_INPUT_DATA, and sets the exception to EXCEPTION in all other\n",
+        "85": "   * cases.\n",
+        "87": "  protected abstract ListenableFuture<T> buildChainingFuture(ListenableFuture<Integer> inputFuture);\n",
+        "90": "   * Override to return the result when VALID_INPUT_DATA is passed in to the chaining\n",
+        "91": "   * listenableFuture\n"
+    },
+    "removed": {
+        "25": " * Unit tests for any listenable future that chains other listenable futures.\n",
+        "26": " * Unit tests need only override buildChainingFuture and getSuccessfulResult,\n",
+        "27": " * but they can add custom tests as needed.\n",
+        "55": "    } catch (TimeoutException expected) {}\n",
+        "84": "   * Override to return a chaining listenableFuture that returns the result of\n",
+        "85": "   * getSuccessfulResult() when inputFuture returns VALID_INPUT_DATA, and sets\n",
+        "86": "   * the exception to EXCEPTION in all other cases.\n",
+        "88": "  protected abstract ListenableFuture<T> buildChainingFuture(\n",
+        "89": "      ListenableFuture<Integer> inputFuture);\n",
+        "92": "   * Override to return the result when VALID_INPUT_DATA is passed in to\n",
+        "93": "   * the chaining listenableFuture\n"
+    }
+}

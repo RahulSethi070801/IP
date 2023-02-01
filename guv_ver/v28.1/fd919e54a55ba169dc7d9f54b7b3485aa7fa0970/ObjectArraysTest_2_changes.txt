@@ -1,0 +1,4 @@
+ObjectArraysTest_2
+Insertions: [88, 95, 102, 109, 110, 117, 140, 147, 170, 175, 185, 190, 211, 212, 216, 217, 218, 219, 220, 221, 222, 223, 224]
+Deletions: [88, 89, 96, 97, 104, 105, 112, 113, 120, 121, 144, 151, 152, 175, 180, 190, 195, 216, 217, 221, 222]
+guava-tests/test/com/google/common/collect/ObjectArraysTest.java

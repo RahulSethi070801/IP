@@ -1,0 +1,4 @@
+Traverser
+Insertions: [44, 45]
+Deletions: [44, 45, 46]
+android/guava/src/com/google/common/graph/Traverser.java

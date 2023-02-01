@@ -1,0 +1,3 @@
+protected boolean standardContainsValue(@Nullable Object value) {
+    return Maps.containsValueImpl(this, value);
+}

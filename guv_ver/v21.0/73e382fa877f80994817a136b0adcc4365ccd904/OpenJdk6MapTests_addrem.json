@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "27": "import static com.google.common.collect.testing.testers.MapMergeTester.getMergeNullValueMethod;\n",
+        "90": "\n",
+        "91": "  @Override\n",
+        "92": "  protected Collection<Method> suppressForHashtable() {\n",
+        "93": "    return Arrays.asList(getMergeNullValueMethod());\n",
+        "94": "  }\n"
+    },
+    "removed": {}
+}

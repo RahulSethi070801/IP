@@ -1,0 +1,8 @@
+@Override
+public void writeDouble(double v) {
+    try {
+        output.writeDouble(v);
+    } catch (IOException impossible) {
+        throw new AssertionError(impossible);
+    }
+}

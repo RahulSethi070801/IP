@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "32": "      \"Nodes %s and %s are already connected by a different edge.\";\n"
+    },
+    "removed": {
+        "32": "      \"Nodes %s and %s are already connected by a different edge: %s\";\n"
+    }
+}

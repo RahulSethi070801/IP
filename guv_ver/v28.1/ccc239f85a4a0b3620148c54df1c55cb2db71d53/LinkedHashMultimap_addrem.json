@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "221": "    super(Platform.<K, Collection<V>>newLinkedHashMapWithExpectedSize(keyCapacity));\n",
+        "238": "    return Platform.newLinkedHashSetWithExpectedSize(valueSetCapacity);\n",
+        "573": "    Map<K, Collection<V>> map = Platform.newLinkedHashMapWithExpectedSize(12);\n"
+    },
+    "removed": {
+        "221": "    super(new LinkedHashMap<K, Collection<V>>(keyCapacity));\n",
+        "238": "    return new LinkedHashSet<V>(valueSetCapacity);\n",
+        "573": "    Map<K, Collection<V>> map = new LinkedHashMap<>();\n"
+    }
+}

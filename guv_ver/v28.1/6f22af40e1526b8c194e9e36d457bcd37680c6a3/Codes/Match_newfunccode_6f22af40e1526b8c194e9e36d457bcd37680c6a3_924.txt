@@ -1,0 +1,2 @@
+@CanIgnoreReturnValue
+boolean remove(@CompatibleWith("K") @NullableDecl Object key, @CompatibleWith("V") @NullableDecl Object value);

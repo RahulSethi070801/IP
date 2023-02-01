@@ -1,0 +1,6 @@
+@CanIgnoreReturnValue
+@Deprecated
+@Override
+public final boolean retainAll(Collection<?> elementsToKeep) {
+    throw new UnsupportedOperationException();
+}

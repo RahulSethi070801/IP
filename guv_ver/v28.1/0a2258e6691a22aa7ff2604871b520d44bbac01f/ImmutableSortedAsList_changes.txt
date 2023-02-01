@@ -1,0 +1,4 @@
+ImmutableSortedAsList
+Insertions: [21, 52, 65]
+Deletions: [21, 52, 65]
+guava/src/com/google/common/collect/ImmutableSortedAsList.java

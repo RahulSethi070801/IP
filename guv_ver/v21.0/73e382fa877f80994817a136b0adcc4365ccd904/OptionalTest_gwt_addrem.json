@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "56": "public void testFromJavaUtil() throws Exception {\n",
+        "57": "  com.google.common.base.OptionalTest testCase = new com.google.common.base.OptionalTest();\n",
+        "58": "  testCase.testFromJavaUtil();\n",
+        "59": "}\n",
+        "60": "\n",
+        "196": "public void testToJavaUtil() throws Exception {\n",
+        "197": "  com.google.common.base.OptionalTest testCase = new com.google.common.base.OptionalTest();\n",
+        "198": "  testCase.testToJavaUtil();\n",
+        "199": "}\n",
+        "200": "\n"
+    },
+    "removed": {}
+}

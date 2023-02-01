@@ -1,0 +1,25 @@
+@CanIgnoreReturnValue
+public Cancellable reschedule() {
+    Schedule schedule;
+    try {
+        schedule = CustomScheduler.this.getNextSchedule();
+    } catch (Throwable t) {
+        service.notifyFailed(t);
+        return new FutureAsCancellable<>(immediateCancelledFuture());
+    }
+    Throwable scheduleFailure = null;
+    Cancellable toReturn;
+    lock.lock();
+    try {
+        toReturn = initializeOrUpdateCancellationDelegate(schedule);
+    } catch (Throwable e) {
+        scheduleFailure = e;
+        toReturn = new FutureAsCancellable<>(immediateCancelledFuture());
+    } finally {
+        lock.unlock();
+    }
+    if (scheduleFailure != null) {
+        service.notifyFailed(scheduleFailure);
+    }
+    return toReturn;
+}

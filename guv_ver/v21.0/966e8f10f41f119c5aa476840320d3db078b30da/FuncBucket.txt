@@ -1,0 +1,15 @@
+com.google.common.graph.IncidentNodes$OneNode
+contains
+public boolean contains(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.IncidentNodes$OneNode
+OneNode
+private OneNode(N node)
+N
+constructor
+com.google.common.graph.IncidentNodes$TwoNodes
+TwoNodes
+private TwoNodes(N node1, N node2)
+N,N
+constructor

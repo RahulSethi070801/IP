@@ -1,0 +1,4 @@
+HashFunctionBenchmark_2
+Insertions: [28, 30, 31, 48, 49, 54, 55, 64, 65, 74, 75]
+Deletions: [29, 30, 47, 52, 61, 70]
+guava-tests/benchmark/com/google/common/hash/HashFunctionBenchmark.java

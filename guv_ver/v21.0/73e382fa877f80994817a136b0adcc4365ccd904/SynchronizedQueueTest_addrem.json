@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "33": "    Queue<String> outer = Synchronized.queue(inner, null);\n",
+        "34": "    inner.mutex = outer;\n",
+        "35": "    outer.add(\"foo\"); // necessary because we try to remove elements later on\n",
+        "41": "    public Object mutex;\n"
+    },
+    "removed": {
+        "33": "    Queue<String> outer = Synchronized.queue(inner, inner.mutex);\n",
+        "34": "    outer.add(\"foo\");  // necessary because we try to remove elements later on\n",
+        "40": "    public final Object mutex = new Integer(1); // something Serializable\n"
+    }
+}

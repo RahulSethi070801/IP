@@ -1,0 +1,11 @@
+IllegalArgumentException multiples(boolean overflow) {
+    StringBuilder sb = new StringBuilder().append("expected one element but was: <").append(element);
+    for (Object o : extras) {
+        sb.append(", ").append(o);
+    }
+    if (overflow) {
+        sb.append(", ...");
+    }
+    sb.append('>');
+    throw new IllegalArgumentException(sb.toString());
+}

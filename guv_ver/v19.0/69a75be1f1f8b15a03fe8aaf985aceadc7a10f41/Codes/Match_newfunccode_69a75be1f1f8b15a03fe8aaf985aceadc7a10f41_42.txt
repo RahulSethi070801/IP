@@ -1,0 +1,5 @@
+@GwtIncompatible("TODO")
+@CheckReturnValue
+public static <V, X extends Exception> CheckedFuture<V, X> immediateCheckedFuture(@Nullable V value) {
+    return new ImmediateSuccessfulCheckedFuture<V, X>(value);
+}

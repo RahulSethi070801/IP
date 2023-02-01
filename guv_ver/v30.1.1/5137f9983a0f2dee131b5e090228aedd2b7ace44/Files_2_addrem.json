@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "55": "import javax.annotation.CheckForNull;\n",
+        "56": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "69": "@ElementTypesAreNonnullByDefault\n",
+        "535": "  @CheckForNull\n",
+        "595": "  @ParametricNullness\n",
+        "597": "  static <T extends @Nullable Object> T readLines(\n",
+        "598": "      File file, Charset charset, LineProcessor<T> callback) throws IOException {\n",
+        "617": "  @ParametricNullness\n",
+        "619": "  static <T extends @Nullable Object> T readBytes(File file, ByteProcessor<T> processor)\n",
+        "620": "      throws IOException {\n"
+    },
+    "removed": {
+        "592": "  static <T> T readLines(File file, Charset charset, LineProcessor<T> callback) throws IOException {\n",
+        "612": "  static <T> T readBytes(File file, ByteProcessor<T> processor) throws IOException {\n"
+    }
+}

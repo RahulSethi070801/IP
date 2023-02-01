@@ -1,0 +1,4 @@
+BloomFilterStrategies
+Insertions: [25, 269]
+Deletions: [25, 269]
+guava/src/com/google/common/hash/BloomFilterStrategies.java

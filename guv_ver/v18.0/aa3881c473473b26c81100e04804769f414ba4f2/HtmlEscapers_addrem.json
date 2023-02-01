@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "54": "   * other Unicode encodings can).\n",
+        "55": "   *\n"
+    },
+    "removed": {
+        "54": "   * other Unicode encodings can). For documents encoded in ASCII for\n",
+        "55": "   * compatibility reasons, use {@link LegacyHtmlEscapers#asciiHtmlEscaper},\n",
+        "56": "   * which also escapes non-ASCII code points.\n"
+    }
+}

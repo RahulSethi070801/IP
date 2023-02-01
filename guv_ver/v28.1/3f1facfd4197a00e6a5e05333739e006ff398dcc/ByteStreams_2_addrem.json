@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "174": "        totalLen < MAX_ARRAY_LEN;\n",
+        "175": "        bufSize = IntMath.saturatedMultiply(bufSize, 2)) {\n",
+        "258": "    bufs.add(new byte[] {(byte) b});\n"
+    },
+    "removed": {
+        "174": "         totalLen < MAX_ARRAY_LEN;\n",
+        "175": "         bufSize = IntMath.saturatedMultiply(bufSize, 2)) {\n",
+        "258": "    bufs.add(new byte[] { (byte) b });\n"
+    }
+}

@@ -1,0 +1,40 @@
+public Map<Integer, Double> computeInPlace(double... dataset) {
+    checkArgument(dataset.length > 0, "Cannot calculate quantiles of an empty dataset");
+    if (containsNaN(dataset)) {
+        Map<Integer, Double> nanMap = new LinkedHashMap<>();
+        for (int index : indexes) {
+            nanMap.put(index, NaN);
+        }
+        return unmodifiableMap(nanMap);
+    }
+    int[] quotients = new int[indexes.length];
+    int[] remainders = new int[indexes.length];
+    int[] requiredSelections = new int[indexes.length * 2];
+    int requiredSelectionsCount = 0;
+    for (int i = 0; i < indexes.length; i++) {
+        long numerator = (long) indexes[i] * (dataset.length - 1);
+        int quotient = (int) LongMath.divide(numerator, scale, RoundingMode.DOWN);
+        int remainder = (int) (numerator - (long) quotient * scale);
+        quotients[i] = quotient;
+        remainders[i] = remainder;
+        requiredSelections[requiredSelectionsCount] = quotient;
+        requiredSelectionsCount++;
+        if (remainder != 0) {
+            requiredSelections[requiredSelectionsCount] = quotient + 1;
+            requiredSelectionsCount++;
+        }
+    }
+    sort(requiredSelections, 0, requiredSelectionsCount);
+    selectAllInPlace(requiredSelections, 0, requiredSelectionsCount - 1, dataset, 0, dataset.length - 1);
+    Map<Integer, Double> ret = new LinkedHashMap<>();
+    for (int i = 0; i < indexes.length; i++) {
+        int quotient = quotients[i];
+        int remainder = remainders[i];
+        if (remainder == 0) {
+            ret.put(indexes[i], dataset[quotient]);
+        } else {
+            ret.put(indexes[i], interpolate(dataset[quotient], dataset[quotient + 1], remainder, scale));
+        }
+    }
+    return unmodifiableMap(ret);
+}

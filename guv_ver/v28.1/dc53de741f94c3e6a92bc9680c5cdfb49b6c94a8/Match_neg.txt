@@ -1,0 +1,6 @@
+public int flags()
+public abstract String toString()
+
+public CommonMatcher matcher(CharSequence t)
+public abstract String toString()
+

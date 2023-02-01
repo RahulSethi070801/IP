@@ -1,0 +1,4 @@
+@Override
+public Set<E> inEdges(Object node) {
+    return checkedConnections(node).inEdges();
+}

@@ -1,0 +1,29 @@
+{
+    "addition": {
+        "183": "    new NullPointerTester().testAllPublicStaticMethods(Element.class);\n",
+        "189": "  private abstract static class A {\n",
+        "199": "    @Tested\n",
+        "200": "    public A(Object finalField) {\n",
+        "204": "    @Tested\n",
+        "205": "    abstract void abstractMethod();\n",
+        "207": "    @Tested\n",
+        "208": "    void overridableMethod() {}\n",
+        "210": "    @Tested\n",
+        "211": "    protected void protectedMethod() {}\n",
+        "213": "    @Tested\n",
+        "214": "    private void privateMethod() {}\n",
+        "216": "    @Tested\n",
+        "217": "    public final void publicFinalMethod() {}\n"
+    },
+    "removed": {
+        "183": "    new NullPointerTester()\n",
+        "184": "        .testAllPublicStaticMethods(Element.class);\n",
+        "190": "  private static abstract class A {\n",
+        "200": "    @Tested public A(Object finalField) {\n",
+        "204": "    @Tested abstract void abstractMethod();\n",
+        "206": "    @Tested void overridableMethod() {}\n",
+        "208": "    @Tested protected void protectedMethod() {}\n",
+        "210": "    @Tested private void privateMethod() {}\n",
+        "212": "    @Tested public final void publicFinalMethod() {}\n"
+    }
+}

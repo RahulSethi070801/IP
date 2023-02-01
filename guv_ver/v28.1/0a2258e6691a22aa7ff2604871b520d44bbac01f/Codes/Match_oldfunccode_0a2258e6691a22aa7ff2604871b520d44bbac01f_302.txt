@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public ToStringHelper add(String name, @NullableDecl Object value) {
+    return addHolder(name, value);
+}

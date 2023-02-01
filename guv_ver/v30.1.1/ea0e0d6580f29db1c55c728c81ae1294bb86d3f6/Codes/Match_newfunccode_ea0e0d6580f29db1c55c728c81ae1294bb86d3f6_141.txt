@@ -1,0 +1,5 @@
+@Override
+@CheckForNull
+public E floor(@ParametricNullness E e) {
+    return getElementOrNull(multiset().headMultiset(e, CLOSED).lastEntry());
+}

@@ -1,0 +1,4 @@
+MutableClassToInstanceMap
+Insertions: [48, 49, 56, 57, 58, 156]
+Deletions: [48, 49, 56, 57, 58, 156, 157, 158]
+android/guava/src/com/google/common/collect/MutableClassToInstanceMap.java

@@ -1,0 +1,4 @@
+ListRemoveAtIndexTester
+Insertions: [34, 35]
+Deletions: [34, 35, 36]
+android/guava-testlib/src/com/google/common/collect/testing/testers/ListRemoveAtIndexTester.java

@@ -1,0 +1,4 @@
+SubMapMultimapAsMapImplementsMapTest
+Insertions: [31, 38, 39, 40, 47, 48, 52, 53, 62, 63, 67, 68, 72, 73, 81, 82, 90, 91, 99, 100, 108, 109, 117, 118]
+Deletions: [31, 32, 39, 40, 41, 48, 52, 61, 65, 69, 77, 85, 93, 101, 109]
+android/guava-tests/test/com/google/common/collect/SubMapMultimapAsMapImplementsMapTest.java

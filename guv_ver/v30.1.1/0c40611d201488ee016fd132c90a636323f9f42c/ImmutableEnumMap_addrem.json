@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "25": "import javax.annotation.CheckForNull;\n",
+        "34": "@ElementTypesAreNonnullByDefault\n",
+        "66": "  public boolean containsKey(@CheckForNull Object key) {\n",
+        "71": "  @CheckForNull\n",
+        "72": "  public V get(@CheckForNull Object key) {\n",
+        "77": "  public boolean equals(@CheckForNull Object object) {\n"
+    },
+    "removed": {
+        "25": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "65": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "70": "  public V get(Object key) {\n",
+        "75": "  public boolean equals(Object object) {\n"
+    }
+}

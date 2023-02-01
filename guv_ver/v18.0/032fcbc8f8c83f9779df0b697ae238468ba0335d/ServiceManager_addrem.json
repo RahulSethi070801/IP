@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "216": "   * {@linkplain Service#startAsync started}.\n",
+        "239": "   * added before any of the managed services are {@linkplain Service#startAsync started}.\n",
+        "253": "   * Initiates service {@linkplain Service#startAsync startup} on all the services being managed.  \n",
+        "254": "   * It is only valid to call this method if all of the services are {@linkplain State#NEW new}.\n",
+        "307": "   * Initiates service {@linkplain Service#stopAsync shutdown} if necessary on all the services\n",
+        "308": "   * being managed. \n"
+    },
+    "removed": {
+        "216": "   * {@linkplain Service#start started}.\n",
+        "239": "   * added before any of the managed services are {@linkplain Service#start started}.\n",
+        "253": "   * Initiates service {@linkplain Service#start startup} on all the services being managed.  It is\n",
+        "254": "   * only valid to call this method if all of the services are {@linkplain State#NEW new}.\n",
+        "307": "   * Initiates service {@linkplain Service#stop shutdown} if necessary on all the services being \n",
+        "308": "   * managed. \n"
+    }
+}

@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public E pollFirst() {
+    return poll();
+}

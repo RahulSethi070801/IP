@@ -1,0 +1,6 @@
+public final boolean remove(@CheckForNull Object key, @CheckForNull Object value)
+static ImmutableMapEntry<K, V>[] createEntryArray(int size)
+
+ImmutableEntry(@ParametricNullness K key, @ParametricNullness V value)
+static ImmutableMapEntry<K, V>[] createEntryArray(int size)
+

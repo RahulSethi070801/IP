@@ -1,0 +1,14 @@
+{
+    "addition": {
+        "444": "   * @since 19.0\n",
+        "445": "   */\n",
+        "446": "  public static <B> List<List<B>>\n",
+        "506": "   * @since 19.0\n",
+        "507": "   */\n",
+        "508": "  public static <B> List<List<B>>\n"
+    },
+    "removed": {
+        "444": "   */ static <B> List<List<B>>\n",
+        "504": "   */ static <B> List<List<B>>\n"
+    }
+}

@@ -1,0 +1,4 @@
+TestIteratorGenerator_2
+Insertions: []
+Deletions: [26]
+guava-testlib/src/com/google/common/collect/testing/TestIteratorGenerator.java

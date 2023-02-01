@@ -1,0 +1,30 @@
+{
+    "addition": {
+        "25": " * Users that want edges to be first-class objects or support for parallel edges should use the\n",
+        "26": " * {@link Network} interface instead.\n",
+        "28": " * <p>For convenience, we may use the term 'graph' refer to {@link Graph}s and/or {@link Network}s.\n",
+        "170": "  //\n",
+        "171": "  // Graph-level accessors\n",
+        "172": "  //\n",
+        "173": "  \n",
+        "179": "  /**\n",
+        "180": "   * Returns the order of iteration for the elements of {@link #nodes()}.\n",
+        "181": "   */\n",
+        "182": "  ElementOrder<? super N> nodeOrder();\n",
+        "183": "\n"
+    },
+    "removed": {
+        "25": " * Users that want edges to be first-class objects should use the subtype {@link Network} instead.\n",
+        "27": " * <p>For convenience, we may use the term 'graph' to refer to any subtype of {@link Graph},\n",
+        "28": " * including {@link Network}.\n",
+        "191": "  /**\n",
+        "192": "   * Returns the order of iteration for the elements of {@link #nodes()}.\n",
+        "193": "   */\n",
+        "194": "  ElementOrder<? super N> nodeOrder();\n",
+        "195": "\n",
+        "273": "   * <p>A {@link Graph} cannot be equal to an instance of a subinterface of {@link Graph} that\n",
+        "274": "   * redefines the definition of equality, such as {@link Network}, even if by this definition they\n",
+        "275": "   * would otherwise be equal.\n",
+        "276": "   *\n"
+    }
+}

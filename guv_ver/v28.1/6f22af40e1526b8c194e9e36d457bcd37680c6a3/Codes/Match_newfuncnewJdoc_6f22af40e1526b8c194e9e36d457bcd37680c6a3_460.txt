@@ -1,0 +1,1 @@
+ All subclasses are owned by us and we'll make sure to get the R type right.

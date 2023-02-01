@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "202": "   * <li>Underscores ('_') are permitted within parts (not the first or\n",
+        "203": "   *     last character).\n",
+        "204": "   * <li>Dashes ('-') are permitted as the last character of parts (in\n",
+        "205": "   *     addition to being permitted within parts, per the standard).\n",
+        "244": "  private static final CharMatcher UNDERSCORE_MATCHER = CharMatcher.is('_');\n",
+        "245": "\n",
+        "246": "  private static final CharMatcher DASH_OR_UNDERSCORE_MATCHER = CharMatcher.anyOf(\"-_\");\n",
+        "249": "      CharMatcher.JAVA_LETTER_OR_DIGIT.or(DASH_OR_UNDERSCORE_MATCHER);\n",
+        "284": "    // No initial dash or underscore. No final underscore.\n",
+        "286": "    if (DASH_OR_UNDERSCORE_MATCHER.matches(part.charAt(0))\n",
+        "287": "        || UNDERSCORE_MATCHER.matches(part.charAt(part.length() - 1))) {\n"
+    },
+    "removed": {
+        "202": "   * <li>Underscores ('_') are permitted wherever dashes ('-') are permitted.\n",
+        "241": "  private static final CharMatcher DASH_MATCHER = CharMatcher.anyOf(\"-_\");\n",
+        "244": "      CharMatcher.JAVA_LETTER_OR_DIGIT.or(DASH_MATCHER);\n",
+        "279": "    // No initial or final dashes or underscores.\n",
+        "281": "    if (DASH_MATCHER.matches(part.charAt(0))\n",
+        "282": "        || DASH_MATCHER.matches(part.charAt(part.length() - 1))) {\n"
+    }
+}

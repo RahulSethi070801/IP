@@ -1,0 +1,4 @@
+Strings
+Insertions: [75, 76, 106, 107, 169, 170, 171, 191, 192, 193]
+Deletions: [75, 76, 106, 107, 169, 170, 171, 172, 192, 193, 194, 195]
+android/guava/src/com/google/common/base/Strings.java

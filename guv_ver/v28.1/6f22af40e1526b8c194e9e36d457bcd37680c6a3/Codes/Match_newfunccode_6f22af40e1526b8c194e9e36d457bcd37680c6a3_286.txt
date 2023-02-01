@@ -1,0 +1,10 @@
+@Override
+public boolean contains(@NullableDecl Object o) {
+    final Monitor monitor = this.monitor;
+    monitor.enter();
+    try {
+        return q.contains(o);
+    } finally {
+        monitor.leave();
+    }
+}

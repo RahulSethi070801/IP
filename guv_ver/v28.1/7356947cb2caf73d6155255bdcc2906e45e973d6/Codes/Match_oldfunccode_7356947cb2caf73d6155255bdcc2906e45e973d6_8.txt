@@ -1,0 +1,4 @@
+@CanIgnoreReturnValue
+public static <T> T readBytes(File file, ByteProcessor<T> processor) throws IOException {
+    return asByteSource(file).read(processor);
+}

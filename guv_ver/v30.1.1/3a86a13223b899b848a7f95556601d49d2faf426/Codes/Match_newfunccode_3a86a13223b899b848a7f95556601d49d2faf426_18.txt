@@ -1,0 +1,4 @@
+@Override
+public boolean contains(@SuppressWarnings("nullness") Object object) {
+    return delegate().contains(checkNotNull(object));
+}

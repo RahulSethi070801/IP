@@ -1,0 +1,4 @@
+
+   * Returns the average time spent loading new values. This is defined as
+   * {@code totalLoadTime / (loadSuccessCount + loadExceptionCount)}.
+   

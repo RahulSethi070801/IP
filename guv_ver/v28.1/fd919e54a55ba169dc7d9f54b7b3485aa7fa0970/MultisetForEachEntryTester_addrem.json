@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "29": "import java.util.Arrays;\n",
+        "67": "   * Returns {@link Method} instances for the remove tests that assume multisets support duplicates\n",
+        "68": "   * so that the test of {@code Multisets.forSet()} can suppress them.\n"
+    },
+    "removed": {
+        "28": "import java.util.Arrays;\n",
+        "67": "   * Returns {@link Method} instances for the remove tests that assume multisets\n",
+        "68": "   * support duplicates so that the test of {@code Multisets.forSet()} can\n",
+        "69": "   * suppress them.\n"
+    }
+}

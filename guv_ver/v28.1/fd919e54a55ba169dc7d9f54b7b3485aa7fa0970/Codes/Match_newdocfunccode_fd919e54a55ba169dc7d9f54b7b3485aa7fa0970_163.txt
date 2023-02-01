@@ -1,0 +1,3 @@
+public final boolean isSupertypeOf(Type type) {
+    return of(type).isSubtypeOf(getType());
+}

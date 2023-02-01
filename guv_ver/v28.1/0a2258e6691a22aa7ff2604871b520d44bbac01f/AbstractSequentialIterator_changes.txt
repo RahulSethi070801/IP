@@ -1,0 +1,4 @@
+AbstractSequentialIterator
+Insertions: [21, 44, 50]
+Deletions: [21, 44, 50]
+guava/src/com/google/common/collect/AbstractSequentialIterator.java

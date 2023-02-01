@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "20": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "63": "@CanIgnoreReturnValue\n",
+        "65": "    implements BlockingQueue<E> {\n"
+    },
+    "removed": {
+        "63": "        implements BlockingQueue<E> {\n"
+    }
+}

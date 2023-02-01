@@ -1,0 +1,5 @@
+@Beta
+default void forEachEntry(ObjIntConsumer<? super E> action) {
+    checkNotNull(action);
+    entrySet().forEach(entry -> action.accept(entry.getElement(), entry.getCount()));
+}

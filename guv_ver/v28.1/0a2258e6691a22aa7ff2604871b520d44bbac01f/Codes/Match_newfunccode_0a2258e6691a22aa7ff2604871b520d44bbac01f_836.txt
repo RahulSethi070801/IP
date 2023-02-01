@@ -1,0 +1,7 @@
+@Deprecated
+@Override
+@Nullable
+@CanIgnoreReturnValue
+public final B apply(@Nullable A a) {
+    return convert(a);
+}

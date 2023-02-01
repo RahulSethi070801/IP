@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "56": "   * Returns a {@code Collector} that accumulates the input elements into a new {@code\n",
+        "57": "   * ImmutableSet}. Elements appear in the resulting set in the encounter order of the stream; if\n",
+        "58": "   * the stream contains duplicates (according to {@link Object#equals(Object)}), only the first\n",
+        "59": "   * duplicate in encounter order will appear in the result.\n",
+        "457": "   * <p>Elements appear in the resulting set in the same order they were first added to the builder.\n",
+        "458": "   *\n"
+    },
+    "removed": {
+        "56": "   * Returns a {@code Collector} that accumulates the input elements into a new\n",
+        "57": "   * {@code ImmutableSet}.  Elements are added in encounter order; if the\n",
+        "58": "   * elements contain duplicates (according to {@link Object#equals(Object)}),\n",
+        "59": "   * only the first duplicate in encounter order will appear in the result.\n"
+    }
+}

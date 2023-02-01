@@ -1,0 +1,10 @@
+com.google.common.collect.EvictingQueue
+EvictingQueue
+private EvictingQueue(int maxSize)
+int
+constructor
+com.google.common.collect.EvictingQueue
+add
+public boolean add(E e)
+E
+boolean

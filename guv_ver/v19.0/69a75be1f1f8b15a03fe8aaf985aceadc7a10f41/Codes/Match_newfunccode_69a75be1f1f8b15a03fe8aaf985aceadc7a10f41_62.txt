@@ -1,0 +1,4 @@
+@Override
+public final void awaitRunning() {
+    delegate.awaitRunning();
+}

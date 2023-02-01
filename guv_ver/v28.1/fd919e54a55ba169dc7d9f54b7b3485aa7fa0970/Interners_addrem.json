@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "47": "    private InternerBuilder() {}\n",
+        "105": "   * likely does not perform as well as {@link #newStrongInterner}, but is the best alternative when\n",
+        "106": "   * the memory usage of that implementation is unacceptable.\n",
+        "116": "    @VisibleForTesting final MapMakerInternalMap<E, Dummy, ?, ?> map;\n",
+        "119": "      this.map =\n",
+        "120": "          MapMakerInternalMap.createWithDummyValues(mapMaker.keyEquivalence(Equivalence.equals()));\n"
+    },
+    "removed": {
+        "47": "    private InternerBuilder() {\n",
+        "48": "    }\n",
+        "106": "   * likely does not perform as well as {@link #newStrongInterner}, but is the best alternative\n",
+        "107": "   * when the memory usage of that implementation is unacceptable.\n",
+        "117": "    @VisibleForTesting\n",
+        "118": "    final MapMakerInternalMap<E, Dummy, ?, ?> map;\n",
+        "121": "      this.map = MapMakerInternalMap.createWithDummyValues(\n",
+        "122": "          mapMaker.keyEquivalence(Equivalence.equals()));\n"
+    }
+}

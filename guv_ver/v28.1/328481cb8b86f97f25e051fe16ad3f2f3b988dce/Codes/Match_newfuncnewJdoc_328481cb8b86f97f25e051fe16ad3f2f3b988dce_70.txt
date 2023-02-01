@@ -1,0 +1,1 @@
+ Returns the range that spans the given range and entry, if the entry can be coalesced. 

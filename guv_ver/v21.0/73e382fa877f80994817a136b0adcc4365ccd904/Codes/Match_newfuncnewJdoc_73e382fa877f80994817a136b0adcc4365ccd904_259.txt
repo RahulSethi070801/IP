@@ -1,0 +1,5 @@
+
+   * @deprecated Provided only to satisfy the {@link BiPredicate} interface; use
+   *     {@link #equivalent} instead.
+   * @since 21.0
+   

@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "33": "  public int compare(@Nullable T left, @Nullable T right) {\n",
+        "64": "  public boolean equals(@Nullable Object object) {\n"
+    },
+    "removed": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "33": "  public int compare(@NullableDecl T left, @NullableDecl T right) {\n",
+        "64": "  public boolean equals(@NullableDecl Object object) {\n"
+    }
+}

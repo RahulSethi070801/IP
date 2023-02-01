@@ -1,0 +1,20 @@
+{
+    "addition": {
+        "36": "  private static final double[] doubles = new double[ARRAY_SIZE];\n",
+        "47": "  @Benchmark\n",
+        "48": "  long log2(int reps) {\n",
+        "57": "  @Benchmark\n",
+        "58": "  long factorial(int reps) {\n",
+        "67": "  @Benchmark\n",
+        "68": "  int isMathematicalInteger(int reps) {\n",
+        "79": "  @Benchmark\n",
+        "80": "  int isPowerOfTwo(int reps) {\n"
+    },
+    "removed": {
+        "36": "  private static final double [] doubles = new double[ARRAY_SIZE];\n",
+        "47": "  @Benchmark long log2(int reps) {\n",
+        "56": "  @Benchmark long factorial(int reps) {\n",
+        "65": "  @Benchmark int isMathematicalInteger(int reps) {\n",
+        "76": "  @Benchmark int isPowerOfTwo(int reps) {\n"
+    }
+}

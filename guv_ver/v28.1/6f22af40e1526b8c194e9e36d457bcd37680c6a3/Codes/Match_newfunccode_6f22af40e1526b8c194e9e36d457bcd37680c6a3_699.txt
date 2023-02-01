@@ -1,0 +1,4 @@
+@NullableDecl
+public static <T> T find(Iterable<? extends T> iterable, Predicate<? super T> predicate, @NullableDecl T defaultValue) {
+    return Iterators.find(iterable.iterator(), predicate, defaultValue);
+}

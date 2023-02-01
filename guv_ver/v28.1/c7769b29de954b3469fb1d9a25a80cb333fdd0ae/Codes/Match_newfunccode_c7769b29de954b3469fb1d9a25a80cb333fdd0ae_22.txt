@@ -1,0 +1,14 @@
+@Override
+public CharSource asCharSource(Charset charset) {
+    if (options.length == 0) {
+        return new AsCharSource(charset) {
+
+            @SuppressWarnings("FilesLinesLeak")
+            @Override
+            public Stream<String> lines() throws IOException {
+                return Files.lines(path, charset);
+            }
+        };
+    }
+    return super.asCharSource(charset);
+}

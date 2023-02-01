@@ -1,0 +1,4 @@
+public GraphBuilder<N, V> allowsSelfLoops(boolean allowsSelfLoops) {
+    this.allowsSelfLoops = allowsSelfLoops;
+    return this;
+}

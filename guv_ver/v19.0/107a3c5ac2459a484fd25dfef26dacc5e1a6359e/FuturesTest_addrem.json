@@ -1,0 +1,6 @@
+{
+    "addition": {},
+    "removed": {
+        "22": "import static com.google.common.util.concurrent.Futures.get;\n"
+    }
+}

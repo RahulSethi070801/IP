@@ -1,0 +1,15 @@
+com.google.common.collect.ImmutableSet
+copyOf
+public static ImmutableSet<E> copyOf(E[] elements)
+E[]
+ImmutableSet
+com.google.common.collect.ImmutableSet
+copyOf
+public static ImmutableSet<E> copyOf(Collection<? extends E> elements)
+Collection
+ImmutableSet
+com.google.common.collect.ImmutableSet
+of
+public static ImmutableSet<E> of()
+empty
+ImmutableSet

@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "32": " * A class representing an origin node's adjacent nodes and incident edges in an undirected network.\n"
+    },
+    "removed": {
+        "32": " * A class representing an origin node's adjacent nodes and incident edges in an undirected graph.\n"
+    }
+}

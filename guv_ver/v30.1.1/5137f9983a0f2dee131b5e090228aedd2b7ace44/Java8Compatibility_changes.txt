@@ -1,0 +1,4 @@
+Java8Compatibility
+Insertions: [25]
+Deletions: []
+android/guava/src/com/google/common/io/Java8Compatibility.java

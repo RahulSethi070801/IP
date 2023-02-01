@@ -1,0 +1,3 @@
+
+   * Does the domain name match one of the "wildcard" patterns (e.g. {@code "*.ar"})?
+   

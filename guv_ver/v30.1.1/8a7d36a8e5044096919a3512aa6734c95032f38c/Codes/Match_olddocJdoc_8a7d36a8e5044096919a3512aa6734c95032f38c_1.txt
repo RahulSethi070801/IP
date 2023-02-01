@@ -1,0 +1,10 @@
+
+   * Returns the {@link InetAddress} having the given string representation.
+   *
+   * <p>This deliberately avoids all nameservice lookups (e.g. no DNS).
+   *
+   * @param ipString {@code String} containing an IPv4 or IPv6 string literal, e.g. {@code
+   *     "192.168.0.1"} or {@code "2001:db8::1"}
+   * @return {@link InetAddress} representing the argument
+   * @throws IllegalArgumentException if the argument is not a valid IP string literal
+   

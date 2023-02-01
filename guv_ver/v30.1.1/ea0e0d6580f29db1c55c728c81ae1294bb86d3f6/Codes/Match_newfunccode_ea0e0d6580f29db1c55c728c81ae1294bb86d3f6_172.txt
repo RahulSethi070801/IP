@@ -1,0 +1,3 @@
+boolean contains(@ParametricNullness T t) {
+    return !tooLow(t) && !tooHigh(t);
+}

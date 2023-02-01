@@ -1,0 +1,3 @@
+
+     * Returns a string representation of the form <code>{key}={value}</code>.
+     

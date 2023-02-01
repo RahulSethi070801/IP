@@ -1,0 +1,10 @@
+static <E extends @Nullable Object> Iterator<E> elementIterator(Iterator<Entry<E>> entryIterator) {
+    return new TransformedIterator<Entry<E>, E>(entryIterator) {
+
+        @Override
+        @ParametricNullness
+        E transform(Entry<E> entry) {
+            return entry.getElement();
+        }
+    };
+}

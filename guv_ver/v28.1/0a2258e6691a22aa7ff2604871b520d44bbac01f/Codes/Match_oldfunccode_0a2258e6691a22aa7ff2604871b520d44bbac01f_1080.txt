@@ -1,0 +1,3 @@
+protected final boolean containsNode(@NullableDecl N node) {
+    return nodeConnections.containsKey(node);
+}

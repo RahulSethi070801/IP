@@ -1,0 +1,3 @@
+public void putAll(Map<? extends K, ? extends Long> m) {
+    m.forEach(this::put);
+}

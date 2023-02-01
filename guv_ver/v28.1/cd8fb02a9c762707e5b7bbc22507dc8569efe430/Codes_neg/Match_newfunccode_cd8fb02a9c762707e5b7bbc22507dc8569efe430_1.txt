@@ -1,0 +1,12 @@
+static <K> MapMakerInternalMap<K, Dummy, ? extends InternalEntry<K, Dummy, ?>, ?> createWithDummyValues(MapMaker builder) {
+    if (builder.getKeyStrength() == Strength.STRONG && builder.getValueStrength() == Strength.STRONG) {
+        return new MapMakerInternalMap<K, Dummy, StrongKeyDummyValueEntry<K>, StrongKeyDummyValueSegment<K>>(builder, StrongKeyDummyValueEntry.Helper.<K>instance());
+    }
+    if (builder.getKeyStrength() == Strength.WEAK && builder.getValueStrength() == Strength.STRONG) {
+        return new MapMakerInternalMap<K, Dummy, WeakKeyDummyValueEntry<K>, WeakKeyDummyValueSegment<K>>(builder, WeakKeyDummyValueEntry.Helper.<K>instance());
+    }
+    if (builder.getValueStrength() == Strength.WEAK) {
+        throw new IllegalArgumentException("Map cannot have both weak and dummy values");
+    }
+    throw new AssertionError();
+}

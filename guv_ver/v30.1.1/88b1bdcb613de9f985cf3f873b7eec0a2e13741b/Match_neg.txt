@@ -1,0 +1,6 @@
+public Map<Range, Object> asDescendingMapOfRanges()
+RangeMap<K, V> subRangeMap(Range<K> range)
+
+public void merge(Range<Comparable<?>> range, @CheckForNull Object value, BiFunction<? super Object, ? super Object, ? extends Object> remappingFunction)
+RangeMap<K, V> subRangeMap(Range<K> range)
+

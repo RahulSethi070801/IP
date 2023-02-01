@@ -1,0 +1,43 @@
+{
+    "addition": {
+        "107": "  private static void verifyOccupiedMethodsInCurrentThread(\n",
+        "108": "      Monitor monitor,\n",
+        "109": "      boolean expectedIsOccupied,\n",
+        "110": "      boolean expectedIsOccupiedByCurrentThread,\n",
+        "117": "  private static void verifyOccupiedMethodsInAnotherThread(\n",
+        "118": "      final Monitor monitor,\n",
+        "119": "      boolean expectedIsOccupied,\n",
+        "120": "      boolean expectedIsOccupiedByCurrentThread,\n",
+        "126": "    joinUninterruptibly(\n",
+        "127": "        startThread(\n",
+        "128": "            new Runnable() {\n",
+        "129": "              @Override\n",
+        "130": "              public void run() {\n",
+        "131": "                try {\n",
+        "132": "                  actualIsOccupied.set(monitor.isOccupied());\n",
+        "133": "                  actualIsOccupiedByCurrentThread.set(monitor.isOccupiedByCurrentThread());\n",
+        "134": "                  actualOccupiedDepth.set(monitor.getOccupiedDepth());\n",
+        "135": "                } catch (Throwable t) {\n",
+        "136": "                  thrown.set(t);\n",
+        "137": "                }\n",
+        "138": "              }\n",
+        "139": "            }));\n"
+    },
+    "removed": {
+        "107": "  private static void verifyOccupiedMethodsInCurrentThread(Monitor monitor,\n",
+        "108": "      boolean expectedIsOccupied, boolean expectedIsOccupiedByCurrentThread,\n",
+        "115": "  private static void verifyOccupiedMethodsInAnotherThread(final Monitor monitor,\n",
+        "116": "      boolean expectedIsOccupied, boolean expectedIsOccupiedByCurrentThread,\n",
+        "122": "    joinUninterruptibly(startThread(new Runnable() {\n",
+        "123": "      @Override public void run() {\n",
+        "124": "        try {\n",
+        "125": "          actualIsOccupied.set(monitor.isOccupied());\n",
+        "126": "          actualIsOccupiedByCurrentThread.set(monitor.isOccupiedByCurrentThread());\n",
+        "127": "          actualOccupiedDepth.set(monitor.getOccupiedDepth());\n",
+        "128": "        } catch (Throwable t) {\n",
+        "129": "          thrown.set(t);\n",
+        "130": "        }\n",
+        "131": "      }\n",
+        "132": "    }));\n"
+    }
+}

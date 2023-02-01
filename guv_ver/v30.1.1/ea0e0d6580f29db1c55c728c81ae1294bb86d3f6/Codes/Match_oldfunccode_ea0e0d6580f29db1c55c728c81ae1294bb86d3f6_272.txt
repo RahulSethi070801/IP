@@ -1,0 +1,4 @@
+@Override
+public SortedMultiset<E> tailMultiset(E lowerBound, BoundType boundType) {
+    return Multisets.unmodifiableSortedMultiset(delegate().tailMultiset(lowerBound, boundType));
+}

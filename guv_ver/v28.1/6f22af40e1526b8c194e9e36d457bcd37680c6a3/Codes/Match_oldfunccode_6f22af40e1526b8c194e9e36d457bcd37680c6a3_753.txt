@@ -1,0 +1,3 @@
+public final V getWithoutCaching(@Nullable Object key) {
+    return backingMap.get(key);
+}

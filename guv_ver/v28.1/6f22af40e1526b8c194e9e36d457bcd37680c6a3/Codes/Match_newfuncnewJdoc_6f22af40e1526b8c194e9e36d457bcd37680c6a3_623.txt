@@ -1,0 +1,9 @@
+
+   * Removes all values associated with the key {@code key}.
+   *
+   * <p>Once this method returns, {@code key} will not be mapped to any values, so it will not
+   * appear in {@link #keySet()}, {@link #asMap()}, or any other views.
+   *
+   * @return the values that were removed (possibly empty). The returned collection <i>may</i> be
+   *     modifiable, but updating it will have no effect on the multimap.
+   

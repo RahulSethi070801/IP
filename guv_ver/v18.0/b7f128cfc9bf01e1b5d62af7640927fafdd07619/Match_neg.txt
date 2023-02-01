@@ -1,0 +1,6 @@
+protected A doBackward(B b)
+public void awaitStopped()
+
+static CharMatcher from(BitSet chars, String description)
+public ServiceManager(Iterable<? extends Service> services)
+

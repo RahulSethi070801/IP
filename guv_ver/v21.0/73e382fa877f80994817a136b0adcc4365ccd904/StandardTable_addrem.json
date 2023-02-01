@@ -1,0 +1,33 @@
+{
+    "addition": {
+        "34": "import com.google.common.collect.Table.Cell;\n",
+        "44": "import java.util.Spliterator;\n",
+        "45": "import java.util.Spliterators;\n",
+        "269": "  @Override\n",
+        "270": "  Spliterator<Cell<R, C, V>> cellSpliterator() {\n",
+        "271": "    return CollectSpliterators.flatMap(\n",
+        "272": "        backingMap.entrySet().spliterator(),\n",
+        "273": "        (Map.Entry<R, Map<C, V>> rowEntry) ->\n",
+        "274": "            CollectSpliterators.map(\n",
+        "275": "                rowEntry.getValue().entrySet().spliterator(),\n",
+        "276": "                (Map.Entry<C, V> columnEntry) ->\n",
+        "277": "                    Tables.immutableCell(\n",
+        "278": "                        rowEntry.getKey(), columnEntry.getKey(), columnEntry.getValue())),\n",
+        "279": "        Spliterator.DISTINCT | Spliterator.SIZED,\n",
+        "280": "        size());\n",
+        "281": "  }\n",
+        "282": "\n",
+        "389": "    @Override\n",
+        "390": "    Spliterator<Entry<C, V>> entrySpliterator() {\n",
+        "391": "      Map<C, V> map = backingRowMap();\n",
+        "392": "      if (map == null) {\n",
+        "393": "        return Spliterators.emptySpliterator();\n",
+        "394": "      }\n",
+        "395": "      return CollectSpliterators.map(map.entrySet().spliterator(), this::wrapEntry);\n",
+        "396": "    }\n",
+        "397": "\n"
+    },
+    "removed": {
+        "43": "\n"
+    }
+}

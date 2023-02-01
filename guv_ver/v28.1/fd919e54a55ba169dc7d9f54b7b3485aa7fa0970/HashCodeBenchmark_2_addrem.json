@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "30": " *\n",
+        "32": " *   <li>size: the length of the byte array to hash\n",
+        "33": " *   <li>whereToDiffer: where in the array the bytes should differ\n",
+        "34": " *   <li>equalsImpl: which implementation of array equality to use\n",
+        "38": " * whereToDiffer} produces no observable change in performance. We want to make sure that the array\n",
+        "39": " * equals implementation is *not* short-circuiting to prevent timing-based attacks. Being fast is\n",
+        "40": " * only a secondary goal.\n",
+        "64": "      @Override\n",
+        "65": "      boolean doEquals(byte[] a, byte[] b) {\n",
+        "77": "      @Override\n",
+        "78": "      boolean doEquals(byte[] a, byte[] b) {\n",
+        "90": "      @Override\n",
+        "91": "      boolean doEquals(byte[] a, byte[] b) {\n",
+        "103": "      @Override\n",
+        "104": "      boolean doEquals(byte[] a, byte[] b) {\n",
+        "109": "      @Override\n",
+        "110": "      boolean doEquals(byte[] a, byte[] b) {\n",
+        "121": "  @BeforeExperiment\n",
+        "122": "  void setUp() {\n",
+        "141": "  @Benchmark\n",
+        "142": "  boolean hashFunction(int reps) {\n"
+    },
+    "removed": {
+        "31": " * <li>size: the length of the byte array to hash\n",
+        "32": " * <li>whereToDiffer: where in the array the bytes should differ\n",
+        "33": " * <li>equalsImpl: which implementation of array equality to use\n",
+        "37": " * whereToDiffer} produces no observable change in performance. We want to make sure that the\n",
+        "38": " * array equals implementation is *not* short-circuiting to prevent timing-based attacks. Being\n",
+        "39": " * fast is only a secondary goal.\n",
+        "63": "      @Override boolean doEquals(byte[] a, byte[] b) {\n",
+        "75": "      @Override boolean doEquals(byte[] a, byte[] b) {\n",
+        "87": "      @Override boolean doEquals(byte[] a, byte[] b) {\n",
+        "99": "      @Override boolean doEquals(byte[] a, byte[] b) {\n",
+        "104": "      @Override boolean doEquals(byte[] a, byte[] b) {\n",
+        "115": "  @BeforeExperiment void setUp() {\n",
+        "134": "  @Benchmark boolean hashFunction(int reps) {\n"
+    }
+}

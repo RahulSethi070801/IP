@@ -1,0 +1,6 @@
+Optional<E> edgeConnecting(@CompatibleWith("N") Object nodeU, @CompatibleWith("N") Object nodeV)
+Set<E> edgesConnecting(@CompatibleWith("N") Object nodeU, @CompatibleWith("N") Object nodeV)
+
+Optional<E> edgeConnecting(@CompatibleWith("N") Object nodeU, @CompatibleWith("N") Object nodeV)
+Set<E> edgesConnecting(@CompatibleWith("N") Object nodeU, @CompatibleWith("N") Object nodeV)
+

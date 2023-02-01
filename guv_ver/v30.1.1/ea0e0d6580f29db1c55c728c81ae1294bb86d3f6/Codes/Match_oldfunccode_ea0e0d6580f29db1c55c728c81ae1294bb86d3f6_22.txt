@@ -1,0 +1,27 @@
+@Override
+public UnmodifiableIterator<E> iterator() {
+    final Iterator<Entry<E>> entryIterator = entrySet().iterator();
+    return new UnmodifiableIterator<E>() {
+
+        int remaining;
+
+        @Nullable
+        E element;
+
+        @Override
+        public boolean hasNext() {
+            return (remaining > 0) || entryIterator.hasNext();
+        }
+
+        @Override
+        public E next() {
+            if (remaining <= 0) {
+                Entry<E> entry = entryIterator.next();
+                element = entry.getElement();
+                remaining = entry.getCount();
+            }
+            remaining--;
+            return element;
+        }
+    };
+}

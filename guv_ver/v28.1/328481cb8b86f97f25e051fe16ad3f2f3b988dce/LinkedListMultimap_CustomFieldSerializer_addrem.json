@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "22": "import java.util.Map.Entry;\n",
+        "48": "    for (Entry<?, ?> entry : multimap.entries()) {\n"
+    },
+    "removed": {
+        "22": "import java.util.Map;\n",
+        "48": "    for (Map.Entry<?, ?> entry : multimap.entries()) {\n"
+    }
+}

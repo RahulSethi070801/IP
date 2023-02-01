@@ -1,0 +1,24 @@
+{
+    "addition": {
+        "125": "   * Adds {@code elem} as a candidate for the top {@code k} elements. This operation takes amortized\n",
+        "126": "   * O(1) time.\n",
+        "150": "   * Quickselects the top k elements from the 2k elements in the buffer. O(k) expected time, O(k log\n",
+        "151": "   * k) worst case.\n",
+        "232": "   * <p>If all input data to this {@code TopKSelector} is in a single {@code Iterable}, prefer\n",
+        "233": "   * {@link Ordering#leastOf(Iterable, int)}, which provides a simpler API for that use case.\n",
+        "244": "   * <p>If all input data to this {@code TopKSelector} is in a single {@code Iterator}, prefer\n",
+        "245": "   * {@link Ordering#leastOf(Iterator, int)}, which provides a simpler API for that use case.\n"
+    },
+    "removed": {
+        "125": "   * Adds {@code elem} as a candidate for the top {@code k} elements. This operation takes\n",
+        "126": "   * amortized O(1) time.\n",
+        "150": "   * Quickselects the top k elements from the 2k elements in the buffer.  O(k) expected time,\n",
+        "151": "   * O(k log k) worst case.\n",
+        "232": "   * <p>If all input data to this {@code TopKSelector} is in a single {@code Iterable},\n",
+        "233": "   * prefer {@link Ordering#leastOf(Iterable, int)}, which provides a simpler API for that use\n",
+        "234": "   * case.\n",
+        "245": "   * <p>If all input data to this {@code TopKSelector} is in a single {@code Iterator},\n",
+        "246": "   * prefer {@link Ordering#leastOf(Iterator, int)}, which provides a simpler API for that use\n",
+        "247": "   * case.\n"
+    }
+}

@@ -1,0 +1,4 @@
+@Override
+public T apply(@NullableDecl Object input) {
+    return supplier.get();
+}

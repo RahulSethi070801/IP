@@ -1,0 +1,70 @@
+com.google.common.net.InternetDomainName
+findPublicSuffix
+private int findPublicSuffix()
+empty
+int
+com.google.common.net.InternetDomainName
+topDomainUnderRegistrySuffix
+public InternetDomainName topDomainUnderRegistrySuffix()
+empty
+InternetDomainName
+com.google.common.net.InternetDomainName
+matchesType
+private static boolean matchesType(Optional<PublicSuffixType> desiredType, Optional<PublicSuffixType> actualType)
+Optional,Optional
+boolean
+com.google.common.net.InternetDomainName
+registrySuffix
+public InternetDomainName registrySuffix()
+empty
+InternetDomainName
+com.google.common.net.InternetDomainName
+InternetDomainName
+InternetDomainName(String name)
+String
+constructor
+com.google.common.net.InternetDomainName
+isUnderRegistrySuffix
+public boolean isUnderRegistrySuffix()
+empty
+boolean
+com.google.common.net.InternetDomainName
+hasRegistrySuffix
+public boolean hasRegistrySuffix()
+empty
+boolean
+com.google.common.net.InternetDomainName
+isTopDomainUnderRegistrySuffix
+public boolean isTopDomainUnderRegistrySuffix()
+empty
+boolean
+com.google.common.net.InternetDomainName
+isRegistrySuffix
+public boolean isRegistrySuffix()
+empty
+boolean
+com.google.thirdparty.publicsuffix.PublicSuffixType
+fromIsPrivate
+static PublicSuffixType fromIsPrivate(boolean isPrivate)
+boolean
+PublicSuffixType
+com.google.common.net.InternetDomainName
+hasPublicSuffix
+public boolean hasPublicSuffix()
+empty
+boolean
+com.google.common.net.InternetDomainName
+matchesWildcardPublicSuffix
+private static boolean matchesWildcardPublicSuffix(String domain)
+String
+boolean
+com.google.common.net.InternetDomainName
+findSuffixOfType
+private int findSuffixOfType(Optional<PublicSuffixType> desiredType)
+Optional
+int
+com.google.common.net.InternetDomainName
+matchesWildcardSuffixType
+private static boolean matchesWildcardSuffixType(Optional<PublicSuffixType> desiredType, String domain)
+Optional,String
+boolean

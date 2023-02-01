@@ -1,0 +1,4 @@
+@Override
+public long outDegree(Object node) {
+    return outEdges(node).size();
+}

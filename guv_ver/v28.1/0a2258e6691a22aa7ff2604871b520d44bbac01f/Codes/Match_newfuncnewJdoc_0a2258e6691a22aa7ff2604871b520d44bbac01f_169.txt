@@ -1,0 +1,1 @@
+ Helper method for verifying that an iterator element is present. 

@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "42": "public interface Graph<N, V> {\n",
+        "102": "   * edges\". For that functionality, see {@link Graphs#reachableNodes(Graph, Object)} and {@link\n",
+        "103": "   * Graphs#transitiveClosure(Graph)}.\n",
+        "131": "   * Returns {@code true} iff {@code object} is a {@link Graph} that has the same structural\n",
+        "147": "   * <p>A reference implementation of this is provided by {@link AbstractGraph#equals(Object)}.\n",
+        "157": "   * <p>A reference implementation of this is provided by {@link AbstractGraph#hashCode()}.\n"
+    },
+    "removed": {
+        "42": "public interface ValueGraph<N, V> {\n",
+        "102": "   * edges\". For that functionality, see {@link Graphs#reachableNodes(ValueGraph, Object)} and\n",
+        "103": "   * {@link Graphs#transitiveClosure(ValueGraph)}.\n",
+        "131": "   * Returns {@code true} iff {@code object} is a {@link ValueGraph} that has the same structural\n",
+        "147": "   * <p>A reference implementation of this is provided by {@link AbstractValueGraph#equals(Object)}.\n",
+        "157": "   * <p>A reference implementation of this is provided by {@link AbstractValueGraph#hashCode()}.\n"
+    }
+}

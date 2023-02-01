@@ -1,0 +1,6 @@
+
+   * Enters this monitor if the guard is satisfied. Blocks indefinitely acquiring the lock, but does
+   * not wait for the guard to be satisfied, and may be interrupted.
+   *
+   * @return whether the monitor was entered, which guarantees that the guard is now satisfied
+   

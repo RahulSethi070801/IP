@@ -1,0 +1,10 @@
+
+   * Indicates whether this domain name represents a <i>public suffix</i>, as defined by the Mozilla
+   * Foundation's <a href="http://publicsuffix.org/">Public Suffix List</a> (PSL). A public suffix
+   * is one under which Internet users can directly register names, such as {@code com},
+   * {@code co.uk} or {@code pvt.k12.wy.us}. Examples of domain names that are <i>not</i> public
+   * suffixes include {@code google}, {@code google.com} and {@code foo.co.uk}.
+   *
+   * @return {@code true} if this domain name appears exactly on the public suffix list
+   * @since 6.0
+   

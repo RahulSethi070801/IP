@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "29": "/** Implementations of {@code Futures.catching*}. */\n",
+        "153": "   * An {@link AbstractCatchingFuture} that delegates to an {@link AsyncFunction} and {@link\n",
+        "154": "   * #setFuture(ListenableFuture)}.\n"
+    },
+    "removed": {
+        "19": "import static com.google.common.util.concurrent.MoreExecutors.directExecutor;\n",
+        "30": "/**\n",
+        "31": " * Implementations of {@code Futures.catching*}.\n",
+        "32": " */\n",
+        "156": "   * An {@link AbstractCatchingFuture} that delegates to an {@link AsyncFunction} and\n",
+        "157": "   * {@link #setFuture(ListenableFuture)}.\n"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "addition": {
+        "43": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "115": "    Node(@NullableDecl K key, @NullableDecl V value) {\n",
+        "131": "    public V setValue(@NullableDecl V newValue) {\n",
+        "211": "  private Node<K, V> addNode(\n",
+        "212": "      @NullableDecl K key, @NullableDecl V value, @NullableDecl Node<K, V> nextSibling) {\n",
+        "296": "  private void removeAllNodes(@NullableDecl Object key) {\n",
+        "301": "  private static void checkElement(@NullableDecl Object node) {\n",
+        "464": "    ValueForKeyIterator(@NullableDecl Object key) {\n",
+        "478": "    public ValueForKeyIterator(@NullableDecl Object key, int index) {\n",
+        "579": "  public boolean containsKey(@NullableDecl Object key) {\n",
+        "584": "  public boolean containsValue(@NullableDecl Object value) {\n",
+        "599": "  public boolean put(@NullableDecl K key, @NullableDecl V value) {\n",
+        "616": "  public List<V> replaceValues(@NullableDecl K key, Iterable<? extends V> values) {\n",
+        "641": "  private List<V> getCopy(@NullableDecl Object key) {\n",
+        "652": "  public List<V> removeAll(@NullableDecl Object key) {\n",
+        "679": "  public List<V> get(final @NullableDecl K key) {\n"
+    },
+    "removed": {
+        "43": "import javax.annotation.Nullable;\n",
+        "115": "    Node(@Nullable K key, @Nullable V value) {\n",
+        "131": "    public V setValue(@Nullable V newValue) {\n",
+        "211": "  private Node<K, V> addNode(@Nullable K key, @Nullable V value, @Nullable Node<K, V> nextSibling) {\n",
+        "295": "  private void removeAllNodes(@Nullable Object key) {\n",
+        "300": "  private static void checkElement(@Nullable Object node) {\n",
+        "463": "    ValueForKeyIterator(@Nullable Object key) {\n",
+        "477": "    public ValueForKeyIterator(@Nullable Object key, int index) {\n",
+        "578": "  public boolean containsKey(@Nullable Object key) {\n",
+        "583": "  public boolean containsValue(@Nullable Object value) {\n",
+        "598": "  public boolean put(@Nullable K key, @Nullable V value) {\n",
+        "615": "  public List<V> replaceValues(@Nullable K key, Iterable<? extends V> values) {\n",
+        "640": "  private List<V> getCopy(@Nullable Object key) {\n",
+        "651": "  public List<V> removeAll(@Nullable Object key) {\n",
+        "678": "  public List<V> get(final @Nullable K key) {\n"
+    }
+}

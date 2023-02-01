@@ -1,0 +1,5 @@
+@Deprecated
+@Override
+public final boolean remove(Object key, Object value) {
+    throw new UnsupportedOperationException();
+}

@@ -1,0 +1,4 @@
+Runnables_2
+Insertions: [35]
+Deletions: [35, 36, 37]
+guava/src/com/google/common/util/concurrent/Runnables.java

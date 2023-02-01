@@ -1,0 +1,7 @@
+
+   * Returns {@code true} if the supplied string is a valid IP string literal, {@code false}
+   * otherwise.
+   *
+   * @param ipString {@code String} to evaluated as an IP string literal
+   * @return {@code true} if the argument is a valid IP string literal
+   

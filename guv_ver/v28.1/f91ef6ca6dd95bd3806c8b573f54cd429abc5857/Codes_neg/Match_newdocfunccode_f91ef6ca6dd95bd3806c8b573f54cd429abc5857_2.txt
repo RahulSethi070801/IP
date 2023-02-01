@@ -1,0 +1,6 @@
+@Deprecated
+@GwtIncompatible
+public static <V, X extends Exception> CheckedFuture<V, X> immediateFailedCheckedFuture(X exception) {
+    checkNotNull(exception);
+    return new ImmediateFailedCheckedFuture<>(exception);
+}

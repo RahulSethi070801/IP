@@ -1,0 +1,85 @@
+com.google.common.util.concurrent.FluentFuture
+from
+public static FluentFuture<V> from(ListenableFuture<V> future)
+ListenableFuture
+FluentFuture
+com.google.common.util.concurrent.ForwardingFluentFuture
+get
+public V get(long timeout, TimeUnit unit) throws InterruptedException, ExecutionException, TimeoutException
+long,TimeUnit
+V
+com.google.common.util.concurrent.ForwardingFluentFuture
+get
+public V get() throws InterruptedException, ExecutionException
+empty
+V
+com.google.common.util.concurrent.FluentFuture
+withTimeout
+public final FluentFuture<V> withTimeout(long timeout, TimeUnit unit, ScheduledExecutorService scheduledExecutor)
+long,TimeUnit,ScheduledExecutorService
+FluentFuture
+com.google.common.util.concurrent.ForwardingFluentFuture
+isDone
+public boolean isDone()
+empty
+boolean
+com.google.common.util.concurrent.FluentFuture
+transformAsync
+public final FluentFuture<T> transformAsync(AsyncFunction<? super V, T> function, Executor executor)
+AsyncFunction,Executor
+FluentFuture
+com.google.common.util.concurrent.FluentFuture
+FluentFuture
+FluentFuture()
+empty
+constructor
+com.google.common.util.concurrent.ForwardingFluentFuture
+ForwardingFluentFuture
+ForwardingFluentFuture(ListenableFuture<V> delegate)
+ListenableFuture
+constructor
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.GwtFluentFutureCatchingSpecialization
+catchingAsync
+public final FluentFuture<V> catchingAsync(Class<Throwable> exceptionType, AsyncFunction<? super Throwable, ? extends V> fallback, Executor executor)
+Class,AsyncFunction,Executor
+FluentFuture
+com.google.common.util.concurrent.ForwardingFluentFuture
+addListener
+public void addListener(Runnable listener, Executor executor)
+Runnable,Executor
+void
+com.google.common.util.concurrent.ForwardingFluentFuture
+cancel
+public boolean cancel(boolean mayInterruptIfRunning)
+boolean
+boolean
+com.google.common.util.concurrent.ForwardingFluentFuture
+isCancelled
+public boolean isCancelled()
+empty
+boolean
+com.google.common.util.concurrent.FluentFuture
+catching
+public final FluentFuture<V> catching(Class<X> exceptionType, Function<? super X, ? extends V> fallback, Executor executor)
+Class,Function,Executor
+FluentFuture
+com.google.common.util.concurrent.FluentFuture
+transform
+public final FluentFuture<T> transform(Function<? super V, T> function, Executor executor)
+Function,Executor
+FluentFuture
+com.google.common.util.concurrent.FluentFuture
+catchingAsync
+public final FluentFuture<V> catchingAsync(Class<X> exceptionType, AsyncFunction<? super X, ? extends V> fallback, Executor executor)
+Class,AsyncFunction,Executor
+FluentFuture
+com.google.common.util.concurrent.FluentFuture
+addCallback
+public final void addCallback(FutureCallback<? super V> callback, Executor executor)
+FutureCallback,Executor
+void
+com.google.common.util.concurrent.super.com.google.common.util.concurrent.GwtFluentFutureCatchingSpecialization
+catching
+public final FluentFuture<V> catching(Class<Throwable> exceptionType, Function<? super Throwable, ? extends V> fallback, Executor executor)
+Class,Function,Executor
+FluentFuture

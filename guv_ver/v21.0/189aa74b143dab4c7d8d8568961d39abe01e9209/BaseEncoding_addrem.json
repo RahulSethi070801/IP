@@ -1,0 +1,28 @@
+{
+    "addition": {
+        "227": "   */ final byte[] decodeChecked(CharSequence chars)\n"
+    },
+    "removed": {
+        "41": "import javax.annotation.CheckReturnValue;\n",
+        "148": "  @CheckReturnValue\n",
+        "157": "  @CheckReturnValue\n",
+        "175": "  @CheckReturnValue\n",
+        "182": "  @CheckReturnValue\n",
+        "209": "  @CheckReturnValue\n",
+        "219": "  @CheckReturnValue\n",
+        "234": "   */\n",
+        "235": "  @CheckReturnValue final byte[] decodeChecked(CharSequence chars)\n",
+        "249": "  @CheckReturnValue\n",
+        "257": "  @CheckReturnValue\n",
+        "287": "  @CheckReturnValue\n",
+        "297": "  @CheckReturnValue\n",
+        "309": "  @CheckReturnValue\n",
+        "319": "  @CheckReturnValue\n",
+        "329": "  @CheckReturnValue\n",
+        "349": "  @CheckReturnValue\n",
+        "372": "  @CheckReturnValue\n",
+        "392": "  @CheckReturnValue\n",
+        "412": "  @CheckReturnValue\n",
+        "432": "  @CheckReturnValue\n"
+    }
+}

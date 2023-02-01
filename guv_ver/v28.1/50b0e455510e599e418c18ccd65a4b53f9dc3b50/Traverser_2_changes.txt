@@ -1,0 +1,4 @@
+Traverser_2
+Insertions: [171, 172, 204, 205, 237, 238, 251, 252, 263, 264, 275, 276, 285, 286, 287, 288, 289, 290, 291, 382, 383, 394, 395, 406, 407, 416, 417, 418, 419, 420, 421, 422]
+Deletions: []
+guava/src/com/google/common/graph/Traverser.java

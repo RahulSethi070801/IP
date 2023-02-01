@@ -1,0 +1,4 @@
+GraphProperties
+Insertions: [19, 33, 34, 43, 44, 45, 46, 47, 48, 49, 66, 94, 95, 96, 98, 100, 101]
+Deletions: [19, 41, 42, 43, 44, 45, 46, 47, 64, 92, 94, 96, 97]
+guava/src/com/google/common/graph/GraphProperties.java

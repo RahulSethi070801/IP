@@ -1,0 +1,13 @@
+
+   * Returns an {@code ImmutableSortedSet} containing all of the elements from this {@code
+   * FluentIterable} in the order specified by {@code comparator}, with duplicates (determined by
+   * {@code comparator.compare(x, y) == 0}) removed. To produce an {@code ImmutableSortedSet} sorted
+   * by its natural ordering, use {@code toSortedSet(Ordering.natural())}.
+   *
+   * <p><b>{@code Stream} equivalent:</b> pass {@link
+   * ImmutableSortedSet#toImmutableSortedSet} to {@code stream.collect()}.
+   *
+   * @param comparator the function by which to sort set elements
+   * @throws NullPointerException if any element is null
+   * @since 14.0 (since 12.0 as {@code toImmutableSortedSet()}).
+   

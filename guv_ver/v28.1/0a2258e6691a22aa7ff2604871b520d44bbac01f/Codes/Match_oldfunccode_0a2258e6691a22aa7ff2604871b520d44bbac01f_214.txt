@@ -1,0 +1,4 @@
+@GwtCompatible(serializable = true)
+public static <K, V> Entry<K, V> immutableEntry(@NullableDecl K key, @NullableDecl V value) {
+    return new ImmutableEntry<>(key, value);
+}

@@ -1,0 +1,4 @@
+ForwardingQueue_2
+Insertions: [25, 26, 29, 30, 31, 32, 33, 39, 40, 84, 85, 98, 99, 112, 113]
+Deletions: [25, 26, 27, 30, 31, 32, 33, 34, 35, 41, 42, 86, 87, 88, 101, 102, 103, 116, 117, 118]
+guava/src/com/google/common/collect/ForwardingQueue.java

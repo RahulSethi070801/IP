@@ -1,0 +1,6 @@
+@Override
+public void removeNode(Object node) {
+    checkNotNull(node, "node");
+    predecessors.remove(node);
+    successors.remove(node);
+}

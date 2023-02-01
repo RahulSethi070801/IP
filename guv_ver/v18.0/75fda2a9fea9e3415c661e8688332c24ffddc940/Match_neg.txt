@@ -1,0 +1,6 @@
+protected T doBackward(@Nullable T t)
+public static Function<String, T> valueOfFunction(Class<T> enumClass)
+
+public static Converter<String, Double> stringConverter()
+public static Function<String, T> valueOfFunction(Class<T> enumClass)
+

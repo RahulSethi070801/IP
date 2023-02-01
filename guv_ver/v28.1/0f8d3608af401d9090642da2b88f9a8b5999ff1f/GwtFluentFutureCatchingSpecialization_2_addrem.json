@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "25": "abstract class GwtFluentFutureCatchingSpecialization<V> extends AbstractFuture<V> {\n"
+    },
+    "removed": {
+        "25": "abstract class GwtFluentFutureCatchingSpecialization<V> implements ListenableFuture<V> {\n"
+    }
+}

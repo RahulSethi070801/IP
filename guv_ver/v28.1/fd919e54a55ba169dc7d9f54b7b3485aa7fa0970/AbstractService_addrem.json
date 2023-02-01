@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "455": "  /** @since 14.0 */\n",
+        "461": "  /** @since 13.0 */\n",
+        "547": "    /** If true, the user requested a shutdown while the service was still starting up. */\n"
+    },
+    "removed": {
+        "455": "  /**\n",
+        "456": "   * @since 14.0\n",
+        "457": "   */\n",
+        "463": "  /**\n",
+        "464": "   * @since 13.0\n",
+        "465": "   */\n",
+        "551": "    /**\n",
+        "552": "     * If true, the user requested a shutdown while the service was still starting up.\n",
+        "553": "     */\n"
+    }
+}

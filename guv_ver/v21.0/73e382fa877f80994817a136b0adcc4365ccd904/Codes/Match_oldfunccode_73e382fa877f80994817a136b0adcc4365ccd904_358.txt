@@ -1,0 +1,10 @@
+public final FluentIterable<T> preOrderTraversal(final T root) {
+    checkNotNull(root);
+    return new FluentIterable<T>() {
+
+        @Override
+        public UnmodifiableIterator<T> iterator() {
+            return preOrderIterator(root);
+        }
+    };
+}

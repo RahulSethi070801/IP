@@ -1,0 +1,8 @@
+default boolean enclosesAll(Iterable<Range<C>> other) {
+    for (Range<C> range : other) {
+        if (!encloses(range)) {
+            return false;
+        }
+    }
+    return true;
+}

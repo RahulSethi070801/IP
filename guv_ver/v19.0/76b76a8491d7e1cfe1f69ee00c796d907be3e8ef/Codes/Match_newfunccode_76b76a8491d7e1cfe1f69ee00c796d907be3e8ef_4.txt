@@ -1,0 +1,4 @@
+@CheckReturnValue
+public static <T> BloomFilter<T> create(Funnel<? super T> funnel, int expectedInsertions, double fpp) {
+    return create(funnel, (long) expectedInsertions, fpp);
+}

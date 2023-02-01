@@ -1,0 +1,8 @@
+
+   * {@inheritDoc}
+   *
+   * <p>If any entries for the specified {@code key} already exist in the multimap, their values are
+   * changed in-place without affecting the iteration order.
+   *
+   * <p>The returned list is immutable and implements {@link java.util.RandomAccess}.
+   

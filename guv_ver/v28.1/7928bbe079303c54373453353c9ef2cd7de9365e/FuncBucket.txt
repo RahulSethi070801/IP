@@ -1,0 +1,5 @@
+com.google.common.collect.super.com.google.common.collect.ImmutableList
+builderWithExpectedSize
+public static Builder<E> builderWithExpectedSize(int expectedSize)
+int
+Builder

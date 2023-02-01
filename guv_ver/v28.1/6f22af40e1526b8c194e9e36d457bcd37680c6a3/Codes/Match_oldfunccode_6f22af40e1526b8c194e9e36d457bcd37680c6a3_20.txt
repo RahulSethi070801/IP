@@ -1,0 +1,6 @@
+@Override
+@Nullable
+@CanIgnoreReturnValue
+public K put(@Nullable V value, @Nullable K key) {
+    return forward.putInverse(value, key, false);
+}

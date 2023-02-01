@@ -1,0 +1,38 @@
+{
+    "addition": {
+        "57": "import javax.annotation.CheckForNull;\n",
+        "72": "@ElementTypesAreNonnullByDefault\n",
+        "617": "  @CheckForNull\n",
+        "618": "  private static Collection<IOException> deleteRecursivelySecure(\n",
+        "646": "  @CheckForNull\n",
+        "647": "  private static Collection<IOException> deleteDirectoryContentsSecure(\n",
+        "665": "  @CheckForNull\n",
+        "666": "  private static Collection<IOException> deleteRecursivelyInsecure(Path path) {\n",
+        "692": "  @CheckForNull\n",
+        "693": "  private static Collection<IOException> deleteDirectoryContentsInsecure(\n",
+        "712": "  @CheckForNull\n",
+        "713": "  private static Path getParentPath(Path path) {\n",
+        "759": "      @CheckForNull Collection<IOException> exceptions, IOException e) {\n",
+        "772": "  @CheckForNull\n",
+        "773": "  private static Collection<IOException> concat(\n",
+        "774": "      @CheckForNull Collection<IOException> exceptions,\n",
+        "775": "      @CheckForNull Collection<IOException> other) {\n",
+        "812": "  @CheckForNull\n",
+        "813": "  private static NoSuchFileException pathNotFound(Path path, Collection<IOException> exceptions) {\n",
+        "841": "       *   deleteDirectoryContents is when an exception is thrown during the recursive steps. Any\n"
+    },
+    "removed": {
+        "57": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "616": "  private static @Nullable Collection<IOException> deleteRecursivelySecure(\n",
+        "644": "  private static @Nullable Collection<IOException> deleteDirectoryContentsSecure(\n",
+        "662": "  private static @Nullable Collection<IOException> deleteRecursivelyInsecure(Path path) {\n",
+        "688": "  private static @Nullable Collection<IOException> deleteDirectoryContentsInsecure(\n",
+        "707": "  private static @Nullable Path getParentPath(Path path) {\n",
+        "753": "      @Nullable Collection<IOException> exceptions, IOException e) {\n",
+        "766": "  private static @Nullable Collection<IOException> concat(\n",
+        "767": "      @Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other) {\n",
+        "804": "  private static @Nullable NoSuchFileException pathNotFound(\n",
+        "805": "      Path path, Collection<IOException> exceptions) {\n",
+        "833": "       *   deleteDirectoryContents is when an exception is thrown during the recusive steps. Any\n"
+    }
+}

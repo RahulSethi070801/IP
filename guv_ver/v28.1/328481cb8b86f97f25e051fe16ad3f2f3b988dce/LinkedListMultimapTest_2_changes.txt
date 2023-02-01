@@ -1,0 +1,4 @@
+LinkedListMultimapTest_2
+Insertions: [278, 279, 299, 301, 320, 321, 322, 323]
+Deletions: [44, 279, 280, 300, 302, 321, 322, 323, 324]
+guava-tests/test/com/google/common/collect/LinkedListMultimapTest.java

@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "42": "  private static final ImmutableList<Method> testMethods = getTestMethods(ByteSinkTester.class);\n",
+        "54": "  private static TestSuite suiteForString(\n",
+        "55": "      String name, ByteSinkFactory factory, String string, String desc) {\n",
+        "59": "    suite.addTest(\n",
+        "60": "        CharSinkTester.suiteForString(\n",
+        "61": "            name + \".asCharSink[Charset]\", charSinkFactory, string, desc));\n",
+        "65": "  private static TestSuite suiteForBytes(\n",
+        "66": "      String name, ByteSinkFactory factory, String desc, byte[] bytes) {\n",
+        "76": "  ByteSinkTester(\n",
+        "77": "      ByteSinkFactory factory, byte[] data, String suiteName, String caseDesc, Method method) {\n"
+    },
+    "removed": {
+        "42": "  private static final ImmutableList<Method> testMethods\n",
+        "43": "      = getTestMethods(ByteSinkTester.class);\n",
+        "55": "  private static TestSuite suiteForString(String name, ByteSinkFactory factory,\n",
+        "56": "      String string, String desc) {\n",
+        "60": "    suite.addTest(CharSinkTester.suiteForString(name + \".asCharSink[Charset]\", charSinkFactory,\n",
+        "61": "        string, desc));\n",
+        "65": "  private static TestSuite suiteForBytes(String name, ByteSinkFactory factory,\n",
+        "66": "      String desc, byte[] bytes) {\n",
+        "76": "  ByteSinkTester(ByteSinkFactory factory, byte[] data, String suiteName,\n",
+        "77": "      String caseDesc, Method method) {\n"
+    }
+}

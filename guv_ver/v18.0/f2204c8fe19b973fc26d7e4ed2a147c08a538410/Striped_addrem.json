@@ -1,0 +1,26 @@
+{
+    "addition": {
+        "168": "   * Creates a {@code Striped<Lock>} with eagerly initialized, strongly referenced locks.\n",
+        "169": "   * Every lock is reentrant.\n",
+        "183": "   * Creates a {@code Striped<Lock>} with lazily initialized, weakly referenced locks.\n",
+        "184": "   * Every lock is reentrant.\n",
+        "199": "   * with the specified number of permits.\n",
+        "215": "   * with the specified number of permits.\n",
+        "231": "   * read-write locks. Every lock is reentrant.\n",
+        "242": "   * read-write locks. Every lock is reentrant.\n",
+        "324": "      if (size != Integer.MAX_VALUE) {\n",
+        "325": "        Preconditions.checkElementIndex(index, size());\n",
+        "326": "      } // else no check necessary, all index values are valid\n"
+    },
+    "removed": {
+        "168": "   * Creates a {@code Striped<Lock>} with eagerly initialized, strongly referenced locks, with the\n",
+        "169": "   * specified fairness. Every lock is reentrant.\n",
+        "183": "   * Creates a {@code Striped<Lock>} with lazily initialized, weakly referenced locks, with the\n",
+        "184": "   * specified fairness. Every lock is reentrant.\n",
+        "199": "   * with the specified number of permits and fairness.\n",
+        "215": "   * with the specified number of permits and fairness.\n",
+        "231": "   * read-write locks, with the specified fairness. Every lock is reentrant.\n",
+        "242": "   * read-write locks, with the specified fairness. Every lock is reentrant.\n",
+        "324": "      Preconditions.checkElementIndex(index, size());\n"
+    }
+}

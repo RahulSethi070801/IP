@@ -1,0 +1,940 @@
+com.google.common.graph.ImmutableGraph
+nodeConnectionsOf
+private static NodeAdjacencies<N> nodeConnectionsOf(Graph<N> graph, N node)
+Graph,N
+NodeAdjacencies
+com.google.common.graph.Graphs
+edgeToIncidentNodesString
+private static Function<Object, String> edgeToIncidentNodesString(final Network<?, ?> graph)
+Network
+Function
+com.google.common.graph.ConfigurableGraph
+newNodeConnections
+private NodeConnections<N, E> newNodeConnections()
+empty
+NodeConnections
+com.google.common.graph.GraphBuilder
+GraphBuilder
+private GraphBuilder(boolean directed)
+boolean
+constructor
+com.google.common.graph.NetworkBuilder
+NetworkBuilder
+private NetworkBuilder(boolean directed)
+boolean
+constructor
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Graph<?, ?> graph1, @Nullable Graph<?, ?> graph2)
+Graph,Graph
+boolean
+com.google.common.graph.Graphs
+adjacentNodesString
+private static String adjacentNodesString(final Graph<N> graph)
+Graph
+String
+com.google.common.graph.NodeAdjacencies
+removePredecessor
+boolean removePredecessor(Object node)
+Object
+boolean
+com.google.common.graph.NodeAdjacencies
+removeSuccessor
+boolean removeSuccessor(Object node)
+Object
+boolean
+com.google.common.graph.GraphBuilder
+allowsParallelEdges
+public GraphBuilder<N, E> allowsParallelEdges(boolean allowsParallelEdges)
+boolean
+GraphBuilder
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Network<?, ?> graph1, @Nullable Network<?, ?> graph2)
+Network,Network
+boolean
+com.google.common.graph.DirectedNodeAdjacencies
+predecessors
+public Set<N> predecessors()
+empty
+Set
+com.google.common.graph.UndirectedNodeAdjacencies
+ofImmutable
+static UndirectedNodeAdjacencies<N> ofImmutable(Set<N> adjacentNodes)
+Set
+UndirectedNodeAdjacencies
+com.google.common.graph.AbstractConfigurableNetwork
+predecessors
+public Set<N> predecessors(Object node)
+Object
+Set
+com.google.common.graph.ImmutableGraph
+getNodeConnections
+private static Map<N, NodeConnections<N, E>> getNodeConnections(Graph<N, E> graph)
+Graph
+Map
+com.google.common.graph.GraphBuilder
+expectedNodeCount
+public GraphBuilder<N> expectedNodeCount(int expectedNodeCount)
+int
+GraphBuilder
+com.google.common.graph.GraphProperties
+roots
+public static ImmutableSet<N> roots(Graph<N, ?> graph)
+Graph
+ImmutableSet
+com.google.common.graph.Network
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.AbstractConfigurableNetwork
+successors
+public Set<N> successors(Object node)
+Object
+Set
+com.google.common.graph.ImmutableGraph
+addNode
+public final boolean addNode(N node)
+N
+boolean
+com.google.common.graph.DirectedNodeAdjacencies
+removePredecessor
+public boolean removePredecessor(Object node)
+Object
+boolean
+com.google.common.graph.ImmutableGraph
+ImmutableGraph
+private ImmutableGraph(Graph<N, E> graph)
+Graph
+constructor
+com.google.common.graph.ConfigurableNetwork
+ConfigurableNetwork
+ConfigurableNetwork(NetworkBuilder<? super N, ? super E> builder, Map<N, NodeConnections<N, E>> nodeConnections, Map<E, IncidentNodes<N>> edgeToIncidentNodes)
+NetworkBuilder,Map,Map
+constructor
+com.google.common.graph.AbstractConfigurableNetwork
+edges
+public Set<E> edges()
+empty
+Set
+com.google.common.graph.NetworkBuilder
+allowsSelfLoops
+public NetworkBuilder<N, E> allowsSelfLoops(boolean allowsSelfLoops)
+boolean
+NetworkBuilder
+com.google.common.graph.Graphs
+mergeNodesFrom
+public static void mergeNodesFrom(Graph<N, E> original, Graph<N, E> copy, Predicate<? super N> nodePredicate)
+Graph,Graph,Predicate
+void
+com.google.common.graph.ConfigurableNetwork
+removeEdge
+public boolean removeEdge(Object edge)
+Object
+boolean
+com.google.common.graph.ConfigurableNetwork
+removeEdgeAndUpdateConnections
+private void removeEdgeAndUpdateConnections(Object edge, boolean disconnectIncidentNodes)
+Object,boolean
+void
+com.google.common.graph.ConfigurableGraph
+ConfigurableGraph
+ConfigurableGraph(GraphBuilder<? super N> builder, Map<N, NodeAdjacencies<N>> nodeConnections)
+GraphBuilder,Map
+constructor
+com.google.common.graph.Network
+incidentEdges
+Set<E> incidentEdges(Object node)
+Object
+Set
+com.google.common.graph.ConfigurableGraph
+removeEdge
+public boolean removeEdge(Object node1, Object node2)
+Object,Object
+boolean
+com.google.common.graph.AbstractConfigurableNetwork
+AbstractConfigurableNetwork
+AbstractConfigurableNetwork(NetworkBuilder<? super N, ? super E> builder)
+NetworkBuilder
+constructor
+com.google.common.graph.Graphs
+oppositeNode
+public static N oppositeNode(Graph<N, ?> graph, Object edge, Object node)
+Graph,Object,Object
+N
+com.google.common.graph.GraphBuilder
+from
+public static GraphBuilder<N> from(Graph<N> graph)
+Graph
+GraphBuilder
+com.google.common.graph.Graphs
+copyOf
+public static MutableGraph<N> copyOf(Graph<N> graph)
+Graph
+MutableGraph
+com.google.common.graph.AbstractConfigurableNetwork
+adjacentNodes
+public Set<N> adjacentNodes(Object node)
+Object
+Set
+com.google.common.graph.Graphs
+parallelEdges
+public static Set<E> parallelEdges(Graph<N, E> graph, Object edge)
+Graph,Object
+Set
+com.google.common.graph.NodeAdjacencies
+adjacentNodes
+Set<N> adjacentNodes()
+empty
+Set
+com.google.common.graph.Graphs
+copyOf
+public static Graph<N, E> copyOf(Graph<N, E> graph)
+Graph
+Graph
+com.google.common.graph.DirectedNodeAdjacencies
+of
+static DirectedNodeAdjacencies<N> of()
+empty
+DirectedNodeAdjacencies
+com.google.common.graph.GraphBuilder
+from
+public static GraphBuilder<N, E> from(Graph<N, E> graph)
+Graph
+GraphBuilder
+com.google.common.graph.NodeAdjacencies
+successors
+Set<N> successors()
+empty
+Set
+com.google.common.graph.ConfigurableNetwork
+addNode
+public boolean addNode(N node)
+N
+boolean
+com.google.common.graph.GraphBuilder
+allowsSelfLoops
+public GraphBuilder<N, E> allowsSelfLoops(boolean allowsSelfLoops)
+boolean
+GraphBuilder
+com.google.common.graph.ImmutableGraph
+nodeConnectionsOf
+private static NodeConnections<N, E> nodeConnectionsOf(Graph<N, E> graph, N node)
+Graph,N
+NodeConnections
+com.google.common.graph.ImmutableGraph
+ImmutableGraph
+private ImmutableGraph(Graph<N> graph)
+Graph
+constructor
+com.google.common.graph.ImmutableNetwork
+nodeConnectionsOf
+private static NodeConnections<N, E> nodeConnectionsOf(Network<N, E> graph, N node)
+Network,N
+NodeConnections
+com.google.common.graph.AbstractConfigurableNetwork
+incidentNodes
+public Set<N> incidentNodes(Object edge)
+Object
+Set
+com.google.common.graph.Graphs
+getPropertiesString
+private static String getPropertiesString(Graph<?, ?> graph)
+Graph
+String
+com.google.common.graph.MutableGraph
+addEdge
+boolean addEdge(N node1, N node2)
+N,N
+boolean
+com.google.common.graph.ImmutableGraph
+removeNode
+public final boolean removeNode(Object node)
+Object
+boolean
+com.google.common.graph.Graphs
+mergeNodesFrom
+public static void mergeNodesFrom(Graph<N> original, MutableNetwork<N, ?> copy)
+Graph,MutableNetwork
+void
+com.google.common.graph.Network
+hashCode
+int hashCode()
+empty
+int
+com.google.common.graph.GraphBuilder
+GraphBuilder
+private GraphBuilder()
+empty
+constructor
+com.google.common.graph.GraphBuilder
+allowsSelfLoops
+public GraphBuilder<N> allowsSelfLoops(boolean allowsSelfLoops)
+boolean
+GraphBuilder
+com.google.common.graph.AbstractGraph
+inDegree
+public int inDegree(Object node)
+Object
+int
+com.google.common.graph.Graphs
+addEdge
+public static boolean addEdge(Graph<N, E> graph, E edge, Iterable<N> nodes)
+Graph,E,Iterable
+boolean
+com.google.common.graph.AbstractConfigurableNetwork
+incidentEdges
+public Set<E> incidentEdges(Object node)
+Object
+Set
+com.google.common.graph.Graphs
+mergeEdgesFrom
+public static void mergeEdgesFrom(Graph<N, E> original, Graph<N, E> copy, Predicate<? super E> edgePredicate)
+Graph,Graph,Predicate
+void
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N, E> copyOf(ImmutableGraph<N, E> graph)
+ImmutableGraph
+ImmutableGraph
+com.google.common.graph.Network
+successors
+Set<N> successors(Object node)
+Object
+Set
+com.google.common.graph.UndirectedNodeAdjacencies
+of
+static UndirectedNodeAdjacencies<N> of()
+empty
+UndirectedNodeAdjacencies
+com.google.common.graph.AbstractConfigurableGraph
+checkedConnections
+protected NodeAdjacencies<N> checkedConnections(Object node)
+Object
+NodeAdjacencies
+com.google.common.graph.GraphBuilder
+expectedNodeCount
+public GraphBuilder<N, E> expectedNodeCount(int expectedNodeCount)
+int
+GraphBuilder
+com.google.common.graph.Graphs
+mergeNodesFrom
+public static void mergeNodesFrom(Graph<N, E> original, Graph<N, E> copy)
+Graph,Graph
+void
+com.google.common.graph.DirectedNodeAdjacencies
+toString
+public String toString()
+empty
+String
+com.google.common.graph.Network
+adjacentEdges
+Set<E> adjacentEdges(Object edge)
+Object
+Set
+com.google.common.graph.DirectedNodeAdjacencies
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.graph.MutableGraph
+addNode
+boolean addNode(N node)
+N
+boolean
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N> copyOf(Graph<N> graph)
+Graph
+ImmutableGraph
+com.google.common.graph.Graphs
+toString
+public static String toString(Graph<?, ?> graph)
+Graph
+String
+com.google.common.graph.DirectedNodeAdjacencies
+successors
+public Set<N> successors()
+empty
+Set
+com.google.common.graph.ConfigurableGraph
+checkedIncidentNodes
+private IncidentNodes<N> checkedIncidentNodes(Object edge)
+Object
+IncidentNodes
+com.google.common.graph.Graphs
+selfLoopPredicate
+public static Predicate<E> selfLoopPredicate(final Network<?, E> graph)
+Network
+Predicate
+com.google.common.graph.Graphs
+mergeNodesFrom
+public static void mergeNodesFrom(Graph<N> original, MutableNetwork<N, ?> copy, Predicate<? super N> nodePredicate)
+Graph,MutableNetwork,Predicate
+void
+com.google.common.graph.GraphProperties
+isSubgraphCyclic
+private static boolean isSubgraphCyclic(Graph<?, ?> graph, Map<Object, NodeVisitState> nodeToVisitState, Object node)
+Graph,Map,Object
+boolean
+com.google.common.graph.Graphs
+copyOf
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph)
+Network
+MutableNetwork
+com.google.common.graph.AbstractConfigurableNetwork
+isDirected
+public boolean isDirected()
+empty
+boolean
+com.google.common.graph.ConfigurableNetwork
+ConfigurableNetwork
+ConfigurableNetwork(NetworkBuilder<? super N, ? super E> builder)
+NetworkBuilder
+constructor
+com.google.common.graph.Graphs
+copyOf
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+Network,Predicate,Predicate
+MutableNetwork
+com.google.common.graph.Graphs
+copyOf
+public static MutableGraph<N> copyOf(Graph<N> graph, Predicate<? super N> nodePredicate)
+Graph,Predicate
+MutableGraph
+com.google.common.graph.Graphs
+mergeEdgesFrom
+public static void mergeEdgesFrom(Network<N, E> original, MutableNetwork<N, E> copy)
+Network,MutableNetwork
+void
+com.google.common.graph.GraphBuilder
+directed
+public static GraphBuilder<Object> directed()
+empty
+GraphBuilder
+com.google.common.graph.Network
+incidentNodes
+Set<N> incidentNodes(Object edge)
+Object
+Set
+com.google.common.graph.ConfigurableGraph
+addEdge
+public boolean addEdge(N node1, N node2)
+N,N
+boolean
+com.google.common.graph.GraphBuilder
+directed
+private GraphBuilder<N, E> directed(boolean directed)
+boolean
+GraphBuilder
+com.google.common.graph.NetworkBuilder
+allowsParallelEdges
+public NetworkBuilder<N, E> allowsParallelEdges(boolean allowsParallelEdges)
+boolean
+NetworkBuilder
+com.google.common.graph.Graphs
+toString
+public static String toString(Network<?, ?> graph)
+Network
+String
+com.google.common.graph.MutableGraph
+removeEdge
+boolean removeEdge(Object node1, Object node2)
+Object,Object
+boolean
+com.google.common.graph.AbstractGraph
+degree
+public int degree(Object node)
+Object
+int
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Graph<?, ?> graph)
+Graph
+int
+com.google.common.graph.Network
+inEdges
+Set<E> inEdges(Object node)
+Object
+Set
+com.google.common.graph.DirectedNodeAdjacencies
+addPredecessor
+public boolean addPredecessor(N node)
+N
+boolean
+com.google.common.graph.DirectedNodeAdjacencies
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.graph.GraphProperties
+isSubgraphCyclic
+private static boolean isSubgraphCyclic(Graph<?> graph, Map<Object, NodeVisitState> nodeToVisitState, Object node)
+Graph,Map,Object
+boolean
+com.google.common.graph.Graphs
+nodeToIncidentEdges
+private static Map<N, Set<E>> nodeToIncidentEdges(final Network<N, E> graph)
+Network
+Map
+com.google.common.graph.GraphBuilder
+expectedEdgeCount
+public GraphBuilder<N, E> expectedEdgeCount(int expectedEdgeCount)
+int
+GraphBuilder
+com.google.common.graph.Network
+edges
+Set<E> edges()
+empty
+Set
+com.google.common.graph.AbstractConfigurableNetwork
+source
+public N source(Object edge)
+Object
+N
+com.google.common.graph.DirectedNodeAdjacencies
+addSuccessor
+public boolean addSuccessor(N node)
+N
+boolean
+com.google.common.graph.GraphProperties
+roots
+public static ImmutableSet<N> roots(Graph<N> graph)
+Graph
+ImmutableSet
+com.google.common.graph.Graphs
+apply
+public Set<N> apply(N node)
+N
+Set
+com.google.common.graph.AbstractConfigurableNetwork
+checkedConnections
+protected NodeConnections<N, E> checkedConnections(Object node)
+Object
+NodeConnections
+com.google.common.graph.Graphs
+nodeToIncidentEdges
+private static Map<N, Set<E>> nodeToIncidentEdges(final Graph<N, E> graph)
+Graph
+Map
+com.google.common.graph.GraphBuilder
+build
+public MutableGraph<N1> build()
+empty
+MutableGraph
+com.google.common.graph.GraphProperties
+isCyclic
+public static boolean isCyclic(Graph<?, ?> graph)
+Graph
+boolean
+com.google.common.graph.Graphs
+getPropertiesString
+private static String getPropertiesString(Graph<?> graph)
+Graph
+String
+com.google.common.graph.ImmutableNetwork
+ImmutableNetwork
+private ImmutableNetwork(Network<N, E> graph)
+Network
+constructor
+com.google.common.graph.Graphs
+mergeEdgesFrom
+public static void mergeEdgesFrom(Graph<N, E> original, Graph<N, E> copy)
+Graph,Graph
+void
+com.google.common.graph.Graphs
+parallelEdges
+public static Set<E> parallelEdges(Network<N, E> graph, Object edge)
+Network,Object
+Set
+com.google.common.graph.AbstractConfigurableNetwork
+allowsParallelEdges
+public boolean allowsParallelEdges()
+empty
+boolean
+com.google.common.graph.ImmutableNetwork
+getNodeConnections
+private static Map<N, NodeConnections<N, E>> getNodeConnections(Network<N, E> graph)
+Network
+Map
+com.google.common.graph.UndirectedNodeAdjacencies
+UndirectedNodeAdjacencies
+private UndirectedNodeAdjacencies(Set<N> adjacentNodes)
+Set
+constructor
+com.google.common.graph.ImmutableNetwork
+copyOf
+public static ImmutableNetwork<N, E> copyOf(ImmutableNetwork<N, E> graph)
+ImmutableNetwork
+ImmutableNetwork
+com.google.common.graph.ConfigurableNetwork
+newNodeConnections
+private NodeConnections<N, E> newNodeConnections(boolean isDirected)
+boolean
+NodeConnections
+com.google.common.graph.AbstractConfigurableNetwork
+adjacentEdges
+public Set<E> adjacentEdges(Object edge)
+Object
+Set
+com.google.common.graph.Network
+adjacentNodes
+Set<N> adjacentNodes(Object node)
+Object
+Set
+com.google.common.graph.Network
+outEdges
+Set<E> outEdges(Object node)
+Object
+Set
+com.google.common.graph.Graphs
+addEdge
+public static boolean addEdge(MutableNetwork<N, E> graph, E edge, Iterable<N> nodes)
+MutableNetwork,E,Iterable
+boolean
+com.google.common.graph.GraphProperties
+isCyclic
+public static boolean isCyclic(Graph<?> graph)
+Graph
+boolean
+com.google.common.graph.Graphs
+edgeToIncidentNodesString
+private static Function<Object, String> edgeToIncidentNodesString(final Graph<?, ?> graph)
+Graph
+Function
+com.google.common.graph.AbstractConfigurableNetwork
+AbstractConfigurableNetwork
+AbstractConfigurableNetwork(NetworkBuilder<? super N, ? super E> builder, Map<N, NodeConnections<N, E>> nodeConnections, Map<E, IncidentNodes<N>> edgeToIncidentNodes)
+NetworkBuilder,Map,Map
+constructor
+com.google.common.graph.NetworkBuilder
+undirected
+public static NetworkBuilder<Object, Object> undirected()
+empty
+NetworkBuilder
+com.google.common.graph.GraphBuilder
+build
+public Graph<N1, E1> build()
+empty
+Graph
+com.google.common.graph.NetworkBuilder
+expectedNodeCount
+public NetworkBuilder<N, E> expectedNodeCount(int expectedNodeCount)
+int
+NetworkBuilder
+com.google.common.graph.Network
+predecessors
+Set<N> predecessors(Object node)
+Object
+Set
+com.google.common.graph.MutableNetwork
+removeEdge
+boolean removeEdge(Object edge)
+Object
+boolean
+com.google.common.graph.AbstractGraph
+outDegree
+public int outDegree(Object node)
+Object
+int
+com.google.common.graph.AbstractConfigurableNetwork
+inEdges
+public Set<E> inEdges(Object node)
+Object
+Set
+com.google.common.graph.AbstractConfigurableGraph
+AbstractConfigurableGraph
+AbstractConfigurableGraph(GraphBuilder<? super N> builder)
+GraphBuilder
+constructor
+com.google.common.graph.NetworkBuilder
+from
+public static NetworkBuilder<N, E> from(Network<N, E> graph)
+Network
+NetworkBuilder
+com.google.common.graph.AbstractConfigurableNetwork
+target
+public N target(Object edge)
+Object
+N
+com.google.common.graph.ConfigurableGraph
+newNodeConnections
+private NodeAdjacencies<N> newNodeConnections()
+empty
+NodeAdjacencies
+com.google.common.graph.ConfigurableGraph
+ConfigurableGraph
+ConfigurableGraph(GraphBuilder<? super N> builder)
+GraphBuilder
+constructor
+com.google.common.graph.AbstractConfigurableNetwork
+nodes
+public Set<N> nodes()
+empty
+Set
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Network<?, ?> graph)
+Network
+int
+com.google.common.graph.AbstractConfigurableGraph
+AbstractConfigurableGraph
+AbstractConfigurableGraph(GraphBuilder<? super N> builder, Map<N, NodeAdjacencies<N>> nodeConnections)
+GraphBuilder,Map
+constructor
+com.google.common.graph.GraphBuilder
+undirected
+public static GraphBuilder<Object, Object> undirected()
+empty
+GraphBuilder
+com.google.common.graph.Network
+source
+N source(Object edge)
+Object
+N
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Graph<?> graph1, @Nullable Graph<?> graph2)
+Graph,Graph
+boolean
+com.google.common.graph.DirectedNodeAdjacencies
+adjacentNodes
+public Set<N> adjacentNodes()
+empty
+Set
+com.google.common.graph.MutableGraph
+removeNode
+boolean removeNode(Object node)
+Object
+boolean
+com.google.common.graph.ImmutableGraph
+addEdge
+public final boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.ConfigurableGraph
+checkedConnections
+private NodeConnections<N, E> checkedConnections(Object node)
+Object
+NodeConnections
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N, E> copyOf(Graph<N, E> graph)
+Graph
+ImmutableGraph
+com.google.common.graph.Graphs
+nodeToAdjacentNodes
+private static Map<N, Set<N>> nodeToAdjacentNodes(final Graph<N> graph)
+Graph
+Map
+com.google.common.graph.NetworkBuilder
+directed
+public static NetworkBuilder<Object, Object> directed()
+empty
+NetworkBuilder
+com.google.common.graph.Network
+target
+N target(Object edge)
+Object
+N
+com.google.common.graph.Network
+degree
+int degree(Object node)
+Object
+int
+com.google.common.graph.ImmutableNetwork
+edgesConnecting
+public Set<E> edgesConnecting(Object node1, Object node2)
+Object,Object
+Set
+com.google.common.graph.Network
+inDegree
+int inDegree(Object node)
+Object
+int
+com.google.common.graph.NetworkBuilder
+build
+public MutableNetwork<N1, E1> build()
+empty
+MutableNetwork
+com.google.common.graph.ConfigurableNetwork
+addEdge
+public boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.ImmutableGraph
+getNodeConnections
+private static Map<N, NodeAdjacencies<N>> getNodeConnections(Graph<N> graph)
+Graph
+Map
+com.google.common.graph.MutableNetwork
+addEdge
+boolean addEdge(E edge, N node1, N node2)
+E,N,N
+boolean
+com.google.common.graph.NodeAdjacencies
+addSuccessor
+boolean addSuccessor(N node)
+N
+boolean
+com.google.common.graph.Graphs
+getPropertiesString
+private static String getPropertiesString(Network<?, ?> graph)
+Network
+String
+com.google.common.graph.GraphBuilder
+directed
+public static GraphBuilder<Object, Object> directed()
+empty
+GraphBuilder
+com.google.common.graph.DirectedNodeAdjacencies
+DirectedNodeAdjacencies
+private DirectedNodeAdjacencies(Set<N> predecessors, Set<N> successors)
+Set,Set
+constructor
+com.google.common.graph.ImmutableNetwork
+copyOf
+public static ImmutableNetwork<N, E> copyOf(Network<N, E> graph)
+Network
+ImmutableNetwork
+com.google.common.graph.ImmutableNetwork
+getEdgeToIncidentNodes
+private static Map<E, IncidentNodes<N>> getEdgeToIncidentNodes(Network<N, E> graph)
+Network
+Map
+com.google.common.graph.ImmutableGraph
+removeEdge
+public final boolean removeEdge(Object edge)
+Object
+boolean
+com.google.common.graph.Graphs
+mergeNodesFrom
+public static void mergeNodesFrom(Graph<N> original, MutableGraph<N> copy)
+Graph,MutableGraph
+void
+com.google.common.graph.Graphs
+copyOf
+public static Graph<N, E> copyOf(Graph<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+Graph,Predicate,Predicate
+Graph
+com.google.common.graph.Network
+outDegree
+int outDegree(Object node)
+Object
+int
+com.google.common.graph.ConfigurableGraph
+ConfigurableGraph
+ConfigurableGraph(GraphBuilder<? super N, ? super E> builder, Map<N, NodeConnections<N, E>> nodeConnections, Map<E, IncidentNodes<N>> edgeToIncidentNodes)
+GraphBuilder,Map,Map
+constructor
+com.google.common.graph.GraphBuilder
+undirected
+public static GraphBuilder<Object> undirected()
+empty
+GraphBuilder
+com.google.common.graph.NetworkBuilder
+expectedEdgeCount
+public NetworkBuilder<N, E> expectedEdgeCount(int expectedEdgeCount)
+int
+NetworkBuilder
+com.google.common.graph.ImmutableGraph
+getEdgeToIncidentNodes
+private static Map<E, IncidentNodes<N>> getEdgeToIncidentNodes(Graph<N, E> graph)
+Graph
+Map
+com.google.common.graph.NodeAdjacencies
+addPredecessor
+boolean addPredecessor(N node)
+N
+boolean
+com.google.common.graph.AbstractConfigurableNetwork
+allowsSelfLoops
+public boolean allowsSelfLoops()
+empty
+boolean
+com.google.common.graph.NodeAdjacencies
+predecessors
+Set<N> predecessors()
+empty
+Set
+com.google.common.graph.Network
+edgesConnecting
+Set<E> edgesConnecting(Object node1, Object node2)
+Object,Object
+Set
+com.google.common.graph.Graphs
+selfLoopPredicate
+public static Predicate<E> selfLoopPredicate(final Graph<?, E> graph)
+Graph
+Predicate
+com.google.common.graph.Graphs
+mergeNodesFrom
+public static void mergeNodesFrom(Graph<N> original, MutableGraph<N> copy, Predicate<? super N> nodePredicate)
+Graph,MutableGraph,Predicate
+void
+com.google.common.graph.Network
+isDirected
+boolean isDirected()
+empty
+boolean
+com.google.common.graph.AbstractConfigurableNetwork
+checkedIncidentNodes
+protected IncidentNodes<N> checkedIncidentNodes(Object edge)
+Object
+IncidentNodes
+com.google.common.graph.Graphs
+toString
+public static String toString(Graph<?> graph)
+Graph
+String
+com.google.common.graph.DirectedNodeAdjacencies
+ofImmutable
+static DirectedNodeAdjacencies<N> ofImmutable(Set<N> predecessors, Set<N> successors)
+Set,Set
+DirectedNodeAdjacencies
+com.google.common.graph.DirectedNodeAdjacencies
+removeSuccessor
+public boolean removeSuccessor(Object node)
+Object
+boolean
+com.google.common.graph.Graphs
+hashCode
+public static int hashCode(Graph<?> graph)
+Graph
+int
+com.google.common.graph.Network
+allowsParallelEdges
+boolean allowsParallelEdges()
+empty
+boolean
+com.google.common.graph.Graphs
+oppositeNode
+public static N oppositeNode(Network<N, ?> graph, Object edge, Object node)
+Network,Object,Object
+N
+com.google.common.graph.ConfigurableGraph
+ConfigurableGraph
+ConfigurableGraph(GraphBuilder<? super N, ? super E> builder)
+GraphBuilder
+constructor
+com.google.common.graph.AbstractConfigurableNetwork
+outEdges
+public Set<E> outEdges(Object node)
+Object
+Set
+com.google.common.graph.ImmutableGraph
+copyOf
+public static ImmutableGraph<N> copyOf(ImmutableGraph<N> graph)
+ImmutableGraph
+ImmutableGraph
+com.google.common.graph.Graphs
+mergeEdgesFrom
+public static void mergeEdgesFrom(Network<N, E> original, MutableNetwork<N, E> copy, Predicate<? super E> edgePredicate)
+Network,MutableNetwork,Predicate
+void
+com.google.common.graph.ConfigurableNetwork
+removeNode
+public boolean removeNode(Object node)
+Object
+boolean

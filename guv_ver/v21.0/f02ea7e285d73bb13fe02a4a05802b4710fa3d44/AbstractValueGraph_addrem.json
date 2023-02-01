@@ -1,0 +1,40 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "26": "import javax.annotation.Nullable;\n",
+        "42": "  public V edgeValueOrDefault(Object nodeU, Object nodeV, @Nullable V defaultValue) {\n",
+        "43": "    checkNotNull(nodeU);\n",
+        "44": "    checkNotNull(nodeV);\n",
+        "45": "    boolean connected = nodes().contains(nodeU) && successors(nodeU).contains(nodeV);\n",
+        "46": "    return connected ? edgeValue(nodeU, nodeV) : defaultValue;\n",
+        "54": "    return String.format(GRAPH_STRING_FORMAT, propertiesString, nodes(), edgeValueMap());\n",
+        "55": "  }\n",
+        "56": "\n",
+        "57": "  private Map<EndpointPair<N>, V> edgeValueMap() {\n",
+        "58": "    Function<EndpointPair<N>, V> edgeToValueFn =\n",
+        "59": "        new Function<EndpointPair<N>, V>() {\n",
+        "60": "          @Override\n",
+        "61": "          public V apply(EndpointPair<N> edge) {\n",
+        "62": "            return edgeValue(edge.nodeU(), edge.nodeV());\n",
+        "63": "          }\n",
+        "64": "        };\n",
+        "65": "    return Maps.asMap(edges(), edgeToValueFn);\n"
+    },
+    "removed": {
+        "39": "  private transient Map<EndpointPair<N>, V> edgeValueMap;\n",
+        "40": "\n",
+        "42": "  public Map<EndpointPair<N>, V> edgeValues() {\n",
+        "43": "    if (edgeValueMap == null) {\n",
+        "44": "      Function<EndpointPair<N>, V> edgeToValueFn =\n",
+        "45": "          new Function<EndpointPair<N>, V>() {\n",
+        "46": "            @Override\n",
+        "47": "            public V apply(EndpointPair<N> edge) {\n",
+        "48": "              return edgeValue(edge.nodeU(), edge.nodeV());\n",
+        "49": "            }\n",
+        "50": "          };\n",
+        "51": "      edgeValueMap = Maps.asMap(edges(), edgeToValueFn);\n",
+        "52": "    }\n",
+        "53": "    return edgeValueMap;\n",
+        "61": "    return String.format(GRAPH_STRING_FORMAT, propertiesString, nodes(), edgeValues());\n"
+    }
+}

@@ -1,0 +1,4 @@
+
+   * Delegates to {@link Map#get}. Returns {@code null} on {@code ClassCastException} and {@code
+   * NullPointerException}.
+   

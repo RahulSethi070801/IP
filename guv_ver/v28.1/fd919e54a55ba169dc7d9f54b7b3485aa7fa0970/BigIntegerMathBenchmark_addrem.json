@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "51": "  /** Previous version of BigIntegerMath.factorial, kept for timing purposes. */\n",
+        "61": "  /** Returns the product of {@code n1} exclusive through {@code n2} inclusive. */\n",
+        "81": "  @Benchmark\n",
+        "82": "  int slowFactorial(int reps) {\n",
+        "91": "  @Benchmark\n",
+        "92": "  int factorial(int reps) {\n",
+        "101": "  @Benchmark\n",
+        "102": "  int binomial(int reps) {\n"
+    },
+    "removed": {
+        "51": "  /**\n",
+        "52": "   * Previous version of BigIntegerMath.factorial, kept for timing purposes.\n",
+        "53": "   */\n",
+        "63": "  /**\n",
+        "64": "   * Returns the product of {@code n1} exclusive through {@code n2} inclusive.\n",
+        "65": "   */\n",
+        "85": "  @Benchmark int slowFactorial(int reps) {\n",
+        "94": "  @Benchmark int factorial(int reps) {\n",
+        "103": "  @Benchmark int binomial(int reps) {\n"
+    }
+}

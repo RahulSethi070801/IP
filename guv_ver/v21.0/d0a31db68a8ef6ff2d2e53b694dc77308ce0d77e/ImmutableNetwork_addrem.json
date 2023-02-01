@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "28": " * A {@link Network} whose elements and structural relationships will never change. Instances of\n",
+        "29": " * this class may be obtained with {@link #copyOf(Network)}.\n",
+        "41": "  /**\n",
+        "42": "   * To ensure the immutability contract is maintained, there must be no public constructors.\n",
+        "43": "   */\n"
+    },
+    "removed": {
+        "28": " * A {@link Network} whose relationships are constant. Instances of this class may be obtained\n",
+        "29": " * with {@link #copyOf(Network)}.\n"
+    }
+}

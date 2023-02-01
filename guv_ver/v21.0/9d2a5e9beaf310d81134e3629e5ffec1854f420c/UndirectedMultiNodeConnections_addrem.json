@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "83": "  public N removeInEdge(Object edge, boolean isSelfLoop) {\n",
+        "84": "    if (isSelfLoop) {\n",
+        "85": "      return null;\n",
+        "86": "    }\n",
+        "103": "  public boolean addInEdge(E edge, N node, boolean isSelfLoop) {\n",
+        "104": "    if (isSelfLoop) {\n",
+        "105": "      return false;\n",
+        "106": "    }\n"
+    },
+    "removed": {
+        "83": "  public N removeInEdge(Object edge) {\n",
+        "100": "  public boolean addInEdge(E edge, N node) {\n"
+    }
+}

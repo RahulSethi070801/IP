@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "23": "import org.checkerframework.checker.nullness.qual.Nullable;\n",
+        "42": "  @Nullable private T next;\n",
+        "46": "  @Nullable\n"
+    },
+    "removed": {
+        "23": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "42": "  @NullableDecl private T next;\n",
+        "46": "  @NullableDecl\n"
+    }
+}

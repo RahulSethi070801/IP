@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "48": "@ElementTypesAreNonnullByDefault\n",
+        "130": "  public boolean contains(\n",
+        "131": "      // TODO(cpovirk): Consider accepting null.\n",
+        "132": "      @SuppressWarnings(\"nullness\") Object object) {\n",
+        "138": "  public boolean remove(\n",
+        "139": "      // TODO(cpovirk): Consider accepting null.\n",
+        "140": "      @SuppressWarnings(\"nullness\") Object object) {\n"
+    },
+    "removed": {
+        "129": "  public boolean contains(Object object) {\n",
+        "135": "  public boolean remove(Object object) {\n"
+    }
+}

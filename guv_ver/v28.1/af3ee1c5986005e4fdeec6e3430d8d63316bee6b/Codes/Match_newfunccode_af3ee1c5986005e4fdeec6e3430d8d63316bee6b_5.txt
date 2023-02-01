@@ -1,0 +1,3 @@
+protected final boolean isOrderingCompatible(EndpointPair<?> endpoints) {
+    return endpoints.isOrdered() || !this.isDirected();
+}

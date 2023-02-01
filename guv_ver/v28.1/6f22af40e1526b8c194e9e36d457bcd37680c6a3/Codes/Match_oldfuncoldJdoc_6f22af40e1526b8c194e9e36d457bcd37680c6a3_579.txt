@@ -1,0 +1,10 @@
+
+   * Maps the specified class to the specified value. Does <i>not</i> associate this value with any
+   * of the class's supertypes.
+   *
+   * <p>{@code putInstance(Foo.class, foo)} is equivalent to {@code
+   * putInstance(TypeToken.of(Foo.class), foo)}.
+   *
+   * @return the value previously associated with this class (possibly {@code null}), or {@code
+   *     null} if there was no previous entry.
+   

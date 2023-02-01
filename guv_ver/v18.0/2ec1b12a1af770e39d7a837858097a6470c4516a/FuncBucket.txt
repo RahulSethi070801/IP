@@ -1,0 +1,40 @@
+com.google.common.reflect.Types$ParameterizedTypeImpl
+toString
+public String toString()
+empty
+String
+com.google.common.reflect.Types
+typeName
+String typeName(Type type)
+Type
+String
+com.google.common.reflect.Types
+usedInGenericType
+Type usedInGenericType(Type type)
+Type
+Type
+com.google.common.reflect.Types
+newArrayType
+Type newArrayType(Type componentType)
+Type
+Type
+com.google.common.reflect.Types
+apply
+public String apply(Type from)
+Type
+String
+com.google.common.reflect.Parameter
+getAnnotationsByType
+public A[] getAnnotationsByType(Class<A> annotationType)
+Class
+A[]
+com.google.common.reflect.Parameter
+getDeclaredAnnotation
+public A getDeclaredAnnotation(Class<A> annotationType)
+Class
+A
+com.google.common.reflect.Parameter
+getDeclaredAnnotationsByType
+public A[] getDeclaredAnnotationsByType(Class<A> annotationType)
+Class
+A[]

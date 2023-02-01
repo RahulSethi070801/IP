@@ -1,0 +1,51 @@
+public static <T> java.util.Optional<T> findLast(Stream<T> stream) {
+    class OptionalState {
+
+        boolean set = false;
+
+        T value = null;
+
+        void set(@Nullable T value) {
+            this.set = true;
+            this.value = value;
+        }
+
+        T get() {
+            checkState(set);
+            return value;
+        }
+    }
+    OptionalState state = new OptionalState();
+    Deque<Spliterator<T>> splits = new ArrayDeque<>();
+    splits.addLast(stream.spliterator());
+    while (!splits.isEmpty()) {
+        Spliterator<T> spliterator = splits.removeLast();
+        if (spliterator.getExactSizeIfKnown() == 0) {
+            continue;
+        }
+        if (spliterator.hasCharacteristics(Spliterator.SUBSIZED)) {
+            while (true) {
+                Spliterator<T> prefix = spliterator.trySplit();
+                if (prefix == null || prefix.getExactSizeIfKnown() == 0) {
+                    break;
+                } else if (spliterator.getExactSizeIfKnown() == 0) {
+                    spliterator = prefix;
+                    break;
+                }
+            }
+            spliterator.forEachRemaining(state::set);
+            return java.util.Optional.of(state.get());
+        }
+        Spliterator<T> prefix = spliterator.trySplit();
+        if (prefix == null || prefix.getExactSizeIfKnown() == 0) {
+            spliterator.forEachRemaining(state::set);
+            if (state.set) {
+                return java.util.Optional.of(state.get());
+            }
+            continue;
+        }
+        splits.addLast(prefix);
+        splits.addLast(spliterator);
+    }
+    return java.util.Optional.empty();
+}

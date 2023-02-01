@@ -1,0 +1,4 @@
+RegularImmutableSet
+Insertions: [21, 51]
+Deletions: [21, 51]
+android/guava/src/com/google/common/collect/RegularImmutableSet.java

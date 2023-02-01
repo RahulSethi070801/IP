@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "30": " * Implementation of {@link ImmutableMap} backed by a non-empty {@link java.util.EnumMap}.\n",
+        "102": "  @Override\n",
+        "103": "  public void forEach(BiConsumer<? super K, ? super V> action) {\n"
+    },
+    "removed": {
+        "29": " * Implementation of {@link ImmutableMap} backed by a non-empty {@link\n",
+        "30": " * java.util.EnumMap}.\n",
+        "102": "  @Override public void forEach(BiConsumer<? super K, ? super V> action) {\n"
+    }
+}

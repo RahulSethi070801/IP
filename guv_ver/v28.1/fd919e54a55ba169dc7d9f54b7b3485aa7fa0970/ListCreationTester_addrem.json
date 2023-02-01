@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "28": " * A generic JUnit test which tests creation (typically through a constructor or static factory\n",
+        "29": " * method) of a list. Can't be invoked directly; please see {@link\n",
+        "30": " * com.google.common.collect.testing.ListTestSuiteBuilder}.\n"
+    },
+    "removed": {
+        "28": " * A generic JUnit test which tests creation (typically through a constructor or\n",
+        "29": " * static factory method) of a list. Can't be invoked directly; please see\n",
+        "30": " * {@link com.google.common.collect.testing.ListTestSuiteBuilder}.\n"
+    }
+}

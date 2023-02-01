@@ -1,0 +1,13 @@
+public static boolean equal(File file1, File file2) throws IOException {
+    checkNotNull(file1);
+    checkNotNull(file2);
+    if (file1 == file2 || file1.equals(file2)) {
+        return true;
+    }
+    long len1 = file1.length();
+    long len2 = file2.length();
+    if (len1 != 0 && len2 != 0 && len1 != len2) {
+        return false;
+    }
+    return asByteSource(file1).contentEquals(asByteSource(file2));
+}

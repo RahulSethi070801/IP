@@ -1,0 +1,4 @@
+CharSource
+Insertions: [37, 38, 80, 265, 322, 323, 526, 538, 539]
+Deletions: [37, 263, 320, 534]
+android/guava/src/com/google/common/io/CharSource.java

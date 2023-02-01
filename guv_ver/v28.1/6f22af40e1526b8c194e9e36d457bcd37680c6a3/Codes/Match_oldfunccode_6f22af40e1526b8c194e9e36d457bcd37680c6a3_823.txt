@@ -1,0 +1,6 @@
+@Override
+@Nullable
+@CanIgnoreReturnValue
+public K remove(@Nullable Object value) {
+    return forward.removeInverse(value);
+}

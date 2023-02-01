@@ -1,0 +1,4 @@
+Murmur3Hash128Test
+Insertions: [27, 36, 37, 38, 39, 54, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+Deletions: [27, 28, 29, 38, 39, 40, 41, 56, 57, 58, 68, 69, 70, 71, 72, 73, 74]
+android/guava-tests/test/com/google/common/hash/Murmur3Hash128Test.java

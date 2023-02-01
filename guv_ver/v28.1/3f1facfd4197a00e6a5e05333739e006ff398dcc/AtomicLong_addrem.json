@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "20": " * GWT emulated version of {@link AtomicLong}. It's a thin wrapper around the primitive {@code\n",
+        "21": " * long}.\n",
+        "33": "  public AtomicLong() {}\n",
+        "89": "  @Override\n",
+        "90": "  public String toString() {\n"
+    },
+    "removed": {
+        "20": " * GWT emulated version of {@link AtomicLong}.  It's a thin wrapper\n",
+        "21": " * around the primitive {@code long}.\n",
+        "33": "  public AtomicLong() {\n",
+        "34": "  }\n",
+        "90": "  @Override public String toString() {\n"
+    }
+}

@@ -1,0 +1,4 @@
+LinkedListMultimap_2
+Insertions: [45, 117, 133, 213, 214, 298, 303, 466, 480, 581, 586, 601, 618, 643, 654, 681]
+Deletions: [45, 117, 133, 213, 297, 302, 465, 479, 580, 585, 600, 617, 642, 653, 680]
+guava/src/com/google/common/collect/LinkedListMultimap.java

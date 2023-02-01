@@ -1,0 +1,4 @@
+
+   * A reasonable default implementation of {@link Graph#edges()} defined in terms of
+   * {@link #nodes()} and {@link #successors(Object)}.
+   

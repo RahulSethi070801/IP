@@ -1,0 +1,5 @@
+
+     * Adds the given value.
+     *
+     * @param x the value to add
+     

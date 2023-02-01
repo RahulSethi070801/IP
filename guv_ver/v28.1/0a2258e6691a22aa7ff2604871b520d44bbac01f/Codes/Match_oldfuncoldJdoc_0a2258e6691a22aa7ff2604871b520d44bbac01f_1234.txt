@@ -1,0 +1,13 @@
+
+   * Creates a <i>mutable</i>, empty {@code TreeMap} instance using the given comparator.
+   *
+   * <p><b>Note:</b> if mutability is not required, use {@code
+   * ImmutableSortedMap.orderedBy(comparator).build()} instead.
+   *
+   * <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+   * deprecated. Instead, use the {@code TreeMap} constructor directly, taking advantage of the new
+   * <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+   *
+   * @param comparator the comparator to sort the keys with
+   * @return a new, empty {@code TreeMap}
+   

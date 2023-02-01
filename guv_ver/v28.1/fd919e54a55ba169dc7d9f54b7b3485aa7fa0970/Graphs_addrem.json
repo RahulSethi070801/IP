@@ -1,0 +1,39 @@
+{
+    "addition": {
+        "287": "      return delegate().outDegree(node); // transpose\n",
+        "292": "      return delegate().inDegree(node); // transpose\n",
+        "343": "      return delegate().outDegree(node); // transpose\n",
+        "348": "      return delegate().inDegree(node); // transpose\n",
+        "403": "      return delegate().outDegree(node); // transpose\n",
+        "408": "      return delegate().inDegree(node); // transpose\n",
+        "453": "    MutableGraph<N> subgraph =\n",
+        "454": "        (nodes instanceof Collection)\n",
+        "455": "            ? GraphBuilder.from(graph).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "456": "            : GraphBuilder.from(graph).build();\n",
+        "480": "    MutableValueGraph<N, V> subgraph =\n",
+        "481": "        (nodes instanceof Collection)\n",
+        "482": "            ? ValueGraphBuilder.from(graph).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "483": "            : ValueGraphBuilder.from(graph).build();\n",
+        "508": "    MutableNetwork<N, E> subgraph =\n",
+        "509": "        (nodes instanceof Collection)\n",
+        "510": "            ? NetworkBuilder.from(network).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "511": "            : NetworkBuilder.from(network).build();\n"
+    },
+    "removed": {
+        "287": "      return delegate().outDegree(node);  // transpose\n",
+        "292": "      return delegate().inDegree(node);  // transpose\n",
+        "343": "      return delegate().outDegree(node);  // transpose\n",
+        "348": "      return delegate().inDegree(node);  // transpose\n",
+        "403": "      return delegate().outDegree(node);  // transpose\n",
+        "408": "      return delegate().inDegree(node);  // transpose\n",
+        "453": "    MutableGraph<N> subgraph = (nodes instanceof Collection)\n",
+        "454": "        ? GraphBuilder.from(graph).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "455": "        : GraphBuilder.from(graph).build();\n",
+        "479": "    MutableValueGraph<N, V> subgraph = (nodes instanceof Collection)\n",
+        "480": "        ? ValueGraphBuilder.from(graph).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "481": "        : ValueGraphBuilder.from(graph).build();\n",
+        "506": "    MutableNetwork<N, E> subgraph = (nodes instanceof Collection)\n",
+        "507": "        ? NetworkBuilder.from(network).expectedNodeCount(((Collection) nodes).size()).build()\n",
+        "508": "        : NetworkBuilder.from(network).build();\n"
+    }
+}

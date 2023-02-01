@@ -1,0 +1,255 @@
+com.google.common.base.Converter
+andThen
+public Converter<A, C> andThen(Converter<B, C> secondConverter)
+Converter
+Converter
+com.google.common.base.Converter$IdentityConverter
+doForward
+protected T doForward(@Nullable T t)
+T
+T
+com.google.common.base.Converter
+Converter
+protected Converter()
+empty
+constructor
+com.google.common.primitives.Shorts$ShortConverter
+doBackward
+protected String doBackward(Short value)
+Short
+String
+com.google.common.base.Converter
+identity
+public static Converter<T, T> identity()
+empty
+Converter
+com.google.common.base.Converter
+correctedDoBackward
+A correctedDoBackward(B b)
+B
+A
+com.google.common.base.Converter$ConverterComposition
+ConverterComposition
+ConverterComposition(Converter<A, B> first, Converter<B, C> second)
+Converter,Converter
+constructor
+com.google.common.primitives.super.com.google.common.primitives.Ints$IntConverter
+doBackward
+protected String doBackward(Integer value)
+Integer
+String
+com.google.common.base.Enums
+stringConverter
+public static Converter<String, T> stringConverter(final Class<T> enumClass)
+Class
+Converter
+com.google.common.collect.super.com.google.common.collect.Maps
+doBackward
+protected A doBackward(B b)
+B
+A
+com.google.common.primitives.super.com.google.common.primitives.Floats
+stringConverter
+public static Converter<String, Float> stringConverter()
+empty
+Converter
+com.google.common.collect.Maps
+asConverter
+public static Converter<A, B> asConverter(final BiMap<A, B> bimap)
+BiMap
+Converter
+com.google.common.base.Converter$IdentityConverter
+reverse
+public IdentityConverter<T> reverse()
+empty
+IdentityConverter
+com.google.common.base.Converter
+doBackward
+protected abstract A doBackward(B b)
+B
+A
+com.google.common.base.Converter
+convertAll
+public Iterable<B> convertAll(final Iterable<? extends A> fromIterable)
+Iterable
+Iterable
+com.google.common.base.Converter$ReverseConverter
+correctedDoForward
+A correctedDoForward(B b)
+B
+A
+com.google.common.base.Converter$ReverseConverter
+correctedDoBackward
+B correctedDoBackward(A a)
+A
+B
+com.google.common.primitives.Longs
+stringConverter
+public static Converter<String, Long> stringConverter()
+empty
+Converter
+com.google.common.base.Converter
+apply
+public final B apply(@Nullable A a)
+A
+B
+com.google.common.base.Converter$IdentityConverter
+doBackward
+protected T doBackward(@Nullable T t)
+T
+T
+com.google.common.base.Converter$ConverterComposition
+of
+static Converter<A, C> of(Converter<A, B> first, Converter<B, C> second)
+Converter,Converter
+Converter
+com.google.common.base.Converter
+correctedDoForward
+B correctedDoForward(A a)
+A
+B
+com.google.common.base.Converter
+doForward
+protected abstract B doForward(A a)
+A
+B
+com.google.common.primitives.Shorts
+stringConverter
+public static Converter<String, Short> stringConverter()
+empty
+Converter
+com.google.common.primitives.Doubles$DoubleConverter
+doForward
+protected Double doForward(String value)
+String
+Double
+com.google.common.primitives.super.com.google.common.primitives.Floats$FloatConverter
+doForward
+protected Float doForward(String value)
+String
+Float
+com.google.common.primitives.Longs$LongConverter
+doForward
+protected Long doForward(String value)
+String
+Long
+com.google.common.base.Converter
+Converter
+Converter(boolean handleNullAutomatically)
+boolean
+constructor
+com.google.common.base.Converter$ConverterComposition
+correctedDoBackward
+A correctedDoBackward(@Nullable C c)
+C
+A
+com.google.common.primitives.Shorts$ShortConverter
+toString
+public String toString()
+empty
+String
+com.google.common.base.Converter$ReverseConverter
+hashCode
+public int hashCode()
+empty
+int
+com.google.common.base.Converter
+convert
+public final B convert(@Nullable A a)
+A
+B
+com.google.common.base.CaseFormat
+converterTo
+public Converter<String, String> converterTo(final CaseFormat targetFormat)
+CaseFormat
+Converter
+com.google.common.base.Converter$ReverseConverter
+doBackward
+protected B doBackward(@Nullable A a)
+A
+B
+com.google.common.primitives.super.com.google.common.primitives.Ints$IntConverter
+doForward
+protected Integer doForward(String value)
+String
+Integer
+com.google.common.primitives.Shorts$ShortConverter
+readResolve
+private Object readResolve()
+empty
+Object
+com.google.common.primitives.Longs$LongConverter
+doBackward
+protected String doBackward(Long value)
+Long
+String
+com.google.common.primitives.Shorts$ShortConverter
+doForward
+protected Short doForward(String value)
+String
+Short
+com.google.common.primitives.super.com.google.common.primitives.Ints
+stringConverter
+public static Converter<String, Integer> stringConverter()
+empty
+Converter
+com.google.common.primitives.Doubles
+stringConverter
+public static Converter<String, Double> stringConverter()
+empty
+Converter
+com.google.common.primitives.Doubles$DoubleConverter
+doBackward
+protected String doBackward(Double value)
+Double
+String
+com.google.common.base.Converter$ReverseConverter
+ReverseConverter
+ReverseConverter(Converter<A, B> original)
+Converter
+constructor
+com.google.common.primitives.super.com.google.common.primitives.Floats$FloatConverter
+doBackward
+protected String doBackward(Float value)
+Float
+String
+com.google.common.base.Converter$ReverseConverter
+reverse
+public Converter<A, B> reverse()
+empty
+Converter
+com.google.common.base.Converter$ConverterComposition
+doBackward
+protected A doBackward(@Nullable C c)
+C
+A
+com.google.common.base.Converter$ConverterComposition
+correctedDoForward
+C correctedDoForward(@Nullable A a)
+A
+C
+com.google.common.base.Converter$ConverterComposition
+doForward
+protected C doForward(@Nullable A a)
+A
+C
+com.google.common.base.Converter
+reverse
+public Converter<B, A> reverse()
+empty
+Converter
+com.google.common.base.Converter$ReverseConverter
+doForward
+protected A doForward(@Nullable B b)
+B
+A
+com.google.common.base.Converter$ReverseConverter
+equals
+public boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.base.Converter$IdentityConverter
+andThen
+public Converter<T, S> andThen(Converter<T, S> otherConverter)
+Converter
+Converter

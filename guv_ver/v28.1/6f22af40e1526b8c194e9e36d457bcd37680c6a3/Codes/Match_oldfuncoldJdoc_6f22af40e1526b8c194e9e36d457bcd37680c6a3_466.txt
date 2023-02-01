@@ -1,0 +1,4 @@
+
+   * Returns everything between the endpoints relative to the specified comparator, with the
+   * specified endpoint behavior.
+   

@@ -1,0 +1,8 @@
+@Nullable
+private static Constructor<Thread> getBigThreadConstructor() {
+    try {
+        return Thread.class.getConstructor(ThreadGroup.class, Runnable.class, String.class, long.class, boolean.class);
+    } catch (Throwable t) {
+        return null;
+    }
+}

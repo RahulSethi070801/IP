@@ -1,0 +1,4 @@
+RegularImmutableTable
+Insertions: [127]
+Deletions: [22, 23, 130]
+guava/src/com/google/common/collect/RegularImmutableTable.java

@@ -1,0 +1,5 @@
+@CanIgnoreReturnValue
+public static <T> T verifyNotNull(@NullableDecl T reference, @NullableDecl String errorMessageTemplate, @NullableDecl Object... errorMessageArgs) {
+    verify(reference != null, errorMessageTemplate, errorMessageArgs);
+    return reference;
+}

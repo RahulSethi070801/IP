@@ -1,0 +1,1 @@
+boolean containsRow(@Nullable @CompatibleWith("R") Object rowKey);

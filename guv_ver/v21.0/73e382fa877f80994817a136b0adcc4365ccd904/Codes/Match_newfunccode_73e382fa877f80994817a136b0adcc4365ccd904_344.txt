@@ -1,0 +1,7 @@
+boolean replace(K key, long expectedOldValue, long newValue) {
+    if (expectedOldValue == 0L) {
+        return putIfAbsent(key, newValue) == 0L;
+    } else {
+        return map.replace(key, expectedOldValue, newValue);
+    }
+}

@@ -1,0 +1,4 @@
+ImmutableList
+Insertions: [22, 26, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661]
+Deletions: [670]
+android/guava/src/com/google/common/collect/ImmutableList.java

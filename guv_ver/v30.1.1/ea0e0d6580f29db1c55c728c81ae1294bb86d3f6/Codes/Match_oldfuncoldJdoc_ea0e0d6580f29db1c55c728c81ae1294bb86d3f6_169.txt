@@ -1,0 +1,8 @@
+
+   * {@inheritDoc}
+   *
+   * <p>This implementation is guaranteed to throw an {@link UnsupportedOperationException}.
+   *
+   * @throws UnsupportedOperationException always
+   * @deprecated Unsupported operation.
+   

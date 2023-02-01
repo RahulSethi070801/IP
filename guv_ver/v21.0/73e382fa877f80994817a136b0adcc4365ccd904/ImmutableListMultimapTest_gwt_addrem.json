@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "165": "\n",
+        "166": "public void testToImmutableListMultimap() throws Exception {\n",
+        "167": "  com.google.common.collect.ImmutableListMultimapTest testCase = new com.google.common.collect.ImmutableListMultimapTest();\n",
+        "168": "  testCase.testToImmutableListMultimap();\n",
+        "169": "}\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,4 @@
+CollectorTester
+Insertions: [38, 64, 65, 79, 80, 83, 94, 107, 139, 140]
+Deletions: [63, 64, 78, 79, 82, 83, 84, 95, 96, 97, 98, 111, 112, 113, 114, 146, 147]
+guava-testlib/src/com/google/common/testing/CollectorTester.java

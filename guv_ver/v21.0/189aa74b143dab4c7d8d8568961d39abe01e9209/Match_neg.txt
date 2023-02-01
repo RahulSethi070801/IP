@@ -1,0 +1,6 @@
+public static long copy(ReadableByteChannel from, WritableByteChannel to) throws IOException
+int skipBytes(int n)
+
+public String encode(byte[] bytes)
+int skipBytes(int n)
+

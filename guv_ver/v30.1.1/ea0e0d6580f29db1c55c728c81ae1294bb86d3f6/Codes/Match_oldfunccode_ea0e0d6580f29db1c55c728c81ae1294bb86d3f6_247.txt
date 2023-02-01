@@ -1,0 +1,7 @@
+private static <E> boolean addAllImpl(Multiset<E> self, Multiset<? extends E> elements) {
+    if (elements.isEmpty()) {
+        return false;
+    }
+    elements.forEachEntry(self::add);
+    return true;
+}

@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "34": "   * Returns a {@code RemovalListener} which processes all eviction notifications using {@code\n",
+        "35": "   * executor}.\n"
+    },
+    "removed": {
+        "34": "   * Returns a {@code RemovalListener} which processes all eviction notifications using\n",
+        "35": "   * {@code executor}.\n"
+    }
+}

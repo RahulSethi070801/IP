@@ -1,0 +1,4 @@
+public static RuntimeException propagate(Throwable throwable) {
+    propagateIfPossible(checkNotNull(throwable));
+    throw new RuntimeException(throwable);
+}

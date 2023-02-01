@@ -1,0 +1,6 @@
+public static Collector<T, ?, BloomFilter<T>> toBloomFilter(Funnel<? super T> funnel, long expectedInsertions)
+public static BloomFilter<T> create(Funnel<? super T> funnel, long expectedInsertions)
+
+public static Collector<T, ?, BloomFilter<T>> toBloomFilter(Funnel<? super T> funnel, long expectedInsertions, double fpp)
+public static BloomFilter<T> create(Funnel<? super T> funnel, long expectedInsertions)
+

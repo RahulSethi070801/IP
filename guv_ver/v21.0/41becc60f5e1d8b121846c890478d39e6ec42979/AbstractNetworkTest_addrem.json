@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "160": "    Graph<Integer, Set<String>> asGraph = network.asGraph();\n"
+    },
+    "removed": {
+        "160": "    ValueGraph<Integer, Set<String>> asGraph = network.asGraph();\n"
+    }
+}

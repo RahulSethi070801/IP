@@ -1,0 +1,4 @@
+@Override
+public Set<N> nodes() {
+    return delegate().nodes();
+}

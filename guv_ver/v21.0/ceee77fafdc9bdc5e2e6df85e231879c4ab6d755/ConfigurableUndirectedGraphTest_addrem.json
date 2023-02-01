@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "28": " * Tests for an undirected {@link ConfigurableMutableBasicGraph} with default graph properties.\n",
+        "34": "  public MutableBasicGraph<Integer> createGraph() {\n",
+        "35": "    return BasicGraphBuilder.undirected().build();\n"
+    },
+    "removed": {
+        "28": " * Tests for an undirected {@link ConfigurableMutableGraph} with default graph properties.\n",
+        "34": "  public MutableGraph<Integer> createGraph() {\n",
+        "35": "    return GraphBuilder.undirected().build();\n"
+    }
+}

@@ -1,0 +1,8 @@
+@CanIgnoreReturnValue
+public <E extends T> E max(@NullableDecl E a, @NullableDecl E b, @NullableDecl E c, E... rest) {
+    E maxSoFar = max(max(a, b), c);
+    for (E r : rest) {
+        maxSoFar = max(maxSoFar, r);
+    }
+    return maxSoFar;
+}

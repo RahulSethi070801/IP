@@ -1,0 +1,9 @@
+public static <E> FluentIterable<E> from(final Iterable<E> iterable) {
+    return (iterable instanceof FluentIterable) ? (FluentIterable<E>) iterable : new FluentIterable<E>(iterable) {
+
+        @Override
+        public Iterator<E> iterator() {
+            return iterable.iterator();
+        }
+    };
+}

@@ -1,0 +1,4 @@
+Hashing_4
+Insertions: [31, 644]
+Deletions: [30, 644]
+guava/src/com/google/common/hash/Hashing.java

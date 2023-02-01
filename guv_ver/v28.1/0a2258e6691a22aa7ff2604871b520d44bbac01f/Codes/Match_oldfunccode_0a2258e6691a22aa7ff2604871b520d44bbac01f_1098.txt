@@ -1,0 +1,4 @@
+@Beta
+public static <E> FluentIterable<E> of(@NullableDecl E element, E... elements) {
+    return from(Lists.asList(element, elements));
+}

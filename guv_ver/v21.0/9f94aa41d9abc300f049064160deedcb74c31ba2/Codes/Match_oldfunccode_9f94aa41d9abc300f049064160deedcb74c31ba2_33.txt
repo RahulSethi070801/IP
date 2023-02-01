@@ -1,0 +1,11 @@
+@Override
+public V get(K key, final Callable<? extends V> valueLoader) throws ExecutionException {
+    checkNotNull(valueLoader);
+    return localCache.get(key, new CacheLoader<Object, V>() {
+
+        @Override
+        public V load(Object key) throws Exception {
+            return valueLoader.call();
+        }
+    });
+}

@@ -1,0 +1,4 @@
+Iterables_2
+Insertions: [555, 559, 561]
+Deletions: [555, 559, 561]
+guava/src/com/google/common/collect/Iterables.java

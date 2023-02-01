@@ -1,0 +1,4 @@
+@Override
+public String apply(Type from) {
+    return JavaVersion.CURRENT.typeName(from);
+}

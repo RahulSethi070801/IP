@@ -1,0 +1,11 @@
+{
+    "addition": {
+        "47": "import java.util.Map.Entry;\n",
+        "444": "    for (Entry<Object, Object> entry : result.entrySet()) {\n",
+        "482": "    for (Entry<Object, Object> entry : result.entrySet()) {\n"
+    },
+    "removed": {
+        "443": "    for (Map.Entry<Object, Object> entry : result.entrySet()) {\n",
+        "481": "    for (Map.Entry<Object, Object> entry : result.entrySet()) {\n"
+    }
+}

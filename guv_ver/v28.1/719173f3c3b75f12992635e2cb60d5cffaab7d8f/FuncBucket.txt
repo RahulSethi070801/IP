@@ -1,0 +1,5 @@
+com.google.common.base.Stopwatch
+elapsed
+public Duration elapsed()
+empty
+Duration

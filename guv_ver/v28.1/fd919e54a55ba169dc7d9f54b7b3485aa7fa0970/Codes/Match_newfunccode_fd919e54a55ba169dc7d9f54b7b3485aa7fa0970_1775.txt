@@ -1,0 +1,4 @@
+@Override
+public final TypeVariable<?>[] getTypeParameters() {
+    return method.getTypeParameters();
+}

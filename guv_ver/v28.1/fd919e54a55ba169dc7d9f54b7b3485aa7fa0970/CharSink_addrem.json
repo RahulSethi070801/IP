@@ -1,0 +1,27 @@
+{
+    "addition": {
+        "33": " *\n",
+        "35": " *   <li><b>Methods that return a writer:</b> These methods should return a <i>new</i>, independent\n",
+        "36": " *       instance each time they are called. The caller is responsible for ensuring that the\n",
+        "37": " *       returned writer is closed.\n",
+        "38": " *   <li><b>Convenience methods:</b> These are implementations of common operations that are\n",
+        "39": " *       typically implemented by opening a writer using one of the methods in the first category,\n",
+        "40": " *       doing something and finally closing the writer that was opened.\n",
+        "53": "  /** Constructor for use by subclasses. */\n",
+        "106": "   * the operating system's default line separator. This method is equivalent to {@code\n",
+        "107": "   * writeLines(lines, System.getProperty(\"line.separator\"))}.\n"
+    },
+    "removed": {
+        "34": " * <li><b>Methods that return a writer:</b> These methods should return a <i>new</i>, independent\n",
+        "35": " *     instance each time they are called. The caller is responsible for ensuring that the returned\n",
+        "36": " *     writer is closed.\n",
+        "37": " * <li><b>Convenience methods:</b> These are implementations of common operations that are typically\n",
+        "38": " *     implemented by opening a writer using one of the methods in the first category, doing\n",
+        "39": " *     something and finally closing the writer that was opened.\n",
+        "52": "  /**\n",
+        "53": "   * Constructor for use by subclasses.\n",
+        "54": "   */\n",
+        "107": "   * the operating system's default line separator. This method is equivalent to\n",
+        "108": "   * {@code writeLines(lines, System.getProperty(\"line.separator\"))}.\n"
+    }
+}

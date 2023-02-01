@@ -1,0 +1,1 @@
+SortedMultiset<E> tailMultiset(@ParametricNullness E lowerBound, BoundType boundType);

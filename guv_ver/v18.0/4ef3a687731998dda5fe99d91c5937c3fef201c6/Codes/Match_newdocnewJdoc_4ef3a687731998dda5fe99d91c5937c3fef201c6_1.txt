@@ -1,0 +1,9 @@
+
+   * Acquires a single permit from this {@code RateLimiter}, blocking until the
+   * request can be granted. Tells the amount of time slept, if any.
+   *
+   * <p>This method is equivalent to {@code acquire(1)}.
+   *
+   * @return time spent sleeping to enforce rate, in seconds; 0.0 if not rate-limited
+   * @since 16.0 (present in 13.0 with {@code void} return type})
+   

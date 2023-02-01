@@ -1,0 +1,9 @@
+{
+    "addition": {
+        "94": "    setBackingMap(Maps.<E, Count>newHashMap());\n"
+    },
+    "removed": {
+        "94": "    setBackingMap(\n",
+        "95": "        Maps.<E, Count>newHashMapWithExpectedSize(distinctElements));\n"
+    }
+}

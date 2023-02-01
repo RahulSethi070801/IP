@@ -1,0 +1,40 @@
+com.google.common.base.Functions
+constant
+public static Function<Object, E> constant(@Nullable E value)
+E
+Function
+com.google.common.base.Function
+equals
+boolean equals(@Nullable Object object)
+Object
+boolean
+com.google.common.base.Functions
+toStringFunction
+public static Function<Object, String> toStringFunction()
+empty
+Function
+com.google.common.base.Functions
+forSupplier
+public static Function<Object, T> forSupplier(Supplier<T> supplier)
+Supplier
+Function
+com.google.common.base.Functions
+forMap
+public static Function<K, V> forMap(Map<K, ? extends V> map, @Nullable V defaultValue)
+Map,V
+Function
+com.google.common.base.Functions
+forMap
+public static Function<K, V> forMap(Map<K, V> map)
+Map
+Function
+com.google.common.base.Functions
+forPredicate
+public static Function<T, Boolean> forPredicate(Predicate<T> predicate)
+Predicate
+Function
+com.google.common.base.Functions
+compose
+public static Function<A, C> compose(Function<B, C> g, Function<A, ? extends B> f)
+Function,Function
+Function

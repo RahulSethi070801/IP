@@ -1,0 +1,6 @@
+@Override
+public int indexIn(CharSequence sequence, int start) {
+    int length = sequence.length();
+    checkPositionIndex(start, length);
+    return -1;
+}

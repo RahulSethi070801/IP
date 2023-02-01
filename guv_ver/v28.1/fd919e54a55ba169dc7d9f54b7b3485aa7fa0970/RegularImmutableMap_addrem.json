@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "61": "  @VisibleForTesting final transient Object[] alternatingKeysAndValues;\n",
+        "170": "    private final transient ImmutableMap<K, V> map;\n",
+        "171": "    private final transient Object[] alternatingKeysAndValues;\n",
+        "172": "    private final transient int keyOffset;\n",
+        "173": "    private final transient int size;\n",
+        "243": "    private final transient Object[] alternatingKeysAndValues;\n",
+        "244": "    private final transient int offset;\n",
+        "245": "    private final transient int size;\n"
+    },
+    "removed": {
+        "61": "  @VisibleForTesting\n",
+        "62": "  final transient Object[] alternatingKeysAndValues;\n",
+        "171": "    private transient final ImmutableMap<K, V> map;\n",
+        "172": "    private transient final Object[] alternatingKeysAndValues;\n",
+        "173": "    private transient final int keyOffset;\n",
+        "174": "    private transient final int size;\n",
+        "244": "    private transient final Object[] alternatingKeysAndValues;\n",
+        "245": "    private transient final int offset;\n",
+        "246": "    private transient final int size;\n"
+    }
+}

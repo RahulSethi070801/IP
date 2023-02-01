@@ -1,0 +1,3 @@
+public static RateLimiter create(double permitsPerSecond) {
+    return create(SleepingTicker.SYSTEM_TICKER, permitsPerSecond);
+}

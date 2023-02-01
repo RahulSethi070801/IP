@@ -1,0 +1,33 @@
+boolean isDirected()
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+
+boolean isDirected()
+public static MutableGraph<N> copyOf(Graph<N> graph, Predicate<? super N> nodePredicate)
+
+boolean isDirected()
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+
+boolean isDirected()
+public static MutableGraph<N> copyOf(Graph<N> graph, Predicate<? super N> nodePredicate)
+
+boolean isDirected()
+public int size()
+
+boolean isDirected()
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+
+boolean isDirected()
+public static MutableGraph<N> copyOf(Graph<N> graph, Predicate<? super N> nodePredicate)
+
+boolean isDirected()
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+
+boolean isDirected()
+public static MutableGraph<N> copyOf(Graph<N> graph, Predicate<? super N> nodePredicate)
+
+boolean isDirected()
+public static MutableNetwork<N, E> copyOf(Network<N, E> graph, Predicate<? super N> nodePredicate, Predicate<? super E> edgePredicate)
+
+boolean isDirected()
+public static MutableGraph<N> copyOf(Graph<N> graph, Predicate<? super N> nodePredicate)
+

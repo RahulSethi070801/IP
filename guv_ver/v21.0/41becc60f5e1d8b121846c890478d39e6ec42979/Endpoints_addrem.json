@@ -1,0 +1,8 @@
+{
+    "addition": {
+        "46": "  public static <N> Endpoints<N> of(Graph<?, ?> graph, N nodeA, N nodeB) {\n"
+    },
+    "removed": {
+        "46": "  public static <N> Endpoints<N> of(ValueGraph<?, ?> graph, N nodeA, N nodeB) {\n"
+    }
+}

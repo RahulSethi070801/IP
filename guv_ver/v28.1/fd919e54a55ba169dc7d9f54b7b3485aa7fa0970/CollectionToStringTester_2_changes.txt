@@ -1,0 +1,4 @@
+CollectionToStringTester_2
+Insertions: [33, 34]
+Deletions: [33, 34, 35]
+guava-testlib/src/com/google/common/collect/testing/testers/CollectionToStringTester.java

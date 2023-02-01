@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "58": "  /**\n",
+        "59": "   * Returns {@link Endpoints} representing the endpoints of an edge in {@code network}.\n",
+        "60": "   */\n",
+        "61": "  public static <N> Endpoints<N> of(Network<?, ?> network, N nodeA, N nodeB) {\n",
+        "62": "    return network.isDirected() ? ofDirected(nodeA, nodeB) : ofUndirected(nodeA, nodeB);\n",
+        "63": "  }\n",
+        "64": "\n"
+    },
+    "removed": {}
+}

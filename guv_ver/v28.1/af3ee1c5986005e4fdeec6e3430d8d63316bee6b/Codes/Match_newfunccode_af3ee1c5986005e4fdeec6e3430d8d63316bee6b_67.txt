@@ -1,0 +1,13 @@
+@Override
+@Nullable
+public E edgeConnectingOrNull(N nodeU, N nodeV) {
+    Set<E> edgesConnecting = edgesConnecting(nodeU, nodeV);
+    switch(edgesConnecting.size()) {
+        case 0:
+            return null;
+        case 1:
+            return edgesConnecting.iterator().next();
+        default:
+            throw new IllegalArgumentException(String.format(MULTIPLE_EDGES_CONNECTING, nodeU, nodeV));
+    }
+}

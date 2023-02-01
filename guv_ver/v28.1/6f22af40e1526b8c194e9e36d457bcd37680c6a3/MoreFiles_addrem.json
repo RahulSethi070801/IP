@@ -1,0 +1,25 @@
+{
+    "addition": {
+        "58": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "642": "  @NullableDecl\n",
+        "671": "  @NullableDecl\n",
+        "690": "  @NullableDecl\n",
+        "717": "  @NullableDecl\n",
+        "737": "  @NullableDecl\n",
+        "792": "      @NullableDecl Collection<IOException> exceptions, IOException e) {\n",
+        "805": "  @NullableDecl\n",
+        "807": "      @NullableDecl Collection<IOException> exceptions,\n",
+        "808": "      @NullableDecl Collection<IOException> other) {\n"
+    },
+    "removed": {
+        "58": "import javax.annotation.Nullable;\n",
+        "642": "  @Nullable\n",
+        "671": "  @Nullable\n",
+        "690": "  @Nullable\n",
+        "717": "  @Nullable\n",
+        "737": "  @Nullable\n",
+        "792": "      @Nullable Collection<IOException> exceptions, IOException e) {\n",
+        "805": "  @Nullable\n",
+        "807": "      @Nullable Collection<IOException> exceptions, @Nullable Collection<IOException> other) {\n"
+    }
+}

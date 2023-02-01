@@ -1,0 +1,21 @@
+@NullableDecl
+private ExampleStackTrace findPathTo(LockGraphNode node, Set<LockGraphNode> seen) {
+    if (!seen.add(this)) {
+        return null;
+    }
+    ExampleStackTrace found = allowedPriorLocks.get(node);
+    if (found != null) {
+        return found;
+    }
+    for (Entry<LockGraphNode, ExampleStackTrace> entry : allowedPriorLocks.entrySet()) {
+        LockGraphNode preAcquiredLock = entry.getKey();
+        found = preAcquiredLock.findPathTo(node, seen);
+        if (found != null) {
+            ExampleStackTrace path = new ExampleStackTrace(preAcquiredLock, this);
+            path.setStackTrace(entry.getValue().getStackTrace());
+            path.initCause(found);
+            return path;
+        }
+    }
+    return null;
+}

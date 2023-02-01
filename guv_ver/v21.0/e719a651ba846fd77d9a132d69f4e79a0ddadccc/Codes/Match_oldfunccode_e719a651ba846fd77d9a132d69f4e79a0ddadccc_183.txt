@@ -1,0 +1,8 @@
+@Override
+public void writeBoolean(boolean v) {
+    try {
+        output.writeBoolean(v);
+    } catch (IOException impossible) {
+        throw new AssertionError(impossible);
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "addition": {
+        "33": "  protected void populate(Table<String, Integer, Character> table, Object... data) {\n",
+        "35": "    for (int i = 0; i < data.length; i += 3) {\n",
+        "36": "      table.put((String) data[i], (Integer) data[i + 1], (Character) data[i + 2]);\n",
+        "58": "      } catch (UnsupportedOperationException expected) {\n",
+        "59": "      }\n",
+        "83": "    } catch (NullPointerException expected) {\n",
+        "84": "    }\n",
+        "88": "    } catch (NullPointerException expected) {\n",
+        "89": "    }\n",
+        "97": "      } catch (NullPointerException expected) {\n",
+        "98": "      }\n",
+        "113": "      } catch (NullPointerException expected) {\n",
+        "114": "      }\n",
+        "152": "      } catch (UnsupportedOperationException expected) {\n",
+        "153": "      }\n"
+    },
+    "removed": {
+        "33": "  protected void populate(\n",
+        "34": "      Table<String, Integer, Character> table, Object... data) {\n",
+        "36": "    for (int i = 0; i < data.length; i+= 3) {\n",
+        "37": "      table.put(\n",
+        "38": "          (String) data[i], (Integer) data[i+1], (Character) data[i+2]);\n",
+        "60": "      } catch (UnsupportedOperationException expected) {}\n",
+        "84": "    } catch (NullPointerException expected) {}\n",
+        "88": "    } catch (NullPointerException expected) {}\n",
+        "96": "      } catch (NullPointerException expected) {}\n",
+        "111": "      } catch (NullPointerException expected) {}\n",
+        "149": "      } catch (UnsupportedOperationException expected) {}\n"
+    }
+}

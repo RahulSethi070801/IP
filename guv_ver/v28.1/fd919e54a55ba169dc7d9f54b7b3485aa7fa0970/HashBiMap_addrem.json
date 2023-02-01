@@ -1,0 +1,17 @@
+{
+    "addition": {
+        "61": "  /** Returns a new, empty {@code HashBiMap} with the default initial capacity (16). */\n",
+        "130": "   * Finds and removes {@code entry} from the bucket linked lists in both the key-to-value direction\n",
+        "131": "   * and the value-to-key direction.\n",
+        "552": "  @RetainedWith private transient BiMap<V, K> inverse;\n"
+    },
+    "removed": {
+        "61": "  /**\n",
+        "62": "   * Returns a new, empty {@code HashBiMap} with the default initial capacity (16).\n",
+        "63": "   */\n",
+        "132": "   * Finds and removes {@code entry} from the bucket linked lists in both the\n",
+        "133": "   * key-to-value direction and the value-to-key direction.\n",
+        "554": "  @RetainedWith\n",
+        "555": "  private transient BiMap<V, K> inverse;\n"
+    }
+}

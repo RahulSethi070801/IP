@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "24": " * The subject-generator interface accepted by Collection testers, for testing a Collection at one\n",
+        "25": " * particular {@link CollectionSize}.\n",
+        "27": " * <p>This interface should not be implemented outside this package; {@link\n",
+        "28": " * PerCollectionSizeTestSuiteBuilder} constructs instances of it from a more general {@link\n",
+        "29": " * TestCollectionGenerator}.\n"
+    },
+    "removed": {
+        "24": " * The subject-generator interface accepted by Collection testers, for testing\n",
+        "25": " * a Collection at one particular {@link CollectionSize}.\n",
+        "27": " * <p>This interface should not be implemented outside this package;\n",
+        "28": " * {@link PerCollectionSizeTestSuiteBuilder} constructs instances of it from\n",
+        "29": " * a more general {@link TestCollectionGenerator}.\n"
+    }
+}

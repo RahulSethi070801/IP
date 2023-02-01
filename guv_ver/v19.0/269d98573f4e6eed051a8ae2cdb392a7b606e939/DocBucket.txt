@@ -1,0 +1,5 @@
+com.google.common.reflect.TypeToken
+isAssignableFromAny
+private static boolean isAssignableFromAny(Type[] fromTypes, Type to)
+Type[],Type
+boolean

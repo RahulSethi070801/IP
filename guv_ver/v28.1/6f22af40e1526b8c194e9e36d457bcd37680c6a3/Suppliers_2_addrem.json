@@ -1,0 +1,16 @@
+{
+    "addition": {
+        "21": "import org.checkerframework.checker.nullness.compatqual.NullableDecl;\n",
+        "63": "    public boolean equals(@NullableDecl Object obj) {\n",
+        "259": "  public static <T> Supplier<T> ofInstance(@NullableDecl T instance) {\n",
+        "266": "    SupplierOfInstance(@NullableDecl T instance) {\n",
+        "276": "    public boolean equals(@NullableDecl Object obj) {\n"
+    },
+    "removed": {
+        "21": "import javax.annotation.Nullable;\n",
+        "63": "    public boolean equals(@Nullable Object obj) {\n",
+        "259": "  public static <T> Supplier<T> ofInstance(@Nullable T instance) {\n",
+        "266": "    SupplierOfInstance(@Nullable T instance) {\n",
+        "276": "    public boolean equals(@Nullable Object obj) {\n"
+    }
+}

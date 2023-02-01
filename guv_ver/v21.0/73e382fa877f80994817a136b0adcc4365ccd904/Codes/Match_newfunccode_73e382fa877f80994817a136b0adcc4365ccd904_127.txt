@@ -1,0 +1,9 @@
+@Override
+public void replaceAll(BiFunction<? super V, ? super K, ? extends K> function) {
+    checkNotNull(function);
+    BiEntry<K, V> oldFirst = firstInKeyInsertionOrder;
+    clear();
+    for (BiEntry<K, V> entry = oldFirst; entry != null; entry = entry.nextInKeyInsertionOrder) {
+        put(entry.value, function.apply(entry.value, entry.key));
+    }
+}

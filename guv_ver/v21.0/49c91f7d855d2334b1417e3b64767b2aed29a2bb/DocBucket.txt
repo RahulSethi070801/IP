@@ -1,0 +1,5 @@
+com.google.common.graph.Graphs
+equal
+public static boolean equal(@Nullable Graph<?> graph1, @Nullable Graph<?> graph2)
+Graph,Graph
+boolean

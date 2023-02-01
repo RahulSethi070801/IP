@@ -1,0 +1,3 @@
+void forEachEntry(Consumer<? super Entry<K, V>> action) {
+    entryIterator().forEachRemaining(action);
+}

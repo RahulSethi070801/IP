@@ -1,0 +1,10 @@
+{
+    "addition": {
+        "1121": "              value = getDone(future);\n",
+        "1170": "    checkState(future.isDone(), \"Future was expected to be done: %s\", future);\n"
+    },
+    "removed": {
+        "1121": "              value = getUninterruptibly(future);\n",
+        "1170": "    checkState(future.isDone());\n"
+    }
+}

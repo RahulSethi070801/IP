@@ -1,0 +1,15 @@
+{
+    "addition": {
+        "171": "public void testToImmutableBiMap__CreationTests() throws Exception {\n",
+        "172": "  com.google.common.collect.ImmutableBiMapTest.CreationTests testCase = new com.google.common.collect.ImmutableBiMapTest.CreationTests();\n",
+        "173": "  testCase.testToImmutableBiMap();\n",
+        "174": "}\n",
+        "175": "\n",
+        "176": "public void testToImmutableBiMap_exceptionOnDuplicateKey__CreationTests() throws Exception {\n",
+        "177": "  com.google.common.collect.ImmutableBiMapTest.CreationTests testCase = new com.google.common.collect.ImmutableBiMapTest.CreationTests();\n",
+        "178": "  testCase.testToImmutableBiMap_exceptionOnDuplicateKey();\n",
+        "179": "}\n",
+        "180": "\n"
+    },
+    "removed": {}
+}

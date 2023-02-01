@@ -1,0 +1,12 @@
+{
+    "addition": {
+        "396": "      ImmutableList.Builder<Object> valuesBuilder = ImmutableList.builder();\n",
+        "398": "        valuesBuilder.add(stream.readObject());\n",
+        "400": "      builder.put(key, valuesBuilder.build());\n"
+    },
+    "removed": {
+        "396": "      Object[] array = new Object[valueCount];\n",
+        "398": "        array[j] = stream.readObject();\n",
+        "400": "      builder.put(key, ImmutableList.copyOf(array));\n"
+    }
+}

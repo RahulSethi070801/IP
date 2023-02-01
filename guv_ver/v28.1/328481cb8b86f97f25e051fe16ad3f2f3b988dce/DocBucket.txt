@@ -1,0 +1,20 @@
+com.google.common.collect.Maps
+containsEntryImpl
+static boolean containsEntryImpl(Collection<Entry<K, V>> c, Object o)
+Collection,Object
+boolean
+com.google.common.collect.Maps
+removeEntryImpl
+static boolean removeEntryImpl(Collection<Entry<K, V>> c, Object o)
+Collection,Object
+boolean
+com.google.common.collect.Multimap
+asMap
+Map<K, Collection<V>> asMap()
+empty
+Map
+com.google.common.collect.ImmutableMap
+entryOf
+static Entry<K, V> entryOf(K key, V value)
+K,V
+Entry

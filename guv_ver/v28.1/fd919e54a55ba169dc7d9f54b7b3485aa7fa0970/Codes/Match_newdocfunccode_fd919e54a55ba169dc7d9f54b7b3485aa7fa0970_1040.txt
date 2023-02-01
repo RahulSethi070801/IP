@@ -1,0 +1,5 @@
+@GwtIncompatible
+@Beta
+public static boolean isPrime(int n) {
+    return LongMath.isPrime(n);
+}

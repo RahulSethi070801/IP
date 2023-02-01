@@ -1,0 +1,12 @@
+@Override
+@Beta
+protected boolean standardContains(@NullableDecl Object object) {
+    try {
+        @SuppressWarnings("unchecked")
+        SortedSet<Object> self = (SortedSet<Object>) this;
+        Object ceiling = self.tailSet(object).first();
+        return unsafeCompare(ceiling, object) == 0;
+    } catch (ClassCastException | NoSuchElementException | NullPointerException e) {
+        return false;
+    }
+}

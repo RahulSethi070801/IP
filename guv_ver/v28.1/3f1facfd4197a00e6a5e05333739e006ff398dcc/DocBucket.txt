@@ -1,0 +1,5 @@
+com.google.common.reflect.TypeToken
+canonicalizeTypeArg
+private static Type canonicalizeTypeArg(TypeVariable<?> declaration, Type typeArg)
+TypeVariable,Type
+Type

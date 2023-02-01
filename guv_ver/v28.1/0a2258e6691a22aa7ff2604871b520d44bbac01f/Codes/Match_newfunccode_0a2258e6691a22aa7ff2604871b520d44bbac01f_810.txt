@@ -1,0 +1,5 @@
+@Override
+public boolean remove(@Nullable Object o) {
+    assertTrue(Thread.holdsLock(mutex));
+    return super.remove(o);
+}

@@ -1,0 +1,3 @@
+public static <K, V> LinkedHashMap<K, V> newLinkedHashMapWithExpectedSize(int expectedSize) {
+    return new LinkedHashMap<K, V>(capacity(expectedSize));
+}

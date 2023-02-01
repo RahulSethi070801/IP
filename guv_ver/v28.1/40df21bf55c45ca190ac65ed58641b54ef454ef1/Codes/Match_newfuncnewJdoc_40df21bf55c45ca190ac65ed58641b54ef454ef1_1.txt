@@ -1,0 +1,23 @@
+
+   * Indicates whether this domain name represents a <i>registry suffix</i>, as defined by a subset
+   * of the Mozilla Foundation's <a href="http://publicsuffix.org/">Public Suffix List</a> (PSL). A
+   * registry suffix is one under which Internet users can directly register names via a domain name
+   * registrar, and have such registrations lawfully protected by internet-governing bodies such as
+   * ICANN. Examples of registry suffixes include {@code com}, {@code co.uk}, and {@code
+   * pvt.k12.wy.us}. Examples of domain names that are <i>not</i> registry suffixes include {@code
+   * google.com} and {@code foo.co.uk}.
+   *
+   * <p>Registry suffixes are a proper subset of {@linkplain #isPublicSuffix() public suffixes}. The
+   * list of public suffixes additionally contains privately owned domain names under which Internet
+   * users can register subdomains. An example of a public suffix that is not a registry suffix is
+   * {@code blogspot.com}. Note that it is true that all public suffixes <i>have</i> registry
+   * suffixes, since domain name registries collectively control all internet domain names.
+   *
+   * <p>For considerations on whether the public suffix or registry suffix designation is more
+   * suitable for your application, see <a
+   * href="https://github.com/google/guava/wiki/InternetDomainNameExplained">this article</a>.
+   *
+   * @return {@code true} if this domain name appears exactly on the public suffix list as part of
+   *     the registry suffix section (labelled "ICANN").
+   * @since NEXT
+   

@@ -1,0 +1,4 @@
+@SuppressWarnings("unchecked")
+public static <N> ImmutableBasicGraph<N> copyOf(BasicGraph<N> graph) {
+    return (graph instanceof ImmutableBasicGraph) ? (ImmutableBasicGraph<N>) graph : new ImmutableBasicGraph<N>(graph);
+}

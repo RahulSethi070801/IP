@@ -1,0 +1,4 @@
+ComparisonChain_2
+Insertions: [60, 71, 73, 74, 78, 79, 135, 140, 141, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 203, 204]
+Deletions: [70, 72, 73, 77, 78, 134, 139, 140, 190, 191]
+guava/src/com/google/common/collect/ComparisonChain.java

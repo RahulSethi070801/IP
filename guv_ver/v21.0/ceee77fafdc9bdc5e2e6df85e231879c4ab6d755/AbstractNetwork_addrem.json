@@ -1,0 +1,21 @@
+{
+    "addition": {
+        "19": "import static com.google.common.base.Preconditions.checkNotNull;\n",
+        "45": "  public ValueGraph<N, Set<E>> asGraph() {\n",
+        "46": "    return new AbstractValueGraph<N, Set<E>>() {\n",
+        "118": "\n",
+        "119": "      @Override\n",
+        "120": "      public Set<E> edgeValue(Object nodeA, Object nodeB) {\n",
+        "121": "        return checkNotNull(edgesConnecting(nodeA, nodeB));\n",
+        "122": "      }\n",
+        "123": "\n",
+        "124": "      @Override\n",
+        "125": "      public Set<E> edgeValueOrDefault(Object nodeA, Object nodeB, Set<E> defaultValue) {\n",
+        "126": "        return checkNotNull(edgesConnecting(nodeA, nodeB));\n",
+        "127": "      }\n"
+    },
+    "removed": {
+        "44": "  public Graph<N> asGraph() {\n",
+        "45": "    return new AbstractGraph<N>() {\n"
+    }
+}

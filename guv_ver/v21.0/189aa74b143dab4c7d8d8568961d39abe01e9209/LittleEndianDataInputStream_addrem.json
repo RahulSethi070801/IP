@@ -1,0 +1,18 @@
+{
+    "addition": {
+        "22": "import com.google.errorprone.annotations.CanIgnoreReturnValue;\n",
+        "58": "  @CanIgnoreReturnValue // to skip a line\n",
+        "79": "  @CanIgnoreReturnValue // to skip a byte\n",
+        "98": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "115": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "134": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "157": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "171": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "177": "  @CanIgnoreReturnValue // to skip a field\n",
+        "191": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "205": "  @CanIgnoreReturnValue // to skip some bytes\n",
+        "211": "  @CanIgnoreReturnValue // to skip a byte\n",
+        "217": "  @CanIgnoreReturnValue // to skip a byte\n"
+    },
+    "removed": {}
+}

@@ -1,0 +1,85 @@
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+putByte
+public Hasher putByte(byte b)
+byte
+Hasher
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+Murmur3_32Hasher
+Murmur3_32Hasher(int seed)
+int
+constructor
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+putBytes
+public Hasher putBytes(byte[] bytes, int off, int len)
+byte[],int,int
+Hasher
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+hash
+public HashCode hash()
+empty
+HashCode
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+processRemaining
+protected void processRemaining(ByteBuffer bb)
+ByteBuffer
+void
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+makeHash
+public HashCode makeHash()
+empty
+HashCode
+com.google.common.hash.Murmur3_32HashFunction
+charToTwoUtf8Bytes
+private static long charToTwoUtf8Bytes(char c)
+char
+long
+com.google.common.hash.Murmur3_32HashFunction
+hashString
+public HashCode hashString(CharSequence input, Charset charset)
+CharSequence,Charset
+HashCode
+com.google.common.hash.Murmur3_32HashFunction
+codePointToFourUtf8Bytes
+private static long codePointToFourUtf8Bytes(int codePoint)
+int
+long
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+putInt
+public Hasher putInt(int i)
+int
+Hasher
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+process
+protected void process(ByteBuffer bb)
+ByteBuffer
+void
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+putString
+public Hasher putString(CharSequence input, Charset charset)
+CharSequence,Charset
+Hasher
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+update
+private void update(int nBytes, long update)
+int,long
+void
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+putBytes
+public Hasher putBytes(ByteBuffer buffer)
+ByteBuffer
+Hasher
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+putChar
+public Hasher putChar(char c)
+char
+Hasher
+com.google.common.hash.Murmur3_32HashFunction
+charToThreeUtf8Bytes
+private static long charToThreeUtf8Bytes(char c)
+char
+long
+com.google.common.hash.Murmur3_32HashFunction$Murmur3_32Hasher
+putLong
+public Hasher putLong(long l)
+long
+Hasher

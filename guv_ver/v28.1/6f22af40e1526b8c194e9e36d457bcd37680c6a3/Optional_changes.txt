@@ -1,0 +1,4 @@
+Optional
+Insertions: [24, 113, 207, 254]
+Deletions: [24, 113, 207, 254]
+android/guava/src/com/google/common/base/Optional.java

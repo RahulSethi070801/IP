@@ -1,0 +1,4 @@
+AbstractFuture_2
+Insertions: [36, 37]
+Deletions: [36, 37, 38, 39]
+guava-gwt/src-super/com/google/common/util/concurrent/super/com/google/common/util/concurrent/AbstractFuture.java

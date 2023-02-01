@@ -1,0 +1,4 @@
+CollectionContainsAllTester_2
+Insertions: [32, 33, 34]
+Deletions: [32, 33, 34]
+guava-testlib/src/com/google/common/collect/testing/testers/CollectionContainsAllTester.java

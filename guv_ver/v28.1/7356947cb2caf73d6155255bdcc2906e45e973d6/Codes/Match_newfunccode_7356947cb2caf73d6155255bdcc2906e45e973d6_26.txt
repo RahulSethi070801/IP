@@ -1,0 +1,5 @@
+@Deprecated
+@CanIgnoreReturnValue
+public static <T> T readLines(File file, Charset charset, LineProcessor<T> callback) throws IOException {
+    return asCharSource(file, charset).readLines(callback);
+}

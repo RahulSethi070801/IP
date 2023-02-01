@@ -1,0 +1,14 @@
+
+   * Divides an iterator into unmodifiable sublists of the given size, padding the final iterator
+   * with null values if necessary. For example, partitioning an iterator containing {@code [a, b,
+   * c, d, e]} with a partition size of 3 yields {@code [[a, b, c], [d, e, null]]} -- an outer
+   * iterator containing two inner lists of three elements each, all in the original order.
+   *
+   * <p>The returned lists implement {@link java.util.RandomAccess}.
+   *
+   * @param iterator the iterator to return a partitioned view of
+   * @param size the desired size of each partition
+   * @return an iterator of immutable lists containing the elements of {@code iterator} divided into
+   *     partitions (the final iterable may have trailing null elements)
+   * @throws IllegalArgumentException if {@code size} is nonpositive
+   

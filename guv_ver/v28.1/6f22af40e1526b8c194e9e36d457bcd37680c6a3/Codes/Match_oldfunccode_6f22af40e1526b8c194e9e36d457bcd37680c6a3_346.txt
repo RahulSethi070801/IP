@@ -1,0 +1,4 @@
+@Beta
+protected boolean standardEquals(@Nullable Object object) {
+    return Lists.equalsImpl(this, object);
+}

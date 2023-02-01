@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "53": "      \"Cannot call source()/target() on the endpoints of an undirected edge. Consider calling \"\n",
+        "54": "          + \"otherNode() to get a single node or using the endpoints' iterator to get both nodes.\";\n"
+    },
+    "removed": {
+        "53": "      \"Cannot call source()/target() on undirected endpoints. Consider calling otherNode() to get \"\n",
+        "54": "          + \"a single node or using the endpoints' iterator to get both nodes.\";\n",
+        "55": "  static final String ENDPOINTS_GRAPH_DIRECTEDNESS =\n",
+        "56": "      \"The endpoints' directedness (isDirected = %s) does not match the graph's directedness \"\n",
+        "57": "          + \"(isDirected = %s). A graph cannot have both directed and undirected edges.\";\n"
+    }
+}

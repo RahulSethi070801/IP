@@ -1,0 +1,4 @@
+@Beta
+public static <E> SortedMultiset<E> unmodifiableSortedMultiset(SortedMultiset<E> sortedMultiset) {
+    return new UnmodifiableSortedMultiset<E>(checkNotNull(sortedMultiset));
+}

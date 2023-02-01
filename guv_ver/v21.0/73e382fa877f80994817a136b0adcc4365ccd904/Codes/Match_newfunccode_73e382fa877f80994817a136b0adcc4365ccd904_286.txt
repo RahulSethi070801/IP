@@ -1,0 +1,5 @@
+@Deprecated
+@Override
+public final boolean replace(K key, V oldValue, V newValue) {
+    throw new UnsupportedOperationException();
+}

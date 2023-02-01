@@ -1,0 +1,4 @@
+
+   * Converts an expiration duration/unit pair into a single Long for hashing and equality.
+   * Uses nanos to match CacheBuilder implementation.
+   

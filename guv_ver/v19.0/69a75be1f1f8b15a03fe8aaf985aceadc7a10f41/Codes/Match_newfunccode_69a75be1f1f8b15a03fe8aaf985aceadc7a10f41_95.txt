@@ -1,0 +1,9 @@
+@Override
+final void collectOneValue(boolean allMustSucceed, int index, @Nullable V returnValue) {
+    List<Optional<V>> localValues = values;
+    if (localValues != null) {
+        localValues.set(index, Optional.fromNullable(returnValue));
+    } else {
+        checkState(allMustSucceed || isCancelled(), "Future was done before all dependencies completed");
+    }
+}

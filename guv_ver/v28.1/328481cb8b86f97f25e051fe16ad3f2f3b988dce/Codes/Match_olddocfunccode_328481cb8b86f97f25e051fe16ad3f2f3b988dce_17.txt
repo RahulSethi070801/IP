@@ -1,0 +1,4 @@
+static <K, V> Entry<K, V> entryOf(K key, V value) {
+    checkEntryNotNull(key, value);
+    return new AbstractMap.SimpleImmutableEntry<>(key, value);
+}

@@ -1,0 +1,13 @@
+@CanIgnoreReturnValue
+@Deprecated
+@Override
+MapMaker maximumSize(int size) {
+    checkState(this.maximumSize == UNSET_INT, "maximum size was already set to %s", this.maximumSize);
+    checkArgument(size >= 0, "maximum size must not be negative");
+    this.maximumSize = size;
+    this.useCustomMap = true;
+    if (maximumSize == 0) {
+        this.nullRemovalCause = RemovalCause.SIZE;
+    }
+    return this;
+}

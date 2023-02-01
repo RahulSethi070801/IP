@@ -1,0 +1,4 @@
+Future
+Insertions: [28, 30, 32, 38, 40, 41]
+Deletions: [28, 30, 32, 38, 40, 41]
+guava-gwt/src-super/java/util/super/java/util/concurrent/Future.java

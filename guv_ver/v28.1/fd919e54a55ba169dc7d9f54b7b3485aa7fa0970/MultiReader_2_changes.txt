@@ -1,0 +1,4 @@
+MultiReader_2
+Insertions: [40]
+Deletions: [40, 41, 42]
+guava/src/com/google/common/io/MultiReader.java

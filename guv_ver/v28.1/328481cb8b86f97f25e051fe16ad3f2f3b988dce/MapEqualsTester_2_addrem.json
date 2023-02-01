@@ -1,0 +1,23 @@
+{
+    "addition": {
+        "30": "import java.util.Map.Entry;\n",
+        "57": "    Collection<Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "69": "    Collection<Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "81": "    Collection<Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "93": "    Collection<Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "104": "    Collection<Entry<K, V>> fewerEntries = getSampleEntries(getNumEntries() - 1);\n",
+        "110": "    Collection<Entry<K, V>> moreEntries = getSampleEntries(getNumEntries() + 1);\n",
+        "122": "      Collection<? extends Entry<? extends K, ? extends V>> entries) {\n",
+        "124": "    for (Entry<? extends K, ? extends V> entry : entries) {\n"
+    },
+    "removed": {
+        "56": "    Collection<Map.Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "68": "    Collection<Map.Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "80": "    Collection<Map.Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "92": "    Collection<Map.Entry<K, V>> entries = getSampleEntries(getNumEntries() - 1);\n",
+        "103": "    Collection<Map.Entry<K, V>> fewerEntries = getSampleEntries(getNumEntries() - 1);\n",
+        "109": "    Collection<Map.Entry<K, V>> moreEntries = getSampleEntries(getNumEntries() + 1);\n",
+        "121": "      Collection<? extends Map.Entry<? extends K, ? extends V>> entries) {\n",
+        "123": "    for (Map.Entry<? extends K, ? extends V> entry : entries) {\n"
+    }
+}

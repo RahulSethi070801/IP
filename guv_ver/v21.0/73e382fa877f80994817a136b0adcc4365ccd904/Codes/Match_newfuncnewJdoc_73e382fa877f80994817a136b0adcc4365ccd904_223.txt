@@ -1,0 +1,6 @@
+
+   * Guaranteed to throw an exception and leave the list unmodified.
+   *
+   * @throws UnsupportedOperationException always
+   * @deprecated Unsupported operation.
+   

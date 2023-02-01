@@ -1,0 +1,4 @@
+TestStreamSupplier
+Insertions: [28, 31]
+Deletions: [28, 29, 30, 33, 34, 35]
+android/guava-tests/test/com/google/common/io/TestStreamSupplier.java

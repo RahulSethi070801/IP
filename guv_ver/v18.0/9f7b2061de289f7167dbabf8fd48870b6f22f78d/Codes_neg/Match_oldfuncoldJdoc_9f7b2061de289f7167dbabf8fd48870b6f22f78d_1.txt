@@ -1,0 +1,7 @@
+
+   * Returns a {@code URL} pointing to {@code resourceName} if the resource is
+   * found in the class path. {@code Resources.class.getClassLoader()} is used
+   * to locate the resource.
+   * 
+   * @throws IllegalArgumentException if resource is not found
+   
